@@ -1,0 +1,102 @@
+---
+config:
+  layout: elk
+  flowchart:
+    wrappingWidth: 170
+    nodeSpacing: 25
+    rankSpacing: 45
+---
+flowchart TD
+
+  subgraph L0["Level 0 · Question"]
+    Q["<b>If U.S.-China trade tensions escalate,<br/>will China keep the yuan stable or let it weaken?</b><br/><i>Brad Setser, CFR, May 2019</i>"]
+  end
+
+  subgraph L1["Level 1 · Priors & assumptions"]
+    P1["<b>China controls the yuan</b><br/>Reserves, capital controls, and policy tools give Beijing substantial exchange-rate control"]
+    P2["<b>Depreciation offsets tariffs</b><br/>A weaker yuan lets exporters lower dollar prices while preserving yuan revenue"]
+    P3["<b>Stability has value</b><br/>A stable currency supports confidence and reduces financial risk"]
+  end
+
+  subgraph L2["Level 2 · Evidence"]
+    D1["<b>Full tariffs would be substantial</b><br/>25% on nearly $550B of imports could raise roughly $100–140B"]
+    D2["<b>Large potential China growth hit</b><br/>UBS: full tariffs plus retaliation could cut growth by about 1.5pp"]
+    D3["<b>Recent yuan stability required little intervention</b><br/>No sustained pressure in either direction"]
+    D4["<b>China retains external firepower</b><br/>Large reserves, state-bank foreign assets, and portfolio inflows"]
+    D5["<b>Balance of payments broadly stable</b><br/>Trade surplus covers major outflows without sustained reserve pressure"]
+    D6["<b>Manufacturing surplus ~ $1T</b><br/>Further export-oriented adjustment would matter globally"]
+  end
+
+  subgraph L3["Level 3 · Mechanisms"]
+    M1["<b>Tariffs weaken Chinese export demand</b><br/>Higher U.S. import costs reduce competitiveness and growth"]
+    M2["<b>Depreciation cushions exporters</b><br/>A weaker yuan offsets part of the tariff in dollar terms"]
+    M3["<b>Stability protects domestic confidence</b><br/>Avoiding a large currency move limits financial instability"]
+    M4["<b>Yuan weakness spreads outward</b><br/>Other Asian currencies weaken and trade pressure shifts globally"]
+  end
+
+  subgraph L4["Level 4 · Intermediate claims"]
+    C1["<b>China has a genuine policy choice</b><br/>It is not mechanically forced into depreciation"]
+    C2["<b>Depreciation can absorb part of the tariff shock</b><br/>Exporters can preserve competitiveness"]
+    C3["<b>But depreciation carries domestic and strategic costs</b><br/>It risks instability and additional U.S. retaliation"]
+    C4["<b>A weaker yuan redistributes trade pain</b><br/>Export-dependent economies outside China also come under pressure"]
+  end
+
+  subgraph L5["Level 5 · Conclusion"]
+    K["<b>Main claim: China's currency response is a strategic choice</b><br/>Beijing can defend stability or reset the yuan lower;<br/>its decision will shape the global impact of the trade war"]
+  end
+
+  subgraph L6["Level 6 · Dialectic"]
+    X["<b>Case for stability</b><br/>China can support growth fiscally without risking a destabilizing currency move"]
+    QF["<b>Implementation caveat</b><br/>Controlled depreciations are difficult because markets may front-run them"]
+    R1["<b>Retaliation risk</b><br/>A weaker yuan could trigger broader or higher U.S. tariffs"]
+    R2["<b>External-balance caveat</b><br/>Tariffs and oil prices could push China toward current-account deficit"]
+  end
+
+  D1 --> M1
+  D2 --> M1
+
+  P2 --> M2
+  M1 --> M2
+
+  P3 --> M3
+  D3 --> M3
+  D4 --> M3
+  D5 --> M3
+
+  P1 --> C1
+  M2 --> C2
+  M3 --> C3
+  D6 --> M4
+  M2 --> M4
+  M4 --> C4
+
+  C1 --> K
+  C2 --> K
+  C3 --> K
+  C4 --> K
+
+  C1 -.->|supports alternative| X
+  C2 -.->|limited by| QF
+  C3 -.->|strategic risk| R1
+  C1 -.->|qualified by| R2
+
+  Q ~~~ P1 & P2 & P3
+  P1 ~~~ D3 & D4 & D5
+  P2 ~~~ D1 & D2
+  P3 ~~~ D6
+
+  classDef prior fill:#EEEDFE,stroke:#534AB7,color:#26215C
+  classDef unstated fill:#EEEDFE,stroke:#534AB7,color:#26215C,stroke-dasharray:5 4
+  classDef data fill:#E6F1FB,stroke:#185FA5,color:#042C53
+  classDef mech fill:#E1F5EE,stroke:#0F6E56,color:#04342C
+  classDef main fill:#E1F5EE,stroke:#0F6E56,color:#04342C,stroke-width:3px
+  classDef dia fill:#F1EFE8,stroke:#5F5E5A,color:#2C2C2A
+  classDef question fill:#FFFFFF,stroke:#2C2C2A,color:#2C2C2A
+
+  class P1,P2,P3 prior
+  class D1,D2,D3,D4,D5,D6 data
+  class M1,M2,M3,M4,C1,C2,C3,C4 mech
+  class K main
+  class X,QF,R1,R2 dia
+  class Q question
+  linkStyle 18,19,20,21 stroke:#A32D2D,color:#A32D2D

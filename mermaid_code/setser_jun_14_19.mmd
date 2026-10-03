@@ -1,0 +1,103 @@
+---
+config:
+  layout: elk
+  flowchart:
+    wrappingWidth: 170
+    nodeSpacing: 25
+    rankSpacing: 45
+---
+flowchart TD
+
+  subgraph L0["Level 0 · Question"]
+    Q["<b>Why did China's tariffs devastate some U.S. exports<br/>but have limited effects on others?</b><br/><i>Brad Setser, CFR, June 2019</i>"]
+  end
+
+  subgraph L1["Level 1 · Priors & assumptions"]
+    P1["<b>Tariff effects are sector-specific</b><br/>Substitution and market structure determine the aggregate impact"]
+    P2["<b>Bilateral trade ≠ total trade</b><br/>Lost sales to China may be redirected elsewhere"]
+    P3["<b>Retaliation requires viable substitutes</b><br/>China cannot easily stop buying essential imports"]
+  end
+
+  subgraph L2["Level 2 · Evidence"]
+    D1["<b>Commodity exports to China down >60%</b><br/>Much larger decline than manufacturing exports"]
+    D2["<b>Soy exports effectively collapsed</b><br/>Farmers could not replace lost Chinese demand elsewhere"]
+    D3["<b>Oil exports to China collapsed</b><br/>But total U.S. oil exports were largely unaffected"]
+    D4["<b>Auto exports responded to the tariff</b><br/>Exports fell, then rebounded when China suspended it"]
+    D5["<b>Manufacturing decline surprisingly modest</b><br/>Aggregate exports show little obvious tariff break"]
+    D6["<b>China lacks substitutes in some sectors</b><br/>Aircraft and export-related inputs are poor retaliation targets"]
+  end
+
+  subgraph L3["Level 3 · Mechanisms"]
+    M1["<b>Few alternative buyers magnify the shock</b><br/>Lost Chinese demand becomes lost total exports"]
+    M2["<b>Alternative buyers divert trade</b><br/>Sales shift markets without reducing total exports"]
+    M3["<b>Lack of substitutes weakens retaliation</b><br/>Chinese firms continue buying needed U.S. goods"]
+    M4["<b>Other demand can absorb export losses</b><br/>Domestic sales or localization cushion production"]
+  end
+
+  subgraph L4["Level 4 · Intermediate claims"]
+    C1["<b>Soy retaliation was unusually effective</b><br/>Bilateral losses became aggregate export losses"]
+    C2["<b>Oil retaliation mostly redirected trade</b><br/>Bilateral trade fell without much aggregate effect"]
+    C3["<b>Manufacturing retaliation was weaker</b><br/>China had limited leverage in several key sectors"]
+    C4["<b>Identical tariffs need not have identical effects</b><br/>Sector structure changes the transmission"]
+  end
+
+  subgraph L5["Level 5 · Conclusion"]
+    K["<b>Main claim: don't equate bilateral trade with aggregate impact</b><br/>The economic effect of tariffs depends heavily<br/>on substitution possibilities and sector structure"]
+  end
+
+  subgraph L6["Level 6 · Dialectic"]
+    QF1["<b>Coverage caveat</b><br/>China had not tariffed all major U.S. manufacturing exports"]
+    QF2["<b>Timing caveat</b><br/>China may have preserved targets for future retaliation"]
+    R1["<b>Auto counterfactual</b><br/>SUV demand and production localization also affected output"]
+  end
+
+  P1 --> M1
+  P1 --> M2
+  P2 --> M2
+  P3 --> M3
+
+  D2 --> M1
+  M1 --> C1
+
+  D3 --> M2
+  M2 --> C2
+
+  D5 --> M3
+  D6 --> M3
+  M3 --> C3
+
+  D4 --> M4
+  M4 --> C3
+
+  D1 --> C4
+  C1 --> C4
+  C2 --> C4
+  C3 --> C4
+
+  C4 --> K
+
+  C3 -.->|qualified by| QF1
+  C3 -.->|possible explanation| QF2
+  M4 -.->|other explanation| R1
+
+
+  Q ~~~ P1 & P2 & P3
+  P1 ~~~ D1 & D2
+  P2 ~~~ D3 & D4
+  P3 ~~~ D5 & D6
+
+  classDef prior fill:#EEEDFE,stroke:#534AB7,color:#26215C
+  classDef unstated fill:#EEEDFE,stroke:#534AB7,color:#26215C,stroke-dasharray:5 4
+  classDef data fill:#E6F1FB,stroke:#185FA5,color:#042C53
+  classDef mech fill:#E1F5EE,stroke:#0F6E56,color:#04342C
+  classDef main fill:#E1F5EE,stroke:#0F6E56,color:#04342C,stroke-width:3px
+  classDef dia fill:#F1EFE8,stroke:#5F5E5A,color:#2C2C2A
+  classDef question fill:#FFFFFF,stroke:#2C2C2A,color:#2C2C2A
+
+  class P1,P2,P3 prior
+  class D1,D2,D3,D4,D5,D6 data
+  class M1,M2,M3,M4,C1,C2,C3,C4 mech
+  class K main
+  class QF1,QF2,R1 dia
+  class Q question
+  linkStyle 18,19,20 stroke:#A32D2D,color:#A32D2D

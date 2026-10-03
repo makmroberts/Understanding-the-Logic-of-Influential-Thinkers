@@ -1,0 +1,96 @@
+---
+config:
+  layout: elk
+  flowchart:
+    wrappingWidth: 170
+    nodeSpacing: 25
+    rankSpacing: 45
+---
+flowchart TD
+  subgraph L0["Level 0 · Question"]
+    Q["<b>Will Trump's fiscal expansion undermine<br/>his goal of reducing the U.S. trade deficit?</b><br/><i>Brad Setser, CFR, Feb 2018</i>"]
+  end
+
+  subgraph L1["Level 1 · Priors & assumptions"]
+    P1["<b>Fiscal stimulus raises domestic demand</b><br/>Tax cuts and spending increases boost U.S. demand"]
+    P2["<b>Imports respond strongly to U.S. demand</b><br/>Fed model: import income elasticity around 2"]
+    P3["<b>Exchange-rate effects arrive with lags</b><br/>Dollar moves take years to fully affect trade"]
+  end
+
+  subgraph L2["Level 2 · Evidence"]
+    D1["<b>Fiscal deficit +1.7–2% of GDP</b><br/>Tax cuts and spending increases provide a large fiscal impulse"]
+    D2["<b>IMF external-balance coefficient</b><br/>Simple model implies current-account deficit rises about 1% of GDP"]
+    D3["<b>Q4 2017 demand surge leaked into imports</b><br/>Over half of the increase in domestic demand was spent abroad"]
+    D4["<b>U.S. external debt ≈ 50% of GDP</b><br/>Higher rates mechanically increase payments to foreign creditors"]
+    D5["<b>Foreign currencies strengthening</b><br/>Euro and several Asian currencies were moving against the dollar"]
+    D6["<b>Setser's Fed-model calculation</b><br/>Fiscal impulse adds roughly 50bp of GDP in imports over two years"]
+  end
+
+  subgraph L3["Level 3 · Mechanisms"]
+    M1["<b>Stimulus raises imports</b><br/>Stronger U.S. demand spills into foreign production"]
+    M2["<b>Higher rates raise external interest costs</b><br/>More income flows abroad on the U.S. debt stock"]
+    M3["<b>Dollar depreciation improves trade slowly</b><br/>Exports rise and imports soften only after substantial lags"]
+  end
+
+  subgraph L4["Level 4 · Intermediate claims"]
+    C1["<b>Fiscal expansion widens the real trade deficit</b><br/>Import growth accelerates relative to the baseline"]
+    C2["<b>Income channel worsens the current account</b><br/>Higher interest payments add to the external deficit"]
+    C3["<b>Favorable adjustment forces arrive too slowly</b><br/>Foreign growth and a softer dollar cannot offset the near-term impulse"]
+  end
+
+  subgraph L5["Level 5 · Conclusion"]
+    K["<b>Main claim: the tax bill sets back Trump's trade goals</b><br/>U.S. fiscal stimulus boosts imports just as conditions<br/>were emerging for the trade deficit to improve"]
+  end
+
+  subgraph L6["Level 6 · Dialectic"]
+    X["<b>Smaller-spillover argument</b><br/>The U.S. is relatively closed and much of the tax cut may be saved"]
+    QF["<b>Model uncertainty</b><br/>Historical income elasticities and trade relationships may not hold perfectly"]
+    R1["<b>Offsetting adjustment forces</b><br/>Dollar depreciation and stronger foreign demand can improve U.S. trade"]
+  end
+
+  P1 --> M1
+  P2 --> M1
+  D1 --> M1
+  D3 --> M1
+  D6 --> M1
+  M1 --> C1
+
+  D4 --> M2
+  M2 --> C2
+
+  P3 --> M3
+  D5 --> M3
+  M3 --> C3
+
+  D2 --> C1
+
+  C1 --> K
+  C2 --> K
+  C3 --> K
+
+  C1 -.->|qualified by| X
+  C1 -.->|model caveat| QF
+  C3 -.->|offsetting force| R1
+
+  Q ~~~ P1 & P2 & P3
+  P1 ~~~ D1 & D2
+  P2 ~~~ D3 & D6
+  P3 ~~~ D4 & D5
+  K ~~~ X
+
+  classDef prior fill:#EEEDFE,stroke:#534AB7,color:#26215C
+  classDef unstated fill:#EEEDFE,stroke:#534AB7,color:#26215C,stroke-dasharray:5 4
+  classDef data fill:#E6F1FB,stroke:#185FA5,color:#042C53
+  classDef mech fill:#E1F5EE,stroke:#0F6E56,color:#04342C
+  classDef main fill:#E1F5EE,stroke:#0F6E56,color:#04342C,stroke-width:3px
+  classDef dia fill:#F1EFE8,stroke:#5F5E5A,color:#2C2C2A
+  classDef question fill:#FFFFFF,stroke:#2C2C2A,color:#2C2C2A
+
+  class P1,P2,P3 prior
+  class D1,D2,D3,D4,D5,D6 data
+  class M1,M2,M3,C1,C2,C3 mech
+  class K main
+  class X,QF,R1 dia
+  class Q question
+
+  linkStyle 15,16,17 stroke:#A32D2D,color:#A32D2D

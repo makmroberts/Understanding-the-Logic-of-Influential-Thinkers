@@ -1,0 +1,91 @@
+---
+config:
+  layout: elk
+  flowchart:
+    wrappingWidth: 170
+    nodeSpacing: 25
+    rankSpacing: 45
+---
+flowchart TD
+  subgraph L0["Level 0 · Question"]
+    Q["<b>Do tariffs change the trade balance,<br/>and who absorbed the Q4 US demand drop?</b><br/><i>Brad Setser, CFR, Feb 2020</i>"]
+  end
+
+  subgraph L1["Level 1 · Priors & assumptions"]
+    P2["<b>Tariff revenue is not offset</b><br/>Trade scholars assume it is; Setser says not necessarily"]
+    P3["<b>Few substitutes for China goods</b><br/>So the tariffs work as a clear tax"]
+    P1["<b>Trade balance = saving − investment</b><br/><i>Never stated, but the argument depends on it</i>"]
+    P4["<b>Tariff uncertainty weighs on firms</b><br/>Uncertainty can reduce investment"]
+  end
+
+  subgraph L2["Level 2 · Evidence"]
+    D1["<b>Tariff revenue ~$30B → ~$80B a year</b><br/>~15% average tariff on $500B+ of China imports"]
+    D2["<b>Fajgelbaum et al.</b><br/>Govt captures 35bp of the 60bp GDP consumers lose"]
+    D3["<b>Bussière et al. + chart</b><br/>Investment slowdowns lead to import slowdowns"]
+    D4["<b>Q4 imports weak</b><br/>Consumer goods, autos, capital goods all soft"]
+    D5["<b>Vietnam exports to US +$17.5B</b><br/>Far short of the fall in China imports"]
+  end
+
+  subgraph L3["Level 3 · Mechanisms"]
+    M1["<b>Tariffs act as a consumption tax</b><br/>Backdoor fiscal tightening slows consumption"]
+    M2["<b>Uncertainty cuts capex</b><br/>Especially new business equipment"]
+    M3["<b>Lower capex → lower imports</b><br/>Weaker investment means fewer imported goods"]
+  end
+
+  subgraph L4["Level 4 · Intermediate claims"]
+    C1["<b>Tariffs cut the deficit by slowing growth</b><br/>Not the argument Trump makes for them"]
+    C2["<b>Diversion no longer offsets China</b><br/>Imports from other countries stopped making up the gap"]
+  end
+
+  subgraph L5["Level 5 · Conclusion"]
+    K["<b>Main claim: the US demand shock was exported</b><br/>Setser: #quot;the weakening of U.S. demand was felt globally,<br/>rather than in the United States#quot;<br/>US GDP held because services demand stayed strong"]
+  end
+
+  subgraph L6["Level 6 · Dialectic"]
+    X["<b>Consensus: tariffs move level, not balance</b><br/>Setser admits he glossed over this too"]
+    QF["<b>COVID confound</b><br/>Blip or persistent trend? Too early to tell"]
+    R1["<b>Rival causes of weak capex</b><br/>Strong dollar, 2018 Fed hikes, shale cutbacks"]
+  end
+
+  P2 --> M1
+  P3 --> M1
+  D1 --> M1
+  D2 --> M1
+  P4 --> M2
+  M2 --> M3
+  D3 --> M3
+  M1 --> C1
+  M3 --> C1
+  P1 -->|licenses| C1
+  D4 --> C2
+  D5 --> C2
+  C1 --> K
+  C2 --> K
+
+  K -.->|qualifies| X
+  K -. limited by .- QF
+  M2 -. undercut by .- R1
+
+  Q ~~~ P2 & P3 & P1 & P4
+  P2 ~~~ D1
+  P3 ~~~ D2
+  P4 ~~~ D3
+  P1 ~~~ D4 & D5
+  D4 ~~~ M3
+  D5 ~~~ M3
+
+  classDef prior fill:#EEEDFE,stroke:#534AB7,color:#26215C
+  classDef unstated fill:#EEEDFE,stroke:#534AB7,color:#26215C,stroke-dasharray:5 4
+  classDef data fill:#E6F1FB,stroke:#185FA5,color:#042C53
+  classDef mech fill:#E1F5EE,stroke:#0F6E56,color:#04342C
+  classDef main fill:#E1F5EE,stroke:#0F6E56,color:#04342C,stroke-width:3px
+  classDef dia fill:#F1EFE8,stroke:#5F5E5A,color:#2C2C2A
+  classDef question fill:#FFFFFF,stroke:#2C2C2A,color:#2C2C2A
+  class P2,P3,P4 prior
+  class P1 unstated
+  class D1,D2,D3,D4,D5 data
+  class M1,M2,M3,C1,C2 mech
+  class K main
+  class X,QF,R1 dia
+  class Q question
+  linkStyle 14,15,16 stroke:#A32D2D,color:#A32D2D
