@@ -1,0 +1,128 @@
+---
+config:
+  layout: elk
+  theme: dark
+  themeVariables:
+    lineColor: "#D3D1C7"
+    clusterBkg: "#262624"
+    clusterBorder: "#5F5E5A"
+    titleColor: "#F1EFE8"
+    edgeLabelBackground: "#2C2C2A"
+  flowchart:
+    wrappingWidth: 175
+    nodeSpacing: 25
+    rankSpacing: 50
+---
+flowchart TD
+
+  subgraph L0["Level 0 · Question &amp; framing"]
+    POS["<b>Position map</b> <i>· optional</i><br/>Who claimed what, before the author weighs in"]
+    ANOM["<b>Anomaly</b> <i>· optional</i><br/>A prediction that failed, used as the starting point"]
+    Q["<b>Question</b><br/>What problem is the author answering?"]
+  end
+
+  subgraph L1["Level 1 · Priors &amp; assumptions"]
+    P1["<b>Stated assumption</b><br/>What they openly take as given"]
+    P2["<b>Hidden assumption</b><br/><i>Never stated, but the argument depends on it</i>"]
+    P3["<b>Revised prior</b> <i>· optional</i><br/>A belief they state, then admit was wrong"]
+    ID["<b>Accounting identity</b> <i>· optional</i><br/>A balance that must hold"]
+    SC["<b>Source credibility</b> <i>· optional</i><br/>A prior about who produced the data"]
+  end
+
+  subgraph L1B["Level 1b · Frame &amp; scope <i>· optional stage</i>"]
+    SCP["<b>Scope choice</b> <i>· optional</i><br/>Definitional decisions that drive the verdict"]
+    BM["<b>Benchmark</b> <i>· optional</i><br/>An external target the evidence is measured against"]
+  end
+
+  subgraph L2["Level 2 · Evidence"]
+    E1["<b>Data</b><br/>Numbers and charts they cite"]
+    E2["<b>Studies &amp; sources</b><br/>Research or experts they cite"]
+    E3["<b>Rival measurement</b> <i>· optional</i><br/>A second series of the same quantity"]
+    E4["<b>Discrepancy</b> <i>· optional</i><br/>The gap between them, treated as the finding"]
+  end
+
+  subgraph L3["Level 3 · Mechanisms"]
+    M1["<b>Mechanism A</b><br/><i>kind: economic | distortion</i><br/>How one thing causes another"]
+    M2["<b>Mechanism B</b> <i>· optional</i><br/>A second channel"]
+  end
+
+  subgraph L4["Level 4 · Intermediate claims"]
+    C1["<b>Intermediate claim</b><br/>What the mechanisms add up to"]
+    C2["<b>Case type</b> <i>· optional</i><br/>A branch, when the argument sorts instead of converging"]
+    C3["<b>Policy reductio</b> <i>· optional</i><br/>Run an opponent's proposal to its consequence"]
+  end
+
+  subgraph L5["Level 5 · Conclusion"]
+    K["<b>Main claim</b><br/><i>type: single | enumerated | typology | unresolved</i><br/>The author's conclusion"]
+    RC["<b>Reconstruction</b> <i>· optional</i><br/>A replacement number they build"]
+    REC["<b>Recommendation</b> <i>· optional</i><br/>A normative #quot;should#quot;, separate from the claim"]
+  end
+
+  subgraph L6["Level 6 · Counterpoints"]
+    X["<b>Opposing view</b><br/>What they argue against"]
+    QF["<b>Caveat</b><br/>Where the claim may not hold"]
+    R1["<b>Other explanation</b><br/>Rival causes they admit"]
+    DF["<b>Deferred question</b> <i>· optional</i><br/>Explicitly postponed"]
+  end
+
+  subgraph REF["Based on"]
+    F1["<b>Toulmin (1958)</b><br/>Hidden rules and counterpoints"]
+    F2["<b>Axelrod (1976)</b><br/>Cause-and-effect maps"]
+    F3["<b>Walton, Reed &amp; Macagno (2008)</b><br/>Types of arguments"]
+    F4["<b>Andre et al. (2026)</b><br/>Economic stories as causal graphs"]
+  end
+
+  %% between-level relations: which levels MAY connect, and how.
+  %% An article draws specific node-to-node edges inside these.
+  L0 ==>|frames| L1
+  L1 ==>|supports| L3
+  L1 ==>|licenses| L4
+  L1B ==>|compared against| L2
+  L2 ==>|supports| L3
+  L2 ==>|supports| L4
+  L3 ==>|supports| L4
+  L4 ==>|supports| L5
+  L4 -.->|undercut by| L6
+  L5 -.->|rebuts · qualified by · defers| L6
+
+  %% within-level relations that are definitional, not a choice
+  POS -->|supports| ANOM
+  ANOM -->|motivates| Q
+  P3 -.->|revises| P1
+  SCP -->|bounds| BM
+  E3 -->|supports| E4
+  K -->|reconstructs| RC
+  K -->|motivates| REC
+
+  L1 ~~~ L1B
+  L6 ~~~ REF
+
+  classDef prior fill:#3C3489,stroke:#AFA9EC,color:#EEEDFE
+  classDef unstated fill:#3C3489,stroke:#AFA9EC,color:#EEEDFE,stroke-dasharray:5 4
+  classDef revised fill:#7A2B4D,stroke:#F0A8C4,color:#FBE4EE,stroke-width:2px
+  classDef cred fill:#5A2E7A,stroke:#CFA8EC,color:#F3E4FB
+  classDef data fill:#0C447C,stroke:#85B7EB,color:#E6F1FB
+  classDef bench fill:#6B5410,stroke:#E8CE7A,color:#FBF3DC
+  classDef mech fill:#085041,stroke:#5DCAA5,color:#E1F5EE
+  classDef main fill:#085041,stroke:#9FE1CB,color:#E1F5EE,stroke-width:3px
+  classDef recon fill:#085041,stroke:#9FE1CB,color:#E1F5EE,stroke-width:2px,stroke-dasharray:6 3
+  classDef rec fill:#6B5410,stroke:#E8CE7A,color:#FBF3DC,stroke-width:3px
+  classDef dia fill:#444441,stroke:#B4B2A9,color:#F1EFE8
+  classDef ref fill:#2C2C2A,stroke:#888780,color:#D3D1C7
+  classDef question fill:#2C2C2A,stroke:#F1EFE8,color:#F1EFE8
+
+  class Q question
+  class ANOM,POS dia
+  class P1,ID prior
+  class P2 unstated
+  class P3 revised
+  class SC cred
+  class BM,SCP bench
+  class E1,E2,E3,E4 data
+  class M1,M2 mech
+  class C1,C2,C3 mech
+  class K main
+  class RC recon
+  class REC rec
+  class X,QF,R1,DF dia
+  class F1,F2,F3,F4 ref

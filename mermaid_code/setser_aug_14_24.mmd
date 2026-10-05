@@ -1,0 +1,133 @@
+---
+config:
+  layout: elk
+  theme: dark
+  themeVariables:
+    lineColor: "#D3D1C7"
+    clusterBkg: "#262624"
+    clusterBorder: "#5F5E5A"
+    titleColor: "#F1EFE8"
+    edgeLabelBackground: "#2C2C2A"
+  flowchart:
+    wrappingWidth: 180
+    nodeSpacing: 22
+    rankSpacing: 40
+---
+flowchart TD
+
+  T["<b>Aug 2024 · #quot;China's Imaginary Trade Data#quot;</b><br/><b>Shape C · measurement critique</b><br/>Lights up the forensic slots, and carries no economic mechanism at all.<br/><br/>16 of 26 slots filled + 1 implicit"]
+
+  subgraph L0["Level 0 · Question"]
+    Q["<b>Question</b><br/>Why does the reported current account diverge from the customs surplus, and which is right?"]
+    ANOM["<b>Anomaly</b><br/><i>n/a</i>"]
+    POS["<b>Position map</b><br/><i>n/a</i>"]
+  end
+
+  subgraph L1["Level 1 · Priors & assumptions"]
+    P1["<b>Stated assumption</b><br/>The balance-of-payments surplus should exceed customs; a methodology change should net out"]
+    P2["<b>Hidden assumption</b><br/>Customs data is ground truth — never argued for, the whole case rests on it"]
+    P3["<b>Revised prior</b><br/><i>absent — no self-correction in this piece</i>"]
+    ID["<b>Accounting identity</b><br/><i>n/a</i>"]
+    SC["<b>Source credibility</b><br/>The methodology was already changed at a convenient moment in 2015, and backdated"]
+  end
+
+  subgraph L1B["Level 1b · Frame & scope"]
+    BM["<b>Benchmark</b><br/><i>n/a</i>"]
+    SCP["<b>Scope choice</b><br/><i>absent — he adopts the IMF's own framing</i>"]
+  end
+
+  subgraph L2["Level 2 · Evidence"]
+    E1["<b>Data</b><br/>Reported current account ~$150bn below expectation in Q2"]
+    E2["<b>Studies & sources</b><br/>IMF Article IV Appendix VII; consistent with Adam Wolf's work"]
+    E3["<b>Rival measurement</b><br/>The customs goods series against the balance-of-payments goods series"]
+    E4["<b>Discrepancy</b><br/>Gap explodes from 2022; BoP imports exceed customs imports for the first time in 2023"]
+  end
+
+  subgraph L3["Level 3 · Mechanisms"]
+    M1["<b>Mechanism A</b> · <i>kind: DISTORTION</i><br/>#quot;Factoryless#quot; manufacturing — a sale to a non-resident is booked as an export though the goods never leave China"]
+    M2["<b>Mechanism B</b> · <i>kind: DISTORTION</i><br/>Compilers switched from customs data to direct enterprise reporting in 2022"]
+  end
+
+  subgraph L4["Level 4 · Intermediate claims"]
+    C1["<b>Intermediate claim</b><br/>It makes no economic sense; the offsetting adjustment is absent; the series cannot be replicated"]
+    C2["<b>Case type</b><br/><i>n/a</i>"]
+    C3["<b>Policy reductio</b><br/><i>absent</i>"]
+  end
+
+  subgraph L5["Level 5 · Conclusion"]
+    K["<b>Main claim</b> · <i>type: single</i><br/>The reported surplus is an artifact of a methodology change"]
+    RC["<b>Reconstruction</b><br/>Goods surplus understated by ~$300bn, over 1.5pp of GDP; true current account surplus close to $700bn — use the customs data"]
+    REC["<b>Recommendation</b><br/><i>implied only — stop using the reported series</i>"]
+  end
+
+  subgraph L6["Level 6 · Counterpoints"]
+    X["<b>Opposing view</b><br/>Analysts and the IMF read the post-2021 decline as real"]
+    QF["<b>Caveat</b><br/>The income line carries no detail, so this cannot be checked from outside"]
+    R1["<b>Other explanation</b><br/><i>absent — he allows no rival reading</i>"]
+    DF["<b>Deferred question</b><br/>The interest income anomaly is set aside #quot;for a future blog#quot;"]
+  end
+
+  E3 -->|supports| E4
+  SC -->|supports| E4
+  E2 -->|supports| M1
+  E2 -->|supports| M2
+  M1 -->|supports| C1
+  M2 -->|supports| C1
+  E4 -->|supports| C1
+  E1 -->|supports| C1
+  P1 -->|licenses| C1
+  C1 -->|supports| K
+  K -->|reconstructs| RC
+  P2 -->|licenses| RC
+  K -->|motivates| REC
+  K -.->|rebuts| X
+  RC -.->|qualified by| QF
+  K -.->|defers| DF
+
+  T ~~~ L0
+  L0 ~~~ L1
+  L1 ~~~ L1B
+  L1B ~~~ L2
+  L2 ~~~ L3
+  L3 ~~~ L4
+  L4 ~~~ L5
+  L5 ~~~ L6
+
+
+  subgraph LEG["How to read this"]
+    G1["<b>Filled</b><br/>the article does this"]
+    G2["<b>Implicit</b><br/>present, but never stated outright"]
+    G3["<b>Empty</b><br/><i>n/a</i> = category error here<br/><i>absent</i> = could have, did not"]
+  end
+
+  classDef title fill:#2C2C2A,stroke:#F1EFE8,color:#F1EFE8,stroke-width:2px
+  classDef prior fill:#3C3489,stroke:#AFA9EC,color:#EEEDFE
+  classDef unstated fill:#3C3489,stroke:#AFA9EC,color:#EEEDFE,stroke-dasharray:5 4
+  classDef cred fill:#5A2E7A,stroke:#CFA8EC,color:#F3E4FB,stroke-width:2px
+  classDef data fill:#0C447C,stroke:#85B7EB,color:#E6F1FB
+  classDef distort fill:#7A4310,stroke:#EBA869,color:#FBEFE6,stroke-width:2px
+  classDef mech fill:#085041,stroke:#5DCAA5,color:#E1F5EE
+  classDef main fill:#085041,stroke:#9FE1CB,color:#E1F5EE,stroke-width:3px
+  classDef recon fill:#085041,stroke:#9FE1CB,color:#E1F5EE,stroke-width:2px,stroke-dasharray:6 3
+  classDef dia fill:#444441,stroke:#B4B2A9,color:#F1EFE8
+  classDef question fill:#2C2C2A,stroke:#F1EFE8,color:#F1EFE8
+  classDef implicit fill:#2A2A45,stroke:#7A79A8,color:#C9C8E4
+  classDef legdemo fill:#085041,stroke:#5DCAA5,color:#E1F5EE
+  classDef ghost fill:#1C1C1B,stroke:#4A4945,color:#6B6A65,stroke-dasharray:4 4
+
+  class T title
+  class Q question
+  class P1 prior
+  class P2 unstated
+  class SC cred
+  class E1,E2,E3,E4 data
+  class M1,M2 distort
+  class C1 mech
+  class K main
+  class RC recon
+  class X,QF,DF dia
+  class ANOM,POS,P3,ID,BM,SCP,C2,C3,R1 ghost
+  class G1 legdemo
+  class G2 implicit
+  class G3 ghost
+  class REC implicit
