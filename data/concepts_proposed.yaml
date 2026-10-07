@@ -1,0 +1,248 @@
+# Candidate concepts - PROPOSALS ONLY, not applied.
+#
+# Each group is a set of nodes of the same type, in different documents,
+# sharing distinctive vocabulary. Review every one: keep and name the real
+# ones, delete the rest, then move them into scripts/concepts.yaml.
+
+concepts:
+  candidate-01-stated-assumption:
+    note: 3 nodes, type stated_assumption
+    nodes:
+      - setser_jan_31_20#P1    # Industrial policy is non-negotiable; the state can direct commodity purchases
+      - setser_jul_8_20#P1    # Agriculture and energy flow through a few state firms, so purchases can be directed; man
+      - setser_2025-07-28_china-eu-trade-war#P1    # China's trade war tools are industrial policy and a weak currency, not tariffs
+
+  candidate-02-mechanism:
+    note: 3 nodes, type mechanism
+    nodes:
+      - setser_2025-07-07_china-stealth-surplus#M1    # An unexplained 2021 break in China's balance of payments goods series and an unexplained
+      - setser_2025-11-12_china-surplus-imf#M2    # The 2022 balance of payments methodology and the unexplained income deficit each cut abo
+      - setser_2025-11-12_china-surplus-imf#M3    # Relying only on the reported current account frames China's problem as purely internal, 
+
+  candidate-03-stated-assumption:
+    note: 2 nodes, type stated_assumption
+    nodes:
+      - setser_dec_15_17#P3    # Ongoing borrowing raises the net external debt stock
+      - setser_aug_13_19#P3    # Import bills must ultimately be covered by income or borrowing
+
+  candidate-04-evidence-data:
+    note: 2 nodes, type evidence_data
+    nodes:
+      - setser_dec_15_17#D5    # Either would weaken current favorable debt dynamics
+      - setser_feb_15_18#D4    # Higher rates mechanically increase payments to foreign creditors
+
+  candidate-05-mechanism:
+    note: 2 nodes, type mechanism
+    nodes:
+      - setser_dec_15_17#M3    # Persistent borrowing plus higher interest costs raise the external debt burden
+      - setser_feb_15_18#M2    # More income flows abroad on the U.S. debt stock
+
+  candidate-06-opposing-view:
+    note: 2 nodes, type opposing_view
+    nodes:
+      - setser_dec_15_17#X    # A wider deficit can reflect stronger domestic demand rather than weakness
+      - setser_mar_31_20#X    # Private creditors would rather be paid — "this will take goodwill"
+
+  candidate-07-intermediate-claim:
+    note: 2 nodes, type intermediate_claim
+    nodes:
+      - setser_feb_15_18#C2    # Higher interest payments add to the external deficit
+      - setser_2025-07-07_china-stealth-surplus#C1    # Current account comparisons based on balance of payments data make Europe, not China, lo
+
+  candidate-08-intermediate-claim:
+    note: 2 nodes, type intermediate_claim
+    nodes:
+      - setser_feb_15_18#C3    # Foreign growth and a softer dollar cannot offset the near-term impulse
+      - setser_jun_4_18#C1    # Foreign economies contribute less to import growth
+
+  candidate-09-stated-assumption:
+    note: 2 nodes, type stated_assumption
+    nodes:
+      - setser_jun_4_18#P1    # They reflect demand, fiscal policy, currencies, and external adjustment—not just trade d
+      - setser_sep_20_19#P2    # Weak domestic demand tends to reduce imports and raise surpluses
+
+  candidate-10-question:
+    note: 2 nodes, type question
+    nodes:
+      - setser_may_2_19#Q    # If U.S.-China trade tensions escalate, will China keep the yuan stable or let it weaken?
+      - setser_may_10_19#Q    # If U.S.-China trade tensions escalate, will China keep the yuan stable or let it weaken?
+
+  candidate-11-stated-assumption:
+    note: 2 nodes, type stated_assumption
+    nodes:
+      - setser_may_2_19#P1    # Reserves, capital controls, and policy tools give Beijing substantial exchange-rate cont
+      - setser_may_10_19#P1    # Reserves, capital controls, and policy tools give Beijing substantial exchange-rate cont
+
+  candidate-12-stated-assumption:
+    note: 2 nodes, type stated_assumption
+    nodes:
+      - setser_may_2_19#P2    # A weaker yuan lets exporters lower dollar prices while preserving yuan revenue
+      - setser_may_10_19#P2    # A weaker yuan lets exporters lower dollar prices while preserving yuan revenue
+
+  candidate-13-stated-assumption:
+    note: 2 nodes, type stated_assumption
+    nodes:
+      - setser_may_2_19#P3    # A stable currency supports confidence and reduces financial risk
+      - setser_may_10_19#P3    # A stable currency supports confidence and reduces financial risk
+
+  candidate-14-evidence-data:
+    note: 2 nodes, type evidence_data
+    nodes:
+      - setser_may_2_19#D1    # 25% on nearly $550B of imports could raise roughly $100–140B
+      - setser_may_10_19#D1    # 25% on nearly $550B of imports could raise roughly $100–140B
+
+  candidate-15-evidence-data:
+    note: 2 nodes, type evidence_data
+    nodes:
+      - setser_may_2_19#D2    # UBS: full tariffs plus retaliation could cut growth by about 1.5pp
+      - setser_may_10_19#D2    # UBS: full tariffs plus retaliation could cut growth by about 1.5pp
+
+  candidate-16-evidence-data:
+    note: 2 nodes, type evidence_data
+    nodes:
+      - setser_may_2_19#D3    # No sustained pressure in either direction
+      - setser_may_10_19#D3    # No sustained pressure in either direction
+
+  candidate-17-evidence-data:
+    note: 2 nodes, type evidence_data
+    nodes:
+      - setser_may_2_19#D4    # Large reserves, state-bank foreign assets, and portfolio inflows
+      - setser_may_10_19#D4    # Large reserves, state-bank foreign assets, and portfolio inflows
+
+  candidate-18-evidence-data:
+    note: 2 nodes, type evidence_data
+    nodes:
+      - setser_may_2_19#D5    # Trade surplus covers major outflows without sustained reserve pressure
+      - setser_may_10_19#D5    # Trade surplus covers major outflows without sustained reserve pressure
+
+  candidate-19-evidence-data:
+    note: 2 nodes, type evidence_data
+    nodes:
+      - setser_may_2_19#D6    # Further export-oriented adjustment would matter globally
+      - setser_may_10_19#D6    # Further export-oriented adjustment would matter globally
+
+  candidate-20-mechanism:
+    note: 2 nodes, type mechanism
+    nodes:
+      - setser_may_2_19#M1    # Higher U.S. import costs reduce competitiveness and growth
+      - setser_may_10_19#M1    # Higher U.S. import costs reduce competitiveness and growth
+
+  candidate-21-mechanism:
+    note: 2 nodes, type mechanism
+    nodes:
+      - setser_may_2_19#M2    # A weaker yuan offsets part of the tariff in dollar terms
+      - setser_may_10_19#M2    # A weaker yuan offsets part of the tariff in dollar terms
+
+  candidate-22-mechanism:
+    note: 2 nodes, type mechanism
+    nodes:
+      - setser_may_2_19#M3    # Avoiding a large currency move limits financial instability
+      - setser_may_10_19#M3    # Avoiding a large currency move limits financial instability
+
+  candidate-23-mechanism:
+    note: 2 nodes, type mechanism
+    nodes:
+      - setser_may_2_19#M4    # Other Asian currencies weaken and trade pressure shifts globally
+      - setser_may_10_19#M4    # Other Asian currencies weaken and trade pressure shifts globally
+
+  candidate-24-intermediate-claim:
+    note: 2 nodes, type intermediate_claim
+    nodes:
+      - setser_may_2_19#C1    # It is not mechanically forced into depreciation
+      - setser_may_10_19#C1    # It is not mechanically forced into depreciation
+
+  candidate-25-intermediate-claim:
+    note: 2 nodes, type intermediate_claim
+    nodes:
+      - setser_may_2_19#C2    # Exporters can preserve competitiveness
+      - setser_may_10_19#C2    # Exporters can preserve competitiveness
+
+  candidate-26-intermediate-claim:
+    note: 2 nodes, type intermediate_claim
+    nodes:
+      - setser_may_2_19#C3    # It risks instability and additional U.S. retaliation
+      - setser_may_10_19#C3    # It risks instability and additional U.S. retaliation
+
+  candidate-27-intermediate-claim:
+    note: 2 nodes, type intermediate_claim
+    nodes:
+      - setser_may_2_19#C4    # Export-dependent economies outside China also come under pressure
+      - setser_may_10_19#C4    # Export-dependent economies outside China also come under pressure
+
+  candidate-28-main-claim:
+    note: 2 nodes, type main_claim
+    nodes:
+      - setser_may_2_19#K    # Beijing can defend stability or reset the yuan lower; its decision will shape the global
+      - setser_may_10_19#K    # Beijing can defend stability or reset the yuan lower; its decision will shape the global
+
+  candidate-29-counterpoint:
+    note: 2 nodes, type counterpoint
+    nodes:
+      - setser_may_2_19#X    # China can support growth fiscally without risking a destabilizing currency move
+      - setser_may_10_19#X    # China can support growth fiscally without risking a destabilizing currency move
+
+  candidate-30-caveat:
+    note: 2 nodes, type caveat
+    nodes:
+      - setser_may_2_19#QF    # Controlled depreciations are difficult because markets may front-run them
+      - setser_may_10_19#QF    # Controlled depreciations are difficult because markets may front-run them
+
+  candidate-31-caveat:
+    note: 2 nodes, type caveat
+    nodes:
+      - setser_may_2_19#R1    # A weaker yuan could trigger broader or higher U.S. tariffs
+      - setser_may_10_19#R1    # A weaker yuan could trigger broader or higher U.S. tariffs
+
+  candidate-32-caveat:
+    note: 2 nodes, type caveat
+    nodes:
+      - setser_may_2_19#R2    # Tariffs and oil prices could push China toward current-account deficit
+      - setser_may_10_19#R2    # Tariffs and oil prices could push China toward current-account deficit
+
+  candidate-33-evidence-source:
+    note: 2 nodes, type evidence_source
+    nodes:
+      - setser_jan_31_20#E2    # His own Senate testimony; Toloui on balance-sheet policy; the Economist on managed trade
+      - setser_2025-11-12_china-surplus-imf#E2    # IMF External Sector Report 2025, October World Economic Outlook and 2024 Article IV repo
+
+  candidate-34-opposing-view:
+    note: 2 nodes, type opposing_view
+    nodes:
+      - setser_jan_31_20#X    # Both approaches carry costs — managed trade rewards diversion away from allies, while th
+      - setser_jul_8_20#X    # Raised up front and rebutted: "the purchase commitments themselves were a mistake" and "
+
+  candidate-35-other-explanation:
+    note: 2 nodes, type other_explanation
+    nodes:
+      - setser_jan_31_20#R1    # Why were manufactures spared? "I am not quite sure why this is the case" — two theories 
+      - setser_may_5_25#R1    # The five theories function as rivals to each other, and he keeps all of them live
+
+  candidate-36-hidden-assumption:
+    note: 2 nodes, type hidden_assumption
+    nodes:
+      - setser_mar_31_20#P2    # The external balance sheet is the right thing to sort countries by
+      - setser_2025-11-12_china-surplus-imf#P3    # External balance is a legitimate policy target; exporting your way out of a slump impose
+
+  candidate-37-evidence-source:
+    note: 2 nodes, type evidence_source
+    nodes:
+      - setser_mar_31_20#E2    # Truman on IMF lending capacity; Landers, Lee and Morris on callable capital; Hagan and B
+      - setser_2025-07-07_china-stealth-surplus#E2    # IMF 2024 Article IV report; China's State Administration of Foreign Exchange argument ab
+
+  candidate-38-other-explanation:
+    note: 2 nodes, type other_explanation
+    nodes:
+      - setser_jul_8_20#R1    # The aircraft collapse is exogenous — the largest category fell with the 737 MAX groundin
+      - setser_2026-02-03_october-2025-deficit#R1    # Auto imports fell along with auto sales: weaker demand rather than more U.S. production
+
+  candidate-39-stated-assumption:
+    note: 2 nodes, type stated_assumption
+    nodes:
+      - setser_mar_10_24#P1    # Bilateral data misleads about global position — rerouting is not displacement
+      - setser_2025-09-12_trump-shock-that-wasnt#P1    # A global tariff works like an exchange rate move: import elasticity of about 0.3 to 0.4,
+
+  candidate-40-evidence-source:
+    note: 2 nodes, type evidence_source
+    nodes:
+      - setser_mar_10_24#E2    # Baldwin on sole manufacturing superpower; Pettis on production giant and consumption pyg
+      - setser_2025-09-12_trump-shock-that-wasnt#E2    # New York Times reporting; U.S. trade data; federal court ruling on tariff authority

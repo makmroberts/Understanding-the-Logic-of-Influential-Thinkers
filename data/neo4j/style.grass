@@ -1,0 +1,91 @@
+/* Neo4j Browser stylesheet for the argument graph.
+ *
+ * Colours are taken from the classDefs in the .mmd maps, so the graph reads
+ * the same way the flowcharts do:
+ *    purple = priors and assumptions      blue  = evidence
+ *    green  = mechanisms and claims       grey  = counterpoints
+ *    gold   = scope, benchmarks, recommendations
+ *    pink   = revised priors and concepts
+ *
+ * To apply: drag this file onto the Neo4j Browser window.
+ */
+
+node {
+  diameter: 50px;
+  color: #4C4C48;
+  border-color: #85837B;
+  border-width: 2px;
+  text-color-internal: #F1EFE8;
+  font-size: 9px;
+  caption: "{name}";
+}
+
+relationship {
+  color: #5F5E5A;
+  shaft-width: 1px;
+  font-size: 8px;
+  padding: 3px;
+  text-color-external: #D3D1C7;
+  text-color-internal: #FFFFFF;
+  caption: "<type>";
+}
+
+/* ---- Level 0: the question ---- */
+node.Question      { color: #2C2C2A; border-color: #F1EFE8; diameter: 60px; }
+node.Anomaly       { color: #3A3A38; border-color: #B4B2A9; }
+node.PositionMap   { color: #3A3A38; border-color: #B4B2A9; }
+
+/* ---- Level 1: priors and assumptions ---- */
+node.StatedAssumption   { color: #3C3489; border-color: #AFA9EC; }
+node.HiddenAssumption   { color: #5A4FB8; border-color: #CFCBF5; diameter: 55px; }
+node.AccountingIdentity { color: #3C3489; border-color: #AFA9EC; }
+node.RevisedPrior       { color: #7A2B4D; border-color: #F0A8C4; diameter: 55px; }
+node.SourceCredibility  { color: #5A2E7A; border-color: #CFA8EC; }
+
+/* ---- Level 1b: frame and scope ---- */
+node.ScopeChoice { color: #6B5410; border-color: #E8CE7A; }
+node.Benchmark   { color: #6B5410; border-color: #E8CE7A; }
+
+/* ---- Level 2: evidence ---- */
+node.EvidenceData        { color: #0C447C; border-color: #85B7EB; }
+node.EvidenceSource      { color: #0C447C; border-color: #85B7EB; }
+node.EvidenceRival       { color: #16558F; border-color: #85B7EB; }
+node.EvidenceDiscrepancy { color: #16558F; border-color: #85B7EB; }
+
+/* ---- Level 3-4: mechanisms and intermediate claims ---- */
+node.Mechanism        { color: #085041; border-color: #5DCAA5; }
+node.IntermediateClaim{ color: #0A6553; border-color: #7FD6B8; }
+node.CaseType         { color: #0A6553; border-color: #7FD6B8; }
+node.PolicyReductio   { color: #0A6553; border-color: #7FD6B8; }
+
+/* ---- Level 5: where it lands ---- */
+node.MainClaim      { color: #0E7A63; border-color: #9FE1CB; diameter: 70px; font-size: 10px; }
+node.Reconstruction { color: #0E7A63; border-color: #9FE1CB; diameter: 60px; }
+node.Recommendation { color: #6B5410; border-color: #E8CE7A; diameter: 60px; }
+
+/* ---- Level 6: counterpoints ---- */
+node.OpposingView     { color: #444441; border-color: #B4B2A9; }
+node.Caveat           { color: #444441; border-color: #B4B2A9; }
+node.OtherExplanation { color: #444441; border-color: #B4B2A9; }
+node.DeferredQuestion { color: #444441; border-color: #B4B2A9; }
+node.Counterpoint     { color: #444441; border-color: #B4B2A9; }
+
+/* ---- the spine ---- */
+node.Document { color: #6B5410; border-color: #E8CE7A; diameter: 80px; font-size: 10px; }
+node.Concept  { color: #7A2B4D; border-color: #F0A8C4; diameter: 75px; font-size: 10px; }
+
+/* ---- relationships: forward argument vs push-back ---- */
+relationship.SUPPORTS     { color: #5DCAA5; shaft-width: 2px; }
+relationship.LICENSES     { color: #AFA9EC; shaft-width: 3px; }
+relationship.BOUNDS       { color: #E8CE7A; }
+relationship.MOTIVATES    { color: #85B7EB; }
+relationship.RECONSTRUCTS { color: #9FE1CB; }
+
+relationship.REBUTS       { color: #F0A8C4; shaft-width: 2px; }
+relationship.QUALIFIED_BY { color: #B4B2A9; }
+relationship.UNDERCUT_BY  { color: #B4B2A9; }
+relationship.REVISES      { color: #F0A8C4; }
+relationship.DEFERS       { color: #85837B; }
+
+relationship.IN          { color: #3A3A38; shaft-width: 1px; caption: ""; }
+relationship.INSTANCE_OF { color: #F0A8C4; shaft-width: 2px; }

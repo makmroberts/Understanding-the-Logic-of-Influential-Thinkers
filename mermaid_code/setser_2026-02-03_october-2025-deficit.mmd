@@ -1,0 +1,106 @@
+---
+config:
+  layout: elk
+  theme: dark
+  themeVariables:
+    lineColor: "#D3D1C7"
+    clusterBkg: "#262624"
+    clusterBorder: "#5F5E5A"
+    titleColor: "#F1EFE8"
+    edgeLabelBackground: "#2C2C2A"
+  flowchart:
+    wrappingWidth: 170
+    nodeSpacing: 25
+    rankSpacing: 45
+---
+flowchart TD
+  %% author: Brad W. Setser | outlet: CFR Expert Take | date: 2026-02-03
+  %% title: Understanding the Low October 2025 Trade Deficit
+  %% url: https://www.cfr.org/articles/understanding-the-low-october-2025-trade-deficit
+  %% topics: US trade deficit, tariffs, stockpiling, fiscal policy | genre: Q&A explainer
+
+  subgraph L0["Level 0 · Question"]
+    Q["`**Question**
+      Does the low October 2025 trade deficit mean the tariffs are working?`"]
+  end
+
+  subgraph L1["Level 1 · Priors & assumptions"]
+    P1["`**Stated assumption**
+      Tariffs reduce the trade deficit only if their proceeds reduce the budget deficit, acting as a tax hike`"]
+    P2["`**Stated assumption**
+      Remove pharmaceuticals and gold to read the underlying deficit`"]
+    P3["`**Hidden assumption**
+      *The trade balance is a macroeconomic savings-investment outcome; inventory swings reverse over time*`"]
+  end
+
+  subgraph L2["Level 2 · Evidence"]
+    E1["`**Data**
+      October's drop came entirely from pharmaceuticals and gold; excluding them, October's deficit was slightly bigger than September's; August to October deficits below 2024, but early 2025 far above; imports of autos and household durable goods down; imports of semiconductors and computers up`"]
+    E2["`**Studies and sources**
+      U.S. trade data; Section 232 semiconductor investigation`"]
+  end
+
+  subgraph L3["Level 3 · Mechanisms"]
+    M1["`**Tariff fears**
+      Fear of tariffs that never came drove pharmaceutical stockpiling and gold flowing out and back`"]
+    M2["`**Inventory drawdown**
+      Stockpiles built ahead of tariffs temporarily depress imports, and stockpiles run out`"]
+    M3["`**Untariffed artificial intelligence investment**
+      The data center buildout keeps semiconductor and computer imports rising`"]
+    M4["`**Fiscal channel**
+      Promised refund checks and pressure for more defense spending block a fiscal adjustment`"]
+  end
+
+  subgraph L4["Level 4 · Intermediate claims"]
+    C1["`**Intermediate claim**
+      Tariffs reduce imports in specific categories, but the overall deficit is driven by untariffed goods and stockpile timing`"]
+  end
+
+  subgraph L5["Level 5 · Conclusion"]
+    K["`**Main claim**
+      No: the low October deficit is not evidence the tariffs work, and a significant fall in the 2025 deficit is unlikely`"]
+  end
+
+  subgraph L6["Level 6 · Counterpoints"]
+    X["`**Opposing view**
+      Trump's trade team claiming success from smaller deficits than in the same months of 2024`"]
+    QF["`**Caveat**
+      Tariffed categories really are falling; watch whether imports rebound once stockpiles are exhausted`"]
+    R1["`**Other explanation**
+      Auto imports fell along with auto sales: weaker demand rather than more U.S. production`"]
+  end
+
+  P2 --> M1
+  E1 --> M1
+  E1 --> M2
+  E1 --> M3
+  E2 --> M3
+  P1 --> M4
+  M1 --> C1
+  M2 --> C1
+  M3 --> C1
+  M4 --> K
+  P3 -->|rule behind it| C1
+  C1 --> K
+  K -.->|pushes back on| X
+  K -. caveat .- QF
+  M2 -. other explanation .- R1
+
+  Q ~~~ P1 & P2 & P3
+  P1 ~~~ E1
+  P3 ~~~ E2
+
+  classDef prior fill:#3C3489,stroke:#AFA9EC,color:#EEEDFE
+  classDef unstated fill:#3C3489,stroke:#AFA9EC,color:#EEEDFE,stroke-dasharray:5 4
+  classDef data fill:#0C447C,stroke:#85B7EB,color:#E6F1FB
+  classDef mech fill:#085041,stroke:#5DCAA5,color:#E1F5EE
+  classDef main fill:#085041,stroke:#9FE1CB,color:#E1F5EE,stroke-width:3px
+  classDef dia fill:#444441,stroke:#B4B2A9,color:#F1EFE8
+  classDef question fill:#2C2C2A,stroke:#F1EFE8,color:#F1EFE8
+  class P1,P2 prior
+  class P3 unstated
+  class E1,E2 data
+  class M1,M2,M3,M4,C1 mech
+  class K main
+  class X,QF,R1 dia
+  class Q question

@@ -1,0 +1,21 @@
+---
+type: evidence_data
+level: L2
+date: 2017-12-15
+article: "Why does the U.S. trade balance still matter, even if deficits can accompany strong growth?"
+doc: setser_dec_15_17
+node_id: D2
+family: plain
+tags: [type/evidence_data, level/L2, family/plain]
+---
+
+# Manufacturing employment varies with trade
+
+> Surplus economies retain larger manufacturing job shares
+
+## Leads to
+- **supports** → [[Trade shifts where jobs are located]] `mechanism`
+
+## Source
+- Article: [[2017-12-15 Why does the U.S. trade balance still matter, even if deficits can accompany]]
+- Node `setser_dec_15_17#D2` · level L2 · type resolved by `class`

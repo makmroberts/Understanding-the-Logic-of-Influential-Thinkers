@@ -1,0 +1,189 @@
+# Normalization table: the vocabulary actually used in mermaid_code/*.mmd,
+# mapped onto the schema declared by second_flow_template.mmd and
+# second_flow_edge_types.mmd.
+#
+# The .mmd files are the authored artifact and are never rewritten. This file
+# is the only place the drift is reconciled, so every normalization decision is
+# reviewable as a diff. parse_maps.py reports anything it cannot map here
+# instead of guessing - see data/review.md after a run.
+
+# ---------------------------------------------------------------------------
+# Presentation-only classes. Nodes carrying these are not argument nodes and
+# never enter the graph.
+#   title    - the T[...] banner node on the six shape-annotated maps
+#   legdemo  - legend swatches ("Filled - the article does this")
+#   ghost    - schema slots the article leaves empty, drawn greyed out as "n/a"
+# ---------------------------------------------------------------------------
+drop_classes: [title, legdemo, ghost]
+
+# Whole subgraphs that are apparatus rather than argument:
+#   LEG - the "How to read this" legend block
+#   REF - the "Based on" methodology citations
+drop_subgraphs: [LEG, REF]
+
+# A node whose whole body is one of these is an unfilled slot regardless of class.
+drop_if_text_matches: ['^n/?a$', '^-$', '^$']
+
+
+# ---------------------------------------------------------------------------
+# NODE TYPES
+#
+# Resolved in priority order:
+#   1. header   - the bold first line of the label ("Hidden assumption", "Data")
+#   2. class    - the classDef name assigned via `class X role`
+#   3. level    - the enclosing subgraph, as a last resort
+#
+# The header wins because `class` is ambiguous by design: the template assigns
+# `mech` to both Level 3 mechanisms and Level 4 intermediate claims.
+# ---------------------------------------------------------------------------
+node_types_by_header:
+  question: question
+  position map: position_map
+  anomaly: anomaly
+
+  stated assumption: stated_assumption
+  hidden assumption: hidden_assumption
+  implicit: hidden_assumption          # marked implicit_only by the parser
+  revised prior: revised_prior
+  accounting identity: accounting_identity
+  source credibility: source_credibility
+
+  scope choice: scope_choice
+  benchmark: benchmark
+
+  data: evidence_data
+  studies and sources: evidence_source
+  studies & sources: evidence_source
+  rival measurement: evidence_rival
+  discrepancy: evidence_discrepancy
+
+  mechanism a: mechanism
+  mechanism b: mechanism
+  mechanism c: mechanism
+  mechanism d: mechanism
+
+  intermediate claim: intermediate_claim
+  case type: case_type
+  policy reductio: policy_reductio
+
+  main claim: main_claim
+  reconstruction: reconstruction
+  recommendation: recommendation
+
+  opposing view: opposing_view
+  caveat: caveat
+  other explanation: other_explanation
+  deferred question: deferred_question
+
+node_types_by_class:
+  question: question
+  pos: position_map
+  anom: anomaly
+  prior: stated_assumption
+  unstated: hidden_assumption
+  implicit: hidden_assumption
+  revised: revised_prior
+  ident: accounting_identity
+  cred: source_credibility
+  bench: benchmark                     # also carries scope_choice; header splits them
+  data: evidence_data
+  mech: mechanism                      # L4 members re-resolved to intermediate_claim
+  distort: mechanism                   # mechanism_kind: distortion
+  main: main_claim
+  recon: reconstruction
+  rec: recommendation
+  red: policy_reductio
+  ctype: case_type
+  dia: counterpoint                    # generic L6; header splits it
+
+node_types_by_level:
+  L0: question
+  L1: stated_assumption
+  L1B: scope_choice
+  L2: evidence_data
+  L3: mechanism
+  L4: intermediate_claim
+  L5: main_claim
+  L6: counterpoint
+
+# Every Level 6 node carries class `dia`, so only the header distinguishes a
+# caveat from an opposing view from a rival explanation. First match wins;
+# anything unmatched stays the generic `counterpoint` and is reported.
+counterpoint_by_header_contains:
+  caveat: caveat
+  uncertainty: caveat
+  tradeoff: caveat
+  risk: caveat
+  limit: caveat
+  explanation: other_explanation
+  alternative: other_explanation
+  argument: opposing_view
+  view: opposing_view
+  objection: opposing_view
+  deferred: deferred_question
+  open question: deferred_question
+
+
+# Classes that mark a mechanism as a measurement distortion rather than an
+# economic channel (the `kind:` field in second_flow_template.mmd).
+mechanism_kind_by_class:
+  distort: distortion
+
+
+# ---------------------------------------------------------------------------
+# EDGE TYPES
+#
+# second_flow_edge_types.mmd declares exactly ten. Everything observed in the
+# corpus maps onto one of them. `raw` is preserved on every edge so a mapping
+# can be challenged without re-parsing.
+#
+#   solid  (argument moves forward): supports licenses bounds motivates reconstructs
+#   dashed (argument pushes back):   revises rebuts qualified_by undercut_by defers
+# ---------------------------------------------------------------------------
+edge_types:
+  # --- as declared ---
+  supports: supports
+  licenses: licenses
+  bounds: bounds
+  motivates: motivates
+  reconstructs: reconstructs
+  revises: revises
+  rebuts: rebuts
+  qualified by: qualified_by
+  undercut by: undercut_by
+  defers: defers
+
+  # --- observed variants, older maps ---
+  rule behind it: licenses          # the Toulmin warrant; template labels this edge so
+  pushes back on: rebuts
+  compared against: bounds
+
+  # scope limits: B narrows where A holds
+  caveat: qualified_by
+  qualifies: qualified_by
+  limited by: qualified_by
+  comparison caveat: qualified_by
+  measurement caveat: qualified_by
+  model caveat: qualified_by
+  tradeoff: qualified_by
+  strategic risk: qualified_by
+  uncertain path: qualified_by
+
+  # rival causes and counterweights: B weakens A without refuting it
+  other explanation: undercut_by
+  possible explanation: undercut_by
+  supports alternative: undercut_by
+  alternative adjustment: undercut_by
+  doesn't fully explain: undercut_by
+  offsetting force: undercut_by
+  could be offset by: undercut_by
+  currently offset by: undercut_by
+
+# Used when an edge carries no label at all.
+edge_default_solid: supports
+# Unlabelled dashed edges are genuinely ambiguous between rebuts / qualified_by /
+# undercut_by. The parser flags them for review rather than picking one.
+edge_default_dashed: null
+
+# Layout-only link syntax, dropped entirely (103 occurrences, all invisible).
+drop_edge_operators: ['~~~']

@@ -1,0 +1,341 @@
+src,dst,rel,type,raw,polarity,labelled
+setser_dec_15_17#P1,setser_dec_15_17#M1,SUPPORTS,supports,,forward,False
+setser_dec_15_17#D1,setser_dec_15_17#M1,SUPPORTS,supports,,forward,False
+setser_dec_15_17#D6,setser_dec_15_17#M1,SUPPORTS,supports,,forward,False
+setser_dec_15_17#M1,setser_dec_15_17#C1,SUPPORTS,supports,,forward,False
+setser_dec_15_17#P2,setser_dec_15_17#M2,SUPPORTS,supports,,forward,False
+setser_dec_15_17#D2,setser_dec_15_17#M2,SUPPORTS,supports,,forward,False
+setser_dec_15_17#D3,setser_dec_15_17#M2,SUPPORTS,supports,,forward,False
+setser_dec_15_17#M2,setser_dec_15_17#C2,SUPPORTS,supports,,forward,False
+setser_dec_15_17#P3,setser_dec_15_17#M3,SUPPORTS,supports,,forward,False
+setser_dec_15_17#D4,setser_dec_15_17#M3,SUPPORTS,supports,,forward,False
+setser_dec_15_17#D5,setser_dec_15_17#M3,SUPPORTS,supports,,forward,False
+setser_dec_15_17#M3,setser_dec_15_17#C3,SUPPORTS,supports,,forward,False
+setser_dec_15_17#C1,setser_dec_15_17#K,SUPPORTS,supports,,forward,False
+setser_dec_15_17#C2,setser_dec_15_17#K,SUPPORTS,supports,,forward,False
+setser_dec_15_17#C3,setser_dec_15_17#K,SUPPORTS,supports,,forward,False
+setser_dec_15_17#C1,setser_dec_15_17#X,QUALIFIED_BY,qualified_by,qualified by,pushes_back,True
+setser_dec_15_17#K,setser_dec_15_17#QF1,QUALIFIED_BY,qualified_by,measurement caveat,pushes_back,True
+setser_dec_15_17#C2,setser_dec_15_17#QF2,QUALIFIED_BY,qualified_by,qualified by,pushes_back,True
+setser_dec_15_17#C3,setser_dec_15_17#R1,QUALIFIED_BY,qualified_by,qualified by,pushes_back,True
+setser_feb_15_18#P1,setser_feb_15_18#M1,SUPPORTS,supports,,forward,False
+setser_feb_15_18#P2,setser_feb_15_18#M1,SUPPORTS,supports,,forward,False
+setser_feb_15_18#D1,setser_feb_15_18#M1,SUPPORTS,supports,,forward,False
+setser_feb_15_18#D3,setser_feb_15_18#M1,SUPPORTS,supports,,forward,False
+setser_feb_15_18#D6,setser_feb_15_18#M1,SUPPORTS,supports,,forward,False
+setser_feb_15_18#M1,setser_feb_15_18#C1,SUPPORTS,supports,,forward,False
+setser_feb_15_18#D4,setser_feb_15_18#M2,SUPPORTS,supports,,forward,False
+setser_feb_15_18#M2,setser_feb_15_18#C2,SUPPORTS,supports,,forward,False
+setser_feb_15_18#P3,setser_feb_15_18#M3,SUPPORTS,supports,,forward,False
+setser_feb_15_18#D5,setser_feb_15_18#M3,SUPPORTS,supports,,forward,False
+setser_feb_15_18#M3,setser_feb_15_18#C3,SUPPORTS,supports,,forward,False
+setser_feb_15_18#D2,setser_feb_15_18#C1,SUPPORTS,supports,,forward,False
+setser_feb_15_18#C1,setser_feb_15_18#K,SUPPORTS,supports,,forward,False
+setser_feb_15_18#C2,setser_feb_15_18#K,SUPPORTS,supports,,forward,False
+setser_feb_15_18#C3,setser_feb_15_18#K,SUPPORTS,supports,,forward,False
+setser_feb_15_18#C1,setser_feb_15_18#X,QUALIFIED_BY,qualified_by,qualified by,pushes_back,True
+setser_feb_15_18#C1,setser_feb_15_18#QF,QUALIFIED_BY,qualified_by,model caveat,pushes_back,True
+setser_feb_15_18#C3,setser_feb_15_18#R1,UNDERCUT_BY,undercut_by,offsetting force,pushes_back,True
+setser_jun_4_18#P3,setser_jun_4_18#M1,SUPPORTS,supports,,forward,False
+setser_jun_4_18#D1,setser_jun_4_18#M1,SUPPORTS,supports,,forward,False
+setser_jun_4_18#D2,setser_jun_4_18#M1,SUPPORTS,supports,,forward,False
+setser_jun_4_18#D5,setser_jun_4_18#M1,SUPPORTS,supports,,forward,False
+setser_jun_4_18#M1,setser_jun_4_18#C1,SUPPORTS,supports,,forward,False
+setser_jun_4_18#P3,setser_jun_4_18#M2,SUPPORTS,supports,,forward,False
+setser_jun_4_18#D3,setser_jun_4_18#M2,SUPPORTS,supports,,forward,False
+setser_jun_4_18#D4,setser_jun_4_18#M2,SUPPORTS,supports,,forward,False
+setser_jun_4_18#M2,setser_jun_4_18#C2,SUPPORTS,supports,,forward,False
+setser_jun_4_18#P1,setser_jun_4_18#M3,SUPPORTS,supports,,forward,False
+setser_jun_4_18#P2,setser_jun_4_18#M3,SUPPORTS,supports,,forward,False
+setser_jun_4_18#C1,setser_jun_4_18#M3,SUPPORTS,supports,,forward,False
+setser_jun_4_18#C2,setser_jun_4_18#M3,SUPPORTS,supports,,forward,False
+setser_jun_4_18#D6,setser_jun_4_18#C3,SUPPORTS,supports,,forward,False
+setser_jun_4_18#C3,setser_jun_4_18#M3,SUPPORTS,supports,,forward,False
+setser_jun_4_18#M3,setser_jun_4_18#K,SUPPORTS,supports,,forward,False
+setser_jun_4_18#C1,setser_jun_4_18#X,QUALIFIED_BY,qualified_by,qualified by,pushes_back,True
+setser_jun_4_18#C2,setser_jun_4_18#QF,QUALIFIED_BY,qualified_by,uncertain path,pushes_back,True
+setser_jun_4_18#C3,setser_jun_4_18#R1,UNDERCUT_BY,undercut_by,could be offset by,pushes_back,True
+setser_jun_4_18#C2,setser_jun_4_18#M3,SUPPORTS,supports,,forward,False
+setser_may_2_19#D1,setser_may_2_19#M1,SUPPORTS,supports,,forward,False
+setser_may_2_19#D2,setser_may_2_19#M1,SUPPORTS,supports,,forward,False
+setser_may_2_19#P2,setser_may_2_19#M2,SUPPORTS,supports,,forward,False
+setser_may_2_19#M1,setser_may_2_19#M2,SUPPORTS,supports,,forward,False
+setser_may_2_19#P3,setser_may_2_19#M3,SUPPORTS,supports,,forward,False
+setser_may_2_19#D3,setser_may_2_19#M3,SUPPORTS,supports,,forward,False
+setser_may_2_19#D4,setser_may_2_19#M3,SUPPORTS,supports,,forward,False
+setser_may_2_19#D5,setser_may_2_19#M3,SUPPORTS,supports,,forward,False
+setser_may_2_19#P1,setser_may_2_19#C1,SUPPORTS,supports,,forward,False
+setser_may_2_19#M2,setser_may_2_19#C2,SUPPORTS,supports,,forward,False
+setser_may_2_19#M3,setser_may_2_19#C3,SUPPORTS,supports,,forward,False
+setser_may_2_19#D6,setser_may_2_19#M4,SUPPORTS,supports,,forward,False
+setser_may_2_19#M2,setser_may_2_19#M4,SUPPORTS,supports,,forward,False
+setser_may_2_19#M4,setser_may_2_19#C4,SUPPORTS,supports,,forward,False
+setser_may_2_19#C1,setser_may_2_19#K,SUPPORTS,supports,,forward,False
+setser_may_2_19#C2,setser_may_2_19#K,SUPPORTS,supports,,forward,False
+setser_may_2_19#C3,setser_may_2_19#K,SUPPORTS,supports,,forward,False
+setser_may_2_19#C4,setser_may_2_19#K,SUPPORTS,supports,,forward,False
+setser_may_2_19#C1,setser_may_2_19#X,UNDERCUT_BY,undercut_by,supports alternative,pushes_back,True
+setser_may_2_19#C2,setser_may_2_19#QF,QUALIFIED_BY,qualified_by,limited by,pushes_back,True
+setser_may_2_19#C3,setser_may_2_19#R1,QUALIFIED_BY,qualified_by,strategic risk,pushes_back,True
+setser_may_2_19#C1,setser_may_2_19#R2,QUALIFIED_BY,qualified_by,qualified by,pushes_back,True
+setser_may_10_19#D1,setser_may_10_19#M1,SUPPORTS,supports,,forward,False
+setser_may_10_19#D2,setser_may_10_19#M1,SUPPORTS,supports,,forward,False
+setser_may_10_19#P2,setser_may_10_19#M2,SUPPORTS,supports,,forward,False
+setser_may_10_19#M1,setser_may_10_19#M2,SUPPORTS,supports,,forward,False
+setser_may_10_19#P3,setser_may_10_19#M3,SUPPORTS,supports,,forward,False
+setser_may_10_19#D3,setser_may_10_19#M3,SUPPORTS,supports,,forward,False
+setser_may_10_19#D4,setser_may_10_19#M3,SUPPORTS,supports,,forward,False
+setser_may_10_19#D5,setser_may_10_19#M3,SUPPORTS,supports,,forward,False
+setser_may_10_19#P1,setser_may_10_19#C1,SUPPORTS,supports,,forward,False
+setser_may_10_19#M2,setser_may_10_19#C2,SUPPORTS,supports,,forward,False
+setser_may_10_19#M3,setser_may_10_19#C3,SUPPORTS,supports,,forward,False
+setser_may_10_19#D6,setser_may_10_19#M4,SUPPORTS,supports,,forward,False
+setser_may_10_19#M2,setser_may_10_19#M4,SUPPORTS,supports,,forward,False
+setser_may_10_19#M4,setser_may_10_19#C4,SUPPORTS,supports,,forward,False
+setser_may_10_19#C1,setser_may_10_19#K,SUPPORTS,supports,,forward,False
+setser_may_10_19#C2,setser_may_10_19#K,SUPPORTS,supports,,forward,False
+setser_may_10_19#C3,setser_may_10_19#K,SUPPORTS,supports,,forward,False
+setser_may_10_19#C4,setser_may_10_19#K,SUPPORTS,supports,,forward,False
+setser_may_10_19#C1,setser_may_10_19#X,UNDERCUT_BY,undercut_by,supports alternative,pushes_back,True
+setser_may_10_19#C2,setser_may_10_19#QF,QUALIFIED_BY,qualified_by,limited by,pushes_back,True
+setser_may_10_19#C3,setser_may_10_19#R1,QUALIFIED_BY,qualified_by,strategic risk,pushes_back,True
+setser_may_10_19#C1,setser_may_10_19#R2,QUALIFIED_BY,qualified_by,qualified by,pushes_back,True
+setser_jun_14_19#P1,setser_jun_14_19#M1,SUPPORTS,supports,,forward,False
+setser_jun_14_19#P1,setser_jun_14_19#M2,SUPPORTS,supports,,forward,False
+setser_jun_14_19#P2,setser_jun_14_19#M2,SUPPORTS,supports,,forward,False
+setser_jun_14_19#P3,setser_jun_14_19#M3,SUPPORTS,supports,,forward,False
+setser_jun_14_19#D2,setser_jun_14_19#M1,SUPPORTS,supports,,forward,False
+setser_jun_14_19#M1,setser_jun_14_19#C1,SUPPORTS,supports,,forward,False
+setser_jun_14_19#D3,setser_jun_14_19#M2,SUPPORTS,supports,,forward,False
+setser_jun_14_19#M2,setser_jun_14_19#C2,SUPPORTS,supports,,forward,False
+setser_jun_14_19#D5,setser_jun_14_19#M3,SUPPORTS,supports,,forward,False
+setser_jun_14_19#D6,setser_jun_14_19#M3,SUPPORTS,supports,,forward,False
+setser_jun_14_19#M3,setser_jun_14_19#C3,SUPPORTS,supports,,forward,False
+setser_jun_14_19#D4,setser_jun_14_19#M4,SUPPORTS,supports,,forward,False
+setser_jun_14_19#M4,setser_jun_14_19#C3,SUPPORTS,supports,,forward,False
+setser_jun_14_19#D1,setser_jun_14_19#C4,SUPPORTS,supports,,forward,False
+setser_jun_14_19#C1,setser_jun_14_19#C4,SUPPORTS,supports,,forward,False
+setser_jun_14_19#C2,setser_jun_14_19#C4,SUPPORTS,supports,,forward,False
+setser_jun_14_19#C3,setser_jun_14_19#C4,SUPPORTS,supports,,forward,False
+setser_jun_14_19#C4,setser_jun_14_19#K,SUPPORTS,supports,,forward,False
+setser_jun_14_19#C3,setser_jun_14_19#QF1,QUALIFIED_BY,qualified_by,qualified by,pushes_back,True
+setser_jun_14_19#C3,setser_jun_14_19#QF2,UNDERCUT_BY,undercut_by,possible explanation,pushes_back,True
+setser_jun_14_19#M4,setser_jun_14_19#R1,UNDERCUT_BY,undercut_by,other explanation,pushes_back,True
+setser_aug_13_19#P2,setser_aug_13_19#M1,SUPPORTS,supports,,forward,False
+setser_aug_13_19#D1,setser_aug_13_19#M1,SUPPORTS,supports,,forward,False
+setser_aug_13_19#M1,setser_aug_13_19#C1,SUPPORTS,supports,,forward,False
+setser_aug_13_19#D2,setser_aug_13_19#C1,SUPPORTS,supports,,forward,False
+setser_aug_13_19#D3,setser_aug_13_19#C1,SUPPORTS,supports,,forward,False
+setser_aug_13_19#P3,setser_aug_13_19#M2,SUPPORTS,supports,,forward,False
+setser_aug_13_19#D4,setser_aug_13_19#M2,SUPPORTS,supports,,forward,False
+setser_aug_13_19#M2,setser_aug_13_19#C2,SUPPORTS,supports,,forward,False
+setser_aug_13_19#D5,setser_aug_13_19#M3,SUPPORTS,supports,,forward,False
+setser_aug_13_19#M3,setser_aug_13_19#C3,SUPPORTS,supports,,forward,False
+setser_aug_13_19#P1,setser_aug_13_19#M4,SUPPORTS,supports,,forward,False
+setser_aug_13_19#D6,setser_aug_13_19#M4,SUPPORTS,supports,,forward,False
+setser_aug_13_19#M4,setser_aug_13_19#C4,SUPPORTS,supports,,forward,False
+setser_aug_13_19#C1,setser_aug_13_19#K1,SUPPORTS,supports,,forward,False
+setser_aug_13_19#C3,setser_aug_13_19#K2,SUPPORTS,supports,,forward,False
+setser_aug_13_19#C4,setser_aug_13_19#K2,SUPPORTS,supports,,forward,False
+setser_aug_13_19#C2,setser_aug_13_19#X,REBUTS,rebuts,pushes back on,pushes_back,True
+setser_aug_13_19#C1,setser_aug_13_19#R1,UNDERCUT_BY,undercut_by,other explanation,pushes_back,True
+setser_aug_13_19#C4,setser_aug_13_19#QF,QUALIFIED_BY,qualified_by,comparison caveat,pushes_back,True
+setser_aug_13_19#C3,setser_aug_13_19#R2,QUALIFIED_BY,qualified_by,tradeoff,pushes_back,True
+setser_aug_13_19#C2,setser_aug_13_19#K1,SUPPORTS,supports,,forward,False
+setser_sep_20_19#P2,setser_sep_20_19#M1,SUPPORTS,supports,,forward,False
+setser_sep_20_19#D2,setser_sep_20_19#M1,SUPPORTS,supports,,forward,False
+setser_sep_20_19#M1,setser_sep_20_19#C1,SUPPORTS,supports,,forward,False
+setser_sep_20_19#P3,setser_sep_20_19#M2,SUPPORTS,supports,,forward,False
+setser_sep_20_19#D4,setser_sep_20_19#M2,SUPPORTS,supports,,forward,False
+setser_sep_20_19#D5,setser_sep_20_19#M2,SUPPORTS,supports,,forward,False
+setser_sep_20_19#M2,setser_sep_20_19#C2,SUPPORTS,supports,,forward,False
+setser_sep_20_19#D6,setser_sep_20_19#M3,SUPPORTS,supports,,forward,False
+setser_sep_20_19#M2,setser_sep_20_19#M3,SUPPORTS,supports,,forward,False
+setser_sep_20_19#M3,setser_sep_20_19#C3,SUPPORTS,supports,,forward,False
+setser_sep_20_19#P1,setser_sep_20_19#M4,SUPPORTS,supports,,forward,False
+setser_sep_20_19#D1,setser_sep_20_19#M4,SUPPORTS,supports,,forward,False
+setser_sep_20_19#D3,setser_sep_20_19#M4,SUPPORTS,supports,,forward,False
+setser_sep_20_19#M4,setser_sep_20_19#C4,SUPPORTS,supports,,forward,False
+setser_sep_20_19#D7,setser_sep_20_19#C4,SUPPORTS,supports,,forward,False
+setser_sep_20_19#C1,setser_sep_20_19#K,SUPPORTS,supports,,forward,False
+setser_sep_20_19#C2,setser_sep_20_19#K,SUPPORTS,supports,,forward,False
+setser_sep_20_19#C3,setser_sep_20_19#K,SUPPORTS,supports,,forward,False
+setser_sep_20_19#C4,setser_sep_20_19#K,SUPPORTS,supports,,forward,False
+setser_sep_20_19#C1,setser_sep_20_19#X,UNDERCUT_BY,undercut_by,alternative adjustment,pushes_back,True
+setser_sep_20_19#C1,setser_sep_20_19#R1,UNDERCUT_BY,undercut_by,doesn't fully explain,pushes_back,True
+setser_sep_20_19#C4,setser_sep_20_19#QF1,QUALIFIED_BY,qualified_by,qualified by,pushes_back,True
+setser_sep_20_19#C3,setser_sep_20_19#QF2,UNDERCUT_BY,undercut_by,currently offset by,pushes_back,True
+setser_jan_31_20#P3,setser_jan_31_20#P1,REVISES,revises,revises,pushes_back,True
+setser_jan_31_20#P1,setser_jan_31_20#C1,LICENSES,licenses,licenses,forward,True
+setser_jan_31_20#E1,setser_jan_31_20#M1,SUPPORTS,supports,supports,forward,True
+setser_jan_31_20#E1,setser_jan_31_20#C1,SUPPORTS,supports,supports,forward,True
+setser_jan_31_20#E2,setser_jan_31_20#C1,SUPPORTS,supports,supports,forward,True
+setser_jan_31_20#M1,setser_jan_31_20#C1,SUPPORTS,supports,supports,forward,True
+setser_jan_31_20#M2,setser_jan_31_20#C1,SUPPORTS,supports,supports,forward,True
+setser_jan_31_20#SC,setser_jan_31_20#E1,UNDERCUT_BY,undercut_by,undercut by,pushes_back,True
+setser_jan_31_20#C1,setser_jan_31_20#K,SUPPORTS,supports,supports,forward,True
+setser_jan_31_20#P2,setser_jan_31_20#K,LICENSES,licenses,licenses,forward,True
+setser_jan_31_20#K,setser_jan_31_20#X,REBUTS,rebuts,rebuts,pushes_back,True
+setser_jan_31_20#K,setser_jan_31_20#QF,QUALIFIED_BY,qualified_by,qualified by,pushes_back,True
+setser_jan_31_20#C1,setser_jan_31_20#R1,UNDERCUT_BY,undercut_by,undercut by,pushes_back,True
+setser_feb_26_20#P2,setser_feb_26_20#M1,SUPPORTS,supports,,forward,False
+setser_feb_26_20#P3,setser_feb_26_20#M1,SUPPORTS,supports,,forward,False
+setser_feb_26_20#D1,setser_feb_26_20#M1,SUPPORTS,supports,,forward,False
+setser_feb_26_20#D2,setser_feb_26_20#M1,SUPPORTS,supports,,forward,False
+setser_feb_26_20#P4,setser_feb_26_20#M2,SUPPORTS,supports,,forward,False
+setser_feb_26_20#M2,setser_feb_26_20#M3,SUPPORTS,supports,,forward,False
+setser_feb_26_20#D3,setser_feb_26_20#M3,SUPPORTS,supports,,forward,False
+setser_feb_26_20#M1,setser_feb_26_20#C1,SUPPORTS,supports,,forward,False
+setser_feb_26_20#M3,setser_feb_26_20#C1,SUPPORTS,supports,,forward,False
+setser_feb_26_20#P1,setser_feb_26_20#C1,LICENSES,licenses,licenses,forward,True
+setser_feb_26_20#D4,setser_feb_26_20#C2,SUPPORTS,supports,,forward,False
+setser_feb_26_20#D5,setser_feb_26_20#C2,SUPPORTS,supports,,forward,False
+setser_feb_26_20#C1,setser_feb_26_20#K,SUPPORTS,supports,,forward,False
+setser_feb_26_20#C2,setser_feb_26_20#K,SUPPORTS,supports,,forward,False
+setser_feb_26_20#K,setser_feb_26_20#X,QUALIFIED_BY,qualified_by,qualifies,pushes_back,True
+setser_feb_26_20#K,setser_feb_26_20#QF,QUALIFIED_BY,qualified_by,limited by,pushes_back,True
+setser_feb_26_20#M2,setser_feb_26_20#R1,UNDERCUT_BY,undercut_by,undercut by,pushes_back,True
+setser_mar_31_20#P3,setser_mar_31_20#P1,REVISES,revises,revises,pushes_back,True
+setser_mar_31_20#P1,setser_mar_31_20#M1,SUPPORTS,supports,supports,forward,True
+setser_mar_31_20#E1,setser_mar_31_20#M1,SUPPORTS,supports,supports,forward,True
+setser_mar_31_20#M1,setser_mar_31_20#C1,SUPPORTS,supports,supports,forward,True
+setser_mar_31_20#P2,setser_mar_31_20#C2,LICENSES,licenses,licenses,forward,True
+setser_mar_31_20#M1,setser_mar_31_20#C2,SUPPORTS,supports,supports,forward,True
+setser_mar_31_20#C1,setser_mar_31_20#K,SUPPORTS,supports,supports,forward,True
+setser_mar_31_20#C2,setser_mar_31_20#K,SUPPORTS,supports,supports,forward,True
+setser_mar_31_20#M2,setser_mar_31_20#REC,LICENSES,licenses,licenses,forward,True
+setser_mar_31_20#E2,setser_mar_31_20#REC,SUPPORTS,supports,supports,forward,True
+setser_mar_31_20#C2,setser_mar_31_20#REC,SUPPORTS,supports,supports,forward,True
+setser_mar_31_20#K,setser_mar_31_20#REC,MOTIVATES,motivates,motivates,forward,True
+setser_mar_31_20#K,setser_mar_31_20#X,REBUTS,rebuts,rebuts,pushes_back,True
+setser_mar_31_20#REC,setser_mar_31_20#QF,QUALIFIED_BY,qualified_by,qualified by,pushes_back,True
+setser_jul_8_20#SCP,setser_jul_8_20#BM,BOUNDS,bounds,bounds,forward,True
+setser_jul_8_20#BM,setser_jul_8_20#E1,BOUNDS,bounds,compared against,forward,True
+setser_jul_8_20#E2,setser_jul_8_20#E1,SUPPORTS,supports,supports,forward,True
+setser_jul_8_20#P1,setser_jul_8_20#M1,SUPPORTS,supports,supports,forward,True
+setser_jul_8_20#E1,setser_jul_8_20#C1,SUPPORTS,supports,supports,forward,True
+setser_jul_8_20#M1,setser_jul_8_20#C1,SUPPORTS,supports,supports,forward,True
+setser_jul_8_20#M2,setser_jul_8_20#C1,SUPPORTS,supports,supports,forward,True
+setser_jul_8_20#BM,setser_jul_8_20#C1,LICENSES,licenses,licenses,forward,True
+setser_jul_8_20#C1,setser_jul_8_20#K,SUPPORTS,supports,supports,forward,True
+setser_jul_8_20#P2,setser_jul_8_20#K,LICENSES,licenses,licenses,forward,True
+setser_jul_8_20#K,setser_jul_8_20#X,REBUTS,rebuts,rebuts,pushes_back,True
+setser_jul_8_20#C1,setser_jul_8_20#QF,QUALIFIED_BY,qualified_by,qualified by,pushes_back,True
+setser_jul_8_20#C1,setser_jul_8_20#R1,UNDERCUT_BY,undercut_by,undercut by,pushes_back,True
+setser_mar_10_24#SCP,setser_mar_10_24#E1,BOUNDS,bounds,bounds,forward,True
+setser_mar_10_24#SC,setser_mar_10_24#E4,SUPPORTS,supports,supports,forward,True
+setser_mar_10_24#E1,setser_mar_10_24#C1,SUPPORTS,supports,supports,forward,True
+setser_mar_10_24#E2,setser_mar_10_24#C1,SUPPORTS,supports,supports,forward,True
+setser_mar_10_24#E4,setser_mar_10_24#C1,SUPPORTS,supports,supports,forward,True
+setser_mar_10_24#ID,setser_mar_10_24#C1,LICENSES,licenses,licenses,forward,True
+setser_mar_10_24#P1,setser_mar_10_24#C1,LICENSES,licenses,licenses,forward,True
+setser_mar_10_24#M1,setser_mar_10_24#C1,SUPPORTS,supports,supports,forward,True
+setser_mar_10_24#M2,setser_mar_10_24#C1,SUPPORTS,supports,supports,forward,True
+setser_mar_10_24#C1,setser_mar_10_24#K,SUPPORTS,supports,supports,forward,True
+setser_mar_10_24#C1,setser_mar_10_24#C3,SUPPORTS,supports,supports,forward,True
+setser_mar_10_24#C3,setser_mar_10_24#K,SUPPORTS,supports,supports,forward,True
+setser_mar_10_24#K,setser_mar_10_24#REC,MOTIVATES,motivates,motivates,forward,True
+setser_mar_10_24#P2,setser_mar_10_24#REC,LICENSES,licenses,licenses,forward,True
+setser_mar_10_24#K,setser_mar_10_24#X,REBUTS,rebuts,rebuts,pushes_back,True
+setser_mar_10_24#K,setser_mar_10_24#QF,QUALIFIED_BY,qualified_by,qualified by,pushes_back,True
+setser_aug_14_24#E3,setser_aug_14_24#E4,SUPPORTS,supports,supports,forward,True
+setser_aug_14_24#SC,setser_aug_14_24#E4,SUPPORTS,supports,supports,forward,True
+setser_aug_14_24#E2,setser_aug_14_24#M1,SUPPORTS,supports,supports,forward,True
+setser_aug_14_24#E2,setser_aug_14_24#M2,SUPPORTS,supports,supports,forward,True
+setser_aug_14_24#M1,setser_aug_14_24#C1,SUPPORTS,supports,supports,forward,True
+setser_aug_14_24#M2,setser_aug_14_24#C1,SUPPORTS,supports,supports,forward,True
+setser_aug_14_24#E4,setser_aug_14_24#C1,SUPPORTS,supports,supports,forward,True
+setser_aug_14_24#E1,setser_aug_14_24#C1,SUPPORTS,supports,supports,forward,True
+setser_aug_14_24#P1,setser_aug_14_24#C1,LICENSES,licenses,licenses,forward,True
+setser_aug_14_24#C1,setser_aug_14_24#K,SUPPORTS,supports,supports,forward,True
+setser_aug_14_24#K,setser_aug_14_24#RC,RECONSTRUCTS,reconstructs,reconstructs,forward,True
+setser_aug_14_24#P2,setser_aug_14_24#RC,LICENSES,licenses,licenses,forward,True
+setser_aug_14_24#K,setser_aug_14_24#REC,MOTIVATES,motivates,motivates,forward,True
+setser_aug_14_24#K,setser_aug_14_24#X,REBUTS,rebuts,rebuts,pushes_back,True
+setser_aug_14_24#RC,setser_aug_14_24#QF,QUALIFIED_BY,qualified_by,qualified by,pushes_back,True
+setser_aug_14_24#K,setser_aug_14_24#DF,DEFERS,defers,defers,pushes_back,True
+setser_may_5_25#POS,setser_may_5_25#ANOM,SUPPORTS,supports,supports,forward,True
+setser_may_5_25#ANOM,setser_may_5_25#Q,MOTIVATES,motivates,motivates,forward,True
+setser_may_5_25#P3,setser_may_5_25#P1,REVISES,revises,revises,pushes_back,True
+setser_may_5_25#E1,setser_may_5_25#M1,SUPPORTS,supports,supports,forward,True
+setser_may_5_25#E2,setser_may_5_25#M1,SUPPORTS,supports,supports,forward,True
+setser_may_5_25#E1,setser_may_5_25#M2,SUPPORTS,supports,supports,forward,True
+setser_may_5_25#P2,setser_may_5_25#M1,UNDERCUT_BY,undercut_by,undercut by,pushes_back,True
+setser_may_5_25#M1,setser_may_5_25#C1,SUPPORTS,supports,supports,forward,True
+setser_may_5_25#M2,setser_may_5_25#C1,SUPPORTS,supports,supports,forward,True
+setser_may_5_25#C1,setser_may_5_25#K,SUPPORTS,supports,supports,forward,True
+setser_may_5_25#K,setser_may_5_25#X,REBUTS,rebuts,rebuts,pushes_back,True
+setser_may_5_25#K,setser_may_5_25#QF,QUALIFIED_BY,qualified_by,qualified by,pushes_back,True
+setser_may_5_25#C1,setser_may_5_25#R1,UNDERCUT_BY,undercut_by,undercut by,pushes_back,True
+setser_may_5_25#K,setser_may_5_25#DF,DEFERS,defers,defers,pushes_back,True
+setser_2025-07-07_china-stealth-surplus#P1,setser_2025-07-07_china-stealth-surplus#C1,SUPPORTS,supports,,forward,False
+setser_2025-07-07_china-stealth-surplus#P2,setser_2025-07-07_china-stealth-surplus#M1,SUPPORTS,supports,,forward,False
+setser_2025-07-07_china-stealth-surplus#P2,setser_2025-07-07_china-stealth-surplus#M2,SUPPORTS,supports,,forward,False
+setser_2025-07-07_china-stealth-surplus#E1,setser_2025-07-07_china-stealth-surplus#M1,SUPPORTS,supports,,forward,False
+setser_2025-07-07_china-stealth-surplus#E2,setser_2025-07-07_china-stealth-surplus#M1,SUPPORTS,supports,,forward,False
+setser_2025-07-07_china-stealth-surplus#E2,setser_2025-07-07_china-stealth-surplus#M2,SUPPORTS,supports,,forward,False
+setser_2025-07-07_china-stealth-surplus#M1,setser_2025-07-07_china-stealth-surplus#C1,SUPPORTS,supports,,forward,False
+setser_2025-07-07_china-stealth-surplus#M2,setser_2025-07-07_china-stealth-surplus#C1,SUPPORTS,supports,,forward,False
+setser_2025-07-07_china-stealth-surplus#P3,setser_2025-07-07_china-stealth-surplus#C1,LICENSES,licenses,rule behind it,forward,True
+setser_2025-07-07_china-stealth-surplus#C1,setser_2025-07-07_china-stealth-surplus#K,SUPPORTS,supports,,forward,False
+setser_2025-07-07_china-stealth-surplus#K,setser_2025-07-07_china-stealth-surplus#X,REBUTS,rebuts,pushes back on,pushes_back,True
+setser_2025-07-07_china-stealth-surplus#K,setser_2025-07-07_china-stealth-surplus#QF,QUALIFIED_BY,qualified_by,caveat,pushes_back,True
+setser_2025-07-07_china-stealth-surplus#M1,setser_2025-07-07_china-stealth-surplus#R1,UNDERCUT_BY,undercut_by,other explanation,pushes_back,True
+setser_2025-07-28_china-eu-trade-war#P1,setser_2025-07-28_china-eu-trade-war#M1,SUPPORTS,supports,,forward,False
+setser_2025-07-28_china-eu-trade-war#P2,setser_2025-07-28_china-eu-trade-war#M1,SUPPORTS,supports,,forward,False
+setser_2025-07-28_china-eu-trade-war#P1,setser_2025-07-28_china-eu-trade-war#M2,SUPPORTS,supports,,forward,False
+setser_2025-07-28_china-eu-trade-war#E1,setser_2025-07-28_china-eu-trade-war#M1,SUPPORTS,supports,,forward,False
+setser_2025-07-28_china-eu-trade-war#E1,setser_2025-07-28_china-eu-trade-war#M2,SUPPORTS,supports,,forward,False
+setser_2025-07-28_china-eu-trade-war#E2,setser_2025-07-28_china-eu-trade-war#M1,SUPPORTS,supports,,forward,False
+setser_2025-07-28_china-eu-trade-war#M1,setser_2025-07-28_china-eu-trade-war#C1,SUPPORTS,supports,,forward,False
+setser_2025-07-28_china-eu-trade-war#M2,setser_2025-07-28_china-eu-trade-war#C1,SUPPORTS,supports,,forward,False
+setser_2025-07-28_china-eu-trade-war#P3,setser_2025-07-28_china-eu-trade-war#C1,LICENSES,licenses,rule behind it,forward,True
+setser_2025-07-28_china-eu-trade-war#C1,setser_2025-07-28_china-eu-trade-war#K,SUPPORTS,supports,,forward,False
+setser_2025-07-28_china-eu-trade-war#K,setser_2025-07-28_china-eu-trade-war#X,REBUTS,rebuts,pushes back on,pushes_back,True
+setser_2025-07-28_china-eu-trade-war#K,setser_2025-07-28_china-eu-trade-war#QF,QUALIFIED_BY,qualified_by,caveat,pushes_back,True
+setser_2025-07-28_china-eu-trade-war#M1,setser_2025-07-28_china-eu-trade-war#R1,UNDERCUT_BY,undercut_by,other explanation,pushes_back,True
+setser_2025-09-12_trump-shock-that-wasnt#P3,setser_2025-09-12_trump-shock-that-wasnt#M1,SUPPORTS,supports,,forward,False
+setser_2025-09-12_trump-shock-that-wasnt#E1,setser_2025-09-12_trump-shock-that-wasnt#M1,SUPPORTS,supports,,forward,False
+setser_2025-09-12_trump-shock-that-wasnt#E1,setser_2025-09-12_trump-shock-that-wasnt#M2,SUPPORTS,supports,,forward,False
+setser_2025-09-12_trump-shock-that-wasnt#E1,setser_2025-09-12_trump-shock-that-wasnt#M3,SUPPORTS,supports,,forward,False
+setser_2025-09-12_trump-shock-that-wasnt#P1,setser_2025-09-12_trump-shock-that-wasnt#M4,SUPPORTS,supports,,forward,False
+setser_2025-09-12_trump-shock-that-wasnt#E2,setser_2025-09-12_trump-shock-that-wasnt#M1,SUPPORTS,supports,,forward,False
+setser_2025-09-12_trump-shock-that-wasnt#M1,setser_2025-09-12_trump-shock-that-wasnt#C1,SUPPORTS,supports,,forward,False
+setser_2025-09-12_trump-shock-that-wasnt#M2,setser_2025-09-12_trump-shock-that-wasnt#C1,SUPPORTS,supports,,forward,False
+setser_2025-09-12_trump-shock-that-wasnt#M3,setser_2025-09-12_trump-shock-that-wasnt#C1,SUPPORTS,supports,,forward,False
+setser_2025-09-12_trump-shock-that-wasnt#P2,setser_2025-09-12_trump-shock-that-wasnt#C1,SUPPORTS,supports,,forward,False
+setser_2025-09-12_trump-shock-that-wasnt#M4,setser_2025-09-12_trump-shock-that-wasnt#K,SUPPORTS,supports,,forward,False
+setser_2025-09-12_trump-shock-that-wasnt#P3,setser_2025-09-12_trump-shock-that-wasnt#C1,LICENSES,licenses,rule behind it,forward,True
+setser_2025-09-12_trump-shock-that-wasnt#C1,setser_2025-09-12_trump-shock-that-wasnt#K,SUPPORTS,supports,,forward,False
+setser_2025-09-12_trump-shock-that-wasnt#K,setser_2025-09-12_trump-shock-that-wasnt#X,REBUTS,rebuts,pushes back on,pushes_back,True
+setser_2025-09-12_trump-shock-that-wasnt#K,setser_2025-09-12_trump-shock-that-wasnt#QF,QUALIFIED_BY,qualified_by,caveat,pushes_back,True
+setser_2025-09-12_trump-shock-that-wasnt#M1,setser_2025-09-12_trump-shock-that-wasnt#R1,UNDERCUT_BY,undercut_by,other explanation,pushes_back,True
+setser_2025-11-12_china-surplus-imf#P1,setser_2025-11-12_china-surplus-imf#M1,SUPPORTS,supports,,forward,False
+setser_2025-11-12_china-surplus-imf#E1,setser_2025-11-12_china-surplus-imf#M1,SUPPORTS,supports,,forward,False
+setser_2025-11-12_china-surplus-imf#E1,setser_2025-11-12_china-surplus-imf#M2,SUPPORTS,supports,,forward,False
+setser_2025-11-12_china-surplus-imf#E2,setser_2025-11-12_china-surplus-imf#M2,SUPPORTS,supports,,forward,False
+setser_2025-11-12_china-surplus-imf#E2,setser_2025-11-12_china-surplus-imf#M3,SUPPORTS,supports,,forward,False
+setser_2025-11-12_china-surplus-imf#M2,setser_2025-11-12_china-surplus-imf#M3,SUPPORTS,supports,,forward,False
+setser_2025-11-12_china-surplus-imf#M1,setser_2025-11-12_china-surplus-imf#C1,SUPPORTS,supports,,forward,False
+setser_2025-11-12_china-surplus-imf#M3,setser_2025-11-12_china-surplus-imf#C1,SUPPORTS,supports,,forward,False
+setser_2025-11-12_china-surplus-imf#P2,setser_2025-11-12_china-surplus-imf#K,SUPPORTS,supports,,forward,False
+setser_2025-11-12_china-surplus-imf#P3,setser_2025-11-12_china-surplus-imf#C1,LICENSES,licenses,rule behind it,forward,True
+setser_2025-11-12_china-surplus-imf#C1,setser_2025-11-12_china-surplus-imf#K,SUPPORTS,supports,,forward,False
+setser_2025-11-12_china-surplus-imf#K,setser_2025-11-12_china-surplus-imf#X,REBUTS,rebuts,pushes back on,pushes_back,True
+setser_2025-11-12_china-surplus-imf#K,setser_2025-11-12_china-surplus-imf#QF,QUALIFIED_BY,qualified_by,caveat,pushes_back,True
+setser_2025-11-12_china-surplus-imf#M3,setser_2025-11-12_china-surplus-imf#R1,UNDERCUT_BY,undercut_by,other explanation,pushes_back,True
+setser_2026-02-03_october-2025-deficit#P2,setser_2026-02-03_october-2025-deficit#M1,SUPPORTS,supports,,forward,False
+setser_2026-02-03_october-2025-deficit#E1,setser_2026-02-03_october-2025-deficit#M1,SUPPORTS,supports,,forward,False
+setser_2026-02-03_october-2025-deficit#E1,setser_2026-02-03_october-2025-deficit#M2,SUPPORTS,supports,,forward,False
+setser_2026-02-03_october-2025-deficit#E1,setser_2026-02-03_october-2025-deficit#M3,SUPPORTS,supports,,forward,False
+setser_2026-02-03_october-2025-deficit#E2,setser_2026-02-03_october-2025-deficit#M3,SUPPORTS,supports,,forward,False
+setser_2026-02-03_october-2025-deficit#P1,setser_2026-02-03_october-2025-deficit#M4,SUPPORTS,supports,,forward,False
+setser_2026-02-03_october-2025-deficit#M1,setser_2026-02-03_october-2025-deficit#C1,SUPPORTS,supports,,forward,False
+setser_2026-02-03_october-2025-deficit#M2,setser_2026-02-03_october-2025-deficit#C1,SUPPORTS,supports,,forward,False
+setser_2026-02-03_october-2025-deficit#M3,setser_2026-02-03_october-2025-deficit#C1,SUPPORTS,supports,,forward,False
+setser_2026-02-03_october-2025-deficit#M4,setser_2026-02-03_october-2025-deficit#K,SUPPORTS,supports,,forward,False
+setser_2026-02-03_october-2025-deficit#P3,setser_2026-02-03_october-2025-deficit#C1,LICENSES,licenses,rule behind it,forward,True
+setser_2026-02-03_october-2025-deficit#C1,setser_2026-02-03_october-2025-deficit#K,SUPPORTS,supports,,forward,False
+setser_2026-02-03_october-2025-deficit#K,setser_2026-02-03_october-2025-deficit#X,REBUTS,rebuts,pushes back on,pushes_back,True
+setser_2026-02-03_october-2025-deficit#K,setser_2026-02-03_october-2025-deficit#QF,QUALIFIED_BY,qualified_by,caveat,pushes_back,True
+setser_2026-02-03_october-2025-deficit#M2,setser_2026-02-03_october-2025-deficit#R1,UNDERCUT_BY,undercut_by,other explanation,pushes_back,True

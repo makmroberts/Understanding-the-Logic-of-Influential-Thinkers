@@ -1,0 +1,21 @@
+id,date,family,title,author,outlet,url,genre,shape,topics
+setser_dec_15_17,2017-12-15,plain,"Why does the U.S. trade balance still matter, even if deficits can accompany strong growth?",,,,,,
+setser_feb_15_18,2018-02-15,plain,Will Trump's fiscal expansion undermine his goal of reducing the U.S. trade deficit?,,,,,,
+setser_jun_4_18,2018-06-04,plain,Could global macro shocks overwhelm trade deals and push the U.S. trade deficit higher?,,,,,,
+setser_may_2_19,2019-05-02,plain,"If U.S.-China trade tensions escalate, will China keep the yuan stable or let it weaken?",,,,,,
+setser_may_10_19,2019-05-10,plain,"If U.S.-China trade tensions escalate, will China keep the yuan stable or let it weaken?",,,,,,
+setser_jun_14_19,2019-06-14,plain,Why did China's tariffs devastate some U.S. exports but have limited effects on others?,,,,,,
+setser_aug_13_19,2019-08-13,plain,"Why do the U.S., Europe, and China now occupy such different positions in manufacturing trade?",,,,,,
+setser_sep_20_19,2019-09-20,plain,"Why do global trade imbalances persist, and why could they worsen before improving?",,,,,,
+setser_jan_31_20,2020-01-31,banner,Lessons From Phase One of the Trade War With China,,,,,Shape E · parallel enumeration,
+setser_feb_26_20,2020-02-26,plain,"Do tariffs change the trade balance, and who absorbed the Q4 US demand drop?",,,,,,
+setser_mar_31_20,2020-03-31,banner,"Not One Emerging Market Financial Crisis, but Many",,,,,Shape D · typology + prescription,
+setser_jul_8_20,2020-07-08,banner,Slouching Toward Phase One,,,,,Shape B · benchmark audit,
+setser_mar_10_24,2024-03-10,banner,China's Record Manufacturing Surplus,,,,,"Shape C · measurement critique, with a policy reductio",
+setser_aug_14_24,2024-08-14,banner,China's Imaginary Trade Data,,,,,Shape C · measurement critique,
+setser_may_5_25,2025-05-05,banner,Why Didn't Tariffs Push Up the U.S. Dollar?,,,,,Shape E · parallel enumeration,
+setser_2025-07-07_china-stealth-surplus,2025-07-07,meta,China's Stealth Trade Surplus,Brad W. Setser,CFR Follow the Money,https://www.cfr.org/articles/chinas-stealth-trade-surplus,blog / data critique,,"China, EU, balance of payments, statistics, IMF"
+setser_2025-07-28_china-eu-trade-war,2025-07-28,meta,China is also Fighting a Trade War with Europe (and Winning),Brad W. Setser,CFR Follow the Money,https://www.cfr.org/articles/china-also-fighting-trade-war-europe-and-winning,blog / policy commentary,,"China, EU, industrial policy, currency, autos"
+setser_2025-09-12_trump-shock-that-wasnt,2025-09-12,meta,The Trump Shock That Wasn't (At Least Not Yet),Brad W. Setser,CFR Follow the Money,https://www.cfr.org/articles/trump-shock-wasnt-least-not-yet,blog / data analysis,,"US tariffs, trade flows, elasticities, WTO"
+setser_2025-11-12_china-surplus-imf,2025-11-12,meta,China's Massive Surplus is Everywhere (Yet The IMF Still Has Trouble Seeing It Clearly),Brad W. Setser,CFR Follow the Money,https://www.cfr.org/articles/chinas-massive-surplus-everywhere-yet-imf-still-has-trouble-seeing-it-clearly,blog / institutional critique,,"China, IMF, global imbalances, fiscal policy"
+setser_2026-02-03_october-2025-deficit,2026-02-03,meta,Understanding the Low October 2025 Trade Deficit,Brad W. Setser,CFR Expert Take,https://www.cfr.org/articles/understanding-the-low-october-2025-trade-deficit,Q&A explainer,,"US trade deficit, tariffs, stockpiling, fiscal policy"

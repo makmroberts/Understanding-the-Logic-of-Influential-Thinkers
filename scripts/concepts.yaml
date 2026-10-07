@@ -1,0 +1,52 @@
+# The cross-document layer, maintained by hand.
+#
+# Node ids are local to a file: M1 in one map has nothing to do with M1 in
+# another. A concept id is what says "these are the same idea, argued in
+# different articles" - and that is the only thing that turns 20 separate
+# pictures into one graph. Nothing else in the pipeline infers these.
+#
+#   format:  <doc stem>#<node id>
+#   check:   python scripts/parse_maps.py   (reports how many nodes matched)
+#   candidates: python scripts/parse_maps.py --propose -> data/concepts_proposed.yaml
+#
+# The four below are seeds, to prove the join works and to set the naming
+# convention. They came from the candidate pass and were kept because the nodes
+# genuinely make the same move; everything else in that file still needs review.
+
+concepts:
+
+  state-can-direct-purchases:
+    label: Industrial policy is the lever, and the state can direct trade flows
+    note: >
+      A prior Setser returns to across five years: because a few state firms
+      control agriculture and energy, purchase commitments are achievable, while
+      manufacturing is not directable the same way.
+    nodes:
+      - setser_jan_31_20#P1
+      - setser_jul_8_20#P1
+      - setser_2025-07-28_china-eu-trade-war#P1
+
+  bop-understates-china-surplus:
+    label: Balance-of-payments methodology understates China's true surplus
+    note: >
+      The mechanism behind the 2024-2025 measurement critiques - an unexplained
+      series break plus an unexplained income deficit, both shrinking the
+      reported current account relative to customs data.
+    nodes:
+      - setser_2025-07-07_china-stealth-surplus#M1
+      - setser_2025-11-12_china-surplus-imf#M2
+
+  deficits-require-financing:
+    label: Persistent deficits must ultimately be financed
+    note: >
+      The accounting prior under the 2017-2019 posts; later maps assume it
+      rather than stating it.
+    nodes:
+      - setser_dec_15_17#P3
+      - setser_aug_13_19#P3
+
+  debt-dynamics-sensitive-to-rates:
+    label: Favourable external debt dynamics depend on rates staying low
+    nodes:
+      - setser_dec_15_17#D5
+      - setser_feb_15_18#D4

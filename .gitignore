@@ -1,0 +1,22 @@
+# Extracted source text and HTML caches stay local - only the scripts that
+# produce them are versioned. See scripts/README.md.
+internal/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Node, if we add Quartz or similar later
+node_modules/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Obsidian per-user UI state - which panes are open, window size. Churns on
+# every session and is personal. The vault's graph.json colour groups ARE
+# versioned, since those are part of how the maps are meant to be read.
+obsidian/.obsidian/workspace.json
+obsidian/.obsidian/workspace-mobile.json

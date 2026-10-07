@@ -1,0 +1,341 @@
+doc,family,date,from,to,type,polarity,raw,needs_review
+setser_dec_15_17,plain,2017-12-15,P1,M1,supports,forward,,0
+setser_dec_15_17,plain,2017-12-15,D1,M1,supports,forward,,0
+setser_dec_15_17,plain,2017-12-15,D6,M1,supports,forward,,0
+setser_dec_15_17,plain,2017-12-15,M1,C1,supports,forward,,0
+setser_dec_15_17,plain,2017-12-15,P2,M2,supports,forward,,0
+setser_dec_15_17,plain,2017-12-15,D2,M2,supports,forward,,0
+setser_dec_15_17,plain,2017-12-15,D3,M2,supports,forward,,0
+setser_dec_15_17,plain,2017-12-15,M2,C2,supports,forward,,0
+setser_dec_15_17,plain,2017-12-15,P3,M3,supports,forward,,0
+setser_dec_15_17,plain,2017-12-15,D4,M3,supports,forward,,0
+setser_dec_15_17,plain,2017-12-15,D5,M3,supports,forward,,0
+setser_dec_15_17,plain,2017-12-15,M3,C3,supports,forward,,0
+setser_dec_15_17,plain,2017-12-15,C1,K,supports,forward,,0
+setser_dec_15_17,plain,2017-12-15,C2,K,supports,forward,,0
+setser_dec_15_17,plain,2017-12-15,C3,K,supports,forward,,0
+setser_dec_15_17,plain,2017-12-15,C1,X,qualified_by,pushes_back,qualified by,0
+setser_dec_15_17,plain,2017-12-15,K,QF1,qualified_by,pushes_back,measurement caveat,0
+setser_dec_15_17,plain,2017-12-15,C2,QF2,qualified_by,pushes_back,qualified by,0
+setser_dec_15_17,plain,2017-12-15,C3,R1,qualified_by,pushes_back,qualified by,0
+setser_feb_15_18,plain,2018-02-15,P1,M1,supports,forward,,0
+setser_feb_15_18,plain,2018-02-15,P2,M1,supports,forward,,0
+setser_feb_15_18,plain,2018-02-15,D1,M1,supports,forward,,0
+setser_feb_15_18,plain,2018-02-15,D3,M1,supports,forward,,0
+setser_feb_15_18,plain,2018-02-15,D6,M1,supports,forward,,0
+setser_feb_15_18,plain,2018-02-15,M1,C1,supports,forward,,0
+setser_feb_15_18,plain,2018-02-15,D4,M2,supports,forward,,0
+setser_feb_15_18,plain,2018-02-15,M2,C2,supports,forward,,0
+setser_feb_15_18,plain,2018-02-15,P3,M3,supports,forward,,0
+setser_feb_15_18,plain,2018-02-15,D5,M3,supports,forward,,0
+setser_feb_15_18,plain,2018-02-15,M3,C3,supports,forward,,0
+setser_feb_15_18,plain,2018-02-15,D2,C1,supports,forward,,0
+setser_feb_15_18,plain,2018-02-15,C1,K,supports,forward,,0
+setser_feb_15_18,plain,2018-02-15,C2,K,supports,forward,,0
+setser_feb_15_18,plain,2018-02-15,C3,K,supports,forward,,0
+setser_feb_15_18,plain,2018-02-15,C1,X,qualified_by,pushes_back,qualified by,0
+setser_feb_15_18,plain,2018-02-15,C1,QF,qualified_by,pushes_back,model caveat,0
+setser_feb_15_18,plain,2018-02-15,C3,R1,undercut_by,pushes_back,offsetting force,0
+setser_jun_4_18,plain,2018-06-04,P3,M1,supports,forward,,0
+setser_jun_4_18,plain,2018-06-04,D1,M1,supports,forward,,0
+setser_jun_4_18,plain,2018-06-04,D2,M1,supports,forward,,0
+setser_jun_4_18,plain,2018-06-04,D5,M1,supports,forward,,0
+setser_jun_4_18,plain,2018-06-04,M1,C1,supports,forward,,0
+setser_jun_4_18,plain,2018-06-04,P3,M2,supports,forward,,0
+setser_jun_4_18,plain,2018-06-04,D3,M2,supports,forward,,0
+setser_jun_4_18,plain,2018-06-04,D4,M2,supports,forward,,0
+setser_jun_4_18,plain,2018-06-04,M2,C2,supports,forward,,0
+setser_jun_4_18,plain,2018-06-04,P1,M3,supports,forward,,0
+setser_jun_4_18,plain,2018-06-04,P2,M3,supports,forward,,0
+setser_jun_4_18,plain,2018-06-04,C1,M3,supports,forward,,0
+setser_jun_4_18,plain,2018-06-04,C2,M3,supports,forward,,0
+setser_jun_4_18,plain,2018-06-04,D6,C3,supports,forward,,0
+setser_jun_4_18,plain,2018-06-04,C3,M3,supports,forward,,0
+setser_jun_4_18,plain,2018-06-04,M3,K,supports,forward,,0
+setser_jun_4_18,plain,2018-06-04,C1,X,qualified_by,pushes_back,qualified by,0
+setser_jun_4_18,plain,2018-06-04,C2,QF,qualified_by,pushes_back,uncertain path,0
+setser_jun_4_18,plain,2018-06-04,C3,R1,undercut_by,pushes_back,could be offset by,0
+setser_jun_4_18,plain,2018-06-04,C2,M3,supports,forward,,0
+setser_may_2_19,plain,2019-05-02,D1,M1,supports,forward,,0
+setser_may_2_19,plain,2019-05-02,D2,M1,supports,forward,,0
+setser_may_2_19,plain,2019-05-02,P2,M2,supports,forward,,0
+setser_may_2_19,plain,2019-05-02,M1,M2,supports,forward,,0
+setser_may_2_19,plain,2019-05-02,P3,M3,supports,forward,,0
+setser_may_2_19,plain,2019-05-02,D3,M3,supports,forward,,0
+setser_may_2_19,plain,2019-05-02,D4,M3,supports,forward,,0
+setser_may_2_19,plain,2019-05-02,D5,M3,supports,forward,,0
+setser_may_2_19,plain,2019-05-02,P1,C1,supports,forward,,0
+setser_may_2_19,plain,2019-05-02,M2,C2,supports,forward,,0
+setser_may_2_19,plain,2019-05-02,M3,C3,supports,forward,,0
+setser_may_2_19,plain,2019-05-02,D6,M4,supports,forward,,0
+setser_may_2_19,plain,2019-05-02,M2,M4,supports,forward,,0
+setser_may_2_19,plain,2019-05-02,M4,C4,supports,forward,,0
+setser_may_2_19,plain,2019-05-02,C1,K,supports,forward,,0
+setser_may_2_19,plain,2019-05-02,C2,K,supports,forward,,0
+setser_may_2_19,plain,2019-05-02,C3,K,supports,forward,,0
+setser_may_2_19,plain,2019-05-02,C4,K,supports,forward,,0
+setser_may_2_19,plain,2019-05-02,C1,X,undercut_by,pushes_back,supports alternative,0
+setser_may_2_19,plain,2019-05-02,C2,QF,qualified_by,pushes_back,limited by,0
+setser_may_2_19,plain,2019-05-02,C3,R1,qualified_by,pushes_back,strategic risk,0
+setser_may_2_19,plain,2019-05-02,C1,R2,qualified_by,pushes_back,qualified by,0
+setser_may_10_19,plain,2019-05-10,D1,M1,supports,forward,,0
+setser_may_10_19,plain,2019-05-10,D2,M1,supports,forward,,0
+setser_may_10_19,plain,2019-05-10,P2,M2,supports,forward,,0
+setser_may_10_19,plain,2019-05-10,M1,M2,supports,forward,,0
+setser_may_10_19,plain,2019-05-10,P3,M3,supports,forward,,0
+setser_may_10_19,plain,2019-05-10,D3,M3,supports,forward,,0
+setser_may_10_19,plain,2019-05-10,D4,M3,supports,forward,,0
+setser_may_10_19,plain,2019-05-10,D5,M3,supports,forward,,0
+setser_may_10_19,plain,2019-05-10,P1,C1,supports,forward,,0
+setser_may_10_19,plain,2019-05-10,M2,C2,supports,forward,,0
+setser_may_10_19,plain,2019-05-10,M3,C3,supports,forward,,0
+setser_may_10_19,plain,2019-05-10,D6,M4,supports,forward,,0
+setser_may_10_19,plain,2019-05-10,M2,M4,supports,forward,,0
+setser_may_10_19,plain,2019-05-10,M4,C4,supports,forward,,0
+setser_may_10_19,plain,2019-05-10,C1,K,supports,forward,,0
+setser_may_10_19,plain,2019-05-10,C2,K,supports,forward,,0
+setser_may_10_19,plain,2019-05-10,C3,K,supports,forward,,0
+setser_may_10_19,plain,2019-05-10,C4,K,supports,forward,,0
+setser_may_10_19,plain,2019-05-10,C1,X,undercut_by,pushes_back,supports alternative,0
+setser_may_10_19,plain,2019-05-10,C2,QF,qualified_by,pushes_back,limited by,0
+setser_may_10_19,plain,2019-05-10,C3,R1,qualified_by,pushes_back,strategic risk,0
+setser_may_10_19,plain,2019-05-10,C1,R2,qualified_by,pushes_back,qualified by,0
+setser_jun_14_19,plain,2019-06-14,P1,M1,supports,forward,,0
+setser_jun_14_19,plain,2019-06-14,P1,M2,supports,forward,,0
+setser_jun_14_19,plain,2019-06-14,P2,M2,supports,forward,,0
+setser_jun_14_19,plain,2019-06-14,P3,M3,supports,forward,,0
+setser_jun_14_19,plain,2019-06-14,D2,M1,supports,forward,,0
+setser_jun_14_19,plain,2019-06-14,M1,C1,supports,forward,,0
+setser_jun_14_19,plain,2019-06-14,D3,M2,supports,forward,,0
+setser_jun_14_19,plain,2019-06-14,M2,C2,supports,forward,,0
+setser_jun_14_19,plain,2019-06-14,D5,M3,supports,forward,,0
+setser_jun_14_19,plain,2019-06-14,D6,M3,supports,forward,,0
+setser_jun_14_19,plain,2019-06-14,M3,C3,supports,forward,,0
+setser_jun_14_19,plain,2019-06-14,D4,M4,supports,forward,,0
+setser_jun_14_19,plain,2019-06-14,M4,C3,supports,forward,,0
+setser_jun_14_19,plain,2019-06-14,D1,C4,supports,forward,,0
+setser_jun_14_19,plain,2019-06-14,C1,C4,supports,forward,,0
+setser_jun_14_19,plain,2019-06-14,C2,C4,supports,forward,,0
+setser_jun_14_19,plain,2019-06-14,C3,C4,supports,forward,,0
+setser_jun_14_19,plain,2019-06-14,C4,K,supports,forward,,0
+setser_jun_14_19,plain,2019-06-14,C3,QF1,qualified_by,pushes_back,qualified by,0
+setser_jun_14_19,plain,2019-06-14,C3,QF2,undercut_by,pushes_back,possible explanation,0
+setser_jun_14_19,plain,2019-06-14,M4,R1,undercut_by,pushes_back,other explanation,0
+setser_aug_13_19,plain,2019-08-13,P2,M1,supports,forward,,0
+setser_aug_13_19,plain,2019-08-13,D1,M1,supports,forward,,0
+setser_aug_13_19,plain,2019-08-13,M1,C1,supports,forward,,0
+setser_aug_13_19,plain,2019-08-13,D2,C1,supports,forward,,0
+setser_aug_13_19,plain,2019-08-13,D3,C1,supports,forward,,0
+setser_aug_13_19,plain,2019-08-13,P3,M2,supports,forward,,0
+setser_aug_13_19,plain,2019-08-13,D4,M2,supports,forward,,0
+setser_aug_13_19,plain,2019-08-13,M2,C2,supports,forward,,0
+setser_aug_13_19,plain,2019-08-13,D5,M3,supports,forward,,0
+setser_aug_13_19,plain,2019-08-13,M3,C3,supports,forward,,0
+setser_aug_13_19,plain,2019-08-13,P1,M4,supports,forward,,0
+setser_aug_13_19,plain,2019-08-13,D6,M4,supports,forward,,0
+setser_aug_13_19,plain,2019-08-13,M4,C4,supports,forward,,0
+setser_aug_13_19,plain,2019-08-13,C1,K1,supports,forward,,0
+setser_aug_13_19,plain,2019-08-13,C3,K2,supports,forward,,0
+setser_aug_13_19,plain,2019-08-13,C4,K2,supports,forward,,0
+setser_aug_13_19,plain,2019-08-13,C2,X,rebuts,pushes_back,pushes back on,0
+setser_aug_13_19,plain,2019-08-13,C1,R1,undercut_by,pushes_back,other explanation,0
+setser_aug_13_19,plain,2019-08-13,C4,QF,qualified_by,pushes_back,comparison caveat,0
+setser_aug_13_19,plain,2019-08-13,C3,R2,qualified_by,pushes_back,tradeoff,0
+setser_aug_13_19,plain,2019-08-13,C2,K1,supports,forward,,0
+setser_sep_20_19,plain,2019-09-20,P2,M1,supports,forward,,0
+setser_sep_20_19,plain,2019-09-20,D2,M1,supports,forward,,0
+setser_sep_20_19,plain,2019-09-20,M1,C1,supports,forward,,0
+setser_sep_20_19,plain,2019-09-20,P3,M2,supports,forward,,0
+setser_sep_20_19,plain,2019-09-20,D4,M2,supports,forward,,0
+setser_sep_20_19,plain,2019-09-20,D5,M2,supports,forward,,0
+setser_sep_20_19,plain,2019-09-20,M2,C2,supports,forward,,0
+setser_sep_20_19,plain,2019-09-20,D6,M3,supports,forward,,0
+setser_sep_20_19,plain,2019-09-20,M2,M3,supports,forward,,0
+setser_sep_20_19,plain,2019-09-20,M3,C3,supports,forward,,0
+setser_sep_20_19,plain,2019-09-20,P1,M4,supports,forward,,0
+setser_sep_20_19,plain,2019-09-20,D1,M4,supports,forward,,0
+setser_sep_20_19,plain,2019-09-20,D3,M4,supports,forward,,0
+setser_sep_20_19,plain,2019-09-20,M4,C4,supports,forward,,0
+setser_sep_20_19,plain,2019-09-20,D7,C4,supports,forward,,0
+setser_sep_20_19,plain,2019-09-20,C1,K,supports,forward,,0
+setser_sep_20_19,plain,2019-09-20,C2,K,supports,forward,,0
+setser_sep_20_19,plain,2019-09-20,C3,K,supports,forward,,0
+setser_sep_20_19,plain,2019-09-20,C4,K,supports,forward,,0
+setser_sep_20_19,plain,2019-09-20,C1,X,undercut_by,pushes_back,alternative adjustment,0
+setser_sep_20_19,plain,2019-09-20,C1,R1,undercut_by,pushes_back,doesn't fully explain,0
+setser_sep_20_19,plain,2019-09-20,C4,QF1,qualified_by,pushes_back,qualified by,0
+setser_sep_20_19,plain,2019-09-20,C3,QF2,undercut_by,pushes_back,currently offset by,0
+setser_jan_31_20,banner,2020-01-31,P3,P1,revises,pushes_back,revises,0
+setser_jan_31_20,banner,2020-01-31,P1,C1,licenses,forward,licenses,0
+setser_jan_31_20,banner,2020-01-31,E1,M1,supports,forward,supports,0
+setser_jan_31_20,banner,2020-01-31,E1,C1,supports,forward,supports,0
+setser_jan_31_20,banner,2020-01-31,E2,C1,supports,forward,supports,0
+setser_jan_31_20,banner,2020-01-31,M1,C1,supports,forward,supports,0
+setser_jan_31_20,banner,2020-01-31,M2,C1,supports,forward,supports,0
+setser_jan_31_20,banner,2020-01-31,SC,E1,undercut_by,pushes_back,undercut by,0
+setser_jan_31_20,banner,2020-01-31,C1,K,supports,forward,supports,0
+setser_jan_31_20,banner,2020-01-31,P2,K,licenses,forward,licenses,0
+setser_jan_31_20,banner,2020-01-31,K,X,rebuts,pushes_back,rebuts,0
+setser_jan_31_20,banner,2020-01-31,K,QF,qualified_by,pushes_back,qualified by,0
+setser_jan_31_20,banner,2020-01-31,C1,R1,undercut_by,pushes_back,undercut by,0
+setser_feb_26_20,plain,2020-02-26,P2,M1,supports,forward,,0
+setser_feb_26_20,plain,2020-02-26,P3,M1,supports,forward,,0
+setser_feb_26_20,plain,2020-02-26,D1,M1,supports,forward,,0
+setser_feb_26_20,plain,2020-02-26,D2,M1,supports,forward,,0
+setser_feb_26_20,plain,2020-02-26,P4,M2,supports,forward,,0
+setser_feb_26_20,plain,2020-02-26,M2,M3,supports,forward,,0
+setser_feb_26_20,plain,2020-02-26,D3,M3,supports,forward,,0
+setser_feb_26_20,plain,2020-02-26,M1,C1,supports,forward,,0
+setser_feb_26_20,plain,2020-02-26,M3,C1,supports,forward,,0
+setser_feb_26_20,plain,2020-02-26,P1,C1,licenses,forward,licenses,0
+setser_feb_26_20,plain,2020-02-26,D4,C2,supports,forward,,0
+setser_feb_26_20,plain,2020-02-26,D5,C2,supports,forward,,0
+setser_feb_26_20,plain,2020-02-26,C1,K,supports,forward,,0
+setser_feb_26_20,plain,2020-02-26,C2,K,supports,forward,,0
+setser_feb_26_20,plain,2020-02-26,K,X,qualified_by,pushes_back,qualifies,0
+setser_feb_26_20,plain,2020-02-26,K,QF,qualified_by,pushes_back,limited by,0
+setser_feb_26_20,plain,2020-02-26,M2,R1,undercut_by,pushes_back,undercut by,0
+setser_mar_31_20,banner,2020-03-31,P3,P1,revises,pushes_back,revises,0
+setser_mar_31_20,banner,2020-03-31,P1,M1,supports,forward,supports,0
+setser_mar_31_20,banner,2020-03-31,E1,M1,supports,forward,supports,0
+setser_mar_31_20,banner,2020-03-31,M1,C1,supports,forward,supports,0
+setser_mar_31_20,banner,2020-03-31,P2,C2,licenses,forward,licenses,0
+setser_mar_31_20,banner,2020-03-31,M1,C2,supports,forward,supports,0
+setser_mar_31_20,banner,2020-03-31,C1,K,supports,forward,supports,0
+setser_mar_31_20,banner,2020-03-31,C2,K,supports,forward,supports,0
+setser_mar_31_20,banner,2020-03-31,M2,REC,licenses,forward,licenses,0
+setser_mar_31_20,banner,2020-03-31,E2,REC,supports,forward,supports,0
+setser_mar_31_20,banner,2020-03-31,C2,REC,supports,forward,supports,0
+setser_mar_31_20,banner,2020-03-31,K,REC,motivates,forward,motivates,0
+setser_mar_31_20,banner,2020-03-31,K,X,rebuts,pushes_back,rebuts,0
+setser_mar_31_20,banner,2020-03-31,REC,QF,qualified_by,pushes_back,qualified by,0
+setser_jul_8_20,banner,2020-07-08,SCP,BM,bounds,forward,bounds,0
+setser_jul_8_20,banner,2020-07-08,BM,E1,bounds,forward,compared against,0
+setser_jul_8_20,banner,2020-07-08,E2,E1,supports,forward,supports,0
+setser_jul_8_20,banner,2020-07-08,P1,M1,supports,forward,supports,0
+setser_jul_8_20,banner,2020-07-08,E1,C1,supports,forward,supports,0
+setser_jul_8_20,banner,2020-07-08,M1,C1,supports,forward,supports,0
+setser_jul_8_20,banner,2020-07-08,M2,C1,supports,forward,supports,0
+setser_jul_8_20,banner,2020-07-08,BM,C1,licenses,forward,licenses,0
+setser_jul_8_20,banner,2020-07-08,C1,K,supports,forward,supports,0
+setser_jul_8_20,banner,2020-07-08,P2,K,licenses,forward,licenses,0
+setser_jul_8_20,banner,2020-07-08,K,X,rebuts,pushes_back,rebuts,0
+setser_jul_8_20,banner,2020-07-08,C1,QF,qualified_by,pushes_back,qualified by,0
+setser_jul_8_20,banner,2020-07-08,C1,R1,undercut_by,pushes_back,undercut by,0
+setser_mar_10_24,banner,2024-03-10,SCP,E1,bounds,forward,bounds,0
+setser_mar_10_24,banner,2024-03-10,SC,E4,supports,forward,supports,0
+setser_mar_10_24,banner,2024-03-10,E1,C1,supports,forward,supports,0
+setser_mar_10_24,banner,2024-03-10,E2,C1,supports,forward,supports,0
+setser_mar_10_24,banner,2024-03-10,E4,C1,supports,forward,supports,0
+setser_mar_10_24,banner,2024-03-10,ID,C1,licenses,forward,licenses,0
+setser_mar_10_24,banner,2024-03-10,P1,C1,licenses,forward,licenses,0
+setser_mar_10_24,banner,2024-03-10,M1,C1,supports,forward,supports,0
+setser_mar_10_24,banner,2024-03-10,M2,C1,supports,forward,supports,0
+setser_mar_10_24,banner,2024-03-10,C1,K,supports,forward,supports,0
+setser_mar_10_24,banner,2024-03-10,C1,C3,supports,forward,supports,0
+setser_mar_10_24,banner,2024-03-10,C3,K,supports,forward,supports,0
+setser_mar_10_24,banner,2024-03-10,K,REC,motivates,forward,motivates,0
+setser_mar_10_24,banner,2024-03-10,P2,REC,licenses,forward,licenses,0
+setser_mar_10_24,banner,2024-03-10,K,X,rebuts,pushes_back,rebuts,0
+setser_mar_10_24,banner,2024-03-10,K,QF,qualified_by,pushes_back,qualified by,0
+setser_aug_14_24,banner,2024-08-14,E3,E4,supports,forward,supports,0
+setser_aug_14_24,banner,2024-08-14,SC,E4,supports,forward,supports,0
+setser_aug_14_24,banner,2024-08-14,E2,M1,supports,forward,supports,0
+setser_aug_14_24,banner,2024-08-14,E2,M2,supports,forward,supports,0
+setser_aug_14_24,banner,2024-08-14,M1,C1,supports,forward,supports,0
+setser_aug_14_24,banner,2024-08-14,M2,C1,supports,forward,supports,0
+setser_aug_14_24,banner,2024-08-14,E4,C1,supports,forward,supports,0
+setser_aug_14_24,banner,2024-08-14,E1,C1,supports,forward,supports,0
+setser_aug_14_24,banner,2024-08-14,P1,C1,licenses,forward,licenses,0
+setser_aug_14_24,banner,2024-08-14,C1,K,supports,forward,supports,0
+setser_aug_14_24,banner,2024-08-14,K,RC,reconstructs,forward,reconstructs,0
+setser_aug_14_24,banner,2024-08-14,P2,RC,licenses,forward,licenses,0
+setser_aug_14_24,banner,2024-08-14,K,REC,motivates,forward,motivates,0
+setser_aug_14_24,banner,2024-08-14,K,X,rebuts,pushes_back,rebuts,0
+setser_aug_14_24,banner,2024-08-14,RC,QF,qualified_by,pushes_back,qualified by,0
+setser_aug_14_24,banner,2024-08-14,K,DF,defers,pushes_back,defers,0
+setser_may_5_25,banner,2025-05-05,POS,ANOM,supports,forward,supports,0
+setser_may_5_25,banner,2025-05-05,ANOM,Q,motivates,forward,motivates,0
+setser_may_5_25,banner,2025-05-05,P3,P1,revises,pushes_back,revises,0
+setser_may_5_25,banner,2025-05-05,E1,M1,supports,forward,supports,0
+setser_may_5_25,banner,2025-05-05,E2,M1,supports,forward,supports,0
+setser_may_5_25,banner,2025-05-05,E1,M2,supports,forward,supports,0
+setser_may_5_25,banner,2025-05-05,P2,M1,undercut_by,pushes_back,undercut by,0
+setser_may_5_25,banner,2025-05-05,M1,C1,supports,forward,supports,0
+setser_may_5_25,banner,2025-05-05,M2,C1,supports,forward,supports,0
+setser_may_5_25,banner,2025-05-05,C1,K,supports,forward,supports,0
+setser_may_5_25,banner,2025-05-05,K,X,rebuts,pushes_back,rebuts,0
+setser_may_5_25,banner,2025-05-05,K,QF,qualified_by,pushes_back,qualified by,0
+setser_may_5_25,banner,2025-05-05,C1,R1,undercut_by,pushes_back,undercut by,0
+setser_may_5_25,banner,2025-05-05,K,DF,defers,pushes_back,defers,0
+setser_2025-07-07_china-stealth-surplus,meta,2025-07-07,P1,C1,supports,forward,,0
+setser_2025-07-07_china-stealth-surplus,meta,2025-07-07,P2,M1,supports,forward,,0
+setser_2025-07-07_china-stealth-surplus,meta,2025-07-07,P2,M2,supports,forward,,0
+setser_2025-07-07_china-stealth-surplus,meta,2025-07-07,E1,M1,supports,forward,,0
+setser_2025-07-07_china-stealth-surplus,meta,2025-07-07,E2,M1,supports,forward,,0
+setser_2025-07-07_china-stealth-surplus,meta,2025-07-07,E2,M2,supports,forward,,0
+setser_2025-07-07_china-stealth-surplus,meta,2025-07-07,M1,C1,supports,forward,,0
+setser_2025-07-07_china-stealth-surplus,meta,2025-07-07,M2,C1,supports,forward,,0
+setser_2025-07-07_china-stealth-surplus,meta,2025-07-07,P3,C1,licenses,forward,rule behind it,0
+setser_2025-07-07_china-stealth-surplus,meta,2025-07-07,C1,K,supports,forward,,0
+setser_2025-07-07_china-stealth-surplus,meta,2025-07-07,K,X,rebuts,pushes_back,pushes back on,0
+setser_2025-07-07_china-stealth-surplus,meta,2025-07-07,K,QF,qualified_by,pushes_back,caveat,0
+setser_2025-07-07_china-stealth-surplus,meta,2025-07-07,M1,R1,undercut_by,pushes_back,other explanation,0
+setser_2025-07-28_china-eu-trade-war,meta,2025-07-28,P1,M1,supports,forward,,0
+setser_2025-07-28_china-eu-trade-war,meta,2025-07-28,P2,M1,supports,forward,,0
+setser_2025-07-28_china-eu-trade-war,meta,2025-07-28,P1,M2,supports,forward,,0
+setser_2025-07-28_china-eu-trade-war,meta,2025-07-28,E1,M1,supports,forward,,0
+setser_2025-07-28_china-eu-trade-war,meta,2025-07-28,E1,M2,supports,forward,,0
+setser_2025-07-28_china-eu-trade-war,meta,2025-07-28,E2,M1,supports,forward,,0
+setser_2025-07-28_china-eu-trade-war,meta,2025-07-28,M1,C1,supports,forward,,0
+setser_2025-07-28_china-eu-trade-war,meta,2025-07-28,M2,C1,supports,forward,,0
+setser_2025-07-28_china-eu-trade-war,meta,2025-07-28,P3,C1,licenses,forward,rule behind it,0
+setser_2025-07-28_china-eu-trade-war,meta,2025-07-28,C1,K,supports,forward,,0
+setser_2025-07-28_china-eu-trade-war,meta,2025-07-28,K,X,rebuts,pushes_back,pushes back on,0
+setser_2025-07-28_china-eu-trade-war,meta,2025-07-28,K,QF,qualified_by,pushes_back,caveat,0
+setser_2025-07-28_china-eu-trade-war,meta,2025-07-28,M1,R1,undercut_by,pushes_back,other explanation,0
+setser_2025-09-12_trump-shock-that-wasnt,meta,2025-09-12,P3,M1,supports,forward,,0
+setser_2025-09-12_trump-shock-that-wasnt,meta,2025-09-12,E1,M1,supports,forward,,0
+setser_2025-09-12_trump-shock-that-wasnt,meta,2025-09-12,E1,M2,supports,forward,,0
+setser_2025-09-12_trump-shock-that-wasnt,meta,2025-09-12,E1,M3,supports,forward,,0
+setser_2025-09-12_trump-shock-that-wasnt,meta,2025-09-12,P1,M4,supports,forward,,0
+setser_2025-09-12_trump-shock-that-wasnt,meta,2025-09-12,E2,M1,supports,forward,,0
+setser_2025-09-12_trump-shock-that-wasnt,meta,2025-09-12,M1,C1,supports,forward,,0
+setser_2025-09-12_trump-shock-that-wasnt,meta,2025-09-12,M2,C1,supports,forward,,0
+setser_2025-09-12_trump-shock-that-wasnt,meta,2025-09-12,M3,C1,supports,forward,,0
+setser_2025-09-12_trump-shock-that-wasnt,meta,2025-09-12,P2,C1,supports,forward,,0
+setser_2025-09-12_trump-shock-that-wasnt,meta,2025-09-12,M4,K,supports,forward,,0
+setser_2025-09-12_trump-shock-that-wasnt,meta,2025-09-12,P3,C1,licenses,forward,rule behind it,0
+setser_2025-09-12_trump-shock-that-wasnt,meta,2025-09-12,C1,K,supports,forward,,0
+setser_2025-09-12_trump-shock-that-wasnt,meta,2025-09-12,K,X,rebuts,pushes_back,pushes back on,0
+setser_2025-09-12_trump-shock-that-wasnt,meta,2025-09-12,K,QF,qualified_by,pushes_back,caveat,0
+setser_2025-09-12_trump-shock-that-wasnt,meta,2025-09-12,M1,R1,undercut_by,pushes_back,other explanation,0
+setser_2025-11-12_china-surplus-imf,meta,2025-11-12,P1,M1,supports,forward,,0
+setser_2025-11-12_china-surplus-imf,meta,2025-11-12,E1,M1,supports,forward,,0
+setser_2025-11-12_china-surplus-imf,meta,2025-11-12,E1,M2,supports,forward,,0
+setser_2025-11-12_china-surplus-imf,meta,2025-11-12,E2,M2,supports,forward,,0
+setser_2025-11-12_china-surplus-imf,meta,2025-11-12,E2,M3,supports,forward,,0
+setser_2025-11-12_china-surplus-imf,meta,2025-11-12,M2,M3,supports,forward,,0
+setser_2025-11-12_china-surplus-imf,meta,2025-11-12,M1,C1,supports,forward,,0
+setser_2025-11-12_china-surplus-imf,meta,2025-11-12,M3,C1,supports,forward,,0
+setser_2025-11-12_china-surplus-imf,meta,2025-11-12,P2,K,supports,forward,,0
+setser_2025-11-12_china-surplus-imf,meta,2025-11-12,P3,C1,licenses,forward,rule behind it,0
+setser_2025-11-12_china-surplus-imf,meta,2025-11-12,C1,K,supports,forward,,0
+setser_2025-11-12_china-surplus-imf,meta,2025-11-12,K,X,rebuts,pushes_back,pushes back on,0
+setser_2025-11-12_china-surplus-imf,meta,2025-11-12,K,QF,qualified_by,pushes_back,caveat,0
+setser_2025-11-12_china-surplus-imf,meta,2025-11-12,M3,R1,undercut_by,pushes_back,other explanation,0
+setser_2026-02-03_october-2025-deficit,meta,2026-02-03,P2,M1,supports,forward,,0
+setser_2026-02-03_october-2025-deficit,meta,2026-02-03,E1,M1,supports,forward,,0
+setser_2026-02-03_october-2025-deficit,meta,2026-02-03,E1,M2,supports,forward,,0
+setser_2026-02-03_october-2025-deficit,meta,2026-02-03,E1,M3,supports,forward,,0
+setser_2026-02-03_october-2025-deficit,meta,2026-02-03,E2,M3,supports,forward,,0
+setser_2026-02-03_october-2025-deficit,meta,2026-02-03,P1,M4,supports,forward,,0
+setser_2026-02-03_october-2025-deficit,meta,2026-02-03,M1,C1,supports,forward,,0
+setser_2026-02-03_october-2025-deficit,meta,2026-02-03,M2,C1,supports,forward,,0
+setser_2026-02-03_october-2025-deficit,meta,2026-02-03,M3,C1,supports,forward,,0
+setser_2026-02-03_october-2025-deficit,meta,2026-02-03,M4,K,supports,forward,,0
+setser_2026-02-03_october-2025-deficit,meta,2026-02-03,P3,C1,licenses,forward,rule behind it,0
+setser_2026-02-03_october-2025-deficit,meta,2026-02-03,C1,K,supports,forward,,0
+setser_2026-02-03_october-2025-deficit,meta,2026-02-03,K,X,rebuts,pushes_back,pushes back on,0
+setser_2026-02-03_october-2025-deficit,meta,2026-02-03,K,QF,qualified_by,pushes_back,caveat,0
+setser_2026-02-03_october-2025-deficit,meta,2026-02-03,M2,R1,undercut_by,pushes_back,other explanation,0

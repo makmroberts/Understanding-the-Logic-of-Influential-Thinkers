@@ -1,0 +1,100 @@
+---
+config:
+  layout: elk
+  theme: dark
+  themeVariables:
+    lineColor: "#D3D1C7"
+    clusterBkg: "#262624"
+    clusterBorder: "#5F5E5A"
+    titleColor: "#F1EFE8"
+    edgeLabelBackground: "#2C2C2A"
+  flowchart:
+    wrappingWidth: 170
+    nodeSpacing: 25
+    rankSpacing: 45
+---
+flowchart TD
+  %% author: Brad W. Setser | outlet: CFR Follow the Money | date: 2025-07-07
+  %% title: China's Stealth Trade Surplus
+  %% url: https://www.cfr.org/articles/chinas-stealth-trade-surplus
+  %% topics: China, EU, balance of payments, statistics, IMF | genre: blog / data critique
+
+  subgraph L0["Level 0 · Question"]
+    Q["`**Question**
+      Why does China's surplus look small in IMF imbalance data when trade flows show it is huge?`"]
+  end
+
+  subgraph L1["Level 1 · Priors & assumptions"]
+    P1["`**Stated assumption**
+      A large real estate crisis typically pushes a country to rely more on exports (standard economic theory)`"]
+    P2["`**Stated assumption**
+      Customs goods data captures China's real imbalance better than balance of payments data`"]
+    P3["`**Hidden assumption**
+      *Opaque official statistics that no one can replicate deserve less trust than physical trade flows*`"]
+  end
+
+  subgraph L2["Level 2 · Evidence"]
+    E1["`**Data**
+      China's 2024 current account surplus about $430 billion (just over 2 percent of GDP) versus the EU's $500 billion; goods and services surplus about $650 billion versus the EU's $620 billion; about $4 trillion in net interest-paying foreign assets, yet an investment income deficit of $150 to 200 billion; Chinese customs data show about $400 per phone; net vehicle exports above 6 million`"]
+    E2["`**Studies and sources**
+      IMF 2024 Article IV report; China's State Administration of Foreign Exchange argument about Apple; European Central Bank (Philip Lane) analysis of Ireland; Kenneth Rogoff in the IMF's Finance and Development`"]
+  end
+
+  subgraph L3["Level 3 · Mechanisms"]
+    M1["`**China understated**
+      An unexplained 2021 break in China's balance of payments goods series and an unexplained investment income deficit shrink China's reported current account`"]
+    M2["`**EU overstated**
+      U.S. multinationals in Ireland (Apple, pharmaceutical companies) inflate the EU's goods surplus and hide its investment income surplus`"]
+  end
+
+  subgraph L4["Level 4 · Intermediate claims"]
+    C1["`**Intermediate claim**
+      Current account comparisons based on balance of payments data make Europe, not China, look like the main source of imbalance`"]
+  end
+
+  subgraph L5["Level 5 · Conclusion"]
+    K["`**Main claim**
+      The real imbalance is in China; the IMF and G7 should focus there`"]
+  end
+
+  subgraph L6["Level 6 · Counterpoints"]
+    X["`**Opposing view**
+      The IMF and analysts using comprehensive goods and services data, who see the EU as the biggest contributor`"]
+    QF["`**Caveat**
+      Balance of payments adjustments may or may not be more accurate, and some are legitimate (insurance and freight, Airbus)`"]
+    R1["`**Other explanation**
+      China's services deficit, mostly travel, genuinely reduces its surplus`"]
+  end
+
+  P1 --> C1
+  P2 --> M1
+  P2 --> M2
+  E1 --> M1
+  E2 --> M1
+  E2 --> M2
+  M1 --> C1
+  M2 --> C1
+  P3 -->|rule behind it| C1
+  C1 --> K
+  K -.->|pushes back on| X
+  K -. caveat .- QF
+  M1 -. other explanation .- R1
+
+  Q ~~~ P1 & P2 & P3
+  P1 ~~~ E1
+  P3 ~~~ E2
+
+  classDef prior fill:#3C3489,stroke:#AFA9EC,color:#EEEDFE
+  classDef unstated fill:#3C3489,stroke:#AFA9EC,color:#EEEDFE,stroke-dasharray:5 4
+  classDef data fill:#0C447C,stroke:#85B7EB,color:#E6F1FB
+  classDef mech fill:#085041,stroke:#5DCAA5,color:#E1F5EE
+  classDef main fill:#085041,stroke:#9FE1CB,color:#E1F5EE,stroke-width:3px
+  classDef dia fill:#444441,stroke:#B4B2A9,color:#F1EFE8
+  classDef question fill:#2C2C2A,stroke:#F1EFE8,color:#F1EFE8
+  class P1,P2 prior
+  class P3 unstated
+  class E1,E2 data
+  class M1,M2,C1 mech
+  class K main
+  class X,QF,R1 dia
+  class Q question

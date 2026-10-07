@@ -1,0 +1,100 @@
+---
+config:
+  layout: elk
+  theme: dark
+  themeVariables:
+    lineColor: "#D3D1C7"
+    clusterBkg: "#262624"
+    clusterBorder: "#5F5E5A"
+    titleColor: "#F1EFE8"
+    edgeLabelBackground: "#2C2C2A"
+  flowchart:
+    wrappingWidth: 170
+    nodeSpacing: 25
+    rankSpacing: 45
+---
+flowchart TD
+  %% author: Brad W. Setser | outlet: CFR Follow the Money | date: 2025-07-28
+  %% title: China is also Fighting a Trade War with Europe (and Winning)
+  %% url: https://www.cfr.org/articles/china-also-fighting-trade-war-europe-and-winning
+  %% topics: China, EU, industrial policy, currency, autos | genre: blog / policy commentary
+
+  subgraph L0["Level 0 · Question"]
+    Q["`**Question**
+      Why is Europe losing ground to China in trade, and what should it do about it?`"]
+  end
+
+  subgraph L1["Level 1 · Priors & assumptions"]
+    P1["`**Stated assumption**
+      China's trade war tools are industrial policy and a weak currency, not tariffs`"]
+    P2["`**Stated assumption**
+      Chinese firms, private or state-linked, accept low returns on equity and build too much`"]
+    P3["`**Hidden assumption**
+      *A trading partner's surplus drains demand from your economy; manufacturing capacity has strategic value beyond its profits*`"]
+  end
+
+  subgraph L2["Level 2 · Evidence"]
+    E1["`**Data**
+      European exports to China down about 0.5 percentage points of European GDP; EU trade deficit with China set to double between 2020 and 2025; European auto exports to China on track for about $10 billion by 2027; Chinese electric vehicle exports at a 3 million annual pace in the second quarter; net exports added about 2 percentage points to Chinese growth over four quarters; yuan weaker against the euro`"]
+    E2["`**Studies and sources**
+      Centre for European Reform brief on German industry; Financial Times, New York Times and Wall Street Journal sector reporting; Adam Tooze; German customs data`"]
+  end
+
+  subgraph L3["Level 3 · Mechanisms"]
+    M1["`**Overcapacity**
+      Competing local governments add subsidized capacity, which drives profits down and pushes output China cannot absorb into exports`"]
+    M2["`**Weak currency**
+      State banks keep the yuan weak; its fall against the euro has roughly offset the EU's 17 percent countervailing duty on BYD`"]
+  end
+
+  subgraph L4["Level 4 · Intermediate claims"]
+    C1["`**Intermediate claim**
+      The second China shock is eroding Europe's core export sectors and is large enough to matter for the whole economy, especially Germany's stagnation`"]
+  end
+
+  subgraph L5["Level 5 · Conclusion"]
+    K["`**Main claim**
+      China is winning a trade war with Europe; Europe needs a counter-industrial policy, broader tariffs on Chinese autos and new pressure for the yuan to rise`"]
+  end
+
+  subgraph L6["Level 6 · Counterpoints"]
+    X["`**Opposing view**
+      Europe's inadequate response so far; Trump-style tariffs or commodity purchase deals as the fix`"]
+    QF["`**Caveat**
+      The United States is still importing, which limits the damage, but American firms will not absorb tariff costs much longer`"]
+    R1["`**Other explanation**
+      China's long-standing tariff walls (25 percent on autos) also helped build the sector`"]
+  end
+
+  P1 --> M1
+  P2 --> M1
+  P1 --> M2
+  E1 --> M1
+  E1 --> M2
+  E2 --> M1
+  M1 --> C1
+  M2 --> C1
+  P3 -->|rule behind it| C1
+  C1 --> K
+  K -.->|pushes back on| X
+  K -. caveat .- QF
+  M1 -. other explanation .- R1
+
+  Q ~~~ P1 & P2 & P3
+  P1 ~~~ E1
+  P3 ~~~ E2
+
+  classDef prior fill:#3C3489,stroke:#AFA9EC,color:#EEEDFE
+  classDef unstated fill:#3C3489,stroke:#AFA9EC,color:#EEEDFE,stroke-dasharray:5 4
+  classDef data fill:#0C447C,stroke:#85B7EB,color:#E6F1FB
+  classDef mech fill:#085041,stroke:#5DCAA5,color:#E1F5EE
+  classDef main fill:#085041,stroke:#9FE1CB,color:#E1F5EE,stroke-width:3px
+  classDef dia fill:#444441,stroke:#B4B2A9,color:#F1EFE8
+  classDef question fill:#2C2C2A,stroke:#F1EFE8,color:#F1EFE8
+  class P1,P2 prior
+  class P3 unstated
+  class E1,E2 data
+  class M1,M2,C1 mech
+  class K main
+  class X,QF,R1 dia
+  class Q question

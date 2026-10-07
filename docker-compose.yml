@@ -1,0 +1,37 @@
+# Local Neo4j for the argument graph.
+#
+#   docker compose up -d
+#   python scripts/parse_maps.py && python scripts/export_neo4j.py
+#   docker exec -i argument-maps-neo4j cypher-shell -u neo4j -p argumentmaps \
+#       < data/neo4j/load.cypher
+#
+# Browser: http://localhost:7474   (neo4j / argumentmaps)
+#
+# The password is a local development credential for a database holding only
+# public, published material. Change it before exposing this anywhere.
+
+services:
+  neo4j:
+    image: neo4j:5-community
+    container_name: argument-maps-neo4j
+    ports:
+      - "7474:7474"   # Neo4j Browser
+      - "7687:7687"   # Bolt
+    environment:
+      NEO4J_AUTH: neo4j/argumentmaps
+      NEO4J_server_memory_heap_max__size: 1G
+      NEO4J_server_memory_pagecache_size: 512M
+    volumes:
+      - ./data/neo4j:/import:ro
+      - neo4j-data:/data
+      - neo4j-logs:/logs
+    healthcheck:
+      test: ["CMD-SHELL", "cypher-shell -u neo4j -p argumentmaps 'RETURN 1' || exit 1"]
+      interval: 10s
+      timeout: 10s
+      retries: 12
+      start_period: 30s
+
+volumes:
+  neo4j-data:
+  neo4j-logs:
