@@ -1,0 +1,109 @@
+{
+  "kind": "actual",
+  "article": {
+    "title": "Record Chinese Bilateral Surpluses With the United States Are Not Mirrored in the U.S. Trade Data",
+    "date": "2020-10-05",
+    "url": "https://www.cfr.org/articles/record-chinese-bilateral-surpluses-united-states-are-not-mirrored-us-trade-data"
+  },
+  "summary": {"claim_type": "single",
+              "finding": "Predicted he would doubt China's numbers; he doubted the US's instead — tariffs give US importers a reason to under-report."},
+  "slots": {
+    "question": {"status": "filled", "items": [
+      {"label": "Why is the sign of the gap now flipping?",
+       "para": ["p22"], "verdict": "close",
+       "note": "predicted: why China's record surplus does not show in US data"}]},
+    "anomaly": {"status": "filled", "items": [
+      {"label": "Opens on a rule that broke: US figures were always higher",
+       "para": ["p4", "p8"]}]},
+    "position_map": {"status": "absent"},
+
+    "stated_assumption": {"status": "filled", "items": [
+      {"label": "Takes the old gap as explained, mostly by Hong Kong",
+       "para": ["p6", "p20"]}]},
+    "hidden_assumption": {"status": "filled", "items": [
+      {"label": "Assumes a steady gap means steady reporting habits",
+       "para": ["p7", "p21"]}]},
+    "revised_prior": {"status": "absent"},
+    "accounting_identity": {"status": "absent"},
+    "source_credibility": {"status": "filled", "items": [
+      {"label": "Doubts the US number first: tariffs reward under-reporting imports",
+       "para": ["p25"], "verdict": "opposite",
+       "note": "predicted: discounts China's numbers and checks how they were compiled"}]},
+
+    "scope_choice": {"status": "filled", "items": [
+      {"label": "Adds Hong Kong to the US deficit with China, which shrinks it",
+       "para": ["p16"], "verdict": "close",
+       "note": "predicted: goods only, customs basis, 12-month sums"}]},
+    "benchmark": {"status": "filled", "items": [
+      {"label": "Compares with pre-trade-war peaks and 2016, the political yardstick",
+       "para": ["p14", "p15", "p16"], "verdict": "close",
+       "note": "predicted: both series against their earlier peak, no 2016 yardstick"}]},
+
+    "evidence_data": {"status": "filled", "items": [
+      {"label": "Shows China's July export figure $3bn above US recorded imports",
+       "para": ["p13"], "verdict": "close",
+       "note": "predicted: a record on China's series, below peak on the US's"}]},
+    "evidence_source": {"status": "filled", "items": [
+      {"label": "Cites his own past posts and the Fed paper one led to",
+       "para": ["p6", "p27"], "verdict": "close",
+       "note": "predicted: names the data source behind each series"}]},
+    "evidence_rival": {"status": "filled", "items": [
+      {"label": "Sets China's export figures against US import figures",
+       "para": ["p4", "p9"]}]},
+    "evidence_discrepancy": {"status": "filled", "items": [
+      {"label": "Finds the reversed gap in recent months, not in yearly sums",
+       "para": ["p9", "p11"]}]},
+
+    "mechanism": {"status": "filled", "items": [
+      {"label": "Tariffs give US importers a reason to under-report",
+       "kind": "distortion", "para": ["p25"], "verdict": "close",
+       "note": "predicted: same trade recorded differently in the two sets of books"}]},
+
+    "intermediate_claim": {"status": "filled", "items": [
+      {"label": "Reads the change as the signal: a well-understood gap has vanished",
+       "para": ["p21"], "verdict": "close",
+       "note": "predicted: the bilateral figure can't carry the meaning put on it"}]},
+    "case_type": {"status": "absent"},
+    "policy_reductio": {"status": "absent"},
+
+    "main_claim": {"status": "filled", "items": [
+      {"label": "Bets US imports from China are now slightly under-counted",
+       "para": ["p25"], "verdict": "opposite",
+       "note": "predicted: the record reflects how China measures, not the US position"}]},
+    "reconstruction": {"status": "absent", "why": "builds no corrected series"},
+    "recommendation": {"status": "absent"},
+
+    "opposing_view": {"status": "filled", "items": [
+      {"label": "Sees bilateral trade balances as \"a bit retro\", given global supply chains",
+       "para": ["p27"]}]},
+    "caveat": {"status": "filled", "items": [
+      {"label": "Admits Hong Kong explains \"most, but not all\" of the old gap",
+       "para": ["p6"]}]},
+    "other_explanation": {"status": "filled", "items": [
+      {"label": "Chinese exporters overstate exports to get capital past controls",
+       "para": ["p24"], "verdict": "opposite",
+       "note": "predicted: a real surplus, with China's imports falling instead"}]},
+    "deferred_question": {"status": "filled", "items": [
+      {"label": "Leaves the answer to \"more investigation\"",
+       "para": ["p26"]}]}
+  },
+  "edges": [
+    {"from": "anomaly",              "to": "question",             "type": "motivates"},
+    {"from": "question",             "to": "mechanism",            "type": "motivates"},
+    {"from": "scope_choice",         "to": "benchmark",            "type": "bounds"},
+    {"from": "benchmark",            "to": "evidence_data",        "type": "bounds"},
+    {"from": "evidence_rival",       "to": "evidence_discrepancy", "type": "supports"},
+    {"from": "evidence_data",        "to": "evidence_discrepancy", "type": "supports"},
+    {"from": "stated_assumption",    "to": "intermediate_claim",   "type": "licenses"},
+    {"from": "hidden_assumption",    "to": "intermediate_claim",   "type": "licenses"},
+    {"from": "evidence_discrepancy", "to": "intermediate_claim",   "type": "supports"},
+    {"from": "source_credibility",   "to": "mechanism",            "type": "supports"},
+    {"from": "mechanism",            "to": "main_claim",           "type": "supports"},
+    {"from": "intermediate_claim",   "to": "main_claim",           "type": "supports"},
+    {"from": "mechanism",            "to": "other_explanation",    "type": "undercut_by"},
+    {"from": "stated_assumption",    "to": "caveat",               "type": "qualified_by"},
+    {"from": "evidence_source",      "to": "opposing_view",        "type": "rebuts"},
+    {"from": "main_claim",           "to": "deferred_question",    "type": "defers"},
+    {"from": "evidence_source",      "to": "deferred_question",    "type": "motivates"}
+  ]
+}

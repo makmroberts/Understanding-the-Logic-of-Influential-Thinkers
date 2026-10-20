@@ -1,0 +1,99 @@
+{
+  "kind": "predicted",
+  "article": {"title": "Is China’s Surplus Really Shrinking?", "date": "2026-07-27", "url": ""},
+  "summary": {"claim_type": "single"},
+  "slots": {
+    "question": {
+      "status": "filled",
+      "items": [{"label": "Is the reported fall in China's surplus real or a statistical artifact?", "from": ["title", "2024-08-14 Q", "2025-07-07 Q", "2025-11-12 Q"]}]
+    },
+    "anomaly": {"status": "unsure"},
+    "position_map": {"status": "absent"},
+    "stated_assumption": {
+      "status": "filled",
+      "items": [{"label": "Treats customs goods data as the better gauge of China's imbalance", "from": ["2025-07-07 P2", "2024-08-14 P1"]}]
+    },
+    "hidden_assumption": {
+      "status": "filled",
+      "items": [{"label": "Assumes opaque, unreplicable official statistics deserve less trust than physical trade", "from": ["2024-08-14 P2", "2025-07-07 P3"]}]
+    },
+    "revised_prior": {"status": "absent"},
+    "accounting_identity": {"status": "unsure"},
+    "source_credibility": {
+      "status": "filled",
+      "items": [{"label": "Doubts the balance of payments series after repeated convenient methodology changes", "from": ["2024-08-14 SC", "2024-03-10 SC", "2020-01-31 SC"]}]
+    },
+    "scope_choice": {"status": "unsure"},
+    "benchmark": {"status": "unsure"},
+    "evidence_data": {
+      "status": "filled",
+      "items": [{"label": "Cites export volumes rising far faster than imports and record goods surplus", "from": ["2025-11-12 E1", "2025-07-07 E1"]}]
+    },
+    "evidence_source": {
+      "status": "filled",
+      "items": [{"label": "Draws on customs data, SAFE releases and IMF Article IV reports", "from": ["2024-08-14 E2", "2025-07-07 E2", "2025-11-12 E2"]}]
+    },
+    "evidence_rival": {
+      "status": "filled",
+      "items": [{"label": "Sets the customs goods series against the balance of payments series", "from": ["2024-08-14 E3"]}]
+    },
+    "evidence_discrepancy": {
+      "status": "filled",
+      "items": [{"label": "Shows the gap between customs surplus and reported current account widening", "from": ["2024-08-14 E4", "2024-03-10 E4"]}]
+    },
+    "mechanism": {
+      "status": "filled",
+      "items": [
+        {"label": "Shrinks the reported surplus via methodology change and unexplained income deficit", "kind": "distortion", "from": ["2024-08-14 M2", "2025-07-07 M1", "2025-11-12 M2"]},
+        {"label": "Pushes output into exports through weak domestic demand and weak yuan", "kind": "economic", "from": ["2025-11-12 M1", "2025-07-28 M1", "2025-07-28 M2"]}
+      ]
+    },
+    "intermediate_claim": {
+      "status": "filled",
+      "items": [{"label": "Concludes the reported current account understates a surplus that keeps growing", "from": ["2025-11-12 C1", "2024-08-14 C1", "2025-07-07 C1"]}]
+    },
+    "case_type": {"status": "absent"},
+    "policy_reductio": {"status": "absent"},
+    "main_claim": {
+      "status": "filled",
+      "items": [{"label": "Answers no: the apparent shrinkage reflects mismeasurement, not real adjustment", "from": ["title", "2024-08-14 K", "2024-03-10 K"]}]
+    },
+    "reconstruction": {
+      "status": "filled",
+      "items": [{"label": "Rebuilds the true surplus from customs data, well above reported", "from": ["2024-08-14 RC"]}]
+    },
+    "recommendation": {
+      "status": "filled",
+      "items": [{"label": "Urges the IMF to use corrected numbers and press for fiscal expansion", "from": ["2025-11-12 K", "2025-07-07 K", "2024-03-10 REC"]}]
+    },
+    "opposing_view": {
+      "status": "filled",
+      "items": [{"label": "Rejects IMF and analyst readings of the reported decline as real", "from": ["2024-08-14 X", "2025-11-12 X", "2024-03-10 X"]}]
+    },
+    "caveat": {
+      "status": "filled",
+      "items": [{"label": "Concedes some adjustments are legitimate and the income line is unverifiable", "from": ["2025-07-07 QF", "2024-08-14 QF"]}]
+    },
+    "other_explanation": {
+      "status": "filled",
+      "items": [{"label": "Allows that the services and travel deficit genuinely trims the surplus", "from": ["2025-07-07 R1"]}]
+    },
+    "deferred_question": {"status": "unsure"}
+  },
+  "edges": [
+    {"from": "evidence_rival", "to": "evidence_discrepancy", "type": "supports"},
+    {"from": "source_credibility", "to": "evidence_discrepancy", "type": "supports"},
+    {"from": "evidence_source", "to": "mechanism", "type": "supports"},
+    {"from": "evidence_data", "to": "mechanism", "type": "supports"},
+    {"from": "stated_assumption", "to": "mechanism", "type": "supports"},
+    {"from": "mechanism", "to": "intermediate_claim", "type": "supports"},
+    {"from": "evidence_discrepancy", "to": "intermediate_claim", "type": "supports"},
+    {"from": "hidden_assumption", "to": "intermediate_claim", "type": "licenses"},
+    {"from": "intermediate_claim", "to": "main_claim", "type": "supports"},
+    {"from": "main_claim", "to": "reconstruction", "type": "reconstructs"},
+    {"from": "main_claim", "to": "recommendation", "type": "motivates"},
+    {"from": "main_claim", "to": "opposing_view", "type": "rebuts"},
+    {"from": "main_claim", "to": "caveat", "type": "qualified_by"},
+    {"from": "mechanism", "to": "other_explanation", "type": "undercut_by"}
+  ]
+}

@@ -1,0 +1,172 @@
+{
+  "kind": "actual",
+  "article": {
+    "title": "What’s the Renminbi Got to Do With it?",
+    "date": "2026-10-11",
+    "url": "https://www.cfr.org/articles/whats-the-renminbi-got-to-do-with-it"
+  },
+  "summary": {
+    "claim_type": "single",
+    "finding": "Predicted the conclusion, the opponent and the rival cause; missed the proof: export timing, the IMF's failed forecasts, and why quotas fall short."
+  },
+  "slots": {
+    "question": {
+      "status": "implicit",
+      "items": [
+        {"label": "Is China's export surge just weak home demand, or the weak yuan?", "para": ["p1", "p2"], "verdict": "match"}
+      ]
+    },
+    "anomaly": {
+      "status": "filled",
+      "items": [
+        {"label": "Notes the IMF wrongly forecast a falling surplus, having ignored the currency", "para": ["p21", "p22", "p23"]}
+      ]
+    },
+    "position_map": {
+      "status": "filled",
+      "items": [
+        {"label": "Sets the Geneva Report and Beijing against Sobel, Merz and Macron", "para": ["p1", "p8", "p9", "p10", "p17"]}
+      ]
+    },
+    "stated_assumption": {
+      "status": "filled",
+      "items": [
+        {"label": "Treats China's capital controls as given: exporters' dollar sales set the rate", "para": ["p7"], "verdict": "close", "note": "predicted: real exchange rates move trade, with multi-year lags"}
+      ]
+    },
+    "hidden_assumption": {
+      "status": "filled",
+      "items": [
+        {"label": "Assumes timing alone separates the yuan's effect from weak demand", "para": ["p19", "p24"], "verdict": "close", "note": "predicted: China's surplus imposes real costs on its partners"}
+      ]
+    },
+    "revised_prior": {
+      "status": "absent",
+      "why": "no first-person admission of error"
+    },
+    "accounting_identity": {
+      "status": "absent",
+      "why": "no balance used by definition"
+    },
+    "source_credibility": {
+      "status": "filled",
+      "items": [
+        {"label": "Distrusts China's official balance of payments: repeated method changes hid the surplus", "para": ["p47"]}
+      ]
+    },
+    "scope_choice": {
+      "status": "filled",
+      "items": [
+        {"label": "Measures exports against global trade growth, netting out world demand swings", "para": ["p21", "p24"]}
+      ]
+    },
+    "benchmark": {
+      "status": "filled",
+      "items": [
+        {"label": "Holds the yuan to Krugman's rule: catching-up economies should appreciate", "para": ["p27"]}
+      ]
+    },
+    "evidence_data": {
+      "status": "filled",
+      "items": [
+        {"label": "Shows export growth jumping after the yuan's 2022 fall, outpacing global trade", "para": ["p19", "p20", "p24"], "verdict": "close", "note": "predicted: the yuan's slide against the euro and record surpluses"}
+      ]
+    },
+    "evidence_source": {
+      "status": "filled",
+      "items": [
+        {"label": "Cites Mark Sobel on heavy management and Merz and Macron on undervaluation", "para": ["p10", "p11", "p17", "p18"], "verdict": "close", "note": "predicted: IMF assessments and official Chinese currency data"}
+      ]
+    },
+    "evidence_rival": {
+      "status": "filled",
+      "items": [
+        {"label": "Compares the goods surplus in payments data with customs; gap now closed", "para": ["p47"]}
+      ]
+    },
+    "evidence_discrepancy": {
+      "status": "absent",
+      "why": "gap noted as closed, not treated as the finding"
+    },
+    "mechanism": {
+      "status": "filled",
+      "items": [
+        {"label": "Central bank's daily fix and state-bank dollar buying cap the yuan", "kind": "economic", "para": ["p12", "p13", "p14"], "verdict": "close", "note": "predicted: deflation cheapens exports; the state-bank channel came second"},
+        {"label": "Weak yuan cheapens exports, so exports outgrow global trade", "kind": "economic", "para": ["p15", "p16", "p24"], "verdict": "close", "note": "predicted: state banks hold the yuan down, offsetting partners' tariffs"}
+      ]
+    },
+    "intermediate_claim": {
+      "status": "filled",
+      "items": [
+        {"label": "Holds the weak yuan is a policy choice feeding the export surge", "para": ["p7", "p19", "p26"], "verdict": "match"}
+      ]
+    },
+    "case_type": {
+      "status": "absent",
+      "why": "two episodes compared, not sorted into types"
+    },
+    "policy_reductio": {
+      "status": "filled",
+      "items": [
+        {"label": "Runs sector quotas forward: managed trade must spread to ever more sectors", "para": ["p36", "p38"]}
+      ]
+    },
+    "main_claim": {
+      "status": "filled",
+      "items": [
+        {"label": "Concludes rebalancing requires a stronger yuan, or China collides with partners", "para": ["p41", "p42"], "verdict": "match"}
+      ]
+    },
+    "reconstruction": {
+      "status": "absent",
+      "why": "no replacement figure built"
+    },
+    "recommendation": {
+      "status": "implicit",
+      "items": [
+        {"label": "Presses the IMF and Europe to push China for a stronger yuan", "para": ["p17", "p33", "p34"], "verdict": "close", "note": "predicted: yuan appreciation plus central-government fiscal expansion"}
+      ]
+    },
+    "opposing_view": {
+      "status": "filled",
+      "items": [
+        {"label": "Blames the export surge on the housing slump; calls the yuan incidental", "para": ["p1", "p2", "p5"], "verdict": "match", "note": "predicted: surplus is structural saving; the currency is irrelevant"}
+      ]
+    },
+    "caveat": {
+      "status": "filled",
+      "items": [
+        {"label": "Concedes interest-rate gaps do matter for exporters' currency conversion", "para": ["p44"], "verdict": "close", "note": "predicted: the yuan alone cannot fix weak home demand"}
+      ]
+    },
+    "other_explanation": {
+      "status": "filled",
+      "items": [
+        {"label": "Industrial policy wins in green tech and autos lift exports", "para": ["p26"], "verdict": "match", "note": "predicted: subsidized industrial overcapacity drives exports"}
+      ]
+    },
+    "deferred_question": {
+      "status": "absent",
+      "why": "nothing explicitly postponed"
+    }
+  },
+  "edges": [
+    {"from": "stated_assumption", "to": "mechanism", "type": "supports"},
+    {"from": "evidence_source", "to": "mechanism", "type": "supports"},
+    {"from": "mechanism", "to": "mechanism#2", "type": "supports"},
+    {"from": "scope_choice", "to": "evidence_data", "type": "bounds"},
+    {"from": "evidence_data", "to": "mechanism#2", "type": "supports"},
+    {"from": "hidden_assumption", "to": "mechanism#2", "type": "licenses"},
+    {"from": "benchmark", "to": "intermediate_claim", "type": "supports"},
+    {"from": "anomaly", "to": "intermediate_claim", "type": "supports"},
+    {"from": "mechanism", "to": "intermediate_claim", "type": "supports"},
+    {"from": "mechanism#2", "to": "intermediate_claim", "type": "supports"},
+    {"from": "intermediate_claim", "to": "main_claim", "type": "supports"},
+    {"from": "policy_reductio", "to": "main_claim", "type": "supports"},
+    {"from": "main_claim", "to": "recommendation", "type": "motivates"},
+    {"from": "main_claim", "to": "opposing_view", "type": "rebuts"},
+    {"from": "stated_assumption", "to": "caveat", "type": "qualified_by"},
+    {"from": "mechanism#2", "to": "other_explanation", "type": "undercut_by"},
+    {"from": "source_credibility", "to": "evidence_rival", "type": "bounds"}
+  ]
+}

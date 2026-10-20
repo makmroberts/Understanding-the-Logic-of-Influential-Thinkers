@@ -1,0 +1,193 @@
+# Where the skill finds things, and how the chart is laid out.
+#
+# If the data layout changes — a file is renamed, a column added, a slot or stage
+# introduced, the team renames something in the template — edit THIS FILE ONLY.
+# pva.py and SKILL.md read everything from here. Run `python pva.py check`
+# afterwards: it stops loudly if this file and the data or the template disagree,
+# instead of drawing a wrong chart.
+#
+# Paths are relative to the repository root.
+
+# ---------------------------------------------------------------- data ----
+data:
+  nodes: data/nodes.csv
+  edges: data/edges.csv
+  schema: scripts/schema_map.yaml            # the edge-type vocabulary is read from here
+  template: mermaid_code/second_flow_template.mmd   # the agreed architecture; names below must match it
+
+  # column names inside nodes.csv / edges.csv
+  columns:
+    doc: doc                                 # one article; unique
+    date: date                               # YYYY-MM-DD, used for the cutoff
+    node_id: node_id                         # unique only within one doc
+    type: type                               # the slot, e.g. stated_assumption
+    level: level                             # the stage, e.g. L1
+    text: text
+    edge_from: from
+    edge_to: to
+    edge_type: type
+    edge_raw: raw                            # empty = no label in the source map
+
+  # Extra note fields the predictor sees next to each note's text, when the data has them.
+  # Short values become tags ([evidence_data · implicit]); longer ones follow the text.
+  # A column the data does not have yet is skipped — `check` lists it — so a field can be
+  # listed here before the team adds it.
+  #
+  # `why` is the agreed next change to the data: each move should record the reason
+  # behind it, not only the conclusion. The first blind test failed on exactly this —
+  # a source_credibility note said whose number he doubts, not why, so the prediction
+  # doubted the wrong side. When parse_maps.py starts writing a `why` column (or it is
+  # named differently), this list is the only place to touch.
+  show_columns: [mechanism_kind, claim_type, implicit_only, concept, why]
+
+# What each slot means — used when mapping the actual article (not shown to the predictor).
+# Relative to this folder, so it travels with the skill.
+codebook: CODEBOOK.md
+
+# Article text with <!-- pN --> paragraph anchors. Used for the ACTUAL chart only,
+# and only after the prediction is locked.
+extractor:
+  script: scripts/cfr_extract.py
+  handles: cfr.org
+
+# Output. One folder per test: <output_dir>/<YYYY-MM-DD>_<short-slug>.
+# Kept short on purpose — Windows refuses paths over 260 characters and the
+# extractor's filenames are long. `freeze` warns when a run folder is too deep.
+output_dir: internal/pva
+
+# Never write here. parse_maps.py ingests every .mmd in mermaid_code/ as a real
+# article, so a prediction placed there would enter the knowledge base as if the
+# author had written it. obsidian/ and data/ are generated, not authored.
+never_write: [mermaid_code, obsidian, data]
+
+# --------------------------------------------------------------- freeze ----
+# When the knowledge base grows, the predictor cannot be handed everything.
+# Above max_notes, freeze keeps the articles whose notes share the most words with
+# the title, plus the most recent few, and lists what it left out and why.
+# Below max_notes nothing is dropped. Deterministic: same title, same selection.
+freeze:
+  max_notes: 600
+  always_keep_recent: 3
+
+# -------------------------------------------------------------- stages ----
+# Top to bottom, the order the chart is drawn in. Each slot belongs to exactly one
+# stage. Stage and slot names must match the template above — `check` compares them.
+stages:
+  - id: L0
+    name: "Level 0 · Question & framing"
+    slots: [question, anomaly, position_map]
+  - id: L1
+    name: "Level 1 · Priors & assumptions"
+    slots: [stated_assumption, hidden_assumption, revised_prior, accounting_identity, source_credibility]
+  - id: L1B
+    name: "Level 1b · Frame & scope"
+    slots: [scope_choice, benchmark]
+  - id: L2
+    name: "Level 2 · Evidence"
+    slots: [evidence_data, evidence_source, evidence_rival, evidence_discrepancy]
+  - id: L3
+    name: "Level 3 · Mechanisms"
+    slots: [mechanism]
+  - id: L4
+    name: "Level 4 · Intermediate claims"
+    slots: [intermediate_claim, case_type, policy_reductio]
+  - id: L5
+    name: "Level 5 · Conclusion"
+    slots: [main_claim, reconstruction, recommendation]
+  - id: L6
+    name: "Level 6 · Counterpoints"
+    slots: [opposing_view, caveat, other_explanation, deferred_question]
+
+# Slots that may take more than one box. Everything else gets exactly one,
+# which keeps both charts on the same fixed skeleton.
+repeat:
+  mechanism: 2
+
+# How each slot is titled on the chart — the same words as the template.
+# A repeated slot gets " A", " B" added: Mechanism A, Mechanism B.
+slot_names:
+  question: Question
+  anomaly: Anomaly
+  position_map: Position map
+  stated_assumption: Stated assumption
+  hidden_assumption: Hidden assumption
+  revised_prior: Revised prior
+  accounting_identity: Accounting identity
+  source_credibility: Source credibility
+  scope_choice: Scope choice
+  benchmark: Benchmark
+  evidence_data: Data
+  evidence_source: Studies & sources
+  evidence_rival: Rival measurement
+  evidence_discrepancy: Discrepancy
+  mechanism: Mechanism
+  intermediate_claim: Intermediate claim
+  case_type: Case type
+  policy_reductio: Policy reductio
+  main_claim: Main claim
+  reconstruction: Reconstruction
+  recommendation: Recommendation
+  opposing_view: Opposing view
+  caveat: Caveat
+  other_explanation: Other explanation
+  deferred_question: Deferred question
+
+# --------------------------------------------------------------- edges ----
+# Every edge type in schema_map.yaml must appear in exactly one list.
+#   forward   - the argument moves on. Must run to the same stage or a later one.
+#   pushback  - something limits or weakens a claim. May run in any direction.
+#
+# Read every arrow as a sentence:  A <type> B.
+#   main_claim  rebuts        opposing_view     the claim argues against the view
+#   main_claim  qualified_by  caveat            the caveat limits the claim
+#   mechanism   undercut_by   other_explanation the rival weakens the mechanism
+edges:
+  forward: [supports, licenses, bounds, motivates, reconstructs]
+  pushback: [revises, rebuts, qualified_by, undercut_by, defers]
+
+  # A pushback arrow that would point UP the chart is drawn the other way, with the
+  # active verb, so every arrow reads top to bottom. The meaning does not change:
+  # "data  undercut_by  source_credibility" is drawn "source_credibility undercuts data".
+  # Every pushback type needs an entry.
+  reverse_label:
+    undercut_by: undercuts
+    qualified_by: qualifies
+    rebuts: rebutted by
+    revises: revised by
+    defers: deferred by
+
+# ------------------------------------------------------------- writing ----
+# Limits the validator enforces. The style rules themselves are in SKILL.md.
+writing:
+  max_label_words: 12
+  max_note_words: 12
+  max_finding_words: 25
+
+# ------------------------------------------------------------- palette ----
+# Fill colour by stage — what kind of thing the box is.
+# Border colour by result, on the actual chart only — how the prediction did.
+palette:
+  text: "#F1EFE8"
+  stage_fill:
+    L0:  "#2C2C2A"
+    L1:  "#3C3489"
+    L1B: "#6B5410"
+    L2:  "#0C447C"
+    L3:  "#085041"
+    L4:  "#085041"
+    L5:  "#085041"
+    L6:  "#444441"
+  distortion_fill: "#7A4310"            # a mechanism of mismeasurement, not of the economy
+  stage_border: "#9A9890"
+  empty_fill: "#1C1C1B"
+  empty_text: "#6B6A65"
+  empty_border: "#4A4945"
+  chain: "#E06C6C"                      # arrows joining wrong boxes on the actual chart
+  result_border:
+    match:     "#5DCAA5"                # ✓ slot and content right
+    close:     "#E8B04A"                # ≈ right slot, close content
+    opposite:  "#E06C6C"                # ≠ right slot, content contradicts the prediction
+    wrong:     "#B85C5C"                # ✗ predicted, not in the article
+    missed:    "#E070C0"                # ★ in the article, predicted empty
+    gap:       "#8FA8D8"                # ◇ in the article, but the framework had no slot for it yet
+    slot_only: "#9A9890"                #   slot predicted, no content given — not scored
