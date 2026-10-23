@@ -405,7 +405,8 @@ predict-vs-actual/
         ├── predicted.json / predicted.mmd
         ├── actual.json / actual.mmd
         ├── legend.mmd
-        └── comparison.md
+        ├── comparison.md
+        └── predicted.png / actual.png / legend.png    the .mmd files exported from mermaid.live
 ```
 
 To keep a finished run as an example, run `pva.py example RUN` — it refuses a run
