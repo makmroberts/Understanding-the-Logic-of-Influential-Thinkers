@@ -640,77 +640,100 @@ would return, through the same validation, if you have no key.
 
 ## References
 
-**Where these came from.** Two groups, because they did not arrive the same way
-and a reader should be able to tell.
+Alphabetical. Every entry checked against the publication, its publisher's
+record or its arXiv listing on 2026-10-23.
 
-_From the team's reading list_ (`KoL Reasoning - Node Literature.pdf`, and the
-companion review note): Axelrod · Kosko · Chesñevar · Markóczy & Goldberg ·
-Özesmi & Özesmi · Laukkanen · Poveda-Villalón (LOT) · Babaei Giglou (LLMs4OL) ·
-Nasir (OntoKG-EQ) · Li, Garijo & Poveda-Villalón · Groth, Gibson & Velterop ·
-Hernández, Hogan & Krötzsch · Heddaya · Grüninger & Fox · Ash, Gauthier &
-Widmer (Relatio) · Rasmussen (Zep).
+- **Ash, E., Gauthier, G. & Widmer, P. (2024).** Relatio: Text Semantics Capture Political and Economic Narratives. *Political Analysis* 32(1), 115-132. Cambridge University Press.
+  *Used here for:* read, not used: narrative extraction without a controlled vocabulary.
 
-_Brought by the team, outside the two PDFs_: **Toulmin 1958**, the six argument
-elements, via the [Purdue OWL summary](https://owl.purdue.edu/owl/general_writing/academic_writing/historical_perspectives_on_argumentation/toulmin_argument.html).
-It is also independently attested in the project: `scripts/schema_map.yaml`
-glossed the `licenses` relation as "the Toulmin warrant" before any of this
-documentation existed.
+- **Axelrod, R. (ed.) (1976).** *Structure of Decision: The Cognitive Maps of Political Elites*. Princeton University Press.
+  *Used here for:* a sign on each edge, and no weight.
 
-_Added while building the pipeline_: **Ranganathan 1933**, **Han et al. 2018**,
-**Daxenberger et al. 2017**, **Stab & Gurevych 2017**, **Habernal & Gurevych
-2017**, and **PROV-O**. The first three were read properly on 2026-10-22,
-because they carry the two-axis design and the back-off, and reading them moved
-two of the three:
+- **Babaei Giglou, H., D'Souza, J. & Auer, S. (2023).** LLMs4OL: Large Language Models for Ontology Learning. *The Semantic Web - ISWC 2023*, LNCS 14265, 408-427. Springer.
+  *Used here for:* typing terms against a fixed vocabulary rather than inducing one.
 
-- **Ranganathan, S. R. (1933). _Colon Classification_. Madras Library
-  Association.** Confirms the design: Colon Classification describes a subject
-  across five independent dimensions - Personality, Matter, Energy, Space, Time
-  - combined into one notation, instead of placing it at one node of one
-    hierarchy. That is exactly the role-plus-subject split here, and the reason a
-    claim is filed twice rather than once. Cited correctly as it stood.
-- **Han, X., Yu, P., Liu, Z., Sun, M. & Li, P. (2018). Hierarchical Relation
-  Extraction with Coarse-to-Fine Grained Attention. EMNLP 2018, 2236-2245.**
-  Their setting is distantly supervised relation extraction; a hierarchical
-  attention scheme over a relation hierarchy is what makes long-tail relations
-  tractable. **Restated here**: this project borrows the premise - a hierarchy
-  over relations rescues the sparse ones - not the method, which is a majority
-  vote with no attention and no model.
-- **Daxenberger, J., Eger, S., Habernal, I., Stab, C. & Gurevych, I. (2017).
-  What is the Essence of a Claim? Cross-Domain Claim Identification. EMNLP 2017,
-  2055-2066.** **Was cited wrongly.** It was given here as "coarse decisions
-  transfer across corpora while fine-grained ones do not", which is not its
-  finding. Across six datasets the paper finds the _divergent conceptualisation_
-  of a claim between domains is harmful to cross-domain classification, with
-  shared lexical properties and system configuration partly bridging it. Moved
-  to Known limits, where it belongs: a warning that this team's idea of a claim
-  may not carry to another annotator or another thinker.
+- **Chesñevar, C., McGinnis, J., Modgil, S., Rahwan, I., Reed, C., Simari, G., South, M., Vreeswijk, G. & Willmott, S. (2006).** Towards an argument interchange format. *The Knowledge Engineering Review* 21(4), 293-316. doi:10.1017/S0269888906001044.
+  *Used here for:* claims as information nodes, separate from reasoning-step nodes.
 
-A note on one attribution that was questioned and kept. The job of mapping an
-author's many phrasings onto one label is cited to **Heddaya et al. 2024**
-rather than to Relatio, because Heddaya classifies against an expert-built
-ontology fixed in advance, which is exactly what `label_facets.py` does.
-Relatio _discovers_ its labels by clustering phrase variants with no controlled
-vocabulary - the opposite of the governance this project rests on - which is
-why it is listed as read and not used rather than as a source.
+- **Daxenberger, J., Eger, S., Habernal, I., Stab, C. & Gurevych, I. (2017).** What is the Essence of a Claim? Cross-Domain Claim Identification. *EMNLP 2017*, 2055-2066. arXiv:1704.07203.
+  *Used here for:* a conceptualisation of "claim" does not transfer cleanly between domains.
 
-Manning, Raghavan & Schütze 2008, _Introduction to Information Retrieval_, Cambridge, §16.3 (the purity measure, and its singleton pathology) · Ranganathan 1933, _Colon Classification_, Madras Library Association · Han, Yu, Liu, Sun & Li 2018, _Hierarchical Relation Extraction with Coarse-to-Fine Grained Attention_, EMNLP 2236-2245 · Daxenberger, Eger, Habernal, Stab & Gurevych 2017, _What is the Essence of a Claim? Cross-Domain Claim Identification_, EMNLP 2055-2066 · Toulmin 1958, _The Uses of Argument_ (Purdue OWL summary) · Laukkanen 1994, _Comparative Cause
-Mapping of Organizational Cognitions_, Organization Science · Markóczy &
-Goldberg 1995, _A Method for Eliciting and Comparing Causal Maps_, Journal of
-Management · Chesñevar et al. 2006, _Towards an Argument Interchange Format_,
-Knowledge Engineering Review · Han et al. 2018, _Hierarchical Relation
-Extraction with Coarse-to-Fine Grained Attention_, EMNLP · Daxenberger et al.
-2017, _What is the Essence of a Claim?_, EMNLP · Ranganathan 1933, _Colon
-Classification_ · Babaei Giglou, D'Souza & Auer 2023, _LLMs4OL_, ISWC · Heddaya
-et al. 2024, _Causal Micro-Narratives_, ACL WNU · Poveda-Villalón et al. 2022,
-_LOT_, Engineering Applications of AI · Grüninger & Fox 1995, _Methodology for
-the Design and Evaluation of Ontologies_ · Nasir et al. 2026, _OntoKG-EQ_ ·
-Axelrod 1976, _Structure of Decision_ · Kosko 1986, _Fuzzy Cognitive Maps_,
-Int. J. Man-Machine Studies · Özesmi & Özesmi 2004, _Ecological Models Based on
-People's Knowledge_, Ecological Modelling · Groth, Gibson & Velterop 2010, _The
-Anatomy of a Nanopublication_, Information Services & Use · Hernández, Hogan &
-Krötzsch 2015, _Reifying RDF_, SSWS · Stab & Gurevych 2017 and Habernal &
-Gurevych 2017, Computational Linguistics.
+- **Groth, P., Gibson, A. & Velterop, J. (2010).** The anatomy of a nanopublication. *Information Services & Use* 30(1-2), 51-56.
+  *Used here for:* one assertion published together with its provenance.
 
-Read and not used: Ash, Gauthier & Widmer 2024, _Relatio_ (narrative extraction
-without a controlled vocabulary) · Rasmussen et al. 2025, _Zep_ (agent memory
-over time rather than argument structure within a document).
+- **Grüninger, M. & Fox, M. S. (1995).** Methodology for the Design and Evaluation of Ontologies. *Workshop on Basic Ontological Issues in Knowledge Sharing*, IJCAI-95, Montreal.
+  *Used here for:* competency questions as the bound on a vocabulary.
+
+- **Habernal, I. & Gurevych, I. (2017).** Argumentation Mining in User-Generated Web Discourse. *Computational Linguistics* 43(1), 125-179. arXiv:1601.02403.
+  *Used here for:* agreement measurement, including unitizing.
+
+- **Han, X., Yu, P., Liu, Z., Sun, M. & Li, P. (2018).** Hierarchical Relation Extraction with Coarse-to-Fine Grained Attention. *EMNLP 2018*, 2236-2245.
+  *Used here for:* a hierarchy over relations is the standard handle on long-tail relations.
+
+- **Heddaya, M., Zeng, Q., Tan, C., Voigt, R. & Zentefis, A. (2024).** Causal Micro-Narratives. *Proceedings of the 6th Workshop on Narrative Understanding (WNU)*, 67-84. ACL. arXiv:2410.05252.
+  *Used here for:* one label for an author's many phrasings of the same thing.
+
+- **Hernández, D., Hogan, A. & Krötzsch, M. (2015).** Reifying RDF: What Works Well With Wikidata? *11th International Workshop on Scalable Semantic Web Knowledge Base Systems (SSWS)*, CEUR-WS 1457, 32-47.
+  *Used here for:* how provenance attaches to a single claim.
+
+- **Kosko, B. (1986).** Fuzzy cognitive maps. *International Journal of Man-Machine Studies* 24(1), 65-75.
+  *Used here for:* the weighted formulation, declined: strength of support is never stated.
+
+- **Laukkanen, M. (1994).** Comparative Cause Mapping of Organizational Cognitions. *Organization Science* 5(3), 322-343. doi:10.1287/orsc.5.3.322.
+  *Used here for:* what to control so two annotators' maps can be compared.
+
+- **Li, J., Garijo, D. & Poveda-Villalón, M. (2026).** Large Language Models for Ontology Engineering: A Systematic Literature Review. *Semantic Web Journal*. doi:10.1177/22104968261465514.
+  *Used here for:* no homogenisation in task definitions, datasets or evaluation across this area.
+
+- **Manning, C. D., Raghavan, P. & Schütze, H. (2008).** *Introduction to Information Retrieval*, ch. 16 §16.3 "Evaluation of clustering". Cambridge University Press.
+  *Used here for:* the purity measure, and its singleton pathology.
+
+- **Markóczy, L. & Goldberg, J. (1995).** A method for eliciting and comparing causal maps. *Journal of Management* 21(2), 305-333.
+  *Used here for:* a node vocabulary fixed before anyone draws.
+
+- **Nasir, F. et al. (2026).** OntoKG-EQ: A provenance-grounded, competency-question-governed knowledge graph for auditable analyst querying. arXiv:2609.08869.
+  *Used here for:* question governance paired with per-claim provenance; governs with five fixed questions.
+
+- **Özesmi, U. & Özesmi, S. L. (2004).** Ecological models based on people's knowledge: a multi-step fuzzy cognitive mapping approach. *Ecological Modelling* 176(1-2), 43-64.
+  *Used here for:* density, centrality, transmitter bias, hierarchy index, and the published map-size comparison.
+
+- **Poveda-Villalón, M., Fernández-Izquierdo, A., Fernández-López, M. & García-Castro, R. (2022).** LOT: An industrial oriented ontology engineering framework. *Engineering Applications of Artificial Intelligence* 111, 104755. doi:10.1016/j.engappai.2022.104755.
+  *Used here for:* reuse a published term before minting a new one.
+
+- **Ranganathan, S. R. (1933).** *Colon Classification*. Madras Library Association.
+  *Used here for:* a subject described across several independent axes combined, not one place in one tree.
+
+- **Rasmussen, P., Paliychuk, P., Beauvais, T., Ryan, J. & Chalef, D. (2025).** Zep: A Temporal Knowledge Graph Architecture for Agent Memory. arXiv:2501.13956.
+  *Used here for:* read, not used: bi-temporal edges, the model for the missing period dimension.
+
+- **Stab, C. & Gurevych, I. (2017).** Parsing Argumentation Structures in Persuasive Essays. *Computational Linguistics* 43(3), 619-659. arXiv:1604.07370.
+  *Used here for:* agreement measurement for argument annotation.
+
+- **Toulmin, S. E. (1958).** *The Uses of Argument*. Cambridge University Press. Summarised by the [Purdue OWL](https://owl.purdue.edu/owl/general_writing/academic_writing/historical_perspectives_on_argumentation/toulmin_argument.html), which sets out all six elements.
+  *Used here for:* the six argument elements, as the drawing's stages and the top of the role hierarchy.
+
+- **W3C (2013).** PROV-O: The PROV Ontology. W3C Recommendation, 30 April 2013. Eds. T. Lebo, S. Sahoo & D. McGuinness. <https://www.w3.org/TR/prov-o/>
+  *Used here for:* provenance predicates for assertions a process derived rather than a person asserted.
+
+**Read and not used**, recorded so the choice is visible: Ash, Gauthier &
+Widmer (Relatio) and Rasmussen et al. (Zep) above, plus Noy, N. F. &
+McGuinness, D. L. (2001), *Ontology Development 101: A Guide to Creating Your
+First Ontology*, Stanford KSL Technical Report KSL-01-05, and Walton &
+Macagno on argumentation-scheme classification.
+
+**Two notes on what the sources do and do not say.** Daxenberger et al. was
+previously cited here for "coarse decisions transfer across corpora while
+fine-grained ones do not", which is not its finding: across six datasets it
+reports that the divergent conceptualisation of a claim between domains is
+harmful to cross-domain classification, with shared lexical properties and
+system configuration partly bridging it. It now appears under Limits, where
+that result applies. And Han et al. is borrowed for its premise rather than its
+method: their coarse-to-fine attention over a relation hierarchy is a neural
+model, while the back-off here is a majority vote with no attention and no
+model.
+
+The job of mapping an author's many phrasings onto one label is cited to
+Heddaya et al. rather than to Relatio, because Heddaya classifies against an
+expert-built ontology fixed in advance, which is what `label_facets.py` does;
+Relatio discovers its labels by clustering phrase variants with no controlled
+vocabulary.
