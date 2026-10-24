@@ -1,0 +1,570 @@
+{
+ "nodes": [
+  {
+   "id": "setser_may_2_19-Q",
+   "type": "file",
+   "file": "claims/question/Does a purchase-commitment deal push China back toward managed trade.md",
+   "x": -260,
+   "y": 0,
+   "width": 520,
+   "height": 300,
+   "color": "#7A6FA8"
+  },
+  {
+   "id": "setser_may_2_19-P1",
+   "type": "file",
+   "file": "claims/stated_assumption/Who buys matters more than the border barrier.md",
+   "x": -840,
+   "y": 480,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "setser_may_2_19-P2",
+   "type": "file",
+   "file": "claims/stated_assumption/State control of the commanding heights is not negotiable.md",
+   "x": -260,
+   "y": 480,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "setser_may_2_19-P3",
+   "type": "file",
+   "file": "claims/hidden_assumption/Managed trade means control of end demand, not tariffs.md",
+   "x": 320,
+   "y": 480,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "setser_may_2_19-D1",
+   "type": "file",
+   "file": "claims/evidence_data/Canola with Canada shut down.md",
+   "x": -2000,
+   "y": 960,
+   "width": 520,
+   "height": 300,
+   "color": "#2F7FBF"
+  },
+  {
+   "id": "setser_may_2_19-D2",
+   "type": "file",
+   "file": "claims/evidence_data/Australian coal purchases scaled back.md",
+   "x": -1420,
+   "y": 960,
+   "width": 520,
+   "height": 300,
+   "color": "#2F7FBF"
+  },
+  {
+   "id": "setser_may_2_19-D3",
+   "type": "file",
+   "file": "claims/evidence_data/U.S. exports went to zero, not down by half.md",
+   "x": -840,
+   "y": 960,
+   "width": 520,
+   "height": 300,
+   "color": "#2F7FBF"
+  },
+  {
+   "id": "setser_may_2_19-D4",
+   "type": "file",
+   "file": "claims/evidence_data/Aircraft the buyer is the state.md",
+   "x": -260,
+   "y": 960,
+   "width": 520,
+   "height": 300,
+   "color": "#2F7FBF"
+  },
+  {
+   "id": "setser_may_2_19-D5",
+   "type": "file",
+   "file": "claims/evidence_data/Soybeans COFCO controls the infrastructure.md",
+   "x": 320,
+   "y": 960,
+   "width": 520,
+   "height": 300,
+   "color": "#2F7FBF"
+  },
+  {
+   "id": "setser_may_2_19-D6",
+   "type": "file",
+   "file": "claims/evidence_data/Oil and gas state majors control the pipes.md",
+   "x": 900,
+   "y": 960,
+   "width": 520,
+   "height": 300,
+   "color": "#2F7FBF"
+  },
+  {
+   "id": "setser_may_2_19-D7",
+   "type": "file",
+   "file": "claims/evidence_data/The capital-goods roll call.md",
+   "x": 1480,
+   "y": 960,
+   "width": 520,
+   "height": 300,
+   "color": "#2F7FBF"
+  },
+  {
+   "id": "setser_may_2_19-M1",
+   "type": "file",
+   "file": "claims/mechanism/Ownership converts preference into volume.md",
+   "x": -1130,
+   "y": 1440,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "setser_may_2_19-M2",
+   "type": "file",
+   "file": "claims/mechanism/Border liberalisation cannot create demand.md",
+   "x": -550,
+   "y": 1440,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "setser_may_2_19-M3",
+   "type": "file",
+   "file": "claims/mechanism/Purchasing power is used to force localisation.md",
+   "x": 30,
+   "y": 1440,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "setser_may_2_19-M4",
+   "type": "file",
+   "file": "claims/mechanism/An administrative lever is reversible by administration.md",
+   "x": 610,
+   "y": 1440,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "setser_may_2_19-C1",
+   "type": "file",
+   "file": "claims/intermediate_claim/China never left managed trade.md",
+   "x": -1130,
+   "y": 1920,
+   "width": 520,
+   "height": 300,
+   "color": "#2FBF9B"
+  },
+  {
+   "id": "setser_may_2_19-C2",
+   "type": "file",
+   "file": "claims/intermediate_claim/Reform and opening was partial and sector-specific.md",
+   "x": -550,
+   "y": 1920,
+   "width": 520,
+   "height": 300,
+   "color": "#2FBF9B"
+  },
+  {
+   "id": "setser_may_2_19-C3",
+   "type": "file",
+   "file": "claims/intermediate_claim/Removing formal barriers is not enough.md",
+   "x": 30,
+   "y": 1920,
+   "width": 520,
+   "height": 300,
+   "color": "#2FBF9B"
+  },
+  {
+   "id": "setser_may_2_19-C4",
+   "type": "file",
+   "file": "claims/intermediate_claim/So the standard critique is misdirected.md",
+   "x": 610,
+   "y": 1920,
+   "width": 520,
+   "height": 300,
+   "color": "#2FBF9B"
+  },
+  {
+   "id": "setser_may_2_19-K",
+   "type": "file",
+   "file": "claims/main_claim/Main claim the right critique is revocability, not a return to managed trade.md",
+   "x": -260,
+   "y": 2400,
+   "width": 520,
+   "height": 300,
+   "color": "#2FBF9B"
+  },
+  {
+   "id": "setser_may_2_19-QF",
+   "type": "file",
+   "file": "claims/caveat/This is a description of the world as it is, not as it should be; and medical equipment is a trick case, with private.md",
+   "x": -1130,
+   "y": 2880,
+   "width": 520,
+   "height": 300,
+   "color": "#9A8C6A"
+  },
+  {
+   "id": "setser_may_2_19-R1",
+   "type": "file",
+   "file": "claims/other_explanation/Private-buyer explanation autos.md",
+   "x": -550,
+   "y": 2880,
+   "width": 520,
+   "height": 300,
+   "color": "#8A8A8A"
+  },
+  {
+   "id": "setser_may_2_19-R2",
+   "type": "file",
+   "file": "claims/opposing_view/Allies objection, set aside.md",
+   "x": 30,
+   "y": 2880,
+   "width": 520,
+   "height": 300,
+   "color": "#8A8A8A"
+  },
+  {
+   "id": "setser_may_2_19-X",
+   "type": "file",
+   "file": "claims/opposing_view/Consensus view the deal pushes China back to managed trade.md",
+   "x": 610,
+   "y": 2880,
+   "width": 520,
+   "height": 300,
+   "color": "#8A8A8A"
+  }
+ ],
+ "edges": [
+  {
+   "id": "P1-M1",
+   "fromNode": "setser_may_2_19-P1",
+   "fromSide": "bottom",
+   "toNode": "setser_may_2_19-M1",
+   "toSide": "top",
+   "label": "+1 licenses",
+   "color": "4"
+  },
+  {
+   "id": "D1-M1",
+   "fromNode": "setser_may_2_19-D1",
+   "fromSide": "bottom",
+   "toNode": "setser_may_2_19-M1",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "D2-M1",
+   "fromNode": "setser_may_2_19-D2",
+   "fromSide": "bottom",
+   "toNode": "setser_may_2_19-M1",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "D3-M1",
+   "fromNode": "setser_may_2_19-D3",
+   "fromSide": "bottom",
+   "toNode": "setser_may_2_19-M1",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "D4-C2",
+   "fromNode": "setser_may_2_19-D4",
+   "fromSide": "bottom",
+   "toNode": "setser_may_2_19-C2",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "D5-C2",
+   "fromNode": "setser_may_2_19-D5",
+   "fromSide": "bottom",
+   "toNode": "setser_may_2_19-C2",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "D6-C2",
+   "fromNode": "setser_may_2_19-D6",
+   "fromSide": "bottom",
+   "toNode": "setser_may_2_19-C2",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "D7-M2",
+   "fromNode": "setser_may_2_19-D7",
+   "fromSide": "bottom",
+   "toNode": "setser_may_2_19-M2",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "P2-M2",
+   "fromNode": "setser_may_2_19-P2",
+   "fromSide": "bottom",
+   "toNode": "setser_may_2_19-M2",
+   "toSide": "top",
+   "label": "+1 licenses",
+   "color": "4"
+  },
+  {
+   "id": "M2-C3",
+   "fromNode": "setser_may_2_19-M2",
+   "fromSide": "bottom",
+   "toNode": "setser_may_2_19-C3",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "D7-M3",
+   "fromNode": "setser_may_2_19-D7",
+   "fromSide": "bottom",
+   "toNode": "setser_may_2_19-M3",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "M3-C3",
+   "fromNode": "setser_may_2_19-M3",
+   "fromSide": "bottom",
+   "toNode": "setser_may_2_19-C3",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "M1-C1",
+   "fromNode": "setser_may_2_19-M1",
+   "fromSide": "bottom",
+   "toNode": "setser_may_2_19-C1",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "P3-C1",
+   "fromNode": "setser_may_2_19-P3",
+   "fromSide": "bottom",
+   "toNode": "setser_may_2_19-C1",
+   "toSide": "top",
+   "label": "+1 licenses",
+   "color": "4"
+  },
+  {
+   "id": "C2-C1",
+   "fromNode": "setser_may_2_19-C2",
+   "fromSide": "bottom",
+   "toNode": "setser_may_2_19-C1",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "P2-M4",
+   "fromNode": "setser_may_2_19-P2",
+   "fromSide": "bottom",
+   "toNode": "setser_may_2_19-M4",
+   "toSide": "top",
+   "label": "+1 licenses",
+   "color": "4"
+  },
+  {
+   "id": "M4-C4",
+   "fromNode": "setser_may_2_19-M4",
+   "fromSide": "bottom",
+   "toNode": "setser_may_2_19-C4",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "C1-C4",
+   "fromNode": "setser_may_2_19-C1",
+   "fromSide": "bottom",
+   "toNode": "setser_may_2_19-C4",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "C3-C4",
+   "fromNode": "setser_may_2_19-C3",
+   "fromSide": "bottom",
+   "toNode": "setser_may_2_19-C4",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "C1-K",
+   "fromNode": "setser_may_2_19-C1",
+   "fromSide": "bottom",
+   "toNode": "setser_may_2_19-K",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "C3-K",
+   "fromNode": "setser_may_2_19-C3",
+   "fromSide": "bottom",
+   "toNode": "setser_may_2_19-K",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "C4-K",
+   "fromNode": "setser_may_2_19-C4",
+   "fromSide": "bottom",
+   "toNode": "setser_may_2_19-K",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "C1-X",
+   "fromNode": "setser_may_2_19-C1",
+   "fromSide": "bottom",
+   "toNode": "setser_may_2_19-X",
+   "toSide": "top",
+   "label": "-1 rebuts",
+   "color": "1"
+  },
+  {
+   "id": "C3-R1",
+   "fromNode": "setser_may_2_19-C3",
+   "fromSide": "bottom",
+   "toNode": "setser_may_2_19-R1",
+   "toSide": "top",
+   "label": "-1 undercut_by",
+   "color": "1"
+  },
+  {
+   "id": "K-QF",
+   "fromNode": "setser_may_2_19-K",
+   "fromSide": "bottom",
+   "toNode": "setser_may_2_19-QF",
+   "toSide": "top",
+   "label": "-1 qualified_by",
+   "color": "1"
+  },
+  {
+   "id": "K-R2",
+   "fromNode": "setser_may_2_19-K",
+   "fromSide": "bottom",
+   "toNode": "setser_may_2_19-R2",
+   "toSide": "top",
+   "label": "0 defers",
+   "color": "6"
+  },
+  {
+   "id": "Q-P1",
+   "fromNode": "setser_may_2_19-Q",
+   "fromSide": "bottom",
+   "toNode": "setser_may_2_19-P1",
+   "toSide": "top",
+   "label": "0 frames ~",
+   "color": "6"
+  },
+  {
+   "id": "Q-P2",
+   "fromNode": "setser_may_2_19-Q",
+   "fromSide": "bottom",
+   "toNode": "setser_may_2_19-P2",
+   "toSide": "top",
+   "label": "0 frames ~",
+   "color": "6"
+  },
+  {
+   "id": "Q-P3",
+   "fromNode": "setser_may_2_19-Q",
+   "fromSide": "bottom",
+   "toNode": "setser_may_2_19-P3",
+   "toSide": "top",
+   "label": "0 frames ~",
+   "color": "6"
+  },
+  {
+   "id": "P1-D1",
+   "fromNode": "setser_may_2_19-P1",
+   "fromSide": "bottom",
+   "toNode": "setser_may_2_19-D1",
+   "toSide": "top",
+   "label": "0 frames ~",
+   "color": "6"
+  },
+  {
+   "id": "P1-D2",
+   "fromNode": "setser_may_2_19-P1",
+   "fromSide": "bottom",
+   "toNode": "setser_may_2_19-D2",
+   "toSide": "top",
+   "label": "0 frames ~",
+   "color": "6"
+  },
+  {
+   "id": "P1-D3",
+   "fromNode": "setser_may_2_19-P1",
+   "fromSide": "bottom",
+   "toNode": "setser_may_2_19-D3",
+   "toSide": "top",
+   "label": "0 frames ~",
+   "color": "6"
+  },
+  {
+   "id": "P2-D4",
+   "fromNode": "setser_may_2_19-P2",
+   "fromSide": "bottom",
+   "toNode": "setser_may_2_19-D4",
+   "toSide": "top",
+   "label": "0 frames ~",
+   "color": "6"
+  },
+  {
+   "id": "P2-D5",
+   "fromNode": "setser_may_2_19-P2",
+   "fromSide": "bottom",
+   "toNode": "setser_may_2_19-D5",
+   "toSide": "top",
+   "label": "0 frames ~",
+   "color": "6"
+  },
+  {
+   "id": "P2-D6",
+   "fromNode": "setser_may_2_19-P2",
+   "fromSide": "bottom",
+   "toNode": "setser_may_2_19-D6",
+   "toSide": "top",
+   "label": "0 frames ~",
+   "color": "6"
+  },
+  {
+   "id": "P3-D7",
+   "fromNode": "setser_may_2_19-P3",
+   "fromSide": "bottom",
+   "toNode": "setser_may_2_19-D7",
+   "toSide": "top",
+   "label": "0 frames ~",
+   "color": "6"
+  }
+ ]
+}

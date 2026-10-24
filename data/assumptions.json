@@ -1,11 +1,46 @@
 [
  {
+  "date": "2019-05-02",
+  "year": "2019",
+  "family": "plain",
+  "doc": "setser_may_2_19",
+  "article": "Does a purchase-commitment deal push China back toward managed trade?",
+  "url": "https://www.cfr.org/articles/china-never-stopped-managing-its-trade",
+  "node_id": "P3",
+  "type": "hidden_assumption",
+  "header": "Managed trade means control of end demand, not tariffs",
+  "text": "The definitional move the argument turns on - 'that's managed trade in my books, even without formal tariffs or quotas'",
+  "full": "Managed trade means control of end demand, not tariffs - The definitional move the argument turns on - 'that's managed trade in my books, even without formal tariffs or quotas'",
+  "concept": "",
+  "implicit_only": 0,
+  "type_source": "class",
+  "n_targets": 2,
+  "targets": [
+   {
+    "edge": "licenses",
+    "edge_as_drawn": "licenses",
+    "target_id": "C1",
+    "target_type": "intermediate_claim",
+    "target_level": "L4",
+    "target_text": "So a purchase deal cannot return it to a place it never left"
+   },
+   {
+    "edge": "frames",
+    "edge_as_drawn": "",
+    "target_id": "D7",
+    "target_type": "evidence_data",
+    "target_level": "L2",
+    "target_text": "Telecoms equipment, railway equipment, grid power, avionics - in sector after sector the ultimate buyer is the Chinese state"
+   }
+  ]
+ },
+ {
   "date": "2020-01-31",
   "year": "2020",
   "family": "banner",
   "doc": "setser_jan_31_20",
   "article": "Lessons From Phase One of the Trade War With China",
-  "url": "",
+  "url": "https://www.cfr.org/articles/lessons-phase-one-trade-war-china",
   "node_id": "P2",
   "type": "hidden_assumption",
   "header": "Hidden assumption",
@@ -22,7 +57,7 @@
     "target_id": "K",
     "target_type": "main_claim",
     "target_level": "L5",
-    "target_text": "· China can meet its 2020 commitments — and that is precisely the risk. \"What China's state gives, China's state can take away\""
+    "target_text": "China can meet its 2020 commitments — and that is precisely the risk. \"What China's state gives, China's state can take away\""
    }
   ]
  },
@@ -32,7 +67,7 @@
   "family": "plain",
   "doc": "setser_feb_26_20",
   "article": "Do tariffs change the trade balance, and who absorbed the Q4 US demand drop?",
-  "url": "",
+  "url": "https://www.cfr.org/articles/us-shock-global-demand-q4-coronavirus",
   "node_id": "P1",
   "type": "hidden_assumption",
   "header": "Trade balance = saving − investment",
@@ -41,7 +76,7 @@
   "concept": "",
   "implicit_only": 0,
   "type_source": "class",
-  "n_targets": 1,
+  "n_targets": 3,
   "targets": [
    {
     "edge": "licenses",
@@ -50,6 +85,22 @@
     "target_type": "intermediate_claim",
     "target_level": "L4",
     "target_text": "Not the argument Trump makes for them"
+   },
+   {
+    "edge": "frames",
+    "edge_as_drawn": "",
+    "target_id": "D4",
+    "target_type": "evidence_data",
+    "target_level": "L2",
+    "target_text": "Consumer goods, autos, capital goods all soft"
+   },
+   {
+    "edge": "frames",
+    "edge_as_drawn": "",
+    "target_id": "D5",
+    "target_type": "evidence_data",
+    "target_level": "L2",
+    "target_text": "Far short of the fall in China imports"
    }
   ]
  },
@@ -59,7 +110,7 @@
   "family": "banner",
   "doc": "setser_mar_31_20",
   "article": "Not One Emerging Market Financial Crisis, but Many",
-  "url": "",
+  "url": "https://www.cfr.org/articles/not-one-emerging-market-financial-crisis-many",
   "node_id": "P2",
   "type": "hidden_assumption",
   "header": "Hidden assumption",
@@ -86,7 +137,7 @@
   "family": "banner",
   "doc": "setser_jul_8_20",
   "article": "Slouching Toward Phase One",
-  "url": "",
+  "url": "https://www.cfr.org/articles/slouching-toward-phase-one",
   "node_id": "P2",
   "type": "hidden_assumption",
   "header": "Hidden assumption",
@@ -103,7 +154,7 @@
     "target_id": "K",
     "target_type": "main_claim",
     "target_level": "L5",
-    "target_text": "· The deal is failing on its own terms — insisting on impressive numbers made the shortfall easy to demonstrate"
+    "target_text": "The deal is failing on its own terms — insisting on impressive numbers made the shortfall easy to demonstrate"
    }
   ]
  },
@@ -113,7 +164,7 @@
   "family": "banner",
   "doc": "setser_mar_10_24",
   "article": "China's Record Manufacturing Surplus",
-  "url": "",
+  "url": "https://www.cfr.org/articles/chinas-record-manufacturing-surplus",
   "node_id": "P2",
   "type": "hidden_assumption",
   "header": "Hidden assumption",
@@ -140,7 +191,7 @@
   "family": "banner",
   "doc": "setser_aug_14_24",
   "article": "China's Imaginary Trade Data",
-  "url": "",
+  "url": "https://www.cfr.org/articles/chinas-imaginary-trade-data",
   "node_id": "P2",
   "type": "hidden_assumption",
   "header": "Hidden assumption",
@@ -167,7 +218,7 @@
   "family": "banner",
   "doc": "setser_may_5_25",
   "article": "Why Didn't Tariffs Push Up the U.S. Dollar?",
-  "url": "",
+  "url": "https://www.cfr.org/articles/why-didnt-tariffs-push-us-dollar",
   "node_id": "P2",
   "type": "hidden_assumption",
   "header": "Hidden assumption",
@@ -184,7 +235,7 @@
     "target_id": "M1",
     "target_type": "mechanism",
     "target_level": "L3",
-    "target_text": "· Five channels at once — tariffs as fiscal tightening, recession risk hitting equities, China declining to let the yuan slide, Europe's fiscal turn, and a risk premium from treating allies as adversaries"
+    "target_text": "Five channels at once — tariffs as fiscal tightening, recession risk hitting equities, China declining to let the yuan slide, Europe's fiscal turn, and a risk premium from treating allies as adversaries"
    }
   ]
  },
@@ -203,7 +254,7 @@
   "concept": "",
   "implicit_only": 0,
   "type_source": "header",
-  "n_targets": 1,
+  "n_targets": 2,
   "targets": [
    {
     "edge": "licenses",
@@ -212,6 +263,14 @@
     "target_type": "intermediate_claim",
     "target_level": "L4",
     "target_text": "Current account comparisons based on balance of payments data make Europe, not China, look like the main source of imbalance"
+   },
+   {
+    "edge": "frames",
+    "edge_as_drawn": "",
+    "target_id": "E2",
+    "target_type": "evidence_source",
+    "target_level": "L2",
+    "target_text": "IMF 2024 Article IV report; China's State Administration of Foreign Exchange argument about Apple; European Central Bank (Philip Lane) analysis of Ireland; Kenneth Rogoff in the IMF's Finance and Development"
    }
   ]
  },
@@ -230,7 +289,7 @@
   "concept": "",
   "implicit_only": 0,
   "type_source": "header",
-  "n_targets": 1,
+  "n_targets": 2,
   "targets": [
    {
     "edge": "licenses",
@@ -239,6 +298,14 @@
     "target_type": "intermediate_claim",
     "target_level": "L4",
     "target_text": "The second China shock is eroding Europe's core export sectors and is large enough to matter for the whole economy, especially Germany's stagnation"
+   },
+   {
+    "edge": "frames",
+    "edge_as_drawn": "",
+    "target_id": "E2",
+    "target_type": "evidence_source",
+    "target_level": "L2",
+    "target_text": "Centre for European Reform brief on German industry; Financial Times, New York Times and Wall Street Journal sector reporting; Adam Tooze; German customs data"
    }
   ]
  },
@@ -257,7 +324,7 @@
   "concept": "",
   "implicit_only": 0,
   "type_source": "header",
-  "n_targets": 2,
+  "n_targets": 3,
   "targets": [
    {
     "edge": "supports",
@@ -274,6 +341,14 @@
     "target_type": "intermediate_claim",
     "target_level": "L4",
     "target_text": "Excluding pharmaceuticals and gold, U.S. imports are roughly on trend; the shock to trade rules far exceeds the shock to trade flows"
+   },
+   {
+    "edge": "frames",
+    "edge_as_drawn": "",
+    "target_id": "E2",
+    "target_type": "evidence_source",
+    "target_level": "L2",
+    "target_text": "New York Times reporting; U.S. trade data; federal court ruling on tariff authority"
    }
   ]
  },
@@ -292,7 +367,7 @@
   "concept": "",
   "implicit_only": 0,
   "type_source": "header",
-  "n_targets": 1,
+  "n_targets": 2,
   "targets": [
    {
     "edge": "licenses",
@@ -301,6 +376,14 @@
     "target_type": "intermediate_claim",
     "target_level": "L4",
     "target_text": "China's surplus is massive and growing, yet IMF policy advice effectively lets China export its way out of its housing slump"
+   },
+   {
+    "edge": "frames",
+    "edge_as_drawn": "",
+    "target_id": "E2",
+    "target_type": "evidence_source",
+    "target_level": "L2",
+    "target_text": "IMF External Sector Report 2025, October World Economic Outlook and 2024 Article IV report; European Central Bank analysis; Netherlands Bureau for Economic Policy Analysis export volume data; Microsoft annual report"
    }
   ]
  },
@@ -319,7 +402,7 @@
   "concept": "",
   "implicit_only": 0,
   "type_source": "header",
-  "n_targets": 1,
+  "n_targets": 2,
   "targets": [
    {
     "edge": "licenses",
@@ -328,6 +411,14 @@
     "target_type": "intermediate_claim",
     "target_level": "L4",
     "target_text": "Tariffs reduce imports in specific categories, but the overall deficit is driven by untariffed goods and stockpile timing"
+   },
+   {
+    "edge": "frames",
+    "edge_as_drawn": "",
+    "target_id": "E2",
+    "target_type": "evidence_source",
+    "target_level": "L2",
+    "target_text": "U.S. trade data; Section 232 semiconductor investigation"
    }
   ]
  },
@@ -337,7 +428,7 @@
   "family": "plain",
   "doc": "setser_dec_15_17",
   "article": "Why does the U.S. trade balance still matter, even if deficits can accompany strong growth?",
-  "url": "",
+  "url": "https://www.cfr.org/articles/why-trade-balance-still-matters",
   "node_id": "P1",
   "type": "stated_assumption",
   "header": "Net exports contribute to GDP growth",
@@ -346,7 +437,7 @@
   "concept": "",
   "implicit_only": 0,
   "type_source": "class",
-  "n_targets": 1,
+  "n_targets": 3,
   "targets": [
    {
     "edge": "supports",
@@ -355,6 +446,22 @@
     "target_type": "mechanism",
     "target_level": "L3",
     "target_text": "More demand leaks abroad through net imports"
+   },
+   {
+    "edge": "frames",
+    "edge_as_drawn": "",
+    "target_id": "D1",
+    "target_type": "evidence_data",
+    "target_level": "L2",
+    "target_text": "Net exports subtracted about 1.5pp from U.S. growth"
+   },
+   {
+    "edge": "frames",
+    "edge_as_drawn": "",
+    "target_id": "D6",
+    "target_type": "evidence_data",
+    "target_level": "L2",
+    "target_text": "Setser estimates roughly 0.3–0.5% of GDP over several years"
    }
   ]
  },
@@ -364,7 +471,7 @@
   "family": "plain",
   "doc": "setser_dec_15_17",
   "article": "Why does the U.S. trade balance still matter, even if deficits can accompany strong growth?",
-  "url": "",
+  "url": "https://www.cfr.org/articles/why-trade-balance-still-matters",
   "node_id": "P2",
   "type": "stated_assumption",
   "header": "Trade shapes employment composition",
@@ -373,7 +480,7 @@
   "concept": "",
   "implicit_only": 0,
   "type_source": "class",
-  "n_targets": 1,
+  "n_targets": 3,
   "targets": [
    {
     "edge": "supports",
@@ -382,6 +489,22 @@
     "target_type": "mechanism",
     "target_level": "L3",
     "target_text": "Manufacturing deficits reduce employment in exposed sectors and regions"
+   },
+   {
+    "edge": "frames",
+    "edge_as_drawn": "",
+    "target_id": "D2",
+    "target_type": "evidence_data",
+    "target_level": "L2",
+    "target_text": "Surplus economies retain larger manufacturing job shares"
+   },
+   {
+    "edge": "frames",
+    "edge_as_drawn": "",
+    "target_id": "D3",
+    "target_type": "evidence_data",
+    "target_level": "L2",
+    "target_text": "Lower oil imports and offshore income reduced the current-account deficit"
    }
   ]
  },
@@ -391,7 +514,7 @@
   "family": "plain",
   "doc": "setser_dec_15_17",
   "article": "Why does the U.S. trade balance still matter, even if deficits can accompany strong growth?",
-  "url": "",
+  "url": "https://www.cfr.org/articles/why-trade-balance-still-matters",
   "node_id": "P3",
   "type": "stated_assumption",
   "header": "Persistent deficits accumulate external debt",
@@ -400,7 +523,7 @@
   "concept": "deficits-require-financing",
   "implicit_only": 0,
   "type_source": "class",
-  "n_targets": 1,
+  "n_targets": 3,
   "targets": [
    {
     "edge": "supports",
@@ -409,6 +532,22 @@
     "target_type": "mechanism",
     "target_level": "L3",
     "target_text": "Persistent borrowing plus higher interest costs raise the external debt burden"
+   },
+   {
+    "edge": "frames",
+    "edge_as_drawn": "",
+    "target_id": "D4",
+    "target_type": "evidence_data",
+    "target_level": "L2",
+    "target_text": "Debt increased even as U.S. borrowing costs fell"
+   },
+   {
+    "edge": "frames",
+    "edge_as_drawn": "",
+    "target_id": "D5",
+    "target_type": "evidence_data",
+    "target_level": "L2",
+    "target_text": "Either would weaken current favorable debt dynamics"
    }
   ]
  },
@@ -418,7 +557,7 @@
   "family": "plain",
   "doc": "setser_feb_15_18",
   "article": "Will Trump's fiscal expansion undermine his goal of reducing the U.S. trade deficit?",
-  "url": "",
+  "url": "https://www.cfr.org/articles/trumps-tax-success-expense-his-trade-agenda",
   "node_id": "P1",
   "type": "stated_assumption",
   "header": "Fiscal stimulus raises domestic demand",
@@ -427,7 +566,7 @@
   "concept": "",
   "implicit_only": 0,
   "type_source": "class",
-  "n_targets": 1,
+  "n_targets": 3,
   "targets": [
    {
     "edge": "supports",
@@ -436,6 +575,22 @@
     "target_type": "mechanism",
     "target_level": "L3",
     "target_text": "Stronger U.S. demand spills into foreign production"
+   },
+   {
+    "edge": "frames",
+    "edge_as_drawn": "",
+    "target_id": "D1",
+    "target_type": "evidence_data",
+    "target_level": "L2",
+    "target_text": "Tax cuts and spending increases provide a large fiscal impulse"
+   },
+   {
+    "edge": "frames",
+    "edge_as_drawn": "",
+    "target_id": "D2",
+    "target_type": "evidence_data",
+    "target_level": "L2",
+    "target_text": "Simple model implies current-account deficit rises about 1% of GDP"
    }
   ]
  },
@@ -445,7 +600,7 @@
   "family": "plain",
   "doc": "setser_feb_15_18",
   "article": "Will Trump's fiscal expansion undermine his goal of reducing the U.S. trade deficit?",
-  "url": "",
+  "url": "https://www.cfr.org/articles/trumps-tax-success-expense-his-trade-agenda",
   "node_id": "P2",
   "type": "stated_assumption",
   "header": "Imports respond strongly to U.S. demand",
@@ -454,7 +609,7 @@
   "concept": "",
   "implicit_only": 0,
   "type_source": "class",
-  "n_targets": 1,
+  "n_targets": 3,
   "targets": [
    {
     "edge": "supports",
@@ -463,6 +618,22 @@
     "target_type": "mechanism",
     "target_level": "L3",
     "target_text": "Stronger U.S. demand spills into foreign production"
+   },
+   {
+    "edge": "frames",
+    "edge_as_drawn": "",
+    "target_id": "D3",
+    "target_type": "evidence_data",
+    "target_level": "L2",
+    "target_text": "Over half of the increase in domestic demand was spent abroad"
+   },
+   {
+    "edge": "frames",
+    "edge_as_drawn": "",
+    "target_id": "D6",
+    "target_type": "evidence_data",
+    "target_level": "L2",
+    "target_text": "Fiscal impulse adds roughly 50bp of GDP in imports over two years"
    }
   ]
  },
@@ -472,7 +643,7 @@
   "family": "plain",
   "doc": "setser_feb_15_18",
   "article": "Will Trump's fiscal expansion undermine his goal of reducing the U.S. trade deficit?",
-  "url": "",
+  "url": "https://www.cfr.org/articles/trumps-tax-success-expense-his-trade-agenda",
   "node_id": "P3",
   "type": "stated_assumption",
   "header": "Exchange-rate effects arrive with lags",
@@ -481,7 +652,7 @@
   "concept": "",
   "implicit_only": 0,
   "type_source": "class",
-  "n_targets": 1,
+  "n_targets": 3,
   "targets": [
    {
     "edge": "supports",
@@ -490,6 +661,22 @@
     "target_type": "mechanism",
     "target_level": "L3",
     "target_text": "Exports rise and imports soften only after substantial lags"
+   },
+   {
+    "edge": "frames",
+    "edge_as_drawn": "",
+    "target_id": "D4",
+    "target_type": "evidence_data",
+    "target_level": "L2",
+    "target_text": "Higher rates mechanically increase payments to foreign creditors"
+   },
+   {
+    "edge": "frames",
+    "edge_as_drawn": "",
+    "target_id": "D5",
+    "target_type": "evidence_data",
+    "target_level": "L2",
+    "target_text": "Euro and several Asian currencies were moving against the dollar"
    }
   ]
  },
@@ -499,7 +686,7 @@
   "family": "plain",
   "doc": "setser_jun_4_18",
   "article": "Could global macro shocks overwhelm trade deals and push the U.S. trade deficit higher?",
-  "url": "",
+  "url": "https://www.cfr.org/articles/trade-deals-or-macroeconomic-shocks",
   "node_id": "P1",
   "type": "stated_assumption",
   "header": "Trade balances are macroeconomic",
@@ -508,7 +695,7 @@
   "concept": "",
   "implicit_only": 0,
   "type_source": "class",
-  "n_targets": 1,
+  "n_targets": 3,
   "targets": [
    {
     "edge": "supports",
@@ -517,6 +704,22 @@
     "target_type": "mechanism",
     "target_level": "L3",
     "target_text": "Strong U.S. demand plus weak foreign demand raises net imports"
+   },
+   {
+    "edge": "frames",
+    "edge_as_drawn": "",
+    "target_id": "D1",
+    "target_type": "evidence_data",
+    "target_level": "L2",
+    "target_text": "Large external deficits mean weaker domestic demand and less global demand growth"
+   },
+   {
+    "edge": "frames",
+    "edge_as_drawn": "",
+    "target_id": "D2",
+    "target_type": "evidence_data",
+    "target_level": "L2",
+    "target_text": "EM weakness coincided with slower global trade and a larger U.S. non-oil deficit"
    }
   ]
  },
@@ -526,7 +729,7 @@
   "family": "plain",
   "doc": "setser_jun_4_18",
   "article": "Could global macro shocks overwhelm trade deals and push the U.S. trade deficit higher?",
-  "url": "",
+  "url": "https://www.cfr.org/articles/trade-deals-or-macroeconomic-shocks",
   "node_id": "P2",
   "type": "stated_assumption",
   "header": "U.S. fiscal stimulus needs foreign demand",
@@ -535,7 +738,7 @@
   "concept": "",
   "implicit_only": 0,
   "type_source": "class",
-  "n_targets": 1,
+  "n_targets": 3,
   "targets": [
    {
     "edge": "supports",
@@ -544,6 +747,22 @@
     "target_type": "mechanism",
     "target_level": "L3",
     "target_text": "Strong U.S. demand plus weak foreign demand raises net imports"
+   },
+   {
+    "edge": "frames",
+    "edge_as_drawn": "",
+    "target_id": "D3",
+    "target_type": "evidence_data",
+    "target_level": "L2",
+    "target_text": "Financial and political stress could weaken the euro"
+   },
+   {
+    "edge": "frames",
+    "edge_as_drawn": "",
+    "target_id": "D6",
+    "target_type": "evidence_data",
+    "target_level": "L2",
+    "target_text": "Europe, China, Japan, and EM demand all supported the global environment"
    }
   ]
  },
@@ -553,7 +772,7 @@
   "family": "plain",
   "doc": "setser_jun_4_18",
   "article": "Could global macro shocks overwhelm trade deals and push the U.S. trade deficit higher?",
-  "url": "",
+  "url": "https://www.cfr.org/articles/trade-deals-or-macroeconomic-shocks",
   "node_id": "P3",
   "type": "stated_assumption",
   "header": "Weak demand encourages export-led adjustment",
@@ -562,7 +781,7 @@
   "concept": "",
   "implicit_only": 0,
   "type_source": "class",
-  "n_targets": 2,
+  "n_targets": 4,
   "targets": [
    {
     "edge": "supports",
@@ -579,6 +798,22 @@
     "target_type": "mechanism",
     "target_level": "L3",
     "target_text": "Dollar strength hurts U.S. trade competitiveness"
+   },
+   {
+    "edge": "frames",
+    "edge_as_drawn": "",
+    "target_id": "D4",
+    "target_type": "evidence_data",
+    "target_level": "L2",
+    "target_text": "Domestic weakness plus dollar strength could create depreciation pressure"
+   },
+   {
+    "edge": "frames",
+    "edge_as_drawn": "",
+    "target_id": "D5",
+    "target_type": "evidence_data",
+    "target_level": "L2",
+    "target_text": "Consumption-tax hikes have historically weakened domestic demand"
    }
   ]
  },
@@ -587,8 +822,118 @@
   "year": "2019",
   "family": "plain",
   "doc": "setser_may_2_19",
+  "article": "Does a purchase-commitment deal push China back toward managed trade?",
+  "url": "https://www.cfr.org/articles/china-never-stopped-managing-its-trade",
+  "node_id": "P1",
+  "type": "stated_assumption",
+  "header": "Who buys matters more than the border barrier",
+  "text": "Tariffs and quotas do not matter much when the bulk of imports are bought by state firms or need a state licence",
+  "full": "Who buys matters more than the border barrier - Tariffs and quotas do not matter much when the bulk of imports are bought by state firms or need a state licence",
+  "concept": "",
+  "implicit_only": 0,
+  "type_source": "class",
+  "n_targets": 4,
+  "targets": [
+   {
+    "edge": "licenses",
+    "edge_as_drawn": "licenses",
+    "target_id": "M1",
+    "target_type": "mechanism",
+    "target_level": "L3",
+    "target_text": "When the state controls the importing firms, a few phone calls move trade without any border measure"
+   },
+   {
+    "edge": "frames",
+    "edge_as_drawn": "",
+    "target_id": "D1",
+    "target_type": "evidence_data",
+    "target_level": "L2",
+    "target_text": "Trade stopped without any formal tariff being introduced"
+   },
+   {
+    "edge": "frames",
+    "edge_as_drawn": "",
+    "target_id": "D2",
+    "target_type": "evidence_data",
+    "target_level": "L2",
+    "target_text": "No dumping case and no national-security tariff case was filed"
+   },
+   {
+    "edge": "frames",
+    "edge_as_drawn": "",
+    "target_id": "D3",
+    "target_type": "evidence_data",
+    "target_level": "L2",
+    "target_text": "A 25% tariff would normally cut imports by something like 50%; several U.S. goods simply stopped"
+   }
+  ]
+ },
+ {
+  "date": "2019-05-02",
+  "year": "2019",
+  "family": "plain",
+  "doc": "setser_may_2_19",
+  "article": "Does a purchase-commitment deal push China back toward managed trade?",
+  "url": "https://www.cfr.org/articles/china-never-stopped-managing-its-trade",
+  "node_id": "P2",
+  "type": "stated_assumption",
+  "header": "State control of the commanding heights is not negotiable",
+  "text": "China will not dismantle the core institutions of its mixed model in a trade negotiation",
+  "full": "State control of the commanding heights is not negotiable - China will not dismantle the core institutions of its mixed model in a trade negotiation",
+  "concept": "",
+  "implicit_only": 0,
+  "type_source": "class",
+  "n_targets": 5,
+  "targets": [
+   {
+    "edge": "licenses",
+    "edge_as_drawn": "licenses",
+    "target_id": "M2",
+    "target_type": "mechanism",
+    "target_level": "L3",
+    "target_text": "GE could own its turbine plant outright and still have to sell to state-run power companies selling to the state grid"
+   },
+   {
+    "edge": "licenses",
+    "edge_as_drawn": "licenses",
+    "target_id": "M4",
+    "target_type": "mechanism",
+    "target_level": "L3",
+    "target_text": "Because the control is not legal but ownership-based, what it grants it can also withdraw"
+   },
+   {
+    "edge": "frames",
+    "edge_as_drawn": "",
+    "target_id": "D4",
+    "target_type": "evidence_data",
+    "target_level": "L2",
+    "target_text": "State-owned airlines plus one state-backed private carrier, with NDRC approval required; China is both Boeing's biggest market and, through COMAC, a future competitor"
+   },
+   {
+    "edge": "frames",
+    "edge_as_drawn": "",
+    "target_id": "D5",
+    "target_type": "evidence_data",
+    "target_level": "L2",
+    "target_text": "The old state grain monopoly still controls crushing and distribution, Sinograin steps in from stockpiles, and smaller importers need a state licence"
+   },
+   {
+    "edge": "frames",
+    "edge_as_drawn": "",
+    "target_id": "D6",
+    "target_type": "evidence_data",
+    "target_level": "L2",
+    "target_text": "They own the pipelines and the bulk of refining; private LNG terminals exist but the offshore investors are state firms"
+   }
+  ]
+ },
+ {
+  "date": "2019-05-10",
+  "year": "2019",
+  "family": "plain",
+  "doc": "setser_may_10_19",
   "article": "If U.S.-China trade tensions escalate, will China keep the yuan stable or let it weaken?",
-  "url": "",
+  "url": "https://www.cfr.org/articles/what-difference-week-or-weekend-makes",
   "node_id": "P1",
   "type": "stated_assumption",
   "header": "China controls the yuan",
@@ -597,7 +942,7 @@
   "concept": "",
   "implicit_only": 0,
   "type_source": "class",
-  "n_targets": 1,
+  "n_targets": 4,
   "targets": [
    {
     "edge": "supports",
@@ -606,16 +951,40 @@
     "target_type": "intermediate_claim",
     "target_level": "L4",
     "target_text": "It is not mechanically forced into depreciation"
+   },
+   {
+    "edge": "frames",
+    "edge_as_drawn": "",
+    "target_id": "D3",
+    "target_type": "evidence_data",
+    "target_level": "L2",
+    "target_text": "No sustained pressure in either direction"
+   },
+   {
+    "edge": "frames",
+    "edge_as_drawn": "",
+    "target_id": "D4",
+    "target_type": "evidence_data",
+    "target_level": "L2",
+    "target_text": "Large reserves, state-bank foreign assets, and portfolio inflows"
+   },
+   {
+    "edge": "frames",
+    "edge_as_drawn": "",
+    "target_id": "D5",
+    "target_type": "evidence_data",
+    "target_level": "L2",
+    "target_text": "Trade surplus covers major outflows without sustained reserve pressure"
    }
   ]
  },
  {
-  "date": "2019-05-02",
+  "date": "2019-05-10",
   "year": "2019",
   "family": "plain",
-  "doc": "setser_may_2_19",
+  "doc": "setser_may_10_19",
   "article": "If U.S.-China trade tensions escalate, will China keep the yuan stable or let it weaken?",
-  "url": "",
+  "url": "https://www.cfr.org/articles/what-difference-week-or-weekend-makes",
   "node_id": "P2",
   "type": "stated_assumption",
   "header": "Depreciation offsets tariffs",
@@ -624,7 +993,7 @@
   "concept": "",
   "implicit_only": 0,
   "type_source": "class",
-  "n_targets": 1,
+  "n_targets": 3,
   "targets": [
    {
     "edge": "supports",
@@ -633,16 +1002,32 @@
     "target_type": "mechanism",
     "target_level": "L3",
     "target_text": "A weaker yuan offsets part of the tariff in dollar terms"
+   },
+   {
+    "edge": "frames",
+    "edge_as_drawn": "",
+    "target_id": "D1",
+    "target_type": "evidence_data",
+    "target_level": "L2",
+    "target_text": "25% on nearly $550B of imports could raise roughly $100–140B"
+   },
+   {
+    "edge": "frames",
+    "edge_as_drawn": "",
+    "target_id": "D2",
+    "target_type": "evidence_data",
+    "target_level": "L2",
+    "target_text": "UBS: full tariffs plus retaliation could cut growth by about 1.5pp"
    }
   ]
  },
  {
-  "date": "2019-05-02",
+  "date": "2019-05-10",
   "year": "2019",
   "family": "plain",
-  "doc": "setser_may_2_19",
+  "doc": "setser_may_10_19",
   "article": "If U.S.-China trade tensions escalate, will China keep the yuan stable or let it weaken?",
-  "url": "",
+  "url": "https://www.cfr.org/articles/what-difference-week-or-weekend-makes",
   "node_id": "P3",
   "type": "stated_assumption",
   "header": "Stability has value",
@@ -651,7 +1036,7 @@
   "concept": "",
   "implicit_only": 0,
   "type_source": "class",
-  "n_targets": 1,
+  "n_targets": 2,
   "targets": [
    {
     "edge": "supports",
@@ -660,87 +1045,14 @@
     "target_type": "mechanism",
     "target_level": "L3",
     "target_text": "Avoiding a large currency move limits financial instability"
-   }
-  ]
- },
- {
-  "date": "2019-05-10",
-  "year": "2019",
-  "family": "plain",
-  "doc": "setser_may_10_19",
-  "article": "If U.S.-China trade tensions escalate, will China keep the yuan stable or let it weaken?",
-  "url": "",
-  "node_id": "P1",
-  "type": "stated_assumption",
-  "header": "China controls the yuan",
-  "text": "Reserves, capital controls, and policy tools give Beijing substantial exchange-rate control",
-  "full": "China controls the yuan - Reserves, capital controls, and policy tools give Beijing substantial exchange-rate control",
-  "concept": "",
-  "implicit_only": 0,
-  "type_source": "class",
-  "n_targets": 1,
-  "targets": [
+   },
    {
-    "edge": "supports",
+    "edge": "frames",
     "edge_as_drawn": "",
-    "target_id": "C1",
-    "target_type": "intermediate_claim",
-    "target_level": "L4",
-    "target_text": "It is not mechanically forced into depreciation"
-   }
-  ]
- },
- {
-  "date": "2019-05-10",
-  "year": "2019",
-  "family": "plain",
-  "doc": "setser_may_10_19",
-  "article": "If U.S.-China trade tensions escalate, will China keep the yuan stable or let it weaken?",
-  "url": "",
-  "node_id": "P2",
-  "type": "stated_assumption",
-  "header": "Depreciation offsets tariffs",
-  "text": "A weaker yuan lets exporters lower dollar prices while preserving yuan revenue",
-  "full": "Depreciation offsets tariffs - A weaker yuan lets exporters lower dollar prices while preserving yuan revenue",
-  "concept": "",
-  "implicit_only": 0,
-  "type_source": "class",
-  "n_targets": 1,
-  "targets": [
-   {
-    "edge": "supports",
-    "edge_as_drawn": "",
-    "target_id": "M2",
-    "target_type": "mechanism",
-    "target_level": "L3",
-    "target_text": "A weaker yuan offsets part of the tariff in dollar terms"
-   }
-  ]
- },
- {
-  "date": "2019-05-10",
-  "year": "2019",
-  "family": "plain",
-  "doc": "setser_may_10_19",
-  "article": "If U.S.-China trade tensions escalate, will China keep the yuan stable or let it weaken?",
-  "url": "",
-  "node_id": "P3",
-  "type": "stated_assumption",
-  "header": "Stability has value",
-  "text": "A stable currency supports confidence and reduces financial risk",
-  "full": "Stability has value - A stable currency supports confidence and reduces financial risk",
-  "concept": "",
-  "implicit_only": 0,
-  "type_source": "class",
-  "n_targets": 1,
-  "targets": [
-   {
-    "edge": "supports",
-    "edge_as_drawn": "",
-    "target_id": "M3",
-    "target_type": "mechanism",
-    "target_level": "L3",
-    "target_text": "Avoiding a large currency move limits financial instability"
+    "target_id": "D6",
+    "target_type": "evidence_data",
+    "target_level": "L2",
+    "target_text": "Further export-oriented adjustment would matter globally"
    }
   ]
  },
@@ -750,7 +1062,7 @@
   "family": "plain",
   "doc": "setser_jun_14_19",
   "article": "Why did China's tariffs devastate some U.S. exports but have limited effects on others?",
-  "url": "",
+  "url": "https://www.cfr.org/articles/tale-two-tariffs-chinas-so-far-ineffective-tariffs-us-manufacturing-exports",
   "node_id": "P1",
   "type": "stated_assumption",
   "header": "Tariff effects are sector-specific",
@@ -759,7 +1071,7 @@
   "concept": "",
   "implicit_only": 0,
   "type_source": "class",
-  "n_targets": 2,
+  "n_targets": 4,
   "targets": [
    {
     "edge": "supports",
@@ -776,6 +1088,22 @@
     "target_type": "mechanism",
     "target_level": "L3",
     "target_text": "Sales shift markets without reducing total exports"
+   },
+   {
+    "edge": "frames",
+    "edge_as_drawn": "",
+    "target_id": "D1",
+    "target_type": "evidence_data",
+    "target_level": "L2",
+    "target_text": "Much larger decline than manufacturing exports"
+   },
+   {
+    "edge": "frames",
+    "edge_as_drawn": "",
+    "target_id": "D2",
+    "target_type": "evidence_data",
+    "target_level": "L2",
+    "target_text": "Farmers could not replace lost Chinese demand elsewhere"
    }
   ]
  },
@@ -785,7 +1113,7 @@
   "family": "plain",
   "doc": "setser_jun_14_19",
   "article": "Why did China's tariffs devastate some U.S. exports but have limited effects on others?",
-  "url": "",
+  "url": "https://www.cfr.org/articles/tale-two-tariffs-chinas-so-far-ineffective-tariffs-us-manufacturing-exports",
   "node_id": "P2",
   "type": "stated_assumption",
   "header": "Bilateral trade ≠ total trade",
@@ -794,7 +1122,7 @@
   "concept": "",
   "implicit_only": 0,
   "type_source": "class",
-  "n_targets": 1,
+  "n_targets": 3,
   "targets": [
    {
     "edge": "supports",
@@ -803,6 +1131,22 @@
     "target_type": "mechanism",
     "target_level": "L3",
     "target_text": "Sales shift markets without reducing total exports"
+   },
+   {
+    "edge": "frames",
+    "edge_as_drawn": "",
+    "target_id": "D3",
+    "target_type": "evidence_data",
+    "target_level": "L2",
+    "target_text": "But total U.S. oil exports were largely unaffected"
+   },
+   {
+    "edge": "frames",
+    "edge_as_drawn": "",
+    "target_id": "D4",
+    "target_type": "evidence_data",
+    "target_level": "L2",
+    "target_text": "Exports fell, then rebounded when China suspended it"
    }
   ]
  },
@@ -812,7 +1156,7 @@
   "family": "plain",
   "doc": "setser_jun_14_19",
   "article": "Why did China's tariffs devastate some U.S. exports but have limited effects on others?",
-  "url": "",
+  "url": "https://www.cfr.org/articles/tale-two-tariffs-chinas-so-far-ineffective-tariffs-us-manufacturing-exports",
   "node_id": "P3",
   "type": "stated_assumption",
   "header": "Retaliation requires viable substitutes",
@@ -821,7 +1165,7 @@
   "concept": "",
   "implicit_only": 0,
   "type_source": "class",
-  "n_targets": 1,
+  "n_targets": 3,
   "targets": [
    {
     "edge": "supports",
@@ -830,6 +1174,22 @@
     "target_type": "mechanism",
     "target_level": "L3",
     "target_text": "Chinese firms continue buying needed U.S. goods"
+   },
+   {
+    "edge": "frames",
+    "edge_as_drawn": "",
+    "target_id": "D5",
+    "target_type": "evidence_data",
+    "target_level": "L2",
+    "target_text": "Aggregate exports show little obvious tariff break"
+   },
+   {
+    "edge": "frames",
+    "edge_as_drawn": "",
+    "target_id": "D6",
+    "target_type": "evidence_data",
+    "target_level": "L2",
+    "target_text": "Aircraft and export-related inputs are poor retaliation targets"
    }
   ]
  },
@@ -839,7 +1199,7 @@
   "family": "plain",
   "doc": "setser_aug_13_19",
   "article": "Why do the U.S., Europe, and China now occupy such different positions in manufacturing trade?",
-  "url": "",
+  "url": "https://www.cfr.org/articles/when-it-comes-exporting-manufactures-europe-now-one-mars",
   "node_id": "P1",
   "type": "stated_assumption",
   "header": "Trade shares reveal production structure",
@@ -848,7 +1208,7 @@
   "concept": "",
   "implicit_only": 0,
   "type_source": "class",
-  "n_targets": 1,
+  "n_targets": 3,
   "targets": [
    {
     "edge": "supports",
@@ -857,6 +1217,22 @@
     "target_type": "mechanism",
     "target_level": "L3",
     "target_text": "China sells far more manufactures abroad than it buys"
+   },
+   {
+    "edge": "frames",
+    "edge_as_drawn": "",
+    "target_id": "D1",
+    "target_type": "evidence_data",
+    "target_level": "L2",
+    "target_text": "About one-third of the euro area's level relative to GDP"
+   },
+   {
+    "edge": "frames",
+    "edge_as_drawn": "",
+    "target_id": "D2",
+    "target_type": "evidence_data",
+    "target_level": "L2",
+    "target_text": "U.S. and euro-area import shares are broadly comparable"
    }
   ]
  },
@@ -866,7 +1242,7 @@
   "family": "plain",
   "doc": "setser_aug_13_19",
   "article": "Why do the U.S., Europe, and China now occupy such different positions in manufacturing trade?",
-  "url": "",
+  "url": "https://www.cfr.org/articles/when-it-comes-exporting-manufactures-europe-now-one-mars",
   "node_id": "P2",
   "type": "stated_assumption",
   "header": "Manufacturing balances reflect where production occurs",
@@ -875,7 +1251,7 @@
   "concept": "",
   "implicit_only": 0,
   "type_source": "class",
-  "n_targets": 1,
+  "n_targets": 3,
   "targets": [
    {
     "edge": "supports",
@@ -884,6 +1260,22 @@
     "target_type": "mechanism",
     "target_level": "L3",
     "target_text": "'Design here, make abroad' shifts manufacturing production overseas"
+   },
+   {
+    "edge": "frames",
+    "edge_as_drawn": "",
+    "target_id": "D3",
+    "target_type": "evidence_data",
+    "target_level": "L2",
+    "target_text": "U.S. deficit ~4–5% of GDP; euro-area surplus ~4%"
+   },
+   {
+    "edge": "frames",
+    "edge_as_drawn": "",
+    "target_id": "D4",
+    "target_type": "evidence_data",
+    "target_level": "L2",
+    "target_text": "Foreign corporate earnings help finance the U.S. deficit"
    }
   ]
  },
@@ -893,7 +1285,7 @@
   "family": "plain",
   "doc": "setser_aug_13_19",
   "article": "Why do the U.S., Europe, and China now occupy such different positions in manufacturing trade?",
-  "url": "",
+  "url": "https://www.cfr.org/articles/when-it-comes-exporting-manufactures-europe-now-one-mars",
   "node_id": "P3",
   "type": "stated_assumption",
   "header": "Persistent deficits require financing",
@@ -902,7 +1294,7 @@
   "concept": "deficits-require-financing",
   "implicit_only": 0,
   "type_source": "class",
-  "n_targets": 1,
+  "n_targets": 3,
   "targets": [
    {
     "edge": "supports",
@@ -911,6 +1303,22 @@
     "target_type": "mechanism",
     "target_level": "L3",
     "target_text": "Foreign earnings offset part of the manufacturing import bill"
+   },
+   {
+    "edge": "frames",
+    "edge_as_drawn": "",
+    "target_id": "D5",
+    "target_type": "evidence_data",
+    "target_level": "L2",
+    "target_text": "Leaving it exposed to the global manufacturing downturn"
+   },
+   {
+    "edge": "frames",
+    "edge_as_drawn": "",
+    "target_id": "D6",
+    "target_type": "evidence_data",
+    "target_level": "L2",
+    "target_text": "Surplus ~7% of GDP; non-processing imports ~4%"
    }
   ]
  },
@@ -920,7 +1328,7 @@
   "family": "plain",
   "doc": "setser_sep_20_19",
   "article": "Why do global trade imbalances persist, and why could they worsen before improving?",
-  "url": "",
+  "url": "https://www.cfr.org/articles/why-global-trade-imbalances-could-get-worse-they-get-better",
   "node_id": "P1",
   "type": "stated_assumption",
   "header": "Global surpluses require matching deficits",
@@ -929,7 +1337,7 @@
   "concept": "",
   "implicit_only": 0,
   "type_source": "class",
-  "n_targets": 1,
+  "n_targets": 3,
   "targets": [
    {
     "edge": "supports",
@@ -938,6 +1346,22 @@
     "target_type": "mechanism",
     "target_level": "L3",
     "target_text": "North America takes the other side through external deficits and debt"
+   },
+   {
+    "edge": "frames",
+    "edge_as_drawn": "",
+    "target_id": "D1",
+    "target_type": "evidence_data",
+    "target_level": "L2",
+    "target_text": "Together they roughly mirror the U.S. manufacturing deficit"
+   },
+   {
+    "edge": "frames",
+    "edge_as_drawn": "",
+    "target_id": "D3",
+    "target_type": "evidence_data",
+    "target_level": "L2",
+    "target_text": "Korea, Taiwan, Singapore, and Thailand remain export oriented"
    }
   ]
  },
@@ -947,7 +1371,7 @@
   "family": "plain",
   "doc": "setser_sep_20_19",
   "article": "Why do global trade imbalances persist, and why could they worsen before improving?",
-  "url": "",
+  "url": "https://www.cfr.org/articles/why-global-trade-imbalances-could-get-worse-they-get-better",
   "node_id": "P2",
   "type": "stated_assumption",
   "header": "Fiscal policy shapes external balances",
@@ -956,7 +1380,7 @@
   "concept": "",
   "implicit_only": 0,
   "type_source": "class",
-  "n_targets": 1,
+  "n_targets": 3,
   "targets": [
    {
     "edge": "supports",
@@ -965,6 +1389,22 @@
     "target_type": "mechanism",
     "target_level": "L3",
     "target_text": "Lower imports and excess saving generate European surpluses"
+   },
+   {
+    "edge": "frames",
+    "edge_as_drawn": "",
+    "target_id": "D2",
+    "target_type": "evidence_data",
+    "target_level": "L2",
+    "target_text": "Germany and other surplus economies run restrictive demand policies"
+   },
+   {
+    "edge": "frames",
+    "edge_as_drawn": "",
+    "target_id": "D6",
+    "target_type": "evidence_data",
+    "target_level": "L2",
+    "target_text": "Modest stimulus failed to offset tightening and the trade war"
    }
   ]
  },
@@ -974,7 +1414,7 @@
   "family": "plain",
   "doc": "setser_sep_20_19",
   "article": "Why do global trade imbalances persist, and why could they worsen before improving?",
-  "url": "",
+  "url": "https://www.cfr.org/articles/why-global-trade-imbalances-could-get-worse-they-get-better",
   "node_id": "P3",
   "type": "stated_assumption",
   "header": "Excess saving generates surplus pressure",
@@ -983,7 +1423,7 @@
   "concept": "",
   "implicit_only": 0,
   "type_source": "class",
-  "n_targets": 1,
+  "n_targets": 4,
   "targets": [
    {
     "edge": "supports",
@@ -992,6 +1432,30 @@
     "target_type": "mechanism",
     "target_level": "L3",
     "target_text": "China saves more than its economy can sustainably absorb"
+   },
+   {
+    "edge": "frames",
+    "edge_as_drawn": "",
+    "target_id": "D4",
+    "target_type": "evidence_data",
+    "target_level": "L2",
+    "target_text": "Current account ~$200–250B with augmented deficit near 12% of GDP"
+   },
+   {
+    "edge": "frames",
+    "edge_as_drawn": "",
+    "target_id": "D5",
+    "target_type": "evidence_data",
+    "target_level": "L2",
+    "target_text": "East Asian aggregate saving remains close to 40%"
+   },
+   {
+    "edge": "frames",
+    "edge_as_drawn": "",
+    "target_id": "D7",
+    "target_type": "evidence_data",
+    "target_level": "L2",
+    "target_text": "Large relative to the country's limited export base"
    }
   ]
  },
@@ -1001,7 +1465,7 @@
   "family": "banner",
   "doc": "setser_jan_31_20",
   "article": "Lessons From Phase One of the Trade War With China",
-  "url": "",
+  "url": "https://www.cfr.org/articles/lessons-phase-one-trade-war-china",
   "node_id": "P1",
   "type": "stated_assumption",
   "header": "Stated assumption",
@@ -1028,7 +1492,7 @@
   "family": "plain",
   "doc": "setser_feb_26_20",
   "article": "Do tariffs change the trade balance, and who absorbed the Q4 US demand drop?",
-  "url": "",
+  "url": "https://www.cfr.org/articles/us-shock-global-demand-q4-coronavirus",
   "node_id": "P2",
   "type": "stated_assumption",
   "header": "Tariff revenue is not offset",
@@ -1037,7 +1501,7 @@
   "concept": "",
   "implicit_only": 0,
   "type_source": "class",
-  "n_targets": 1,
+  "n_targets": 2,
   "targets": [
    {
     "edge": "supports",
@@ -1046,6 +1510,14 @@
     "target_type": "mechanism",
     "target_level": "L3",
     "target_text": "Backdoor fiscal tightening slows consumption"
+   },
+   {
+    "edge": "frames",
+    "edge_as_drawn": "",
+    "target_id": "D1",
+    "target_type": "evidence_data",
+    "target_level": "L2",
+    "target_text": "~15% average tariff on $500B+ of China imports"
    }
   ]
  },
@@ -1055,7 +1527,7 @@
   "family": "plain",
   "doc": "setser_feb_26_20",
   "article": "Do tariffs change the trade balance, and who absorbed the Q4 US demand drop?",
-  "url": "",
+  "url": "https://www.cfr.org/articles/us-shock-global-demand-q4-coronavirus",
   "node_id": "P3",
   "type": "stated_assumption",
   "header": "Few substitutes for China goods",
@@ -1064,7 +1536,7 @@
   "concept": "",
   "implicit_only": 0,
   "type_source": "class",
-  "n_targets": 1,
+  "n_targets": 2,
   "targets": [
    {
     "edge": "supports",
@@ -1073,6 +1545,14 @@
     "target_type": "mechanism",
     "target_level": "L3",
     "target_text": "Backdoor fiscal tightening slows consumption"
+   },
+   {
+    "edge": "frames",
+    "edge_as_drawn": "",
+    "target_id": "D2",
+    "target_type": "evidence_data",
+    "target_level": "L2",
+    "target_text": "Govt captures 35bp of the 60bp GDP consumers lose"
    }
   ]
  },
@@ -1082,7 +1562,7 @@
   "family": "plain",
   "doc": "setser_feb_26_20",
   "article": "Do tariffs change the trade balance, and who absorbed the Q4 US demand drop?",
-  "url": "",
+  "url": "https://www.cfr.org/articles/us-shock-global-demand-q4-coronavirus",
   "node_id": "P4",
   "type": "stated_assumption",
   "header": "Tariff uncertainty weighs on firms",
@@ -1091,7 +1571,7 @@
   "concept": "",
   "implicit_only": 0,
   "type_source": "class",
-  "n_targets": 1,
+  "n_targets": 2,
   "targets": [
    {
     "edge": "supports",
@@ -1100,6 +1580,14 @@
     "target_type": "mechanism",
     "target_level": "L3",
     "target_text": "Especially new business equipment"
+   },
+   {
+    "edge": "frames",
+    "edge_as_drawn": "",
+    "target_id": "D3",
+    "target_type": "evidence_data",
+    "target_level": "L2",
+    "target_text": "Investment slowdowns lead to import slowdowns"
    }
   ]
  },
@@ -1109,7 +1597,7 @@
   "family": "banner",
   "doc": "setser_mar_31_20",
   "article": "Not One Emerging Market Financial Crisis, but Many",
-  "url": "",
+  "url": "https://www.cfr.org/articles/not-one-emerging-market-financial-crisis-many",
   "node_id": "P1",
   "type": "stated_assumption",
   "header": "Stated assumption",
@@ -1126,7 +1614,7 @@
     "target_id": "M1",
     "target_type": "mechanism",
     "target_level": "L3",
-    "target_text": "· The same four shocks land very differently depending on the external balance sheet"
+    "target_text": "The same four shocks land very differently depending on the external balance sheet"
    }
   ]
  },
@@ -1136,7 +1624,7 @@
   "family": "banner",
   "doc": "setser_jul_8_20",
   "article": "Slouching Toward Phase One",
-  "url": "",
+  "url": "https://www.cfr.org/articles/slouching-toward-phase-one",
   "node_id": "P1",
   "type": "stated_assumption",
   "header": "Stated assumption",
@@ -1153,7 +1641,7 @@
     "target_id": "M1",
     "target_type": "mechanism",
     "target_level": "L3",
-    "target_text": "· There is no policy lever in manufacturing — import substitution continues and trade does not run through a few buyers"
+    "target_text": "There is no policy lever in manufacturing — import substitution continues and trade does not run through a few buyers"
    }
   ]
  },
@@ -1163,7 +1651,7 @@
   "family": "banner",
   "doc": "setser_mar_10_24",
   "article": "China's Record Manufacturing Surplus",
-  "url": "",
+  "url": "https://www.cfr.org/articles/chinas-record-manufacturing-surplus",
   "node_id": "P1",
   "type": "stated_assumption",
   "header": "Stated assumption",
@@ -1190,7 +1678,7 @@
   "family": "banner",
   "doc": "setser_aug_14_24",
   "article": "China's Imaginary Trade Data",
-  "url": "",
+  "url": "https://www.cfr.org/articles/chinas-imaginary-trade-data",
   "node_id": "P1",
   "type": "stated_assumption",
   "header": "Stated assumption",
@@ -1217,7 +1705,7 @@
   "family": "banner",
   "doc": "setser_may_5_25",
   "article": "Why Didn't Tariffs Push Up the U.S. Dollar?",
-  "url": "",
+  "url": "https://www.cfr.org/articles/why-didnt-tariffs-push-us-dollar",
   "node_id": "P1",
   "type": "stated_assumption",
   "header": "Stated assumption",
@@ -1244,7 +1732,7 @@
   "concept": "",
   "implicit_only": 0,
   "type_source": "header",
-  "n_targets": 1,
+  "n_targets": 2,
   "targets": [
    {
     "edge": "supports",
@@ -1253,6 +1741,14 @@
     "target_type": "intermediate_claim",
     "target_level": "L4",
     "target_text": "Current account comparisons based on balance of payments data make Europe, not China, look like the main source of imbalance"
+   },
+   {
+    "edge": "frames",
+    "edge_as_drawn": "",
+    "target_id": "E1",
+    "target_type": "evidence_data",
+    "target_level": "L2",
+    "target_text": "China's 2024 current account surplus about $430 billion (just over 2 percent of GDP) versus the EU's $500 billion; goods and services surplus about $650 billion versus the EU's $620 billion; about $4 trillion in net interest-paying foreign assets, yet an investment income deficit of $150 to 200 billion; Chinese customs data show about $400 per phone; net vehicle exports above 6 million"
    }
   ]
  },
@@ -1306,7 +1802,7 @@
   "concept": "state-can-direct-purchases",
   "implicit_only": 0,
   "type_source": "header",
-  "n_targets": 2,
+  "n_targets": 3,
   "targets": [
    {
     "edge": "supports",
@@ -1323,6 +1819,14 @@
     "target_type": "mechanism",
     "target_level": "L3",
     "target_text": "State banks keep the yuan weak; its fall against the euro has roughly offset the EU's 17 percent countervailing duty on BYD"
+   },
+   {
+    "edge": "frames",
+    "edge_as_drawn": "",
+    "target_id": "E1",
+    "target_type": "evidence_data",
+    "target_level": "L2",
+    "target_text": "European exports to China down about 0.5 percentage points of European GDP; EU trade deficit with China set to double between 2020 and 2025; European auto exports to China on track for about $10 billion by 2027; Chinese electric vehicle exports at a 3 million annual pace in the second quarter; net exports added about 2 percentage points to Chinese growth over four quarters; yuan weaker against the euro"
    }
   ]
  },
@@ -1368,7 +1872,7 @@
   "concept": "",
   "implicit_only": 0,
   "type_source": "header",
-  "n_targets": 1,
+  "n_targets": 2,
   "targets": [
    {
     "edge": "supports",
@@ -1377,6 +1881,14 @@
     "target_type": "mechanism",
     "target_level": "L3",
     "target_text": "A 15 percent tariff times a 0.3 to 0.4 elasticity cuts imports 5 to 6 percent; non-oil imports fall from about 10 to 9.5 percent of GDP"
+   },
+   {
+    "edge": "frames",
+    "edge_as_drawn": "",
+    "target_id": "E1",
+    "target_type": "evidence_data",
+    "target_level": "L2",
+    "target_text": "Annualized trade deficit peaked at $2 trillion in March, fell to $1 trillion, then rebounded to $1.2 trillion in July; imports from Taiwan up over 50 percent year to date; first-term tariffs cut affected trade about 30 percent, and about 50 percent for goods tariffed at 25 percent; high-frequency global trade measures have not slowed"
    }
   ]
  },
@@ -1422,7 +1934,7 @@
   "concept": "",
   "implicit_only": 0,
   "type_source": "header",
-  "n_targets": 1,
+  "n_targets": 2,
   "targets": [
    {
     "edge": "supports",
@@ -1431,6 +1943,14 @@
     "target_type": "mechanism",
     "target_level": "L3",
     "target_text": "Weak domestic demand leaves spare capacity for exports; rate cuts lower yields and weaken the yuan, widening the surplus"
+   },
+   {
+    "edge": "frames",
+    "edge_as_drawn": "",
+    "target_id": "E1",
+    "target_type": "evidence_data",
+    "target_level": "L2",
+    "target_text": "Export volumes up 40 percent since end-2019 versus imports up 1 percent; manufactured goods surplus over $2 trillion (about 10.5 percent of GDP); goods surplus $1.2 trillion; car exports over 6 million, heading toward 8 million in 2026; current account surplus 2.2 percent of GDP versus the EU's 2.6 percent; IMF forecast a 2025 surplus of $375 billion, while the actual tops $650 billion through the third quarter"
    }
   ]
  },
@@ -1476,7 +1996,7 @@
   "concept": "",
   "implicit_only": 0,
   "type_source": "header",
-  "n_targets": 1,
+  "n_targets": 2,
   "targets": [
    {
     "edge": "supports",
@@ -1485,6 +2005,14 @@
     "target_type": "mechanism",
     "target_level": "L3",
     "target_text": "Promised refund checks and pressure for more defense spending block a fiscal adjustment"
+   },
+   {
+    "edge": "frames",
+    "edge_as_drawn": "",
+    "target_id": "E1",
+    "target_type": "evidence_data",
+    "target_level": "L2",
+    "target_text": "October's drop came entirely from pharmaceuticals and gold; excluding them, October's deficit was slightly bigger than September's; August to October deficits below 2024, but early 2025 far above; imports of autos and household durable goods down; imports of semiconductors and computers up"
    }
   ]
  },
@@ -1521,7 +2049,7 @@
   "family": "banner",
   "doc": "setser_jan_31_20",
   "article": "Lessons From Phase One of the Trade War With China",
-  "url": "",
+  "url": "https://www.cfr.org/articles/lessons-phase-one-trade-war-china",
   "node_id": "P3",
   "type": "revised_prior",
   "header": "Revised prior",
@@ -1548,7 +2076,7 @@
   "family": "banner",
   "doc": "setser_mar_31_20",
   "article": "Not One Emerging Market Financial Crisis, but Many",
-  "url": "",
+  "url": "https://www.cfr.org/articles/not-one-emerging-market-financial-crisis-many",
   "node_id": "P3",
   "type": "revised_prior",
   "header": "Revised prior",
@@ -1575,7 +2103,7 @@
   "family": "banner",
   "doc": "setser_may_5_25",
   "article": "Why Didn't Tariffs Push Up the U.S. Dollar?",
-  "url": "",
+  "url": "https://www.cfr.org/articles/why-didnt-tariffs-push-us-dollar",
   "node_id": "P3",
   "type": "revised_prior",
   "header": "Revised prior",
@@ -1602,7 +2130,7 @@
   "family": "banner",
   "doc": "setser_mar_10_24",
   "article": "China's Record Manufacturing Surplus",
-  "url": "",
+  "url": "https://www.cfr.org/articles/chinas-record-manufacturing-surplus",
   "node_id": "ID",
   "type": "accounting_identity",
   "header": "Accounting identity",
@@ -1629,7 +2157,7 @@
   "family": "banner",
   "doc": "setser_jan_31_20",
   "article": "Lessons From Phase One of the Trade War With China",
-  "url": "",
+  "url": "https://www.cfr.org/articles/lessons-phase-one-trade-war-china",
   "node_id": "SC",
   "type": "source_credibility",
   "header": "Source credibility",
@@ -1656,7 +2184,7 @@
   "family": "banner",
   "doc": "setser_mar_10_24",
   "article": "China's Record Manufacturing Surplus",
-  "url": "",
+  "url": "https://www.cfr.org/articles/chinas-record-manufacturing-surplus",
   "node_id": "SC",
   "type": "source_credibility",
   "header": "Source credibility",
@@ -1683,7 +2211,7 @@
   "family": "banner",
   "doc": "setser_aug_14_24",
   "article": "China's Imaginary Trade Data",
-  "url": "",
+  "url": "https://www.cfr.org/articles/chinas-imaginary-trade-data",
   "node_id": "SC",
   "type": "source_credibility",
   "header": "Source credibility",
@@ -1710,7 +2238,7 @@
   "family": "banner",
   "doc": "setser_jul_8_20",
   "article": "Slouching Toward Phase One",
-  "url": "",
+  "url": "https://www.cfr.org/articles/slouching-toward-phase-one",
   "node_id": "SCP",
   "type": "scope_choice",
   "header": "Scope choice",
@@ -1737,7 +2265,7 @@
   "family": "banner",
   "doc": "setser_mar_10_24",
   "article": "China's Record Manufacturing Surplus",
-  "url": "",
+  "url": "https://www.cfr.org/articles/chinas-record-manufacturing-surplus",
   "node_id": "SCP",
   "type": "scope_choice",
   "header": "Scope choice",
@@ -1764,7 +2292,7 @@
   "family": "banner",
   "doc": "setser_jul_8_20",
   "article": "Slouching Toward Phase One",
-  "url": "",
+  "url": "https://www.cfr.org/articles/slouching-toward-phase-one",
   "node_id": "BM",
   "type": "benchmark",
   "header": "Benchmark",

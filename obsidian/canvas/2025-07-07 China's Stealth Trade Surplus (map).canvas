@@ -1,0 +1,298 @@
+{
+ "nodes": [
+  {
+   "id": "setser_2025-07-07_china-stealth-surplus-Q",
+   "type": "file",
+   "file": "claims/question/Why does China's surplus look small in IMF imbalance data when trade flows show it is huge.md",
+   "x": -260,
+   "y": 0,
+   "width": 520,
+   "height": 300,
+   "color": "#7A6FA8"
+  },
+  {
+   "id": "setser_2025-07-07_china-stealth-surplus-P1",
+   "type": "file",
+   "file": "claims/stated_assumption/A large real estate crisis typically pushes a country to rely more on exports (standard economic theory).md",
+   "x": -840,
+   "y": 480,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "setser_2025-07-07_china-stealth-surplus-P2",
+   "type": "file",
+   "file": "claims/stated_assumption/Customs goods data captures China's real imbalance better than balance of payments data.md",
+   "x": -260,
+   "y": 480,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "setser_2025-07-07_china-stealth-surplus-P3",
+   "type": "file",
+   "file": "claims/hidden_assumption/Opaque official statistics that no one can replicate deserve less trust than physical trade flows.md",
+   "x": 320,
+   "y": 480,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "setser_2025-07-07_china-stealth-surplus-E1",
+   "type": "file",
+   "file": "claims/evidence_data/China's 2024 current account surplus about $430 billion (just over 2 percent of GDP) versus the EU's $500 billion.md",
+   "x": -550,
+   "y": 960,
+   "width": 520,
+   "height": 300,
+   "color": "#2F7FBF"
+  },
+  {
+   "id": "setser_2025-07-07_china-stealth-surplus-E2",
+   "type": "file",
+   "file": "claims/evidence_source/IMF 2024 Article IV report; China's State Administration of Foreign Exchange argument about Apple; European Central.md",
+   "x": 30,
+   "y": 960,
+   "width": 520,
+   "height": 300,
+   "color": "#2F7FBF"
+  },
+  {
+   "id": "setser_2025-07-07_china-stealth-surplus-M1",
+   "type": "file",
+   "file": "claims/mechanism/China understated.md",
+   "x": -550,
+   "y": 1440,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "setser_2025-07-07_china-stealth-surplus-M2",
+   "type": "file",
+   "file": "claims/mechanism/EU overstated.md",
+   "x": 30,
+   "y": 1440,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "setser_2025-07-07_china-stealth-surplus-C1",
+   "type": "file",
+   "file": "claims/intermediate_claim/Current account comparisons based on balance of payments data make Europe, not China, look like the main source.md",
+   "x": -260,
+   "y": 1920,
+   "width": 520,
+   "height": 300,
+   "color": "#2FBF9B"
+  },
+  {
+   "id": "setser_2025-07-07_china-stealth-surplus-K",
+   "type": "file",
+   "file": "claims/main_claim/The real imbalance is in China; the IMF and G7 should focus there.md",
+   "x": -260,
+   "y": 2400,
+   "width": 520,
+   "height": 300,
+   "color": "#2FBF9B"
+  },
+  {
+   "id": "setser_2025-07-07_china-stealth-surplus-QF",
+   "type": "file",
+   "file": "claims/caveat/Balance of payments adjustments may or may not be more accurate, and some are legitimate (insurance and freight, Airbus).md",
+   "x": -840,
+   "y": 2880,
+   "width": 520,
+   "height": 300,
+   "color": "#9A8C6A"
+  },
+  {
+   "id": "setser_2025-07-07_china-stealth-surplus-R1",
+   "type": "file",
+   "file": "claims/other_explanation/China's services deficit, mostly travel, genuinely reduces its surplus.md",
+   "x": -260,
+   "y": 2880,
+   "width": 520,
+   "height": 300,
+   "color": "#8A8A8A"
+  },
+  {
+   "id": "setser_2025-07-07_china-stealth-surplus-X",
+   "type": "file",
+   "file": "claims/opposing_view/The IMF and analysts using comprehensive goods and services data, who see the EU as the biggest contributor.md",
+   "x": 320,
+   "y": 2880,
+   "width": 520,
+   "height": 300,
+   "color": "#8A8A8A"
+  }
+ ],
+ "edges": [
+  {
+   "id": "P1-C1",
+   "fromNode": "setser_2025-07-07_china-stealth-surplus-P1",
+   "fromSide": "bottom",
+   "toNode": "setser_2025-07-07_china-stealth-surplus-C1",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "P2-M1",
+   "fromNode": "setser_2025-07-07_china-stealth-surplus-P2",
+   "fromSide": "bottom",
+   "toNode": "setser_2025-07-07_china-stealth-surplus-M1",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "P2-M2",
+   "fromNode": "setser_2025-07-07_china-stealth-surplus-P2",
+   "fromSide": "bottom",
+   "toNode": "setser_2025-07-07_china-stealth-surplus-M2",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "E1-M1",
+   "fromNode": "setser_2025-07-07_china-stealth-surplus-E1",
+   "fromSide": "bottom",
+   "toNode": "setser_2025-07-07_china-stealth-surplus-M1",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "E2-M1",
+   "fromNode": "setser_2025-07-07_china-stealth-surplus-E2",
+   "fromSide": "bottom",
+   "toNode": "setser_2025-07-07_china-stealth-surplus-M1",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "E2-M2",
+   "fromNode": "setser_2025-07-07_china-stealth-surplus-E2",
+   "fromSide": "bottom",
+   "toNode": "setser_2025-07-07_china-stealth-surplus-M2",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "M1-C1",
+   "fromNode": "setser_2025-07-07_china-stealth-surplus-M1",
+   "fromSide": "bottom",
+   "toNode": "setser_2025-07-07_china-stealth-surplus-C1",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "M2-C1",
+   "fromNode": "setser_2025-07-07_china-stealth-surplus-M2",
+   "fromSide": "bottom",
+   "toNode": "setser_2025-07-07_china-stealth-surplus-C1",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "P3-C1",
+   "fromNode": "setser_2025-07-07_china-stealth-surplus-P3",
+   "fromSide": "bottom",
+   "toNode": "setser_2025-07-07_china-stealth-surplus-C1",
+   "toSide": "top",
+   "label": "+1 licenses",
+   "color": "4"
+  },
+  {
+   "id": "C1-K",
+   "fromNode": "setser_2025-07-07_china-stealth-surplus-C1",
+   "fromSide": "bottom",
+   "toNode": "setser_2025-07-07_china-stealth-surplus-K",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "K-X",
+   "fromNode": "setser_2025-07-07_china-stealth-surplus-K",
+   "fromSide": "bottom",
+   "toNode": "setser_2025-07-07_china-stealth-surplus-X",
+   "toSide": "top",
+   "label": "-1 rebuts",
+   "color": "1"
+  },
+  {
+   "id": "K-QF",
+   "fromNode": "setser_2025-07-07_china-stealth-surplus-K",
+   "fromSide": "bottom",
+   "toNode": "setser_2025-07-07_china-stealth-surplus-QF",
+   "toSide": "top",
+   "label": "-1 qualified_by",
+   "color": "1"
+  },
+  {
+   "id": "M1-R1",
+   "fromNode": "setser_2025-07-07_china-stealth-surplus-M1",
+   "fromSide": "bottom",
+   "toNode": "setser_2025-07-07_china-stealth-surplus-R1",
+   "toSide": "top",
+   "label": "-1 undercut_by",
+   "color": "1"
+  },
+  {
+   "id": "Q-P1",
+   "fromNode": "setser_2025-07-07_china-stealth-surplus-Q",
+   "fromSide": "bottom",
+   "toNode": "setser_2025-07-07_china-stealth-surplus-P1",
+   "toSide": "top",
+   "label": "0 frames ~",
+   "color": "6"
+  },
+  {
+   "id": "Q-P2",
+   "fromNode": "setser_2025-07-07_china-stealth-surplus-Q",
+   "fromSide": "bottom",
+   "toNode": "setser_2025-07-07_china-stealth-surplus-P2",
+   "toSide": "top",
+   "label": "0 frames ~",
+   "color": "6"
+  },
+  {
+   "id": "Q-P3",
+   "fromNode": "setser_2025-07-07_china-stealth-surplus-Q",
+   "fromSide": "bottom",
+   "toNode": "setser_2025-07-07_china-stealth-surplus-P3",
+   "toSide": "top",
+   "label": "0 frames ~",
+   "color": "6"
+  },
+  {
+   "id": "P1-E1",
+   "fromNode": "setser_2025-07-07_china-stealth-surplus-P1",
+   "fromSide": "bottom",
+   "toNode": "setser_2025-07-07_china-stealth-surplus-E1",
+   "toSide": "top",
+   "label": "0 frames ~",
+   "color": "6"
+  },
+  {
+   "id": "P3-E2",
+   "fromNode": "setser_2025-07-07_china-stealth-surplus-P3",
+   "fromSide": "bottom",
+   "toNode": "setser_2025-07-07_china-stealth-surplus-E2",
+   "toSide": "top",
+   "label": "0 frames ~",
+   "color": "6"
+  }
+ ]
+}

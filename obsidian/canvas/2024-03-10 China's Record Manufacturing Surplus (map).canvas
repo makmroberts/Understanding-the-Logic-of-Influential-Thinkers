@@ -1,0 +1,320 @@
+{
+ "nodes": [
+  {
+   "id": "setser_mar_10_24-Q",
+   "type": "file",
+   "file": "claims/question/Is China's centrality to global manufacturing really declining, as the fragmentation narrative suggests.md",
+   "x": -260,
+   "y": 0,
+   "width": 520,
+   "height": 300,
+   "color": "#7A6FA8"
+  },
+  {
+   "id": "setser_mar_10_24-ID",
+   "type": "file",
+   "file": "claims/accounting_identity/A large manufacturing surplus requires an offsetting deficit in manufactures elsewhere \u2014 stated, and used to locate.md",
+   "x": -1130,
+   "y": 480,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "setser_mar_10_24-P1",
+   "type": "file",
+   "file": "claims/stated_assumption/Bilateral data misleads about global position \u2014 rerouting is not displacement.md",
+   "x": -550,
+   "y": 480,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "setser_mar_10_24-P2",
+   "type": "file",
+   "file": "claims/hidden_assumption/A correctly measured imbalance ought to drive policy.md",
+   "x": 30,
+   "y": 480,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "setser_mar_10_24-SC",
+   "type": "file",
+   "file": "claims/source_credibility/The reported current account misleads \u2014 flagged, with the full case made in the August companion piece.md",
+   "x": 610,
+   "y": 480,
+   "width": 520,
+   "height": 300,
+   "color": "#2FA88F"
+  },
+  {
+   "id": "setser_mar_10_24-SCP",
+   "type": "file",
+   "file": "claims/scope_choice/SITC categories 5 through 9, the standard manufactures breakout, from the long UN Comtrade series.md",
+   "x": -260,
+   "y": 960,
+   "width": 520,
+   "height": 300,
+   "color": "#9A8C6A"
+  },
+  {
+   "id": "setser_mar_10_24-E1",
+   "type": "file",
+   "file": "claims/evidence_data/Surplus at ~2% of world GDP, above peak Japan and Germany; 80% of solar panels; 35% of manufacturing output against 15%.md",
+   "x": -840,
+   "y": 1440,
+   "width": 520,
+   "height": 300,
+   "color": "#2F7FBF"
+  },
+  {
+   "id": "setser_mar_10_24-E2",
+   "type": "file",
+   "file": "claims/evidence_source/Baldwin on sole manufacturing superpower; Pettis on production giant and consumption pygmy; Bown on the tariff.md",
+   "x": -260,
+   "y": 1440,
+   "width": 520,
+   "height": 300,
+   "color": "#2F7FBF"
+  },
+  {
+   "id": "setser_mar_10_24-E4",
+   "type": "file",
+   "file": "claims/evidence_discrepancy/Manufacturing surplus near 2% of world GDP against a reported current account of just 1.5% of China's own GDP.md",
+   "x": 320,
+   "y": 1440,
+   "width": 520,
+   "height": 300,
+   "color": "#2F7FBF"
+  },
+  {
+   "id": "setser_mar_10_24-M1",
+   "type": "file",
+   "file": "claims/mechanism/Policy, not only comparative advantage \u2014 resistance to consumer stimulus and a thin safety net sustain a savings surplus.md",
+   "x": -550,
+   "y": 1920,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "setser_mar_10_24-M2",
+   "type": "file",
+   "file": "claims/mechanism/Upgrading is the stated growth plan, so advanced manufacturing capacity keeps expanding.md",
+   "x": 30,
+   "y": 1920,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "setser_mar_10_24-C1",
+   "type": "file",
+   "file": "claims/intermediate_claim/The counterpart to the surplus is the United States, not commodity exporters, and the gap keeps widening as a share.md",
+   "x": -550,
+   "y": 2400,
+   "width": 520,
+   "height": 300,
+   "color": "#2FBF9B"
+  },
+  {
+   "id": "setser_mar_10_24-C3",
+   "type": "file",
+   "file": "claims/policy_reductio/Take the IMF's own advice \u2014 consolidate 7.5pp of GDP, cut rates, loosen the currency \u2014 run it through IMF-derived.md",
+   "x": 30,
+   "y": 2400,
+   "width": 520,
+   "height": 300,
+   "color": "#2FBF9B"
+  },
+  {
+   "id": "setser_mar_10_24-K",
+   "type": "file",
+   "file": "claims/main_claim/The imbalance is large, growing and mismeasured \u2014 it shows up everywhere except in the reported current account.md",
+   "x": -550,
+   "y": 2880,
+   "width": 520,
+   "height": 300,
+   "color": "#2FBF9B"
+  },
+  {
+   "id": "setser_mar_10_24-REC",
+   "type": "file",
+   "file": "claims/recommendation/The size of the imbalance, correctly measured, must be factored into Chinese policymaking and into external policy.md",
+   "x": 30,
+   "y": 2880,
+   "width": 520,
+   "height": 300,
+   "color": "#2FBF9B"
+  },
+  {
+   "id": "setser_mar_10_24-QF",
+   "type": "file",
+   "file": "claims/caveat/Specialisation does partly reflect a large population and limited resources; the comprehensive data also lags.md",
+   "x": -550,
+   "y": 3360,
+   "width": 520,
+   "height": 300,
+   "color": "#9A8C6A"
+  },
+  {
+   "id": "setser_mar_10_24-X",
+   "type": "file",
+   "file": "claims/opposing_view/The standard view that the post-crisis fall in China's current account means external imbalances are no longer pressing.md",
+   "x": 30,
+   "y": 3360,
+   "width": 520,
+   "height": 300,
+   "color": "#8A8A8A"
+  }
+ ],
+ "edges": [
+  {
+   "id": "SCP-E1",
+   "fromNode": "setser_mar_10_24-SCP",
+   "fromSide": "bottom",
+   "toNode": "setser_mar_10_24-E1",
+   "toSide": "top",
+   "label": "+1 bounds",
+   "color": "4"
+  },
+  {
+   "id": "SC-E4",
+   "fromNode": "setser_mar_10_24-SC",
+   "fromSide": "bottom",
+   "toNode": "setser_mar_10_24-E4",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "E1-C1",
+   "fromNode": "setser_mar_10_24-E1",
+   "fromSide": "bottom",
+   "toNode": "setser_mar_10_24-C1",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "E2-C1",
+   "fromNode": "setser_mar_10_24-E2",
+   "fromSide": "bottom",
+   "toNode": "setser_mar_10_24-C1",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "E4-C1",
+   "fromNode": "setser_mar_10_24-E4",
+   "fromSide": "bottom",
+   "toNode": "setser_mar_10_24-C1",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "ID-C1",
+   "fromNode": "setser_mar_10_24-ID",
+   "fromSide": "bottom",
+   "toNode": "setser_mar_10_24-C1",
+   "toSide": "top",
+   "label": "+1 licenses",
+   "color": "4"
+  },
+  {
+   "id": "P1-C1",
+   "fromNode": "setser_mar_10_24-P1",
+   "fromSide": "bottom",
+   "toNode": "setser_mar_10_24-C1",
+   "toSide": "top",
+   "label": "+1 licenses",
+   "color": "4"
+  },
+  {
+   "id": "M1-C1",
+   "fromNode": "setser_mar_10_24-M1",
+   "fromSide": "bottom",
+   "toNode": "setser_mar_10_24-C1",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "M2-C1",
+   "fromNode": "setser_mar_10_24-M2",
+   "fromSide": "bottom",
+   "toNode": "setser_mar_10_24-C1",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "C1-K",
+   "fromNode": "setser_mar_10_24-C1",
+   "fromSide": "bottom",
+   "toNode": "setser_mar_10_24-K",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "C1-C3",
+   "fromNode": "setser_mar_10_24-C1",
+   "fromSide": "bottom",
+   "toNode": "setser_mar_10_24-C3",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "C3-K",
+   "fromNode": "setser_mar_10_24-C3",
+   "fromSide": "bottom",
+   "toNode": "setser_mar_10_24-K",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "K-REC",
+   "fromNode": "setser_mar_10_24-K",
+   "fromSide": "bottom",
+   "toNode": "setser_mar_10_24-REC",
+   "toSide": "top",
+   "label": "+1 motivates",
+   "color": "4"
+  },
+  {
+   "id": "P2-REC",
+   "fromNode": "setser_mar_10_24-P2",
+   "fromSide": "bottom",
+   "toNode": "setser_mar_10_24-REC",
+   "toSide": "top",
+   "label": "+1 licenses",
+   "color": "4"
+  },
+  {
+   "id": "K-X",
+   "fromNode": "setser_mar_10_24-K",
+   "fromSide": "bottom",
+   "toNode": "setser_mar_10_24-X",
+   "toSide": "top",
+   "label": "-1 rebuts",
+   "color": "1"
+  },
+  {
+   "id": "K-QF",
+   "fromNode": "setser_mar_10_24-K",
+   "fromSide": "bottom",
+   "toNode": "setser_mar_10_24-QF",
+   "toSide": "top",
+   "label": "-1 qualified_by",
+   "color": "1"
+  }
+ ]
+}

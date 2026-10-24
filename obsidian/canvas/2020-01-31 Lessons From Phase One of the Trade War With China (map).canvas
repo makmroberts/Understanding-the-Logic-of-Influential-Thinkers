@@ -1,0 +1,263 @@
+{
+ "nodes": [
+  {
+   "id": "setser_jan_31_20-Q",
+   "type": "file",
+   "file": "claims/question/How did China choose to respond to tariff pressure, and what does that reveal about managed trade.md",
+   "x": -260,
+   "y": 0,
+   "width": 520,
+   "height": 300,
+   "color": "#7A6FA8"
+  },
+  {
+   "id": "setser_jan_31_20-P1",
+   "type": "file",
+   "file": "claims/stated_assumption/Industrial policy is non-negotiable; the state can direct commodity purchases.md",
+   "x": -1130,
+   "y": 480,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "setser_jan_31_20-P2",
+   "type": "file",
+   "file": "claims/hidden_assumption/The capacity to deliver purchases is the same capacity that can withdraw them.md",
+   "x": -550,
+   "y": 480,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "setser_jan_31_20-P3",
+   "type": "file",
+   "file": "claims/revised_prior/I was surprised by the size of China's impact... I thought U.S. soy would prove to be more of a pure commodity \u2014 and I.md",
+   "x": 30,
+   "y": 480,
+   "width": 520,
+   "height": 300,
+   "color": "#BF6F2F"
+  },
+  {
+   "id": "setser_jan_31_20-SC",
+   "type": "file",
+   "file": "claims/source_credibility/Chinese data never quite fully lines up, which bothers me more than most.md",
+   "x": 610,
+   "y": 480,
+   "width": 520,
+   "height": 300,
+   "color": "#2FA88F"
+  },
+  {
+   "id": "setser_jan_31_20-E1",
+   "type": "file",
+   "file": "claims/evidence_data/Yuan -8% vs USD and -4% vs basket; Treasury holdings flat once Belgian accounts are counted; China is two-thirds.md",
+   "x": -550,
+   "y": 960,
+   "width": 520,
+   "height": 300,
+   "color": "#2F7FBF"
+  },
+  {
+   "id": "setser_jan_31_20-E2",
+   "type": "file",
+   "file": "claims/evidence_source/His own Senate testimony; Toloui on balance-sheet policy; the Economist on managed trade.md",
+   "x": 30,
+   "y": 960,
+   "width": 520,
+   "height": 300,
+   "color": "#2F7FBF"
+  },
+  {
+   "id": "setser_jan_31_20-M1",
+   "type": "file",
+   "file": "claims/mechanism/Outflow controls and the absence of carry-trade leverage prevented a 2015-style panic.md",
+   "x": -550,
+   "y": 1440,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "setser_jan_31_20-M2",
+   "type": "file",
+   "file": "claims/mechanism/Treasuries carry no leverage \u2014 if China pushed yields up, the Fed would simply react.md",
+   "x": 30,
+   "y": 1440,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "setser_jan_31_20-C1",
+   "type": "file",
+   "file": "claims/intermediate_claim/Five parallel verdicts industrial policy untouched, currency buffered, Treasuries unused, manufactures spared, ag.md",
+   "x": -260,
+   "y": 1920,
+   "width": 520,
+   "height": 300,
+   "color": "#2FBF9B"
+  },
+  {
+   "id": "setser_jan_31_20-K",
+   "type": "file",
+   "file": "claims/main_claim/China can meet its 2020 commitments \u2014 and that is precisely the risk. What China's state gives, China's state can take.md",
+   "x": -260,
+   "y": 2400,
+   "width": 520,
+   "height": 300,
+   "color": "#2FBF9B"
+  },
+  {
+   "id": "setser_jan_31_20-QF",
+   "type": "file",
+   "file": "claims/caveat/Tech decoupling will not bite in 2020 Boeing's own problems, no indigenous jet engines, semiconductors too early.md",
+   "x": -840,
+   "y": 2880,
+   "width": 520,
+   "height": 300,
+   "color": "#9A8C6A"
+  },
+  {
+   "id": "setser_jan_31_20-R1",
+   "type": "file",
+   "file": "claims/other_explanation/Why were manufactures spared I am not quite sure why this is the case \u2014 two theories offered, neither chosen.md",
+   "x": -260,
+   "y": 2880,
+   "width": 520,
+   "height": 300,
+   "color": "#8A8A8A"
+  },
+  {
+   "id": "setser_jan_31_20-X",
+   "type": "file",
+   "file": "claims/opposing_view/Both approaches carry costs \u2014 managed trade rewards diversion away from allies, while the conventional approach changed.md",
+   "x": 320,
+   "y": 2880,
+   "width": 520,
+   "height": 300,
+   "color": "#8A8A8A"
+  }
+ ],
+ "edges": [
+  {
+   "id": "P3-P1",
+   "fromNode": "setser_jan_31_20-P3",
+   "fromSide": "bottom",
+   "toNode": "setser_jan_31_20-P1",
+   "toSide": "top",
+   "label": "-1 revises",
+   "color": "1"
+  },
+  {
+   "id": "P1-C1",
+   "fromNode": "setser_jan_31_20-P1",
+   "fromSide": "bottom",
+   "toNode": "setser_jan_31_20-C1",
+   "toSide": "top",
+   "label": "+1 licenses",
+   "color": "4"
+  },
+  {
+   "id": "E1-M1",
+   "fromNode": "setser_jan_31_20-E1",
+   "fromSide": "bottom",
+   "toNode": "setser_jan_31_20-M1",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "E1-C1",
+   "fromNode": "setser_jan_31_20-E1",
+   "fromSide": "bottom",
+   "toNode": "setser_jan_31_20-C1",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "E2-C1",
+   "fromNode": "setser_jan_31_20-E2",
+   "fromSide": "bottom",
+   "toNode": "setser_jan_31_20-C1",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "M1-C1",
+   "fromNode": "setser_jan_31_20-M1",
+   "fromSide": "bottom",
+   "toNode": "setser_jan_31_20-C1",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "M2-C1",
+   "fromNode": "setser_jan_31_20-M2",
+   "fromSide": "bottom",
+   "toNode": "setser_jan_31_20-C1",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "SC-E1",
+   "fromNode": "setser_jan_31_20-SC",
+   "fromSide": "bottom",
+   "toNode": "setser_jan_31_20-E1",
+   "toSide": "top",
+   "label": "-1 undercut_by",
+   "color": "1"
+  },
+  {
+   "id": "C1-K",
+   "fromNode": "setser_jan_31_20-C1",
+   "fromSide": "bottom",
+   "toNode": "setser_jan_31_20-K",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "P2-K",
+   "fromNode": "setser_jan_31_20-P2",
+   "fromSide": "bottom",
+   "toNode": "setser_jan_31_20-K",
+   "toSide": "top",
+   "label": "+1 licenses",
+   "color": "4"
+  },
+  {
+   "id": "K-X",
+   "fromNode": "setser_jan_31_20-K",
+   "fromSide": "bottom",
+   "toNode": "setser_jan_31_20-X",
+   "toSide": "top",
+   "label": "-1 rebuts",
+   "color": "1"
+  },
+  {
+   "id": "K-QF",
+   "fromNode": "setser_jan_31_20-K",
+   "fromSide": "bottom",
+   "toNode": "setser_jan_31_20-QF",
+   "toSide": "top",
+   "label": "-1 qualified_by",
+   "color": "1"
+  },
+  {
+   "id": "C1-R1",
+   "fromNode": "setser_jan_31_20-C1",
+   "fromSide": "bottom",
+   "toNode": "setser_jan_31_20-R1",
+   "toSide": "top",
+   "label": "-1 undercut_by",
+   "color": "1"
+  }
+ ]
+}

@@ -1,0 +1,913 @@
+{
+ "nodes": [
+  {
+   "nodeID": "62",
+   "text": "Does a purchase-commitment deal push China back toward managed trade?",
+   "type": "I",
+   "role": "question",
+   "toulmin": "framing",
+   "oper": "framing",
+   "localID": "setser_may_2_19#Q"
+  },
+  {
+   "nodeID": "63",
+   "text": "Tariffs and quotas do not matter much when the bulk of imports are bought by state firms or need a state licence",
+   "type": "I",
+   "role": "stated_assumption",
+   "toulmin": "warrant",
+   "oper": "warrant.prior",
+   "localID": "setser_may_2_19#P1"
+  },
+  {
+   "nodeID": "64",
+   "text": "China will not dismantle the core institutions of its mixed model in a trade negotiation",
+   "type": "I",
+   "role": "stated_assumption",
+   "toulmin": "warrant",
+   "oper": "warrant.prior",
+   "localID": "setser_may_2_19#P2"
+  },
+  {
+   "nodeID": "65",
+   "text": "The definitional move the argument turns on - 'that's managed trade in my books, even without formal tariffs or quotas'",
+   "type": "I",
+   "role": "hidden_assumption",
+   "toulmin": "warrant",
+   "oper": "warrant.prior",
+   "localID": "setser_may_2_19#P3"
+  },
+  {
+   "nodeID": "66",
+   "text": "Trade stopped without any formal tariff being introduced",
+   "type": "I",
+   "role": "evidence_data",
+   "toulmin": "grounds",
+   "oper": "grounds",
+   "localID": "setser_may_2_19#D1"
+  },
+  {
+   "nodeID": "67",
+   "text": "No dumping case and no national-security tariff case was filed",
+   "type": "I",
+   "role": "evidence_data",
+   "toulmin": "grounds",
+   "oper": "grounds",
+   "localID": "setser_may_2_19#D2"
+  },
+  {
+   "nodeID": "68",
+   "text": "A 25% tariff would normally cut imports by something like 50%; several U.S. goods simply stopped",
+   "type": "I",
+   "role": "evidence_data",
+   "toulmin": "grounds",
+   "oper": "grounds",
+   "localID": "setser_may_2_19#D3"
+  },
+  {
+   "nodeID": "69",
+   "text": "State-owned airlines plus one state-backed private carrier, with NDRC approval required; China is both Boeing's biggest market and, through COMAC, a future competitor",
+   "type": "I",
+   "role": "evidence_data",
+   "toulmin": "grounds",
+   "oper": "grounds",
+   "localID": "setser_may_2_19#D4"
+  },
+  {
+   "nodeID": "70",
+   "text": "The old state grain monopoly still controls crushing and distribution, Sinograin steps in from stockpiles, and smaller importers need a state licence",
+   "type": "I",
+   "role": "evidence_data",
+   "toulmin": "grounds",
+   "oper": "grounds",
+   "localID": "setser_may_2_19#D5"
+  },
+  {
+   "nodeID": "71",
+   "text": "They own the pipelines and the bulk of refining; private LNG terminals exist but the offshore investors are state firms",
+   "type": "I",
+   "role": "evidence_data",
+   "toulmin": "grounds",
+   "oper": "grounds",
+   "localID": "setser_may_2_19#D6"
+  },
+  {
+   "nodeID": "72",
+   "text": "Telecoms equipment, railway equipment, grid power, avionics - in sector after sector the ultimate buyer is the Chinese state",
+   "type": "I",
+   "role": "evidence_data",
+   "toulmin": "grounds",
+   "oper": "grounds",
+   "localID": "setser_may_2_19#D7"
+  },
+  {
+   "nodeID": "73",
+   "text": "When the state controls the importing firms, a few phone calls move trade without any border measure",
+   "type": "I",
+   "role": "mechanism",
+   "toulmin": "warrant",
+   "oper": "warrant.mechanism",
+   "localID": "setser_may_2_19#M1"
+  },
+  {
+   "nodeID": "74",
+   "text": "GE could own its turbine plant outright and still have to sell to state-run power companies selling to the state grid",
+   "type": "I",
+   "role": "mechanism",
+   "toulmin": "warrant",
+   "oper": "warrant.mechanism",
+   "localID": "setser_may_2_19#M2"
+  },
+  {
+   "nodeID": "75",
+   "text": "Rolls-Royce would build engines in China to win the contract; Airbus may build the A330 there - so import demand falls as capacity moves in",
+   "type": "I",
+   "role": "mechanism",
+   "toulmin": "warrant",
+   "oper": "warrant.mechanism",
+   "localID": "setser_may_2_19#M3"
+  },
+  {
+   "nodeID": "76",
+   "text": "Because the control is not legal but ownership-based, what it grants it can also withdraw",
+   "type": "I",
+   "role": "mechanism",
+   "toulmin": "warrant",
+   "oper": "warrant.mechanism",
+   "localID": "setser_may_2_19#M4"
+  },
+  {
+   "nodeID": "77",
+   "text": "So a purchase deal cannot return it to a place it never left",
+   "type": "I",
+   "role": "intermediate_claim",
+   "toulmin": "claim",
+   "oper": "claim.step",
+   "localID": "setser_may_2_19#C1"
+  },
+  {
+   "nodeID": "78",
+   "text": "Open to components for re-export and to what China cannot make at home; closed where the state is the buyer",
+   "type": "I",
+   "role": "intermediate_claim",
+   "toulmin": "claim",
+   "oper": "claim.step",
+   "localID": "setser_may_2_19#C2"
+  },
+  {
+   "nodeID": "79",
+   "text": "Not even dropping joint-venture requirements changes who the end buyer is",
+   "type": "I",
+   "role": "intermediate_claim",
+   "toulmin": "claim",
+   "oper": "claim.step",
+   "localID": "setser_may_2_19#C3"
+  },
+  {
+   "nodeID": "80",
+   "text": "The objection is not that the deal reintroduces state involvement, but that it is revocable",
+   "type": "I",
+   "role": "intermediate_claim",
+   "toulmin": "claim",
+   "oper": "claim.step",
+   "localID": "setser_may_2_19#C4"
+  },
+  {
+   "nodeID": "81",
+   "text": "China's state never stopped managing a large part of its trade, so the sound objection is Book's and Scissors': 'if it can be negotiated by government fiat, it can be taken away by government fiat'",
+   "type": "I",
+   "role": "main_claim",
+   "toulmin": "claim",
+   "oper": "claim.final",
+   "localID": "setser_may_2_19#K"
+  },
+  {
+   "nodeID": "82",
+   "text": "Yerxa, Donnan and almost everyone at the IMF Spring meetings - simplistic purchasing commitments reinforce state ownership rather than discourage it",
+   "type": "I",
+   "role": "opposing_view",
+   "toulmin": "rebuttal",
+   "oper": "rebuttal",
+   "localID": "setser_may_2_19#X"
+  },
+  {
+   "nodeID": "83",
+   "text": "The one sector where the state is not the main buyer. Tariffs were 25% and are still 15%, domestic capacity could meet all demand, yet German marques built a real business - because cars are bought privately",
+   "type": "I",
+   "role": "other_explanation",
+   "toulmin": "rebuttal",
+   "oper": "rebuttal",
+   "localID": "setser_may_2_19#R1"
+  },
+  {
+   "nodeID": "84",
+   "text": "This is a description of the world as it is, not as it should be; and medical equipment is a trick case, with private hospitals and local-government procurement",
+   "type": "I",
+   "role": "caveat",
+   "toulmin": "qualifier",
+   "oper": "qualifier",
+   "localID": "setser_may_2_19#QF"
+  },
+  {
+   "nodeID": "85",
+   "text": "Australia and others argue the United States is selling out its allies for a larger share of a limited import pie",
+   "type": "I",
+   "role": "opposing_view",
+   "toulmin": "rebuttal",
+   "oper": "rebuttal",
+   "localID": "setser_may_2_19#R2"
+  },
+  {
+   "nodeID": "615",
+   "text": "licenses",
+   "type": "RA",
+   "scheme": "licenses",
+   "relation_source": "label",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "618",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "label",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "621",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "label",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "624",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "label",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "627",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "label",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "630",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "label",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "633",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "label",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "636",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "label",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "639",
+   "text": "licenses",
+   "type": "RA",
+   "scheme": "licenses",
+   "relation_source": "label",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "642",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "label",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "645",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "label",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "648",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "label",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "651",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "label",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "654",
+   "text": "licenses",
+   "type": "RA",
+   "scheme": "licenses",
+   "relation_source": "label",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "657",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "label",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "660",
+   "text": "licenses",
+   "type": "RA",
+   "scheme": "licenses",
+   "relation_source": "label",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "663",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "label",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "666",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "label",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "669",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "label",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "672",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "label",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "675",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "label",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "678",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "label",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "681",
+   "text": "rebuts",
+   "type": "CA",
+   "scheme": "rebuts",
+   "relation_source": "label",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "684",
+   "text": "undercut_by",
+   "type": "CA",
+   "scheme": "undercut_by",
+   "relation_source": "label",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "687",
+   "text": "qualified_by",
+   "type": "CA",
+   "scheme": "qualified_by",
+   "relation_source": "label",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "690",
+   "text": "defers",
+   "type": "RA",
+   "scheme": "defers",
+   "relation_source": "label",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "693",
+   "text": "frames",
+   "type": "RA",
+   "scheme": "frames",
+   "relation_source": "layout_operator",
+   "relation_level": "fallback",
+   "relation_purity": "0.0"
+  },
+  {
+   "nodeID": "696",
+   "text": "frames",
+   "type": "RA",
+   "scheme": "frames",
+   "relation_source": "layout_operator",
+   "relation_level": "fallback",
+   "relation_purity": "0.0"
+  },
+  {
+   "nodeID": "699",
+   "text": "frames",
+   "type": "RA",
+   "scheme": "frames",
+   "relation_source": "layout_operator",
+   "relation_level": "fallback",
+   "relation_purity": "0.0"
+  },
+  {
+   "nodeID": "702",
+   "text": "frames",
+   "type": "RA",
+   "scheme": "frames",
+   "relation_source": "layout_operator",
+   "relation_level": "fallback",
+   "relation_purity": "0.0"
+  },
+  {
+   "nodeID": "705",
+   "text": "frames",
+   "type": "RA",
+   "scheme": "frames",
+   "relation_source": "layout_operator",
+   "relation_level": "fallback",
+   "relation_purity": "0.0"
+  },
+  {
+   "nodeID": "708",
+   "text": "frames",
+   "type": "RA",
+   "scheme": "frames",
+   "relation_source": "layout_operator",
+   "relation_level": "fallback",
+   "relation_purity": "0.0"
+  },
+  {
+   "nodeID": "711",
+   "text": "frames",
+   "type": "RA",
+   "scheme": "frames",
+   "relation_source": "layout_operator",
+   "relation_level": "fallback",
+   "relation_purity": "0.0"
+  },
+  {
+   "nodeID": "714",
+   "text": "frames",
+   "type": "RA",
+   "scheme": "frames",
+   "relation_source": "layout_operator",
+   "relation_level": "fallback",
+   "relation_purity": "0.0"
+  },
+  {
+   "nodeID": "717",
+   "text": "frames",
+   "type": "RA",
+   "scheme": "frames",
+   "relation_source": "layout_operator",
+   "relation_level": "fallback",
+   "relation_purity": "0.0"
+  },
+  {
+   "nodeID": "720",
+   "text": "frames",
+   "type": "RA",
+   "scheme": "frames",
+   "relation_source": "layout_operator",
+   "relation_level": "fallback",
+   "relation_purity": "0.0"
+  }
+ ],
+ "edges": [
+  {
+   "edgeID": "616",
+   "fromID": "63",
+   "toID": "615"
+  },
+  {
+   "edgeID": "617",
+   "fromID": "615",
+   "toID": "73"
+  },
+  {
+   "edgeID": "619",
+   "fromID": "66",
+   "toID": "618"
+  },
+  {
+   "edgeID": "620",
+   "fromID": "618",
+   "toID": "73"
+  },
+  {
+   "edgeID": "622",
+   "fromID": "67",
+   "toID": "621"
+  },
+  {
+   "edgeID": "623",
+   "fromID": "621",
+   "toID": "73"
+  },
+  {
+   "edgeID": "625",
+   "fromID": "68",
+   "toID": "624"
+  },
+  {
+   "edgeID": "626",
+   "fromID": "624",
+   "toID": "73"
+  },
+  {
+   "edgeID": "628",
+   "fromID": "69",
+   "toID": "627"
+  },
+  {
+   "edgeID": "629",
+   "fromID": "627",
+   "toID": "78"
+  },
+  {
+   "edgeID": "631",
+   "fromID": "70",
+   "toID": "630"
+  },
+  {
+   "edgeID": "632",
+   "fromID": "630",
+   "toID": "78"
+  },
+  {
+   "edgeID": "634",
+   "fromID": "71",
+   "toID": "633"
+  },
+  {
+   "edgeID": "635",
+   "fromID": "633",
+   "toID": "78"
+  },
+  {
+   "edgeID": "637",
+   "fromID": "72",
+   "toID": "636"
+  },
+  {
+   "edgeID": "638",
+   "fromID": "636",
+   "toID": "74"
+  },
+  {
+   "edgeID": "640",
+   "fromID": "64",
+   "toID": "639"
+  },
+  {
+   "edgeID": "641",
+   "fromID": "639",
+   "toID": "74"
+  },
+  {
+   "edgeID": "643",
+   "fromID": "74",
+   "toID": "642"
+  },
+  {
+   "edgeID": "644",
+   "fromID": "642",
+   "toID": "79"
+  },
+  {
+   "edgeID": "646",
+   "fromID": "72",
+   "toID": "645"
+  },
+  {
+   "edgeID": "647",
+   "fromID": "645",
+   "toID": "75"
+  },
+  {
+   "edgeID": "649",
+   "fromID": "75",
+   "toID": "648"
+  },
+  {
+   "edgeID": "650",
+   "fromID": "648",
+   "toID": "79"
+  },
+  {
+   "edgeID": "652",
+   "fromID": "73",
+   "toID": "651"
+  },
+  {
+   "edgeID": "653",
+   "fromID": "651",
+   "toID": "77"
+  },
+  {
+   "edgeID": "655",
+   "fromID": "65",
+   "toID": "654"
+  },
+  {
+   "edgeID": "656",
+   "fromID": "654",
+   "toID": "77"
+  },
+  {
+   "edgeID": "658",
+   "fromID": "78",
+   "toID": "657"
+  },
+  {
+   "edgeID": "659",
+   "fromID": "657",
+   "toID": "77"
+  },
+  {
+   "edgeID": "661",
+   "fromID": "64",
+   "toID": "660"
+  },
+  {
+   "edgeID": "662",
+   "fromID": "660",
+   "toID": "76"
+  },
+  {
+   "edgeID": "664",
+   "fromID": "76",
+   "toID": "663"
+  },
+  {
+   "edgeID": "665",
+   "fromID": "663",
+   "toID": "80"
+  },
+  {
+   "edgeID": "667",
+   "fromID": "77",
+   "toID": "666"
+  },
+  {
+   "edgeID": "668",
+   "fromID": "666",
+   "toID": "80"
+  },
+  {
+   "edgeID": "670",
+   "fromID": "79",
+   "toID": "669"
+  },
+  {
+   "edgeID": "671",
+   "fromID": "669",
+   "toID": "80"
+  },
+  {
+   "edgeID": "673",
+   "fromID": "77",
+   "toID": "672"
+  },
+  {
+   "edgeID": "674",
+   "fromID": "672",
+   "toID": "81"
+  },
+  {
+   "edgeID": "676",
+   "fromID": "79",
+   "toID": "675"
+  },
+  {
+   "edgeID": "677",
+   "fromID": "675",
+   "toID": "81"
+  },
+  {
+   "edgeID": "679",
+   "fromID": "80",
+   "toID": "678"
+  },
+  {
+   "edgeID": "680",
+   "fromID": "678",
+   "toID": "81"
+  },
+  {
+   "edgeID": "682",
+   "fromID": "77",
+   "toID": "681"
+  },
+  {
+   "edgeID": "683",
+   "fromID": "681",
+   "toID": "82"
+  },
+  {
+   "edgeID": "685",
+   "fromID": "79",
+   "toID": "684"
+  },
+  {
+   "edgeID": "686",
+   "fromID": "684",
+   "toID": "83"
+  },
+  {
+   "edgeID": "688",
+   "fromID": "81",
+   "toID": "687"
+  },
+  {
+   "edgeID": "689",
+   "fromID": "687",
+   "toID": "84"
+  },
+  {
+   "edgeID": "691",
+   "fromID": "81",
+   "toID": "690"
+  },
+  {
+   "edgeID": "692",
+   "fromID": "690",
+   "toID": "85"
+  },
+  {
+   "edgeID": "694",
+   "fromID": "62",
+   "toID": "693"
+  },
+  {
+   "edgeID": "695",
+   "fromID": "693",
+   "toID": "63"
+  },
+  {
+   "edgeID": "697",
+   "fromID": "62",
+   "toID": "696"
+  },
+  {
+   "edgeID": "698",
+   "fromID": "696",
+   "toID": "64"
+  },
+  {
+   "edgeID": "700",
+   "fromID": "62",
+   "toID": "699"
+  },
+  {
+   "edgeID": "701",
+   "fromID": "699",
+   "toID": "65"
+  },
+  {
+   "edgeID": "703",
+   "fromID": "63",
+   "toID": "702"
+  },
+  {
+   "edgeID": "704",
+   "fromID": "702",
+   "toID": "66"
+  },
+  {
+   "edgeID": "706",
+   "fromID": "63",
+   "toID": "705"
+  },
+  {
+   "edgeID": "707",
+   "fromID": "705",
+   "toID": "67"
+  },
+  {
+   "edgeID": "709",
+   "fromID": "63",
+   "toID": "708"
+  },
+  {
+   "edgeID": "710",
+   "fromID": "708",
+   "toID": "68"
+  },
+  {
+   "edgeID": "712",
+   "fromID": "64",
+   "toID": "711"
+  },
+  {
+   "edgeID": "713",
+   "fromID": "711",
+   "toID": "69"
+  },
+  {
+   "edgeID": "715",
+   "fromID": "64",
+   "toID": "714"
+  },
+  {
+   "edgeID": "716",
+   "fromID": "714",
+   "toID": "70"
+  },
+  {
+   "edgeID": "718",
+   "fromID": "64",
+   "toID": "717"
+  },
+  {
+   "edgeID": "719",
+   "fromID": "717",
+   "toID": "71"
+  },
+  {
+   "edgeID": "721",
+   "fromID": "65",
+   "toID": "720"
+  },
+  {
+   "edgeID": "722",
+   "fromID": "720",
+   "toID": "72"
+  }
+ ],
+ "locutions": [],
+ "source": {
+  "doc": "setser_may_2_19",
+  "title": "Does a purchase-commitment deal push China back toward managed trade?",
+  "date": "2019-05-02",
+  "url": "https://www.cfr.org/articles/china-never-stopped-managing-its-trade"
+ }
+}

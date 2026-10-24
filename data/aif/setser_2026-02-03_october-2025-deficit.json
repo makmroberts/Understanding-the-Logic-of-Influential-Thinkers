@@ -1,0 +1,528 @@
+{
+ "nodes": [
+  {
+   "nodeID": "345",
+   "text": "Does the low October 2025 trade deficit mean the tariffs are working?",
+   "type": "I",
+   "role": "question",
+   "toulmin": "framing",
+   "oper": "framing",
+   "localID": "setser_2026-02-03_october-2025-deficit#Q"
+  },
+  {
+   "nodeID": "346",
+   "text": "Tariffs reduce the trade deficit only if their proceeds reduce the budget deficit, acting as a tax hike",
+   "type": "I",
+   "role": "stated_assumption",
+   "toulmin": "warrant",
+   "oper": "warrant.prior",
+   "localID": "setser_2026-02-03_october-2025-deficit#P1"
+  },
+  {
+   "nodeID": "347",
+   "text": "Remove pharmaceuticals and gold to read the underlying deficit",
+   "type": "I",
+   "role": "stated_assumption",
+   "toulmin": "warrant",
+   "oper": "warrant.prior",
+   "localID": "setser_2026-02-03_october-2025-deficit#P2"
+  },
+  {
+   "nodeID": "348",
+   "text": "The trade balance is a macroeconomic savings-investment outcome; inventory swings reverse over time",
+   "type": "I",
+   "role": "hidden_assumption",
+   "toulmin": "warrant",
+   "oper": "warrant.prior",
+   "localID": "setser_2026-02-03_october-2025-deficit#P3"
+  },
+  {
+   "nodeID": "349",
+   "text": "October's drop came entirely from pharmaceuticals and gold; excluding them, October's deficit was slightly bigger than September's; August to October deficits below 2024, but early 2025 far above; imports of autos and household durable goods down; imports of semiconductors and computers up",
+   "type": "I",
+   "role": "evidence_data",
+   "toulmin": "grounds",
+   "oper": "grounds",
+   "localID": "setser_2026-02-03_october-2025-deficit#E1"
+  },
+  {
+   "nodeID": "350",
+   "text": "U.S. trade data; Section 232 semiconductor investigation",
+   "type": "I",
+   "role": "evidence_source",
+   "toulmin": "grounds",
+   "oper": "grounds",
+   "localID": "setser_2026-02-03_october-2025-deficit#E2"
+  },
+  {
+   "nodeID": "351",
+   "text": "Fear of tariffs that never came drove pharmaceutical stockpiling and gold flowing out and back",
+   "type": "I",
+   "role": "mechanism",
+   "toulmin": "warrant",
+   "oper": "warrant.mechanism",
+   "localID": "setser_2026-02-03_october-2025-deficit#M1"
+  },
+  {
+   "nodeID": "352",
+   "text": "Stockpiles built ahead of tariffs temporarily depress imports, and stockpiles run out",
+   "type": "I",
+   "role": "mechanism",
+   "toulmin": "warrant",
+   "oper": "warrant.mechanism",
+   "localID": "setser_2026-02-03_october-2025-deficit#M2"
+  },
+  {
+   "nodeID": "353",
+   "text": "The data center buildout keeps semiconductor and computer imports rising",
+   "type": "I",
+   "role": "mechanism",
+   "toulmin": "warrant",
+   "oper": "warrant.mechanism",
+   "localID": "setser_2026-02-03_october-2025-deficit#M3"
+  },
+  {
+   "nodeID": "354",
+   "text": "Promised refund checks and pressure for more defense spending block a fiscal adjustment",
+   "type": "I",
+   "role": "mechanism",
+   "toulmin": "warrant",
+   "oper": "warrant.mechanism",
+   "localID": "setser_2026-02-03_october-2025-deficit#M4"
+  },
+  {
+   "nodeID": "355",
+   "text": "Tariffs reduce imports in specific categories, but the overall deficit is driven by untariffed goods and stockpile timing",
+   "type": "I",
+   "role": "intermediate_claim",
+   "toulmin": "claim",
+   "oper": "claim.step",
+   "localID": "setser_2026-02-03_october-2025-deficit#C1"
+  },
+  {
+   "nodeID": "356",
+   "text": "No: the low October deficit is not evidence the tariffs work, and a significant fall in the 2025 deficit is unlikely",
+   "type": "I",
+   "role": "main_claim",
+   "toulmin": "claim",
+   "oper": "claim.final",
+   "localID": "setser_2026-02-03_october-2025-deficit#K"
+  },
+  {
+   "nodeID": "357",
+   "text": "Trump's trade team claiming success from smaller deficits than in the same months of 2024",
+   "type": "I",
+   "role": "opposing_view",
+   "toulmin": "rebuttal",
+   "oper": "rebuttal",
+   "localID": "setser_2026-02-03_october-2025-deficit#X"
+  },
+  {
+   "nodeID": "358",
+   "text": "Tariffed categories really are falling; watch whether imports rebound once stockpiles are exhausted",
+   "type": "I",
+   "role": "caveat",
+   "toulmin": "qualifier",
+   "oper": "qualifier",
+   "localID": "setser_2026-02-03_october-2025-deficit#QF"
+  },
+  {
+   "nodeID": "359",
+   "text": "Auto imports fell along with auto sales: weaker demand rather than more U.S. production",
+   "type": "I",
+   "role": "other_explanation",
+   "toulmin": "rebuttal",
+   "oper": "rebuttal",
+   "localID": "setser_2026-02-03_october-2025-deficit#R1"
+  },
+  {
+   "nodeID": "1665",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "arrow",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "1668",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "arrow",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "1671",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "arrow",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "1674",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "arrow",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "1677",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "arrow",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "1680",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "arrow",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "1683",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "arrow",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "1686",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "arrow",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "1689",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "arrow",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "1692",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "arrow",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "1695",
+   "text": "licenses",
+   "type": "RA",
+   "scheme": "licenses",
+   "relation_source": "label",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "1698",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "arrow",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "1701",
+   "text": "rebuts",
+   "type": "CA",
+   "scheme": "rebuts",
+   "relation_source": "label",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "1704",
+   "text": "qualified_by",
+   "type": "CA",
+   "scheme": "qualified_by",
+   "relation_source": "label",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "1707",
+   "text": "undercut_by",
+   "type": "CA",
+   "scheme": "undercut_by",
+   "relation_source": "label",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "1710",
+   "text": "frames",
+   "type": "RA",
+   "scheme": "frames",
+   "relation_source": "layout_operator",
+   "relation_level": "fallback",
+   "relation_purity": "0.0"
+  },
+  {
+   "nodeID": "1713",
+   "text": "frames",
+   "type": "RA",
+   "scheme": "frames",
+   "relation_source": "layout_operator",
+   "relation_level": "fallback",
+   "relation_purity": "0.0"
+  },
+  {
+   "nodeID": "1716",
+   "text": "frames",
+   "type": "RA",
+   "scheme": "frames",
+   "relation_source": "layout_operator",
+   "relation_level": "fallback",
+   "relation_purity": "0.0"
+  },
+  {
+   "nodeID": "1719",
+   "text": "frames",
+   "type": "RA",
+   "scheme": "frames",
+   "relation_source": "layout_operator",
+   "relation_level": "fallback",
+   "relation_purity": "0.0"
+  },
+  {
+   "nodeID": "1722",
+   "text": "frames",
+   "type": "RA",
+   "scheme": "frames",
+   "relation_source": "layout_operator",
+   "relation_level": "fallback",
+   "relation_purity": "0.0"
+  }
+ ],
+ "edges": [
+  {
+   "edgeID": "1666",
+   "fromID": "347",
+   "toID": "1665"
+  },
+  {
+   "edgeID": "1667",
+   "fromID": "1665",
+   "toID": "351"
+  },
+  {
+   "edgeID": "1669",
+   "fromID": "349",
+   "toID": "1668"
+  },
+  {
+   "edgeID": "1670",
+   "fromID": "1668",
+   "toID": "351"
+  },
+  {
+   "edgeID": "1672",
+   "fromID": "349",
+   "toID": "1671"
+  },
+  {
+   "edgeID": "1673",
+   "fromID": "1671",
+   "toID": "352"
+  },
+  {
+   "edgeID": "1675",
+   "fromID": "349",
+   "toID": "1674"
+  },
+  {
+   "edgeID": "1676",
+   "fromID": "1674",
+   "toID": "353"
+  },
+  {
+   "edgeID": "1678",
+   "fromID": "350",
+   "toID": "1677"
+  },
+  {
+   "edgeID": "1679",
+   "fromID": "1677",
+   "toID": "353"
+  },
+  {
+   "edgeID": "1681",
+   "fromID": "346",
+   "toID": "1680"
+  },
+  {
+   "edgeID": "1682",
+   "fromID": "1680",
+   "toID": "354"
+  },
+  {
+   "edgeID": "1684",
+   "fromID": "351",
+   "toID": "1683"
+  },
+  {
+   "edgeID": "1685",
+   "fromID": "1683",
+   "toID": "355"
+  },
+  {
+   "edgeID": "1687",
+   "fromID": "352",
+   "toID": "1686"
+  },
+  {
+   "edgeID": "1688",
+   "fromID": "1686",
+   "toID": "355"
+  },
+  {
+   "edgeID": "1690",
+   "fromID": "353",
+   "toID": "1689"
+  },
+  {
+   "edgeID": "1691",
+   "fromID": "1689",
+   "toID": "355"
+  },
+  {
+   "edgeID": "1693",
+   "fromID": "354",
+   "toID": "1692"
+  },
+  {
+   "edgeID": "1694",
+   "fromID": "1692",
+   "toID": "356"
+  },
+  {
+   "edgeID": "1696",
+   "fromID": "348",
+   "toID": "1695"
+  },
+  {
+   "edgeID": "1697",
+   "fromID": "1695",
+   "toID": "355"
+  },
+  {
+   "edgeID": "1699",
+   "fromID": "355",
+   "toID": "1698"
+  },
+  {
+   "edgeID": "1700",
+   "fromID": "1698",
+   "toID": "356"
+  },
+  {
+   "edgeID": "1702",
+   "fromID": "356",
+   "toID": "1701"
+  },
+  {
+   "edgeID": "1703",
+   "fromID": "1701",
+   "toID": "357"
+  },
+  {
+   "edgeID": "1705",
+   "fromID": "356",
+   "toID": "1704"
+  },
+  {
+   "edgeID": "1706",
+   "fromID": "1704",
+   "toID": "358"
+  },
+  {
+   "edgeID": "1708",
+   "fromID": "352",
+   "toID": "1707"
+  },
+  {
+   "edgeID": "1709",
+   "fromID": "1707",
+   "toID": "359"
+  },
+  {
+   "edgeID": "1711",
+   "fromID": "345",
+   "toID": "1710"
+  },
+  {
+   "edgeID": "1712",
+   "fromID": "1710",
+   "toID": "346"
+  },
+  {
+   "edgeID": "1714",
+   "fromID": "345",
+   "toID": "1713"
+  },
+  {
+   "edgeID": "1715",
+   "fromID": "1713",
+   "toID": "347"
+  },
+  {
+   "edgeID": "1717",
+   "fromID": "345",
+   "toID": "1716"
+  },
+  {
+   "edgeID": "1718",
+   "fromID": "1716",
+   "toID": "348"
+  },
+  {
+   "edgeID": "1720",
+   "fromID": "346",
+   "toID": "1719"
+  },
+  {
+   "edgeID": "1721",
+   "fromID": "1719",
+   "toID": "349"
+  },
+  {
+   "edgeID": "1723",
+   "fromID": "348",
+   "toID": "1722"
+  },
+  {
+   "edgeID": "1724",
+   "fromID": "1722",
+   "toID": "350"
+  }
+ ],
+ "locutions": [],
+ "source": {
+  "doc": "setser_2026-02-03_october-2025-deficit",
+  "title": "Understanding the Low October 2025 Trade Deficit",
+  "date": "2026-02-03",
+  "url": "https://www.cfr.org/articles/understanding-the-low-october-2025-trade-deficit"
+ }
+}

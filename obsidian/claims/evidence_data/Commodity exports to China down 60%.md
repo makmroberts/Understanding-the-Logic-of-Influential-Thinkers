@@ -6,7 +6,14 @@ article: "Why did China's tariffs devastate some U.S. exports but have limited e
 doc: setser_jun_14_19
 node_id: D1
 family: plain
-tags: [type/evidence_data, level/L2, family/plain]
+relation_sources: [arrow, layout_operator]
+variable: [bilateral-trade-flows, export-volumes]
+country_subject: [us]
+country_counterpart: [china]
+instrument: [retaliation]
+data_basis: [customs]
+bilateral: true
+tags: [type/evidence_data, level/L2, family/plain, variable/bilateral-trade-flows, variable/export-volumes, country/us, where/us, country/china, where/china, instrument/retaliation, data_basis/customs, shape/bilateral]
 ---
 
 # Commodity exports to China down >60%
@@ -14,8 +21,22 @@ tags: [type/evidence_data, level/L2, family/plain]
 > Much larger decline than manufacturing exports
 
 ## Leads to
-- **supports** → [[Identical tariffs need not have identical effects]] `intermediate_claim`
+- **+1 supports** → [[Identical tariffs need not have identical effects]] `intermediate_claim`
+
+## Rests on
+- [[Tariff effects are sector-specific]] `stated_assumption` **0 frames** this
+
+## Subject
+
+- **variable**: [[bilateral-trade-flows]], [[export-volumes]]
+- **country**: [[china]] _(counterpart)_, [[us]]
+- **instrument**: [[retaliation]]
+- **data_basis**: [[customs]]
 
 ## Source
-- Article: [[2019-06-14 Why did China's tariffs devastate some U.S. exports but have limited effects]]
+- Article: [[2019-06-14 Why did China's tariffs devastate some U.S. exports but have limited effects on others]]
+- Authored map: `mermaid_code/setser_jun_14_19.mmd`
+- Passage: **p6** — **states**, anchored on `60percent`, a literal the claim and the paragraph share
+- Published: https://www.cfr.org/articles/tale-two-tariffs-chinas-so-far-ineffective-tariffs-us-manufacturing-exports
 - Node `setser_jun_14_19#D1` · level L2 · type resolved by `class`
+- Full chain: `python scripts/trace.py setser_jun_14_19#D1`

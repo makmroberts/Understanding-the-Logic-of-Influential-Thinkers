@@ -2,6 +2,12 @@
 # produce them are versioned. See scripts/README.md.
 internal/
 
+# Secrets. Never commit these - an API key in git history stays in git history
+# even after a later deletion, and has to be rotated rather than removed.
+.env
+.env.*
+!.env.example
+
 # Python
 __pycache__/
 *.py[cod]
@@ -20,3 +26,15 @@ Thumbs.db
 # versioned, since those are part of how the maps are meant to be read.
 obsidian/.obsidian/workspace.json
 obsidian/.obsidian/workspace-mobile.json
+
+# Vendored Obsidian community plugins - 2.3 MB of someone else's build. The
+# vault needs Dataview for the query blocks in Cells.md; install it from
+# Settings > Community plugins rather than cloning it. See PROCESS.md.
+obsidian/.obsidian/plugins/
+
+# Editor settings, per-person
+.vscode/
+
+# Working notes for the coding assistant, not project documentation. PROCESS.md
+# is the explainer a person should read.
+CLAUDE.md

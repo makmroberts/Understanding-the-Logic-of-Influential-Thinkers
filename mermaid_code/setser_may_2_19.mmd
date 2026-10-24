@@ -6,84 +6,93 @@ config:
     nodeSpacing: 25
     rankSpacing: 45
 ---
+%% annotator: Claude (Opus 5), from the article text - NEEDS HUMAN REVIEW
+%% provenance: this file REPLACES a map that was byte-identical to
+%% setser_may_10_19.mmd and argued the yuan question, which belongs to the
+%% 2019-05-10 article ("yuan" appears 17 times there and 0 times here). The
+%% yuan argument is unchanged and still lives in setser_may_10_19.mmd. Every
+%% node below is drawn from "China Never Stopped Managing its Trade",
+%% 2019-05-02, with the source paragraph cited in a trailing comment.
+%% See scripts/source_urls.yaml and scripts/README.md Traceability.
 flowchart TD
 
   subgraph L0["Level 0 · Question"]
-    Q["<b>If U.S.-China trade tensions escalate,<br/>will China keep the yuan stable or let it weaken?</b><br/><i>Brad Setser, CFR, May 2019</i>"]
+    Q["<b>Does a purchase-commitment deal push China back toward managed trade?</b><br/><i>Brad Setser, CFR, May 2019</i>"]
   end
 
   subgraph L1["Level 1 · Priors & assumptions"]
-    P1["<b>China controls the yuan</b><br/>Reserves, capital controls, and policy tools give Beijing substantial exchange-rate control"]
-    P2["<b>Depreciation offsets tariffs</b><br/>A weaker yuan lets exporters lower dollar prices while preserving yuan revenue"]
-    P3["<b>Stability has value</b><br/>A stable currency supports confidence and reduces financial risk"]
+    P1["<b>Who buys matters more than the border barrier</b><br/>Tariffs and quotas do not matter much when the bulk of imports are bought by state firms or need a state licence"]
+    P2["<b>State control of the commanding heights is not negotiable</b><br/>China will not dismantle the core institutions of its mixed model in a trade negotiation"]
+    P3["<b>Managed trade means control of end demand, not tariffs</b><br/>The definitional move the argument turns on - 'that's managed trade in my books, even without formal tariffs or quotas'"]
   end
 
   subgraph L2["Level 2 · Evidence"]
-    D1["<b>Full tariffs would be substantial</b><br/>25% on nearly $550B of imports could raise roughly $100–140B"]
-    D2["<b>Large potential China growth hit</b><br/>UBS: full tariffs plus retaliation could cut growth by about 1.5pp"]
-    D3["<b>Recent yuan stability required little intervention</b><br/>No sustained pressure in either direction"]
-    D4["<b>China retains external firepower</b><br/>Large reserves, state-bank foreign assets, and portfolio inflows"]
-    D5["<b>Balance of payments broadly stable</b><br/>Trade surplus covers major outflows without sustained reserve pressure"]
-    D6["<b>Manufacturing surplus ~ $1T</b><br/>Further export-oriented adjustment would matter globally"]
+    D1["<b>Canola with Canada shut down</b><br/>Trade stopped without any formal tariff being introduced"]
+    D2["<b>Australian coal purchases scaled back</b><br/>No dumping case and no national-security tariff case was filed"]
+    D3["<b>U.S. exports went to zero, not down by half</b><br/>A 25% tariff would normally cut imports by something like 50%; several U.S. goods simply stopped"]
+    D4["<b>Aircraft: the buyer is the state</b><br/>State-owned airlines plus one state-backed private carrier, with NDRC approval required; China is both Boeing's biggest market and, through COMAC, a future competitor"]
+    D5["<b>Soybeans: COFCO controls the infrastructure</b><br/>The old state grain monopoly still controls crushing and distribution, Sinograin steps in from stockpiles, and smaller importers need a state licence"]
+    D6["<b>Oil and gas: state majors control the pipes</b><br/>They own the pipelines and the bulk of refining; private LNG terminals exist but the offshore investors are state firms"]
+    D7["<b>The capital-goods roll call</b><br/>Telecoms equipment, railway equipment, grid power, avionics - in sector after sector the ultimate buyer is the Chinese state"]
   end
 
   subgraph L3["Level 3 · Mechanisms"]
-    M1["<b>Tariffs weaken Chinese export demand</b><br/>Higher U.S. import costs reduce competitiveness and growth"]
-    M2["<b>Depreciation cushions exporters</b><br/>A weaker yuan offsets part of the tariff in dollar terms"]
-    M3["<b>Stability protects domestic confidence</b><br/>Avoiding a large currency move limits financial instability"]
-    M4["<b>Yuan weakness spreads outward</b><br/>Other Asian currencies weaken and trade pressure shifts globally"]
+    M1["<b>Ownership converts preference into volume</b><br/>When the state controls the importing firms, a few phone calls move trade without any border measure"]
+    M2["<b>Border liberalisation cannot create demand</b><br/>GE could own its turbine plant outright and still have to sell to state-run power companies selling to the state grid"]
+    M3["<b>Purchasing power is used to force localisation</b><br/>Rolls-Royce would build engines in China to win the contract; Airbus may build the A330 there - so import demand falls as capacity moves in"]
+    M4["<b>An administrative lever is reversible by administration</b><br/>Because the control is not legal but ownership-based, what it grants it can also withdraw"]
   end
 
   subgraph L4["Level 4 · Intermediate claims"]
-    C1["<b>China has a genuine policy choice</b><br/>It is not mechanically forced into depreciation"]
-    C2["<b>Depreciation can absorb part of the tariff shock</b><br/>Exporters can preserve competitiveness"]
-    C3["<b>But depreciation carries domestic and strategic costs</b><br/>It risks instability and additional U.S. retaliation"]
-    C4["<b>A weaker yuan redistributes trade pain</b><br/>Export-dependent economies outside China also come under pressure"]
+    C1["<b>China never left managed trade</b><br/>So a purchase deal cannot return it to a place it never left"]
+    C2["<b>Reform and opening was partial and sector-specific</b><br/>Open to components for re-export and to what China cannot make at home; closed where the state is the buyer"]
+    C3["<b>Removing formal barriers is not enough</b><br/>Not even dropping joint-venture requirements changes who the end buyer is"]
+    C4["<b>So the standard critique is misdirected</b><br/>The objection is not that the deal reintroduces state involvement, but that it is revocable"]
   end
 
   subgraph L5["Level 5 · Conclusion"]
-    K["<b>Main claim: China's currency response is a strategic choice</b><br/>Beijing can defend stability or reset the yuan lower;<br/>its decision will shape the global impact of the trade war"]
+    K["<b>Main claim: the right critique is revocability, not a return to managed trade</b><br/>China's state never stopped managing a large part of its trade, so the sound objection is Book's and Scissors':<br/>'if it can be negotiated by government fiat, it can be taken away by government fiat'"]
   end
 
   subgraph L6["Level 6 · Dialectic"]
-    X["<b>Case for stability</b><br/>China can support growth fiscally without risking a destabilizing currency move"]
-    QF["<b>Implementation caveat</b><br/>Controlled depreciations are difficult because markets may front-run them"]
-    R1["<b>Retaliation risk</b><br/>A weaker yuan could trigger broader or higher U.S. tariffs"]
-    R2["<b>External-balance caveat</b><br/>Tariffs and oil prices could push China toward current-account deficit"]
+    X["<b>Consensus view: the deal pushes China back to managed trade</b><br/>Yerxa, Donnan and almost everyone at the IMF Spring meetings - simplistic purchasing commitments reinforce state ownership rather than discourage it"]
+    R1["<b>Private-buyer explanation: autos</b><br/>The one sector where the state is not the main buyer. Tariffs were 25% and are still 15%, domestic capacity could meet all demand, yet German marques built a real business - because cars are bought privately"]
+    QF["<b>Descriptive caveat</b><br/>This is a description of the world as it is, not as it should be; and medical equipment is a trick case, with private hospitals and local-government procurement"]
+    R2["<b>Allies objection, set aside</b><br/>Australia and others argue the United States is selling out its allies for a larger share of a limited import pie"]
   end
 
-  D1 --> M1
-  D2 --> M1
+  P1 -->|licenses| M1
+  D1 -->|supports| M1
+  D2 -->|supports| M1
+  D3 -->|supports| M1
+  D4 -->|supports| C2
+  D5 -->|supports| C2
+  D6 -->|supports| C2
+  D7 -->|supports| M2
+  P2 -->|licenses| M2
+  M2 -->|supports| C3
+  D7 -->|supports| M3
+  M3 -->|supports| C3
+  M1 -->|supports| C1
+  P3 -->|licenses| C1
+  C2 -->|supports| C1
+  P2 -->|licenses| M4
+  M4 -->|supports| C4
+  C1 -->|supports| C4
+  C3 -->|supports| C4
+  C1 -->|supports| K
+  C3 -->|supports| K
+  C4 -->|supports| K
 
-  P2 --> M2
-  M1 --> M2
-
-  P3 --> M3
-  D3 --> M3
-  D4 --> M3
-  D5 --> M3
-
-  P1 --> C1
-  M2 --> C2
-  M3 --> C3
-  D6 --> M4
-  M2 --> M4
-  M4 --> C4
-
-  C1 --> K
-  C2 --> K
-  C3 --> K
-  C4 --> K
-
-  C1 -.->|supports alternative| X
-  C2 -.->|limited by| QF
-  C3 -.->|strategic risk| R1
-  C1 -.->|qualified by| R2
+  C1 -.->|pushes back on| X
+  C3 -.->|other explanation| R1
+  K -.->|caveat| QF
+  K -.->|defers| R2
 
   Q ~~~ P1 & P2 & P3
-  P1 ~~~ D3 & D4 & D5
-  P2 ~~~ D1 & D2
-  P3 ~~~ D6
+  P1 ~~~ D1 & D2 & D3
+  P2 ~~~ D4 & D5 & D6
+  P3 ~~~ D7
 
   classDef prior fill:#EEEDFE,stroke:#534AB7,color:#26215C
   classDef unstated fill:#EEEDFE,stroke:#534AB7,color:#26215C,stroke-dasharray:5 4
@@ -93,10 +102,11 @@ flowchart TD
   classDef dia fill:#F1EFE8,stroke:#5F5E5A,color:#2C2C2A
   classDef question fill:#FFFFFF,stroke:#2C2C2A,color:#2C2C2A
 
-  class P1,P2,P3 prior
-  class D1,D2,D3,D4,D5,D6 data
+  class P1,P2 prior
+  class P3 unstated
+  class D1,D2,D3,D4,D5,D6,D7 data
   class M1,M2,M3,M4,C1,C2,C3,C4 mech
   class K main
-  class X,QF,R1,R2 dia
+  class X,R1,QF,R2 dia
   class Q question
-  linkStyle 18,19,20,21 stroke:#A32D2D,color:#A32D2D
+  linkStyle 22,23,24,25 stroke:#A32D2D,color:#A32D2D

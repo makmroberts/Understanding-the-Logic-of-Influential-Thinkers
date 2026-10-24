@@ -1,0 +1,298 @@
+{
+ "nodes": [
+  {
+   "id": "setser_2025-07-28_china-eu-trade-war-Q",
+   "type": "file",
+   "file": "claims/question/Why is Europe losing ground to China in trade, and what should it do about it.md",
+   "x": -260,
+   "y": 0,
+   "width": 520,
+   "height": 300,
+   "color": "#7A6FA8"
+  },
+  {
+   "id": "setser_2025-07-28_china-eu-trade-war-P1",
+   "type": "file",
+   "file": "claims/stated_assumption/China's trade war tools are industrial policy and a weak currency, not tariffs.md",
+   "x": -840,
+   "y": 480,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "setser_2025-07-28_china-eu-trade-war-P2",
+   "type": "file",
+   "file": "claims/stated_assumption/Chinese firms, private or state-linked, accept low returns on equity and build too much.md",
+   "x": -260,
+   "y": 480,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "setser_2025-07-28_china-eu-trade-war-P3",
+   "type": "file",
+   "file": "claims/hidden_assumption/A trading partner's surplus drains demand from your economy; manufacturing capacity has strategic value beyond.md",
+   "x": 320,
+   "y": 480,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "setser_2025-07-28_china-eu-trade-war-E1",
+   "type": "file",
+   "file": "claims/evidence_data/European exports to China down about 0.5 percentage points of European GDP; EU trade deficit with China set to double.md",
+   "x": -550,
+   "y": 960,
+   "width": 520,
+   "height": 300,
+   "color": "#2F7FBF"
+  },
+  {
+   "id": "setser_2025-07-28_china-eu-trade-war-E2",
+   "type": "file",
+   "file": "claims/evidence_source/Centre for European Reform brief on German industry; Financial Times, New York Times and Wall Street Journal sector.md",
+   "x": 30,
+   "y": 960,
+   "width": 520,
+   "height": 300,
+   "color": "#2F7FBF"
+  },
+  {
+   "id": "setser_2025-07-28_china-eu-trade-war-M1",
+   "type": "file",
+   "file": "claims/mechanism/Overcapacity.md",
+   "x": -550,
+   "y": 1440,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "setser_2025-07-28_china-eu-trade-war-M2",
+   "type": "file",
+   "file": "claims/mechanism/Weak currency.md",
+   "x": 30,
+   "y": 1440,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "setser_2025-07-28_china-eu-trade-war-C1",
+   "type": "file",
+   "file": "claims/intermediate_claim/The second China shock is eroding Europe's core export sectors and is large enough to matter for the whole economy.md",
+   "x": -260,
+   "y": 1920,
+   "width": 520,
+   "height": 300,
+   "color": "#2FBF9B"
+  },
+  {
+   "id": "setser_2025-07-28_china-eu-trade-war-K",
+   "type": "file",
+   "file": "claims/main_claim/China is winning a trade war with Europe; Europe needs a counter-industrial policy, broader tariffs on Chinese autos.md",
+   "x": -260,
+   "y": 2400,
+   "width": 520,
+   "height": 300,
+   "color": "#2FBF9B"
+  },
+  {
+   "id": "setser_2025-07-28_china-eu-trade-war-QF",
+   "type": "file",
+   "file": "claims/caveat/The United States is still importing, which limits the damage, but American firms will not absorb tariff costs much.md",
+   "x": -840,
+   "y": 2880,
+   "width": 520,
+   "height": 300,
+   "color": "#9A8C6A"
+  },
+  {
+   "id": "setser_2025-07-28_china-eu-trade-war-R1",
+   "type": "file",
+   "file": "claims/other_explanation/China's long-standing tariff walls (25 percent on autos) also helped build the sector.md",
+   "x": -260,
+   "y": 2880,
+   "width": 520,
+   "height": 300,
+   "color": "#8A8A8A"
+  },
+  {
+   "id": "setser_2025-07-28_china-eu-trade-war-X",
+   "type": "file",
+   "file": "claims/opposing_view/Europe's inadequate response so far; Trump-style tariffs or commodity purchase deals as the fix.md",
+   "x": 320,
+   "y": 2880,
+   "width": 520,
+   "height": 300,
+   "color": "#8A8A8A"
+  }
+ ],
+ "edges": [
+  {
+   "id": "P1-M1",
+   "fromNode": "setser_2025-07-28_china-eu-trade-war-P1",
+   "fromSide": "bottom",
+   "toNode": "setser_2025-07-28_china-eu-trade-war-M1",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "P2-M1",
+   "fromNode": "setser_2025-07-28_china-eu-trade-war-P2",
+   "fromSide": "bottom",
+   "toNode": "setser_2025-07-28_china-eu-trade-war-M1",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "P1-M2",
+   "fromNode": "setser_2025-07-28_china-eu-trade-war-P1",
+   "fromSide": "bottom",
+   "toNode": "setser_2025-07-28_china-eu-trade-war-M2",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "E1-M1",
+   "fromNode": "setser_2025-07-28_china-eu-trade-war-E1",
+   "fromSide": "bottom",
+   "toNode": "setser_2025-07-28_china-eu-trade-war-M1",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "E1-M2",
+   "fromNode": "setser_2025-07-28_china-eu-trade-war-E1",
+   "fromSide": "bottom",
+   "toNode": "setser_2025-07-28_china-eu-trade-war-M2",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "E2-M1",
+   "fromNode": "setser_2025-07-28_china-eu-trade-war-E2",
+   "fromSide": "bottom",
+   "toNode": "setser_2025-07-28_china-eu-trade-war-M1",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "M1-C1",
+   "fromNode": "setser_2025-07-28_china-eu-trade-war-M1",
+   "fromSide": "bottom",
+   "toNode": "setser_2025-07-28_china-eu-trade-war-C1",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "M2-C1",
+   "fromNode": "setser_2025-07-28_china-eu-trade-war-M2",
+   "fromSide": "bottom",
+   "toNode": "setser_2025-07-28_china-eu-trade-war-C1",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "P3-C1",
+   "fromNode": "setser_2025-07-28_china-eu-trade-war-P3",
+   "fromSide": "bottom",
+   "toNode": "setser_2025-07-28_china-eu-trade-war-C1",
+   "toSide": "top",
+   "label": "+1 licenses",
+   "color": "4"
+  },
+  {
+   "id": "C1-K",
+   "fromNode": "setser_2025-07-28_china-eu-trade-war-C1",
+   "fromSide": "bottom",
+   "toNode": "setser_2025-07-28_china-eu-trade-war-K",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "K-X",
+   "fromNode": "setser_2025-07-28_china-eu-trade-war-K",
+   "fromSide": "bottom",
+   "toNode": "setser_2025-07-28_china-eu-trade-war-X",
+   "toSide": "top",
+   "label": "-1 rebuts",
+   "color": "1"
+  },
+  {
+   "id": "K-QF",
+   "fromNode": "setser_2025-07-28_china-eu-trade-war-K",
+   "fromSide": "bottom",
+   "toNode": "setser_2025-07-28_china-eu-trade-war-QF",
+   "toSide": "top",
+   "label": "-1 qualified_by",
+   "color": "1"
+  },
+  {
+   "id": "M1-R1",
+   "fromNode": "setser_2025-07-28_china-eu-trade-war-M1",
+   "fromSide": "bottom",
+   "toNode": "setser_2025-07-28_china-eu-trade-war-R1",
+   "toSide": "top",
+   "label": "-1 undercut_by",
+   "color": "1"
+  },
+  {
+   "id": "Q-P1",
+   "fromNode": "setser_2025-07-28_china-eu-trade-war-Q",
+   "fromSide": "bottom",
+   "toNode": "setser_2025-07-28_china-eu-trade-war-P1",
+   "toSide": "top",
+   "label": "0 frames ~",
+   "color": "6"
+  },
+  {
+   "id": "Q-P2",
+   "fromNode": "setser_2025-07-28_china-eu-trade-war-Q",
+   "fromSide": "bottom",
+   "toNode": "setser_2025-07-28_china-eu-trade-war-P2",
+   "toSide": "top",
+   "label": "0 frames ~",
+   "color": "6"
+  },
+  {
+   "id": "Q-P3",
+   "fromNode": "setser_2025-07-28_china-eu-trade-war-Q",
+   "fromSide": "bottom",
+   "toNode": "setser_2025-07-28_china-eu-trade-war-P3",
+   "toSide": "top",
+   "label": "0 frames ~",
+   "color": "6"
+  },
+  {
+   "id": "P1-E1",
+   "fromNode": "setser_2025-07-28_china-eu-trade-war-P1",
+   "fromSide": "bottom",
+   "toNode": "setser_2025-07-28_china-eu-trade-war-E1",
+   "toSide": "top",
+   "label": "0 frames ~",
+   "color": "6"
+  },
+  {
+   "id": "P3-E2",
+   "fromNode": "setser_2025-07-28_china-eu-trade-war-P3",
+   "fromSide": "bottom",
+   "toNode": "setser_2025-07-28_china-eu-trade-war-E2",
+   "toSide": "top",
+   "label": "0 frames ~",
+   "color": "6"
+  }
+ ]
+}
