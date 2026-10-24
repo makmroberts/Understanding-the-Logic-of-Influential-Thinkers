@@ -1,0 +1,448 @@
+{
+ "nodes": [
+  {
+   "id": "setser_feb_26_20-Q",
+   "type": "file",
+   "file": "claims/question/Do tariffs change the trade balance, and who absorbed the Q4 US demand drop.md",
+   "x": -260,
+   "y": 0,
+   "width": 520,
+   "height": 300,
+   "color": "#7A6FA8"
+  },
+  {
+   "id": "setser_feb_26_20-P1",
+   "type": "file",
+   "file": "claims/hidden_assumption/Trade balance = saving \u2212 investment.md",
+   "x": -1130,
+   "y": 480,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "setser_feb_26_20-P2",
+   "type": "file",
+   "file": "claims/stated_assumption/Tariff revenue is not offset.md",
+   "x": -550,
+   "y": 480,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "setser_feb_26_20-P3",
+   "type": "file",
+   "file": "claims/stated_assumption/Few substitutes for China goods.md",
+   "x": 30,
+   "y": 480,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "setser_feb_26_20-P4",
+   "type": "file",
+   "file": "claims/stated_assumption/Tariff uncertainty weighs on firms.md",
+   "x": 610,
+   "y": 480,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "setser_feb_26_20-D1",
+   "type": "file",
+   "file": "claims/evidence_data/Tariff revenue ~$30B \u2192 ~$80B a year.md",
+   "x": -1420,
+   "y": 960,
+   "width": 520,
+   "height": 300,
+   "color": "#2F7FBF"
+  },
+  {
+   "id": "setser_feb_26_20-D2",
+   "type": "file",
+   "file": "claims/evidence_data/Fajgelbaum et al.md",
+   "x": -840,
+   "y": 960,
+   "width": 520,
+   "height": 300,
+   "color": "#2F7FBF"
+  },
+  {
+   "id": "setser_feb_26_20-D3",
+   "type": "file",
+   "file": "claims/evidence_data/Bussi\u00e8re et al. + chart.md",
+   "x": -260,
+   "y": 960,
+   "width": 520,
+   "height": 300,
+   "color": "#2F7FBF"
+  },
+  {
+   "id": "setser_feb_26_20-D4",
+   "type": "file",
+   "file": "claims/evidence_data/Q4 imports weak.md",
+   "x": 320,
+   "y": 960,
+   "width": 520,
+   "height": 300,
+   "color": "#2F7FBF"
+  },
+  {
+   "id": "setser_feb_26_20-D5",
+   "type": "file",
+   "file": "claims/evidence_data/Vietnam exports to US +$17.5B.md",
+   "x": 900,
+   "y": 960,
+   "width": 520,
+   "height": 300,
+   "color": "#2F7FBF"
+  },
+  {
+   "id": "setser_feb_26_20-M1",
+   "type": "file",
+   "file": "claims/mechanism/Tariffs act as a consumption tax.md",
+   "x": -840,
+   "y": 1440,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "setser_feb_26_20-M2",
+   "type": "file",
+   "file": "claims/mechanism/Uncertainty cuts capex.md",
+   "x": -260,
+   "y": 1440,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "setser_feb_26_20-M3",
+   "type": "file",
+   "file": "claims/mechanism/Lower capex \u2192 lower imports.md",
+   "x": 320,
+   "y": 1440,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "setser_feb_26_20-C1",
+   "type": "file",
+   "file": "claims/intermediate_claim/Tariffs cut the deficit by slowing growth.md",
+   "x": -550,
+   "y": 1920,
+   "width": 520,
+   "height": 300,
+   "color": "#2FBF9B"
+  },
+  {
+   "id": "setser_feb_26_20-C2",
+   "type": "file",
+   "file": "claims/intermediate_claim/Diversion no longer offsets China.md",
+   "x": 30,
+   "y": 1920,
+   "width": 520,
+   "height": 300,
+   "color": "#2FBF9B"
+  },
+  {
+   "id": "setser_feb_26_20-K",
+   "type": "file",
+   "file": "claims/main_claim/Main claim the US demand shock was exported.md",
+   "x": -260,
+   "y": 2400,
+   "width": 520,
+   "height": 300,
+   "color": "#2FBF9B"
+  },
+  {
+   "id": "setser_feb_26_20-QF",
+   "type": "file",
+   "file": "claims/counterpoint/COVID confound.md",
+   "x": -840,
+   "y": 2880,
+   "width": 520,
+   "height": 300,
+   "color": "#8A8A8A"
+  },
+  {
+   "id": "setser_feb_26_20-R1",
+   "type": "file",
+   "file": "claims/counterpoint/Rival causes of weak capex.md",
+   "x": -260,
+   "y": 2880,
+   "width": 520,
+   "height": 300,
+   "color": "#8A8A8A"
+  },
+  {
+   "id": "setser_feb_26_20-X",
+   "type": "file",
+   "file": "claims/counterpoint/Consensus tariffs move level, not balance.md",
+   "x": 320,
+   "y": 2880,
+   "width": 520,
+   "height": 300,
+   "color": "#8A8A8A"
+  }
+ ],
+ "edges": [
+  {
+   "id": "P2-M1",
+   "fromNode": "setser_feb_26_20-P2",
+   "fromSide": "bottom",
+   "toNode": "setser_feb_26_20-M1",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "P3-M1",
+   "fromNode": "setser_feb_26_20-P3",
+   "fromSide": "bottom",
+   "toNode": "setser_feb_26_20-M1",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "D1-M1",
+   "fromNode": "setser_feb_26_20-D1",
+   "fromSide": "bottom",
+   "toNode": "setser_feb_26_20-M1",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "D2-M1",
+   "fromNode": "setser_feb_26_20-D2",
+   "fromSide": "bottom",
+   "toNode": "setser_feb_26_20-M1",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "P4-M2",
+   "fromNode": "setser_feb_26_20-P4",
+   "fromSide": "bottom",
+   "toNode": "setser_feb_26_20-M2",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "M2-M3",
+   "fromNode": "setser_feb_26_20-M2",
+   "fromSide": "bottom",
+   "toNode": "setser_feb_26_20-M3",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "D3-M3",
+   "fromNode": "setser_feb_26_20-D3",
+   "fromSide": "bottom",
+   "toNode": "setser_feb_26_20-M3",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "M1-C1",
+   "fromNode": "setser_feb_26_20-M1",
+   "fromSide": "bottom",
+   "toNode": "setser_feb_26_20-C1",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "M3-C1",
+   "fromNode": "setser_feb_26_20-M3",
+   "fromSide": "bottom",
+   "toNode": "setser_feb_26_20-C1",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "P1-C1",
+   "fromNode": "setser_feb_26_20-P1",
+   "fromSide": "bottom",
+   "toNode": "setser_feb_26_20-C1",
+   "toSide": "top",
+   "label": "+1 licenses",
+   "color": "4"
+  },
+  {
+   "id": "D4-C2",
+   "fromNode": "setser_feb_26_20-D4",
+   "fromSide": "bottom",
+   "toNode": "setser_feb_26_20-C2",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "D5-C2",
+   "fromNode": "setser_feb_26_20-D5",
+   "fromSide": "bottom",
+   "toNode": "setser_feb_26_20-C2",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "C1-K",
+   "fromNode": "setser_feb_26_20-C1",
+   "fromSide": "bottom",
+   "toNode": "setser_feb_26_20-K",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "C2-K",
+   "fromNode": "setser_feb_26_20-C2",
+   "fromSide": "bottom",
+   "toNode": "setser_feb_26_20-K",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "K-X",
+   "fromNode": "setser_feb_26_20-K",
+   "fromSide": "bottom",
+   "toNode": "setser_feb_26_20-X",
+   "toSide": "top",
+   "label": "-1 qualified_by",
+   "color": "1"
+  },
+  {
+   "id": "K-QF",
+   "fromNode": "setser_feb_26_20-K",
+   "fromSide": "bottom",
+   "toNode": "setser_feb_26_20-QF",
+   "toSide": "top",
+   "label": "-1 qualified_by",
+   "color": "1"
+  },
+  {
+   "id": "M2-R1",
+   "fromNode": "setser_feb_26_20-M2",
+   "fromSide": "bottom",
+   "toNode": "setser_feb_26_20-R1",
+   "toSide": "top",
+   "label": "-1 undercut_by",
+   "color": "1"
+  },
+  {
+   "id": "Q-P2",
+   "fromNode": "setser_feb_26_20-Q",
+   "fromSide": "bottom",
+   "toNode": "setser_feb_26_20-P2",
+   "toSide": "top",
+   "label": "0 frames ~",
+   "color": "6"
+  },
+  {
+   "id": "Q-P3",
+   "fromNode": "setser_feb_26_20-Q",
+   "fromSide": "bottom",
+   "toNode": "setser_feb_26_20-P3",
+   "toSide": "top",
+   "label": "0 frames ~",
+   "color": "6"
+  },
+  {
+   "id": "Q-P1",
+   "fromNode": "setser_feb_26_20-Q",
+   "fromSide": "bottom",
+   "toNode": "setser_feb_26_20-P1",
+   "toSide": "top",
+   "label": "0 frames ~",
+   "color": "6"
+  },
+  {
+   "id": "Q-P4",
+   "fromNode": "setser_feb_26_20-Q",
+   "fromSide": "bottom",
+   "toNode": "setser_feb_26_20-P4",
+   "toSide": "top",
+   "label": "0 frames ~",
+   "color": "6"
+  },
+  {
+   "id": "P2-D1",
+   "fromNode": "setser_feb_26_20-P2",
+   "fromSide": "bottom",
+   "toNode": "setser_feb_26_20-D1",
+   "toSide": "top",
+   "label": "0 frames ~",
+   "color": "6"
+  },
+  {
+   "id": "P3-D2",
+   "fromNode": "setser_feb_26_20-P3",
+   "fromSide": "bottom",
+   "toNode": "setser_feb_26_20-D2",
+   "toSide": "top",
+   "label": "0 frames ~",
+   "color": "6"
+  },
+  {
+   "id": "P4-D3",
+   "fromNode": "setser_feb_26_20-P4",
+   "fromSide": "bottom",
+   "toNode": "setser_feb_26_20-D3",
+   "toSide": "top",
+   "label": "0 frames ~",
+   "color": "6"
+  },
+  {
+   "id": "P1-D4",
+   "fromNode": "setser_feb_26_20-P1",
+   "fromSide": "bottom",
+   "toNode": "setser_feb_26_20-D4",
+   "toSide": "top",
+   "label": "0 frames ~",
+   "color": "6"
+  },
+  {
+   "id": "P1-D5",
+   "fromNode": "setser_feb_26_20-P1",
+   "fromSide": "bottom",
+   "toNode": "setser_feb_26_20-D5",
+   "toSide": "top",
+   "label": "0 frames ~",
+   "color": "6"
+  },
+  {
+   "id": "D4-M3",
+   "fromNode": "setser_feb_26_20-D4",
+   "fromSide": "bottom",
+   "toNode": "setser_feb_26_20-M3",
+   "toSide": "top",
+   "label": "+1 supports ~",
+   "color": "4"
+  },
+  {
+   "id": "D5-M3",
+   "fromNode": "setser_feb_26_20-D5",
+   "fromSide": "bottom",
+   "toNode": "setser_feb_26_20-M3",
+   "toSide": "top",
+   "label": "+1 supports ~",
+   "color": "4"
+  }
+ ]
+}

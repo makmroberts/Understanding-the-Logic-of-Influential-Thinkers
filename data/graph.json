@@ -9,7 +9,7 @@
     "title": "Why does the U.S. trade balance still matter, even if deficits can accompany strong growth?",
     "author": "",
     "outlet": "",
-    "url": "",
+    "url": "https://www.cfr.org/articles/why-trade-balance-still-matters",
     "topics": "",
     "genre": "",
     "shape": ""
@@ -331,6 +331,7 @@
      "type": "supports",
      "raw": "",
      "polarity": "forward",
+     "relation_source": "arrow",
      "needs_review": false
     },
     {
@@ -339,6 +340,7 @@
      "type": "supports",
      "raw": "",
      "polarity": "forward",
+     "relation_source": "arrow",
      "needs_review": false
     },
     {
@@ -347,6 +349,7 @@
      "type": "supports",
      "raw": "",
      "polarity": "forward",
+     "relation_source": "arrow",
      "needs_review": false
     },
     {
@@ -355,6 +358,7 @@
      "type": "supports",
      "raw": "",
      "polarity": "forward",
+     "relation_source": "arrow",
      "needs_review": false
     },
     {
@@ -363,6 +367,7 @@
      "type": "supports",
      "raw": "",
      "polarity": "forward",
+     "relation_source": "arrow",
      "needs_review": false
     },
     {
@@ -371,6 +376,7 @@
      "type": "supports",
      "raw": "",
      "polarity": "forward",
+     "relation_source": "arrow",
      "needs_review": false
     },
     {
@@ -379,6 +385,7 @@
      "type": "supports",
      "raw": "",
      "polarity": "forward",
+     "relation_source": "arrow",
      "needs_review": false
     },
     {
@@ -387,6 +394,7 @@
      "type": "supports",
      "raw": "",
      "polarity": "forward",
+     "relation_source": "arrow",
      "needs_review": false
     },
     {
@@ -395,6 +403,7 @@
      "type": "supports",
      "raw": "",
      "polarity": "forward",
+     "relation_source": "arrow",
      "needs_review": false
     },
     {
@@ -403,6 +412,7 @@
      "type": "supports",
      "raw": "",
      "polarity": "forward",
+     "relation_source": "arrow",
      "needs_review": false
     },
     {
@@ -411,6 +421,7 @@
      "type": "supports",
      "raw": "",
      "polarity": "forward",
+     "relation_source": "arrow",
      "needs_review": false
     },
     {
@@ -419,6 +430,7 @@
      "type": "supports",
      "raw": "",
      "polarity": "forward",
+     "relation_source": "arrow",
      "needs_review": false
     },
     {
@@ -427,6 +439,7 @@
      "type": "supports",
      "raw": "",
      "polarity": "forward",
+     "relation_source": "arrow",
      "needs_review": false
     },
     {
@@ -435,6 +448,7 @@
      "type": "supports",
      "raw": "",
      "polarity": "forward",
+     "relation_source": "arrow",
      "needs_review": false
     },
     {
@@ -443,6 +457,7 @@
      "type": "supports",
      "raw": "",
      "polarity": "forward",
+     "relation_source": "arrow",
      "needs_review": false
     },
     {
@@ -451,6 +466,7 @@
      "type": "qualified_by",
      "raw": "qualified by",
      "polarity": "pushes_back",
+     "relation_source": "label",
      "needs_review": false
     },
     {
@@ -459,6 +475,7 @@
      "type": "qualified_by",
      "raw": "measurement caveat",
      "polarity": "pushes_back",
+     "relation_source": "label",
      "needs_review": false
     },
     {
@@ -467,6 +484,7 @@
      "type": "qualified_by",
      "raw": "qualified by",
      "polarity": "pushes_back",
+     "relation_source": "label",
      "needs_review": false
     },
     {
@@ -475,12 +493,112 @@
      "type": "qualified_by",
      "raw": "qualified by",
      "polarity": "pushes_back",
+     "relation_source": "label",
      "needs_review": false
+    },
+    {
+     "from": "Q",
+     "to": "P1",
+     "type": "frames",
+     "raw": "",
+     "polarity": "forward",
+     "relation_source": "layout_operator",
+     "needs_review": false,
+     "relation_level": "fallback",
+     "relation_purity": 0.0
+    },
+    {
+     "from": "Q",
+     "to": "P2",
+     "type": "frames",
+     "raw": "",
+     "polarity": "forward",
+     "relation_source": "layout_operator",
+     "needs_review": false,
+     "relation_level": "fallback",
+     "relation_purity": 0.0
+    },
+    {
+     "from": "Q",
+     "to": "P3",
+     "type": "frames",
+     "raw": "",
+     "polarity": "forward",
+     "relation_source": "layout_operator",
+     "needs_review": false,
+     "relation_level": "fallback",
+     "relation_purity": 0.0
+    },
+    {
+     "from": "P1",
+     "to": "D1",
+     "type": "frames",
+     "raw": "",
+     "polarity": "forward",
+     "relation_source": "layout_operator",
+     "needs_review": false,
+     "relation_level": "fallback",
+     "relation_purity": 0.0
+    },
+    {
+     "from": "P1",
+     "to": "D6",
+     "type": "frames",
+     "raw": "",
+     "polarity": "forward",
+     "relation_source": "layout_operator",
+     "needs_review": false,
+     "relation_level": "fallback",
+     "relation_purity": 0.0
+    },
+    {
+     "from": "P2",
+     "to": "D2",
+     "type": "frames",
+     "raw": "",
+     "polarity": "forward",
+     "relation_source": "layout_operator",
+     "needs_review": false,
+     "relation_level": "fallback",
+     "relation_purity": 0.0
+    },
+    {
+     "from": "P2",
+     "to": "D3",
+     "type": "frames",
+     "raw": "",
+     "polarity": "forward",
+     "relation_source": "layout_operator",
+     "needs_review": false,
+     "relation_level": "fallback",
+     "relation_purity": 0.0
+    },
+    {
+     "from": "P3",
+     "to": "D4",
+     "type": "frames",
+     "raw": "",
+     "polarity": "forward",
+     "relation_source": "layout_operator",
+     "needs_review": false,
+     "relation_level": "fallback",
+     "relation_purity": 0.0
+    },
+    {
+     "from": "P3",
+     "to": "D5",
+     "type": "frames",
+     "raw": "",
+     "polarity": "forward",
+     "relation_source": "layout_operator",
+     "needs_review": false,
+     "relation_level": "fallback",
+     "relation_purity": 0.0
     }
    ],
    "counts": {
     "nodes": 21,
-    "edges": 19,
+    "edges": 28,
     "dropped_nodes": 0
    }
   },
@@ -493,7 +611,7 @@
     "title": "Will Trump's fiscal expansion undermine his goal of reducing the U.S. trade deficit?",
     "author": "",
     "outlet": "",
-    "url": "",
+    "url": "https://www.cfr.org/articles/trumps-tax-success-expense-his-trade-agenda",
     "topics": "",
     "genre": "",
     "shape": ""
@@ -801,6 +919,7 @@
      "type": "supports",
      "raw": "",
      "polarity": "forward",
+     "relation_source": "arrow",
      "needs_review": false
     },
     {
@@ -809,6 +928,7 @@
      "type": "supports",
      "raw": "",
      "polarity": "forward",
+     "relation_source": "arrow",
      "needs_review": false
     },
     {
@@ -817,6 +937,7 @@
      "type": "supports",
      "raw": "",
      "polarity": "forward",
+     "relation_source": "arrow",
      "needs_review": false
     },
     {
@@ -825,6 +946,7 @@
      "type": "supports",
      "raw": "",
      "polarity": "forward",
+     "relation_source": "arrow",
      "needs_review": false
     },
     {
@@ -833,6 +955,7 @@
      "type": "supports",
      "raw": "",
      "polarity": "forward",
+     "relation_source": "arrow",
      "needs_review": false
     },
     {
@@ -841,6 +964,7 @@
      "type": "supports",
      "raw": "",
      "polarity": "forward",
+     "relation_source": "arrow",
      "needs_review": false
     },
     {
@@ -849,6 +973,7 @@
      "type": "supports",
      "raw": "",
      "polarity": "forward",
+     "relation_source": "arrow",
      "needs_review": false
     },
     {
@@ -857,6 +982,7 @@
      "type": "supports",
      "raw": "",
      "polarity": "forward",
+     "relation_source": "arrow",
      "needs_review": false
     },
     {
@@ -865,6 +991,7 @@
      "type": "supports",
      "raw": "",
      "polarity": "forward",
+     "relation_source": "arrow",
      "needs_review": false
     },
     {
@@ -873,6 +1000,7 @@
      "type": "supports",
      "raw": "",
      "polarity": "forward",
+     "relation_source": "arrow",
      "needs_review": false
     },
     {
@@ -881,6 +1009,7 @@
      "type": "supports",
      "raw": "",
      "polarity": "forward",
+     "relation_source": "arrow",
      "needs_review": false
     },
     {
@@ -889,6 +1018,7 @@
      "type": "supports",
      "raw": "",
      "polarity": "forward",
+     "relation_source": "arrow",
      "needs_review": false
     },
     {
@@ -897,6 +1027,7 @@
      "type": "supports",
      "raw": "",
      "polarity": "forward",
+     "relation_source": "arrow",
      "needs_review": false
     },
     {
@@ -905,6 +1036,7 @@
      "type": "supports",
      "raw": "",
      "polarity": "forward",
+     "relation_source": "arrow",
      "needs_review": false
     },
     {
@@ -913,6 +1045,7 @@
      "type": "supports",
      "raw": "",
      "polarity": "forward",
+     "relation_source": "arrow",
      "needs_review": false
     },
     {
@@ -921,6 +1054,7 @@
      "type": "qualified_by",
      "raw": "qualified by",
      "polarity": "pushes_back",
+     "relation_source": "label",
      "needs_review": false
     },
     {
@@ -929,6 +1063,7 @@
      "type": "qualified_by",
      "raw": "model caveat",
      "polarity": "pushes_back",
+     "relation_source": "label",
      "needs_review": false
     },
     {
@@ -937,12 +1072,123 @@
      "type": "undercut_by",
      "raw": "offsetting force",
      "polarity": "pushes_back",
+     "relation_source": "label",
      "needs_review": false
+    },
+    {
+     "from": "Q",
+     "to": "P1",
+     "type": "frames",
+     "raw": "",
+     "polarity": "forward",
+     "relation_source": "layout_operator",
+     "needs_review": false,
+     "relation_level": "fallback",
+     "relation_purity": 0.0
+    },
+    {
+     "from": "Q",
+     "to": "P2",
+     "type": "frames",
+     "raw": "",
+     "polarity": "forward",
+     "relation_source": "layout_operator",
+     "needs_review": false,
+     "relation_level": "fallback",
+     "relation_purity": 0.0
+    },
+    {
+     "from": "Q",
+     "to": "P3",
+     "type": "frames",
+     "raw": "",
+     "polarity": "forward",
+     "relation_source": "layout_operator",
+     "needs_review": false,
+     "relation_level": "fallback",
+     "relation_purity": 0.0
+    },
+    {
+     "from": "P1",
+     "to": "D1",
+     "type": "frames",
+     "raw": "",
+     "polarity": "forward",
+     "relation_source": "layout_operator",
+     "needs_review": false,
+     "relation_level": "fallback",
+     "relation_purity": 0.0
+    },
+    {
+     "from": "P1",
+     "to": "D2",
+     "type": "frames",
+     "raw": "",
+     "polarity": "forward",
+     "relation_source": "layout_operator",
+     "needs_review": false,
+     "relation_level": "fallback",
+     "relation_purity": 0.0
+    },
+    {
+     "from": "P2",
+     "to": "D3",
+     "type": "frames",
+     "raw": "",
+     "polarity": "forward",
+     "relation_source": "layout_operator",
+     "needs_review": false,
+     "relation_level": "fallback",
+     "relation_purity": 0.0
+    },
+    {
+     "from": "P2",
+     "to": "D6",
+     "type": "frames",
+     "raw": "",
+     "polarity": "forward",
+     "relation_source": "layout_operator",
+     "needs_review": false,
+     "relation_level": "fallback",
+     "relation_purity": 0.0
+    },
+    {
+     "from": "P3",
+     "to": "D4",
+     "type": "frames",
+     "raw": "",
+     "polarity": "forward",
+     "relation_source": "layout_operator",
+     "needs_review": false,
+     "relation_level": "fallback",
+     "relation_purity": 0.0
+    },
+    {
+     "from": "P3",
+     "to": "D5",
+     "type": "frames",
+     "raw": "",
+     "polarity": "forward",
+     "relation_source": "layout_operator",
+     "needs_review": false,
+     "relation_level": "fallback",
+     "relation_purity": 0.0
+    },
+    {
+     "from": "K",
+     "to": "X",
+     "type": "rebuts",
+     "raw": "",
+     "polarity": "pushes_back",
+     "relation_source": "layout_operator",
+     "needs_review": false,
+     "relation_level": "type",
+     "relation_purity": 0.92
     }
    ],
    "counts": {
     "nodes": 20,
-    "edges": 18,
+    "edges": 28,
     "dropped_nodes": 0
    }
   },
@@ -955,7 +1201,7 @@
     "title": "Could global macro shocks overwhelm trade deals and push the U.S. trade deficit higher?",
     "author": "",
     "outlet": "",
-    "url": "",
+    "url": "https://www.cfr.org/articles/trade-deals-or-macroeconomic-shocks",
     "topics": "",
     "genre": "",
     "shape": ""
@@ -1263,6 +1509,7 @@
      "type": "supports",
      "raw": "",
      "polarity": "forward",
+     "relation_source": "arrow",
      "needs_review": false
     },
     {
@@ -1271,6 +1518,7 @@
      "type": "supports",
      "raw": "",
      "polarity": "forward",
+     "relation_source": "arrow",
      "needs_review": false
     },
     {
@@ -1279,6 +1527,7 @@
      "type": "supports",
      "raw": "",
      "polarity": "forward",
+     "relation_source": "arrow",
      "needs_review": false
     },
     {
@@ -1287,6 +1536,7 @@
      "type": "supports",
      "raw": "",
      "polarity": "forward",
+     "relation_source": "arrow",
      "needs_review": false
     },
     {
@@ -1295,6 +1545,7 @@
      "type": "supports",
      "raw": "",
      "polarity": "forward",
+     "relation_source": "arrow",
      "needs_review": false
     },
     {
@@ -1303,6 +1554,7 @@
      "type": "supports",
      "raw": "",
      "polarity": "forward",
+     "relation_source": "arrow",
      "needs_review": false
     },
     {
@@ -1311,6 +1563,7 @@
      "type": "supports",
      "raw": "",
      "polarity": "forward",
+     "relation_source": "arrow",
      "needs_review": false
     },
     {
@@ -1319,6 +1572,7 @@
      "type": "supports",
      "raw": "",
      "polarity": "forward",
+     "relation_source": "arrow",
      "needs_review": false
     },
     {
@@ -1327,6 +1581,7 @@
      "type": "supports",
      "raw": "",
      "polarity": "forward",
+     "relation_source": "arrow",
      "needs_review": false
     },
     {
@@ -1335,6 +1590,7 @@
      "type": "supports",
      "raw": "",
      "polarity": "forward",
+     "relation_source": "arrow",
      "needs_review": false
     },
     {
@@ -1343,6 +1599,7 @@
      "type": "supports",
      "raw": "",
      "polarity": "forward",
+     "relation_source": "arrow",
      "needs_review": false
     },
     {
@@ -1351,6 +1608,7 @@
      "type": "supports",
      "raw": "",
      "polarity": "forward",
+     "relation_source": "arrow",
      "needs_review": false
     },
     {
@@ -1359,6 +1617,7 @@
      "type": "supports",
      "raw": "",
      "polarity": "forward",
+     "relation_source": "arrow",
      "needs_review": false
     },
     {
@@ -1367,6 +1626,7 @@
      "type": "supports",
      "raw": "",
      "polarity": "forward",
+     "relation_source": "arrow",
      "needs_review": false
     },
     {
@@ -1375,6 +1635,7 @@
      "type": "supports",
      "raw": "",
      "polarity": "forward",
+     "relation_source": "arrow",
      "needs_review": false
     },
     {
@@ -1383,6 +1644,7 @@
      "type": "supports",
      "raw": "",
      "polarity": "forward",
+     "relation_source": "arrow",
      "needs_review": false
     },
     {
@@ -1391,6 +1653,7 @@
      "type": "qualified_by",
      "raw": "qualified by",
      "polarity": "pushes_back",
+     "relation_source": "label",
      "needs_review": false
     },
     {
@@ -1399,6 +1662,7 @@
      "type": "qualified_by",
      "raw": "uncertain path",
      "polarity": "pushes_back",
+     "relation_source": "label",
      "needs_review": false
     },
     {
@@ -1407,6 +1671,7 @@
      "type": "undercut_by",
      "raw": "could be offset by",
      "polarity": "pushes_back",
+     "relation_source": "label",
      "needs_review": false
     },
     {
@@ -1415,12 +1680,112 @@
      "type": "supports",
      "raw": "",
      "polarity": "forward",
+     "relation_source": "arrow",
      "needs_review": false
+    },
+    {
+     "from": "Q",
+     "to": "P1",
+     "type": "frames",
+     "raw": "",
+     "polarity": "forward",
+     "relation_source": "layout_operator",
+     "needs_review": false,
+     "relation_level": "fallback",
+     "relation_purity": 0.0
+    },
+    {
+     "from": "Q",
+     "to": "P2",
+     "type": "frames",
+     "raw": "",
+     "polarity": "forward",
+     "relation_source": "layout_operator",
+     "needs_review": false,
+     "relation_level": "fallback",
+     "relation_purity": 0.0
+    },
+    {
+     "from": "Q",
+     "to": "P3",
+     "type": "frames",
+     "raw": "",
+     "polarity": "forward",
+     "relation_source": "layout_operator",
+     "needs_review": false,
+     "relation_level": "fallback",
+     "relation_purity": 0.0
+    },
+    {
+     "from": "P1",
+     "to": "D1",
+     "type": "frames",
+     "raw": "",
+     "polarity": "forward",
+     "relation_source": "layout_operator",
+     "needs_review": false,
+     "relation_level": "fallback",
+     "relation_purity": 0.0
+    },
+    {
+     "from": "P1",
+     "to": "D2",
+     "type": "frames",
+     "raw": "",
+     "polarity": "forward",
+     "relation_source": "layout_operator",
+     "needs_review": false,
+     "relation_level": "fallback",
+     "relation_purity": 0.0
+    },
+    {
+     "from": "P2",
+     "to": "D3",
+     "type": "frames",
+     "raw": "",
+     "polarity": "forward",
+     "relation_source": "layout_operator",
+     "needs_review": false,
+     "relation_level": "fallback",
+     "relation_purity": 0.0
+    },
+    {
+     "from": "P2",
+     "to": "D6",
+     "type": "frames",
+     "raw": "",
+     "polarity": "forward",
+     "relation_source": "layout_operator",
+     "needs_review": false,
+     "relation_level": "fallback",
+     "relation_purity": 0.0
+    },
+    {
+     "from": "P3",
+     "to": "D4",
+     "type": "frames",
+     "raw": "",
+     "polarity": "forward",
+     "relation_source": "layout_operator",
+     "needs_review": false,
+     "relation_level": "fallback",
+     "relation_purity": 0.0
+    },
+    {
+     "from": "P3",
+     "to": "D5",
+     "type": "frames",
+     "raw": "",
+     "polarity": "forward",
+     "relation_source": "layout_operator",
+     "needs_review": false,
+     "relation_level": "fallback",
+     "relation_purity": 0.0
     }
    ],
    "counts": {
     "nodes": 20,
-    "edges": 20,
+    "edges": 29,
     "dropped_nodes": 0
    }
   },
@@ -1430,10 +1795,10 @@
    "family": "plain",
    "date": "2019-05-02",
    "meta": {
-    "title": "If U.S.-China trade tensions escalate, will China keep the yuan stable or let it weaken?",
+    "title": "Does a purchase-commitment deal push China back toward managed trade?",
     "author": "",
     "outlet": "",
-    "url": "",
+    "url": "https://www.cfr.org/articles/china-never-stopped-managing-its-trade",
     "topics": "",
     "genre": "",
     "shape": ""
@@ -1444,8 +1809,8 @@
       "id": "Q",
       "type": "question",
       "level": "L0",
-      "header": "If U.S.-China trade tensions escalate,\nwill China keep the yuan stable or let it weaken?",
-      "text": "If U.S.-China trade tensions escalate,\nwill China keep the yuan stable or let it weaken?",
+      "header": "Does a purchase-commitment deal push China back toward managed trade?",
+      "text": "Does a purchase-commitment deal push China back toward managed trade?",
       "byline": "Brad Setser, CFR, May 2019",
       "class": "question",
       "type_source": "class",
@@ -1460,8 +1825,8 @@
       "id": "P1",
       "type": "stated_assumption",
       "level": "L1",
-      "header": "China controls the yuan",
-      "text": "Reserves, capital controls, and policy tools give Beijing substantial exchange-rate control",
+      "header": "Who buys matters more than the border barrier",
+      "text": "Tariffs and quotas do not matter much when the bulk of imports are bought by state firms or need a state licence",
       "byline": "",
       "class": "prior",
       "type_source": "class",
@@ -1474,8 +1839,8 @@
       "id": "P2",
       "type": "stated_assumption",
       "level": "L1",
-      "header": "Depreciation offsets tariffs",
-      "text": "A weaker yuan lets exporters lower dollar prices while preserving yuan revenue",
+      "header": "State control of the commanding heights is not negotiable",
+      "text": "China will not dismantle the core institutions of its mixed model in a trade negotiation",
       "byline": "",
       "class": "prior",
       "type_source": "class",
@@ -1486,12 +1851,12 @@
      },
      {
       "id": "P3",
-      "type": "stated_assumption",
+      "type": "hidden_assumption",
       "level": "L1",
-      "header": "Stability has value",
-      "text": "A stable currency supports confidence and reduces financial risk",
+      "header": "Managed trade means control of end demand, not tariffs",
+      "text": "The definitional move the argument turns on - 'that's managed trade in my books, even without formal tariffs or quotas'",
       "byline": "",
-      "class": "prior",
+      "class": "unstated",
       "type_source": "class",
       "claim_type": "",
       "mechanism_kind": "",
@@ -1504,8 +1869,8 @@
       "id": "D1",
       "type": "evidence_data",
       "level": "L2",
-      "header": "Full tariffs would be substantial",
-      "text": "25% on nearly $550B of imports could raise roughly $100–140B",
+      "header": "Canola with Canada shut down",
+      "text": "Trade stopped without any formal tariff being introduced",
       "byline": "",
       "class": "data",
       "type_source": "class",
@@ -1518,8 +1883,8 @@
       "id": "D2",
       "type": "evidence_data",
       "level": "L2",
-      "header": "Large potential China growth hit",
-      "text": "UBS: full tariffs plus retaliation could cut growth by about 1.5pp",
+      "header": "Australian coal purchases scaled back",
+      "text": "No dumping case and no national-security tariff case was filed",
       "byline": "",
       "class": "data",
       "type_source": "class",
@@ -1532,8 +1897,8 @@
       "id": "D3",
       "type": "evidence_data",
       "level": "L2",
-      "header": "Recent yuan stability required little intervention",
-      "text": "No sustained pressure in either direction",
+      "header": "U.S. exports went to zero, not down by half",
+      "text": "A 25% tariff would normally cut imports by something like 50%; several U.S. goods simply stopped",
       "byline": "",
       "class": "data",
       "type_source": "class",
@@ -1546,8 +1911,8 @@
       "id": "D4",
       "type": "evidence_data",
       "level": "L2",
-      "header": "China retains external firepower",
-      "text": "Large reserves, state-bank foreign assets, and portfolio inflows",
+      "header": "Aircraft: the buyer is the state",
+      "text": "State-owned airlines plus one state-backed private carrier, with NDRC approval required; China is both Boeing's biggest market and, through COMAC, a future competitor",
       "byline": "",
       "class": "data",
       "type_source": "class",
@@ -1560,8 +1925,8 @@
       "id": "D5",
       "type": "evidence_data",
       "level": "L2",
-      "header": "Balance of payments broadly stable",
-      "text": "Trade surplus covers major outflows without sustained reserve pressure",
+      "header": "Soybeans: COFCO controls the infrastructure",
+      "text": "The old state grain monopoly still controls crushing and distribution, Sinograin steps in from stockpiles, and smaller importers need a state licence",
       "byline": "",
       "class": "data",
       "type_source": "class",
@@ -1574,8 +1939,22 @@
       "id": "D6",
       "type": "evidence_data",
       "level": "L2",
-      "header": "Manufacturing surplus ~ $1T",
-      "text": "Further export-oriented adjustment would matter globally",
+      "header": "Oil and gas: state majors control the pipes",
+      "text": "They own the pipelines and the bulk of refining; private LNG terminals exist but the offshore investors are state firms",
+      "byline": "",
+      "class": "data",
+      "type_source": "class",
+      "claim_type": "",
+      "mechanism_kind": "",
+      "implicit_only": false,
+      "concept": ""
+     },
+     {
+      "id": "D7",
+      "type": "evidence_data",
+      "level": "L2",
+      "header": "The capital-goods roll call",
+      "text": "Telecoms equipment, railway equipment, grid power, avionics - in sector after sector the ultimate buyer is the Chinese state",
       "byline": "",
       "class": "data",
       "type_source": "class",
@@ -1590,8 +1969,8 @@
       "id": "M1",
       "type": "mechanism",
       "level": "L3",
-      "header": "Tariffs weaken Chinese export demand",
-      "text": "Higher U.S. import costs reduce competitiveness and growth",
+      "header": "Ownership converts preference into volume",
+      "text": "When the state controls the importing firms, a few phone calls move trade without any border measure",
       "byline": "",
       "class": "mech",
       "type_source": "class",
@@ -1604,8 +1983,8 @@
       "id": "M2",
       "type": "mechanism",
       "level": "L3",
-      "header": "Depreciation cushions exporters",
-      "text": "A weaker yuan offsets part of the tariff in dollar terms",
+      "header": "Border liberalisation cannot create demand",
+      "text": "GE could own its turbine plant outright and still have to sell to state-run power companies selling to the state grid",
       "byline": "",
       "class": "mech",
       "type_source": "class",
@@ -1618,8 +1997,8 @@
       "id": "M3",
       "type": "mechanism",
       "level": "L3",
-      "header": "Stability protects domestic confidence",
-      "text": "Avoiding a large currency move limits financial instability",
+      "header": "Purchasing power is used to force localisation",
+      "text": "Rolls-Royce would build engines in China to win the contract; Airbus may build the A330 there - so import demand falls as capacity moves in",
       "byline": "",
       "class": "mech",
       "type_source": "class",
@@ -1632,8 +2011,8 @@
       "id": "M4",
       "type": "mechanism",
       "level": "L3",
-      "header": "Yuan weakness spreads outward",
-      "text": "Other Asian currencies weaken and trade pressure shifts globally",
+      "header": "An administrative lever is reversible by administration",
+      "text": "Because the control is not legal but ownership-based, what it grants it can also withdraw",
       "byline": "",
       "class": "mech",
       "type_source": "class",
@@ -1648,8 +2027,8 @@
       "id": "C1",
       "type": "intermediate_claim",
       "level": "L4",
-      "header": "China has a genuine policy choice",
-      "text": "It is not mechanically forced into depreciation",
+      "header": "China never left managed trade",
+      "text": "So a purchase deal cannot return it to a place it never left",
       "byline": "",
       "class": "mech",
       "type_source": "class",
@@ -1662,8 +2041,8 @@
       "id": "C2",
       "type": "intermediate_claim",
       "level": "L4",
-      "header": "Depreciation can absorb part of the tariff shock",
-      "text": "Exporters can preserve competitiveness",
+      "header": "Reform and opening was partial and sector-specific",
+      "text": "Open to components for re-export and to what China cannot make at home; closed where the state is the buyer",
       "byline": "",
       "class": "mech",
       "type_source": "class",
@@ -1676,8 +2055,8 @@
       "id": "C3",
       "type": "intermediate_claim",
       "level": "L4",
-      "header": "But depreciation carries domestic and strategic costs",
-      "text": "It risks instability and additional U.S. retaliation",
+      "header": "Removing formal barriers is not enough",
+      "text": "Not even dropping joint-venture requirements changes who the end buyer is",
       "byline": "",
       "class": "mech",
       "type_source": "class",
@@ -1690,8 +2069,8 @@
       "id": "C4",
       "type": "intermediate_claim",
       "level": "L4",
-      "header": "A weaker yuan redistributes trade pain",
-      "text": "Export-dependent economies outside China also come under pressure",
+      "header": "So the standard critique is misdirected",
+      "text": "The objection is not that the deal reintroduces state involvement, but that it is revocable",
       "byline": "",
       "class": "mech",
       "type_source": "class",
@@ -1706,8 +2085,8 @@
       "id": "K",
       "type": "main_claim",
       "level": "L5",
-      "header": "Main claim: China's currency response is a strategic choice",
-      "text": "Beijing can defend stability or reset the yuan lower;\nits decision will shape the global impact of the trade war",
+      "header": "Main claim: the right critique is revocability, not a return to managed trade",
+      "text": "China's state never stopped managing a large part of its trade, so the sound objection is Book's and Scissors':\n'if it can be negotiated by government fiat, it can be taken away by government fiat'",
       "byline": "",
       "class": "main",
       "type_source": "class",
@@ -1720,24 +2099,10 @@
     "L6": [
      {
       "id": "X",
-      "type": "counterpoint",
+      "type": "opposing_view",
       "level": "L6",
-      "header": "Case for stability",
-      "text": "China can support growth fiscally without risking a destabilizing currency move",
-      "byline": "",
-      "class": "dia",
-      "type_source": "class",
-      "claim_type": "",
-      "mechanism_kind": "",
-      "implicit_only": false,
-      "concept": ""
-     },
-     {
-      "id": "QF",
-      "type": "caveat",
-      "level": "L6",
-      "header": "Implementation caveat",
-      "text": "Controlled depreciations are difficult because markets may front-run them",
+      "header": "Consensus view: the deal pushes China back to managed trade",
+      "text": "Yerxa, Donnan and almost everyone at the IMF Spring meetings - simplistic purchasing commitments reinforce state ownership rather than discourage it",
       "byline": "",
       "class": "dia",
       "type_source": "l6_keyword",
@@ -1748,10 +2113,24 @@
      },
      {
       "id": "R1",
+      "type": "other_explanation",
+      "level": "L6",
+      "header": "Private-buyer explanation: autos",
+      "text": "The one sector where the state is not the main buyer. Tariffs were 25% and are still 15%, domestic capacity could meet all demand, yet German marques built a real business - because cars are bought privately",
+      "byline": "",
+      "class": "dia",
+      "type_source": "l6_keyword",
+      "claim_type": "",
+      "mechanism_kind": "",
+      "implicit_only": false,
+      "concept": ""
+     },
+     {
+      "id": "QF",
       "type": "caveat",
       "level": "L6",
-      "header": "Retaliation risk",
-      "text": "A weaker yuan could trigger broader or higher U.S. tariffs",
+      "header": "Descriptive caveat",
+      "text": "This is a description of the world as it is, not as it should be; and medical equipment is a trick case, with private hospitals and local-government procurement",
       "byline": "",
       "class": "dia",
       "type_source": "l6_keyword",
@@ -1762,10 +2141,10 @@
      },
      {
       "id": "R2",
-      "type": "caveat",
+      "type": "opposing_view",
       "level": "L6",
-      "header": "External-balance caveat",
-      "text": "Tariffs and oil prices could push China toward current-account deficit",
+      "header": "Allies objection, set aside",
+      "text": "Australia and others argue the United States is selling out its allies for a larger share of a limited import pie",
       "byline": "",
       "class": "dia",
       "type_source": "l6_keyword",
@@ -1778,185 +2157,353 @@
    },
    "edges": [
     {
+     "from": "P1",
+     "to": "M1",
+     "type": "licenses",
+     "raw": "licenses",
+     "polarity": "forward",
+     "relation_source": "label",
+     "needs_review": false
+    },
+    {
      "from": "D1",
      "to": "M1",
      "type": "supports",
-     "raw": "",
+     "raw": "supports",
      "polarity": "forward",
+     "relation_source": "label",
      "needs_review": false
     },
     {
      "from": "D2",
      "to": "M1",
      "type": "supports",
-     "raw": "",
+     "raw": "supports",
      "polarity": "forward",
+     "relation_source": "label",
+     "needs_review": false
+    },
+    {
+     "from": "D3",
+     "to": "M1",
+     "type": "supports",
+     "raw": "supports",
+     "polarity": "forward",
+     "relation_source": "label",
+     "needs_review": false
+    },
+    {
+     "from": "D4",
+     "to": "C2",
+     "type": "supports",
+     "raw": "supports",
+     "polarity": "forward",
+     "relation_source": "label",
+     "needs_review": false
+    },
+    {
+     "from": "D5",
+     "to": "C2",
+     "type": "supports",
+     "raw": "supports",
+     "polarity": "forward",
+     "relation_source": "label",
+     "needs_review": false
+    },
+    {
+     "from": "D6",
+     "to": "C2",
+     "type": "supports",
+     "raw": "supports",
+     "polarity": "forward",
+     "relation_source": "label",
+     "needs_review": false
+    },
+    {
+     "from": "D7",
+     "to": "M2",
+     "type": "supports",
+     "raw": "supports",
+     "polarity": "forward",
+     "relation_source": "label",
      "needs_review": false
     },
     {
      "from": "P2",
      "to": "M2",
-     "type": "supports",
-     "raw": "",
+     "type": "licenses",
+     "raw": "licenses",
      "polarity": "forward",
-     "needs_review": false
-    },
-    {
-     "from": "M1",
-     "to": "M2",
-     "type": "supports",
-     "raw": "",
-     "polarity": "forward",
-     "needs_review": false
-    },
-    {
-     "from": "P3",
-     "to": "M3",
-     "type": "supports",
-     "raw": "",
-     "polarity": "forward",
-     "needs_review": false
-    },
-    {
-     "from": "D3",
-     "to": "M3",
-     "type": "supports",
-     "raw": "",
-     "polarity": "forward",
-     "needs_review": false
-    },
-    {
-     "from": "D4",
-     "to": "M3",
-     "type": "supports",
-     "raw": "",
-     "polarity": "forward",
-     "needs_review": false
-    },
-    {
-     "from": "D5",
-     "to": "M3",
-     "type": "supports",
-     "raw": "",
-     "polarity": "forward",
-     "needs_review": false
-    },
-    {
-     "from": "P1",
-     "to": "C1",
-     "type": "supports",
-     "raw": "",
-     "polarity": "forward",
+     "relation_source": "label",
      "needs_review": false
     },
     {
      "from": "M2",
-     "to": "C2",
+     "to": "C3",
      "type": "supports",
-     "raw": "",
+     "raw": "supports",
      "polarity": "forward",
+     "relation_source": "label",
+     "needs_review": false
+    },
+    {
+     "from": "D7",
+     "to": "M3",
+     "type": "supports",
+     "raw": "supports",
+     "polarity": "forward",
+     "relation_source": "label",
      "needs_review": false
     },
     {
      "from": "M3",
      "to": "C3",
      "type": "supports",
-     "raw": "",
+     "raw": "supports",
      "polarity": "forward",
+     "relation_source": "label",
      "needs_review": false
     },
     {
-     "from": "D6",
-     "to": "M4",
+     "from": "M1",
+     "to": "C1",
      "type": "supports",
-     "raw": "",
+     "raw": "supports",
      "polarity": "forward",
+     "relation_source": "label",
      "needs_review": false
     },
     {
-     "from": "M2",
-     "to": "M4",
-     "type": "supports",
-     "raw": "",
+     "from": "P3",
+     "to": "C1",
+     "type": "licenses",
+     "raw": "licenses",
      "polarity": "forward",
+     "relation_source": "label",
+     "needs_review": false
+    },
+    {
+     "from": "C2",
+     "to": "C1",
+     "type": "supports",
+     "raw": "supports",
+     "polarity": "forward",
+     "relation_source": "label",
+     "needs_review": false
+    },
+    {
+     "from": "P2",
+     "to": "M4",
+     "type": "licenses",
+     "raw": "licenses",
+     "polarity": "forward",
+     "relation_source": "label",
      "needs_review": false
     },
     {
      "from": "M4",
      "to": "C4",
      "type": "supports",
-     "raw": "",
+     "raw": "supports",
      "polarity": "forward",
+     "relation_source": "label",
+     "needs_review": false
+    },
+    {
+     "from": "C1",
+     "to": "C4",
+     "type": "supports",
+     "raw": "supports",
+     "polarity": "forward",
+     "relation_source": "label",
+     "needs_review": false
+    },
+    {
+     "from": "C3",
+     "to": "C4",
+     "type": "supports",
+     "raw": "supports",
+     "polarity": "forward",
+     "relation_source": "label",
      "needs_review": false
     },
     {
      "from": "C1",
      "to": "K",
      "type": "supports",
-     "raw": "",
+     "raw": "supports",
      "polarity": "forward",
-     "needs_review": false
-    },
-    {
-     "from": "C2",
-     "to": "K",
-     "type": "supports",
-     "raw": "",
-     "polarity": "forward",
+     "relation_source": "label",
      "needs_review": false
     },
     {
      "from": "C3",
      "to": "K",
      "type": "supports",
-     "raw": "",
+     "raw": "supports",
      "polarity": "forward",
+     "relation_source": "label",
      "needs_review": false
     },
     {
      "from": "C4",
      "to": "K",
      "type": "supports",
-     "raw": "",
+     "raw": "supports",
      "polarity": "forward",
+     "relation_source": "label",
      "needs_review": false
     },
     {
      "from": "C1",
      "to": "X",
-     "type": "undercut_by",
-     "raw": "supports alternative",
+     "type": "rebuts",
+     "raw": "pushes back on",
      "polarity": "pushes_back",
-     "needs_review": false
-    },
-    {
-     "from": "C2",
-     "to": "QF",
-     "type": "qualified_by",
-     "raw": "limited by",
-     "polarity": "pushes_back",
+     "relation_source": "label",
      "needs_review": false
     },
     {
      "from": "C3",
      "to": "R1",
-     "type": "qualified_by",
-     "raw": "strategic risk",
+     "type": "undercut_by",
+     "raw": "other explanation",
      "polarity": "pushes_back",
+     "relation_source": "label",
      "needs_review": false
     },
     {
-     "from": "C1",
-     "to": "R2",
+     "from": "K",
+     "to": "QF",
      "type": "qualified_by",
-     "raw": "qualified by",
+     "raw": "caveat",
      "polarity": "pushes_back",
+     "relation_source": "label",
      "needs_review": false
+    },
+    {
+     "from": "K",
+     "to": "R2",
+     "type": "defers",
+     "raw": "defers",
+     "polarity": "pushes_back",
+     "relation_source": "label",
+     "needs_review": false
+    },
+    {
+     "from": "Q",
+     "to": "P1",
+     "type": "frames",
+     "raw": "",
+     "polarity": "forward",
+     "relation_source": "layout_operator",
+     "needs_review": false,
+     "relation_level": "fallback",
+     "relation_purity": 0.0
+    },
+    {
+     "from": "Q",
+     "to": "P2",
+     "type": "frames",
+     "raw": "",
+     "polarity": "forward",
+     "relation_source": "layout_operator",
+     "needs_review": false,
+     "relation_level": "fallback",
+     "relation_purity": 0.0
+    },
+    {
+     "from": "Q",
+     "to": "P3",
+     "type": "frames",
+     "raw": "",
+     "polarity": "forward",
+     "relation_source": "layout_operator",
+     "needs_review": false,
+     "relation_level": "fallback",
+     "relation_purity": 0.0
+    },
+    {
+     "from": "P1",
+     "to": "D1",
+     "type": "frames",
+     "raw": "",
+     "polarity": "forward",
+     "relation_source": "layout_operator",
+     "needs_review": false,
+     "relation_level": "fallback",
+     "relation_purity": 0.0
+    },
+    {
+     "from": "P1",
+     "to": "D2",
+     "type": "frames",
+     "raw": "",
+     "polarity": "forward",
+     "relation_source": "layout_operator",
+     "needs_review": false,
+     "relation_level": "fallback",
+     "relation_purity": 0.0
+    },
+    {
+     "from": "P1",
+     "to": "D3",
+     "type": "frames",
+     "raw": "",
+     "polarity": "forward",
+     "relation_source": "layout_operator",
+     "needs_review": false,
+     "relation_level": "fallback",
+     "relation_purity": 0.0
+    },
+    {
+     "from": "P2",
+     "to": "D4",
+     "type": "frames",
+     "raw": "",
+     "polarity": "forward",
+     "relation_source": "layout_operator",
+     "needs_review": false,
+     "relation_level": "fallback",
+     "relation_purity": 0.0
+    },
+    {
+     "from": "P2",
+     "to": "D5",
+     "type": "frames",
+     "raw": "",
+     "polarity": "forward",
+     "relation_source": "layout_operator",
+     "needs_review": false,
+     "relation_level": "fallback",
+     "relation_purity": 0.0
+    },
+    {
+     "from": "P2",
+     "to": "D6",
+     "type": "frames",
+     "raw": "",
+     "polarity": "forward",
+     "relation_source": "layout_operator",
+     "needs_review": false,
+     "relation_level": "fallback",
+     "relation_purity": 0.0
+    },
+    {
+     "from": "P3",
+     "to": "D7",
+     "type": "frames",
+     "raw": "",
+     "polarity": "forward",
+     "relation_source": "layout_operator",
+     "needs_review": false,
+     "relation_level": "fallback",
+     "relation_purity": 0.0
     }
    ],
    "counts": {
-    "nodes": 23,
-    "edges": 22,
+    "nodes": 24,
+    "edges": 36,
     "dropped_nodes": 0
    }
   },
@@ -1969,7 +2516,7 @@
     "title": "If U.S.-China trade tensions escalate, will China keep the yuan stable or let it weaken?",
     "author": "",
     "outlet": "",
-    "url": "",
+    "url": "https://www.cfr.org/articles/what-difference-week-or-weekend-makes",
     "topics": "",
     "genre": "",
     "shape": ""
@@ -2319,6 +2866,7 @@
      "type": "supports",
      "raw": "",
      "polarity": "forward",
+     "relation_source": "arrow",
      "needs_review": false
     },
     {
@@ -2327,6 +2875,7 @@
      "type": "supports",
      "raw": "",
      "polarity": "forward",
+     "relation_source": "arrow",
      "needs_review": false
     },
     {
@@ -2335,6 +2884,7 @@
      "type": "supports",
      "raw": "",
      "polarity": "forward",
+     "relation_source": "arrow",
      "needs_review": false
     },
     {
@@ -2343,6 +2893,7 @@
      "type": "supports",
      "raw": "",
      "polarity": "forward",
+     "relation_source": "arrow",
      "needs_review": false
     },
     {
@@ -2351,6 +2902,7 @@
      "type": "supports",
      "raw": "",
      "polarity": "forward",
+     "relation_source": "arrow",
      "needs_review": false
     },
     {
@@ -2359,6 +2911,7 @@
      "type": "supports",
      "raw": "",
      "polarity": "forward",
+     "relation_source": "arrow",
      "needs_review": false
     },
     {
@@ -2367,6 +2920,7 @@
      "type": "supports",
      "raw": "",
      "polarity": "forward",
+     "relation_source": "arrow",
      "needs_review": false
     },
     {
@@ -2375,6 +2929,7 @@
      "type": "supports",
      "raw": "",
      "polarity": "forward",
+     "relation_source": "arrow",
      "needs_review": false
     },
     {
@@ -2383,6 +2938,7 @@
      "type": "supports",
      "raw": "",
      "polarity": "forward",
+     "relation_source": "arrow",
      "needs_review": false
     },
     {
@@ -2391,6 +2947,7 @@
      "type": "supports",
      "raw": "",
      "polarity": "forward",
+     "relation_source": "arrow",
      "needs_review": false
     },
     {
@@ -2399,6 +2956,7 @@
      "type": "supports",
      "raw": "",
      "polarity": "forward",
+     "relation_source": "arrow",
      "needs_review": false
     },
     {
@@ -2407,6 +2965,7 @@
      "type": "supports",
      "raw": "",
      "polarity": "forward",
+     "relation_source": "arrow",
      "needs_review": false
     },
     {
@@ -2415,6 +2974,7 @@
      "type": "supports",
      "raw": "",
      "polarity": "forward",
+     "relation_source": "arrow",
      "needs_review": false
     },
     {
@@ -2423,6 +2983,7 @@
      "type": "supports",
      "raw": "",
      "polarity": "forward",
+     "relation_source": "arrow",
      "needs_review": false
     },
     {
@@ -2431,6 +2992,7 @@
      "type": "supports",
      "raw": "",
      "polarity": "forward",
+     "relation_source": "arrow",
      "needs_review": false
     },
     {
@@ -2439,6 +3001,7 @@
      "type": "supports",
      "raw": "",
      "polarity": "forward",
+     "relation_source": "arrow",
      "needs_review": false
     },
     {
@@ -2447,6 +3010,7 @@
      "type": "supports",
      "raw": "",
      "polarity": "forward",
+     "relation_source": "arrow",
      "needs_review": false
     },
     {
@@ -2455,6 +3019,7 @@
      "type": "supports",
      "raw": "",
      "polarity": "forward",
+     "relation_source": "arrow",
      "needs_review": false
     },
     {
@@ -2463,6 +3028,7 @@
      "type": "undercut_by",
      "raw": "supports alternative",
      "polarity": "pushes_back",
+     "relation_source": "label",
      "needs_review": false
     },
     {
@@ -2471,6 +3037,7 @@
      "type": "qualified_by",
      "raw": "limited by",
      "polarity": "pushes_back",
+     "relation_source": "label",
      "needs_review": false
     },
     {
@@ -2479,6 +3046,7 @@
      "type": "qualified_by",
      "raw": "strategic risk",
      "polarity": "pushes_back",
+     "relation_source": "label",
      "needs_review": false
     },
     {
@@ -2487,12 +3055,112 @@
      "type": "qualified_by",
      "raw": "qualified by",
      "polarity": "pushes_back",
+     "relation_source": "label",
      "needs_review": false
+    },
+    {
+     "from": "Q",
+     "to": "P1",
+     "type": "frames",
+     "raw": "",
+     "polarity": "forward",
+     "relation_source": "layout_operator",
+     "needs_review": false,
+     "relation_level": "fallback",
+     "relation_purity": 0.0
+    },
+    {
+     "from": "Q",
+     "to": "P2",
+     "type": "frames",
+     "raw": "",
+     "polarity": "forward",
+     "relation_source": "layout_operator",
+     "needs_review": false,
+     "relation_level": "fallback",
+     "relation_purity": 0.0
+    },
+    {
+     "from": "Q",
+     "to": "P3",
+     "type": "frames",
+     "raw": "",
+     "polarity": "forward",
+     "relation_source": "layout_operator",
+     "needs_review": false,
+     "relation_level": "fallback",
+     "relation_purity": 0.0
+    },
+    {
+     "from": "P1",
+     "to": "D3",
+     "type": "frames",
+     "raw": "",
+     "polarity": "forward",
+     "relation_source": "layout_operator",
+     "needs_review": false,
+     "relation_level": "fallback",
+     "relation_purity": 0.0
+    },
+    {
+     "from": "P1",
+     "to": "D4",
+     "type": "frames",
+     "raw": "",
+     "polarity": "forward",
+     "relation_source": "layout_operator",
+     "needs_review": false,
+     "relation_level": "fallback",
+     "relation_purity": 0.0
+    },
+    {
+     "from": "P1",
+     "to": "D5",
+     "type": "frames",
+     "raw": "",
+     "polarity": "forward",
+     "relation_source": "layout_operator",
+     "needs_review": false,
+     "relation_level": "fallback",
+     "relation_purity": 0.0
+    },
+    {
+     "from": "P2",
+     "to": "D1",
+     "type": "frames",
+     "raw": "",
+     "polarity": "forward",
+     "relation_source": "layout_operator",
+     "needs_review": false,
+     "relation_level": "fallback",
+     "relation_purity": 0.0
+    },
+    {
+     "from": "P2",
+     "to": "D2",
+     "type": "frames",
+     "raw": "",
+     "polarity": "forward",
+     "relation_source": "layout_operator",
+     "needs_review": false,
+     "relation_level": "fallback",
+     "relation_purity": 0.0
+    },
+    {
+     "from": "P3",
+     "to": "D6",
+     "type": "frames",
+     "raw": "",
+     "polarity": "forward",
+     "relation_source": "layout_operator",
+     "needs_review": false,
+     "relation_level": "fallback",
+     "relation_purity": 0.0
     }
    ],
    "counts": {
     "nodes": 23,
-    "edges": 22,
+    "edges": 31,
     "dropped_nodes": 0
    }
   },
@@ -2505,7 +3173,7 @@
     "title": "Why did China's tariffs devastate some U.S. exports but have limited effects on others?",
     "author": "",
     "outlet": "",
-    "url": "",
+    "url": "https://www.cfr.org/articles/tale-two-tariffs-chinas-so-far-ineffective-tariffs-us-manufacturing-exports",
     "topics": "",
     "genre": "",
     "shape": ""
@@ -2841,6 +3509,7 @@
      "type": "supports",
      "raw": "",
      "polarity": "forward",
+     "relation_source": "arrow",
      "needs_review": false
     },
     {
@@ -2849,6 +3518,7 @@
      "type": "supports",
      "raw": "",
      "polarity": "forward",
+     "relation_source": "arrow",
      "needs_review": false
     },
     {
@@ -2857,6 +3527,7 @@
      "type": "supports",
      "raw": "",
      "polarity": "forward",
+     "relation_source": "arrow",
      "needs_review": false
     },
     {
@@ -2865,6 +3536,7 @@
      "type": "supports",
      "raw": "",
      "polarity": "forward",
+     "relation_source": "arrow",
      "needs_review": false
     },
     {
@@ -2873,6 +3545,7 @@
      "type": "supports",
      "raw": "",
      "polarity": "forward",
+     "relation_source": "arrow",
      "needs_review": false
     },
     {
@@ -2881,6 +3554,7 @@
      "type": "supports",
      "raw": "",
      "polarity": "forward",
+     "relation_source": "arrow",
      "needs_review": false
     },
     {
@@ -2889,6 +3563,7 @@
      "type": "supports",
      "raw": "",
      "polarity": "forward",
+     "relation_source": "arrow",
      "needs_review": false
     },
     {
@@ -2897,6 +3572,7 @@
      "type": "supports",
      "raw": "",
      "polarity": "forward",
+     "relation_source": "arrow",
      "needs_review": false
     },
     {
@@ -2905,6 +3581,7 @@
      "type": "supports",
      "raw": "",
      "polarity": "forward",
+     "relation_source": "arrow",
      "needs_review": false
     },
     {
@@ -2913,6 +3590,7 @@
      "type": "supports",
      "raw": "",
      "polarity": "forward",
+     "relation_source": "arrow",
      "needs_review": false
     },
     {
@@ -2921,6 +3599,7 @@
      "type": "supports",
      "raw": "",
      "polarity": "forward",
+     "relation_source": "arrow",
      "needs_review": false
     },
     {
@@ -2929,6 +3608,7 @@
      "type": "supports",
      "raw": "",
      "polarity": "forward",
+     "relation_source": "arrow",
      "needs_review": false
     },
     {
@@ -2937,6 +3617,7 @@
      "type": "supports",
      "raw": "",
      "polarity": "forward",
+     "relation_source": "arrow",
      "needs_review": false
     },
     {
@@ -2945,6 +3626,7 @@
      "type": "supports",
      "raw": "",
      "polarity": "forward",
+     "relation_source": "arrow",
      "needs_review": false
     },
     {
@@ -2953,6 +3635,7 @@
      "type": "supports",
      "raw": "",
      "polarity": "forward",
+     "relation_source": "arrow",
      "needs_review": false
     },
     {
@@ -2961,6 +3644,7 @@
      "type": "supports",
      "raw": "",
      "polarity": "forward",
+     "relation_source": "arrow",
      "needs_review": false
     },
     {
@@ -2969,6 +3653,7 @@
      "type": "supports",
      "raw": "",
      "polarity": "forward",
+     "relation_source": "arrow",
      "needs_review": false
     },
     {
@@ -2977,6 +3662,7 @@
      "type": "supports",
      "raw": "",
      "polarity": "forward",
+     "relation_source": "arrow",
      "needs_review": false
     },
     {
@@ -2985,6 +3671,7 @@
      "type": "qualified_by",
      "raw": "qualified by",
      "polarity": "pushes_back",
+     "relation_source": "label",
      "needs_review": false
     },
     {
@@ -2993,6 +3680,7 @@
      "type": "undercut_by",
      "raw": "possible explanation",
      "polarity": "pushes_back",
+     "relation_source": "label",
      "needs_review": false
     },
     {
@@ -3001,12 +3689,112 @@
      "type": "undercut_by",
      "raw": "other explanation",
      "polarity": "pushes_back",
+     "relation_source": "label",
      "needs_review": false
+    },
+    {
+     "from": "Q",
+     "to": "P1",
+     "type": "frames",
+     "raw": "",
+     "polarity": "forward",
+     "relation_source": "layout_operator",
+     "needs_review": false,
+     "relation_level": "fallback",
+     "relation_purity": 0.0
+    },
+    {
+     "from": "Q",
+     "to": "P2",
+     "type": "frames",
+     "raw": "",
+     "polarity": "forward",
+     "relation_source": "layout_operator",
+     "needs_review": false,
+     "relation_level": "fallback",
+     "relation_purity": 0.0
+    },
+    {
+     "from": "Q",
+     "to": "P3",
+     "type": "frames",
+     "raw": "",
+     "polarity": "forward",
+     "relation_source": "layout_operator",
+     "needs_review": false,
+     "relation_level": "fallback",
+     "relation_purity": 0.0
+    },
+    {
+     "from": "P1",
+     "to": "D1",
+     "type": "frames",
+     "raw": "",
+     "polarity": "forward",
+     "relation_source": "layout_operator",
+     "needs_review": false,
+     "relation_level": "fallback",
+     "relation_purity": 0.0
+    },
+    {
+     "from": "P1",
+     "to": "D2",
+     "type": "frames",
+     "raw": "",
+     "polarity": "forward",
+     "relation_source": "layout_operator",
+     "needs_review": false,
+     "relation_level": "fallback",
+     "relation_purity": 0.0
+    },
+    {
+     "from": "P2",
+     "to": "D3",
+     "type": "frames",
+     "raw": "",
+     "polarity": "forward",
+     "relation_source": "layout_operator",
+     "needs_review": false,
+     "relation_level": "fallback",
+     "relation_purity": 0.0
+    },
+    {
+     "from": "P2",
+     "to": "D4",
+     "type": "frames",
+     "raw": "",
+     "polarity": "forward",
+     "relation_source": "layout_operator",
+     "needs_review": false,
+     "relation_level": "fallback",
+     "relation_purity": 0.0
+    },
+    {
+     "from": "P3",
+     "to": "D5",
+     "type": "frames",
+     "raw": "",
+     "polarity": "forward",
+     "relation_source": "layout_operator",
+     "needs_review": false,
+     "relation_level": "fallback",
+     "relation_purity": 0.0
+    },
+    {
+     "from": "P3",
+     "to": "D6",
+     "type": "frames",
+     "raw": "",
+     "polarity": "forward",
+     "relation_source": "layout_operator",
+     "needs_review": false,
+     "relation_level": "fallback",
+     "relation_purity": 0.0
     }
    ],
    "counts": {
     "nodes": 22,
-    "edges": 21,
+    "edges": 30,
     "dropped_nodes": 0
    }
   },
@@ -3019,7 +3807,7 @@
     "title": "Why do the U.S., Europe, and China now occupy such different positions in manufacturing trade?",
     "author": "",
     "outlet": "",
-    "url": "",
+    "url": "https://www.cfr.org/articles/when-it-comes-exporting-manufactures-europe-now-one-mars",
     "topics": "",
     "genre": "",
     "shape": ""
@@ -3383,6 +4171,7 @@
      "type": "supports",
      "raw": "",
      "polarity": "forward",
+     "relation_source": "arrow",
      "needs_review": false
     },
     {
@@ -3391,6 +4180,7 @@
      "type": "supports",
      "raw": "",
      "polarity": "forward",
+     "relation_source": "arrow",
      "needs_review": false
     },
     {
@@ -3399,6 +4189,7 @@
      "type": "supports",
      "raw": "",
      "polarity": "forward",
+     "relation_source": "arrow",
      "needs_review": false
     },
     {
@@ -3407,6 +4198,7 @@
      "type": "supports",
      "raw": "",
      "polarity": "forward",
+     "relation_source": "arrow",
      "needs_review": false
     },
     {
@@ -3415,6 +4207,7 @@
      "type": "supports",
      "raw": "",
      "polarity": "forward",
+     "relation_source": "arrow",
      "needs_review": false
     },
     {
@@ -3423,6 +4216,7 @@
      "type": "supports",
      "raw": "",
      "polarity": "forward",
+     "relation_source": "arrow",
      "needs_review": false
     },
     {
@@ -3431,6 +4225,7 @@
      "type": "supports",
      "raw": "",
      "polarity": "forward",
+     "relation_source": "arrow",
      "needs_review": false
     },
     {
@@ -3439,6 +4234,7 @@
      "type": "supports",
      "raw": "",
      "polarity": "forward",
+     "relation_source": "arrow",
      "needs_review": false
     },
     {
@@ -3447,6 +4243,7 @@
      "type": "supports",
      "raw": "",
      "polarity": "forward",
+     "relation_source": "arrow",
      "needs_review": false
     },
     {
@@ -3455,6 +4252,7 @@
      "type": "supports",
      "raw": "",
      "polarity": "forward",
+     "relation_source": "arrow",
      "needs_review": false
     },
     {
@@ -3463,6 +4261,7 @@
      "type": "supports",
      "raw": "",
      "polarity": "forward",
+     "relation_source": "arrow",
      "needs_review": false
     },
     {
@@ -3471,6 +4270,7 @@
      "type": "supports",
      "raw": "",
      "polarity": "forward",
+     "relation_source": "arrow",
      "needs_review": false
     },
     {
@@ -3479,6 +4279,7 @@
      "type": "supports",
      "raw": "",
      "polarity": "forward",
+     "relation_source": "arrow",
      "needs_review": false
     },
     {
@@ -3487,6 +4288,7 @@
      "type": "supports",
      "raw": "",
      "polarity": "forward",
+     "relation_source": "arrow",
      "needs_review": false
     },
     {
@@ -3495,6 +4297,7 @@
      "type": "supports",
      "raw": "",
      "polarity": "forward",
+     "relation_source": "arrow",
      "needs_review": false
     },
     {
@@ -3503,6 +4306,7 @@
      "type": "supports",
      "raw": "",
      "polarity": "forward",
+     "relation_source": "arrow",
      "needs_review": false
     },
     {
@@ -3511,6 +4315,7 @@
      "type": "rebuts",
      "raw": "pushes back on",
      "polarity": "pushes_back",
+     "relation_source": "label",
      "needs_review": false
     },
     {
@@ -3519,6 +4324,7 @@
      "type": "undercut_by",
      "raw": "other explanation",
      "polarity": "pushes_back",
+     "relation_source": "label",
      "needs_review": false
     },
     {
@@ -3527,6 +4333,7 @@
      "type": "qualified_by",
      "raw": "comparison caveat",
      "polarity": "pushes_back",
+     "relation_source": "label",
      "needs_review": false
     },
     {
@@ -3535,6 +4342,7 @@
      "type": "qualified_by",
      "raw": "tradeoff",
      "polarity": "pushes_back",
+     "relation_source": "label",
      "needs_review": false
     },
     {
@@ -3543,12 +4351,112 @@
      "type": "supports",
      "raw": "",
      "polarity": "forward",
+     "relation_source": "arrow",
      "needs_review": false
+    },
+    {
+     "from": "Q",
+     "to": "P1",
+     "type": "frames",
+     "raw": "",
+     "polarity": "forward",
+     "relation_source": "layout_operator",
+     "needs_review": false,
+     "relation_level": "fallback",
+     "relation_purity": 0.0
+    },
+    {
+     "from": "Q",
+     "to": "P2",
+     "type": "frames",
+     "raw": "",
+     "polarity": "forward",
+     "relation_source": "layout_operator",
+     "needs_review": false,
+     "relation_level": "fallback",
+     "relation_purity": 0.0
+    },
+    {
+     "from": "Q",
+     "to": "P3",
+     "type": "frames",
+     "raw": "",
+     "polarity": "forward",
+     "relation_source": "layout_operator",
+     "needs_review": false,
+     "relation_level": "fallback",
+     "relation_purity": 0.0
+    },
+    {
+     "from": "P1",
+     "to": "D1",
+     "type": "frames",
+     "raw": "",
+     "polarity": "forward",
+     "relation_source": "layout_operator",
+     "needs_review": false,
+     "relation_level": "fallback",
+     "relation_purity": 0.0
+    },
+    {
+     "from": "P1",
+     "to": "D2",
+     "type": "frames",
+     "raw": "",
+     "polarity": "forward",
+     "relation_source": "layout_operator",
+     "needs_review": false,
+     "relation_level": "fallback",
+     "relation_purity": 0.0
+    },
+    {
+     "from": "P2",
+     "to": "D3",
+     "type": "frames",
+     "raw": "",
+     "polarity": "forward",
+     "relation_source": "layout_operator",
+     "needs_review": false,
+     "relation_level": "fallback",
+     "relation_purity": 0.0
+    },
+    {
+     "from": "P2",
+     "to": "D4",
+     "type": "frames",
+     "raw": "",
+     "polarity": "forward",
+     "relation_source": "layout_operator",
+     "needs_review": false,
+     "relation_level": "fallback",
+     "relation_purity": 0.0
+    },
+    {
+     "from": "P3",
+     "to": "D5",
+     "type": "frames",
+     "raw": "",
+     "polarity": "forward",
+     "relation_source": "layout_operator",
+     "needs_review": false,
+     "relation_level": "fallback",
+     "relation_purity": 0.0
+    },
+    {
+     "from": "P3",
+     "to": "D6",
+     "type": "frames",
+     "raw": "",
+     "polarity": "forward",
+     "relation_source": "layout_operator",
+     "needs_review": false,
+     "relation_level": "fallback",
+     "relation_purity": 0.0
     }
    ],
    "counts": {
     "nodes": 24,
-    "edges": 21,
+    "edges": 30,
     "dropped_nodes": 0
    }
   },
@@ -3561,7 +4469,7 @@
     "title": "Why do global trade imbalances persist, and why could they worsen before improving?",
     "author": "",
     "outlet": "",
-    "url": "",
+    "url": "https://www.cfr.org/articles/why-global-trade-imbalances-could-get-worse-they-get-better",
     "topics": "",
     "genre": "",
     "shape": ""
@@ -3925,6 +4833,7 @@
      "type": "supports",
      "raw": "",
      "polarity": "forward",
+     "relation_source": "arrow",
      "needs_review": false
     },
     {
@@ -3933,6 +4842,7 @@
      "type": "supports",
      "raw": "",
      "polarity": "forward",
+     "relation_source": "arrow",
      "needs_review": false
     },
     {
@@ -3941,6 +4851,7 @@
      "type": "supports",
      "raw": "",
      "polarity": "forward",
+     "relation_source": "arrow",
      "needs_review": false
     },
     {
@@ -3949,6 +4860,7 @@
      "type": "supports",
      "raw": "",
      "polarity": "forward",
+     "relation_source": "arrow",
      "needs_review": false
     },
     {
@@ -3957,6 +4869,7 @@
      "type": "supports",
      "raw": "",
      "polarity": "forward",
+     "relation_source": "arrow",
      "needs_review": false
     },
     {
@@ -3965,6 +4878,7 @@
      "type": "supports",
      "raw": "",
      "polarity": "forward",
+     "relation_source": "arrow",
      "needs_review": false
     },
     {
@@ -3973,6 +4887,7 @@
      "type": "supports",
      "raw": "",
      "polarity": "forward",
+     "relation_source": "arrow",
      "needs_review": false
     },
     {
@@ -3981,6 +4896,7 @@
      "type": "supports",
      "raw": "",
      "polarity": "forward",
+     "relation_source": "arrow",
      "needs_review": false
     },
     {
@@ -3989,6 +4905,7 @@
      "type": "supports",
      "raw": "",
      "polarity": "forward",
+     "relation_source": "arrow",
      "needs_review": false
     },
     {
@@ -3997,6 +4914,7 @@
      "type": "supports",
      "raw": "",
      "polarity": "forward",
+     "relation_source": "arrow",
      "needs_review": false
     },
     {
@@ -4005,6 +4923,7 @@
      "type": "supports",
      "raw": "",
      "polarity": "forward",
+     "relation_source": "arrow",
      "needs_review": false
     },
     {
@@ -4013,6 +4932,7 @@
      "type": "supports",
      "raw": "",
      "polarity": "forward",
+     "relation_source": "arrow",
      "needs_review": false
     },
     {
@@ -4021,6 +4941,7 @@
      "type": "supports",
      "raw": "",
      "polarity": "forward",
+     "relation_source": "arrow",
      "needs_review": false
     },
     {
@@ -4029,6 +4950,7 @@
      "type": "supports",
      "raw": "",
      "polarity": "forward",
+     "relation_source": "arrow",
      "needs_review": false
     },
     {
@@ -4037,6 +4959,7 @@
      "type": "supports",
      "raw": "",
      "polarity": "forward",
+     "relation_source": "arrow",
      "needs_review": false
     },
     {
@@ -4045,6 +4968,7 @@
      "type": "supports",
      "raw": "",
      "polarity": "forward",
+     "relation_source": "arrow",
      "needs_review": false
     },
     {
@@ -4053,6 +4977,7 @@
      "type": "supports",
      "raw": "",
      "polarity": "forward",
+     "relation_source": "arrow",
      "needs_review": false
     },
     {
@@ -4061,6 +4986,7 @@
      "type": "supports",
      "raw": "",
      "polarity": "forward",
+     "relation_source": "arrow",
      "needs_review": false
     },
     {
@@ -4069,6 +4995,7 @@
      "type": "supports",
      "raw": "",
      "polarity": "forward",
+     "relation_source": "arrow",
      "needs_review": false
     },
     {
@@ -4077,6 +5004,7 @@
      "type": "undercut_by",
      "raw": "alternative adjustment",
      "polarity": "pushes_back",
+     "relation_source": "label",
      "needs_review": false
     },
     {
@@ -4085,6 +5013,7 @@
      "type": "undercut_by",
      "raw": "doesn't fully explain",
      "polarity": "pushes_back",
+     "relation_source": "label",
      "needs_review": false
     },
     {
@@ -4093,6 +5022,7 @@
      "type": "qualified_by",
      "raw": "qualified by",
      "polarity": "pushes_back",
+     "relation_source": "label",
      "needs_review": false
     },
     {
@@ -4101,12 +5031,123 @@
      "type": "undercut_by",
      "raw": "currently offset by",
      "polarity": "pushes_back",
+     "relation_source": "label",
      "needs_review": false
+    },
+    {
+     "from": "Q",
+     "to": "P1",
+     "type": "frames",
+     "raw": "",
+     "polarity": "forward",
+     "relation_source": "layout_operator",
+     "needs_review": false,
+     "relation_level": "fallback",
+     "relation_purity": 0.0
+    },
+    {
+     "from": "Q",
+     "to": "P2",
+     "type": "frames",
+     "raw": "",
+     "polarity": "forward",
+     "relation_source": "layout_operator",
+     "needs_review": false,
+     "relation_level": "fallback",
+     "relation_purity": 0.0
+    },
+    {
+     "from": "Q",
+     "to": "P3",
+     "type": "frames",
+     "raw": "",
+     "polarity": "forward",
+     "relation_source": "layout_operator",
+     "needs_review": false,
+     "relation_level": "fallback",
+     "relation_purity": 0.0
+    },
+    {
+     "from": "P1",
+     "to": "D1",
+     "type": "frames",
+     "raw": "",
+     "polarity": "forward",
+     "relation_source": "layout_operator",
+     "needs_review": false,
+     "relation_level": "fallback",
+     "relation_purity": 0.0
+    },
+    {
+     "from": "P1",
+     "to": "D3",
+     "type": "frames",
+     "raw": "",
+     "polarity": "forward",
+     "relation_source": "layout_operator",
+     "needs_review": false,
+     "relation_level": "fallback",
+     "relation_purity": 0.0
+    },
+    {
+     "from": "P2",
+     "to": "D2",
+     "type": "frames",
+     "raw": "",
+     "polarity": "forward",
+     "relation_source": "layout_operator",
+     "needs_review": false,
+     "relation_level": "fallback",
+     "relation_purity": 0.0
+    },
+    {
+     "from": "P2",
+     "to": "D6",
+     "type": "frames",
+     "raw": "",
+     "polarity": "forward",
+     "relation_source": "layout_operator",
+     "needs_review": false,
+     "relation_level": "fallback",
+     "relation_purity": 0.0
+    },
+    {
+     "from": "P3",
+     "to": "D4",
+     "type": "frames",
+     "raw": "",
+     "polarity": "forward",
+     "relation_source": "layout_operator",
+     "needs_review": false,
+     "relation_level": "fallback",
+     "relation_purity": 0.0
+    },
+    {
+     "from": "P3",
+     "to": "D5",
+     "type": "frames",
+     "raw": "",
+     "polarity": "forward",
+     "relation_source": "layout_operator",
+     "needs_review": false,
+     "relation_level": "fallback",
+     "relation_purity": 0.0
+    },
+    {
+     "from": "P3",
+     "to": "D7",
+     "type": "frames",
+     "raw": "",
+     "polarity": "forward",
+     "relation_source": "layout_operator",
+     "needs_review": false,
+     "relation_level": "fallback",
+     "relation_purity": 0.0
     }
    ],
    "counts": {
     "nodes": 24,
-    "edges": 23,
+    "edges": 33,
     "dropped_nodes": 0
    }
   },
@@ -4119,7 +5160,7 @@
     "title": "Lessons From Phase One of the Trade War With China",
     "author": "",
     "outlet": "",
-    "url": "",
+    "url": "https://www.cfr.org/articles/lessons-phase-one-trade-war-china",
     "topics": "",
     "genre": "",
     "shape": "Shape E · parallel enumeration"
@@ -4235,7 +5276,7 @@
       "type": "mechanism",
       "level": "L3",
       "header": "Mechanism A",
-      "text": "·\nOutflow controls and the absence of carry-trade leverage prevented a 2015-style panic",
+      "text": "Outflow controls and the absence of carry-trade leverage prevented a 2015-style panic",
       "byline": "",
       "class": "mech",
       "type_source": "header",
@@ -4249,7 +5290,7 @@
       "type": "mechanism",
       "level": "L3",
       "header": "Mechanism B",
-      "text": "·\nTreasuries carry no leverage — if China pushed yields up, the Fed would simply react",
+      "text": "Treasuries carry no leverage — if China pushed yields up, the Fed would simply react",
       "byline": "",
       "class": "mech",
       "type_source": "header",
@@ -4281,7 +5322,7 @@
       "type": "main_claim",
       "level": "L5",
       "header": "Main claim",
-      "text": "·\nChina can meet its 2020 commitments — and that is precisely the risk.\n\"What China's state gives, China's state can take away\"",
+      "text": "China can meet its 2020 commitments — and that is precisely the risk.\n\"What China's state gives, China's state can take away\"",
       "byline": "",
       "class": "main",
       "type_source": "header",
@@ -4343,6 +5384,7 @@
      "type": "revises",
      "raw": "revises",
      "polarity": "pushes_back",
+     "relation_source": "label",
      "needs_review": false
     },
     {
@@ -4351,6 +5393,7 @@
      "type": "licenses",
      "raw": "licenses",
      "polarity": "forward",
+     "relation_source": "label",
      "needs_review": false
     },
     {
@@ -4359,6 +5402,7 @@
      "type": "supports",
      "raw": "supports",
      "polarity": "forward",
+     "relation_source": "label",
      "needs_review": false
     },
     {
@@ -4367,6 +5411,7 @@
      "type": "supports",
      "raw": "supports",
      "polarity": "forward",
+     "relation_source": "label",
      "needs_review": false
     },
     {
@@ -4375,6 +5420,7 @@
      "type": "supports",
      "raw": "supports",
      "polarity": "forward",
+     "relation_source": "label",
      "needs_review": false
     },
     {
@@ -4383,6 +5429,7 @@
      "type": "supports",
      "raw": "supports",
      "polarity": "forward",
+     "relation_source": "label",
      "needs_review": false
     },
     {
@@ -4391,6 +5438,7 @@
      "type": "supports",
      "raw": "supports",
      "polarity": "forward",
+     "relation_source": "label",
      "needs_review": false
     },
     {
@@ -4399,6 +5447,7 @@
      "type": "undercut_by",
      "raw": "undercut by",
      "polarity": "pushes_back",
+     "relation_source": "label",
      "needs_review": false
     },
     {
@@ -4407,6 +5456,7 @@
      "type": "supports",
      "raw": "supports",
      "polarity": "forward",
+     "relation_source": "label",
      "needs_review": false
     },
     {
@@ -4415,6 +5465,7 @@
      "type": "licenses",
      "raw": "licenses",
      "polarity": "forward",
+     "relation_source": "label",
      "needs_review": false
     },
     {
@@ -4423,6 +5474,7 @@
      "type": "rebuts",
      "raw": "rebuts",
      "polarity": "pushes_back",
+     "relation_source": "label",
      "needs_review": false
     },
     {
@@ -4431,6 +5483,7 @@
      "type": "qualified_by",
      "raw": "qualified by",
      "polarity": "pushes_back",
+     "relation_source": "label",
      "needs_review": false
     },
     {
@@ -4439,6 +5492,7 @@
      "type": "undercut_by",
      "raw": "undercut by",
      "polarity": "pushes_back",
+     "relation_source": "label",
      "needs_review": false
     }
    ],
@@ -4457,7 +5511,7 @@
     "title": "Do tariffs change the trade balance, and who absorbed the Q4 US demand drop?",
     "author": "",
     "outlet": "",
-    "url": "",
+    "url": "https://www.cfr.org/articles/us-shock-global-demand-q4-coronavirus",
     "topics": "",
     "genre": "",
     "shape": ""
@@ -4751,6 +5805,7 @@
      "type": "supports",
      "raw": "",
      "polarity": "forward",
+     "relation_source": "arrow",
      "needs_review": false
     },
     {
@@ -4759,6 +5814,7 @@
      "type": "supports",
      "raw": "",
      "polarity": "forward",
+     "relation_source": "arrow",
      "needs_review": false
     },
     {
@@ -4767,6 +5823,7 @@
      "type": "supports",
      "raw": "",
      "polarity": "forward",
+     "relation_source": "arrow",
      "needs_review": false
     },
     {
@@ -4775,6 +5832,7 @@
      "type": "supports",
      "raw": "",
      "polarity": "forward",
+     "relation_source": "arrow",
      "needs_review": false
     },
     {
@@ -4783,6 +5841,7 @@
      "type": "supports",
      "raw": "",
      "polarity": "forward",
+     "relation_source": "arrow",
      "needs_review": false
     },
     {
@@ -4791,6 +5850,7 @@
      "type": "supports",
      "raw": "",
      "polarity": "forward",
+     "relation_source": "arrow",
      "needs_review": false
     },
     {
@@ -4799,6 +5859,7 @@
      "type": "supports",
      "raw": "",
      "polarity": "forward",
+     "relation_source": "arrow",
      "needs_review": false
     },
     {
@@ -4807,6 +5868,7 @@
      "type": "supports",
      "raw": "",
      "polarity": "forward",
+     "relation_source": "arrow",
      "needs_review": false
     },
     {
@@ -4815,6 +5877,7 @@
      "type": "supports",
      "raw": "",
      "polarity": "forward",
+     "relation_source": "arrow",
      "needs_review": false
     },
     {
@@ -4823,6 +5886,7 @@
      "type": "licenses",
      "raw": "licenses",
      "polarity": "forward",
+     "relation_source": "label",
      "needs_review": false
     },
     {
@@ -4831,6 +5895,7 @@
      "type": "supports",
      "raw": "",
      "polarity": "forward",
+     "relation_source": "arrow",
      "needs_review": false
     },
     {
@@ -4839,6 +5904,7 @@
      "type": "supports",
      "raw": "",
      "polarity": "forward",
+     "relation_source": "arrow",
      "needs_review": false
     },
     {
@@ -4847,6 +5913,7 @@
      "type": "supports",
      "raw": "",
      "polarity": "forward",
+     "relation_source": "arrow",
      "needs_review": false
     },
     {
@@ -4855,6 +5922,7 @@
      "type": "supports",
      "raw": "",
      "polarity": "forward",
+     "relation_source": "arrow",
      "needs_review": false
     },
     {
@@ -4863,6 +5931,7 @@
      "type": "qualified_by",
      "raw": "qualifies",
      "polarity": "pushes_back",
+     "relation_source": "label",
      "needs_review": false
     },
     {
@@ -4871,6 +5940,7 @@
      "type": "qualified_by",
      "raw": "limited by",
      "polarity": "pushes_back",
+     "relation_source": "label",
      "needs_review": false
     },
     {
@@ -4879,12 +5949,134 @@
      "type": "undercut_by",
      "raw": "undercut by",
      "polarity": "pushes_back",
+     "relation_source": "label",
      "needs_review": false
+    },
+    {
+     "from": "Q",
+     "to": "P2",
+     "type": "frames",
+     "raw": "",
+     "polarity": "forward",
+     "relation_source": "layout_operator",
+     "needs_review": false,
+     "relation_level": "fallback",
+     "relation_purity": 0.0
+    },
+    {
+     "from": "Q",
+     "to": "P3",
+     "type": "frames",
+     "raw": "",
+     "polarity": "forward",
+     "relation_source": "layout_operator",
+     "needs_review": false,
+     "relation_level": "fallback",
+     "relation_purity": 0.0
+    },
+    {
+     "from": "Q",
+     "to": "P1",
+     "type": "frames",
+     "raw": "",
+     "polarity": "forward",
+     "relation_source": "layout_operator",
+     "needs_review": false,
+     "relation_level": "fallback",
+     "relation_purity": 0.0
+    },
+    {
+     "from": "Q",
+     "to": "P4",
+     "type": "frames",
+     "raw": "",
+     "polarity": "forward",
+     "relation_source": "layout_operator",
+     "needs_review": false,
+     "relation_level": "fallback",
+     "relation_purity": 0.0
+    },
+    {
+     "from": "P2",
+     "to": "D1",
+     "type": "frames",
+     "raw": "",
+     "polarity": "forward",
+     "relation_source": "layout_operator",
+     "needs_review": false,
+     "relation_level": "fallback",
+     "relation_purity": 0.0
+    },
+    {
+     "from": "P3",
+     "to": "D2",
+     "type": "frames",
+     "raw": "",
+     "polarity": "forward",
+     "relation_source": "layout_operator",
+     "needs_review": false,
+     "relation_level": "fallback",
+     "relation_purity": 0.0
+    },
+    {
+     "from": "P4",
+     "to": "D3",
+     "type": "frames",
+     "raw": "",
+     "polarity": "forward",
+     "relation_source": "layout_operator",
+     "needs_review": false,
+     "relation_level": "fallback",
+     "relation_purity": 0.0
+    },
+    {
+     "from": "P1",
+     "to": "D4",
+     "type": "frames",
+     "raw": "",
+     "polarity": "forward",
+     "relation_source": "layout_operator",
+     "needs_review": false,
+     "relation_level": "fallback",
+     "relation_purity": 0.0
+    },
+    {
+     "from": "P1",
+     "to": "D5",
+     "type": "frames",
+     "raw": "",
+     "polarity": "forward",
+     "relation_source": "layout_operator",
+     "needs_review": false,
+     "relation_level": "fallback",
+     "relation_purity": 0.0
+    },
+    {
+     "from": "D4",
+     "to": "M3",
+     "type": "supports",
+     "raw": "",
+     "polarity": "forward",
+     "relation_source": "layout_operator",
+     "needs_review": false,
+     "relation_level": "type",
+     "relation_purity": 1.0
+    },
+    {
+     "from": "D5",
+     "to": "M3",
+     "type": "supports",
+     "raw": "",
+     "polarity": "forward",
+     "relation_source": "layout_operator",
+     "needs_review": false,
+     "relation_level": "type",
+     "relation_purity": 1.0
     }
    ],
    "counts": {
     "nodes": 19,
-    "edges": 17,
+    "edges": 28,
     "dropped_nodes": 0
    }
   },
@@ -4897,7 +6089,7 @@
     "title": "Not One Emerging Market Financial Crisis, but Many",
     "author": "",
     "outlet": "",
-    "url": "",
+    "url": "https://www.cfr.org/articles/not-one-emerging-market-financial-crisis-many",
     "topics": "",
     "genre": "",
     "shape": "Shape D · typology + prescription"
@@ -4999,7 +6191,7 @@
       "type": "mechanism",
       "level": "L3",
       "header": "Mechanism A",
-      "text": "·\nThe same four shocks land very differently depending on the external balance sheet",
+      "text": "The same four shocks land very differently depending on the external balance sheet",
       "byline": "",
       "class": "mech",
       "type_source": "header",
@@ -5013,7 +6205,7 @@
       "type": "mechanism",
       "level": "L3",
       "header": "Mechanism B",
-      "text": "·\nSwap lines solve dollar funding, but were never designed to cover a balance-of-payments shortfall",
+      "text": "Swap lines solve dollar funding, but were never designed to cover a balance-of-payments shortfall",
       "byline": "",
       "class": "mech",
       "type_source": "header",
@@ -5059,7 +6251,7 @@
       "type": "main_claim",
       "level": "L5",
       "header": "Main claim",
-      "text": "·\n\"Different problems require different solutions\" — when private capital retreats, the official sector must advance",
+      "text": "\"Different problems require different solutions\" — when private capital retreats, the official sector must advance",
       "byline": "",
       "class": "main",
       "type_source": "header",
@@ -5121,6 +6313,7 @@
      "type": "revises",
      "raw": "revises",
      "polarity": "pushes_back",
+     "relation_source": "label",
      "needs_review": false
     },
     {
@@ -5129,6 +6322,7 @@
      "type": "supports",
      "raw": "supports",
      "polarity": "forward",
+     "relation_source": "label",
      "needs_review": false
     },
     {
@@ -5137,6 +6331,7 @@
      "type": "supports",
      "raw": "supports",
      "polarity": "forward",
+     "relation_source": "label",
      "needs_review": false
     },
     {
@@ -5145,6 +6340,7 @@
      "type": "supports",
      "raw": "supports",
      "polarity": "forward",
+     "relation_source": "label",
      "needs_review": false
     },
     {
@@ -5153,6 +6349,7 @@
      "type": "licenses",
      "raw": "licenses",
      "polarity": "forward",
+     "relation_source": "label",
      "needs_review": false
     },
     {
@@ -5161,6 +6358,7 @@
      "type": "supports",
      "raw": "supports",
      "polarity": "forward",
+     "relation_source": "label",
      "needs_review": false
     },
     {
@@ -5169,6 +6367,7 @@
      "type": "supports",
      "raw": "supports",
      "polarity": "forward",
+     "relation_source": "label",
      "needs_review": false
     },
     {
@@ -5177,6 +6376,7 @@
      "type": "supports",
      "raw": "supports",
      "polarity": "forward",
+     "relation_source": "label",
      "needs_review": false
     },
     {
@@ -5185,6 +6385,7 @@
      "type": "licenses",
      "raw": "licenses",
      "polarity": "forward",
+     "relation_source": "label",
      "needs_review": false
     },
     {
@@ -5193,6 +6394,7 @@
      "type": "supports",
      "raw": "supports",
      "polarity": "forward",
+     "relation_source": "label",
      "needs_review": false
     },
     {
@@ -5201,6 +6403,7 @@
      "type": "supports",
      "raw": "supports",
      "polarity": "forward",
+     "relation_source": "label",
      "needs_review": false
     },
     {
@@ -5209,6 +6412,7 @@
      "type": "motivates",
      "raw": "motivates",
      "polarity": "forward",
+     "relation_source": "label",
      "needs_review": false
     },
     {
@@ -5217,6 +6421,7 @@
      "type": "rebuts",
      "raw": "rebuts",
      "polarity": "pushes_back",
+     "relation_source": "label",
      "needs_review": false
     },
     {
@@ -5225,6 +6430,7 @@
      "type": "qualified_by",
      "raw": "qualified by",
      "polarity": "pushes_back",
+     "relation_source": "label",
      "needs_review": false
     }
    ],
@@ -5243,7 +6449,7 @@
     "title": "Slouching Toward Phase One",
     "author": "",
     "outlet": "",
-    "url": "",
+    "url": "https://www.cfr.org/articles/slouching-toward-phase-one",
     "topics": "",
     "genre": "",
     "shape": "Shape B · benchmark audit"
@@ -5361,7 +6567,7 @@
       "type": "mechanism",
       "level": "L3",
       "header": "Mechanism A",
-      "text": "·\nThere is no policy lever in manufacturing — import substitution continues and trade does not run through a few buyers",
+      "text": "There is no policy lever in manufacturing — import substitution continues and trade does not run through a few buyers",
       "byline": "",
       "class": "mech",
       "type_source": "header",
@@ -5375,7 +6581,7 @@
       "type": "mechanism",
       "level": "L3",
       "header": "Mechanism B",
-      "text": "·\nSeasonality blocks catch-up, and because targets are nominal a commodity price crash widens the gap without any change in volume",
+      "text": "Seasonality blocks catch-up, and because targets are nominal a commodity price crash widens the gap without any change in volume",
       "byline": "",
       "class": "mech",
       "type_source": "header",
@@ -5407,7 +6613,7 @@
       "type": "main_claim",
       "level": "L5",
       "header": "Main claim",
-      "text": "·\nThe deal is failing on its own terms — insisting on impressive numbers made the shortfall easy to demonstrate",
+      "text": "The deal is failing on its own terms — insisting on impressive numbers made the shortfall easy to demonstrate",
       "byline": "",
       "class": "main",
       "type_source": "header",
@@ -5469,6 +6675,7 @@
      "type": "bounds",
      "raw": "bounds",
      "polarity": "forward",
+     "relation_source": "label",
      "needs_review": false
     },
     {
@@ -5477,6 +6684,7 @@
      "type": "bounds",
      "raw": "compared against",
      "polarity": "forward",
+     "relation_source": "label",
      "needs_review": false
     },
     {
@@ -5485,6 +6693,7 @@
      "type": "supports",
      "raw": "supports",
      "polarity": "forward",
+     "relation_source": "label",
      "needs_review": false
     },
     {
@@ -5493,6 +6702,7 @@
      "type": "supports",
      "raw": "supports",
      "polarity": "forward",
+     "relation_source": "label",
      "needs_review": false
     },
     {
@@ -5501,6 +6711,7 @@
      "type": "supports",
      "raw": "supports",
      "polarity": "forward",
+     "relation_source": "label",
      "needs_review": false
     },
     {
@@ -5509,6 +6720,7 @@
      "type": "supports",
      "raw": "supports",
      "polarity": "forward",
+     "relation_source": "label",
      "needs_review": false
     },
     {
@@ -5517,6 +6729,7 @@
      "type": "supports",
      "raw": "supports",
      "polarity": "forward",
+     "relation_source": "label",
      "needs_review": false
     },
     {
@@ -5525,6 +6738,7 @@
      "type": "licenses",
      "raw": "licenses",
      "polarity": "forward",
+     "relation_source": "label",
      "needs_review": false
     },
     {
@@ -5533,6 +6747,7 @@
      "type": "supports",
      "raw": "supports",
      "polarity": "forward",
+     "relation_source": "label",
      "needs_review": false
     },
     {
@@ -5541,6 +6756,7 @@
      "type": "licenses",
      "raw": "licenses",
      "polarity": "forward",
+     "relation_source": "label",
      "needs_review": false
     },
     {
@@ -5549,6 +6765,7 @@
      "type": "rebuts",
      "raw": "rebuts",
      "polarity": "pushes_back",
+     "relation_source": "label",
      "needs_review": false
     },
     {
@@ -5557,6 +6774,7 @@
      "type": "qualified_by",
      "raw": "qualified by",
      "polarity": "pushes_back",
+     "relation_source": "label",
      "needs_review": false
     },
     {
@@ -5565,6 +6783,7 @@
      "type": "undercut_by",
      "raw": "undercut by",
      "polarity": "pushes_back",
+     "relation_source": "label",
      "needs_review": false
     }
    ],
@@ -5583,7 +6802,7 @@
     "title": "China's Record Manufacturing Surplus",
     "author": "",
     "outlet": "",
-    "url": "",
+    "url": "https://www.cfr.org/articles/chinas-record-manufacturing-surplus",
     "topics": "",
     "genre": "",
     "shape": "Shape C · measurement critique, with a policy reductio"
@@ -5729,7 +6948,7 @@
       "type": "mechanism",
       "level": "L3",
       "header": "Mechanism A",
-      "text": "·\nPolicy, not only comparative advantage — resistance to consumer stimulus and a thin safety net sustain a savings surplus",
+      "text": "Policy, not only comparative advantage — resistance to consumer stimulus and a thin safety net sustain a savings surplus",
       "byline": "",
       "class": "mech",
       "type_source": "header",
@@ -5743,7 +6962,7 @@
       "type": "mechanism",
       "level": "L3",
       "header": "Mechanism B",
-      "text": "·\nUpgrading is the stated growth plan, so advanced manufacturing capacity keeps expanding",
+      "text": "Upgrading is the stated growth plan, so advanced manufacturing capacity keeps expanding",
       "byline": "",
       "class": "mech",
       "type_source": "header",
@@ -5789,7 +7008,7 @@
       "type": "main_claim",
       "level": "L5",
       "header": "Main claim",
-      "text": "·\nThe imbalance is large, growing and mismeasured — it shows up everywhere except in the reported current account and in the IMF's analysis",
+      "text": "The imbalance is large, growing and mismeasured — it shows up everywhere except in the reported current account and in the IMF's analysis",
       "byline": "",
       "class": "main",
       "type_source": "header",
@@ -5851,6 +7070,7 @@
      "type": "bounds",
      "raw": "bounds",
      "polarity": "forward",
+     "relation_source": "label",
      "needs_review": false
     },
     {
@@ -5859,6 +7079,7 @@
      "type": "supports",
      "raw": "supports",
      "polarity": "forward",
+     "relation_source": "label",
      "needs_review": false
     },
     {
@@ -5867,6 +7088,7 @@
      "type": "supports",
      "raw": "supports",
      "polarity": "forward",
+     "relation_source": "label",
      "needs_review": false
     },
     {
@@ -5875,6 +7097,7 @@
      "type": "supports",
      "raw": "supports",
      "polarity": "forward",
+     "relation_source": "label",
      "needs_review": false
     },
     {
@@ -5883,6 +7106,7 @@
      "type": "supports",
      "raw": "supports",
      "polarity": "forward",
+     "relation_source": "label",
      "needs_review": false
     },
     {
@@ -5891,6 +7115,7 @@
      "type": "licenses",
      "raw": "licenses",
      "polarity": "forward",
+     "relation_source": "label",
      "needs_review": false
     },
     {
@@ -5899,6 +7124,7 @@
      "type": "licenses",
      "raw": "licenses",
      "polarity": "forward",
+     "relation_source": "label",
      "needs_review": false
     },
     {
@@ -5907,6 +7133,7 @@
      "type": "supports",
      "raw": "supports",
      "polarity": "forward",
+     "relation_source": "label",
      "needs_review": false
     },
     {
@@ -5915,6 +7142,7 @@
      "type": "supports",
      "raw": "supports",
      "polarity": "forward",
+     "relation_source": "label",
      "needs_review": false
     },
     {
@@ -5923,6 +7151,7 @@
      "type": "supports",
      "raw": "supports",
      "polarity": "forward",
+     "relation_source": "label",
      "needs_review": false
     },
     {
@@ -5931,6 +7160,7 @@
      "type": "supports",
      "raw": "supports",
      "polarity": "forward",
+     "relation_source": "label",
      "needs_review": false
     },
     {
@@ -5939,6 +7169,7 @@
      "type": "supports",
      "raw": "supports",
      "polarity": "forward",
+     "relation_source": "label",
      "needs_review": false
     },
     {
@@ -5947,6 +7178,7 @@
      "type": "motivates",
      "raw": "motivates",
      "polarity": "forward",
+     "relation_source": "label",
      "needs_review": false
     },
     {
@@ -5955,6 +7187,7 @@
      "type": "licenses",
      "raw": "licenses",
      "polarity": "forward",
+     "relation_source": "label",
      "needs_review": false
     },
     {
@@ -5963,6 +7196,7 @@
      "type": "rebuts",
      "raw": "rebuts",
      "polarity": "pushes_back",
+     "relation_source": "label",
      "needs_review": false
     },
     {
@@ -5971,6 +7205,7 @@
      "type": "qualified_by",
      "raw": "qualified by",
      "polarity": "pushes_back",
+     "relation_source": "label",
      "needs_review": false
     }
    ],
@@ -5989,7 +7224,7 @@
     "title": "China's Imaginary Trade Data",
     "author": "",
     "outlet": "",
-    "url": "",
+    "url": "https://www.cfr.org/articles/chinas-imaginary-trade-data",
     "topics": "",
     "genre": "",
     "shape": "Shape C · measurement critique"
@@ -6119,7 +7354,7 @@
       "type": "mechanism",
       "level": "L3",
       "header": "Mechanism A",
-      "text": "·\n\"Factoryless\" manufacturing — a sale to a non-resident is booked as an export though the goods never leave China",
+      "text": "\"Factoryless\" manufacturing — a sale to a non-resident is booked as an export though the goods never leave China",
       "byline": "",
       "class": "distort",
       "type_source": "header",
@@ -6133,7 +7368,7 @@
       "type": "mechanism",
       "level": "L3",
       "header": "Mechanism B",
-      "text": "·\nCompilers switched from customs data to direct enterprise reporting in 2022",
+      "text": "Compilers switched from customs data to direct enterprise reporting in 2022",
       "byline": "",
       "class": "distort",
       "type_source": "header",
@@ -6165,7 +7400,7 @@
       "type": "main_claim",
       "level": "L5",
       "header": "Main claim",
-      "text": "·\nThe reported surplus is an artifact of a methodology change",
+      "text": "The reported surplus is an artifact of a methodology change",
       "byline": "",
       "class": "main",
       "type_source": "header",
@@ -6255,6 +7490,7 @@
      "type": "supports",
      "raw": "supports",
      "polarity": "forward",
+     "relation_source": "label",
      "needs_review": false
     },
     {
@@ -6263,6 +7499,7 @@
      "type": "supports",
      "raw": "supports",
      "polarity": "forward",
+     "relation_source": "label",
      "needs_review": false
     },
     {
@@ -6271,6 +7508,7 @@
      "type": "supports",
      "raw": "supports",
      "polarity": "forward",
+     "relation_source": "label",
      "needs_review": false
     },
     {
@@ -6279,6 +7517,7 @@
      "type": "supports",
      "raw": "supports",
      "polarity": "forward",
+     "relation_source": "label",
      "needs_review": false
     },
     {
@@ -6287,6 +7526,7 @@
      "type": "supports",
      "raw": "supports",
      "polarity": "forward",
+     "relation_source": "label",
      "needs_review": false
     },
     {
@@ -6295,6 +7535,7 @@
      "type": "supports",
      "raw": "supports",
      "polarity": "forward",
+     "relation_source": "label",
      "needs_review": false
     },
     {
@@ -6303,6 +7544,7 @@
      "type": "supports",
      "raw": "supports",
      "polarity": "forward",
+     "relation_source": "label",
      "needs_review": false
     },
     {
@@ -6311,6 +7553,7 @@
      "type": "supports",
      "raw": "supports",
      "polarity": "forward",
+     "relation_source": "label",
      "needs_review": false
     },
     {
@@ -6319,6 +7562,7 @@
      "type": "licenses",
      "raw": "licenses",
      "polarity": "forward",
+     "relation_source": "label",
      "needs_review": false
     },
     {
@@ -6327,6 +7571,7 @@
      "type": "supports",
      "raw": "supports",
      "polarity": "forward",
+     "relation_source": "label",
      "needs_review": false
     },
     {
@@ -6335,6 +7580,7 @@
      "type": "reconstructs",
      "raw": "reconstructs",
      "polarity": "forward",
+     "relation_source": "label",
      "needs_review": false
     },
     {
@@ -6343,6 +7589,7 @@
      "type": "licenses",
      "raw": "licenses",
      "polarity": "forward",
+     "relation_source": "label",
      "needs_review": false
     },
     {
@@ -6351,6 +7598,7 @@
      "type": "motivates",
      "raw": "motivates",
      "polarity": "forward",
+     "relation_source": "label",
      "needs_review": false
     },
     {
@@ -6359,6 +7607,7 @@
      "type": "rebuts",
      "raw": "rebuts",
      "polarity": "pushes_back",
+     "relation_source": "label",
      "needs_review": false
     },
     {
@@ -6367,6 +7616,7 @@
      "type": "qualified_by",
      "raw": "qualified by",
      "polarity": "pushes_back",
+     "relation_source": "label",
      "needs_review": false
     },
     {
@@ -6375,6 +7625,7 @@
      "type": "defers",
      "raw": "defers",
      "polarity": "pushes_back",
+     "relation_source": "label",
      "needs_review": false
     }
    ],
@@ -6393,7 +7644,7 @@
     "title": "Why Didn't Tariffs Push Up the U.S. Dollar?",
     "author": "",
     "outlet": "",
-    "url": "",
+    "url": "https://www.cfr.org/articles/why-didnt-tariffs-push-us-dollar",
     "topics": "",
     "genre": "",
     "shape": "Shape E · parallel enumeration"
@@ -6523,7 +7774,7 @@
       "type": "mechanism",
       "level": "L3",
       "header": "Mechanism A",
-      "text": "·\nFive channels at once — tariffs as fiscal tightening, recession risk hitting equities, China declining to let the yuan slide, Europe's fiscal turn, and a risk premium from treating allies as adversaries",
+      "text": "Five channels at once — tariffs as fiscal tightening, recession risk hitting equities, China declining to let the yuan slide, Europe's fiscal turn, and a risk premium from treating allies as adversaries",
       "byline": "",
       "class": "mech",
       "type_source": "header",
@@ -6537,7 +7788,7 @@
       "type": "mechanism",
       "level": "L3",
       "header": "Mechanism B",
-      "text": "·\nThe dollar was priced for perfection: the flow equilibrium needed ever-larger inflows at ever-higher valuations",
+      "text": "The dollar was priced for perfection: the flow equilibrium needed ever-larger inflows at ever-higher valuations",
       "byline": "",
       "class": "mech",
       "type_source": "header",
@@ -6569,7 +7820,7 @@
       "type": "main_claim",
       "level": "L5",
       "header": "Main claim",
-      "text": "·\n\"In a sense, the dollar's recent weakness is over-determined\" — he declines to choose",
+      "text": "\"In a sense, the dollar's recent weakness is over-determined\" — he declines to choose",
       "byline": "",
       "class": "main",
       "type_source": "header",
@@ -6645,6 +7896,7 @@
      "type": "supports",
      "raw": "supports",
      "polarity": "forward",
+     "relation_source": "label",
      "needs_review": false
     },
     {
@@ -6653,6 +7905,7 @@
      "type": "motivates",
      "raw": "motivates",
      "polarity": "forward",
+     "relation_source": "label",
      "needs_review": false
     },
     {
@@ -6661,6 +7914,7 @@
      "type": "revises",
      "raw": "revises",
      "polarity": "pushes_back",
+     "relation_source": "label",
      "needs_review": false
     },
     {
@@ -6669,6 +7923,7 @@
      "type": "supports",
      "raw": "supports",
      "polarity": "forward",
+     "relation_source": "label",
      "needs_review": false
     },
     {
@@ -6677,6 +7932,7 @@
      "type": "supports",
      "raw": "supports",
      "polarity": "forward",
+     "relation_source": "label",
      "needs_review": false
     },
     {
@@ -6685,6 +7941,7 @@
      "type": "supports",
      "raw": "supports",
      "polarity": "forward",
+     "relation_source": "label",
      "needs_review": false
     },
     {
@@ -6693,6 +7950,7 @@
      "type": "undercut_by",
      "raw": "undercut by",
      "polarity": "pushes_back",
+     "relation_source": "label",
      "needs_review": false
     },
     {
@@ -6701,6 +7959,7 @@
      "type": "supports",
      "raw": "supports",
      "polarity": "forward",
+     "relation_source": "label",
      "needs_review": false
     },
     {
@@ -6709,6 +7968,7 @@
      "type": "supports",
      "raw": "supports",
      "polarity": "forward",
+     "relation_source": "label",
      "needs_review": false
     },
     {
@@ -6717,6 +7977,7 @@
      "type": "supports",
      "raw": "supports",
      "polarity": "forward",
+     "relation_source": "label",
      "needs_review": false
     },
     {
@@ -6725,6 +7986,7 @@
      "type": "rebuts",
      "raw": "rebuts",
      "polarity": "pushes_back",
+     "relation_source": "label",
      "needs_review": false
     },
     {
@@ -6733,6 +7995,7 @@
      "type": "qualified_by",
      "raw": "qualified by",
      "polarity": "pushes_back",
+     "relation_source": "label",
      "needs_review": false
     },
     {
@@ -6741,6 +8004,7 @@
      "type": "undercut_by",
      "raw": "undercut by",
      "polarity": "pushes_back",
+     "relation_source": "label",
      "needs_review": false
     },
     {
@@ -6749,6 +8013,7 @@
      "type": "defers",
      "raw": "defers",
      "polarity": "pushes_back",
+     "relation_source": "label",
      "needs_review": false
     }
    ],
@@ -6977,6 +8242,7 @@
      "type": "supports",
      "raw": "",
      "polarity": "forward",
+     "relation_source": "arrow",
      "needs_review": false
     },
     {
@@ -6985,6 +8251,7 @@
      "type": "supports",
      "raw": "",
      "polarity": "forward",
+     "relation_source": "arrow",
      "needs_review": false
     },
     {
@@ -6993,6 +8260,7 @@
      "type": "supports",
      "raw": "",
      "polarity": "forward",
+     "relation_source": "arrow",
      "needs_review": false
     },
     {
@@ -7001,6 +8269,7 @@
      "type": "supports",
      "raw": "",
      "polarity": "forward",
+     "relation_source": "arrow",
      "needs_review": false
     },
     {
@@ -7009,6 +8278,7 @@
      "type": "supports",
      "raw": "",
      "polarity": "forward",
+     "relation_source": "arrow",
      "needs_review": false
     },
     {
@@ -7017,6 +8287,7 @@
      "type": "supports",
      "raw": "",
      "polarity": "forward",
+     "relation_source": "arrow",
      "needs_review": false
     },
     {
@@ -7025,6 +8296,7 @@
      "type": "supports",
      "raw": "",
      "polarity": "forward",
+     "relation_source": "arrow",
      "needs_review": false
     },
     {
@@ -7033,6 +8305,7 @@
      "type": "supports",
      "raw": "",
      "polarity": "forward",
+     "relation_source": "arrow",
      "needs_review": false
     },
     {
@@ -7041,6 +8314,7 @@
      "type": "licenses",
      "raw": "rule behind it",
      "polarity": "forward",
+     "relation_source": "label",
      "needs_review": false
     },
     {
@@ -7049,6 +8323,7 @@
      "type": "supports",
      "raw": "",
      "polarity": "forward",
+     "relation_source": "arrow",
      "needs_review": false
     },
     {
@@ -7057,6 +8332,7 @@
      "type": "rebuts",
      "raw": "pushes back on",
      "polarity": "pushes_back",
+     "relation_source": "label",
      "needs_review": false
     },
     {
@@ -7065,6 +8341,7 @@
      "type": "qualified_by",
      "raw": "caveat",
      "polarity": "pushes_back",
+     "relation_source": "label",
      "needs_review": false
     },
     {
@@ -7073,12 +8350,68 @@
      "type": "undercut_by",
      "raw": "other explanation",
      "polarity": "pushes_back",
+     "relation_source": "label",
      "needs_review": false
+    },
+    {
+     "from": "Q",
+     "to": "P1",
+     "type": "frames",
+     "raw": "",
+     "polarity": "forward",
+     "relation_source": "layout_operator",
+     "needs_review": false,
+     "relation_level": "fallback",
+     "relation_purity": 0.0
+    },
+    {
+     "from": "Q",
+     "to": "P2",
+     "type": "frames",
+     "raw": "",
+     "polarity": "forward",
+     "relation_source": "layout_operator",
+     "needs_review": false,
+     "relation_level": "fallback",
+     "relation_purity": 0.0
+    },
+    {
+     "from": "Q",
+     "to": "P3",
+     "type": "frames",
+     "raw": "",
+     "polarity": "forward",
+     "relation_source": "layout_operator",
+     "needs_review": false,
+     "relation_level": "fallback",
+     "relation_purity": 0.0
+    },
+    {
+     "from": "P1",
+     "to": "E1",
+     "type": "frames",
+     "raw": "",
+     "polarity": "forward",
+     "relation_source": "layout_operator",
+     "needs_review": false,
+     "relation_level": "fallback",
+     "relation_purity": 0.0
+    },
+    {
+     "from": "P3",
+     "to": "E2",
+     "type": "frames",
+     "raw": "",
+     "polarity": "forward",
+     "relation_source": "layout_operator",
+     "needs_review": false,
+     "relation_level": "fallback",
+     "relation_purity": 0.0
     }
    ],
    "counts": {
     "nodes": 13,
-    "edges": 13,
+    "edges": 18,
     "dropped_nodes": 0
    }
   },
@@ -7301,6 +8634,7 @@
      "type": "supports",
      "raw": "",
      "polarity": "forward",
+     "relation_source": "arrow",
      "needs_review": false
     },
     {
@@ -7309,6 +8643,7 @@
      "type": "supports",
      "raw": "",
      "polarity": "forward",
+     "relation_source": "arrow",
      "needs_review": false
     },
     {
@@ -7317,6 +8652,7 @@
      "type": "supports",
      "raw": "",
      "polarity": "forward",
+     "relation_source": "arrow",
      "needs_review": false
     },
     {
@@ -7325,6 +8661,7 @@
      "type": "supports",
      "raw": "",
      "polarity": "forward",
+     "relation_source": "arrow",
      "needs_review": false
     },
     {
@@ -7333,6 +8670,7 @@
      "type": "supports",
      "raw": "",
      "polarity": "forward",
+     "relation_source": "arrow",
      "needs_review": false
     },
     {
@@ -7341,6 +8679,7 @@
      "type": "supports",
      "raw": "",
      "polarity": "forward",
+     "relation_source": "arrow",
      "needs_review": false
     },
     {
@@ -7349,6 +8688,7 @@
      "type": "supports",
      "raw": "",
      "polarity": "forward",
+     "relation_source": "arrow",
      "needs_review": false
     },
     {
@@ -7357,6 +8697,7 @@
      "type": "supports",
      "raw": "",
      "polarity": "forward",
+     "relation_source": "arrow",
      "needs_review": false
     },
     {
@@ -7365,6 +8706,7 @@
      "type": "licenses",
      "raw": "rule behind it",
      "polarity": "forward",
+     "relation_source": "label",
      "needs_review": false
     },
     {
@@ -7373,6 +8715,7 @@
      "type": "supports",
      "raw": "",
      "polarity": "forward",
+     "relation_source": "arrow",
      "needs_review": false
     },
     {
@@ -7381,6 +8724,7 @@
      "type": "rebuts",
      "raw": "pushes back on",
      "polarity": "pushes_back",
+     "relation_source": "label",
      "needs_review": false
     },
     {
@@ -7389,6 +8733,7 @@
      "type": "qualified_by",
      "raw": "caveat",
      "polarity": "pushes_back",
+     "relation_source": "label",
      "needs_review": false
     },
     {
@@ -7397,12 +8742,68 @@
      "type": "undercut_by",
      "raw": "other explanation",
      "polarity": "pushes_back",
+     "relation_source": "label",
      "needs_review": false
+    },
+    {
+     "from": "Q",
+     "to": "P1",
+     "type": "frames",
+     "raw": "",
+     "polarity": "forward",
+     "relation_source": "layout_operator",
+     "needs_review": false,
+     "relation_level": "fallback",
+     "relation_purity": 0.0
+    },
+    {
+     "from": "Q",
+     "to": "P2",
+     "type": "frames",
+     "raw": "",
+     "polarity": "forward",
+     "relation_source": "layout_operator",
+     "needs_review": false,
+     "relation_level": "fallback",
+     "relation_purity": 0.0
+    },
+    {
+     "from": "Q",
+     "to": "P3",
+     "type": "frames",
+     "raw": "",
+     "polarity": "forward",
+     "relation_source": "layout_operator",
+     "needs_review": false,
+     "relation_level": "fallback",
+     "relation_purity": 0.0
+    },
+    {
+     "from": "P1",
+     "to": "E1",
+     "type": "frames",
+     "raw": "",
+     "polarity": "forward",
+     "relation_source": "layout_operator",
+     "needs_review": false,
+     "relation_level": "fallback",
+     "relation_purity": 0.0
+    },
+    {
+     "from": "P3",
+     "to": "E2",
+     "type": "frames",
+     "raw": "",
+     "polarity": "forward",
+     "relation_source": "layout_operator",
+     "needs_review": false,
+     "relation_level": "fallback",
+     "relation_purity": 0.0
     }
    ],
    "counts": {
     "nodes": 13,
-    "edges": 13,
+    "edges": 18,
     "dropped_nodes": 0
    }
   },
@@ -7653,6 +9054,7 @@
      "type": "supports",
      "raw": "",
      "polarity": "forward",
+     "relation_source": "arrow",
      "needs_review": false
     },
     {
@@ -7661,6 +9063,7 @@
      "type": "supports",
      "raw": "",
      "polarity": "forward",
+     "relation_source": "arrow",
      "needs_review": false
     },
     {
@@ -7669,6 +9072,7 @@
      "type": "supports",
      "raw": "",
      "polarity": "forward",
+     "relation_source": "arrow",
      "needs_review": false
     },
     {
@@ -7677,6 +9081,7 @@
      "type": "supports",
      "raw": "",
      "polarity": "forward",
+     "relation_source": "arrow",
      "needs_review": false
     },
     {
@@ -7685,6 +9090,7 @@
      "type": "supports",
      "raw": "",
      "polarity": "forward",
+     "relation_source": "arrow",
      "needs_review": false
     },
     {
@@ -7693,6 +9099,7 @@
      "type": "supports",
      "raw": "",
      "polarity": "forward",
+     "relation_source": "arrow",
      "needs_review": false
     },
     {
@@ -7701,6 +9108,7 @@
      "type": "supports",
      "raw": "",
      "polarity": "forward",
+     "relation_source": "arrow",
      "needs_review": false
     },
     {
@@ -7709,6 +9117,7 @@
      "type": "supports",
      "raw": "",
      "polarity": "forward",
+     "relation_source": "arrow",
      "needs_review": false
     },
     {
@@ -7717,6 +9126,7 @@
      "type": "supports",
      "raw": "",
      "polarity": "forward",
+     "relation_source": "arrow",
      "needs_review": false
     },
     {
@@ -7725,6 +9135,7 @@
      "type": "supports",
      "raw": "",
      "polarity": "forward",
+     "relation_source": "arrow",
      "needs_review": false
     },
     {
@@ -7733,6 +9144,7 @@
      "type": "supports",
      "raw": "",
      "polarity": "forward",
+     "relation_source": "arrow",
      "needs_review": false
     },
     {
@@ -7741,6 +9153,7 @@
      "type": "licenses",
      "raw": "rule behind it",
      "polarity": "forward",
+     "relation_source": "label",
      "needs_review": false
     },
     {
@@ -7749,6 +9162,7 @@
      "type": "supports",
      "raw": "",
      "polarity": "forward",
+     "relation_source": "arrow",
      "needs_review": false
     },
     {
@@ -7757,6 +9171,7 @@
      "type": "rebuts",
      "raw": "pushes back on",
      "polarity": "pushes_back",
+     "relation_source": "label",
      "needs_review": false
     },
     {
@@ -7765,6 +9180,7 @@
      "type": "qualified_by",
      "raw": "caveat",
      "polarity": "pushes_back",
+     "relation_source": "label",
      "needs_review": false
     },
     {
@@ -7773,12 +9189,68 @@
      "type": "undercut_by",
      "raw": "other explanation",
      "polarity": "pushes_back",
+     "relation_source": "label",
      "needs_review": false
+    },
+    {
+     "from": "Q",
+     "to": "P1",
+     "type": "frames",
+     "raw": "",
+     "polarity": "forward",
+     "relation_source": "layout_operator",
+     "needs_review": false,
+     "relation_level": "fallback",
+     "relation_purity": 0.0
+    },
+    {
+     "from": "Q",
+     "to": "P2",
+     "type": "frames",
+     "raw": "",
+     "polarity": "forward",
+     "relation_source": "layout_operator",
+     "needs_review": false,
+     "relation_level": "fallback",
+     "relation_purity": 0.0
+    },
+    {
+     "from": "Q",
+     "to": "P3",
+     "type": "frames",
+     "raw": "",
+     "polarity": "forward",
+     "relation_source": "layout_operator",
+     "needs_review": false,
+     "relation_level": "fallback",
+     "relation_purity": 0.0
+    },
+    {
+     "from": "P1",
+     "to": "E1",
+     "type": "frames",
+     "raw": "",
+     "polarity": "forward",
+     "relation_source": "layout_operator",
+     "needs_review": false,
+     "relation_level": "fallback",
+     "relation_purity": 0.0
+    },
+    {
+     "from": "P3",
+     "to": "E2",
+     "type": "frames",
+     "raw": "",
+     "polarity": "forward",
+     "relation_source": "layout_operator",
+     "needs_review": false,
+     "relation_level": "fallback",
+     "relation_purity": 0.0
     }
    ],
    "counts": {
     "nodes": 15,
-    "edges": 16,
+    "edges": 21,
     "dropped_nodes": 0
    }
   },
@@ -8015,6 +9487,7 @@
      "type": "supports",
      "raw": "",
      "polarity": "forward",
+     "relation_source": "arrow",
      "needs_review": false
     },
     {
@@ -8023,6 +9496,7 @@
      "type": "supports",
      "raw": "",
      "polarity": "forward",
+     "relation_source": "arrow",
      "needs_review": false
     },
     {
@@ -8031,6 +9505,7 @@
      "type": "supports",
      "raw": "",
      "polarity": "forward",
+     "relation_source": "arrow",
      "needs_review": false
     },
     {
@@ -8039,6 +9514,7 @@
      "type": "supports",
      "raw": "",
      "polarity": "forward",
+     "relation_source": "arrow",
      "needs_review": false
     },
     {
@@ -8047,6 +9523,7 @@
      "type": "supports",
      "raw": "",
      "polarity": "forward",
+     "relation_source": "arrow",
      "needs_review": false
     },
     {
@@ -8055,6 +9532,7 @@
      "type": "supports",
      "raw": "",
      "polarity": "forward",
+     "relation_source": "arrow",
      "needs_review": false
     },
     {
@@ -8063,6 +9541,7 @@
      "type": "supports",
      "raw": "",
      "polarity": "forward",
+     "relation_source": "arrow",
      "needs_review": false
     },
     {
@@ -8071,6 +9550,7 @@
      "type": "supports",
      "raw": "",
      "polarity": "forward",
+     "relation_source": "arrow",
      "needs_review": false
     },
     {
@@ -8079,6 +9559,7 @@
      "type": "supports",
      "raw": "",
      "polarity": "forward",
+     "relation_source": "arrow",
      "needs_review": false
     },
     {
@@ -8087,6 +9568,7 @@
      "type": "licenses",
      "raw": "rule behind it",
      "polarity": "forward",
+     "relation_source": "label",
      "needs_review": false
     },
     {
@@ -8095,6 +9577,7 @@
      "type": "supports",
      "raw": "",
      "polarity": "forward",
+     "relation_source": "arrow",
      "needs_review": false
     },
     {
@@ -8103,6 +9586,7 @@
      "type": "rebuts",
      "raw": "pushes back on",
      "polarity": "pushes_back",
+     "relation_source": "label",
      "needs_review": false
     },
     {
@@ -8111,6 +9595,7 @@
      "type": "qualified_by",
      "raw": "caveat",
      "polarity": "pushes_back",
+     "relation_source": "label",
      "needs_review": false
     },
     {
@@ -8119,12 +9604,68 @@
      "type": "undercut_by",
      "raw": "other explanation",
      "polarity": "pushes_back",
+     "relation_source": "label",
      "needs_review": false
+    },
+    {
+     "from": "Q",
+     "to": "P1",
+     "type": "frames",
+     "raw": "",
+     "polarity": "forward",
+     "relation_source": "layout_operator",
+     "needs_review": false,
+     "relation_level": "fallback",
+     "relation_purity": 0.0
+    },
+    {
+     "from": "Q",
+     "to": "P2",
+     "type": "frames",
+     "raw": "",
+     "polarity": "forward",
+     "relation_source": "layout_operator",
+     "needs_review": false,
+     "relation_level": "fallback",
+     "relation_purity": 0.0
+    },
+    {
+     "from": "Q",
+     "to": "P3",
+     "type": "frames",
+     "raw": "",
+     "polarity": "forward",
+     "relation_source": "layout_operator",
+     "needs_review": false,
+     "relation_level": "fallback",
+     "relation_purity": 0.0
+    },
+    {
+     "from": "P1",
+     "to": "E1",
+     "type": "frames",
+     "raw": "",
+     "polarity": "forward",
+     "relation_source": "layout_operator",
+     "needs_review": false,
+     "relation_level": "fallback",
+     "relation_purity": 0.0
+    },
+    {
+     "from": "P3",
+     "to": "E2",
+     "type": "frames",
+     "raw": "",
+     "polarity": "forward",
+     "relation_source": "layout_operator",
+     "needs_review": false,
+     "relation_level": "fallback",
+     "relation_purity": 0.0
     }
    ],
    "counts": {
     "nodes": 14,
-    "edges": 14,
+    "edges": 19,
     "dropped_nodes": 0
    }
   },
@@ -8375,6 +9916,7 @@
      "type": "supports",
      "raw": "",
      "polarity": "forward",
+     "relation_source": "arrow",
      "needs_review": false
     },
     {
@@ -8383,6 +9925,7 @@
      "type": "supports",
      "raw": "",
      "polarity": "forward",
+     "relation_source": "arrow",
      "needs_review": false
     },
     {
@@ -8391,6 +9934,7 @@
      "type": "supports",
      "raw": "",
      "polarity": "forward",
+     "relation_source": "arrow",
      "needs_review": false
     },
     {
@@ -8399,6 +9943,7 @@
      "type": "supports",
      "raw": "",
      "polarity": "forward",
+     "relation_source": "arrow",
      "needs_review": false
     },
     {
@@ -8407,6 +9952,7 @@
      "type": "supports",
      "raw": "",
      "polarity": "forward",
+     "relation_source": "arrow",
      "needs_review": false
     },
     {
@@ -8415,6 +9961,7 @@
      "type": "supports",
      "raw": "",
      "polarity": "forward",
+     "relation_source": "arrow",
      "needs_review": false
     },
     {
@@ -8423,6 +9970,7 @@
      "type": "supports",
      "raw": "",
      "polarity": "forward",
+     "relation_source": "arrow",
      "needs_review": false
     },
     {
@@ -8431,6 +9979,7 @@
      "type": "supports",
      "raw": "",
      "polarity": "forward",
+     "relation_source": "arrow",
      "needs_review": false
     },
     {
@@ -8439,6 +9988,7 @@
      "type": "supports",
      "raw": "",
      "polarity": "forward",
+     "relation_source": "arrow",
      "needs_review": false
     },
     {
@@ -8447,6 +9997,7 @@
      "type": "supports",
      "raw": "",
      "polarity": "forward",
+     "relation_source": "arrow",
      "needs_review": false
     },
     {
@@ -8455,6 +10006,7 @@
      "type": "licenses",
      "raw": "rule behind it",
      "polarity": "forward",
+     "relation_source": "label",
      "needs_review": false
     },
     {
@@ -8463,6 +10015,7 @@
      "type": "supports",
      "raw": "",
      "polarity": "forward",
+     "relation_source": "arrow",
      "needs_review": false
     },
     {
@@ -8471,6 +10024,7 @@
      "type": "rebuts",
      "raw": "pushes back on",
      "polarity": "pushes_back",
+     "relation_source": "label",
      "needs_review": false
     },
     {
@@ -8479,6 +10033,7 @@
      "type": "qualified_by",
      "raw": "caveat",
      "polarity": "pushes_back",
+     "relation_source": "label",
      "needs_review": false
     },
     {
@@ -8487,12 +10042,68 @@
      "type": "undercut_by",
      "raw": "other explanation",
      "polarity": "pushes_back",
+     "relation_source": "label",
      "needs_review": false
+    },
+    {
+     "from": "Q",
+     "to": "P1",
+     "type": "frames",
+     "raw": "",
+     "polarity": "forward",
+     "relation_source": "layout_operator",
+     "needs_review": false,
+     "relation_level": "fallback",
+     "relation_purity": 0.0
+    },
+    {
+     "from": "Q",
+     "to": "P2",
+     "type": "frames",
+     "raw": "",
+     "polarity": "forward",
+     "relation_source": "layout_operator",
+     "needs_review": false,
+     "relation_level": "fallback",
+     "relation_purity": 0.0
+    },
+    {
+     "from": "Q",
+     "to": "P3",
+     "type": "frames",
+     "raw": "",
+     "polarity": "forward",
+     "relation_source": "layout_operator",
+     "needs_review": false,
+     "relation_level": "fallback",
+     "relation_purity": 0.0
+    },
+    {
+     "from": "P1",
+     "to": "E1",
+     "type": "frames",
+     "raw": "",
+     "polarity": "forward",
+     "relation_source": "layout_operator",
+     "needs_review": false,
+     "relation_level": "fallback",
+     "relation_purity": 0.0
+    },
+    {
+     "from": "P3",
+     "to": "E2",
+     "type": "frames",
+     "raw": "",
+     "polarity": "forward",
+     "relation_source": "layout_operator",
+     "needs_review": false,
+     "relation_level": "fallback",
+     "relation_purity": 0.0
     }
    ],
    "counts": {
     "nodes": 15,
-    "edges": 15,
+    "edges": 20,
     "dropped_nodes": 0
    }
   }

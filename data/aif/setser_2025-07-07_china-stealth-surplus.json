@@ -1,0 +1,472 @@
+{
+ "nodes": [
+  {
+   "nodeID": "290",
+   "text": "Why does China's surplus look small in IMF imbalance data when trade flows show it is huge?",
+   "type": "I",
+   "role": "question",
+   "toulmin": "framing",
+   "oper": "framing",
+   "localID": "setser_2025-07-07_china-stealth-surplus#Q"
+  },
+  {
+   "nodeID": "291",
+   "text": "A large real estate crisis typically pushes a country to rely more on exports (standard economic theory)",
+   "type": "I",
+   "role": "stated_assumption",
+   "toulmin": "warrant",
+   "oper": "warrant.prior",
+   "localID": "setser_2025-07-07_china-stealth-surplus#P1"
+  },
+  {
+   "nodeID": "292",
+   "text": "Customs goods data captures China's real imbalance better than balance of payments data",
+   "type": "I",
+   "role": "stated_assumption",
+   "toulmin": "warrant",
+   "oper": "warrant.prior",
+   "localID": "setser_2025-07-07_china-stealth-surplus#P2"
+  },
+  {
+   "nodeID": "293",
+   "text": "Opaque official statistics that no one can replicate deserve less trust than physical trade flows",
+   "type": "I",
+   "role": "hidden_assumption",
+   "toulmin": "warrant",
+   "oper": "warrant.prior",
+   "localID": "setser_2025-07-07_china-stealth-surplus#P3"
+  },
+  {
+   "nodeID": "294",
+   "text": "China's 2024 current account surplus about $430 billion (just over 2 percent of GDP) versus the EU's $500 billion; goods and services surplus about $650 billion versus the EU's $620 billion; about $4 trillion in net interest-paying foreign assets, yet an investment income deficit of $150 to 200 billion; Chinese customs data show about $400 per phone; net vehicle exports above 6 million",
+   "type": "I",
+   "role": "evidence_data",
+   "toulmin": "grounds",
+   "oper": "grounds",
+   "localID": "setser_2025-07-07_china-stealth-surplus#E1"
+  },
+  {
+   "nodeID": "295",
+   "text": "IMF 2024 Article IV report; China's State Administration of Foreign Exchange argument about Apple; European Central Bank (Philip Lane) analysis of Ireland; Kenneth Rogoff in the IMF's Finance and Development",
+   "type": "I",
+   "role": "evidence_source",
+   "toulmin": "grounds",
+   "oper": "grounds",
+   "localID": "setser_2025-07-07_china-stealth-surplus#E2"
+  },
+  {
+   "nodeID": "296",
+   "text": "An unexplained 2021 break in China's balance of payments goods series and an unexplained investment income deficit shrink China's reported current account",
+   "type": "I",
+   "role": "mechanism",
+   "toulmin": "warrant",
+   "oper": "warrant.mechanism",
+   "localID": "setser_2025-07-07_china-stealth-surplus#M1"
+  },
+  {
+   "nodeID": "297",
+   "text": "U.S. multinationals in Ireland (Apple, pharmaceutical companies) inflate the EU's goods surplus and hide its investment income surplus",
+   "type": "I",
+   "role": "mechanism",
+   "toulmin": "warrant",
+   "oper": "warrant.mechanism",
+   "localID": "setser_2025-07-07_china-stealth-surplus#M2"
+  },
+  {
+   "nodeID": "298",
+   "text": "Current account comparisons based on balance of payments data make Europe, not China, look like the main source of imbalance",
+   "type": "I",
+   "role": "intermediate_claim",
+   "toulmin": "claim",
+   "oper": "claim.step",
+   "localID": "setser_2025-07-07_china-stealth-surplus#C1"
+  },
+  {
+   "nodeID": "299",
+   "text": "The real imbalance is in China; the IMF and G7 should focus there",
+   "type": "I",
+   "role": "main_claim",
+   "toulmin": "claim",
+   "oper": "claim.final",
+   "localID": "setser_2025-07-07_china-stealth-surplus#K"
+  },
+  {
+   "nodeID": "300",
+   "text": "The IMF and analysts using comprehensive goods and services data, who see the EU as the biggest contributor",
+   "type": "I",
+   "role": "opposing_view",
+   "toulmin": "rebuttal",
+   "oper": "rebuttal",
+   "localID": "setser_2025-07-07_china-stealth-surplus#X"
+  },
+  {
+   "nodeID": "301",
+   "text": "Balance of payments adjustments may or may not be more accurate, and some are legitimate (insurance and freight, Airbus)",
+   "type": "I",
+   "role": "caveat",
+   "toulmin": "qualifier",
+   "oper": "qualifier",
+   "localID": "setser_2025-07-07_china-stealth-surplus#QF"
+  },
+  {
+   "nodeID": "302",
+   "text": "China's services deficit, mostly travel, genuinely reduces its surplus",
+   "type": "I",
+   "role": "other_explanation",
+   "toulmin": "rebuttal",
+   "oper": "rebuttal",
+   "localID": "setser_2025-07-07_china-stealth-surplus#R1"
+  },
+  {
+   "nodeID": "1437",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "arrow",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "1440",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "arrow",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "1443",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "arrow",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "1446",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "arrow",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "1449",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "arrow",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "1452",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "arrow",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "1455",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "arrow",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "1458",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "arrow",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "1461",
+   "text": "licenses",
+   "type": "RA",
+   "scheme": "licenses",
+   "relation_source": "label",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "1464",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "arrow",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "1467",
+   "text": "rebuts",
+   "type": "CA",
+   "scheme": "rebuts",
+   "relation_source": "label",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "1470",
+   "text": "qualified_by",
+   "type": "CA",
+   "scheme": "qualified_by",
+   "relation_source": "label",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "1473",
+   "text": "undercut_by",
+   "type": "CA",
+   "scheme": "undercut_by",
+   "relation_source": "label",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "1476",
+   "text": "frames",
+   "type": "RA",
+   "scheme": "frames",
+   "relation_source": "layout_operator",
+   "relation_level": "fallback",
+   "relation_purity": "0.0"
+  },
+  {
+   "nodeID": "1479",
+   "text": "frames",
+   "type": "RA",
+   "scheme": "frames",
+   "relation_source": "layout_operator",
+   "relation_level": "fallback",
+   "relation_purity": "0.0"
+  },
+  {
+   "nodeID": "1482",
+   "text": "frames",
+   "type": "RA",
+   "scheme": "frames",
+   "relation_source": "layout_operator",
+   "relation_level": "fallback",
+   "relation_purity": "0.0"
+  },
+  {
+   "nodeID": "1485",
+   "text": "frames",
+   "type": "RA",
+   "scheme": "frames",
+   "relation_source": "layout_operator",
+   "relation_level": "fallback",
+   "relation_purity": "0.0"
+  },
+  {
+   "nodeID": "1488",
+   "text": "frames",
+   "type": "RA",
+   "scheme": "frames",
+   "relation_source": "layout_operator",
+   "relation_level": "fallback",
+   "relation_purity": "0.0"
+  }
+ ],
+ "edges": [
+  {
+   "edgeID": "1438",
+   "fromID": "291",
+   "toID": "1437"
+  },
+  {
+   "edgeID": "1439",
+   "fromID": "1437",
+   "toID": "298"
+  },
+  {
+   "edgeID": "1441",
+   "fromID": "292",
+   "toID": "1440"
+  },
+  {
+   "edgeID": "1442",
+   "fromID": "1440",
+   "toID": "296"
+  },
+  {
+   "edgeID": "1444",
+   "fromID": "292",
+   "toID": "1443"
+  },
+  {
+   "edgeID": "1445",
+   "fromID": "1443",
+   "toID": "297"
+  },
+  {
+   "edgeID": "1447",
+   "fromID": "294",
+   "toID": "1446"
+  },
+  {
+   "edgeID": "1448",
+   "fromID": "1446",
+   "toID": "296"
+  },
+  {
+   "edgeID": "1450",
+   "fromID": "295",
+   "toID": "1449"
+  },
+  {
+   "edgeID": "1451",
+   "fromID": "1449",
+   "toID": "296"
+  },
+  {
+   "edgeID": "1453",
+   "fromID": "295",
+   "toID": "1452"
+  },
+  {
+   "edgeID": "1454",
+   "fromID": "1452",
+   "toID": "297"
+  },
+  {
+   "edgeID": "1456",
+   "fromID": "296",
+   "toID": "1455"
+  },
+  {
+   "edgeID": "1457",
+   "fromID": "1455",
+   "toID": "298"
+  },
+  {
+   "edgeID": "1459",
+   "fromID": "297",
+   "toID": "1458"
+  },
+  {
+   "edgeID": "1460",
+   "fromID": "1458",
+   "toID": "298"
+  },
+  {
+   "edgeID": "1462",
+   "fromID": "293",
+   "toID": "1461"
+  },
+  {
+   "edgeID": "1463",
+   "fromID": "1461",
+   "toID": "298"
+  },
+  {
+   "edgeID": "1465",
+   "fromID": "298",
+   "toID": "1464"
+  },
+  {
+   "edgeID": "1466",
+   "fromID": "1464",
+   "toID": "299"
+  },
+  {
+   "edgeID": "1468",
+   "fromID": "299",
+   "toID": "1467"
+  },
+  {
+   "edgeID": "1469",
+   "fromID": "1467",
+   "toID": "300"
+  },
+  {
+   "edgeID": "1471",
+   "fromID": "299",
+   "toID": "1470"
+  },
+  {
+   "edgeID": "1472",
+   "fromID": "1470",
+   "toID": "301"
+  },
+  {
+   "edgeID": "1474",
+   "fromID": "296",
+   "toID": "1473"
+  },
+  {
+   "edgeID": "1475",
+   "fromID": "1473",
+   "toID": "302"
+  },
+  {
+   "edgeID": "1477",
+   "fromID": "290",
+   "toID": "1476"
+  },
+  {
+   "edgeID": "1478",
+   "fromID": "1476",
+   "toID": "291"
+  },
+  {
+   "edgeID": "1480",
+   "fromID": "290",
+   "toID": "1479"
+  },
+  {
+   "edgeID": "1481",
+   "fromID": "1479",
+   "toID": "292"
+  },
+  {
+   "edgeID": "1483",
+   "fromID": "290",
+   "toID": "1482"
+  },
+  {
+   "edgeID": "1484",
+   "fromID": "1482",
+   "toID": "293"
+  },
+  {
+   "edgeID": "1486",
+   "fromID": "291",
+   "toID": "1485"
+  },
+  {
+   "edgeID": "1487",
+   "fromID": "1485",
+   "toID": "294"
+  },
+  {
+   "edgeID": "1489",
+   "fromID": "293",
+   "toID": "1488"
+  },
+  {
+   "edgeID": "1490",
+   "fromID": "1488",
+   "toID": "295"
+  }
+ ],
+ "locutions": [],
+ "source": {
+  "doc": "setser_2025-07-07_china-stealth-surplus",
+  "title": "China's Stealth Trade Surplus",
+  "date": "2025-07-07",
+  "url": "https://www.cfr.org/articles/chinas-stealth-trade-surplus"
+ }
+}

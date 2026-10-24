@@ -1,0 +1,391 @@
+# Competency questions, DERIVED from the corpus.
+#
+# A question is SHAPE x INTENT and both halves come from the data:
+#
+#   shape   which facet slots it binds. Taken from the author's own 20
+#           opening questions - every map's L0 node - which reduce to exactly
+#           3 shapes. The hand-written set used 6, three of which he never
+#           asks.
+#   intent  which Toulmin family the answer is drawn from, i.e. the role axis
+#           (scripts/schema_map.yaml role_families).
+#
+# A pair is admitted only if some binding returns >=3 claims across >=2
+# articles, so a question that cannot be answered never enters the set. On
+# this corpus 16 of 24 pairs qualify.
+#
+# WHAT IS AUTHORED HERE, AND IT IS ONLY THIS: the natural-language phrasing
+# per intent ("What does he assume about ..."). The slots, the role buckets,
+# the admission decision and the support counts are all measured.
+#
+# WHY THIS REPLACES A HAND-WRITTEN SET. The old file governs facets.yaml - a
+# term is admitted only when some question needs it - but the questions were
+# themselves written while reading the corpus, which made the governance
+# claim circular. Deriving them from the author's own questions breaks that:
+# the questions are his, the vocabulary answers to them.
+#
+# TO RUN THIS FOR ANOTHER THINKER: annotate their corpus, then re-run the
+# derivation. Nothing here is specific to this author except the measured
+# numbers.
+
+version: 2
+derived_from: the 20 L0 question nodes in mermaid_code/*.mmd
+governs: scripts/facets.yaml
+
+# Two intents are declared by the role axis and have NO support in this
+# corpus, so no question is emitted for them. Recorded because their absence
+# is a finding about the corpus, not an oversight:
+#   backing   4 claims corpus-wide (source_credibility, benchmark)
+#   revision  3 claims corpus-wide (revised_prior) - so "where has he changed
+#             his mind" is aspirational at any useful threshold, though the
+#             old CQ8 claimed to answer it
+unsupported_intents: [backing, revision]
+
+shapes:
+  instrument+variable+where:
+    attested_in_articles: 11   # of 20
+  variable+where:
+    attested_in_articles: 6   # of 20
+  data_basis+variable+where:
+    attested_in_articles: 3   # of 20
+
+rules:
+  # carried over verbatim from version 1: these are design rules about
+  # retrieval, not questions, and the derivation does not touch them.
+
+  one_hop_expansion:
+    rule: >
+      After facet filtering, re-admit nodes within one hop of the filtered set
+      along `supports`, `licenses`, `bounds` and `reconstructs` edges, even when
+      their own facets do not match.
+    why: >
+      A warrant usually does not mention the topic - that is WHY it is
+      unstated. setser_feb_26_20#P1 ("Trade balance = saving - investment") is
+      a hidden assumption carrying no tariff vocabulary at all, yet it is the
+      node that makes the tariff argument work. Pure intersection filtering
+      drops exactly the 12 hidden_assumption nodes that are the most valuable
+      thing in the corpus. Non-negotiable.
+
+  concept_dedup:
+    rule: >
+      Collapse results to the concept layer (scripts/concepts.yaml) before
+      emitting. Return one entry per concept, with every instance attached as a
+      citation, newest first.
+    why: >
+      This, not filtering, is what makes cost flat as the corpus grows. The
+      number of distinct priors a thinker holds saturates while articles
+      accumulate linearly: 43 stated_assumption nodes across 20 articles are
+      perhaps 15 distinct priors. Filtering buys a constant factor; concept
+      dedup buys the asymptote. Currently 9 of 358 nodes carry a concept, so
+      this rule is mostly inert - that is the gap to close next.
+
+  role_buckets_preserved:
+    rule: >
+      Facet filtering narrows the candidate set; it does not change how results
+      are grouped or weighted. Keep the existing LEVELS table in ask.py.
+    why: >
+      The role axis is the finished part of this project. The subject axis is a
+      pre-filter in front of it, not a replacement for it.
+
+  empty_is_an_answer:
+    rule: >
+      When a facet combination matches nothing, say so. Do not widen the query
+      and present the result as if it answered the question.
+    why: >
+      ask.py already has a coverage check guarding exactly this. A topic filter
+      makes the failure mode worse, not better: a narrow query that silently
+      falls back to the whole corpus looks authoritative and is wrong.
+
+  provenance_required:
+    rule: Every returned line keeps its `doc#node_id` and date.
+    why: Non-negotiable property of the existing system; retrieval, not prediction.
+
+questions:
+  - id: DQ1
+    question: Where does he land on how {instrument} affects {variable} in {where}?
+    shape: [instrument, variable, where]
+    intent: claim
+    facets: [instrument, variable, where]
+    role_types: [intermediate_claim, main_claim, policy_reductio, recommendation, reconstruction]
+    retrieval: >
+      instrument = {instrument} AND variable = {variable} AND where = {where}, then role_types, then one_hop_expansion, then concept_dedup
+    support:
+      bindings_over_threshold: 9
+      claims_reachable: 21
+      articles_spanned: 11
+      shape_attested_in: 11   # of his 20 questions
+    widest_binding: {instrument: purchase-commitments, variable: import-volumes, where: china}
+  - id: DQ2
+    question: What question does he pose about how {instrument} affects {variable} in {where}?
+    shape: [instrument, variable, where]
+    intent: framing
+    facets: [instrument, variable, where]
+    role_types: [deferred_question, position_map, question]
+    retrieval: >
+      instrument = {instrument} AND variable = {variable} AND where = {where}, then role_types, then one_hop_expansion, then concept_dedup
+    support:
+      bindings_over_threshold: 6
+      claims_reachable: 8
+      articles_spanned: 7
+      shape_attested_in: 11   # of his 20 questions
+    widest_binding: {instrument: purchase-commitments, variable: bilateral-trade-flows, where: china}
+  - id: DQ3
+    question: What evidence has he cited on how {instrument} affects {variable} in {where}?
+    shape: [instrument, variable, where]
+    intent: grounds
+    facets: [instrument, variable, where]
+    role_types: [evidence_data, evidence_discrepancy, evidence_rival, evidence_source]
+    retrieval: >
+      instrument = {instrument} AND variable = {variable} AND where = {where}, then role_types, then one_hop_expansion, then concept_dedup
+    support:
+      bindings_over_threshold: 5
+      claims_reachable: 11
+      articles_spanned: 7
+      shape_attested_in: 11   # of his 20 questions
+    widest_binding: {instrument: tariffs, variable: import-volumes, where: us}
+  - id: DQ4
+    question: What would he concede about how {instrument} affects {variable} in {where}?
+    shape: [instrument, variable, where]
+    intent: qualifier
+    facets: [instrument, variable, where]
+    role_types: [caveat, scope_choice]
+    retrieval: >
+      instrument = {instrument} AND variable = {variable} AND where = {where}, then role_types, then one_hop_expansion, then concept_dedup
+    support:
+      bindings_over_threshold: 5
+      claims_reachable: 6
+      articles_spanned: 5
+      shape_attested_in: 11   # of his 20 questions
+    widest_binding: {instrument: tariffs, variable: tariff-rate, where: us}
+  - id: DQ5
+    question: Who does he argue against on how {instrument} affects {variable} in {where}, and what is their position?
+    shape: [instrument, variable, where]
+    intent: rebuttal
+    facets: [instrument, variable, where]
+    role_types: [counterpoint, opposing_view, other_explanation]
+    retrieval: >
+      instrument = {instrument} AND variable = {variable} AND where = {where}, then role_types, then one_hop_expansion, then concept_dedup
+    support:
+      bindings_over_threshold: 4
+      claims_reachable: 9
+      articles_spanned: 5
+      shape_attested_in: 11   # of his 20 questions
+    widest_binding: {instrument: purchase-commitments, variable: import-volumes, where: china}
+  - id: DQ6
+    question: What does he assume about how {instrument} affects {variable} in {where}?
+    shape: [instrument, variable, where]
+    intent: warrant
+    facets: [instrument, variable, where]
+    role_types: [accounting_identity, hidden_assumption, mechanism, stated_assumption]
+    retrieval: >
+      instrument = {instrument} AND variable = {variable} AND where = {where}, then role_types, then one_hop_expansion, then concept_dedup
+    support:
+      bindings_over_threshold: 14
+      claims_reachable: 43
+      articles_spanned: 13
+      shape_attested_in: 11   # of his 20 questions
+    widest_binding: {instrument: industrial-policy, variable: import-volumes, where: china}
+    # fixtures carried over from version 1, hand-verified against
+    # the maps. They are the only regression test this set has.
+    from_v1: [CQ2]
+    examples:
+      - binding: {instrument: tariffs, variable: goods-trade-balance, country: us}
+        must_return:
+          - setser_feb_26_20#M1
+          - setser_feb_26_20#M2
+          - setser_feb_26_20#M3
+          - setser_2025-09-12_trump-shock-that-wasnt#M4
+          - setser_2026-02-03_october-2025-deficit#M2
+        must_not_return:
+          - setser_mar_31_20#M2
+  - id: DQ7
+    question: Where does he land on {variable} in {where}?
+    shape: [variable, where]
+    intent: claim
+    facets: [variable, where]
+    role_types: [intermediate_claim, main_claim, policy_reductio, recommendation, reconstruction]
+    retrieval: >
+      variable = {variable} AND where = {where}, then role_types, then one_hop_expansion, then concept_dedup
+    support:
+      bindings_over_threshold: 16
+      claims_reachable: 58
+      articles_spanned: 19
+      shape_attested_in: 6   # of his 20 questions
+    widest_binding: {variable: current-account, where: china}
+  - id: DQ8
+    question: What question does he pose about {variable} in {where}?
+    shape: [variable, where]
+    intent: framing
+    facets: [variable, where]
+    role_types: [deferred_question, position_map, question]
+    retrieval: >
+      variable = {variable} AND where = {where}, then role_types, then one_hop_expansion, then concept_dedup
+    support:
+      bindings_over_threshold: 9
+      claims_reachable: 19
+      articles_spanned: 17
+      shape_attested_in: 6   # of his 20 questions
+    widest_binding: {variable: goods-trade-balance, where: us}
+  - id: DQ9
+    question: What evidence has he cited on {variable} in {where}?
+    shape: [variable, where]
+    intent: grounds
+    facets: [variable, where]
+    role_types: [evidence_data, evidence_discrepancy, evidence_rival, evidence_source]
+    retrieval: >
+      variable = {variable} AND where = {where}, then role_types, then one_hop_expansion, then concept_dedup
+    support:
+      bindings_over_threshold: 23
+      claims_reachable: 68
+      articles_spanned: 19
+      shape_attested_in: 6   # of his 20 questions
+    widest_binding: {variable: import-volumes, where: us}
+  - id: DQ10
+    question: What would he concede about {variable} in {where}?
+    shape: [variable, where]
+    intent: qualifier
+    facets: [variable, where]
+    role_types: [caveat, scope_choice]
+    retrieval: >
+      variable = {variable} AND where = {where}, then role_types, then one_hop_expansion, then concept_dedup
+    support:
+      bindings_over_threshold: 6
+      claims_reachable: 15
+      articles_spanned: 11
+      shape_attested_in: 6   # of his 20 questions
+    widest_binding: {variable: import-volumes, where: us}
+  - id: DQ11
+    question: Who does he argue against on {variable} in {where}, and what is their position?
+    shape: [variable, where]
+    intent: rebuttal
+    facets: [variable, where]
+    role_types: [counterpoint, opposing_view, other_explanation]
+    retrieval: >
+      variable = {variable} AND where = {where}, then role_types, then one_hop_expansion, then concept_dedup
+    support:
+      bindings_over_threshold: 8
+      claims_reachable: 27
+      articles_spanned: 17
+      shape_attested_in: 6   # of his 20 questions
+    widest_binding: {variable: goods-trade-balance, where: us}
+    # fixtures carried over from version 1, hand-verified against
+    # the maps. They are the only regression test this set has.
+    from_v1: [CQ9]
+    examples:
+      - binding: {variable: current-account, country: china}
+        must_return:
+          - setser_2025-07-07_china-stealth-surplus#X
+          - setser_mar_10_24#X
+          - setser_2025-11-12_china-surplus-imf#X
+          - setser_aug_14_24#X
+  - id: DQ12
+    question: What does he assume about {variable} in {where}?
+    shape: [variable, where]
+    intent: warrant
+    facets: [variable, where]
+    role_types: [accounting_identity, hidden_assumption, mechanism, stated_assumption]
+    retrieval: >
+      variable = {variable} AND where = {where}, then role_types, then one_hop_expansion, then concept_dedup
+    support:
+      bindings_over_threshold: 28
+      claims_reachable: 96
+      articles_spanned: 19
+      shape_attested_in: 6   # of his 20 questions
+    widest_binding: {variable: import-volumes, where: us}
+    # fixtures carried over from version 1, hand-verified against
+    # the maps. They are the only regression test this set has.
+    from_v1: [CQ1, CQ4]
+    examples:
+      - binding: {variable: current-account, country: china}
+        must_return:
+          - setser_2025-07-07_china-stealth-surplus#P2
+          - setser_2025-07-07_china-stealth-surplus#P3
+          - setser_aug_14_24#P1
+          - setser_aug_14_24#P2
+          - setser_2025-11-12_china-surplus-imf#P1
+          - setser_sep_20_19#P3
+        must_not_return:
+          - setser_mar_31_20#P2
+      - binding: {shape: bilateral, country_subject: us, country_counterpart: china}
+        must_return:
+          - setser_jun_14_19#P2
+          - setser_jun_14_19#K
+          - setser_mar_10_24#P1
+          - setser_2025-09-12_trump-shock-that-wasnt#M2
+        must_not_return:
+          - setser_sep_20_19#P1
+  - id: DQ13
+    question: Where does he land on {variable} in {where} as measured on {data_basis}?
+    shape: [data_basis, variable, where]
+    intent: claim
+    facets: [data_basis, variable, where]
+    role_types: [intermediate_claim, main_claim, policy_reductio, recommendation, reconstruction]
+    retrieval: >
+      data_basis = {data_basis} AND variable = {variable} AND where = {where}, then role_types, then one_hop_expansion, then concept_dedup
+    support:
+      bindings_over_threshold: 3
+      claims_reachable: 10
+      articles_spanned: 4
+      shape_attested_in: 3   # of his 20 questions
+    widest_binding: {data_basis: balance-of-payments, variable: current-account, where: china}
+  - id: DQ14
+    question: What evidence has he cited on {variable} in {where} as measured on {data_basis}?
+    shape: [data_basis, variable, where]
+    intent: grounds
+    facets: [data_basis, variable, where]
+    role_types: [evidence_data, evidence_discrepancy, evidence_rival, evidence_source]
+    retrieval: >
+      data_basis = {data_basis} AND variable = {variable} AND where = {where}, then role_types, then one_hop_expansion, then concept_dedup
+    support:
+      bindings_over_threshold: 9
+      claims_reachable: 23
+      articles_spanned: 13
+      shape_attested_in: 3   # of his 20 questions
+    widest_binding: {data_basis: customs, variable: export-volumes, where: china}
+    # fixtures carried over from version 1, hand-verified against
+    # the maps. They are the only regression test this set has.
+    from_v1: [CQ3, CQ6]
+    examples:
+      - binding: {variable: manufacturing-trade-balance, country: china}
+        must_return:
+          - setser_mar_10_24#E1
+          - setser_mar_10_24#E4
+          - setser_2025-11-12_china-surplus-imf#E1
+          - setser_aug_13_19#D6
+          - setser_may_10_19#D6
+      - binding: {variable: current-account, data_basis: balance-of-payments, country: china}
+        must_return:
+          - setser_aug_14_24#E3
+          - setser_aug_14_24#E4
+          - setser_aug_14_24#M1
+          - setser_aug_14_24#M2
+          - setser_aug_14_24#SC
+          - setser_2025-07-07_china-stealth-surplus#M1
+          - setser_mar_10_24#E4
+  - id: DQ15
+    question: Who does he argue against on {variable} in {where} as measured on {data_basis}, and what is their position?
+    shape: [data_basis, variable, where]
+    intent: rebuttal
+    facets: [data_basis, variable, where]
+    role_types: [counterpoint, opposing_view, other_explanation]
+    retrieval: >
+      data_basis = {data_basis} AND variable = {variable} AND where = {where}, then role_types, then one_hop_expansion, then concept_dedup
+    support:
+      bindings_over_threshold: 2
+      claims_reachable: 4
+      articles_spanned: 4
+      shape_attested_in: 3   # of his 20 questions
+    widest_binding: {data_basis: imf-publications, variable: current-account, where: china}
+  - id: DQ16
+    question: What does he assume about {variable} in {where} as measured on {data_basis}?
+    shape: [data_basis, variable, where]
+    intent: warrant
+    facets: [data_basis, variable, where]
+    role_types: [accounting_identity, hidden_assumption, mechanism, stated_assumption]
+    retrieval: >
+      data_basis = {data_basis} AND variable = {variable} AND where = {where}, then role_types, then one_hop_expansion, then concept_dedup
+    support:
+      bindings_over_threshold: 5
+      claims_reachable: 12
+      articles_spanned: 5
+      shape_attested_in: 3   # of his 20 questions
+    widest_binding: {data_basis: balance-of-payments, variable: current-account, where: china}

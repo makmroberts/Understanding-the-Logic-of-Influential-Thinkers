@@ -1,0 +1,500 @@
+{
+ "nodes": [
+  {
+   "nodeID": "331",
+   "text": "How big is China's surplus really, why does the IMF miss it, and what policy should follow?",
+   "type": "I",
+   "role": "question",
+   "toulmin": "framing",
+   "oper": "framing",
+   "localID": "setser_2025-11-12_china-surplus-imf#Q"
+  },
+  {
+   "nodeID": "332",
+   "text": "The surplus stems from a shortfall in China's domestic demand (European Central Bank view)",
+   "type": "I",
+   "role": "stated_assumption",
+   "toulmin": "warrant",
+   "oper": "warrant.prior",
+   "localID": "setser_2025-11-12_china-surplus-imf#P1"
+  },
+  {
+   "nodeID": "333",
+   "text": "Deflation combined with a rising trade surplus calls for sustained fiscal expansion, not monetary easing",
+   "type": "I",
+   "role": "stated_assumption",
+   "toulmin": "warrant",
+   "oper": "warrant.prior",
+   "localID": "setser_2025-11-12_china-surplus-imf#P2"
+  },
+  {
+   "nodeID": "334",
+   "text": "External balance is a legitimate policy target; exporting your way out of a slump imposes costs on other countries",
+   "type": "I",
+   "role": "hidden_assumption",
+   "toulmin": "warrant",
+   "oper": "warrant.prior",
+   "localID": "setser_2025-11-12_china-surplus-imf#P3"
+  },
+  {
+   "nodeID": "335",
+   "text": "Export volumes up 40 percent since end-2019 versus imports up 1 percent; manufactured goods surplus over $2 trillion (about 10.5 percent of GDP); goods surplus $1.2 trillion; car exports over 6 million, heading toward 8 million in 2026; current account surplus 2.2 percent of GDP versus the EU's 2.6 percent; IMF forecast a 2025 surplus of $375 billion, while the actual tops $650 billion through the third quarter",
+   "type": "I",
+   "role": "evidence_data",
+   "toulmin": "grounds",
+   "oper": "grounds",
+   "localID": "setser_2025-11-12_china-surplus-imf#E1"
+  },
+  {
+   "nodeID": "336",
+   "text": "IMF External Sector Report 2025, October World Economic Outlook and 2024 Article IV report; European Central Bank analysis; Netherlands Bureau for Economic Policy Analysis export volume data; Microsoft annual report",
+   "type": "I",
+   "role": "evidence_source",
+   "toulmin": "grounds",
+   "oper": "grounds",
+   "localID": "setser_2025-11-12_china-surplus-imf#E2"
+  },
+  {
+   "nodeID": "337",
+   "text": "Weak domestic demand leaves spare capacity for exports; rate cuts lower yields and weaken the yuan, widening the surplus",
+   "type": "I",
+   "role": "mechanism",
+   "toulmin": "warrant",
+   "oper": "warrant.mechanism",
+   "localID": "setser_2025-11-12_china-surplus-imf#M1"
+  },
+  {
+   "nodeID": "338",
+   "text": "The 2022 balance of payments methodology and the unexplained income deficit each cut about 1 percentage point of GDP from the reported current account surplus",
+   "type": "I",
+   "role": "mechanism",
+   "toulmin": "warrant",
+   "oper": "warrant.mechanism",
+   "localID": "setser_2025-11-12_china-surplus-imf#M2"
+  },
+  {
+   "nodeID": "339",
+   "text": "Relying only on the reported current account frames China's problem as purely internal, so the IMF prescribes monetary easing",
+   "type": "I",
+   "role": "mechanism",
+   "toulmin": "warrant",
+   "oper": "warrant.mechanism",
+   "localID": "setser_2025-11-12_china-surplus-imf#M3"
+  },
+  {
+   "nodeID": "340",
+   "text": "China's surplus is massive and growing, yet IMF policy advice effectively lets China export its way out of its housing slump",
+   "type": "I",
+   "role": "intermediate_claim",
+   "toulmin": "claim",
+   "oper": "claim.step",
+   "localID": "setser_2025-11-12_china-surplus-imf#C1"
+  },
+  {
+   "nodeID": "341",
+   "text": "The IMF should recognize China's external imbalance and call for a fiscal expansion funded by the central government",
+   "type": "I",
+   "role": "main_claim",
+   "toulmin": "claim",
+   "oper": "claim.final",
+   "localID": "setser_2025-11-12_china-surplus-imf#K"
+  },
+  {
+   "nodeID": "342",
+   "text": "The IMF's framing; the argument that Europe's surplus is almost as big",
+   "type": "I",
+   "role": "opposing_view",
+   "toulmin": "rebuttal",
+   "oper": "rebuttal",
+   "localID": "setser_2025-11-12_china-surplus-imf#X"
+  },
+  {
+   "nodeID": "343",
+   "text": "China's GDP data are too thin to confirm the net export math; the IMF does support pro-consumption structural reforms",
+   "type": "I",
+   "role": "caveat",
+   "toulmin": "qualifier",
+   "oper": "qualifier",
+   "localID": "setser_2025-11-12_china-surplus-imf#QF"
+  },
+  {
+   "nodeID": "344",
+   "text": "Ireland distorts European data; IMF forecast misses come from ignoring lagged exchange rate effects and treating the pandemic surge as temporary",
+   "type": "I",
+   "role": "other_explanation",
+   "toulmin": "rebuttal",
+   "oper": "rebuttal",
+   "localID": "setser_2025-11-12_china-surplus-imf#R1"
+  },
+  {
+   "nodeID": "1608",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "arrow",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "1611",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "arrow",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "1614",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "arrow",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "1617",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "arrow",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "1620",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "arrow",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "1623",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "arrow",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "1626",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "arrow",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "1629",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "arrow",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "1632",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "arrow",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "1635",
+   "text": "licenses",
+   "type": "RA",
+   "scheme": "licenses",
+   "relation_source": "label",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "1638",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "arrow",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "1641",
+   "text": "rebuts",
+   "type": "CA",
+   "scheme": "rebuts",
+   "relation_source": "label",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "1644",
+   "text": "qualified_by",
+   "type": "CA",
+   "scheme": "qualified_by",
+   "relation_source": "label",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "1647",
+   "text": "undercut_by",
+   "type": "CA",
+   "scheme": "undercut_by",
+   "relation_source": "label",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "1650",
+   "text": "frames",
+   "type": "RA",
+   "scheme": "frames",
+   "relation_source": "layout_operator",
+   "relation_level": "fallback",
+   "relation_purity": "0.0"
+  },
+  {
+   "nodeID": "1653",
+   "text": "frames",
+   "type": "RA",
+   "scheme": "frames",
+   "relation_source": "layout_operator",
+   "relation_level": "fallback",
+   "relation_purity": "0.0"
+  },
+  {
+   "nodeID": "1656",
+   "text": "frames",
+   "type": "RA",
+   "scheme": "frames",
+   "relation_source": "layout_operator",
+   "relation_level": "fallback",
+   "relation_purity": "0.0"
+  },
+  {
+   "nodeID": "1659",
+   "text": "frames",
+   "type": "RA",
+   "scheme": "frames",
+   "relation_source": "layout_operator",
+   "relation_level": "fallback",
+   "relation_purity": "0.0"
+  },
+  {
+   "nodeID": "1662",
+   "text": "frames",
+   "type": "RA",
+   "scheme": "frames",
+   "relation_source": "layout_operator",
+   "relation_level": "fallback",
+   "relation_purity": "0.0"
+  }
+ ],
+ "edges": [
+  {
+   "edgeID": "1609",
+   "fromID": "332",
+   "toID": "1608"
+  },
+  {
+   "edgeID": "1610",
+   "fromID": "1608",
+   "toID": "337"
+  },
+  {
+   "edgeID": "1612",
+   "fromID": "335",
+   "toID": "1611"
+  },
+  {
+   "edgeID": "1613",
+   "fromID": "1611",
+   "toID": "337"
+  },
+  {
+   "edgeID": "1615",
+   "fromID": "335",
+   "toID": "1614"
+  },
+  {
+   "edgeID": "1616",
+   "fromID": "1614",
+   "toID": "338"
+  },
+  {
+   "edgeID": "1618",
+   "fromID": "336",
+   "toID": "1617"
+  },
+  {
+   "edgeID": "1619",
+   "fromID": "1617",
+   "toID": "338"
+  },
+  {
+   "edgeID": "1621",
+   "fromID": "336",
+   "toID": "1620"
+  },
+  {
+   "edgeID": "1622",
+   "fromID": "1620",
+   "toID": "339"
+  },
+  {
+   "edgeID": "1624",
+   "fromID": "338",
+   "toID": "1623"
+  },
+  {
+   "edgeID": "1625",
+   "fromID": "1623",
+   "toID": "339"
+  },
+  {
+   "edgeID": "1627",
+   "fromID": "337",
+   "toID": "1626"
+  },
+  {
+   "edgeID": "1628",
+   "fromID": "1626",
+   "toID": "340"
+  },
+  {
+   "edgeID": "1630",
+   "fromID": "339",
+   "toID": "1629"
+  },
+  {
+   "edgeID": "1631",
+   "fromID": "1629",
+   "toID": "340"
+  },
+  {
+   "edgeID": "1633",
+   "fromID": "333",
+   "toID": "1632"
+  },
+  {
+   "edgeID": "1634",
+   "fromID": "1632",
+   "toID": "341"
+  },
+  {
+   "edgeID": "1636",
+   "fromID": "334",
+   "toID": "1635"
+  },
+  {
+   "edgeID": "1637",
+   "fromID": "1635",
+   "toID": "340"
+  },
+  {
+   "edgeID": "1639",
+   "fromID": "340",
+   "toID": "1638"
+  },
+  {
+   "edgeID": "1640",
+   "fromID": "1638",
+   "toID": "341"
+  },
+  {
+   "edgeID": "1642",
+   "fromID": "341",
+   "toID": "1641"
+  },
+  {
+   "edgeID": "1643",
+   "fromID": "1641",
+   "toID": "342"
+  },
+  {
+   "edgeID": "1645",
+   "fromID": "341",
+   "toID": "1644"
+  },
+  {
+   "edgeID": "1646",
+   "fromID": "1644",
+   "toID": "343"
+  },
+  {
+   "edgeID": "1648",
+   "fromID": "339",
+   "toID": "1647"
+  },
+  {
+   "edgeID": "1649",
+   "fromID": "1647",
+   "toID": "344"
+  },
+  {
+   "edgeID": "1651",
+   "fromID": "331",
+   "toID": "1650"
+  },
+  {
+   "edgeID": "1652",
+   "fromID": "1650",
+   "toID": "332"
+  },
+  {
+   "edgeID": "1654",
+   "fromID": "331",
+   "toID": "1653"
+  },
+  {
+   "edgeID": "1655",
+   "fromID": "1653",
+   "toID": "333"
+  },
+  {
+   "edgeID": "1657",
+   "fromID": "331",
+   "toID": "1656"
+  },
+  {
+   "edgeID": "1658",
+   "fromID": "1656",
+   "toID": "334"
+  },
+  {
+   "edgeID": "1660",
+   "fromID": "332",
+   "toID": "1659"
+  },
+  {
+   "edgeID": "1661",
+   "fromID": "1659",
+   "toID": "335"
+  },
+  {
+   "edgeID": "1663",
+   "fromID": "334",
+   "toID": "1662"
+  },
+  {
+   "edgeID": "1664",
+   "fromID": "1662",
+   "toID": "336"
+  }
+ ],
+ "locutions": [],
+ "source": {
+  "doc": "setser_2025-11-12_china-surplus-imf",
+  "title": "China's Massive Surplus is Everywhere (Yet The IMF Still Has Trouble Seeing It Clearly)",
+  "date": "2025-11-12",
+  "url": "https://www.cfr.org/articles/chinas-massive-surplus-everywhere-yet-imf-still-has-trouble-seeing-it-clearly"
+ }
+}

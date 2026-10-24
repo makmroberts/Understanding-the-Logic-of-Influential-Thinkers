@@ -1,0 +1,781 @@
+{
+ "nodes": [
+  {
+   "nodeID": "109",
+   "text": "Why did China's tariffs devastate some U.S. exports but have limited effects on others?",
+   "type": "I",
+   "role": "question",
+   "toulmin": "framing",
+   "oper": "framing",
+   "localID": "setser_jun_14_19#Q"
+  },
+  {
+   "nodeID": "110",
+   "text": "Substitution and market structure determine the aggregate impact",
+   "type": "I",
+   "role": "stated_assumption",
+   "toulmin": "warrant",
+   "oper": "warrant.prior",
+   "localID": "setser_jun_14_19#P1"
+  },
+  {
+   "nodeID": "111",
+   "text": "Lost sales to China may be redirected elsewhere",
+   "type": "I",
+   "role": "stated_assumption",
+   "toulmin": "warrant",
+   "oper": "warrant.prior",
+   "localID": "setser_jun_14_19#P2"
+  },
+  {
+   "nodeID": "112",
+   "text": "China cannot easily stop buying essential imports",
+   "type": "I",
+   "role": "stated_assumption",
+   "toulmin": "warrant",
+   "oper": "warrant.prior",
+   "localID": "setser_jun_14_19#P3"
+  },
+  {
+   "nodeID": "113",
+   "text": "Much larger decline than manufacturing exports",
+   "type": "I",
+   "role": "evidence_data",
+   "toulmin": "grounds",
+   "oper": "grounds",
+   "localID": "setser_jun_14_19#D1"
+  },
+  {
+   "nodeID": "114",
+   "text": "Farmers could not replace lost Chinese demand elsewhere",
+   "type": "I",
+   "role": "evidence_data",
+   "toulmin": "grounds",
+   "oper": "grounds",
+   "localID": "setser_jun_14_19#D2"
+  },
+  {
+   "nodeID": "115",
+   "text": "But total U.S. oil exports were largely unaffected",
+   "type": "I",
+   "role": "evidence_data",
+   "toulmin": "grounds",
+   "oper": "grounds",
+   "localID": "setser_jun_14_19#D3"
+  },
+  {
+   "nodeID": "116",
+   "text": "Exports fell, then rebounded when China suspended it",
+   "type": "I",
+   "role": "evidence_data",
+   "toulmin": "grounds",
+   "oper": "grounds",
+   "localID": "setser_jun_14_19#D4"
+  },
+  {
+   "nodeID": "117",
+   "text": "Aggregate exports show little obvious tariff break",
+   "type": "I",
+   "role": "evidence_data",
+   "toulmin": "grounds",
+   "oper": "grounds",
+   "localID": "setser_jun_14_19#D5"
+  },
+  {
+   "nodeID": "118",
+   "text": "Aircraft and export-related inputs are poor retaliation targets",
+   "type": "I",
+   "role": "evidence_data",
+   "toulmin": "grounds",
+   "oper": "grounds",
+   "localID": "setser_jun_14_19#D6"
+  },
+  {
+   "nodeID": "119",
+   "text": "Lost Chinese demand becomes lost total exports",
+   "type": "I",
+   "role": "mechanism",
+   "toulmin": "warrant",
+   "oper": "warrant.mechanism",
+   "localID": "setser_jun_14_19#M1"
+  },
+  {
+   "nodeID": "120",
+   "text": "Sales shift markets without reducing total exports",
+   "type": "I",
+   "role": "mechanism",
+   "toulmin": "warrant",
+   "oper": "warrant.mechanism",
+   "localID": "setser_jun_14_19#M2"
+  },
+  {
+   "nodeID": "121",
+   "text": "Chinese firms continue buying needed U.S. goods",
+   "type": "I",
+   "role": "mechanism",
+   "toulmin": "warrant",
+   "oper": "warrant.mechanism",
+   "localID": "setser_jun_14_19#M3"
+  },
+  {
+   "nodeID": "122",
+   "text": "Domestic sales or localization cushion production",
+   "type": "I",
+   "role": "mechanism",
+   "toulmin": "warrant",
+   "oper": "warrant.mechanism",
+   "localID": "setser_jun_14_19#M4"
+  },
+  {
+   "nodeID": "123",
+   "text": "Bilateral losses became aggregate export losses",
+   "type": "I",
+   "role": "intermediate_claim",
+   "toulmin": "claim",
+   "oper": "claim.step",
+   "localID": "setser_jun_14_19#C1"
+  },
+  {
+   "nodeID": "124",
+   "text": "Bilateral trade fell without much aggregate effect",
+   "type": "I",
+   "role": "intermediate_claim",
+   "toulmin": "claim",
+   "oper": "claim.step",
+   "localID": "setser_jun_14_19#C2"
+  },
+  {
+   "nodeID": "125",
+   "text": "China had limited leverage in several key sectors",
+   "type": "I",
+   "role": "intermediate_claim",
+   "toulmin": "claim",
+   "oper": "claim.step",
+   "localID": "setser_jun_14_19#C3"
+  },
+  {
+   "nodeID": "126",
+   "text": "Sector structure changes the transmission",
+   "type": "I",
+   "role": "intermediate_claim",
+   "toulmin": "claim",
+   "oper": "claim.step",
+   "localID": "setser_jun_14_19#C4"
+  },
+  {
+   "nodeID": "127",
+   "text": "The economic effect of tariffs depends heavily on substitution possibilities and sector structure",
+   "type": "I",
+   "role": "main_claim",
+   "toulmin": "claim",
+   "oper": "claim.final",
+   "localID": "setser_jun_14_19#K"
+  },
+  {
+   "nodeID": "128",
+   "text": "China had not tariffed all major U.S. manufacturing exports",
+   "type": "I",
+   "role": "caveat",
+   "toulmin": "qualifier",
+   "oper": "qualifier",
+   "localID": "setser_jun_14_19#QF1"
+  },
+  {
+   "nodeID": "129",
+   "text": "China may have preserved targets for future retaliation",
+   "type": "I",
+   "role": "caveat",
+   "toulmin": "qualifier",
+   "oper": "qualifier",
+   "localID": "setser_jun_14_19#QF2"
+  },
+  {
+   "nodeID": "130",
+   "text": "SUV demand and production localization also affected output",
+   "type": "I",
+   "role": "counterpoint",
+   "toulmin": "rebuttal",
+   "oper": "rebuttal",
+   "localID": "setser_jun_14_19#R1"
+  },
+  {
+   "nodeID": "816",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "arrow",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "819",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "arrow",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "822",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "arrow",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "825",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "arrow",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "828",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "arrow",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "831",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "arrow",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "834",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "arrow",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "837",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "arrow",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "840",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "arrow",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "843",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "arrow",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "846",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "arrow",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "849",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "arrow",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "852",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "arrow",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "855",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "arrow",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "858",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "arrow",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "861",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "arrow",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "864",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "arrow",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "867",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "arrow",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "870",
+   "text": "qualified_by",
+   "type": "CA",
+   "scheme": "qualified_by",
+   "relation_source": "label",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "873",
+   "text": "undercut_by",
+   "type": "CA",
+   "scheme": "undercut_by",
+   "relation_source": "label",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "876",
+   "text": "undercut_by",
+   "type": "CA",
+   "scheme": "undercut_by",
+   "relation_source": "label",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "879",
+   "text": "frames",
+   "type": "RA",
+   "scheme": "frames",
+   "relation_source": "layout_operator",
+   "relation_level": "fallback",
+   "relation_purity": "0.0"
+  },
+  {
+   "nodeID": "882",
+   "text": "frames",
+   "type": "RA",
+   "scheme": "frames",
+   "relation_source": "layout_operator",
+   "relation_level": "fallback",
+   "relation_purity": "0.0"
+  },
+  {
+   "nodeID": "885",
+   "text": "frames",
+   "type": "RA",
+   "scheme": "frames",
+   "relation_source": "layout_operator",
+   "relation_level": "fallback",
+   "relation_purity": "0.0"
+  },
+  {
+   "nodeID": "888",
+   "text": "frames",
+   "type": "RA",
+   "scheme": "frames",
+   "relation_source": "layout_operator",
+   "relation_level": "fallback",
+   "relation_purity": "0.0"
+  },
+  {
+   "nodeID": "891",
+   "text": "frames",
+   "type": "RA",
+   "scheme": "frames",
+   "relation_source": "layout_operator",
+   "relation_level": "fallback",
+   "relation_purity": "0.0"
+  },
+  {
+   "nodeID": "894",
+   "text": "frames",
+   "type": "RA",
+   "scheme": "frames",
+   "relation_source": "layout_operator",
+   "relation_level": "fallback",
+   "relation_purity": "0.0"
+  },
+  {
+   "nodeID": "897",
+   "text": "frames",
+   "type": "RA",
+   "scheme": "frames",
+   "relation_source": "layout_operator",
+   "relation_level": "fallback",
+   "relation_purity": "0.0"
+  },
+  {
+   "nodeID": "900",
+   "text": "frames",
+   "type": "RA",
+   "scheme": "frames",
+   "relation_source": "layout_operator",
+   "relation_level": "fallback",
+   "relation_purity": "0.0"
+  },
+  {
+   "nodeID": "903",
+   "text": "frames",
+   "type": "RA",
+   "scheme": "frames",
+   "relation_source": "layout_operator",
+   "relation_level": "fallback",
+   "relation_purity": "0.0"
+  }
+ ],
+ "edges": [
+  {
+   "edgeID": "817",
+   "fromID": "110",
+   "toID": "816"
+  },
+  {
+   "edgeID": "818",
+   "fromID": "816",
+   "toID": "119"
+  },
+  {
+   "edgeID": "820",
+   "fromID": "110",
+   "toID": "819"
+  },
+  {
+   "edgeID": "821",
+   "fromID": "819",
+   "toID": "120"
+  },
+  {
+   "edgeID": "823",
+   "fromID": "111",
+   "toID": "822"
+  },
+  {
+   "edgeID": "824",
+   "fromID": "822",
+   "toID": "120"
+  },
+  {
+   "edgeID": "826",
+   "fromID": "112",
+   "toID": "825"
+  },
+  {
+   "edgeID": "827",
+   "fromID": "825",
+   "toID": "121"
+  },
+  {
+   "edgeID": "829",
+   "fromID": "114",
+   "toID": "828"
+  },
+  {
+   "edgeID": "830",
+   "fromID": "828",
+   "toID": "119"
+  },
+  {
+   "edgeID": "832",
+   "fromID": "119",
+   "toID": "831"
+  },
+  {
+   "edgeID": "833",
+   "fromID": "831",
+   "toID": "123"
+  },
+  {
+   "edgeID": "835",
+   "fromID": "115",
+   "toID": "834"
+  },
+  {
+   "edgeID": "836",
+   "fromID": "834",
+   "toID": "120"
+  },
+  {
+   "edgeID": "838",
+   "fromID": "120",
+   "toID": "837"
+  },
+  {
+   "edgeID": "839",
+   "fromID": "837",
+   "toID": "124"
+  },
+  {
+   "edgeID": "841",
+   "fromID": "117",
+   "toID": "840"
+  },
+  {
+   "edgeID": "842",
+   "fromID": "840",
+   "toID": "121"
+  },
+  {
+   "edgeID": "844",
+   "fromID": "118",
+   "toID": "843"
+  },
+  {
+   "edgeID": "845",
+   "fromID": "843",
+   "toID": "121"
+  },
+  {
+   "edgeID": "847",
+   "fromID": "121",
+   "toID": "846"
+  },
+  {
+   "edgeID": "848",
+   "fromID": "846",
+   "toID": "125"
+  },
+  {
+   "edgeID": "850",
+   "fromID": "116",
+   "toID": "849"
+  },
+  {
+   "edgeID": "851",
+   "fromID": "849",
+   "toID": "122"
+  },
+  {
+   "edgeID": "853",
+   "fromID": "122",
+   "toID": "852"
+  },
+  {
+   "edgeID": "854",
+   "fromID": "852",
+   "toID": "125"
+  },
+  {
+   "edgeID": "856",
+   "fromID": "113",
+   "toID": "855"
+  },
+  {
+   "edgeID": "857",
+   "fromID": "855",
+   "toID": "126"
+  },
+  {
+   "edgeID": "859",
+   "fromID": "123",
+   "toID": "858"
+  },
+  {
+   "edgeID": "860",
+   "fromID": "858",
+   "toID": "126"
+  },
+  {
+   "edgeID": "862",
+   "fromID": "124",
+   "toID": "861"
+  },
+  {
+   "edgeID": "863",
+   "fromID": "861",
+   "toID": "126"
+  },
+  {
+   "edgeID": "865",
+   "fromID": "125",
+   "toID": "864"
+  },
+  {
+   "edgeID": "866",
+   "fromID": "864",
+   "toID": "126"
+  },
+  {
+   "edgeID": "868",
+   "fromID": "126",
+   "toID": "867"
+  },
+  {
+   "edgeID": "869",
+   "fromID": "867",
+   "toID": "127"
+  },
+  {
+   "edgeID": "871",
+   "fromID": "125",
+   "toID": "870"
+  },
+  {
+   "edgeID": "872",
+   "fromID": "870",
+   "toID": "128"
+  },
+  {
+   "edgeID": "874",
+   "fromID": "125",
+   "toID": "873"
+  },
+  {
+   "edgeID": "875",
+   "fromID": "873",
+   "toID": "129"
+  },
+  {
+   "edgeID": "877",
+   "fromID": "122",
+   "toID": "876"
+  },
+  {
+   "edgeID": "878",
+   "fromID": "876",
+   "toID": "130"
+  },
+  {
+   "edgeID": "880",
+   "fromID": "109",
+   "toID": "879"
+  },
+  {
+   "edgeID": "881",
+   "fromID": "879",
+   "toID": "110"
+  },
+  {
+   "edgeID": "883",
+   "fromID": "109",
+   "toID": "882"
+  },
+  {
+   "edgeID": "884",
+   "fromID": "882",
+   "toID": "111"
+  },
+  {
+   "edgeID": "886",
+   "fromID": "109",
+   "toID": "885"
+  },
+  {
+   "edgeID": "887",
+   "fromID": "885",
+   "toID": "112"
+  },
+  {
+   "edgeID": "889",
+   "fromID": "110",
+   "toID": "888"
+  },
+  {
+   "edgeID": "890",
+   "fromID": "888",
+   "toID": "113"
+  },
+  {
+   "edgeID": "892",
+   "fromID": "110",
+   "toID": "891"
+  },
+  {
+   "edgeID": "893",
+   "fromID": "891",
+   "toID": "114"
+  },
+  {
+   "edgeID": "895",
+   "fromID": "111",
+   "toID": "894"
+  },
+  {
+   "edgeID": "896",
+   "fromID": "894",
+   "toID": "115"
+  },
+  {
+   "edgeID": "898",
+   "fromID": "111",
+   "toID": "897"
+  },
+  {
+   "edgeID": "899",
+   "fromID": "897",
+   "toID": "116"
+  },
+  {
+   "edgeID": "901",
+   "fromID": "112",
+   "toID": "900"
+  },
+  {
+   "edgeID": "902",
+   "fromID": "900",
+   "toID": "117"
+  },
+  {
+   "edgeID": "904",
+   "fromID": "112",
+   "toID": "903"
+  },
+  {
+   "edgeID": "905",
+   "fromID": "903",
+   "toID": "118"
+  }
+ ],
+ "locutions": [],
+ "source": {
+  "doc": "setser_jun_14_19",
+  "title": "Why did China's tariffs devastate some U.S. exports but have limited effects on others?",
+  "date": "2019-06-14",
+  "url": "https://www.cfr.org/articles/tale-two-tariffs-chinas-so-far-ineffective-tariffs-us-manufacturing-exports"
+ }
+}

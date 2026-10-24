@@ -1,0 +1,809 @@
+{
+ "nodes": [
+  {
+   "nodeID": "86",
+   "text": "If U.S.-China trade tensions escalate, will China keep the yuan stable or let it weaken?",
+   "type": "I",
+   "role": "question",
+   "toulmin": "framing",
+   "oper": "framing",
+   "localID": "setser_may_10_19#Q"
+  },
+  {
+   "nodeID": "87",
+   "text": "Reserves, capital controls, and policy tools give Beijing substantial exchange-rate control",
+   "type": "I",
+   "role": "stated_assumption",
+   "toulmin": "warrant",
+   "oper": "warrant.prior",
+   "localID": "setser_may_10_19#P1"
+  },
+  {
+   "nodeID": "88",
+   "text": "A weaker yuan lets exporters lower dollar prices while preserving yuan revenue",
+   "type": "I",
+   "role": "stated_assumption",
+   "toulmin": "warrant",
+   "oper": "warrant.prior",
+   "localID": "setser_may_10_19#P2"
+  },
+  {
+   "nodeID": "89",
+   "text": "A stable currency supports confidence and reduces financial risk",
+   "type": "I",
+   "role": "stated_assumption",
+   "toulmin": "warrant",
+   "oper": "warrant.prior",
+   "localID": "setser_may_10_19#P3"
+  },
+  {
+   "nodeID": "90",
+   "text": "25% on nearly $550B of imports could raise roughly $100–140B",
+   "type": "I",
+   "role": "evidence_data",
+   "toulmin": "grounds",
+   "oper": "grounds",
+   "localID": "setser_may_10_19#D1"
+  },
+  {
+   "nodeID": "91",
+   "text": "UBS: full tariffs plus retaliation could cut growth by about 1.5pp",
+   "type": "I",
+   "role": "evidence_data",
+   "toulmin": "grounds",
+   "oper": "grounds",
+   "localID": "setser_may_10_19#D2"
+  },
+  {
+   "nodeID": "92",
+   "text": "No sustained pressure in either direction",
+   "type": "I",
+   "role": "evidence_data",
+   "toulmin": "grounds",
+   "oper": "grounds",
+   "localID": "setser_may_10_19#D3"
+  },
+  {
+   "nodeID": "93",
+   "text": "Large reserves, state-bank foreign assets, and portfolio inflows",
+   "type": "I",
+   "role": "evidence_data",
+   "toulmin": "grounds",
+   "oper": "grounds",
+   "localID": "setser_may_10_19#D4"
+  },
+  {
+   "nodeID": "94",
+   "text": "Trade surplus covers major outflows without sustained reserve pressure",
+   "type": "I",
+   "role": "evidence_data",
+   "toulmin": "grounds",
+   "oper": "grounds",
+   "localID": "setser_may_10_19#D5"
+  },
+  {
+   "nodeID": "95",
+   "text": "Further export-oriented adjustment would matter globally",
+   "type": "I",
+   "role": "evidence_data",
+   "toulmin": "grounds",
+   "oper": "grounds",
+   "localID": "setser_may_10_19#D6"
+  },
+  {
+   "nodeID": "96",
+   "text": "Higher U.S. import costs reduce competitiveness and growth",
+   "type": "I",
+   "role": "mechanism",
+   "toulmin": "warrant",
+   "oper": "warrant.mechanism",
+   "localID": "setser_may_10_19#M1"
+  },
+  {
+   "nodeID": "97",
+   "text": "A weaker yuan offsets part of the tariff in dollar terms",
+   "type": "I",
+   "role": "mechanism",
+   "toulmin": "warrant",
+   "oper": "warrant.mechanism",
+   "localID": "setser_may_10_19#M2"
+  },
+  {
+   "nodeID": "98",
+   "text": "Avoiding a large currency move limits financial instability",
+   "type": "I",
+   "role": "mechanism",
+   "toulmin": "warrant",
+   "oper": "warrant.mechanism",
+   "localID": "setser_may_10_19#M3"
+  },
+  {
+   "nodeID": "99",
+   "text": "Other Asian currencies weaken and trade pressure shifts globally",
+   "type": "I",
+   "role": "mechanism",
+   "toulmin": "warrant",
+   "oper": "warrant.mechanism",
+   "localID": "setser_may_10_19#M4"
+  },
+  {
+   "nodeID": "100",
+   "text": "It is not mechanically forced into depreciation",
+   "type": "I",
+   "role": "intermediate_claim",
+   "toulmin": "claim",
+   "oper": "claim.step",
+   "localID": "setser_may_10_19#C1"
+  },
+  {
+   "nodeID": "101",
+   "text": "Exporters can preserve competitiveness",
+   "type": "I",
+   "role": "intermediate_claim",
+   "toulmin": "claim",
+   "oper": "claim.step",
+   "localID": "setser_may_10_19#C2"
+  },
+  {
+   "nodeID": "102",
+   "text": "It risks instability and additional U.S. retaliation",
+   "type": "I",
+   "role": "intermediate_claim",
+   "toulmin": "claim",
+   "oper": "claim.step",
+   "localID": "setser_may_10_19#C3"
+  },
+  {
+   "nodeID": "103",
+   "text": "Export-dependent economies outside China also come under pressure",
+   "type": "I",
+   "role": "intermediate_claim",
+   "toulmin": "claim",
+   "oper": "claim.step",
+   "localID": "setser_may_10_19#C4"
+  },
+  {
+   "nodeID": "104",
+   "text": "Beijing can defend stability or reset the yuan lower; its decision will shape the global impact of the trade war",
+   "type": "I",
+   "role": "main_claim",
+   "toulmin": "claim",
+   "oper": "claim.final",
+   "localID": "setser_may_10_19#K"
+  },
+  {
+   "nodeID": "105",
+   "text": "China can support growth fiscally without risking a destabilizing currency move",
+   "type": "I",
+   "role": "counterpoint",
+   "toulmin": "rebuttal",
+   "oper": "rebuttal",
+   "localID": "setser_may_10_19#X"
+  },
+  {
+   "nodeID": "106",
+   "text": "Controlled depreciations are difficult because markets may front-run them",
+   "type": "I",
+   "role": "caveat",
+   "toulmin": "qualifier",
+   "oper": "qualifier",
+   "localID": "setser_may_10_19#QF"
+  },
+  {
+   "nodeID": "107",
+   "text": "A weaker yuan could trigger broader or higher U.S. tariffs",
+   "type": "I",
+   "role": "caveat",
+   "toulmin": "qualifier",
+   "oper": "qualifier",
+   "localID": "setser_may_10_19#R1"
+  },
+  {
+   "nodeID": "108",
+   "text": "Tariffs and oil prices could push China toward current-account deficit",
+   "type": "I",
+   "role": "caveat",
+   "toulmin": "qualifier",
+   "oper": "qualifier",
+   "localID": "setser_may_10_19#R2"
+  },
+  {
+   "nodeID": "723",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "arrow",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "726",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "arrow",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "729",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "arrow",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "732",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "arrow",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "735",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "arrow",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "738",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "arrow",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "741",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "arrow",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "744",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "arrow",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "747",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "arrow",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "750",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "arrow",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "753",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "arrow",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "756",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "arrow",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "759",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "arrow",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "762",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "arrow",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "765",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "arrow",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "768",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "arrow",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "771",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "arrow",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "774",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "arrow",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "777",
+   "text": "undercut_by",
+   "type": "CA",
+   "scheme": "undercut_by",
+   "relation_source": "label",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "780",
+   "text": "qualified_by",
+   "type": "CA",
+   "scheme": "qualified_by",
+   "relation_source": "label",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "783",
+   "text": "qualified_by",
+   "type": "CA",
+   "scheme": "qualified_by",
+   "relation_source": "label",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "786",
+   "text": "qualified_by",
+   "type": "CA",
+   "scheme": "qualified_by",
+   "relation_source": "label",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "789",
+   "text": "frames",
+   "type": "RA",
+   "scheme": "frames",
+   "relation_source": "layout_operator",
+   "relation_level": "fallback",
+   "relation_purity": "0.0"
+  },
+  {
+   "nodeID": "792",
+   "text": "frames",
+   "type": "RA",
+   "scheme": "frames",
+   "relation_source": "layout_operator",
+   "relation_level": "fallback",
+   "relation_purity": "0.0"
+  },
+  {
+   "nodeID": "795",
+   "text": "frames",
+   "type": "RA",
+   "scheme": "frames",
+   "relation_source": "layout_operator",
+   "relation_level": "fallback",
+   "relation_purity": "0.0"
+  },
+  {
+   "nodeID": "798",
+   "text": "frames",
+   "type": "RA",
+   "scheme": "frames",
+   "relation_source": "layout_operator",
+   "relation_level": "fallback",
+   "relation_purity": "0.0"
+  },
+  {
+   "nodeID": "801",
+   "text": "frames",
+   "type": "RA",
+   "scheme": "frames",
+   "relation_source": "layout_operator",
+   "relation_level": "fallback",
+   "relation_purity": "0.0"
+  },
+  {
+   "nodeID": "804",
+   "text": "frames",
+   "type": "RA",
+   "scheme": "frames",
+   "relation_source": "layout_operator",
+   "relation_level": "fallback",
+   "relation_purity": "0.0"
+  },
+  {
+   "nodeID": "807",
+   "text": "frames",
+   "type": "RA",
+   "scheme": "frames",
+   "relation_source": "layout_operator",
+   "relation_level": "fallback",
+   "relation_purity": "0.0"
+  },
+  {
+   "nodeID": "810",
+   "text": "frames",
+   "type": "RA",
+   "scheme": "frames",
+   "relation_source": "layout_operator",
+   "relation_level": "fallback",
+   "relation_purity": "0.0"
+  },
+  {
+   "nodeID": "813",
+   "text": "frames",
+   "type": "RA",
+   "scheme": "frames",
+   "relation_source": "layout_operator",
+   "relation_level": "fallback",
+   "relation_purity": "0.0"
+  }
+ ],
+ "edges": [
+  {
+   "edgeID": "724",
+   "fromID": "90",
+   "toID": "723"
+  },
+  {
+   "edgeID": "725",
+   "fromID": "723",
+   "toID": "96"
+  },
+  {
+   "edgeID": "727",
+   "fromID": "91",
+   "toID": "726"
+  },
+  {
+   "edgeID": "728",
+   "fromID": "726",
+   "toID": "96"
+  },
+  {
+   "edgeID": "730",
+   "fromID": "88",
+   "toID": "729"
+  },
+  {
+   "edgeID": "731",
+   "fromID": "729",
+   "toID": "97"
+  },
+  {
+   "edgeID": "733",
+   "fromID": "96",
+   "toID": "732"
+  },
+  {
+   "edgeID": "734",
+   "fromID": "732",
+   "toID": "97"
+  },
+  {
+   "edgeID": "736",
+   "fromID": "89",
+   "toID": "735"
+  },
+  {
+   "edgeID": "737",
+   "fromID": "735",
+   "toID": "98"
+  },
+  {
+   "edgeID": "739",
+   "fromID": "92",
+   "toID": "738"
+  },
+  {
+   "edgeID": "740",
+   "fromID": "738",
+   "toID": "98"
+  },
+  {
+   "edgeID": "742",
+   "fromID": "93",
+   "toID": "741"
+  },
+  {
+   "edgeID": "743",
+   "fromID": "741",
+   "toID": "98"
+  },
+  {
+   "edgeID": "745",
+   "fromID": "94",
+   "toID": "744"
+  },
+  {
+   "edgeID": "746",
+   "fromID": "744",
+   "toID": "98"
+  },
+  {
+   "edgeID": "748",
+   "fromID": "87",
+   "toID": "747"
+  },
+  {
+   "edgeID": "749",
+   "fromID": "747",
+   "toID": "100"
+  },
+  {
+   "edgeID": "751",
+   "fromID": "97",
+   "toID": "750"
+  },
+  {
+   "edgeID": "752",
+   "fromID": "750",
+   "toID": "101"
+  },
+  {
+   "edgeID": "754",
+   "fromID": "98",
+   "toID": "753"
+  },
+  {
+   "edgeID": "755",
+   "fromID": "753",
+   "toID": "102"
+  },
+  {
+   "edgeID": "757",
+   "fromID": "95",
+   "toID": "756"
+  },
+  {
+   "edgeID": "758",
+   "fromID": "756",
+   "toID": "99"
+  },
+  {
+   "edgeID": "760",
+   "fromID": "97",
+   "toID": "759"
+  },
+  {
+   "edgeID": "761",
+   "fromID": "759",
+   "toID": "99"
+  },
+  {
+   "edgeID": "763",
+   "fromID": "99",
+   "toID": "762"
+  },
+  {
+   "edgeID": "764",
+   "fromID": "762",
+   "toID": "103"
+  },
+  {
+   "edgeID": "766",
+   "fromID": "100",
+   "toID": "765"
+  },
+  {
+   "edgeID": "767",
+   "fromID": "765",
+   "toID": "104"
+  },
+  {
+   "edgeID": "769",
+   "fromID": "101",
+   "toID": "768"
+  },
+  {
+   "edgeID": "770",
+   "fromID": "768",
+   "toID": "104"
+  },
+  {
+   "edgeID": "772",
+   "fromID": "102",
+   "toID": "771"
+  },
+  {
+   "edgeID": "773",
+   "fromID": "771",
+   "toID": "104"
+  },
+  {
+   "edgeID": "775",
+   "fromID": "103",
+   "toID": "774"
+  },
+  {
+   "edgeID": "776",
+   "fromID": "774",
+   "toID": "104"
+  },
+  {
+   "edgeID": "778",
+   "fromID": "100",
+   "toID": "777"
+  },
+  {
+   "edgeID": "779",
+   "fromID": "777",
+   "toID": "105"
+  },
+  {
+   "edgeID": "781",
+   "fromID": "101",
+   "toID": "780"
+  },
+  {
+   "edgeID": "782",
+   "fromID": "780",
+   "toID": "106"
+  },
+  {
+   "edgeID": "784",
+   "fromID": "102",
+   "toID": "783"
+  },
+  {
+   "edgeID": "785",
+   "fromID": "783",
+   "toID": "107"
+  },
+  {
+   "edgeID": "787",
+   "fromID": "100",
+   "toID": "786"
+  },
+  {
+   "edgeID": "788",
+   "fromID": "786",
+   "toID": "108"
+  },
+  {
+   "edgeID": "790",
+   "fromID": "86",
+   "toID": "789"
+  },
+  {
+   "edgeID": "791",
+   "fromID": "789",
+   "toID": "87"
+  },
+  {
+   "edgeID": "793",
+   "fromID": "86",
+   "toID": "792"
+  },
+  {
+   "edgeID": "794",
+   "fromID": "792",
+   "toID": "88"
+  },
+  {
+   "edgeID": "796",
+   "fromID": "86",
+   "toID": "795"
+  },
+  {
+   "edgeID": "797",
+   "fromID": "795",
+   "toID": "89"
+  },
+  {
+   "edgeID": "799",
+   "fromID": "87",
+   "toID": "798"
+  },
+  {
+   "edgeID": "800",
+   "fromID": "798",
+   "toID": "92"
+  },
+  {
+   "edgeID": "802",
+   "fromID": "87",
+   "toID": "801"
+  },
+  {
+   "edgeID": "803",
+   "fromID": "801",
+   "toID": "93"
+  },
+  {
+   "edgeID": "805",
+   "fromID": "87",
+   "toID": "804"
+  },
+  {
+   "edgeID": "806",
+   "fromID": "804",
+   "toID": "94"
+  },
+  {
+   "edgeID": "808",
+   "fromID": "88",
+   "toID": "807"
+  },
+  {
+   "edgeID": "809",
+   "fromID": "807",
+   "toID": "90"
+  },
+  {
+   "edgeID": "811",
+   "fromID": "88",
+   "toID": "810"
+  },
+  {
+   "edgeID": "812",
+   "fromID": "810",
+   "toID": "91"
+  },
+  {
+   "edgeID": "814",
+   "fromID": "89",
+   "toID": "813"
+  },
+  {
+   "edgeID": "815",
+   "fromID": "813",
+   "toID": "95"
+  }
+ ],
+ "locutions": [],
+ "source": {
+  "doc": "setser_may_10_19",
+  "title": "If U.S.-China trade tensions escalate, will China keep the yuan stable or let it weaken?",
+  "date": "2019-05-10",
+  "url": "https://www.cfr.org/articles/what-difference-week-or-weekend-makes"
+ }
+}

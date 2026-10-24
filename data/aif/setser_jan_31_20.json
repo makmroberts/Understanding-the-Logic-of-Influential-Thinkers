@@ -1,0 +1,386 @@
+{
+ "nodes": [
+  {
+   "nodeID": "179",
+   "text": "How did China choose to respond to tariff pressure, and what does that reveal about managed trade?",
+   "type": "I",
+   "role": "question",
+   "toulmin": "framing",
+   "oper": "framing",
+   "localID": "setser_jan_31_20#Q"
+  },
+  {
+   "nodeID": "180",
+   "text": "Industrial policy is non-negotiable; the state can direct commodity purchases",
+   "type": "I",
+   "role": "stated_assumption",
+   "toulmin": "warrant",
+   "oper": "warrant.prior",
+   "localID": "setser_jan_31_20#P1"
+  },
+  {
+   "nodeID": "181",
+   "text": "The capacity to deliver purchases is the same capacity that can withdraw them",
+   "type": "I",
+   "role": "hidden_assumption",
+   "toulmin": "warrant",
+   "oper": "warrant.prior",
+   "localID": "setser_jan_31_20#P2"
+  },
+  {
+   "nodeID": "182",
+   "text": "\"I was surprised by the size of China's impact... I thought U.S. soy would prove to be more of a pure commodity\" — and \"I don't think many expected\" reserves to stay stable",
+   "type": "I",
+   "role": "revised_prior",
+   "toulmin": "revision",
+   "oper": "revision",
+   "localID": "setser_jan_31_20#P3"
+  },
+  {
+   "nodeID": "183",
+   "text": "\"Chinese data never quite fully lines up, which bothers me more than most\"",
+   "type": "I",
+   "role": "source_credibility",
+   "toulmin": "backing",
+   "oper": "backing",
+   "localID": "setser_jan_31_20#SC"
+  },
+  {
+   "nodeID": "184",
+   "text": "Yuan -8% vs USD and -4% vs basket; Treasury holdings flat once Belgian accounts are counted; China is two-thirds of global soybean imports; U.S. beans traded at a discount to Brazil",
+   "type": "I",
+   "role": "evidence_data",
+   "toulmin": "grounds",
+   "oper": "grounds",
+   "localID": "setser_jan_31_20#E1"
+  },
+  {
+   "nodeID": "185",
+   "text": "His own Senate testimony; Toloui on balance-sheet policy; the Economist on managed trade",
+   "type": "I",
+   "role": "evidence_source",
+   "toulmin": "grounds",
+   "oper": "grounds",
+   "localID": "setser_jan_31_20#E2"
+  },
+  {
+   "nodeID": "186",
+   "text": "Outflow controls and the absence of carry-trade leverage prevented a 2015-style panic",
+   "type": "I",
+   "role": "mechanism",
+   "toulmin": "warrant",
+   "oper": "warrant.mechanism",
+   "localID": "setser_jan_31_20#M1"
+  },
+  {
+   "nodeID": "187",
+   "text": "Treasuries carry no leverage — if China pushed yields up, the Fed would simply react",
+   "type": "I",
+   "role": "mechanism",
+   "toulmin": "warrant",
+   "oper": "warrant.mechanism",
+   "localID": "setser_jan_31_20#M2"
+  },
+  {
+   "nodeID": "188",
+   "text": "Five parallel verdicts: industrial policy untouched, currency buffered, Treasuries unused, manufactures spared, ag and energy targeted",
+   "type": "I",
+   "role": "intermediate_claim",
+   "toulmin": "claim",
+   "oper": "claim.step",
+   "localID": "setser_jan_31_20#C1"
+  },
+  {
+   "nodeID": "189",
+   "text": "China can meet its 2020 commitments — and that is precisely the risk. \"What China's state gives, China's state can take away\"",
+   "type": "I",
+   "role": "main_claim",
+   "toulmin": "claim",
+   "oper": "claim.final",
+   "localID": "setser_jan_31_20#K"
+  },
+  {
+   "nodeID": "190",
+   "text": "Both approaches carry costs — managed trade rewards diversion away from allies, while the conventional approach changed little in 2010-11",
+   "type": "I",
+   "role": "opposing_view",
+   "toulmin": "rebuttal",
+   "oper": "rebuttal",
+   "localID": "setser_jan_31_20#X"
+  },
+  {
+   "nodeID": "191",
+   "text": "Tech decoupling will not bite in 2020: Boeing's own problems, no indigenous jet engines, semiconductors too early",
+   "type": "I",
+   "role": "caveat",
+   "toulmin": "qualifier",
+   "oper": "qualifier",
+   "localID": "setser_jan_31_20#QF"
+  },
+  {
+   "nodeID": "192",
+   "text": "Why were manufactures spared? \"I am not quite sure why this is the case\" — two theories offered, neither chosen",
+   "type": "I",
+   "role": "other_explanation",
+   "toulmin": "rebuttal",
+   "oper": "rebuttal",
+   "localID": "setser_jan_31_20#R1"
+  },
+  {
+   "nodeID": "1095",
+   "text": "revises",
+   "type": "CA",
+   "scheme": "revises",
+   "relation_source": "label",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "1098",
+   "text": "licenses",
+   "type": "RA",
+   "scheme": "licenses",
+   "relation_source": "label",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "1101",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "label",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "1104",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "label",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "1107",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "label",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "1110",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "label",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "1113",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "label",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "1116",
+   "text": "undercut_by",
+   "type": "CA",
+   "scheme": "undercut_by",
+   "relation_source": "label",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "1119",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "label",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "1122",
+   "text": "licenses",
+   "type": "RA",
+   "scheme": "licenses",
+   "relation_source": "label",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "1125",
+   "text": "rebuts",
+   "type": "CA",
+   "scheme": "rebuts",
+   "relation_source": "label",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "1128",
+   "text": "qualified_by",
+   "type": "CA",
+   "scheme": "qualified_by",
+   "relation_source": "label",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "1131",
+   "text": "undercut_by",
+   "type": "CA",
+   "scheme": "undercut_by",
+   "relation_source": "label",
+   "relation_level": "",
+   "relation_purity": ""
+  }
+ ],
+ "edges": [
+  {
+   "edgeID": "1096",
+   "fromID": "182",
+   "toID": "1095"
+  },
+  {
+   "edgeID": "1097",
+   "fromID": "1095",
+   "toID": "180"
+  },
+  {
+   "edgeID": "1099",
+   "fromID": "180",
+   "toID": "1098"
+  },
+  {
+   "edgeID": "1100",
+   "fromID": "1098",
+   "toID": "188"
+  },
+  {
+   "edgeID": "1102",
+   "fromID": "184",
+   "toID": "1101"
+  },
+  {
+   "edgeID": "1103",
+   "fromID": "1101",
+   "toID": "186"
+  },
+  {
+   "edgeID": "1105",
+   "fromID": "184",
+   "toID": "1104"
+  },
+  {
+   "edgeID": "1106",
+   "fromID": "1104",
+   "toID": "188"
+  },
+  {
+   "edgeID": "1108",
+   "fromID": "185",
+   "toID": "1107"
+  },
+  {
+   "edgeID": "1109",
+   "fromID": "1107",
+   "toID": "188"
+  },
+  {
+   "edgeID": "1111",
+   "fromID": "186",
+   "toID": "1110"
+  },
+  {
+   "edgeID": "1112",
+   "fromID": "1110",
+   "toID": "188"
+  },
+  {
+   "edgeID": "1114",
+   "fromID": "187",
+   "toID": "1113"
+  },
+  {
+   "edgeID": "1115",
+   "fromID": "1113",
+   "toID": "188"
+  },
+  {
+   "edgeID": "1117",
+   "fromID": "183",
+   "toID": "1116"
+  },
+  {
+   "edgeID": "1118",
+   "fromID": "1116",
+   "toID": "184"
+  },
+  {
+   "edgeID": "1120",
+   "fromID": "188",
+   "toID": "1119"
+  },
+  {
+   "edgeID": "1121",
+   "fromID": "1119",
+   "toID": "189"
+  },
+  {
+   "edgeID": "1123",
+   "fromID": "181",
+   "toID": "1122"
+  },
+  {
+   "edgeID": "1124",
+   "fromID": "1122",
+   "toID": "189"
+  },
+  {
+   "edgeID": "1126",
+   "fromID": "189",
+   "toID": "1125"
+  },
+  {
+   "edgeID": "1127",
+   "fromID": "1125",
+   "toID": "190"
+  },
+  {
+   "edgeID": "1129",
+   "fromID": "189",
+   "toID": "1128"
+  },
+  {
+   "edgeID": "1130",
+   "fromID": "1128",
+   "toID": "191"
+  },
+  {
+   "edgeID": "1132",
+   "fromID": "188",
+   "toID": "1131"
+  },
+  {
+   "edgeID": "1133",
+   "fromID": "1131",
+   "toID": "192"
+  }
+ ],
+ "locutions": [],
+ "source": {
+  "doc": "setser_jan_31_20",
+  "title": "Lessons From Phase One of the Trade War With China",
+  "date": "2020-01-31",
+  "url": "https://www.cfr.org/articles/lessons-phase-one-trade-war-china"
+ }
+}

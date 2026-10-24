@@ -1,0 +1,744 @@
+{
+ "nodes": [
+  {
+   "nodeID": "42",
+   "text": "Could global macro shocks overwhelm trade deals and push the U.S. trade deficit higher?",
+   "type": "I",
+   "role": "question",
+   "toulmin": "framing",
+   "oper": "framing",
+   "localID": "setser_jun_4_18#Q"
+  },
+  {
+   "nodeID": "43",
+   "text": "They reflect demand, fiscal policy, currencies, and external adjustment—not just trade deals",
+   "type": "I",
+   "role": "stated_assumption",
+   "toulmin": "warrant",
+   "oper": "warrant.prior",
+   "localID": "setser_jun_4_18#P1"
+  },
+  {
+   "nodeID": "44",
+   "text": "The deficit rises unless stronger U.S. demand is matched abroad",
+   "type": "I",
+   "role": "stated_assumption",
+   "toulmin": "warrant",
+   "oper": "warrant.prior",
+   "localID": "setser_jun_4_18#P2"
+  },
+  {
+   "nodeID": "45",
+   "text": "Countries under pressure often rely on weaker currencies and exports",
+   "type": "I",
+   "role": "stated_assumption",
+   "toulmin": "warrant",
+   "oper": "warrant.prior",
+   "localID": "setser_jun_4_18#P3"
+  },
+  {
+   "nodeID": "46",
+   "text": "Large external deficits mean weaker domestic demand and less global demand growth",
+   "type": "I",
+   "role": "evidence_data",
+   "toulmin": "grounds",
+   "oper": "grounds",
+   "localID": "setser_jun_4_18#D1"
+  },
+  {
+   "nodeID": "47",
+   "text": "EM weakness coincided with slower global trade and a larger U.S. non-oil deficit",
+   "type": "I",
+   "role": "evidence_data",
+   "toulmin": "grounds",
+   "oper": "grounds",
+   "localID": "setser_jun_4_18#D2"
+  },
+  {
+   "nodeID": "48",
+   "text": "Financial and political stress could weaken the euro",
+   "type": "I",
+   "role": "evidence_data",
+   "toulmin": "grounds",
+   "oper": "grounds",
+   "localID": "setser_jun_4_18#D3"
+  },
+  {
+   "nodeID": "49",
+   "text": "Domestic weakness plus dollar strength could create depreciation pressure",
+   "type": "I",
+   "role": "evidence_data",
+   "toulmin": "grounds",
+   "oper": "grounds",
+   "localID": "setser_jun_4_18#D4"
+  },
+  {
+   "nodeID": "50",
+   "text": "Consumption-tax hikes have historically weakened domestic demand",
+   "type": "I",
+   "role": "evidence_data",
+   "toulmin": "grounds",
+   "oper": "grounds",
+   "localID": "setser_jun_4_18#D5"
+  },
+  {
+   "nodeID": "51",
+   "text": "Europe, China, Japan, and EM demand all supported the global environment",
+   "type": "I",
+   "role": "evidence_data",
+   "toulmin": "grounds",
+   "oper": "grounds",
+   "localID": "setser_jun_4_18#D6"
+  },
+  {
+   "nodeID": "52",
+   "text": "Lower domestic spending abroad reduces demand for imports",
+   "type": "I",
+   "role": "mechanism",
+   "toulmin": "warrant",
+   "oper": "warrant.mechanism",
+   "localID": "setser_jun_4_18#M1"
+  },
+  {
+   "nodeID": "53",
+   "text": "Dollar strength hurts U.S. trade competitiveness",
+   "type": "I",
+   "role": "mechanism",
+   "toulmin": "warrant",
+   "oper": "warrant.mechanism",
+   "localID": "setser_jun_4_18#M2"
+  },
+  {
+   "nodeID": "54",
+   "text": "Strong U.S. demand plus weak foreign demand raises net imports",
+   "type": "I",
+   "role": "mechanism",
+   "toulmin": "warrant",
+   "oper": "warrant.mechanism",
+   "localID": "setser_jun_4_18#M3"
+  },
+  {
+   "nodeID": "55",
+   "text": "Foreign economies contribute less to import growth",
+   "type": "I",
+   "role": "intermediate_claim",
+   "toulmin": "claim",
+   "oper": "claim.step",
+   "localID": "setser_jun_4_18#C1"
+  },
+  {
+   "nodeID": "56",
+   "text": "Currency shifts reinforce pressure on U.S. trade",
+   "type": "I",
+   "role": "intermediate_claim",
+   "toulmin": "claim",
+   "oper": "claim.step",
+   "localID": "setser_jun_4_18#C2"
+  },
+  {
+   "nodeID": "57",
+   "text": "Foreign demand may no longer offset U.S. fiscal expansion",
+   "type": "I",
+   "role": "intermediate_claim",
+   "toulmin": "claim",
+   "oper": "claim.step",
+   "localID": "setser_jun_4_18#C3"
+  },
+  {
+   "nodeID": "58",
+   "text": "The U.S. trade deficit could rise even if the administration secures new trade agreements",
+   "type": "I",
+   "role": "main_claim",
+   "toulmin": "claim",
+   "oper": "claim.final",
+   "localID": "setser_jun_4_18#K"
+  },
+  {
+   "nodeID": "59",
+   "text": "Argentina and Turkey are individually too small to drive the full outcome",
+   "type": "I",
+   "role": "caveat",
+   "toulmin": "qualifier",
+   "oper": "qualifier",
+   "localID": "setser_jun_4_18#X"
+  },
+  {
+   "nodeID": "60",
+   "text": "Italy and China's eventual adjustments are not predetermined",
+   "type": "I",
+   "role": "caveat",
+   "toulmin": "qualifier",
+   "oper": "qualifier",
+   "localID": "setser_jun_4_18#QF"
+  },
+  {
+   "nodeID": "61",
+   "text": "Strong foreign demand could still counterbalance U.S. fiscal stimulus",
+   "type": "I",
+   "role": "counterpoint",
+   "toulmin": "rebuttal",
+   "oper": "rebuttal",
+   "localID": "setser_jun_4_18#R1"
+  },
+  {
+   "nodeID": "528",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "arrow",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "531",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "arrow",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "534",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "arrow",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "537",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "arrow",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "540",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "arrow",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "543",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "arrow",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "546",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "arrow",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "549",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "arrow",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "552",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "arrow",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "555",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "arrow",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "558",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "arrow",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "561",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "arrow",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "564",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "arrow",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "567",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "arrow",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "570",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "arrow",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "573",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "arrow",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "576",
+   "text": "qualified_by",
+   "type": "CA",
+   "scheme": "qualified_by",
+   "relation_source": "label",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "579",
+   "text": "qualified_by",
+   "type": "CA",
+   "scheme": "qualified_by",
+   "relation_source": "label",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "582",
+   "text": "undercut_by",
+   "type": "CA",
+   "scheme": "undercut_by",
+   "relation_source": "label",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "585",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "arrow",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "588",
+   "text": "frames",
+   "type": "RA",
+   "scheme": "frames",
+   "relation_source": "layout_operator",
+   "relation_level": "fallback",
+   "relation_purity": "0.0"
+  },
+  {
+   "nodeID": "591",
+   "text": "frames",
+   "type": "RA",
+   "scheme": "frames",
+   "relation_source": "layout_operator",
+   "relation_level": "fallback",
+   "relation_purity": "0.0"
+  },
+  {
+   "nodeID": "594",
+   "text": "frames",
+   "type": "RA",
+   "scheme": "frames",
+   "relation_source": "layout_operator",
+   "relation_level": "fallback",
+   "relation_purity": "0.0"
+  },
+  {
+   "nodeID": "597",
+   "text": "frames",
+   "type": "RA",
+   "scheme": "frames",
+   "relation_source": "layout_operator",
+   "relation_level": "fallback",
+   "relation_purity": "0.0"
+  },
+  {
+   "nodeID": "600",
+   "text": "frames",
+   "type": "RA",
+   "scheme": "frames",
+   "relation_source": "layout_operator",
+   "relation_level": "fallback",
+   "relation_purity": "0.0"
+  },
+  {
+   "nodeID": "603",
+   "text": "frames",
+   "type": "RA",
+   "scheme": "frames",
+   "relation_source": "layout_operator",
+   "relation_level": "fallback",
+   "relation_purity": "0.0"
+  },
+  {
+   "nodeID": "606",
+   "text": "frames",
+   "type": "RA",
+   "scheme": "frames",
+   "relation_source": "layout_operator",
+   "relation_level": "fallback",
+   "relation_purity": "0.0"
+  },
+  {
+   "nodeID": "609",
+   "text": "frames",
+   "type": "RA",
+   "scheme": "frames",
+   "relation_source": "layout_operator",
+   "relation_level": "fallback",
+   "relation_purity": "0.0"
+  },
+  {
+   "nodeID": "612",
+   "text": "frames",
+   "type": "RA",
+   "scheme": "frames",
+   "relation_source": "layout_operator",
+   "relation_level": "fallback",
+   "relation_purity": "0.0"
+  }
+ ],
+ "edges": [
+  {
+   "edgeID": "529",
+   "fromID": "45",
+   "toID": "528"
+  },
+  {
+   "edgeID": "530",
+   "fromID": "528",
+   "toID": "52"
+  },
+  {
+   "edgeID": "532",
+   "fromID": "46",
+   "toID": "531"
+  },
+  {
+   "edgeID": "533",
+   "fromID": "531",
+   "toID": "52"
+  },
+  {
+   "edgeID": "535",
+   "fromID": "47",
+   "toID": "534"
+  },
+  {
+   "edgeID": "536",
+   "fromID": "534",
+   "toID": "52"
+  },
+  {
+   "edgeID": "538",
+   "fromID": "50",
+   "toID": "537"
+  },
+  {
+   "edgeID": "539",
+   "fromID": "537",
+   "toID": "52"
+  },
+  {
+   "edgeID": "541",
+   "fromID": "52",
+   "toID": "540"
+  },
+  {
+   "edgeID": "542",
+   "fromID": "540",
+   "toID": "55"
+  },
+  {
+   "edgeID": "544",
+   "fromID": "45",
+   "toID": "543"
+  },
+  {
+   "edgeID": "545",
+   "fromID": "543",
+   "toID": "53"
+  },
+  {
+   "edgeID": "547",
+   "fromID": "48",
+   "toID": "546"
+  },
+  {
+   "edgeID": "548",
+   "fromID": "546",
+   "toID": "53"
+  },
+  {
+   "edgeID": "550",
+   "fromID": "49",
+   "toID": "549"
+  },
+  {
+   "edgeID": "551",
+   "fromID": "549",
+   "toID": "53"
+  },
+  {
+   "edgeID": "553",
+   "fromID": "53",
+   "toID": "552"
+  },
+  {
+   "edgeID": "554",
+   "fromID": "552",
+   "toID": "56"
+  },
+  {
+   "edgeID": "556",
+   "fromID": "43",
+   "toID": "555"
+  },
+  {
+   "edgeID": "557",
+   "fromID": "555",
+   "toID": "54"
+  },
+  {
+   "edgeID": "559",
+   "fromID": "44",
+   "toID": "558"
+  },
+  {
+   "edgeID": "560",
+   "fromID": "558",
+   "toID": "54"
+  },
+  {
+   "edgeID": "562",
+   "fromID": "55",
+   "toID": "561"
+  },
+  {
+   "edgeID": "563",
+   "fromID": "561",
+   "toID": "54"
+  },
+  {
+   "edgeID": "565",
+   "fromID": "56",
+   "toID": "564"
+  },
+  {
+   "edgeID": "566",
+   "fromID": "564",
+   "toID": "54"
+  },
+  {
+   "edgeID": "568",
+   "fromID": "51",
+   "toID": "567"
+  },
+  {
+   "edgeID": "569",
+   "fromID": "567",
+   "toID": "57"
+  },
+  {
+   "edgeID": "571",
+   "fromID": "57",
+   "toID": "570"
+  },
+  {
+   "edgeID": "572",
+   "fromID": "570",
+   "toID": "54"
+  },
+  {
+   "edgeID": "574",
+   "fromID": "54",
+   "toID": "573"
+  },
+  {
+   "edgeID": "575",
+   "fromID": "573",
+   "toID": "58"
+  },
+  {
+   "edgeID": "577",
+   "fromID": "55",
+   "toID": "576"
+  },
+  {
+   "edgeID": "578",
+   "fromID": "576",
+   "toID": "59"
+  },
+  {
+   "edgeID": "580",
+   "fromID": "56",
+   "toID": "579"
+  },
+  {
+   "edgeID": "581",
+   "fromID": "579",
+   "toID": "60"
+  },
+  {
+   "edgeID": "583",
+   "fromID": "57",
+   "toID": "582"
+  },
+  {
+   "edgeID": "584",
+   "fromID": "582",
+   "toID": "61"
+  },
+  {
+   "edgeID": "586",
+   "fromID": "56",
+   "toID": "585"
+  },
+  {
+   "edgeID": "587",
+   "fromID": "585",
+   "toID": "54"
+  },
+  {
+   "edgeID": "589",
+   "fromID": "42",
+   "toID": "588"
+  },
+  {
+   "edgeID": "590",
+   "fromID": "588",
+   "toID": "43"
+  },
+  {
+   "edgeID": "592",
+   "fromID": "42",
+   "toID": "591"
+  },
+  {
+   "edgeID": "593",
+   "fromID": "591",
+   "toID": "44"
+  },
+  {
+   "edgeID": "595",
+   "fromID": "42",
+   "toID": "594"
+  },
+  {
+   "edgeID": "596",
+   "fromID": "594",
+   "toID": "45"
+  },
+  {
+   "edgeID": "598",
+   "fromID": "43",
+   "toID": "597"
+  },
+  {
+   "edgeID": "599",
+   "fromID": "597",
+   "toID": "46"
+  },
+  {
+   "edgeID": "601",
+   "fromID": "43",
+   "toID": "600"
+  },
+  {
+   "edgeID": "602",
+   "fromID": "600",
+   "toID": "47"
+  },
+  {
+   "edgeID": "604",
+   "fromID": "44",
+   "toID": "603"
+  },
+  {
+   "edgeID": "605",
+   "fromID": "603",
+   "toID": "48"
+  },
+  {
+   "edgeID": "607",
+   "fromID": "44",
+   "toID": "606"
+  },
+  {
+   "edgeID": "608",
+   "fromID": "606",
+   "toID": "51"
+  },
+  {
+   "edgeID": "610",
+   "fromID": "45",
+   "toID": "609"
+  },
+  {
+   "edgeID": "611",
+   "fromID": "609",
+   "toID": "49"
+  },
+  {
+   "edgeID": "613",
+   "fromID": "45",
+   "toID": "612"
+  },
+  {
+   "edgeID": "614",
+   "fromID": "612",
+   "toID": "50"
+  }
+ ],
+ "locutions": [],
+ "source": {
+  "doc": "setser_jun_4_18",
+  "title": "Could global macro shocks overwhelm trade deals and push the U.S. trade deficit higher?",
+  "date": "2018-06-04",
+  "url": "https://www.cfr.org/articles/trade-deals-or-macroeconomic-shocks"
+ }
+}

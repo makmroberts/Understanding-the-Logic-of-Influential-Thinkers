@@ -1,0 +1,166 @@
+# Published URL per argument map. The traceability overlay.
+#
+# WHY THIS FILE EXISTS
+# Only the five `meta`-family maps carry a `%% url:` comment, so the parser had
+# a URL for 5 of 20 articles and 80% of claims could not be traced to the page
+# they came from. The .mmd files are the authored artifact and are never
+# rewritten (see schema_map.yaml), so the join is reconciled here instead - one
+# reviewable place, same contract as schema_map.yaml and concepts.yaml.
+#
+# HOW THESE WERE DERIVED
+# scripts/sources_followthemoney.csv holds all 20 URLs, and the relation to the
+# maps is 1-1. Matching each map independently does not work: the registry's
+# `date_label` is month-granular and demonstrably wrong in places, and for the
+# `plain` family the map's title is the ANNOTATOR'S QUESTION, not the headline.
+#
+# So it is solved as a single 1-1 assignment over all 20 (Hungarian, title
+# similarity weighted 3x against date agreement 1x, because headlines share
+# vocabulary with the questions even when paraphrased while the dates are known
+# to be unreliable):
+#
+#     python scripts/trace.py --match-urls
+#
+# `evidence` on each entry records what actually carried the match, so every
+# line can be challenged without re-running anything.
+#
+# THREE REGISTRY DATES ARE WRONG. The maps' dates come from their filenames and
+# are day-precise; the registry's are month-granular and, for these three,
+# simply incorrect. The map date is authoritative.
+#   - "Why Trade Balance Still Matters"        registry June 2018 -> 2017-12-15
+#   - "Why Didn't Tariffs Push Up the Dollar?" registry July 2024 -> 2025-05-05
+#       (already recorded in scripts/README.md Known issues)
+#   - "What a Difference a Week-or a Weekend-Makes" registry Aug 2018 -> see
+#       the needs_review entry at the bottom
+
+version: 1
+registry: scripts/sources_followthemoney.csv
+
+urls:
+
+  # --- the five that carried their own `%% url:` comment -------------------
+  setser_2025-07-07_china-stealth-surplus:
+    url: https://www.cfr.org/articles/chinas-stealth-trade-surplus
+    evidence: "stated in the map's own %% url: comment"
+  setser_2025-07-28_china-eu-trade-war:
+    url: https://www.cfr.org/articles/china-also-fighting-trade-war-europe-and-winning
+    evidence: "stated in the map's own %% url: comment"
+  setser_2025-09-12_trump-shock-that-wasnt:
+    url: https://www.cfr.org/articles/trump-shock-wasnt-least-not-yet
+    evidence: "stated in the map's own %% url: comment"
+  setser_2025-11-12_china-surplus-imf:
+    url: https://www.cfr.org/articles/chinas-massive-surplus-everywhere-yet-imf-still-has-trouble-seeing-it-clearly
+    evidence: "stated in the map's own %% url: comment"
+  setser_2026-02-03_october-2025-deficit:
+    url: https://www.cfr.org/articles/understanding-the-low-october-2025-trade-deficit
+    evidence: "stated in the map's own %% url: comment"
+
+  # --- exact title match, map title IS the headline ------------------------
+  setser_jan_31_20:
+    url: https://www.cfr.org/articles/lessons-phase-one-trade-war-china
+    evidence: title identical, date agrees (Jan 2020)
+  setser_mar_31_20:
+    url: https://www.cfr.org/articles/not-one-emerging-market-financial-crisis-many
+    evidence: title identical, date agrees (March 2020)
+  setser_jul_8_20:
+    url: https://www.cfr.org/articles/slouching-toward-phase-one
+    evidence: title identical, date agrees (July 2020)
+  setser_mar_10_24:
+    url: https://www.cfr.org/articles/chinas-record-manufacturing-surplus
+    evidence: title identical, date agrees (March 2024)
+  setser_aug_14_24:
+    url: https://www.cfr.org/articles/chinas-imaginary-trade-data
+    evidence: title identical, date agrees (Aug 2024)
+  setser_may_5_25:
+    url: https://www.cfr.org/articles/why-didnt-tariffs-push-us-dollar
+    evidence: >
+      title identical. Registry says July 2024; the map says 2025-05-05 and the
+      map is right - this is the date error already recorded in README Known
+      issues. Matched on title alone, deliberately ignoring the date.
+
+  # --- plain family: map title is the annotator's question -----------------
+  setser_dec_15_17:
+    url: https://www.cfr.org/articles/why-trade-balance-still-matters
+    evidence: >
+      "Why Trade Balance Still Matters" against the question "Why does the U.S.
+      trade balance still matter..." - 0.67 token containment, the strongest
+      title signal of any plain-family map. Registry date (June 2018) is wrong;
+      matched on title alone.
+  setser_jun_4_18:
+    url: https://www.cfr.org/articles/trade-deals-or-macroeconomic-shocks
+    evidence: >
+      "Trade Deals or Macroeconomic Shocks?" against "Could global macro shocks
+      overwhelm trade deals..." - 0.75 containment and the date agrees
+      (June 2018). The clearest plain-family match.
+  setser_feb_15_18:
+    url: https://www.cfr.org/articles/trumps-tax-success-expense-his-trade-agenda
+    evidence: >
+      Date agrees exactly (Feb 2018) and the subject matches - the map argues
+      the tax bill sets back Trump's trade goals, the headline is "Trump's Tax
+      Success Is at the Expense of His Trade Agenda". Title tokens overlap only
+      0.33 because the question is a paraphrase.
+  setser_jun_14_19:
+    url: https://www.cfr.org/articles/tale-two-tariffs-chinas-so-far-ineffective-tariffs-us-manufacturing-exports
+    evidence: >
+      Date agrees (June 2019) and the subject is specific and unmistakable -
+      China's tariffs being ineffective against U.S. manufacturing exports is
+      exactly this map's claim.
+  setser_aug_13_19:
+    url: https://www.cfr.org/articles/when-it-comes-exporting-manufactures-europe-now-one-mars
+    evidence: >
+      Date agrees (Aug 2019) and the subject matches - both are about Europe's
+      position in manufacturing exports against the U.S. Title containment is
+      only 0.20, since the headline's "one from Mars" metaphor shares no
+      vocabulary with the question. Confident on date plus subject.
+  setser_sep_20_19:
+    url: https://www.cfr.org/articles/why-global-trade-imbalances-could-get-worse-they-get-better
+    evidence: >
+      "Why Global Trade Imbalances Could Get Worse Before They Get Better"
+      against "Why do global trade imbalances persist, and why could they
+      worsen before improving?" - 0.57 containment, date agrees (Sept 2019).
+  setser_feb_26_20:
+    url: https://www.cfr.org/articles/us-shock-global-demand-q4-coronavirus
+    evidence: >
+      "The U.S. Shock to Global Demand in Q4" against "...who absorbed the Q4
+      US demand drop?" - 0.60 containment, date agrees (Feb 2020), and the
+      map's own main claim is "the US demand shock was exported".
+  setser_may_2_19:
+    url: https://www.cfr.org/articles/china-never-stopped-managing-its-trade
+    evidence: >
+      VERIFIED by opening the page: CFR publishes "China Never Stopped Managing
+      its Trade" at this URL, datePublished 2019-05-02, exactly the map's date.
+    annotation_provenance: >
+      RE-ANNOTATED 2026-10-15. The previous map was byte-identical to
+      setser_may_10_19 and argued the yuan question, which belongs to the
+      2019-05-10 article ("yuan" appears 17 times there and 0 times here), so
+      23 claims were attributed to an article that did not make them. The map
+      was rebuilt from this article's own text - state control of import
+      demand, the sector-by-sector buyer audit, and the revocability critique.
+      The yuan argument is unchanged and still lives in setser_may_10_19.
+      AUTHORED BY A MODEL, NOT BY A HUMAN ANNOTATOR: every other map in this
+      corpus was hand-built, so this one is the exception and still needs a
+      human pass. The header comment in mermaid_code/setser_may_2_19.mmd says
+      the same thing where an annotator will see it.
+
+  setser_may_10_19:
+    url: https://www.cfr.org/articles/what-difference-week-or-weekend-makes
+    evidence: >
+      VERIFIED by opening the page: "What a Difference a Week (or a Weekend)
+      Makes", datePublished 2019-05-10, exactly the map's date - so the
+      registry's "Aug 2018" was a third wrong date. Originally assigned by
+      elimination with no supporting signal; the page settles it. The content
+      also matches the map: yuan 17 times, depreciation 7, reserves 5,
+      intervention 2. This is the yuan article.
+
+
+# ===========================================================================
+# RESOLVED - all 20 URLs verified by opening the page
+#
+#   python scripts/verify_urls.py   ->  data/url_verification.md
+#
+# 20 of 20 published dates match the map's filename date exactly. The map
+# filenames are therefore a reliable date source and the registry is not: three
+# of its date_labels are wrong, and none of the maps' are.
+#
+# The remaining defect is an ANNOTATION defect, not a URL one - see the
+# `warning:` on setser_may_2_19.
+# ===========================================================================

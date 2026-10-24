@@ -1,0 +1,470 @@
+{
+ "nodes": [
+  {
+   "nodeID": "240",
+   "text": "Is China's centrality to global manufacturing really declining, as the fragmentation narrative suggests?",
+   "type": "I",
+   "role": "question",
+   "toulmin": "framing",
+   "oper": "framing",
+   "localID": "setser_mar_10_24#Q"
+  },
+  {
+   "nodeID": "241",
+   "text": "Bilateral data misleads about global position — rerouting is not displacement",
+   "type": "I",
+   "role": "stated_assumption",
+   "toulmin": "warrant",
+   "oper": "warrant.prior",
+   "localID": "setser_mar_10_24#P1"
+  },
+  {
+   "nodeID": "242",
+   "text": "A correctly measured imbalance ought to drive policy",
+   "type": "I",
+   "role": "hidden_assumption",
+   "toulmin": "warrant",
+   "oper": "warrant.prior",
+   "localID": "setser_mar_10_24#P2"
+  },
+  {
+   "nodeID": "243",
+   "text": "\"A large manufacturing surplus requires an offsetting deficit in manufactures elsewhere\" — stated, and used to locate the counterpart",
+   "type": "I",
+   "role": "accounting_identity",
+   "toulmin": "warrant",
+   "oper": "warrant.prior",
+   "localID": "setser_mar_10_24#ID"
+  },
+  {
+   "nodeID": "244",
+   "text": "The reported current account \"misleads\" — flagged, with the full case made in the August companion piece",
+   "type": "I",
+   "role": "source_credibility",
+   "toulmin": "backing",
+   "oper": "backing",
+   "localID": "setser_mar_10_24#SC"
+  },
+  {
+   "nodeID": "245",
+   "text": "SITC categories 5 through 9, the standard manufactures breakout, from the long UN Comtrade series",
+   "type": "I",
+   "role": "scope_choice",
+   "toulmin": "qualifier",
+   "oper": "qualifier",
+   "localID": "setser_mar_10_24#SCP"
+  },
+  {
+   "nodeID": "246",
+   "text": "Surplus at ~2% of world GDP, above peak Japan and Germany; 80% of solar panels; 35% of manufacturing output against 15% of global output",
+   "type": "I",
+   "role": "evidence_data",
+   "toulmin": "grounds",
+   "oper": "grounds",
+   "localID": "setser_mar_10_24#E1"
+  },
+  {
+   "nodeID": "247",
+   "text": "Baldwin on sole manufacturing superpower; Pettis on production giant and consumption pygmy; Bown on the tariff timeline; OECD value-added data",
+   "type": "I",
+   "role": "evidence_source",
+   "toulmin": "grounds",
+   "oper": "grounds",
+   "localID": "setser_mar_10_24#E2"
+  },
+  {
+   "nodeID": "248",
+   "text": "Manufacturing surplus near 2% of world GDP against a reported current account of just 1.5% of China's own GDP",
+   "type": "I",
+   "role": "evidence_discrepancy",
+   "toulmin": "grounds",
+   "oper": "grounds",
+   "localID": "setser_mar_10_24#E4"
+  },
+  {
+   "nodeID": "249",
+   "text": "Policy, not only comparative advantage — resistance to consumer stimulus and a thin safety net sustain a savings surplus",
+   "type": "I",
+   "role": "mechanism",
+   "toulmin": "warrant",
+   "oper": "warrant.mechanism",
+   "localID": "setser_mar_10_24#M1"
+  },
+  {
+   "nodeID": "250",
+   "text": "Upgrading is the stated growth plan, so advanced manufacturing capacity keeps expanding",
+   "type": "I",
+   "role": "mechanism",
+   "toulmin": "warrant",
+   "oper": "warrant.mechanism",
+   "localID": "setser_mar_10_24#M2"
+  },
+  {
+   "nodeID": "251",
+   "text": "The counterpart to the surplus is the United States, not commodity exporters, and the gap keeps widening as a share of world GDP",
+   "type": "I",
+   "role": "intermediate_claim",
+   "toulmin": "claim",
+   "oper": "claim.step",
+   "localID": "setser_mar_10_24#C1"
+  },
+  {
+   "nodeID": "252",
+   "text": "Take the IMF's own advice — consolidate 7.5pp of GDP, cut rates, loosen the currency — run it through IMF-derived econometrics, and the current account rises about 4pp of China's GDP. The cure enlarges the disease.",
+   "type": "I",
+   "role": "policy_reductio",
+   "toulmin": "claim",
+   "oper": "claim.step",
+   "localID": "setser_mar_10_24#C3"
+  },
+  {
+   "nodeID": "253",
+   "text": "The imbalance is large, growing and mismeasured — it shows up everywhere except in the reported current account and in the IMF's analysis",
+   "type": "I",
+   "role": "main_claim",
+   "toulmin": "claim",
+   "oper": "claim.final",
+   "localID": "setser_mar_10_24#K"
+  },
+  {
+   "nodeID": "254",
+   "text": "The size of the imbalance, correctly measured, must be factored into Chinese policymaking and into external policy advice",
+   "type": "I",
+   "role": "recommendation",
+   "toulmin": "claim",
+   "oper": "claim.final",
+   "localID": "setser_mar_10_24#REC"
+  },
+  {
+   "nodeID": "255",
+   "text": "The standard view that the post-crisis fall in China's current account means external imbalances are no longer pressing",
+   "type": "I",
+   "role": "opposing_view",
+   "toulmin": "rebuttal",
+   "oper": "rebuttal",
+   "localID": "setser_mar_10_24#X"
+  },
+  {
+   "nodeID": "256",
+   "text": "Specialisation does partly reflect a large population and limited resources; the comprehensive data also lags and misses the 2020-2022 surge",
+   "type": "I",
+   "role": "caveat",
+   "toulmin": "qualifier",
+   "oper": "qualifier",
+   "localID": "setser_mar_10_24#QF"
+  },
+  {
+   "nodeID": "1299",
+   "text": "bounds",
+   "type": "RA",
+   "scheme": "bounds",
+   "relation_source": "label",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "1302",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "label",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "1305",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "label",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "1308",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "label",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "1311",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "label",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "1314",
+   "text": "licenses",
+   "type": "RA",
+   "scheme": "licenses",
+   "relation_source": "label",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "1317",
+   "text": "licenses",
+   "type": "RA",
+   "scheme": "licenses",
+   "relation_source": "label",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "1320",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "label",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "1323",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "label",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "1326",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "label",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "1329",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "label",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "1332",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "label",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "1335",
+   "text": "motivates",
+   "type": "RA",
+   "scheme": "motivates",
+   "relation_source": "label",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "1338",
+   "text": "licenses",
+   "type": "RA",
+   "scheme": "licenses",
+   "relation_source": "label",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "1341",
+   "text": "rebuts",
+   "type": "CA",
+   "scheme": "rebuts",
+   "relation_source": "label",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "1344",
+   "text": "qualified_by",
+   "type": "CA",
+   "scheme": "qualified_by",
+   "relation_source": "label",
+   "relation_level": "",
+   "relation_purity": ""
+  }
+ ],
+ "edges": [
+  {
+   "edgeID": "1300",
+   "fromID": "245",
+   "toID": "1299"
+  },
+  {
+   "edgeID": "1301",
+   "fromID": "1299",
+   "toID": "246"
+  },
+  {
+   "edgeID": "1303",
+   "fromID": "244",
+   "toID": "1302"
+  },
+  {
+   "edgeID": "1304",
+   "fromID": "1302",
+   "toID": "248"
+  },
+  {
+   "edgeID": "1306",
+   "fromID": "246",
+   "toID": "1305"
+  },
+  {
+   "edgeID": "1307",
+   "fromID": "1305",
+   "toID": "251"
+  },
+  {
+   "edgeID": "1309",
+   "fromID": "247",
+   "toID": "1308"
+  },
+  {
+   "edgeID": "1310",
+   "fromID": "1308",
+   "toID": "251"
+  },
+  {
+   "edgeID": "1312",
+   "fromID": "248",
+   "toID": "1311"
+  },
+  {
+   "edgeID": "1313",
+   "fromID": "1311",
+   "toID": "251"
+  },
+  {
+   "edgeID": "1315",
+   "fromID": "243",
+   "toID": "1314"
+  },
+  {
+   "edgeID": "1316",
+   "fromID": "1314",
+   "toID": "251"
+  },
+  {
+   "edgeID": "1318",
+   "fromID": "241",
+   "toID": "1317"
+  },
+  {
+   "edgeID": "1319",
+   "fromID": "1317",
+   "toID": "251"
+  },
+  {
+   "edgeID": "1321",
+   "fromID": "249",
+   "toID": "1320"
+  },
+  {
+   "edgeID": "1322",
+   "fromID": "1320",
+   "toID": "251"
+  },
+  {
+   "edgeID": "1324",
+   "fromID": "250",
+   "toID": "1323"
+  },
+  {
+   "edgeID": "1325",
+   "fromID": "1323",
+   "toID": "251"
+  },
+  {
+   "edgeID": "1327",
+   "fromID": "251",
+   "toID": "1326"
+  },
+  {
+   "edgeID": "1328",
+   "fromID": "1326",
+   "toID": "253"
+  },
+  {
+   "edgeID": "1330",
+   "fromID": "251",
+   "toID": "1329"
+  },
+  {
+   "edgeID": "1331",
+   "fromID": "1329",
+   "toID": "252"
+  },
+  {
+   "edgeID": "1333",
+   "fromID": "252",
+   "toID": "1332"
+  },
+  {
+   "edgeID": "1334",
+   "fromID": "1332",
+   "toID": "253"
+  },
+  {
+   "edgeID": "1336",
+   "fromID": "253",
+   "toID": "1335"
+  },
+  {
+   "edgeID": "1337",
+   "fromID": "1335",
+   "toID": "254"
+  },
+  {
+   "edgeID": "1339",
+   "fromID": "242",
+   "toID": "1338"
+  },
+  {
+   "edgeID": "1340",
+   "fromID": "1338",
+   "toID": "254"
+  },
+  {
+   "edgeID": "1342",
+   "fromID": "253",
+   "toID": "1341"
+  },
+  {
+   "edgeID": "1343",
+   "fromID": "1341",
+   "toID": "255"
+  },
+  {
+   "edgeID": "1345",
+   "fromID": "253",
+   "toID": "1344"
+  },
+  {
+   "edgeID": "1346",
+   "fromID": "1344",
+   "toID": "256"
+  }
+ ],
+ "locutions": [],
+ "source": {
+  "doc": "setser_mar_10_24",
+  "title": "China's Record Manufacturing Surplus",
+  "date": "2024-03-10",
+  "url": "https://www.cfr.org/articles/chinas-record-manufacturing-surplus"
+ }
+}

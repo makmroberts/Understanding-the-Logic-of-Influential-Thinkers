@@ -1,0 +1,547 @@
+{
+ "nodes": [
+  {
+   "nodeID": "316",
+   "text": "Have Trump's tariffs actually shocked trade flows and the global economy?",
+   "type": "I",
+   "role": "question",
+   "toulmin": "framing",
+   "oper": "framing",
+   "localID": "setser_2025-09-12_trump-shock-that-wasnt#Q"
+  },
+  {
+   "nodeID": "317",
+   "text": "A global tariff works like an exchange rate move: import elasticity of about 0.3 to 0.4, not the bilateral elasticity of about 2",
+   "type": "I",
+   "role": "stated_assumption",
+   "toulmin": "warrant",
+   "oper": "warrant.prior",
+   "localID": "setser_2025-09-12_trump-shock-that-wasnt#P1"
+  },
+  {
+   "nodeID": "318",
+   "text": "Record tariff revenue means Americans keep importing and paying the tariff",
+   "type": "I",
+   "role": "stated_assumption",
+   "toulmin": "warrant",
+   "oper": "warrant.prior",
+   "localID": "setser_2025-09-12_trump-shock-that-wasnt#P2"
+  },
+  {
+   "nodeID": "319",
+   "text": "Tax- and finance-driven flows (pharmaceuticals, gold) are noise; core trade is the real signal",
+   "type": "I",
+   "role": "hidden_assumption",
+   "toulmin": "warrant",
+   "oper": "warrant.prior",
+   "localID": "setser_2025-09-12_trump-shock-that-wasnt#P3"
+  },
+  {
+   "nodeID": "320",
+   "text": "Annualized trade deficit peaked at $2 trillion in March, fell to $1 trillion, then rebounded to $1.2 trillion in July; imports from Taiwan up over 50 percent year to date; first-term tariffs cut affected trade about 30 percent, and about 50 percent for goods tariffed at 25 percent; high-frequency global trade measures have not slowed",
+   "type": "I",
+   "role": "evidence_data",
+   "toulmin": "grounds",
+   "oper": "grounds",
+   "localID": "setser_2025-09-12_trump-shock-that-wasnt#E1"
+  },
+  {
+   "nodeID": "321",
+   "text": "New York Times reporting; U.S. trade data; federal court ruling on tariff authority",
+   "type": "I",
+   "role": "evidence_source",
+   "toulmin": "grounds",
+   "oper": "grounds",
+   "localID": "setser_2025-09-12_trump-shock-that-wasnt#E2"
+  },
+  {
+   "nodeID": "322",
+   "text": "Pharmaceutical stockpiling (distorted by tax) and gold flows drive the headline swings",
+   "type": "I",
+   "role": "mechanism",
+   "toulmin": "warrant",
+   "oper": "warrant.mechanism",
+   "localID": "setser_2025-09-12_trump-shock-that-wasnt#M1"
+  },
+  {
+   "nodeID": "323",
+   "text": "Imports shift from China to Taiwan and Southeast Asia as final assembly relocates",
+   "type": "I",
+   "role": "mechanism",
+   "toulmin": "warrant",
+   "oper": "warrant.mechanism",
+   "localID": "setser_2025-09-12_trump-shock-that-wasnt#M2"
+  },
+  {
+   "nodeID": "324",
+   "text": "The data center buildout pushes electronics imports up",
+   "type": "I",
+   "role": "mechanism",
+   "toulmin": "warrant",
+   "oper": "warrant.mechanism",
+   "localID": "setser_2025-09-12_trump-shock-that-wasnt#M3"
+  },
+  {
+   "nodeID": "325",
+   "text": "A 15 percent tariff times a 0.3 to 0.4 elasticity cuts imports 5 to 6 percent; non-oil imports fall from about 10 to 9.5 percent of GDP",
+   "type": "I",
+   "role": "mechanism",
+   "toulmin": "warrant",
+   "oper": "warrant.mechanism",
+   "localID": "setser_2025-09-12_trump-shock-that-wasnt#M4"
+  },
+  {
+   "nodeID": "326",
+   "text": "Excluding pharmaceuticals and gold, U.S. imports are roughly on trend; the shock to trade rules far exceeds the shock to trade flows",
+   "type": "I",
+   "role": "intermediate_claim",
+   "toulmin": "claim",
+   "oper": "claim.step",
+   "localID": "setser_2025-09-12_trump-shock-that-wasnt#C1"
+  },
+  {
+   "nodeID": "327",
+   "text": "The Trump shock to trade flows has not happened yet, though a modest impact should appear",
+   "type": "I",
+   "role": "main_claim",
+   "toulmin": "claim",
+   "oper": "claim.final",
+   "localID": "setser_2025-09-12_trump-shock-that-wasnt#K"
+  },
+  {
+   "nodeID": "328",
+   "text": "Reading headline volatility as tariffs crushing trade",
+   "type": "I",
+   "role": "opposing_view",
+   "toulmin": "rebuttal",
+   "oper": "rebuttal",
+   "localID": "setser_2025-09-12_trump-shock-that-wasnt#X"
+  },
+  {
+   "nodeID": "329",
+   "text": "August deals doubled tariffs on Southeast Asia relative to April; fall data may show more impact; the tariffs' legality is unresolved",
+   "type": "I",
+   "role": "caveat",
+   "toulmin": "qualifier",
+   "oper": "qualifier",
+   "localID": "setser_2025-09-12_trump-shock-that-wasnt#QF"
+  },
+  {
+   "nodeID": "330",
+   "text": "Waiting for tariff relief (autos) replaces front-running; other exporters can take U.S. market share abroad",
+   "type": "I",
+   "role": "other_explanation",
+   "toulmin": "rebuttal",
+   "oper": "rebuttal",
+   "localID": "setser_2025-09-12_trump-shock-that-wasnt#R1"
+  },
+  {
+   "nodeID": "1545",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "arrow",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "1548",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "arrow",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "1551",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "arrow",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "1554",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "arrow",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "1557",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "arrow",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "1560",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "arrow",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "1563",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "arrow",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "1566",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "arrow",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "1569",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "arrow",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "1572",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "arrow",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "1575",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "arrow",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "1578",
+   "text": "licenses",
+   "type": "RA",
+   "scheme": "licenses",
+   "relation_source": "label",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "1581",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "arrow",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "1584",
+   "text": "rebuts",
+   "type": "CA",
+   "scheme": "rebuts",
+   "relation_source": "label",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "1587",
+   "text": "qualified_by",
+   "type": "CA",
+   "scheme": "qualified_by",
+   "relation_source": "label",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "1590",
+   "text": "undercut_by",
+   "type": "CA",
+   "scheme": "undercut_by",
+   "relation_source": "label",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "1593",
+   "text": "frames",
+   "type": "RA",
+   "scheme": "frames",
+   "relation_source": "layout_operator",
+   "relation_level": "fallback",
+   "relation_purity": "0.0"
+  },
+  {
+   "nodeID": "1596",
+   "text": "frames",
+   "type": "RA",
+   "scheme": "frames",
+   "relation_source": "layout_operator",
+   "relation_level": "fallback",
+   "relation_purity": "0.0"
+  },
+  {
+   "nodeID": "1599",
+   "text": "frames",
+   "type": "RA",
+   "scheme": "frames",
+   "relation_source": "layout_operator",
+   "relation_level": "fallback",
+   "relation_purity": "0.0"
+  },
+  {
+   "nodeID": "1602",
+   "text": "frames",
+   "type": "RA",
+   "scheme": "frames",
+   "relation_source": "layout_operator",
+   "relation_level": "fallback",
+   "relation_purity": "0.0"
+  },
+  {
+   "nodeID": "1605",
+   "text": "frames",
+   "type": "RA",
+   "scheme": "frames",
+   "relation_source": "layout_operator",
+   "relation_level": "fallback",
+   "relation_purity": "0.0"
+  }
+ ],
+ "edges": [
+  {
+   "edgeID": "1546",
+   "fromID": "319",
+   "toID": "1545"
+  },
+  {
+   "edgeID": "1547",
+   "fromID": "1545",
+   "toID": "322"
+  },
+  {
+   "edgeID": "1549",
+   "fromID": "320",
+   "toID": "1548"
+  },
+  {
+   "edgeID": "1550",
+   "fromID": "1548",
+   "toID": "322"
+  },
+  {
+   "edgeID": "1552",
+   "fromID": "320",
+   "toID": "1551"
+  },
+  {
+   "edgeID": "1553",
+   "fromID": "1551",
+   "toID": "323"
+  },
+  {
+   "edgeID": "1555",
+   "fromID": "320",
+   "toID": "1554"
+  },
+  {
+   "edgeID": "1556",
+   "fromID": "1554",
+   "toID": "324"
+  },
+  {
+   "edgeID": "1558",
+   "fromID": "317",
+   "toID": "1557"
+  },
+  {
+   "edgeID": "1559",
+   "fromID": "1557",
+   "toID": "325"
+  },
+  {
+   "edgeID": "1561",
+   "fromID": "321",
+   "toID": "1560"
+  },
+  {
+   "edgeID": "1562",
+   "fromID": "1560",
+   "toID": "322"
+  },
+  {
+   "edgeID": "1564",
+   "fromID": "322",
+   "toID": "1563"
+  },
+  {
+   "edgeID": "1565",
+   "fromID": "1563",
+   "toID": "326"
+  },
+  {
+   "edgeID": "1567",
+   "fromID": "323",
+   "toID": "1566"
+  },
+  {
+   "edgeID": "1568",
+   "fromID": "1566",
+   "toID": "326"
+  },
+  {
+   "edgeID": "1570",
+   "fromID": "324",
+   "toID": "1569"
+  },
+  {
+   "edgeID": "1571",
+   "fromID": "1569",
+   "toID": "326"
+  },
+  {
+   "edgeID": "1573",
+   "fromID": "318",
+   "toID": "1572"
+  },
+  {
+   "edgeID": "1574",
+   "fromID": "1572",
+   "toID": "326"
+  },
+  {
+   "edgeID": "1576",
+   "fromID": "325",
+   "toID": "1575"
+  },
+  {
+   "edgeID": "1577",
+   "fromID": "1575",
+   "toID": "327"
+  },
+  {
+   "edgeID": "1579",
+   "fromID": "319",
+   "toID": "1578"
+  },
+  {
+   "edgeID": "1580",
+   "fromID": "1578",
+   "toID": "326"
+  },
+  {
+   "edgeID": "1582",
+   "fromID": "326",
+   "toID": "1581"
+  },
+  {
+   "edgeID": "1583",
+   "fromID": "1581",
+   "toID": "327"
+  },
+  {
+   "edgeID": "1585",
+   "fromID": "327",
+   "toID": "1584"
+  },
+  {
+   "edgeID": "1586",
+   "fromID": "1584",
+   "toID": "328"
+  },
+  {
+   "edgeID": "1588",
+   "fromID": "327",
+   "toID": "1587"
+  },
+  {
+   "edgeID": "1589",
+   "fromID": "1587",
+   "toID": "329"
+  },
+  {
+   "edgeID": "1591",
+   "fromID": "322",
+   "toID": "1590"
+  },
+  {
+   "edgeID": "1592",
+   "fromID": "1590",
+   "toID": "330"
+  },
+  {
+   "edgeID": "1594",
+   "fromID": "316",
+   "toID": "1593"
+  },
+  {
+   "edgeID": "1595",
+   "fromID": "1593",
+   "toID": "317"
+  },
+  {
+   "edgeID": "1597",
+   "fromID": "316",
+   "toID": "1596"
+  },
+  {
+   "edgeID": "1598",
+   "fromID": "1596",
+   "toID": "318"
+  },
+  {
+   "edgeID": "1600",
+   "fromID": "316",
+   "toID": "1599"
+  },
+  {
+   "edgeID": "1601",
+   "fromID": "1599",
+   "toID": "319"
+  },
+  {
+   "edgeID": "1603",
+   "fromID": "317",
+   "toID": "1602"
+  },
+  {
+   "edgeID": "1604",
+   "fromID": "1602",
+   "toID": "320"
+  },
+  {
+   "edgeID": "1606",
+   "fromID": "319",
+   "toID": "1605"
+  },
+  {
+   "edgeID": "1607",
+   "fromID": "1605",
+   "toID": "321"
+  }
+ ],
+ "locutions": [],
+ "source": {
+  "doc": "setser_2025-09-12_trump-shock-that-wasnt",
+  "title": "The Trump Shock That Wasn't (At Least Not Yet)",
+  "date": "2025-09-12",
+  "url": "https://www.cfr.org/articles/trump-shock-wasnt-least-not-yet"
+ }
+}

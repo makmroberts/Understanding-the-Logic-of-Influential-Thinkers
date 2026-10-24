@@ -1,0 +1,386 @@
+{
+ "nodes": [
+  {
+   "nodeID": "226",
+   "text": "Is China on track to meet its Phase One purchase commitments?",
+   "type": "I",
+   "role": "question",
+   "toulmin": "framing",
+   "oper": "framing",
+   "localID": "setser_jul_8_20#Q"
+  },
+  {
+   "nodeID": "227",
+   "text": "Agriculture and energy flow through a few state firms, so purchases can be directed; manufacturing cannot",
+   "type": "I",
+   "role": "stated_assumption",
+   "toulmin": "warrant",
+   "oper": "warrant.prior",
+   "localID": "setser_jul_8_20#P1"
+  },
+  {
+   "nodeID": "228",
+   "text": "A deal with numerical targets may be judged on those targets alone",
+   "type": "I",
+   "role": "hidden_assumption",
+   "toulmin": "warrant",
+   "oper": "warrant.prior",
+   "localID": "setser_jul_8_20#P2"
+  },
+  {
+   "nodeID": "229",
+   "text": "The deal's own numbers — a 2017 baseline, roughly $60bn above it, a $164.65bn target across the codes in Annex 6.1",
+   "type": "I",
+   "role": "benchmark",
+   "toulmin": "backing",
+   "oper": "backing",
+   "localID": "setser_jul_8_20#BM"
+  },
+  {
+   "nodeID": "230",
+   "text": "Services excluded because in-China sales are not exports; aircraft adjusted out; only the listed HS codes counted",
+   "type": "I",
+   "role": "scope_choice",
+   "toulmin": "qualifier",
+   "oper": "qualifier",
+   "localID": "setser_jul_8_20#SCP"
+  },
+  {
+   "nodeID": "231",
+   "text": "First-half pace implies ~$83bn, below the 2017 baseline of ~$101bn and even below 2019; energy at 7% of its target; 1m barrels a day at $40 still yields only $7.36bn",
+   "type": "I",
+   "role": "evidence_data",
+   "toulmin": "grounds",
+   "oper": "grounds",
+   "localID": "setser_jul_8_20#E1"
+  },
+  {
+   "nodeID": "232",
+   "text": "PIIE purchase tracker; Reuters on crude loadings; S&P Global on cancelled LNG cargoes; IMF growth forecast",
+   "type": "I",
+   "role": "evidence_source",
+   "toulmin": "grounds",
+   "oper": "grounds",
+   "localID": "setser_jul_8_20#E2"
+  },
+  {
+   "nodeID": "233",
+   "text": "There is no policy lever in manufacturing — import substitution continues and trade does not run through a few buyers",
+   "type": "I",
+   "role": "mechanism",
+   "toulmin": "warrant",
+   "oper": "warrant.mechanism",
+   "localID": "setser_jul_8_20#M1"
+  },
+  {
+   "nodeID": "234",
+   "text": "Seasonality blocks catch-up, and because targets are nominal a commodity price crash widens the gap without any change in volume",
+   "type": "I",
+   "role": "mechanism",
+   "toulmin": "warrant",
+   "oper": "warrant.mechanism",
+   "localID": "setser_jul_8_20#M2"
+  },
+  {
+   "nodeID": "235",
+   "text": "Category by category: manufacturing will not close the gap, agriculture is behind but Q4 is still live, energy is effectively impossible",
+   "type": "I",
+   "role": "intermediate_claim",
+   "toulmin": "claim",
+   "oper": "claim.step",
+   "localID": "setser_jul_8_20#C1"
+  },
+  {
+   "nodeID": "236",
+   "text": "The deal is failing on its own terms — insisting on impressive numbers made the shortfall easy to demonstrate",
+   "type": "I",
+   "role": "main_claim",
+   "toulmin": "claim",
+   "oper": "claim.final",
+   "localID": "setser_jul_8_20#K"
+  },
+  {
+   "nodeID": "237",
+   "text": "Raised up front and rebutted: \"the purchase commitments themselves were a mistake\" and \"COVID-19 changed everything\". A barrier-removal deal might have worked — but would not have produced a big number",
+   "type": "I",
+   "role": "opposing_view",
+   "toulmin": "rebuttal",
+   "oper": "rebuttal",
+   "localID": "setser_jul_8_20#X"
+  },
+  {
+   "nodeID": "238",
+   "text": "Agriculture could still deliver in Q4, which creates a real cost to abandoning the deal now",
+   "type": "I",
+   "role": "caveat",
+   "toulmin": "qualifier",
+   "oper": "qualifier",
+   "localID": "setser_jul_8_20#QF"
+  },
+  {
+   "nodeID": "239",
+   "text": "The aircraft collapse is exogenous — the largest category fell with the 737 MAX grounding, not with the deal",
+   "type": "I",
+   "role": "other_explanation",
+   "toulmin": "rebuttal",
+   "oper": "rebuttal",
+   "localID": "setser_jul_8_20#R1"
+  },
+  {
+   "nodeID": "1260",
+   "text": "bounds",
+   "type": "RA",
+   "scheme": "bounds",
+   "relation_source": "label",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "1263",
+   "text": "bounds",
+   "type": "RA",
+   "scheme": "bounds",
+   "relation_source": "label",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "1266",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "label",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "1269",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "label",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "1272",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "label",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "1275",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "label",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "1278",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "label",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "1281",
+   "text": "licenses",
+   "type": "RA",
+   "scheme": "licenses",
+   "relation_source": "label",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "1284",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "label",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "1287",
+   "text": "licenses",
+   "type": "RA",
+   "scheme": "licenses",
+   "relation_source": "label",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "1290",
+   "text": "rebuts",
+   "type": "CA",
+   "scheme": "rebuts",
+   "relation_source": "label",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "1293",
+   "text": "qualified_by",
+   "type": "CA",
+   "scheme": "qualified_by",
+   "relation_source": "label",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "1296",
+   "text": "undercut_by",
+   "type": "CA",
+   "scheme": "undercut_by",
+   "relation_source": "label",
+   "relation_level": "",
+   "relation_purity": ""
+  }
+ ],
+ "edges": [
+  {
+   "edgeID": "1261",
+   "fromID": "230",
+   "toID": "1260"
+  },
+  {
+   "edgeID": "1262",
+   "fromID": "1260",
+   "toID": "229"
+  },
+  {
+   "edgeID": "1264",
+   "fromID": "229",
+   "toID": "1263"
+  },
+  {
+   "edgeID": "1265",
+   "fromID": "1263",
+   "toID": "231"
+  },
+  {
+   "edgeID": "1267",
+   "fromID": "232",
+   "toID": "1266"
+  },
+  {
+   "edgeID": "1268",
+   "fromID": "1266",
+   "toID": "231"
+  },
+  {
+   "edgeID": "1270",
+   "fromID": "227",
+   "toID": "1269"
+  },
+  {
+   "edgeID": "1271",
+   "fromID": "1269",
+   "toID": "233"
+  },
+  {
+   "edgeID": "1273",
+   "fromID": "231",
+   "toID": "1272"
+  },
+  {
+   "edgeID": "1274",
+   "fromID": "1272",
+   "toID": "235"
+  },
+  {
+   "edgeID": "1276",
+   "fromID": "233",
+   "toID": "1275"
+  },
+  {
+   "edgeID": "1277",
+   "fromID": "1275",
+   "toID": "235"
+  },
+  {
+   "edgeID": "1279",
+   "fromID": "234",
+   "toID": "1278"
+  },
+  {
+   "edgeID": "1280",
+   "fromID": "1278",
+   "toID": "235"
+  },
+  {
+   "edgeID": "1282",
+   "fromID": "229",
+   "toID": "1281"
+  },
+  {
+   "edgeID": "1283",
+   "fromID": "1281",
+   "toID": "235"
+  },
+  {
+   "edgeID": "1285",
+   "fromID": "235",
+   "toID": "1284"
+  },
+  {
+   "edgeID": "1286",
+   "fromID": "1284",
+   "toID": "236"
+  },
+  {
+   "edgeID": "1288",
+   "fromID": "228",
+   "toID": "1287"
+  },
+  {
+   "edgeID": "1289",
+   "fromID": "1287",
+   "toID": "236"
+  },
+  {
+   "edgeID": "1291",
+   "fromID": "236",
+   "toID": "1290"
+  },
+  {
+   "edgeID": "1292",
+   "fromID": "1290",
+   "toID": "237"
+  },
+  {
+   "edgeID": "1294",
+   "fromID": "235",
+   "toID": "1293"
+  },
+  {
+   "edgeID": "1295",
+   "fromID": "1293",
+   "toID": "238"
+  },
+  {
+   "edgeID": "1297",
+   "fromID": "235",
+   "toID": "1296"
+  },
+  {
+   "edgeID": "1298",
+   "fromID": "1296",
+   "toID": "239"
+  }
+ ],
+ "locutions": [],
+ "source": {
+  "doc": "setser_jul_8_20",
+  "title": "Slouching Toward Phase One",
+  "date": "2020-07-08",
+  "url": "https://www.cfr.org/articles/slouching-toward-phase-one"
+ }
+}

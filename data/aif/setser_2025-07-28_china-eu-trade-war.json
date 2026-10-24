@@ -1,0 +1,472 @@
+{
+ "nodes": [
+  {
+   "nodeID": "303",
+   "text": "Why is Europe losing ground to China in trade, and what should it do about it?",
+   "type": "I",
+   "role": "question",
+   "toulmin": "framing",
+   "oper": "framing",
+   "localID": "setser_2025-07-28_china-eu-trade-war#Q"
+  },
+  {
+   "nodeID": "304",
+   "text": "China's trade war tools are industrial policy and a weak currency, not tariffs",
+   "type": "I",
+   "role": "stated_assumption",
+   "toulmin": "warrant",
+   "oper": "warrant.prior",
+   "localID": "setser_2025-07-28_china-eu-trade-war#P1"
+  },
+  {
+   "nodeID": "305",
+   "text": "Chinese firms, private or state-linked, accept low returns on equity and build too much",
+   "type": "I",
+   "role": "stated_assumption",
+   "toulmin": "warrant",
+   "oper": "warrant.prior",
+   "localID": "setser_2025-07-28_china-eu-trade-war#P2"
+  },
+  {
+   "nodeID": "306",
+   "text": "A trading partner's surplus drains demand from your economy; manufacturing capacity has strategic value beyond its profits",
+   "type": "I",
+   "role": "hidden_assumption",
+   "toulmin": "warrant",
+   "oper": "warrant.prior",
+   "localID": "setser_2025-07-28_china-eu-trade-war#P3"
+  },
+  {
+   "nodeID": "307",
+   "text": "European exports to China down about 0.5 percentage points of European GDP; EU trade deficit with China set to double between 2020 and 2025; European auto exports to China on track for about $10 billion by 2027; Chinese electric vehicle exports at a 3 million annual pace in the second quarter; net exports added about 2 percentage points to Chinese growth over four quarters; yuan weaker against the euro",
+   "type": "I",
+   "role": "evidence_data",
+   "toulmin": "grounds",
+   "oper": "grounds",
+   "localID": "setser_2025-07-28_china-eu-trade-war#E1"
+  },
+  {
+   "nodeID": "308",
+   "text": "Centre for European Reform brief on German industry; Financial Times, New York Times and Wall Street Journal sector reporting; Adam Tooze; German customs data",
+   "type": "I",
+   "role": "evidence_source",
+   "toulmin": "grounds",
+   "oper": "grounds",
+   "localID": "setser_2025-07-28_china-eu-trade-war#E2"
+  },
+  {
+   "nodeID": "309",
+   "text": "Competing local governments add subsidized capacity, which drives profits down and pushes output China cannot absorb into exports",
+   "type": "I",
+   "role": "mechanism",
+   "toulmin": "warrant",
+   "oper": "warrant.mechanism",
+   "localID": "setser_2025-07-28_china-eu-trade-war#M1"
+  },
+  {
+   "nodeID": "310",
+   "text": "State banks keep the yuan weak; its fall against the euro has roughly offset the EU's 17 percent countervailing duty on BYD",
+   "type": "I",
+   "role": "mechanism",
+   "toulmin": "warrant",
+   "oper": "warrant.mechanism",
+   "localID": "setser_2025-07-28_china-eu-trade-war#M2"
+  },
+  {
+   "nodeID": "311",
+   "text": "The second China shock is eroding Europe's core export sectors and is large enough to matter for the whole economy, especially Germany's stagnation",
+   "type": "I",
+   "role": "intermediate_claim",
+   "toulmin": "claim",
+   "oper": "claim.step",
+   "localID": "setser_2025-07-28_china-eu-trade-war#C1"
+  },
+  {
+   "nodeID": "312",
+   "text": "China is winning a trade war with Europe; Europe needs a counter-industrial policy, broader tariffs on Chinese autos and new pressure for the yuan to rise",
+   "type": "I",
+   "role": "main_claim",
+   "toulmin": "claim",
+   "oper": "claim.final",
+   "localID": "setser_2025-07-28_china-eu-trade-war#K"
+  },
+  {
+   "nodeID": "313",
+   "text": "Europe's inadequate response so far; Trump-style tariffs or commodity purchase deals as the fix",
+   "type": "I",
+   "role": "opposing_view",
+   "toulmin": "rebuttal",
+   "oper": "rebuttal",
+   "localID": "setser_2025-07-28_china-eu-trade-war#X"
+  },
+  {
+   "nodeID": "314",
+   "text": "The United States is still importing, which limits the damage, but American firms will not absorb tariff costs much longer",
+   "type": "I",
+   "role": "caveat",
+   "toulmin": "qualifier",
+   "oper": "qualifier",
+   "localID": "setser_2025-07-28_china-eu-trade-war#QF"
+  },
+  {
+   "nodeID": "315",
+   "text": "China's long-standing tariff walls (25 percent on autos) also helped build the sector",
+   "type": "I",
+   "role": "other_explanation",
+   "toulmin": "rebuttal",
+   "oper": "rebuttal",
+   "localID": "setser_2025-07-28_china-eu-trade-war#R1"
+  },
+  {
+   "nodeID": "1491",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "arrow",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "1494",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "arrow",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "1497",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "arrow",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "1500",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "arrow",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "1503",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "arrow",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "1506",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "arrow",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "1509",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "arrow",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "1512",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "arrow",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "1515",
+   "text": "licenses",
+   "type": "RA",
+   "scheme": "licenses",
+   "relation_source": "label",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "1518",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "arrow",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "1521",
+   "text": "rebuts",
+   "type": "CA",
+   "scheme": "rebuts",
+   "relation_source": "label",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "1524",
+   "text": "qualified_by",
+   "type": "CA",
+   "scheme": "qualified_by",
+   "relation_source": "label",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "1527",
+   "text": "undercut_by",
+   "type": "CA",
+   "scheme": "undercut_by",
+   "relation_source": "label",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "1530",
+   "text": "frames",
+   "type": "RA",
+   "scheme": "frames",
+   "relation_source": "layout_operator",
+   "relation_level": "fallback",
+   "relation_purity": "0.0"
+  },
+  {
+   "nodeID": "1533",
+   "text": "frames",
+   "type": "RA",
+   "scheme": "frames",
+   "relation_source": "layout_operator",
+   "relation_level": "fallback",
+   "relation_purity": "0.0"
+  },
+  {
+   "nodeID": "1536",
+   "text": "frames",
+   "type": "RA",
+   "scheme": "frames",
+   "relation_source": "layout_operator",
+   "relation_level": "fallback",
+   "relation_purity": "0.0"
+  },
+  {
+   "nodeID": "1539",
+   "text": "frames",
+   "type": "RA",
+   "scheme": "frames",
+   "relation_source": "layout_operator",
+   "relation_level": "fallback",
+   "relation_purity": "0.0"
+  },
+  {
+   "nodeID": "1542",
+   "text": "frames",
+   "type": "RA",
+   "scheme": "frames",
+   "relation_source": "layout_operator",
+   "relation_level": "fallback",
+   "relation_purity": "0.0"
+  }
+ ],
+ "edges": [
+  {
+   "edgeID": "1492",
+   "fromID": "304",
+   "toID": "1491"
+  },
+  {
+   "edgeID": "1493",
+   "fromID": "1491",
+   "toID": "309"
+  },
+  {
+   "edgeID": "1495",
+   "fromID": "305",
+   "toID": "1494"
+  },
+  {
+   "edgeID": "1496",
+   "fromID": "1494",
+   "toID": "309"
+  },
+  {
+   "edgeID": "1498",
+   "fromID": "304",
+   "toID": "1497"
+  },
+  {
+   "edgeID": "1499",
+   "fromID": "1497",
+   "toID": "310"
+  },
+  {
+   "edgeID": "1501",
+   "fromID": "307",
+   "toID": "1500"
+  },
+  {
+   "edgeID": "1502",
+   "fromID": "1500",
+   "toID": "309"
+  },
+  {
+   "edgeID": "1504",
+   "fromID": "307",
+   "toID": "1503"
+  },
+  {
+   "edgeID": "1505",
+   "fromID": "1503",
+   "toID": "310"
+  },
+  {
+   "edgeID": "1507",
+   "fromID": "308",
+   "toID": "1506"
+  },
+  {
+   "edgeID": "1508",
+   "fromID": "1506",
+   "toID": "309"
+  },
+  {
+   "edgeID": "1510",
+   "fromID": "309",
+   "toID": "1509"
+  },
+  {
+   "edgeID": "1511",
+   "fromID": "1509",
+   "toID": "311"
+  },
+  {
+   "edgeID": "1513",
+   "fromID": "310",
+   "toID": "1512"
+  },
+  {
+   "edgeID": "1514",
+   "fromID": "1512",
+   "toID": "311"
+  },
+  {
+   "edgeID": "1516",
+   "fromID": "306",
+   "toID": "1515"
+  },
+  {
+   "edgeID": "1517",
+   "fromID": "1515",
+   "toID": "311"
+  },
+  {
+   "edgeID": "1519",
+   "fromID": "311",
+   "toID": "1518"
+  },
+  {
+   "edgeID": "1520",
+   "fromID": "1518",
+   "toID": "312"
+  },
+  {
+   "edgeID": "1522",
+   "fromID": "312",
+   "toID": "1521"
+  },
+  {
+   "edgeID": "1523",
+   "fromID": "1521",
+   "toID": "313"
+  },
+  {
+   "edgeID": "1525",
+   "fromID": "312",
+   "toID": "1524"
+  },
+  {
+   "edgeID": "1526",
+   "fromID": "1524",
+   "toID": "314"
+  },
+  {
+   "edgeID": "1528",
+   "fromID": "309",
+   "toID": "1527"
+  },
+  {
+   "edgeID": "1529",
+   "fromID": "1527",
+   "toID": "315"
+  },
+  {
+   "edgeID": "1531",
+   "fromID": "303",
+   "toID": "1530"
+  },
+  {
+   "edgeID": "1532",
+   "fromID": "1530",
+   "toID": "304"
+  },
+  {
+   "edgeID": "1534",
+   "fromID": "303",
+   "toID": "1533"
+  },
+  {
+   "edgeID": "1535",
+   "fromID": "1533",
+   "toID": "305"
+  },
+  {
+   "edgeID": "1537",
+   "fromID": "303",
+   "toID": "1536"
+  },
+  {
+   "edgeID": "1538",
+   "fromID": "1536",
+   "toID": "306"
+  },
+  {
+   "edgeID": "1540",
+   "fromID": "304",
+   "toID": "1539"
+  },
+  {
+   "edgeID": "1541",
+   "fromID": "1539",
+   "toID": "307"
+  },
+  {
+   "edgeID": "1543",
+   "fromID": "306",
+   "toID": "1542"
+  },
+  {
+   "edgeID": "1544",
+   "fromID": "1542",
+   "toID": "308"
+  }
+ ],
+ "locutions": [],
+ "source": {
+  "doc": "setser_2025-07-28_china-eu-trade-war",
+  "title": "China is also Fighting a Trade War with Europe (and Winning)",
+  "date": "2025-07-28",
+  "url": "https://www.cfr.org/articles/china-also-fighting-trade-war-europe-and-winning"
+ }
+}

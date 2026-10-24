@@ -1,0 +1,470 @@
+{
+ "nodes": [
+  {
+   "nodeID": "257",
+   "text": "Why does the reported current account diverge from the customs surplus, and which is right?",
+   "type": "I",
+   "role": "question",
+   "toulmin": "framing",
+   "oper": "framing",
+   "localID": "setser_aug_14_24#Q"
+  },
+  {
+   "nodeID": "258",
+   "text": "The balance-of-payments surplus should exceed customs; a methodology change should net out",
+   "type": "I",
+   "role": "stated_assumption",
+   "toulmin": "warrant",
+   "oper": "warrant.prior",
+   "localID": "setser_aug_14_24#P1"
+  },
+  {
+   "nodeID": "259",
+   "text": "Customs data is ground truth — never argued for, the whole case rests on it",
+   "type": "I",
+   "role": "hidden_assumption",
+   "toulmin": "warrant",
+   "oper": "warrant.prior",
+   "localID": "setser_aug_14_24#P2"
+  },
+  {
+   "nodeID": "260",
+   "text": "The methodology was already changed at a convenient moment in 2015, and backdated",
+   "type": "I",
+   "role": "source_credibility",
+   "toulmin": "backing",
+   "oper": "backing",
+   "localID": "setser_aug_14_24#SC"
+  },
+  {
+   "nodeID": "261",
+   "text": "Reported current account ~$150bn below expectation in Q2",
+   "type": "I",
+   "role": "evidence_data",
+   "toulmin": "grounds",
+   "oper": "grounds",
+   "localID": "setser_aug_14_24#E1"
+  },
+  {
+   "nodeID": "262",
+   "text": "IMF Article IV Appendix VII; consistent with Adam Wolf's work",
+   "type": "I",
+   "role": "evidence_source",
+   "toulmin": "grounds",
+   "oper": "grounds",
+   "localID": "setser_aug_14_24#E2"
+  },
+  {
+   "nodeID": "263",
+   "text": "The customs goods series against the balance-of-payments goods series",
+   "type": "I",
+   "role": "evidence_rival",
+   "toulmin": "grounds",
+   "oper": "grounds",
+   "localID": "setser_aug_14_24#E3"
+  },
+  {
+   "nodeID": "264",
+   "text": "Gap explodes from 2022; BoP imports exceed customs imports for the first time in 2023",
+   "type": "I",
+   "role": "evidence_discrepancy",
+   "toulmin": "grounds",
+   "oper": "grounds",
+   "localID": "setser_aug_14_24#E4"
+  },
+  {
+   "nodeID": "265",
+   "text": "\"Factoryless\" manufacturing — a sale to a non-resident is booked as an export though the goods never leave China",
+   "type": "I",
+   "role": "mechanism",
+   "toulmin": "warrant",
+   "oper": "warrant.mechanism",
+   "localID": "setser_aug_14_24#M1"
+  },
+  {
+   "nodeID": "266",
+   "text": "Compilers switched from customs data to direct enterprise reporting in 2022",
+   "type": "I",
+   "role": "mechanism",
+   "toulmin": "warrant",
+   "oper": "warrant.mechanism",
+   "localID": "setser_aug_14_24#M2"
+  },
+  {
+   "nodeID": "267",
+   "text": "It makes no economic sense; the offsetting adjustment is absent; the series cannot be replicated",
+   "type": "I",
+   "role": "intermediate_claim",
+   "toulmin": "claim",
+   "oper": "claim.step",
+   "localID": "setser_aug_14_24#C1"
+  },
+  {
+   "nodeID": "268",
+   "text": "The reported surplus is an artifact of a methodology change",
+   "type": "I",
+   "role": "main_claim",
+   "toulmin": "claim",
+   "oper": "claim.final",
+   "localID": "setser_aug_14_24#K"
+  },
+  {
+   "nodeID": "269",
+   "text": "Goods surplus understated by ~$300bn, over 1.5pp of GDP; true current account surplus close to $700bn — use the customs data",
+   "type": "I",
+   "role": "reconstruction",
+   "toulmin": "claim",
+   "oper": "claim.final",
+   "localID": "setser_aug_14_24#RC"
+  },
+  {
+   "nodeID": "270",
+   "text": "implied only — stop using the reported series",
+   "type": "I",
+   "role": "recommendation",
+   "toulmin": "claim",
+   "oper": "claim.final",
+   "localID": "setser_aug_14_24#REC"
+  },
+  {
+   "nodeID": "271",
+   "text": "Analysts and the IMF read the post-2021 decline as real",
+   "type": "I",
+   "role": "opposing_view",
+   "toulmin": "rebuttal",
+   "oper": "rebuttal",
+   "localID": "setser_aug_14_24#X"
+  },
+  {
+   "nodeID": "272",
+   "text": "The income line carries no detail, so this cannot be checked from outside",
+   "type": "I",
+   "role": "caveat",
+   "toulmin": "qualifier",
+   "oper": "qualifier",
+   "localID": "setser_aug_14_24#QF"
+  },
+  {
+   "nodeID": "273",
+   "text": "The interest income anomaly is set aside \"for a future blog\"",
+   "type": "I",
+   "role": "deferred_question",
+   "toulmin": "framing",
+   "oper": "framing",
+   "localID": "setser_aug_14_24#DF"
+  },
+  {
+   "nodeID": "1347",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "label",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "1350",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "label",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "1353",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "label",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "1356",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "label",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "1359",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "label",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "1362",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "label",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "1365",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "label",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "1368",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "label",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "1371",
+   "text": "licenses",
+   "type": "RA",
+   "scheme": "licenses",
+   "relation_source": "label",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "1374",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "label",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "1377",
+   "text": "reconstructs",
+   "type": "RA",
+   "scheme": "reconstructs",
+   "relation_source": "label",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "1380",
+   "text": "licenses",
+   "type": "RA",
+   "scheme": "licenses",
+   "relation_source": "label",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "1383",
+   "text": "motivates",
+   "type": "RA",
+   "scheme": "motivates",
+   "relation_source": "label",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "1386",
+   "text": "rebuts",
+   "type": "CA",
+   "scheme": "rebuts",
+   "relation_source": "label",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "1389",
+   "text": "qualified_by",
+   "type": "CA",
+   "scheme": "qualified_by",
+   "relation_source": "label",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "1392",
+   "text": "defers",
+   "type": "RA",
+   "scheme": "defers",
+   "relation_source": "label",
+   "relation_level": "",
+   "relation_purity": ""
+  }
+ ],
+ "edges": [
+  {
+   "edgeID": "1348",
+   "fromID": "263",
+   "toID": "1347"
+  },
+  {
+   "edgeID": "1349",
+   "fromID": "1347",
+   "toID": "264"
+  },
+  {
+   "edgeID": "1351",
+   "fromID": "260",
+   "toID": "1350"
+  },
+  {
+   "edgeID": "1352",
+   "fromID": "1350",
+   "toID": "264"
+  },
+  {
+   "edgeID": "1354",
+   "fromID": "262",
+   "toID": "1353"
+  },
+  {
+   "edgeID": "1355",
+   "fromID": "1353",
+   "toID": "265"
+  },
+  {
+   "edgeID": "1357",
+   "fromID": "262",
+   "toID": "1356"
+  },
+  {
+   "edgeID": "1358",
+   "fromID": "1356",
+   "toID": "266"
+  },
+  {
+   "edgeID": "1360",
+   "fromID": "265",
+   "toID": "1359"
+  },
+  {
+   "edgeID": "1361",
+   "fromID": "1359",
+   "toID": "267"
+  },
+  {
+   "edgeID": "1363",
+   "fromID": "266",
+   "toID": "1362"
+  },
+  {
+   "edgeID": "1364",
+   "fromID": "1362",
+   "toID": "267"
+  },
+  {
+   "edgeID": "1366",
+   "fromID": "264",
+   "toID": "1365"
+  },
+  {
+   "edgeID": "1367",
+   "fromID": "1365",
+   "toID": "267"
+  },
+  {
+   "edgeID": "1369",
+   "fromID": "261",
+   "toID": "1368"
+  },
+  {
+   "edgeID": "1370",
+   "fromID": "1368",
+   "toID": "267"
+  },
+  {
+   "edgeID": "1372",
+   "fromID": "258",
+   "toID": "1371"
+  },
+  {
+   "edgeID": "1373",
+   "fromID": "1371",
+   "toID": "267"
+  },
+  {
+   "edgeID": "1375",
+   "fromID": "267",
+   "toID": "1374"
+  },
+  {
+   "edgeID": "1376",
+   "fromID": "1374",
+   "toID": "268"
+  },
+  {
+   "edgeID": "1378",
+   "fromID": "268",
+   "toID": "1377"
+  },
+  {
+   "edgeID": "1379",
+   "fromID": "1377",
+   "toID": "269"
+  },
+  {
+   "edgeID": "1381",
+   "fromID": "259",
+   "toID": "1380"
+  },
+  {
+   "edgeID": "1382",
+   "fromID": "1380",
+   "toID": "269"
+  },
+  {
+   "edgeID": "1384",
+   "fromID": "268",
+   "toID": "1383"
+  },
+  {
+   "edgeID": "1385",
+   "fromID": "1383",
+   "toID": "270"
+  },
+  {
+   "edgeID": "1387",
+   "fromID": "268",
+   "toID": "1386"
+  },
+  {
+   "edgeID": "1388",
+   "fromID": "1386",
+   "toID": "271"
+  },
+  {
+   "edgeID": "1390",
+   "fromID": "269",
+   "toID": "1389"
+  },
+  {
+   "edgeID": "1391",
+   "fromID": "1389",
+   "toID": "272"
+  },
+  {
+   "edgeID": "1393",
+   "fromID": "268",
+   "toID": "1392"
+  },
+  {
+   "edgeID": "1394",
+   "fromID": "1392",
+   "toID": "273"
+  }
+ ],
+ "locutions": [],
+ "source": {
+  "doc": "setser_aug_14_24",
+  "title": "China's Imaginary Trade Data",
+  "date": "2024-08-14",
+  "url": "https://www.cfr.org/articles/chinas-imaginary-trade-data"
+ }
+}
