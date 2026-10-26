@@ -1,0 +1,9 @@
+# Pinned to what this corpus was processed with, Python 3.12.14.
+# Only label_facets.py needs anthropic, and it has an offline path
+# (--import-json) that uses the same validation.
+
+PyYAML==6.0.2
+anthropic==1.14.0
+
+# Used only by the citation audit in scripts/, not by the pipeline.
+pypdf==6.19.0

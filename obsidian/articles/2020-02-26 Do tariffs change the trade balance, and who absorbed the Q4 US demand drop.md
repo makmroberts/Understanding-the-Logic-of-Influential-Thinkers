@@ -2,8 +2,10 @@
 
 2020-02-26
 
+[Read the article](https://www.cfr.org/articles/us-shock-global-demand-q4-coronavirus)
+
 ## L0
-- [[Do tariffs change the trade balance, and who absorbed the Q4 US]] `question`
+- [[Do tariffs change the trade balance, and who absorbed the Q4 US demand drop]] `question`
 
 ## L1
 - [[Tariff revenue is not offset]] `stated_assumption`

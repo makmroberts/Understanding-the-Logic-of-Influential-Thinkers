@@ -1,0 +1,856 @@
+{
+ "nodes": [
+  {
+   "nodeID": "155",
+   "text": "Why do global trade imbalances persist, and why could they worsen before improving?",
+   "type": "I",
+   "role": "question",
+   "toulmin": "framing",
+   "oper": "framing",
+   "localID": "setser_sep_20_19#Q"
+  },
+  {
+   "nodeID": "156",
+   "text": "If large economies save externally, another economy must absorb the surplus",
+   "type": "I",
+   "role": "stated_assumption",
+   "toulmin": "warrant",
+   "oper": "warrant.prior",
+   "localID": "setser_sep_20_19#P1"
+  },
+  {
+   "nodeID": "157",
+   "text": "Weak domestic demand tends to reduce imports and raise surpluses",
+   "type": "I",
+   "role": "stated_assumption",
+   "toulmin": "warrant",
+   "oper": "warrant.prior",
+   "localID": "setser_sep_20_19#P2"
+  },
+  {
+   "nodeID": "158",
+   "text": "Saving above domestic investment pushes capital and demand abroad",
+   "type": "I",
+   "role": "stated_assumption",
+   "toulmin": "warrant",
+   "oper": "warrant.prior",
+   "localID": "setser_sep_20_19#P3"
+  },
+  {
+   "nodeID": "159",
+   "text": "Together they roughly mirror the U.S. manufacturing deficit",
+   "type": "I",
+   "role": "evidence_data",
+   "toulmin": "grounds",
+   "oper": "grounds",
+   "localID": "setser_sep_20_19#D1"
+  },
+  {
+   "nodeID": "160",
+   "text": "Germany and other surplus economies run restrictive demand policies",
+   "type": "I",
+   "role": "evidence_data",
+   "toulmin": "grounds",
+   "oper": "grounds",
+   "localID": "setser_sep_20_19#D2"
+  },
+  {
+   "nodeID": "161",
+   "text": "Korea, Taiwan, Singapore, and Thailand remain export oriented",
+   "type": "I",
+   "role": "evidence_data",
+   "toulmin": "grounds",
+   "oper": "grounds",
+   "localID": "setser_sep_20_19#D3"
+  },
+  {
+   "nodeID": "162",
+   "text": "Current account ~$200–250B with augmented deficit near 12% of GDP",
+   "type": "I",
+   "role": "evidence_data",
+   "toulmin": "grounds",
+   "oper": "grounds",
+   "localID": "setser_sep_20_19#D4"
+  },
+  {
+   "nodeID": "163",
+   "text": "East Asian aggregate saving remains close to 40%",
+   "type": "I",
+   "role": "evidence_data",
+   "toulmin": "grounds",
+   "oper": "grounds",
+   "localID": "setser_sep_20_19#D5"
+  },
+  {
+   "nodeID": "164",
+   "text": "Modest stimulus failed to offset tightening and the trade war",
+   "type": "I",
+   "role": "evidence_data",
+   "toulmin": "grounds",
+   "oper": "grounds",
+   "localID": "setser_sep_20_19#D6"
+  },
+  {
+   "nodeID": "165",
+   "text": "Large relative to the country's limited export base",
+   "type": "I",
+   "role": "evidence_data",
+   "toulmin": "grounds",
+   "oper": "grounds",
+   "localID": "setser_sep_20_19#D7"
+  },
+  {
+   "nodeID": "166",
+   "text": "Lower imports and excess saving generate European surpluses",
+   "type": "I",
+   "role": "mechanism",
+   "toulmin": "warrant",
+   "oper": "warrant.mechanism",
+   "localID": "setser_sep_20_19#M1"
+  },
+  {
+   "nodeID": "167",
+   "text": "China saves more than its economy can sustainably absorb",
+   "type": "I",
+   "role": "mechanism",
+   "toulmin": "warrant",
+   "oper": "warrant.mechanism",
+   "localID": "setser_sep_20_19#M2"
+  },
+  {
+   "nodeID": "168",
+   "text": "Less domestic absorption pushes the external balance upward",
+   "type": "I",
+   "role": "mechanism",
+   "toulmin": "warrant",
+   "oper": "warrant.mechanism",
+   "localID": "setser_sep_20_19#M3"
+  },
+  {
+   "nodeID": "169",
+   "text": "North America takes the other side through external deficits and debt",
+   "type": "I",
+   "role": "mechanism",
+   "toulmin": "warrant",
+   "oper": "warrant.mechanism",
+   "localID": "setser_sep_20_19#M4"
+  },
+  {
+   "nodeID": "170",
+   "text": "Looser fiscal policy could directly raise domestic absorption",
+   "type": "I",
+   "role": "intermediate_claim",
+   "toulmin": "claim",
+   "oper": "claim.step",
+   "localID": "setser_sep_20_19#C1"
+  },
+  {
+   "nodeID": "171",
+   "text": "China's underlying problem is exceptionally high saving",
+   "type": "I",
+   "role": "intermediate_claim",
+   "toulmin": "claim",
+   "oper": "claim.step",
+   "localID": "setser_sep_20_19#C2"
+  },
+  {
+   "nodeID": "172",
+   "text": "Large public investment prevents an even larger external surplus",
+   "type": "I",
+   "role": "intermediate_claim",
+   "toulmin": "claim",
+   "oper": "claim.step",
+   "localID": "setser_sep_20_19#C3"
+  },
+  {
+   "nodeID": "173",
+   "text": "Its external debt stock is already large relative to exports",
+   "type": "I",
+   "role": "intermediate_claim",
+   "toulmin": "claim",
+   "oper": "claim.step",
+   "localID": "setser_sep_20_19#C4"
+  },
+  {
+   "nodeID": "174",
+   "text": "Europe still lacks demand and China's excess-saving problem remains; the U.S. cannot indefinitely absorb the resulting surpluses",
+   "type": "I",
+   "role": "main_claim",
+   "toulmin": "claim",
+   "oper": "claim.final",
+   "localID": "setser_sep_20_19#K"
+  },
+  {
+   "nodeID": "175",
+   "text": "Tighter U.S. fiscal policy would also reduce the American trade deficit",
+   "type": "I",
+   "role": "other_explanation",
+   "toulmin": "rebuttal",
+   "oper": "rebuttal",
+   "localID": "setser_sep_20_19#X"
+  },
+  {
+   "nodeID": "176",
+   "text": "Japan runs a surplus despite relatively loose fiscal policy",
+   "type": "I",
+   "role": "counterpoint",
+   "toulmin": "rebuttal",
+   "oper": "rebuttal",
+   "localID": "setser_sep_20_19#R1"
+  },
+  {
+   "nodeID": "177",
+   "text": "The current flow deficit is not obviously unsustainable today",
+   "type": "I",
+   "role": "caveat",
+   "toulmin": "qualifier",
+   "oper": "qualifier",
+   "localID": "setser_sep_20_19#QF1"
+  },
+  {
+   "nodeID": "178",
+   "text": "Fiscal and credit stimulus currently absorbs much of China's excess saving",
+   "type": "I",
+   "role": "caveat",
+   "toulmin": "qualifier",
+   "oper": "qualifier",
+   "localID": "setser_sep_20_19#QF2"
+  },
+  {
+   "nodeID": "996",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "arrow",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "999",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "arrow",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "1002",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "arrow",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "1005",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "arrow",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "1008",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "arrow",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "1011",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "arrow",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "1014",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "arrow",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "1017",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "arrow",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "1020",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "arrow",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "1023",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "arrow",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "1026",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "arrow",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "1029",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "arrow",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "1032",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "arrow",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "1035",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "arrow",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "1038",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "arrow",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "1041",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "arrow",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "1044",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "arrow",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "1047",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "arrow",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "1050",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "arrow",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "1053",
+   "text": "undercut_by",
+   "type": "CA",
+   "scheme": "undercut_by",
+   "relation_source": "label",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "1056",
+   "text": "undercut_by",
+   "type": "CA",
+   "scheme": "undercut_by",
+   "relation_source": "label",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "1059",
+   "text": "qualified_by",
+   "type": "CA",
+   "scheme": "qualified_by",
+   "relation_source": "label",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "1062",
+   "text": "undercut_by",
+   "type": "CA",
+   "scheme": "undercut_by",
+   "relation_source": "label",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "1065",
+   "text": "frames",
+   "type": "RA",
+   "scheme": "frames",
+   "relation_source": "layout_operator",
+   "relation_level": "fallback",
+   "relation_purity": "0.0"
+  },
+  {
+   "nodeID": "1068",
+   "text": "frames",
+   "type": "RA",
+   "scheme": "frames",
+   "relation_source": "layout_operator",
+   "relation_level": "fallback",
+   "relation_purity": "0.0"
+  },
+  {
+   "nodeID": "1071",
+   "text": "frames",
+   "type": "RA",
+   "scheme": "frames",
+   "relation_source": "layout_operator",
+   "relation_level": "fallback",
+   "relation_purity": "0.0"
+  },
+  {
+   "nodeID": "1074",
+   "text": "frames",
+   "type": "RA",
+   "scheme": "frames",
+   "relation_source": "layout_operator",
+   "relation_level": "fallback",
+   "relation_purity": "0.0"
+  },
+  {
+   "nodeID": "1077",
+   "text": "frames",
+   "type": "RA",
+   "scheme": "frames",
+   "relation_source": "layout_operator",
+   "relation_level": "fallback",
+   "relation_purity": "0.0"
+  },
+  {
+   "nodeID": "1080",
+   "text": "frames",
+   "type": "RA",
+   "scheme": "frames",
+   "relation_source": "layout_operator",
+   "relation_level": "fallback",
+   "relation_purity": "0.0"
+  },
+  {
+   "nodeID": "1083",
+   "text": "frames",
+   "type": "RA",
+   "scheme": "frames",
+   "relation_source": "layout_operator",
+   "relation_level": "fallback",
+   "relation_purity": "0.0"
+  },
+  {
+   "nodeID": "1086",
+   "text": "frames",
+   "type": "RA",
+   "scheme": "frames",
+   "relation_source": "layout_operator",
+   "relation_level": "fallback",
+   "relation_purity": "0.0"
+  },
+  {
+   "nodeID": "1089",
+   "text": "frames",
+   "type": "RA",
+   "scheme": "frames",
+   "relation_source": "layout_operator",
+   "relation_level": "fallback",
+   "relation_purity": "0.0"
+  },
+  {
+   "nodeID": "1092",
+   "text": "frames",
+   "type": "RA",
+   "scheme": "frames",
+   "relation_source": "layout_operator",
+   "relation_level": "fallback",
+   "relation_purity": "0.0"
+  }
+ ],
+ "edges": [
+  {
+   "edgeID": "997",
+   "fromID": "157",
+   "toID": "996"
+  },
+  {
+   "edgeID": "998",
+   "fromID": "996",
+   "toID": "166"
+  },
+  {
+   "edgeID": "1000",
+   "fromID": "160",
+   "toID": "999"
+  },
+  {
+   "edgeID": "1001",
+   "fromID": "999",
+   "toID": "166"
+  },
+  {
+   "edgeID": "1003",
+   "fromID": "166",
+   "toID": "1002"
+  },
+  {
+   "edgeID": "1004",
+   "fromID": "1002",
+   "toID": "170"
+  },
+  {
+   "edgeID": "1006",
+   "fromID": "158",
+   "toID": "1005"
+  },
+  {
+   "edgeID": "1007",
+   "fromID": "1005",
+   "toID": "167"
+  },
+  {
+   "edgeID": "1009",
+   "fromID": "162",
+   "toID": "1008"
+  },
+  {
+   "edgeID": "1010",
+   "fromID": "1008",
+   "toID": "167"
+  },
+  {
+   "edgeID": "1012",
+   "fromID": "163",
+   "toID": "1011"
+  },
+  {
+   "edgeID": "1013",
+   "fromID": "1011",
+   "toID": "167"
+  },
+  {
+   "edgeID": "1015",
+   "fromID": "167",
+   "toID": "1014"
+  },
+  {
+   "edgeID": "1016",
+   "fromID": "1014",
+   "toID": "171"
+  },
+  {
+   "edgeID": "1018",
+   "fromID": "164",
+   "toID": "1017"
+  },
+  {
+   "edgeID": "1019",
+   "fromID": "1017",
+   "toID": "168"
+  },
+  {
+   "edgeID": "1021",
+   "fromID": "167",
+   "toID": "1020"
+  },
+  {
+   "edgeID": "1022",
+   "fromID": "1020",
+   "toID": "168"
+  },
+  {
+   "edgeID": "1024",
+   "fromID": "168",
+   "toID": "1023"
+  },
+  {
+   "edgeID": "1025",
+   "fromID": "1023",
+   "toID": "172"
+  },
+  {
+   "edgeID": "1027",
+   "fromID": "156",
+   "toID": "1026"
+  },
+  {
+   "edgeID": "1028",
+   "fromID": "1026",
+   "toID": "169"
+  },
+  {
+   "edgeID": "1030",
+   "fromID": "159",
+   "toID": "1029"
+  },
+  {
+   "edgeID": "1031",
+   "fromID": "1029",
+   "toID": "169"
+  },
+  {
+   "edgeID": "1033",
+   "fromID": "161",
+   "toID": "1032"
+  },
+  {
+   "edgeID": "1034",
+   "fromID": "1032",
+   "toID": "169"
+  },
+  {
+   "edgeID": "1036",
+   "fromID": "169",
+   "toID": "1035"
+  },
+  {
+   "edgeID": "1037",
+   "fromID": "1035",
+   "toID": "173"
+  },
+  {
+   "edgeID": "1039",
+   "fromID": "165",
+   "toID": "1038"
+  },
+  {
+   "edgeID": "1040",
+   "fromID": "1038",
+   "toID": "173"
+  },
+  {
+   "edgeID": "1042",
+   "fromID": "170",
+   "toID": "1041"
+  },
+  {
+   "edgeID": "1043",
+   "fromID": "1041",
+   "toID": "174"
+  },
+  {
+   "edgeID": "1045",
+   "fromID": "171",
+   "toID": "1044"
+  },
+  {
+   "edgeID": "1046",
+   "fromID": "1044",
+   "toID": "174"
+  },
+  {
+   "edgeID": "1048",
+   "fromID": "172",
+   "toID": "1047"
+  },
+  {
+   "edgeID": "1049",
+   "fromID": "1047",
+   "toID": "174"
+  },
+  {
+   "edgeID": "1051",
+   "fromID": "173",
+   "toID": "1050"
+  },
+  {
+   "edgeID": "1052",
+   "fromID": "1050",
+   "toID": "174"
+  },
+  {
+   "edgeID": "1054",
+   "fromID": "170",
+   "toID": "1053"
+  },
+  {
+   "edgeID": "1055",
+   "fromID": "1053",
+   "toID": "175"
+  },
+  {
+   "edgeID": "1057",
+   "fromID": "170",
+   "toID": "1056"
+  },
+  {
+   "edgeID": "1058",
+   "fromID": "1056",
+   "toID": "176"
+  },
+  {
+   "edgeID": "1060",
+   "fromID": "173",
+   "toID": "1059"
+  },
+  {
+   "edgeID": "1061",
+   "fromID": "1059",
+   "toID": "177"
+  },
+  {
+   "edgeID": "1063",
+   "fromID": "172",
+   "toID": "1062"
+  },
+  {
+   "edgeID": "1064",
+   "fromID": "1062",
+   "toID": "178"
+  },
+  {
+   "edgeID": "1066",
+   "fromID": "155",
+   "toID": "1065"
+  },
+  {
+   "edgeID": "1067",
+   "fromID": "1065",
+   "toID": "156"
+  },
+  {
+   "edgeID": "1069",
+   "fromID": "155",
+   "toID": "1068"
+  },
+  {
+   "edgeID": "1070",
+   "fromID": "1068",
+   "toID": "157"
+  },
+  {
+   "edgeID": "1072",
+   "fromID": "155",
+   "toID": "1071"
+  },
+  {
+   "edgeID": "1073",
+   "fromID": "1071",
+   "toID": "158"
+  },
+  {
+   "edgeID": "1075",
+   "fromID": "156",
+   "toID": "1074"
+  },
+  {
+   "edgeID": "1076",
+   "fromID": "1074",
+   "toID": "159"
+  },
+  {
+   "edgeID": "1078",
+   "fromID": "156",
+   "toID": "1077"
+  },
+  {
+   "edgeID": "1079",
+   "fromID": "1077",
+   "toID": "161"
+  },
+  {
+   "edgeID": "1081",
+   "fromID": "157",
+   "toID": "1080"
+  },
+  {
+   "edgeID": "1082",
+   "fromID": "1080",
+   "toID": "160"
+  },
+  {
+   "edgeID": "1084",
+   "fromID": "157",
+   "toID": "1083"
+  },
+  {
+   "edgeID": "1085",
+   "fromID": "1083",
+   "toID": "164"
+  },
+  {
+   "edgeID": "1087",
+   "fromID": "158",
+   "toID": "1086"
+  },
+  {
+   "edgeID": "1088",
+   "fromID": "1086",
+   "toID": "162"
+  },
+  {
+   "edgeID": "1090",
+   "fromID": "158",
+   "toID": "1089"
+  },
+  {
+   "edgeID": "1091",
+   "fromID": "1089",
+   "toID": "163"
+  },
+  {
+   "edgeID": "1093",
+   "fromID": "158",
+   "toID": "1092"
+  },
+  {
+   "edgeID": "1094",
+   "fromID": "1092",
+   "toID": "165"
+  }
+ ],
+ "locutions": [],
+ "source": {
+  "doc": "setser_sep_20_19",
+  "title": "Why do global trade imbalances persist, and why could they worsen before improving?",
+  "date": "2019-09-20",
+  "url": "https://www.cfr.org/articles/why-global-trade-imbalances-could-get-worse-they-get-better"
+ }
+}

@@ -36,6 +36,10 @@ ROOT = Path(__file__).resolve().parent.parent
 MAPS_DIR = ROOT / "mermaid_code"
 DATA_DIR = ROOT / "data"
 SCHEMA_MAP = Path(__file__).resolve().parent / "schema_map.yaml"
+# Only the five meta-family maps carry a `%% url:` comment. The other fifteen
+# URLs are reconciled in this overlay rather than by editing the maps, which
+# are the authored artifact - same contract as schema_map.yaml.
+SOURCE_URLS = Path(__file__).resolve().parent / "source_urls.yaml"
 CONCEPTS = Path(__file__).resolve().parent / "concepts.yaml"
 
 TEMPLATE_STEMS = ("template", "edge_types")
@@ -98,6 +102,12 @@ def split_header(label: str) -> tuple[str, str, str]:
     body = plain(label)
     if header and body.startswith(header):
         body = body[len(header):].strip()
+    # The banner maps separate the header from the claim with a middot, as in
+    # "<b>Main claim</b> · <i>type: single</i><br/>The reported surplus...".
+    # Peeling the header leaves that middot stranded at the front of the body,
+    # where it becomes the first character of the note title and of every trace
+    # line for the claim. It is layout, not content.
+    body = re.sub(r"^[·•]\s*", "", body).strip()
     return header, body, byline
 
 
@@ -130,7 +140,27 @@ def doc_family(text: str) -> str:
     return "plain"
 
 
+def load_source_urls() -> dict:
+    """stem -> url, from the reconciliation overlay. Confirmed entries only.
+
+    Entries under `needs_review` are deliberately NOT returned: they were
+    assigned by elimination rather than by evidence, and a URL presented as the
+    source has to be one somebody checked.
+    """
+    if not SOURCE_URLS.exists():
+        return {}
+    spec = yaml.safe_load(SOURCE_URLS.read_text(encoding="utf-8")) or {}
+    return {k: v["url"] for k, v in (spec.get("urls") or {}).items()
+            if isinstance(v, dict) and v.get("url")}
+
+
+SOURCE_URL_OVERLAY = None
+
+
 def doc_meta(text: str, stem: str) -> dict:
+    global SOURCE_URL_OVERLAY
+    if SOURCE_URL_OVERLAY is None:
+        SOURCE_URL_OVERLAY = load_source_urls()
     meta = {"title": "", "author": "", "outlet": "", "url": "", "topics": "", "genre": ""}
     for line in text.splitlines():
         line = line.strip()
@@ -145,6 +175,11 @@ def doc_meta(text: str, stem: str) -> dict:
             key, val = key.strip().lower(), val.strip()
             if key in meta and val and not meta[key]:
                 meta[key] = val
+
+    # The map's own comment wins; the overlay only fills a gap, so a map that
+    # later gains a `%% url:` line silently takes precedence over this file.
+    if not meta["url"]:
+        meta["url"] = SOURCE_URL_OVERLAY.get(stem, "")
 
     if not meta["title"]:
         m = re.search(r'^\s*T\["(.*?)"\]', text, re.M | re.S)
@@ -285,7 +320,14 @@ def parse_doc(path: Path, smap: dict, issues: list) -> dict:
 
     # ---- edges ----
     edges = []
-    drop_ops = set(smap["drop_edge_operators"])
+    # `~~~` is mermaid's invisible link and this corpus uses it for two things:
+    # chaining subgraph containers (layout) and linking claim to claim (argument
+    # structure, mostly the question to its priors and a prior to its datum).
+    # They are told apart by their endpoints, which needs no judgement per edge.
+    # See the layout_operators block in schema_map.yaml.
+    layout_ops = set(smap.get("layout_operators")
+                     or smap.get("drop_edge_operators", []))
+    pushes_back = set(smap.get("pushes_back_relations", []))
     for raw_line in text.splitlines():
         line = raw_line.split("%%")[0].rstrip()
         if not line.strip() or line.lstrip().startswith(("subgraph", "classDef", "class", "linkStyle", "style")):
@@ -295,10 +337,35 @@ def parse_doc(path: Path, smap: dict, issues: list) -> dict:
             continue
 
         op = m.group("op") or "-.->"
-        if op in drop_ops:
-            continue
         label = (m.group("sl") or m.group("dl") or "").strip()
         dashed = op in {"-.->", "---"} or m.group("dashlab") is not None
+        is_layout = op in layout_ops
+
+        if is_layout:
+            # Keep only the claim-to-claim use. Either endpoint being a subgraph
+            # container (or an unfilled slot) makes it layout, and layout is
+            # dropped as it always was.
+            srcs = [s.strip() for s in re.split(r"\s*&\s*", m.group("src").strip())]
+            dsts = [s.strip() for s in re.split(r"\s*&\s*", m.group("dst").strip())]
+            if not (all(s in nodes for s in srcs if s)
+                    and all(s in nodes for s in dsts if s)):
+                continue
+            for src in srcs:
+                for dst in dsts:
+                    if not src or not dst:
+                        continue
+                    # The relation is DERIVED after every document is parsed,
+                    # from the relations this annotator actually labelled - see
+                    # derive_layout_relations. Nothing is typed here, because
+                    # the evidence for typing it is corpus-wide.
+                    edges.append({
+                        "from": src, "to": dst,
+                        "type": None, "raw": "",
+                        "polarity": "forward",
+                        "relation_source": "layout_operator",
+                        "needs_review": False,
+                    })
+            continue
 
         if label:
             etype = smap["edge_types"].get(label.lower())
@@ -325,6 +392,10 @@ def parse_doc(path: Path, smap: dict, issues: list) -> dict:
                     "from": src, "to": dst,
                     "type": etype, "raw": label,
                     "polarity": "pushes_back" if dashed else "forward",
+                    # three provenance classes, countable: the annotator wrote
+                    # the relation, or it came from the arrow style, or it was
+                    # recovered from a layout operator.
+                    "relation_source": "label" if label else "arrow",
                     "needs_review": etype is None,
                 })
 
@@ -366,6 +437,95 @@ def attach_concepts(docs: list[dict]) -> int:
     return hits
 
 
+def derive_layout_relations(docs: list[dict], smap: dict, issues: list) -> None:
+    """Type the recovered `~~~` edges from the annotator's own labelled edges.
+
+    The maps' invisible operator carries real structure - the question to its
+    priors, a prior to its datum - but no relation label. An earlier version of
+    this file typed those from a hand-written role-pair table; this derives them
+    instead, which is both less specified and more accurate: 89% leave-one-out
+    against the 161 edges that DO carry a label, against 12 cells somebody chose.
+
+    The mechanism is coarse-to-fine back-off over the role hierarchy declared in
+    schema_map.yaml: the exact role pair where that cell has evidence, else the
+    operational family pair, else the Toulmin element pair. Backing off from
+    sparse fine-grained labels to their parents is the standard treatment for
+    long-tail relations (Han et al. 2018), and it is what lets a second
+    annotator map their own role types onto two small family sets rather than
+    rewrite a table over 676 role pairs.
+
+    Every derived edge records the level it was typed at and the purity of the
+    cell it came from, so a weak typing is a review item and never silently
+    authoritative.
+    """
+    cfg = smap.get("layout_edge_derivation") or {}
+    chain = cfg.get("backoff") or ["type"]
+    min_ex = int(cfg.get("min_examples", 1))
+    flag_below = float(cfg.get("flag_below_purity", 0.0))
+    fallback = cfg.get("fallback", "frames")
+    fams = smap.get("role_families") or {}
+
+    def fam(level: str, rtype: str) -> str:
+        if level == "type":
+            return rtype
+        for name, members in (fams.get(level) or {}).items():
+            if rtype in members:
+                return name
+        return "?"
+
+    # nodes live under `levels`, keyed by the level they were drawn in
+    role = {(d["doc"], n["id"]): n["type"]
+            for d in docs for lst in d["levels"].values() for n in lst}
+    tables = {lv: defaultdict(Counter) for lv in chain}
+    for d in docs:
+        for e in d["edges"]:
+            if e.get("relation_source") != "label" or not e["type"]:
+                continue
+            a = role[(d["doc"], e["from"])]
+            b = role[(d["doc"], e["to"])]
+            for lv in chain:
+                tables[lv][(fam(lv, a), fam(lv, b))][e["type"]] += 1
+
+    pushes_back = set(smap.get("pushes_back_relations", []))
+    derived = Counter()
+    for d in docs:
+        for e in d["edges"]:
+            if e.get("relation_source") != "layout_operator" or e["type"]:
+                continue
+            a = role[(d["doc"], e["from"])]
+            b = role[(d["doc"], e["to"])]
+            etype, level, purity = fallback, "fallback", 0.0
+            for lv in chain:
+                cell = tables[lv].get((fam(lv, a), fam(lv, b)))
+                if cell and sum(cell.values()) >= min_ex:
+                    top, n = cell.most_common(1)[0]
+                    etype, level, purity = top, lv, n / sum(cell.values())
+                    break
+            e["type"] = etype
+            e["relation_level"] = level
+            e["relation_purity"] = round(purity, 2)
+            e["polarity"] = "pushes_back" if etype in pushes_back else "forward"
+            derived[(level, etype)] += 1
+            # Flag only a cell that EXISTED and was weak. A fallback is not a
+            # weak cell, it is the absence of one, and it is reported once
+            # below rather than as one review item per edge.
+            if level != "fallback" and purity < flag_below:
+                issues.append(("layout edge typed from a weak cell", d["doc"],
+                               f"{a} -> {b}: {etype} "
+                               f"(level {level}, purity {purity:.2f})"))
+    n_fb = sum(v for (lv, _), v in derived.items() if lv == "fallback")
+    if n_fb:
+        issues.append(("layout edges with no evidence to derive from", "corpus",
+                       f"{n_fb} edges typed `{fallback}` by declared convention. "
+                       f"These role pairs carry NO labelled example anywhere, "
+                       f"because the annotator used the unlabelled `~~~` "
+                       f"operator for exactly this structure - so there is "
+                       f"nothing to back off to. Sign 0: the structure is "
+                       f"recorded without asserting support we cannot evidence."))
+    for (level, etype), n in sorted(derived.items(), key=lambda kv: -kv[1]):
+        print(f"  derived {n:3d} layout edges as {etype} (at {level} level)")
+
+
 def write_outputs(docs: list[dict], issues: list) -> None:
     DATA_DIR.mkdir(exist_ok=True)
 
@@ -385,13 +545,33 @@ def write_outputs(docs: list[dict], issues: list) -> None:
                                 int(n["implicit_only"]), n["type_source"],
                                 n["claim_type"], n["text"]])
 
+    # Per-document metadata, which the parser already reads out of each map's
+    # title node. It used to exist only inside the Neo4j export, which made
+    # every other consumer depend on that exporter having been run; writing it
+    # here makes the parser the single source, like nodes.csv and edges.csv.
+    with (DATA_DIR / "documents.csv").open("w", newline="", encoding="utf-8") as f:
+        w = csv.writer(f)
+        w.writerow(["id", "date", "family", "title", "author", "outlet", "url",
+                    "genre", "shape", "topics"])
+        for d in sorted(docs, key=lambda x: x["date"]):
+            m = d.get("meta") or {}
+            w.writerow([d["doc"], d["date"], d["family"], m.get("title", ""),
+                        m.get("author", ""), m.get("outlet", ""), m.get("url", ""),
+                        m.get("genre", ""), m.get("shape", ""), m.get("topics", "")])
+
     with (DATA_DIR / "edges.csv").open("w", newline="", encoding="utf-8") as f:
         w = csv.writer(f)
-        w.writerow(["doc", "family", "date", "from", "to", "type", "polarity", "raw", "needs_review"])
+        w.writerow(["doc", "family", "date", "from", "to", "type", "polarity",
+                    "raw", "relation_source", "relation_level",
+                    "relation_purity", "needs_review"])
         for d in docs:
             for e in d["edges"]:
-                w.writerow([d["doc"], d["family"], d["date"], e["from"], e["to"], e["type"] or "",
-                            e["polarity"], e["raw"], int(e["needs_review"])])
+                w.writerow([d["doc"], d["family"], d["date"], e["from"], e["to"],
+                            e["type"] or "", e["polarity"], e["raw"],
+                            e.get("relation_source", "arrow"),
+                            e.get("relation_level", ""),
+                            e.get("relation_purity", ""),
+                            int(e["needs_review"])])
 
     # ---- review report ----
     all_nodes = [n for d in docs for ns in d["levels"].values() for n in ns]
@@ -448,12 +628,48 @@ def write_outputs(docs: list[dict], issues: list) -> None:
     (DATA_DIR / "review.md").write_text("\n".join(lines), encoding="utf-8")
 
 
-def propose_concepts(docs: list[dict]) -> None:
-    """Suggest candidate cross-document concepts by shared distinctive terms.
+def propose_concepts(docs: list[dict], smap: dict) -> None:
+    """Suggest candidate cross-document concepts, by two independent detectors.
 
     Deliberately crude and deliberately not applied: it writes a candidate file
     for the team to accept, rename or reject. Concept assignment is the
     analysis, not a preprocessing step.
+
+    TWO DETECTORS, because wording and reasoning are not the same signal.
+
+    `wording` - shared distinctive terms. The original. It finds a claim restated
+    in similar words across articles.
+
+      Measured 2026-10-19: it was also finding SLOT LABELS. The token set was
+      `header + text`, and `header` is the schema slot name ("Studies and
+      sources", "Data") on 92 of 92 `banner`-family nodes and 55 of 70 `meta`
+      ones, against 1 of 197 `plain` ones. A slot label appears in 13-27 nodes,
+      which sits inside the `2 <= c <= 25` distinctiveness window, so two
+      articles "matched" for both having an evidence slot. Dropping a header
+      that is a known slot label took 29 candidate groups to 15 - half were
+      artifacts. The window itself turned out to be fine and is unchanged.
+
+    `structure` - the same reasoning applied to the same magnitudes, whatever
+    the wording. A prior is machinery: it binds a `variable` facet and it emits
+    a relation. Two priors in different articles with the same variable
+    signature and the same emitted relation are candidates to be one concept
+    even with no vocabulary in common.
+
+      This is the detector that matters if the goal is mental models rather than
+      claims, because a model recurs as reasoning and not as phrasing. Measured
+      on the same corpus, it finds 4 groups over 9 nodes, and its two best are
+      invisible to `wording` - 1 and 0 shared distinctive tokens against a
+      threshold of 3:
+
+        jun_4_18#P3    "Countries under pressure often rely on weaker
+                        currencies and exports"                        (2018)
+        2025-07-07#P1  "A large real estate crisis typically pushes a
+                        country to rely more on exports"               (2025)
+
+      Scope is the `warrant.prior` and `revision` families of the `oper`
+      hierarchy - the priors, deliberately not `warrant.mechanism`, which is the
+      split schema_map.yaml already measures as worth keeping. Needs
+      data/node_facets.csv from a labelling run; says so and skips if absent.
     """
     stop = set("""the a an and or of to in for on with that this it is are was were be been
         as at by from not no than then so such but if when which who what how why more most
@@ -461,10 +677,20 @@ def propose_concepts(docs: list[dict]) -> None:
         china chinese u.s. us american europe european""".split())
 
     nodes = [(d["doc"], n) for d in docs for ns in d["levels"].values() for n in ns]
+
+    # The slot labels the parser itself recognizes. Derived, not listed again
+    # here, so a new header added to schema_map.yaml is excluded automatically.
+    slot_labels = {h.lower() for h in smap["node_types_by_header"]}
+
     df = Counter()
     toks: dict[tuple[str, str], set[str]] = {}
     for doc, n in nodes:
-        t = {w for w in re.findall(r"[a-z][a-z\-']{3,}", (n["header"] + " " + n["text"]).lower())
+        # Only use `header` where it carries the claim. On the templated maps it
+        # is the schema slot name, and two articles both having a "Data" slot is
+        # not evidence that they share a concept.
+        source = (n["text"] if n["header"].strip().lower() in slot_labels
+                  else n["header"] + " " + n["text"])
+        t = {w for w in re.findall(r"[a-z][a-z\-']{3,}", source.lower())
              if w not in stop}
         toks[(doc, n["id"])] = t
         df.update(t)
@@ -494,25 +720,115 @@ def propose_concepts(docs: list[dict]) -> None:
             groups.append(cluster)
 
     groups.sort(key=len, reverse=True)
+
+    struct, struct_note = propose_structural(docs, smap)
+
     out = ["# Candidate concepts - PROPOSALS ONLY, not applied.",
            "#",
-           "# Each group is a set of nodes of the same type, in different documents,",
-           "# sharing distinctive vocabulary. Review every one: keep and name the real",
-           "# ones, delete the rest, then move them into scripts/concepts.yaml.",
+           "# Two detectors, listed separately because they are different evidence.",
+           "#",
+           "#   wording    nodes of the same type, in different documents, sharing",
+           "#              distinctive vocabulary. A claim restated.",
+           "#   structure  priors in different documents binding the same `variable`",
+           "#              facet and emitting the same relation. The same reasoning",
+           "#              applied, whatever the words. This is the one to read first",
+           "#              if you are looking for a recurring mental model - its best",
+           "#              candidates share almost no vocabulary, so `wording` cannot",
+           "#              see them.",
+           "#",
+           "# Review every one: keep and name the real ones, delete the rest, then move",
+           "# them into scripts/concepts.yaml by hand. Nothing here is applied.",
            "",
            "concepts:"]
+
     for i, cluster in enumerate(groups[:40], 1):
         kind = cluster[0][1]["type"]
-        out += [f"  candidate-{i:02d}-{kind.replace('_', '-')}:",
+        out += [f"  wording-{i:02d}-{kind.replace('_', '-')}:",
+                f"    detector: wording",
                 f"    note: {len(cluster)} nodes, type {kind}",
                 "    nodes:"]
         for doc, n in cluster:
             snippet = n["text"].replace("\n", " ")[:88]
             out.append(f"      - {doc}#{n['id']}    # {snippet}")
         out.append("")
+
+    if struct_note:
+        out += [f"  # structure detector: {struct_note}", ""]
+    for i, (sig, cluster) in enumerate(struct[:40], 1):
+        variables, relations = sig
+        out += [f"  structure-{i:02d}-prior:",
+                f"    detector: structure",
+                f"    variable: [{', '.join(sorted(variables))}]",
+                f"    emits: [{', '.join(sorted(relations)) or 'nothing'}]",
+                f"    note: {len(cluster)} priors over "
+                f"{len({d for d, _ in cluster})} documents, same variable "
+                f"signature and same emitted relation",
+                "    nodes:"]
+        for doc, n in cluster:
+            snippet = (n["text"] or n["header"]).replace("\n", " ")[:88]
+            out.append(f"      - {doc}#{n['id']}    # [{n['type']}] {snippet}")
+        out.append("")
+
     path = DATA_DIR / "concepts_proposed.yaml"
     path.write_text("\n".join(out), encoding="utf-8")
-    print(f"  {path.relative_to(ROOT)}  ({len(groups)} candidate groups)")
+    print(f"  {path.relative_to(ROOT)}  "
+          f"({len(groups)} by wording, {len(struct)} by structure)")
+    if struct_note:
+        print(f"    structure detector: {struct_note}")
+
+
+def propose_structural(docs: list[dict], smap: dict) -> tuple[list, str]:
+    """Priors that recur as REASONING: same `variable` facet, same relation emitted.
+
+    Returns (groups, note). The note is non-empty when the detector could not
+    run, and is reported rather than swallowed - a silent zero would read as
+    "no recurring priors", which is a different claim entirely.
+    """
+    facets_csv = DATA_DIR / "node_facets.csv"
+    if not facets_csv.exists():
+        return [], ("skipped - needs data/node_facets.csv; "
+                    "run scripts/label_facets.py first")
+
+    oper = smap["role_families"]["oper"]
+    # the priors, and a prior the author later changed. NOT warrant.mechanism:
+    # schema_map.yaml measures that split as worth keeping, so honour it here.
+    prior_types = set(oper.get("warrant.prior") or []) | set(oper.get("revision") or [])
+
+    variables: dict[tuple[str, str], set] = defaultdict(set)
+    with facets_csv.open(encoding="utf-8") as fh:
+        for r in csv.DictReader(fh):
+            if r["facet"] == "variable":
+                variables[(r["doc"], r["node_id"])].add(r["value"])
+
+    emits: dict[tuple[str, str], set] = defaultdict(set)
+    for d in docs:
+        for e in d["edges"]:
+            if e["type"]:
+                emits[(d["doc"], e["from"])].add(e["type"])
+
+    sigs: dict[tuple, list] = defaultdict(list)
+    labelled = 0
+    for d in docs:
+        for ns in d["levels"].values():
+            for n in ns:
+                if n["type"] not in prior_types:
+                    continue
+                key = (d["doc"], n["id"])
+                var = variables.get(key)
+                if not var:
+                    continue
+                labelled += 1
+                sigs[(frozenset(var), frozenset(emits.get(key, ())))].append((d["doc"], n))
+
+    out = [(sig, cl) for sig, cl in sigs.items() if len({doc for doc, _ in cl}) > 1]
+    out.sort(key=lambda kv: -len(kv[1]))
+    note = ""
+    if not labelled:
+        note = ("ran, but no prior carries a `variable` facet - "
+                "label_facets.py has not covered these documents")
+    elif not out:
+        note = f"ran over {labelled} labelled priors; no signature spans two documents"
+    return out, note
 
 
 # -------------------------------------------------------------------- main ---
@@ -535,6 +851,7 @@ def main() -> None:
 
     issues: list = []
     docs = [parse_doc(p, smap, issues) for p in paths]
+    derive_layout_relations(docs, smap, issues)
     docs.sort(key=lambda d: (d["date"] or "9999", d["doc"]))
 
     matched = attach_concepts(docs)
@@ -556,7 +873,7 @@ def main() -> None:
         print(f"  {len(issues)} items flagged for review -> data/review.md")
 
     if args.propose:
-        propose_concepts(docs)
+        propose_concepts(docs, smap)
 
 
 if __name__ == "__main__":

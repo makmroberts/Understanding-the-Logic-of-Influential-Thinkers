@@ -1,0 +1,725 @@
+{
+ "nodes": [
+  {
+   "nodeID": "22",
+   "text": "Will Trump's fiscal expansion undermine his goal of reducing the U.S. trade deficit?",
+   "type": "I",
+   "role": "question",
+   "toulmin": "framing",
+   "oper": "framing",
+   "localID": "setser_feb_15_18#Q"
+  },
+  {
+   "nodeID": "23",
+   "text": "Tax cuts and spending increases boost U.S. demand",
+   "type": "I",
+   "role": "stated_assumption",
+   "toulmin": "warrant",
+   "oper": "warrant.prior",
+   "localID": "setser_feb_15_18#P1"
+  },
+  {
+   "nodeID": "24",
+   "text": "Fed model: import income elasticity around 2",
+   "type": "I",
+   "role": "stated_assumption",
+   "toulmin": "warrant",
+   "oper": "warrant.prior",
+   "localID": "setser_feb_15_18#P2"
+  },
+  {
+   "nodeID": "25",
+   "text": "Dollar moves take years to fully affect trade",
+   "type": "I",
+   "role": "stated_assumption",
+   "toulmin": "warrant",
+   "oper": "warrant.prior",
+   "localID": "setser_feb_15_18#P3"
+  },
+  {
+   "nodeID": "26",
+   "text": "Tax cuts and spending increases provide a large fiscal impulse",
+   "type": "I",
+   "role": "evidence_data",
+   "toulmin": "grounds",
+   "oper": "grounds",
+   "localID": "setser_feb_15_18#D1"
+  },
+  {
+   "nodeID": "27",
+   "text": "Simple model implies current-account deficit rises about 1% of GDP",
+   "type": "I",
+   "role": "evidence_data",
+   "toulmin": "grounds",
+   "oper": "grounds",
+   "localID": "setser_feb_15_18#D2"
+  },
+  {
+   "nodeID": "28",
+   "text": "Over half of the increase in domestic demand was spent abroad",
+   "type": "I",
+   "role": "evidence_data",
+   "toulmin": "grounds",
+   "oper": "grounds",
+   "localID": "setser_feb_15_18#D3"
+  },
+  {
+   "nodeID": "29",
+   "text": "Higher rates mechanically increase payments to foreign creditors",
+   "type": "I",
+   "role": "evidence_data",
+   "toulmin": "grounds",
+   "oper": "grounds",
+   "localID": "setser_feb_15_18#D4"
+  },
+  {
+   "nodeID": "30",
+   "text": "Euro and several Asian currencies were moving against the dollar",
+   "type": "I",
+   "role": "evidence_data",
+   "toulmin": "grounds",
+   "oper": "grounds",
+   "localID": "setser_feb_15_18#D5"
+  },
+  {
+   "nodeID": "31",
+   "text": "Fiscal impulse adds roughly 50bp of GDP in imports over two years",
+   "type": "I",
+   "role": "evidence_data",
+   "toulmin": "grounds",
+   "oper": "grounds",
+   "localID": "setser_feb_15_18#D6"
+  },
+  {
+   "nodeID": "32",
+   "text": "Stronger U.S. demand spills into foreign production",
+   "type": "I",
+   "role": "mechanism",
+   "toulmin": "warrant",
+   "oper": "warrant.mechanism",
+   "localID": "setser_feb_15_18#M1"
+  },
+  {
+   "nodeID": "33",
+   "text": "More income flows abroad on the U.S. debt stock",
+   "type": "I",
+   "role": "mechanism",
+   "toulmin": "warrant",
+   "oper": "warrant.mechanism",
+   "localID": "setser_feb_15_18#M2"
+  },
+  {
+   "nodeID": "34",
+   "text": "Exports rise and imports soften only after substantial lags",
+   "type": "I",
+   "role": "mechanism",
+   "toulmin": "warrant",
+   "oper": "warrant.mechanism",
+   "localID": "setser_feb_15_18#M3"
+  },
+  {
+   "nodeID": "35",
+   "text": "Import growth accelerates relative to the baseline",
+   "type": "I",
+   "role": "intermediate_claim",
+   "toulmin": "claim",
+   "oper": "claim.step",
+   "localID": "setser_feb_15_18#C1"
+  },
+  {
+   "nodeID": "36",
+   "text": "Higher interest payments add to the external deficit",
+   "type": "I",
+   "role": "intermediate_claim",
+   "toulmin": "claim",
+   "oper": "claim.step",
+   "localID": "setser_feb_15_18#C2"
+  },
+  {
+   "nodeID": "37",
+   "text": "Foreign growth and a softer dollar cannot offset the near-term impulse",
+   "type": "I",
+   "role": "intermediate_claim",
+   "toulmin": "claim",
+   "oper": "claim.step",
+   "localID": "setser_feb_15_18#C3"
+  },
+  {
+   "nodeID": "38",
+   "text": "U.S. fiscal stimulus boosts imports just as conditions were emerging for the trade deficit to improve",
+   "type": "I",
+   "role": "main_claim",
+   "toulmin": "claim",
+   "oper": "claim.final",
+   "localID": "setser_feb_15_18#K"
+  },
+  {
+   "nodeID": "39",
+   "text": "The U.S. is relatively closed and much of the tax cut may be saved",
+   "type": "I",
+   "role": "opposing_view",
+   "toulmin": "rebuttal",
+   "oper": "rebuttal",
+   "localID": "setser_feb_15_18#X"
+  },
+  {
+   "nodeID": "40",
+   "text": "Historical income elasticities and trade relationships may not hold perfectly",
+   "type": "I",
+   "role": "caveat",
+   "toulmin": "qualifier",
+   "oper": "qualifier",
+   "localID": "setser_feb_15_18#QF"
+  },
+  {
+   "nodeID": "41",
+   "text": "Dollar depreciation and stronger foreign demand can improve U.S. trade",
+   "type": "I",
+   "role": "counterpoint",
+   "toulmin": "rebuttal",
+   "oper": "rebuttal",
+   "localID": "setser_feb_15_18#R1"
+  },
+  {
+   "nodeID": "444",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "arrow",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "447",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "arrow",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "450",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "arrow",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "453",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "arrow",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "456",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "arrow",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "459",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "arrow",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "462",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "arrow",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "465",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "arrow",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "468",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "arrow",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "471",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "arrow",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "474",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "arrow",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "477",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "arrow",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "480",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "arrow",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "483",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "arrow",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "486",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "arrow",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "489",
+   "text": "qualified_by",
+   "type": "CA",
+   "scheme": "qualified_by",
+   "relation_source": "label",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "492",
+   "text": "qualified_by",
+   "type": "CA",
+   "scheme": "qualified_by",
+   "relation_source": "label",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "495",
+   "text": "undercut_by",
+   "type": "CA",
+   "scheme": "undercut_by",
+   "relation_source": "label",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "498",
+   "text": "frames",
+   "type": "RA",
+   "scheme": "frames",
+   "relation_source": "layout_operator",
+   "relation_level": "fallback",
+   "relation_purity": "0.0"
+  },
+  {
+   "nodeID": "501",
+   "text": "frames",
+   "type": "RA",
+   "scheme": "frames",
+   "relation_source": "layout_operator",
+   "relation_level": "fallback",
+   "relation_purity": "0.0"
+  },
+  {
+   "nodeID": "504",
+   "text": "frames",
+   "type": "RA",
+   "scheme": "frames",
+   "relation_source": "layout_operator",
+   "relation_level": "fallback",
+   "relation_purity": "0.0"
+  },
+  {
+   "nodeID": "507",
+   "text": "frames",
+   "type": "RA",
+   "scheme": "frames",
+   "relation_source": "layout_operator",
+   "relation_level": "fallback",
+   "relation_purity": "0.0"
+  },
+  {
+   "nodeID": "510",
+   "text": "frames",
+   "type": "RA",
+   "scheme": "frames",
+   "relation_source": "layout_operator",
+   "relation_level": "fallback",
+   "relation_purity": "0.0"
+  },
+  {
+   "nodeID": "513",
+   "text": "frames",
+   "type": "RA",
+   "scheme": "frames",
+   "relation_source": "layout_operator",
+   "relation_level": "fallback",
+   "relation_purity": "0.0"
+  },
+  {
+   "nodeID": "516",
+   "text": "frames",
+   "type": "RA",
+   "scheme": "frames",
+   "relation_source": "layout_operator",
+   "relation_level": "fallback",
+   "relation_purity": "0.0"
+  },
+  {
+   "nodeID": "519",
+   "text": "frames",
+   "type": "RA",
+   "scheme": "frames",
+   "relation_source": "layout_operator",
+   "relation_level": "fallback",
+   "relation_purity": "0.0"
+  },
+  {
+   "nodeID": "522",
+   "text": "frames",
+   "type": "RA",
+   "scheme": "frames",
+   "relation_source": "layout_operator",
+   "relation_level": "fallback",
+   "relation_purity": "0.0"
+  },
+  {
+   "nodeID": "525",
+   "text": "rebuts",
+   "type": "CA",
+   "scheme": "rebuts",
+   "relation_source": "layout_operator",
+   "relation_level": "type",
+   "relation_purity": "0.92"
+  }
+ ],
+ "edges": [
+  {
+   "edgeID": "445",
+   "fromID": "23",
+   "toID": "444"
+  },
+  {
+   "edgeID": "446",
+   "fromID": "444",
+   "toID": "32"
+  },
+  {
+   "edgeID": "448",
+   "fromID": "24",
+   "toID": "447"
+  },
+  {
+   "edgeID": "449",
+   "fromID": "447",
+   "toID": "32"
+  },
+  {
+   "edgeID": "451",
+   "fromID": "26",
+   "toID": "450"
+  },
+  {
+   "edgeID": "452",
+   "fromID": "450",
+   "toID": "32"
+  },
+  {
+   "edgeID": "454",
+   "fromID": "28",
+   "toID": "453"
+  },
+  {
+   "edgeID": "455",
+   "fromID": "453",
+   "toID": "32"
+  },
+  {
+   "edgeID": "457",
+   "fromID": "31",
+   "toID": "456"
+  },
+  {
+   "edgeID": "458",
+   "fromID": "456",
+   "toID": "32"
+  },
+  {
+   "edgeID": "460",
+   "fromID": "32",
+   "toID": "459"
+  },
+  {
+   "edgeID": "461",
+   "fromID": "459",
+   "toID": "35"
+  },
+  {
+   "edgeID": "463",
+   "fromID": "29",
+   "toID": "462"
+  },
+  {
+   "edgeID": "464",
+   "fromID": "462",
+   "toID": "33"
+  },
+  {
+   "edgeID": "466",
+   "fromID": "33",
+   "toID": "465"
+  },
+  {
+   "edgeID": "467",
+   "fromID": "465",
+   "toID": "36"
+  },
+  {
+   "edgeID": "469",
+   "fromID": "25",
+   "toID": "468"
+  },
+  {
+   "edgeID": "470",
+   "fromID": "468",
+   "toID": "34"
+  },
+  {
+   "edgeID": "472",
+   "fromID": "30",
+   "toID": "471"
+  },
+  {
+   "edgeID": "473",
+   "fromID": "471",
+   "toID": "34"
+  },
+  {
+   "edgeID": "475",
+   "fromID": "34",
+   "toID": "474"
+  },
+  {
+   "edgeID": "476",
+   "fromID": "474",
+   "toID": "37"
+  },
+  {
+   "edgeID": "478",
+   "fromID": "27",
+   "toID": "477"
+  },
+  {
+   "edgeID": "479",
+   "fromID": "477",
+   "toID": "35"
+  },
+  {
+   "edgeID": "481",
+   "fromID": "35",
+   "toID": "480"
+  },
+  {
+   "edgeID": "482",
+   "fromID": "480",
+   "toID": "38"
+  },
+  {
+   "edgeID": "484",
+   "fromID": "36",
+   "toID": "483"
+  },
+  {
+   "edgeID": "485",
+   "fromID": "483",
+   "toID": "38"
+  },
+  {
+   "edgeID": "487",
+   "fromID": "37",
+   "toID": "486"
+  },
+  {
+   "edgeID": "488",
+   "fromID": "486",
+   "toID": "38"
+  },
+  {
+   "edgeID": "490",
+   "fromID": "35",
+   "toID": "489"
+  },
+  {
+   "edgeID": "491",
+   "fromID": "489",
+   "toID": "39"
+  },
+  {
+   "edgeID": "493",
+   "fromID": "35",
+   "toID": "492"
+  },
+  {
+   "edgeID": "494",
+   "fromID": "492",
+   "toID": "40"
+  },
+  {
+   "edgeID": "496",
+   "fromID": "37",
+   "toID": "495"
+  },
+  {
+   "edgeID": "497",
+   "fromID": "495",
+   "toID": "41"
+  },
+  {
+   "edgeID": "499",
+   "fromID": "22",
+   "toID": "498"
+  },
+  {
+   "edgeID": "500",
+   "fromID": "498",
+   "toID": "23"
+  },
+  {
+   "edgeID": "502",
+   "fromID": "22",
+   "toID": "501"
+  },
+  {
+   "edgeID": "503",
+   "fromID": "501",
+   "toID": "24"
+  },
+  {
+   "edgeID": "505",
+   "fromID": "22",
+   "toID": "504"
+  },
+  {
+   "edgeID": "506",
+   "fromID": "504",
+   "toID": "25"
+  },
+  {
+   "edgeID": "508",
+   "fromID": "23",
+   "toID": "507"
+  },
+  {
+   "edgeID": "509",
+   "fromID": "507",
+   "toID": "26"
+  },
+  {
+   "edgeID": "511",
+   "fromID": "23",
+   "toID": "510"
+  },
+  {
+   "edgeID": "512",
+   "fromID": "510",
+   "toID": "27"
+  },
+  {
+   "edgeID": "514",
+   "fromID": "24",
+   "toID": "513"
+  },
+  {
+   "edgeID": "515",
+   "fromID": "513",
+   "toID": "28"
+  },
+  {
+   "edgeID": "517",
+   "fromID": "24",
+   "toID": "516"
+  },
+  {
+   "edgeID": "518",
+   "fromID": "516",
+   "toID": "31"
+  },
+  {
+   "edgeID": "520",
+   "fromID": "25",
+   "toID": "519"
+  },
+  {
+   "edgeID": "521",
+   "fromID": "519",
+   "toID": "29"
+  },
+  {
+   "edgeID": "523",
+   "fromID": "25",
+   "toID": "522"
+  },
+  {
+   "edgeID": "524",
+   "fromID": "522",
+   "toID": "30"
+  },
+  {
+   "edgeID": "526",
+   "fromID": "38",
+   "toID": "525"
+  },
+  {
+   "edgeID": "527",
+   "fromID": "525",
+   "toID": "39"
+  }
+ ],
+ "locutions": [],
+ "source": {
+  "doc": "setser_feb_15_18",
+  "title": "Will Trump's fiscal expansion undermine his goal of reducing the U.S. trade deficit?",
+  "date": "2018-02-15",
+  "url": "https://www.cfr.org/articles/trumps-tax-success-expense-his-trade-agenda"
+ }
+}

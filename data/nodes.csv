@@ -69,32 +69,31 @@ secures new trade agreements"
 setser_jun_4_18,plain,2018-06-04,X,caveat,L6,Scale caveat,,,0,l6_keyword,,Argentina and Turkey are individually too small to drive the full outcome
 setser_jun_4_18,plain,2018-06-04,QF,caveat,L6,Path uncertainty,,,0,l6_keyword,,Italy and China's eventual adjustments are not predetermined
 setser_jun_4_18,plain,2018-06-04,R1,counterpoint,L6,Offsetting scenario,,,0,class,,Strong foreign demand could still counterbalance U.S. fiscal stimulus
-setser_may_2_19,plain,2019-05-02,Q,question,L0,"If U.S.-China trade tensions escalate,
-will China keep the yuan stable or let it weaken?",,,0,class,,"If U.S.-China trade tensions escalate,
-will China keep the yuan stable or let it weaken?"
-setser_may_2_19,plain,2019-05-02,P1,stated_assumption,L1,China controls the yuan,,,0,class,,"Reserves, capital controls, and policy tools give Beijing substantial exchange-rate control"
-setser_may_2_19,plain,2019-05-02,P2,stated_assumption,L1,Depreciation offsets tariffs,,,0,class,,A weaker yuan lets exporters lower dollar prices while preserving yuan revenue
-setser_may_2_19,plain,2019-05-02,P3,stated_assumption,L1,Stability has value,,,0,class,,A stable currency supports confidence and reduces financial risk
-setser_may_2_19,plain,2019-05-02,D1,evidence_data,L2,Full tariffs would be substantial,,,0,class,,25% on nearly $550B of imports could raise roughly $100–140B
-setser_may_2_19,plain,2019-05-02,D2,evidence_data,L2,Large potential China growth hit,,,0,class,,UBS: full tariffs plus retaliation could cut growth by about 1.5pp
-setser_may_2_19,plain,2019-05-02,D3,evidence_data,L2,Recent yuan stability required little intervention,,,0,class,,No sustained pressure in either direction
-setser_may_2_19,plain,2019-05-02,D4,evidence_data,L2,China retains external firepower,,,0,class,,"Large reserves, state-bank foreign assets, and portfolio inflows"
-setser_may_2_19,plain,2019-05-02,D5,evidence_data,L2,Balance of payments broadly stable,,,0,class,,Trade surplus covers major outflows without sustained reserve pressure
-setser_may_2_19,plain,2019-05-02,D6,evidence_data,L2,Manufacturing surplus ~ $1T,,,0,class,,Further export-oriented adjustment would matter globally
-setser_may_2_19,plain,2019-05-02,M1,mechanism,L3,Tariffs weaken Chinese export demand,,,0,class,,Higher U.S. import costs reduce competitiveness and growth
-setser_may_2_19,plain,2019-05-02,M2,mechanism,L3,Depreciation cushions exporters,,,0,class,,A weaker yuan offsets part of the tariff in dollar terms
-setser_may_2_19,plain,2019-05-02,M3,mechanism,L3,Stability protects domestic confidence,,,0,class,,Avoiding a large currency move limits financial instability
-setser_may_2_19,plain,2019-05-02,M4,mechanism,L3,Yuan weakness spreads outward,,,0,class,,Other Asian currencies weaken and trade pressure shifts globally
-setser_may_2_19,plain,2019-05-02,C1,intermediate_claim,L4,China has a genuine policy choice,,,0,class,,It is not mechanically forced into depreciation
-setser_may_2_19,plain,2019-05-02,C2,intermediate_claim,L4,Depreciation can absorb part of the tariff shock,,,0,class,,Exporters can preserve competitiveness
-setser_may_2_19,plain,2019-05-02,C3,intermediate_claim,L4,But depreciation carries domestic and strategic costs,,,0,class,,It risks instability and additional U.S. retaliation
-setser_may_2_19,plain,2019-05-02,C4,intermediate_claim,L4,A weaker yuan redistributes trade pain,,,0,class,,Export-dependent economies outside China also come under pressure
-setser_may_2_19,plain,2019-05-02,K,main_claim,L5,Main claim: China's currency response is a strategic choice,,,0,class,,"Beijing can defend stability or reset the yuan lower;
-its decision will shape the global impact of the trade war"
-setser_may_2_19,plain,2019-05-02,X,counterpoint,L6,Case for stability,,,0,class,,China can support growth fiscally without risking a destabilizing currency move
-setser_may_2_19,plain,2019-05-02,QF,caveat,L6,Implementation caveat,,,0,l6_keyword,,Controlled depreciations are difficult because markets may front-run them
-setser_may_2_19,plain,2019-05-02,R1,caveat,L6,Retaliation risk,,,0,l6_keyword,,A weaker yuan could trigger broader or higher U.S. tariffs
-setser_may_2_19,plain,2019-05-02,R2,caveat,L6,External-balance caveat,,,0,l6_keyword,,Tariffs and oil prices could push China toward current-account deficit
+setser_may_2_19,plain,2019-05-02,Q,question,L0,Does a purchase-commitment deal push China back toward managed trade?,,,0,class,,Does a purchase-commitment deal push China back toward managed trade?
+setser_may_2_19,plain,2019-05-02,P1,stated_assumption,L1,Who buys matters more than the border barrier,,,0,class,,Tariffs and quotas do not matter much when the bulk of imports are bought by state firms or need a state licence
+setser_may_2_19,plain,2019-05-02,P2,stated_assumption,L1,State control of the commanding heights is not negotiable,,,0,class,,China will not dismantle the core institutions of its mixed model in a trade negotiation
+setser_may_2_19,plain,2019-05-02,P3,hidden_assumption,L1,"Managed trade means control of end demand, not tariffs",,,0,class,,"The definitional move the argument turns on - 'that's managed trade in my books, even without formal tariffs or quotas'"
+setser_may_2_19,plain,2019-05-02,D1,evidence_data,L2,Canola with Canada shut down,,,0,class,,Trade stopped without any formal tariff being introduced
+setser_may_2_19,plain,2019-05-02,D2,evidence_data,L2,Australian coal purchases scaled back,,,0,class,,No dumping case and no national-security tariff case was filed
+setser_may_2_19,plain,2019-05-02,D3,evidence_data,L2,"U.S. exports went to zero, not down by half",,,0,class,,A 25% tariff would normally cut imports by something like 50%; several U.S. goods simply stopped
+setser_may_2_19,plain,2019-05-02,D4,evidence_data,L2,Aircraft: the buyer is the state,,,0,class,,"State-owned airlines plus one state-backed private carrier, with NDRC approval required; China is both Boeing's biggest market and, through COMAC, a future competitor"
+setser_may_2_19,plain,2019-05-02,D5,evidence_data,L2,Soybeans: COFCO controls the infrastructure,,,0,class,,"The old state grain monopoly still controls crushing and distribution, Sinograin steps in from stockpiles, and smaller importers need a state licence"
+setser_may_2_19,plain,2019-05-02,D6,evidence_data,L2,Oil and gas: state majors control the pipes,,,0,class,,They own the pipelines and the bulk of refining; private LNG terminals exist but the offshore investors are state firms
+setser_may_2_19,plain,2019-05-02,D7,evidence_data,L2,The capital-goods roll call,,,0,class,,"Telecoms equipment, railway equipment, grid power, avionics - in sector after sector the ultimate buyer is the Chinese state"
+setser_may_2_19,plain,2019-05-02,M1,mechanism,L3,Ownership converts preference into volume,,,0,class,,"When the state controls the importing firms, a few phone calls move trade without any border measure"
+setser_may_2_19,plain,2019-05-02,M2,mechanism,L3,Border liberalisation cannot create demand,,,0,class,,GE could own its turbine plant outright and still have to sell to state-run power companies selling to the state grid
+setser_may_2_19,plain,2019-05-02,M3,mechanism,L3,Purchasing power is used to force localisation,,,0,class,,Rolls-Royce would build engines in China to win the contract; Airbus may build the A330 there - so import demand falls as capacity moves in
+setser_may_2_19,plain,2019-05-02,M4,mechanism,L3,An administrative lever is reversible by administration,,,0,class,,"Because the control is not legal but ownership-based, what it grants it can also withdraw"
+setser_may_2_19,plain,2019-05-02,C1,intermediate_claim,L4,China never left managed trade,,,0,class,,So a purchase deal cannot return it to a place it never left
+setser_may_2_19,plain,2019-05-02,C2,intermediate_claim,L4,Reform and opening was partial and sector-specific,,,0,class,,Open to components for re-export and to what China cannot make at home; closed where the state is the buyer
+setser_may_2_19,plain,2019-05-02,C3,intermediate_claim,L4,Removing formal barriers is not enough,,,0,class,,Not even dropping joint-venture requirements changes who the end buyer is
+setser_may_2_19,plain,2019-05-02,C4,intermediate_claim,L4,So the standard critique is misdirected,,,0,class,,"The objection is not that the deal reintroduces state involvement, but that it is revocable"
+setser_may_2_19,plain,2019-05-02,K,main_claim,L5,"Main claim: the right critique is revocability, not a return to managed trade",,,0,class,,"China's state never stopped managing a large part of its trade, so the sound objection is Book's and Scissors':
+'if it can be negotiated by government fiat, it can be taken away by government fiat'"
+setser_may_2_19,plain,2019-05-02,X,opposing_view,L6,Consensus view: the deal pushes China back to managed trade,,,0,l6_keyword,,"Yerxa, Donnan and almost everyone at the IMF Spring meetings - simplistic purchasing commitments reinforce state ownership rather than discourage it"
+setser_may_2_19,plain,2019-05-02,R1,other_explanation,L6,Private-buyer explanation: autos,,,0,l6_keyword,,"The one sector where the state is not the main buyer. Tariffs were 25% and are still 15%, domestic capacity could meet all demand, yet German marques built a real business - because cars are bought privately"
+setser_may_2_19,plain,2019-05-02,QF,caveat,L6,Descriptive caveat,,,0,l6_keyword,,"This is a description of the world as it is, not as it should be; and medical equipment is a trick case, with private hospitals and local-government procurement"
+setser_may_2_19,plain,2019-05-02,R2,opposing_view,L6,"Allies objection, set aside",,,0,l6_keyword,,Australia and others argue the United States is selling out its allies for a larger share of a limited import pie
 setser_may_10_19,plain,2019-05-10,Q,question,L0,"If U.S.-China trade tensions escalate,
 will China keep the yuan stable or let it weaken?",,,0,class,,"If U.S.-China trade tensions escalate,
 will China keep the yuan stable or let it weaken?"
@@ -207,13 +206,10 @@ setser_jan_31_20,banner,2020-01-31,P3,revised_prior,L1,Revised prior,,,0,header,
 setser_jan_31_20,banner,2020-01-31,SC,source_credibility,L1,Source credibility,,,0,header,,"""Chinese data never quite fully lines up, which bothers me more than most"""
 setser_jan_31_20,banner,2020-01-31,E1,evidence_data,L2,Data,,,0,header,,Yuan -8% vs USD and -4% vs basket; Treasury holdings flat once Belgian accounts are counted; China is two-thirds of global soybean imports; U.S. beans traded at a discount to Brazil
 setser_jan_31_20,banner,2020-01-31,E2,evidence_source,L2,Studies & sources,,,0,header,,His own Senate testimony; Toloui on balance-sheet policy; the Economist on managed trade
-setser_jan_31_20,banner,2020-01-31,M1,mechanism,L3,Mechanism A,,economic,0,header,,"·
-Outflow controls and the absence of carry-trade leverage prevented a 2015-style panic"
-setser_jan_31_20,banner,2020-01-31,M2,mechanism,L3,Mechanism B,,economic,0,header,,"·
-Treasuries carry no leverage — if China pushed yields up, the Fed would simply react"
+setser_jan_31_20,banner,2020-01-31,M1,mechanism,L3,Mechanism A,,economic,0,header,,Outflow controls and the absence of carry-trade leverage prevented a 2015-style panic
+setser_jan_31_20,banner,2020-01-31,M2,mechanism,L3,Mechanism B,,economic,0,header,,"Treasuries carry no leverage — if China pushed yields up, the Fed would simply react"
 setser_jan_31_20,banner,2020-01-31,C1,intermediate_claim,L4,Intermediate claim,,,0,header,,"Five parallel verdicts: industrial policy untouched, currency buffered, Treasuries unused, manufactures spared, ag and energy targeted"
-setser_jan_31_20,banner,2020-01-31,K,main_claim,L5,Main claim,,,0,header,single,"·
-China can meet its 2020 commitments — and that is precisely the risk.
+setser_jan_31_20,banner,2020-01-31,K,main_claim,L5,Main claim,,,0,header,single,"China can meet its 2020 commitments — and that is precisely the risk.
 ""What China's state gives, China's state can take away"""
 setser_jan_31_20,banner,2020-01-31,X,opposing_view,L6,Opposing view,,,0,header,,"Both approaches carry costs — managed trade rewards diversion away from allies, while the conventional approach changed little in 2010-11"
 setser_jan_31_20,banner,2020-01-31,QF,caveat,L6,Caveat,,,0,header,,"Tech decoupling will not bite in 2020: Boeing's own problems, no indigenous jet engines, semiconductors too early"
@@ -247,14 +243,11 @@ setser_mar_31_20,banner,2020-03-31,P2,hidden_assumption,L1,Hidden assumption,,,0
 setser_mar_31_20,banner,2020-03-31,P3,revised_prior,L1,Revised prior,,,0,header,,"""contrary to a forecast that I made with Dr. Roubini back in 2005"" — private credit intermediation broke down before central banks lost their appetite for intervention"
 setser_mar_31_20,banner,2020-03-31,E1,evidence_data,L2,Data,,,0,header,,"Brent under $25, below almost every exporter's breakeven; Saudi reserves ~$500bn; GCC sovereign funds over $1tn; copper at multiyear lows"
 setser_mar_31_20,banner,2020-03-31,E2,evidence_source,L2,Studies & sources,,,0,header,,"Truman on IMF lending capacity; Landers, Lee and Morris on callable capital; Hagan and Buchheit on maturity extension; Carstens and the BIS on trade finance"
-setser_mar_31_20,banner,2020-03-31,M1,mechanism,L3,Mechanism A,,economic,0,header,,"·
-The same four shocks land very differently depending on the external balance sheet"
-setser_mar_31_20,banner,2020-03-31,M2,mechanism,L3,Mechanism B,,economic,0,header,,"·
-Swap lines solve dollar funding, but were never designed to cover a balance-of-payments shortfall"
+setser_mar_31_20,banner,2020-03-31,M1,mechanism,L3,Mechanism A,,economic,0,header,,The same four shocks land very differently depending on the external balance sheet
+setser_mar_31_20,banner,2020-03-31,M2,mechanism,L3,Mechanism B,,economic,0,header,,"Swap lines solve dollar funding, but were never designed to cover a balance-of-payments shortfall"
 setser_mar_31_20,banner,2020-03-31,C1,intermediate_claim,L4,Intermediate claim,,,0,header,,Countries with strong external balance sheets can weather this themselves if they act decisively
 setser_mar_31_20,banner,2020-03-31,C2,case_type,L4,Case type,,,0,header,,"Three types — reserve-rich commodity exporters, Asian surplus creditors, weak external balance sheets — and the last splits again into trade finance and balance-of-payments need"
-setser_mar_31_20,banner,2020-03-31,K,main_claim,L5,Main claim,,,0,header,typology,"·
-""Different problems require different solutions"" — when private capital retreats, the official sector must advance"
+setser_mar_31_20,banner,2020-03-31,K,main_claim,L5,Main claim,,,0,header,typology,"""Different problems require different solutions"" — when private capital retreats, the official sector must advance"
 setser_mar_31_20,banner,2020-03-31,REC,recommendation,L5,Recommendation,,,0,header,,"Draw down buffers; central bank backstop plus swap lines; mobilise trade finance; SDR allocation, larger IMF capacity, MDB callable capital, payment deferral"
 setser_mar_31_20,banner,2020-03-31,X,opposing_view,L6,Opposing view,,,0,header,,"Private creditors would rather be paid — ""this will take goodwill"""
 setser_mar_31_20,banner,2020-03-31,QF,caveat,L6,Caveat,,,0,header,,"SDRs are allocated by quota rather than need, so they are insufficient alone; MDB capital would need legislation"
@@ -265,13 +258,10 @@ setser_jul_8_20,banner,2020-07-08,BM,benchmark,L1B,Benchmark,,,0,header,,"The de
 setser_jul_8_20,banner,2020-07-08,SCP,scope_choice,L1B,Scope choice,,,0,header,,Services excluded because in-China sales are not exports; aircraft adjusted out; only the listed HS codes counted
 setser_jul_8_20,banner,2020-07-08,E1,evidence_data,L2,Data,,,0,header,,"First-half pace implies ~$83bn, below the 2017 baseline of ~$101bn and even below 2019; energy at 7% of its target; 1m barrels a day at $40 still yields only $7.36bn"
 setser_jul_8_20,banner,2020-07-08,E2,evidence_source,L2,Studies & sources,,,0,header,,PIIE purchase tracker; Reuters on crude loadings; S&P Global on cancelled LNG cargoes; IMF growth forecast
-setser_jul_8_20,banner,2020-07-08,M1,mechanism,L3,Mechanism A,,economic,0,header,,"·
-There is no policy lever in manufacturing — import substitution continues and trade does not run through a few buyers"
-setser_jul_8_20,banner,2020-07-08,M2,mechanism,L3,Mechanism B,,economic,0,header,,"·
-Seasonality blocks catch-up, and because targets are nominal a commodity price crash widens the gap without any change in volume"
+setser_jul_8_20,banner,2020-07-08,M1,mechanism,L3,Mechanism A,,economic,0,header,,There is no policy lever in manufacturing — import substitution continues and trade does not run through a few buyers
+setser_jul_8_20,banner,2020-07-08,M2,mechanism,L3,Mechanism B,,economic,0,header,,"Seasonality blocks catch-up, and because targets are nominal a commodity price crash widens the gap without any change in volume"
 setser_jul_8_20,banner,2020-07-08,C1,intermediate_claim,L4,Intermediate claim,,,0,header,,"Category by category: manufacturing will not close the gap, agriculture is behind but Q4 is still live, energy is effectively impossible"
-setser_jul_8_20,banner,2020-07-08,K,main_claim,L5,Main claim,,,0,header,single,"·
-The deal is failing on its own terms — insisting on impressive numbers made the shortfall easy to demonstrate"
+setser_jul_8_20,banner,2020-07-08,K,main_claim,L5,Main claim,,,0,header,single,The deal is failing on its own terms — insisting on impressive numbers made the shortfall easy to demonstrate
 setser_jul_8_20,banner,2020-07-08,X,opposing_view,L6,Opposing view,,,0,header,,"Raised up front and rebutted: ""the purchase commitments themselves were a mistake"" and ""COVID-19 changed everything"". A barrier-removal deal might have worked — but would not have produced a big number"
 setser_jul_8_20,banner,2020-07-08,QF,caveat,L6,Caveat,,,0,header,,"Agriculture could still deliver in Q4, which creates a real cost to abandoning the deal now"
 setser_jul_8_20,banner,2020-07-08,R1,other_explanation,L6,Other explanation,,,0,header,,"The aircraft collapse is exogenous — the largest category fell with the 737 MAX grounding, not with the deal"
@@ -284,14 +274,11 @@ setser_mar_10_24,banner,2024-03-10,SCP,scope_choice,L1B,Scope choice,,,0,header,
 setser_mar_10_24,banner,2024-03-10,E1,evidence_data,L2,Data,,,0,header,,"Surplus at ~2% of world GDP, above peak Japan and Germany; 80% of solar panels; 35% of manufacturing output against 15% of global output"
 setser_mar_10_24,banner,2024-03-10,E2,evidence_source,L2,Studies & sources,,,0,header,,Baldwin on sole manufacturing superpower; Pettis on production giant and consumption pygmy; Bown on the tariff timeline; OECD value-added data
 setser_mar_10_24,banner,2024-03-10,E4,evidence_discrepancy,L2,Discrepancy,,,0,header,,Manufacturing surplus near 2% of world GDP against a reported current account of just 1.5% of China's own GDP
-setser_mar_10_24,banner,2024-03-10,M1,mechanism,L3,Mechanism A,,economic,0,header,,"·
-Policy, not only comparative advantage — resistance to consumer stimulus and a thin safety net sustain a savings surplus"
-setser_mar_10_24,banner,2024-03-10,M2,mechanism,L3,Mechanism B,,economic,0,header,,"·
-Upgrading is the stated growth plan, so advanced manufacturing capacity keeps expanding"
+setser_mar_10_24,banner,2024-03-10,M1,mechanism,L3,Mechanism A,,economic,0,header,,"Policy, not only comparative advantage — resistance to consumer stimulus and a thin safety net sustain a savings surplus"
+setser_mar_10_24,banner,2024-03-10,M2,mechanism,L3,Mechanism B,,economic,0,header,,"Upgrading is the stated growth plan, so advanced manufacturing capacity keeps expanding"
 setser_mar_10_24,banner,2024-03-10,C1,intermediate_claim,L4,Intermediate claim,,,0,header,,"The counterpart to the surplus is the United States, not commodity exporters, and the gap keeps widening as a share of world GDP"
 setser_mar_10_24,banner,2024-03-10,C3,policy_reductio,L4,Policy reductio,,,0,header,,"Take the IMF's own advice — consolidate 7.5pp of GDP, cut rates, loosen the currency — run it through IMF-derived econometrics, and the current account rises about 4pp of China's GDP. The cure enlarges the disease."
-setser_mar_10_24,banner,2024-03-10,K,main_claim,L5,Main claim,,,0,header,single,"·
-The imbalance is large, growing and mismeasured — it shows up everywhere except in the reported current account and in the IMF's analysis"
+setser_mar_10_24,banner,2024-03-10,K,main_claim,L5,Main claim,,,0,header,single,"The imbalance is large, growing and mismeasured — it shows up everywhere except in the reported current account and in the IMF's analysis"
 setser_mar_10_24,banner,2024-03-10,REC,recommendation,L5,Recommendation,,,0,header,,"The size of the imbalance, correctly measured, must be factored into Chinese policymaking and into external policy advice"
 setser_mar_10_24,banner,2024-03-10,X,opposing_view,L6,Opposing view,,,0,header,,The standard view that the post-crisis fall in China's current account means external imbalances are no longer pressing
 setser_mar_10_24,banner,2024-03-10,QF,caveat,L6,Caveat,,,0,header,,Specialisation does partly reflect a large population and limited resources; the comprehensive data also lags and misses the 2020-2022 surge
@@ -303,13 +290,10 @@ setser_aug_14_24,banner,2024-08-14,E1,evidence_data,L2,Data,,,0,header,,Reported
 setser_aug_14_24,banner,2024-08-14,E2,evidence_source,L2,Studies & sources,,,0,header,,IMF Article IV Appendix VII; consistent with Adam Wolf's work
 setser_aug_14_24,banner,2024-08-14,E3,evidence_rival,L2,Rival measurement,,,0,header,,The customs goods series against the balance-of-payments goods series
 setser_aug_14_24,banner,2024-08-14,E4,evidence_discrepancy,L2,Discrepancy,,,0,header,,Gap explodes from 2022; BoP imports exceed customs imports for the first time in 2023
-setser_aug_14_24,banner,2024-08-14,M1,mechanism,L3,Mechanism A,,distortion,0,header,,"·
-""Factoryless"" manufacturing — a sale to a non-resident is booked as an export though the goods never leave China"
-setser_aug_14_24,banner,2024-08-14,M2,mechanism,L3,Mechanism B,,distortion,0,header,,"·
-Compilers switched from customs data to direct enterprise reporting in 2022"
+setser_aug_14_24,banner,2024-08-14,M1,mechanism,L3,Mechanism A,,distortion,0,header,,"""Factoryless"" manufacturing — a sale to a non-resident is booked as an export though the goods never leave China"
+setser_aug_14_24,banner,2024-08-14,M2,mechanism,L3,Mechanism B,,distortion,0,header,,Compilers switched from customs data to direct enterprise reporting in 2022
 setser_aug_14_24,banner,2024-08-14,C1,intermediate_claim,L4,Intermediate claim,,,0,header,,It makes no economic sense; the offsetting adjustment is absent; the series cannot be replicated
-setser_aug_14_24,banner,2024-08-14,K,main_claim,L5,Main claim,,,0,header,single,"·
-The reported surplus is an artifact of a methodology change"
+setser_aug_14_24,banner,2024-08-14,K,main_claim,L5,Main claim,,,0,header,single,The reported surplus is an artifact of a methodology change
 setser_aug_14_24,banner,2024-08-14,RC,reconstruction,L5,Reconstruction,,,0,header,,"Goods surplus understated by ~$300bn, over 1.5pp of GDP; true current account surplus close to $700bn — use the customs data"
 setser_aug_14_24,banner,2024-08-14,REC,recommendation,L5,Recommendation,,,1,header,,implied only — stop using the reported series
 setser_aug_14_24,banner,2024-08-14,X,opposing_view,L6,Opposing view,,,0,header,,Analysts and the IMF read the post-2021 decline as real
@@ -323,13 +307,10 @@ setser_may_5_25,banner,2025-05-05,P2,hidden_assumption,L1,Hidden assumption,,,0,
 setser_may_5_25,banner,2025-05-05,P3,revised_prior,L1,Revised prior,,,0,header,,"""the dollar's downturn was still a bit of a surprise"" — he counts himself among those caught out"
 setser_may_5_25,banner,2025-05-05,E1,evidence_data,L2,Data,,,0,header,,"Dollar down ~10% against the G10; a $400-550 imported phone now carries $40-110 of tariff; CNY 7.2, KRW 1400, JPY 140; 55% of China's formal reserves still in dollars"
 setser_may_5_25,banner,2025-05-05,E2,evidence_source,L2,Studies & sources,,,0,header,,The Miran paper; IMF working paper on Lerner symmetry; SAFE 2023 annual report; Aitken on the ageing exceptionalism trade
-setser_may_5_25,banner,2025-05-05,M1,mechanism,L3,Mechanism A,,economic,0,header,,"·
-Five channels at once — tariffs as fiscal tightening, recession risk hitting equities, China declining to let the yuan slide, Europe's fiscal turn, and a risk premium from treating allies as adversaries"
-setser_may_5_25,banner,2025-05-05,M2,mechanism,L3,Mechanism B,,economic,0,header,,"·
-The dollar was priced for perfection: the flow equilibrium needed ever-larger inflows at ever-higher valuations"
+setser_may_5_25,banner,2025-05-05,M1,mechanism,L3,Mechanism A,,economic,0,header,,"Five channels at once — tariffs as fiscal tightening, recession risk hitting equities, China declining to let the yuan slide, Europe's fiscal turn, and a risk premium from treating allies as adversaries"
+setser_may_5_25,banner,2025-05-05,M2,mechanism,L3,Mechanism B,,economic,0,header,,The dollar was priced for perfection: the flow equilibrium needed ever-larger inflows at ever-higher valuations
 setser_may_5_25,banner,2025-05-05,C1,intermediate_claim,L4,Intermediate claim,,,0,header,,Each of the five channels is plausible and none is decisive on its own
-setser_may_5_25,banner,2025-05-05,K,main_claim,L5,Main claim,,,0,header,unresolved,"·
-""In a sense, the dollar's recent weakness is over-determined"" — he declines to choose"
+setser_may_5_25,banner,2025-05-05,K,main_claim,L5,Main claim,,,0,header,unresolved,"""In a sense, the dollar's recent weakness is over-determined"" — he declines to choose"
 setser_may_5_25,banner,2025-05-05,X,opposing_view,L6,Opposing view,,,0,header,,The consensus he started from — that tariffs mechanically lift the dollar
 setser_may_5_25,banner,2025-05-05,QF,caveat,L6,Caveat,,,0,header,,The dollar is still strong by most measures; claims about the end of its reign are exaggerated
 setser_may_5_25,banner,2025-05-05,R1,other_explanation,L6,Other explanation,,,0,header,,"The five theories function as rivals to each other, and he keeps all of them live"

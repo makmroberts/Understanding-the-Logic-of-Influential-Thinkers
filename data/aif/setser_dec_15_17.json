@@ -1,0 +1,734 @@
+{
+ "nodes": [
+  {
+   "nodeID": "1",
+   "text": "Why does the U.S. trade balance still matter, even if deficits can accompany strong growth?",
+   "type": "I",
+   "role": "question",
+   "toulmin": "framing",
+   "oper": "framing",
+   "localID": "setser_dec_15_17#Q"
+  },
+  {
+   "nodeID": "2",
+   "text": "Changes in exports and imports mechanically affect output growth",
+   "type": "I",
+   "role": "stated_assumption",
+   "toulmin": "warrant",
+   "oper": "warrant.prior",
+   "localID": "setser_dec_15_17#P1"
+  },
+  {
+   "nodeID": "3",
+   "text": "Goods-producing sectors and regions are unevenly exposed",
+   "type": "I",
+   "role": "stated_assumption",
+   "toulmin": "warrant",
+   "oper": "warrant.prior",
+   "localID": "setser_dec_15_17#P2"
+  },
+  {
+   "nodeID": "4",
+   "text": "Ongoing borrowing raises the net external debt stock",
+   "type": "I",
+   "role": "stated_assumption",
+   "toulmin": "warrant",
+   "oper": "warrant.prior",
+   "localID": "setser_dec_15_17#P3"
+  },
+  {
+   "nodeID": "5",
+   "text": "Net exports subtracted about 1.5pp from U.S. growth",
+   "type": "I",
+   "role": "evidence_data",
+   "toulmin": "grounds",
+   "oper": "grounds",
+   "localID": "setser_dec_15_17#D1"
+  },
+  {
+   "nodeID": "6",
+   "text": "Surplus economies retain larger manufacturing job shares",
+   "type": "I",
+   "role": "evidence_data",
+   "toulmin": "grounds",
+   "oper": "grounds",
+   "localID": "setser_dec_15_17#D2"
+  },
+  {
+   "nodeID": "7",
+   "text": "Lower oil imports and offshore income reduced the current-account deficit",
+   "type": "I",
+   "role": "evidence_data",
+   "toulmin": "grounds",
+   "oper": "grounds",
+   "localID": "setser_dec_15_17#D3"
+  },
+  {
+   "nodeID": "8",
+   "text": "Debt increased even as U.S. borrowing costs fell",
+   "type": "I",
+   "role": "evidence_data",
+   "toulmin": "grounds",
+   "oper": "grounds",
+   "localID": "setser_dec_15_17#D4"
+  },
+  {
+   "nodeID": "9",
+   "text": "Either would weaken current favorable debt dynamics",
+   "type": "I",
+   "role": "evidence_data",
+   "toulmin": "grounds",
+   "oper": "grounds",
+   "localID": "setser_dec_15_17#D5"
+  },
+  {
+   "nodeID": "10",
+   "text": "Setser estimates roughly 0.3–0.5% of GDP over several years",
+   "type": "I",
+   "role": "evidence_data",
+   "toulmin": "grounds",
+   "oper": "grounds",
+   "localID": "setser_dec_15_17#D6"
+  },
+  {
+   "nodeID": "11",
+   "text": "More demand leaks abroad through net imports",
+   "type": "I",
+   "role": "mechanism",
+   "toulmin": "warrant",
+   "oper": "warrant.mechanism",
+   "localID": "setser_dec_15_17#M1"
+  },
+  {
+   "nodeID": "12",
+   "text": "Manufacturing deficits reduce employment in exposed sectors and regions",
+   "type": "I",
+   "role": "mechanism",
+   "toulmin": "warrant",
+   "oper": "warrant.mechanism",
+   "localID": "setser_dec_15_17#M2"
+  },
+  {
+   "nodeID": "13",
+   "text": "Persistent borrowing plus higher interest costs raise the external debt burden",
+   "type": "I",
+   "role": "mechanism",
+   "toulmin": "warrant",
+   "oper": "warrant.mechanism",
+   "localID": "setser_dec_15_17#M3"
+  },
+  {
+   "nodeID": "14",
+   "text": "A stronger economy can coexist with a deficit, but net exports still affect realized GDP growth",
+   "type": "I",
+   "role": "intermediate_claim",
+   "toulmin": "claim",
+   "oper": "claim.step",
+   "localID": "setser_dec_15_17#C1"
+  },
+  {
+   "nodeID": "15",
+   "text": "Its effects are sectoral and regional even near full employment",
+   "type": "I",
+   "role": "intermediate_claim",
+   "toulmin": "claim",
+   "oper": "claim.step",
+   "localID": "setser_dec_15_17#C2"
+  },
+  {
+   "nodeID": "16",
+   "text": "It depends on favorable growth, rates, and offshore income continuing",
+   "type": "I",
+   "role": "intermediate_claim",
+   "toulmin": "claim",
+   "oper": "claim.step",
+   "localID": "setser_dec_15_17#C3"
+  },
+  {
+   "nodeID": "17",
+   "text": "It contains information about growth, employment composition, and long-run external debt sustainability",
+   "type": "I",
+   "role": "main_claim",
+   "toulmin": "claim",
+   "oper": "claim.final",
+   "localID": "setser_dec_15_17#K"
+  },
+  {
+   "nodeID": "18",
+   "text": "A wider deficit can reflect stronger domestic demand rather than weakness",
+   "type": "I",
+   "role": "opposing_view",
+   "toulmin": "rebuttal",
+   "oper": "rebuttal",
+   "localID": "setser_dec_15_17#X"
+  },
+  {
+   "nodeID": "19",
+   "text": "Monthly trade data are noisy and should be read as a time series",
+   "type": "I",
+   "role": "caveat",
+   "toulmin": "qualifier",
+   "oper": "qualifier",
+   "localID": "setser_dec_15_17#QF1"
+  },
+  {
+   "nodeID": "20",
+   "text": "Near full employment, trade changes job distribution more than total employment",
+   "type": "I",
+   "role": "caveat",
+   "toulmin": "qualifier",
+   "oper": "qualifier",
+   "localID": "setser_dec_15_17#QF2"
+  },
+  {
+   "nodeID": "21",
+   "text": "The U.S. can sustain more external debt than most because of the dollar's global role",
+   "type": "I",
+   "role": "caveat",
+   "toulmin": "qualifier",
+   "oper": "qualifier",
+   "localID": "setser_dec_15_17#R1"
+  },
+  {
+   "nodeID": "360",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "arrow",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "363",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "arrow",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "366",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "arrow",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "369",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "arrow",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "372",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "arrow",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "375",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "arrow",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "378",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "arrow",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "381",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "arrow",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "384",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "arrow",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "387",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "arrow",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "390",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "arrow",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "393",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "arrow",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "396",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "arrow",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "399",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "arrow",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "402",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "arrow",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "405",
+   "text": "qualified_by",
+   "type": "CA",
+   "scheme": "qualified_by",
+   "relation_source": "label",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "408",
+   "text": "qualified_by",
+   "type": "CA",
+   "scheme": "qualified_by",
+   "relation_source": "label",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "411",
+   "text": "qualified_by",
+   "type": "CA",
+   "scheme": "qualified_by",
+   "relation_source": "label",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "414",
+   "text": "qualified_by",
+   "type": "CA",
+   "scheme": "qualified_by",
+   "relation_source": "label",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "417",
+   "text": "frames",
+   "type": "RA",
+   "scheme": "frames",
+   "relation_source": "layout_operator",
+   "relation_level": "fallback",
+   "relation_purity": "0.0"
+  },
+  {
+   "nodeID": "420",
+   "text": "frames",
+   "type": "RA",
+   "scheme": "frames",
+   "relation_source": "layout_operator",
+   "relation_level": "fallback",
+   "relation_purity": "0.0"
+  },
+  {
+   "nodeID": "423",
+   "text": "frames",
+   "type": "RA",
+   "scheme": "frames",
+   "relation_source": "layout_operator",
+   "relation_level": "fallback",
+   "relation_purity": "0.0"
+  },
+  {
+   "nodeID": "426",
+   "text": "frames",
+   "type": "RA",
+   "scheme": "frames",
+   "relation_source": "layout_operator",
+   "relation_level": "fallback",
+   "relation_purity": "0.0"
+  },
+  {
+   "nodeID": "429",
+   "text": "frames",
+   "type": "RA",
+   "scheme": "frames",
+   "relation_source": "layout_operator",
+   "relation_level": "fallback",
+   "relation_purity": "0.0"
+  },
+  {
+   "nodeID": "432",
+   "text": "frames",
+   "type": "RA",
+   "scheme": "frames",
+   "relation_source": "layout_operator",
+   "relation_level": "fallback",
+   "relation_purity": "0.0"
+  },
+  {
+   "nodeID": "435",
+   "text": "frames",
+   "type": "RA",
+   "scheme": "frames",
+   "relation_source": "layout_operator",
+   "relation_level": "fallback",
+   "relation_purity": "0.0"
+  },
+  {
+   "nodeID": "438",
+   "text": "frames",
+   "type": "RA",
+   "scheme": "frames",
+   "relation_source": "layout_operator",
+   "relation_level": "fallback",
+   "relation_purity": "0.0"
+  },
+  {
+   "nodeID": "441",
+   "text": "frames",
+   "type": "RA",
+   "scheme": "frames",
+   "relation_source": "layout_operator",
+   "relation_level": "fallback",
+   "relation_purity": "0.0"
+  }
+ ],
+ "edges": [
+  {
+   "edgeID": "361",
+   "fromID": "2",
+   "toID": "360"
+  },
+  {
+   "edgeID": "362",
+   "fromID": "360",
+   "toID": "11"
+  },
+  {
+   "edgeID": "364",
+   "fromID": "5",
+   "toID": "363"
+  },
+  {
+   "edgeID": "365",
+   "fromID": "363",
+   "toID": "11"
+  },
+  {
+   "edgeID": "367",
+   "fromID": "10",
+   "toID": "366"
+  },
+  {
+   "edgeID": "368",
+   "fromID": "366",
+   "toID": "11"
+  },
+  {
+   "edgeID": "370",
+   "fromID": "11",
+   "toID": "369"
+  },
+  {
+   "edgeID": "371",
+   "fromID": "369",
+   "toID": "14"
+  },
+  {
+   "edgeID": "373",
+   "fromID": "3",
+   "toID": "372"
+  },
+  {
+   "edgeID": "374",
+   "fromID": "372",
+   "toID": "12"
+  },
+  {
+   "edgeID": "376",
+   "fromID": "6",
+   "toID": "375"
+  },
+  {
+   "edgeID": "377",
+   "fromID": "375",
+   "toID": "12"
+  },
+  {
+   "edgeID": "379",
+   "fromID": "7",
+   "toID": "378"
+  },
+  {
+   "edgeID": "380",
+   "fromID": "378",
+   "toID": "12"
+  },
+  {
+   "edgeID": "382",
+   "fromID": "12",
+   "toID": "381"
+  },
+  {
+   "edgeID": "383",
+   "fromID": "381",
+   "toID": "15"
+  },
+  {
+   "edgeID": "385",
+   "fromID": "4",
+   "toID": "384"
+  },
+  {
+   "edgeID": "386",
+   "fromID": "384",
+   "toID": "13"
+  },
+  {
+   "edgeID": "388",
+   "fromID": "8",
+   "toID": "387"
+  },
+  {
+   "edgeID": "389",
+   "fromID": "387",
+   "toID": "13"
+  },
+  {
+   "edgeID": "391",
+   "fromID": "9",
+   "toID": "390"
+  },
+  {
+   "edgeID": "392",
+   "fromID": "390",
+   "toID": "13"
+  },
+  {
+   "edgeID": "394",
+   "fromID": "13",
+   "toID": "393"
+  },
+  {
+   "edgeID": "395",
+   "fromID": "393",
+   "toID": "16"
+  },
+  {
+   "edgeID": "397",
+   "fromID": "14",
+   "toID": "396"
+  },
+  {
+   "edgeID": "398",
+   "fromID": "396",
+   "toID": "17"
+  },
+  {
+   "edgeID": "400",
+   "fromID": "15",
+   "toID": "399"
+  },
+  {
+   "edgeID": "401",
+   "fromID": "399",
+   "toID": "17"
+  },
+  {
+   "edgeID": "403",
+   "fromID": "16",
+   "toID": "402"
+  },
+  {
+   "edgeID": "404",
+   "fromID": "402",
+   "toID": "17"
+  },
+  {
+   "edgeID": "406",
+   "fromID": "14",
+   "toID": "405"
+  },
+  {
+   "edgeID": "407",
+   "fromID": "405",
+   "toID": "18"
+  },
+  {
+   "edgeID": "409",
+   "fromID": "17",
+   "toID": "408"
+  },
+  {
+   "edgeID": "410",
+   "fromID": "408",
+   "toID": "19"
+  },
+  {
+   "edgeID": "412",
+   "fromID": "15",
+   "toID": "411"
+  },
+  {
+   "edgeID": "413",
+   "fromID": "411",
+   "toID": "20"
+  },
+  {
+   "edgeID": "415",
+   "fromID": "16",
+   "toID": "414"
+  },
+  {
+   "edgeID": "416",
+   "fromID": "414",
+   "toID": "21"
+  },
+  {
+   "edgeID": "418",
+   "fromID": "1",
+   "toID": "417"
+  },
+  {
+   "edgeID": "419",
+   "fromID": "417",
+   "toID": "2"
+  },
+  {
+   "edgeID": "421",
+   "fromID": "1",
+   "toID": "420"
+  },
+  {
+   "edgeID": "422",
+   "fromID": "420",
+   "toID": "3"
+  },
+  {
+   "edgeID": "424",
+   "fromID": "1",
+   "toID": "423"
+  },
+  {
+   "edgeID": "425",
+   "fromID": "423",
+   "toID": "4"
+  },
+  {
+   "edgeID": "427",
+   "fromID": "2",
+   "toID": "426"
+  },
+  {
+   "edgeID": "428",
+   "fromID": "426",
+   "toID": "5"
+  },
+  {
+   "edgeID": "430",
+   "fromID": "2",
+   "toID": "429"
+  },
+  {
+   "edgeID": "431",
+   "fromID": "429",
+   "toID": "10"
+  },
+  {
+   "edgeID": "433",
+   "fromID": "3",
+   "toID": "432"
+  },
+  {
+   "edgeID": "434",
+   "fromID": "432",
+   "toID": "6"
+  },
+  {
+   "edgeID": "436",
+   "fromID": "3",
+   "toID": "435"
+  },
+  {
+   "edgeID": "437",
+   "fromID": "435",
+   "toID": "7"
+  },
+  {
+   "edgeID": "439",
+   "fromID": "4",
+   "toID": "438"
+  },
+  {
+   "edgeID": "440",
+   "fromID": "438",
+   "toID": "8"
+  },
+  {
+   "edgeID": "442",
+   "fromID": "4",
+   "toID": "441"
+  },
+  {
+   "edgeID": "443",
+   "fromID": "441",
+   "toID": "9"
+  }
+ ],
+ "locutions": [],
+ "source": {
+  "doc": "setser_dec_15_17",
+  "title": "Why does the U.S. trade balance still matter, even if deficits can accompany strong growth?",
+  "date": "2017-12-15",
+  "url": "https://www.cfr.org/articles/why-trade-balance-still-matters"
+ }
+}

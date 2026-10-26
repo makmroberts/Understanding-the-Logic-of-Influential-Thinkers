@@ -1,0 +1,320 @@
+{
+ "nodes": [
+  {
+   "id": "setser_aug_14_24-Q",
+   "type": "file",
+   "file": "claims/question/Why does the reported current account diverge from the customs surplus, and which is right.md",
+   "x": -260,
+   "y": 0,
+   "width": 520,
+   "height": 300,
+   "color": "#7A6FA8"
+  },
+  {
+   "id": "setser_aug_14_24-P1",
+   "type": "file",
+   "file": "claims/stated_assumption/The balance-of-payments surplus should exceed customs; a methodology change should net out.md",
+   "x": -840,
+   "y": 480,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "setser_aug_14_24-P2",
+   "type": "file",
+   "file": "claims/hidden_assumption/Customs data is ground truth \u2014 never argued for, the whole case rests on it.md",
+   "x": -260,
+   "y": 480,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "setser_aug_14_24-SC",
+   "type": "file",
+   "file": "claims/source_credibility/The methodology was already changed at a convenient moment in 2015, and backdated.md",
+   "x": 320,
+   "y": 480,
+   "width": 520,
+   "height": 300,
+   "color": "#2FA88F"
+  },
+  {
+   "id": "setser_aug_14_24-E1",
+   "type": "file",
+   "file": "claims/evidence_data/Reported current account ~$150bn below expectation in Q2.md",
+   "x": -1130,
+   "y": 960,
+   "width": 520,
+   "height": 300,
+   "color": "#2F7FBF"
+  },
+  {
+   "id": "setser_aug_14_24-E2",
+   "type": "file",
+   "file": "claims/evidence_source/IMF Article IV Appendix VII; consistent with Adam Wolf's work.md",
+   "x": -550,
+   "y": 960,
+   "width": 520,
+   "height": 300,
+   "color": "#2F7FBF"
+  },
+  {
+   "id": "setser_aug_14_24-E3",
+   "type": "file",
+   "file": "claims/evidence_rival/The customs goods series against the balance-of-payments goods series.md",
+   "x": 30,
+   "y": 960,
+   "width": 520,
+   "height": 300,
+   "color": "#2F7FBF"
+  },
+  {
+   "id": "setser_aug_14_24-E4",
+   "type": "file",
+   "file": "claims/evidence_discrepancy/Gap explodes from 2022; BoP imports exceed customs imports for the first time in 2023.md",
+   "x": 610,
+   "y": 960,
+   "width": 520,
+   "height": 300,
+   "color": "#2F7FBF"
+  },
+  {
+   "id": "setser_aug_14_24-M1",
+   "type": "file",
+   "file": "claims/mechanism/Factoryless manufacturing \u2014 a sale to a non-resident is booked as an export though the goods never leave China.md",
+   "x": -550,
+   "y": 1440,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "setser_aug_14_24-M2",
+   "type": "file",
+   "file": "claims/mechanism/Compilers switched from customs data to direct enterprise reporting in 2022.md",
+   "x": 30,
+   "y": 1440,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "setser_aug_14_24-C1",
+   "type": "file",
+   "file": "claims/intermediate_claim/It makes no economic sense; the offsetting adjustment is absent; the series cannot be replicated.md",
+   "x": -260,
+   "y": 1920,
+   "width": 520,
+   "height": 300,
+   "color": "#2FBF9B"
+  },
+  {
+   "id": "setser_aug_14_24-K",
+   "type": "file",
+   "file": "claims/main_claim/The reported surplus is an artifact of a methodology change.md",
+   "x": -840,
+   "y": 2400,
+   "width": 520,
+   "height": 300,
+   "color": "#2FBF9B"
+  },
+  {
+   "id": "setser_aug_14_24-RC",
+   "type": "file",
+   "file": "claims/reconstruction/Goods surplus understated by ~$300bn, over 1.5pp of GDP; true current account surplus close to $700bn \u2014 use the customs.md",
+   "x": -260,
+   "y": 2400,
+   "width": 520,
+   "height": 300,
+   "color": "#2FBF9B"
+  },
+  {
+   "id": "setser_aug_14_24-REC",
+   "type": "file",
+   "file": "claims/recommendation/implied only \u2014 stop using the reported series.md",
+   "x": 320,
+   "y": 2400,
+   "width": 520,
+   "height": 300,
+   "color": "#2FBF9B"
+  },
+  {
+   "id": "setser_aug_14_24-DF",
+   "type": "file",
+   "file": "claims/deferred_question/The interest income anomaly is set aside for a future blog.md",
+   "x": -840,
+   "y": 2880,
+   "width": 520,
+   "height": 300,
+   "color": "#7A6FA8"
+  },
+  {
+   "id": "setser_aug_14_24-QF",
+   "type": "file",
+   "file": "claims/caveat/The income line carries no detail, so this cannot be checked from outside.md",
+   "x": -260,
+   "y": 2880,
+   "width": 520,
+   "height": 300,
+   "color": "#9A8C6A"
+  },
+  {
+   "id": "setser_aug_14_24-X",
+   "type": "file",
+   "file": "claims/opposing_view/Analysts and the IMF read the post-2021 decline as real.md",
+   "x": 320,
+   "y": 2880,
+   "width": 520,
+   "height": 300,
+   "color": "#8A8A8A"
+  }
+ ],
+ "edges": [
+  {
+   "id": "E3-E4",
+   "fromNode": "setser_aug_14_24-E3",
+   "fromSide": "bottom",
+   "toNode": "setser_aug_14_24-E4",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "SC-E4",
+   "fromNode": "setser_aug_14_24-SC",
+   "fromSide": "bottom",
+   "toNode": "setser_aug_14_24-E4",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "E2-M1",
+   "fromNode": "setser_aug_14_24-E2",
+   "fromSide": "bottom",
+   "toNode": "setser_aug_14_24-M1",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "E2-M2",
+   "fromNode": "setser_aug_14_24-E2",
+   "fromSide": "bottom",
+   "toNode": "setser_aug_14_24-M2",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "M1-C1",
+   "fromNode": "setser_aug_14_24-M1",
+   "fromSide": "bottom",
+   "toNode": "setser_aug_14_24-C1",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "M2-C1",
+   "fromNode": "setser_aug_14_24-M2",
+   "fromSide": "bottom",
+   "toNode": "setser_aug_14_24-C1",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "E4-C1",
+   "fromNode": "setser_aug_14_24-E4",
+   "fromSide": "bottom",
+   "toNode": "setser_aug_14_24-C1",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "E1-C1",
+   "fromNode": "setser_aug_14_24-E1",
+   "fromSide": "bottom",
+   "toNode": "setser_aug_14_24-C1",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "P1-C1",
+   "fromNode": "setser_aug_14_24-P1",
+   "fromSide": "bottom",
+   "toNode": "setser_aug_14_24-C1",
+   "toSide": "top",
+   "label": "+1 licenses",
+   "color": "4"
+  },
+  {
+   "id": "C1-K",
+   "fromNode": "setser_aug_14_24-C1",
+   "fromSide": "bottom",
+   "toNode": "setser_aug_14_24-K",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "K-RC",
+   "fromNode": "setser_aug_14_24-K",
+   "fromSide": "bottom",
+   "toNode": "setser_aug_14_24-RC",
+   "toSide": "top",
+   "label": "+1 reconstructs",
+   "color": "4"
+  },
+  {
+   "id": "P2-RC",
+   "fromNode": "setser_aug_14_24-P2",
+   "fromSide": "bottom",
+   "toNode": "setser_aug_14_24-RC",
+   "toSide": "top",
+   "label": "+1 licenses",
+   "color": "4"
+  },
+  {
+   "id": "K-REC",
+   "fromNode": "setser_aug_14_24-K",
+   "fromSide": "bottom",
+   "toNode": "setser_aug_14_24-REC",
+   "toSide": "top",
+   "label": "+1 motivates",
+   "color": "4"
+  },
+  {
+   "id": "K-X",
+   "fromNode": "setser_aug_14_24-K",
+   "fromSide": "bottom",
+   "toNode": "setser_aug_14_24-X",
+   "toSide": "top",
+   "label": "-1 rebuts",
+   "color": "1"
+  },
+  {
+   "id": "RC-QF",
+   "fromNode": "setser_aug_14_24-RC",
+   "fromSide": "bottom",
+   "toNode": "setser_aug_14_24-QF",
+   "toSide": "top",
+   "label": "-1 qualified_by",
+   "color": "1"
+  },
+  {
+   "id": "K-DF",
+   "fromNode": "setser_aug_14_24-K",
+   "fromSide": "bottom",
+   "toNode": "setser_aug_14_24-DF",
+   "toSide": "top",
+   "label": "0 defers",
+   "color": "6"
+  }
+ ]
+}

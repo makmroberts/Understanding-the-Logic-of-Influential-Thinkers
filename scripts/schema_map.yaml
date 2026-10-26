@@ -185,5 +185,132 @@ edge_default_solid: supports
 # undercut_by. The parser flags them for review rather than picking one.
 edge_default_dashed: null
 
-# Layout-only link syntax, dropped entirely (103 occurrences, all invisible).
-drop_edge_operators: ['~~~']
+# ---------------------------------------------------------------------------
+# MERMAID'S INVISIBLE LINK, `~~~`
+#
+# It is used for TWO different things in this corpus, and an earlier version of
+# this file dropped both on the grounds that they are "all invisible". Invisible
+# in the rendering, yes - but one of the two is argument structure.
+#
+#   container chaining   T ~~~ L0, L0 ~~~ L1, L1 ~~~ L1B ...
+#                        forces the subgraphs to stack vertically. 48 of these.
+#                        Pure layout. Dropped.
+#
+#   claim to claim       Q ~~~ P2 & P3 & P1 & P4      the question and its priors
+#                        P2 ~~~ D1, P3 ~~~ D2         a prior and its datum
+#                        P1 ~~~ D4 & D5
+#                        111 of these, in 14 of 20 maps. Nobody writes a
+#                        one-to-one prior/datum pairing for layout. Kept.
+#
+# Measured 2026-10-16: keeping them adds 111 edges to 344 (+32%), connects 14 of
+# the 20 isolated question nodes, and recovers the prior-to-evidence layer, which
+# was absent from the graph entirely.
+#
+# The classification is mechanical - are both endpoints claim nodes, or is either
+# a subgraph container - so it needs no judgement per edge.
+# ---------------------------------------------------------------------------
+layout_operators: ['~~~']
+
+# A kept layout-operator edge carries NO label, so its relation is a convention,
+# not something the annotator wrote. Every one is marked `relation_source:
+# layout_operator` in data/edges.csv so it can never be mistaken for a read
+# label, and so the three provenance classes stay countable:
+#
+#   label        161   the annotator wrote the relation
+#   arrow        183   inferred from a solid arrow (edge_default_solid)
+#   layout       111   recovered from `~~~`, typed by the table below
+#
+# Relations are reused rather than minted wherever one fits (LOT 2022). Only
+# `frames` is new: the question-to-prior link is not support, licensing,
+# bounding or motivation - it is the question setting up what the article will
+# assume. It signs 0, like `defers`, so recovering this structure cannot inflate
+# the support count or move the measured push-back rate by arithmetic.
+# ---------------------------------------------------------------------------
+# ROLE FAMILIES: a three-level specialisation hierarchy, borrowed not invented
+#
+# The 26 role types are this annotator's vocabulary. Keying rules on them
+# over-specifies: 49 of 676 possible role pairs are attested, 24 of those by a
+# single edge. The standard answer is to specialise an upper ontology rather
+# than invent one, and to back off from fine to coarse where data is sparse
+# (coarse-to-fine attention for long-tail relations, Han et al. 2018; the same
+# idea as hierarchical smoothing in n-gram models).
+#
+# LEVEL 3  toulmin   Toulmin's six elements. AIF introduces claim, data,
+#                    backing, rebuttal and qualifier as I-nodes, so this level
+#                    is what an AIF export writes and what another annotation
+#                    scheme can be mapped onto. Interoperability lives here.
+# LEVEL 2  oper      Toulmin refined where THIS corpus shows the split matters.
+#                    Measured, not chosen: Toulmin-pure families predict the
+#                    annotator's own relations at 59% leave-one-out, because
+#                    merging `mechanism` with the priors under `warrant` loses
+#                    the distinction between "a prior licenses a datum" and "a
+#                    mechanism supports a step". Splitting warrant and claim
+#                    takes it to 85%.
+# LEVEL 1  type      the 26 types as annotated. 81% alone, but undefined for
+#                    15% of edges.
+#
+# Backing off type -> oper -> toulmin scores 89% with 5 of 161 edges unpredicted.
+# A second annotator maps their own types onto `oper`/`toulmin` once; nothing
+# else has to be rewritten.
+#
+# THE RESIDUE IS THE INTERESTING PART. 28 of 359 claims have no Toulmin slot
+# and no slot in AIF's single-argument core:
+#   framing   question, position_map, deferred_question - article-level
+#             apparatus, which is AIF+ dialogue territory rather than argument
+#             structure
+#   revision  revised_prior - a change of mind ACROSS articles. Neither Toulmin
+#             nor AIF has anywhere to put this, and it is the thing this project
+#             exists to capture.
+# They are kept as named families rather than forced into a slot they do not fit.
+# ---------------------------------------------------------------------------
+role_families:
+  toulmin:
+    claim:      [main_claim, intermediate_claim, reconstruction, recommendation, policy_reductio, case_type]
+    grounds:    [evidence_data, evidence_source, evidence_rival, evidence_discrepancy]
+    warrant:    [hidden_assumption, stated_assumption, accounting_identity, mechanism]
+    backing:    [source_credibility, benchmark]
+    qualifier:  [caveat, scope_choice]
+    rebuttal:   [opposing_view, counterpoint, other_explanation]
+    framing:    [question, position_map, deferred_question]
+    revision:   [revised_prior]
+    unassigned: [anomaly]
+  oper:
+    claim.step:       [intermediate_claim, case_type, policy_reductio]
+    claim.final:      [main_claim, reconstruction, recommendation]
+    grounds:          [evidence_data, evidence_source, evidence_rival, evidence_discrepancy]
+    warrant.prior:    [hidden_assumption, stated_assumption, accounting_identity]
+    warrant.mechanism: [mechanism]
+    backing:          [source_credibility, benchmark]
+    qualifier:        [caveat, scope_choice]
+    rebuttal:         [opposing_view, counterpoint, other_explanation]
+    framing:          [question, position_map, deferred_question]
+    revision:         [revised_prior]
+    unassigned:       [anomaly]
+
+# A recovered layout-operator edge carries no label, so its relation is DERIVED
+# from the relations the annotator did write, by the back-off above - not from a
+# table anybody hand-wrote. An earlier version of this file had 12 hand-chosen
+# cells; this replaces them, and every derived edge records the level it was
+# typed at and the purity of the cell, so the weak ones are a review queue.
+layout_edge_derivation:
+  backoff: [type, oper, toulmin]
+  min_examples: 1
+  # Below this cell purity the edge is still typed, and flagged in review.md.
+  flag_below_purity: 0.60
+
+  # THE FALLBACK IS LOAD-BEARING, AND MEASURED TO BE SO.
+  # 108 of the 111 recovered edges reach it, because the role pairs they connect
+  # - question to prior, prior to datum - carry NO labelled example anywhere in
+  # the corpus. That is not sparsity, it is structural: the annotator used the
+  # unlabelled `~~~` operator for precisely this structure, so no amount of
+  # backing off finds evidence to use. Derivation types only the 3 edges whose
+  # role pairs ARE attested (2 supports, 1 rebuts); the rest take this.
+  #
+  # `frames`, sign 0, is the agnostic choice. An earlier version of this file
+  # asserted the 65 prior-to-datum edges as `licenses` (+1), reasoning that a
+  # prior licenses a datum's relevance. Plausible, unevidenced, and it would
+  # have added 65 units of support to every corpus-wide measurement. Sign 0
+  # records the structure without claiming a direction of support.
+  fallback: frames
+
+pushes_back_relations: [rebuts, qualified_by, undercut_by, revises]

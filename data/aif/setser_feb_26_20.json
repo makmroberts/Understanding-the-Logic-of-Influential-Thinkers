@@ -1,0 +1,716 @@
+{
+ "nodes": [
+  {
+   "nodeID": "193",
+   "text": "Do tariffs change the trade balance, and who absorbed the Q4 US demand drop?",
+   "type": "I",
+   "role": "question",
+   "toulmin": "framing",
+   "oper": "framing",
+   "localID": "setser_feb_26_20#Q"
+  },
+  {
+   "nodeID": "194",
+   "text": "Trade scholars assume it is; Setser says not necessarily",
+   "type": "I",
+   "role": "stated_assumption",
+   "toulmin": "warrant",
+   "oper": "warrant.prior",
+   "localID": "setser_feb_26_20#P2"
+  },
+  {
+   "nodeID": "195",
+   "text": "So the tariffs work as a clear tax",
+   "type": "I",
+   "role": "stated_assumption",
+   "toulmin": "warrant",
+   "oper": "warrant.prior",
+   "localID": "setser_feb_26_20#P3"
+  },
+  {
+   "nodeID": "196",
+   "text": "Never stated, but the argument depends on it",
+   "type": "I",
+   "role": "hidden_assumption",
+   "toulmin": "warrant",
+   "oper": "warrant.prior",
+   "localID": "setser_feb_26_20#P1"
+  },
+  {
+   "nodeID": "197",
+   "text": "Uncertainty can reduce investment",
+   "type": "I",
+   "role": "stated_assumption",
+   "toulmin": "warrant",
+   "oper": "warrant.prior",
+   "localID": "setser_feb_26_20#P4"
+  },
+  {
+   "nodeID": "198",
+   "text": "~15% average tariff on $500B+ of China imports",
+   "type": "I",
+   "role": "evidence_data",
+   "toulmin": "grounds",
+   "oper": "grounds",
+   "localID": "setser_feb_26_20#D1"
+  },
+  {
+   "nodeID": "199",
+   "text": "Govt captures 35bp of the 60bp GDP consumers lose",
+   "type": "I",
+   "role": "evidence_data",
+   "toulmin": "grounds",
+   "oper": "grounds",
+   "localID": "setser_feb_26_20#D2"
+  },
+  {
+   "nodeID": "200",
+   "text": "Investment slowdowns lead to import slowdowns",
+   "type": "I",
+   "role": "evidence_data",
+   "toulmin": "grounds",
+   "oper": "grounds",
+   "localID": "setser_feb_26_20#D3"
+  },
+  {
+   "nodeID": "201",
+   "text": "Consumer goods, autos, capital goods all soft",
+   "type": "I",
+   "role": "evidence_data",
+   "toulmin": "grounds",
+   "oper": "grounds",
+   "localID": "setser_feb_26_20#D4"
+  },
+  {
+   "nodeID": "202",
+   "text": "Far short of the fall in China imports",
+   "type": "I",
+   "role": "evidence_data",
+   "toulmin": "grounds",
+   "oper": "grounds",
+   "localID": "setser_feb_26_20#D5"
+  },
+  {
+   "nodeID": "203",
+   "text": "Backdoor fiscal tightening slows consumption",
+   "type": "I",
+   "role": "mechanism",
+   "toulmin": "warrant",
+   "oper": "warrant.mechanism",
+   "localID": "setser_feb_26_20#M1"
+  },
+  {
+   "nodeID": "204",
+   "text": "Especially new business equipment",
+   "type": "I",
+   "role": "mechanism",
+   "toulmin": "warrant",
+   "oper": "warrant.mechanism",
+   "localID": "setser_feb_26_20#M2"
+  },
+  {
+   "nodeID": "205",
+   "text": "Weaker investment means fewer imported goods",
+   "type": "I",
+   "role": "mechanism",
+   "toulmin": "warrant",
+   "oper": "warrant.mechanism",
+   "localID": "setser_feb_26_20#M3"
+  },
+  {
+   "nodeID": "206",
+   "text": "Not the argument Trump makes for them",
+   "type": "I",
+   "role": "intermediate_claim",
+   "toulmin": "claim",
+   "oper": "claim.step",
+   "localID": "setser_feb_26_20#C1"
+  },
+  {
+   "nodeID": "207",
+   "text": "Imports from other countries stopped making up the gap",
+   "type": "I",
+   "role": "intermediate_claim",
+   "toulmin": "claim",
+   "oper": "claim.step",
+   "localID": "setser_feb_26_20#C2"
+  },
+  {
+   "nodeID": "208",
+   "text": "Setser: \"the weakening of U.S. demand was felt globally, rather than in the United States\" US GDP held because services demand stayed strong",
+   "type": "I",
+   "role": "main_claim",
+   "toulmin": "claim",
+   "oper": "claim.final",
+   "localID": "setser_feb_26_20#K"
+  },
+  {
+   "nodeID": "209",
+   "text": "Setser admits he glossed over this too",
+   "type": "I",
+   "role": "counterpoint",
+   "toulmin": "rebuttal",
+   "oper": "rebuttal",
+   "localID": "setser_feb_26_20#X"
+  },
+  {
+   "nodeID": "210",
+   "text": "Blip or persistent trend? Too early to tell",
+   "type": "I",
+   "role": "counterpoint",
+   "toulmin": "rebuttal",
+   "oper": "rebuttal",
+   "localID": "setser_feb_26_20#QF"
+  },
+  {
+   "nodeID": "211",
+   "text": "Strong dollar, 2018 Fed hikes, shale cutbacks",
+   "type": "I",
+   "role": "counterpoint",
+   "toulmin": "rebuttal",
+   "oper": "rebuttal",
+   "localID": "setser_feb_26_20#R1"
+  },
+  {
+   "nodeID": "1134",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "arrow",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "1137",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "arrow",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "1140",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "arrow",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "1143",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "arrow",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "1146",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "arrow",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "1149",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "arrow",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "1152",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "arrow",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "1155",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "arrow",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "1158",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "arrow",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "1161",
+   "text": "licenses",
+   "type": "RA",
+   "scheme": "licenses",
+   "relation_source": "label",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "1164",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "arrow",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "1167",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "arrow",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "1170",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "arrow",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "1173",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "arrow",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "1176",
+   "text": "qualified_by",
+   "type": "CA",
+   "scheme": "qualified_by",
+   "relation_source": "label",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "1179",
+   "text": "qualified_by",
+   "type": "CA",
+   "scheme": "qualified_by",
+   "relation_source": "label",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "1182",
+   "text": "undercut_by",
+   "type": "CA",
+   "scheme": "undercut_by",
+   "relation_source": "label",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "1185",
+   "text": "frames",
+   "type": "RA",
+   "scheme": "frames",
+   "relation_source": "layout_operator",
+   "relation_level": "fallback",
+   "relation_purity": "0.0"
+  },
+  {
+   "nodeID": "1188",
+   "text": "frames",
+   "type": "RA",
+   "scheme": "frames",
+   "relation_source": "layout_operator",
+   "relation_level": "fallback",
+   "relation_purity": "0.0"
+  },
+  {
+   "nodeID": "1191",
+   "text": "frames",
+   "type": "RA",
+   "scheme": "frames",
+   "relation_source": "layout_operator",
+   "relation_level": "fallback",
+   "relation_purity": "0.0"
+  },
+  {
+   "nodeID": "1194",
+   "text": "frames",
+   "type": "RA",
+   "scheme": "frames",
+   "relation_source": "layout_operator",
+   "relation_level": "fallback",
+   "relation_purity": "0.0"
+  },
+  {
+   "nodeID": "1197",
+   "text": "frames",
+   "type": "RA",
+   "scheme": "frames",
+   "relation_source": "layout_operator",
+   "relation_level": "fallback",
+   "relation_purity": "0.0"
+  },
+  {
+   "nodeID": "1200",
+   "text": "frames",
+   "type": "RA",
+   "scheme": "frames",
+   "relation_source": "layout_operator",
+   "relation_level": "fallback",
+   "relation_purity": "0.0"
+  },
+  {
+   "nodeID": "1203",
+   "text": "frames",
+   "type": "RA",
+   "scheme": "frames",
+   "relation_source": "layout_operator",
+   "relation_level": "fallback",
+   "relation_purity": "0.0"
+  },
+  {
+   "nodeID": "1206",
+   "text": "frames",
+   "type": "RA",
+   "scheme": "frames",
+   "relation_source": "layout_operator",
+   "relation_level": "fallback",
+   "relation_purity": "0.0"
+  },
+  {
+   "nodeID": "1209",
+   "text": "frames",
+   "type": "RA",
+   "scheme": "frames",
+   "relation_source": "layout_operator",
+   "relation_level": "fallback",
+   "relation_purity": "0.0"
+  },
+  {
+   "nodeID": "1212",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "layout_operator",
+   "relation_level": "type",
+   "relation_purity": "1.0"
+  },
+  {
+   "nodeID": "1215",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "layout_operator",
+   "relation_level": "type",
+   "relation_purity": "1.0"
+  }
+ ],
+ "edges": [
+  {
+   "edgeID": "1135",
+   "fromID": "194",
+   "toID": "1134"
+  },
+  {
+   "edgeID": "1136",
+   "fromID": "1134",
+   "toID": "203"
+  },
+  {
+   "edgeID": "1138",
+   "fromID": "195",
+   "toID": "1137"
+  },
+  {
+   "edgeID": "1139",
+   "fromID": "1137",
+   "toID": "203"
+  },
+  {
+   "edgeID": "1141",
+   "fromID": "198",
+   "toID": "1140"
+  },
+  {
+   "edgeID": "1142",
+   "fromID": "1140",
+   "toID": "203"
+  },
+  {
+   "edgeID": "1144",
+   "fromID": "199",
+   "toID": "1143"
+  },
+  {
+   "edgeID": "1145",
+   "fromID": "1143",
+   "toID": "203"
+  },
+  {
+   "edgeID": "1147",
+   "fromID": "197",
+   "toID": "1146"
+  },
+  {
+   "edgeID": "1148",
+   "fromID": "1146",
+   "toID": "204"
+  },
+  {
+   "edgeID": "1150",
+   "fromID": "204",
+   "toID": "1149"
+  },
+  {
+   "edgeID": "1151",
+   "fromID": "1149",
+   "toID": "205"
+  },
+  {
+   "edgeID": "1153",
+   "fromID": "200",
+   "toID": "1152"
+  },
+  {
+   "edgeID": "1154",
+   "fromID": "1152",
+   "toID": "205"
+  },
+  {
+   "edgeID": "1156",
+   "fromID": "203",
+   "toID": "1155"
+  },
+  {
+   "edgeID": "1157",
+   "fromID": "1155",
+   "toID": "206"
+  },
+  {
+   "edgeID": "1159",
+   "fromID": "205",
+   "toID": "1158"
+  },
+  {
+   "edgeID": "1160",
+   "fromID": "1158",
+   "toID": "206"
+  },
+  {
+   "edgeID": "1162",
+   "fromID": "196",
+   "toID": "1161"
+  },
+  {
+   "edgeID": "1163",
+   "fromID": "1161",
+   "toID": "206"
+  },
+  {
+   "edgeID": "1165",
+   "fromID": "201",
+   "toID": "1164"
+  },
+  {
+   "edgeID": "1166",
+   "fromID": "1164",
+   "toID": "207"
+  },
+  {
+   "edgeID": "1168",
+   "fromID": "202",
+   "toID": "1167"
+  },
+  {
+   "edgeID": "1169",
+   "fromID": "1167",
+   "toID": "207"
+  },
+  {
+   "edgeID": "1171",
+   "fromID": "206",
+   "toID": "1170"
+  },
+  {
+   "edgeID": "1172",
+   "fromID": "1170",
+   "toID": "208"
+  },
+  {
+   "edgeID": "1174",
+   "fromID": "207",
+   "toID": "1173"
+  },
+  {
+   "edgeID": "1175",
+   "fromID": "1173",
+   "toID": "208"
+  },
+  {
+   "edgeID": "1177",
+   "fromID": "208",
+   "toID": "1176"
+  },
+  {
+   "edgeID": "1178",
+   "fromID": "1176",
+   "toID": "209"
+  },
+  {
+   "edgeID": "1180",
+   "fromID": "208",
+   "toID": "1179"
+  },
+  {
+   "edgeID": "1181",
+   "fromID": "1179",
+   "toID": "210"
+  },
+  {
+   "edgeID": "1183",
+   "fromID": "204",
+   "toID": "1182"
+  },
+  {
+   "edgeID": "1184",
+   "fromID": "1182",
+   "toID": "211"
+  },
+  {
+   "edgeID": "1186",
+   "fromID": "193",
+   "toID": "1185"
+  },
+  {
+   "edgeID": "1187",
+   "fromID": "1185",
+   "toID": "194"
+  },
+  {
+   "edgeID": "1189",
+   "fromID": "193",
+   "toID": "1188"
+  },
+  {
+   "edgeID": "1190",
+   "fromID": "1188",
+   "toID": "195"
+  },
+  {
+   "edgeID": "1192",
+   "fromID": "193",
+   "toID": "1191"
+  },
+  {
+   "edgeID": "1193",
+   "fromID": "1191",
+   "toID": "196"
+  },
+  {
+   "edgeID": "1195",
+   "fromID": "193",
+   "toID": "1194"
+  },
+  {
+   "edgeID": "1196",
+   "fromID": "1194",
+   "toID": "197"
+  },
+  {
+   "edgeID": "1198",
+   "fromID": "194",
+   "toID": "1197"
+  },
+  {
+   "edgeID": "1199",
+   "fromID": "1197",
+   "toID": "198"
+  },
+  {
+   "edgeID": "1201",
+   "fromID": "195",
+   "toID": "1200"
+  },
+  {
+   "edgeID": "1202",
+   "fromID": "1200",
+   "toID": "199"
+  },
+  {
+   "edgeID": "1204",
+   "fromID": "197",
+   "toID": "1203"
+  },
+  {
+   "edgeID": "1205",
+   "fromID": "1203",
+   "toID": "200"
+  },
+  {
+   "edgeID": "1207",
+   "fromID": "196",
+   "toID": "1206"
+  },
+  {
+   "edgeID": "1208",
+   "fromID": "1206",
+   "toID": "201"
+  },
+  {
+   "edgeID": "1210",
+   "fromID": "196",
+   "toID": "1209"
+  },
+  {
+   "edgeID": "1211",
+   "fromID": "1209",
+   "toID": "202"
+  },
+  {
+   "edgeID": "1213",
+   "fromID": "201",
+   "toID": "1212"
+  },
+  {
+   "edgeID": "1214",
+   "fromID": "1212",
+   "toID": "205"
+  },
+  {
+   "edgeID": "1216",
+   "fromID": "202",
+   "toID": "1215"
+  },
+  {
+   "edgeID": "1217",
+   "fromID": "1215",
+   "toID": "205"
+  }
+ ],
+ "locutions": [],
+ "source": {
+  "doc": "setser_feb_26_20",
+  "title": "Do tariffs change the trade balance, and who absorbed the Q4 US demand drop?",
+  "date": "2020-02-26",
+  "url": "https://www.cfr.org/articles/us-shock-global-demand-q4-coronavirus"
+ }
+}

@@ -1,0 +1,362 @@
+# Competency questions: the fixed list of question shapes this knowledge base
+# must be able to answer.
+#
+# These GOVERN scripts/facets.yaml. The failure mode for a subject taxonomy is
+# sprawl - 300 tags, overlapping, no principle for pruning, and no way to tell a
+# dead term from a rare one. The defence is to fix the questions first and admit
+# a facet value only when some question below needs it to discriminate. Then
+# "should `overcapacity` be a term?" has an answer: only if a CQ cannot be
+# answered without it.
+#
+# The discipline is borrowed from OntoKG-EQ, which bounds its ontology with five
+# fixed analyst competency questions and traces every finding back to source.
+# Ten is already generous for 20 documents; resist adding an eleventh unless a
+# real user asked something none of these covers.
+#
+# EACH QUESTION DECLARES
+#   facets      - which facets the query binds. A facet not named by any CQ
+#                 should not exist.
+#   role_types  - which node types the answer is drawn from (schema_map.yaml).
+#   retrieval   - what the query compiles to against data/node_facets.csv.
+#   example     - a real instantiation, with the nodes it must return and, where
+#                 informative, a node it must NOT return.
+#
+# The `example` blocks double as a regression fixture: they were verified by
+# hand against the 20 maps, so a labelling run that stops returning these is a
+# labelling regression, not a retrieval preference.
+
+version: 2
+governs: scripts/facets.yaml
+
+# ===========================================================================
+# GLOBAL RETRIEVAL RULES
+#
+# These apply to every question below and are the difference between a filter
+# that helps and a filter that quietly destroys the thing the project is for.
+# ===========================================================================
+rules:
+  one_hop_expansion:
+    rule: >
+      After facet filtering, re-admit nodes within one hop of the filtered set
+      along `supports`, `licenses`, `bounds` and `reconstructs` edges, even when
+      their own facets do not match.
+    why: >
+      A warrant usually does not mention the topic - that is WHY it is
+      unstated. setser_feb_26_20#P1 ("Trade balance = saving - investment") is
+      a hidden assumption carrying no tariff vocabulary at all, yet it is the
+      node that makes the tariff argument work. Pure intersection filtering
+      drops exactly the 12 hidden_assumption nodes that are the most valuable
+      thing in the corpus. Non-negotiable.
+
+  concept_dedup:
+    rule: >
+      Collapse results to the concept layer (scripts/concepts.yaml) before
+      emitting. Return one entry per concept, with every instance attached as a
+      citation, newest first.
+    why: >
+      This, not filtering, is what makes cost flat as the corpus grows. The
+      number of distinct priors a thinker holds saturates while articles
+      accumulate linearly: 43 stated_assumption nodes across 20 articles are
+      perhaps 15 distinct priors. Filtering buys a constant factor; concept
+      dedup buys the asymptote. Currently 9 of 358 nodes carry a concept, so
+      this rule is mostly inert - that is the gap to close next.
+
+  role_buckets_preserved:
+    rule: >
+      Facet filtering narrows the candidate set; it does not change how results
+      are grouped or weighted. Keep the existing LEVELS table in ask.py.
+    why: >
+      The role axis is the finished part of this project. The subject axis is a
+      pre-filter in front of it, not a replacement for it.
+
+  empty_is_an_answer:
+    rule: >
+      When a facet combination matches nothing, say so. Do not widen the query
+      and present the result as if it answered the question.
+    why: >
+      ask.py already has a coverage check guarding exactly this. A topic filter
+      makes the failure mode worse, not better: a narrow query that silently
+      falls back to the whole corpus looks authoritative and is wrong.
+
+  provenance_required:
+    rule: Every returned line keeps its `doc#node_id` and date.
+    why: Non-negotiable property of the existing system; retrieval, not prediction.
+
+# ===========================================================================
+# ADMISSION RULE FOR A QUESTION  (new in version 2, derived)
+#
+# A question may only bind a slot shape the author actually uses. His 20
+# opening questions - every map's L0 node, already annotated - reduce to
+# exactly three shapes:
+#
+#   instrument + variable + where     11 of 20 articles
+#   variable + where                   6 of 20
+#   data_basis + variable + where      3 of 20
+#
+# Version 1 used six shapes. The three extra ones (instrument+sector+where,
+# instrument+sector+variable, instrument+where) were written by us, not
+# derived from him, and they were also the weakest performers - CQ7 had no
+# binding anywhere returning three claims. They are dropped.
+#
+# This matters beyond tidiness: this file GOVERNS facets.yaml, so a question
+# we invented can admit a term the author never needed. Deriving the shapes
+# from his own questions makes the governance non-circular.
+#
+# WHAT IS STILL AUTHORED, AND WHY. The role bucket. 7 of these 10 questions
+# draw on more than one Toulmin family on purpose - "which variable on which
+# data basis does he distrust, and why" needs the critique (warrant), the
+# credibility judgement (backing) and the evidence (grounds) together. A
+# generated set with one family per question scored 22/31 on these same
+# fixtures against 40/47 here, which is the measurement that settled it.
+# Shape and support are derived; purpose is a human choice.
+#
+# DROPPED FROM VERSION 1:
+#   CQ5  shape instrument+sector+where - not attested in his questions
+#   CQ7  shape instrument+sector+variable - not attested in his questions
+#   CQ10  shape instrument+where - not attested in his questions
+# ===========================================================================
+
+shapes_attested:
+  instrument+variable+where: 11   # of his 20 opening questions
+  variable+where: 6   # of his 20 opening questions
+  data_basis+variable+where: 3   # of his 20 opening questions
+
+questions:
+  - id: CQ1
+    question: What does he assume about {variable} in {where}?
+    purpose: >
+      The core move of the whole project - recover the priors and unstated
+      warrants he would bring to a new question. This is what ask.py's first two
+      sections already attempt globally; the facets make it answerable per
+      topic.
+    facets: [variable, where]
+    role_types:
+      [stated_assumption, hidden_assumption, accounting_identity, revised_prior]
+    retrieval: variable ∋ Q AND where_subject ∋ G, then one_hop_expansion, then concept_dedup
+    example:
+      binding: { variable: current-account, country: china }
+      must_return:
+        - setser_2025-07-07_china-stealth-surplus#P2 # customs beats BoP for China's real imbalance
+        - setser_2025-07-07_china-stealth-surplus#P3 # unreplicable official stats deserve less trust
+        - setser_aug_14_24#P1 # BoP surplus should exceed customs
+        - setser_aug_14_24#P2 # customs is ground truth - never argued for
+        - setser_2025-11-12_china-surplus-imf#P1 # surplus stems from a domestic demand shortfall
+        - setser_sep_20_19#P3 # excess saving generates surplus pressure
+      must_not_return:
+        - setser_mar_31_20#P2 # external balance sheet as sort key - EM crisis typology, wrong country
+
+  - id: CQ2
+    question: Through what mechanism does he think {instrument} affects {variable}?
+    purpose: >
+      His signature habit is to name the causal channel before citing a number.
+      This question retrieves the channel inventory for a lever, which is what a
+      reconstruction needs in order to argue the way he argues.
+    facets: [instrument, variable, where]
+    role_types: [mechanism, intermediate_claim]
+    retrieval: instrument ∋ I AND variable ∋ Q, then one_hop_expansion
+    example:
+      binding: { instrument: tariffs, variable: goods-trade-balance, country: us }
+      must_return:
+        - setser_feb_26_20#M1 # tariffs as a consumption tax - backdoor fiscal tightening
+        - setser_feb_26_20#M2 # uncertainty cuts capex
+        - setser_feb_26_20#M3 # lower capex, lower imports
+        - setser_2025-09-12_trump-shock-that-wasnt#M4 # 15% x 0.3-0.4 elasticity = 5-6% import cut
+        - setser_2026-02-03_october-2025-deficit#M2 # inventory drawdown depresses then rebounds
+      must_not_return:
+        - setser_mar_31_20#M2 # swap lines vs BoP shortfall - no tariff instrument
+
+  - id: CQ3
+    question: What evidence has he cited on {variable}, and on which data basis?
+    purpose: >
+      Separates the durable habit of citing a series from the dated number
+      itself, and surfaces which dataset a figure came from - the thing that
+      decides whether two of his numbers actually disagree.
+    facets: [variable, data_basis, where]
+    role_types:
+      [evidence_data, evidence_source, evidence_rival, evidence_discrepancy]
+    retrieval: variable ∋ Q [AND data_basis ∋ B], newest first
+    example:
+      binding: { variable: manufacturing-trade-balance, country: china }
+      must_return:
+        - setser_mar_10_24#E1 # ~2% of world GDP, above peak Japan and Germany
+        - setser_mar_10_24#E4 # 2% of world GDP vs 1.5% reported current account
+        - setser_2025-11-12_china-surplus-imf#E1 # manufactured goods surplus over $2tn
+        - setser_aug_13_19#D6 # surplus ~7% of GDP, non-processing imports ~4%
+        - setser_may_10_19#D6 # manufacturing surplus ~$1tn
+
+  - id: CQ4
+    question: Is this claim about bilateral flows or about a global position?
+    purpose: >
+      The reviewer's own example, and a real distinction in the corpus rather
+      than a topic label: he argues repeatedly that bilateral data misleads
+      about global position. A retrieval system that cannot tell the two apart
+      will cite his bilateral evidence in answer to a global question, which is
+      the error he spends four articles warning against.
+    facets: [where, variable]
+    role_types: [all]
+    retrieval: >
+      bilateral := where_counterpart is not null.
+      global-position := where_counterpart is null AND variable ∋ {global-imbalances,
+      current-account, manufacturing-trade-balance}.
+    example:
+      binding: { shape: bilateral, country_subject: us, country_counterpart: china }
+      must_return:
+        - setser_jun_14_19#P2 # bilateral trade is not total trade
+        - setser_jun_14_19#K # do not equate bilateral trade with aggregate impact
+        - setser_mar_10_24#P1 # bilateral data misleads about global position; rerouting is not displacement
+        - setser_2025-09-12_trump-shock-that-wasnt#M2 # diversion from China to Taiwan and SE Asia
+      must_not_return:
+        - setser_sep_20_19#P1 # global surpluses require matching deficits - aggregate, not bilateral
+      note: >
+        This is the question that most clearly cannot be served by a tag list.
+        "Bilateral" is a shape of the where axis, not a value in it.
+
+  - id: CQ6
+    question: Which {variable} on which {data_basis} does he distrust, and why?
+    purpose: >
+      A large share of the corpus is measurement critique, and the role axis
+      already has evidence_rival, evidence_discrepancy and source_credibility
+      for it. This question makes that machinery addressable: when two series
+      disagree, which one does he take and on what grounds.
+    facets: [data_basis, variable, where]
+    role_types:
+      [
+        source_credibility,
+        evidence_rival,
+        evidence_discrepancy,
+        hidden_assumption,
+        mechanism,
+      ]
+    retrieval: data_basis ∋ B AND variable ∋ Q, role_types as listed
+    example:
+      binding:
+        {
+          variable: current-account,
+          data_basis: balance-of-payments,
+          country: china,
+        }
+      must_return:
+        - setser_aug_14_24#E3 # customs goods series vs BoP goods series
+        - setser_aug_14_24#E4 # gap explodes from 2022; BoP imports exceed customs in 2023
+        - setser_aug_14_24#M1 # factoryless manufacturing booked as exports
+        - setser_aug_14_24#M2 # compilers switched to enterprise reporting in 2022
+        - setser_aug_14_24#SC # methodology changed at a convenient moment, and backdated
+        - setser_2025-07-07_china-stealth-surplus#M1 # 2021 series break plus unexplained income deficit
+        - setser_mar_10_24#E4 # surplus everywhere except in the reported current account
+      note: >
+        Every node here shares one variable and one geography and they disagree
+        about the number. data_basis is the only facet that separates them -
+        which is the argument for that facet existing.
+
+  - id: CQ8
+    question: Where has he changed his mind about {variable}?
+    purpose: >
+      The corpus spans 2017-2026 and he marks his own updates explicitly. A
+      position stated in 2017 and revised in 2025 must not be retrieved as a
+      current belief - and the revision is more informative than either state.
+    facets: [variable, where]
+    role_types: [revised_prior, stated_assumption]
+    retrieval: >
+      revised_prior nodes matching Q, then the earlier stated_assumption nodes
+      they supersede, ordered by date. Needs the `revises` edge type, which
+      schema_map.yaml already declares.
+    example:
+      binding: { variable: any }
+      must_return:
+        - setser_jan_31_20#P3 # "I thought U.S. soy would prove more of a pure commodity"
+        - setser_mar_31_20#P3 # "contrary to a forecast I made with Dr. Roubini back in 2005"
+        - setser_may_5_25#P3 # "the dollar's downturn was still a bit of a surprise"
+      note: >
+        Only 3 revised_prior nodes exist in 358, and the corpus is long enough
+        that this is almost certainly under-coded rather than rare. Treat a thin
+        result here as a coding gap to audit, not as evidence he rarely updates.
+
+  - id: CQ9
+    question: Who does he argue against on {variable}, and what is their position?
+    purpose: >
+      His arguments are positioned against a named consensus. Reconstructing his
+      reasoning without the foil produces something that sounds like him but
+      argues with nobody.
+    facets: [variable, where]
+    role_types: [opposing_view, position_map, other_explanation, counterpoint]
+    retrieval: variable ∋ Q, role_types as listed, newest first
+    example:
+      binding: { variable: current-account, country: china }
+      must_return:
+        - setser_2025-07-07_china-stealth-surplus#X # the IMF and analysts who see the EU as the main imbalance
+        - setser_mar_10_24#X # post-crisis fall means imbalances no longer pressing
+        - setser_2025-11-12_china-surplus-imf#X # the IMF's framing; Europe's surplus is almost as big
+        - setser_aug_14_24#X # analysts reading the post-2021 decline as real
+
+
+  # ---------------------------------------------------------------------
+  # Added in version 2 to close measured coverage gaps: a (shape, intent)
+  # cell with bindings that return >=3 claims across >=2 articles, which no
+  # version 1 question asked for. UNVERIFIED - no hand-checked fixtures yet,
+  # so --eval skips them. They are proposals with evidence, not results.
+  # ---------------------------------------------------------------------
+  - id: CQ11
+    question: What evidence has he cited on {variable} in {where}?
+    status: unverified   # no fixture; see the note above
+    purpose: >
+      The data-basis question (CQ3) only reaches evidence that carries a m
+      easurement regime. 23 bindings return evidence on a variable with no
+       data_basis bound, and no question asked for them.
+    facets: [variable, where]
+    intent: grounds
+    role_types: [evidence_data, evidence_discrepancy, evidence_rival, evidence_source]
+    retrieval: >
+      variable = {variable} AND where = {where}, then role_types, then one_hop_expansion, then concept_dedup
+    derived_from_cell:
+      shape: variable+where
+      intent: grounds
+      bindings_over_threshold: 23
+  - id: CQ12
+    question: Where does he land on {variable} in {where}, and what does he recommend?
+    status: unverified   # no fixture; see the note above
+    purpose: >
+      Conclusions were only reachable through the instrument question (CQ2
+      ) or the dropped CQ10. 16 bindings return a conclusion on a variable
+       alone.
+    facets: [variable, where]
+    intent: claim
+    role_types: [case_type, intermediate_claim, main_claim, policy_reductio, recommendation, reconstruction]
+    retrieval: >
+      variable = {variable} AND where = {where}, then role_types, then one_hop_expansion, then concept_dedup
+    derived_from_cell:
+      shape: variable+where
+      intent: claim
+      bindings_over_threshold: 16
+  - id: CQ13
+    question: What would he concede about {variable} in {where}?
+    status: unverified   # no fixture; see the note above
+    purpose: >
+      CQ7 asked this but bound `sector`, a shape he never uses, so it was 
+      dropped. 6 bindings support the same question on the shape he does u
+      se.
+    facets: [variable, where]
+    intent: qualifier
+    role_types: [caveat, deferred_question, scope_choice]
+    retrieval: >
+      variable = {variable} AND where = {where}, then role_types, then one_hop_expansion, then concept_dedup
+    derived_from_cell:
+      shape: variable+where
+      intent: qualifier
+      bindings_over_threshold: 6
+  - id: CQ14
+    question: What question does he pose about how {instrument} affects {variable} in {where}?
+    status: unverified   # no fixture; see the note above
+    purpose: >
+      His own opening questions are nodes in the graph, and 6 bindings rea
+      ch them on the corpus's most common shape. Nothing asked for them - 
+      which is how the derivation of this question set was possible at all
+      .
+    facets: [instrument, variable, where]
+    intent: framing
+    role_types: [deferred_question, position_map, question]
+    retrieval: >
+      instrument = {instrument} AND variable = {variable} AND where = {where}, then role_types, then one_hop_expansion, then concept_dedup
+    derived_from_cell:
+      shape: instrument+variable+where
+      intent: framing
+      bindings_over_threshold: 6

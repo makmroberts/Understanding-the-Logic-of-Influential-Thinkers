@@ -1,0 +1,405 @@
+{
+ "nodes": [
+  {
+   "nodeID": "212",
+   "text": "Emerging economies face the same shocks — do they need the same response?",
+   "type": "I",
+   "role": "question",
+   "toulmin": "framing",
+   "oper": "framing",
+   "localID": "setser_mar_31_20#Q"
+  },
+  {
+   "nodeID": "213",
+   "text": "Shocks can offset one another; swap lines fund dollar balance sheets, not balance-of-payments gaps",
+   "type": "I",
+   "role": "stated_assumption",
+   "toulmin": "warrant",
+   "oper": "warrant.prior",
+   "localID": "setser_mar_31_20#P1"
+  },
+  {
+   "nodeID": "214",
+   "text": "The external balance sheet is the right thing to sort countries by",
+   "type": "I",
+   "role": "hidden_assumption",
+   "toulmin": "warrant",
+   "oper": "warrant.prior",
+   "localID": "setser_mar_31_20#P2"
+  },
+  {
+   "nodeID": "215",
+   "text": "\"contrary to a forecast that I made with Dr. Roubini back in 2005\" — private credit intermediation broke down before central banks lost their appetite for intervention",
+   "type": "I",
+   "role": "revised_prior",
+   "toulmin": "revision",
+   "oper": "revision",
+   "localID": "setser_mar_31_20#P3"
+  },
+  {
+   "nodeID": "216",
+   "text": "Brent under $25, below almost every exporter's breakeven; Saudi reserves ~$500bn; GCC sovereign funds over $1tn; copper at multiyear lows",
+   "type": "I",
+   "role": "evidence_data",
+   "toulmin": "grounds",
+   "oper": "grounds",
+   "localID": "setser_mar_31_20#E1"
+  },
+  {
+   "nodeID": "217",
+   "text": "Truman on IMF lending capacity; Landers, Lee and Morris on callable capital; Hagan and Buchheit on maturity extension; Carstens and the BIS on trade finance",
+   "type": "I",
+   "role": "evidence_source",
+   "toulmin": "grounds",
+   "oper": "grounds",
+   "localID": "setser_mar_31_20#E2"
+  },
+  {
+   "nodeID": "218",
+   "text": "The same four shocks land very differently depending on the external balance sheet",
+   "type": "I",
+   "role": "mechanism",
+   "toulmin": "warrant",
+   "oper": "warrant.mechanism",
+   "localID": "setser_mar_31_20#M1"
+  },
+  {
+   "nodeID": "219",
+   "text": "Swap lines solve dollar funding, but were never designed to cover a balance-of-payments shortfall",
+   "type": "I",
+   "role": "mechanism",
+   "toulmin": "warrant",
+   "oper": "warrant.mechanism",
+   "localID": "setser_mar_31_20#M2"
+  },
+  {
+   "nodeID": "220",
+   "text": "Countries with strong external balance sheets can weather this themselves if they act decisively",
+   "type": "I",
+   "role": "intermediate_claim",
+   "toulmin": "claim",
+   "oper": "claim.step",
+   "localID": "setser_mar_31_20#C1"
+  },
+  {
+   "nodeID": "221",
+   "text": "Three types — reserve-rich commodity exporters, Asian surplus creditors, weak external balance sheets — and the last splits again into trade finance and balance-of-payments need",
+   "type": "I",
+   "role": "case_type",
+   "toulmin": "claim",
+   "oper": "claim.step",
+   "localID": "setser_mar_31_20#C2"
+  },
+  {
+   "nodeID": "222",
+   "text": "\"Different problems require different solutions\" — when private capital retreats, the official sector must advance",
+   "type": "I",
+   "role": "main_claim",
+   "toulmin": "claim",
+   "oper": "claim.final",
+   "localID": "setser_mar_31_20#K"
+  },
+  {
+   "nodeID": "223",
+   "text": "Draw down buffers; central bank backstop plus swap lines; mobilise trade finance; SDR allocation, larger IMF capacity, MDB callable capital, payment deferral",
+   "type": "I",
+   "role": "recommendation",
+   "toulmin": "claim",
+   "oper": "claim.final",
+   "localID": "setser_mar_31_20#REC"
+  },
+  {
+   "nodeID": "224",
+   "text": "Private creditors would rather be paid — \"this will take goodwill\"",
+   "type": "I",
+   "role": "opposing_view",
+   "toulmin": "rebuttal",
+   "oper": "rebuttal",
+   "localID": "setser_mar_31_20#X"
+  },
+  {
+   "nodeID": "225",
+   "text": "SDRs are allocated by quota rather than need, so they are insufficient alone; MDB capital would need legislation",
+   "type": "I",
+   "role": "caveat",
+   "toulmin": "qualifier",
+   "oper": "qualifier",
+   "localID": "setser_mar_31_20#QF"
+  },
+  {
+   "nodeID": "1218",
+   "text": "revises",
+   "type": "CA",
+   "scheme": "revises",
+   "relation_source": "label",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "1221",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "label",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "1224",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "label",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "1227",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "label",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "1230",
+   "text": "licenses",
+   "type": "RA",
+   "scheme": "licenses",
+   "relation_source": "label",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "1233",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "label",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "1236",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "label",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "1239",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "label",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "1242",
+   "text": "licenses",
+   "type": "RA",
+   "scheme": "licenses",
+   "relation_source": "label",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "1245",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "label",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "1248",
+   "text": "supports",
+   "type": "RA",
+   "scheme": "supports",
+   "relation_source": "label",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "1251",
+   "text": "motivates",
+   "type": "RA",
+   "scheme": "motivates",
+   "relation_source": "label",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "1254",
+   "text": "rebuts",
+   "type": "CA",
+   "scheme": "rebuts",
+   "relation_source": "label",
+   "relation_level": "",
+   "relation_purity": ""
+  },
+  {
+   "nodeID": "1257",
+   "text": "qualified_by",
+   "type": "CA",
+   "scheme": "qualified_by",
+   "relation_source": "label",
+   "relation_level": "",
+   "relation_purity": ""
+  }
+ ],
+ "edges": [
+  {
+   "edgeID": "1219",
+   "fromID": "215",
+   "toID": "1218"
+  },
+  {
+   "edgeID": "1220",
+   "fromID": "1218",
+   "toID": "213"
+  },
+  {
+   "edgeID": "1222",
+   "fromID": "213",
+   "toID": "1221"
+  },
+  {
+   "edgeID": "1223",
+   "fromID": "1221",
+   "toID": "218"
+  },
+  {
+   "edgeID": "1225",
+   "fromID": "216",
+   "toID": "1224"
+  },
+  {
+   "edgeID": "1226",
+   "fromID": "1224",
+   "toID": "218"
+  },
+  {
+   "edgeID": "1228",
+   "fromID": "218",
+   "toID": "1227"
+  },
+  {
+   "edgeID": "1229",
+   "fromID": "1227",
+   "toID": "220"
+  },
+  {
+   "edgeID": "1231",
+   "fromID": "214",
+   "toID": "1230"
+  },
+  {
+   "edgeID": "1232",
+   "fromID": "1230",
+   "toID": "221"
+  },
+  {
+   "edgeID": "1234",
+   "fromID": "218",
+   "toID": "1233"
+  },
+  {
+   "edgeID": "1235",
+   "fromID": "1233",
+   "toID": "221"
+  },
+  {
+   "edgeID": "1237",
+   "fromID": "220",
+   "toID": "1236"
+  },
+  {
+   "edgeID": "1238",
+   "fromID": "1236",
+   "toID": "222"
+  },
+  {
+   "edgeID": "1240",
+   "fromID": "221",
+   "toID": "1239"
+  },
+  {
+   "edgeID": "1241",
+   "fromID": "1239",
+   "toID": "222"
+  },
+  {
+   "edgeID": "1243",
+   "fromID": "219",
+   "toID": "1242"
+  },
+  {
+   "edgeID": "1244",
+   "fromID": "1242",
+   "toID": "223"
+  },
+  {
+   "edgeID": "1246",
+   "fromID": "217",
+   "toID": "1245"
+  },
+  {
+   "edgeID": "1247",
+   "fromID": "1245",
+   "toID": "223"
+  },
+  {
+   "edgeID": "1249",
+   "fromID": "221",
+   "toID": "1248"
+  },
+  {
+   "edgeID": "1250",
+   "fromID": "1248",
+   "toID": "223"
+  },
+  {
+   "edgeID": "1252",
+   "fromID": "222",
+   "toID": "1251"
+  },
+  {
+   "edgeID": "1253",
+   "fromID": "1251",
+   "toID": "223"
+  },
+  {
+   "edgeID": "1255",
+   "fromID": "222",
+   "toID": "1254"
+  },
+  {
+   "edgeID": "1256",
+   "fromID": "1254",
+   "toID": "224"
+  },
+  {
+   "edgeID": "1258",
+   "fromID": "223",
+   "toID": "1257"
+  },
+  {
+   "edgeID": "1259",
+   "fromID": "1257",
+   "toID": "225"
+  }
+ ],
+ "locutions": [],
+ "source": {
+  "doc": "setser_mar_31_20",
+  "title": "Not One Emerging Market Financial Crisis, but Many",
+  "date": "2020-03-31",
+  "url": "https://www.cfr.org/articles/not-one-emerging-market-financial-crisis-many"
+ }
+}

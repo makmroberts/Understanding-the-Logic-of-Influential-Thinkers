@@ -1,0 +1,516 @@
+{
+ "nodes": [
+  {
+   "id": "setser_aug_13_19-Q",
+   "type": "file",
+   "file": "claims/question/Why do the U.S., Europe, and China now occupy such different positions in manufacturing trade.md",
+   "x": -260,
+   "y": 0,
+   "width": 520,
+   "height": 300,
+   "color": "#7A6FA8"
+  },
+  {
+   "id": "setser_aug_13_19-P1",
+   "type": "file",
+   "file": "claims/stated_assumption/Trade shares reveal production structure.md",
+   "x": -840,
+   "y": 480,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "setser_aug_13_19-P2",
+   "type": "file",
+   "file": "claims/stated_assumption/Manufacturing balances reflect where production occurs.md",
+   "x": -260,
+   "y": 480,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "setser_aug_13_19-P3",
+   "type": "file",
+   "file": "claims/stated_assumption/Persistent deficits require financing.md",
+   "x": 320,
+   "y": 480,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "setser_aug_13_19-D1",
+   "type": "file",
+   "file": "claims/evidence_data/U.S. manufacturing exports are unusually low.md",
+   "x": -1710,
+   "y": 960,
+   "width": 520,
+   "height": 300,
+   "color": "#2F7FBF"
+  },
+  {
+   "id": "setser_aug_13_19-D2",
+   "type": "file",
+   "file": "claims/evidence_data/Manufacturing imports are similar.md",
+   "x": -1130,
+   "y": 960,
+   "width": 520,
+   "height": 300,
+   "color": "#2F7FBF"
+  },
+  {
+   "id": "setser_aug_13_19-D3",
+   "type": "file",
+   "file": "claims/evidence_data/Mirror-image manufacturing balances.md",
+   "x": -550,
+   "y": 960,
+   "width": 520,
+   "height": 300,
+   "color": "#2F7FBF"
+  },
+  {
+   "id": "setser_aug_13_19-D4",
+   "type": "file",
+   "file": "claims/evidence_data/Offshore profits exceed the service-export story.md",
+   "x": 30,
+   "y": 960,
+   "width": 520,
+   "height": 300,
+   "color": "#2F7FBF"
+  },
+  {
+   "id": "setser_aug_13_19-D5",
+   "type": "file",
+   "file": "claims/evidence_data/Europe is highly export dependent.md",
+   "x": 610,
+   "y": 960,
+   "width": 520,
+   "height": 300,
+   "color": "#2F7FBF"
+  },
+  {
+   "id": "setser_aug_13_19-D6",
+   "type": "file",
+   "file": "claims/evidence_data/China's manufacturing trade is highly unbalanced.md",
+   "x": 1190,
+   "y": 960,
+   "width": 520,
+   "height": 300,
+   "color": "#2F7FBF"
+  },
+  {
+   "id": "setser_aug_13_19-M1",
+   "type": "file",
+   "file": "claims/mechanism/Offshoring weakens domestic exports.md",
+   "x": -1130,
+   "y": 1440,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "setser_aug_13_19-M2",
+   "type": "file",
+   "file": "claims/mechanism/Offshore profits finance goods deficits.md",
+   "x": -550,
+   "y": 1440,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "setser_aug_13_19-M3",
+   "type": "file",
+   "file": "claims/mechanism/Export dependence transmits global weakness.md",
+   "x": 30,
+   "y": 1440,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "setser_aug_13_19-M4",
+   "type": "file",
+   "file": "claims/mechanism/Low imports + high exports generate surplus.md",
+   "x": 610,
+   "y": 1440,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "setser_aug_13_19-C1",
+   "type": "file",
+   "file": "claims/intermediate_claim/The U.S.-Europe gap is mainly an export gap.md",
+   "x": -1130,
+   "y": 1920,
+   "width": 520,
+   "height": 300,
+   "color": "#2FBF9B"
+  },
+  {
+   "id": "setser_aug_13_19-C2",
+   "type": "file",
+   "file": "claims/intermediate_claim/U.S. globalization favored offshore profits.md",
+   "x": -550,
+   "y": 1920,
+   "width": 520,
+   "height": 300,
+   "color": "#2FBF9B"
+  },
+  {
+   "id": "setser_aug_13_19-C3",
+   "type": "file",
+   "file": "claims/intermediate_claim/Europe's strength creates cyclical exposure.md",
+   "x": 30,
+   "y": 1920,
+   "width": 520,
+   "height": 300,
+   "color": "#2FBF9B"
+  },
+  {
+   "id": "setser_aug_13_19-C4",
+   "type": "file",
+   "file": "claims/intermediate_claim/China's manufacturing model is unusually one-sided.md",
+   "x": 610,
+   "y": 1920,
+   "width": 520,
+   "height": 300,
+   "color": "#2FBF9B"
+  },
+  {
+   "id": "setser_aug_13_19-K1",
+   "type": "file",
+   "file": "claims/main_claim/The U.S. may need to rebuild a stronger manufacturing base rather than finance imports indefinitely.md",
+   "x": -550,
+   "y": 2400,
+   "width": 520,
+   "height": 300,
+   "color": "#2FBF9B"
+  },
+  {
+   "id": "setser_aug_13_19-K2",
+   "type": "file",
+   "file": "claims/main_claim/Europe and China remain far more manufacturing-oriented, but with very different import structures.md",
+   "x": 30,
+   "y": 2400,
+   "width": 520,
+   "height": 300,
+   "color": "#2FBF9B"
+  },
+  {
+   "id": "setser_aug_13_19-QF",
+   "type": "file",
+   "file": "claims/caveat/Processing trade makes Europe-China comparisons imperfect.md",
+   "x": -1130,
+   "y": 2880,
+   "width": 520,
+   "height": 300,
+   "color": "#9A8C6A"
+  },
+  {
+   "id": "setser_aug_13_19-R1",
+   "type": "file",
+   "file": "claims/other_explanation/The shale boom reduces the need to export manufactures to pay for oil.md",
+   "x": -550,
+   "y": 2880,
+   "width": 520,
+   "height": 300,
+   "color": "#8A8A8A"
+  },
+  {
+   "id": "setser_aug_13_19-R2",
+   "type": "file",
+   "file": "claims/caveat/Short-run tradeoff.md",
+   "x": 30,
+   "y": 2880,
+   "width": 520,
+   "height": 300,
+   "color": "#9A8C6A"
+  },
+  {
+   "id": "setser_aug_13_19-X",
+   "type": "file",
+   "file": "claims/other_explanation/Some attribute the U.S. goods deficit to comparative advantage in services.md",
+   "x": 610,
+   "y": 2880,
+   "width": 520,
+   "height": 300,
+   "color": "#8A8A8A"
+  }
+ ],
+ "edges": [
+  {
+   "id": "P2-M1",
+   "fromNode": "setser_aug_13_19-P2",
+   "fromSide": "bottom",
+   "toNode": "setser_aug_13_19-M1",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "D1-M1",
+   "fromNode": "setser_aug_13_19-D1",
+   "fromSide": "bottom",
+   "toNode": "setser_aug_13_19-M1",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "M1-C1",
+   "fromNode": "setser_aug_13_19-M1",
+   "fromSide": "bottom",
+   "toNode": "setser_aug_13_19-C1",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "D2-C1",
+   "fromNode": "setser_aug_13_19-D2",
+   "fromSide": "bottom",
+   "toNode": "setser_aug_13_19-C1",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "D3-C1",
+   "fromNode": "setser_aug_13_19-D3",
+   "fromSide": "bottom",
+   "toNode": "setser_aug_13_19-C1",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "P3-M2",
+   "fromNode": "setser_aug_13_19-P3",
+   "fromSide": "bottom",
+   "toNode": "setser_aug_13_19-M2",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "D4-M2",
+   "fromNode": "setser_aug_13_19-D4",
+   "fromSide": "bottom",
+   "toNode": "setser_aug_13_19-M2",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "M2-C2",
+   "fromNode": "setser_aug_13_19-M2",
+   "fromSide": "bottom",
+   "toNode": "setser_aug_13_19-C2",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "D5-M3",
+   "fromNode": "setser_aug_13_19-D5",
+   "fromSide": "bottom",
+   "toNode": "setser_aug_13_19-M3",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "M3-C3",
+   "fromNode": "setser_aug_13_19-M3",
+   "fromSide": "bottom",
+   "toNode": "setser_aug_13_19-C3",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "P1-M4",
+   "fromNode": "setser_aug_13_19-P1",
+   "fromSide": "bottom",
+   "toNode": "setser_aug_13_19-M4",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "D6-M4",
+   "fromNode": "setser_aug_13_19-D6",
+   "fromSide": "bottom",
+   "toNode": "setser_aug_13_19-M4",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "M4-C4",
+   "fromNode": "setser_aug_13_19-M4",
+   "fromSide": "bottom",
+   "toNode": "setser_aug_13_19-C4",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "C1-K1",
+   "fromNode": "setser_aug_13_19-C1",
+   "fromSide": "bottom",
+   "toNode": "setser_aug_13_19-K1",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "C3-K2",
+   "fromNode": "setser_aug_13_19-C3",
+   "fromSide": "bottom",
+   "toNode": "setser_aug_13_19-K2",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "C4-K2",
+   "fromNode": "setser_aug_13_19-C4",
+   "fromSide": "bottom",
+   "toNode": "setser_aug_13_19-K2",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "C2-X",
+   "fromNode": "setser_aug_13_19-C2",
+   "fromSide": "bottom",
+   "toNode": "setser_aug_13_19-X",
+   "toSide": "top",
+   "label": "-1 rebuts",
+   "color": "1"
+  },
+  {
+   "id": "C1-R1",
+   "fromNode": "setser_aug_13_19-C1",
+   "fromSide": "bottom",
+   "toNode": "setser_aug_13_19-R1",
+   "toSide": "top",
+   "label": "-1 undercut_by",
+   "color": "1"
+  },
+  {
+   "id": "C4-QF",
+   "fromNode": "setser_aug_13_19-C4",
+   "fromSide": "bottom",
+   "toNode": "setser_aug_13_19-QF",
+   "toSide": "top",
+   "label": "-1 qualified_by",
+   "color": "1"
+  },
+  {
+   "id": "C3-R2",
+   "fromNode": "setser_aug_13_19-C3",
+   "fromSide": "bottom",
+   "toNode": "setser_aug_13_19-R2",
+   "toSide": "top",
+   "label": "-1 qualified_by",
+   "color": "1"
+  },
+  {
+   "id": "C2-K1",
+   "fromNode": "setser_aug_13_19-C2",
+   "fromSide": "bottom",
+   "toNode": "setser_aug_13_19-K1",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "Q-P1",
+   "fromNode": "setser_aug_13_19-Q",
+   "fromSide": "bottom",
+   "toNode": "setser_aug_13_19-P1",
+   "toSide": "top",
+   "label": "0 frames ~",
+   "color": "6"
+  },
+  {
+   "id": "Q-P2",
+   "fromNode": "setser_aug_13_19-Q",
+   "fromSide": "bottom",
+   "toNode": "setser_aug_13_19-P2",
+   "toSide": "top",
+   "label": "0 frames ~",
+   "color": "6"
+  },
+  {
+   "id": "Q-P3",
+   "fromNode": "setser_aug_13_19-Q",
+   "fromSide": "bottom",
+   "toNode": "setser_aug_13_19-P3",
+   "toSide": "top",
+   "label": "0 frames ~",
+   "color": "6"
+  },
+  {
+   "id": "P1-D1",
+   "fromNode": "setser_aug_13_19-P1",
+   "fromSide": "bottom",
+   "toNode": "setser_aug_13_19-D1",
+   "toSide": "top",
+   "label": "0 frames ~",
+   "color": "6"
+  },
+  {
+   "id": "P1-D2",
+   "fromNode": "setser_aug_13_19-P1",
+   "fromSide": "bottom",
+   "toNode": "setser_aug_13_19-D2",
+   "toSide": "top",
+   "label": "0 frames ~",
+   "color": "6"
+  },
+  {
+   "id": "P2-D3",
+   "fromNode": "setser_aug_13_19-P2",
+   "fromSide": "bottom",
+   "toNode": "setser_aug_13_19-D3",
+   "toSide": "top",
+   "label": "0 frames ~",
+   "color": "6"
+  },
+  {
+   "id": "P2-D4",
+   "fromNode": "setser_aug_13_19-P2",
+   "fromSide": "bottom",
+   "toNode": "setser_aug_13_19-D4",
+   "toSide": "top",
+   "label": "0 frames ~",
+   "color": "6"
+  },
+  {
+   "id": "P3-D5",
+   "fromNode": "setser_aug_13_19-P3",
+   "fromSide": "bottom",
+   "toNode": "setser_aug_13_19-D5",
+   "toSide": "top",
+   "label": "0 frames ~",
+   "color": "6"
+  },
+  {
+   "id": "P3-D6",
+   "fromNode": "setser_aug_13_19-P3",
+   "fromSide": "bottom",
+   "toNode": "setser_aug_13_19-D6",
+   "toSide": "top",
+   "label": "0 frames ~",
+   "color": "6"
+  }
+ ]
+}

@@ -1,0 +1,317 @@
+{
+ "nodes": [
+  {
+   "id": "setser_2025-11-12_china-surplus-imf-Q",
+   "type": "file",
+   "file": "claims/question/How big is China's surplus really, why does the IMF miss it, and what policy should follow.md",
+   "x": -260,
+   "y": 0,
+   "width": 520,
+   "height": 300,
+   "color": "#7A6FA8"
+  },
+  {
+   "id": "setser_2025-11-12_china-surplus-imf-P1",
+   "type": "file",
+   "file": "claims/stated_assumption/The surplus stems from a shortfall in China's domestic demand (European Central Bank view).md",
+   "x": -840,
+   "y": 480,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "setser_2025-11-12_china-surplus-imf-P2",
+   "type": "file",
+   "file": "claims/stated_assumption/Deflation combined with a rising trade surplus calls for sustained fiscal expansion, not monetary easing.md",
+   "x": -260,
+   "y": 480,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "setser_2025-11-12_china-surplus-imf-P3",
+   "type": "file",
+   "file": "claims/hidden_assumption/External balance is a legitimate policy target; exporting your way out of a slump imposes costs on other countries.md",
+   "x": 320,
+   "y": 480,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "setser_2025-11-12_china-surplus-imf-E1",
+   "type": "file",
+   "file": "claims/evidence_data/Export volumes up 40 percent since end-2019 versus imports up 1 percent; manufactured goods surplus over $2 trillion.md",
+   "x": -550,
+   "y": 960,
+   "width": 520,
+   "height": 300,
+   "color": "#2F7FBF"
+  },
+  {
+   "id": "setser_2025-11-12_china-surplus-imf-E2",
+   "type": "file",
+   "file": "claims/evidence_source/IMF External Sector Report 2025, October World Economic Outlook and 2024 Article IV report; European Central Bank.md",
+   "x": 30,
+   "y": 960,
+   "width": 520,
+   "height": 300,
+   "color": "#2F7FBF"
+  },
+  {
+   "id": "setser_2025-11-12_china-surplus-imf-M1",
+   "type": "file",
+   "file": "claims/mechanism/Demand shortfall.md",
+   "x": -840,
+   "y": 1440,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "setser_2025-11-12_china-surplus-imf-M2",
+   "type": "file",
+   "file": "claims/mechanism/Mismeasurement.md",
+   "x": -260,
+   "y": 1440,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "setser_2025-11-12_china-surplus-imf-M3",
+   "type": "file",
+   "file": "claims/mechanism/IMF lens.md",
+   "x": 320,
+   "y": 1440,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "setser_2025-11-12_china-surplus-imf-C1",
+   "type": "file",
+   "file": "claims/intermediate_claim/China's surplus is massive and growing, yet IMF policy advice effectively lets China export its way out of its housing.md",
+   "x": -260,
+   "y": 1920,
+   "width": 520,
+   "height": 300,
+   "color": "#2FBF9B"
+  },
+  {
+   "id": "setser_2025-11-12_china-surplus-imf-K",
+   "type": "file",
+   "file": "claims/main_claim/The IMF should recognize China's external imbalance and call for a fiscal expansion funded by the central government.md",
+   "x": -260,
+   "y": 2400,
+   "width": 520,
+   "height": 300,
+   "color": "#2FBF9B"
+  },
+  {
+   "id": "setser_2025-11-12_china-surplus-imf-QF",
+   "type": "file",
+   "file": "claims/caveat/China's GDP data are too thin to confirm the net export math; the IMF does support pro-consumption structural reforms.md",
+   "x": -840,
+   "y": 2880,
+   "width": 520,
+   "height": 300,
+   "color": "#9A8C6A"
+  },
+  {
+   "id": "setser_2025-11-12_china-surplus-imf-R1",
+   "type": "file",
+   "file": "claims/other_explanation/Ireland distorts European data; IMF forecast misses come from ignoring lagged exchange rate effects and treating.md",
+   "x": -260,
+   "y": 2880,
+   "width": 520,
+   "height": 300,
+   "color": "#8A8A8A"
+  },
+  {
+   "id": "setser_2025-11-12_china-surplus-imf-X",
+   "type": "file",
+   "file": "claims/opposing_view/The IMF's framing; the argument that Europe's surplus is almost as big.md",
+   "x": 320,
+   "y": 2880,
+   "width": 520,
+   "height": 300,
+   "color": "#8A8A8A"
+  }
+ ],
+ "edges": [
+  {
+   "id": "P1-M1",
+   "fromNode": "setser_2025-11-12_china-surplus-imf-P1",
+   "fromSide": "bottom",
+   "toNode": "setser_2025-11-12_china-surplus-imf-M1",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "E1-M1",
+   "fromNode": "setser_2025-11-12_china-surplus-imf-E1",
+   "fromSide": "bottom",
+   "toNode": "setser_2025-11-12_china-surplus-imf-M1",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "E1-M2",
+   "fromNode": "setser_2025-11-12_china-surplus-imf-E1",
+   "fromSide": "bottom",
+   "toNode": "setser_2025-11-12_china-surplus-imf-M2",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "E2-M2",
+   "fromNode": "setser_2025-11-12_china-surplus-imf-E2",
+   "fromSide": "bottom",
+   "toNode": "setser_2025-11-12_china-surplus-imf-M2",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "E2-M3",
+   "fromNode": "setser_2025-11-12_china-surplus-imf-E2",
+   "fromSide": "bottom",
+   "toNode": "setser_2025-11-12_china-surplus-imf-M3",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "M2-M3",
+   "fromNode": "setser_2025-11-12_china-surplus-imf-M2",
+   "fromSide": "bottom",
+   "toNode": "setser_2025-11-12_china-surplus-imf-M3",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "M1-C1",
+   "fromNode": "setser_2025-11-12_china-surplus-imf-M1",
+   "fromSide": "bottom",
+   "toNode": "setser_2025-11-12_china-surplus-imf-C1",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "M3-C1",
+   "fromNode": "setser_2025-11-12_china-surplus-imf-M3",
+   "fromSide": "bottom",
+   "toNode": "setser_2025-11-12_china-surplus-imf-C1",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "P2-K",
+   "fromNode": "setser_2025-11-12_china-surplus-imf-P2",
+   "fromSide": "bottom",
+   "toNode": "setser_2025-11-12_china-surplus-imf-K",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "P3-C1",
+   "fromNode": "setser_2025-11-12_china-surplus-imf-P3",
+   "fromSide": "bottom",
+   "toNode": "setser_2025-11-12_china-surplus-imf-C1",
+   "toSide": "top",
+   "label": "+1 licenses",
+   "color": "4"
+  },
+  {
+   "id": "C1-K",
+   "fromNode": "setser_2025-11-12_china-surplus-imf-C1",
+   "fromSide": "bottom",
+   "toNode": "setser_2025-11-12_china-surplus-imf-K",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "K-X",
+   "fromNode": "setser_2025-11-12_china-surplus-imf-K",
+   "fromSide": "bottom",
+   "toNode": "setser_2025-11-12_china-surplus-imf-X",
+   "toSide": "top",
+   "label": "-1 rebuts",
+   "color": "1"
+  },
+  {
+   "id": "K-QF",
+   "fromNode": "setser_2025-11-12_china-surplus-imf-K",
+   "fromSide": "bottom",
+   "toNode": "setser_2025-11-12_china-surplus-imf-QF",
+   "toSide": "top",
+   "label": "-1 qualified_by",
+   "color": "1"
+  },
+  {
+   "id": "M3-R1",
+   "fromNode": "setser_2025-11-12_china-surplus-imf-M3",
+   "fromSide": "bottom",
+   "toNode": "setser_2025-11-12_china-surplus-imf-R1",
+   "toSide": "top",
+   "label": "-1 undercut_by",
+   "color": "1"
+  },
+  {
+   "id": "Q-P1",
+   "fromNode": "setser_2025-11-12_china-surplus-imf-Q",
+   "fromSide": "bottom",
+   "toNode": "setser_2025-11-12_china-surplus-imf-P1",
+   "toSide": "top",
+   "label": "0 frames ~",
+   "color": "6"
+  },
+  {
+   "id": "Q-P2",
+   "fromNode": "setser_2025-11-12_china-surplus-imf-Q",
+   "fromSide": "bottom",
+   "toNode": "setser_2025-11-12_china-surplus-imf-P2",
+   "toSide": "top",
+   "label": "0 frames ~",
+   "color": "6"
+  },
+  {
+   "id": "Q-P3",
+   "fromNode": "setser_2025-11-12_china-surplus-imf-Q",
+   "fromSide": "bottom",
+   "toNode": "setser_2025-11-12_china-surplus-imf-P3",
+   "toSide": "top",
+   "label": "0 frames ~",
+   "color": "6"
+  },
+  {
+   "id": "P1-E1",
+   "fromNode": "setser_2025-11-12_china-surplus-imf-P1",
+   "fromSide": "bottom",
+   "toNode": "setser_2025-11-12_china-surplus-imf-E1",
+   "toSide": "top",
+   "label": "0 frames ~",
+   "color": "6"
+  },
+  {
+   "id": "P3-E2",
+   "fromNode": "setser_2025-11-12_china-surplus-imf-P3",
+   "fromSide": "bottom",
+   "toNode": "setser_2025-11-12_china-surplus-imf-E2",
+   "toSide": "top",
+   "label": "0 frames ~",
+   "color": "6"
+  }
+ ]
+}

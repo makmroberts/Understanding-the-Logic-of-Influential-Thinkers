@@ -1,0 +1,345 @@
+{
+ "nodes": [
+  {
+   "id": "setser_2025-09-12_trump-shock-that-wasnt-Q",
+   "type": "file",
+   "file": "claims/question/Have Trump's tariffs actually shocked trade flows and the global economy.md",
+   "x": -260,
+   "y": 0,
+   "width": 520,
+   "height": 300,
+   "color": "#7A6FA8"
+  },
+  {
+   "id": "setser_2025-09-12_trump-shock-that-wasnt-P1",
+   "type": "file",
+   "file": "claims/stated_assumption/A global tariff works like an exchange rate move import elasticity of about 0.3 to 0.4, not the bilateral elasticity.md",
+   "x": -840,
+   "y": 480,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "setser_2025-09-12_trump-shock-that-wasnt-P2",
+   "type": "file",
+   "file": "claims/stated_assumption/Record tariff revenue means Americans keep importing and paying the tariff.md",
+   "x": -260,
+   "y": 480,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "setser_2025-09-12_trump-shock-that-wasnt-P3",
+   "type": "file",
+   "file": "claims/hidden_assumption/Tax- and finance-driven flows (pharmaceuticals, gold) are noise; core trade is the real signal.md",
+   "x": 320,
+   "y": 480,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "setser_2025-09-12_trump-shock-that-wasnt-E1",
+   "type": "file",
+   "file": "claims/evidence_data/Annualized trade deficit peaked at $2 trillion in March, fell to $1 trillion, then rebounded to $1.2 trillion in July.md",
+   "x": -550,
+   "y": 960,
+   "width": 520,
+   "height": 300,
+   "color": "#2F7FBF"
+  },
+  {
+   "id": "setser_2025-09-12_trump-shock-that-wasnt-E2",
+   "type": "file",
+   "file": "claims/evidence_source/New York Times reporting; U.S. trade data; federal court ruling on tariff authority.md",
+   "x": 30,
+   "y": 960,
+   "width": 520,
+   "height": 300,
+   "color": "#2F7FBF"
+  },
+  {
+   "id": "setser_2025-09-12_trump-shock-that-wasnt-M1",
+   "type": "file",
+   "file": "claims/mechanism/Front-running.md",
+   "x": -1130,
+   "y": 1440,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "setser_2025-09-12_trump-shock-that-wasnt-M2",
+   "type": "file",
+   "file": "claims/mechanism/Trade diversion.md",
+   "x": -550,
+   "y": 1440,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "setser_2025-09-12_trump-shock-that-wasnt-M3",
+   "type": "file",
+   "file": "claims/mechanism/Artificial intelligence investment.md",
+   "x": 30,
+   "y": 1440,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "setser_2025-09-12_trump-shock-that-wasnt-M4",
+   "type": "file",
+   "file": "claims/mechanism/Elasticity math.md",
+   "x": 610,
+   "y": 1440,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "setser_2025-09-12_trump-shock-that-wasnt-C1",
+   "type": "file",
+   "file": "claims/intermediate_claim/Excluding pharmaceuticals and gold, U.S. imports are roughly on trend; the shock to trade rules far exceeds the shock.md",
+   "x": -260,
+   "y": 1920,
+   "width": 520,
+   "height": 300,
+   "color": "#2FBF9B"
+  },
+  {
+   "id": "setser_2025-09-12_trump-shock-that-wasnt-K",
+   "type": "file",
+   "file": "claims/main_claim/The Trump shock to trade flows has not happened yet, though a modest impact should appear.md",
+   "x": -260,
+   "y": 2400,
+   "width": 520,
+   "height": 300,
+   "color": "#2FBF9B"
+  },
+  {
+   "id": "setser_2025-09-12_trump-shock-that-wasnt-QF",
+   "type": "file",
+   "file": "claims/caveat/August deals doubled tariffs on Southeast Asia relative to April; fall data may show more impact; the tariffs' legality.md",
+   "x": -840,
+   "y": 2880,
+   "width": 520,
+   "height": 300,
+   "color": "#9A8C6A"
+  },
+  {
+   "id": "setser_2025-09-12_trump-shock-that-wasnt-R1",
+   "type": "file",
+   "file": "claims/other_explanation/Waiting for tariff relief (autos) replaces front-running; other exporters can take U.S. market share abroad.md",
+   "x": -260,
+   "y": 2880,
+   "width": 520,
+   "height": 300,
+   "color": "#8A8A8A"
+  },
+  {
+   "id": "setser_2025-09-12_trump-shock-that-wasnt-X",
+   "type": "file",
+   "file": "claims/opposing_view/Reading headline volatility as tariffs crushing trade.md",
+   "x": 320,
+   "y": 2880,
+   "width": 520,
+   "height": 300,
+   "color": "#8A8A8A"
+  }
+ ],
+ "edges": [
+  {
+   "id": "P3-M1",
+   "fromNode": "setser_2025-09-12_trump-shock-that-wasnt-P3",
+   "fromSide": "bottom",
+   "toNode": "setser_2025-09-12_trump-shock-that-wasnt-M1",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "E1-M1",
+   "fromNode": "setser_2025-09-12_trump-shock-that-wasnt-E1",
+   "fromSide": "bottom",
+   "toNode": "setser_2025-09-12_trump-shock-that-wasnt-M1",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "E1-M2",
+   "fromNode": "setser_2025-09-12_trump-shock-that-wasnt-E1",
+   "fromSide": "bottom",
+   "toNode": "setser_2025-09-12_trump-shock-that-wasnt-M2",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "E1-M3",
+   "fromNode": "setser_2025-09-12_trump-shock-that-wasnt-E1",
+   "fromSide": "bottom",
+   "toNode": "setser_2025-09-12_trump-shock-that-wasnt-M3",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "P1-M4",
+   "fromNode": "setser_2025-09-12_trump-shock-that-wasnt-P1",
+   "fromSide": "bottom",
+   "toNode": "setser_2025-09-12_trump-shock-that-wasnt-M4",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "E2-M1",
+   "fromNode": "setser_2025-09-12_trump-shock-that-wasnt-E2",
+   "fromSide": "bottom",
+   "toNode": "setser_2025-09-12_trump-shock-that-wasnt-M1",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "M1-C1",
+   "fromNode": "setser_2025-09-12_trump-shock-that-wasnt-M1",
+   "fromSide": "bottom",
+   "toNode": "setser_2025-09-12_trump-shock-that-wasnt-C1",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "M2-C1",
+   "fromNode": "setser_2025-09-12_trump-shock-that-wasnt-M2",
+   "fromSide": "bottom",
+   "toNode": "setser_2025-09-12_trump-shock-that-wasnt-C1",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "M3-C1",
+   "fromNode": "setser_2025-09-12_trump-shock-that-wasnt-M3",
+   "fromSide": "bottom",
+   "toNode": "setser_2025-09-12_trump-shock-that-wasnt-C1",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "P2-C1",
+   "fromNode": "setser_2025-09-12_trump-shock-that-wasnt-P2",
+   "fromSide": "bottom",
+   "toNode": "setser_2025-09-12_trump-shock-that-wasnt-C1",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "M4-K",
+   "fromNode": "setser_2025-09-12_trump-shock-that-wasnt-M4",
+   "fromSide": "bottom",
+   "toNode": "setser_2025-09-12_trump-shock-that-wasnt-K",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "P3-C1",
+   "fromNode": "setser_2025-09-12_trump-shock-that-wasnt-P3",
+   "fromSide": "bottom",
+   "toNode": "setser_2025-09-12_trump-shock-that-wasnt-C1",
+   "toSide": "top",
+   "label": "+1 licenses",
+   "color": "4"
+  },
+  {
+   "id": "C1-K",
+   "fromNode": "setser_2025-09-12_trump-shock-that-wasnt-C1",
+   "fromSide": "bottom",
+   "toNode": "setser_2025-09-12_trump-shock-that-wasnt-K",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "K-X",
+   "fromNode": "setser_2025-09-12_trump-shock-that-wasnt-K",
+   "fromSide": "bottom",
+   "toNode": "setser_2025-09-12_trump-shock-that-wasnt-X",
+   "toSide": "top",
+   "label": "-1 rebuts",
+   "color": "1"
+  },
+  {
+   "id": "K-QF",
+   "fromNode": "setser_2025-09-12_trump-shock-that-wasnt-K",
+   "fromSide": "bottom",
+   "toNode": "setser_2025-09-12_trump-shock-that-wasnt-QF",
+   "toSide": "top",
+   "label": "-1 qualified_by",
+   "color": "1"
+  },
+  {
+   "id": "M1-R1",
+   "fromNode": "setser_2025-09-12_trump-shock-that-wasnt-M1",
+   "fromSide": "bottom",
+   "toNode": "setser_2025-09-12_trump-shock-that-wasnt-R1",
+   "toSide": "top",
+   "label": "-1 undercut_by",
+   "color": "1"
+  },
+  {
+   "id": "Q-P1",
+   "fromNode": "setser_2025-09-12_trump-shock-that-wasnt-Q",
+   "fromSide": "bottom",
+   "toNode": "setser_2025-09-12_trump-shock-that-wasnt-P1",
+   "toSide": "top",
+   "label": "0 frames ~",
+   "color": "6"
+  },
+  {
+   "id": "Q-P2",
+   "fromNode": "setser_2025-09-12_trump-shock-that-wasnt-Q",
+   "fromSide": "bottom",
+   "toNode": "setser_2025-09-12_trump-shock-that-wasnt-P2",
+   "toSide": "top",
+   "label": "0 frames ~",
+   "color": "6"
+  },
+  {
+   "id": "Q-P3",
+   "fromNode": "setser_2025-09-12_trump-shock-that-wasnt-Q",
+   "fromSide": "bottom",
+   "toNode": "setser_2025-09-12_trump-shock-that-wasnt-P3",
+   "toSide": "top",
+   "label": "0 frames ~",
+   "color": "6"
+  },
+  {
+   "id": "P1-E1",
+   "fromNode": "setser_2025-09-12_trump-shock-that-wasnt-P1",
+   "fromSide": "bottom",
+   "toNode": "setser_2025-09-12_trump-shock-that-wasnt-E1",
+   "toSide": "top",
+   "label": "0 frames ~",
+   "color": "6"
+  },
+  {
+   "id": "P3-E2",
+   "fromNode": "setser_2025-09-12_trump-shock-that-wasnt-P3",
+   "fromSide": "bottom",
+   "toNode": "setser_2025-09-12_trump-shock-that-wasnt-E2",
+   "toSide": "top",
+   "label": "0 frames ~",
+   "color": "6"
+  }
+ ]
+}
