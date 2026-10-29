@@ -114,8 +114,64 @@ UNIT = {"bn": "billion", "b": "billion", "billion": "billion",
         "bp": "bp", "bps": "bp"}
 
 # A claim and a paragraph sharing one of these is not evidence of anything.
-BORING_NUM = {"1", "2", "3", "4", "5", "10", "2017", "2018", "2019", "2020",
-              "2021", "2022", "2023", "2024", "2025", "2026"}
+BORING_NUM = {"1", "2", "3", "4", "5", "10", "2014", "2015", "2016", "2017",
+              "2018", "2019", "2020", "2021", "2022", "2023", "2024", "2025",
+              "2026"}   # the corpus runs 2017-2026 and discusses 2014 onward
+
+# WHAT MAY ANCHOR, AND AT WHICH SCALE
+#
+# `distinctive` below is measured per article: a literal in at most 15% of
+# this article's paragraphs. That is the right scale for a figure and the
+# wrong one for a proper noun. "United States" appears in three paragraphs of
+# a long article and in 15 of the 21 articles, so it cleared the per-article
+# test and anchored nothing - 3 of a sampled 28 discarded anchors were
+# `!states` and `!united` scoring as "two shared proper nouns".
+#
+# So a literal must now be rare at BOTH scales. Measured over the corpus
+# (2026-10-28): 92% of the 918 distinct literals appear in 3 articles or
+# fewer, and the separation is clean - real anchors sit at 1-2 articles
+# (`#6million` 2, `#400` 2, `!buchheit` 1), the junk at 5-15 (`#25percent` 5,
+# `#2percent` 6, `#10percent` 10, `!united` 15).
+#
+# The cut was chosen by sweeping it against five anchors known good by hand
+# and six known junk, not by picking a round number:
+#
+#   frac   cut   anchored   good kept   junk kept
+#   0.15     3         72         3/5         0/6   <- loses `apple ireland`
+#   0.25     5        146         5/5         1/6   <- chosen
+#   0.40     8        187         5/5         2/6
+#
+# 0.15 is the per-article rule reused unthinkingly, and it throws away
+# `!apple !ireland` on the stealth-surplus article and `!belgian !treasury`
+# on the phase-one one. Both are exactly what an anchor is for.
+CORPUS_DF_FRAC = 0.25
+
+# A LONE shared literal is only an anchor if it is genuinely rare. Two shared
+# literals are evidence on their own; one is evidence only when the one is
+# unusual. `#25percent` appears in 5 of 21 articles, so a claim and a
+# paragraph sharing nothing but "25 percent" share the subject matter and not
+# a source - that was 14 of a sampled 28 bad anchors. `#6million` and `#400`
+# appear in 2 and are the real thing.
+LONE_ANCHOR_DF = 2
+
+# KEEPING ANCHORED PARAGRAPHS
+#
+# This was `[s for s in anchored if s[1] >= best * 0.6][:3]`, and the relative
+# floor discarded 48 of 140 anchored pairs corpus-wide - 25 of the 31 affected
+# claims lost them to the floor rather than to the cap.
+#
+# A relative score floor is a RELEVANCE filter and this is a PROVENANCE
+# signal. The paragraph supplying a claim's fifth figure always scores low on
+# cosine, because the claim text is dominated by the other four, while the
+# figure it shares is exactly as distinctive as theirs. `E1` on the
+# stealth-surplus article had six qualifying paragraphs and kept three,
+# dropping the two that carry "$400 per phone" and "6 million vehicles".
+#
+# The floor was compensating for junk the anchor test should never have
+# admitted. With the two gates above doing that job the floor comes off, and
+# the cap stays as a review trigger rather than a filter: a claim resting on
+# more than this many paragraphs is worth a human look, and the report says so.
+ANCHOR_MAX = 6
 
 # Role types where a STATES relation is the anomaly. A hidden assumption that
 # restates a literal from the paragraph was never hidden - it is a stated
@@ -138,11 +194,53 @@ def norm_num(tok: str) -> str | None:
     return num + UNIT.get(unit, unit)
 
 
+# Words that only ever look like proper nouns because they start a sentence.
+# Learned from the corpus by learn_names(); empty until then, so literals()
+# behaves exactly as before for callers that never built the corpus stats.
+NOT_A_NAME: set = set()
+NAME_CAP_RATIO = 0.7      # a real name is capitalised nearly every time
+NAME_MIN_SEEN = 3         # below this there is nothing to measure - allow it
+
+
+def learn_names(extracts: dict) -> set:
+    """Which capitalised words are names, and which are just sentence starts.
+
+    `\\b[A-Z]...` cannot tell "Ireland" from the "External" that opens a
+    sentence, and the latter was anchoring claims: `!external` on a
+    china-surplus claim comes from "External demand ...", and the word is
+    capitalised in 2 of its 61 appearances.
+
+    Real names are capitalised essentially always - `ireland` 9/9, `china`
+    612/612, `apple` 14/15 - and sentence starts are not: `external` 0.03,
+    `global` 0.05. Of 1,601 tokens seen three times or more, 84 clear 0.8 and
+    295 are capitalised only sometimes.
+    """
+    upper, total = Counter(), Counter()
+    for d in extracts.values():
+        for t in d["paras"].values():
+            for m in re.finditer(r"\b([A-Za-z][A-Za-z'’\-]{2,})\b", t):
+                w = re.sub(r"['’]s$", "", m.group(1).rstrip("-'’")).lower()
+                total[w] += 1
+                if m.group(1)[0].isupper():
+                    upper[w] += 1
+    return {w for w, n in total.items()
+            if n >= NAME_MIN_SEEN and upper[w] / n < NAME_CAP_RATIO}
+
+
 def literals(text: str) -> set:
-    """Distinctive tokens: figures with units, and rare proper nouns."""
+    """Distinctive tokens: figures with units, and rare proper nouns.
+
+    The lookbehind matters more than it looks. Without it the figure pattern
+    plucks digits out of the middle of a name - the `7` of "G7", the `19` of
+    "COVID-19", the `321` of "A321" - and those anchor claims to paragraphs
+    they have nothing to do with. The main claim of the stealth-surplus
+    article was `anchored` on the digit 7.
+    """
     out = set()
-    # figures, with an optional trailing unit word on the next token
-    for m in re.finditer(r"[~$]?\d[\d,.]*\s?(?:billion|bn|million|mn|trillion"
+    # figures, with an optional trailing unit word on the next token.
+    # (?<![A-Za-z0-9-]) stops the number being read out of a name.
+    for m in re.finditer(r"(?<![A-Za-z0-9-])[~$]?\d[\d,.]*\s?"
+                         r"(?:billion|bn|million|mn|trillion"
                          r"|tn|percent|percentage points|pp|bps?|%|[bmt](?![a-z]))?",
                          text, re.I):
         n = norm_num(m.group(0).strip())
@@ -150,12 +248,34 @@ def literals(text: str) -> set:
             out.add("#" + n)
     # acronyms and rare proper nouns
     for m in re.finditer(r"\b([A-Z][A-Za-z'’\-]{2,})\b", text):
-        w = m.group(1)
-        if w.isupper() and len(w) >= 3:          # COFCO, NDRC, IMF, COMAC
+        w = re.sub(r"['’]s$", "", m.group(1).rstrip("-'’"))
+        if len(w) < 3:                           # "Europe's" and "Europe" are
+            continue                             # one proper noun, not two
+        if w.isupper():                          # COFCO, NDRC, IMF, COMAC
             out.add("!" + w.lower())
-        elif w.lower() not in STOP and not w.isupper():
+        elif w.lower() not in STOP and w.lower() not in NOT_A_NAME:
             out.add("!" + w.lower())
     return out
+
+
+def corpus_literals(extracts: dict) -> set:
+    """Literals rare enough ACROSS ARTICLES to identify a passage.
+
+    Returns (rare, strong): `rare` may take part in an anchor at all,
+    `strong` is rare enough to anchor on its own.
+
+    The per-article `distinctive` test cannot see that a term is ubiquitous
+    in the corpus, because it only ever looks at one article's paragraphs.
+    """
+    art_df = Counter()
+    for d in extracts.values():
+        seen = set()
+        for t in d["paras"].values():
+            seen |= literals(t)
+        art_df.update(seen)
+    cap = max(1, int(CORPUS_DF_FRAC * len(extracts)))
+    return ({x for x, c in art_df.items() if c <= cap},
+            {x for x, c in art_df.items() if c <= LONE_ANCHOR_DF})
 
 
 def toks(text: str) -> list:
@@ -204,6 +324,64 @@ def load_review() -> dict:
     return spec.get("decisions") or {}
 
 
+def diff_against_existing(rows: list, over_cap: dict) -> None:
+    """What this run would change in data/node_passages.csv, without writing.
+
+    Passage links are provenance for 359 claims and the vault renders the
+    anchored ones as citations, so a threshold change is not a thing to apply
+    and inspect afterwards. This prints the delta first.
+    """
+    if not OUT_CSV.exists():
+        print("no existing data/node_passages.csv to compare against")
+        return
+    old = list(csv.DictReader(OUT_CSV.open(encoding="utf-8")))
+    key = lambda r: (r["doc"], r["node_id"], r["para"])
+    o, n = {key(r): r for r in old}, {key(r): r for r in rows}
+    added, removed = sorted(set(n) - set(o)), sorted(set(o) - set(n))
+    regraded = sorted(k for k in set(o) & set(n)
+                      if o[k]["grade"] != n[k]["grade"])
+
+    def tally(rs):
+        return Counter(r["grade"] for r in rs)
+
+    print("\n=== DRY RUN - nothing written =================================")
+    print(f"rows   {len(old)} -> {len(rows)}")
+    for g in ("anchored", "candidate", "confirmed", "none"):
+        a, b = tally(old).get(g, 0), tally(rows).get(g, 0)
+        if a or b:
+            print(f"  {g:<10} {a:>4} -> {b:<4} ({b - a:+d})")
+
+    print(f"\nnew links      : {len(added)}")
+    for k in added[:20]:
+        r = n[k]
+        print(f"  + {r['doc']:<40} {r['node_id']:<4} {r['para']:<5} "
+              f"{r['grade']:<10} {r['anchors']}")
+    if len(added) > 20:
+        print(f"  ... and {len(added) - 20} more")
+
+    print(f"\nlinks removed  : {len(removed)}")
+    for k in removed[:20]:
+        r = o[k]
+        print(f"  - {r['doc']:<40} {r['node_id']:<4} {r['para']:<5} "
+              f"{r['grade']:<10} {r['anchors']}")
+    if len(removed) > 20:
+        print(f"  ... and {len(removed) - 20} more")
+
+    print(f"\nregraded       : {len(regraded)}")
+    for k in regraded[:20]:
+        print(f"  ~ {k[0]:<40} {k[1]:<4} {k[2]:<5} "
+              f"{o[k]['grade']} -> {n[k]['grade']}")
+    if len(regraded) > 20:
+        print(f"  ... and {len(regraded) - 20} more")
+
+    busy = {k: v for k, v in over_cap.items() if v > ANCHOR_MAX}
+    print(f"\nclaims anchoring to more than {ANCHOR_MAX} paragraphs "
+          f"(truncated, worth a look): {len(busy)}")
+    for (d, nid), c in sorted(busy.items(), key=lambda kv: -kv[1])[:10]:
+        print(f"  ! {d:<40} {nid:<4} {c} paragraphs qualify")
+    print("\nrun without --dry-run to apply")
+
+
 def main() -> None:
     ap = argparse.ArgumentParser(description=__doc__,
                                  formatter_class=argparse.RawDescriptionHelpFormatter)
@@ -211,6 +389,8 @@ def main() -> None:
     ap.add_argument("--show", metavar="DOC#NODE")
     ap.add_argument("--min-score", type=float, default=0.18,
                     help="cosine floor for a candidate (default 0.18)")
+    ap.add_argument("--dry-run", action="store_true",
+                    help="print the delta against the existing CSV, write nothing")
     args = ap.parse_args()
     try:
         sys.stdout.reconfigure(encoding="utf-8", errors="replace")
@@ -232,7 +412,11 @@ def main() -> None:
     if args.docs:
         order = [d for d in order if d in set(args.docs)]
 
-    rows, per_doc_stats = [], {}
+    # Learn which capitalised words are names before anything reads a
+    # literal - literals() consults NOT_A_NAME, so the order matters.
+    NOT_A_NAME.update(learn_names(extracts))
+    rare, strong = corpus_literals(extracts)
+    rows, per_doc_stats, over_cap = [], {}, {}
     for doc in order:
         ex = extracts[stem_url[doc]]
         paras = ex["paras"]
@@ -252,7 +436,11 @@ def main() -> None:
         # discriminate nothing; "$300bn" or "COFCO" appear in one or two.
         lit_df = Counter(x for ls in plit.values() for x in ls)
         cap = max(1, int(0.15 * len(plit)))
-        distinctive = {x for x, c in lit_df.items() if c <= cap}
+        # Rare in this article AND rare across the corpus. One scale is not
+        # enough: a figure can recur through one article and identify nothing
+        # in it, and a proper noun can be rare in every article and still be
+        # in all of them.
+        distinctive = {x for x, c in lit_df.items() if c <= cap} & rare
 
         for n in by_doc[doc]:
             ctext = " ".join(f"{n['header']} {n['text']}".split())
@@ -275,11 +463,20 @@ def main() -> None:
                 scored.append((i, cos, shared, nums))
 
             # anchored: a shared figure, or two shared proper nouns
-            anchored = [s for s in scored if s[3] or len(s[2]) >= 2]
+            # Two shared distinctive literals, or one that is rare enough
+            # across the corpus to stand alone. The old test anchored on ANY
+            # shared figure, which is how a claim and a paragraph sharing
+            # nothing but "25 percent" became provenance.
+            anchored = [s for s in scored
+                        if len(s[2]) >= 2 or (s[2] & strong)]
             margin = 0.0
             if anchored:
-                best = max(s[1] for s in anchored)
-                keep = [s for s in anchored if s[1] >= best * 0.6][:3]
+                # Every anchored paragraph is kept, ordered by score. A shared
+                # distinctive literal is provenance whether the surrounding
+                # wording matches or not; see ANCHOR_MAX above for why there
+                # is no longer a relative floor here.
+                keep = sorted(anchored, key=lambda s: -s[1])[:ANCHOR_MAX]
+                over_cap[(doc, n["node_id"])] = len(anchored)
                 grade = "anchored"
             else:
                 ranked = sorted(scored, key=lambda s: -s[1])
@@ -366,6 +563,11 @@ def main() -> None:
 
     OUT_CSV.parent.mkdir(exist_ok=True)
     rows.sort(key=lambda r: (r["doc"], r["node_id"], r["para"]))
+
+    if args.dry_run:
+        diff_against_existing(rows, over_cap)
+        return
+
     with OUT_CSV.open("w", newline="", encoding="utf-8") as fh:
         w = csv.DictWriter(fh, fieldnames=FIELDS)
         w.writeheader()
