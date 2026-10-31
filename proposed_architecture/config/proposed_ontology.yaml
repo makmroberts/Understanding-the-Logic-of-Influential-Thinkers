@@ -1,0 +1,229 @@
+ontology:
+  id: setser_argument
+  version: 0.1-draft
+  name: Setser argument-role vocabulary
+  purpose: Configurable extraction vocabulary; no required sequence or flowchart layout
+  source: Adapted from schema_map.yaml; role definitions below are draft glosses pending team approval
+
+roles:
+  accounting_identity:
+    definition: Accounting relationship used as a premise.
+    status: draft_definition
+  anomaly:
+    definition: Observation that does not fit an expected explanation.
+    status: draft_definition
+  benchmark:
+    definition: Reference standard for evaluating an observation.
+    status: draft_definition
+  case_type:
+    definition: Category or subtype developed as part of an argument.
+    status: draft_definition
+  caveat:
+    definition: Qualification limiting a claim.
+    status: draft_definition
+  counterpoint:
+    definition: Generic objection or qualification not further classified.
+    status: draft_definition
+  deferred_question:
+    definition: Question set aside or left for later consideration.
+    status: draft_definition
+  evidence_data:
+    definition: Quantitative or qualitative observation introduced as evidence.
+    status: draft_definition
+  evidence_discrepancy:
+    definition: Conflict between data sources or measurements.
+    status: draft_definition
+  evidence_rival:
+    definition: Alternative or competing measurement offered as evidence.
+    status: draft_definition
+  evidence_source:
+    definition: Study, report, person, or publication cited as evidentiary authority.
+    status: draft_definition
+  hidden_assumption:
+    definition: Unstated premise required for a step of reasoning.
+    status: draft_definition
+  intermediate_claim:
+    definition: Conclusion used as a step toward a broader conclusion.
+    status: draft_definition
+  main_claim:
+    definition: Central substantive conclusion of the argument.
+    status: draft_definition
+  mechanism:
+    definition: How or why a condition produces an outcome.
+    status: draft_definition
+  opposing_view:
+    definition: Position the author disputes or contrasts with their own.
+    status: draft_definition
+  other_explanation:
+    definition: Alternative explanation for an observation.
+    status: draft_definition
+  policy_reductio:
+    definition: Argument revealing an undesirable or inconsistent policy implication.
+    status: draft_definition
+  position_map:
+    definition: Description of positions held in a debate.
+    status: draft_definition
+  question:
+    definition: Question or puzzle motivating the article.
+    status: draft_definition
+  recommendation:
+    definition: Prescription or action advocated by the author.
+    status: draft_definition
+  reconstruction:
+    definition: Reconstructed claim or line of reasoning.
+    status: draft_definition
+  revised_prior:
+    definition: Explicit revision of an earlier belief or prediction.
+    status: draft_definition
+  scope_choice:
+    definition: Delimitation of the population, variables, or scope under analysis.
+    status: draft_definition
+  source_credibility:
+    definition: Assessment of the reliability of evidence or its source.
+    status: draft_definition
+  stated_assumption:
+    definition: Premise explicitly asserted but not defended in the article.
+    status: draft_definition
+
+relations:
+  bounds:
+    definition: Source sets a scope or boundary for target.
+    direction: from -> to
+    argument_sign: 1
+    status: draft_definition
+  defers:
+    definition: Source defers target question or issue.
+    direction: from -> to
+    argument_sign: 0
+    status: draft_definition
+  frames:
+    definition: Source frames or situates target without asserting support.
+    direction: from -> to
+    argument_sign: 0
+    status: draft_definition
+  licenses:
+    definition: Source premise warrants or licenses target reasoning.
+    direction: from -> to
+    argument_sign: 1
+    status: draft_definition
+  motivates:
+    definition: Source provides motivation for target.
+    direction: from -> to
+    argument_sign: 1
+    status: draft_definition
+  qualified_by:
+    definition: Target qualifies source.
+    direction: from -> to
+    argument_sign: -1
+    status: draft_definition
+  rebuts:
+    definition: Source challenges target directly.
+    direction: from -> to
+    argument_sign: -1
+    status: draft_definition
+  reconstructs:
+    definition: Source reconstructs the target position or reasoning.
+    direction: from -> to
+    argument_sign: 1
+    status: draft_definition
+  revises:
+    definition: Source revises the target claim (direction must be reviewed for cross-document uses).
+    direction: from -> to
+    argument_sign: -1
+    status: draft_definition
+  supports:
+    definition: Source provides argumentative support for target.
+    direction: from -> to
+    argument_sign: 1
+    status: draft_definition
+  undercut_by:
+    definition: Target weakens source without directly refuting it.
+    direction: from -> to
+    argument_sign: -1
+    status: draft_definition
+
+optional_role_families:
+  toulmin:
+    claim:
+      - main_claim
+      - intermediate_claim
+      - reconstruction
+      - recommendation
+      - policy_reductio
+      - case_type
+    grounds:
+      - evidence_data
+      - evidence_source
+      - evidence_rival
+      - evidence_discrepancy
+    warrant:
+      - hidden_assumption
+      - stated_assumption
+      - accounting_identity
+      - mechanism
+    backing:
+      - source_credibility
+      - benchmark
+    qualifier:
+      - caveat
+      - scope_choice
+    rebuttal:
+      - opposing_view
+      - counterpoint
+      - other_explanation
+    framing:
+      - question
+      - position_map
+      - deferred_question
+    revision:
+      - revised_prior
+    unassigned:
+      - anomaly
+
+  oper:
+    claim.step:
+      - intermediate_claim
+      - case_type
+      - policy_reductio
+    claim.final:
+      - main_claim
+      - reconstruction
+      - recommendation
+    grounds:
+      - evidence_data
+      - evidence_source
+      - evidence_rival
+      - evidence_discrepancy
+    warrant.prior:
+      - hidden_assumption
+      - stated_assumption
+      - accounting_identity
+    warrant.mechanism:
+      - mechanism
+    backing:
+      - source_credibility
+      - benchmark
+    qualifier:
+      - caveat
+      - scope_choice
+    rebuttal:
+      - opposing_view
+      - counterpoint
+      - other_explanation
+    framing:
+      - question
+      - position_map
+      - deferred_question
+    revision:
+      - revised_prior
+    unassigned:
+      - anomaly
+
+extraction_rules:
+  role_selection: Assign only roles declared in roles; zero or more instances of any role.
+  edge_selection: Create edges only when the article supports an identifiable argumentative relation; do not generate edges solely from proximity or layout.
+  unknown_role: Flag for review; do not silently create new role.
+  unknown_relation: Flag for review; do not silently create new relation.
+  node_granularity: Prefer individually attributable propositions on first pass.
+
+legacy_migration_note: Header/class/level parsing rules, Mermaid layout operators and arrow defaults remain in schema_map.yaml for migrating older maps; not part of new direct-text extraction ontology.

@@ -1,0 +1,291 @@
+
+{
+  "schema_version": "0.1-draft",
+  "article": {
+    "id": "setser_2025-07-07_china-stealth-surplus",
+    "title": "China's Stealth Trade Surplus",
+    "authors": [
+      "Brad W. Setser"
+    ],
+    "published_date": "2025-07-07",
+    "url": "https://www.cfr.org/articles/chinas-stealth-trade-surplus",
+    "publisher": "Council on Foreign Relations",
+    "series": "Follow the Money",
+    "source_text": {
+      "path": null,
+      "paragraph_count": 29,
+      "content_hash": null
+    },
+    "references": [],
+    "metadata_extension": {}
+  },
+  "annotation": {
+    "annotated_at": null,
+    "ontology": {
+      "id": "setser_argument",
+      "version": "0.1-draft"
+    },
+    "facets_version": 1,
+    "pipeline_version": null,
+    "status": "draft",
+    "runs": [
+      {
+        "run_id": "run_extract_001",
+        "stage": "argument_extraction",
+        "method": "llm",
+        "model": null,
+        "parameters": {},
+        "timestamp": null
+      },
+      {
+        "run_id": "run_facets_001",
+        "stage": "facet_assignment",
+        "method": "llm",
+        "model": null,
+        "parameters": {},
+        "timestamp": null
+      }
+    ]
+  },
+  "summary": {
+    "central_question": "Why does China's surplus look small in IMF imbalance data when trade flows show it is huge?",
+    "main_thesis": "The real imbalance is in China; the IMF and G7 should focus there.",
+    "argument_summary": null
+  },
+  "nodes": [
+    {
+      "id": "n001",
+      "legacy_id": "P3",
+      "role": "hidden_assumption",
+      "content": {
+        "text": "Opaque official statistics that no one can replicate deserve less trust than physical trade flows",
+        "label": "Distrust of opaque statistics",
+        "explicit": false
+      },
+      "source": {
+        "passages": [
+          {
+            "paragraph_id": "p26",
+            "relation": "presupposes",
+            "link_method": "proposed_from_worked_example_review",
+            "anchor_grade": "candidate",
+            "review_status": "pending",
+            "source_excerpt": null
+          }
+        ]
+      },
+      "facets": {
+        "variable": [
+          {
+            "term": "current-account",
+            "assignment_source": "llm",
+            "run_id": "run_facets_001"
+          }
+        ],
+        "country": [
+          {
+            "term": "china",
+            "assignment_source": "llm",
+            "run_id": "run_facets_001",
+            "geo_role": "subject"
+          }
+        ],
+        "bloc": [],
+        "instrument": [],
+        "data_basis": [
+          {
+            "term": "balance-of-payments",
+            "assignment_source": "llm",
+            "run_id": "run_facets_001"
+          },
+          {
+            "term": "customs",
+            "assignment_source": "llm",
+            "run_id": "run_facets_001"
+          }
+        ]
+      },
+      "attributes": {},
+      "provenance": {
+        "method": "legacy_map_adaptation",
+        "run_id": null
+      },
+      "review": {
+        "status": "pending",
+        "reasons": [
+          "hidden_assumption",
+          "unverified_passage"
+        ]
+      }
+    },
+    {
+      "id": "n002",
+      "legacy_id": "C1",
+      "role": "intermediate_claim",
+      "content": {
+        "text": "Current account comparisons based on balance of payments data make Europe, not China, look like the main source of imbalance",
+        "label": "Reported imbalance favors Europe",
+        "explicit": true
+      },
+      "source": {
+        "passages": [
+          {
+            "paragraph_id": "p25",
+            "relation": "abstracts",
+            "link_method": "legacy_passage_candidate",
+            "anchor_grade": "candidate",
+            "review_status": "pending",
+            "source_excerpt": null
+          }
+        ]
+      },
+      "facets": {
+        "variable": [
+          {
+            "term": "current-account",
+            "assignment_source": "llm",
+            "run_id": "run_facets_001"
+          },
+          {
+            "term": "global-imbalances",
+            "assignment_source": "llm",
+            "run_id": "run_facets_001"
+          }
+        ],
+        "country": [
+          {
+            "term": "china",
+            "assignment_source": "llm",
+            "run_id": "run_facets_001",
+            "geo_role": "counterpart"
+          },
+          {
+            "term": "euro-area",
+            "assignment_source": "llm",
+            "run_id": "run_facets_001",
+            "geo_role": "subject"
+          }
+        ],
+        "bloc": [],
+        "instrument": [],
+        "data_basis": [
+          {
+            "term": "balance-of-payments",
+            "assignment_source": "llm",
+            "run_id": "run_facets_001"
+          }
+        ]
+      },
+      "attributes": {},
+      "provenance": {
+        "method": "legacy_map_adaptation",
+        "run_id": null
+      },
+      "review": {
+        "status": "pending",
+        "reasons": [
+          "unverified_passage"
+        ]
+      }
+    },
+    {
+      "id": "n003",
+      "legacy_id": "K",
+      "role": "main_claim",
+      "content": {
+        "text": "The real imbalance is in China; the IMF and G7 should focus there",
+        "label": "Main imbalance is in China",
+        "explicit": false
+      },
+      "source": {
+        "passages": []
+      },
+      "facets": {
+        "variable": [
+          {
+            "term": "current-account",
+            "assignment_source": "llm",
+            "run_id": "run_facets_001"
+          },
+          {
+            "term": "global-imbalances",
+            "assignment_source": "llm",
+            "run_id": "run_facets_001"
+          }
+        ],
+        "country": [
+          {
+            "term": "china",
+            "assignment_source": "llm",
+            "run_id": "run_facets_001",
+            "geo_role": "subject"
+          }
+        ],
+        "bloc": [],
+        "instrument": [],
+        "data_basis": [
+          {
+            "term": "imf-publications",
+            "assignment_source": "llm",
+            "run_id": "run_facets_001"
+          }
+        ]
+      },
+      "attributes": {},
+      "provenance": {
+        "method": "legacy_map_adaptation",
+        "run_id": null
+      },
+      "review": {
+        "status": "pending",
+        "reasons": [
+          "missing_verified_passage"
+        ]
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "e001",
+      "from": "n001",
+      "to": "n002",
+      "relation": "licenses",
+      "provenance": {
+        "method": "legacy_map_label",
+        "run_id": null,
+        "legacy_label": "rule behind it"
+      },
+      "review": {
+        "status": "pending",
+        "reasons": []
+      }
+    },
+    {
+      "id": "e002",
+      "from": "n002",
+      "to": "n003",
+      "relation": "supports",
+      "provenance": {
+        "method": "legacy_map_arrow_default",
+        "run_id": null,
+        "legacy_label": null
+      },
+      "review": {
+        "status": "pending",
+        "reasons": [
+          "inherited_legacy_default"
+        ]
+      }
+    }
+  ],
+  "validation": {
+    "status": "pending",
+    "checks": [],
+    "review_items": []
+  },
+  "extensions": {
+    "entities": null,
+    "cited_sources": null,
+    "groupings": null
+  }
+}
