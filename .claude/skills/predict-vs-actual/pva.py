@@ -10,7 +10,8 @@ two charts are laid out, and how they are scored. Same JSON in, same charts out.
     python pva.py validate RUN/predicted.json
     python pva.py lock     RUN
     python pva.py validate RUN/actual.json
-    python pva.py render   RUN [--replicate RUN2 ...]
+    python pva.py render   RUN [--replicate RUN_r2 ...] [--remap RUN_m2 ...]
+    python pva.py summary  RUN [RUN ...] [--out FILE]   pool several runs; agreement between them
     python pva.py template [--out FILE.mmd]     copy of the agreed architecture into examples/template/
     python pva.py example  RUN                  copy a finished run into examples/<run name>/
 
@@ -457,10 +458,21 @@ QUOTE_RE = re.compile(r'["“”]([^"“”]{3,}?)["“”]')
 ID_RE = re.compile(r"\b(?:[PMCEDR]\d{1,2}|QF\d?|SCP|SC|BM|RC|REC|DF|ANOM|POS)\b")
 
 
+CHECK = ("move", "object", "direction", "point")
+
+
+def verdict_from(check: dict) -> str:
+    """Pass two's four answers -> the verdict, so two judges who answer alike agree."""
+    if check.get("direction") == "reverse":
+        return "opposite"
+    return "match" if all(check.get(k) is True for k in ("move", "object", "point")) else "close"
+
+
 def normalise(cfg: Cfg, data: dict, frozen: dict | None, warns: list | None = None) -> dict:
     """Fill in what the script can know for itself, so the AI never has to.
 
     - A prediction may leave out the slots that did not exist before the cutoff.
+    - A pass-two check becomes the verdict.
     - The old verdict 'partial' is read as 'close'.
     """
     slots = data.setdefault("slots", {})
@@ -473,6 +485,12 @@ def normalise(cfg: Cfg, data: dict, frozen: dict | None, warns: list | None = No
                 it["verdict"] = "close"
                 if warns is not None:
                     warns.append(f"{slot}#{i + 1}: verdict 'partial' read as 'close' — use close or opposite")
+            if isinstance(it.get("check"), dict):
+                v = verdict_from(it["check"])
+                if it.get("verdict") not in (None, v) and warns is not None:
+                    warns.append(f"{slot}#{i + 1}: verdict {it['verdict']!r} disagrees with its check — "
+                                 f"the check wins: {v!r}")
+                it["verdict"] = v
     return data
 
 
@@ -630,6 +648,16 @@ def validate(cfg: Cfg, path: Path, quiet: bool = False) -> tuple[list, list]:
                     errs.append(f"{w}: verdict must be one of {VERDICTS}")
                 if v in ("close", "opposite") and not it.get("note"):
                     errs.append(f"{w}: a '{v}' verdict needs a note saying what was predicted")
+                ch = it.get("check")
+                if ch is not None:
+                    if not isinstance(ch, dict) or set(ch) != set(CHECK):
+                        errs.append(f"{w}: check needs exactly {', '.join(CHECK)}")
+                    elif any(not isinstance(ch[k], bool) for k in ("move", "object", "point")) \
+                            or ch["direction"] not in ("same", "reverse", "none"):
+                        errs.append(f"{w}: check takes true or false for move, object and point, "
+                                    "and same, reverse or none for direction")
+                    elif ch["point"] and not (ch["move"] and ch["object"]):
+                        warns.append(f"{w}: point is true but move or object is false — scored as close")
                 if words(it.get("note", "")) > cfg.max_note:
                     errs.append(f"{w}: note is {words(it['note'])} words (max {cfg.max_note})")
 
@@ -792,6 +820,197 @@ def mech_kind(data: dict) -> str:
     return " + ".join(kinds) if kinds else "none"
 
 
+# =============================================================== metrics =====
+# The usual measures beside the skill's own score: slot F1 against simple baselines,
+# strict and lenient content with 95% Wilson intervals, arrows at three levels, and
+# Krippendorff's alpha between independent runs or mappings. Counts are kept so that
+# `summary` can pool runs — the unit that replicates is the article, not the box.
+
+VERDICT_ORDER = ["opposite", "close", "match"]           # low to high, for the ordinal alpha
+ARROW_LEVELS = ("link", "link + kind", "link + type")
+
+
+def wilson(k: int, n: int) -> tuple[float, float]:
+    """95% Wilson interval for k of n; unlike p ± 1.96·se it stays sensible for small n."""
+    z2 = 1.96 ** 2
+    p = k / n
+    mid = (p + z2 / (2 * n)) / (1 + z2 / n)
+    half = 1.96 * (p * (1 - p) / n + z2 / (4 * n * n)) ** 0.5 / (1 + z2 / n)
+    return max(0.0, mid - half), min(1.0, mid + half)
+
+
+def frac(k: int, n: int) -> str:
+    """'5/13 = 0.38 (0.18–0.64)'"""
+    if not n:
+        return "—"
+    lo, hi = wilson(k, n)
+    return f"{k}/{n} = {k / n:.2f} ({lo:.2f}–{hi:.2f})"
+
+
+def num(x) -> str:
+    return "n/a" if x is None else f"{x:.2f}"
+
+
+def f1(tp: int, n_pred: int, n_true: int):
+    """2·TP / (predicted + true); None when neither side has any."""
+    return 2 * tp / (n_pred + n_true) if n_pred + n_true else None
+
+
+def kalpha(units: list, order: list | None = None):
+    """Krippendorff's alpha. Each unit lists the value every coder gave it (None = no value).
+    Nominal unless `order` lists the categories from low to high, which makes it ordinal.
+    None when there is nothing to compare or every value is the same."""
+    units = [[v for v in u if v is not None] for u in units]
+    units = [u for u in units if len(u) > 1]
+    cats = order or sorted({v for u in units for v in u})
+    at = {c: i for i, c in enumerate(cats)}
+    rng = range(len(cats))
+    o = [[0.0 for _ in rng] for _ in rng]                 # coincidences of values within a unit
+    for u in units:
+        for i, a in enumerate(u):
+            for j, b in enumerate(u):
+                if i != j:
+                    o[at[a]][at[b]] += 1 / (len(u) - 1)
+    n_c = [sum(row) for row in o]
+    n = sum(n_c)
+
+    def d2(c, k):
+        if not order:
+            return float(c != k)
+        lo, hi = sorted((c, k))
+        return (sum(n_c[lo:hi + 1]) - (n_c[c] + n_c[k]) / 2) ** 2
+    d_o = sum(o[c][k] * d2(c, k) for c in rng for k in rng)
+    d_e = sum(n_c[c] * n_c[k] * d2(c, k) for c in rng for k in rng) / (n - 1) if n > 1 else 0
+    return 1 - d_o / d_e if d_e else None
+
+
+def presence(status: str):
+    """A slot status as a yes/no call; None for unsure, unavailable or missing."""
+    return "yes" if status in FILLED else "no" if status in ("absent", "na") else None
+
+
+def slot_units(slots: list, datas: list) -> list:
+    return [[presence(d["slots"][s]["status"]) for d in datas] for s in slots]
+
+
+def verdict_units(cfg: Cfg, acts: list) -> list:
+    """One unit per box that any mapping judged: the verdict each mapping gave it."""
+    items = [box_items(cfg, a) for a in acts]
+    boxes = sorted({b for it in items for b, x in it.items() if x.get("verdict") in VERDICTS},
+                   key=cfg.box_rank.get)
+    return [[it.get(b, {}).get("verdict") for it in items] for b in boxes]
+
+
+def pair_same(units: list) -> tuple[int, int]:
+    """Two coders: (units where both gave a value and agree, units where both gave a value)."""
+    both = [u for u in units if None not in u]
+    return sum(u[0] == u[1] for u in both), len(both)
+
+
+def slot_tally(calls: list) -> dict:
+    """(predicted present, actually present) pairs -> the counts behind accuracy and F1."""
+    tp = sum(p and a for p, a in calls)
+    tn = sum(not p and not a for p, a in calls)
+    return {"n": len(calls), "right": tp + tn, "tp": tp, "tn": tn,
+            "pp": sum(p for p, _ in calls), "ap": sum(a for _, a in calls)}
+
+
+def slot_f1(t: dict) -> tuple:
+    """(F1 for 'the slot appears', F1 for 'the slot stays empty')."""
+    n = t["n"]
+    return f1(t["tp"], t["pp"], t["ap"]), f1(t["tn"], n - t["pp"], n - t["ap"])
+
+
+def metrics(cfg: Cfg, sc: dict, pred: dict, act: dict, frozen: dict) -> dict:
+    ps, as_ = pred["slots"], act["slots"]
+    called = [s for s in cfg.slots if ps[s]["status"] in DEFINITE]
+    truth = {s: as_[s]["status"] in FILLED for s in called}
+
+    # the baselines know only which slots the articles before the cutoff used
+    seen: dict[str, tuple] = {}
+    for c in frozen["citations"].values():
+        seen.setdefault(c["doc"], (c["date"], set()))[1].add(base_slot(cfg, c["type"]))
+    hist = [used for _, used in sorted(seen.values(), key=lambda x: x[0])]
+    guess = {
+        "this prediction": lambda s: ps[s]["status"] in FILLED,
+        "always yes": lambda s: True,
+        "majority before the cutoff": lambda s: 2 * sum(s in used for used in hist) >= len(hist),
+        "copy the previous article": lambda s: s in hist[-1],
+    }
+    slots = {k: slot_tally([(g(s), truth[s]) for s in called]) for k, g in guess.items()}
+
+    c = sc["content"]
+    judged = [r for r in sc["rows"] if r["result"] in VERDICTS]
+    checked = bool(judged) and all(isinstance(r["act"].get("check"), dict) for r in judged)
+    same_move = sum(r["result"] == "close" and r["act"]["check"]["move"] is True for r in judged) if checked else None
+    content = dict(c, judged=len(judged), act_boxes=len(box_items(cfg, act)), same_move=same_move)
+
+    def eset(d):
+        return {(edge_box(e["from"]), edge_box(e["to"]), e["type"]) for e in d.get("edges") or []}
+    pe, ae = eset(pred), eset(act)
+    shared = set(box_items(cfg, pred)) & set(box_items(cfg, act))
+    key = {"link": lambda a, b, t: frozenset((a, b)),
+           "link + kind": lambda a, b, t: (frozenset((a, b)), t in cfg.forward),
+           "link + type": lambda a, b, t: (a, b, t)}
+    arrows = {}
+    for scope in ("all", "both ends shared"):
+        for lvl in ARROW_LEVELS:
+            P = {key[lvl](*e) for e in pe if scope == "all" or {e[0], e[1]} <= shared}
+            A = {key[lvl](*e) for e in ae if scope == "all" or {e[0], e[1]} <= shared}
+            arrows[(scope, lvl)] = (len(P & A), len(P), len(A))
+    return {"slots": slots, "content": content, "arrows": arrows}
+
+
+def same_move_frac(c: dict) -> str:
+    """Right boxes plus the close ones that make the same kind of move; needs pass-two checks."""
+    if c["same_move"] is None:
+        return "n/a — judged without a check"
+    return frac(c["match"] + c["same_move"], c["judged"])
+
+
+def metrics_md(mt: dict) -> list[str]:
+    me, c, ar = mt["slots"]["this prediction"], mt["content"], mt["arrows"]
+    present, empty = slot_f1(me)
+    L = ["## Standard metrics", "",
+         "The usual measures, with 95% Wilson intervals. One article holds only a handful of boxes, "
+         "so the intervals are wide; `pva.py summary` pools several articles.", "",
+         "| Measure | Value (95% interval) | What it counts |", "|---|---|---|",
+         f"| Slot accuracy | {frac(me['right'], me['n'])} | whether each slot appears |",
+         f"| F1, slot appears | {num(present)} | |",
+         f"| F1, slot stays empty | {num(empty)} | the real calls |",
+         f"| Content, strict | {frac(c['match'], c['judged'])} | boxes filled on both sides: the same claim |",
+         f"| Content, lenient | {frac(c['match'] + c['close'], c['judged'])} | the same claim, or close |",
+         f"| Content, same move | {same_move_frac(c)} | the right kind of move, specifics aside |",
+         f"| Opposite | {c['opposite']} of {c['judged']} | content contradicts the prediction |",
+         f"| Article boxes matched | {frac(c['match'], c['act_boxes'])} | every box the article filled, misses included |"]
+    for scope in ("all", "both ends shared"):
+        vals = " · ".join(num(f1(*ar[(scope, lvl)])) for lvl in ARROW_LEVELS)
+        L.append(f"| Arrow F1, {scope} | {vals} | link · link + kind (forward or pushback) · link + type |")
+    L += ["", "Slot calls by simple baselines, on the same slots:", "",
+          "| Slot calls by | Accuracy (95% interval) | F1, slot stays empty |", "|---|---|---|"]
+    for name, t in mt["slots"].items():
+        L.append(f"| {name} | {frac(t['right'], t['n'])} | {num(slot_f1(t)[1])} |")
+    return L + [""]
+
+
+def remap(cfg: Cfg, run2: Path, run: Path, pred: dict, act: dict) -> dict:
+    """An independent second mapping of the same locked prediction: do the judges agree?"""
+    if sha(run2 / "predicted.json") != sha(run / "predicted.json"):
+        die(f"{run2} holds a different prediction — --remap takes a re-mapping of the same locked "
+            "file; a new prediction goes in --replicate")
+    errs, _ = validate(cfg, run2 / "actual.json", quiet=True)
+    if errs:
+        die(f"{run2 / 'actual.json'} does not validate")
+    act2 = normalise(cfg, load_json(run2 / "actual.json"), None)
+    sc2 = score(cfg, pred, act2)
+    if sc2["unjudged"]:
+        die(f"{run2}: boxes with content on both sides but no verdict: {', '.join(sc2['unjudged'])}")
+    vu, su = verdict_units(cfg, [act, act2]), slot_units(cfg.slots, [act, act2])
+    return {"run": os.path.relpath(run2.resolve(), cfg.root).replace("\\", "/"), "content": sc2["content"],
+            "verdicts": pair_same(vu), "v_alpha": kalpha(vu, VERDICT_ORDER),
+            "slots": pair_same(su), "s_alpha": kalpha(su)}
+
+
 # ================================================================ render =====
 
 def esc(s: str) -> str:
@@ -942,7 +1161,7 @@ def cmd_render(cfg: Cfg, args) -> None:
     sc = score(cfg, pred, act)
     if sc["unjudged"]:
         die("these boxes have content on both sides but no verdict: " + ", ".join(sc["unjudged"])
-            + " — finish pass two (match, close or opposite)")
+            + " — finish pass two (a check on each)")
     art = act["article"]
     title = esc(art["title"])
     rb = cfg.pal["result_border"]
@@ -1052,17 +1271,32 @@ def cmd_render(cfg: Cfg, args) -> None:
                                     encoding="utf-8")
 
     reps = [replicate(cfg, Path(r), pred, act, frozen, sc) for r in (args.replicate or [])]
-    (run / "comparison.md").write_text(comparison(cfg, sc, pred, act, frozen, lock, reps), encoding="utf-8")
+    rep_units = slot_units(frozen["allowed_slots"], [pred] + [r["pred"] for r in reps])
+    rep_agree = (kalpha(rep_units), sum(sum(v is not None for v in u) > 1 for u in rep_units), len(rep_units))
+    remaps = [remap(cfg, Path(r), run, pred, act) for r in (args.remap or [])]
+    mt = metrics(cfg, sc, pred, act, frozen)
+    (run / "comparison.md").write_text(comparison(cfg, sc, pred, act, frozen, lock, reps, mt, remaps, rep_agree),
+                                       encoding="utf-8")
 
     print(f"render: wrote predicted.mmd, actual.mmd, legend.mmd, comparison.md in {run}")
     print(f"  slots {sc['right']}/{sc['definite']} (free {sc['baseline']}, real calls {sc['hard_right']}/{sc['hard']})"
           f" · content {c['match']}/{judged}, {c['opposite']} opposite"
           f" · arrows {sc['edges_same']}/{sc['edges_pred']}"
           f" · new slots: {', '.join(sc['gaps']) or 'none'}")
+    me, mc = mt["slots"]["this prediction"], mt["content"]
+    print(f"  standard: slot accuracy {frac(me['right'], me['n'])}, F1 slot empty {num(slot_f1(me)[1])}"
+          f" · content strict {frac(mc['match'], mc['judged'])}, lenient {frac(mc['match'] + mc['close'], mc['judged'])}")
     for p in sc["paths"]:
         print("  error chain: " + " -> ".join(p))
     for rp in reps:
         print(f"  replication {rp['run']}: {rp['agree']}/{rp['n']} slot calls agree")
+    if reps:
+        print(f"  replication alpha on slot calls ({len(reps) + 1} runs, {rep_agree[1]} of {rep_agree[2]} "
+              f"slots called by 2+ runs): {num(rep_agree[0])}")
+    for m in remaps:
+        j = m["content"]["match"] + m["content"]["close"] + m["content"]["opposite"]
+        print(f"  re-mapping {m['run']}: content {m['content']['match']}/{j}; verdicts agree "
+              f"{m['verdicts'][0]}/{m['verdicts'][1]}, alpha {num(m['v_alpha'])}")
 
 
 def legend(cfg: Cfg, results: list, chain: bool) -> str:
@@ -1115,13 +1349,14 @@ def replicate(cfg: Cfg, run2: Path, pred: dict, act: dict, frozen: dict, sc: dic
     side = [(r["box"], r["result"], r["pred"], pf2.get(r["box"]), r["act"])
             for r in sc["rows"] if r["result"] in ("close", "opposite")]
     shown = os.path.relpath(run2.resolve(), cfg.root).replace("\\", "/")   # same text however the path was typed
-    return {"run": shown, "agree": agree, "n": len(allowed), "lock": lock,
+    return {"run": shown, "agree": agree, "n": len(allowed), "lock": lock, "pred": p2,
             "right": s2["right"], "definite": s2["definite"], "side": side,
             "differs": [(s, pred["slots"][s]["status"], p2["slots"][s]["status"], act["slots"][s]["status"])
                         for s in allowed if pred["slots"][s]["status"] != p2["slots"][s]["status"]]}
 
 
-def comparison(cfg: Cfg, sc: dict, pred: dict, act: dict, frozen: dict, lock: dict, reps: list) -> str:
+def comparison(cfg: Cfg, sc: dict, pred: dict, act: dict, frozen: dict, lock: dict, reps: list,
+               mt: dict, remaps: list, rep_agree: tuple) -> str:
     art = act["article"]
     c = sc["content"]
     judged = c["match"] + c["close"] + c["opposite"]
@@ -1156,6 +1391,7 @@ def comparison(cfg: Cfg, sc: dict, pred: dict, act: dict, frozen: dict, lock: di
     for k in ("claim_type", "mechanism_kind"):
         L.append(f"| {k.replace('_', ' ')} | {sp.get(k, '—')} | {sa.get(k, '—')} |")
     L.append("")
+    L += metrics_md(mt)
 
     if sc["paths"]:
         res_of = {r["box"]: r["result"] for r in sc["rows"]}
@@ -1167,7 +1403,11 @@ def comparison(cfg: Cfg, sc: dict, pred: dict, act: dict, frozen: dict, lock: di
         L.append("")
 
     if reps:
-        L += ["## Replication — independent blind predictions of the same article", ""]
+        a, called, total = rep_agree
+        L += ["## Replication — independent blind predictions of the same article", "",
+              f"Krippendorff's α on whether each slot appears, over the {called} of {total} slots that at "
+              f"least two of the {len(reps) + 1} runs called (*unsure* is left out): **{num(a)}**. "
+              "1 = the runs never contradict each other, 0 = no better than chance.", ""]
         for rp in reps:
             L += [f"Second run `{rp['run']}`, locked {rp['lock']['locked_at_utc']}"
                   + (" (forced)" if rp["lock"].get("article_present_at_lock") else "") + ".", "",
@@ -1184,6 +1424,21 @@ def comparison(cfg: Cfg, sc: dict, pred: dict, act: dict, frozen: dict, lock: di
                     L.append(f"| {nm(box)} {MARK[res]} | {p1.get('label') or '—'} | "
                              f"{(p2 or {}).get('label') or '—'} | {a['label']} |")
                 L.append("")
+
+    if remaps:
+        L += ["## Judge agreement — independent mappings of the same locked prediction", "",
+              "| Mapping | Content, strict | Content, lenient | Opposite |", "|---|---|---|---|"]
+        for name, cc in [("this run", sc["content"])] + [(f"`{m['run']}`", m["content"]) for m in remaps]:
+            j = cc["match"] + cc["close"] + cc["opposite"]
+            L.append(f"| {name} | {cc['match']} of {j} | {cc['match'] + cc['close']} of {j} | {cc['opposite']} |")
+        L.append("")
+        for m in remaps:
+            (vs, vn), (ss, sn) = m["verdicts"], m["slots"]
+            L.append(f"- `{m['run']}`: verdicts agree on **{vs} of {vn}** boxes both mappings judged, "
+                     f"α (ordinal) {num(m['v_alpha'])}; slot presence agrees on {ss} of {sn}, "
+                     f"α (nominal) {num(m['s_alpha'])}.")
+        L += ["", "Below about 0.67 the judging is too noisy for small differences between predictions "
+              "to mean anything.", ""]
 
     L += ["## Box by box", "",
           "| Stage | Box | Predicted | From | Actual | Para | Result |", "|---|---|---|---|---|---|---|"]
@@ -1206,9 +1461,22 @@ def comparison(cfg: Cfg, sc: dict, pred: dict, act: dict, frozen: dict, lock: di
           "a prediction that actually says 'no' can get them.",
           "- **Content** is judged box by box by the reader of the article: *right* = the same claim; "
           "*close* = the right slot but a different claim, detail or kind; *opposite* = the content "
-          "contradicts the prediction.",
+          "contradicts the prediction. With a pass-two check the verdict follows from four answers — "
+          "same move, same object, direction, same point — so two judges who answer alike agree.",
           "- **New slots** are not failures of the prediction. The framework had no word for them yet — "
           "that is a finding about the framework.",
+          "- **Standard metrics** restate the score in the usual terms. *Strict* content counts only "
+          "*right*; *lenient* also counts *close*. *F1, slot stays empty* is the real calls as an F1. "
+          "*Same move* adds the *close* boxes that make the same kind of move — the reasoning right, "
+          "the specifics not. *Article boxes matched* also counts the boxes the prediction left empty.",
+          "- **Baselines** call slots without reading any note: *always yes*; *majority* — a slot "
+          "appears if at least half the articles before the cutoff used it; *previous* — copy the last "
+          "article before the cutoff. A prediction is only worth something where it beats them.",
+          "- **Arrows** are matched three ways: the same two boxes; also the same kind (forward or "
+          "pushback); also the same type. *Both ends shared* counts only arrows whose two boxes are "
+          "filled on both charts, so a missing box is not punished twice.",
+          "- **α** is Krippendorff's alpha between independent runs or mappings: 1 = full agreement, "
+          "0 = chance, n/a = every value the same.",
           "", "## Checks passed", "",
           f"- Every citation in the prediction exists among the {frozen['n_notes']} frozen notes.",
           "- Every quoted phrase on the actual chart is verbatim in the article.",
@@ -1216,6 +1484,101 @@ def comparison(cfg: Cfg, sc: dict, pred: dict, act: dict, frozen: dict, lock: di
           "- No arrow touches an empty slot; no forward arrow runs backwards.",
           ""]
     return "\n".join(L)
+
+
+# =============================================================== summary =====
+
+def cmd_summary(cfg: Cfg, args) -> None:
+    """Pool finished runs: one row per run, totals over articles, and agreement between
+    independent predictions and between independent mappings of one prediction."""
+    runs = []
+    for r in args.runs:
+        run = Path(r)
+        check_lock(run)
+        frozen = load_json(run / "frozen.json")
+        mapped = (run / "actual.json").exists()
+        for f in ("predicted.json", "actual.json") if mapped else ("predicted.json",):
+            if validate(cfg, run / f, quiet=True)[0]:
+                die(f"{run / f} does not validate")
+        pred = normalise(cfg, load_json(run / "predicted.json"), frozen)
+        act = normalise(cfg, load_json(run / "actual.json"), None) if mapped else None
+        sc = score(cfg, pred, act) if act else None
+        if sc and sc["unjudged"]:
+            die(f"{run}: boxes with content on both sides but no verdict — finish pass two")
+        runs.append({"run": os.path.relpath(run.resolve(), cfg.root).replace("\\", "/"),
+                     "art": (pred["article"]["date"], pred["article"]["title"]),
+                     "sha": sha(run / "predicted.json"), "pred": pred, "act": act, "frozen": frozen,
+                     "mt": metrics(cfg, sc, pred, act, frozen) if act else None})
+    arts: dict[tuple, list] = {}
+    for x in runs:
+        arts.setdefault(x["art"], []).append(x)
+
+    L = [f"# Summary — {len(runs)} runs, {len(arts)} articles", "",
+         "The unit that replicates is the article. Totals take one run per article, the first listed; "
+         "with fewer than about ten articles, report them as a pilot.", "",
+         "| Article | Run | Prediction · mapping | Slots | F1 slot empty | Strict | Same move | Lenient | Opposite "
+         "| Arrow F1 (link) |",
+         "|---|---|---|---|---|---|---|---|---|---|"]
+    pu, vu, su = [], [], []                  # agreement units, pooled over articles
+    for (date, title), xs in arts.items():
+        shas = list(dict.fromkeys(x["sha"] for x in xs))
+        maps: dict[str, list] = {}
+        for x in xs:
+            tag = f"p{shas.index(x['sha']) + 1}"
+            if x["mt"]:
+                maps.setdefault(x["sha"], []).append(x["act"])
+                me, cc = x["mt"]["slots"]["this prediction"], x["mt"]["content"]
+                sm = "—" if cc["same_move"] is None else f"{cc['match'] + cc['same_move']}/{cc['judged']}"
+                cells = [f"{me['right']}/{me['n']}", num(slot_f1(me)[1]), f"{cc['match']}/{cc['judged']}", sm,
+                         f"{cc['match'] + cc['close']}/{cc['judged']}", str(cc["opposite"]),
+                         num(f1(*x["mt"]["arrows"][("all", "link")]))]
+                tag += f" · m{len(maps[x['sha']])}"
+            else:
+                cells, tag = ["—"] * 7, tag + " · not mapped"
+            L.append(f"| {date} {title} | `{x['run']}` | {tag} | " + " | ".join(cells) + " |")
+        if len(shas) > 1:
+            first: dict[str, dict] = {}
+            for x in xs:
+                first.setdefault(x["sha"], x["pred"])
+            pu += slot_units(xs[0]["frozen"]["allowed_slots"], list(first.values()))
+        for acts in maps.values():
+            if len(acts) > 1:
+                vu += verdict_units(cfg, acts)
+                su += slot_units(cfg.slots, acts)
+
+    firsts = [next(x for x in xs if x["mt"]) for xs in arts.values() if any(x["mt"] for x in xs)]
+    if firsts:
+        L += ["", f"## Totals over {len(firsts)} articles", "",
+              "| Slot calls by | Accuracy (95% interval) | F1, slot stays empty |", "|---|---|---|"]
+        for name in firsts[0]["mt"]["slots"]:
+            t = {k: sum(x["mt"]["slots"][name][k] for x in firsts) for k in ("n", "right", "tp", "tn", "pp", "ap")}
+            L.append(f"| {name} | {frac(t['right'], t['n'])} | {num(slot_f1(t)[1])} |")
+        cs = {k: sum(x["mt"]["content"][k] for x in firsts)
+              for k in ("match", "close", "opposite", "judged", "act_boxes")}
+        moves = [x["mt"]["content"]["same_move"] for x in firsts]
+        cs["same_move"] = None if None in moves else sum(moves)
+        L += ["", f"- Content, strict: **{frac(cs['match'], cs['judged'])}**",
+              f"- Content, same move: {same_move_frac(cs)}",
+              f"- Content, lenient: {frac(cs['match'] + cs['close'], cs['judged'])}",
+              f"- Opposite: {cs['opposite']} of {cs['judged']}",
+              f"- Article boxes matched: {frac(cs['match'], cs['act_boxes'])}"]
+
+    def n_units(us):
+        return sum(sum(v is not None for v in u) > 1 for u in us)
+    L += ["", "## Agreement", "",
+          "| Between | Units | Krippendorff's α |", "|---|---|---|",
+          f"| independent predictions — slot calls | {n_units(pu)} | {num(kalpha(pu))} |",
+          f"| independent mappings — verdicts | {n_units(vu)} | {num(kalpha(vu, VERDICT_ORDER))} |",
+          f"| independent mappings — slot presence | {n_units(su)} | {num(kalpha(su))} |", "",
+          "1 = full agreement, 0 = chance; 0 units means no article had two such runs. Below about "
+          "0.67, differences of that size between predictions are noise.", ""]
+    text = "\n".join(L)
+    print(text)
+    if args.out:
+        out = Path(args.out)
+        cfg.guard(out)
+        out.parent.mkdir(parents=True, exist_ok=True)
+        out.write_text(text, encoding="utf-8")
 
 
 # ============================================================== template =====
@@ -1281,7 +1644,11 @@ def main() -> None:
     p.add_argument("--force", action="store_true")
     p = sub.add_parser("render")
     p.add_argument("run")
-    p.add_argument("--replicate", nargs="*", default=[])
+    p.add_argument("--replicate", nargs="*", default=[], help="other blind predictions of the same article")
+    p.add_argument("--remap", nargs="*", default=[], help="other mappings of the same locked prediction")
+    p = sub.add_parser("summary")
+    p.add_argument("runs", nargs="+")
+    p.add_argument("--out", help="also write the summary to this file")
     p = sub.add_parser("template")
     p.add_argument("--out", help="default: examples/template/<template file name>")
     p = sub.add_parser("example")
@@ -1290,7 +1657,8 @@ def main() -> None:
 
     cfg = Cfg(Path(args.root).resolve())
     {"check": cmd_check, "freeze": cmd_freeze, "validate": cmd_validate, "lock": cmd_lock,
-     "render": cmd_render, "template": cmd_template, "example": cmd_example}[args.cmd](cfg, args)
+     "render": cmd_render, "summary": cmd_summary, "template": cmd_template,
+     "example": cmd_example}[args.cmd](cfg, args)
 
 
 if __name__ == "__main__":

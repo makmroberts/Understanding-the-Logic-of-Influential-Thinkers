@@ -90,8 +90,13 @@ Never fix them yourself by reading anything about the article.
 usually means the predictor used outside knowledge. Keep the warning and report it.
 
 **Optional — replication.** To show the prediction is not a one-off, run steps 2–4
-a second time into `RUN_r2` with another fresh subagent, before step 5. Render then
-reports how many slot calls the two runs share.
+again into `RUN_r2`, `RUN_r3` … with a fresh subagent each time, before step 5.
+Render then reports how many slot calls the runs share, and Krippendorff's α on them.
+
+**Optional — a second judge.** To measure the judging rather than the prediction,
+copy `RUN`'s `predicted.json`, `predicted.lock`, `frozen.json`, `frozen.md` and
+`article/` into `RUN_m2`, and do step 6 there with a fresh agent that has not seen
+`RUN/actual.json`. Pass it to render with `--remap`.
 
 ### 4 · Lock
 
@@ -149,10 +154,16 @@ two, each with `"kind": "economic" | "distortion"`). The second mechanism is
 `mechanism#2` in edges.
 
 **Pass two.** Now open `predicted.json`. For every box where both sides have
-content, add a `verdict` — `match`, `close` or `opposite` — and a `note` saying what
-was predicted (required for close and opposite). Do not change pass-one labels,
-statuses or edges. Then write `summary.finding`: the one sentence a reader should
-take away.
+content, add a `check` — four answers, defined under [Mapping rules](#mapping-rules) —
+and a `note` saying what was predicted whenever the box is not a full match. The
+script turns the answers into the verdict, so two judges who answer alike agree. Do
+not change pass-one labels, statuses or edges. Then write `summary.finding`: the one
+sentence a reader should take away.
+
+```json
+{"label": "…", "para": ["p7"], "note": "predicted: …",
+ "check": {"move": true, "object": true, "direction": "same", "point": false}}
+```
 
 ```bash
 python ${CLAUDE_SKILL_DIR}/pva.py validate RUN/actual.json
@@ -161,23 +172,34 @@ python ${CLAUDE_SKILL_DIR}/pva.py validate RUN/actual.json
 ### 7 · Render
 
 ```bash
-python ${CLAUDE_SKILL_DIR}/pva.py render RUN              # add  --replicate RUN_r2  if step 3 was run twice
+python ${CLAUDE_SKILL_DIR}/pva.py render RUN    # add --replicate RUN_r2 … and --remap RUN_m2 … if you made them
 ```
 
 Refuses if `predicted.json` changed since the lock, or if a box has content on
-both sides but no verdict. Writes:
+both sides but no check. Writes:
 
 | File | |
 |---|---|
 | `RUN/predicted.mmd` | chart A |
 | `RUN/actual.mmd` | chart B — border colour and mark show how the prediction did |
 | `RUN/legend.mmd` | one legend for both charts, only the marks that occur |
-| `RUN/comparison.md` | the score, where the error travels, replication, box by box |
+| `RUN/comparison.md` | the score, standard metrics against baselines, where the error travels, replication, judge agreement, box by box |
 
 Both charts carry the same boxes and the same arrows in the same order — each chart
 hides the other's arrows — so every box sits in the same place on both. Paste each
 `.mmd` into https://mermaid.live, export PNG, place A and B side by side, the legend
 underneath.
+
+To pool several tests, list every run folder, replicates and second judges included:
+
+```bash
+python ${CLAUDE_SKILL_DIR}/pva.py summary RUN1 RUN1_r2 RUN2 RUN2_m2 …   # --out FILE to save it
+```
+
+It prints one row per run, totals over articles (one run each, the first listed)
+against the baselines, and Krippendorff's α between independent predictions and
+between independent judges. The article is the unit that replicates; under about ten
+articles, report the totals as a pilot.
 
 ### 8 · Report
 
@@ -286,19 +308,29 @@ How to fill the actual chart. Slot meanings are in `CODEBOOK.md` next to this fi
   he explicitly declines to choose. `enumerated` for several parallel claims.
   `typology` when the conclusion is a classification.
 - **para** on every box: the paragraph anchors it comes from.
-- **verdict**, pass two only. Judge each box only on what its own slot holds; a
+- **check**, pass two only. Judge each box only on what its own slot holds; a
   difference that belongs to another slot is judged in that slot. (A conclusion that
-  matches is `match` even if the reason differs — the reason is judged in the mechanism;
-  say so in the note.)
-  - `match` — the same claim; wording may differ.
-  - `close` — the right slot, but a different claim, detail or kind, not in conflict.
-  - `opposite` — the article says the reverse of the prediction (doubts the other
-    side's data, blames the other cause, lands on the other conclusion).
+  matches is a match even if the reason differs — the reason is judged in the
+  mechanism; say so in the note.) Four answers:
+  - `move` — does the prediction make the same kind of move in this box: doubt a
+    source, pick a benchmark, name a cause, cite a data release, recommend a policy …?
+    `true` or `false`.
+  - `object` — the same actor, country, variable, data series or policy, over the same
+    period? `true` or `false`.
+  - `direction` — `same`; `reverse` when the article says the opposite of the
+    prediction (doubts the other side's data, blames the other cause, lands on the
+    other conclusion); `none` only when the box has no direction to compare, such as a
+    question or a list of sources.
+  - `point` — would a reader say "that is what he said"? The same specific claim,
+    number, mechanism or conclusion, not only the same topic. `true` or `false`.
 
-  When unsure between `match` and `close`, choose `close`.
+  When unsure, answer `false`. The script derives the verdict: `reverse` → opposite;
+  `move`, `object` and `point` all true → match; anything else → close. A close with
+  `move` true is reported as *same move, different specifics*.
 
-  A box whose prediction had no content gets no verdict — the script scores it as
-  slot-only. Old files with `partial` are read as `close`, with a warning.
+  A box whose prediction had no content gets no check — the script scores it as
+  slot-only. Older files with a plain `verdict` (`match`, `close` or `opposite`) still
+  render; `partial` is read as `close`, with a warning.
 - **Edges** are read as a sentence, `A <type> B`:
   `main_claim rebuts opposing_view` · `main_claim qualified_by caveat` ·
   `mechanism undercut_by other_explanation`. Draw only connections the article makes.
@@ -383,7 +415,7 @@ data yet" until `parse_maps.py` writes it. Nothing else in the skill needs to ch
 | `… exceed the budget` | knowledge base larger than `max_notes` | pass `--title` |
 | `lock` refuses | article fetched before the prediction was sealed | delete `article/`, re-predict |
 | `render` refuses: changed since locked | `predicted.json` edited after the lock | restore it, or re-run from step 3 |
-| `render` refuses: no verdict | pass two not finished | add `match`, `close` or `opposite` |
+| `render` refuses: no verdict | pass two not finished | add a `check` to every box both sides filled |
 | `quoted … is not verbatim` | paraphrase in quote marks | drop the marks or copy the exact words |
 | `citation … is not among the frozen notes` | the predictor named a note that is not there | send back to the predictor |
 | `matches more than one article` | two articles share that date | cite as `doc#ID` |
@@ -397,7 +429,7 @@ data yet" until `parse_maps.py` writes it. Nothing else in the skill needs to ch
 predict-vs-actual/
 ├── SKILL.md          this file
 ├── sources.yaml      where the data is, the stages, the palette, the word limits
-├── pva.py            check · freeze · validate · lock · render · template · example
+├── pva.py            check · freeze · validate · lock · render · summary · template · example
 └── examples/         for reference — never shown to the predictor
     ├── template/
     │   └── second_flow_template.mmd    copy of the team architecture   (pva.py template)
