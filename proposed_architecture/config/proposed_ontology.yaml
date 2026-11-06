@@ -1,229 +1,378 @@
+# DRAFT: expanded extraction definitions; review with annotators before treating as authoritative.
 ontology:
   id: setser_argument
-  version: 0.1-draft
+  version: 0.2-draft
   name: Setser argument-role vocabulary
   purpose: Configurable extraction vocabulary; no required sequence or flowchart layout
-  source: Adapted from schema_map.yaml; role definitions below are draft glosses pending team approval
-
+  source: Expanded from proposed_ontology(1).yaml and existing schema_map conventions; definitions and
+    guidance are proposed, not yet validated annotation rules.
 roles:
   accounting_identity:
-    definition: Accounting relationship used as a premise.
+    definition: An accounting equality or definitional relationship used as a premise in the argument,
+      regardless of whether the author supplies empirical evidence for it.
     status: draft_definition
+    guidance: Use for identities such as an external balance being equal to saving minus investment
+      when the equality itself underpins a subsequent inference. Do not use for an estimated empirical
+      correlation, a causal channel, or a numerical data point. An identity may also be an assumption,
+      but this more specific role takes precedence.
   anomaly:
-    definition: Observation that does not fit an expected explanation.
+    definition: An observation or pattern presented as surprising, unexpected, or inconsistent with
+      an existing expectation, model, forecast, or conventional explanation.
     status: draft_definition
+    guidance: Identify both what is observed and what expectation it conflicts with. Use evidence_discrepancy
+      instead if the central issue is that two measurement series disagree. Do not infer an anomaly
+      merely because a statistic seems unusual to the annotator.
   benchmark:
-    definition: Reference standard for evaluating an observation.
+    definition: A reference value, historical comparison, standard, or comparison case used to judge
+      the scale, plausibility, or significance of another observation.
     status: draft_definition
+    guidance: Choose this when the argumentative job of a figure or case is to establish a point of
+      comparison. Use evidence_data for ordinary measurements that do not serve specifically as benchmarks.
+      Preserve the actual benchmark and what it is compared against in the node text.
   case_type:
-    definition: Category or subtype developed as part of an argument.
+    definition: A distinct category in a typology or classification that the author constructs or uses
+      to organize the argument and distinguish different cases.
     status: draft_definition
+    guidance: Use when the author divides a broader problem into meaningful subtypes with different
+      properties or implications. A passing list of countries is not automatically a case typology.
+      Keep each separately argued type identifiable rather than collapsing all types into one node.
   caveat:
-    definition: Qualification limiting a claim.
+    definition: A qualification, limitation, uncertainty, or concession that narrows how confidently
+      or broadly another claim should be interpreted without necessarily rejecting it.
     status: draft_definition
+    guidance: Use for explicit limits such as exceptions, measurement caveats, partial coverage, or
+      uncertainty. Use other_explanation for a competing explanation of the observation and opposing_view
+      for an external position the author contests. Do not treat every hedge or modal verb as a separate
+      node unless it changes the argument.
   counterpoint:
-    definition: Generic objection or qualification not further classified.
+    definition: A substantive objection or challenge to the current argument whose more specific kind
+      cannot be determined from the article and ontology.
     status: draft_definition
+    guidance: Treat as a fallback role, not a default label for every criticism. Prefer opposing_view,
+      other_explanation, or caveat when those descriptions fit. Preserve which claim is challenged in
+      the statement where possible; flag ambiguous cases for review.
   deferred_question:
-    definition: Question set aside or left for later consideration.
+    definition: An issue the author explicitly leaves open, postpones, or identifies as requiring further
+      investigation rather than resolving within the current argument.
     status: draft_definition
+    guidance: Use when the article deliberately defers answering a question. Do not use for the central
+      motivating question if the article proceeds to answer it, or for an ordinary caveat about uncertainty.
+      Do not invent unresolved questions the author does not raise.
   evidence_data:
-    definition: Quantitative or qualitative observation introduced as evidence.
+    definition: A concrete empirical observation, numerical result, statistic, documented event, or
+      qualitative fact invoked as grounds for reasoning.
     status: draft_definition
+    guidance: Prefer one independently attributable observation or closely linked comparison per node;
+      retain reported quantities and qualifiers in the text. Use evidence_source when identifying the
+      authority or publication itself, evidence_discrepancy when disagreement between measurements is
+      the point, and benchmark when the observation chiefly sets a standard. Do not assume reported
+      data are objectively true.
   evidence_discrepancy:
-    definition: Conflict between data sources or measurements.
+    definition: An asserted disagreement, gap, inconsistency, or unexplained mismatch between measurements,
+      reports, estimates, or data series that matters to the argument.
     status: draft_definition
+    guidance: Capture both sides of the disagreement and the measured variable where possible. Do not
+      label a mere difference between countries as a source discrepancy unless it is a conflict in measurement
+      or reporting. If the node principally evaluates which source is trustworthy, prefer source_credibility.
   evidence_rival:
-    definition: Alternative or competing measurement offered as evidence.
+    definition: An alternative dataset, measurement, estimate, or empirical account advanced in competition
+      with another evidentiary basis.
     status: draft_definition
+    guidance: Use when the author places rival measures or evidentiary accounts side by side as candidates
+      for explaining the same question. Use evidence_discrepancy when the claim is specifically that
+      the figures differ, and source_credibility when the claim judges reliability. Avoid manufacturing
+      a rivalry from two sources that happen to be cited.
   evidence_source:
-    definition: Study, report, person, or publication cited as evidentiary authority.
+    definition: An identified study, report, institution, publication, expert, dataset provider, or
+      primary source cited as the origin or authority for evidence used in the argument.
     status: draft_definition
+    guidance: Identify who or what supplies a finding or dataset and, if available, what it contributes.
+      Use evidence_data for the substantive observation; a source is not the observation itself. Do
+      not label any named organization an evidence_source unless it functions as a source of evidence
+      here.
   hidden_assumption:
-    definition: Unstated premise required for a step of reasoning.
+    definition: A premise, warrant, evaluative standard, or background belief that the author does not
+      explicitly state but that is necessary to connect identifiable steps in the reasoning.
     status: draft_definition
+    guidance: 'Infer conservatively: identify which inference would otherwise have a missing bridge.
+      Phrase the assumption as a testable proposition rather than a speculative belief about the author.
+      Set explicit=false and point to passages that presuppose it when possible. If a passage actually
+      asserts the premise, use stated_assumption instead; flag for human review.'
   intermediate_claim:
-    definition: Conclusion used as a step toward a broader conclusion.
+    definition: A substantive inference or conclusion established within the argument that is subsequently
+      used to develop, support, or qualify a broader conclusion.
     status: draft_definition
+    guidance: Look for a claim that the author argues toward and then reasons from. It need not appear
+      midway through the article. Use evidence_data for observations, mechanism for the how-or-why channel,
+      and main_claim for the article-level conclusion. A claim can be intermediate even if explicit.
   main_claim:
-    definition: Central substantive conclusion of the argument.
+    definition: A central conclusion or thesis that the author wants the reader to accept as the principal
+      result of the article or a major independent line of argument.
     status: draft_definition
+    guidance: Use only when centrality is supported by the article as a whole, not simply because a
+      sentence sounds emphatic or appears near the end. Multiple main claims are allowed when genuinely
+      independent. Distinguish an authorial conclusion from an opposing_view and distinguish a prescription
+      (recommendation) when that is the primary move.
   mechanism:
-    definition: How or why a condition produces an outcome.
+    definition: An explanatory process or channel specifying how or why one condition, policy, behavior,
+      or measurement practice produces or changes an outcome.
     status: draft_definition
+    guidance: Extract the directional how-or-why link, including the relevant conditions and outcome,
+      not just the topic name. Mechanisms can be economic channels or measurement/reporting distortions.
+      Use intermediate_claim for a resulting proposition without an explanatory channel; use other_explanation
+      if the author is offering a competing cause that weakens another mechanism.
   opposing_view:
-    definition: Position the author disputes or contrasts with their own.
+    definition: A substantive position, interpretation, or conclusion attributed to others or to a prevailing
+      consensus that the author contests, challenges, or contrasts with their own position.
     status: draft_definition
+    guidance: Capture the opposing position fairly, including attribution when identifiable. Do not
+      present it as the author's own endorsed conclusion. Use position_map for neutral descriptions
+      of several views and other_explanation for a specific competing explanation of a finding.
   other_explanation:
-    definition: Alternative explanation for an observation.
+    definition: An alternative causal or explanatory account of an observation or outcome, especially
+      one that competes with, qualifies, or partly undercuts the author's preferred account.
     status: draft_definition
+    guidance: Require an actual explanation of how the observation could arise, not simply an alternative
+      data source or a suggestion that one source is more credible. Use mechanism if it is a positive
+      channel in the author's own account. Use source_credibility for comparisons of evidence reliability;
+      use caveat when no rival explanation is proposed.
   policy_reductio:
-    definition: Argument revealing an undesirable or inconsistent policy implication.
+    definition: A reasoning step showing that a proposed policy, premise, or interpretation leads to
+      an implausible, self-defeating, contradictory, or unacceptable implication.
     status: draft_definition
+    guidance: Use when the author deliberately exposes the consequence to challenge the position. Do
+      not use for every policy criticism or predicted adverse effect. Record the policy premise and
+      objectionable implication together so the argumentative move remains clear.
   position_map:
-    definition: Description of positions held in a debate.
+    definition: A description of the positions, camps, or competing interpretations in a debate, primarily
+      to establish the landscape of disagreement rather than endorse one side.
     status: draft_definition
+    guidance: Use for neutral or comparative framing of who believes what. Use opposing_view for a specific
+      contested position and main_claim for the author's endorsed view. Avoid converting every mention
+      of an institution into a position_map.
   question:
-    definition: Question or puzzle motivating the article.
+    definition: An explicit or faithfully reconstructed analytical question, puzzle, or issue that motivates
+      part or all of the article.
     status: draft_definition
+    guidance: Use when the article is organized around answering or exploring this question, even if
+      it is not phrased as a literal question in the prose. Do not impose exactly one question or a
+      required opening position. Separate genuinely independent questions; distinguish deferred_question
+      when the author deliberately leaves the issue unanswered.
   recommendation:
-    definition: Prescription or action advocated by the author.
+    definition: A normative prescription or proposed action that the author advocates for an institution,
+      government, investor, or other actor.
     status: draft_definition
+    guidance: Identify the proposed action and actor when stated. Do not label predictions, descriptions
+      of others' policies, or broad conclusions as recommendations simply because they have policy implications.
+      A recommendation may also be a central conclusion; use the role that best captures its actual
+      argumentative function.
   reconstruction:
-    definition: Reconstructed claim or line of reasoning.
+    definition: A reconstructed interpretation, logical inference, or argument attributed to a position
+      where the author or annotator makes underlying reasoning explicit.
     status: draft_definition
+    guidance: Use only when reconstruction is a recognizable argumentative move, such as spelling out
+      the logical implications of another stated position. Do not use as a generic label for all LLM
+      paraphrases. Distinguish hidden_assumption (unstated premise) from reconstruction (articulated
+      inferred argument or position). Flag uncertain attribution for review.
   revised_prior:
-    definition: Explicit revision of an earlier belief or prediction.
+    definition: A belief, expectation, forecast, or prior analytical stance that the author explicitly
+      reports changing or correcting relative to an earlier position.
     status: draft_definition
+    guidance: Require evidence of a change over time, such as an acknowledged mistaken forecast or updated
+      assessment. Use stated_assumption for a currently asserted but undefended premise with no indicated
+      revision. Preserve the earlier and updated positions when the text supports both.
   scope_choice:
-    definition: Delimitation of the population, variables, or scope under analysis.
+    definition: A deliberate definition of what is included, excluded, measured, compared, or held constant
+      in the author's analysis.
     status: draft_definition
+    guidance: Use for consequential choices of population, accounting boundary, time window, variable
+      definition, or comparison set. Distinguish benchmark (reference point used for judging a value)
+      from scope_choice (boundary of the analysis) and caveat (limit on how broadly a result holds).
   source_credibility:
-    definition: Assessment of the reliability of evidence or its source.
+    definition: A claim evaluating the trustworthiness, transparency, methodological soundness, replicability,
+      or relative reliability of a source, dataset, authority, or measurement system.
     status: draft_definition
+    guidance: Use when the author judges whether evidence or a measurement source deserves trust. Use
+      evidence_discrepancy for the observed mismatch itself, evidence_source for mere citation of a
+      source, and other_explanation only for a competing causal account. A preference for customs over
+      opaque balance-of-payments reporting may belong here.
   stated_assumption:
-    definition: Premise explicitly asserted but not defended in the article.
+    definition: A premise or general rule explicitly asserted by the author and relied on in subsequent
+      reasoning without being established as a conclusion in this article.
     status: draft_definition
-
+    guidance: The premise must be expressed in the text, even if paraphrased in the annotation. Use
+      hidden_assumption when the premise is not said; accounting_identity for a definitional equality;
+      evidence_data for an observation; and intermediate_claim when the author actually argues for the
+      proposition within the article.
 relations:
   bounds:
     definition: Source sets a scope or boundary for target.
     direction: from -> to
     argument_sign: 1
     status: draft_definition
+    guidance: Use for a substantive boundary on what another claim covers; do not infer a link merely
+      because one node appears earlier or is a broader topic.
   defers:
     definition: Source defers target question or issue.
     direction: from -> to
     argument_sign: 0
     status: draft_definition
+    guidance: Use only when the argument explicitly sets aside a question or issue; verify direction
+      in the surrounding context.
   frames:
     definition: Source frames or situates target without asserting support.
     direction: from -> to
     argument_sign: 0
     status: draft_definition
+    guidance: Use for a genuinely meaningful framing relationship, not a cosmetic Mermaid layout link
+      or default edge added to connect an isolated node.
   licenses:
     definition: Source premise warrants or licenses target reasoning.
     direction: from -> to
     argument_sign: 1
     status: draft_definition
+    guidance: Use when a premise or warrant makes an inference permissible; distinguish from generic
+      evidentiary support. The source is the warrant and the target the licensed reasoning.
   motivates:
     definition: Source provides motivation for target.
     direction: from -> to
     argument_sign: 1
     status: draft_definition
+    guidance: Use when one observation, concern, or question gives a reason to investigate or pursue
+      another component, but does not itself establish the component as true.
   qualified_by:
     definition: Target qualifies source.
     direction: from -> to
     argument_sign: -1
     status: draft_definition
+    guidance: The edge points from the claim being limited to the qualification that limits it. Use
+      for limits and concessions, not direct refutations.
   rebuts:
     definition: Source challenges target directly.
     direction: from -> to
     argument_sign: -1
     status: draft_definition
+    guidance: The edge points from the challenging claim to the contested claim. Do not reverse direction
+      to follow the old map's visual placement; review migrated examples where convention differs.
   reconstructs:
     definition: Source reconstructs the target position or reasoning.
     direction: from -> to
     argument_sign: 1
     status: draft_definition
+    guidance: Use only when one node genuinely articulates or reconstructs the reasoning/position represented
+      by another; role and direction need team review.
   revises:
     definition: Source revises the target claim (direction must be reviewed for cross-document uses).
     direction: from -> to
     argument_sign: -1
     status: draft_definition
+    guidance: Use for actual revision of an earlier proposition, not general contradiction; cross-article
+      identities and direction require further design.
   supports:
     definition: Source provides argumentative support for target.
     direction: from -> to
     argument_sign: 1
     status: draft_definition
+    guidance: Use when the source gives a substantive reason to accept the target. Do not create links
+      just to complete a template or based on proximity.
   undercut_by:
     definition: Target weakens source without directly refuting it.
     direction: from -> to
     argument_sign: -1
     status: draft_definition
-
+    guidance: The edge points from a claim or mechanism being weakened to the alternative or objection
+      that weakens it; differs from a direct rebuttal.
 optional_role_families:
   toulmin:
     claim:
-      - main_claim
-      - intermediate_claim
-      - reconstruction
-      - recommendation
-      - policy_reductio
-      - case_type
+    - main_claim
+    - intermediate_claim
+    - reconstruction
+    - recommendation
+    - policy_reductio
+    - case_type
     grounds:
-      - evidence_data
-      - evidence_source
-      - evidence_rival
-      - evidence_discrepancy
+    - evidence_data
+    - evidence_source
+    - evidence_rival
+    - evidence_discrepancy
     warrant:
-      - hidden_assumption
-      - stated_assumption
-      - accounting_identity
-      - mechanism
+    - hidden_assumption
+    - stated_assumption
+    - accounting_identity
+    - mechanism
     backing:
-      - source_credibility
-      - benchmark
+    - source_credibility
+    - benchmark
     qualifier:
-      - caveat
-      - scope_choice
+    - caveat
+    - scope_choice
     rebuttal:
-      - opposing_view
-      - counterpoint
-      - other_explanation
+    - opposing_view
+    - counterpoint
+    - other_explanation
     framing:
-      - question
-      - position_map
-      - deferred_question
+    - question
+    - position_map
+    - deferred_question
     revision:
-      - revised_prior
+    - revised_prior
     unassigned:
-      - anomaly
-
+    - anomaly
   oper:
     claim.step:
-      - intermediate_claim
-      - case_type
-      - policy_reductio
+    - intermediate_claim
+    - case_type
+    - policy_reductio
     claim.final:
-      - main_claim
-      - reconstruction
-      - recommendation
+    - main_claim
+    - reconstruction
+    - recommendation
     grounds:
-      - evidence_data
-      - evidence_source
-      - evidence_rival
-      - evidence_discrepancy
+    - evidence_data
+    - evidence_source
+    - evidence_rival
+    - evidence_discrepancy
     warrant.prior:
-      - hidden_assumption
-      - stated_assumption
-      - accounting_identity
+    - hidden_assumption
+    - stated_assumption
+    - accounting_identity
     warrant.mechanism:
-      - mechanism
+    - mechanism
     backing:
-      - source_credibility
-      - benchmark
+    - source_credibility
+    - benchmark
     qualifier:
-      - caveat
-      - scope_choice
+    - caveat
+    - scope_choice
     rebuttal:
-      - opposing_view
-      - counterpoint
-      - other_explanation
+    - opposing_view
+    - counterpoint
+    - other_explanation
     framing:
-      - question
-      - position_map
-      - deferred_question
+    - question
+    - position_map
+    - deferred_question
     revision:
-      - revised_prior
+    - revised_prior
     unassigned:
-      - anomaly
-
+    - anomaly
 extraction_rules:
   role_selection: Assign only roles declared in roles; zero or more instances of any role.
-  edge_selection: Create edges only when the article supports an identifiable argumentative relation; do not generate edges solely from proximity or layout.
+  edge_selection: Create edges only when the article supports an identifiable argumentative relation;
+    do not generate edges solely from proximity or layout.
   unknown_role: Flag for review; do not silently create new role.
   unknown_relation: Flag for review; do not silently create new relation.
   node_granularity: Prefer individually attributable propositions on first pass.
-
-legacy_migration_note: Header/class/level parsing rules, Mermaid layout operators and arrow defaults remain in schema_map.yaml for migrating older maps; not part of new direct-text extraction ontology.
+  evidence_boundary: Represent what the author asserts or reports, not independently established economic
+    truth; preserve hedges and source attribution.
+  implicit_premises: Infer hidden assumptions conservatively and flag them for human review; do not
+    require a literal source sentence for an unstated premise.
+  paragraph_attribution: Each extracted role should have a specific paragrph ID attribution.
+  specificity: Choose the most specific fitting role; do not choose a generic fallback merely because
+    it is available.
+  ambiguity: When role distinctions remain genuinely ambiguous, return the closest defensible role and
+    flag for review in the later validation stage.
+  no_template: Do not require a fixed number of nodes per role, a prescribed order, or a connected flowchart.
+legacy_migration_note: Header/class/level parsing rules, Mermaid layout operators and arrow defaults
+  remain in schema_map.yaml for migrating older maps; not part of new direct-text extraction ontology.
