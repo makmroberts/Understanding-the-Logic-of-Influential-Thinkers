@@ -1,0 +1,216 @@
+{
+ "result": [
+  {
+   "from": "Q",
+   "relation": "frames",
+   "to": "P2",
+   "sign": 0
+  },
+  {
+   "from": "Q",
+   "relation": "frames",
+   "to": "P1",
+   "sign": 0
+  },
+  {
+   "from": "Q",
+   "relation": "frames",
+   "to": "P3",
+   "sign": 0
+  },
+  {
+   "from": "Q",
+   "relation": "frames",
+   "to": "SC",
+   "sign": 0
+  },
+  {
+   "from": "M1",
+   "relation": "supports",
+   "to": "C1",
+   "sign": 1
+  },
+  {
+   "from": "C1",
+   "relation": "qualified_by",
+   "to": "QF",
+   "sign": -1
+  },
+  {
+   "from": "C1",
+   "relation": "supports",
+   "to": "K",
+   "sign": 1
+  },
+  {
+   "from": "E1",
+   "relation": "supports",
+   "to": "C2",
+   "sign": 1
+  },
+  {
+   "from": "E1",
+   "relation": "supports",
+   "to": "M2",
+   "sign": 1
+  },
+  {
+   "from": "M2",
+   "relation": "supports",
+   "to": "C2",
+   "sign": 1
+  },
+  {
+   "from": "M3",
+   "relation": "supports",
+   "to": "C2",
+   "sign": 1
+  },
+  {
+   "from": "ANOM",
+   "relation": "motivates",
+   "to": "C2",
+   "sign": 1
+  },
+  {
+   "from": "SC",
+   "relation": "frames",
+   "to": "E4",
+   "sign": 0
+  },
+  {
+   "from": "E4",
+   "relation": "supports",
+   "to": "C2",
+   "sign": 1
+  },
+  {
+   "from": "C2",
+   "relation": "supports",
+   "to": "K",
+   "sign": 1
+  },
+  {
+   "from": "M4",
+   "relation": "supports",
+   "to": "C3",
+   "sign": 1
+  },
+  {
+   "from": "M5",
+   "relation": "supports",
+   "to": "C3",
+   "sign": 1
+  },
+  {
+   "from": "P2",
+   "relation": "licenses",
+   "to": "M5",
+   "sign": 1
+  },
+  {
+   "from": "C3",
+   "relation": "supports",
+   "to": "K",
+   "sign": 1
+  },
+  {
+   "from": "SCP",
+   "relation": "bounds",
+   "to": "C4",
+   "sign": 1
+  },
+  {
+   "from": "C4",
+   "relation": "rebuts",
+   "to": "X",
+   "sign": -1
+  },
+  {
+   "from": "C4",
+   "relation": "undercut_by",
+   "to": "R1",
+   "sign": -1
+  },
+  {
+   "from": "C4",
+   "relation": "qualified_by",
+   "to": "QF2",
+   "sign": -1
+  },
+  {
+   "from": "C4",
+   "relation": "supports",
+   "to": "K",
+   "sign": 1
+  },
+  {
+   "from": "P1",
+   "relation": "supports",
+   "to": "C5",
+   "sign": 1
+  },
+  {
+   "from": "P3",
+   "relation": "revises",
+   "to": "P1",
+   "sign": -1
+  },
+  {
+   "from": "E2",
+   "relation": "supports",
+   "to": "C5",
+   "sign": 1
+  },
+  {
+   "from": "P3",
+   "relation": "frames",
+   "to": "E2",
+   "sign": 0
+  },
+  {
+   "from": "M6",
+   "relation": "supports",
+   "to": "C6",
+   "sign": 1
+  },
+  {
+   "from": "C5",
+   "relation": "supports",
+   "to": "K",
+   "sign": 1
+  },
+  {
+   "from": "C6",
+   "relation": "supports",
+   "to": "K",
+   "sign": 1
+  },
+  {
+   "from": "C7",
+   "relation": "supports",
+   "to": "K",
+   "sign": 1
+  },
+  {
+   "from": "E3",
+   "relation": "supports",
+   "to": "C7",
+   "sign": 1
+  },
+  {
+   "from": "C7",
+   "relation": "qualified_by",
+   "to": "X2",
+   "sign": -1
+  }
+ ],
+ "review": [
+  "`ANOM` motivates `C2` joins L0→L4, which no hand-drawn motivates link does",
+  "`SCP` bounds `C4` joins L1B→L4, which no hand-drawn bounds link does"
+ ],
+ "gaps_left": [],
+ "dropped": [],
+ "fix_rounds": 0,
+ "reasks": 0
+}

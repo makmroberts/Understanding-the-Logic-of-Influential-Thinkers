@@ -1,0 +1,103 @@
+---
+config:
+  layout: elk
+  theme: dark
+  themeVariables:
+    lineColor: "#D3D1C7"
+    clusterBkg: "#262624"
+    clusterBorder: "#5F5E5A"
+    titleColor: "#F1EFE8"
+    edgeLabelBackground: "#2C2C2A"
+  flowchart:
+    wrappingWidth: 170
+    nodeSpacing: 25
+    rankSpacing: 45
+---
+flowchart TD
+  %% author: Brad W. Setser | outlet: CFR Follow the Money | date: 2025-11-12
+  %% title: China's Massive Surplus is Everywhere (Yet The IMF Still Has Trouble Seeing It Clearly)
+  %% url: https://www.cfr.org/articles/chinas-massive-surplus-everywhere-yet-imf-still-has-trouble-seeing-it-clearly
+  %% topics: China, IMF, global imbalances, fiscal policy | genre: blog / institutional critique
+
+  subgraph L0["Level 0 · Question"]
+    Q["`**Question**
+      How big is China's surplus really, why does the IMF miss it, and what policy should follow?`"]
+  end
+
+  subgraph L1["Level 1 · Priors & assumptions"]
+    P1["`**Stated assumption**
+      The surplus stems from a shortfall in China's domestic demand (European Central Bank view)`"]
+    P2["`**Stated assumption**
+      Deflation combined with a rising trade surplus calls for sustained fiscal expansion, not monetary easing`"]
+    P3["`**Hidden assumption**
+      *External balance is a legitimate policy target; exporting your way out of a slump imposes costs on other countries*`"]
+  end
+
+  subgraph L2["Level 2 · Evidence"]
+    E1["`**Data**
+      Export volumes up 40 percent since end-2019 versus imports up 1 percent; manufactured goods surplus over $2 trillion (about 10.5 percent of GDP); goods surplus $1.2 trillion; car exports over 6 million, heading toward 8 million in 2026; current account surplus 2.2 percent of GDP versus the EU's 2.6 percent; IMF forecast a 2025 surplus of $375 billion, while the actual tops $650 billion through the third quarter`"]
+    E2["`**Studies and sources**
+      IMF External Sector Report 2025, October World Economic Outlook and 2024 Article IV report; European Central Bank analysis; Netherlands Bureau for Economic Policy Analysis export volume data; Microsoft annual report`"]
+  end
+
+  subgraph L3["Level 3 · Mechanisms"]
+    M1["`**Demand shortfall**
+      Weak domestic demand leaves spare capacity for exports; rate cuts lower yields and weaken the yuan, widening the surplus`"]
+    M2["`**Mismeasurement**
+      The 2022 balance of payments methodology and the unexplained income deficit each cut about 1 percentage point of GDP from the reported current account surplus`"]
+    M3["`**IMF lens**
+      Relying only on the reported current account frames China's problem as purely internal, so the IMF prescribes monetary easing`"]
+  end
+
+  subgraph L4["Level 4 · Intermediate claims"]
+    C1["`**Intermediate claim**
+      China's surplus is massive and growing, yet IMF policy advice effectively lets China export its way out of its housing slump`"]
+  end
+
+  subgraph L5["Level 5 · Conclusion"]
+    K["`**Main claim**
+      The IMF should recognize China's external imbalance and call for a fiscal expansion funded by the central government`"]
+  end
+
+  subgraph L6["Level 6 · Counterpoints"]
+    X["`**Opposing view**
+      The IMF's framing; the argument that Europe's surplus is almost as big`"]
+    QF["`**Caveat**
+      China's GDP data are too thin to confirm the net export math; the IMF does support pro-consumption structural reforms`"]
+    R1["`**Other explanation**
+      Ireland distorts European data; IMF forecast misses come from ignoring lagged exchange rate effects and treating the pandemic surge as temporary`"]
+  end
+
+  P1 --> M1
+  E1 --> M1
+  E1 --> M2
+  E2 --> M2
+  E2 --> M3
+  M2 --> M3
+  M1 --> C1
+  M3 --> C1
+  P2 --> K
+  P3 -->|rule behind it| C1
+  C1 --> K
+  K -.->|pushes back on| X
+  K -. caveat .- QF
+  M3 -. other explanation .- R1
+
+  Q ~~~ P1 & P2 & P3
+  P1 ~~~ E1
+  P3 ~~~ E2
+
+  classDef prior fill:#3C3489,stroke:#AFA9EC,color:#EEEDFE
+  classDef unstated fill:#3C3489,stroke:#AFA9EC,color:#EEEDFE,stroke-dasharray:5 4
+  classDef data fill:#0C447C,stroke:#85B7EB,color:#E6F1FB
+  classDef mech fill:#085041,stroke:#5DCAA5,color:#E1F5EE
+  classDef main fill:#085041,stroke:#9FE1CB,color:#E1F5EE,stroke-width:3px
+  classDef dia fill:#444441,stroke:#B4B2A9,color:#F1EFE8
+  classDef question fill:#2C2C2A,stroke:#F1EFE8,color:#F1EFE8
+  class P1,P2 prior
+  class P3 unstated
+  class E1,E2 data
+  class M1,M2,M3,C1 mech
+  class K main
+  class X,QF,R1 dia
+  class Q question

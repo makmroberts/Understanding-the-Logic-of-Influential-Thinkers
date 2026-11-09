@@ -1,0 +1,1698 @@
+{
+ "schema_version": "0.1-draft",
+ "article": {
+  "id": "setser_2026-02-03_october-2025-deficit",
+  "title": "Understanding the Low October 2025 Trade Deficit",
+  "authors": [
+   "Brad W. Setser"
+  ],
+  "published_date": "2026-02-03",
+  "url": "https://www.cfr.org/articles/understanding-the-low-october-2025-trade-deficit",
+  "publisher": "Council on Foreign Relations",
+  "series": "Follow the Money",
+  "source_text": {
+   "path": "kb/internal/extracted/2026-02-03_understanding-the-low-october-2025-trade-deficit.md",
+   "paragraph_count": 12,
+   "content_hash": "4c82f9a9c3721414"
+  },
+  "references": [],
+  "metadata_extension": {}
+ },
+ "annotation": {
+  "annotated_at": "2026-11-09T15:57:41+00:00",
+  "ontology": {
+   "id": "setser_argument",
+   "version": 2
+  },
+  "facets_version": 1,
+  "pipeline_version": "a5d6bd0+uncommitted",
+  "status": "needs_review",
+  "runs": [
+   {
+    "run_id": "claude-opus-5.5_boxes",
+    "stage": "boxes",
+    "method": "llm",
+    "model": "anthropic/claude-opus-5.5",
+    "parameters": {
+     "max_tokens": 16000,
+     "reasoning_effort": "medium"
+    },
+    "timestamp": "2026-11-09T15:57:40+00:00",
+    "calls": 1,
+    "cost_usd": 0.08503
+   },
+   {
+    "run_id": "claude-opus-5.5_links",
+    "stage": "links",
+    "method": "llm",
+    "model": "anthropic/claude-opus-5.5",
+    "parameters": {
+     "max_tokens": 12000,
+     "reasoning_effort": "medium"
+    },
+    "timestamp": "2026-11-09T15:57:41+00:00",
+    "calls": 1,
+    "cost_usd": 0.02878
+   },
+   {
+    "run_id": "claude-opus-5.5_facets",
+    "stage": "facets",
+    "method": "llm",
+    "model": "anthropic/claude-opus-5.5",
+    "parameters": {
+     "max_tokens": 12000,
+     "reasoning_effort": "low"
+    },
+    "timestamp": "2026-11-09T15:57:41+00:00",
+    "calls": 1,
+    "cost_usd": 0.05072
+   }
+  ]
+ },
+ "summary": {
+  "central_question": "What explains the sharp fall in the October 2025 trade deficit, and does it show the tariffs are working?",
+  "main_thesis": "The 2025 deficit is unlikely to fall much despite the tariffs, because untariffed imports of pharmaceuticals, chips and computers are rising even as some tariffed imports fall.",
+  "argument_summary": null
+ },
+ "nodes": [
+  {
+   "id": "n001",
+   "legacy_id": "Q",
+   "role": "question",
+   "level": "L0",
+   "content": {
+    "text": "What explains the sharp fall in the October 2025 trade deficit, and does it show the tariffs are working?",
+    "label": null,
+    "explicit": false,
+    "reason": "A single month's trade swing must be decomposed by product before it can be read as a policy effect."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p1",
+      "relation": "states",
+      "link_method": "llm_citation",
+      "anchor_grade": "excerpt",
+      "review_status": "pending",
+      "source_excerpt": "The fall October’s deficit relative to September’s is entirely due to swings in pharmaceutical imports and gold imports (and exports)."
+     },
+     {
+      "paragraph_id": "p6",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "goods-trade-balance",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [
+     {
+      "term": "us",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     }
+    ],
+    "bloc": [],
+    "instrument": [
+     {
+      "term": "tariffs",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "data_basis": []
+   },
+   "attributes": {},
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "n002",
+   "legacy_id": "C1",
+   "role": "intermediate_claim",
+   "level": "L4",
+   "content": {
+    "text": "The October drop came entirely from pharmaceuticals and gold, two categories that faced no tariffs.",
+    "label": null,
+    "explicit": true,
+    "reason": "A change concentrated in untaxed goods cannot be credited to the tax."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p1",
+      "relation": "states",
+      "link_method": "llm_citation",
+      "anchor_grade": "excerpt",
+      "review_status": "pending",
+      "source_excerpt": "Ironically, neither category has been subject to tariffs."
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "goods-trade-balance",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     },
+     {
+      "term": "import-volumes",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [
+     {
+      "term": "us",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     }
+    ],
+    "bloc": [],
+    "instrument": [],
+    "data_basis": [
+     {
+      "term": "customs",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ]
+   },
+   "attributes": {},
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "n003",
+   "legacy_id": "M1",
+   "role": "mechanism",
+   "level": "L3",
+   "content": {
+    "text": "Fear of tariffs led importers to front-load pharmaceuticals and gold, then imports fell back once the tariffs did not come.",
+    "label": null,
+    "explicit": true,
+    "reason": "Anticipated tariffs pull imports forward, and the reversal later shows up as an artificial fall."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p2",
+      "relation": "states",
+      "link_method": "llm_citation",
+      "anchor_grade": "excerpt",
+      "review_status": "pending",
+      "source_excerpt": "Fear of a pharmaceutical tariff led to large imports of pharmaceuticals in February and March 2025, ahead of the Liberation Day tariff rollout."
+     },
+     {
+      "paragraph_id": "p3",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null
+     },
+     {
+      "paragraph_id": "p4",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "inventories",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     },
+     {
+      "term": "import-volumes",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [
+     {
+      "term": "us",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     }
+    ],
+    "bloc": [],
+    "instrument": [
+     {
+      "term": "tariffs",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "data_basis": []
+   },
+   "attributes": {
+    "kind": "economic"
+   },
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "n004",
+   "legacy_id": "P3",
+   "role": "hidden_assumption",
+   "level": "L1",
+   "content": {
+    "text": "Gold flows reflect financial positioning, not real demand, so they should be stripped out when judging the underlying trade balance.",
+    "label": null,
+    "explicit": false,
+    "reason": "Volatile, non-economic flows distort headline trade data and should be excluded from the core measure."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p4",
+      "relation": "presupposes",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null
+     },
+     {
+      "paragraph_id": "p5",
+      "relation": "presupposes",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "goods-trade-balance",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [
+     {
+      "term": "us",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     }
+    ],
+    "bloc": [],
+    "instrument": [],
+    "data_basis": [
+     {
+      "term": "customs",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ]
+   },
+   "attributes": {},
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": [
+     "links: `P3` frames `SCP` joins L1→L1B, which no hand-drawn frames link does"
+    ]
+   }
+  },
+  {
+   "id": "n005",
+   "legacy_id": "SCP",
+   "role": "scope_choice",
+   "level": "L1B",
+   "content": {
+    "text": "Excluding gold and pharmaceuticals changes the verdict: the October deficit was slightly larger than September's.",
+    "label": null,
+    "explicit": true,
+    "reason": "Which categories are excluded from a balance can reverse the sign of a monthly change."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p5",
+      "relation": "states",
+      "link_method": "llm_citation",
+      "anchor_grade": "excerpt",
+      "review_status": "pending",
+      "source_excerpt": "If gold and pharmaceuticals are removed from the October data, the October trade deficit was actually a bit bigger than the September deficit."
+     },
+     {
+      "paragraph_id": "p6",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "goods-trade-balance",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [
+     {
+      "term": "us",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     }
+    ],
+    "bloc": [],
+    "instrument": [],
+    "data_basis": [
+     {
+      "term": "customs",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ]
+   },
+   "attributes": {},
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": [
+     "links: `P3` frames `SCP` joins L1→L1B, which no hand-drawn frames link does"
+    ]
+   }
+  },
+  {
+   "id": "n006",
+   "legacy_id": "X",
+   "role": "opposing_view",
+   "level": "L6",
+   "content": {
+    "text": "The administration's trade team claimed success because the core deficit from August to October was below the same months of 2024.",
+    "label": null,
+    "explicit": true,
+    "reason": "A policymaker has an incentive to read favorable short-run data as proof that the policy works."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p6",
+      "relation": "states",
+      "link_method": "llm_citation",
+      "anchor_grade": "excerpt",
+      "review_status": "pending",
+      "source_excerpt": "That led President Donald Trump’s trade team to claim some success."
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "goods-trade-balance",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [
+     {
+      "term": "us",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     }
+    ],
+    "bloc": [],
+    "instrument": [
+     {
+      "term": "tariffs",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "data_basis": []
+   },
+   "attributes": {},
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "n007",
+   "legacy_id": "E1",
+   "role": "evidence_data",
+   "level": "L2",
+   "content": {
+    "text": "The core deficits for August to October 2025 were a little smaller than a year earlier, but the early-2025 deficits were much larger than in 2024.",
+    "label": null,
+    "explicit": true,
+    "reason": "Year-on-year comparisons must be read across the whole year when timing shifts are at work."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p6",
+      "relation": "states",
+      "link_method": "llm_citation",
+      "anchor_grade": "excerpt",
+      "review_status": "pending",
+      "source_excerpt": "The monthly deficits in August, September, and October 2025 were all a bit smaller than the deficits in comparable months in 2024."
+     },
+     {
+      "paragraph_id": "p7",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "goods-trade-balance",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [
+     {
+      "term": "us",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     }
+    ],
+    "bloc": [],
+    "instrument": [],
+    "data_basis": [
+     {
+      "term": "customs",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ]
+   },
+   "attributes": {},
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "n008",
+   "legacy_id": "C2",
+   "role": "intermediate_claim",
+   "level": "L4",
+   "content": {
+    "text": "Part of the recent fall reflects running down stockpiles built before the tariffs, so it is temporary.",
+    "label": null,
+    "explicit": true,
+    "reason": "An import dip driven by drawing down inventories reverses once those inventories are used up."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p7",
+      "relation": "states",
+      "link_method": "llm_citation",
+      "anchor_grade": "excerpt",
+      "review_status": "pending",
+      "source_excerpt": "Thus, the dip in imports will not last that much longer; stockpiles do run out."
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "inventories",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     },
+     {
+      "term": "import-volumes",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [
+     {
+      "term": "us",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     }
+    ],
+    "bloc": [],
+    "instrument": [],
+    "data_basis": []
+   },
+   "attributes": {},
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "n009",
+   "legacy_id": "P1",
+   "role": "stated_assumption",
+   "level": "L1",
+   "content": {
+    "text": "Inventories are finite, so imports return once stockpiles are exhausted.",
+    "label": null,
+    "explicit": true,
+    "reason": "Stockpiling only shifts the timing of demand; it does not eliminate it."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p7",
+      "relation": "states",
+      "link_method": "llm_citation",
+      "anchor_grade": "excerpt",
+      "review_status": "pending",
+      "source_excerpt": "stockpiles do run out"
+     },
+     {
+      "paragraph_id": "p12",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "inventories",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     },
+     {
+      "term": "import-volumes",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [],
+    "bloc": [],
+    "instrument": [],
+    "data_basis": []
+   },
+   "attributes": {},
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": [
+     "facets: `setser_2026-02-03_october-2025-deficit#P1` where_subject empty - every claim needs a country or a bloc (assignment.requires_one_of) - needs review"
+    ]
+   }
+  },
+  {
+   "id": "n010",
+   "legacy_id": "E2",
+   "role": "evidence_data",
+   "level": "L2",
+   "content": {
+    "text": "Imports of autos and household durables, which carry heavy tariffs, are down even after adjusting for stockpiling, and US auto production has not replaced them.",
+    "label": null,
+    "explicit": true,
+    "reason": "Product-level data show where a tax actually bites."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p9",
+      "relation": "states",
+      "link_method": "llm_citation",
+      "anchor_grade": "excerpt",
+      "review_status": "pending",
+      "source_excerpt": "Imports of autos—which have been heavily tariffed—are down. So, too, are overall auto sales, as U.S. auto production has not surged with the drop in imports."
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "import-volumes",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     },
+     {
+      "term": "manufacturing-output",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [
+     {
+      "term": "us",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     }
+    ],
+    "bloc": [],
+    "instrument": [
+     {
+      "term": "tariffs",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "data_basis": [
+     {
+      "term": "customs",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ]
+   },
+   "attributes": {},
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "n011",
+   "legacy_id": "M2",
+   "role": "mechanism",
+   "level": "L3",
+   "content": {
+    "text": "Tariffs reduce imports in the categories they hit, but mainly by cutting consumption rather than raising domestic output.",
+    "label": null,
+    "explicit": true,
+    "reason": "A tax on imports lowers demand for the taxed goods, which need not raise local production."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p9",
+      "relation": "states",
+      "link_method": "llm_citation",
+      "anchor_grade": "excerpt",
+      "review_status": "pending",
+      "source_excerpt": "So, the tariffs are affecting certain product categories."
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "import-volumes",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     },
+     {
+      "term": "domestic-demand",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     },
+     {
+      "term": "manufacturing-output",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [
+     {
+      "term": "us",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     }
+    ],
+    "bloc": [],
+    "instrument": [
+     {
+      "term": "tariffs",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "data_basis": []
+   },
+   "attributes": {
+    "kind": "economic"
+   },
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": [
+     "links: `M2` supports `QF` joins L3→L6, which no hand-drawn supports link does"
+    ]
+   }
+  },
+  {
+   "id": "n012",
+   "legacy_id": "E3",
+   "role": "evidence_data",
+   "level": "L2",
+   "content": {
+    "text": "Imports of untariffed semiconductors and computers have risen sharply.",
+    "label": null,
+    "explicit": true,
+    "reason": "Untaxed categories can grow fast enough to offset falls elsewhere."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p10",
+      "relation": "states",
+      "link_method": "llm_citation",
+      "anchor_grade": "excerpt",
+      "review_status": "pending",
+      "source_excerpt": "On the other hand, imports of semiconductors and computers are up substantially. Neither category has yet faced any real tariffs."
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "import-volumes",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [
+     {
+      "term": "us",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     }
+    ],
+    "bloc": [],
+    "instrument": [],
+    "data_basis": [
+     {
+      "term": "customs",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ]
+   },
+   "attributes": {},
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "n013",
+   "legacy_id": "M3",
+   "role": "mechanism",
+   "level": "L3",
+   "content": {
+    "text": "The AI data-center buildout, combined with the exemption of chips under the 232 review, drives electronics imports up.",
+    "label": null,
+    "explicit": true,
+    "reason": "An investment boom raises imports of the capital goods it needs."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p10",
+      "relation": "states",
+      "link_method": "llm_citation",
+      "anchor_grade": "excerpt",
+      "review_status": "pending",
+      "source_excerpt": "And building the data centers to support the current boom in artificial intelligence has required importing a lot of electronics."
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "investment-capex",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     },
+     {
+      "term": "import-volumes",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [
+     {
+      "term": "us",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     }
+    ],
+    "bloc": [],
+    "instrument": [
+     {
+      "term": "tariffs",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "data_basis": []
+   },
+   "attributes": {
+    "kind": "economic"
+   },
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "n014",
+   "legacy_id": "E4",
+   "role": "evidence_source",
+   "level": "L2",
+   "content": {
+    "text": "The semiconductor 232 investigation largely exempts chips imported for domestic use from future tariffs.",
+    "label": null,
+    "explicit": true,
+    "reason": "The scope of official trade measures determines which import flows can respond to them."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p10",
+      "relation": "states",
+      "link_method": "llm_citation",
+      "anchor_grade": "excerpt",
+      "review_status": "pending",
+      "source_excerpt": "The 232 sectoral investigation into semiconductors—which was just released—more or less excludes semiconductors imported for domestic use from any tariffs going forward."
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "tariff-rate",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [
+     {
+      "term": "us",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     }
+    ],
+    "bloc": [],
+    "instrument": [
+     {
+      "term": "tariffs",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "data_basis": []
+   },
+   "attributes": {},
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "n015",
+   "legacy_id": "K",
+   "role": "main_claim",
+   "level": "L5",
+   "content": {
+    "text": "The 2025 deficit is unlikely to fall much despite the tariffs, because untariffed imports of pharmaceuticals, chips and computers are rising even as some tariffed imports fall.",
+    "label": null,
+    "explicit": true,
+    "reason": "The aggregate balance reflects gains in untaxed imports as well as cuts in taxed ones."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p11",
+      "relation": "states",
+      "link_method": "llm_citation",
+      "anchor_grade": "excerpt",
+      "review_status": "pending",
+      "source_excerpt": "Overall, any significant fall in the 2025 trade deficit, even with the tariffs, seems unlikely."
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "goods-trade-balance",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     },
+     {
+      "term": "import-volumes",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [
+     {
+      "term": "us",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     }
+    ],
+    "bloc": [],
+    "instrument": [
+     {
+      "term": "tariffs",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "data_basis": []
+   },
+   "attributes": {
+    "claim_type": "single"
+   },
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "n016",
+   "legacy_id": "QF",
+   "role": "caveat",
+   "level": "L6",
+   "content": {
+    "text": "The tariffs do reduce imports of some tariffed products, a partial concession to the success claim.",
+    "label": null,
+    "explicit": true,
+    "reason": "A policy can fail in aggregate while still working in particular sectors."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p9",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null
+     },
+     {
+      "paragraph_id": "p11",
+      "relation": "states",
+      "link_method": "llm_citation",
+      "anchor_grade": "excerpt",
+      "review_status": "pending",
+      "source_excerpt": "Imports of some products that have been tariffed are set to fall."
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "import-volumes",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [
+     {
+      "term": "us",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     }
+    ],
+    "bloc": [],
+    "instrument": [
+     {
+      "term": "tariffs",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "data_basis": []
+   },
+   "attributes": {},
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": [
+     "links: `M2` supports `QF` joins L3→L6, which no hand-drawn supports link does"
+    ]
+   }
+  },
+  {
+   "id": "n017",
+   "legacy_id": "P2",
+   "role": "stated_assumption",
+   "level": "L1",
+   "content": {
+    "text": "Tariffs shrink the trade deficit only if their revenue reduces the budget deficit, so that they work like a tax hike.",
+    "label": null,
+    "explicit": true,
+    "reason": "The external balance equals national saving minus investment, so it shifts only if saving rises."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p12",
+      "relation": "states",
+      "link_method": "llm_citation",
+      "anchor_grade": "excerpt",
+      "review_status": "pending",
+      "source_excerpt": "Economic theory suggests that tariffs can reduce the trade deficit if their proceeds are used to reduce the budget deficit."
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "tariff-revenue",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     },
+     {
+      "term": "fiscal-balance",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     },
+     {
+      "term": "goods-trade-balance",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [
+     {
+      "term": "us",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     }
+    ],
+    "bloc": [],
+    "instrument": [
+     {
+      "term": "tariffs",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "data_basis": []
+   },
+   "attributes": {},
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "n018",
+   "legacy_id": "C3",
+   "role": "intermediate_claim",
+   "level": "L4",
+   "content": {
+    "text": "Refund checks and pressure for more defense spending mean tariff revenue will not tighten fiscal policy, so the macro channel for cutting the deficit is closed.",
+    "label": null,
+    "explicit": true,
+    "reason": "If tax revenue is recycled into spending, the tax does not raise national saving."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p12",
+      "relation": "states",
+      "link_method": "llm_citation",
+      "anchor_grade": "excerpt",
+      "review_status": "pending",
+      "source_excerpt": "At this stage, though, it seems unlikely that the tariffs will drive a significant fiscal adjustment—the refund checks are coming, and there is strong pressure to increase defense spending."
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "tariff-revenue",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     },
+     {
+      "term": "fiscal-impulse",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [
+     {
+      "term": "us",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     }
+    ],
+    "bloc": [],
+    "instrument": [
+     {
+      "term": "fiscal-policy",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "data_basis": []
+   },
+   "attributes": {},
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "n019",
+   "legacy_id": "DF",
+   "role": "deferred_question",
+   "level": "L6",
+   "content": {
+    "text": "Whether imports rebound after stockpiles run out, and how much of the refund checks is spent on imports, remain open questions.",
+    "label": null,
+    "explicit": true,
+    "reason": "Effects that depend on future inventory and spending behavior cannot yet be measured."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p12",
+      "relation": "states",
+      "link_method": "llm_citation",
+      "anchor_grade": "excerpt",
+      "review_status": "pending",
+      "source_excerpt": "Going forward, it will be important to see if imports rebound once stockpiles are exhausted, and how much of the promised refund checks flow into imported goods."
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "inventories",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     },
+     {
+      "term": "import-volumes",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     },
+     {
+      "term": "fiscal-impulse",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [
+     {
+      "term": "us",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     }
+    ],
+    "bloc": [],
+    "instrument": [],
+    "data_basis": []
+   },
+   "attributes": {},
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  }
+ ],
+ "edges": [
+  {
+   "id": "e001",
+   "from": "n001",
+   "to": "n004",
+   "relation": "frames",
+   "sign": 0,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e002",
+   "from": "n001",
+   "to": "n009",
+   "relation": "frames",
+   "sign": 0,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e003",
+   "from": "n001",
+   "to": "n017",
+   "relation": "frames",
+   "sign": 0,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e004",
+   "from": "n003",
+   "to": "n002",
+   "relation": "supports",
+   "sign": 1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e005",
+   "from": "n004",
+   "to": "n002",
+   "relation": "licenses",
+   "sign": 1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e006",
+   "from": "n005",
+   "to": "n007",
+   "relation": "bounds",
+   "sign": 1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e007",
+   "from": "n004",
+   "to": "n005",
+   "relation": "frames",
+   "sign": 0,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": [
+     "`P3` frames `SCP` joins L1→L1B, which no hand-drawn frames link does"
+    ]
+   }
+  },
+  {
+   "id": "e008",
+   "from": "n007",
+   "to": "n008",
+   "relation": "supports",
+   "sign": 1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e009",
+   "from": "n009",
+   "to": "n008",
+   "relation": "licenses",
+   "sign": 1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e010",
+   "from": "n008",
+   "to": "n006",
+   "relation": "rebuts",
+   "sign": -1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e011",
+   "from": "n010",
+   "to": "n011",
+   "relation": "supports",
+   "sign": 1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e012",
+   "from": "n012",
+   "to": "n013",
+   "relation": "supports",
+   "sign": 1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e013",
+   "from": "n014",
+   "to": "n013",
+   "relation": "supports",
+   "sign": 1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e014",
+   "from": "n013",
+   "to": "n015",
+   "relation": "supports",
+   "sign": 1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e015",
+   "from": "n011",
+   "to": "n015",
+   "relation": "supports",
+   "sign": 1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e016",
+   "from": "n002",
+   "to": "n015",
+   "relation": "supports",
+   "sign": 1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e017",
+   "from": "n008",
+   "to": "n015",
+   "relation": "supports",
+   "sign": 1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e018",
+   "from": "n015",
+   "to": "n006",
+   "relation": "rebuts",
+   "sign": -1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e019",
+   "from": "n015",
+   "to": "n016",
+   "relation": "qualified_by",
+   "sign": -1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e020",
+   "from": "n017",
+   "to": "n018",
+   "relation": "licenses",
+   "sign": 1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e021",
+   "from": "n018",
+   "to": "n015",
+   "relation": "supports",
+   "sign": 1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e022",
+   "from": "n015",
+   "to": "n019",
+   "relation": "defers",
+   "sign": 0,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e023",
+   "from": "n011",
+   "to": "n016",
+   "relation": "supports",
+   "sign": 1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": [
+     "`M2` supports `QF` joins L3→L6, which no hand-drawn supports link does"
+    ]
+   }
+  }
+ ],
+ "validation": {
+  "status": "needs_review",
+  "checks": [
+   "boxes: 19, fix rounds 0, re-asks 0, gaps left none",
+   "links: 23, fix rounds 0, re-asks 0, gaps left none, dropped none",
+   "passage linker agreement: {'anchored': 2, 'anchored_cited': 2, 'candidate': 17, 'candidate_cited': 11}"
+  ],
+  "review_items": [
+   "links: `P3` frames `SCP` joins L1→L1B, which no hand-drawn frames link does",
+   "links: `M2` supports `QF` joins L3→L6, which no hand-drawn supports link does",
+   "facets: `setser_2026-02-03_october-2025-deficit#P1` where_subject empty - every claim needs a country or a bloc (assignment.requires_one_of) - needs review"
+  ]
+ },
+ "extensions": {}
+}

@@ -1,0 +1,496 @@
+{
+ "nodes": [
+  {
+   "id": "setser_2026-09-15_de-reservification-not-de-dollarization-Q",
+   "type": "file",
+   "file": "claims/question/Is the dollar's global role really measured by its share in central bank FX reserves.md",
+   "x": -260,
+   "y": 0,
+   "width": 520,
+   "height": 300,
+   "color": "#7A6FA8"
+  },
+  {
+   "id": "setser_2026-09-15_de-reservification-not-de-dollarization-P1",
+   "type": "file",
+   "file": "claims/stated_assumption/Reserve managers match liabilities, so the dollar's role depends at least as much.md",
+   "x": -840,
+   "y": 480,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "setser_2026-09-15_de-reservification-not-de-dollarization-P2",
+   "type": "file",
+   "file": "claims/hidden_assumption/Assets held by pension funds, state banks, sovereign funds and state-steered insurers are.md",
+   "x": -260,
+   "y": 480,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "setser_2026-09-15_de-reservification-not-de-dollarization-SC",
+   "type": "file",
+   "file": "claims/source_credibility/China does not disclose policy bank foreign assets and the IMF has failed to flag.md",
+   "x": 320,
+   "y": 480,
+   "width": 520,
+   "height": 300,
+   "color": "#2FA88F"
+  },
+  {
+   "id": "setser_2026-09-15_de-reservification-not-de-dollarization-E1",
+   "type": "file",
+   "file": "claims/evidence_data/Global reserves and dollar reserves have been roughly flat for a decade, including.md",
+   "x": -2000,
+   "y": 960,
+   "width": 520,
+   "height": 300,
+   "color": "#2F7FBF"
+  },
+  {
+   "id": "setser_2026-09-15_de-reservification-not-de-dollarization-E2",
+   "type": "file",
+   "file": "claims/evidence_data/Quasi-sovereign pools now rival formal reserves in China, Japan, Korea and Saudi Arabia.md",
+   "x": -1420,
+   "y": 960,
+   "width": 520,
+   "height": 300,
+   "color": "#2F7FBF"
+  },
+  {
+   "id": "setser_2026-09-15_de-reservification-not-de-dollarization-E3",
+   "type": "file",
+   "file": "claims/evidence_data/China's state banks hold $3.3 trillion gross foreign assets (BIS), ~$4 trillion BOP.md",
+   "x": -840,
+   "y": 960,
+   "width": 520,
+   "height": 300,
+   "color": "#2F7FBF"
+  },
+  {
+   "id": "setser_2026-09-15_de-reservification-not-de-dollarization-E4",
+   "type": "file",
+   "file": "claims/evidence_data/Dollar shares of quasi-sovereign pools are high ~70% for Chinese banks, ~70% for NPS.md",
+   "x": -260,
+   "y": 960,
+   "width": 520,
+   "height": 300,
+   "color": "#2F7FBF"
+  },
+  {
+   "id": "setser_2026-09-15_de-reservification-not-de-dollarization-E5",
+   "type": "file",
+   "file": "claims/evidence_data/GPIF foreign assets rose from ~$400bn to ~$1tn and NPS from ~$80bn to over $660bn.md",
+   "x": 320,
+   "y": 960,
+   "width": 520,
+   "height": 300,
+   "color": "#2F7FBF"
+  },
+  {
+   "id": "setser_2026-09-15_de-reservification-not-de-dollarization-E6",
+   "type": "file",
+   "file": "claims/evidence_source/BIS data, SAFE disclosures, bank annual reports and AidData research all point to large.md",
+   "x": 900,
+   "y": 960,
+   "width": 520,
+   "height": 300,
+   "color": "#2F7FBF"
+  },
+  {
+   "id": "setser_2026-09-15_de-reservification-not-de-dollarization-E7",
+   "type": "file",
+   "file": "claims/evidence_source/Tooze's 'profit dollar' inflows seek returns via equities and corporate bonds, with less.md",
+   "x": 1480,
+   "y": 960,
+   "width": 520,
+   "height": 300,
+   "color": "#2F7FBF"
+  },
+  {
+   "id": "setser_2026-09-15_de-reservification-not-de-dollarization-M1",
+   "type": "file",
+   "file": "claims/mechanism/Asian surplus economies are following oil exporters in routing surpluses into sovereign.md",
+   "x": -1130,
+   "y": 1440,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "setser_2026-09-15_de-reservification-not-de-dollarization-M2",
+   "type": "file",
+   "file": "claims/mechanism/Central banks steer currency by regulating hedge ratios and bank net foreign assets.md",
+   "x": -550,
+   "y": 1440,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "setser_2026-09-15_de-reservification-not-de-dollarization-M3",
+   "type": "file",
+   "file": "claims/mechanism/Focusing on formal reserves misses most growth of sovereign foreign assets because.md",
+   "x": 30,
+   "y": 1440,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "setser_2026-09-15_de-reservification-not-de-dollarization-M4",
+   "type": "file",
+   "file": "claims/mechanism/The investor base shift toward U.S. risk assets explains why Treasuries lost convenience.md",
+   "x": 610,
+   "y": 1440,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "setser_2026-09-15_de-reservification-not-de-dollarization-C1",
+   "type": "file",
+   "file": "claims/intermediate_claim/In China the real story is the rapid growth of state bank dollar holdings, not SAFE's.md",
+   "x": -550,
+   "y": 1920,
+   "width": 520,
+   "height": 300,
+   "color": "#2FBF9B"
+  },
+  {
+   "id": "setser_2026-09-15_de-reservification-not-de-dollarization-C2",
+   "type": "file",
+   "file": "claims/intermediate_claim/Most of Korea's government dollar assets sit outside the central bank and COFER.md",
+   "x": 30,
+   "y": 1920,
+   "width": 520,
+   "height": 300,
+   "color": "#2FBF9B"
+  },
+  {
+   "id": "setser_2026-09-15_de-reservification-not-de-dollarization-K",
+   "type": "file",
+   "file": "claims/main_claim/The world is de-reservifying, not de-dollarizing sovereign foreign asset growth flows.md",
+   "x": -550,
+   "y": 2400,
+   "width": 520,
+   "height": 300,
+   "color": "#2FBF9B"
+  },
+  {
+   "id": "setser_2026-09-15_de-reservification-not-de-dollarization-REC",
+   "type": "file",
+   "file": "claims/recommendation/Analysts should stop obsessing over COFER shares and scrutinize the premium on U.S. risk.md",
+   "x": 30,
+   "y": 2400,
+   "width": 520,
+   "height": 300,
+   "color": "#2FBF9B"
+  },
+  {
+   "id": "setser_2026-09-15_de-reservification-not-de-dollarization-QF",
+   "type": "file",
+   "file": "claims/caveat/Japan is an exception GPIF's dollar share is below the MoF's, and Taiwan's lifers aren't.md",
+   "x": -840,
+   "y": 2880,
+   "width": 520,
+   "height": 300,
+   "color": "#9A8C6A"
+  },
+  {
+   "id": "setser_2026-09-15_de-reservification-not-de-dollarization-QF2",
+   "type": "file",
+   "file": "claims/caveat/The dollar tilt may not last; any real de-dollarization would first appear among.md",
+   "x": -260,
+   "y": 2880,
+   "width": 520,
+   "height": 300,
+   "color": "#9A8C6A"
+  },
+  {
+   "id": "setser_2026-09-15_de-reservification-not-de-dollarization-X",
+   "type": "file",
+   "file": "claims/opposing_view/Analysts who pore over quarterly COFER shares for signs of de-dollarization are focused.md",
+   "x": 320,
+   "y": 2880,
+   "width": 520,
+   "height": 300,
+   "color": "#8A8A8A"
+  }
+ ],
+ "edges": [
+  {
+   "id": "Q-P2",
+   "fromNode": "setser_2026-09-15_de-reservification-not-de-dollarization-Q",
+   "fromSide": "bottom",
+   "toNode": "setser_2026-09-15_de-reservification-not-de-dollarization-P2",
+   "toSide": "top",
+   "label": "0 frames",
+   "color": "6"
+  },
+  {
+   "id": "Q-P1",
+   "fromNode": "setser_2026-09-15_de-reservification-not-de-dollarization-Q",
+   "fromSide": "bottom",
+   "toNode": "setser_2026-09-15_de-reservification-not-de-dollarization-P1",
+   "toSide": "top",
+   "label": "0 frames",
+   "color": "6"
+  },
+  {
+   "id": "P2-E2",
+   "fromNode": "setser_2026-09-15_de-reservification-not-de-dollarization-P2",
+   "fromSide": "bottom",
+   "toNode": "setser_2026-09-15_de-reservification-not-de-dollarization-E2",
+   "toSide": "top",
+   "label": "0 frames",
+   "color": "6"
+  },
+  {
+   "id": "E2-M1",
+   "fromNode": "setser_2026-09-15_de-reservification-not-de-dollarization-E2",
+   "fromSide": "bottom",
+   "toNode": "setser_2026-09-15_de-reservification-not-de-dollarization-M1",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "E2-M2",
+   "fromNode": "setser_2026-09-15_de-reservification-not-de-dollarization-E2",
+   "fromSide": "bottom",
+   "toNode": "setser_2026-09-15_de-reservification-not-de-dollarization-M2",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "E1-M3",
+   "fromNode": "setser_2026-09-15_de-reservification-not-de-dollarization-E1",
+   "fromSide": "bottom",
+   "toNode": "setser_2026-09-15_de-reservification-not-de-dollarization-M3",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "E2-M3",
+   "fromNode": "setser_2026-09-15_de-reservification-not-de-dollarization-E2",
+   "fromSide": "bottom",
+   "toNode": "setser_2026-09-15_de-reservification-not-de-dollarization-M3",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "M1-M3",
+   "fromNode": "setser_2026-09-15_de-reservification-not-de-dollarization-M1",
+   "fromSide": "bottom",
+   "toNode": "setser_2026-09-15_de-reservification-not-de-dollarization-M3",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "M2-M3",
+   "fromNode": "setser_2026-09-15_de-reservification-not-de-dollarization-M2",
+   "fromSide": "bottom",
+   "toNode": "setser_2026-09-15_de-reservification-not-de-dollarization-M3",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "E3-C1",
+   "fromNode": "setser_2026-09-15_de-reservification-not-de-dollarization-E3",
+   "fromSide": "bottom",
+   "toNode": "setser_2026-09-15_de-reservification-not-de-dollarization-C1",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "E6-E3",
+   "fromNode": "setser_2026-09-15_de-reservification-not-de-dollarization-E6",
+   "fromSide": "bottom",
+   "toNode": "setser_2026-09-15_de-reservification-not-de-dollarization-E3",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "E6-E4",
+   "fromNode": "setser_2026-09-15_de-reservification-not-de-dollarization-E6",
+   "fromSide": "bottom",
+   "toNode": "setser_2026-09-15_de-reservification-not-de-dollarization-E4",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "SC-E6",
+   "fromNode": "setser_2026-09-15_de-reservification-not-de-dollarization-SC",
+   "fromSide": "bottom",
+   "toNode": "setser_2026-09-15_de-reservification-not-de-dollarization-E6",
+   "toSide": "top",
+   "label": "0 frames",
+   "color": "6"
+  },
+  {
+   "id": "E4-C1",
+   "fromNode": "setser_2026-09-15_de-reservification-not-de-dollarization-E4",
+   "fromSide": "bottom",
+   "toNode": "setser_2026-09-15_de-reservification-not-de-dollarization-C1",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "E5-C2",
+   "fromNode": "setser_2026-09-15_de-reservification-not-de-dollarization-E5",
+   "fromSide": "bottom",
+   "toNode": "setser_2026-09-15_de-reservification-not-de-dollarization-C2",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "E4-C2",
+   "fromNode": "setser_2026-09-15_de-reservification-not-de-dollarization-E4",
+   "fromSide": "bottom",
+   "toNode": "setser_2026-09-15_de-reservification-not-de-dollarization-C2",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "P2-K",
+   "fromNode": "setser_2026-09-15_de-reservification-not-de-dollarization-P2",
+   "fromSide": "bottom",
+   "toNode": "setser_2026-09-15_de-reservification-not-de-dollarization-K",
+   "toSide": "top",
+   "label": "+1 licenses",
+   "color": "4"
+  },
+  {
+   "id": "M3-K",
+   "fromNode": "setser_2026-09-15_de-reservification-not-de-dollarization-M3",
+   "fromSide": "bottom",
+   "toNode": "setser_2026-09-15_de-reservification-not-de-dollarization-K",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "C1-K",
+   "fromNode": "setser_2026-09-15_de-reservification-not-de-dollarization-C1",
+   "fromSide": "bottom",
+   "toNode": "setser_2026-09-15_de-reservification-not-de-dollarization-K",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "C2-K",
+   "fromNode": "setser_2026-09-15_de-reservification-not-de-dollarization-C2",
+   "fromSide": "bottom",
+   "toNode": "setser_2026-09-15_de-reservification-not-de-dollarization-K",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "E4-K",
+   "fromNode": "setser_2026-09-15_de-reservification-not-de-dollarization-E4",
+   "fromSide": "bottom",
+   "toNode": "setser_2026-09-15_de-reservification-not-de-dollarization-K",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "P1-K",
+   "fromNode": "setser_2026-09-15_de-reservification-not-de-dollarization-P1",
+   "fromSide": "bottom",
+   "toNode": "setser_2026-09-15_de-reservification-not-de-dollarization-K",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "E7-M4",
+   "fromNode": "setser_2026-09-15_de-reservification-not-de-dollarization-E7",
+   "fromSide": "bottom",
+   "toNode": "setser_2026-09-15_de-reservification-not-de-dollarization-M4",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "E7-K",
+   "fromNode": "setser_2026-09-15_de-reservification-not-de-dollarization-E7",
+   "fromSide": "bottom",
+   "toNode": "setser_2026-09-15_de-reservification-not-de-dollarization-K",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "M4-REC",
+   "fromNode": "setser_2026-09-15_de-reservification-not-de-dollarization-M4",
+   "fromSide": "bottom",
+   "toNode": "setser_2026-09-15_de-reservification-not-de-dollarization-REC",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "K-REC",
+   "fromNode": "setser_2026-09-15_de-reservification-not-de-dollarization-K",
+   "fromSide": "bottom",
+   "toNode": "setser_2026-09-15_de-reservification-not-de-dollarization-REC",
+   "toSide": "top",
+   "label": "+1 motivates",
+   "color": "4"
+  },
+  {
+   "id": "K-X",
+   "fromNode": "setser_2026-09-15_de-reservification-not-de-dollarization-K",
+   "fromSide": "bottom",
+   "toNode": "setser_2026-09-15_de-reservification-not-de-dollarization-X",
+   "toSide": "top",
+   "label": "-1 rebuts",
+   "color": "1"
+  },
+  {
+   "id": "REC-X",
+   "fromNode": "setser_2026-09-15_de-reservification-not-de-dollarization-REC",
+   "fromSide": "bottom",
+   "toNode": "setser_2026-09-15_de-reservification-not-de-dollarization-X",
+   "toSide": "top",
+   "label": "-1 rebuts",
+   "color": "1"
+  },
+  {
+   "id": "K-QF",
+   "fromNode": "setser_2026-09-15_de-reservification-not-de-dollarization-K",
+   "fromSide": "bottom",
+   "toNode": "setser_2026-09-15_de-reservification-not-de-dollarization-QF",
+   "toSide": "top",
+   "label": "-1 qualified_by",
+   "color": "1"
+  },
+  {
+   "id": "K-QF2",
+   "fromNode": "setser_2026-09-15_de-reservification-not-de-dollarization-K",
+   "fromSide": "bottom",
+   "toNode": "setser_2026-09-15_de-reservification-not-de-dollarization-QF2",
+   "toSide": "top",
+   "label": "-1 qualified_by",
+   "color": "1"
+  }
+ ]
+}

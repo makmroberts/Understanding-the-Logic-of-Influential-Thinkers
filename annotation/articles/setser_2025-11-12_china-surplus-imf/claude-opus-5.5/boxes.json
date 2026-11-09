@@ -1,0 +1,324 @@
+{
+ "result": [
+  {
+   "excerpt": "the IMF has struggled to clearly identify China's outsized contribution to global imbalances.",
+   "claim": "Why does the IMF fail to see China's huge surplus, and what does that miss cost in its policy advice?",
+   "role": "question",
+   "explicit": false,
+   "kind": "none",
+   "claim_type": "none",
+   "paragraphs": [
+    1,
+    14
+   ],
+   "reason": "When direct evidence and an institution's headline measure disagree, ask why the measure misses it.",
+   "excerpt_para": 14,
+   "id": "Q",
+   "level": "L0"
+  },
+  {
+   "excerpt": "That is IMF relies exclusively on countries' reported current account surpluses and deficits in its assessment of the size of external payments imbalances.",
+   "claim": "The IMF judges imbalances solely on reported current account balances.",
+   "role": "scope_choice",
+   "explicit": true,
+   "kind": "none",
+   "claim_type": "none",
+   "paragraphs": [
+    14,
+    16
+   ],
+   "reason": "Which statistic an assessment relies on determines what imbalances it can see.",
+   "excerpt_para": 14,
+   "id": "SCP",
+   "level": "L1B"
+  },
+  {
+   "excerpt": "China's exports are up a cumulative 40 percent in volume terms since the end of 2019, while imports in volume terms are up only 1 percent.",
+   "claim": "China's car exports above 6 million, export volumes up 40% against imports up 1%, a manufactured goods surplus above $2 trillion (10.5% of GDP) and a customs goods surplus of $1.2 trillion all show a massive surplus.",
+   "role": "evidence_data",
+   "explicit": true,
+   "kind": "none",
+   "claim_type": "none",
+   "paragraphs": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+   ],
+   "reason": "Physical trade volumes and customs flows show the scale of an external imbalance directly.",
+   "excerpt_para": 5,
+   "id": "E1",
+   "level": "L2"
+  },
+  {
+   "excerpt": "exports were 17 percent of GDP at the start of this boom, so the math here is simple",
+   "claim": "Net exports have contributed more than a percentage point a year to China's growth, which does not fit its GDP data.",
+   "role": "intermediate_claim",
+   "explicit": true,
+   "kind": "none",
+   "claim_type": "none",
+   "paragraphs": [
+    6,
+    30
+   ],
+   "reason": "Export share times the gap between export and import growth gives the growth contribution of net exports.",
+   "excerpt_para": 6,
+   "id": "C1",
+   "level": "L4"
+  },
+  {
+   "excerpt": "The Dutch CPB data set on export volumes shows China's export volume growth lapping global trade",
+   "claim": "CPB data show China's export volumes outpacing global trade while Europe's shrink.",
+   "role": "evidence_source",
+   "explicit": true,
+   "kind": "none",
+   "claim_type": "none",
+   "paragraphs": [
+    11,
+    26
+   ],
+   "reason": "An independent trade volume dataset can confirm a shift in market share.",
+   "excerpt_para": 11,
+   "id": "E3",
+   "level": "L2"
+  },
+  {
+   "excerpt": "The ECB says this ultimately stems from a shortfall in China's domestic demand, which makes sense.",
+   "claim": "Weak Chinese domestic demand frees spare capacity for export, and the low rates and weak currency it brings push the surplus up further.",
+   "role": "mechanism",
+   "explicit": true,
+   "kind": "economic",
+   "claim_type": "none",
+   "paragraphs": [
+    12
+   ],
+   "reason": "Weak domestic demand plus monetary easing and a weak currency raise net exports.",
+   "excerpt_para": 12,
+   "id": "M1",
+   "level": "L3"
+  },
+  {
+   "excerpt": "There consequently should be no doubt that global payments imbalances have returned, and are now quite large.",
+   "claim": "Global imbalances are back and large, and China's export-led growth points to wider imbalances and more trade tension.",
+   "role": "intermediate_claim",
+   "explicit": true,
+   "kind": "none",
+   "claim_type": "none",
+   "paragraphs": [
+    12,
+    13
+   ],
+   "reason": "Growth that relies on net exports in a large economy widens global imbalances.",
+   "excerpt_para": 12,
+   "id": "C2",
+   "level": "L4"
+  },
+  {
+   "excerpt": "China's reported current account surplus rose to $420 billion in 2024... It reached 2.2 percent of China's GDP",
+   "claim": "China's reported current account surplus, at 2.2% of GDP, is only slightly above its norm and smaller as a share of GDP than those of Japan, Korea, Germany or the EU.",
+   "role": "evidence_data",
+   "explicit": true,
+   "kind": "none",
+   "claim_type": "none",
+   "paragraphs": [
+    15,
+    16,
+    17
+   ],
+   "reason": "Measured on the official headline number, an imbalance can look ordinary.",
+   "excerpt_para": 15,
+   "id": "E2",
+   "level": "L2"
+  },
+  {
+   "excerpt": "its 2022 balance of payments methodology magically cut the goods surplus by over a percentage point of GDP, and the mysterious income deficit",
+   "claim": "A methodology change in China's balance of payments and an unexplained investment income deficit despite large net foreign assets deflate the reported current account.",
+   "role": "mechanism",
+   "explicit": true,
+   "kind": "distortion",
+   "claim_type": "none",
+   "paragraphs": [
+    24,
+    27
+   ],
+   "reason": "Methodology changes and unexplained income items can artificially shrink a reported balance.",
+   "excerpt_para": 27,
+   "id": "M2",
+   "level": "L3"
+  },
+  {
+   "excerpt": "China still doesn't produce detailed quarterly GDP data at any level, a major data shortfall.",
+   "claim": "China's official data cannot be verified and deserve less trust than observable shipping flows.",
+   "role": "source_credibility",
+   "explicit": true,
+   "kind": "none",
+   "claim_type": "none",
+   "paragraphs": [
+    29,
+    30
+   ],
+   "reason": "Discount statistics from a producer whose numbers cannot be independently replicated.",
+   "excerpt_para": 30,
+   "id": "SC",
+   "level": "L1"
+  },
+  {
+   "excerpt": "",
+   "claim": "Customs trade data measure a country's true external imbalance better than balance of payments current account data.",
+   "role": "hidden_assumption",
+   "explicit": false,
+   "kind": "none",
+   "claim_type": "none",
+   "paragraphs": [
+    25,
+    27,
+    29
+   ],
+   "reason": "Directly observed transaction data beat heavily adjusted aggregates.",
+   "excerpt_para": null,
+   "id": "P2",
+   "level": "L1"
+  },
+  {
+   "excerpt": "The IMF's current account forecasts for China have consistently been off",
+   "claim": "The IMF forecast China's 2025 surplus to fall to $375 billion, yet it will top $650 billion through Q3.",
+   "role": "anomaly",
+   "explicit": true,
+   "kind": "none",
+   "claim_type": "none",
+   "paragraphs": [
+    15,
+    31
+   ],
+   "reason": "A forecast badly beaten by outcomes signals a flawed model.",
+   "excerpt_para": 31,
+   "id": "ANOM",
+   "level": "L0"
+  },
+  {
+   "excerpt": "China's currency has fallen further, which also should raise the surplus with a lag.",
+   "claim": "Exchange rate moves affect trade with a lag, and a property downturn raises the external surplus.",
+   "role": "stated_assumption",
+   "explicit": true,
+   "kind": "none",
+   "claim_type": "none",
+   "paragraphs": [
+    31
+   ],
+   "reason": "Currency depreciation raises the trade balance with a multi-year lag.",
+   "excerpt_para": 31,
+   "id": "P1",
+   "level": "L1"
+  },
+  {
+   "excerpt": "it has allowed the IMF to define China's problem as one of lack of internal balance",
+   "claim": "Because the surplus looks small, the IMF treats China's problem as purely internal and recommends monetary easing, which weakens the currency and raises the surplus.",
+   "role": "intermediate_claim",
+   "explicit": true,
+   "kind": "none",
+   "claim_type": "none",
+   "paragraphs": [
+    18,
+    19,
+    21
+   ],
+   "reason": "Monetary easing in a surplus economy weakens the currency and widens the surplus.",
+   "excerpt_para": 18,
+   "id": "C3",
+   "level": "L4"
+  },
+  {
+   "excerpt": "The right response to a shortfall in demand that is leading to deflation and a rising trade surplus, though, is a sustained fiscal expansion",
+   "claim": "The IMF should call for a centrally funded fiscal expansion, including a bigger social safety net, in China.",
+   "role": "recommendation",
+   "explicit": true,
+   "kind": "none",
+   "claim_type": "none",
+   "paragraphs": [
+    20,
+    22,
+    23
+   ],
+   "reason": "Deflation together with a rising surplus calls for fiscal expansion, not easing.",
+   "excerpt_para": 20,
+   "id": "REC",
+   "level": "L5"
+  },
+  {
+   "excerpt": "Europe's surplus is almost as big and thus a focus on China isn't really warranted.",
+   "claim": "The view that Europe's surplus is nearly as large, so China deserves no special focus.",
+   "role": "opposing_view",
+   "explicit": true,
+   "kind": "none",
+   "claim_type": "none",
+   "paragraphs": [
+    24,
+    25
+   ],
+   "reason": "Rival claims should be tested against the best-measured data.",
+   "excerpt_para": 25,
+   "id": "X",
+   "level": "L6"
+  },
+  {
+   "excerpt": "Its 15 percent of GDP current account surplus adds about half a point to the euro area's aggregate surplus.",
+   "claim": "Ireland's tax-driven surplus and its FDI income deficit, including Microsoft's Irish profits, distort the euro area figures.",
+   "role": "mechanism",
+   "explicit": true,
+   "kind": "distortion",
+   "claim_type": "none",
+   "paragraphs": [
+    10,
+    25,
+    32
+   ],
+   "reason": "Multinational profit shifting inflates the goods balance of a tax haven and hides its region's income balance.",
+   "excerpt_para": 32,
+   "id": "M3",
+   "level": "L3"
+  },
+  {
+   "excerpt": "the IMF does want pro-consumption structural reforms",
+   "claim": "To be fair, the IMF does support pro-consumption reforms and bank recapitalization.",
+   "role": "caveat",
+   "explicit": true,
+   "kind": "none",
+   "claim_type": "none",
+   "paragraphs": [
+    23
+   ],
+   "reason": "Acknowledge where the criticised party partly agrees.",
+   "excerpt_para": 23,
+   "id": "QF",
+   "level": "L6"
+  },
+  {
+   "excerpt": "the result of these statistical shenanigans is rather problematic if it keeps the IMF (and others) from recognizing how much of an issue China's current growth model is",
+   "claim": "China's understated surplus leads the IMF to underplay China's role in global imbalances and to give it wrong policy advice; attention should be on China.",
+   "role": "main_claim",
+   "explicit": true,
+   "kind": "none",
+   "claim_type": "single",
+   "paragraphs": [
+    24,
+    28,
+    29
+   ],
+   "reason": "Mismeasured statistics lead to misdirected policy.",
+   "excerpt_para": 28,
+   "id": "K",
+   "level": "L5"
+  }
+ ],
+ "review": [
+  "`M3` the name `irish` does not occur in the article"
+ ],
+ "gaps_left": [],
+ "dropped": [],
+ "fix_rounds": 0,
+ "reasks": 0
+}

@@ -1,0 +1,46 @@
+---
+config:
+  layout: elk
+  theme: dark
+  themeVariables:
+    lineColor: "#D3D1C7"
+    clusterBkg: "#262624"
+    clusterBorder: "#5F5E5A"
+    titleColor: "#F1EFE8"
+    edgeLabelBackground: "#2C2C2A"
+  flowchart:
+    wrappingWidth: 210
+    nodeSpacing: 18
+    rankSpacing: 30
+---
+flowchart LR
+
+  subgraph SUP["Solid · the argument moves forward"]
+    S1["<b>supports</b><br/>A gives reason to accept B"]
+    S2["<b>licenses</b><br/>Without A, the step to B is invalid"]
+    S3["<b>bounds</b> · <b>compared against</b><br/>A constrains how B is measured"]
+    S4["<b>motivates</b><br/>A is the reason B is proposed"]
+    S5["<b>reconstructs</b><br/>A replaces a quantity shown to be wrong"]
+  end
+
+  subgraph PUSH["Dashed · the argument pushes back"]
+    D1["<b>revises</b><br/>A is a prior the author now rejects"]
+    D2["<b>rebuts</b><br/>A argues directly against B"]
+    D3["<b>qualified by</b><br/>B limits where A holds"]
+    D4["<b>undercut by</b><br/>B weakens A without refuting it"]
+    D5["<b>defers</b><br/>A sets B aside explicitly"]
+  end
+
+  subgraph RULE["The rule"]
+    R["An article may use <b>only</b> these ten.<br/><br/>If a relation fits none of them,<br/>the slot assignment is probably wrong.<br/><br/>Direction matters: evidence points <i>to</i><br/>what it supports. A figure measuring the<br/><i>result</i> of a mechanism is not evidence<br/>for that mechanism."]
+  end
+
+  SUP ~~~ PUSH
+  PUSH ~~~ RULE
+
+  classDef solid fill:#1F3A32,stroke:#5DCAA5,color:#E1F5EE
+  classDef dash fill:#3A3A38,stroke:#B4B2A9,color:#F1EFE8,stroke-dasharray:5 4
+  classDef rule fill:#2C2C2A,stroke:#F1EFE8,color:#F1EFE8,stroke-width:2px
+  class S1,S2,S3,S4,S5 solid
+  class D1,D2,D3,D4,D5 dash
+  class R rule

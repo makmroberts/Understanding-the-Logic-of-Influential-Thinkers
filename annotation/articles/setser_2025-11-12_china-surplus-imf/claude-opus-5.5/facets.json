@@ -1,0 +1,660 @@
+{
+ "result": [
+  {
+   "doc": "setser_2025-11-12_china-surplus-imf",
+   "node_id": "Q",
+   "facet": "variable",
+   "value": "current-account",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2025-11-12_china-surplus-imf",
+   "node_id": "Q",
+   "facet": "variable",
+   "value": "global-imbalances",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2025-11-12_china-surplus-imf",
+   "node_id": "Q",
+   "facet": "data_basis",
+   "value": "imf-publications",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2025-11-12_china-surplus-imf",
+   "node_id": "Q",
+   "facet": "country",
+   "value": "china",
+   "role": "subject",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2025-11-12_china-surplus-imf",
+   "node_id": "SCP",
+   "facet": "variable",
+   "value": "current-account",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2025-11-12_china-surplus-imf",
+   "node_id": "SCP",
+   "facet": "data_basis",
+   "value": "imf-publications",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2025-11-12_china-surplus-imf",
+   "node_id": "SCP",
+   "facet": "data_basis",
+   "value": "balance-of-payments",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2025-11-12_china-surplus-imf",
+   "node_id": "SCP",
+   "facet": "bloc",
+   "value": "global",
+   "role": "subject",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2025-11-12_china-surplus-imf",
+   "node_id": "E1",
+   "facet": "variable",
+   "value": "export-volumes",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2025-11-12_china-surplus-imf",
+   "node_id": "E1",
+   "facet": "variable",
+   "value": "manufacturing-trade-balance",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2025-11-12_china-surplus-imf",
+   "node_id": "E1",
+   "facet": "variable",
+   "value": "goods-trade-balance",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2025-11-12_china-surplus-imf",
+   "node_id": "E1",
+   "facet": "data_basis",
+   "value": "customs",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2025-11-12_china-surplus-imf",
+   "node_id": "E1",
+   "facet": "country",
+   "value": "china",
+   "role": "subject",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2025-11-12_china-surplus-imf",
+   "node_id": "C1",
+   "facet": "variable",
+   "value": "gdp-growth",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2025-11-12_china-surplus-imf",
+   "node_id": "C1",
+   "facet": "data_basis",
+   "value": "national-accounts",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2025-11-12_china-surplus-imf",
+   "node_id": "C1",
+   "facet": "country",
+   "value": "china",
+   "role": "subject",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2025-11-12_china-surplus-imf",
+   "node_id": "E3",
+   "facet": "variable",
+   "value": "export-volumes",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2025-11-12_china-surplus-imf",
+   "node_id": "E3",
+   "facet": "data_basis",
+   "value": "third-party-trackers",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2025-11-12_china-surplus-imf",
+   "node_id": "E3",
+   "facet": "country",
+   "value": "china",
+   "role": "subject",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2025-11-12_china-surplus-imf",
+   "node_id": "E3",
+   "facet": "country",
+   "value": "euro-area",
+   "role": "counterpart",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2025-11-12_china-surplus-imf",
+   "node_id": "M1",
+   "facet": "variable",
+   "value": "domestic-demand",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2025-11-12_china-surplus-imf",
+   "node_id": "M1",
+   "facet": "variable",
+   "value": "manufacturing-output",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2025-11-12_china-surplus-imf",
+   "node_id": "M1",
+   "facet": "variable",
+   "value": "nominal-exchange-rate",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2025-11-12_china-surplus-imf",
+   "node_id": "M1",
+   "facet": "country",
+   "value": "china",
+   "role": "subject",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2025-11-12_china-surplus-imf",
+   "node_id": "C2",
+   "facet": "variable",
+   "value": "global-imbalances",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2025-11-12_china-surplus-imf",
+   "node_id": "C2",
+   "facet": "bloc",
+   "value": "global",
+   "role": "subject",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2025-11-12_china-surplus-imf",
+   "node_id": "E2",
+   "facet": "variable",
+   "value": "current-account",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2025-11-12_china-surplus-imf",
+   "node_id": "E2",
+   "facet": "data_basis",
+   "value": "imf-publications",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2025-11-12_china-surplus-imf",
+   "node_id": "E2",
+   "facet": "country",
+   "value": "china",
+   "role": "subject",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2025-11-12_china-surplus-imf",
+   "node_id": "M2",
+   "facet": "variable",
+   "value": "current-account",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2025-11-12_china-surplus-imf",
+   "node_id": "M2",
+   "facet": "variable",
+   "value": "investment-income-balance",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2025-11-12_china-surplus-imf",
+   "node_id": "M2",
+   "facet": "data_basis",
+   "value": "balance-of-payments",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2025-11-12_china-surplus-imf",
+   "node_id": "M2",
+   "facet": "country",
+   "value": "china",
+   "role": "subject",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2025-11-12_china-surplus-imf",
+   "node_id": "SC",
+   "facet": "variable",
+   "value": "goods-trade-balance",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2025-11-12_china-surplus-imf",
+   "node_id": "SC",
+   "facet": "data_basis",
+   "value": "balance-of-payments",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2025-11-12_china-surplus-imf",
+   "node_id": "SC",
+   "facet": "data_basis",
+   "value": "mirror-statistics",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2025-11-12_china-surplus-imf",
+   "node_id": "SC",
+   "facet": "country",
+   "value": "china",
+   "role": "subject",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2025-11-12_china-surplus-imf",
+   "node_id": "P2",
+   "facet": "variable",
+   "value": "goods-trade-balance",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2025-11-12_china-surplus-imf",
+   "node_id": "P2",
+   "facet": "variable",
+   "value": "current-account",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2025-11-12_china-surplus-imf",
+   "node_id": "P2",
+   "facet": "data_basis",
+   "value": "customs",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2025-11-12_china-surplus-imf",
+   "node_id": "P2",
+   "facet": "data_basis",
+   "value": "balance-of-payments",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2025-11-12_china-surplus-imf",
+   "node_id": "ANOM",
+   "facet": "variable",
+   "value": "current-account",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2025-11-12_china-surplus-imf",
+   "node_id": "ANOM",
+   "facet": "data_basis",
+   "value": "imf-publications",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2025-11-12_china-surplus-imf",
+   "node_id": "ANOM",
+   "facet": "country",
+   "value": "china",
+   "role": "subject",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2025-11-12_china-surplus-imf",
+   "node_id": "P1",
+   "facet": "variable",
+   "value": "nominal-exchange-rate",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2025-11-12_china-surplus-imf",
+   "node_id": "P1",
+   "facet": "variable",
+   "value": "current-account",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2025-11-12_china-surplus-imf",
+   "node_id": "C3",
+   "facet": "variable",
+   "value": "nominal-exchange-rate",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2025-11-12_china-surplus-imf",
+   "node_id": "C3",
+   "facet": "variable",
+   "value": "current-account",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2025-11-12_china-surplus-imf",
+   "node_id": "C3",
+   "facet": "instrument",
+   "value": "monetary-policy",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2025-11-12_china-surplus-imf",
+   "node_id": "C3",
+   "facet": "data_basis",
+   "value": "imf-publications",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2025-11-12_china-surplus-imf",
+   "node_id": "C3",
+   "facet": "country",
+   "value": "china",
+   "role": "subject",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2025-11-12_china-surplus-imf",
+   "node_id": "REC",
+   "facet": "variable",
+   "value": "fiscal-balance",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2025-11-12_china-surplus-imf",
+   "node_id": "REC",
+   "facet": "variable",
+   "value": "household-consumption-share",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2025-11-12_china-surplus-imf",
+   "node_id": "REC",
+   "facet": "instrument",
+   "value": "fiscal-policy",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2025-11-12_china-surplus-imf",
+   "node_id": "REC",
+   "facet": "instrument",
+   "value": "structural-reform",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2025-11-12_china-surplus-imf",
+   "node_id": "REC",
+   "facet": "country",
+   "value": "china",
+   "role": "subject",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2025-11-12_china-surplus-imf",
+   "node_id": "X",
+   "facet": "variable",
+   "value": "current-account",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2025-11-12_china-surplus-imf",
+   "node_id": "X",
+   "facet": "country",
+   "value": "euro-area",
+   "role": "subject",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2025-11-12_china-surplus-imf",
+   "node_id": "X",
+   "facet": "country",
+   "value": "china",
+   "role": "counterpart",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2025-11-12_china-surplus-imf",
+   "node_id": "M3",
+   "facet": "variable",
+   "value": "current-account",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2025-11-12_china-surplus-imf",
+   "node_id": "M3",
+   "facet": "variable",
+   "value": "investment-income-balance",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2025-11-12_china-surplus-imf",
+   "node_id": "M3",
+   "facet": "data_basis",
+   "value": "balance-of-payments",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2025-11-12_china-surplus-imf",
+   "node_id": "M3",
+   "facet": "country",
+   "value": "ireland",
+   "role": "subject",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2025-11-12_china-surplus-imf",
+   "node_id": "M3",
+   "facet": "country",
+   "value": "euro-area",
+   "role": "subject",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2025-11-12_china-surplus-imf",
+   "node_id": "QF",
+   "facet": "variable",
+   "value": "household-consumption-share",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2025-11-12_china-surplus-imf",
+   "node_id": "QF",
+   "facet": "instrument",
+   "value": "structural-reform",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2025-11-12_china-surplus-imf",
+   "node_id": "QF",
+   "facet": "data_basis",
+   "value": "imf-publications",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2025-11-12_china-surplus-imf",
+   "node_id": "QF",
+   "facet": "country",
+   "value": "china",
+   "role": "subject",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2025-11-12_china-surplus-imf",
+   "node_id": "K",
+   "facet": "variable",
+   "value": "current-account",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2025-11-12_china-surplus-imf",
+   "node_id": "K",
+   "facet": "variable",
+   "value": "global-imbalances",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2025-11-12_china-surplus-imf",
+   "node_id": "K",
+   "facet": "data_basis",
+   "value": "imf-publications",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2025-11-12_china-surplus-imf",
+   "node_id": "K",
+   "facet": "country",
+   "value": "china",
+   "role": "subject",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  }
+ ],
+ "review": [
+  "`setser_2025-11-12_china-surplus-imf#P2` where_subject empty - every claim needs a country or a bloc (assignment.requires_one_of) - needs review",
+  "`setser_2025-11-12_china-surplus-imf#P1` where_subject empty - every claim needs a country or a bloc (assignment.requires_one_of) - needs review"
+ ],
+ "gaps_left": [],
+ "dropped": [],
+ "fix_rounds": 0,
+ "reasks": 0
+}
