@@ -28,7 +28,8 @@ tags: [type/evidence_source, level/L2, family/banner, variable/current-account, 
 ## Source
 - Article: [[2024-08-14 China's Imaginary Trade Data]]
 - Authored map: `mermaid_code/setser_aug_14_24.mmd`
-- Passage: **p3** — **states**, anchored on `appendix imf vii`, a literal the claim and the paragraph share
+- Passage: **p23** — **states**, anchored on `adam wolf`, a literal the claim and the paragraph share
+- Passage: **p3** — **states**, anchored on `vii`, a literal the claim and the paragraph share
 - Published: https://www.cfr.org/articles/chinas-imaginary-trade-data
 - Node `setser_aug_14_24#E2` · level L2 · type resolved by `header`
 - Full chain: `python scripts/trace.py setser_aug_14_24#E2`

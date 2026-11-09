@@ -31,7 +31,8 @@ tags: [type/caveat, level/L6, family/meta, variable/import-volumes, variable/tar
 ## Source
 - Article: [[2025-09-12 The Trump Shock That Wasn't (At Least Not Yet)]]
 - Authored map: `mermaid_code/setser_2025-09-12_trump-shock-that-wasnt.mmd`
-- Passage: **p19** — **states**, anchored on `april asia august southeast`, a literal the claim and the paragraph share
+- Passage: **p14** — **states**, anchored on `southeast`, a literal the claim and the paragraph share
+- Passage: **p19** — **states**, anchored on `april august southeast`, a literal the claim and the paragraph share
 - Published: https://www.cfr.org/articles/trump-shock-wasnt-least-not-yet
 - Node `setser_2025-09-12_trump-shock-that-wasnt#QF` · level L6 · type resolved by `header`
 - Full chain: `python scripts/trace.py setser_2025-09-12_trump-shock-that-wasnt#QF`

@@ -36,8 +36,8 @@ tags: [type/evidence_data, level/L2, family/banner, variable/commodity-prices, v
 ## Source
 - Article: [[2020-07-08 Slouching Toward Phase One]]
 - Authored map: `mermaid_code/setser_jul_8_20.mmd`
-- Passage: **p28** — **states**, anchored on `7percent`, a literal the claim and the paragraph share
 - Passage: **p30** — **states**, anchored on `1million 40 7.36billion`, a literal the claim and the paragraph share
+- Passage: **p33** — **states**, anchored on `40`, a literal the claim and the paragraph share
 - Passage: **p9** — **states**, anchored on `101billion 83billion`, a literal the claim and the paragraph share
 - Published: https://www.cfr.org/articles/slouching-toward-phase-one
 - Node `setser_jul_8_20#E1` · level L2 · type resolved by `header`

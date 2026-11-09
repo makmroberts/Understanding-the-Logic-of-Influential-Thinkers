@@ -1,0 +1,489 @@
+# The hand-written half of WORKED_EXAMPLE.md.
+#
+# scripts/worked_example.py generates every panel but panel 2 from data/.
+# Panel 2 is the reading pass - how prose became claims - and it is here
+# because that step is a human judgement. Code may propose, never overwrite:
+# the generator splices these notes in and prints WRITE ME where one is
+# missing, rather than filling the gap itself.
+#
+# HOUSE RULE FOR WRITING THESE
+#
+# A note is not a story about what the annotator was thinking. Nobody can
+# check that. A note gives the paragraph, the claim, and the rule in
+# schema_map.yaml the role answers to, so a reader can disagree with the fit.
+# Where the pipeline got the passage wrong, say so here - a walkthrough that
+# finds nothing wrong is a walkthrough nobody believes.
+#
+# STATUS: drafted 2026-10-28, reconstructed from the artifacts. Not yet
+# confirmed by the annotator (owner: isaac, per internal/extracted/_manifest.csv).
+
+documents:
+
+  setser_2025-07-07_china-stealth-surplus:
+
+    intro: |
+      `PROCESS.md` says what each step decides. This walks one article through
+      all of them, so the claim that a question can be answered the way this
+      analyst reasons can be checked rather than taken.
+
+      The article is 1,179 words of prose about a discrepancy between two
+      statistical sources. By the end of this document it is 13 claims, 18
+      links and 57 subject labels, and one of those claims is something Setser
+      never wrote down.
+
+      Read it with the published article open. Every paragraph reference below
+      is to the numbered paragraphs of the live page, and the whole point of
+      keeping the corpus at twenty articles is that a person can check this.
+
+    left_out: |
+      Sixteen of the twenty-nine paragraphs carry no passage link, and it is
+      worth being precise about what that means, because "the map throws away
+      half the article" and "the map keeps everything that argues" are very
+      different claims.
+
+      **Four are connective tissue.** p2 ("That basic statement maps to a host
+      of well-known and easily verified realities"), p10 ("But something is
+      lost in translation so to speak"), p11 and p21 ("Now consider investment
+      income") move the reader between sections. They assert nothing that
+      could be supported or attacked.
+
+      **Four illustrate a premise the article does not argue for.** p1, p3, p4
+      and p5 - the surplus has soared, autos, renewables, export volume growth.
+      Setser is not defending these; he is establishing that the thing to be
+      explained is real. The map puts that work in `Q`, which is what a Level 0
+      question node is for.
+
+      **Eight are content the map does represent, and the passage linker did
+      not connect.** p14, p15 and p16 are the whole SAFE-and-Apple rebuttal
+      that makes the 2021 break *unexplained* rather than merely unexplained-
+      to-me; that is `M1`'s substance and `M1` is linked to p25 instead. p22
+      and p23 are the investment income detail behind `M1` and `M2`. p18 is
+      the characterisation of analysts that `X` abstracts. p27 is half of `K`.
+      p29 is the Airbus footnote named in `QF`'s own text.
+
+      That last group is the honest number: **eight paragraphs of argument the
+      graph holds but cannot cite**, because the node text abstracts the
+      paragraph instead of quoting it, and `link_passages.py` ranks on shared
+      wording. It is a retrieval gap, not a modelling gap - the claim is in
+      the graph either way - but it is the gap, and `--full-text` plus a human
+      pass over `passage_review.yaml` is what closes it.
+
+    nodes:
+
+      Q: |
+        The question node is the annotator's statement of what the article is
+        for, and it is the one node with no obligation to match a sentence.
+        p7 is the pivot the article actually turns on - *"Yet that surplus
+        often seems to disappear when it comes to the statistics on global
+        imbalances"* - and the question is that sentence turned round.
+
+        The linker proposed p19 instead, at 0.271. p19 restates the puzzle
+        late, after the resolution is already in view. **Review item:** p7 is
+        the better home.
+
+      P1: |
+        Stated, in so many words, in p6: *"it maps to standard economic theory:
+        a large real estate crisis typically leads countries to rely more on
+        exports."* He asserts it and does not defend it, which is what
+        `stated_assumption` means in `schema_map.yaml` - stated, not argued.
+
+        Worth noticing what grade it got. At 0.694 this is the strongest
+        semantic match in the article, and it is still `candidate`, because
+        claim and paragraph share no *distinctive* literal - "exports",
+        "crisis" and "theory" are everywhere in this corpus. The grading is
+        deliberately conservative: `anchored` is a claim about provenance, and
+        a paraphrase, however good, is not provenance.
+
+      P2: |
+        p26: *"the real imbalance these days is all in China - and that is its
+        captured better in the customs data than the balance of payments
+        data."* The node is that sentence with the hedge removed.
+
+        It is graded `candidate / abstracts` at 0.442. **Review item:** this
+        one is close to a quotation and `states` is the better relation. It
+        missed `anchored` for the same reason `P1` did - every token it shares
+        with p26 (customs, data, balance, payments) recurs across the corpus,
+        so none of them is distinctive enough to anchor on. Two of the
+        article's clearest claim-to-sentence matches are the two the literal
+        test cannot see.
+
+      P3: |
+        **This is the node the method exists for.** Nothing in the article
+        says it. p26 states the *fact* - *"China's data has become much more
+        opaque over time; no one can replicate China's new balance of payments
+        goods series"* - but the step from that fact to *therefore prefer the
+        customs data* is never taken out loud. It is the warrant in Toulmin's
+        sense, and `hidden_assumption` is the role for a premise the argument
+        needs and the author does not supply.
+
+        Two things follow, and they pull in opposite directions.
+
+        It is why the graph answers questions a quote-extractor cannot. "What
+        does he assume, without defending, about China?" has an answer here,
+        and no search over the text of this article would return it.
+
+        It is also the weakest provenance in the article, and the document
+        should not pretend otherwise. The linker offered p7 at 0.193 with the
+        relation `presupposes`, which is the right *relation* and probably the
+        wrong paragraph. **Review item:** p26 is where the premise comes
+        closest to the surface.
+
+      E1: |
+        **A claim is not a span of text.** The figures are scattered through
+        the article because Setser introduces each where he needs it; they do
+        one job in the argument, so they are one node. Five paragraphs are
+        linked and all five are `anchored` - one per clause of the claim:
+        p8 ($430bn against $500bn), p20 ($650bn against $620bn), p24 ($4tn of
+        interest-paying assets against a $150-200bn income deficit), p16
+        ($400 a phone) and p3 (6 million vehicles).
+
+        This is the cleanest demonstration of what `anchored` buys. The grade
+        is not a similarity score that cleared a threshold; it is the
+        observation that this claim and that paragraph share a string a
+        reader can search for.
+
+        **It read three until 2026-10-28, and finding the other two is what
+        this document was for.** Reading the claim text against the citation
+        table showed two clauses with no paragraph under them - *"about $400
+        per phone"* and *"net vehicle exports above 6 million"* - both in the
+        article, both carrying the distinctive figure. Six paragraphs
+        qualified as `anchored` for `E1`; three were written.
+
+        The cause generalises, which is why it was worth chasing: a relative
+        score floor (`>= 0.6 x best`) is a **relevance** filter, and it was
+        being applied to a **provenance** signal. For an aggregate evidence
+        node the paragraph supplying the fifth figure always scores low on
+        cosine - p16 scores 0.106 against p8's 0.429 - because the claim text
+        is dominated by the other four, while the figure it shares is exactly
+        as distinctive as theirs.
+
+        The floor is gone from `link_passages.py` and the anchor test was
+        tightened to compensate; `scripts/README.md` has the corpus numbers
+        and the threshold sweep.
+
+      E2: |
+        The sources node: the IMF's 2024 Article IV, SAFE's argument about
+        Apple, Philip Lane and the ECB on Ireland, Rogoff in Finance and
+        Development. Anchored to p26 on `apple ireland lane philip`.
+
+        `evidence_source` and `evidence_data` are separate roles because they
+        fail differently. A number can be revised; a source can be
+        mischaracterised. Keeping them apart is what lets a later question ask
+        which of his conclusions rest on IMF publications - which is a real
+        query over `data_basis`, and `E2` carries `imf-publications` and
+        `academic-econometrics` for exactly that reason.
+
+      M1: |
+        The first of the two mechanisms, and the role came from the `classDef`
+        rather than the bold line: the annotator used the bold slot for a name
+        ("China understated") instead of a template role, and `class M1 mech`
+        caught it. This is the case `schema_map.yaml` resolves in priority
+        order - header, then class, then level - and 2 of 13 roles here land
+        on the second try.
+
+        Its substance is p14 (*"China hasn't really explained why its balance
+        of payments goods surplus tumbled in 2021"*) plus p23 and p24 on the
+        income deficit, strengthened by p15 and p16, where the one explanation
+        offered - SAFE's story about Apple's phone pricing - is checked
+        against the customs data and fails.
+
+        The linker put it on p25, the paragraph that states the *result*.
+        **Review item:** p14 is the mechanism; p25 is what the mechanism
+        produces.
+
+      M2: |
+        The mirror mechanism, anchored twice on `apple ireland` - p13 for the
+        goods leg and p26 for the income leg.
+
+        The pair `M1` and `M2` is the structure of the whole article: the gap
+        between the two data sources is overstatement at one end and
+        understatement at the other, and both have to hold for `C1` to follow.
+        They are drawn as two nodes rather than one because they are
+        independently attackable - `R1` undercuts `M1` and leaves `M2`
+        standing.
+
+      C1: |
+        p25: *"The overall result is that the EU reported a bigger current
+        account surplus than China in 2024, and that's what enters into the
+        IMF's standard analysis."* `intermediate_claim` because it is not
+        where the article lands - it is the thing that has to be true before
+        the main claim is interesting.
+
+        Its subject labels invert the article's: `euro-area` as subject,
+        `china` as counterpart. That is correct and worth seeing. `C1` is a
+        claim about how Europe looks in the data, stated so that `K` can
+        overturn the comparison.
+
+      K: |
+        The main claim, and until 2026-10-28 the place where the anchor test
+        embarrassed itself.
+
+        It was graded `anchored` to p28 on the shared literal `7` - the
+        digit, plucked out of "G7" by a figure pattern with no left word
+        boundary. Formally distinctive, substantively nothing, and it was the
+        main claim of the article citing a paragraph on a numeral. Its score,
+        0.101, was the lowest of the sixteen links and said so.
+
+        That is now fixed at source: a lookbehind stops a number being read
+        out of the middle of a name, so `G7`, `COVID-19` and `A321` no longer
+        produce figures. Nothing replaced the link, and **`K` is now `none`**
+        - which is the honest answer. Its real home is p26 and p27 together,
+        p26 making the case that the imbalance is in China and p27 asking
+        whether the IMF will act on it, and the matcher reaches neither
+        because the claim abstracts both rather than restating either.
+
+        **Review item:** `K` needs a hand-assigned passage. A main claim with
+        no citable paragraph is the normal case in this corpus, not a defect
+        - the conclusion of an argument is rarely a sentence in it.
+
+      X: |
+        The opposing view, and it is Setser's own characterisation of it:
+        p9 (*"So Europe, not China, seems to be the biggest contributor to
+        global imbalances. That, at least, is what is implied by the data sets
+        used by the IMF"*) and p18, where the analysts who use the broad data
+        are described rather more sharply.
+
+        `K --rebuts--> X`, signed -1, drawn with a label the annotator wrote
+        ("pushes back on"). The sign is argumentative, not causal: it does not
+        mean the main claim makes the opposing view smaller, it means the main
+        claim is aimed at it.
+
+      QF: |
+        The caveat, from p12 - the BoP-to-customs adjustments are not all
+        distortion, and the main one, insurance and freight, is modest and
+        legitimate - and from p29, the Airbus footnote, which the node's own
+        text names. Only p12 is linked.
+
+        `K --qualified_by--> QF` is a dashed edge the annotator labelled
+        "caveat", signed -1. The caveat is in the map because it is in the
+        article: a map that recorded only the load-bearing claims would make
+        this analyst look more certain than he is, and the concessions are
+        part of how he argues.
+
+      R1: |
+        p17: *"services (in China's case, essentially travel to Hong Kong and
+        Southeast Asia) further reduce China's goods and services surplus."*
+        A rival explanation for part of the gap, conceded in passing.
+
+        `M1 --undercut_by--> R1`, signed -1, labelled "other explanation" in
+        the map. Note where it attaches: to the mechanism, not to the main
+        claim. Setser is granting that some of China's lower reported surplus
+        is real, which weakens the understatement story without touching the
+        conclusion - and the graph records the difference, because the edge
+        lands on `M1`.
+
+    closing: |
+      **What it shows.** Thirteen claims, each with a role read off the map
+      and a subject from a closed vocabulary, linked by eighteen relations of
+      which four were written by hand and fourteen take a declared convention
+      that cannot inflate a support count. One claim, `P3`, is a premise the
+      argument needs and the article never states - and it is the one that
+      makes the cross-article question answerable.
+
+      **What it does not show.** That the fourteen declared relations are
+      right - they are a convention, chosen on evidence, which is a different
+      thing. That the subject labels are right - all 57 came from a model
+      session and every row says so. That another annotator would draw this
+      map; no article in the corpus has two independent annotations, so the
+      agreement harness has nothing to measure.
+
+      **What it turned up, and what came of it.** Reading the panels against
+      each other found six things. Four are still open and are verdicts for
+      `passage_review.yaml`, which does not exist yet: `Q`, `P3` and `M1` sit
+      on the wrong paragraph, and `P2` has the wrong relation.
+
+      The other two were the same bug from both ends, and both are fixed.
+      `K` was `anchored` on the digit 7, pulled out of "G7"; `E1` was cited
+      by three paragraphs where six qualified. The anchor test was admitting
+      tokens that are distinctive by document frequency and meaningless as
+      identifiers - a bare numeral, `!states` and `!united`, `!covid-` and
+      `19`, a word capitalised only because it opened a sentence - and a
+      relative score floor was then discarding a third of all anchored pairs
+      to compensate. Tightening what may anchor let the floor come off.
+      Corpus-wide the effect was 92 anchored rows to 115, and the numbers and
+      the threshold sweep are in `scripts/README.md`.
+
+      Six claims that previously reached an anchor no longer do, `K` among
+      them. That is the change working rather than failing: their only anchor
+      was a shared percentage, and a claim with an honest `none` is worth
+      more than a claim with a citation that does not survive being checked.
+
+  # ---------------------------------------------------------------------
+  # Second example. Chosen to differ from the first on every axis that
+  # matters: a different annotator (sicheng, per internal/extracted/
+  # _manifest.csv), a different template family, and an argument that fans
+  # out into a typology instead of narrowing to one claim.
+  #
+  # STATUS: drafted 2026-10-28, reconstructed from the artifacts. Not
+  # confirmed by the annotator. The house rule at the top of this file
+  # matters more here than in the first example, because whoever writes
+  # these notes did not read the article alongside the person who drew the
+  # map.
+  # ---------------------------------------------------------------------
+
+  setser_mar_31_20:
+
+    intro: |
+      The first worked example is one analyst's own map of his own article.
+      This is the control: a different annotator, a different template, and
+      an argument with a different shape.
+
+      It is also the article that best shows what the passage matcher is
+      for. Four of its claims are sourced to a named person - Truman,
+      Carstens, Buchheit, Landers - and a name is the one thing a paraphrase
+      cannot lose.
+
+    left_out: |
+      Twenty-two of the thirty-six paragraphs carry no link, a higher share
+      than in the first example, and the reason is visible in the map: this
+      argument ends in a **typology and a list of recommendations**, and
+      both compress many paragraphs into one node. `REC` alone stands for
+      the whole policy section - buffers, swap lines, trade finance, SDRs,
+      IMF capacity, MDB callable capital, payment deferral - and anchors to
+      two paragraphs of the seven or eight that supply it.
+
+      That is the aggregate-node problem from the first example again, in a
+      role other than evidence. Whether `recommendation` claims
+      systematically under-cite across the corpus is worth measuring; nobody
+      has.
+
+    nodes:
+
+      Q: |
+        The framing question, and the one the title answers. `candidate` to
+        p7, where the four shocks are enumerated.
+
+      P1: |
+        Two assertions in one slot - shocks can offset one another, and swap
+        lines fund dollar balance sheets rather than balance-of-payments
+        gaps. The second is doing the work: it is what makes `M2` possible.
+
+        **Review item** on its own terms. A node carrying two claims cannot
+        be attacked separately, and the half the argument leans on is the
+        second one.
+
+      P2: |
+        The hidden assumption, and the same shape as `P3` in the first
+        example: the article never argues that the external balance sheet is
+        the right thing to sort countries by, it just sorts by it.
+        Everything downstream - `M1`, `C2`, the whole typology - depends on
+        that choice.
+
+        `presupposes` against p15, which is the right relation. The second
+        article running in which the hidden assumption is the load-bearing
+        node.
+
+      P3: |
+        **The role that is genuinely ours.** `revised_prior` is one of the
+        two types sitting outside Toulmin's six elements - a change of mind
+        across articles rather than a move inside this argument - and this
+        is a clean instance: *"contrary to a forecast that I made with Dr.
+        Roubini back in 2005"*.
+
+        `anchored` to p33 on the literal `2005`. Note what kind of anchor
+        that is. A bare year is the same class of token that produced the
+        `7`-from-"G7" problem in the first example; it survives the
+        tightened test because it appears in only two articles and because
+        the claim names the year itself. It is right here, and it is the
+        residual risk of that family. **Review item:** confirm p33 carries
+        the revision rather than merely sharing the date.
+
+      E1: |
+        Four figures from the commodity shock - Brent under $25, Saudi
+        reserves around $500bn, GCC sovereign funds over $1tn, copper at
+        multiyear lows. Anchored to p2 and p10.
+
+      E2: |
+        **The best anchoring in the corpus, and the clearest case for the
+        change made on 2026-10-28.** Four paragraphs, four separate anchors,
+        every one a surname: Truman on IMF lending capacity (p26), Landers,
+        Lee and Morris on callable capital (p27), Hagan and Buchheit on
+        maturity extension (p28), Carstens and the BIS on trade finance
+        (p20).
+
+        Two of those four were being discarded before the change. `!bis
+        !carstens` and `!buchheit !hagan !lee` are in the measured list of
+        anchors the old relative score floor threw away, for the same reason
+        `E1` lost its fifth figure in the first example: a sources node's
+        text is dominated by whichever name scores highest, and the rest
+        fall below `0.6 x best` while being exactly as distinctive.
+
+        A surname is the strongest anchor there is. It survives paraphrase,
+        it is rare by construction, and a reader confirms it in one search.
+
+      M1: |
+        The sorting mechanism - the same four shocks land very differently
+        depending on the external balance sheet.
+
+        **No paragraph at all**, graded `none`, and so is `M2`. Both of this
+        article's mechanisms are unlinked, which matches `M1` in the first
+        example and is worth treating as a finding rather than a
+        coincidence: a mechanism is usually built across a run of paragraphs
+        and restated in none of them, so a matcher ranking on shared wording
+        has nothing to lock onto.
+
+      M2: |
+        Swap lines solve dollar funding and were never designed to cover a
+        balance-of-payments shortfall. `none`, as above.
+
+        This is `P1`'s second clause promoted to a mechanism, which is the
+        other reason to split `P1`.
+
+      C1: |
+        Countries with strong external balance sheets can weather this
+        themselves if they act decisively. `candidate` to p14.
+
+      C2: |
+        `case_type`, and the reason this article has a different shape from
+        the first. Three types, the last splitting again - the conclusion
+        **fans out** instead of narrowing. The map's own banner says as
+        much: *"the only article whose conclusion is a classification"*.
+
+      K: |
+        *"Different problems require different solutions"*, with the policy
+        consequence that when private capital retreats the official sector
+        must advance. A typology standing as a main claim.
+
+      REC: |
+        `recommendation`, carrying the entire policy section in one node,
+        anchored to p24 and p25 on `sdr`.
+
+        Note that `REC` and `QF` anchor to the **same two paragraphs** on
+        the same literal with different relations. That is the matcher
+        behaving correctly rather than failing: p24 proposes the SDR
+        allocation and p25 says why it is not sufficient alone, so one
+        passage legitimately carries both a recommendation and the caveat
+        against it.
+
+      X: |
+        The opposing view, in the creditors' own voice - they would rather
+        be paid, and *"this will take goodwill"*. `candidate` to p28.
+
+      QF: |
+        The caveat: SDRs are allocated by quota rather than need, so they
+        are insufficient alone, and MDB capital would need legislation.
+        Anchored to p24 and p25 alongside `REC`.
+
+    closing: |
+      **What the second example adds.** Everything structural in the first
+      one holds with a different annotator and a different template, which
+      is the only evidence so far that the method is not one person's habit.
+      The role vocabulary, the two gates on an anchor, the sign convention
+      and the provenance columns all behave the same way.
+
+      **What differs is the shape, and the shape is the point.** This
+      article fans out where the first narrows, fills 14 of its template's
+      26 slots and marks the other 12 `absent` or `n/a` rather than omitting
+      them, and ends in a classification plus a list. None of that shows up
+      in the corpus-level counts; it is visible only in the map.
+
+      **What it turned up.** `P1` carries two claims in one slot and the
+      second is the premise the argument leans on - it should be split. Both
+      mechanisms are graded `none`, matching `M1` in the first example and
+      suggesting the matcher has a systematic blind spot for mechanism nodes
+      rather than a run of bad luck. `REC` compresses a seven-paragraph
+      policy section into one node and cites two of them, which is the
+      aggregate-node problem appearing outside the evidence roles.
+
+      Two of those are annotation questions for the annotator and one is a
+      measurement nobody has run.

@@ -27,7 +27,8 @@ tags: [type/caveat, level/L6, family/banner, variable/capital-flows, variable/fx
 ## Source
 - Article: [[2020-03-31 Not One Emerging Market Financial Crisis, but Many]]
 - Authored map: `mermaid_code/setser_mar_31_20.mmd`
-- Passage: p25 — _proposed `abstracts`, score 0.253; unreviewed, not a citation_
+- Passage: **p24** — **states**, anchored on `sdrs`, a literal the claim and the paragraph share
+- Passage: **p25** — **states**, anchored on `sdrs`, a literal the claim and the paragraph share
 - Published: https://www.cfr.org/articles/not-one-emerging-market-financial-crisis-many
 - Node `setser_mar_31_20#QF` · level L6 · type resolved by `header`
 - Full chain: `python scripts/trace.py setser_mar_31_20#QF`

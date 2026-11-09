@@ -32,7 +32,7 @@ tags: [type/evidence_data, level/L2, family/plain, variable/investment-income-ba
 - Article: [[2018-02-15 Will Trump's fiscal expansion undermine his goal of reducing the U.S. trade deficit]]
 - Concept: [[debt-dynamics-sensitive-to-rates]]
 - Authored map: `mermaid_code/setser_feb_15_18.mmd`
-- Passage: **p10** — **states**, anchored on `50percent`, a literal the claim and the paragraph share
+- Passage: p10 — _proposed `abstracts`, score 0.477; unreviewed, not a citation_
 - Published: https://www.cfr.org/articles/trumps-tax-success-expense-his-trade-agenda
 - Node `setser_feb_15_18#D4` · level L2 · type resolved by `class`
 - Full chain: `python scripts/trace.py setser_feb_15_18#D4`

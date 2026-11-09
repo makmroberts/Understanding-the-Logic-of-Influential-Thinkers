@@ -34,7 +34,7 @@ tags: [type/evidence_data, level/L2, family/plain, variable/gdp-growth, country/
 ## Source
 - Article: [[2019-05-10 If U.S.-China trade tensions escalate, will China keep the yuan stable or let it weaken]]
 - Authored map: `mermaid_code/setser_may_10_19.mmd`
-- Passage: p13 — _proposed `abstracts`, score 0.295; unreviewed, not a citation_
+- Passage: **p13** — **states**, anchored on `ubs`, a literal the claim and the paragraph share
 - Published: https://www.cfr.org/articles/what-difference-week-or-weekend-makes
 - Node `setser_may_10_19#D2` · level L2 · type resolved by `class`
 - Full chain: `python scripts/trace.py setser_may_10_19#D2`

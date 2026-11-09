@@ -33,7 +33,7 @@ tags: [type/anomaly, level/L0, family/banner, variable/nominal-exchange-rate, co
 ## Source
 - Article: [[2025-05-05 Why Didn't Tariffs Push Up the U.S. Dollar]]
 - Authored map: `mermaid_code/setser_may_5_25.mmd`
-- Passage: **p7** — **states**, anchored on `10percent`, a literal the claim and the paragraph share
+- Passage: **p3** — **states**, anchored on `cea`, a literal the claim and the paragraph share
 - Published: https://www.cfr.org/articles/why-didnt-tariffs-push-us-dollar
 - Node `setser_may_5_25#ANOM` · level L0 · type resolved by `header`
 - Full chain: `python scripts/trace.py setser_may_5_25#ANOM`

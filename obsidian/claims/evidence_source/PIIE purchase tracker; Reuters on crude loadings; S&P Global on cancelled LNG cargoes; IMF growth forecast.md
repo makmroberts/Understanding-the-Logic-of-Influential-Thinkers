@@ -31,7 +31,7 @@ tags: [type/evidence_source, level/L2, family/banner, variable/import-volumes, c
 ## Source
 - Article: [[2020-07-08 Slouching Toward Phase One]]
 - Authored map: `mermaid_code/setser_jul_8_20.mmd`
-- Passage: **p33** — **states**, anchored on `global lng`, a literal the claim and the paragraph share
+- Passage: **p30** — **states**, anchored on `reuters`, a literal the claim and the paragraph share
 - Published: https://www.cfr.org/articles/slouching-toward-phase-one
 - Node `setser_jul_8_20#E2` · level L2 · type resolved by `header`
 - Full chain: `python scripts/trace.py setser_jul_8_20#E2`

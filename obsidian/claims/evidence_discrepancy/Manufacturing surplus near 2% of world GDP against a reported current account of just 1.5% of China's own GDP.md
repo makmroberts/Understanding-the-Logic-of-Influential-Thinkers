@@ -30,7 +30,7 @@ tags: [type/evidence_discrepancy, level/L2, family/banner, variable/current-acco
 ## Source
 - Article: [[2024-03-10 China's Record Manufacturing Surplus]]
 - Authored map: `mermaid_code/setser_mar_10_24.mmd`
-- Passage: **p17** — **states**, anchored on `1.5percent`, a literal the claim and the paragraph share
+- Passage: p17 — _proposed `abstracts`, score 0.311; unreviewed, not a citation_
 - Published: https://www.cfr.org/articles/chinas-record-manufacturing-surplus
 - Node `setser_mar_10_24#E4` · level L2 · type resolved by `header`
 - Full chain: `python scripts/trace.py setser_mar_10_24#E4`

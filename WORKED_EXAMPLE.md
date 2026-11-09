@@ -2,10 +2,6 @@
 
 *One article from prose to a citation, in seven panels.*
 
-`PROCESS.md` says what each step decides. This walks one article through
-all of them, so the claim that a question can be answered the way this
-analyst reasons can be checked rather than taken.
-
 The article is 1,179 words of prose about a discrepancy between two
 statistical sources. By the end of this document it is 13 claims, 18
 links and 57 subject labels, and one of those claims is something Setser
@@ -27,7 +23,6 @@ keeping the corpus at twenty articles is that a person can check this.
 The article runs 1179 words over 29 paragraphs, with 7 figures and 13 inline references. The map reduces it to **13 claims and 18 links**. Everything below is either generated from `data/` or marked as hand-written.
 
 ---
-
 ## Panel 1 - The article, as the annotator sees it
 
 `cfr_extract.py` numbers the paragraphs. Those numbers are the only handle anything downstream has on the prose, so a paragraph is the unit a passage link points at.
@@ -183,18 +178,6 @@ table showed two clauses with no paragraph under them - *"about $400
 per phone"* and *"net vehicle exports above 6 million"* - both in the
 article, both carrying the distinctive figure. Six paragraphs
 qualified as `anchored` for `E1`; three were written.
-
-The cause generalises, which is why it was worth chasing: a relative
-score floor (`>= 0.6 x best`) is a **relevance** filter, and it was
-being applied to a **provenance** signal. For an aggregate evidence
-node the paragraph supplying the fifth figure always scores low on
-cosine - p16 scores 0.106 against p8's 0.429 - because the claim text
-is dominated by the other four, while the figure it shares is exactly
-as distinctive as theirs.
-
-The floor is gone from `link_passages.py` and the anchor test was
-tightened to compensate; `scripts/README.md` has the corpus numbers
-and the threshold sweep.
 
 ### `E2` - evidence source
 
