@@ -30,7 +30,10 @@ tags: [type/evidence_source, level/L2, family/banner, variable/capital-flows, va
 ## Source
 - Article: [[2020-03-31 Not One Emerging Market Financial Crisis, but Many]]
 - Authored map: `mermaid_code/setser_mar_31_20.mmd`
+- Passage: **p20** — **states**, anchored on `bis carstens`, a literal the claim and the paragraph share
+- Passage: **p26** — **states**, anchored on `truman`, a literal the claim and the paragraph share
 - Passage: **p27** — **states**, anchored on `landers lee morris`, a literal the claim and the paragraph share
+- Passage: **p28** — **states**, anchored on `buchheit hagan lee`, a literal the claim and the paragraph share
 - Published: https://www.cfr.org/articles/not-one-emerging-market-financial-crisis-many
 - Node `setser_mar_31_20#E2` · level L2 · type resolved by `header`
 - Full chain: `python scripts/trace.py setser_mar_31_20#E2`

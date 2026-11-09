@@ -14,9 +14,7 @@ nothing here was changed automatically.
 - `setser_2025-09-12_trump-shock-that-wasnt#QF` where_subject empty - every claim needs a country or a bloc (assignment.requires_one_of) - needs review
 - `setser_2025-09-12_trump-shock-that-wasnt#QF` inherited its where-axis value from `C4` along `qualified_by` (['us']) - check this one
 
-## passages (4)
+## passages (2)
 
-- `E2`: the team's passage linker anchors it to p23 (shared: covid), which the box does not cite
 - `E3`: the team's passage linker anchors it to p19 (shared: southeast), which the box does not cite
-- `E5`: the team's passage linker anchors it to p7 (shared: 30percent), which the box does not cite
-- `C4`: the team's passage linker anchors it to p10 (shared: covid), which the box does not cite
+- `E5`: the team's passage linker anchors it to p7 (shared: 30percent 50percent), which the box does not cite

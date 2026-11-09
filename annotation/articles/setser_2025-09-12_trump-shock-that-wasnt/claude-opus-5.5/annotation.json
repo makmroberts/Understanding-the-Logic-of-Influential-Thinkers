@@ -21,13 +21,13 @@
   "metadata_extension": {}
  },
  "annotation": {
-  "annotated_at": "2026-11-09T15:57:01+00:00",
+  "annotated_at": "2026-11-09T21:12:02+00:00",
   "ontology": {
    "id": "setser_argument",
    "version": 2
   },
   "facets_version": 1,
-  "pipeline_version": "a5d6bd0+uncommitted",
+  "pipeline_version": "8d03103",
   "status": "needs_review",
   "runs": [
    {
@@ -39,7 +39,7 @@
      "max_tokens": 16000,
      "reasoning_effort": "medium"
     },
-    "timestamp": "2026-11-09T15:57:00+00:00",
+    "timestamp": "2026-11-09T21:12:02+00:00",
     "calls": 1,
     "cost_usd": 0.105
    },
@@ -52,7 +52,7 @@
      "max_tokens": 12000,
      "reasoning_effort": "medium"
     },
-    "timestamp": "2026-11-09T15:57:01+00:00",
+    "timestamp": "2026-11-09T21:12:02+00:00",
     "calls": 1,
     "cost_usd": 0.0373
    },
@@ -65,7 +65,7 @@
      "max_tokens": 12000,
      "reasoning_effort": "low"
     },
-    "timestamp": "2026-11-09T15:57:01+00:00",
+    "timestamp": "2026-11-09T21:12:02+00:00",
     "calls": 1,
     "cost_usd": 0.05848
    }
@@ -384,9 +384,7 @@
    },
    "review": {
     "status": "pending",
-    "reasons": [
-     "passages: `E2`: the team's passage linker anchors it to p23 (shared: covid), which the box does not cite"
-    ]
+    "reasons": []
    }
   },
   {
@@ -1172,7 +1170,7 @@
     "status": "pending",
     "reasons": [
      "links: `E5` supports `X` joins L2→L6, which no hand-drawn supports link does",
-     "passages: `E5`: the team's passage linker anchors it to p7 (shared: 30percent), which the box does not cite"
+     "passages: `E5`: the team's passage linker anchors it to p7 (shared: 30percent 50percent), which the box does not cite"
     ]
    }
   },
@@ -1253,9 +1251,7 @@
    },
    "review": {
     "status": "pending",
-    "reasons": [
-     "passages: `C4`: the team's passage linker anchors it to p10 (shared: covid), which the box does not cite"
-    ]
+    "reasons": []
    }
   },
   {
@@ -2201,7 +2197,7 @@
   "checks": [
    "boxes: 24, fix rounds 0, re-asks 0, gaps left none",
    "links: 28, fix rounds 0, re-asks 0, gaps left none, dropped none",
-   "passage linker agreement: {'anchored': 13, 'anchored_cited': 9, 'candidate': 17, 'candidate_cited': 15}"
+   "passage linker agreement: {'anchored': 10, 'anchored_cited': 8, 'candidate': 17, 'candidate_cited': 15}"
   ],
   "review_items": [
    "links: `E5` supports `X` joins L2→L6, which no hand-drawn supports link does",
@@ -2209,10 +2205,8 @@
    "facets: `setser_2025-09-12_trump-shock-that-wasnt#P1` where_subject empty - every claim needs a country or a bloc (assignment.requires_one_of) - needs review",
    "facets: `setser_2025-09-12_trump-shock-that-wasnt#QF` where_subject empty - every claim needs a country or a bloc (assignment.requires_one_of) - needs review",
    "facets: `setser_2025-09-12_trump-shock-that-wasnt#QF` inherited its where-axis value from `C4` along `qualified_by` (['us']) - check this one",
-   "passages: `E2`: the team's passage linker anchors it to p23 (shared: covid), which the box does not cite",
    "passages: `E3`: the team's passage linker anchors it to p19 (shared: southeast), which the box does not cite",
-   "passages: `E5`: the team's passage linker anchors it to p7 (shared: 30percent), which the box does not cite",
-   "passages: `C4`: the team's passage linker anchors it to p10 (shared: covid), which the box does not cite"
+   "passages: `E5`: the team's passage linker anchors it to p7 (shared: 30percent 50percent), which the box does not cite"
   ]
  },
  "extensions": {}

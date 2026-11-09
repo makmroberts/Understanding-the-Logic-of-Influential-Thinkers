@@ -32,6 +32,9 @@ tags: [type/evidence_data, level/L2, family/meta, variable/current-account, vari
 ## Source
 - Article: [[2025-11-12 China's Massive Surplus is Everywhere (Yet The IMF Still Has Trouble Seeing It Clearly)]]
 - Authored map: `mermaid_code/setser_2025-11-12_china-surplus-imf.mmd`
+- Passage: **p15** — **states**, anchored on `2.2percent`, a literal the claim and the paragraph share
+- Passage: **p17** — **states**, anchored on `2.2percent 2.6percent`, a literal the claim and the paragraph share
+- Passage: **p31** — **states**, anchored on `375billion 650billion`, a literal the claim and the paragraph share
 - Passage: **p5** — **states**, anchored on `1percent 40percent`, a literal the claim and the paragraph share
 - Passage: **p7** — **states**, anchored on `10.5percent 2trillion`, a literal the claim and the paragraph share
 - Passage: **p9** — **states**, anchored on `1.2trillion 1percent`, a literal the claim and the paragraph share

@@ -34,7 +34,7 @@ tags: [type/evidence_data, level/L2, family/plain, variable/tariff-rate, variabl
 ## Source
 - Article: [[2020-02-26 Do tariffs change the trade balance, and who absorbed the Q4 US demand drop]]
 - Authored map: `mermaid_code/setser_feb_26_20.mmd`
-- Passage: **p3** — **states**, anchored on `15percent 30billion 500billion 80billion`, a literal the claim and the paragraph share
+- Passage: **p3** — **states**, anchored on `30billion 500billion 80billion`, a literal the claim and the paragraph share
 - Published: https://www.cfr.org/articles/us-shock-global-demand-q4-coronavirus
 - Node `setser_feb_26_20#D1` · level L2 · type resolved by `class`
 - Full chain: `python scripts/trace.py setser_feb_26_20#D1`

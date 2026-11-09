@@ -37,6 +37,7 @@ tags: [type/intermediate_claim, level/L4, family/meta, variable/bilateral-trade-
 - Authored map: `mermaid_code/setser_2020-10-05.mmd`
 - Passage: **p16** — **states**, anchored on `hong kong`, a literal the claim and the paragraph share
 - Passage: **p20** — **states**, anchored on `hong kong`, a literal the claim and the paragraph share
+- Passage: **p6** — **states**, anchored on `hong kong`, a literal the claim and the paragraph share
 - Published: https://www.cfr.org/articles/record-chinese-bilateral-surpluses-united-states-are-not-mirrored-us-trade-data
 - Node `setser_2020-10-05#C1` · level L4 · type resolved by `class`
 - Full chain: `python scripts/trace.py setser_2020-10-05#C1`

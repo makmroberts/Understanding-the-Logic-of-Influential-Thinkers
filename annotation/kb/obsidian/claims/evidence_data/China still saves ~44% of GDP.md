@@ -32,8 +32,8 @@ tags: [type/evidence_data, level/L2, family/plain, variable/national-saving, cou
 ## Source
 - Article: [[2019-09-20 Why do global trade imbalances persist, and why could they worsen before improving]]
 - Authored map: `mermaid_code/setser_sep_20_19.mmd`
-- Passage: **p27** — **states**, anchored on `asian china`, a literal the claim and the paragraph share
 - Passage: **p30** — **states**, anchored on `40percent`, a literal the claim and the paragraph share
+- Passage: **p31** — **states**, anchored on `44percent`, a literal the claim and the paragraph share
 - Published: https://www.cfr.org/articles/why-global-trade-imbalances-could-get-worse-they-get-better
 - Node `setser_sep_20_19#D5` · level L2 · type resolved by `class`
 - Full chain: `python scripts/trace.py setser_sep_20_19#D5`

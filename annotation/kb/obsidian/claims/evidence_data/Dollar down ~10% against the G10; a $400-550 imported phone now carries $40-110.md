@@ -31,9 +31,9 @@ tags: [type/evidence_data, level/L2, family/banner, variable/fx-reserves, variab
 ## Source
 - Article: [[2025-05-05 Why Didn't Tariffs Push Up the U.S. Dollar]]
 - Authored map: `mermaid_code/setser_may_5_25.mmd`
-- Passage: **p11** — **states**, anchored on `10percent 110 40 400 550`, a literal the claim and the paragraph share
+- Passage: **p11** — **states**, anchored on `40 400`, a literal the claim and the paragraph share
 - Passage: **p21** — **states**, anchored on `55percent`, a literal the claim and the paragraph share
-- Passage: **p7** — **states**, anchored on `10percent`, a literal the claim and the paragraph share
+- Passage: **p30** — **states**, anchored on `140 1400 7.2`, a literal the claim and the paragraph share
 - Published: https://www.cfr.org/articles/why-didnt-tariffs-push-us-dollar
 - Node `setser_may_5_25#E1` · level L2 · type resolved by `header`
 - Full chain: `python scripts/trace.py setser_may_5_25#E1`

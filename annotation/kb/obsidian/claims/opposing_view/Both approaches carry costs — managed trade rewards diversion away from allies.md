@@ -30,7 +30,7 @@ tags: [type/opposing_view, level/L6, family/banner, variable/bilateral-trade-flo
 ## Source
 - Article: [[2020-01-31 Lessons From Phase One of the Trade War With China]]
 - Authored map: `mermaid_code/setser_jan_31_20.mmd`
-- Passage: **p30** — **states**, anchored on `2010`, a literal the claim and the paragraph share
+- Passage: p30 — _proposed `abstracts`, score 0.269; unreviewed, not a citation_
 - Published: https://www.cfr.org/articles/lessons-phase-one-trade-war-china
 - Node `setser_jan_31_20#X` · level L6 · type resolved by `header`
 - Full chain: `python scripts/trace.py setser_jan_31_20#X`

@@ -73,7 +73,7 @@ no column for it.
   articles `llm`. When the ontology version changes, re-run every model-mapped article, about
   $0.2 each, so the knowledge base never mixes versions.
 - **Knowledge base:** 21 hand-mapped articles and 3 model-mapped ones.
-  - The hand-mapped articles are the team's 20, identical row by row to `origin/main` 89c1cbb,
+  - The hand-mapped articles are the team's 20, identical row by row to `origin/main` b327459,
     plus 2020-10-05.
   - The model-mapped ones are 2026-07-27, 2026-09-15 and 2026-10-13.
 
@@ -81,7 +81,7 @@ Results of the official runs. The hand-drawn map is one human reading, not a gol
 
 | | 5 practice articles | 5 held-out articles |
 |---|---|---|
-| hand steps found (by shared paragraph) | 62% (49%) | 57% (46%) |
+| hand steps found (by shared paragraph) | 63% (52%) | 57% (46%) |
 | steps per article, hand range 13-24 | 24, 4 of 5 in range | 22, 4 of 5 in range |
 | boxes with a word-for-word excerpt | 96% | 95% |
 | fix rounds / re-asks | 0 / 0 | 0 / 0 |
@@ -134,10 +134,9 @@ Known limits:
 
 | Copied | From | Changed |
 |---|---|---|
-| `kb/scripts/*` except `link_passages.py`, plus `kb/mermaid_code/` and `kb/obsidian/.obsidian/` | `origin/main` 89c1cbb | see below |
-| `kb/scripts/link_passages.py` | `origin/feat/worked_examples` be46f7d | none. The branch version's anchoring no longer reads the 7 of G7 or the 19 of COVID-19 as figures, and checks rarity across the corpus |
-| `kb/data/node_facets.csv` | `origin/main` 89c1cbb | none; 2020-10-05 added: labelled by the official model, ingested with `label_facets.py --import-json` |
-| `kb/data/node_passages.csv` | `origin/main` 89c1cbb | none; 2020-10-05 added with main's `link_passages.py`. The branch version above only gives the second opinion in step 5 |
+| `kb/scripts/*`, plus `kb/mermaid_code/` and `kb/obsidian/.obsidian/` | `origin/main` b327459 | see below |
+| `kb/data/node_facets.csv` | `origin/main` b327459 | none; 2020-10-05 added: labelled by the official model, ingested with `label_facets.py --import-json` |
+| `kb/data/node_passages.csv` | `origin/main` b327459 | none; 2020-10-05 added with the same `link_passages.py`. Its rarity check counts every article downloaded on the machine, so a re-run elsewhere can differ in a few anchors; main's rows are kept as committed |
 
 Changes, each marked `annotation/ tweak` in the file:
 

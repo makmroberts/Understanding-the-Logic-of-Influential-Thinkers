@@ -31,7 +31,8 @@ tags: [type/opposing_view, level/L6, family/plain, variable/import-volumes, coun
 ## Source
 - Article: [[2019-05-02 Does a purchase-commitment deal push China back toward managed trade]]
 - Authored map: `mermaid_code/setser_may_2_19.mmd`
-- Passage: p5 — _proposed `abstracts`, score 0.435; unreviewed, not a citation_
+- Passage: **p2** — **states**, anchored on `yerxa`, a literal the claim and the paragraph share
+- Passage: **p4** — **states**, anchored on `donnan`, a literal the claim and the paragraph share
 - Published: https://www.cfr.org/articles/china-never-stopped-managing-its-trade
 - Node `setser_may_2_19#X` · level L6 · type resolved by `l6_keyword` — **inferred**, not read from the map
 - Full chain: `python scripts/trace.py setser_may_2_19#X`

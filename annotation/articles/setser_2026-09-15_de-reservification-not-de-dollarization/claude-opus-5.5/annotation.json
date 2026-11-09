@@ -35,13 +35,13 @@
   "metadata_extension": {}
  },
  "annotation": {
-  "annotated_at": "2026-11-09T15:59:19+00:00",
+  "annotated_at": "2026-11-09T21:12:21+00:00",
   "ontology": {
    "id": "setser_argument",
    "version": 2
   },
   "facets_version": 1,
-  "pipeline_version": "a5d6bd0+uncommitted",
+  "pipeline_version": "8d03103",
   "status": "needs_review",
   "runs": [
    {
@@ -53,7 +53,7 @@
      "max_tokens": 16000,
      "reasoning_effort": "medium"
     },
-    "timestamp": "2026-11-09T15:58:02+00:00",
+    "timestamp": "2026-11-09T21:12:21+00:00",
     "calls": 1,
     "cost_usd": 0.11678
    },
@@ -66,7 +66,7 @@
      "max_tokens": 12000,
      "reasoning_effort": "medium"
     },
-    "timestamp": "2026-11-09T15:58:50+00:00",
+    "timestamp": "2026-11-09T21:12:21+00:00",
     "calls": 1,
     "cost_usd": 0.04645
    },
@@ -79,7 +79,7 @@
      "max_tokens": 12000,
      "reasoning_effort": "low"
     },
-    "timestamp": "2026-11-09T15:59:01+00:00",
+    "timestamp": "2026-11-09T21:12:21+00:00",
     "calls": 1,
     "cost_usd": 0.05545
    }

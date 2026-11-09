@@ -41,8 +41,8 @@ Cost of this run: $0.2059. Review items: 5.
 | REC recommendation | REC recommendation | paragraph | The IMF should issue an SDR allocation and get more lending resources; MDBs should use cal | Recommendation Draw down buffers; central bank backstop plus swap lines; mobilise trade fi |
 | X opposing_view | X opposing_view | paragraph | Private creditors would prefer full payment, but voluntary extension beats default. | Opposing view Private creditors would rather be paid — "this will take goodwill" |
 | C1 intermediate_claim | C1 intermediate_claim | paragraph | Strong-balance-sheet countries can weather the storm by using public balance sheets and Fe | Intermediate claim Countries with strong external balance sheets can weather this themselv |
-| E1 evidence_data | E1 evidence_data | paragraph | Four shocks hit at once: an oil and commodity price collapse, a manufacturing trade shock  | Data Brent under $25, below almost every exporter's breakeven; Saudi reserves ~$500bn; GCC |
 | P3 hidden_assumption | P2 hidden_assumption | slot | A creditor country's losses on its institutions can be absorbed domestically, so it faces  | Hidden assumption The external balance sheet is the right thing to sort countries by |
+| E1 evidence_data | E1 evidence_data | paragraph | Four shocks hit at once: an oil and commodity price collapse, a manufacturing trade shock  | Data Brent under $25, below almost every exporter's breakeven; Saudi reserves ~$500bn; GCC |
 | QF caveat | QF caveat | paragraph | An SDR allocation alone is insufficient because it goes by quota rather than need. | Caveat SDRs are allocated by quota rather than need, so they are insufficient alone; MDB c |
 
 Unmatched model boxes: M1 (mechanism), M2 (mechanism), P1 (stated_assumption), E2 (evidence_data), M3 (mechanism), C2 (intermediate_claim), E3 (evidence_data), P2 (stated_assumption), QF2 (caveat)

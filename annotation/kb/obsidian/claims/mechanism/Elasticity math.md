@@ -32,6 +32,7 @@ tags: [type/mechanism, level/L3, family/meta, variable/goods-trade-balance, vari
 ## Source
 - Article: [[2025-09-12 The Trump Shock That Wasn't (At Least Not Yet)]]
 - Authored map: `mermaid_code/setser_2025-09-12_trump-shock-that-wasnt.mmd`
+- Passage: **p23** — **states**, anchored on `0.3 0.4`, a literal the claim and the paragraph share
 - Passage: **p24** — **states**, anchored on `9.5percent`, a literal the claim and the paragraph share
 - Published: https://www.cfr.org/articles/trump-shock-wasnt-least-not-yet
 - Node `setser_2025-09-12_trump-shock-that-wasnt#M4` · level L3 · type resolved by `class`

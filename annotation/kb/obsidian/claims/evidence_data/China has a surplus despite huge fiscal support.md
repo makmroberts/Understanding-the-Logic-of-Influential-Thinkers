@@ -33,6 +33,7 @@ tags: [type/evidence_data, level/L2, family/plain, variable/current-account, var
 - Article: [[2019-09-20 Why do global trade imbalances persist, and why could they worsen before improving]]
 - Authored map: `mermaid_code/setser_sep_20_19.mmd`
 - Passage: **p25** — **states**, anchored on `12percent 250billion`, a literal the claim and the paragraph share
+- Passage: **p26** — **states**, anchored on `12percent`, a literal the claim and the paragraph share
 - Published: https://www.cfr.org/articles/why-global-trade-imbalances-could-get-worse-they-get-better
 - Node `setser_sep_20_19#D4` · level L2 · type resolved by `class`
 - Full chain: `python scripts/trace.py setser_sep_20_19#D4`

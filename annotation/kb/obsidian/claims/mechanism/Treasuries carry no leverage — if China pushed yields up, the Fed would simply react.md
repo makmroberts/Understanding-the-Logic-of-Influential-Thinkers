@@ -28,7 +28,9 @@ tags: [type/mechanism, level/L3, family/banner, variable/fx-reserves, variable/i
 ## Source
 - Article: [[2020-01-31 Lessons From Phase One of the Trade War With China]]
 - Authored map: `mermaid_code/setser_jan_31_20.mmd`
-- Passage: **p11** — **states**, anchored on `fed treasuries`, a literal the claim and the paragraph share
+- Passage: **p10** — **states**, anchored on `treasuries`, a literal the claim and the paragraph share
+- Passage: **p11** — **states**, anchored on `treasuries`, a literal the claim and the paragraph share
+- Passage: **p9** — **states**, anchored on `treasuries`, a literal the claim and the paragraph share
 - Published: https://www.cfr.org/articles/lessons-phase-one-trade-war-china
 - Node `setser_jan_31_20#M2` · level L3 · type resolved by `header`
 - Full chain: `python scripts/trace.py setser_jan_31_20#M2`

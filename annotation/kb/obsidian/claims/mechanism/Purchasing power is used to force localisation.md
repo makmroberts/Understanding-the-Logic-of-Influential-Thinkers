@@ -32,7 +32,8 @@ tags: [type/mechanism, level/L3, family/plain, variable/import-volumes, variable
 ## Source
 - Article: [[2019-05-02 Does a purchase-commitment deal push China back toward managed trade]]
 - Authored map: `mermaid_code/setser_may_2_19.mmd`
-- Passage: **p43** — **states**, anchored on `330`, a literal the claim and the paragraph share
+- Passage: **p18** — **states**, anchored on `rolls-royce`, a literal the claim and the paragraph share
+- Passage: **p43** — **states**, anchored on `airbus rolls-royce`, a literal the claim and the paragraph share
 - Published: https://www.cfr.org/articles/china-never-stopped-managing-its-trade
 - Node `setser_may_2_19#M3` · level L3 · type resolved by `class`
 - Full chain: `python scripts/trace.py setser_may_2_19#M3`

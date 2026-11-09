@@ -38,6 +38,8 @@ tags: [type/evidence_data, level/L2, family/meta, variable/bilateral-trade-flows
 - Article: [[2025-09-12 The Trump Shock That Wasn't (At Least Not Yet)]]
 - Authored map: `mermaid_code/setser_2025-09-12_trump-shock-that-wasnt.mmd`
 - Passage: **p11** — **states**, anchored on `1.2trillion 1trillion 2trillion`, a literal the claim and the paragraph share
+- Passage: **p21** — **states**, anchored on `25percent 30percent`, a literal the claim and the paragraph share
+- Passage: **p7** — **states**, anchored on `30percent`, a literal the claim and the paragraph share
 - Published: https://www.cfr.org/articles/trump-shock-wasnt-least-not-yet
 - Node `setser_2025-09-12_trump-shock-that-wasnt#E1` · level L2 · type resolved by `header`
 - Full chain: `python scripts/trace.py setser_2025-09-12_trump-shock-that-wasnt#E1`

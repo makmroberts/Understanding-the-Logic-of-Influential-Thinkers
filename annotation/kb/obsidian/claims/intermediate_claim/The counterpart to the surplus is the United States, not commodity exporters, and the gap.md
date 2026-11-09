@@ -38,7 +38,7 @@ tags: [type/intermediate_claim, level/L4, family/banner, variable/global-imbalan
 ## Source
 - Article: [[2024-03-10 China's Record Manufacturing Surplus]]
 - Authored map: `mermaid_code/setser_mar_10_24.mmd`
-- Passage: **p6** — **states**, anchored on `states united`, a literal the claim and the paragraph share
+- Passage: p6 — _proposed `abstracts`, score 0.597; unreviewed, not a citation_
 - Published: https://www.cfr.org/articles/chinas-record-manufacturing-surplus
 - Node `setser_mar_10_24#C1` · level L4 · type resolved by `header`
 - Full chain: `python scripts/trace.py setser_mar_10_24#C1`

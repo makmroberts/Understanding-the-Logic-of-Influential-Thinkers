@@ -27,7 +27,8 @@ tags: [type/evidence_source, level/L2, family/banner, variable/import-volumes, c
 ## Source
 - Article: [[2020-01-31 Lessons From Phase One of the Trade War With China]]
 - Authored map: `mermaid_code/setser_jan_31_20.mmd`
-- Passage: p26 — _proposed `abstracts`, score 0.308; unreviewed, not a citation_
+- Passage: **p11** — **states**, anchored on `toloui`, a literal the claim and the paragraph share
+- Passage: **p30** — **states**, anchored on `economist`, a literal the claim and the paragraph share
 - Published: https://www.cfr.org/articles/lessons-phase-one-trade-war-china
 - Node `setser_jan_31_20#E2` · level L2 · type resolved by `header`
 - Full chain: `python scripts/trace.py setser_jan_31_20#E2`

@@ -33,9 +33,11 @@ tags: [type/evidence_data, level/L2, family/meta, variable/current-account, vari
 ## Source
 - Article: [[2025-07-07 China's Stealth Trade Surplus]]
 - Authored map: `mermaid_code/setser_2025-07-07_china-stealth-surplus.mmd`
+- Passage: **p16** — **states**, anchored on `400`, a literal the claim and the paragraph share
 - Passage: **p20** — **states**, anchored on `620billion 650billion`, a literal the claim and the paragraph share
 - Passage: **p24** — **states**, anchored on `150 200billion 4trillion`, a literal the claim and the paragraph share
-- Passage: **p8** — **states**, anchored on `2percent 430billion 500billion`, a literal the claim and the paragraph share
+- Passage: **p3** — **states**, anchored on `6million`, a literal the claim and the paragraph share
+- Passage: **p8** — **states**, anchored on `430billion 500billion`, a literal the claim and the paragraph share
 - Published: https://www.cfr.org/articles/chinas-stealth-trade-surplus
 - Node `setser_2025-07-07_china-stealth-surplus#E1` · level L2 · type resolved by `header`
 - Full chain: `python scripts/trace.py setser_2025-07-07_china-stealth-surplus#E1`

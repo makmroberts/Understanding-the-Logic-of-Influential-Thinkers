@@ -52,13 +52,13 @@
   "metadata_extension": {}
  },
  "annotation": {
-  "annotated_at": "2026-11-09T15:57:23+00:00",
+  "annotated_at": "2026-11-09T21:13:04+00:00",
   "ontology": {
    "id": "setser_argument",
    "version": 2
   },
   "facets_version": 1,
-  "pipeline_version": "a5d6bd0+uncommitted",
+  "pipeline_version": "8d03103",
   "status": "needs_review",
   "runs": [
    {
@@ -70,7 +70,7 @@
      "max_tokens": 16000,
      "reasoning_effort": "medium"
     },
-    "timestamp": "2026-11-09T15:57:22+00:00",
+    "timestamp": "2026-11-09T21:13:04+00:00",
     "calls": 1,
     "cost_usd": 0.13058
    },
@@ -83,7 +83,7 @@
      "max_tokens": 12000,
      "reasoning_effort": "medium"
     },
-    "timestamp": "2026-11-09T15:57:23+00:00",
+    "timestamp": "2026-11-09T21:13:04+00:00",
     "calls": 1,
     "cost_usd": 0.05224
    },
@@ -96,7 +96,7 @@
      "max_tokens": 12000,
      "reasoning_effort": "low"
     },
-    "timestamp": "2026-11-09T15:57:23+00:00",
+    "timestamp": "2026-11-09T21:13:04+00:00",
     "calls": 1,
     "cost_usd": 0.06789
    }
@@ -2746,7 +2746,7 @@
   "checks": [
    "boxes: 29, fix rounds 0, re-asks 0, gaps left none",
    "links: 37, fix rounds 0, re-asks 0, gaps left none, dropped none",
-   "passage linker agreement: {'anchored': 16, 'anchored_cited': 14, 'candidate': 19, 'candidate_cited': 13}"
+   "passage linker agreement: {'anchored': 17, 'anchored_cited': 15, 'candidate': 18, 'candidate_cited': 12}"
   ],
   "review_items": [
    "boxes: `E5` the name `fdi` does not occur in the article",

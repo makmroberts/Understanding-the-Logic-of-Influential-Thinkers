@@ -34,8 +34,7 @@ tags: [type/evidence_data, level/L2, family/plain, variable/manufacturing-trade-
 ## Source
 - Article: [[2019-08-13 Why do the U.S., Europe, and China now occupy such different positions in manufacturing trade]]
 - Authored map: `mermaid_code/setser_aug_13_19.mmd`
-- Passage: **p10** — **states**, anchored on `4percent 5percent`, a literal the claim and the paragraph share
-- Passage: **p22** — **states**, anchored on `4percent`, a literal the claim and the paragraph share
+- Passage: p10 — _proposed `abstracts`, score 0.413; unreviewed, not a citation_
 - Published: https://www.cfr.org/articles/when-it-comes-exporting-manufactures-europe-now-one-mars
 - Node `setser_aug_13_19#D3` · level L2 · type resolved by `class`
 - Full chain: `python scripts/trace.py setser_aug_13_19#D3`

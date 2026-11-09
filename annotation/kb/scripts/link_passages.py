@@ -65,6 +65,7 @@ ROOT = Path(__file__).resolve().parent.parent
 NODES = ROOT / "data" / "nodes.csv"
 URL_MAP = Path(__file__).resolve().parent / "source_urls.yaml"
 EXTRACTED = ROOT / "internal" / "extracted"
+MAPS = ROOT / "mermaid_code"
 OUT_CSV = ROOT / "data" / "node_passages.csv"
 OUT_MD = ROOT / "data" / "passage_report.md"
 REVIEW = Path(__file__).resolve().parent / "passage_review.yaml"
@@ -311,6 +312,53 @@ def load_extracts() -> dict:
     return out
 
 
+def declared_paras(doc: str) -> dict:
+    """Paragraphs the ANNOTATOR recorded in the map, not ones we inferred.
+
+        %% para: P3 p26 presupposes
+        %% para: E1 p3 p8 p16 p20 p24
+
+    node id, then one or more paragraph numbers, then an optional relation
+    from RELATIONS. Mermaid ignores `%%`, so adding these changes nothing
+    about how the map renders and nothing a flowchart-prediction task sees.
+
+    WHY THIS OUTRANKS EVERYTHING BELOW IT
+
+    Matching a claim to its paragraph is guesswork forced on us by twenty
+    maps drawn before anyone wrote paragraph numbers down. It is not a
+    problem worth solving well - it is a problem worth not having. An
+    annotator who records the paragraph as they read makes the whole scoring
+    path unnecessary for that claim, and the result is deterministic.
+
+    It matters most for the one role the matcher cannot serve at all. A
+    hidden assumption is by definition not stated in the article, so it can
+    never share a literal with a paragraph: 0 of 13 anchor, and all 13 rest
+    on tf-idf alone, four of them on margins under 0.03. Worse, tf-idf is
+    answering the wrong question there - `presupposes` means the paragraph
+    NEEDS the premise, and word overlap measures whether the paragraph SAYS
+    something like it. A hidden assumption that scored well would be evidence
+    the annotation is wrong.
+
+    So a declared paragraph short-circuits scoring entirely and is graded
+    `declared`, above `confirmed`: a reviewer's verdict is a judgement about
+    a guess, and this is not a guess.
+    """
+    p = MAPS / f"{doc}.mmd"
+    if not p.exists():
+        return {}
+    out = {}
+    for line in p.read_text(encoding="utf-8").splitlines():
+        m = re.match(r"\s*%%\s*para:\s*(\S+)\s+(.+)", line)
+        if not m:
+            continue
+        nid, rest = m.group(1), m.group(2).split()
+        paras = [t for t in rest if re.fullmatch(r"p\d+", t)]
+        rel = next((t for t in rest if t in RELATIONS), None)
+        if paras:
+            out[nid] = {"paras": paras, "relation": rel}
+    return out
+
+
 def load_review() -> dict:
     """ref -> verdict, from scripts/passage_review.yaml.
 
@@ -346,7 +394,7 @@ def diff_against_existing(rows: list, over_cap: dict) -> None:
 
     print("\n=== DRY RUN - nothing written =================================")
     print(f"rows   {len(old)} -> {len(rows)}")
-    for g in ("anchored", "candidate", "confirmed", "none"):
+    for g in ("declared", "anchored", "candidate", "confirmed", "none"):
         a, b = tally(old).get(g, 0), tally(rows).get(g, 0)
         if a or b:
             print(f"  {g:<10} {a:>4} -> {b:<4} ({b - a:+d})")
@@ -422,6 +470,7 @@ def main() -> None:
         paras = ex["paras"]
         if not paras:
             continue
+        declared = declared_paras(doc)
         # idf over this article's paragraphs - a word that is in every
         # paragraph tells you nothing about which one a claim came from
         pt = {i: toks(t) for i, t in paras.items()}
@@ -443,6 +492,22 @@ def main() -> None:
         distinctive = {x for x, c in lit_df.items() if c <= cap} & rare
 
         for n in by_doc[doc]:
+            # The annotator said where it came from. Nothing below this
+            # point can improve on that, so none of it runs.
+            dec = declared.get(n["node_id"])
+            if dec:
+                for para in dec["paras"]:
+                    rows.append({
+                        "doc": doc, "node_id": n["node_id"], "type": n["type"],
+                        "para": para, "grade": "declared",
+                        "relation": dec["relation"] or (
+                            "presupposes" if n["type"] in PROPOSE_PRESUPPOSES
+                            else "states"),
+                        "score": "", "margin": "",
+                        "anchors": "declared by the annotator in the map",
+                        "page_sha256": ex["sha"][:16]})
+                continue
+
             ctext = " ".join(f"{n['header']} {n['text']}".split())
             ct, cl = toks(ctext), literals(ctext)
             if not ct:
@@ -574,7 +639,7 @@ def main() -> None:
         w.writerows(rows)
 
     # ---- report ----------------------------------------------------------
-    PREC = {"confirmed": 4, "elsewhere": 3, "anchored": 2,
+    PREC = {"declared": 5, "confirmed": 4, "elsewhere": 3, "anchored": 2,
             "candidate": 1, "none": 0}
     per_node = {}
     for r in rows:
@@ -607,6 +672,8 @@ def main() -> None:
          "aid, not a citation.** Never render a candidate as a source.", "",
          f"- {total} claims over {len(order)} articles, "
          f"{sum(per_doc_stats.values())} paragraphs",
+         f"- **declared by the annotator: {g['declared']} "
+         f"({g['declared'] / total:.0%})**",
          f"- **confirmed by hand: {g['confirmed']} "
          f"({g['confirmed'] / total:.0%})**",
          f"- **anchored: {g['anchored']} ({g['anchored'] / total:.0%})**",
@@ -682,6 +749,9 @@ def main() -> None:
     OUT_MD.write_text("\n".join(L) + "\n", encoding="utf-8")
 
     print(f"{total} claims linked over {len(order)} articles")
+    if g["declared"]:
+        print(f"  declared  {g['declared']:4d}  ({g['declared'] / total:.0%})"
+              f"   <- the annotator wrote the paragraph down; no matching ran")
     print(f"  confirmed {g['confirmed']:4d}  ({g['confirmed'] / total:.0%})"
           f"   <- reviewed by hand, beats the matcher")
     if g["elsewhere"]:

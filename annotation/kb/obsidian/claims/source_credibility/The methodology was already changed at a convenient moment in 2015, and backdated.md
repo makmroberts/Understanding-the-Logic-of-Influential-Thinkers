@@ -27,7 +27,7 @@ tags: [type/source_credibility, level/L1, family/banner, variable/current-accoun
 ## Source
 - Article: [[2024-08-14 China's Imaginary Trade Data]]
 - Authored map: `mermaid_code/setser_aug_14_24.mmd`
-- Passage: **p40** — **states**, anchored on `2015`, a literal the claim and the paragraph share
+- Passage: p40 — _proposed `abstracts`, score 0.197; unreviewed, not a citation_
 - Published: https://www.cfr.org/articles/chinas-imaginary-trade-data
 - Node `setser_aug_14_24#SC` · level L1 · type resolved by `header`
 - Full chain: `python scripts/trace.py setser_aug_14_24#SC`

@@ -32,6 +32,7 @@ tags: [type/evidence_source, level/L2, family/meta, variable/current-account, va
 ## Source
 - Article: [[2025-07-07 China's Stealth Trade Surplus]]
 - Authored map: `mermaid_code/setser_2025-07-07_china-stealth-surplus.mmd`
+- Passage: **p13** — **states**, anchored on `apple ireland`, a literal the claim and the paragraph share
 - Passage: **p26** — **states**, anchored on `apple ireland lane philip`, a literal the claim and the paragraph share
 - Published: https://www.cfr.org/articles/chinas-stealth-trade-surplus
 - Node `setser_2025-07-07_china-stealth-surplus#E2` · level L2 · type resolved by `header`

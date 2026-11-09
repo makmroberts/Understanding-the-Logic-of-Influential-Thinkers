@@ -32,8 +32,7 @@ tags: [type/evidence_source, level/L2, family/meta, variable/current-account, va
 ## Source
 - Article: [[2025-11-12 China's Massive Surplus is Everywhere (Yet The IMF Still Has Trouble Seeing It Clearly)]]
 - Authored map: `mermaid_code/setser_2025-11-12_china-surplus-imf.mmd`
-- Passage: **p15** — **states**, anchored on `external october report sector`, a literal the claim and the paragraph share
-- Passage: **p31** — **states**, anchored on `external report sector`, a literal the claim and the paragraph share
+- Passage: **p32** — **states**, anchored on `microsoft`, a literal the claim and the paragraph share
 - Published: https://www.cfr.org/articles/chinas-massive-surplus-everywhere-yet-imf-still-has-trouble-seeing-it-clearly
 - Node `setser_2025-11-12_china-surplus-imf#E2` · level L2 · type resolved by `header`
 - Full chain: `python scripts/trace.py setser_2025-11-12_china-surplus-imf#E2`

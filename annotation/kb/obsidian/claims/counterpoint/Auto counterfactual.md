@@ -29,7 +29,7 @@ tags: [type/counterpoint, level/L6, family/plain, variable/export-volumes, varia
 ## Source
 - Article: [[2019-06-14 Why did China's tariffs devastate some U.S. exports but have limited effects on others]]
 - Authored map: `mermaid_code/setser_jun_14_19.mmd`
-- Passage: p37 — _proposed `abstracts`, score 0.256; unreviewed, not a citation_
+- Passage: **p37** — **states**, anchored on `suv`, a literal the claim and the paragraph share
 - Published: https://www.cfr.org/articles/tale-two-tariffs-chinas-so-far-ineffective-tariffs-us-manufacturing-exports
 - Node `setser_jun_14_19#R1` · level L6 · type resolved by `class`
 - Full chain: `python scripts/trace.py setser_jun_14_19#R1`

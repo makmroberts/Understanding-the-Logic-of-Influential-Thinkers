@@ -23,13 +23,13 @@
   "metadata_extension": {}
  },
  "annotation": {
-  "annotated_at": "2026-11-09T15:57:45+00:00",
+  "annotated_at": "2026-11-09T21:12:12+00:00",
   "ontology": {
    "id": "setser_argument",
    "version": 2
   },
   "facets_version": 1,
-  "pipeline_version": "a5d6bd0+uncommitted",
+  "pipeline_version": "8d03103",
   "status": "needs_review",
   "runs": [
    {
@@ -41,7 +41,7 @@
      "max_tokens": 16000,
      "reasoning_effort": "medium"
     },
-    "timestamp": "2026-11-09T15:57:44+00:00",
+    "timestamp": "2026-11-09T21:12:11+00:00",
     "calls": 1,
     "cost_usd": 0.08232
    },
@@ -54,7 +54,7 @@
      "max_tokens": 12000,
      "reasoning_effort": "medium"
     },
-    "timestamp": "2026-11-09T15:57:45+00:00",
+    "timestamp": "2026-11-09T21:12:11+00:00",
     "calls": 1,
     "cost_usd": 0.03146
    },
@@ -67,7 +67,7 @@
      "max_tokens": 12000,
      "reasoning_effort": "low"
     },
-    "timestamp": "2026-11-09T15:57:45+00:00",
+    "timestamp": "2026-11-09T21:12:11+00:00",
     "calls": 1,
     "cost_usd": 0.04918
    }
@@ -1777,7 +1777,7 @@
   "checks": [
    "boxes: 18, fix rounds 0, re-asks 0, gaps left none",
    "links: 24, fix rounds 0, re-asks 0, gaps left none, dropped none",
-   "passage linker agreement: {'anchored': 7, 'anchored_cited': 6, 'candidate': 13, 'candidate_cited': 10}"
+   "passage linker agreement: {'anchored': 6, 'anchored_cited': 5, 'candidate': 14, 'candidate_cited': 11}"
   ],
   "review_items": [
    "links: `Q` frames `SCP` joins L0→L1B, which no hand-drawn frames link does",

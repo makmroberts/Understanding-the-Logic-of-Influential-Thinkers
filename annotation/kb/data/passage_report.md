@@ -9,10 +9,12 @@ human can confirm it at a glance. **`candidate` is semantic overlap only: a revi
 aid, not a citation.** Never render a candidate as a source.
 
 - 373 claims over 21 articles, 715 paragraphs
+- **declared by the annotator: 0 (0%)**
 - **confirmed by hand: 0 (0%)**
-- **anchored: 72 (19%)**
-- candidate: 281 (75%)
-- none: 20 (5%)
+- **anchored: 67 (18%)**
+- candidate: 284 (76%)
+- none: 22 (6%)
+- not linkable, no extract: 3 documents (setser_2026-07-27_is-chinas-surplus-really-shrinking, setser_2026-09-15_de-reservification-not-de-dollarization, setser_2026-10-13_whats-the-renminbi-got-to-do-with-it)
 
 ## The pattern by role, which is also a validity check
 
@@ -28,23 +30,23 @@ settles it.
 
 | role | n | states | abstracts | presupposes | none | expected |
 |---|---|---|---|---|---|
-| `evidence_data` | 70 | 51 | 37 | 0 | 0 | states |
-| `mechanism` | 60 | 9 | 44 | 0 | 8 | abstracts |
-| `intermediate_claim` | 44 | 3 | 40 | 0 | 2 | abstracts |
-| `stated_assumption` | 44 | 4 | 40 | 0 | 2 | abstracts |
-| `caveat` | 29 | 2 | 25 | 0 | 2 | abstracts |
-| `main_claim` | 22 | 1 | 21 | 0 | 0 | abstracts |
+| `evidence_data` | 70 | 51 | 42 | 0 | 0 | states |
+| `mechanism` | 60 | 14 | 44 | 0 | 9 | abstracts |
+| `intermediate_claim` | 44 | 6 | 40 | 0 | 2 | abstracts |
+| `stated_assumption` | 44 | 7 | 37 | 0 | 2 | abstracts |
+| `caveat` | 29 | 5 | 24 | 0 | 2 | abstracts |
+| `main_claim` | 22 | 2 | 19 | 0 | 1 | abstracts |
 | `question` | 21 | 0 | 20 | 0 | 1 | abstracts |
-| `opposing_view` | 15 | 3 | 11 | 0 | 1 | abstracts |
-| `other_explanation` | 13 | 3 | 10 | 0 | 0 | abstracts |
+| `opposing_view` | 15 | 2 | 13 | 0 | 1 | abstracts |
+| `other_explanation` | 13 | 1 | 12 | 0 | 0 | abstracts |
 | `hidden_assumption` | 13 | 0 | 0 | 10 | 3 | presupposes |
-| `evidence_source` | 11 | 9 | 3 | 0 | 0 | abstracts |
-| `counterpoint` | 8 | 0 | 7 | 0 | 1 | abstracts |
+| `evidence_source` | 11 | 21 | 1 | 0 | 0 | abstracts |
+| `counterpoint` | 8 | 1 | 6 | 0 | 1 | abstracts |
 | `recommendation` | 3 | 2 | 2 | 0 | 0 | abstracts |
-| `source_credibility` | 3 | 1 | 2 | 0 | 0 | abstracts |
+| `source_credibility` | 3 | 0 | 3 | 0 | 0 | abstracts |
 | `revised_prior` | 3 | 1 | 2 | 0 | 0 | abstracts |
-| `deferred_question` | 2 | 1 | 1 | 0 | 0 | abstracts |
-| `evidence_discrepancy` | 2 | 1 | 1 | 0 | 0 | states |
+| `deferred_question` | 2 | 0 | 2 | 0 | 0 | abstracts |
+| `evidence_discrepancy` | 2 | 0 | 2 | 0 | 0 | states |
 | `scope_choice` | 2 | 1 | 1 | 0 | 0 | abstracts |
 | `evidence_rival` | 1 | 0 | 1 | 0 | 0 | states |
 | `reconstruction` | 1 | 1 | 0 | 0 | 0 | abstracts |
@@ -53,7 +55,7 @@ settles it.
 | `accounting_identity` | 1 | 0 | 1 | 0 | 0 | abstracts |
 | `case_type` | 1 | 0 | 1 | 0 | 0 | abstracts |
 | `anomaly` | 1 | 1 | 0 | 0 | 0 | abstracts |
-| `position_map` | 1 | 2 | 0 | 0 | 0 | abstracts |
+| `position_map` | 1 | 4 | 0 | 0 | 0 | abstracts |
 
 ## Flagged by that check
 
