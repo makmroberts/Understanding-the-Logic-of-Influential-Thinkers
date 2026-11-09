@@ -1,0 +1,634 @@
+{
+  "schema_version": "source-record-0.1",
+  "article": {
+    "id": "china-also-fighting-trade-war-europe-and-winning",
+    "title": "China is also Fighting a Trade War with Europe (and Winning)",
+    "authors": [
+      "Brad W. Setser"
+    ],
+    "published_date": "2025-07-28",
+    "url": "https://www.cfr.org/articles/china-also-fighting-trade-war-europe-and-winning",
+    "publisher": "Council on Foreign Relations",
+    "series": "Follow the Money",
+    "source_text": {
+      "path": "internal/extracted/2025-07-28_china-also-fighting-trade-war-europe-and-winning.md",
+      "paragraph_count": 40,
+      "content_hash": "sha256:bfcdc45bdbd877863c77148ea7888a0ce715f9f22fee08184994a769d50c92c1",
+      "revision": 1
+    },
+    "references": [
+      {
+        "id": "r001",
+        "paragraph_id": "p5",
+        "char_start": 29,
+        "char_end": 72,
+        "label": "squeezing foreign imports out of its market",
+        "href": "https://ig.ft.com/china-trade-surplus/",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://ig.ft.com/china-trade-surplus",
+        "host": "ig.ft.com",
+        "target_article_id": null
+      },
+      {
+        "id": "r002",
+        "paragraph_id": "p7",
+        "char_start": 11,
+        "char_end": 25,
+        "label": "mastered autos",
+        "href": "https://www.nytimes.com/interactive/2024/11/29/business/china-cars-sales-exports.html",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://nytimes.com/interactive/2024/11/29/business/china-cars-sales-exports.html",
+        "host": "nytimes.com",
+        "target_article_id": null
+      },
+      {
+        "id": "r003",
+        "paragraph_id": "p7",
+        "char_start": 31,
+        "char_end": 43,
+        "label": "EVs and ICEs",
+        "href": "https://www.cfr.org/articles/will-china-take-over-global-auto-industry",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://cfr.org/articles/will-china-take-over-global-auto-industry",
+        "host": "cfr.org",
+        "target_article_id": null
+      },
+      {
+        "id": "r004",
+        "paragraph_id": "p8",
+        "char_start": 4,
+        "char_end": 26,
+        "label": "construction equipment",
+        "href": "https://www.wsj.com/finance/stocks/caterpillars-chinese-rivals-power-through-the-pandemic-11611570606?gaa_at=eafs&gaa_n=ASWzDAgUOmZxKmCtHNS04vQmiC54tbfMpoHeCtviQTyZnjYe-nL5OXMeGyWe&gaa_ts=6887f46a&gaa_sig=wLhCTY4XwMBOLkXRVKd9t-81MzRRXa06Ir-tKINHrK4CzqCXDNvZ3_XCJtPvFAWR-fKeJ6SAQ9czLzWx9DY7mA%3D%3D",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://wsj.com/finance/stocks/caterpillars-chinese-rivals-power-through-the-pandemic-11611570606",
+        "host": "wsj.com",
+        "target_article_id": null
+      },
+      {
+        "id": "r005",
+        "paragraph_id": "p8",
+        "char_start": 32,
+        "char_end": 49,
+        "label": "industrial robots",
+        "href": "https://www.nytimes.com/2025/04/23/business/china-tariffs-robots-automation.html",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://nytimes.com/2025/04/23/business/china-tariffs-robots-automation.html",
+        "host": "nytimes.com",
+        "target_article_id": null
+      },
+      {
+        "id": "r006",
+        "paragraph_id": "p8",
+        "char_start": 60,
+        "char_end": 79,
+        "label": "specialty chemicals",
+        "href": "https://www.wsj.com/business/dupont-is-again-in-chinas-firing-line-in-trade-war-2-0-e59506cf?gaa_at=eafs&gaa_n=ASWzDAjNsDkRpelEU2r0DDJrCEPuZkpiVrJwamkmTs2ort79wg-evUil-08E&gaa_ts=6887f4fe&gaa_sig=ZPG_Mbr7yZHqn-02Gj1catDlgU5UpF0MBMD9us5XwiPjp-njN_1zfWliIAsaA20DuwVhg7PAbtnBkKDK1hNolQ%3D%3D",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://wsj.com/business/dupont-is-again-in-chinas-firing-line-in-trade-war-2-0-e59506cf",
+        "host": "wsj.com",
+        "target_article_id": null
+      },
+      {
+        "id": "r007",
+        "paragraph_id": "p9",
+        "char_start": 77,
+        "char_end": 96,
+        "label": "Comac is ramping up",
+        "href": "https://ruavia.su/china-ramp-up-c919-production-eyeing-narrow-body-market-expansion/",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://ruavia.su/china-ramp-up-c919-production-eyeing-narrow-body-market-expansion",
+        "host": "ruavia.su",
+        "target_article_id": null
+      },
+      {
+        "id": "r008",
+        "paragraph_id": "p9",
+        "char_start": 152,
+        "char_end": 171,
+        "label": "the Chinese content",
+        "href": "https://www.scmp.com/economy/china-economy/article/3318393/airbus-signs-fresh-deal-chinese-partner-amid-talk-massive-china-order",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://scmp.com/economy/china-economy/article/3318393/airbus-signs-fresh-deal-chinese-partner-amid-talk-massive-china-order",
+        "host": "scmp.com",
+        "target_article_id": null
+      },
+      {
+        "id": "r009",
+        "paragraph_id": "p10",
+        "char_start": 75,
+        "char_end": 224,
+        "label": "China often doesn’t know when to stop investing -- as competing local governments add subsidized capacity in priority and non-priority sectors alike.",
+        "href": "https://www.ft.com/content/f7979a8f-874a-4b47-8304-d93d30171980",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://ft.com/content/f7979a8f-874a-4b47-8304-d93d30171980",
+        "host": "ft.com",
+        "target_article_id": null
+      },
+      {
+        "id": "r010",
+        "paragraph_id": "p14",
+        "char_start": 81,
+        "char_end": 178,
+        "label": "that falling exports to China are an important reason why Germany’s overall economy has stagnated",
+        "href": "https://www.cer.eu/publications/archive/policy-brief/2025/how-german-industry-can-survive-second-china-shock",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://cer.eu/publications/archive/policy-brief/2025/how-german-industry-can-survive-second-china-shock",
+        "host": "cer.eu",
+        "target_article_id": null
+      },
+      {
+        "id": "r011",
+        "paragraph_id": "p21",
+        "char_start": 130,
+        "char_end": 154,
+        "label": "pinging Adam Tooze here…",
+        "href": "https://adamtooze.substack.com/p/chartbook-393-whither-china-world",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://adamtooze.substack.com/p/chartbook-393-whither-china-world",
+        "host": "adamtooze.substack.com",
+        "target_article_id": null
+      },
+      {
+        "id": "r012",
+        "paragraph_id": "p24",
+        "char_start": 77,
+        "char_end": 99,
+        "label": "at an inflection point",
+        "href": "https://www.ft.com/content/268b2852-e83c-4676-9f3c-7ca41c12c1ba",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://ft.com/content/268b2852-e83c-4676-9f3c-7ca41c12c1ba",
+        "host": "ft.com",
+        "target_article_id": null
+      },
+      {
+        "id": "r013",
+        "paragraph_id": "p26",
+        "char_start": 162,
+        "char_end": 187,
+        "label": "fighter jets and missiles",
+        "href": "https://www.nytimes.com/2025/06/09/business/china-rare-earth-samarium-fighter-jets.html",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://nytimes.com/2025/06/09/business/china-rare-earth-samarium-fighter-jets.html",
+        "host": "nytimes.com",
+        "target_article_id": null
+      },
+      {
+        "id": "r014",
+        "paragraph_id": "p27",
+        "char_start": 41,
+        "char_end": 89,
+        "label": "China isn’t just exporting battery electric cars",
+        "href": "https://global.chinadaily.com.cn/a/202507/28/WS6886d939a310ad07b5d9252d.html",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://global.chinadaily.com.cn/a/202507/28/ws6886d939a310ad07b5d9252d.html",
+        "host": "global.chinadaily.com.cn",
+        "target_article_id": null
+      },
+      {
+        "id": "r015",
+        "paragraph_id": "p32",
+        "char_start": 132,
+        "char_end": 202,
+        "label": "the functioning part of the Department of Defense seems to be doing it",
+        "href": "https://www.whitehouse.gov/presidential-actions/2025/04/modernizing-defense-acquisitions-and-spurring-innovation-in-the-defense-industrial-base/",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://whitehouse.gov/presidential-actions/2025/04/modernizing-defense-acquisitions-and-spurring-innovation-in-the-defense-industrial-base",
+        "host": "whitehouse.gov",
+        "target_article_id": null
+      }
+    ],
+    "metadata_extension": {
+      "field_sources": {
+        "title": "frontmatter",
+        "authors": "frontmatter",
+        "published_date": "frontmatter",
+        "url": "frontmatter",
+        "publisher": "frontmatter",
+        "series": "frontmatter"
+      },
+      "references_status": "preserved",
+      "links_hash": "sha256:e44c3a373773bb04f4e290893bb810084ce3cf941c4e115d69261306954fa25c",
+      "subtitle": "The tools of China’s trade war have been industrial policy and a weak currency, not tariffs. They are working.",
+      "published_at": "2025-07-28T21:46:28-04:00",
+      "programs": [
+        "Follow the Money",
+        "China Strategy Initiative",
+        "China 360°",
+        "Greenberg Center for Geoeconomics"
+      ],
+      "source_tags": [
+        "China",
+        "Trade"
+      ],
+      "license": "CC BY-NC-ND 4.0",
+      "section": "Article",
+      "doc_type": "AnalysisNewsArticle",
+      "language": "en",
+      "word_count": 1086,
+      "date_modified": "2025-07-28",
+      "retrieved_at": "2026-10-19T20:54:52Z",
+      "page_sha256": "076b1d7c5bdb9f8860115adf57bdfc9a219c83a1e84d90cb631972f7d2bfca16",
+      "figures": [
+        {
+          "title": "EU Trade w China",
+          "src": "https://static.cfr.org/sites/default/files/styles/large_s/public/image/2025/07/EU%20Trade%20w%20China.png",
+          "after_paragraph": "p11"
+        },
+        {
+          "title": "China Trade in Autos w EU",
+          "src": "https://static.cfr.org/sites/default/files/styles/large_s/public/image/2025/07/China%20Trade%20in%20Autos%20w%20EU.png",
+          "after_paragraph": "p12"
+        },
+        {
+          "title": "Germany Exports to China",
+          "src": "https://static.cfr.org/sites/default/files/styles/large_s/public/image/2025/07/Germany%20Exports%20to%20China.png",
+          "after_paragraph": "p14"
+        },
+        {
+          "title": "EU Trade Deficit w China",
+          "src": "https://static.cfr.org/sites/default/files/styles/large_s/public/image/2025/07/EU%20Trade%20Deficit%20w%20China_0.png",
+          "after_paragraph": "p18"
+        },
+        {
+          "title": "China Vehicle Exports",
+          "src": "https://static.cfr.org/sites/default/files/styles/large_s/public/image/2025/07/China%20Vehicle%20Exports.png",
+          "after_paragraph": "p20"
+        },
+        {
+          "title": "NEV Vehicle Exports",
+          "src": "https://static.cfr.org/sites/default/files/styles/large_s/public/image/2025/07/NEV%20Vehicle%20Exports.png",
+          "after_paragraph": "p21"
+        },
+        {
+          "title": "may 25 exp vol growth",
+          "src": "https://static.cfr.org/sites/default/files/styles/large_s/public/image/2025/07/may%2025%20exp%20vol%20growth.png",
+          "after_paragraph": "p22"
+        },
+        {
+          "title": "CNy usd eur",
+          "src": "https://static.cfr.org/sites/default/files/styles/large_s/public/image/2025/07/CNy%20usd%20eur.png",
+          "after_paragraph": "p28"
+        },
+        {
+          "title": "Germany Aircraft Exports to China",
+          "src": "https://static.cfr.org/sites/default/files/styles/large_s/public/image/2025/07/Germany%20Aircraft%20Exports%20to%20China.png",
+          "after_paragraph": "p39"
+        }
+      ]
+    }
+  },
+  "paragraphs": [
+    {
+      "id": "p1",
+      "sha256": "sha256:adabd10f365cdf39e24c83b45ff52217d13425d4e918a43c339efae21e147b1c",
+      "n_chars": 132
+    },
+    {
+      "id": "p2",
+      "sha256": "sha256:74693cc09fd1733c090b566b7544f41367825ab1b86c513914f5ef510dd120a8",
+      "n_chars": 132
+    },
+    {
+      "id": "p3",
+      "sha256": "sha256:31b2b4c56b049a086e8108c5fc8449900131d98420047e8e2452cd724a3bf5d3",
+      "n_chars": 96
+    },
+    {
+      "id": "p4",
+      "sha256": "sha256:7614f3481aed0fafddffc5c19c54baee613eab440cfdfc3fb86c735ed74971f7",
+      "n_chars": 77
+    },
+    {
+      "id": "p5",
+      "sha256": "sha256:259b3973de1d83467488b148e17350eb4e7869201cd9ded08a2a985ed5137d60",
+      "n_chars": 73
+    },
+    {
+      "id": "p6",
+      "sha256": "sha256:8d8e8009c3d94e056b78d8914e13c7a641ff99d91f177c5d7a93903a53a59ef2",
+      "n_chars": 66
+    },
+    {
+      "id": "p7",
+      "sha256": "sha256:3d5459bb69b3b955491e4f9809c078b6d1c07422b276829b1d0a997b1f82ea17",
+      "n_chars": 44
+    },
+    {
+      "id": "p8",
+      "sha256": "sha256:a4d714846f991495a6cf753628a7d484bf4c386771a9db3f02606d3063987ca2",
+      "n_chars": 212
+    },
+    {
+      "id": "p9",
+      "sha256": "sha256:0b541f71e207e9bbfd52864b9b17b47838a4c38ab5030559d4429c887e3a94e4",
+      "n_chars": 225
+    },
+    {
+      "id": "p10",
+      "sha256": "sha256:7823b87e9251043ae18009a10ebaa6775bb299d0614cdcbf58ae8e82c7008138",
+      "n_chars": 332
+    },
+    {
+      "id": "p11",
+      "sha256": "sha256:5eab52ab32e335a9557039461d6f5b79d7b3717f193b7050999f3a4237e44f83",
+      "n_chars": 177
+    },
+    {
+      "id": "p12",
+      "sha256": "sha256:50884bfc6e8ccb20bb64a612e0c274766f3cceafc73751485c6a9eef2240415c",
+      "n_chars": 25
+    },
+    {
+      "id": "p13",
+      "sha256": "sha256:776664496da9c626956ef099b86fdd7303ce2942cf39cdc4e4b42012300df6ca",
+      "n_chars": 109
+    },
+    {
+      "id": "p14",
+      "sha256": "sha256:de623b853374e7a610852c82f7aff5085827631c21308fc9047f3728f8d4c43e",
+      "n_chars": 201
+    },
+    {
+      "id": "p15",
+      "sha256": "sha256:be5231ce46e914522157fc6bc99e54084846b3d1107515c8d2ab86ce97c86e1a",
+      "n_chars": 59
+    },
+    {
+      "id": "p16",
+      "sha256": "sha256:d06b706b51241c4d2d743cfefde175109edf09c717a1e0655b38d69aaedf7eb6",
+      "n_chars": 65
+    },
+    {
+      "id": "p17",
+      "sha256": "sha256:134ad118f01d3d4ec0e64c8d69e0c222bc83d740e5a13be03fce7c0c66d8fc0c",
+      "n_chars": 139
+    },
+    {
+      "id": "p18",
+      "sha256": "sha256:70a7c1c3a3d037205ad7a8f4caad8c8876913eccf6ac36c59997f1c40afeeb05",
+      "n_chars": 235
+    },
+    {
+      "id": "p19",
+      "sha256": "sha256:8714d0f35e8353967681fc08b19ba379110a9f0f03ad18d77435059dbfb78baf",
+      "n_chars": 104
+    },
+    {
+      "id": "p20",
+      "sha256": "sha256:29bc7331892fe0a2459aa86483fe5d27450b10c3d4dc9b103820947876898720",
+      "n_chars": 149
+    },
+    {
+      "id": "p21",
+      "sha256": "sha256:dc8a9e10d60cac816f32cff596613dfb5b83eef892a179d69b2b2f2446f4c1ad",
+      "n_chars": 379
+    },
+    {
+      "id": "p22",
+      "sha256": "sha256:a1613624b2fd90ac4ac0e286cb40b49ccd42a21286f3f2341a4d7413a350c509",
+      "n_chars": 138
+    },
+    {
+      "id": "p23",
+      "sha256": "sha256:d61693dd500ba661a29e6641bdb254ea9b50590e075002473f2b2fb6435d5131",
+      "n_chars": 263
+    },
+    {
+      "id": "p24",
+      "sha256": "sha256:eaba80b4eb0956bbbaed00105c6c1977ccfbeba996110cd3d0b6ce21cc5ea7e3",
+      "n_chars": 183
+    },
+    {
+      "id": "p25",
+      "sha256": "sha256:2d67c2390460ffd24dd4afd5e21d7ef6ca8b8f135d62e3771e08002685222660",
+      "n_chars": 180
+    },
+    {
+      "id": "p26",
+      "sha256": "sha256:8c3e6f430cb33ad02ddd6365cb0ea5e0f2b5bf25ef16cc599f4b4b0da5127750",
+      "n_chars": 257
+    },
+    {
+      "id": "p27",
+      "sha256": "sha256:8e464afd208841a676f9264c907b7c62c3be7055953958832ab40d6a86dd384b",
+      "n_chars": 301
+    },
+    {
+      "id": "p28",
+      "sha256": "sha256:ebea609edec5f8679ea1254a2fa878fff9f4eb5f351c8e25b4bbd226a8c4c494",
+      "n_chars": 309
+    },
+    {
+      "id": "p29",
+      "sha256": "sha256:906f862ddc64e093cf1d6cfa644dea3a752d5f3295a1fcfaf9c705defc6cc9b6",
+      "n_chars": 79
+    },
+    {
+      "id": "p30",
+      "sha256": "sha256:7da12628300d56131b3f979c80855d7a8024542f0be953122976eb928deb3b1f",
+      "n_chars": 164
+    },
+    {
+      "id": "p31",
+      "sha256": "sha256:eb65d9980016887543262d536612c1c93f025c1fc19cbe14f4a5582e4a2112ed",
+      "n_chars": 86
+    },
+    {
+      "id": "p32",
+      "sha256": "sha256:52cae851954c4d1cea4328efd8d5ffd002e18564adcaf63ffebd2c585b38eaba",
+      "n_chars": 345
+    },
+    {
+      "id": "p33",
+      "sha256": "sha256:a061d3c233ab31e3ab96806565b7b421adf5858eb52f6014e74ec8cf47e0c734",
+      "n_chars": 187
+    },
+    {
+      "id": "p34",
+      "sha256": "sha256:6e20379ef9f9d28b341537b5720cdee6b5f62ac0c8fc5dba59ac3d7c6870defa",
+      "n_chars": 243
+    },
+    {
+      "id": "p35",
+      "sha256": "sha256:677bde51f6831b2df924b9f473a34321ec9f6eb71a76cf52ea6f7177ca1936af",
+      "n_chars": 22
+    },
+    {
+      "id": "p36",
+      "sha256": "sha256:04aaeabbd54067ac7ffa706e2f2c5c934c0646553900b457a3db02e0ae2bb930",
+      "n_chars": 131
+    },
+    {
+      "id": "p37",
+      "sha256": "sha256:c1954380df603a3cc2775169758d0dbdca0f1f85af5e081dad69d60c0d075bbe",
+      "n_chars": 150
+    },
+    {
+      "id": "p38",
+      "sha256": "sha256:aa2d8be44066056a829e3bd396218dda54d49dcaaaed12b6cdaf8c66fae77670",
+      "n_chars": 106
+    },
+    {
+      "id": "p39",
+      "sha256": "sha256:862ad7c23f00a3c0864bad6d856c68ace9ba8d341ab081e02d4c1d6a301e387e",
+      "n_chars": 119
+    },
+    {
+      "id": "p40",
+      "sha256": "sha256:8fb8871a8df42bc0762d146db6137711b3b434fd916a393ec564108b37bb5c32",
+      "n_chars": 284
+    }
+  ],
+  "revisions": [
+    {
+      "content_hash": "sha256:bfcdc45bdbd877863c77148ea7888a0ce715f9f22fee08184994a769d50c92c1",
+      "links_hash": "sha256:e44c3a373773bb04f4e290893bb810084ce3cf941c4e115d69261306954fa25c",
+      "paragraph_count": 40,
+      "retrieved_at": "2026-10-19T20:54:52Z",
+      "revision": 1,
+      "changed_paragraphs": []
+    }
+  ],
+  "extensions": {
+    "entities": [
+      {
+        "entity_id": null,
+        "type": "person",
+        "name": "Brad W. Setser",
+        "role": "author"
+      },
+      {
+        "entity_id": null,
+        "type": "organization",
+        "name": "Council on Foreign Relations",
+        "role": "publisher"
+      }
+    ],
+    "cited_sources": [
+      {
+        "source_key": "https://ig.ft.com/china-trade-surplus",
+        "host": "ig.ft.com",
+        "reference_ids": [
+          "r001"
+        ]
+      },
+      {
+        "source_key": "https://nytimes.com/interactive/2024/11/29/business/china-cars-sales-exports.html",
+        "host": "nytimes.com",
+        "reference_ids": [
+          "r002"
+        ]
+      },
+      {
+        "source_key": "https://cfr.org/articles/will-china-take-over-global-auto-industry",
+        "host": "cfr.org",
+        "reference_ids": [
+          "r003"
+        ]
+      },
+      {
+        "source_key": "https://wsj.com/finance/stocks/caterpillars-chinese-rivals-power-through-the-pandemic-11611570606",
+        "host": "wsj.com",
+        "reference_ids": [
+          "r004"
+        ]
+      },
+      {
+        "source_key": "https://nytimes.com/2025/04/23/business/china-tariffs-robots-automation.html",
+        "host": "nytimes.com",
+        "reference_ids": [
+          "r005"
+        ]
+      },
+      {
+        "source_key": "https://wsj.com/business/dupont-is-again-in-chinas-firing-line-in-trade-war-2-0-e59506cf",
+        "host": "wsj.com",
+        "reference_ids": [
+          "r006"
+        ]
+      },
+      {
+        "source_key": "https://ruavia.su/china-ramp-up-c919-production-eyeing-narrow-body-market-expansion",
+        "host": "ruavia.su",
+        "reference_ids": [
+          "r007"
+        ]
+      },
+      {
+        "source_key": "https://scmp.com/economy/china-economy/article/3318393/airbus-signs-fresh-deal-chinese-partner-amid-talk-massive-china-order",
+        "host": "scmp.com",
+        "reference_ids": [
+          "r008"
+        ]
+      },
+      {
+        "source_key": "https://ft.com/content/f7979a8f-874a-4b47-8304-d93d30171980",
+        "host": "ft.com",
+        "reference_ids": [
+          "r009"
+        ]
+      },
+      {
+        "source_key": "https://cer.eu/publications/archive/policy-brief/2025/how-german-industry-can-survive-second-china-shock",
+        "host": "cer.eu",
+        "reference_ids": [
+          "r010"
+        ]
+      },
+      {
+        "source_key": "https://adamtooze.substack.com/p/chartbook-393-whither-china-world",
+        "host": "adamtooze.substack.com",
+        "reference_ids": [
+          "r011"
+        ]
+      },
+      {
+        "source_key": "https://ft.com/content/268b2852-e83c-4676-9f3c-7ca41c12c1ba",
+        "host": "ft.com",
+        "reference_ids": [
+          "r012"
+        ]
+      },
+      {
+        "source_key": "https://nytimes.com/2025/06/09/business/china-rare-earth-samarium-fighter-jets.html",
+        "host": "nytimes.com",
+        "reference_ids": [
+          "r013"
+        ]
+      },
+      {
+        "source_key": "https://global.chinadaily.com.cn/a/202507/28/ws6886d939a310ad07b5d9252d.html",
+        "host": "global.chinadaily.com.cn",
+        "reference_ids": [
+          "r014"
+        ]
+      },
+      {
+        "source_key": "https://whitehouse.gov/presidential-actions/2025/04/modernizing-defense-acquisitions-and-spurring-innovation-in-the-defense-industrial-base",
+        "host": "whitehouse.gov",
+        "reference_ids": [
+          "r015"
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "flags": []
+  }
+}

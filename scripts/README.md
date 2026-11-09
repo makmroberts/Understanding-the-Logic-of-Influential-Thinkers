@@ -6,16 +6,21 @@ scripts are versioned.
 
 ## Current scope
 
-`cfr_extract.py` handles CFR "Follow the Money" articles (Brad Setser).
+Parsers live in `parsers/`, one per source, over the shared `parsers/common.py`.
+Extractors live in `extractors/` and read only the text the parsers write.
+Before 2026-11-09 these were `cfr_extract.py`, `substack_extract.py`,
+`extract_lib.py` and `extract_metadata.py`, and older notes below use those names.
+
+`parsers/cfr.py` handles CFR "Follow the Money" articles (Brad Setser).
 `sources_followthemoney.csv` is the registry of the 20 articles the team is
 annotating, with the per-owner year assignment.
 
 ```bash
-python scripts/cfr_extract.py --owner sicheng      # 2020 + 2024 set
-python scripts/cfr_extract.py --year 2020
-python scripts/cfr_extract.py --all                # all 20
-python scripts/cfr_extract.py --url https://www.cfr.org/articles/<slug>
-python scripts/cfr_extract.py --owner sicheng --no-cache   # force refetch
+python scripts/parsers/cfr.py --owner sicheng      # 2020 + 2024 set
+python scripts/parsers/cfr.py --year 2020
+python scripts/parsers/cfr.py --all                # all 20
+python scripts/parsers/cfr.py --url https://www.cfr.org/articles/<slug>
+python scripts/parsers/cfr.py --owner sicheng --no-cache   # force refetch
 ```
 
 Output: one `YYYY-MM-DD_<slug>.md` per article in `internal/extracted/`, plus
@@ -335,7 +340,7 @@ Known issues), and the third is the open case below.
 python scripts/verify_urls.py        # -> data/url_verification.md
 ```
 
-Reuses `cfr_extract.py`'s fetch and JSON-LD parsing (so it shares the
+Reuses `parsers/common.py`'s fetch and JSON-LD parsing (so it shares the
 `internal/.cache_html/` cache) and compares each page's own `headline` and
 `datePublished` against what the overlay asserts.
 
@@ -404,7 +409,7 @@ terms were added, with the reasoning recorded inline.
 **2. Passages: 0 → 69 anchored, via two tiers rather than one.**
 
 ```bash
-python scripts/cfr_extract.py --all           # now possible: all 20 URLs known
+python scripts/parsers/cfr.py --all           # now possible: all 20 URLs known
 python scripts/link_passages.py               # -> data/passage_report.md
 python scripts/link_passages.py --show setser_aug_14_24#RC
 ```
@@ -562,8 +567,10 @@ concept layer: these three are exactly the cross-article priors
 - **The candidate tier is a narrowing, not a citation**, until reviewed. The
   `%% para: p7` convention in new maps would avoid the problem at source for
   anything annotated from here on.
-- Every row carries the extraction's `page_sha256`. If CFR re-flows an article
-  the hash changes and the citation is invalidated rather than silently wrong.
+- Every row carries the extraction's `page_sha256`. **Correction (2026-11-09):**
+  this hash covers the whole page, so it changes when the article does not. Two
+  pages re-fetched that day both had a new `page_sha256` and identical body text.
+  Use `content_hash` from `extractors/metadata.py` to detect a changed article.
 - `internal/extracted/` is gitignored, so these rows are pointers into local
   files. That is the existing convention (text stays local, derived artifacts
   are versioned), not an oversight.
@@ -718,6 +725,132 @@ premise the article never argues (the map puts that work in `Q`), and **8 are
 argument the graph does represent but cannot cite** — p14–p16 (the SAFE/Apple
 rebuttal behind `M1`), p22–p23, p18, p27, p29. A retrieval gap, not a modelling
 gap, and the same gap the `%% para: pN` convention would close at source.
+
+## Metadata from text (2026-11-09)
+
+`extractors/metadata.py` is a separate step after the parser. A parser knows one
+site's HTML and writes text. The metadata extractor reads
+only that text, with no HTML, no publisher names and no model, and writes
+`data/articles/<id>.json`. The record holds metadata, hashes and citation
+locations. Article text stays in `internal/`.
+
+```bash
+python scripts/extractors/metadata.py --check   # audit, write nothing
+python scripts/extractors/metadata.py --file internal/extracted/<file>.md
+```
+
+Run over everything in `internal/extracted/`, it also picks up the Substack post.
+The records in `data/articles/` are the 20 Setser articles plus that post.
+
+Re-fetching the post on 2026-11-09 caught an edit the page does not report: p99
+and p101 had changed while `dateModified` still showed the publication date. It
+is recorded as revision 2, with those two paragraphs listed.
+
+| check, over all 21 extracted files unless stated | result |
+|---|---|
+| title, date, URL against each page's JSON-LD | 21/21 each |
+| authors against JSON-LD (20 CFR pages; the Substack page was not compared) | 20/20 |
+| citations against the original HTML, per paragraph (20 CFR, after the fixes below) | 311 of 311, none missed, none extra |
+| character offsets return the link label (20 CFR, after the fixes below) | 310 of 310 labelled links; the one unlabelled link has zero width |
+| second run with unchanged input | 0 written, 21 unchanged |
+| same text, different `page_sha256` | stays revision 1 |
+| one paragraph edited | revision 2, reports exactly that paragraph |
+
+The HTML comparison is the independent test, because the extractor never reads
+HTML. **The no-frontmatter and plain-text runs matched on 21/21 but are round
+trips**: the title and byline they parse were written by our own `render()`. They
+show the fallback works on this layout, not on someone else's header.
+
+What it measured about the input, before any of this was built:
+
+- `page_sha256` changes without the article changing, as corrected above.
+- `dateModified` equals `datePublished` on all 20 CFR pages, so it cannot show
+  an edit. The content hash is the only edit signal we have.
+- In the article body alone, the title appears in 1 of 21 files, the author in
+  2 and the date in 0. The header has to be part of the text the source extractor
+  writes.
+- Plain text loses citations: 333 hyperlinks in the body against 10 URLs visible
+  as text. A file with no declared reference count gets
+  `references_status: unknown`, never "cites nothing".
+- A site-neutral paragraph reader over all `<p>`, `<li>` and heading tags found
+  776 of the 794 paragraphs but 55% of what it returned was navigation. Not
+  pursued, since the source extractor keeps that job.
+
+### Source revision 2 (2026-11-09)
+
+Fixed together from the cached pages, with no re-fetch, so the 20 CFR articles
+changed once:
+
+- **Missing text.** The selector read only `<p class="rich-text">`. Lists and
+  `h4` subheads are now included: 10 paragraphs across 3 articles (686 -> 696).
+  The Newsletter box stays out as boilerplate.
+- **Fused words.** Spaces at the edge of a link now stay in the sentence.
+- **Unlabelled link.** Kept as `[](href)`, since the author did write it.
+- **Figures.** All 113 now record the paragraph they follow.
+- **`retrieved_at`** is now the cached page's fetch time, not the time of the
+  latest re-render.
+
+The diff against the previous extracts showed 10 paragraphs added, 15 edited and
+none removed. Three articles were renumbered: `setser_dec_15_17`,
+`setser_jun_4_18` and `setser_2026-02-03_october-2025-deficit`. No human verdict
+needed remapping, because `passage_review.yaml` does not exist and the worksheet
+had no decisions filled in.
+
+`link_passages.py` was re-run. Mapping old paragraph numbers to new ones, 330 of
+338 linked claims kept the same link and grade. The other 8 are all in those
+three articles, because the matcher now sees new text. Anchored rows went 115 ->
+117; claims reaching an anchor stayed at 63.
+
+Eleven records are now revision 2 and carry `source_changed_review_passages`.
+That flag persists across re-runs until someone removes it.
+
+The same day the record gained what the pages offered and it had been dropping:
+subtitle, full publication time, programs, CFR's topic tags, license, section,
+document type, language and word count. `series` was a hardcoded constant and is
+now read from the page, so the October 2025 article, which is not in Follow the
+Money, has none. Co-authors named in a "joint post by" opening line are added to
+the byline, and `*` footnotes are labelled as footnotes. These are metadata only:
+the body text and every paragraph number stayed the same.
+
+Author titles are deliberately left out: the page shows a person's current title,
+which would be wrong on an old article.
+
+The extractor no longer imports `export_citations.py`, so it has no tie to the
+old pipeline. `map_doc` was removed from the records for that reason, and parsers
+no longer write an argument-map placeholder, so nothing in `parsers/` or
+`extractors/` touches the Mermaid maps. The older scripts that read
+`mermaid_code/` are legacy, to be retired as the annotation JSON replaces them.
+
+The reorganization also exposed that `verify_urls.py` had been importing `fetch`
+and `parse_jsonld` from a module that stopped defining them in the October split,
+so it could not start. It now imports from `parsers/common.py`.
+
+### PDF test: Pozsar's Global Money Notes (2026-11-09)
+
+`parsers/pozsar.py` turns the 41 Credit Suisse PDFs into the same text format, and
+`extractors/metadata.py` read them with no code change. That was the point of
+the split. Output went to a scratch directory, not `data/articles/`.
+
+A PDF has only positioned text, so structure is inferred from layout: line
+spacing for paragraphs, font size for headings, and repeated lines for page
+furniture. Words the extraction splits ("C hanges", "bil lion") are left as they
+are, because repairing them would mean guessing at the text.
+
+Known limits: link URLs and locations are exact but label edges are estimated
+from character width; a paragraph interrupted by a figure or page can split in
+two; some text in diagrams survives as short paragraphs; and the five earliest
+notes (2015 to 2016) have no parseable author block, so they stay null and flagged.
+PDF `/Author` metadata was deliberately not used: it names whoever typed the file.
+
+Still open:
+
+- Quoted text is not marked, and `<blockquote>` is not a reliable signal for it.
+  Read by hand, CFR's 8 blockquotes are 3 quotations of the IMF's 2024 China report
+  (`setser_aug_14_24` p7, p15, p31), 4 sections of Setser's own argument in
+  `why-didnt-tariffs-push-us-dollar`, and 1 empty element. A curly-quote search
+  finds 4 more quotations of 12 or more words inside ordinary paragraphs.
+- Entities cover byline authors and the publisher only, with `entity_id` null.
+  Matching names in prose needs a hand-maintained list that does not exist yet.
 
 ## Known issues
 

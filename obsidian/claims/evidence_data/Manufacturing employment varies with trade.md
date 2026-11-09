@@ -32,7 +32,7 @@ tags: [type/evidence_data, level/L2, family/plain, variable/manufacturing-employ
 ## Source
 - Article: [[2017-12-15 Why does the U.S. trade balance still matter, even if deficits can accompany strong growth]]
 - Authored map: `mermaid_code/setser_dec_15_17.mmd`
-- Passage: p24 — _proposed `abstracts`, score 0.400; unreviewed, not a citation_
+- Passage: p27 — _proposed `abstracts`, score 0.393; unreviewed, not a citation_
 - Published: https://www.cfr.org/articles/why-trade-balance-still-matters
 - Node `setser_dec_15_17#D2` · level L2 · type resolved by `class`
 - Full chain: `python scripts/trace.py setser_dec_15_17#D2`

@@ -1,0 +1,497 @@
+{
+  "schema_version": "source-record-0.1",
+  "article": {
+    "id": "trade-deals-or-macroeconomic-shocks",
+    "title": "Trade Deals or Macroeconomic Shocks?",
+    "authors": [
+      "Brad W. Setser"
+    ],
+    "published_date": "2018-06-04",
+    "url": "https://www.cfr.org/articles/trade-deals-or-macroeconomic-shocks",
+    "publisher": "Council on Foreign Relations",
+    "series": "Follow the Money",
+    "source_text": {
+      "path": "internal/extracted/2018-06-04_trade-deals-or-macroeconomic-shocks.md",
+      "paragraph_count": 28,
+      "content_hash": "sha256:ed57c0321d57b2f6dd0a61432cd530126279074c796cb826e8e2d5b2e6100f47",
+      "revision": 2
+    },
+    "references": [
+      {
+        "id": "r001",
+        "paragraph_id": "p5",
+        "char_start": 86,
+        "char_end": 95,
+        "label": "Argentina",
+        "href": "https://www.cfr.org/articles/argentina-sustainable-yes-adjustment-sustainable-high-probability",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://cfr.org/articles/argentina-sustainable-yes-adjustment-sustainable-high-probability",
+        "host": "cfr.org",
+        "target_article_id": null
+      },
+      {
+        "id": "r002",
+        "paragraph_id": "p5",
+        "char_start": 100,
+        "char_end": 106,
+        "label": "Turkey",
+        "href": "https://www.cfr.org/articles/turkey-could-use-few-more-reserves-and-somewhat-less-creative-banking-system",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://cfr.org/articles/turkey-could-use-few-more-reserves-and-somewhat-less-creative-banking-system",
+        "host": "cfr.org",
+        "target_article_id": null
+      },
+      {
+        "id": "r003",
+        "paragraph_id": "p7",
+        "char_start": 118,
+        "char_end": 127,
+        "label": "late 2019",
+        "href": "https://www.bloomberg.com/news/articles/2017-11-01/why-abe-s-risking-a-tax-hike-as-the-economy-heals-quicktake-q-a",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://bloomberg.com/news/articles/2017-11-01/why-abe-s-risking-a-tax-hike-as-the-economy-heals-quicktake-q-a",
+        "host": "bloomberg.com",
+        "target_article_id": null
+      },
+      {
+        "id": "r004",
+        "paragraph_id": "p7",
+        "char_start": 160,
+        "char_end": 165,
+        "label": "China",
+        "href": "https://www.cfr.org/articles/chinas-own-goal-unnecessary-and-counterproductive-budget-fiscal-consolidation",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://cfr.org/articles/chinas-own-goal-unnecessary-and-counterproductive-budget-fiscal-consolidation",
+        "host": "cfr.org",
+        "target_article_id": null
+      },
+      {
+        "id": "r005",
+        "paragraph_id": "p9",
+        "char_start": 43,
+        "char_end": 64,
+        "label": "Trump’s fiscal policy",
+        "href": "https://www.cfr.org/articles/trumps-tax-success-expense-his-trade-agenda",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://cfr.org/articles/trumps-tax-success-expense-his-trade-agenda",
+        "host": "cfr.org",
+        "target_article_id": "trumps-tax-success-expense-his-trade-agenda"
+      },
+      {
+        "id": "r006",
+        "paragraph_id": "p15",
+        "char_start": 386,
+        "char_end": 409,
+        "label": "rather remarkable op-ed",
+        "href": "https://www.ft.com/content/e193381a-64c1-11e8-bdd1-cc0534df682c",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://ft.com/content/e193381a-64c1-11e8-bdd1-cc0534df682c",
+        "host": "ft.com",
+        "target_article_id": null
+      },
+      {
+        "id": "r007",
+        "paragraph_id": "p18",
+        "char_start": 92,
+        "char_end": 109,
+        "label": "for Italy to grow",
+        "href": "https://www.ft.com/content/8cc9e45c-6587-11e8-90c2-9563a0613e56",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://ft.com/content/8cc9e45c-6587-11e8-90c2-9563a0613e56",
+        "host": "ft.com",
+        "target_article_id": null
+      },
+      {
+        "id": "r008",
+        "paragraph_id": "p19",
+        "char_start": 107,
+        "char_end": 143,
+        "label": "terms of Italy’s eurozone membership",
+        "href": "https://www.project-syndicate.org/commentary/italy-new-election-euro-crisis-by-nouriel-roubini-and-brunello-rosa-2018-06",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://project-syndicate.org/commentary/italy-new-election-euro-crisis-by-nouriel-roubini-and-brunello-rosa-2018-06",
+        "host": "project-syndicate.org",
+        "target_article_id": null
+      },
+      {
+        "id": "r009",
+        "paragraph_id": "p19",
+        "char_start": 427,
+        "char_end": 434,
+        "label": "trouble",
+        "href": "https://www.wsj.com/articles/in-a-dollarized-world-a-rising-dollar-spells-pain-1525869836",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://wsj.com/articles/in-a-dollarized-world-a-rising-dollar-spells-pain-1525869836",
+        "host": "wsj.com",
+        "target_article_id": null
+      },
+      {
+        "id": "r010",
+        "paragraph_id": "p19",
+        "char_start": 439,
+        "char_end": 478,
+        "label": "liability-dollarized emerging economies",
+        "href": "https://www.wsj.com/articles/emerging-markets-have-a-dollar-problem-1528077840",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://wsj.com/articles/emerging-markets-have-a-dollar-problem-1528077840",
+        "host": "wsj.com",
+        "target_article_id": null
+      },
+      {
+        "id": "r011",
+        "paragraph_id": "p23",
+        "char_start": 359,
+        "char_end": 381,
+        "label": "Japanese demand growth",
+        "href": "https://www.cfr.org/articles/abenomics-and-long-legacy-consumption-tax-hike",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://cfr.org/articles/abenomics-and-long-legacy-consumption-tax-hike",
+        "host": "cfr.org",
+        "target_article_id": null
+      }
+    ],
+    "metadata_extension": {
+      "field_sources": {
+        "title": "frontmatter",
+        "authors": "frontmatter",
+        "published_date": "frontmatter",
+        "url": "frontmatter",
+        "publisher": "frontmatter",
+        "series": "frontmatter"
+      },
+      "references_status": "preserved",
+      "links_hash": "sha256:5a452f39f5d25d3e899a38a14ef450ea92b098acd163db2476b3781714c9051d",
+      "subtitle": "With ongoing euro uncertainty in Italy, financial turmoil in Argentina and Turkey, and potential fiscal risks to demand in Asia, does the Trump administration’s focus on trade deals miss the larger macroeconomic picture?",
+      "published_at": "2018-06-04T11:29:01-04:00",
+      "programs": [
+        "Follow the Money"
+      ],
+      "source_tags": [
+        "United States",
+        "Italy",
+        "Trade"
+      ],
+      "license": "CC BY-NC-ND 4.0",
+      "section": "Article",
+      "doc_type": "AnalysisNewsArticle",
+      "language": "en",
+      "word_count": 1309,
+      "date_modified": "2018-06-04",
+      "retrieved_at": "2026-10-15T20:05:34Z",
+      "page_sha256": "678b24b48c91e7a3be3c2039f3cf4061263192b5211141606cadd35027dd4859",
+      "figures": [
+        {
+          "title": "eurozone-primary-fiscal-balances",
+          "src": "https://static.cfr.org/sites/default/files/styles/large_s/public/image/2018/06/eurozone-primary-fiscal-balances.png",
+          "after_paragraph": "p26"
+        },
+        {
+          "title": "eurozone-domestic-demand-since-2007",
+          "src": "https://static.cfr.org/sites/default/files/styles/large_s/public/image/2018/06/eurozone-domestic-demand-since-2007.png",
+          "after_paragraph": "p27"
+        },
+        {
+          "title": "tracking-the-yuan-indexes",
+          "src": "https://static.cfr.org/sites/default/files/styles/large_s/public/image/2018/06/tracking-the-yuan-indexes.png",
+          "after_paragraph": "p28"
+        }
+      ]
+    }
+  },
+  "paragraphs": [
+    {
+      "id": "p1",
+      "sha256": "sha256:4a9a145656b44329f804dc71fb408440b4fbca02ed6fdeb85ef65607f7ff796f",
+      "n_chars": 423
+    },
+    {
+      "id": "p2",
+      "sha256": "sha256:e51d350de1466fae93ed9c53af861242177285862bc257bd2d01a3ddd3723e22",
+      "n_chars": 313
+    },
+    {
+      "id": "p3",
+      "sha256": "sha256:64ce99556b041757cf0dd597a95ddf9ae8d6806c08c5e1fbca34c3bad4f463ab",
+      "n_chars": 120
+    },
+    {
+      "id": "p4",
+      "sha256": "sha256:5842747f3b89a78e832ba891d0151f65b3c09eab42c3d257f5f59afc0af02eab",
+      "n_chars": 274
+    },
+    {
+      "id": "p5",
+      "sha256": "sha256:39a09a1b443ed1fbfd718e590653463601da40349e23fc8df499c000359eee8b",
+      "n_chars": 117
+    },
+    {
+      "id": "p6",
+      "sha256": "sha256:8446cc401d2dbc739d8408ca5e191631e6e81284b9f3d19577c903b5d6b191e4",
+      "n_chars": 337
+    },
+    {
+      "id": "p7",
+      "sha256": "sha256:9cc4a4ecb9058faed4c0fe19fb52d09fe4c3a0bdd7e2a10ad463da3482dddb21",
+      "n_chars": 246
+    },
+    {
+      "id": "p8",
+      "sha256": "sha256:204f7c88cb12c33ef5f4c4d6efca725f286ca385aae2140dba69f964e137d24e",
+      "n_chars": 121
+    },
+    {
+      "id": "p9",
+      "sha256": "sha256:cf412fa69f497f180e0f960f572fb58bb8cc872cad2ad3289e15dbf282dba18e",
+      "n_chars": 65
+    },
+    {
+      "id": "p10",
+      "sha256": "sha256:933d9de009a926f7e29bfbaa2d8ebf2280a8a9bca2ad291c4bf87b48a8a24136",
+      "n_chars": 166
+    },
+    {
+      "id": "p11",
+      "sha256": "sha256:468e0394bad6e8e7f7350d6d10f745902fbbc46fd98d3d160a2f2e02e8d46768",
+      "n_chars": 475
+    },
+    {
+      "id": "p12",
+      "sha256": "sha256:bf9263532074a3fc5b358c6ab6433c7f31a6a5bbce1155ae37f3d09134ca12a5",
+      "n_chars": 108
+    },
+    {
+      "id": "p13",
+      "sha256": "sha256:3bbdb4e2a7c5f8000ff525e301d665f8d078d45f9efa4ca810a4990ba66d313f",
+      "n_chars": 412
+    },
+    {
+      "id": "p14",
+      "sha256": "sha256:925d626c8947e6a3256523affe56ae678933a3e6ed723afeb55bafe5e72dc0c8",
+      "n_chars": 52
+    },
+    {
+      "id": "p15",
+      "sha256": "sha256:5bb73491c1e3497809f9613184ab0b248a718721f595090479bd67133a5bf898",
+      "n_chars": 707
+    },
+    {
+      "id": "p16",
+      "sha256": "sha256:5a9cf672c8be6b5ab9546a2fb49b06dd81a4e364c86ed023898c49d9bb0605dc",
+      "n_chars": 5
+    },
+    {
+      "id": "p17",
+      "sha256": "sha256:abd777968fcd782dbce7cbac4abeef0d850b4edad077a6c86ee36e2099e5b09a",
+      "n_chars": 264
+    },
+    {
+      "id": "p18",
+      "sha256": "sha256:da5086b45974f8f4a19e16bdae0abb40bf0a57397d848398fbbeb2d11e90079e",
+      "n_chars": 261
+    },
+    {
+      "id": "p19",
+      "sha256": "sha256:6a08ee2dab507889dfe7d7bf1fd34a2a9cd1e6b7eb34b7b0b776fb2ede76d654",
+      "n_chars": 479
+    },
+    {
+      "id": "p20",
+      "sha256": "sha256:d43350544257d009c663400eddf62d996faa347fc6ce1f11548429791e823f5d",
+      "n_chars": 46
+    },
+    {
+      "id": "p21",
+      "sha256": "sha256:e417e93a249f7e56d347e1c89c45514852dc749be59396e1786af29247efa4f1",
+      "n_chars": 425
+    },
+    {
+      "id": "p22",
+      "sha256": "sha256:897a7fbbcdcbd5105e2070c62c16d3fc223fa2ce96c5fb1c8ca488e009ecd306",
+      "n_chars": 370
+    },
+    {
+      "id": "p23",
+      "sha256": "sha256:6b7fe599c1a9cae1dccbb201ada86c0301c04f626a1ff59b7d84922e2427fa51",
+      "n_chars": 538
+    },
+    {
+      "id": "p24",
+      "sha256": "sha256:8d1c8cd5d0b7eba2e48e9959b8c47325e4a184b7a3b375f51c9ab6b39c518de3",
+      "n_chars": 259
+    },
+    {
+      "id": "p25",
+      "sha256": "sha256:3cbfbabe55a98ccf4ca7edda05f10e8b3368e3f4a8b1d28f49367dac62512953",
+      "n_chars": 279
+    },
+    {
+      "id": "p26",
+      "sha256": "sha256:b0ecbb3ee9baa6fbe82270352235490f7beaebda4646de314258d04b22e9d240",
+      "n_chars": 551
+    },
+    {
+      "id": "p27",
+      "sha256": "sha256:2830c86419862e6c1ff4f1e34c312acab11482d02b649f7a425435b720d9cafc",
+      "n_chars": 74
+    },
+    {
+      "id": "p28",
+      "sha256": "sha256:7a696f13174021bb3a925cd0b530a1faf159ebac82974aefdc995bce63ffd6b1",
+      "n_chars": 360
+    }
+  ],
+  "revisions": [
+    {
+      "content_hash": "sha256:d800c91a25e9f0fe55b385ec046fe8e5569d60db82327afefb15fae61fe72c5b",
+      "links_hash": "sha256:55407e67c407e6effc72b39c56ac02dc0cd30122ef912997992841f34a86b7be",
+      "paragraph_count": 25,
+      "retrieved_at": "2026-10-19T20:54:52Z",
+      "revision": 1,
+      "changed_paragraphs": []
+    },
+    {
+      "content_hash": "sha256:ed57c0321d57b2f6dd0a61432cd530126279074c796cb826e8e2d5b2e6100f47",
+      "links_hash": "sha256:5a452f39f5d25d3e899a38a14ef450ea92b098acd163db2476b3781714c9051d",
+      "paragraph_count": 28,
+      "retrieved_at": "2026-10-15T20:05:34Z",
+      "revision": 2,
+      "changed_paragraphs": [
+        "p5",
+        "p6",
+        "p7",
+        "p8",
+        "p9",
+        "p10",
+        "p11",
+        "p12",
+        "p13",
+        "p14",
+        "p15",
+        "p16",
+        "p17",
+        "p18",
+        "p19",
+        "p20",
+        "p21",
+        "p22",
+        "p23",
+        "p24",
+        "p25",
+        "p26",
+        "p27",
+        "p28"
+      ]
+    }
+  ],
+  "extensions": {
+    "entities": [
+      {
+        "entity_id": null,
+        "type": "person",
+        "name": "Brad W. Setser",
+        "role": "author"
+      },
+      {
+        "entity_id": null,
+        "type": "organization",
+        "name": "Council on Foreign Relations",
+        "role": "publisher"
+      }
+    ],
+    "cited_sources": [
+      {
+        "source_key": "https://cfr.org/articles/argentina-sustainable-yes-adjustment-sustainable-high-probability",
+        "host": "cfr.org",
+        "reference_ids": [
+          "r001"
+        ]
+      },
+      {
+        "source_key": "https://cfr.org/articles/turkey-could-use-few-more-reserves-and-somewhat-less-creative-banking-system",
+        "host": "cfr.org",
+        "reference_ids": [
+          "r002"
+        ]
+      },
+      {
+        "source_key": "https://bloomberg.com/news/articles/2017-11-01/why-abe-s-risking-a-tax-hike-as-the-economy-heals-quicktake-q-a",
+        "host": "bloomberg.com",
+        "reference_ids": [
+          "r003"
+        ]
+      },
+      {
+        "source_key": "https://cfr.org/articles/chinas-own-goal-unnecessary-and-counterproductive-budget-fiscal-consolidation",
+        "host": "cfr.org",
+        "reference_ids": [
+          "r004"
+        ]
+      },
+      {
+        "source_key": "https://cfr.org/articles/trumps-tax-success-expense-his-trade-agenda",
+        "host": "cfr.org",
+        "reference_ids": [
+          "r005"
+        ]
+      },
+      {
+        "source_key": "https://ft.com/content/e193381a-64c1-11e8-bdd1-cc0534df682c",
+        "host": "ft.com",
+        "reference_ids": [
+          "r006"
+        ]
+      },
+      {
+        "source_key": "https://ft.com/content/8cc9e45c-6587-11e8-90c2-9563a0613e56",
+        "host": "ft.com",
+        "reference_ids": [
+          "r007"
+        ]
+      },
+      {
+        "source_key": "https://project-syndicate.org/commentary/italy-new-election-euro-crisis-by-nouriel-roubini-and-brunello-rosa-2018-06",
+        "host": "project-syndicate.org",
+        "reference_ids": [
+          "r008"
+        ]
+      },
+      {
+        "source_key": "https://wsj.com/articles/in-a-dollarized-world-a-rising-dollar-spells-pain-1525869836",
+        "host": "wsj.com",
+        "reference_ids": [
+          "r009"
+        ]
+      },
+      {
+        "source_key": "https://wsj.com/articles/emerging-markets-have-a-dollar-problem-1528077840",
+        "host": "wsj.com",
+        "reference_ids": [
+          "r010"
+        ]
+      },
+      {
+        "source_key": "https://cfr.org/articles/abenomics-and-long-legacy-consumption-tax-hike",
+        "host": "cfr.org",
+        "reference_ids": [
+          "r011"
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "flags": [
+      "source_changed_review_passages"
+    ]
+  }
+}

@@ -1,0 +1,716 @@
+{
+  "schema_version": "source-record-0.1",
+  "article": {
+    "id": "what-difference-week-or-weekend-makes",
+    "title": "What a Difference a Week (or a Weekend) Makes",
+    "authors": [
+      "Brad W. Setser"
+    ],
+    "published_date": "2019-05-10",
+    "url": "https://www.cfr.org/articles/what-difference-week-or-weekend-makes",
+    "publisher": "Council on Foreign Relations",
+    "series": "Follow the Money",
+    "source_text": {
+      "path": "internal/extracted/2019-05-10_what-difference-week-or-weekend-makes.md",
+      "paragraph_count": 42,
+      "content_hash": "sha256:b42ba6f316f1f70f629b50a13a46b42cb1ffe0c741ea5fdac81228542196c219",
+      "revision": 1
+    },
+    "references": [
+      {
+        "id": "r001",
+        "paragraph_id": "p1",
+        "char_start": 70,
+        "char_end": 91,
+        "label": "heading toward a deal",
+        "href": "https://www.politico.com/story/2019/05/01/us-china-deal-tariffs-1400007",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://politico.com/story/2019/05/01/us-china-deal-tariffs-1400007",
+        "host": "politico.com",
+        "target_article_id": null
+      },
+      {
+        "id": "r002",
+        "paragraph_id": "p1",
+        "char_start": 454,
+        "char_end": 487,
+        "label": "to China’s state capitalist model",
+        "href": "https://www.cfr.org/articles/china-never-stopped-managing-its-trade",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://cfr.org/articles/china-never-stopped-managing-its-trade",
+        "host": "cfr.org",
+        "target_article_id": "china-never-stopped-managing-its-trade"
+      },
+      {
+        "id": "r003",
+        "paragraph_id": "p1",
+        "char_start": 557,
+        "char_end": 654,
+        "label": "that China is using to try to displace imports of aircraft, semiconductors, and medical equipment",
+        "href": "https://www.sbc.senate.gov/public/_cache/files/3/b/3bd85987-d8b4-48b3-a53e-8b49d2060821/4E39BD152B9F358A5E4254D80A512D8B.setser-testimony.pdf",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://sbc.senate.gov/public/_cache/files/3/b/3bd85987-d8b4-48b3-a53e-8b49d2060821/4e39bd152b9f358a5e4254d80a512d8b.setser-testimony.pdf",
+        "host": "sbc.senate.gov",
+        "target_article_id": null
+      },
+      {
+        "id": "r004",
+        "paragraph_id": "p4",
+        "char_start": 18,
+        "char_end": 37,
+        "label": "supposedly starting",
+        "href": "https://www.nytimes.com/2019/04/25/us/politics/trump-xi-jinping-trade.html",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://nytimes.com/2019/04/25/us/politics/trump-xi-jinping-trade.html",
+        "host": "nytimes.com",
+        "target_article_id": null
+      },
+      {
+        "id": "r005",
+        "paragraph_id": "p5",
+        "char_start": 15,
+        "char_end": 60,
+        "label": "USTR was quietly letting a host of industries",
+        "href": "https://www.bloomberg.com/news/articles/2019-04-25/u-s-said-to-mull-concessions-on-drug-protections-in-china-talks",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://bloomberg.com/news/articles/2019-04-25/u-s-said-to-mull-concessions-on-drug-protections-in-china-talks",
+        "host": "bloomberg.com",
+        "target_article_id": null
+      },
+      {
+        "id": "r006",
+        "paragraph_id": "p8",
+        "char_start": 122,
+        "char_end": 141,
+        "label": "Trump’s tweet storm",
+        "href": "https://twitter.com/realDonaldTrump/status/1125069835044573186",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://twitter.com/realdonaldtrump/status/1125069835044573186",
+        "host": "twitter.com",
+        "target_article_id": null
+      },
+      {
+        "id": "r007",
+        "paragraph_id": "p8",
+        "char_start": 686,
+        "char_end": 706,
+        "label": "David Fickling notes",
+        "href": "https://www.washingtonpost.com/business/the-us-and-china-may-not-want-a-deal-after-all/2019/05/10/cf1aec08-730e-11e9-9331-30bc5836f48e_story.html",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://washingtonpost.com/business/the-us-and-china-may-not-want-a-deal-after-all/2019/05/10/cf1aec08-730e-11e9-9331-30bc5836f48e_story.html",
+        "host": "washingtonpost.com",
+        "target_article_id": null
+      },
+      {
+        "id": "r008",
+        "paragraph_id": "p9",
+        "char_start": 62,
+        "char_end": 73,
+        "label": "in a month?",
+        "href": "https://t.co/nnpLBC6ZRn",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://t.co/nnplbc6zrn",
+        "host": "t.co",
+        "target_article_id": null
+      },
+      {
+        "id": "r009",
+        "paragraph_id": "p10",
+        "char_start": 36,
+        "char_end": 53,
+        "label": "Dr. Krugman notes",
+        "href": "https://www.nytimes.com/2019/05/06/opinion/republican-economics.html",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://nytimes.com/2019/05/06/opinion/republican-economics.html",
+        "host": "nytimes.com",
+        "target_article_id": null
+      },
+      {
+        "id": "r010",
+        "paragraph_id": "p11",
+        "char_start": 83,
+        "char_end": 167,
+        "label": ", which knocked at least a percentage point off economic growth (and probably more).",
+        "href": "https://www.cfr.org/articles/2014-dollar-rise-no-longer-impacting-us-trade",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://cfr.org/articles/2014-dollar-rise-no-longer-impacting-us-trade",
+        "host": "cfr.org",
+        "target_article_id": null
+      },
+      {
+        "id": "r011",
+        "paragraph_id": "p13",
+        "char_start": 133,
+        "char_end": 189,
+        "label": "might knock 1.5 percentage points off China’s GDP growth",
+        "href": "https://www.nytimes.com/2019/05/06/us/politics/trump-tariffs-china.html",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://nytimes.com/2019/05/06/us/politics/trump-tariffs-china.html",
+        "host": "nytimes.com",
+        "target_article_id": null
+      },
+      {
+        "id": "r012",
+        "paragraph_id": "p14",
+        "char_start": 219,
+        "char_end": 236,
+        "label": "raise its tariffs",
+        "href": "https://www.nytimes.com/2019/05/09/business/trump-china-tariffs.html",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://nytimes.com/2019/05/09/business/trump-china-tariffs.html",
+        "host": "nytimes.com",
+        "target_article_id": null
+      },
+      {
+        "id": "r013",
+        "paragraph_id": "p14",
+        "char_start": 300,
+        "char_end": 326,
+        "label": "It could squeeze GM China.",
+        "href": "https://markets.businessinsider.com/news/stocks/ford-stock-price-gm-chinese-trade-war-ramifications-2019-5-1028172321",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://markets.businessinsider.com/news/stocks/ford-stock-price-gm-chinese-trade-war-ramifications-2019-5-1028172321",
+        "host": "markets.businessinsider.com",
+        "target_article_id": null
+      },
+      {
+        "id": "r014",
+        "paragraph_id": "p15",
+        "char_start": 45,
+        "char_end": 55,
+        "label": "in my view",
+        "href": "https://www.cfr.org/articles/what-would-happen-if-china-started-selling-its-treasury-portfolio",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://cfr.org/articles/what-would-happen-if-china-started-selling-its-treasury-portfolio",
+        "host": "cfr.org",
+        "target_article_id": null
+      },
+      {
+        "id": "r015",
+        "paragraph_id": "p19",
+        "char_start": 126,
+        "char_end": 138,
+        "label": "was overdone",
+        "href": "https://www.project-syndicate.org/commentary/america-china-trade-deal-renminbi-exchange-rate-by-kenneth-rogoff-2019-05",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://project-syndicate.org/commentary/america-china-trade-deal-renminbi-exchange-rate-by-kenneth-rogoff-2019-05",
+        "host": "project-syndicate.org",
+        "target_article_id": null
+      },
+      {
+        "id": "r016",
+        "paragraph_id": "p20",
+        "char_start": 239,
+        "char_end": 256,
+        "label": "use fiscal policy",
+        "href": "https://thehill.com/opinion/finance/435893-china-goes-to-the-stimulus-well-again-with-a-twist",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://thehill.com/opinion/finance/435893-china-goes-to-the-stimulus-well-again-with-a-twist",
+        "host": "thehill.com",
+        "target_article_id": null
+      },
+      {
+        "id": "r017",
+        "paragraph_id": "p21",
+        "char_start": 0,
+        "char_end": 29,
+        "label": "China’s manufacturing surplus",
+        "href": "https://www.cfr.org/articles/disaggregating-fall-chinas-current-account-surplus-2007",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://cfr.org/articles/disaggregating-fall-chinas-current-account-surplus-2007",
+        "host": "cfr.org",
+        "target_article_id": null
+      },
+      {
+        "id": "r018",
+        "paragraph_id": "p25",
+        "char_start": 70,
+        "char_end": 91,
+        "label": "Belt and Road lending",
+        "href": "https://www.cfr.org/articles/belt-and-road-tracker",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://cfr.org/articles/belt-and-road-tracker",
+        "host": "cfr.org",
+        "target_article_id": null
+      },
+      {
+        "id": "r019",
+        "paragraph_id": "p33",
+        "char_start": 577,
+        "char_end": 661,
+        "label": "Xi insists on a bit more discipline in Belt and Road lending to avoid new debt traps",
+        "href": "https://asia.nikkei.com/Spotlight/Belt-and-Road/Xi-pledges-Belt-and-Road-reboot-amid-rising-debt-trap-concerns",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://asia.nikkei.com/spotlight/belt-and-road/xi-pledges-belt-and-road-reboot-amid-rising-debt-trap-concerns",
+        "host": "asia.nikkei.com",
+        "target_article_id": null
+      },
+      {
+        "id": "r020",
+        "paragraph_id": "p35",
+        "char_start": 30,
+        "char_end": 66,
+        "label": "who have already started to complain",
+        "href": "https://www.ft.com/content/dcb49ce4-72d5-11e9-bbfb-5c68069fbd15",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://ft.com/content/dcb49ce4-72d5-11e9-bbfb-5c68069fbd15",
+        "host": "ft.com",
+        "target_article_id": null
+      }
+    ],
+    "metadata_extension": {
+      "field_sources": {
+        "title": "frontmatter",
+        "authors": "frontmatter",
+        "published_date": "frontmatter",
+        "url": "frontmatter",
+        "publisher": "frontmatter",
+        "series": "frontmatter"
+      },
+      "references_status": "preserved",
+      "links_hash": "sha256:b920753e450639946e9a3e6a4e305f66934e6bd69cedd140687ac45882f75184",
+      "subtitle": "Whither the yuan.",
+      "published_at": "2019-05-10T16:26:01-04:00",
+      "programs": [
+        "Follow the Money"
+      ],
+      "source_tags": [
+        "China",
+        "Trade"
+      ],
+      "license": "CC BY-NC-ND 4.0",
+      "section": "Article",
+      "doc_type": "AnalysisNewsArticle",
+      "language": "en",
+      "word_count": 2036,
+      "date_modified": "2019-05-10",
+      "retrieved_at": "2026-10-19T20:54:52Z",
+      "page_sha256": "f44195f0c8126df255e6db2c6f41f2feaedae47b07278564cba0ab565a1ebbd4",
+      "figures": [
+        {
+          "title": "Tracking the yuan (5.13)",
+          "src": "https://static.cfr.org/sites/default/files/styles/large_s/public/image/2019/05/Tracking%20the%20yuan%20%285.13%29_1.png",
+          "after_paragraph": "p6"
+        },
+        {
+          "title": "china external bank lending and borrwoing vs reserves",
+          "src": "https://static.cfr.org/sites/default/files/styles/large_s/public/image/2019/05/china%20external%20bank%20lending%20and%20borrwoing%20vs%20reserves.png",
+          "after_paragraph": "p24"
+        },
+        {
+          "title": "china external bank lending vs bank borrowing (cumulative, usd billions)",
+          "src": "https://static.cfr.org/sites/default/files/styles/large_s/public/image/2019/05/china%20external%20bank%20lending%20vs%20bank%20borrowing%20%28cumulative%2C%20usd%20billions%29.png",
+          "after_paragraph": "p25"
+        },
+        {
+          "title": "China intervention proxies vs yuan dollar exchange rate (5.13)",
+          "src": "https://static.cfr.org/sites/default/files/styles/large_s/public/image/2019/05/China%20intervention%20proxies%20vs%20yuan%20dollar%20exchange%20rate%20%285.13%29.png",
+          "after_paragraph": "p29"
+        }
+      ]
+    }
+  },
+  "paragraphs": [
+    {
+      "id": "p1",
+      "sha256": "sha256:a4b9124c9f940cbd658620294eaed9b9ba93ead0190b0a985b1847998c0d4c2f",
+      "n_chars": 655
+    },
+    {
+      "id": "p2",
+      "sha256": "sha256:f951391bc1213427fa06c6429619f93ecc6507b684b475f971cec607b147fa13",
+      "n_chars": 53
+    },
+    {
+      "id": "p3",
+      "sha256": "sha256:b89714f104716ac2c6288ccb10677f713d73c756f2c56e6aac8226a9231ae7a8",
+      "n_chars": 157
+    },
+    {
+      "id": "p4",
+      "sha256": "sha256:98a472d4c011fd0095bbef0dfa3f979db59eeac4c283419efcb2a605202c2ffb",
+      "n_chars": 59
+    },
+    {
+      "id": "p5",
+      "sha256": "sha256:3b31b74a7db2bafe891312ff8695334d0e3b9cce49078cad117948d41672981a",
+      "n_chars": 148
+    },
+    {
+      "id": "p6",
+      "sha256": "sha256:e7a8a954e2267ef1ee195b92070be4620c3f31d2db495f01b38adc83f0c004aa",
+      "n_chars": 138
+    },
+    {
+      "id": "p7",
+      "sha256": "sha256:922b4b2ec775761e07d90ed075d9efc076706f4947e47433a24d34f8d3ef057c",
+      "n_chars": 92
+    },
+    {
+      "id": "p8",
+      "sha256": "sha256:36e59896e87de12b10947437f71475806fc3a3b03215f9555530c2e6fafb40fb",
+      "n_chars": 811
+    },
+    {
+      "id": "p9",
+      "sha256": "sha256:63b1551e834dd76d56874b1091671f16ff5f10f26469f709ea6c123163c1b7f4",
+      "n_chars": 587
+    },
+    {
+      "id": "p10",
+      "sha256": "sha256:2ff8f780efb994edfb68a69398755034bd3c4d48db6f8f13af01e081ba3b1a74",
+      "n_chars": 282
+    },
+    {
+      "id": "p11",
+      "sha256": "sha256:91ee4959c1476bcd53b16ddbe99b003e0cf9a92e163914a77bfdf0f9a9fd7011",
+      "n_chars": 169
+    },
+    {
+      "id": "p12",
+      "sha256": "sha256:2e62f4153bc03b2b61220f71d42ccbc3f98ebb292a47f98be085f768f1d4a17c",
+      "n_chars": 249
+    },
+    {
+      "id": "p13",
+      "sha256": "sha256:6b902b79d2ea1da84c3e0df7386d41fd9293b230670ef1809a919e1109309825",
+      "n_chars": 332
+    },
+    {
+      "id": "p14",
+      "sha256": "sha256:e36870e01b563be998fb72ab07355c3d7a708f330e0101f1793fae624b27fb11",
+      "n_chars": 413
+    },
+    {
+      "id": "p15",
+      "sha256": "sha256:b9fd528dd24c7f30ee122dbc22ac4a2ac5a4808ad6a4ee9c30c6c7f9db93d5ad",
+      "n_chars": 114
+    },
+    {
+      "id": "p16",
+      "sha256": "sha256:22c3abeb16b031e8c3aef8093f2379ea3b28e21cd8c0df26300ee8b61c59725c",
+      "n_chars": 243
+    },
+    {
+      "id": "p17",
+      "sha256": "sha256:e7b6291f46d4763016f75f9381da8b0970a8b29c4d6209caff7de4b266d6616f",
+      "n_chars": 172
+    },
+    {
+      "id": "p18",
+      "sha256": "sha256:ae769146edefd26135d87e80e319e3f04f0341d107f30b55d03e3be76c51017a",
+      "n_chars": 328
+    },
+    {
+      "id": "p19",
+      "sha256": "sha256:a63f0ee96edee308b29a8eb7e63fb32b6ebead7d43293ca800b407c1672aa46c",
+      "n_chars": 191
+    },
+    {
+      "id": "p20",
+      "sha256": "sha256:b3f0c437091b4eb0f6da410b614a0f11289b06ef575902ba400144cd24b4a750",
+      "n_chars": 310
+    },
+    {
+      "id": "p21",
+      "sha256": "sha256:4a7d4d71159619dfee10ce4c4aee79d8510dade171deede5d516bd30b7b4e697",
+      "n_chars": 329
+    },
+    {
+      "id": "p22",
+      "sha256": "sha256:85a0be1199f1e78183748fc6159257fb1d4f512e958d84eb97a0c6e5b68122e6",
+      "n_chars": 144
+    },
+    {
+      "id": "p23",
+      "sha256": "sha256:42aef1f032b2d47a851f960d3576ee32b25a751fc9cfddefb93db0f91adaa68f",
+      "n_chars": 70
+    },
+    {
+      "id": "p24",
+      "sha256": "sha256:1c958696d487bf7312b6028c5831200cea3a0b1b1f9ce1bc65474a3f9286e151",
+      "n_chars": 94
+    },
+    {
+      "id": "p25",
+      "sha256": "sha256:3eb44c229e88d7885f52b41f39d5e5e35ac6b605a77ed67e6ef8fe65bda7e391",
+      "n_chars": 510
+    },
+    {
+      "id": "p26",
+      "sha256": "sha256:4bc57ac3846a4b878f6c88ebffc150ff0c27f50221b3739dd3b855888df9cedb",
+      "n_chars": 192
+    },
+    {
+      "id": "p27",
+      "sha256": "sha256:809711eae7dd14f5c2fba87f951551cce648709ab5cec035312fc8b276967411",
+      "n_chars": 327
+    },
+    {
+      "id": "p28",
+      "sha256": "sha256:5f8dea4841f67ae88f63882d072a01f470bf3c1a46b9659e48e495ae073017c9",
+      "n_chars": 61
+    },
+    {
+      "id": "p29",
+      "sha256": "sha256:fc0b3ccc8d31e3b8708e3b55b392475cd980350ff889b2a8d1574406582671ff",
+      "n_chars": 230
+    },
+    {
+      "id": "p30",
+      "sha256": "sha256:d5c201eed1cc311944b9a1c60ae30d453ec34496bc321b1f1290c137ace3f2b8",
+      "n_chars": 36
+    },
+    {
+      "id": "p31",
+      "sha256": "sha256:2dd9259c2a6e63e384bea00458de22d4206d62ec1158af06ab2b26cc833544d1",
+      "n_chars": 139
+    },
+    {
+      "id": "p32",
+      "sha256": "sha256:ee37f602f02340f2386effbab5c7c86c082fac3b59601cbe48a62ca9ec71fe19",
+      "n_chars": 560
+    },
+    {
+      "id": "p33",
+      "sha256": "sha256:d16b1fd502032b2b1bba1f02251c71b04363af5fee5c94ed93f8084516863f3e",
+      "n_chars": 663
+    },
+    {
+      "id": "p34",
+      "sha256": "sha256:a7b3b34fba924f04205b76773bc4d7ce917511b0f1f27618c03883dfc2db128e",
+      "n_chars": 720
+    },
+    {
+      "id": "p35",
+      "sha256": "sha256:73b34c1bf2226c60160e041f2c6d29d41b488d8c0e0616559460411623bcfc96",
+      "n_chars": 286
+    },
+    {
+      "id": "p36",
+      "sha256": "sha256:e04ff84f7c4008d48f847b4564fa07ff87e2d479aa022695390d7551f3d43da7",
+      "n_chars": 83
+    },
+    {
+      "id": "p37",
+      "sha256": "sha256:772d30327b8a0d89a7c091ce34200b40609c1226e7a325539a5e29fd6c310cab",
+      "n_chars": 845
+    },
+    {
+      "id": "p38",
+      "sha256": "sha256:51be39ea5409f1d9a13c661d1a393d0dfad776ac5e5de566e614a7f2d58f55d1",
+      "n_chars": 228
+    },
+    {
+      "id": "p39",
+      "sha256": "sha256:5c768aee3ab892907e6f7576722357462699ac1f324f44dbbf2e953a851fd531",
+      "n_chars": 163
+    },
+    {
+      "id": "p40",
+      "sha256": "sha256:e8b50463f963059fd03cb983fc9b49ddb3ac2f4cbcbc86e81a01e10542b2563f",
+      "n_chars": 244
+    },
+    {
+      "id": "p41",
+      "sha256": "sha256:9f28652f0222503f9ab269479f2331fc220c2c74ee6939f316a8fd4dc7bf0c29",
+      "n_chars": 187
+    },
+    {
+      "id": "p42",
+      "sha256": "sha256:70d49ca90a78eb4451d75b6781e2aa1f17993c50c00aad4ab933a93c0dee1cee",
+      "n_chars": 259
+    }
+  ],
+  "revisions": [
+    {
+      "content_hash": "sha256:b42ba6f316f1f70f629b50a13a46b42cb1ffe0c741ea5fdac81228542196c219",
+      "links_hash": "sha256:b920753e450639946e9a3e6a4e305f66934e6bd69cedd140687ac45882f75184",
+      "paragraph_count": 42,
+      "retrieved_at": "2026-10-19T20:54:52Z",
+      "revision": 1,
+      "changed_paragraphs": []
+    }
+  ],
+  "extensions": {
+    "entities": [
+      {
+        "entity_id": null,
+        "type": "person",
+        "name": "Brad W. Setser",
+        "role": "author"
+      },
+      {
+        "entity_id": null,
+        "type": "organization",
+        "name": "Council on Foreign Relations",
+        "role": "publisher"
+      }
+    ],
+    "cited_sources": [
+      {
+        "source_key": "https://politico.com/story/2019/05/01/us-china-deal-tariffs-1400007",
+        "host": "politico.com",
+        "reference_ids": [
+          "r001"
+        ]
+      },
+      {
+        "source_key": "https://cfr.org/articles/china-never-stopped-managing-its-trade",
+        "host": "cfr.org",
+        "reference_ids": [
+          "r002"
+        ]
+      },
+      {
+        "source_key": "https://sbc.senate.gov/public/_cache/files/3/b/3bd85987-d8b4-48b3-a53e-8b49d2060821/4e39bd152b9f358a5e4254d80a512d8b.setser-testimony.pdf",
+        "host": "sbc.senate.gov",
+        "reference_ids": [
+          "r003"
+        ]
+      },
+      {
+        "source_key": "https://nytimes.com/2019/04/25/us/politics/trump-xi-jinping-trade.html",
+        "host": "nytimes.com",
+        "reference_ids": [
+          "r004"
+        ]
+      },
+      {
+        "source_key": "https://bloomberg.com/news/articles/2019-04-25/u-s-said-to-mull-concessions-on-drug-protections-in-china-talks",
+        "host": "bloomberg.com",
+        "reference_ids": [
+          "r005"
+        ]
+      },
+      {
+        "source_key": "https://twitter.com/realdonaldtrump/status/1125069835044573186",
+        "host": "twitter.com",
+        "reference_ids": [
+          "r006"
+        ]
+      },
+      {
+        "source_key": "https://washingtonpost.com/business/the-us-and-china-may-not-want-a-deal-after-all/2019/05/10/cf1aec08-730e-11e9-9331-30bc5836f48e_story.html",
+        "host": "washingtonpost.com",
+        "reference_ids": [
+          "r007"
+        ]
+      },
+      {
+        "source_key": "https://t.co/nnplbc6zrn",
+        "host": "t.co",
+        "reference_ids": [
+          "r008"
+        ]
+      },
+      {
+        "source_key": "https://nytimes.com/2019/05/06/opinion/republican-economics.html",
+        "host": "nytimes.com",
+        "reference_ids": [
+          "r009"
+        ]
+      },
+      {
+        "source_key": "https://cfr.org/articles/2014-dollar-rise-no-longer-impacting-us-trade",
+        "host": "cfr.org",
+        "reference_ids": [
+          "r010"
+        ]
+      },
+      {
+        "source_key": "https://nytimes.com/2019/05/06/us/politics/trump-tariffs-china.html",
+        "host": "nytimes.com",
+        "reference_ids": [
+          "r011"
+        ]
+      },
+      {
+        "source_key": "https://nytimes.com/2019/05/09/business/trump-china-tariffs.html",
+        "host": "nytimes.com",
+        "reference_ids": [
+          "r012"
+        ]
+      },
+      {
+        "source_key": "https://markets.businessinsider.com/news/stocks/ford-stock-price-gm-chinese-trade-war-ramifications-2019-5-1028172321",
+        "host": "markets.businessinsider.com",
+        "reference_ids": [
+          "r013"
+        ]
+      },
+      {
+        "source_key": "https://cfr.org/articles/what-would-happen-if-china-started-selling-its-treasury-portfolio",
+        "host": "cfr.org",
+        "reference_ids": [
+          "r014"
+        ]
+      },
+      {
+        "source_key": "https://project-syndicate.org/commentary/america-china-trade-deal-renminbi-exchange-rate-by-kenneth-rogoff-2019-05",
+        "host": "project-syndicate.org",
+        "reference_ids": [
+          "r015"
+        ]
+      },
+      {
+        "source_key": "https://thehill.com/opinion/finance/435893-china-goes-to-the-stimulus-well-again-with-a-twist",
+        "host": "thehill.com",
+        "reference_ids": [
+          "r016"
+        ]
+      },
+      {
+        "source_key": "https://cfr.org/articles/disaggregating-fall-chinas-current-account-surplus-2007",
+        "host": "cfr.org",
+        "reference_ids": [
+          "r017"
+        ]
+      },
+      {
+        "source_key": "https://cfr.org/articles/belt-and-road-tracker",
+        "host": "cfr.org",
+        "reference_ids": [
+          "r018"
+        ]
+      },
+      {
+        "source_key": "https://asia.nikkei.com/spotlight/belt-and-road/xi-pledges-belt-and-road-reboot-amid-rising-debt-trap-concerns",
+        "host": "asia.nikkei.com",
+        "reference_ids": [
+          "r019"
+        ]
+      },
+      {
+        "source_key": "https://ft.com/content/dcb49ce4-72d5-11e9-bbfb-5c68069fbd15",
+        "host": "ft.com",
+        "reference_ids": [
+          "r020"
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "flags": []
+  }
+}

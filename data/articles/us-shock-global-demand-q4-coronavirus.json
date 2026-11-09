@@ -1,0 +1,408 @@
+{
+  "schema_version": "source-record-0.1",
+  "article": {
+    "id": "us-shock-global-demand-q4-coronavirus",
+    "title": "The U.S. Shock to Global Demand in Q4 (Before the Coronavirus)",
+    "authors": [
+      "Brad W. Setser"
+    ],
+    "published_date": "2020-02-26",
+    "url": "https://www.cfr.org/articles/us-shock-global-demand-q4-coronavirus",
+    "publisher": "Council on Foreign Relations",
+    "series": "Follow the Money",
+    "source_text": {
+      "path": "internal/extracted/2020-02-26_us-shock-global-demand-q4-coronavirus.md",
+      "paragraph_count": 13,
+      "content_hash": "sha256:7f888b32324b36d76514a1cdc01e5d75d3973cfb63fc07d3c84810f5c7bb4a4d",
+      "revision": 2
+    },
+    "references": [
+      {
+        "id": "r001",
+        "paragraph_id": "p1",
+        "char_start": 9,
+        "char_end": 25,
+        "label": "it is often said",
+        "href": "https://www.nytimes.com/2019/10/17/opinion/unpacking-the-trade-deficit.html",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://nytimes.com/2019/10/17/opinion/unpacking-the-trade-deficit.html",
+        "host": "nytimes.com",
+        "target_article_id": null
+      },
+      {
+        "id": "r002",
+        "paragraph_id": "p3",
+        "char_start": 12,
+        "char_end": 62,
+        "label": "can act as a form of backdoor fiscal consolidation",
+        "href": "https://www.cfr.org/articles/more-trade-destruction-trade-diversion-right-now",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://cfr.org/articles/more-trade-destruction-trade-diversion-right-now",
+        "host": "cfr.org",
+        "target_article_id": null
+      },
+      {
+        "id": "r003",
+        "paragraph_id": "p3",
+        "char_start": 631,
+        "char_end": 676,
+        "label": "Fajgelbaum, Goldberg, Kennedy, and Khandelwal",
+        "href": "https://www8.gsb.columbia.edu/researcharchive/articles/26111",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://www8.gsb.columbia.edu/researcharchive/articles/26111",
+        "host": "www8.gsb.columbia.edu",
+        "target_article_id": null
+      },
+      {
+        "id": "r004",
+        "paragraph_id": "p3",
+        "char_start": 696,
+        "char_end": 702,
+        "label": "update",
+        "href": "http://www.econ.ucla.edu/pfajgelbaum/rtp_update.pdf",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://econ.ucla.edu/pfajgelbaum/rtp_update.pdf",
+        "host": "econ.ucla.edu",
+        "target_article_id": null
+      },
+      {
+        "id": "r005",
+        "paragraph_id": "p5",
+        "char_start": 118,
+        "char_end": 172,
+        "label": "business investment in the United States has gone down",
+        "href": "https://www.wsj.com/articles/did-the-u-s-tax-overhaul-do-what-it-promised-11578114001",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://wsj.com/articles/did-the-u-s-tax-overhaul-do-what-it-promised-11578114001",
+        "host": "wsj.com",
+        "target_article_id": null
+      },
+      {
+        "id": "r006",
+        "paragraph_id": "p5",
+        "char_start": 573,
+        "char_end": 605,
+        "label": "oil patch’s increased discipline",
+        "href": "https://www.reuters.com/article/usa-shale-spending/rpt-u-s-oil-and-gas-producers-to-slash-spending-for-second-straight-year-in-2020-idUSL2N27V09U",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://reuters.com/article/usa-shale-spending/rpt-u-s-oil-and-gas-producers-to-slash-spending-for-second-straight-year-in-2020-idusl2n27v09u",
+        "host": "reuters.com",
+        "target_article_id": null
+      },
+      {
+        "id": "r007",
+        "paragraph_id": "p5",
+        "char_start": 914,
+        "char_end": 933,
+        "label": "slowdown in imports",
+        "href": "https://voxeu.org/article/understanding-great-trade-collapse-2009",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://voxeu.org/article/understanding-great-trade-collapse-2009",
+        "host": "voxeu.org",
+        "target_article_id": null
+      },
+      {
+        "id": "r008",
+        "paragraph_id": "p5",
+        "char_start": 935,
+        "char_end": 984,
+        "label": "Bussière, Callegari, Ghironi, Sestieri and Yamano",
+        "href": "https://www.nber.org/papers/w17712.pdf",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://nber.org/papers/w17712.pdf",
+        "host": "nber.org",
+        "target_article_id": null
+      },
+      {
+        "id": "r009",
+        "paragraph_id": "p6",
+        "char_start": 80,
+        "char_end": 144,
+        "label": "isn’t the argument that Trump has typically made in their favor.",
+        "href": "https://www.nytimes.com/2020/02/05/business/economy/trump-trade.html",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://nytimes.com/2020/02/05/business/economy/trump-trade.html",
+        "host": "nytimes.com",
+        "target_article_id": null
+      },
+      {
+        "id": "r010",
+        "paragraph_id": "p10",
+        "char_start": 88,
+        "char_end": 128,
+        "label": "positive shock to the Vietnamese economy",
+        "href": "https://www.cfr.org/articles/vietnam-looks-be-winning-trumps-trade-war",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://cfr.org/articles/vietnam-looks-be-winning-trumps-trade-war",
+        "host": "cfr.org",
+        "target_article_id": null
+      },
+      {
+        "id": "r011",
+        "paragraph_id": "p11",
+        "char_start": 132,
+        "char_end": 173,
+        "label": "were rising in line with the U.S. economy",
+        "href": "https://www.cfr.org/articles/continuing-chinese-drag-global-economy",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://cfr.org/articles/continuing-chinese-drag-global-economy",
+        "host": "cfr.org",
+        "target_article_id": null
+      }
+    ],
+    "metadata_extension": {
+      "field_sources": {
+        "title": "frontmatter",
+        "authors": "frontmatter",
+        "published_date": "frontmatter",
+        "url": "frontmatter",
+        "publisher": "frontmatter",
+        "series": "frontmatter"
+      },
+      "references_status": "preserved",
+      "links_hash": "sha256:087640c87ed7977fe67f68b2052ad24a03d2bec6e31d2a5b42ac763b94d794e9",
+      "subtitle": "The large fall in U.S. imports in Q4 slowed global growth, as weak U.S. demand hurt the rest of the world more than it hurt the United States.",
+      "published_at": "2020-02-26T17:01:48-05:00",
+      "programs": [
+        "Follow the Money"
+      ],
+      "source_tags": [
+        "Trade",
+        "United States"
+      ],
+      "license": "CC BY-NC-ND 4.0",
+      "section": "Article",
+      "doc_type": "AnalysisNewsArticle",
+      "language": "en",
+      "word_count": 951,
+      "date_modified": "2020-02-26",
+      "retrieved_at": "2026-10-15T20:05:36Z",
+      "page_sha256": "cc5f662322fc0bbaddcb6a09b3ca09a33b2bb8c4a0fd4f82f200930e2bf57b1f",
+      "figures": [
+        {
+          "title": "Real Goods Imports (exc. Ag and Petrol) vs. Business Fixed Investment in Structures and Equipment",
+          "src": "https://static.cfr.org/sites/default/files/styles/large_s/public/image/2020/02/Real%20Goods%20Imports%20%28exc.%20Ag%20and%20Petrol%29%20vs.%20Business%20Fixed%20Investment%20in%20Structures%20and%20Equipment.png",
+          "after_paragraph": "p5"
+        },
+        {
+          "title": "U.S. Non-petrol Goods Trade  (USD Billions, Monthly Data, Annualized, Sign on Deficit Inverted)",
+          "src": "https://static.cfr.org/sites/default/files/styles/large_s/public/image/2020/02/U.S.%20Non-petrol%20Goods%20Trade%20%20%28USD%20Billions%2C%20Monthly%20Data%2C%20Annualized%2C%20Sign%20on%20Deficit%20Inverted%29.png",
+          "after_paragraph": "p7"
+        },
+        {
+          "title": "Cumulative Contributions Over the Last Eight Years (Share of U.S. GDP)",
+          "src": "https://static.cfr.org/sites/default/files/styles/large_s/public/image/2020/02/Cumulative%20Contributions%20Over%20the%20Last%20Eight%20Years%20%28Share%20of%20U.S.%20GDP%29.png",
+          "after_paragraph": "p9"
+        },
+        {
+          "title": "U.S. Imports from China vs. Selected Asian Economies (YoY Change, USD Billions)",
+          "src": "https://static.cfr.org/sites/default/files/styles/large_s/public/image/2020/02/U.S.%20Imports%20from%20China%20vs.%20Selected%20Asian%20Economies%20%28YoY%20Change%2C%20USD%20Billions%29.png",
+          "after_paragraph": "p10"
+        },
+        {
+          "title": "U.S. Real Imports by Select End-Use Categories (YoY Change in T4Q Sums, SA, Chained 2012 Dollars)",
+          "src": "https://static.cfr.org/sites/default/files/styles/large_s/public/image/2020/02/U.S.%20Real%20Imports%20by%20Select%20End-Use%20Categories%20%28YoY%20Change%20in%20T4Q%20Sums%2C%20SA%2C%20Chained%202012%20Dollars%29_0.png",
+          "after_paragraph": "p11"
+        }
+      ]
+    }
+  },
+  "paragraphs": [
+    {
+      "id": "p1",
+      "sha256": "sha256:caa834ea14a21fb596c5f291b6d9bb9470e1be2248414b5acc1c518a8de1e352",
+      "n_chars": 357
+    },
+    {
+      "id": "p2",
+      "sha256": "sha256:913f608abbb28b091108f40d6c36c5e343597341497e1f820603dfca128d90af",
+      "n_chars": 115
+    },
+    {
+      "id": "p3",
+      "sha256": "sha256:b9fcfb1574738235e702cf6b70d56505aecc9475c1bb82d49f67a8f4ceeb242c",
+      "n_chars": 960
+    },
+    {
+      "id": "p4",
+      "sha256": "sha256:3728c922c40291cba181f1751746f9a1aa4b990e8f0069601a8c59eeef44e732",
+      "n_chars": 231
+    },
+    {
+      "id": "p5",
+      "sha256": "sha256:a42d6fba99948fb29b7b01f11696247ee70598020f8c30c48988ecaac2bcd195",
+      "n_chars": 986
+    },
+    {
+      "id": "p6",
+      "sha256": "sha256:d818f7718218d2b10d717c1ca1eeeb26f2ce4febf4bf4a29b4e2b0ad955eb775",
+      "n_chars": 249
+    },
+    {
+      "id": "p7",
+      "sha256": "sha256:aaf69eb459f8770f0b423a6f08e864fd54070ff6c4f3532931e89402f7d490b0",
+      "n_chars": 287
+    },
+    {
+      "id": "p8",
+      "sha256": "sha256:7544886e1d57c440e779bf290e695326be884d5a3ee1dd0e96f448b53a285037",
+      "n_chars": 388
+    },
+    {
+      "id": "p9",
+      "sha256": "sha256:113e6d33e83ca9dfd321a0b7b0688f9f58211d837fb49fe37ff9f4302fc94b4c",
+      "n_chars": 389
+    },
+    {
+      "id": "p10",
+      "sha256": "sha256:89a6529a0b2fcd21884849e66f25dcea54cb6c1ee804e6025680dd18616965b1",
+      "n_chars": 553
+    },
+    {
+      "id": "p11",
+      "sha256": "sha256:ef25e1f14a569c3c6c5617683455ca86dea541357898c45f2071fcbb50fedb1e",
+      "n_chars": 402
+    },
+    {
+      "id": "p12",
+      "sha256": "sha256:c2a18c53948fbf3759cf5ededf7ba0d54eaac2b8723ee655dd4c1aa615ec61cf",
+      "n_chars": 285
+    },
+    {
+      "id": "p13",
+      "sha256": "sha256:88d80c3ad543707f8c737728777b9b2bcc266cb980e2abb6ef7b4147f7119bd6",
+      "n_chars": 465
+    }
+  ],
+  "revisions": [
+    {
+      "content_hash": "sha256:b81d8cb7b5968173afbad984a3192deff032d156c92c1a4b46562fdb17cc9abc",
+      "links_hash": "sha256:087640c87ed7977fe67f68b2052ad24a03d2bec6e31d2a5b42ac763b94d794e9",
+      "paragraph_count": 13,
+      "retrieved_at": "2026-10-19T20:54:52Z",
+      "revision": 1,
+      "changed_paragraphs": []
+    },
+    {
+      "content_hash": "sha256:7f888b32324b36d76514a1cdc01e5d75d3973cfb63fc07d3c84810f5c7bb4a4d",
+      "links_hash": "sha256:087640c87ed7977fe67f68b2052ad24a03d2bec6e31d2a5b42ac763b94d794e9",
+      "paragraph_count": 13,
+      "retrieved_at": "2026-10-15T20:05:36Z",
+      "revision": 2,
+      "changed_paragraphs": [
+        "p5"
+      ]
+    }
+  ],
+  "extensions": {
+    "entities": [
+      {
+        "entity_id": null,
+        "type": "person",
+        "name": "Brad W. Setser",
+        "role": "author"
+      },
+      {
+        "entity_id": null,
+        "type": "organization",
+        "name": "Council on Foreign Relations",
+        "role": "publisher"
+      }
+    ],
+    "cited_sources": [
+      {
+        "source_key": "https://nytimes.com/2019/10/17/opinion/unpacking-the-trade-deficit.html",
+        "host": "nytimes.com",
+        "reference_ids": [
+          "r001"
+        ]
+      },
+      {
+        "source_key": "https://cfr.org/articles/more-trade-destruction-trade-diversion-right-now",
+        "host": "cfr.org",
+        "reference_ids": [
+          "r002"
+        ]
+      },
+      {
+        "source_key": "https://www8.gsb.columbia.edu/researcharchive/articles/26111",
+        "host": "www8.gsb.columbia.edu",
+        "reference_ids": [
+          "r003"
+        ]
+      },
+      {
+        "source_key": "https://econ.ucla.edu/pfajgelbaum/rtp_update.pdf",
+        "host": "econ.ucla.edu",
+        "reference_ids": [
+          "r004"
+        ]
+      },
+      {
+        "source_key": "https://wsj.com/articles/did-the-u-s-tax-overhaul-do-what-it-promised-11578114001",
+        "host": "wsj.com",
+        "reference_ids": [
+          "r005"
+        ]
+      },
+      {
+        "source_key": "https://reuters.com/article/usa-shale-spending/rpt-u-s-oil-and-gas-producers-to-slash-spending-for-second-straight-year-in-2020-idusl2n27v09u",
+        "host": "reuters.com",
+        "reference_ids": [
+          "r006"
+        ]
+      },
+      {
+        "source_key": "https://voxeu.org/article/understanding-great-trade-collapse-2009",
+        "host": "voxeu.org",
+        "reference_ids": [
+          "r007"
+        ]
+      },
+      {
+        "source_key": "https://nber.org/papers/w17712.pdf",
+        "host": "nber.org",
+        "reference_ids": [
+          "r008"
+        ]
+      },
+      {
+        "source_key": "https://nytimes.com/2020/02/05/business/economy/trump-trade.html",
+        "host": "nytimes.com",
+        "reference_ids": [
+          "r009"
+        ]
+      },
+      {
+        "source_key": "https://cfr.org/articles/vietnam-looks-be-winning-trumps-trade-war",
+        "host": "cfr.org",
+        "reference_ids": [
+          "r010"
+        ]
+      },
+      {
+        "source_key": "https://cfr.org/articles/continuing-chinese-drag-global-economy",
+        "host": "cfr.org",
+        "reference_ids": [
+          "r011"
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "flags": [
+      "source_changed_review_passages"
+    ]
+  }
+}

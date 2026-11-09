@@ -1,0 +1,648 @@
+{
+  "schema_version": "source-record-0.1",
+  "article": {
+    "id": "chinas-massive-surplus-everywhere-yet-imf-still-has-trouble-seeing-it-clearly",
+    "title": "China’s Massive Surplus is Everywhere (Yet The IMF Still Has Trouble Seeing It Clearly)",
+    "authors": [
+      "Brad W. Setser"
+    ],
+    "published_date": "2025-11-12",
+    "url": "https://www.cfr.org/articles/chinas-massive-surplus-everywhere-yet-imf-still-has-trouble-seeing-it-clearly",
+    "publisher": "Council on Foreign Relations",
+    "series": "Follow the Money",
+    "source_text": {
+      "path": "internal/extracted/2025-11-12_chinas-massive-surplus-everywhere-yet-imf-still-has-trouble-seeing-it-clearly.md",
+      "paragraph_count": 32,
+      "content_hash": "sha256:11b0f2c06a29abf0b1026476008c4a7a77112086be7ea1c6e07c502ce75e3114",
+      "revision": 2
+    },
+    "references": [
+      {
+        "id": "r001",
+        "paragraph_id": "p3",
+        "char_start": 143,
+        "char_end": 176,
+        "label": "its new fleet of car transporters",
+        "href": "https://www.nytimes.com/2024/02/12/business/byd-china-electric-vehicle.html",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://nytimes.com/2024/02/12/business/byd-china-electric-vehicle.html",
+        "host": "nytimes.com",
+        "target_article_id": null
+      },
+      {
+        "id": "r002",
+        "paragraph_id": "p3",
+        "char_start": 289,
+        "char_end": 306,
+        "label": "five million cars",
+        "href": "https://www.ft.com/content/1f218a59-421e-4932-8b5b-7ff5be7057b1?syn-25a6b1a6=1",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://ft.com/content/1f218a59-421e-4932-8b5b-7ff5be7057b1",
+        "host": "ft.com",
+        "target_article_id": null
+      },
+      {
+        "id": "r003",
+        "paragraph_id": "p12",
+        "char_start": 278,
+        "char_end": 356,
+        "label": "The ECB says this ultimately stems from a shortfall in China’s domestic demand",
+        "href": "https://www.ecb.europa.eu/press/economic-bulletin/focus/2025/html/ecb.ebbox202507_01~83b0e7edd4.en.html",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://ecb.europa.eu/press/economic-bulletin/focus/2025/html/ecb.ebbox202507_01~83b0e7edd4.en.html",
+        "host": "ecb.europa.eu",
+        "target_article_id": null
+      },
+      {
+        "id": "r004",
+        "paragraph_id": "p13",
+        "char_start": 106,
+        "char_end": 155,
+        "label": "imbalances a central focus of the next G-7 summit",
+        "href": "https://www.bloomberg.com/news/articles/2025-11-12/macron-has-floated-idea-of-a-g-7-invite-for-xi-jinping-next-year",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://bloomberg.com/news/articles/2025-11-12/macron-has-floated-idea-of-a-g-7-invite-for-xi-jinping-next-year",
+        "host": "bloomberg.com",
+        "target_article_id": null
+      },
+      {
+        "id": "r005",
+        "paragraph_id": "p13",
+        "char_start": 288,
+        "char_end": 313,
+        "label": "Germany’s industrial base",
+        "href": "https://www.ft.com/content/239eed1b-a268-42ec-861e-fc3047f47c32",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://ft.com/content/239eed1b-a268-42ec-861e-fc3047f47c32",
+        "host": "ft.com",
+        "target_article_id": null
+      },
+      {
+        "id": "r006",
+        "paragraph_id": "p14",
+        "char_start": 142,
+        "char_end": 230,
+        "label": "IMF has struggled to clearly identify China’s outsized contribution to global imbalances",
+        "href": "https://www.cfr.org/articles/better-late-never-imf-starts-recognizes-balance-payments-reality",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://cfr.org/articles/better-late-never-imf-starts-recognizes-balance-payments-reality",
+        "host": "cfr.org",
+        "target_article_id": null
+      },
+      {
+        "id": "r007",
+        "paragraph_id": "p14",
+        "char_start": 328,
+        "char_end": 386,
+        "label": "its assessment of the size of external payments imbalances",
+        "href": "https://www.imf.org/en/publications/esr/issues/2025/07/22/external-sector-report-2025",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://imf.org/en/publications/esr/issues/2025/07/22/external-sector-report-2025",
+        "host": "imf.org",
+        "target_article_id": null
+      },
+      {
+        "id": "r008",
+        "paragraph_id": "p15",
+        "char_start": 154,
+        "char_end": 206,
+        "label": "the IMF claim that China now has an excess imbalance",
+        "href": "https://www.imf.org/en/blogs/articles/2025/07/22/global-current-account-balances-widen-reversing-narrowing-trend",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://imf.org/en/blogs/articles/2025/07/22/global-current-account-balances-widen-reversing-narrowing-trend",
+        "host": "imf.org",
+        "target_article_id": null
+      },
+      {
+        "id": "r009",
+        "paragraph_id": "p15",
+        "char_start": 483,
+        "char_end": 494,
+        "label": "October WEO",
+        "href": "https://www.imf.org/en/publications/weo/issues/2025/10/14/world-economic-outlook-october-2025",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://imf.org/en/publications/weo/issues/2025/10/14/world-economic-outlook-october-2025",
+        "host": "imf.org",
+        "target_article_id": null
+      },
+      {
+        "id": "r010",
+        "paragraph_id": "p18",
+        "char_start": 59,
+        "char_end": 80,
+        "label": "the 2024 staff report",
+        "href": "https://www.imf.org/en/publications/cr/issues/2024/08/01/peoples-republic-of-china-2024-article-iv-consultation-press-release-staff-report-and-552803",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://imf.org/en/publications/cr/issues/2024/08/01/peoples-republic-of-china-2024-article-iv-consultation-press-release-staff-report-and-552803",
+        "host": "imf.org",
+        "target_article_id": null
+      },
+      {
+        "id": "r011",
+        "paragraph_id": "p20",
+        "char_start": 200,
+        "char_end": 243,
+        "label": "the strong central government balance sheet",
+        "href": "https://www.cfr.org/articles/beijing-still-has-fiscal-space",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://cfr.org/articles/beijing-still-has-fiscal-space",
+        "host": "cfr.org",
+        "target_article_id": null
+      },
+      {
+        "id": "r012",
+        "paragraph_id": "p20",
+        "char_start": 248,
+        "char_end": 264,
+        "label": "limited net debt",
+        "href": "https://www.imf.org/en/publications/wp/issues/2023/08/02/fiscal-policy-and-the-government-balance-sheet-in-china-536273",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://imf.org/en/publications/wp/issues/2023/08/02/fiscal-policy-and-the-government-balance-sheet-in-china-536273",
+        "host": "imf.org",
+        "target_article_id": null
+      },
+      {
+        "id": "r013",
+        "paragraph_id": "p24",
+        "char_start": 12,
+        "char_end": 64,
+        "label": "mis-measured and understated current account surplus",
+        "href": "https://www.cfr.org/articles/iphone-imf-and-chinas-balance-payments",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://cfr.org/articles/iphone-imf-and-chinas-balance-payments",
+        "host": "cfr.org",
+        "target_article_id": null
+      },
+      {
+        "id": "r014",
+        "paragraph_id": "p26",
+        "char_start": 39,
+        "char_end": 95,
+        "label": "Europe’s market share in a host of manufacturing sectors",
+        "href": "https://www.ft.com/content/239eed1b-a268-42ec-861e-fc3047f47c32",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://ft.com/content/239eed1b-a268-42ec-861e-fc3047f47c32",
+        "host": "ft.com",
+        "target_article_id": null
+      },
+      {
+        "id": "r015",
+        "paragraph_id": "p27",
+        "char_start": 355,
+        "char_end": 396,
+        "label": "another percentage points off the surplus",
+        "href": "https://www.cfr.org/articles/chinese-state-investors-do-not-seem-profit-higher-us-interest-rates",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://cfr.org/articles/chinese-state-investors-do-not-seem-profit-higher-us-interest-rates",
+        "host": "cfr.org",
+        "target_article_id": null
+      },
+      {
+        "id": "r016",
+        "paragraph_id": "p31",
+        "char_start": 770,
+        "char_end": 793,
+        "label": "the box in the 2024 ESR",
+        "href": "https://www.cfr.org/articles/imfs-latest-external-sector-report-misses-mark",
+        "kind": "hyperlink",
+        "placement": "footnote",
+        "source_key": "https://cfr.org/articles/imfs-latest-external-sector-report-misses-mark",
+        "host": "cfr.org",
+        "target_article_id": null
+      },
+      {
+        "id": "r017",
+        "paragraph_id": "p32",
+        "char_start": 230,
+        "char_end": 247,
+        "label": "Microsoft reports",
+        "href": "https://www.microsoft.com/en-us/investor/sec-filings",
+        "kind": "hyperlink",
+        "placement": "footnote",
+        "source_key": "https://microsoft.com/en-us/investor/sec-filings",
+        "host": "microsoft.com",
+        "target_article_id": null
+      }
+    ],
+    "metadata_extension": {
+      "field_sources": {
+        "title": "frontmatter",
+        "authors": "frontmatter",
+        "published_date": "frontmatter",
+        "url": "frontmatter",
+        "publisher": "frontmatter",
+        "series": "frontmatter"
+      },
+      "references_status": "preserved",
+      "links_hash": "sha256:a0b33c128f32d86ae42d8471260b967a6a419c965ab5ed9b9540d5eeea23fd51",
+      "subtitle": "China’s reported current account surplus understates China’s contribution to global trade imbalances. The massive gap between China’s export and import volume growth over the last six years tells a more accurate story.",
+      "published_at": "2025-11-12T15:34:29-05:00",
+      "programs": [
+        "Follow the Money",
+        "Greenberg Center for Geoeconomics"
+      ],
+      "source_tags": [
+        "China",
+        "Trade"
+      ],
+      "license": "CC BY-NC-ND 4.0",
+      "section": "Article",
+      "doc_type": "AnalysisNewsArticle",
+      "language": "en",
+      "word_count": 1660,
+      "date_modified": "2025-11-12",
+      "retrieved_at": "2026-10-05T23:13:21Z",
+      "page_sha256": "90f8d3d476d07c6783591cb861dcbca570b00b7e0f6c2f15c83f177824d912f3",
+      "figures": [
+        {
+          "title": "CHina Mfg Balance",
+          "src": "https://static.cfr.org/sites/default/files/styles/large_s/public/image/2025/11/CHina%20Mfg%20Balance.png",
+          "after_paragraph": "p1"
+        },
+        {
+          "title": "CHina autos trade",
+          "src": "https://static.cfr.org/sites/default/files/styles/large_s/public/image/2025/11/CHina%20autos%20trade.png",
+          "after_paragraph": "p2"
+        },
+        {
+          "title": "china export vol growth",
+          "src": "https://static.cfr.org/sites/default/files/styles/large_s/public/image/2025/11/china%20export%20vol%20growth.png",
+          "after_paragraph": "p4"
+        },
+        {
+          "title": "CHina pct increase since 2019",
+          "src": "https://static.cfr.org/sites/default/files/styles/large_s/public/image/2025/11/CHina%20pct%20increase%20since%202019.png",
+          "after_paragraph": "p5"
+        },
+        {
+          "title": "Growth Contribution CA Goods",
+          "src": "https://static.cfr.org/sites/default/files/styles/large_s/public/image/2025/12/Growth%20Contribution%20CA%20Goods_0.png",
+          "after_paragraph": "p6"
+        },
+        {
+          "title": "quarterly china gdp manufac",
+          "src": "https://static.cfr.org/sites/default/files/styles/large_s/public/image/2025/11/quarterly%20china%20gdp%20manufac.png",
+          "after_paragraph": "p7"
+        },
+        {
+          "title": "Picture1",
+          "src": "https://static.cfr.org/sites/default/files/styles/large_s/public/image/2025/11/Picture1.png",
+          "after_paragraph": "p8"
+        },
+        {
+          "title": "Customs Goods Trade",
+          "src": "https://static.cfr.org/sites/default/files/styles/large_s/public/image/2025/11/Customs%20Goods%20Trade.png",
+          "after_paragraph": "p10"
+        },
+        {
+          "title": "Exp Vols Dutch",
+          "src": "https://static.cfr.org/sites/default/files/styles/large_s/public/image/2025/11/Exp%20Vols%20Dutch.png",
+          "after_paragraph": "p11"
+        },
+        {
+          "title": "Global Imbalance",
+          "src": "https://static.cfr.org/sites/default/files/styles/large_s/public/image/2025/11/Global%20Imbalance.png",
+          "after_paragraph": "p12"
+        },
+        {
+          "title": "Customs",
+          "src": "https://static.cfr.org/sites/default/files/styles/large_s/public/image/2025/11/Customs.png",
+          "after_paragraph": "p25"
+        }
+      ]
+    }
+  },
+  "paragraphs": [
+    {
+      "id": "p1",
+      "sha256": "sha256:9247587ff10cde2ceaa7290d10da0b39c329ee387275f8433039ef0805e4e949",
+      "n_chars": 65
+    },
+    {
+      "id": "p2",
+      "sha256": "sha256:7ed3ea331f901d63e8b14f8e3a590d587cc0584e0082e45f13561b1117e63ae6",
+      "n_chars": 208
+    },
+    {
+      "id": "p3",
+      "sha256": "sha256:b72ebb7e5401866d38151f31a7a8566d8183e628e12a6b33d524feb4b6153f61",
+      "n_chars": 345
+    },
+    {
+      "id": "p4",
+      "sha256": "sha256:7300e3008fbfc023cfcd6004ddcdbe392f092e6f85bbcffd829ce3743cbf5d46",
+      "n_chars": 107
+    },
+    {
+      "id": "p5",
+      "sha256": "sha256:2fdb4fc82875182a35fe1cefe5975b35bd0c51cdd9a2e9ff18f37dce00f25e3a",
+      "n_chars": 186
+    },
+    {
+      "id": "p6",
+      "sha256": "sha256:84d4f2270b44c0e19d3a1c040239f0d7916a2bec5419b78198a6cf5c380e76a2",
+      "n_chars": 276
+    },
+    {
+      "id": "p7",
+      "sha256": "sha256:437beaad620c9e7e5f05f72ec4bb2a22b0c4e09f4d84ccb7219a323d0e5be958",
+      "n_chars": 140
+    },
+    {
+      "id": "p8",
+      "sha256": "sha256:62ce217d9bcc677f6317f3704efac883f6c4479b0a5716ef4b0c02be79224bfb",
+      "n_chars": 123
+    },
+    {
+      "id": "p9",
+      "sha256": "sha256:54a6513529c6652a14fc71636a7fd653086d39f5a2c2391cf4f8cd03c91319b4",
+      "n_chars": 265
+    },
+    {
+      "id": "p10",
+      "sha256": "sha256:87c29f1af129766480f92b25e004f3237cfc84592517c2820b35c3e37bc4703c",
+      "n_chars": 200
+    },
+    {
+      "id": "p11",
+      "sha256": "sha256:bae75ae36260dbd117b600aad5a764a83b835d021ddd8b72d940263c76a27ef4",
+      "n_chars": 149
+    },
+    {
+      "id": "p12",
+      "sha256": "sha256:9f28a8c24e5938e8f29a104d807912297686adc47cb41ebbe0f19f1ce7e0df16",
+      "n_chars": 670
+    },
+    {
+      "id": "p13",
+      "sha256": "sha256:41682469e06d2c24203734a3eac55bbe3d53372887d031a8940a31e29bd89910",
+      "n_chars": 314
+    },
+    {
+      "id": "p14",
+      "sha256": "sha256:0494a91bd3cd860aa9c8d0aaacb02c1b0f76aef4fd7478458e4d1166c3b0c467",
+      "n_chars": 488
+    },
+    {
+      "id": "p15",
+      "sha256": "sha256:1b635f29de133f12bed2b1728d821ad3d5636fa00e6b1506774d116021832259",
+      "n_chars": 650
+    },
+    {
+      "id": "p16",
+      "sha256": "sha256:93cde05cbae650cbb079bdda40b6c8091581fdb7624ab4623adc6486fa4be5ea",
+      "n_chars": 112
+    },
+    {
+      "id": "p17",
+      "sha256": "sha256:180de365e08398903906175c9ce4bba0e87fa0e4e648002d807316b73ea814b3",
+      "n_chars": 262
+    },
+    {
+      "id": "p18",
+      "sha256": "sha256:0a05da588c57be2c0274e87e9e411545b2ec0f35ce2793736a2d6bcc7fcb3099",
+      "n_chars": 609
+    },
+    {
+      "id": "p19",
+      "sha256": "sha256:be700e69225b75d281b42385cff76b2d8946723da89512c80295a0976148afbe",
+      "n_chars": 175
+    },
+    {
+      "id": "p20",
+      "sha256": "sha256:ce8629564db0e336328b62a9514d6af9e39e5fbfac08b0f9e95a1cd8a32bb27d",
+      "n_chars": 266
+    },
+    {
+      "id": "p21",
+      "sha256": "sha256:e6ed0840fa491c86cb6edf0c87be77def68cf09b46ba569ebd972cffae52f32e",
+      "n_chars": 271
+    },
+    {
+      "id": "p22",
+      "sha256": "sha256:54c0199afbe886ec0ec8bd8c817666fa36b40e018ab4e59d01c62fe8019b6976",
+      "n_chars": 248
+    },
+    {
+      "id": "p23",
+      "sha256": "sha256:ddc907896483b91f921b003b1b07af9a6cde103f03988b78dc99e38b4b073056",
+      "n_chars": 384
+    },
+    {
+      "id": "p24",
+      "sha256": "sha256:334c8aeca15b0b69fc2058e0e458584dc8915c0204cdafb0d528ab730d756ba6",
+      "n_chars": 192
+    },
+    {
+      "id": "p25",
+      "sha256": "sha256:54641fe5a10f330c684f0f02db446e41d04143d57296da20a52cdc7966665f0b",
+      "n_chars": 358
+    },
+    {
+      "id": "p26",
+      "sha256": "sha256:f552330d61fdcf52e0f35da7af88809f194953bc9b82961e549ffa38ce946d38",
+      "n_chars": 347
+    },
+    {
+      "id": "p27",
+      "sha256": "sha256:90dfcc5539066b81dd639441b8a98be451688cbd4754cef992e35ed97d08a482",
+      "n_chars": 397
+    },
+    {
+      "id": "p28",
+      "sha256": "sha256:73120e325a92839588b353d06577f255a6dc8d1976da09da17e328aa14065ddf",
+      "n_chars": 199
+    },
+    {
+      "id": "p29",
+      "sha256": "sha256:e125c3b1366b61e6437a0c27cce306d46a1c3712166859d56b07ae482bcb4131",
+      "n_chars": 135
+    },
+    {
+      "id": "p30",
+      "sha256": "sha256:6ebfbfd828fe7cdf44bb45a87f563ab05255161b91d565740952ad8e708add12",
+      "n_chars": 241
+    },
+    {
+      "id": "p31",
+      "sha256": "sha256:9af667e12ac348a14f5640d72b2ddb1de615fad04fcb4fa2c3903b2a947a3ec1",
+      "n_chars": 891
+    },
+    {
+      "id": "p32",
+      "sha256": "sha256:97b6a3c01a6cc7b98f9190d98d688c62f05470f653479ab9688ded8d6b962313",
+      "n_chars": 528
+    }
+  ],
+  "revisions": [
+    {
+      "content_hash": "sha256:c41f77757b287c7493adfa55f55067ae03136fe0a6b79cb03ee890dce66697e5",
+      "links_hash": "sha256:a0b33c128f32d86ae42d8471260b967a6a419c965ab5ed9b9540d5eeea23fd51",
+      "paragraph_count": 32,
+      "retrieved_at": "2026-10-19T20:54:52Z",
+      "revision": 1,
+      "changed_paragraphs": []
+    },
+    {
+      "content_hash": "sha256:11b0f2c06a29abf0b1026476008c4a7a77112086be7ea1c6e07c502ce75e3114",
+      "links_hash": "sha256:a0b33c128f32d86ae42d8471260b967a6a419c965ab5ed9b9540d5eeea23fd51",
+      "paragraph_count": 32,
+      "retrieved_at": "2026-10-05T23:13:21Z",
+      "revision": 2,
+      "changed_paragraphs": [
+        "p13"
+      ]
+    }
+  ],
+  "extensions": {
+    "entities": [
+      {
+        "entity_id": null,
+        "type": "person",
+        "name": "Brad W. Setser",
+        "role": "author"
+      },
+      {
+        "entity_id": null,
+        "type": "organization",
+        "name": "Council on Foreign Relations",
+        "role": "publisher"
+      }
+    ],
+    "cited_sources": [
+      {
+        "source_key": "https://nytimes.com/2024/02/12/business/byd-china-electric-vehicle.html",
+        "host": "nytimes.com",
+        "reference_ids": [
+          "r001"
+        ]
+      },
+      {
+        "source_key": "https://ft.com/content/1f218a59-421e-4932-8b5b-7ff5be7057b1",
+        "host": "ft.com",
+        "reference_ids": [
+          "r002"
+        ]
+      },
+      {
+        "source_key": "https://ecb.europa.eu/press/economic-bulletin/focus/2025/html/ecb.ebbox202507_01~83b0e7edd4.en.html",
+        "host": "ecb.europa.eu",
+        "reference_ids": [
+          "r003"
+        ]
+      },
+      {
+        "source_key": "https://bloomberg.com/news/articles/2025-11-12/macron-has-floated-idea-of-a-g-7-invite-for-xi-jinping-next-year",
+        "host": "bloomberg.com",
+        "reference_ids": [
+          "r004"
+        ]
+      },
+      {
+        "source_key": "https://ft.com/content/239eed1b-a268-42ec-861e-fc3047f47c32",
+        "host": "ft.com",
+        "reference_ids": [
+          "r005",
+          "r014"
+        ]
+      },
+      {
+        "source_key": "https://cfr.org/articles/better-late-never-imf-starts-recognizes-balance-payments-reality",
+        "host": "cfr.org",
+        "reference_ids": [
+          "r006"
+        ]
+      },
+      {
+        "source_key": "https://imf.org/en/publications/esr/issues/2025/07/22/external-sector-report-2025",
+        "host": "imf.org",
+        "reference_ids": [
+          "r007"
+        ]
+      },
+      {
+        "source_key": "https://imf.org/en/blogs/articles/2025/07/22/global-current-account-balances-widen-reversing-narrowing-trend",
+        "host": "imf.org",
+        "reference_ids": [
+          "r008"
+        ]
+      },
+      {
+        "source_key": "https://imf.org/en/publications/weo/issues/2025/10/14/world-economic-outlook-october-2025",
+        "host": "imf.org",
+        "reference_ids": [
+          "r009"
+        ]
+      },
+      {
+        "source_key": "https://imf.org/en/publications/cr/issues/2024/08/01/peoples-republic-of-china-2024-article-iv-consultation-press-release-staff-report-and-552803",
+        "host": "imf.org",
+        "reference_ids": [
+          "r010"
+        ]
+      },
+      {
+        "source_key": "https://cfr.org/articles/beijing-still-has-fiscal-space",
+        "host": "cfr.org",
+        "reference_ids": [
+          "r011"
+        ]
+      },
+      {
+        "source_key": "https://imf.org/en/publications/wp/issues/2023/08/02/fiscal-policy-and-the-government-balance-sheet-in-china-536273",
+        "host": "imf.org",
+        "reference_ids": [
+          "r012"
+        ]
+      },
+      {
+        "source_key": "https://cfr.org/articles/iphone-imf-and-chinas-balance-payments",
+        "host": "cfr.org",
+        "reference_ids": [
+          "r013"
+        ]
+      },
+      {
+        "source_key": "https://cfr.org/articles/chinese-state-investors-do-not-seem-profit-higher-us-interest-rates",
+        "host": "cfr.org",
+        "reference_ids": [
+          "r015"
+        ]
+      },
+      {
+        "source_key": "https://cfr.org/articles/imfs-latest-external-sector-report-misses-mark",
+        "host": "cfr.org",
+        "reference_ids": [
+          "r016"
+        ]
+      },
+      {
+        "source_key": "https://microsoft.com/en-us/investor/sec-filings",
+        "host": "microsoft.com",
+        "reference_ids": [
+          "r017"
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "flags": [
+      "source_changed_review_passages"
+    ]
+  }
+}

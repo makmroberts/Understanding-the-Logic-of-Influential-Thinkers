@@ -33,7 +33,7 @@ tags: [type/mechanism, level/L3, family/meta, variable/goods-trade-balance, vari
 ## Source
 - Article: [[2026-02-03 Understanding the Low October 2025 Trade Deficit]]
 - Authored map: `mermaid_code/setser_2026-02-03_october-2025-deficit.mmd`
-- Passage: p7 — _proposed `abstracts`, score 0.322; unreviewed, not a citation_
+- Passage: p11 — _proposed `abstracts`, score 0.323; unreviewed, not a citation_
 - Published: https://www.cfr.org/articles/understanding-the-low-october-2025-trade-deficit
 - Node `setser_2026-02-03_october-2025-deficit#M2` · level L3 · type resolved by `class`
 - Full chain: `python scripts/trace.py setser_2026-02-03_october-2025-deficit#M2`

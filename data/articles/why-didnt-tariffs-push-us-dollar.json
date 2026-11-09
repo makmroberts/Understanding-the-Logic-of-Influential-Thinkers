@@ -1,0 +1,500 @@
+{
+  "schema_version": "source-record-0.1",
+  "article": {
+    "id": "why-didnt-tariffs-push-us-dollar",
+    "title": "Why Didn’t Tariffs Push up the U.S. Dollar?",
+    "authors": [
+      "Brad W. Setser"
+    ],
+    "published_date": "2025-05-05",
+    "url": "https://www.cfr.org/articles/why-didnt-tariffs-push-us-dollar",
+    "publisher": "Council on Foreign Relations",
+    "series": "Follow the Money",
+    "source_text": {
+      "path": "internal/extracted/2025-05-05_why-didnt-tariffs-push-us-dollar.md",
+      "paragraph_count": 35,
+      "content_hash": "sha256:203b0ad10a38ccb6baabf32e790823106eb5ed9f9355f0164684c8e642f947d5",
+      "revision": 2
+    },
+    "references": [
+      {
+        "id": "r001",
+        "paragraph_id": "p2",
+        "char_start": 0,
+        "char_end": 97,
+        "label": "Bessent said a 10 percent change in the tariffs would lead the dollar to appreciate by 4 percent.",
+        "href": "https://home.treasury.gov/news/press-releases/sb0073",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://home.treasury.gov/news/press-releases/sb0073",
+        "host": "home.treasury.gov",
+        "target_article_id": null
+      },
+      {
+        "id": "r002",
+        "paragraph_id": "p3",
+        "char_start": 77,
+        "char_end": 93,
+        "label": "(in)famous paper",
+        "href": "https://www.hudsonbaycapital.com/documents/FG/hudsonbay/research/638199_A_Users_Guide_to_Restructuring_the_Global_Trading_System.pdf",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://hudsonbaycapital.com/documents/fg/hudsonbay/research/638199_a_users_guide_to_restructuring_the_global_trading_system.pdf",
+        "host": "hudsonbaycapital.com",
+        "target_article_id": null
+      },
+      {
+        "id": "r003",
+        "paragraph_id": "p4",
+        "char_start": 81,
+        "char_end": 141,
+        "label": "argues that a tax on imports is effectively a tax on exports",
+        "href": "https://www.imf.org/-/media/Files/Publications/WP/2017/wp17151.ashx",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://imf.org/-/media/files/publications/wp/2017/wp17151.ashx",
+        "host": "imf.org",
+        "target_article_id": null
+      },
+      {
+        "id": "r004",
+        "paragraph_id": "p11",
+        "char_start": 457,
+        "char_end": 461,
+        "label": "$400",
+        "href": "https://www.counterpointresearch.com/insights/producing-a-128gb-iphone-14-pro-max-mmwave-smartphone-costs-apple-up-to-474/",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://counterpointresearch.com/insights/producing-a-128gb-iphone-14-pro-max-mmwave-smartphone-costs-apple-up-to-474",
+        "host": "counterpointresearch.com",
+        "target_article_id": null
+      },
+      {
+        "id": "r005",
+        "paragraph_id": "p11",
+        "char_start": 465,
+        "char_end": 469,
+        "label": "$550",
+        "href": "https://www.wsj.com/tech/personal-tech/iphone-apple-tariffs-china-bb20c7a3",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://wsj.com/tech/personal-tech/iphone-apple-tariffs-china-bb20c7a3",
+        "host": "wsj.com",
+        "target_article_id": null
+      },
+      {
+        "id": "r006",
+        "paragraph_id": "p17",
+        "char_start": 190,
+        "char_end": 242,
+        "label": "Germany dropped its policy of self-imposed austerity",
+        "href": "https://home.cib.natixis.com/germany-s-fiscal-stimulus-redraws-eurozone-economic-map",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://home.cib.natixis.com/germany-s-fiscal-stimulus-redraws-eurozone-economic-map",
+        "host": "home.cib.natixis.com",
+        "target_article_id": null
+      },
+      {
+        "id": "r007",
+        "paragraph_id": "p19",
+        "char_start": 193,
+        "char_end": 226,
+        "label": "a risk premium into dollar assets",
+        "href": "https://www.politico.com/news/2025/05/05/dollar-supremacy-trump-tariffs-bessent-china-00324938",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://politico.com/news/2025/05/05/dollar-supremacy-trump-tariffs-bessent-china-00324938",
+        "host": "politico.com",
+        "target_article_id": null
+      },
+      {
+        "id": "r008",
+        "paragraph_id": "p20",
+        "char_start": 225,
+        "char_end": 276,
+        "label": "Canadian public pensions be so invested in the U.S.",
+        "href": "https://www.benefitsandpensionsmonitor.com/news/industry-news/canadian-and-danish-pension-funds-rethink-us-private-equity-during-trump-era/391848",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://benefitsandpensionsmonitor.com/news/industry-news/canadian-and-danish-pension-funds-rethink-us-private-equity-during-trump-era/391848",
+        "host": "benefitsandpensionsmonitor.com",
+        "target_article_id": null
+      },
+      {
+        "id": "r009",
+        "paragraph_id": "p21",
+        "char_start": 150,
+        "char_end": 175,
+        "label": "SAFE’s 2023 annual report",
+        "href": "https://www.safe.gov.cn/en/AnnualReport/index.html",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://safe.gov.cn/en/annualreport/index.html",
+        "host": "safe.gov.cn",
+        "target_article_id": null
+      },
+      {
+        "id": "r010",
+        "paragraph_id": "p24",
+        "char_start": 82,
+        "char_end": 98,
+        "label": "see James Aitken",
+        "href": "https://www.aitkenadvisors.com/blog/if-forty-million-people-say-a-foolish-thing",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://aitkenadvisors.com/blog/if-forty-million-people-say-a-foolish-thing",
+        "host": "aitkenadvisors.com",
+        "target_article_id": null
+      }
+    ],
+    "metadata_extension": {
+      "field_sources": {
+        "title": "frontmatter",
+        "authors": "frontmatter",
+        "published_date": "frontmatter",
+        "url": "frontmatter",
+        "publisher": "frontmatter",
+        "series": "frontmatter"
+      },
+      "references_status": "preserved",
+      "links_hash": "sha256:83b625d7820b129a17281b421a0fc010ed083490b2eb5611d6e15b054060680b",
+      "subtitle": "Tariffs were supposed to push the dollar up. What happened?",
+      "published_at": "2025-05-05T16:13:09-04:00",
+      "programs": [
+        "Follow the Money",
+        "Greenberg Center for Geoeconomics",
+        "RealEcon"
+      ],
+      "source_tags": [
+        "Economics",
+        "Trade"
+      ],
+      "license": "CC BY-NC-ND 4.0",
+      "section": "Article",
+      "doc_type": "AnalysisNewsArticle",
+      "language": "en",
+      "word_count": 1514,
+      "date_modified": "2025-05-05",
+      "retrieved_at": "2026-10-15T20:05:33Z",
+      "page_sha256": "545ae5e250da81fa1a9dc44307a3a9286b8d3880f1c7dfbe0fdfb9e7dfe8bd02",
+      "figures": [
+        {
+          "title": "Daily Dollar Index",
+          "src": "https://static.cfr.org/sites/default/files/styles/large_s/public/image/2025/05/Daily%20Dollar%20Index.png",
+          "after_paragraph": "p4"
+        },
+        {
+          "title": "Change in Goods Exports vs. Dollar",
+          "src": "https://static.cfr.org/sites/default/files/styles/large_s/public/image/2025/04/Change%20in%20Goods%20Exports%20vs.%20Dollar.png",
+          "after_paragraph": "p25"
+        },
+        {
+          "title": "NP CA",
+          "src": "https://static.cfr.org/sites/default/files/styles/large_s/public/image/2025/04/NP%20CA_0.png",
+          "after_paragraph": "p26"
+        },
+        {
+          "title": "Select Asian",
+          "src": "https://static.cfr.org/sites/default/files/styles/large_s/public/image/2025/05/Select%20Asian.png",
+          "after_paragraph": "p30"
+        },
+        {
+          "title": "TWD Daily Spot",
+          "src": "https://static.cfr.org/sites/default/files/styles/large_s/public/image/2025/05/TWD%20Daily%20Spot_0.png",
+          "after_paragraph": "p34"
+        }
+      ]
+    }
+  },
+  "paragraphs": [
+    {
+      "id": "p1",
+      "sha256": "sha256:31307d5738cda799c68953c0b488d90ec357f5f4955923649e4968cbc06c964e",
+      "n_chars": 170
+    },
+    {
+      "id": "p2",
+      "sha256": "sha256:85ec19b5e276ed2a4d096ecb7cf76dac313399f243e85b780d3e66e5fcf045d0",
+      "n_chars": 97
+    },
+    {
+      "id": "p3",
+      "sha256": "sha256:7860fb651bb069e93d96a149d979018be58be1d24e989627cc7c48cc6b7a9b8f",
+      "n_chars": 232
+    },
+    {
+      "id": "p4",
+      "sha256": "sha256:ae44a64cc2ca45fff9f21d4891aa257d0b96e8ce1b49ddf3dfcf13a9190949f9",
+      "n_chars": 423
+    },
+    {
+      "id": "p5",
+      "sha256": "sha256:575b1a2aa1674d4dae3b56a1d23ed87b48d6e5355eef782ba6b96c5fc0342a2e",
+      "n_chars": 61
+    },
+    {
+      "id": "p6",
+      "sha256": "sha256:c6f18cb1f7e6f69dd5ebaf185a7cc6a03af8f0c5f57b3f4c3c3694186ab15b02",
+      "n_chars": 358
+    },
+    {
+      "id": "p7",
+      "sha256": "sha256:7fb504a9d0f514cb0b202a8d6c1572a92a2614092d07d2c26dafdb1d0c5b454e",
+      "n_chars": 262
+    },
+    {
+      "id": "p8",
+      "sha256": "sha256:c6324ae1d6659416948e0a205eda32bb4aedebd89137f0488da8b8fe4742ea19",
+      "n_chars": 72
+    },
+    {
+      "id": "p9",
+      "sha256": "sha256:16c4e30fb534ec11396cd00268c3959b31ab64b4b566f72825f8c6517e896525",
+      "n_chars": 78
+    },
+    {
+      "id": "p10",
+      "sha256": "sha256:e11c36fee99c996863a6a0f7a0993af147f76042106ac52a19ed2798ddb11361",
+      "n_chars": 110
+    },
+    {
+      "id": "p11",
+      "sha256": "sha256:9f71d731498551ef45adc2746ab2230ca0f78da36f1b6cca1011c1da8b63749b",
+      "n_chars": 1063
+    },
+    {
+      "id": "p12",
+      "sha256": "sha256:94bc92203197df1b9c173dc69e3d66a2df93c322c550399aeec96e527e8e6a9d",
+      "n_chars": 23
+    },
+    {
+      "id": "p13",
+      "sha256": "sha256:ee6023efdcc2f14f204f9fb6cf31553c810c23cbd561b467014c6ffa1f7d7e5c",
+      "n_chars": 427
+    },
+    {
+      "id": "p14",
+      "sha256": "sha256:921cd7e8397137bcb93202a89bcafeb89f3081d3b9068196ae4039547f3a42c3",
+      "n_chars": 182
+    },
+    {
+      "id": "p15",
+      "sha256": "sha256:d4da938384b11eb8f5703c294a2ed2043472c98e9d752f9c22d1e6c42a515e43",
+      "n_chars": 348
+    },
+    {
+      "id": "p16",
+      "sha256": "sha256:2c06bbd5a6367a416697ec97175ae64b21aff584da0f3ce60874cc7eb57727c5",
+      "n_chars": 21
+    },
+    {
+      "id": "p17",
+      "sha256": "sha256:808c17fd9a51029d97dad5e071578afa5dcd4594ec04c6b78f2504379c21d377",
+      "n_chars": 849
+    },
+    {
+      "id": "p18",
+      "sha256": "sha256:4828ce5070320af39eb5825fa2054631cc5bb5a488ebd17d0a913dd03aec6f1e",
+      "n_chars": 103
+    },
+    {
+      "id": "p19",
+      "sha256": "sha256:38e33964c722767cbe7b5daa5b1dcafad9f9a090d59f78100a59a44718d5c163",
+      "n_chars": 712
+    },
+    {
+      "id": "p20",
+      "sha256": "sha256:f156d5cc617b124de9b35bf3633409224a5f4f7ad15b5346d414ef6f639862a4",
+      "n_chars": 608
+    },
+    {
+      "id": "p21",
+      "sha256": "sha256:719b3d3e1fe66da7142ef9ce1a8686c3fbc0240c170e176f07a3423982e3e1c0",
+      "n_chars": 266
+    },
+    {
+      "id": "p22",
+      "sha256": "sha256:ef198e291171aba52b37d57c0cb5f675643c7d581fab4259a6fef9cc1e0ad9d4",
+      "n_chars": 60
+    },
+    {
+      "id": "p23",
+      "sha256": "sha256:0b7d8fd9919e49487291f37a9aeaeb92c93f819430754f4c1b09cc0ce068c273",
+      "n_chars": 328
+    },
+    {
+      "id": "p24",
+      "sha256": "sha256:6abd8c0a5f841d6d70963381e46da1f9b4c3a3f277fba969f6674991f32b0e99",
+      "n_chars": 100
+    },
+    {
+      "id": "p25",
+      "sha256": "sha256:4035999fcaf42b73e077303f0b026baa50767a6189e0c2be3f6cd47795f830bb",
+      "n_chars": 82
+    },
+    {
+      "id": "p26",
+      "sha256": "sha256:5e27c9ce580da83f7e6072869641ac40270106d4f1bfbdb3d1ee4380dd3e8f2e",
+      "n_chars": 66
+    },
+    {
+      "id": "p27",
+      "sha256": "sha256:2d220dadb3a42881fceb1b87647ab2cedf75fdd17d1665ee2fa092590b62f9e0",
+      "n_chars": 192
+    },
+    {
+      "id": "p28",
+      "sha256": "sha256:6875e11bd951cf5c8c2b63c0f27e5509f1881cb03a2afe0900b1da22c43502a0",
+      "n_chars": 56
+    },
+    {
+      "id": "p29",
+      "sha256": "sha256:e6645b871448f45cd875274198c18cab791ae0b0bbd6dd4561eab69b8f0c2e56",
+      "n_chars": 97
+    },
+    {
+      "id": "p30",
+      "sha256": "sha256:645a50f8ab83a243cc62792a082899ecb5423a576796e55cba2d88894df59352",
+      "n_chars": 285
+    },
+    {
+      "id": "p31",
+      "sha256": "sha256:5d6273d55382e1c301a0422fca319c18da35e3585e00887af902c3e49a176471",
+      "n_chars": 216
+    },
+    {
+      "id": "p32",
+      "sha256": "sha256:f288312d94d5cd3de16b2aa2e3ecf98dd82f01c17d32193f680629be04b34ea5",
+      "n_chars": 146
+    },
+    {
+      "id": "p33",
+      "sha256": "sha256:f6d4d4032839b14b558401a572b0de639539ad98fb5f3d81799006c39f2f43c1",
+      "n_chars": 362
+    },
+    {
+      "id": "p34",
+      "sha256": "sha256:8477f6b97916db77a809e6ea0a3273ed042e6adacaab495eea7a17b8a598b214",
+      "n_chars": 495
+    },
+    {
+      "id": "p35",
+      "sha256": "sha256:fdb34b10b7a1f15426f559f097090bd5f5136057b850857b3eef71125fbbfca1",
+      "n_chars": 22
+    }
+  ],
+  "revisions": [
+    {
+      "content_hash": "sha256:6cdb1934f92b1375f1ed8cdb57ec54936d0751f2384d0511af13d46cffbb1b77",
+      "links_hash": "sha256:83b625d7820b129a17281b421a0fc010ed083490b2eb5611d6e15b054060680b",
+      "paragraph_count": 35,
+      "retrieved_at": "2026-10-19T20:54:52Z",
+      "revision": 1,
+      "changed_paragraphs": []
+    },
+    {
+      "content_hash": "sha256:203b0ad10a38ccb6baabf32e790823106eb5ed9f9355f0164684c8e642f947d5",
+      "links_hash": "sha256:83b625d7820b129a17281b421a0fc010ed083490b2eb5611d6e15b054060680b",
+      "paragraph_count": 35,
+      "retrieved_at": "2026-10-15T20:05:33Z",
+      "revision": 2,
+      "changed_paragraphs": [
+        "p19"
+      ]
+    }
+  ],
+  "extensions": {
+    "entities": [
+      {
+        "entity_id": null,
+        "type": "person",
+        "name": "Brad W. Setser",
+        "role": "author"
+      },
+      {
+        "entity_id": null,
+        "type": "organization",
+        "name": "Council on Foreign Relations",
+        "role": "publisher"
+      }
+    ],
+    "cited_sources": [
+      {
+        "source_key": "https://home.treasury.gov/news/press-releases/sb0073",
+        "host": "home.treasury.gov",
+        "reference_ids": [
+          "r001"
+        ]
+      },
+      {
+        "source_key": "https://hudsonbaycapital.com/documents/fg/hudsonbay/research/638199_a_users_guide_to_restructuring_the_global_trading_system.pdf",
+        "host": "hudsonbaycapital.com",
+        "reference_ids": [
+          "r002"
+        ]
+      },
+      {
+        "source_key": "https://imf.org/-/media/files/publications/wp/2017/wp17151.ashx",
+        "host": "imf.org",
+        "reference_ids": [
+          "r003"
+        ]
+      },
+      {
+        "source_key": "https://counterpointresearch.com/insights/producing-a-128gb-iphone-14-pro-max-mmwave-smartphone-costs-apple-up-to-474",
+        "host": "counterpointresearch.com",
+        "reference_ids": [
+          "r004"
+        ]
+      },
+      {
+        "source_key": "https://wsj.com/tech/personal-tech/iphone-apple-tariffs-china-bb20c7a3",
+        "host": "wsj.com",
+        "reference_ids": [
+          "r005"
+        ]
+      },
+      {
+        "source_key": "https://home.cib.natixis.com/germany-s-fiscal-stimulus-redraws-eurozone-economic-map",
+        "host": "home.cib.natixis.com",
+        "reference_ids": [
+          "r006"
+        ]
+      },
+      {
+        "source_key": "https://politico.com/news/2025/05/05/dollar-supremacy-trump-tariffs-bessent-china-00324938",
+        "host": "politico.com",
+        "reference_ids": [
+          "r007"
+        ]
+      },
+      {
+        "source_key": "https://benefitsandpensionsmonitor.com/news/industry-news/canadian-and-danish-pension-funds-rethink-us-private-equity-during-trump-era/391848",
+        "host": "benefitsandpensionsmonitor.com",
+        "reference_ids": [
+          "r008"
+        ]
+      },
+      {
+        "source_key": "https://safe.gov.cn/en/annualreport/index.html",
+        "host": "safe.gov.cn",
+        "reference_ids": [
+          "r009"
+        ]
+      },
+      {
+        "source_key": "https://aitkenadvisors.com/blog/if-forty-million-people-say-a-foolish-thing",
+        "host": "aitkenadvisors.com",
+        "reference_ids": [
+          "r010"
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "flags": [
+      "source_changed_review_passages"
+    ]
+  }
+}

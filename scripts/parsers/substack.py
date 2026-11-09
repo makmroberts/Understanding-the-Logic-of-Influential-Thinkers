@@ -1,13 +1,13 @@
 """Extract Substack posts into annotation-ready Markdown.
 
 The second publisher adapter. Everything publisher-neutral - fetching, the
-cache, `to_markdown`, `render`, the driver - lives in `extract_lib.py`; this
+cache, `to_markdown`, `render`, the driver - lives in `common.py`; this
 file is only the part that knows how Substack builds a page.
 
 Usage:
-    python scripts/substack_extract.py --url https://www.feelingthestones.com/p/the-confidence-machine
-    python scripts/substack_extract.py --url <url> --owner isaac --no-cache
-    python scripts/substack_extract.py --url <url> --check     # parse, print, write nothing
+    python scripts/parsers/substack.py --url https://www.feelingthestones.com/p/the-confidence-machine
+    python scripts/parsers/substack.py --url <url> --owner isaac --no-cache
+    python scripts/parsers/substack.py --url <url> --check     # parse, print, write nothing
 
 What differs from CFR, concretely - these are the four places
 scripts/README.md predicted would be publisher-specific:
@@ -43,9 +43,9 @@ import re
 import sys
 import urllib.parse
 
-sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-import extract_lib as lib
+from parsers import common as lib
 
 # The post body container. `dir="auto"` rides along on the real pages, so the
 # class match cannot be anchored to the closing bracket.
@@ -63,6 +63,7 @@ BLOCK_RE = re.compile(
     r"<(p|h1|h2|h3|h4|blockquote)\b[^>]*>(.*?)</\1>", re.S)
 FIGCAPTION_RE = re.compile(r"<figcaption[^>]*>(.*?)</figcaption>", re.S)
 IMG_ALT_RE = re.compile(r'<img[^>]*alt="([^"]*)"')
+SUBTITLE_RE = re.compile(r'<h3[^>]*class="subtitle[^"]*"[^>]*>(.*?)</h3>', re.S)
 
 FOOTNOTE_RE = re.compile(
     r'<div class="footnote"[^>]*>(.*?)</div>\s*</div>', re.S)
@@ -97,21 +98,28 @@ def body_html(page):
     return page[start:min(ends)] if ends else page[start:]
 
 
-def body_blocks(body):
-    """Ordered Markdown blocks: paragraphs and headings, boilerplate dropped."""
+def kept_blocks(body):
+    """[(offset, markdown)] for paragraphs and headings, boilerplate dropped."""
     out = []
     for m in BLOCK_RE.finditer(body):
         text = lib.to_markdown(m.group(2))
         if not text or BOILERPLATE_RE.match(text):
             continue
-        out.append(text)
+        out.append((m.start(), text))
     return out
+
+
+def body_blocks(body):
+    """Ordered Markdown blocks: paragraphs and headings, boilerplate dropped."""
+    return [text for _, text in kept_blocks(body)]
 
 
 def figures(body):
     """Substack serves figures through a CDN with hashed filenames, so the
-    caption is the only title available - `<figcaption>`, else the img alt."""
+    caption is the only title available - `<figcaption>`, else the img alt.
+    `after` counts the kept blocks before the figure, so it matches paragraph ids."""
     out = []
+    starts = [pos for pos, _ in kept_blocks(body)]
     for fig in lib.FIG_RE.finditer(body):
         frag = fig.group(0)
         src = lib.IMG_SRC_RE.search(frag)
@@ -121,7 +129,8 @@ def figures(body):
         alt = IMG_ALT_RE.search(frag)
         title = (lib.clean(cap.group(1)) if cap
                  else (alt.group(1).strip() if alt else ""))
-        out.append({"title": title or "untitled figure", "src": src.group(1)})
+        out.append({"title": title or "untitled figure", "src": src.group(1),
+                    "after": sum(1 for pos in starts if pos < fig.start())})
     return out
 
 
@@ -160,7 +169,7 @@ def slug_of(url):
 
 
 def parse(url, page, row=None):
-    """Substack page -> the doc dict `extract_lib.render` expects."""
+    """Substack page -> the doc dict `common.render` expects."""
     row = row or {}
     ld = lib.jsonld(page)
     body = body_html(page)
@@ -212,6 +221,7 @@ def parse(url, page, row=None):
 
     plain = " ".join(lib.clean(m.group(2)) for m in BLOCK_RE.finditer(body))
     plain += " " + " ".join(t for _, t in fn_text)
+    subtitle = SUBTITLE_RE.search(page)
 
     return {
         "url": url,
@@ -219,7 +229,8 @@ def parse(url, page, row=None):
         "title": ld.get("headline") or ld.get("name") or row.get("title", ""),
         "authors": lib.ld_authors(ld, default=["unknown"]),
         "publisher": publisher,
-        "series": publisher,          # on Substack the newsletter IS the series
+        "series": "",                 # the newsletter is the publisher, not a series
+        "subtitle": lib.clean(subtitle.group(1)) if subtitle else "",
         "section": ld.get("articleSection", ""),
         "doc_type": ld.get("@type") or "SubstackPost",
         "date_published": ld.get("datePublished", ""),
@@ -266,17 +277,17 @@ def main():
             print("  references : %d" % len(doc["references"]))
             for note in doc["notes"]:
                 print("  note       : %s" % note)
-            if lib.warn_empty(doc, "BODY_OPEN_RE / BLOCK_RE in substack_extract.py"):
+            if lib.warn_empty(doc, "BODY_OPEN_RE / BLOCK_RE in parsers/substack.py"):
                 bad += 1
             if not doc["date_published"]:
-                print("    WARNING: no datePublished - the map filename convention "
-                      "needs a day, and nothing downstream flags an empty date")
+                print("    WARNING: no datePublished - the metadata record will be "
+                      "flagged missing_published_date")
                 bad += 1
         return 1 if bad else 0
 
     _, failures = lib.process(
         rows, parse, out_dir=args.out, use_cache=not args.no_cache,
-        selector_hint="BODY_OPEN_RE / BLOCK_RE in substack_extract.py")
+        selector_hint="BODY_OPEN_RE / BLOCK_RE in parsers/substack.py")
     return 1 if failures else 0
 
 

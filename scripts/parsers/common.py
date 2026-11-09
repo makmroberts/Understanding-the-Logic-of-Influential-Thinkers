@@ -7,7 +7,7 @@ publisher arrived (Substack, 2026-10-19), so this is that split: everything
 that is NOT about one publisher's HTML lives here, and each publisher ships an
 adapter that only has to turn a fetched page into a `doc` dict.
 
-Stdlib only, like `cfr_extract.py`, so it runs without a virtualenv. No
+Stdlib only, like the parsers that use it, so it runs without a virtualenv. No
 `bs4`/`lxml`/`trafilatura`: the parsing stays regex-based on purpose, and an
 adapter that stops matching is expected to SAY SO rather than write an empty
 file - see `warn_empty` below.
@@ -20,6 +20,8 @@ The doc dict an adapter returns:
     authors        list of names
     publisher      e.g. "Council on Foreign Relations"
     series         e.g. "Follow the Money"   ("" if the publisher has none)
+    subtitle, license                optional strings, written only when present
+    programs, source_tags            optional lists, written only when present
     section        publisher's own section label, or ""
     doc_type       schema.org @type, or a publisher-specific label
     date_published ISO date or datetime; sliced to 10 chars for the frontmatter
@@ -53,7 +55,7 @@ import urllib.error
 import urllib.request
 from datetime import datetime, timezone
 
-ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 OUT_DIR = os.path.join(ROOT, "internal", "extracted")
 CACHE_DIR = os.path.join(ROOT, "internal", ".cache_html")
 
@@ -78,6 +80,10 @@ IMG_SRC_RE = re.compile(r'<img[^>]*src="([^"]+)"')
 
 # ------------------------------------------------------------------ fetching ---
 
+def cache_path(url, cache_dir=CACHE_DIR):
+    return os.path.join(cache_dir, hashlib.sha256(url.encode()).hexdigest()[:16] + ".html")
+
+
 def fetch(url, use_cache=True, cache_dir=CACHE_DIR, ua=UA):
     """Return (page_html, was_cached), caching raw bytes so re-runs are offline.
 
@@ -86,8 +92,7 @@ def fetch(url, use_cache=True, cache_dir=CACHE_DIR, ua=UA):
     the committed extracts without touching the network.
     """
     os.makedirs(cache_dir, exist_ok=True)
-    key = hashlib.sha256(url.encode()).hexdigest()[:16]
-    path = os.path.join(cache_dir, key + ".html")
+    path = cache_path(url, cache_dir)
     if use_cache and os.path.exists(path):
         with open(path, "rb") as fh:
             return fh.read().decode("utf-8", "replace"), True
@@ -121,11 +126,18 @@ def to_markdown(fragment):
     Both thinkers in the corpus argue partly by hyperlink: the cited paper or
     dataset *is* the evidence, so the link has to survive into the annotation
     file rather than being flattened to its label.
+
+    Whitespace at the edge of a link belongs to the sentence, so it moves outside
+    the brackets. Dropping it fused words ("and[take the U.S."). A link with no
+    visible label is still a citation the author wrote, so it stays as `[](href)`.
     """
     def repl(match):
         href = match.group(1)
+        raw = html.unescape(TAG_RE.sub("", BR_RE.sub(" ", match.group(2))))
         inner = clean(match.group(2))
-        return "[%s](%s)" % (inner, href) if inner else ""
+        lead = " " if raw[:1].isspace() else ""
+        trail = " " if raw[-1:].isspace() and inner else ""
+        return "%s[%s](%s)%s" % (lead, inner, href, trail)
 
     replaced = A_RE.sub(repl, BR_RE.sub(" ", fragment))
     return re.sub(r"\s+", " ", html.unescape(TAG_RE.sub("", replaced))).strip()
@@ -226,10 +238,18 @@ def render(doc):
         "n_figures: %d" % len(doc["figures"]),
         "n_references: %d" % len(doc["references"]),
         "url: %s" % doc["url"],
-        "retrieved_at: %s" % datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
+        "retrieved_at: %s" % doc["retrieved_at"],
         "page_sha256: %s" % doc["page_sha256"],
         "owner: %s" % (doc.get("owner") or '""'),
     ]
+    if "T" in (doc.get("date_published") or ""):
+        lines.append("published_at: %s" % doc["date_published"])
+    for key in ("subtitle", "license"):
+        if doc.get(key):
+            lines.append("%s: %s" % (key, yaml_escape(doc[key])))
+    for key in ("programs", "source_tags"):
+        if doc.get(key):
+            lines.append("%s: [%s]" % (key, ", ".join(yaml_escape(v) for v in doc[key])))
     if doc.get("notes"):
         lines.append("extraction_note: >")
         for note in doc["notes"]:
@@ -265,6 +285,9 @@ def render(doc):
         for i, fig in enumerate(doc["figures"], 1):
             lines.append("%d. **%s**  " % (i, fig["title"]))
             lines.append("   %s" % fig["src"])
+            if "after" in fig:
+                lines.append("   after_paragraph: %s"
+                             % ("p%d" % fig["after"] if fig["after"] else "start"))
     else:
         lines.append("_None found._")
 
@@ -275,13 +298,6 @@ def render(doc):
     else:
         lines.append("_None found._")
 
-    lines += [
-        "",
-        "## Argument map (Stage 2 - fill in by hand)",
-        "",
-        "Template: internal/reference/argument_map_template.md",
-        "",
-    ]
     return "\n".join(lines) + "\n"
 
 
@@ -349,6 +365,9 @@ def process(rows, parse, out_dir=OUT_DIR, use_cache=True, selector_hint="the sel
             doc = parse(url, page, row)
             doc["page_sha256"] = hashlib.sha256(page.encode("utf-8", "replace")).hexdigest()
             doc["cached"] = cached
+            # When the page was fetched, not when this run happened to re-read it.
+            doc["retrieved_at"] = datetime.fromtimestamp(
+                os.path.getmtime(cache_path(url)), timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
         except Exception as exc:                      # keep going, report at the end
             print("    FAILED: %s" % exc)
             failures.append((url, str(exc)))

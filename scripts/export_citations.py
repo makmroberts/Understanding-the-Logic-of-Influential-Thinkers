@@ -43,11 +43,12 @@ import argparse
 import csv
 import re
 import sys
-import urllib.parse
 from collections import Counter, defaultdict
 from pathlib import Path
 
 import yaml
+
+from extractors.metadata import host_of, normalize
 
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
@@ -63,18 +64,6 @@ PARA = re.compile(r"<!--\s*p(\d+)\s*-->\s*\n(.*?)(?=\n<!--|\n##|\Z)", re.S)
 # point of the layer is what the author chose to cite, and pruning it on taste
 # would be editing that.
 NON_CITATION_HOSTS = {"substack.com", "twitter.com", "x.com"}
-
-
-def normalize(url: str) -> str:
-    """Comparison key for a URL. Query, fragment, trailing slash and the `www.`
-    prefix are not part of what was cited."""
-    url = url.split("?")[0].split("#")[0].rstrip("/").strip()
-    url = re.sub(r"^http://", "https://", url, flags=re.I)
-    return re.sub(r"^https://www\.", "https://", url, flags=re.I).lower()
-
-
-def host_of(url: str) -> str:
-    return urllib.parse.urlparse(url).netloc.lower().removeprefix("www.")
 
 
 def doc_urls() -> dict:

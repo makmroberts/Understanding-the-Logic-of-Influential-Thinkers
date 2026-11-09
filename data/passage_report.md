@@ -8,7 +8,8 @@ the paragraph share a distinctive literal** - a figure or a rare proper noun - s
 human can confirm it at a glance. **`candidate` is semantic overlap only: a reviewing
 aid, not a citation.** Never render a candidate as a source.
 
-- 359 claims over 20 articles, 686 paragraphs
+- 359 claims over 20 articles, 696 paragraphs
+- **declared by the annotator: 0 (0%)**
 - **confirmed by hand: 0 (0%)**
 - **anchored: 63 (18%)**
 - candidate: 274 (76%)
@@ -28,11 +29,11 @@ settles it.
 
 | role | n | states | abstracts | presupposes | none | expected |
 |---|---|---|---|---|---|
-| `evidence_data` | 66 | 50 | 40 | 0 | 0 | states |
-| `mechanism` | 59 | 14 | 43 | 0 | 9 | abstracts |
+| `evidence_data` | 66 | 51 | 40 | 0 | 0 | states |
+| `mechanism` | 59 | 14 | 44 | 0 | 8 | abstracts |
 | `intermediate_claim` | 42 | 3 | 39 | 0 | 2 | abstracts |
-| `stated_assumption` | 42 | 4 | 36 | 0 | 2 | abstracts |
-| `caveat` | 27 | 5 | 22 | 0 | 2 | abstracts |
+| `stated_assumption` | 42 | 4 | 35 | 0 | 3 | abstracts |
+| `caveat` | 27 | 6 | 22 | 0 | 2 | abstracts |
 | `main_claim` | 21 | 2 | 18 | 0 | 1 | abstracts |
 | `question` | 20 | 0 | 19 | 0 | 1 | abstracts |
 | `opposing_view` | 15 | 2 | 13 | 0 | 1 | abstracts |

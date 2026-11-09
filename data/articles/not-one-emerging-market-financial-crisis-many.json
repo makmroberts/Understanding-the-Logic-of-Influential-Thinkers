@@ -1,0 +1,739 @@
+{
+  "schema_version": "source-record-0.1",
+  "article": {
+    "id": "not-one-emerging-market-financial-crisis-many",
+    "title": "Not One Emerging Market Financial Crisis, but Many…",
+    "authors": [
+      "Brad W. Setser"
+    ],
+    "published_date": "2020-03-31",
+    "url": "https://www.cfr.org/articles/not-one-emerging-market-financial-crisis-many",
+    "publisher": "Council on Foreign Relations",
+    "series": "Follow the Money",
+    "source_text": {
+      "path": "internal/extracted/2020-03-31_not-one-emerging-market-financial-crisis-many.md",
+      "paragraph_count": 36,
+      "content_hash": "sha256:a2700b3eb6c957f4ede25a50fe42dfe8d8c1324abd7822c8c5173f3740ecc811",
+      "revision": 1
+    },
+    "references": [
+      {
+        "id": "r001",
+        "paragraph_id": "p2",
+        "char_start": 46,
+        "char_end": 73,
+        "label": "Brent oil down to under $25",
+        "href": "https://www.ft.com/content/bc938195-82d3-43eb-b031-740028451382",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://ft.com/content/bc938195-82d3-43eb-b031-740028451382",
+        "host": "ft.com",
+        "target_article_id": null
+      },
+      {
+        "id": "r002",
+        "paragraph_id": "p2",
+        "char_start": 127,
+        "char_end": 137,
+        "label": "even lower",
+        "href": "https://www.chron.com/business/energy/article/Oil-Sell-Off-Pauses-as-Market-Grapples-With-15168208.php",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://chron.com/business/energy/article/oil-sell-off-pauses-as-market-grapples-with-15168208.php",
+        "host": "chron.com",
+        "target_article_id": null
+      },
+      {
+        "id": "r003",
+        "paragraph_id": "p2",
+        "char_start": 418,
+        "char_end": 437,
+        "label": "copper, for example",
+        "href": "https://www.wsj.com/articles/copper-slides-as-coronavirus-hits-demand-exchange-activity-11584973154",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://wsj.com/articles/copper-slides-as-coronavirus-hits-demand-exchange-activity-11584973154",
+        "host": "wsj.com",
+        "target_article_id": null
+      },
+      {
+        "id": "r004",
+        "paragraph_id": "p4",
+        "char_start": 17,
+        "char_end": 64,
+        "label": "private market flows to many emerging economies",
+        "href": "https://twitter.com/econchart/status/1245052330644553729",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://twitter.com/econchart/status/1245052330644553729",
+        "host": "twitter.com",
+        "target_article_id": null
+      },
+      {
+        "id": "r005",
+        "paragraph_id": "p13",
+        "char_start": 37,
+        "char_end": 55,
+        "label": "large hedging need",
+        "href": "https://www.cfr.org/articles/could-taiwans-commercial-banks-cover-lifers-hedging-need-part-4",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://cfr.org/articles/could-taiwans-commercial-banks-cover-lifers-hedging-need-part-4",
+        "host": "cfr.org",
+        "target_article_id": null
+      },
+      {
+        "id": "r006",
+        "paragraph_id": "p13",
+        "char_start": 423,
+        "char_end": 436,
+        "label": "see chapter 3",
+        "href": "https://www.imf.org/en/Publications/GFSR/Issues/2019/10/01/global-financial-stability-report-october-2019#Chapter3",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://imf.org/en/publications/gfsr/issues/2019/10/01/global-financial-stability-report-october-2019",
+        "host": "imf.org",
+        "target_article_id": null
+      },
+      {
+        "id": "r007",
+        "paragraph_id": "p13",
+        "char_start": 458,
+        "char_end": 478,
+        "label": "Korean life insurers",
+        "href": "https://t.co/4MefhfVgOK?amp=1",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://t.co/4mefhfvgok",
+        "host": "t.co",
+        "target_article_id": null
+      },
+      {
+        "id": "r008",
+        "paragraph_id": "p14",
+        "char_start": 524,
+        "char_end": 546,
+        "label": "Concentrated Ambiguity",
+        "href": "https://concentratedambiguity.wordpress.com/2020/03/29/addressing-overseas-usd-funding-conditions-the-fed-as-global-collateralized-lolr/",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://concentratedambiguity.wordpress.com/2020/03/29/addressing-overseas-usd-funding-conditions-the-fed-as-global-collateralized-lolr",
+        "host": "concentratedambiguity.wordpress.com",
+        "target_article_id": null
+      },
+      {
+        "id": "r009",
+        "paragraph_id": "p19",
+        "char_start": 33,
+        "char_end": 53,
+        "label": "need to be addressed",
+        "href": "https://adamtooze.com/2020/03/29/crashed-to-corona-2-mapping-the-global-funding-squeeze/",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://adamtooze.com/2020/03/29/crashed-to-corona-2-mapping-the-global-funding-squeeze",
+        "host": "adamtooze.com",
+        "target_article_id": null
+      },
+      {
+        "id": "r010",
+        "paragraph_id": "p19",
+        "char_start": 59,
+        "char_end": 105,
+        "label": "different problems require different solutions",
+        "href": "https://www.cfr.org/articles/addressing-global-dollar-shortage-more-swap-lines-new-fed-repo-facility-central-banks-more-imf",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://cfr.org/articles/addressing-global-dollar-shortage-more-swap-lines-new-fed-repo-facility-central-banks-more-imf",
+        "host": "cfr.org",
+        "target_article_id": null
+      },
+      {
+        "id": "r011",
+        "paragraph_id": "p20",
+        "char_start": 161,
+        "char_end": 189,
+        "label": "Japanese banks in particular",
+        "href": "https://www.bis.org/publ/qtrpdf/r_qt1812b.htm",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://bis.org/publ/qtrpdf/r_qt1812b.htm",
+        "host": "bis.org",
+        "target_article_id": null
+      },
+      {
+        "id": "r012",
+        "paragraph_id": "p20",
+        "char_start": 328,
+        "char_end": 361,
+        "label": "exceptionally helpful suggestions",
+        "href": "https://www.ft.com/content/5a1a1e9c-6f4d-11ea-89df-41bea055720b",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://ft.com/content/5a1a1e9c-6f4d-11ea-89df-41bea055720b",
+        "host": "ft.com",
+        "target_article_id": null
+      },
+      {
+        "id": "r013",
+        "paragraph_id": "p20",
+        "char_start": 383,
+        "char_end": 419,
+        "label": "Hyun Shin and the BIS research staff",
+        "href": "https://www.bis.org/publ/work847.htm",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://bis.org/publ/work847.htm",
+        "host": "bis.org",
+        "target_article_id": null
+      },
+      {
+        "id": "r014",
+        "paragraph_id": "p26",
+        "char_start": 43,
+        "char_end": 69,
+        "label": "laid out a detailed agenda",
+        "href": "https://www.piie.com/blogs/realtime-economic-issues-watch/imf-will-need-more-resources-fight-covid-19-pandemic",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://piie.com/blogs/realtime-economic-issues-watch/imf-will-need-more-resources-fight-covid-19-pandemic",
+        "host": "piie.com",
+        "target_article_id": null
+      },
+      {
+        "id": "r015",
+        "paragraph_id": "p27",
+        "char_start": 39,
+        "char_end": 63,
+        "label": "Landers, Lee, and Morris",
+        "href": "https://www.cgdev.org/blog/more-1-trillion-mdb-firepower-exists-we-approach-covid-19-break-glass-moment",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://cgdev.org/blog/more-1-trillion-mdb-firepower-exists-we-approach-covid-19-break-glass-moment",
+        "host": "cgdev.org",
+        "target_article_id": null
+      },
+      {
+        "id": "r016",
+        "paragraph_id": "p28",
+        "char_start": 115,
+        "char_end": 156,
+        "label": "Sean Hagan and Lee Buchheit have laid out",
+        "href": "https://ftalphaville.ft.com/2020/03/25/1585171627000/From-coronavirus-crisis-to--sovereign-debt-crisis/",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://ftalphaville.ft.com/2020/03/25/1585171627000/from-coronavirus-crisis-to--sovereign-debt-crisis",
+        "host": "ftalphaville.ft.com",
+        "target_article_id": null
+      },
+      {
+        "id": "r017",
+        "paragraph_id": "p31",
+        "char_start": 47,
+        "char_end": 60,
+        "label": "see this post",
+        "href": "https://www.cfr.org/articles/shadow-fx-intervention-taiwan-solving-100-billion-dollar-enigma-part-3",
+        "kind": "hyperlink",
+        "placement": "footnote",
+        "source_key": "https://cfr.org/articles/shadow-fx-intervention-taiwan-solving-100-billion-dollar-enigma-part-3",
+        "host": "cfr.org",
+        "target_article_id": null
+      },
+      {
+        "id": "r018",
+        "paragraph_id": "p33",
+        "char_start": 436,
+        "char_end": 463,
+        "label": "under appreciated monograph",
+        "href": "https://rooseveltinstitute.org/wp-content/uploads/2009/06/brender.pdf",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://rooseveltinstitute.org/wp-content/uploads/2009/06/brender.pdf",
+        "host": "rooseveltinstitute.org",
+        "target_article_id": null
+      },
+      {
+        "id": "r019",
+        "paragraph_id": "p34",
+        "char_start": 34,
+        "char_end": 46,
+        "label": "a conference",
+        "href": "http://www.centerforfinancialstability.org/iceland.php",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://centerforfinancialstability.org/iceland.php",
+        "host": "centerforfinancialstability.org",
+        "target_article_id": null
+      },
+      {
+        "id": "r020",
+        "paragraph_id": "p34",
+        "char_start": 142,
+        "char_end": 155,
+        "label": "a paper (pdf)",
+        "href": "http://www.centerforfinancialstability.org/iceland/setser_paper_3.pdf",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://centerforfinancialstability.org/iceland/setser_paper_3.pdf",
+        "host": "centerforfinancialstability.org",
+        "target_article_id": null
+      },
+      {
+        "id": "r021",
+        "paragraph_id": "p34",
+        "char_start": 204,
+        "char_end": 229,
+        "label": "history is again relevant",
+        "href": "https://adamtooze.com/2020/03/22/crashed-to-corona-1-the-dollar-shortage/",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://adamtooze.com/2020/03/22/crashed-to-corona-1-the-dollar-shortage",
+        "host": "adamtooze.com",
+        "target_article_id": null
+      },
+      {
+        "id": "r022",
+        "paragraph_id": "p35",
+        "char_start": 113,
+        "char_end": 126,
+        "label": "two weeks ago",
+        "href": "https://www.cfr.org/articles/addressing-global-dollar-shortage-more-swap-lines-new-fed-repo-facility-central-banks-more-imf",
+        "kind": "hyperlink",
+        "placement": "footnote",
+        "source_key": "https://cfr.org/articles/addressing-global-dollar-shortage-more-swap-lines-new-fed-repo-facility-central-banks-more-imf",
+        "host": "cfr.org",
+        "target_article_id": null
+      },
+      {
+        "id": "r023",
+        "paragraph_id": "p35",
+        "char_start": 243,
+        "char_end": 320,
+        "label": "facilitate private sector hedging by a broader set of institutions than banks",
+        "href": "https://concentratedambiguity.wordpress.com/2020/03/29/addressing-overseas-usd-funding-conditions-the-fed-as-global-collateralized-lolr/",
+        "kind": "hyperlink",
+        "placement": "footnote",
+        "source_key": "https://concentratedambiguity.wordpress.com/2020/03/29/addressing-overseas-usd-funding-conditions-the-fed-as-global-collateralized-lolr",
+        "host": "concentratedambiguity.wordpress.com",
+        "target_article_id": null
+      },
+      {
+        "id": "r024",
+        "paragraph_id": "p35",
+        "char_start": 322,
+        "char_end": 337,
+        "label": "Cheap Convexity",
+        "href": "http://jonturek.blogspot.com/2020/03/fed-swap-lines-usd-shortage-and-policy.html",
+        "kind": "hyperlink",
+        "placement": "footnote",
+        "source_key": "https://jonturek.blogspot.com/2020/03/fed-swap-lines-usd-shortage-and-policy.html",
+        "host": "jonturek.blogspot.com",
+        "target_article_id": null
+      }
+    ],
+    "metadata_extension": {
+      "field_sources": {
+        "title": "frontmatter",
+        "authors": "frontmatter",
+        "published_date": "frontmatter",
+        "url": "frontmatter",
+        "publisher": "frontmatter",
+        "series": "frontmatter"
+      },
+      "references_status": "preserved",
+      "links_hash": "sha256:889c5e14ab94256f1fdddb1e330431c7af6a6e9834fa90eb8ab9184259390038",
+      "subtitle": "The common denominator across many emerging economies is a shortage of dollars. But the causes differ, as do the solutions.",
+      "published_at": "2020-03-31T02:30:56-04:00",
+      "programs": [
+        "Follow the Money"
+      ],
+      "source_tags": [
+        "Financial Markets",
+        "United States"
+      ],
+      "license": "CC BY-NC-ND 4.0",
+      "section": "Article",
+      "doc_type": "AnalysisNewsArticle",
+      "language": "en",
+      "word_count": 2007,
+      "date_modified": "2020-03-31",
+      "retrieved_at": "2026-10-19T20:54:52Z",
+      "page_sha256": "cc47139698b0c79e86b30c3ac23db477d36e49cacb6bbedb5707bb427a2343e6",
+      "figures": [
+        {
+          "title": "Taiwan External Assets vs External Liabilities",
+          "src": "https://static.cfr.org/sites/default/files/styles/large_s/public/image/2020/03/Taiwan%20External%20Assets%20vs%20External%20Liabilities_0.png",
+          "after_paragraph": "p12"
+        }
+      ]
+    }
+  },
+  "paragraphs": [
+    {
+      "id": "p1",
+      "sha256": "sha256:d011e1f917bc8f3f06dcd806b11d3245ce50c10a446c6014f8753daca8ab67f4",
+      "n_chars": 74
+    },
+    {
+      "id": "p2",
+      "sha256": "sha256:c874f59dedbda399b1fbcbd914b84c6192bed39c77e2829d52df47fd5b750a82",
+      "n_chars": 438
+    },
+    {
+      "id": "p3",
+      "sha256": "sha256:7eafeabf33b7597671dab9c5c5703be506674efa5223478df16cd3a8bc0a8223",
+      "n_chars": 260
+    },
+    {
+      "id": "p4",
+      "sha256": "sha256:44d7082d175163ca6b50d8a6fbdd60219a2ae8c29be33ea2e91ab2278801dece",
+      "n_chars": 91
+    },
+    {
+      "id": "p5",
+      "sha256": "sha256:9e2b05f25ad6522b4bbd94b8f19a09c40e94c439986473a2828d28169aa0a1e1",
+      "n_chars": 395
+    },
+    {
+      "id": "p6",
+      "sha256": "sha256:0a4cb225c8678057aacf5fc7488bc57cd02ab48a10bc8bb7c50a426ed9ba4fdb",
+      "n_chars": 434
+    },
+    {
+      "id": "p7",
+      "sha256": "sha256:8c26cf3564f413156056773367f37a73ba31e508fbd143ba587eb812ef0a9612",
+      "n_chars": 54
+    },
+    {
+      "id": "p8",
+      "sha256": "sha256:d2402a7d1f653bf07ce3503f3ca9a6ef4cc937c2a5a5d562090e2cd337835827",
+      "n_chars": 96
+    },
+    {
+      "id": "p9",
+      "sha256": "sha256:9780f31699b8a85bc4eb1c25ec55d876eb942aa5faf6207a44d7da2ca9e41b6c",
+      "n_chars": 123
+    },
+    {
+      "id": "p10",
+      "sha256": "sha256:aaefbf18291e2e82b3e6c51e5c97abb073438ccd5fcc40e53aeaccb880a8ef40",
+      "n_chars": 669
+    },
+    {
+      "id": "p11",
+      "sha256": "sha256:159ed57be1fb325c5d1487567455973168bdfa31c206bab2b31fbec12f3e5c02",
+      "n_chars": 589
+    },
+    {
+      "id": "p12",
+      "sha256": "sha256:e2d13d49e281fb7e5db6e4f8849d8160d607bc0e59aeec7726ebc6f68895f986",
+      "n_chars": 367
+    },
+    {
+      "id": "p13",
+      "sha256": "sha256:af5b32da54bc69b10527e59eaa3bf3fef824462be5869707c29b67fb00d80762",
+      "n_chars": 614
+    },
+    {
+      "id": "p14",
+      "sha256": "sha256:1f93a2288c882bd35678dd279a3c629200d9956bc0f237e49e66713e237a5a2f",
+      "n_chars": 745
+    },
+    {
+      "id": "p15",
+      "sha256": "sha256:29e2988118473becbb91003f8d10c862de1ce74a5ca74cb52be97cbe0b0eb5a7",
+      "n_chars": 347
+    },
+    {
+      "id": "p16",
+      "sha256": "sha256:0a3d6ad8d8ff11a627cadb3bbd4edaa498aeb90e10b4e103acb6d181c9e47e45",
+      "n_chars": 72
+    },
+    {
+      "id": "p17",
+      "sha256": "sha256:f025504b60b84b343a33740ac5d135006a370032aa17eb0b259c67acca1f557c",
+      "n_chars": 147
+    },
+    {
+      "id": "p18",
+      "sha256": "sha256:e342b94b9f0bc676654762e047b6f12ce50118009d44c154474f805b81406309",
+      "n_chars": 353
+    },
+    {
+      "id": "p19",
+      "sha256": "sha256:367a97bc37c0ecc7cec2e3acad329b670689d5e8a40d4b12f46f0596b0dda767",
+      "n_chars": 106
+    },
+    {
+      "id": "p20",
+      "sha256": "sha256:0fc1ee04f609a30d4e30dda092c0d84cd88908dd9779b7b4451360a74ac6c032",
+      "n_chars": 493
+    },
+    {
+      "id": "p21",
+      "sha256": "sha256:487f4c807e8e5ace355fc6b1686f902a5b9a298658341c035ca23919a4136a08",
+      "n_chars": 291
+    },
+    {
+      "id": "p22",
+      "sha256": "sha256:2fedbddbfc00517c673a91c78e632f99ff13e8a4ffccce2f606fb167e75da4d7",
+      "n_chars": 174
+    },
+    {
+      "id": "p23",
+      "sha256": "sha256:b7b44279ec8c2632237c26de0e3a6f0b6b12ea1b43f9b55c340d5119b8f9e27d",
+      "n_chars": 198
+    },
+    {
+      "id": "p24",
+      "sha256": "sha256:c344da541522556a0b6053f3e8789f7d12cfa7122396a2a4a36d1e4939923f88",
+      "n_chars": 558
+    },
+    {
+      "id": "p25",
+      "sha256": "sha256:40751dc3ee03fddd212eb8456560d92e5db643feea03ce900262d7d665271ba6",
+      "n_chars": 204
+    },
+    {
+      "id": "p26",
+      "sha256": "sha256:16257e8e3b53495618c9980fc2386faf4a1e8b308c5899ff31e2da9c499d731e",
+      "n_chars": 190
+    },
+    {
+      "id": "p27",
+      "sha256": "sha256:303d9ae6c839966f44b9136f9c1c72385cc0adafcaf0491d64651d3e8c4694b0",
+      "n_chars": 275
+    },
+    {
+      "id": "p28",
+      "sha256": "sha256:9f1f15ec48428e785afcb4ab078ae18bdb5a42a6ae43689491e480dda40b66b3",
+      "n_chars": 647
+    },
+    {
+      "id": "p29",
+      "sha256": "sha256:78503c973e89ed169a6feab6e734101278af50324e826622b7f1aa454a59a476",
+      "n_chars": 153
+    },
+    {
+      "id": "p30",
+      "sha256": "sha256:8f3f4eb9269936e3dd1c7bff5b9a835ed95cf4cd8a7ac40fb452a4c9d8cfd760",
+      "n_chars": 350
+    },
+    {
+      "id": "p31",
+      "sha256": "sha256:7ba8b3fe91dea7b69122eb69c3f756217f8e3f6fcd46524b939d17d921cb3114",
+      "n_chars": 90
+    },
+    {
+      "id": "p32",
+      "sha256": "sha256:738ebde201f158784e0035b72cf32ce00ca8c6c01ab792fecddfaaa6f00bc17f",
+      "n_chars": 910
+    },
+    {
+      "id": "p33",
+      "sha256": "sha256:ac08c5cb6f8821b8f7b33d47ea445750616873a0a9eb90f983a7baff2ab22e77",
+      "n_chars": 854
+    },
+    {
+      "id": "p34",
+      "sha256": "sha256:0ec3d650a0c28aaaae60d50497132f48297669747a0acd8212e85d868b342320",
+      "n_chars": 230
+    },
+    {
+      "id": "p35",
+      "sha256": "sha256:6d6316a7a943a933a655b77639f2798a362efdcde8173f1e594f87f5729be77b",
+      "n_chars": 558
+    },
+    {
+      "id": "p36",
+      "sha256": "sha256:f793881d6dc544fc49afcfeaacb788200655e8461783c4e985e78747f3b18695",
+      "n_chars": 150
+    }
+  ],
+  "revisions": [
+    {
+      "content_hash": "sha256:a2700b3eb6c957f4ede25a50fe42dfe8d8c1324abd7822c8c5173f3740ecc811",
+      "links_hash": "sha256:889c5e14ab94256f1fdddb1e330431c7af6a6e9834fa90eb8ab9184259390038",
+      "paragraph_count": 36,
+      "retrieved_at": "2026-10-19T20:54:52Z",
+      "revision": 1,
+      "changed_paragraphs": []
+    }
+  ],
+  "extensions": {
+    "entities": [
+      {
+        "entity_id": null,
+        "type": "person",
+        "name": "Brad W. Setser",
+        "role": "author"
+      },
+      {
+        "entity_id": null,
+        "type": "organization",
+        "name": "Council on Foreign Relations",
+        "role": "publisher"
+      }
+    ],
+    "cited_sources": [
+      {
+        "source_key": "https://ft.com/content/bc938195-82d3-43eb-b031-740028451382",
+        "host": "ft.com",
+        "reference_ids": [
+          "r001"
+        ]
+      },
+      {
+        "source_key": "https://chron.com/business/energy/article/oil-sell-off-pauses-as-market-grapples-with-15168208.php",
+        "host": "chron.com",
+        "reference_ids": [
+          "r002"
+        ]
+      },
+      {
+        "source_key": "https://wsj.com/articles/copper-slides-as-coronavirus-hits-demand-exchange-activity-11584973154",
+        "host": "wsj.com",
+        "reference_ids": [
+          "r003"
+        ]
+      },
+      {
+        "source_key": "https://twitter.com/econchart/status/1245052330644553729",
+        "host": "twitter.com",
+        "reference_ids": [
+          "r004"
+        ]
+      },
+      {
+        "source_key": "https://cfr.org/articles/could-taiwans-commercial-banks-cover-lifers-hedging-need-part-4",
+        "host": "cfr.org",
+        "reference_ids": [
+          "r005"
+        ]
+      },
+      {
+        "source_key": "https://imf.org/en/publications/gfsr/issues/2019/10/01/global-financial-stability-report-october-2019",
+        "host": "imf.org",
+        "reference_ids": [
+          "r006"
+        ]
+      },
+      {
+        "source_key": "https://t.co/4mefhfvgok",
+        "host": "t.co",
+        "reference_ids": [
+          "r007"
+        ]
+      },
+      {
+        "source_key": "https://concentratedambiguity.wordpress.com/2020/03/29/addressing-overseas-usd-funding-conditions-the-fed-as-global-collateralized-lolr",
+        "host": "concentratedambiguity.wordpress.com",
+        "reference_ids": [
+          "r008",
+          "r023"
+        ]
+      },
+      {
+        "source_key": "https://adamtooze.com/2020/03/29/crashed-to-corona-2-mapping-the-global-funding-squeeze",
+        "host": "adamtooze.com",
+        "reference_ids": [
+          "r009"
+        ]
+      },
+      {
+        "source_key": "https://cfr.org/articles/addressing-global-dollar-shortage-more-swap-lines-new-fed-repo-facility-central-banks-more-imf",
+        "host": "cfr.org",
+        "reference_ids": [
+          "r010",
+          "r022"
+        ]
+      },
+      {
+        "source_key": "https://bis.org/publ/qtrpdf/r_qt1812b.htm",
+        "host": "bis.org",
+        "reference_ids": [
+          "r011"
+        ]
+      },
+      {
+        "source_key": "https://ft.com/content/5a1a1e9c-6f4d-11ea-89df-41bea055720b",
+        "host": "ft.com",
+        "reference_ids": [
+          "r012"
+        ]
+      },
+      {
+        "source_key": "https://bis.org/publ/work847.htm",
+        "host": "bis.org",
+        "reference_ids": [
+          "r013"
+        ]
+      },
+      {
+        "source_key": "https://piie.com/blogs/realtime-economic-issues-watch/imf-will-need-more-resources-fight-covid-19-pandemic",
+        "host": "piie.com",
+        "reference_ids": [
+          "r014"
+        ]
+      },
+      {
+        "source_key": "https://cgdev.org/blog/more-1-trillion-mdb-firepower-exists-we-approach-covid-19-break-glass-moment",
+        "host": "cgdev.org",
+        "reference_ids": [
+          "r015"
+        ]
+      },
+      {
+        "source_key": "https://ftalphaville.ft.com/2020/03/25/1585171627000/from-coronavirus-crisis-to--sovereign-debt-crisis",
+        "host": "ftalphaville.ft.com",
+        "reference_ids": [
+          "r016"
+        ]
+      },
+      {
+        "source_key": "https://cfr.org/articles/shadow-fx-intervention-taiwan-solving-100-billion-dollar-enigma-part-3",
+        "host": "cfr.org",
+        "reference_ids": [
+          "r017"
+        ]
+      },
+      {
+        "source_key": "https://rooseveltinstitute.org/wp-content/uploads/2009/06/brender.pdf",
+        "host": "rooseveltinstitute.org",
+        "reference_ids": [
+          "r018"
+        ]
+      },
+      {
+        "source_key": "https://centerforfinancialstability.org/iceland.php",
+        "host": "centerforfinancialstability.org",
+        "reference_ids": [
+          "r019"
+        ]
+      },
+      {
+        "source_key": "https://centerforfinancialstability.org/iceland/setser_paper_3.pdf",
+        "host": "centerforfinancialstability.org",
+        "reference_ids": [
+          "r020"
+        ]
+      },
+      {
+        "source_key": "https://adamtooze.com/2020/03/22/crashed-to-corona-1-the-dollar-shortage",
+        "host": "adamtooze.com",
+        "reference_ids": [
+          "r021"
+        ]
+      },
+      {
+        "source_key": "https://jonturek.blogspot.com/2020/03/fed-swap-lines-usd-shortage-and-policy.html",
+        "host": "jonturek.blogspot.com",
+        "reference_ids": [
+          "r024"
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "flags": []
+  }
+}

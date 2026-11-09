@@ -1,0 +1,393 @@
+{
+  "schema_version": "source-record-0.1",
+  "article": {
+    "id": "chinas-imaginary-trade-data",
+    "title": "China’s Imaginary Trade Data",
+    "authors": [
+      "Brad W. Setser"
+    ],
+    "published_date": "2024-08-14",
+    "url": "https://www.cfr.org/articles/chinas-imaginary-trade-data",
+    "publisher": "Council on Foreign Relations",
+    "series": "Follow the Money",
+    "source_text": {
+      "path": "internal/extracted/2024-08-14_chinas-imaginary-trade-data.md",
+      "paragraph_count": 40,
+      "content_hash": "sha256:3184594a145fd3cc93846fa3fb9f9a519821ffa043a811d2f5adfd8ebda62fe6",
+      "revision": 1
+    },
+    "references": [
+      {
+        "id": "r001",
+        "paragraph_id": "p1",
+        "char_start": 31,
+        "char_end": 63,
+        "label": "IMF’s latest assessment of China",
+        "href": "https://www.imf.org/en/Publications/CR/Issues/2024/08/01/Peoples-Republic-of-China-2024-Article-IV-Consultation-Press-Release-Staff-Report-and-552803",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://imf.org/en/publications/cr/issues/2024/08/01/peoples-republic-of-china-2024-article-iv-consultation-press-release-staff-report-and-552803",
+        "host": "imf.org",
+        "target_article_id": null
+      },
+      {
+        "id": "r002",
+        "paragraph_id": "p2",
+        "char_start": 25,
+        "char_end": 110,
+        "label": "China’s balance of payments trade surplus diverges from China’s customs trade surplus",
+        "href": "https://www.economist.com/finance-and-economics/2023/12/14/is-china-understating-its-own-export-success",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://economist.com/finance-and-economics/2023/12/14/is-china-understating-its-own-export-success",
+        "host": "economist.com",
+        "target_article_id": null
+      },
+      {
+        "id": "r003",
+        "paragraph_id": "p40",
+        "char_start": 320,
+        "char_end": 371,
+        "label": "see Anna Wong’s paper for the Federal Reserve Board",
+        "href": "https://www.federalreserve.gov/econres/ifdp/files/ifdp1208.pdf",
+        "kind": "hyperlink",
+        "placement": "footnote",
+        "source_key": "https://federalreserve.gov/econres/ifdp/files/ifdp1208.pdf",
+        "host": "federalreserve.gov",
+        "target_article_id": null
+      }
+    ],
+    "metadata_extension": {
+      "field_sources": {
+        "title": "frontmatter",
+        "authors": "frontmatter",
+        "published_date": "frontmatter",
+        "url": "frontmatter",
+        "publisher": "frontmatter",
+        "series": "frontmatter"
+      },
+      "references_status": "preserved",
+      "links_hash": "sha256:9be12eeb8a5e3bb5c99350e14f89976b34a67c4a03f61db90dc34f5620fa9991",
+      "subtitle": "China has a new way of calculating its good surplus in its formal balance of payments data. It is a deeply misleading. It also explains the apparent fall in the current account account surplus.",
+      "published_at": "2024-08-14T17:13:55-04:00",
+      "programs": [
+        "Follow the Money",
+        "China Strategy Initiative",
+        "Greenberg Center for Geoeconomics"
+      ],
+      "source_tags": [
+        "China",
+        "Trade"
+      ],
+      "license": "CC BY-NC-ND 4.0",
+      "section": "Article",
+      "doc_type": "AnalysisNewsArticle",
+      "language": "en",
+      "word_count": 1805,
+      "date_modified": "2024-08-14",
+      "retrieved_at": "2026-10-19T20:54:52Z",
+      "page_sha256": "00e7efbc717e29f64a0de6f8b638bd8492e90de3ad17df5c35b939eabcf47593",
+      "figures": [
+        {
+          "title": "Customs v BoP Goods Surplus",
+          "src": "https://static.cfr.org/sites/default/files/styles/large_s/public/image/2024/08/Customs%20v%20BoP%20Goods%20Surplus.png",
+          "after_paragraph": "p2"
+        },
+        {
+          "title": "CUstoms goods balance fixed",
+          "src": "https://static.cfr.org/sites/default/files/styles/large_s/public/image/2024/08/CUstoms%20goods%20balance%20fixed.png",
+          "after_paragraph": "p3"
+        },
+        {
+          "title": "Discrepancy Updated",
+          "src": "https://static.cfr.org/sites/default/files/styles/large_s/public/image/2024/08/Discrepancy%20Updated.png",
+          "after_paragraph": "p21"
+        },
+        {
+          "title": "SAFE Shift",
+          "src": "https://static.cfr.org/sites/default/files/styles/large_s/public/image/2024/08/SAFE%20Shift.png",
+          "after_paragraph": "p23"
+        },
+        {
+          "title": "BoP Estimate  imp exp",
+          "src": "https://static.cfr.org/sites/default/files/styles/large_s/public/image/2024/08/BoP%20Estimate%20%20imp%20exp_0.png",
+          "after_paragraph": "p24"
+        },
+        {
+          "title": "China estimated surplus three lines",
+          "src": "https://static.cfr.org/sites/default/files/styles/large_s/public/image/2024/08/China%20estimated%20surplus%20three%20lines.png",
+          "after_paragraph": "p29"
+        },
+        {
+          "title": "Large creditors interest income",
+          "src": "https://static.cfr.org/sites/default/files/styles/large_s/public/image/2024/08/Large%20creditors%20interest%20income.png",
+          "after_paragraph": "p34"
+        },
+        {
+          "title": "China investment income balance",
+          "src": "https://static.cfr.org/sites/default/files/styles/large_s/public/image/2024/08/China%20investment%20income%20balance.png",
+          "after_paragraph": "p35"
+        },
+        {
+          "title": "Goods v Manuf.",
+          "src": "https://static.cfr.org/sites/default/files/styles/large_s/public/image/2024/08/Goods%20v%20Manuf..png",
+          "after_paragraph": "p36"
+        }
+      ]
+    }
+  },
+  "paragraphs": [
+    {
+      "id": "p1",
+      "sha256": "sha256:82432a07ec472d113a236f2fd2ae2e4ff8298fc64e0594e05f97939450b33ca9",
+      "n_chars": 150
+    },
+    {
+      "id": "p2",
+      "sha256": "sha256:a5ae65ba460dd3cbca1625509f08142d086caf644965d2586fd845ad4a721a7d",
+      "n_chars": 320
+    },
+    {
+      "id": "p3",
+      "sha256": "sha256:44af0afebb405bf00e8c5ede458b7eaea9c9877e5ada3989e4996649d1ce84fb",
+      "n_chars": 316
+    },
+    {
+      "id": "p4",
+      "sha256": "sha256:d37a61c311a04d4df90b1c77b59ddcc0f74fdc9ee1b660603ffcd452a97f851f",
+      "n_chars": 268
+    },
+    {
+      "id": "p5",
+      "sha256": "sha256:8546d26875b4a76fe89250ac1aa19c823460eb24b3c83cc9677bbda116804ff8",
+      "n_chars": 137
+    },
+    {
+      "id": "p6",
+      "sha256": "sha256:5eb38e26d30fb10f157ac8c35742cd4fe183786967f212c578d2d628bf8b9ba7",
+      "n_chars": 57
+    },
+    {
+      "id": "p7",
+      "sha256": "sha256:4fab0d7985bf334c87610f262cc59853ab25d044d58b2ce6370720d6c86d5402",
+      "n_chars": 255
+    },
+    {
+      "id": "p8",
+      "sha256": "sha256:a15edcaa58fdb2d62598c38504e28269ca475e18d1c694eed24984ae8e244873",
+      "n_chars": 206
+    },
+    {
+      "id": "p9",
+      "sha256": "sha256:f078be4be6e5d7704e3e420d1952b646fbd43ad11fbde85faa0e1d238fe6bb9d",
+      "n_chars": 37
+    },
+    {
+      "id": "p10",
+      "sha256": "sha256:884cbe04d9da795e9329158d5009a250b6961c30da404c2bd5bca1126a158651",
+      "n_chars": 438
+    },
+    {
+      "id": "p11",
+      "sha256": "sha256:fe65999403e27205505397855542e7257a0cd881ae798d319c25e5bd10719044",
+      "n_chars": 184
+    },
+    {
+      "id": "p12",
+      "sha256": "sha256:16b54872023677d1d02749d616ca02768ade8bc6d8af8d2eec098ad6957dfdd5",
+      "n_chars": 218
+    },
+    {
+      "id": "p13",
+      "sha256": "sha256:4135a74670a17e8ff6bc630b8391ff9a8e2999c9f0ed4d03df9ca3eecdb9e437",
+      "n_chars": 310
+    },
+    {
+      "id": "p14",
+      "sha256": "sha256:3815c7598107742710c48e44f3a6e149a8d12d467025ca49f705b5993faf98dc",
+      "n_chars": 29
+    },
+    {
+      "id": "p15",
+      "sha256": "sha256:bd5ce77c34b53442c90aeb20d57e21d96788f54db94b24803ff1aee6f67c80ac",
+      "n_chars": 728
+    },
+    {
+      "id": "p16",
+      "sha256": "sha256:41d9d2baf5745fb62437e2b10f8136c77fb62e9649646731db60d3e2be7fe21b",
+      "n_chars": 179
+    },
+    {
+      "id": "p17",
+      "sha256": "sha256:2cf7936c2b2cfbe365c571ff797b7861a0a6778c111ab43d870b4bb5d75a482a",
+      "n_chars": 295
+    },
+    {
+      "id": "p18",
+      "sha256": "sha256:75613d444713d693e7be632e8732b587c796c6c037b3a729fcc82656c37ac243",
+      "n_chars": 389
+    },
+    {
+      "id": "p19",
+      "sha256": "sha256:f1cf68fa75d117c4dd5d7b8d59b699188dc1fed6e339bb5bfc6588130f09e8dd",
+      "n_chars": 137
+    },
+    {
+      "id": "p20",
+      "sha256": "sha256:379d5a5b80ec6a2638630c20ec7512f40ecc404f0c6c8ac26835eac3936fefe4",
+      "n_chars": 48
+    },
+    {
+      "id": "p21",
+      "sha256": "sha256:bce10a7e45093d3e13b2b035c53760f1b4d8eabe93679818cdaf6b801d6f1f7b",
+      "n_chars": 303
+    },
+    {
+      "id": "p22",
+      "sha256": "sha256:5c238906a9966e4dd481e8462840f638e50cfeb85a57059ff969caa9416bf243",
+      "n_chars": 299
+    },
+    {
+      "id": "p23",
+      "sha256": "sha256:5d11b2d41ca9a43748000b6355b4fb17d9c095e59d49ade264cb590717a66fe4",
+      "n_chars": 384
+    },
+    {
+      "id": "p24",
+      "sha256": "sha256:3a0f6cf70a56e4290a28ce49f5ee191d82282d37d4fbe5370deb5886a1d33d5c",
+      "n_chars": 194
+    },
+    {
+      "id": "p25",
+      "sha256": "sha256:2d070c816e422c311c1c29ebc9cd9388a36c0090f2f1f3a3d1e8e6b54a4a9fc9",
+      "n_chars": 462
+    },
+    {
+      "id": "p26",
+      "sha256": "sha256:a8013f4bf596d53146a03f6485dca3649161390d2e3a1391b02bd7063b199062",
+      "n_chars": 219
+    },
+    {
+      "id": "p27",
+      "sha256": "sha256:1bfa3b4dac3ba2fb7d1c23c4fa3997770a5edaecb570a5dadcd101097a71c087",
+      "n_chars": 188
+    },
+    {
+      "id": "p28",
+      "sha256": "sha256:2d06c671bfe87df342ff59a858a096cd0bf1484b75da50361c1a4d2feb697eb1",
+      "n_chars": 209
+    },
+    {
+      "id": "p29",
+      "sha256": "sha256:7e9216bb963de44fd2e797a9858c314a88b9bf74a700e05476b00dfab5a8d56c",
+      "n_chars": 571
+    },
+    {
+      "id": "p30",
+      "sha256": "sha256:3e050a5150b8ed367fdfba4d92ff22c1ffc95857e7388e4354e76aa4ac1afe8e",
+      "n_chars": 294
+    },
+    {
+      "id": "p31",
+      "sha256": "sha256:2ce7d3e179ff443e8ebf69e95bec30357a32824c2dbdd96ba74e0353ff995aa1",
+      "n_chars": 641
+    },
+    {
+      "id": "p32",
+      "sha256": "sha256:ac3b2649b87d3fad56d129535ec0192c3fc3e8bd09d39bb5680d04ad27dcfd30",
+      "n_chars": 241
+    },
+    {
+      "id": "p33",
+      "sha256": "sha256:494b84b1f77b005c4417bab864a51560cd358d9fe272bf80626b2f424e525965",
+      "n_chars": 165
+    },
+    {
+      "id": "p34",
+      "sha256": "sha256:ce22e3415f3d80193657d73d28c05795800d873a137e2934f9b0e02e09e756ce",
+      "n_chars": 156
+    },
+    {
+      "id": "p35",
+      "sha256": "sha256:ce383f06b9db075cea869d24d837c09b0bf6f54b4a170cdf8e046df1da42b397",
+      "n_chars": 112
+    },
+    {
+      "id": "p36",
+      "sha256": "sha256:ff8a98a722a794d66118442b44e4cddae692c34f0f97a61027376e2f2aefba13",
+      "n_chars": 352
+    },
+    {
+      "id": "p37",
+      "sha256": "sha256:58b115392e546df3d752cf1d54f950f544bec057270c5418b367b152fc9b36dc",
+      "n_chars": 185
+    },
+    {
+      "id": "p38",
+      "sha256": "sha256:d4efa91f7105b31067d17d9dec7328d065351b678cba8866984d39069d5590ab",
+      "n_chars": 150
+    },
+    {
+      "id": "p39",
+      "sha256": "sha256:833f68c69fd33b48cc614fc94b99a753ababa59bb8c4c31e3a5706bf583d3650",
+      "n_chars": 278
+    },
+    {
+      "id": "p40",
+      "sha256": "sha256:3f64abfd7b8029ee6ff923a799d5768e84bfeca6c0e506bbfdba79d83b47d5d7",
+      "n_chars": 640
+    }
+  ],
+  "revisions": [
+    {
+      "content_hash": "sha256:3184594a145fd3cc93846fa3fb9f9a519821ffa043a811d2f5adfd8ebda62fe6",
+      "links_hash": "sha256:9be12eeb8a5e3bb5c99350e14f89976b34a67c4a03f61db90dc34f5620fa9991",
+      "paragraph_count": 40,
+      "retrieved_at": "2026-10-19T20:54:52Z",
+      "revision": 1,
+      "changed_paragraphs": []
+    }
+  ],
+  "extensions": {
+    "entities": [
+      {
+        "entity_id": null,
+        "type": "person",
+        "name": "Brad W. Setser",
+        "role": "author"
+      },
+      {
+        "entity_id": null,
+        "type": "organization",
+        "name": "Council on Foreign Relations",
+        "role": "publisher"
+      }
+    ],
+    "cited_sources": [
+      {
+        "source_key": "https://imf.org/en/publications/cr/issues/2024/08/01/peoples-republic-of-china-2024-article-iv-consultation-press-release-staff-report-and-552803",
+        "host": "imf.org",
+        "reference_ids": [
+          "r001"
+        ]
+      },
+      {
+        "source_key": "https://economist.com/finance-and-economics/2023/12/14/is-china-understating-its-own-export-success",
+        "host": "economist.com",
+        "reference_ids": [
+          "r002"
+        ]
+      },
+      {
+        "source_key": "https://federalreserve.gov/econres/ifdp/files/ifdp1208.pdf",
+        "host": "federalreserve.gov",
+        "reference_ids": [
+          "r003"
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "flags": []
+  }
+}

@@ -27,7 +27,7 @@ tags: [type/caveat, level/L6, family/plain, variable/domestic-demand, country/ch
 ## Source
 - Article: [[2018-06-04 Could global macro shocks overwhelm trade deals and push the U.S. trade deficit higher]]
 - Authored map: `mermaid_code/setser_jun_4_18.mmd`
-- Passage: p13 — _proposed `abstracts`, score 0.348; unreviewed, not a citation_
+- Passage: p16 — _proposed `abstracts`, score 0.332; unreviewed, not a citation_
 - Published: https://www.cfr.org/articles/trade-deals-or-macroeconomic-shocks
 - Node `setser_jun_4_18#QF` · level L6 · type resolved by `l6_keyword` — **inferred**, not read from the map
 - Full chain: `python scripts/trace.py setser_jun_4_18#QF`

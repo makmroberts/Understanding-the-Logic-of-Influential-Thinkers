@@ -1,0 +1,1028 @@
+{
+  "schema_version": "source-record-0.1",
+  "article": {
+    "id": "why-global-trade-imbalances-could-get-worse-they-get-better",
+    "title": "Why Global Trade Imbalances Could Get Worse Before They Get Better…",
+    "authors": [
+      "Brad W. Setser"
+    ],
+    "published_date": "2019-09-20",
+    "url": "https://www.cfr.org/articles/why-global-trade-imbalances-could-get-worse-they-get-better",
+    "publisher": "Council on Foreign Relations",
+    "series": "Follow the Money",
+    "source_text": {
+      "path": "internal/extracted/2019-09-20_why-global-trade-imbalances-could-get-worse-they-get-better.md",
+      "paragraph_count": 43,
+      "content_hash": "sha256:f3c0f8c86b76895baebab24f4aa368ee05b3e0f2479a0210f47e22fc5096c9ee",
+      "revision": 2
+    },
+    "references": [
+      {
+        "id": "r001",
+        "paragraph_id": "p1",
+        "char_start": 53,
+        "char_end": 62,
+        "label": "has waned",
+        "href": "https://blogs.imf.org/2018/07/24/addressing-global-imbalances-requires-cooperation/",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://blogs.imf.org/2018/07/24/addressing-global-imbalances-requires-cooperation",
+        "host": "blogs.imf.org",
+        "target_article_id": null
+      },
+      {
+        "id": "r002",
+        "paragraph_id": "p2",
+        "char_start": 209,
+        "char_end": 220,
+        "label": "LNG exports",
+        "href": "https://www.reuters.com/article/us-australia-china-lng/having-a-gas-australia-dominates-chinas-lng-supply-idUSKCN1TF0GV",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://reuters.com/article/us-australia-china-lng/having-a-gas-australia-dominates-chinas-lng-supply-iduskcn1tf0gv",
+        "host": "reuters.com",
+        "target_article_id": null
+      },
+      {
+        "id": "r003",
+        "paragraph_id": "p2",
+        "char_start": 244,
+        "char_end": 286,
+        "label": "have closed Australia’s once large deficit",
+        "href": "https://www.bloomberg.com/news/articles/2019-08-29/australia-s-set-to-erase-its-twin-deficits-just-as-it-needs-them",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://bloomberg.com/news/articles/2019-08-29/australia-s-set-to-erase-its-twin-deficits-just-as-it-needs-them",
+        "host": "bloomberg.com",
+        "target_article_id": null
+      },
+      {
+        "id": "r004",
+        "paragraph_id": "p6",
+        "char_start": 146,
+        "char_end": 238,
+        "label": "happens to be about equal to the combined current account surpluses of Europe and East Asia.",
+        "href": "https://www.cfr.org/articles/when-it-comes-exporting-manufactures-europe-now-one-mars",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://cfr.org/articles/when-it-comes-exporting-manufactures-europe-now-one-mars",
+        "host": "cfr.org",
+        "target_article_id": "when-it-comes-exporting-manufactures-europe-now-one-mars"
+      },
+      {
+        "id": "r005",
+        "paragraph_id": "p7",
+        "char_start": 164,
+        "char_end": 195,
+        "label": "a surplus in the second quarter",
+        "href": "https://www.reuters.com/article/mexico-economy-currentaccount/update-3-mexico-posts-record-current-account-surplus-as-trump-china-trade-war-bites-idUSL2N25J0S2",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://reuters.com/article/mexico-economy-currentaccount/update-3-mexico-posts-record-current-account-surplus-as-trump-china-trade-war-bites-idusl2n25j0s2",
+        "host": "reuters.com",
+        "target_article_id": null
+      },
+      {
+        "id": "r006",
+        "paragraph_id": "p7",
+        "char_start": 201,
+        "char_end": 218,
+        "label": "weak peso and all",
+        "href": "https://fred.stlouisfed.org/series/DEXMXUS",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://fred.stlouisfed.org/series/dexmxus",
+        "host": "fred.stlouisfed.org",
+        "target_article_id": null
+      },
+      {
+        "id": "r007",
+        "paragraph_id": "p8",
+        "char_start": 372,
+        "char_end": 383,
+        "label": "Martin Wolf",
+        "href": "https://www.ft.com/content/5a8ab27e-d470-11e9-8367-807ebd53ab77",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://ft.com/content/5a8ab27e-d470-11e9-8367-807ebd53ab77",
+        "host": "ft.com",
+        "target_article_id": null
+      },
+      {
+        "id": "r008",
+        "paragraph_id": "p13",
+        "char_start": 205,
+        "char_end": 235,
+        "label": "hasn’t picked up on this point",
+        "href": "https://www.nytimes.com/2019/08/03/opinion/trumps-trade-quagmire-wonkish.html",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://nytimes.com/2019/08/03/opinion/trumps-trade-quagmire-wonkish.html",
+        "host": "nytimes.com",
+        "target_article_id": null
+      },
+      {
+        "id": "r009",
+        "paragraph_id": "p14",
+        "char_start": 71,
+        "char_end": 87,
+        "label": "thinks it should",
+        "href": "https://www.ft.com/content/e78ae5c8-d85c-11e9-8f9b-77216ebe1f17",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://ft.com/content/e78ae5c8-d85c-11e9-8f9b-77216ebe1f17",
+        "host": "ft.com",
+        "target_article_id": null
+      },
+      {
+        "id": "r010",
+        "paragraph_id": "p14",
+        "char_start": 129,
+        "char_end": 144,
+        "label": "slowly shifting",
+        "href": "https://www.ft.com/content/d89d9404-c586-11e9-a8e9-296ca66511c9",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://ft.com/content/d89d9404-c586-11e9-a8e9-296ca66511c9",
+        "host": "ft.com",
+        "target_article_id": null
+      },
+      {
+        "id": "r011",
+        "paragraph_id": "p14",
+        "char_start": 268,
+        "char_end": 338,
+        "label": "a strong case for investing Euro 50 billion to bring it up to standard",
+        "href": "https://pedestrianobservations.com/2019/08/17/the-high-speed-rail-germany-needs/",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://pedestrianobservations.com/2019/08/17/the-high-speed-rail-germany-needs",
+        "host": "pedestrianobservations.com",
+        "target_article_id": null
+      },
+      {
+        "id": "r012",
+        "paragraph_id": "p14",
+        "char_start": 370,
+        "char_end": 430,
+        "label": ") 2.7 pp of GDP fiscal surplus in the first half of the year",
+        "href": "https://www.reuters.com/article/us-germany-economy-gdp/weaker-exports-hit-german-economy-but-budget-surplus-still-high-idUSKCN1VH0GH",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://reuters.com/article/us-germany-economy-gdp/weaker-exports-hit-german-economy-but-budget-surplus-still-high-iduskcn1vh0gh",
+        "host": "reuters.com",
+        "target_article_id": null
+      },
+      {
+        "id": "r013",
+        "paragraph_id": "p14",
+        "char_start": 475,
+        "char_end": 499,
+        "label": "Sweden isn’t for turning",
+        "href": "https://www.bloomberg.com/news/articles/2019-09-18/sweden-s-government-reveals-surplus-budget-as-growth-crumbles",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://bloomberg.com/news/articles/2019-09-18/sweden-s-government-reveals-surplus-budget-as-growth-crumbles",
+        "host": "bloomberg.com",
+        "target_article_id": null
+      },
+      {
+        "id": "r014",
+        "paragraph_id": "p14",
+        "char_start": 623,
+        "char_end": 640,
+        "label": "more intervention",
+        "href": "https://www.bloomberg.com/news/articles/2019-09-16/snb-sight-deposit-increase-points-to-limited-market-intervention",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://bloomberg.com/news/articles/2019-09-16/snb-sight-deposit-increase-points-to-limited-market-intervention",
+        "host": "bloomberg.com",
+        "target_article_id": null
+      },
+      {
+        "id": "r015",
+        "paragraph_id": "p15",
+        "char_start": 348,
+        "char_end": 366,
+        "label": "actually change it",
+        "href": "https://www.ft.com/content/eb1c6e1a-d6ee-11e9-8f9b-77216ebe1f17",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://ft.com/content/eb1c6e1a-d6ee-11e9-8f9b-77216ebe1f17",
+        "host": "ft.com",
+        "target_article_id": null
+      },
+      {
+        "id": "r016",
+        "paragraph_id": "p15",
+        "char_start": 371,
+        "char_end": 402,
+        "label": "Isabelle Mateos y Lago for more",
+        "href": "https://www.ft.com/content/7c891506-ce61-11e9-b018-ca4456540ea6",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://ft.com/content/7c891506-ce61-11e9-b018-ca4456540ea6",
+        "host": "ft.com",
+        "target_article_id": null
+      },
+      {
+        "id": "r017",
+        "paragraph_id": "p18",
+        "char_start": 0,
+        "char_end": 20,
+        "label": "Asia has its Germany",
+        "href": "https://www.cfr.org/articles/korea-germany-northeast-asia",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://cfr.org/articles/korea-germany-northeast-asia",
+        "host": "cfr.org",
+        "target_article_id": null
+      },
+      {
+        "id": "r018",
+        "paragraph_id": "p19",
+        "char_start": 0,
+        "char_end": 5,
+        "label": "Korea",
+        "href": "https://www.cfr.org/articles/korea-germany-northeast-asia",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://cfr.org/articles/korea-germany-northeast-asia",
+        "host": "cfr.org",
+        "target_article_id": null
+      },
+      {
+        "id": "r019",
+        "paragraph_id": "p19",
+        "char_start": 10,
+        "char_end": 16,
+        "label": "Taiwan",
+        "href": "https://www.cfr.org/articles/do-not-tell-anyone-case-naming-taiwan-manipulator-stronger-case-naming-china",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://cfr.org/articles/do-not-tell-anyone-case-naming-taiwan-manipulator-stronger-case-naming-china",
+        "host": "cfr.org",
+        "target_article_id": null
+      },
+      {
+        "id": "r020",
+        "paragraph_id": "p19",
+        "char_start": 257,
+        "char_end": 281,
+        "label": "National Pension Service",
+        "href": "https://www.ft.com/content/12d76fc6-bfee-11e9-89e2-41e555e96722",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://ft.com/content/12d76fc6-bfee-11e9-89e2-41e555e96722",
+        "host": "ft.com",
+        "target_article_id": null
+      },
+      {
+        "id": "r021",
+        "paragraph_id": "p19",
+        "char_start": 354,
+        "char_end": 443,
+        "label": "light touch regulation of the foreign exchange exposure of its massive insurance industry",
+        "href": "https://www.cfr.org/articles/are-asian-insurers-new-european-banks",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://cfr.org/articles/are-asian-insurers-new-european-banks",
+        "host": "cfr.org",
+        "target_article_id": null
+      },
+      {
+        "id": "r022",
+        "paragraph_id": "p20",
+        "char_start": 62,
+        "char_end": 80,
+        "label": "it basically hides",
+        "href": "https://www.reuters.com/article/singapore-cenbank/update-2-singapore-cbank-to-reveal-fx-intervention-improving-transparency-idUSL3N22K0HP",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://reuters.com/article/singapore-cenbank/update-2-singapore-cbank-to-reveal-fx-intervention-improving-transparency-idusl3n22k0hp",
+        "host": "reuters.com",
+        "target_article_id": null
+      },
+      {
+        "id": "r023",
+        "paragraph_id": "p20",
+        "char_start": 159,
+        "char_end": 175,
+        "label": "still intervenes",
+        "href": "https://www.cfr.org/articles/singapores-shadow-intervention",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://cfr.org/articles/singapores-shadow-intervention",
+        "host": "cfr.org",
+        "target_article_id": null
+      },
+      {
+        "id": "r024",
+        "paragraph_id": "p21",
+        "char_start": 161,
+        "char_end": 179,
+        "label": "to manage the baht",
+        "href": "https://www.bloomberg.com/news/articles/2019-07-03/-worried-thai-central-bank-looking-at-steps-to-damp-baht-surge",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://bloomberg.com/news/articles/2019-07-03/-worried-thai-central-bank-looking-at-steps-to-damp-baht-surge",
+        "host": "bloomberg.com",
+        "target_article_id": null
+      },
+      {
+        "id": "r025",
+        "paragraph_id": "p21",
+        "char_start": 201,
+        "char_end": 217,
+        "label": "on fiscal policy",
+        "href": "https://www.imf.org/en/News/Articles/2019/07/22/pr19294-thailand-imf-staff-concludes-visit",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://imf.org/en/news/articles/2019/07/22/pr19294-thailand-imf-staff-concludes-visit",
+        "host": "imf.org",
+        "target_article_id": null
+      },
+      {
+        "id": "r026",
+        "paragraph_id": "p23",
+        "char_start": 364,
+        "char_end": 383,
+        "label": "the consumption tax",
+        "href": "https://asia.nikkei.com/Economy/Economists-question-Japan-s-planned-consumption-tax-hike",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://asia.nikkei.com/economy/economists-question-japan-s-planned-consumption-tax-hike",
+        "host": "asia.nikkei.com",
+        "target_article_id": null
+      },
+      {
+        "id": "r027",
+        "paragraph_id": "p23",
+        "char_start": 389,
+        "char_end": 402,
+        "label": "clear mistake",
+        "href": "https://www.cfr.org/articles/japans-first-consumption-tax-hike-was-demand-disaster",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://cfr.org/articles/japans-first-consumption-tax-hike-was-demand-disaster",
+        "host": "cfr.org",
+        "target_article_id": null
+      },
+      {
+        "id": "r028",
+        "paragraph_id": "p25",
+        "char_start": 0,
+        "char_end": 26,
+        "label": "Contrary to most forecasts",
+        "href": "https://www.cfr.org/articles/chinas-coming-current-account-deficit",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://cfr.org/articles/chinas-coming-current-account-deficit",
+        "host": "cfr.org",
+        "target_article_id": null
+      },
+      {
+        "id": "r029",
+        "paragraph_id": "p25",
+        "char_start": 70,
+        "char_end": 93,
+        "label": "current account surplus",
+        "href": "https://www.cfr.org/articles/continuing-chinese-drag-global-economy",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://cfr.org/articles/continuing-chinese-drag-global-economy",
+        "host": "cfr.org",
+        "target_article_id": null
+      },
+      {
+        "id": "r030",
+        "paragraph_id": "p25",
+        "char_start": 273,
+        "char_end": 290,
+        "label": "the IMF’s chagrin",
+        "href": "https://www.cfr.org/articles/imfs-new-china-problem",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://cfr.org/articles/imfs-new-china-problem",
+        "host": "cfr.org",
+        "target_article_id": null
+      },
+      {
+        "id": "r031",
+        "paragraph_id": "p27",
+        "char_start": 120,
+        "char_end": 138,
+        "label": "saves way too much",
+        "href": "https://www.imf.org/en/Publications/WP/Issues/2018/12/11/Chinas-High-Savings-Drivers-Prospects-and-Policies-46437",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://imf.org/en/publications/wp/issues/2018/12/11/chinas-high-savings-drivers-prospects-and-policies-46437",
+        "host": "imf.org",
+        "target_article_id": null
+      },
+      {
+        "id": "r032",
+        "paragraph_id": "p34",
+        "char_start": 89,
+        "char_end": 122,
+        "label": "generally viewed as unsustainable",
+        "href": "https://www.cfr.org/articles/imfs-new-china-problem",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://cfr.org/articles/imfs-new-china-problem",
+        "host": "cfr.org",
+        "target_article_id": null
+      },
+      {
+        "id": "r033",
+        "paragraph_id": "p36",
+        "char_start": 226,
+        "char_end": 261,
+        "label": "China’s import growth has collapsed",
+        "href": "https://www.cfr.org/articles/continuing-chinese-drag-global-economy",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://cfr.org/articles/continuing-chinese-drag-global-economy",
+        "host": "cfr.org",
+        "target_article_id": null
+      },
+      {
+        "id": "r034",
+        "paragraph_id": "p38",
+        "char_start": 181,
+        "char_end": 267,
+        "label": "large offshore profits American companies now book in the world’s corporate tax havens",
+        "href": "https://www.nytimes.com/2019/02/06/opinion/business-economics/trump-tax-reform-state-of-the-union-2019.html",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://nytimes.com/2019/02/06/opinion/business-economics/trump-tax-reform-state-of-the-union-2019.html",
+        "host": "nytimes.com",
+        "target_article_id": null
+      },
+      {
+        "id": "r035",
+        "paragraph_id": "p43",
+        "char_start": 38,
+        "char_end": 93,
+        "label": "the IMF’s stated long-term plan for reducing imbalances",
+        "href": "https://www.cfr.org/articles/imf-still-cannot-quit-fiscal-consolidation",
+        "kind": "hyperlink",
+        "placement": "footnote",
+        "source_key": "https://cfr.org/articles/imf-still-cannot-quit-fiscal-consolidation",
+        "host": "cfr.org",
+        "target_article_id": null
+      }
+    ],
+    "metadata_extension": {
+      "field_sources": {
+        "title": "frontmatter",
+        "authors": "frontmatter",
+        "published_date": "frontmatter",
+        "url": "frontmatter",
+        "publisher": "frontmatter",
+        "series": "frontmatter"
+      },
+      "references_status": "preserved",
+      "links_hash": "sha256:c1d23a1786cd1b9c7ba7197ab4099a31db1922c137d009446e5a77d4a78f987f",
+      "subtitle": "Transatlantic imbalances reflect Europe’s demand deficit, which should be easy to solve (but isn’t). Transpacific imbalances haven’t disappeared. And are likely harder to solve, as they stem from an underlying savings surplus.",
+      "published_at": "2019-09-20T17:27:08-04:00",
+      "programs": [
+        "Follow the Money"
+      ],
+      "source_tags": [
+        "Trade",
+        "China",
+        "United States",
+        "Europe"
+      ],
+      "license": "CC BY-NC-ND 4.0",
+      "section": "Article",
+      "doc_type": "AnalysisNewsArticle",
+      "language": "en",
+      "word_count": 1876,
+      "date_modified": "2019-09-20",
+      "retrieved_at": "2026-10-15T20:05:35Z",
+      "page_sha256": "471221e7cce05bc5d6f39ef9c8e39597ff6987f57925b75bee775f57bc0ec91a",
+      "figures": [
+        {
+          "title": "Current Account Surpluses",
+          "src": "https://static.cfr.org/sites/default/files/styles/large_s/public/image/2019/09/Current%20Account%20Surpluses.png",
+          "after_paragraph": "p6"
+        },
+        {
+          "title": "Euro Area Real Domestic Demand",
+          "src": "https://static.cfr.org/sites/default/files/styles/large_s/public/image/2019/09/Euro%20Area%20Real%20Domestic%20Demand.png",
+          "after_paragraph": "p11"
+        },
+        {
+          "title": "US vs EA Gen Gov Fiscal Balance (share of gdp)",
+          "src": "https://static.cfr.org/sites/default/files/styles/large_s/public/image/2019/09/US%20vs%20EA%20Gen%20Gov%20Fiscal%20Balance%20%28share%20of%20gdp%29.png",
+          "after_paragraph": "p13"
+        },
+        {
+          "title": "Asian Current Account Surplus Has Not Gone Away (USD Billions, T4Q)",
+          "src": "https://static.cfr.org/sites/default/files/styles/large_s/public/image/2019/09/Asian%20Current%20Account%20Surplus%20Has%20Not%20Gone%20Away%20%28USD%20Billions%2C%20T4Q%29_0.png",
+          "after_paragraph": "p25"
+        },
+        {
+          "title": "East Asia Savings and Investment to GDP",
+          "src": "https://static.cfr.org/sites/default/files/styles/large_s/public/image/2019/09/East%20Asia%20Savings%20and%20Investment%20to%20GDP_0.png",
+          "after_paragraph": "p29"
+        },
+        {
+          "title": "Three Key Global Regions Savings as a Share of Regional GDP",
+          "src": "https://static.cfr.org/sites/default/files/styles/large_s/public/image/2019/09/Three%20Key%20Global%20Regions%20Savings%20as%20a%20Share%20of%20Regional%20GDP.png",
+          "after_paragraph": "p30"
+        }
+      ]
+    }
+  },
+  "paragraphs": [
+    {
+      "id": "p1",
+      "sha256": "sha256:09a16632668498d689382c65032a30e1a47e04e16ced97f1998e64dd14b9a988",
+      "n_chars": 365
+    },
+    {
+      "id": "p2",
+      "sha256": "sha256:f8198c15fd56e897622d0ac877611ad1f22ff52794df6656702d1a05afd25c33",
+      "n_chars": 287
+    },
+    {
+      "id": "p3",
+      "sha256": "sha256:a4454cbdd032da95424d251e24b0267bf6326fe0227c86342023bcc59049dddd",
+      "n_chars": 76
+    },
+    {
+      "id": "p4",
+      "sha256": "sha256:117191c410076810acbd34002962fb726740d25a0103cdc08a4bb626c8213aee",
+      "n_chars": 102
+    },
+    {
+      "id": "p5",
+      "sha256": "sha256:ab3bf3a24c947634648640c3593fb2c8cc8d456b31e0e9a792892a5b3553a8e1",
+      "n_chars": 95
+    },
+    {
+      "id": "p6",
+      "sha256": "sha256:d4bcedda19ea34f39aa3e236a450b6727db274b903ef3ececa279a3b1f1c9985",
+      "n_chars": 238
+    },
+    {
+      "id": "p7",
+      "sha256": "sha256:d313bc9686fef61052490a4865a4ddb1d17e6957b2704c8f1827b769be346796",
+      "n_chars": 219
+    },
+    {
+      "id": "p8",
+      "sha256": "sha256:42ff1d12b3187c01488adbecf7fefbfd5a3bf6971eccd084763f034a07ea2a82",
+      "n_chars": 385
+    },
+    {
+      "id": "p9",
+      "sha256": "sha256:ca61b0996c17e7569573b97086b4eb7702b328b70ee32caf0cd97b71c448eaaa",
+      "n_chars": 352
+    },
+    {
+      "id": "p10",
+      "sha256": "sha256:89a8a40f5af2f8734fc2a47ac3e1da0efae86716c6a2846167299e9e24a7cac0",
+      "n_chars": 164
+    },
+    {
+      "id": "p11",
+      "sha256": "sha256:22953ed8e031a1d9858a45bd3f1e643c6f5d0a076b4a20fd5794c68733a37fbc",
+      "n_chars": 140
+    },
+    {
+      "id": "p12",
+      "sha256": "sha256:e38052fdf61158ea9250d6d6b675c9279c54f3d403e55101f76e7930d871e937",
+      "n_chars": 392
+    },
+    {
+      "id": "p13",
+      "sha256": "sha256:907b9da1fd58ed61682a281569b062faaab5b56ec60eed28901e2b6c73ea9a46",
+      "n_chars": 299
+    },
+    {
+      "id": "p14",
+      "sha256": "sha256:726c12d32513ae2805b83595802cb21199bd5e9e6edc9b94ae8d3dcd3adf5e17",
+      "n_chars": 761
+    },
+    {
+      "id": "p15",
+      "sha256": "sha256:f0db5f2587104de806b40013e612890837453f1776fa31c907ad8b1b6f10e023",
+      "n_chars": 403
+    },
+    {
+      "id": "p16",
+      "sha256": "sha256:aa0baae88ffd279bf850fddcf8af0da442f93b27e811e31d9554e5414cb8e1e8",
+      "n_chars": 68
+    },
+    {
+      "id": "p17",
+      "sha256": "sha256:06e46c49f7132e0403f2dc13a501b8f54d7daa56edcddf97e0a1e760d44d3f74",
+      "n_chars": 24
+    },
+    {
+      "id": "p18",
+      "sha256": "sha256:5f298f02280a3d9e2d9bfc2278d9324d288aa4d46107a8e181b1790ffa4369ef",
+      "n_chars": 33
+    },
+    {
+      "id": "p19",
+      "sha256": "sha256:0cc3c6a6cdbf19bce2e2269d632890b7c48ef6a115c07d6583ed957cc002a8fd",
+      "n_chars": 444
+    },
+    {
+      "id": "p20",
+      "sha256": "sha256:3a507632ae33ec06f6bd04555001bbbdad8da08ed51b6844e4d2eb38a69365c9",
+      "n_chars": 242
+    },
+    {
+      "id": "p21",
+      "sha256": "sha256:61c76c4ffc17d3cdbf4ffae2f1d69cf67a76bbb79a1aebb67b3d12a838cae2ff",
+      "n_chars": 236
+    },
+    {
+      "id": "p22",
+      "sha256": "sha256:9ebc10d1572fad6a64a46956fcec68da6db54af5e6561631756ed90dad2216f3",
+      "n_chars": 217
+    },
+    {
+      "id": "p23",
+      "sha256": "sha256:f563ff95f969393f2badb314087d975931957255313e4d9de8672dde79460fba",
+      "n_chars": 501
+    },
+    {
+      "id": "p24",
+      "sha256": "sha256:695b5cc4a638395b9cc8850e9f5b9c2630aa641e339ded0b8cb73f25abae733b",
+      "n_chars": 24
+    },
+    {
+      "id": "p25",
+      "sha256": "sha256:600843ccbc6aa75a9d35f6e42006945bde5176a55bb7507a0295d5a851356fde",
+      "n_chars": 634
+    },
+    {
+      "id": "p26",
+      "sha256": "sha256:eaa1aa291a292f70220125217cb361dc00d588cf28df0e370c10fc806aabadcf",
+      "n_chars": 116
+    },
+    {
+      "id": "p27",
+      "sha256": "sha256:9b1b29610fe9fa6f488b52143c518251501a88f0709bcdffa12e175b9d41ca94",
+      "n_chars": 326
+    },
+    {
+      "id": "p28",
+      "sha256": "sha256:83affece91cac708f097f22992957aa6c72eb02d9f785eb54f827ccde5464a05",
+      "n_chars": 54
+    },
+    {
+      "id": "p29",
+      "sha256": "sha256:a9a1d4de9cb7be0634b657b4e94b7296b1e7f339ce2edc41faf44234168dfca7",
+      "n_chars": 87
+    },
+    {
+      "id": "p30",
+      "sha256": "sha256:e7df91b37bdb07e156fc5f671028136c8c224e0ebd59357fdf87864ec18384d1",
+      "n_chars": 266
+    },
+    {
+      "id": "p31",
+      "sha256": "sha256:d1f5f3510c3661137c5e3e815c778e2b685460962ced58408fb6d726153241f1",
+      "n_chars": 248
+    },
+    {
+      "id": "p32",
+      "sha256": "sha256:7b36ea3ebd56d3784b5528abb1873dc0c60de674f873087c891461abe668c4d0",
+      "n_chars": 198
+    },
+    {
+      "id": "p33",
+      "sha256": "sha256:dda930ba0b2a07a82aedfc8ee334a40654828405f70f27ebb933102ab66798e6",
+      "n_chars": 335
+    },
+    {
+      "id": "p34",
+      "sha256": "sha256:9ca025b31ccda986624672a16eddd45c02343f940e48af53a805b2b2e08dd0e7",
+      "n_chars": 438
+    },
+    {
+      "id": "p35",
+      "sha256": "sha256:51a2224e06d170a17f12f10b0e7a8ccb0e8a4a72a80e870dc4c3467dd247ac36",
+      "n_chars": 147
+    },
+    {
+      "id": "p36",
+      "sha256": "sha256:199f19a11f2db30fb50272ba56e385d717b283a5b2ef36c7c51d9ec2c6a0906c",
+      "n_chars": 331
+    },
+    {
+      "id": "p37",
+      "sha256": "sha256:88f844ed51bdc4f3f80692d009efda31c68501297940b8d3e474da31d51e92f2",
+      "n_chars": 258
+    },
+    {
+      "id": "p38",
+      "sha256": "sha256:fb008bf12a44edb9bb68b2197191698cdadbf8dff43922759976506cf0def9e8",
+      "n_chars": 544
+    },
+    {
+      "id": "p39",
+      "sha256": "sha256:fec2f42a8c398a627f080f2b0bc1f863f8d97e285419d5d707d6198b85380227",
+      "n_chars": 441
+    },
+    {
+      "id": "p40",
+      "sha256": "sha256:6b92a6784fa041e0f7e107fe14647574ec490fd61bb0a5dca839b292d72d9c31",
+      "n_chars": 204
+    },
+    {
+      "id": "p41",
+      "sha256": "sha256:1ce7ac8632f8ff31bcb187fd5c4ca9300ef30c5ccec00429747f2d431feceb57",
+      "n_chars": 103
+    },
+    {
+      "id": "p42",
+      "sha256": "sha256:ac5524a06db165a825177dbcde52f03a7b6f0431100b822b2f175e30a9bf8194",
+      "n_chars": 116
+    },
+    {
+      "id": "p43",
+      "sha256": "sha256:e3bebca1690ba02fe6804f8ce6ba7ba02896ca6459733d43abbbebbda0a134cb",
+      "n_chars": 307
+    }
+  ],
+  "revisions": [
+    {
+      "content_hash": "sha256:08fec3de39f427a5dd0be3f23c0bfd83805c4df92e514ae9bb4c8c69e3123346",
+      "links_hash": "sha256:c1d23a1786cd1b9c7ba7197ab4099a31db1922c137d009446e5a77d4a78f987f",
+      "paragraph_count": 43,
+      "retrieved_at": "2026-10-19T20:54:52Z",
+      "revision": 1,
+      "changed_paragraphs": []
+    },
+    {
+      "content_hash": "sha256:f3c0f8c86b76895baebab24f4aa368ee05b3e0f2479a0210f47e22fc5096c9ee",
+      "links_hash": "sha256:c1d23a1786cd1b9c7ba7197ab4099a31db1922c137d009446e5a77d4a78f987f",
+      "paragraph_count": 43,
+      "retrieved_at": "2026-10-15T20:05:35Z",
+      "revision": 2,
+      "changed_paragraphs": [
+        "p19",
+        "p20"
+      ]
+    }
+  ],
+  "extensions": {
+    "entities": [
+      {
+        "entity_id": null,
+        "type": "person",
+        "name": "Brad W. Setser",
+        "role": "author"
+      },
+      {
+        "entity_id": null,
+        "type": "organization",
+        "name": "Council on Foreign Relations",
+        "role": "publisher"
+      }
+    ],
+    "cited_sources": [
+      {
+        "source_key": "https://blogs.imf.org/2018/07/24/addressing-global-imbalances-requires-cooperation",
+        "host": "blogs.imf.org",
+        "reference_ids": [
+          "r001"
+        ]
+      },
+      {
+        "source_key": "https://reuters.com/article/us-australia-china-lng/having-a-gas-australia-dominates-chinas-lng-supply-iduskcn1tf0gv",
+        "host": "reuters.com",
+        "reference_ids": [
+          "r002"
+        ]
+      },
+      {
+        "source_key": "https://bloomberg.com/news/articles/2019-08-29/australia-s-set-to-erase-its-twin-deficits-just-as-it-needs-them",
+        "host": "bloomberg.com",
+        "reference_ids": [
+          "r003"
+        ]
+      },
+      {
+        "source_key": "https://cfr.org/articles/when-it-comes-exporting-manufactures-europe-now-one-mars",
+        "host": "cfr.org",
+        "reference_ids": [
+          "r004"
+        ]
+      },
+      {
+        "source_key": "https://reuters.com/article/mexico-economy-currentaccount/update-3-mexico-posts-record-current-account-surplus-as-trump-china-trade-war-bites-idusl2n25j0s2",
+        "host": "reuters.com",
+        "reference_ids": [
+          "r005"
+        ]
+      },
+      {
+        "source_key": "https://fred.stlouisfed.org/series/dexmxus",
+        "host": "fred.stlouisfed.org",
+        "reference_ids": [
+          "r006"
+        ]
+      },
+      {
+        "source_key": "https://ft.com/content/5a8ab27e-d470-11e9-8367-807ebd53ab77",
+        "host": "ft.com",
+        "reference_ids": [
+          "r007"
+        ]
+      },
+      {
+        "source_key": "https://nytimes.com/2019/08/03/opinion/trumps-trade-quagmire-wonkish.html",
+        "host": "nytimes.com",
+        "reference_ids": [
+          "r008"
+        ]
+      },
+      {
+        "source_key": "https://ft.com/content/e78ae5c8-d85c-11e9-8f9b-77216ebe1f17",
+        "host": "ft.com",
+        "reference_ids": [
+          "r009"
+        ]
+      },
+      {
+        "source_key": "https://ft.com/content/d89d9404-c586-11e9-a8e9-296ca66511c9",
+        "host": "ft.com",
+        "reference_ids": [
+          "r010"
+        ]
+      },
+      {
+        "source_key": "https://pedestrianobservations.com/2019/08/17/the-high-speed-rail-germany-needs",
+        "host": "pedestrianobservations.com",
+        "reference_ids": [
+          "r011"
+        ]
+      },
+      {
+        "source_key": "https://reuters.com/article/us-germany-economy-gdp/weaker-exports-hit-german-economy-but-budget-surplus-still-high-iduskcn1vh0gh",
+        "host": "reuters.com",
+        "reference_ids": [
+          "r012"
+        ]
+      },
+      {
+        "source_key": "https://bloomberg.com/news/articles/2019-09-18/sweden-s-government-reveals-surplus-budget-as-growth-crumbles",
+        "host": "bloomberg.com",
+        "reference_ids": [
+          "r013"
+        ]
+      },
+      {
+        "source_key": "https://bloomberg.com/news/articles/2019-09-16/snb-sight-deposit-increase-points-to-limited-market-intervention",
+        "host": "bloomberg.com",
+        "reference_ids": [
+          "r014"
+        ]
+      },
+      {
+        "source_key": "https://ft.com/content/eb1c6e1a-d6ee-11e9-8f9b-77216ebe1f17",
+        "host": "ft.com",
+        "reference_ids": [
+          "r015"
+        ]
+      },
+      {
+        "source_key": "https://ft.com/content/7c891506-ce61-11e9-b018-ca4456540ea6",
+        "host": "ft.com",
+        "reference_ids": [
+          "r016"
+        ]
+      },
+      {
+        "source_key": "https://cfr.org/articles/korea-germany-northeast-asia",
+        "host": "cfr.org",
+        "reference_ids": [
+          "r017",
+          "r018"
+        ]
+      },
+      {
+        "source_key": "https://cfr.org/articles/do-not-tell-anyone-case-naming-taiwan-manipulator-stronger-case-naming-china",
+        "host": "cfr.org",
+        "reference_ids": [
+          "r019"
+        ]
+      },
+      {
+        "source_key": "https://ft.com/content/12d76fc6-bfee-11e9-89e2-41e555e96722",
+        "host": "ft.com",
+        "reference_ids": [
+          "r020"
+        ]
+      },
+      {
+        "source_key": "https://cfr.org/articles/are-asian-insurers-new-european-banks",
+        "host": "cfr.org",
+        "reference_ids": [
+          "r021"
+        ]
+      },
+      {
+        "source_key": "https://reuters.com/article/singapore-cenbank/update-2-singapore-cbank-to-reveal-fx-intervention-improving-transparency-idusl3n22k0hp",
+        "host": "reuters.com",
+        "reference_ids": [
+          "r022"
+        ]
+      },
+      {
+        "source_key": "https://cfr.org/articles/singapores-shadow-intervention",
+        "host": "cfr.org",
+        "reference_ids": [
+          "r023"
+        ]
+      },
+      {
+        "source_key": "https://bloomberg.com/news/articles/2019-07-03/-worried-thai-central-bank-looking-at-steps-to-damp-baht-surge",
+        "host": "bloomberg.com",
+        "reference_ids": [
+          "r024"
+        ]
+      },
+      {
+        "source_key": "https://imf.org/en/news/articles/2019/07/22/pr19294-thailand-imf-staff-concludes-visit",
+        "host": "imf.org",
+        "reference_ids": [
+          "r025"
+        ]
+      },
+      {
+        "source_key": "https://asia.nikkei.com/economy/economists-question-japan-s-planned-consumption-tax-hike",
+        "host": "asia.nikkei.com",
+        "reference_ids": [
+          "r026"
+        ]
+      },
+      {
+        "source_key": "https://cfr.org/articles/japans-first-consumption-tax-hike-was-demand-disaster",
+        "host": "cfr.org",
+        "reference_ids": [
+          "r027"
+        ]
+      },
+      {
+        "source_key": "https://cfr.org/articles/chinas-coming-current-account-deficit",
+        "host": "cfr.org",
+        "reference_ids": [
+          "r028"
+        ]
+      },
+      {
+        "source_key": "https://cfr.org/articles/continuing-chinese-drag-global-economy",
+        "host": "cfr.org",
+        "reference_ids": [
+          "r029",
+          "r033"
+        ]
+      },
+      {
+        "source_key": "https://cfr.org/articles/imfs-new-china-problem",
+        "host": "cfr.org",
+        "reference_ids": [
+          "r030",
+          "r032"
+        ]
+      },
+      {
+        "source_key": "https://imf.org/en/publications/wp/issues/2018/12/11/chinas-high-savings-drivers-prospects-and-policies-46437",
+        "host": "imf.org",
+        "reference_ids": [
+          "r031"
+        ]
+      },
+      {
+        "source_key": "https://nytimes.com/2019/02/06/opinion/business-economics/trump-tax-reform-state-of-the-union-2019.html",
+        "host": "nytimes.com",
+        "reference_ids": [
+          "r034"
+        ]
+      },
+      {
+        "source_key": "https://cfr.org/articles/imf-still-cannot-quit-fiscal-consolidation",
+        "host": "cfr.org",
+        "reference_ids": [
+          "r035"
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "flags": [
+      "source_changed_review_passages"
+    ]
+  }
+}

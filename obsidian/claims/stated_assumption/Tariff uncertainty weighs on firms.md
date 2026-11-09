@@ -33,7 +33,7 @@ tags: [type/stated_assumption, level/L1, family/plain, variable/investment-capex
 ## Source
 - Article: [[2020-02-26 Do tariffs change the trade balance, and who absorbed the Q4 US demand drop]]
 - Authored map: `mermaid_code/setser_feb_26_20.mmd`
-- Passage: p5 — _proposed `abstracts`, score 0.297; unreviewed, not a citation_
+- Passage: p5 — _proposed `abstracts`, score 0.294; unreviewed, not a citation_
 - Published: https://www.cfr.org/articles/us-shock-global-demand-q4-coronavirus
 - Node `setser_feb_26_20#P4` · level L1 · type resolved by `class`
 - Full chain: `python scripts/trace.py setser_feb_26_20#P4`

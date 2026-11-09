@@ -11,7 +11,7 @@ setser_2025-07-07_china-stealth-surplus,K,main_claim,,none,none,,,,a33eb51362fad
 setser_2025-07-07_china-stealth-surplus,M1,mechanism,p25,candidate,abstracts,0.305,0.008,,a33eb51362fad69a
 setser_2025-07-07_china-stealth-surplus,M2,mechanism,p13,anchored,states,0.297,0.000,apple ireland,a33eb51362fad69a
 setser_2025-07-07_china-stealth-surplus,M2,mechanism,p26,anchored,states,0.305,0.000,apple ireland,a33eb51362fad69a
-setser_2025-07-07_china-stealth-surplus,P1,stated_assumption,p6,candidate,abstracts,0.694,0.598,,a33eb51362fad69a
+setser_2025-07-07_china-stealth-surplus,P1,stated_assumption,p6,candidate,abstracts,0.693,0.601,,a33eb51362fad69a
 setser_2025-07-07_china-stealth-surplus,P2,stated_assumption,p26,candidate,abstracts,0.442,0.157,,a33eb51362fad69a
 setser_2025-07-07_china-stealth-surplus,P3,hidden_assumption,p7,candidate,presupposes,0.193,0.023,,a33eb51362fad69a
 setser_2025-07-07_china-stealth-surplus,Q,question,p19,candidate,abstracts,0.271,0.027,,a33eb51362fad69a
@@ -54,7 +54,7 @@ setser_2025-09-12_trump-shock-that-wasnt,R1,other_explanation,p15,candidate,abst
 setser_2025-09-12_trump-shock-that-wasnt,X,opposing_view,p2,candidate,abstracts,0.367,0.102,,5aa7087e3e0e26ae
 setser_2025-11-12_china-surplus-imf,C1,intermediate_claim,p21,candidate,abstracts,0.395,0.256,,90f8d3d476d07c67
 setser_2025-11-12_china-surplus-imf,E1,evidence_data,p15,anchored,states,0.248,0.000,2.2percent,90f8d3d476d07c67
-setser_2025-11-12_china-surplus-imf,E1,evidence_data,p17,anchored,states,0.204,0.000,2.2percent 2.6percent,90f8d3d476d07c67
+setser_2025-11-12_china-surplus-imf,E1,evidence_data,p17,anchored,states,0.205,0.000,2.2percent 2.6percent,90f8d3d476d07c67
 setser_2025-11-12_china-surplus-imf,E1,evidence_data,p31,anchored,states,0.206,0.000,375billion 650billion,90f8d3d476d07c67
 setser_2025-11-12_china-surplus-imf,E1,evidence_data,p5,anchored,states,0.277,0.000,1percent 40percent,90f8d3d476d07c67
 setser_2025-11-12_china-surplus-imf,E1,evidence_data,p7,anchored,states,0.380,0.000,10.5percent 2trillion,90f8d3d476d07c67
@@ -72,21 +72,21 @@ setser_2025-11-12_china-surplus-imf,Q,question,p18,candidate,abstracts,0.280,0.0
 setser_2025-11-12_china-surplus-imf,QF,caveat,p23,candidate,abstracts,0.348,0.102,,90f8d3d476d07c67
 setser_2025-11-12_china-surplus-imf,R1,other_explanation,p31,candidate,abstracts,0.251,0.130,,90f8d3d476d07c67
 setser_2025-11-12_china-surplus-imf,X,opposing_view,p25,candidate,abstracts,0.405,0.212,,90f8d3d476d07c67
-setser_2026-02-03_october-2025-deficit,C1,intermediate_claim,p12,candidate,abstracts,0.260,0.010,,f2acfd0db0d71134
-setser_2026-02-03_october-2025-deficit,E1,evidence_data,p1,candidate,abstracts,0.365,0.079,,f2acfd0db0d71134
-setser_2026-02-03_october-2025-deficit,E2,evidence_source,p10,anchored,states,0.189,0.000,232,f2acfd0db0d71134
-setser_2026-02-03_october-2025-deficit,K,main_claim,p5,candidate,abstracts,0.330,0.057,,f2acfd0db0d71134
-setser_2026-02-03_october-2025-deficit,M1,mechanism,p2,candidate,abstracts,0.440,0.162,,f2acfd0db0d71134
-setser_2026-02-03_october-2025-deficit,M2,mechanism,p7,candidate,abstracts,0.322,0.135,,f2acfd0db0d71134
-setser_2026-02-03_october-2025-deficit,M3,mechanism,p10,candidate,abstracts,0.274,0.142,,f2acfd0db0d71134
-setser_2026-02-03_october-2025-deficit,M4,mechanism,p12,candidate,abstracts,0.476,0.476,,f2acfd0db0d71134
-setser_2026-02-03_october-2025-deficit,P1,stated_assumption,p12,candidate,abstracts,0.465,0.297,,f2acfd0db0d71134
-setser_2026-02-03_october-2025-deficit,P2,stated_assumption,p5,candidate,abstracts,0.452,0.229,,f2acfd0db0d71134
-setser_2026-02-03_october-2025-deficit,P3,hidden_assumption,p7,candidate,presupposes,0.234,0.094,,f2acfd0db0d71134
-setser_2026-02-03_october-2025-deficit,Q,question,p5,candidate,abstracts,0.575,0.263,,f2acfd0db0d71134
-setser_2026-02-03_october-2025-deficit,QF,caveat,p12,candidate,abstracts,0.215,0.030,,f2acfd0db0d71134
-setser_2026-02-03_october-2025-deficit,R1,other_explanation,p9,candidate,abstracts,0.416,0.279,,f2acfd0db0d71134
-setser_2026-02-03_october-2025-deficit,X,opposing_view,p6,candidate,abstracts,0.631,0.398,,f2acfd0db0d71134
+setser_2026-02-03_october-2025-deficit,C1,intermediate_claim,p13,candidate,abstracts,0.256,0.004,,f2acfd0db0d71134
+setser_2026-02-03_october-2025-deficit,E1,evidence_data,p3,candidate,abstracts,0.366,0.073,,f2acfd0db0d71134
+setser_2026-02-03_october-2025-deficit,E2,evidence_source,p14,anchored,states,0.193,0.000,232,f2acfd0db0d71134
+setser_2026-02-03_october-2025-deficit,K,main_claim,p8,candidate,abstracts,0.381,0.097,,f2acfd0db0d71134
+setser_2026-02-03_october-2025-deficit,M1,mechanism,p4,candidate,abstracts,0.444,0.164,,f2acfd0db0d71134
+setser_2026-02-03_october-2025-deficit,M2,mechanism,p11,candidate,abstracts,0.323,0.130,,f2acfd0db0d71134
+setser_2026-02-03_october-2025-deficit,M3,mechanism,p14,candidate,abstracts,0.276,0.138,,f2acfd0db0d71134
+setser_2026-02-03_october-2025-deficit,M4,mechanism,p16,candidate,abstracts,0.477,0.477,,f2acfd0db0d71134
+setser_2026-02-03_october-2025-deficit,P1,stated_assumption,p16,candidate,abstracts,0.456,0.278,,f2acfd0db0d71134
+setser_2026-02-03_october-2025-deficit,P2,stated_assumption,p7,candidate,abstracts,0.443,0.219,,f2acfd0db0d71134
+setser_2026-02-03_october-2025-deficit,P3,hidden_assumption,p11,candidate,presupposes,0.221,0.077,,f2acfd0db0d71134
+setser_2026-02-03_october-2025-deficit,Q,question,p1,candidate,abstracts,0.680,0.427,,f2acfd0db0d71134
+setser_2026-02-03_october-2025-deficit,QF,caveat,p16,candidate,abstracts,0.200,0.022,,f2acfd0db0d71134
+setser_2026-02-03_october-2025-deficit,R1,other_explanation,p13,candidate,abstracts,0.419,0.278,,f2acfd0db0d71134
+setser_2026-02-03_october-2025-deficit,X,opposing_view,p10,candidate,abstracts,0.630,0.400,,f2acfd0db0d71134
 setser_aug_13_19,C1,intermediate_claim,p20,candidate,abstracts,0.225,0.029,,e9c5bebe044a1b55
 setser_aug_13_19,C2,intermediate_claim,p14,candidate,abstracts,0.498,0.192,,e9c5bebe044a1b55
 setser_aug_13_19,C3,intermediate_claim,p16,candidate,abstracts,0.280,0.117,,e9c5bebe044a1b55
@@ -129,28 +129,28 @@ setser_aug_14_24,RC,reconstruction,p29,anchored,states,0.353,0.000,300billion 70
 setser_aug_14_24,REC,recommendation,p3,candidate,abstracts,0.283,0.185,,00e7efbc717e29f6
 setser_aug_14_24,SC,source_credibility,p40,candidate,abstracts,0.197,0.038,,00e7efbc717e29f6
 setser_aug_14_24,X,opposing_view,p14,candidate,abstracts,0.372,0.174,,00e7efbc717e29f6
-setser_dec_15_17,C1,intermediate_claim,p17,candidate,abstracts,0.262,0.028,,abd2932d486b233b
-setser_dec_15_17,C2,intermediate_claim,p23,candidate,abstracts,0.534,0.126,,abd2932d486b233b
-setser_dec_15_17,C3,intermediate_claim,p35,candidate,abstracts,0.274,0.016,,abd2932d486b233b
-setser_dec_15_17,D1,evidence_data,p12,candidate,abstracts,0.349,0.045,,abd2932d486b233b
-setser_dec_15_17,D2,evidence_data,p24,candidate,abstracts,0.400,0.036,,abd2932d486b233b
-setser_dec_15_17,D3,evidence_data,p28,candidate,abstracts,0.246,0.032,,abd2932d486b233b
-setser_dec_15_17,D4,evidence_data,p30,candidate,abstracts,0.309,0.004,,abd2932d486b233b
-setser_dec_15_17,D5,evidence_data,p30,candidate,abstracts,0.316,0.014,,abd2932d486b233b
-setser_dec_15_17,D6,evidence_data,p40,anchored,states,0.329,0.000,0.3 0.5percent,abd2932d486b233b
-setser_dec_15_17,D6,evidence_data,p42,anchored,states,0.066,0.000,0.5percent,abd2932d486b233b
-setser_dec_15_17,K,main_claim,p22,candidate,abstracts,0.252,0.040,,abd2932d486b233b
-setser_dec_15_17,M1,mechanism,p42,candidate,abstracts,0.271,0.016,,abd2932d486b233b
-setser_dec_15_17,M2,mechanism,p22,candidate,abstracts,0.285,0.060,,abd2932d486b233b
-setser_dec_15_17,M3,mechanism,p33,candidate,abstracts,0.414,0.119,,abd2932d486b233b
-setser_dec_15_17,P1,stated_assumption,p42,candidate,abstracts,0.300,0.088,,abd2932d486b233b
-setser_dec_15_17,P2,stated_assumption,p22,candidate,abstracts,0.586,0.347,,abd2932d486b233b
-setser_dec_15_17,P3,stated_assumption,p33,candidate,abstracts,0.390,0.059,,abd2932d486b233b
-setser_dec_15_17,Q,question,p18,candidate,abstracts,0.333,0.035,,abd2932d486b233b
-setser_dec_15_17,QF1,caveat,p4,candidate,abstracts,0.457,0.350,,abd2932d486b233b
-setser_dec_15_17,QF2,caveat,p23,candidate,abstracts,0.653,0.356,,abd2932d486b233b
-setser_dec_15_17,R1,caveat,p38,candidate,abstracts,0.394,0.138,,abd2932d486b233b
-setser_dec_15_17,X,opposing_view,p3,candidate,abstracts,0.261,0.037,,abd2932d486b233b
+setser_dec_15_17,C1,intermediate_claim,p20,candidate,abstracts,0.261,0.000,,abd2932d486b233b
+setser_dec_15_17,C2,intermediate_claim,p26,candidate,abstracts,0.537,0.156,,abd2932d486b233b
+setser_dec_15_17,C3,intermediate_claim,p38,candidate,abstracts,0.275,0.013,,abd2932d486b233b
+setser_dec_15_17,D1,evidence_data,p15,candidate,abstracts,0.344,0.048,,abd2932d486b233b
+setser_dec_15_17,D2,evidence_data,p27,candidate,abstracts,0.393,0.032,,abd2932d486b233b
+setser_dec_15_17,D3,evidence_data,p31,candidate,abstracts,0.245,0.029,,abd2932d486b233b
+setser_dec_15_17,D4,evidence_data,p36,candidate,abstracts,0.299,0.003,,abd2932d486b233b
+setser_dec_15_17,D5,evidence_data,p33,candidate,abstracts,0.319,0.039,,abd2932d486b233b
+setser_dec_15_17,D6,evidence_data,p43,anchored,states,0.315,0.000,0.3 0.5percent,abd2932d486b233b
+setser_dec_15_17,D6,evidence_data,p45,anchored,states,0.065,0.000,0.5percent,abd2932d486b233b
+setser_dec_15_17,K,main_claim,p25,candidate,abstracts,0.225,0.017,,abd2932d486b233b
+setser_dec_15_17,M1,mechanism,p45,candidate,abstracts,0.270,0.022,,abd2932d486b233b
+setser_dec_15_17,M2,mechanism,p25,candidate,abstracts,0.257,0.024,,abd2932d486b233b
+setser_dec_15_17,M3,mechanism,p36,candidate,abstracts,0.383,0.120,,abd2932d486b233b
+setser_dec_15_17,P1,stated_assumption,p45,candidate,abstracts,0.294,0.052,,abd2932d486b233b
+setser_dec_15_17,P2,stated_assumption,p25,candidate,abstracts,0.554,0.263,,abd2932d486b233b
+setser_dec_15_17,P3,stated_assumption,p36,candidate,abstracts,0.348,0.058,,abd2932d486b233b
+setser_dec_15_17,Q,question,p21,candidate,abstracts,0.330,0.032,,abd2932d486b233b
+setser_dec_15_17,QF1,caveat,p4,candidate,abstracts,0.456,0.350,,abd2932d486b233b
+setser_dec_15_17,QF2,caveat,p26,candidate,abstracts,0.644,0.367,,abd2932d486b233b
+setser_dec_15_17,R1,caveat,p41,candidate,abstracts,0.393,0.150,,abd2932d486b233b
+setser_dec_15_17,X,opposing_view,p3,candidate,abstracts,0.263,0.036,,abd2932d486b233b
 setser_feb_15_18,C1,intermediate_claim,p33,candidate,abstracts,0.387,0.169,,cef807becdea5e9e
 setser_feb_15_18,C2,intermediate_claim,p9,candidate,abstracts,0.559,0.050,,cef807becdea5e9e
 setser_feb_15_18,C3,intermediate_claim,,none,none,,,,cef807becdea5e9e
@@ -176,17 +176,17 @@ setser_feb_26_20,C1,intermediate_claim,p6,candidate,abstracts,0.400,0.226,,cc5f6
 setser_feb_26_20,C2,intermediate_claim,p11,candidate,abstracts,0.350,0.132,,cc5f662322fc0bba
 setser_feb_26_20,D1,evidence_data,p3,anchored,states,0.289,0.000,30billion 500billion 80billion,cc5f662322fc0bba
 setser_feb_26_20,D2,evidence_data,p3,anchored,states,0.210,0.000,fajgelbaum,cc5f662322fc0bba
-setser_feb_26_20,D3,evidence_data,p5,candidate,abstracts,0.319,0.208,,cc5f662322fc0bba
+setser_feb_26_20,D3,evidence_data,p5,candidate,abstracts,0.316,0.205,,cc5f662322fc0bba
 setser_feb_26_20,D4,evidence_data,p11,candidate,abstracts,0.453,0.318,,cc5f662322fc0bba
 setser_feb_26_20,D5,evidence_data,p10,anchored,states,0.245,0.000,17.5billion,cc5f662322fc0bba
 setser_feb_26_20,K,main_claim,p12,candidate,abstracts,0.387,0.001,,cc5f662322fc0bba
 setser_feb_26_20,M1,mechanism,p4,candidate,abstracts,0.319,0.016,,cc5f662322fc0bba
-setser_feb_26_20,M2,mechanism,p5,candidate,abstracts,0.212,0.058,,cc5f662322fc0bba
-setser_feb_26_20,M3,mechanism,p5,candidate,abstracts,0.234,0.039,,cc5f662322fc0bba
-setser_feb_26_20,P1,hidden_assumption,p5,candidate,presupposes,0.340,0.115,,cc5f662322fc0bba
+setser_feb_26_20,M2,mechanism,p5,candidate,abstracts,0.210,0.056,,cc5f662322fc0bba
+setser_feb_26_20,M3,mechanism,p5,candidate,abstracts,0.232,0.036,,cc5f662322fc0bba
+setser_feb_26_20,P1,hidden_assumption,p5,candidate,presupposes,0.337,0.112,,cc5f662322fc0bba
 setser_feb_26_20,P2,stated_assumption,p3,candidate,abstracts,0.318,0.260,,cc5f662322fc0bba
 setser_feb_26_20,P3,stated_assumption,p4,candidate,abstracts,0.385,0.086,,cc5f662322fc0bba
-setser_feb_26_20,P4,stated_assumption,p5,candidate,abstracts,0.297,0.018,,cc5f662322fc0bba
+setser_feb_26_20,P4,stated_assumption,p5,candidate,abstracts,0.294,0.015,,cc5f662322fc0bba
 setser_feb_26_20,Q,question,p8,candidate,abstracts,0.202,0.027,,cc5f662322fc0bba
 setser_feb_26_20,QF,counterpoint,p13,candidate,abstracts,0.250,0.088,,cc5f662322fc0bba
 setser_feb_26_20,R1,counterpoint,,none,none,,,,cc5f662322fc0bba
@@ -206,10 +206,10 @@ setser_jan_31_20,P1,stated_assumption,p27,candidate,abstracts,0.381,0.171,,2b7ee
 setser_jan_31_20,P2,hidden_assumption,,none,none,,,,2b7ee4f2ee9c6fbe
 setser_jan_31_20,P3,revised_prior,p23,candidate,abstracts,0.233,0.017,,2b7ee4f2ee9c6fbe
 setser_jan_31_20,Q,question,p1,candidate,abstracts,0.309,0.030,,2b7ee4f2ee9c6fbe
-setser_jan_31_20,QF,caveat,p4,candidate,abstracts,0.191,0.063,boeing,2b7ee4f2ee9c6fbe
+setser_jan_31_20,QF,caveat,p4,candidate,abstracts,0.190,0.061,boeing,2b7ee4f2ee9c6fbe
 setser_jan_31_20,R1,other_explanation,p14,candidate,abstracts,0.781,0.712,,2b7ee4f2ee9c6fbe
 setser_jan_31_20,SC,source_credibility,p8,candidate,abstracts,0.419,0.219,,2b7ee4f2ee9c6fbe
-setser_jan_31_20,X,opposing_view,p30,candidate,abstracts,0.269,0.056,,2b7ee4f2ee9c6fbe
+setser_jan_31_20,X,opposing_view,p30,candidate,abstracts,0.268,0.055,,2b7ee4f2ee9c6fbe
 setser_jul_8_20,BM,benchmark,p7,anchored,states,0.129,0.000,60billion,5db4f467f3402f3a
 setser_jul_8_20,BM,benchmark,p8,anchored,states,0.123,0.000,164.65billion 6.1,5db4f467f3402f3a
 setser_jul_8_20,C1,intermediate_claim,p19,candidate,abstracts,0.289,0.021,,5db4f467f3402f3a
@@ -232,43 +232,45 @@ setser_jun_14_19,C2,intermediate_claim,p28,candidate,abstracts,0.354,0.107,,6841
 setser_jun_14_19,C3,intermediate_claim,p18,candidate,abstracts,0.250,0.116,,6841bab1c6c1dd77
 setser_jun_14_19,C4,intermediate_claim,p39,candidate,abstracts,0.620,0.513,,6841bab1c6c1dd77
 setser_jun_14_19,D1,evidence_data,p6,anchored,states,0.130,0.000,60percent,6841bab1c6c1dd77
-setser_jun_14_19,D2,evidence_data,p34,candidate,abstracts,0.315,0.023,,6841bab1c6c1dd77
+setser_jun_14_19,D2,evidence_data,p34,candidate,abstracts,0.315,0.020,,6841bab1c6c1dd77
 setser_jun_14_19,D3,evidence_data,p4,candidate,abstracts,0.409,0.100,,6841bab1c6c1dd77
 setser_jun_14_19,D4,evidence_data,p15,candidate,abstracts,0.330,0.014,,6841bab1c6c1dd77
 setser_jun_14_19,D5,evidence_data,p8,candidate,abstracts,0.262,0.054,,6841bab1c6c1dd77
 setser_jun_14_19,D6,evidence_data,p13,candidate,abstracts,0.283,0.113,,6841bab1c6c1dd77
 setser_jun_14_19,K,main_claim,p39,candidate,abstracts,0.459,0.228,,6841bab1c6c1dd77
-setser_jun_14_19,M1,mechanism,p13,candidate,abstracts,0.268,0.120,,6841bab1c6c1dd77
+setser_jun_14_19,M1,mechanism,p13,candidate,abstracts,0.268,0.119,,6841bab1c6c1dd77
 setser_jun_14_19,M2,mechanism,,none,none,,,,6841bab1c6c1dd77
 setser_jun_14_19,M3,mechanism,p41,candidate,abstracts,0.309,0.157,,6841bab1c6c1dd77
 setser_jun_14_19,M4,mechanism,,none,none,,,,6841bab1c6c1dd77
 setser_jun_14_19,P1,stated_assumption,p8,candidate,abstracts,0.205,0.047,,6841bab1c6c1dd77
 setser_jun_14_19,P2,stated_assumption,p28,candidate,abstracts,0.392,0.007,,6841bab1c6c1dd77
 setser_jun_14_19,P3,stated_assumption,p13,candidate,abstracts,0.267,0.084,,6841bab1c6c1dd77
-setser_jun_14_19,Q,question,p5,candidate,abstracts,0.340,0.122,,6841bab1c6c1dd77
+setser_jun_14_19,Q,question,p5,candidate,abstracts,0.342,0.125,,6841bab1c6c1dd77
 setser_jun_14_19,QF1,caveat,p40,candidate,abstracts,0.241,0.035,,6841bab1c6c1dd77
 setser_jun_14_19,QF2,caveat,p41,candidate,abstracts,0.229,0.036,,6841bab1c6c1dd77
 setser_jun_14_19,R1,counterpoint,p37,anchored,states,0.256,0.000,suv,6841bab1c6c1dd77
-setser_jun_4_18,C1,intermediate_claim,p12,candidate,abstracts,0.288,0.014,,678b24b48c91e7a3
-setser_jun_4_18,C2,intermediate_claim,p17,candidate,abstracts,0.250,0.052,,678b24b48c91e7a3
-setser_jun_4_18,C3,intermediate_claim,p10,candidate,abstracts,0.361,0.160,,678b24b48c91e7a3
-setser_jun_4_18,D1,evidence_data,p12,anchored,states,0.388,0.000,argentina turkey,678b24b48c91e7a3
-setser_jun_4_18,D2,evidence_data,p12,candidate,abstracts,0.241,0.056,,678b24b48c91e7a3
-setser_jun_4_18,D3,evidence_data,p13,candidate,abstracts,0.290,0.025,,678b24b48c91e7a3
-setser_jun_4_18,D4,evidence_data,p19,candidate,abstracts,0.419,0.189,,678b24b48c91e7a3
-setser_jun_4_18,D5,evidence_data,p20,candidate,abstracts,0.356,0.113,,678b24b48c91e7a3
-setser_jun_4_18,D6,evidence_data,p10,candidate,abstracts,0.251,0.058,,678b24b48c91e7a3
-setser_jun_4_18,K,main_claim,p4,candidate,abstracts,0.458,0.133,,678b24b48c91e7a3
-setser_jun_4_18,M1,mechanism,p7,candidate,abstracts,0.232,0.023,,678b24b48c91e7a3
-setser_jun_4_18,M2,mechanism,,none,none,,,,678b24b48c91e7a3
-setser_jun_4_18,M3,mechanism,p7,candidate,abstracts,0.414,0.150,,678b24b48c91e7a3
-setser_jun_4_18,P1,stated_assumption,p2,candidate,abstracts,0.259,0.045,,678b24b48c91e7a3
-setser_jun_4_18,P2,stated_assumption,p7,candidate,abstracts,0.389,0.178,,678b24b48c91e7a3
-setser_jun_4_18,P3,stated_assumption,p20,candidate,abstracts,0.189,0.030,,678b24b48c91e7a3
-setser_jun_4_18,Q,question,p4,candidate,abstracts,0.454,0.173,,678b24b48c91e7a3
-setser_jun_4_18,QF,caveat,p13,candidate,abstracts,0.348,0.133,,678b24b48c91e7a3
-setser_jun_4_18,R1,counterpoint,p10,candidate,abstracts,0.349,0.010,,678b24b48c91e7a3
-setser_jun_4_18,X,caveat,p12,anchored,states,0.158,0.000,argentina turkey,678b24b48c91e7a3
+setser_jun_4_18,C1,intermediate_claim,p15,candidate,abstracts,0.292,0.035,,678b24b48c91e7a3
+setser_jun_4_18,C2,intermediate_claim,p20,candidate,abstracts,0.215,0.025,,678b24b48c91e7a3
+setser_jun_4_18,C3,intermediate_claim,p13,candidate,abstracts,0.360,0.155,,678b24b48c91e7a3
+setser_jun_4_18,D1,evidence_data,p15,anchored,states,0.354,0.000,argentina turkey,678b24b48c91e7a3
+setser_jun_4_18,D1,evidence_data,p5,anchored,states,0.280,0.000,argentina turkey,678b24b48c91e7a3
+setser_jun_4_18,D2,evidence_data,p15,candidate,abstracts,0.246,0.066,,678b24b48c91e7a3
+setser_jun_4_18,D3,evidence_data,p16,candidate,abstracts,0.261,0.046,,678b24b48c91e7a3
+setser_jun_4_18,D4,evidence_data,p22,candidate,abstracts,0.420,0.195,,678b24b48c91e7a3
+setser_jun_4_18,D5,evidence_data,p23,candidate,abstracts,0.346,0.121,,678b24b48c91e7a3
+setser_jun_4_18,D6,evidence_data,p13,candidate,abstracts,0.243,0.061,,678b24b48c91e7a3
+setser_jun_4_18,K,main_claim,p4,candidate,abstracts,0.460,0.128,,678b24b48c91e7a3
+setser_jun_4_18,M1,mechanism,p10,candidate,abstracts,0.218,0.006,,678b24b48c91e7a3
+setser_jun_4_18,M2,mechanism,p22,candidate,abstracts,0.182,0.020,,678b24b48c91e7a3
+setser_jun_4_18,M3,mechanism,p10,candidate,abstracts,0.386,0.132,,678b24b48c91e7a3
+setser_jun_4_18,P1,stated_assumption,p2,candidate,abstracts,0.271,0.053,,678b24b48c91e7a3
+setser_jun_4_18,P2,stated_assumption,p10,candidate,abstracts,0.376,0.162,,678b24b48c91e7a3
+setser_jun_4_18,P3,stated_assumption,,none,none,,,,678b24b48c91e7a3
+setser_jun_4_18,Q,question,p4,candidate,abstracts,0.450,0.159,,678b24b48c91e7a3
+setser_jun_4_18,QF,caveat,p16,candidate,abstracts,0.332,0.112,,678b24b48c91e7a3
+setser_jun_4_18,R1,counterpoint,p13,candidate,abstracts,0.340,0.029,,678b24b48c91e7a3
+setser_jun_4_18,X,caveat,p15,anchored,states,0.136,0.000,argentina turkey,678b24b48c91e7a3
+setser_jun_4_18,X,caveat,p5,anchored,states,0.373,0.000,argentina turkey,678b24b48c91e7a3
 setser_mar_10_24,C1,intermediate_claim,p6,candidate,abstracts,0.597,0.423,,a48d7f6f44f4ee8f
 setser_mar_10_24,C3,policy_reductio,p17,candidate,abstracts,0.250,0.053,,a48d7f6f44f4ee8f
 setser_mar_10_24,E1,evidence_data,p15,anchored,states,0.286,0.000,35percent,a48d7f6f44f4ee8f
@@ -383,7 +385,7 @@ setser_may_5_25,Q,question,p8,candidate,abstracts,0.580,0.405,,545ae5e250da81fa
 setser_may_5_25,QF,caveat,p30,candidate,abstracts,0.322,0.033,,545ae5e250da81fa
 setser_may_5_25,R1,other_explanation,p8,candidate,abstracts,0.616,0.506,,545ae5e250da81fa
 setser_may_5_25,X,opposing_view,,none,none,,,,545ae5e250da81fa
-setser_sep_20_19,C1,intermediate_claim,p23,candidate,abstracts,0.249,0.109,,471221e7cce05bc5
+setser_sep_20_19,C1,intermediate_claim,p23,candidate,abstracts,0.249,0.110,,471221e7cce05bc5
 setser_sep_20_19,C2,intermediate_claim,p31,candidate,abstracts,0.272,0.027,,471221e7cce05bc5
 setser_sep_20_19,C3,intermediate_claim,p32,candidate,abstracts,0.442,0.180,,471221e7cce05bc5
 setser_sep_20_19,C4,intermediate_claim,p39,candidate,abstracts,0.215,0.034,,471221e7cce05bc5
@@ -408,5 +410,5 @@ setser_sep_20_19,P3,stated_assumption,p33,candidate,abstracts,0.252,0.067,,47122
 setser_sep_20_19,Q,question,p9,candidate,abstracts,0.273,0.014,,471221e7cce05bc5
 setser_sep_20_19,QF1,caveat,p38,candidate,abstracts,0.353,0.186,,471221e7cce05bc5
 setser_sep_20_19,QF2,caveat,p34,candidate,abstracts,0.342,0.038,,471221e7cce05bc5
-setser_sep_20_19,R1,counterpoint,p22,candidate,abstracts,0.269,0.016,,471221e7cce05bc5
+setser_sep_20_19,R1,counterpoint,p22,candidate,abstracts,0.269,0.015,,471221e7cce05bc5
 setser_sep_20_19,X,other_explanation,p34,candidate,abstracts,0.309,0.134,,471221e7cce05bc5

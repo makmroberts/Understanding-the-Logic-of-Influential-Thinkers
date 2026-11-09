@@ -31,7 +31,7 @@ tags: [type/question, level/L0, family/plain, variable/bilateral-trade-flows, va
 ## Source
 - Article: [[2019-06-14 Why did China's tariffs devastate some U.S. exports but have limited effects on others]]
 - Authored map: `mermaid_code/setser_jun_14_19.mmd`
-- Passage: p5 — _proposed `abstracts`, score 0.340; unreviewed, not a citation_
+- Passage: p5 — _proposed `abstracts`, score 0.342; unreviewed, not a citation_
 - Published: https://www.cfr.org/articles/tale-two-tariffs-chinas-so-far-ineffective-tariffs-us-manufacturing-exports
 - Node `setser_jun_14_19#Q` · level L0 · type resolved by `class`
 - Full chain: `python scripts/trace.py setser_jun_14_19#Q`
