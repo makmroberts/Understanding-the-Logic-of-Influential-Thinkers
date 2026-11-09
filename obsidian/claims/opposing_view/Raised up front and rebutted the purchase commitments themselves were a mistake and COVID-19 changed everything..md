@@ -30,7 +30,7 @@ tags: [type/opposing_view, level/L6, family/banner, variable/import-volumes, cou
 ## Source
 - Article: [[2020-07-08 Slouching Toward Phase One]]
 - Authored map: `mermaid_code/setser_jul_8_20.mmd`
-- Passage: **p5** — **states**, anchored on `19`, a literal the claim and the paragraph share
+- Passage: p4 — _proposed `abstracts`, score 0.321; unreviewed, not a citation_
 - Published: https://www.cfr.org/articles/slouching-toward-phase-one
 - Node `setser_jul_8_20#X` · level L6 · type resolved by `header`
 - Full chain: `python scripts/trace.py setser_jul_8_20#X`

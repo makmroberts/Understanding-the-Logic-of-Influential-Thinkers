@@ -32,7 +32,8 @@ tags: [type/evidence_data, level/L2, family/plain, variable/domestic-demand, var
 ## Source
 - Article: [[2019-09-20 Why do global trade imbalances persist, and why could they worsen before improving]]
 - Authored map: `mermaid_code/setser_sep_20_19.mmd`
-- Passage: **p19** — **states**, anchored on `korea taiwan`, a literal the claim and the paragraph share
+- Passage: **p20** — **states**, anchored on `singapore`, a literal the claim and the paragraph share
+- Passage: **p21** — **states**, anchored on `thailand`, a literal the claim and the paragraph share
 - Published: https://www.cfr.org/articles/why-global-trade-imbalances-could-get-worse-they-get-better
 - Node `setser_sep_20_19#D3` · level L2 · type resolved by `class`
 - Full chain: `python scripts/trace.py setser_sep_20_19#D3`

@@ -34,7 +34,7 @@ tags: [type/main_claim, level/L5, family/plain, variable/nominal-exchange-rate, 
 ## Source
 - Article: [[2019-05-10 If U.S.-China trade tensions escalate, will China keep the yuan stable or let it weaken]]
 - Authored map: `mermaid_code/setser_may_10_19.mmd`
-- Passage: p15 — _proposed `abstracts`, score 0.290; unreviewed, not a citation_
+- Passage: **p8** — **states**, anchored on `beijing`, a literal the claim and the paragraph share
 - Published: https://www.cfr.org/articles/what-difference-week-or-weekend-makes
 - Node `setser_may_10_19#K` · level L5 · type resolved by `class`
 - Full chain: `python scripts/trace.py setser_may_10_19#K`

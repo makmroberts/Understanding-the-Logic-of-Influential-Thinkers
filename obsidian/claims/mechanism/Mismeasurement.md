@@ -35,6 +35,7 @@ tags: [type/mechanism, level/L3, family/meta, variable/current-account, variable
 - Article: [[2025-11-12 China's Massive Surplus is Everywhere (Yet The IMF Still Has Trouble Seeing It Clearly)]]
 - Concept: [[bop-understates-china-surplus]]
 - Authored map: `mermaid_code/setser_2025-11-12_china-surplus-imf.mmd`
+- Passage: **p5** — **states**, anchored on `1percent`, a literal the claim and the paragraph share
 - Passage: **p9** — **states**, anchored on `1percent`, a literal the claim and the paragraph share
 - Published: https://www.cfr.org/articles/chinas-massive-surplus-everywhere-yet-imf-still-has-trouble-seeing-it-clearly
 - Node `setser_2025-11-12_china-surplus-imf#M2` · level L3 · type resolved by `class`

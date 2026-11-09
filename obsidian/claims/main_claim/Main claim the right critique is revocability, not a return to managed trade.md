@@ -37,7 +37,7 @@ tags: [type/main_claim, level/L5, family/plain, variable/bilateral-trade-flows, 
 ## Source
 - Article: [[2019-05-02 Does a purchase-commitment deal push China back toward managed trade]]
 - Authored map: `mermaid_code/setser_may_2_19.mmd`
-- Passage: p46 — _proposed `abstracts`, score 0.536; unreviewed, not a citation_
+- Passage: **p46** — **states**, anchored on `scissors`, a literal the claim and the paragraph share
 - Published: https://www.cfr.org/articles/china-never-stopped-managing-its-trade
 - Node `setser_may_2_19#K` · level L5 · type resolved by `class`
 - Full chain: `python scripts/trace.py setser_may_2_19#K`

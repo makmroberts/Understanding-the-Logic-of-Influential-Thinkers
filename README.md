@@ -28,6 +28,8 @@ exists only where one of them needs a term to separate two answers.
 
 | | |
 |---|---|
+| **WORKED_EXAMPLE.md** | One article all the way through, in seven panels: 1,179 words of prose to 13 claims, 18 links, 57 subject labels and a citation. Start here if you want to check the method rather than read about it. |
+| `WORKED_EXAMPLE_2.md` | The same walkthrough of a second article — different annotator, different template, and an argument that fans out into a typology instead of narrowing. The control on the first. |
 | **PROCESS.md** | How the graph is built: the steps, the reasoning behind each with its sources, how to read a claim note, what the arithmetic computes, and the limits. |
 | `scripts/README.md` | The lab notebook: what was tried, what was measured, what failed. |
 | `obsidian/` | The graph. Open the folder as an Obsidian vault; `index.md` is the way in, `Cells.md` holds a query per role-and-subject cell. |
@@ -42,8 +44,9 @@ slot address that all twenty maps share.
 
 Paragraph links are graded. `anchored` means the claim and the paragraph share a
 distinctive literal, which is provenance; `candidate` means semantic overlap
-only, and the vault never renders one as a source. Of 359 claims, 69 reach an
-anchor.
+only, and the vault never renders one as a source. Of 359 claims, 63 reach an
+anchor, over 115 anchored paragraph links — a claim that gathers figures from
+across an article is cited by every paragraph it gathers from.
 
 ## Running it
 
@@ -54,6 +57,7 @@ python scripts/graph_indices.py                 # signs and indices
 python scripts/link_passages.py                 # claim -> paragraph
 python scripts/export_canvas.py                 # one canvas per article
 python scripts/export_obsidian.py               # the vault
+python scripts/worked_example.py --list         # then --doc X --out WORKED_EXAMPLE.md
 ```
 
 Python standard library plus PyYAML; only `label_facets.py` needs the

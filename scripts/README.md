@@ -572,6 +572,153 @@ concept layer: these three are exactly the cross-article priors
 all share one class and only the header distinguishes a caveat from an opposing
 view. Marked in the notes; worth a human pass.
 
+## Walking one article by hand (2026-10-28)
+
+`worked_example.py --doc X [--out F]` writes the article-to-citation
+walkthrough. Panels 1 and 3–7 come from `data/`; panel 2, the reading pass, is
+hand-written in `worked_example_notes.yaml` and the script prints `WRITE ME`
+rather than filling a gap. `--list` ranks the 20 articles by the share of
+passage links that reach an anchor, which is the right selection rule: a small
+map with good anchoring is one a reader can actually check.
+
+The first one written is `setser_2025-07-07_china-stealth-surplus` (13 claims,
+18 links, 57 labels, 7 of 16 links anchored). Doing it turned up five passage
+links on that one article that a human pass should change, which is the useful
+part:
+
+- **`K` is `anchored` to p28 on the shared literal `7`** — the digit, pulled
+  out of "G7". Formally distinctive, substantively nothing, and it is the main
+  claim of the article. **A bare numeral should not be able to anchor a
+  citation**; `link_passages.py` wants a minimum token length or a digit-only
+  exclusion. Score 0.101, the lowest of the sixteen, so the number did say so.
+- **`M1` is linked to the paragraph that states the mechanism's *result*
+  (p25), not the mechanism (p14).** Generalisable: a mechanism node and the
+  paragraph reporting its consequence share more wording than the mechanism
+  and its own statement do.
+- **`P2` is graded `abstracts` where `states` is right** — it is p26 with the
+  hedge removed. It and `P1` are the article's two closest claim-to-sentence
+  matches (0.442 and 0.694) and neither reaches an anchor, because every token
+  they share with their paragraph is corpus-common. The literal test is
+  conservative in the right direction, but these two are the evidence that
+  `candidate` is not the same as a weak match — sometimes it is a
+  near-quotation the IDF cannot see.
+- **`Q` and `P3` are on the wrong paragraph** (p19 and p7; p7 and p26 are the
+  better homes). `P3`'s relation, `presupposes`, is right.
+
+Not fixed, and not fixed silently: these are verdicts for
+`passage_review.yaml`, which does not exist yet despite being listed as an
+overlay. Five of sixteen links wrong on a hand-check is the argument for
+building it before anything quotes a link.
+
+### The sixth finding: the relative floor discards a third of all anchors
+
+Reading panel 7 against panel 2 turned up the one that matters. `E1` on the
+stealth-surplus article is an aggregate evidence node whose text carries five
+figures; `node_passages.csv` gives it three paragraphs. The missing two
+clauses — *"about $400 per phone"* and *"net vehicle exports above 6 million"*
+— are in the article at p16 and p3, and **both carry the distinctive figure**.
+
+Measured by replaying the linker's own scoring (2026-10-28):
+
+| | |
+|---|---|
+| anchored-qualified paragraph pairs, corpus-wide | 140 |
+| written to `node_passages.csv` | 92 |
+| **discarded** | **48 (34%)** |
+| claims losing at least one | 31 |
+| ... cut by the `[:3]` cap | 6 |
+| ... cut by the `0.6 × best` floor alone | 25 |
+
+`keep = [s for s in anchored if s[1] >= best * 0.6][:3]` is the line. **The
+cap is almost never what bites; the relative floor is.**
+
+The diagnosis, and it generalises past this one line: a relative score floor
+is a *relevance* filter and it is being applied to a *provenance* signal. For
+an aggregate evidence node the paragraph supplying the fifth figure will
+always score low on cosine, because the claim text is dominated by the other
+four — while the figure it shares is exactly as distinctive as theirs.
+
+**But the floor is not pure loss, and this is why the fix is not to raise it.**
+Classifying 28 of the 48 discards by what qualified them: 14 were bare
+percentages (`#2percent`, `#10percent`, `#25percent` — a tariff rate recurring
+through an article clears the `0.15 × n_paragraphs` distinctiveness cap and
+identifies nothing), 3 were `!states !united` scoring as "two shared proper
+nouns", 2 were `!covid-` plus the number `19`, and **9 were real figures or
+named sources** (`#6million`, `#400`, `!buchheit !hagan !imf !lee`).
+
+So the anchor test is over-permissive and the floor is silently compensating
+for it. That is the same bug as `K` anchoring on the digit `7` above, seen
+from the other end. **The fix is to tighten what may anchor** — exclude bare
+small integers, require more than a two-token proper-noun pair for a country
+name, repair the `covid-19` tokenisation — and only then let more survivors
+through. Raising the floor without that would admit 19 pieces of junk to
+recover 9 real ones.
+
+### What was changed (2026-10-28)
+
+Four changes to `link_passages.py`, in the order they matter. `--dry-run`
+prints the delta against the existing CSV and writes nothing; use it first.
+
+**1. The figure pattern had no left word boundary.** `(?<![A-Za-z0-9-])` now
+precedes it, so a number is no longer read out of the middle of a name — the
+`7` of "G7", the `19` of "COVID-19", the `321` of "A321". This is the `K`
+finding above, and it was a plain tokenisation bug, not a threshold.
+
+**2. Capitalised words are tested for being names.** `\b[A-Z]...` cannot tell
+"Ireland" from the "External" that opens a sentence, and `!external` was
+anchoring a claim about China's external position. `learn_names()` measures
+how often each token is capitalised across the corpus: real names are at
+0.93–1.00 (`ireland` 9/9, `china` 612/612, `apple` 14/15), sentence starts are
+not (`external` 0.03, `global` 0.05). Of 1,601 tokens seen three times or
+more, 84 clear the bar and 295 are capitalised only sometimes. Below three
+appearances there is nothing to measure, so the word is allowed — that is what
+keeps `!buchheit` (1/1).
+
+**3. A literal must be rare at both scales, and a lone one must be rarer.**
+`distinctive` was per-article only, which cannot see that "United States" is
+in 15 of 21 articles. The cut was swept against five anchors known good by
+hand and six known junk rather than picked:
+
+| frac | cut | anchored rows | good kept | junk kept |
+|---|---|---|---|---|
+| 0.15 | 3 | 72 | 3/5 | 0/6 |
+| **0.25** | **5** | **115** | **5/5** | **1/6** |
+| 0.40 | 8 | 187 | 5/5 | 2/6 |
+
+0.15 is the per-article rule reused without thinking and it throws away
+`!apple !ireland` and `!belgian !treasury`. Separately, `LONE_ANCHOR_DF = 2`:
+two shared literals are evidence on their own, one is evidence only when it is
+unusual, so a claim and a paragraph sharing nothing but `#25percent` (5 of 21
+articles) no longer anchor. The one junk survivor at 0.25 turned out not to be
+junk — it re-anchored on `!bessent`.
+
+**4. The relative floor is gone**, now that the gates above do the job it was
+compensating for. `ANCHOR_MAX = 6` stays as a review trigger rather than a
+filter.
+
+Result: **382 rows → 411; anchored rows 92 → 115.** `E1` on the
+stealth-surplus article now anchors to all five paragraphs its five clauses
+come from.
+
+**Claims reaching an anchor went 69 → 63, and that is the change working.**
+For those six, the only anchor was a shared percentage or a numeral. `K` is
+one of them and is now `none`: a main claim with no citable paragraph is the
+normal case here, because the conclusion of an argument is rarely a sentence
+in it.
+
+**Still open.** A multi-word title whose component words are each common is
+lost — `!external !sector !report` for the IMF's *External Sector Report* was
+removed and nothing replaced it, because literals are unigrams. Phrase
+detection would fix it and has not been tried. And the five passage verdicts
+above are still verdicts: `passage_review.yaml` does not exist yet.
+
+Second finding, on coverage rather than correctness. 16 of 29 paragraphs carry
+no passage link, and the split matters: 4 are connective tissue, 4 illustrate a
+premise the article never argues (the map puts that work in `Q`), and **8 are
+argument the graph does represent but cannot cite** — p14–p16 (the SAFE/Apple
+rebuttal behind `M1`), p22–p23, p18, p27, p29. A retrieval gap, not a modelling
+gap, and the same gap the `%% para: pN` convention would close at source.
+
 ## Known issues
 
 - **Date in the article list is wrong for one entry.** "Why Didn't Tariffs Push

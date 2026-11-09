@@ -28,7 +28,10 @@ tags: [type/evidence_source, level/L2, family/banner, variable/nominal-exchange-
 ## Source
 - Article: [[2025-05-05 Why Didn't Tariffs Push Up the U.S. Dollar]]
 - Authored map: `mermaid_code/setser_may_5_25.mmd`
-- Passage: p3 — _proposed `abstracts`, score 0.206; unreviewed, not a citation_
+- Passage: **p1** — **states**, anchored on `miran`, a literal the claim and the paragraph share
+- Passage: **p24** — **states**, anchored on `aitken`, a literal the claim and the paragraph share
+- Passage: **p3** — **states**, anchored on `miran`, a literal the claim and the paragraph share
+- Passage: **p4** — **states**, anchored on `lerner`, a literal the claim and the paragraph share
 - Published: https://www.cfr.org/articles/why-didnt-tariffs-push-us-dollar
 - Node `setser_may_5_25#E2` · level L2 · type resolved by `header`
 - Full chain: `python scripts/trace.py setser_may_5_25#E2`

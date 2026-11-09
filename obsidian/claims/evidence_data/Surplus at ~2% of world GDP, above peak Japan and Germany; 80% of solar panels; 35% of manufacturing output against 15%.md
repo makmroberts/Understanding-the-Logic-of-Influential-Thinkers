@@ -31,9 +31,7 @@ tags: [type/evidence_data, level/L2, family/banner, variable/manufacturing-outpu
 ## Source
 - Article: [[2024-03-10 China's Record Manufacturing Surplus]]
 - Authored map: `mermaid_code/setser_mar_10_24.mmd`
-- Passage: **p11** — **states**, anchored on `80percent`, a literal the claim and the paragraph share
-- Passage: **p4** — **states**, anchored on `germany japan`, a literal the claim and the paragraph share
-- Passage: **p8** — **states**, anchored on `germany japan`, a literal the claim and the paragraph share
+- Passage: **p15** — **states**, anchored on `35percent`, a literal the claim and the paragraph share
 - Published: https://www.cfr.org/articles/chinas-record-manufacturing-surplus
 - Node `setser_mar_10_24#E1` · level L2 · type resolved by `header`
 - Full chain: `python scripts/trace.py setser_mar_10_24#E1`

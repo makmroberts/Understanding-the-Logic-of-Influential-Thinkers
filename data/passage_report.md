@@ -10,9 +10,9 @@ aid, not a citation.** Never render a candidate as a source.
 
 - 359 claims over 20 articles, 686 paragraphs
 - **confirmed by hand: 0 (0%)**
-- **anchored: 69 (19%)**
-- candidate: 270 (75%)
-- none: 20 (6%)
+- **anchored: 63 (18%)**
+- candidate: 274 (76%)
+- none: 22 (6%)
 
 ## The pattern by role, which is also a validity check
 
@@ -28,23 +28,23 @@ settles it.
 
 | role | n | states | abstracts | presupposes | none | expected |
 |---|---|---|---|---|---|
-| `evidence_data` | 66 | 50 | 34 | 0 | 0 | states |
-| `mechanism` | 59 | 9 | 43 | 0 | 8 | abstracts |
-| `intermediate_claim` | 42 | 1 | 39 | 0 | 2 | abstracts |
-| `stated_assumption` | 42 | 1 | 39 | 0 | 2 | abstracts |
-| `caveat` | 27 | 2 | 23 | 0 | 2 | abstracts |
-| `main_claim` | 21 | 1 | 20 | 0 | 0 | abstracts |
+| `evidence_data` | 66 | 50 | 40 | 0 | 0 | states |
+| `mechanism` | 59 | 14 | 43 | 0 | 9 | abstracts |
+| `intermediate_claim` | 42 | 3 | 39 | 0 | 2 | abstracts |
+| `stated_assumption` | 42 | 4 | 36 | 0 | 2 | abstracts |
+| `caveat` | 27 | 5 | 22 | 0 | 2 | abstracts |
+| `main_claim` | 21 | 2 | 18 | 0 | 1 | abstracts |
 | `question` | 20 | 0 | 19 | 0 | 1 | abstracts |
-| `opposing_view` | 15 | 3 | 11 | 0 | 1 | abstracts |
+| `opposing_view` | 15 | 2 | 13 | 0 | 1 | abstracts |
 | `hidden_assumption` | 13 | 0 | 0 | 10 | 3 | presupposes |
-| `other_explanation` | 12 | 3 | 9 | 0 | 0 | abstracts |
-| `evidence_source` | 11 | 9 | 3 | 0 | 0 | abstracts |
-| `counterpoint` | 8 | 0 | 7 | 0 | 1 | abstracts |
+| `other_explanation` | 12 | 1 | 11 | 0 | 0 | abstracts |
+| `evidence_source` | 11 | 21 | 1 | 0 | 0 | abstracts |
+| `counterpoint` | 8 | 1 | 6 | 0 | 1 | abstracts |
 | `recommendation` | 3 | 2 | 2 | 0 | 0 | abstracts |
-| `source_credibility` | 3 | 1 | 2 | 0 | 0 | abstracts |
+| `source_credibility` | 3 | 0 | 3 | 0 | 0 | abstracts |
 | `revised_prior` | 3 | 1 | 2 | 0 | 0 | abstracts |
-| `deferred_question` | 2 | 1 | 1 | 0 | 0 | abstracts |
-| `evidence_discrepancy` | 2 | 1 | 1 | 0 | 0 | states |
+| `deferred_question` | 2 | 0 | 2 | 0 | 0 | abstracts |
+| `evidence_discrepancy` | 2 | 0 | 2 | 0 | 0 | states |
 | `scope_choice` | 2 | 1 | 1 | 0 | 0 | abstracts |
 | `evidence_rival` | 1 | 0 | 1 | 0 | 0 | states |
 | `reconstruction` | 1 | 1 | 0 | 0 | 0 | abstracts |
@@ -53,7 +53,7 @@ settles it.
 | `accounting_identity` | 1 | 0 | 1 | 0 | 0 | abstracts |
 | `case_type` | 1 | 0 | 1 | 0 | 0 | abstracts |
 | `anomaly` | 1 | 1 | 0 | 0 | 0 | abstracts |
-| `position_map` | 1 | 2 | 0 | 0 | 0 | abstracts |
+| `position_map` | 1 | 4 | 0 | 0 | 0 | abstracts |
 
 ## Flagged by that check
 

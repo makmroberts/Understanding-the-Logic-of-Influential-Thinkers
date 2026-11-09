@@ -33,6 +33,7 @@ tags: [type/evidence_data, level/L2, family/plain, variable/fiscal-impulse, vari
 - Article: [[2017-12-15 Why does the U.S. trade balance still matter, even if deficits can accompany strong growth]]
 - Authored map: `mermaid_code/setser_dec_15_17.mmd`
 - Passage: **p40** — **states**, anchored on `0.3 0.5percent`, a literal the claim and the paragraph share
+- Passage: **p42** — **states**, anchored on `0.5percent`, a literal the claim and the paragraph share
 - Published: https://www.cfr.org/articles/why-trade-balance-still-matters
 - Node `setser_dec_15_17#D6` · level L2 · type resolved by `class`
 - Full chain: `python scripts/trace.py setser_dec_15_17#D6`

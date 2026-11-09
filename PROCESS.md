@@ -109,8 +109,9 @@ direction preserved.
 Passage links are graded. `anchored` means the claim and the paragraph share a
 distinctive literal — that is provenance. `candidate` means semantic overlap
 only, a narrowing from thirty paragraphs to one, and the vault never renders it
-as a citation. In the vault today: 69 anchored, 270 candidate, 20 with no
-passage at all.
+as a citation. In the vault today: 63 anchored, 274 candidate, 22 with no
+passage at all — 115 anchored links across those 63 claims, because a claim
+that gathers figures from several paragraphs is anchored to each of them.
 
 ### 7–8. Export and trace
 
@@ -644,7 +645,7 @@ Alphabetical. Every entry checked against the publication, its publisher's
 record or its arXiv listing on 2026-10-23.
 
 - **Ash, E., Gauthier, G. & Widmer, P. (2024).** Relatio: Text Semantics Capture Political and Economic Narratives. *Political Analysis* 32(1), 115-132. Cambridge University Press.
-  *Used here for:* read, not used: narrative extraction without a controlled vocabulary.
+  *Used here for:* read, not used: discovers its labels by clustering phrase variants, with no controlled vocabulary to govern them.
 
 - **Axelrod, R. (ed.) (1976).** *Structure of Decision: The Cognitive Maps of Political Elites*. Princeton University Press.
   *Used here for:* a sign on each edge, and no weight.
@@ -656,7 +657,7 @@ record or its arXiv listing on 2026-10-23.
   *Used here for:* claims as information nodes, separate from reasoning-step nodes.
 
 - **Daxenberger, J., Eger, S., Habernal, I., Stab, C. & Gurevych, I. (2017).** What is the Essence of a Claim? Cross-Domain Claim Identification. *EMNLP 2017*, 2055-2066. arXiv:1704.07203.
-  *Used here for:* a conceptualisation of "claim" does not transfer cleanly between domains.
+  *Used here for:* across six datasets, the divergent conceptualisation of a claim between domains is harmful to cross-domain classification, with shared lexical properties only partly bridging it. Cited under Limits, not for the back-off.
 
 - **Groth, P., Gibson, A. & Velterop, J. (2010).** The anatomy of a nanopublication. *Information Services & Use* 30(1-2), 51-56.
   *Used here for:* one assertion published together with its provenance.
@@ -668,10 +669,10 @@ record or its arXiv listing on 2026-10-23.
   *Used here for:* agreement measurement, including unitizing.
 
 - **Han, X., Yu, P., Liu, Z., Sun, M. & Li, P. (2018).** Hierarchical Relation Extraction with Coarse-to-Fine Grained Attention. *EMNLP 2018*, 2236-2245.
-  *Used here for:* a hierarchy over relations is the standard handle on long-tail relations.
+  *Used here for:* a hierarchy over relations is the standard handle on long-tail relations. Their coarse-to-fine attention is a neural model; the back-off here borrows the premise, not the method.
 
 - **Heddaya, M., Zeng, Q., Tan, C., Voigt, R. & Zentefis, A. (2024).** Causal Micro-Narratives. *Proceedings of the 6th Workshop on Narrative Understanding (WNU)*, 67-84. ACL. arXiv:2410.05252.
-  *Used here for:* one label for an author's many phrasings of the same thing.
+  *Used here for:* one label for an author's many phrasings, classified against an ontology fixed in advance - which is what `label_facets.py` does.
 
 - **Hernández, D., Hogan, A. & Krötzsch, M. (2015).** Reifying RDF: What Works Well With Wikidata? *11th International Workshop on Scalable Semantic Web Knowledge Base Systems (SSWS)*, CEUR-WS 1457, 32-47.
   *Used here for:* how provenance attaches to a single claim.
@@ -694,6 +695,9 @@ record or its arXiv listing on 2026-10-23.
 - **Nasir, F. et al. (2026).** OntoKG-EQ: A provenance-grounded, competency-question-governed knowledge graph for auditable analyst querying. arXiv:2609.08869.
   *Used here for:* question governance paired with per-claim provenance; governs with five fixed questions.
 
+- **Noy, N. F. & McGuinness, D. L. (2001).** *Ontology Development 101: A Guide to Creating Your First Ontology*. Stanford Knowledge Systems Laboratory Technical Report KSL-01-05.
+  *Used here for:* read, not used: a general ontology-building guide, superseded for this project by the competency-question governance above.
+
 - **Özesmi, U. & Özesmi, S. L. (2004).** Ecological models based on people's knowledge: a multi-step fuzzy cognitive mapping approach. *Ecological Modelling* 176(1-2), 43-64.
   *Used here for:* density, centrality, transmitter bias, hierarchy index, and the published map-size comparison.
 
@@ -712,28 +716,8 @@ record or its arXiv listing on 2026-10-23.
 - **Toulmin, S. E. (1958).** *The Uses of Argument*. Cambridge University Press. Summarised by the [Purdue OWL](https://owl.purdue.edu/owl/general_writing/academic_writing/historical_perspectives_on_argumentation/toulmin_argument.html), which sets out all six elements.
   *Used here for:* the six argument elements, as the drawing's stages and the top of the role hierarchy.
 
+- **Walton, D. & Macagno, F. (2015).** A classification system for argumentation schemes. *Argument & Computation* 6(3), 219-245. doi:10.1080/19462166.2015.1123772.
+  *Used here for:* read, not used: its clusters are argumentation schemes rather than element roles, so it informs the idea of a role hierarchy without supplying one.
+
 - **W3C (2013).** PROV-O: The PROV Ontology. W3C Recommendation, 30 April 2013. Eds. T. Lebo, S. Sahoo & D. McGuinness. <https://www.w3.org/TR/prov-o/>
   *Used here for:* provenance predicates for assertions a process derived rather than a person asserted.
-
-**Read and not used**, recorded so the choice is visible: Ash, Gauthier &
-Widmer (Relatio) and Rasmussen et al. (Zep) above, plus Noy, N. F. &
-McGuinness, D. L. (2001), *Ontology Development 101: A Guide to Creating Your
-First Ontology*, Stanford KSL Technical Report KSL-01-05, and Walton &
-Macagno on argumentation-scheme classification.
-
-**Two notes on what the sources do and do not say.** Daxenberger et al. was
-previously cited here for "coarse decisions transfer across corpora while
-fine-grained ones do not", which is not its finding: across six datasets it
-reports that the divergent conceptualisation of a claim between domains is
-harmful to cross-domain classification, with shared lexical properties and
-system configuration partly bridging it. It now appears under Limits, where
-that result applies. And Han et al. is borrowed for its premise rather than its
-method: their coarse-to-fine attention over a relation hierarchy is a neural
-model, while the back-off here is a majority vote with no attention and no
-model.
-
-The job of mapping an author's many phrasings onto one label is cited to
-Heddaya et al. rather than to Relatio, because Heddaya classifies against an
-expert-built ontology fixed in advance, which is what `label_facets.py` does;
-Relatio discovers its labels by clustering phrase variants with no controlled
-vocabulary.

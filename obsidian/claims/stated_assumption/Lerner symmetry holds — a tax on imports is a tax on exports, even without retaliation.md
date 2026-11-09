@@ -27,7 +27,7 @@ tags: [type/stated_assumption, level/L1, family/banner, variable/nominal-exchang
 ## Source
 - Article: [[2025-05-05 Why Didn't Tariffs Push Up the U.S. Dollar]]
 - Authored map: `mermaid_code/setser_may_5_25.mmd`
-- Passage: p4 — _proposed `abstracts`, score 0.532; unreviewed, not a citation_
+- Passage: **p4** — **states**, anchored on `lerner`, a literal the claim and the paragraph share
 - Published: https://www.cfr.org/articles/why-didnt-tariffs-push-us-dollar
 - Node `setser_may_5_25#P1` · level L1 · type resolved by `header`
 - Full chain: `python scripts/trace.py setser_may_5_25#P1`

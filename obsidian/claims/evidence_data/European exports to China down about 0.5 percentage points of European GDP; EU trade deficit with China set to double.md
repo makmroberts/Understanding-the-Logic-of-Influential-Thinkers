@@ -35,7 +35,7 @@ tags: [type/evidence_data, level/L2, family/meta, variable/bilateral-trade-flows
 - Article: [[2025-07-28 China is also Fighting a Trade War with Europe (and Winning)]]
 - Authored map: `mermaid_code/setser_2025-07-28_china-eu-trade-war.mmd`
 - Passage: **p13** — **states**, anchored on `10billion`, a literal the claim and the paragraph share
-- Passage: **p17** — **states**, anchored on `european gdp`, a literal the claim and the paragraph share
+- Passage: **p21** — **states**, anchored on `3million`, a literal the claim and the paragraph share
 - Published: https://www.cfr.org/articles/china-also-fighting-trade-war-europe-and-winning
 - Node `setser_2025-07-28_china-eu-trade-war#E1` · level L2 · type resolved by `header`
 - Full chain: `python scripts/trace.py setser_2025-07-28_china-eu-trade-war#E1`

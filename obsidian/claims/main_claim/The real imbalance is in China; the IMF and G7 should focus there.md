@@ -31,7 +31,7 @@ tags: [type/main_claim, level/L5, family/meta, variable/current-account, variabl
 ## Source
 - Article: [[2025-07-07 China's Stealth Trade Surplus]]
 - Authored map: `mermaid_code/setser_2025-07-07_china-stealth-surplus.mmd`
-- Passage: **p28** — **states**, anchored on `7`, a literal the claim and the paragraph share
+- Passage: none linked
 - Published: https://www.cfr.org/articles/chinas-stealth-trade-surplus
 - Node `setser_2025-07-07_china-stealth-surplus#K` · level L5 · type resolved by `header`
 - Full chain: `python scripts/trace.py setser_2025-07-07_china-stealth-surplus#K`

@@ -27,7 +27,7 @@ tags: [type/other_explanation, level/L6, family/meta, variable/manufacturing-out
 ## Source
 - Article: [[2025-07-28 China is also Fighting a Trade War with Europe (and Winning)]]
 - Authored map: `mermaid_code/setser_2025-07-28_china-eu-trade-war.mmd`
-- Passage: **p40** — **states**, anchored on `25percent`, a literal the claim and the paragraph share
+- Passage: p40 — _proposed `abstracts`, score 0.439; unreviewed, not a citation_
 - Published: https://www.cfr.org/articles/china-also-fighting-trade-war-europe-and-winning
 - Node `setser_2025-07-28_china-eu-trade-war#R1` · level L6 · type resolved by `header`
 - Full chain: `python scripts/trace.py setser_2025-07-28_china-eu-trade-war#R1`

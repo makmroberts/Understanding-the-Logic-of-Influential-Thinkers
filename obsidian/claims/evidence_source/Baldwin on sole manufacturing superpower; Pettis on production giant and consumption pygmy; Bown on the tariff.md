@@ -29,6 +29,8 @@ tags: [type/evidence_source, level/L2, family/banner, variable/manufacturing-out
 - Article: [[2024-03-10 China's Record Manufacturing Surplus]]
 - Authored map: `mermaid_code/setser_mar_10_24.mmd`
 - Passage: **p15** — **states**, anchored on `baldwin pettis`, a literal the claim and the paragraph share
+- Passage: **p16** — **states**, anchored on `oecd`, a literal the claim and the paragraph share
+- Passage: **p29** — **states**, anchored on `oecd`, a literal the claim and the paragraph share
 - Published: https://www.cfr.org/articles/chinas-record-manufacturing-surplus
 - Node `setser_mar_10_24#E2` · level L2 · type resolved by `header`
 - Full chain: `python scripts/trace.py setser_mar_10_24#E2`
