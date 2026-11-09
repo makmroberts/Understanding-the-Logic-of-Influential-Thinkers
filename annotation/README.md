@@ -138,6 +138,16 @@ Known limits:
 | `kb/data/node_facets.csv` | `origin/main` b327459 | none; 2020-10-05 added: labelled by the official model, ingested with `label_facets.py --import-json` |
 | `kb/data/node_passages.csv` | `origin/main` b327459 | none; 2020-10-05 added with the same `link_passages.py`. Its rarity check counts every article downloaded on the machine, so a re-run elsewhere can differ in a few anchors; main's rows are kept as committed |
 
+Only what the pipeline and the vault use is copied. That includes `kb/scripts/trace.py`, which
+every vault note names; for a model-mapped claim it reports no `.mmd`, because that claim's
+record is its `annotation.json`. Not copied: main's other exports and their tools, which this
+pipeline does not run:
+- `data/aif/` and `assumptions.*`;
+- `concepts_proposed.yaml`;
+- the two `node_facets.csv.pre-*` backups;
+- `url_verification.md`;
+- the viewer and the other scripts.
+
 Changes, each marked `annotation/ tweak` in the file:
 
 - `export_obsidian.py`: note-name limit 120 → 90. One folder deeper, 120 left about 2
