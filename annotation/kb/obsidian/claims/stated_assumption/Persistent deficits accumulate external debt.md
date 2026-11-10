@@ -34,7 +34,7 @@ tags: [type/stated_assumption, level/L1, family/plain, variable/current-account,
 - Article: [[2017-12-15 Why does the U.S. trade balance still matter, even if deficits can accompany strong growth]]
 - Concept: [[deficits-require-financing]]
 - Authored map: `mermaid_code/setser_dec_15_17.mmd`
-- Passage: p33 — _proposed `abstracts`, score 0.390; unreviewed, not a citation_
+- Passage: p36 — _proposed `abstracts`, score 0.348; unreviewed, not a citation_
 - Published: https://www.cfr.org/articles/why-trade-balance-still-matters
 - Node `setser_dec_15_17#P3` · level L1 · type resolved by `class`
 - Full chain: `python scripts/trace.py setser_dec_15_17#P3`

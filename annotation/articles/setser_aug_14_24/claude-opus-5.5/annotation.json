@@ -11,16 +11,131 @@
   "publisher": "Council on Foreign Relations",
   "series": "Follow the Money",
   "source_text": {
-   "path": "kb/internal/extracted/2024-08-14_chinas-imaginary-trade-data.md",
+   "path": "internal/extracted/2024-08-14_chinas-imaginary-trade-data.md",
    "paragraph_count": 40,
-   "content_hash": "33c69bd2ce35befe"
+   "content_hash": "sha256:3184594a145fd3cc93846fa3fb9f9a519821ffa043a811d2f5adfd8ebda62fe6",
+   "revision": 1
   },
   "references": [
-   "IMF’s latest assessment of China",
-   "China’s balance of payments trade surplus diverges from China’s customs trade surplus",
-   "see Anna Wong’s paper for the Federal Reserve Board"
+   {
+    "id": "r001",
+    "paragraph_id": "p1",
+    "char_start": 31,
+    "char_end": 63,
+    "label": "IMF’s latest assessment of China",
+    "href": "https://www.imf.org/en/Publications/CR/Issues/2024/08/01/Peoples-Republic-of-China-2024-Article-IV-Consultation-Press-Release-Staff-Report-and-552803",
+    "kind": "hyperlink",
+    "placement": "body",
+    "source_key": "https://imf.org/en/publications/cr/issues/2024/08/01/peoples-republic-of-china-2024-article-iv-consultation-press-release-staff-report-and-552803",
+    "host": "imf.org",
+    "target_article_id": null
+   },
+   {
+    "id": "r002",
+    "paragraph_id": "p2",
+    "char_start": 25,
+    "char_end": 110,
+    "label": "China’s balance of payments trade surplus diverges from China’s customs trade surplus",
+    "href": "https://www.economist.com/finance-and-economics/2023/12/14/is-china-understating-its-own-export-success",
+    "kind": "hyperlink",
+    "placement": "body",
+    "source_key": "https://economist.com/finance-and-economics/2023/12/14/is-china-understating-its-own-export-success",
+    "host": "economist.com",
+    "target_article_id": null
+   },
+   {
+    "id": "r003",
+    "paragraph_id": "p40",
+    "char_start": 320,
+    "char_end": 371,
+    "label": "see Anna Wong’s paper for the Federal Reserve Board",
+    "href": "https://www.federalreserve.gov/econres/ifdp/files/ifdp1208.pdf",
+    "kind": "hyperlink",
+    "placement": "footnote",
+    "source_key": "https://federalreserve.gov/econres/ifdp/files/ifdp1208.pdf",
+    "host": "federalreserve.gov",
+    "target_article_id": null
+   }
   ],
-  "metadata_extension": {}
+  "metadata_extension": {
+   "field_sources": {
+    "title": "frontmatter",
+    "authors": "frontmatter",
+    "published_date": "frontmatter",
+    "url": "frontmatter",
+    "publisher": "frontmatter",
+    "series": "frontmatter"
+   },
+   "references_status": "preserved",
+   "links_hash": "sha256:9be12eeb8a5e3bb5c99350e14f89976b34a67c4a03f61db90dc34f5620fa9991",
+   "subtitle": "China has a new way of calculating its good surplus in its formal balance of payments data. It is a deeply misleading. It also explains the apparent fall in the current account account surplus.",
+   "published_at": "2024-08-14T17:13:55-04:00",
+   "programs": [
+    "Follow the Money",
+    "China Strategy Initiative",
+    "Greenberg Center for Geoeconomics"
+   ],
+   "source_tags": [
+    "China",
+    "Trade"
+   ],
+   "license": "CC BY-NC-ND 4.0",
+   "section": "Article",
+   "doc_type": "AnalysisNewsArticle",
+   "language": "en",
+   "word_count": 1805,
+   "date_modified": "2024-08-14",
+   "retrieved_at": "2026-10-19T20:54:52Z",
+   "page_sha256": "00e7efbc717e29f64a0de6f8b638bd8492e90de3ad17df5c35b939eabcf47593",
+   "figures": [
+    {
+     "title": "Customs v BoP Goods Surplus",
+     "src": "https://static.cfr.org/sites/default/files/styles/large_s/public/image/2024/08/Customs%20v%20BoP%20Goods%20Surplus.png",
+     "after_paragraph": "p2"
+    },
+    {
+     "title": "CUstoms goods balance fixed",
+     "src": "https://static.cfr.org/sites/default/files/styles/large_s/public/image/2024/08/CUstoms%20goods%20balance%20fixed.png",
+     "after_paragraph": "p3"
+    },
+    {
+     "title": "Discrepancy Updated",
+     "src": "https://static.cfr.org/sites/default/files/styles/large_s/public/image/2024/08/Discrepancy%20Updated.png",
+     "after_paragraph": "p21"
+    },
+    {
+     "title": "SAFE Shift",
+     "src": "https://static.cfr.org/sites/default/files/styles/large_s/public/image/2024/08/SAFE%20Shift.png",
+     "after_paragraph": "p23"
+    },
+    {
+     "title": "BoP Estimate  imp exp",
+     "src": "https://static.cfr.org/sites/default/files/styles/large_s/public/image/2024/08/BoP%20Estimate%20%20imp%20exp_0.png",
+     "after_paragraph": "p24"
+    },
+    {
+     "title": "China estimated surplus three lines",
+     "src": "https://static.cfr.org/sites/default/files/styles/large_s/public/image/2024/08/China%20estimated%20surplus%20three%20lines.png",
+     "after_paragraph": "p29"
+    },
+    {
+     "title": "Large creditors interest income",
+     "src": "https://static.cfr.org/sites/default/files/styles/large_s/public/image/2024/08/Large%20creditors%20interest%20income.png",
+     "after_paragraph": "p34"
+    },
+    {
+     "title": "China investment income balance",
+     "src": "https://static.cfr.org/sites/default/files/styles/large_s/public/image/2024/08/China%20investment%20income%20balance.png",
+     "after_paragraph": "p35"
+    },
+    {
+     "title": "Goods v Manuf.",
+     "src": "https://static.cfr.org/sites/default/files/styles/large_s/public/image/2024/08/Goods%20v%20Manuf..png",
+     "after_paragraph": "p36"
+    }
+   ],
+   "source_record": "chinas-imaginary-trade-data"
+  }
  },
  "annotation": {
   "annotated_at": "2026-11-09T21:12:40+00:00",

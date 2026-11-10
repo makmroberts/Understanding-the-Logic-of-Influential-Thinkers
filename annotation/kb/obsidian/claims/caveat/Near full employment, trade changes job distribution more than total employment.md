@@ -27,7 +27,7 @@ _Employment caveat_
 ## Source
 - Article: [[2017-12-15 Why does the U.S. trade balance still matter, even if deficits can accompany strong growth]]
 - Authored map: `mermaid_code/setser_dec_15_17.mmd`
-- Passage: p23 — _proposed `abstracts`, score 0.653; unreviewed, not a citation_
+- Passage: p26 — _proposed `abstracts`, score 0.644; unreviewed, not a citation_
 - Published: https://www.cfr.org/articles/why-trade-balance-still-matters
 - Node `setser_dec_15_17#QF2` · level L6 · type resolved by `l6_keyword` — **inferred**, not read from the map
 - Full chain: `python scripts/trace.py setser_dec_15_17#QF2`

@@ -11,14 +11,84 @@
   "publisher": "Council on Foreign Relations",
   "series": "Follow the Money",
   "source_text": {
-   "path": "kb/internal/extracted/2025-09-12_trump-shock-wasnt-least-not-yet.md",
+   "path": "internal/extracted/2025-09-12_trump-shock-wasnt-least-not-yet.md",
    "paragraph_count": 31,
-   "content_hash": "cf0b995e733f7053"
+   "content_hash": "sha256:ea43515962eb7816ee5fd66d4cc531ffe09acf7aab2e64cc167954dd1fffacc4",
+   "revision": 1
   },
   "references": [
-   "They have generated enormous volatility"
+   {
+    "id": "r001",
+    "paragraph_id": "p2",
+    "char_start": 0,
+    "char_end": 39,
+    "label": "They have generated enormous volatility",
+    "href": "https://www.nytimes.com/2025/09/04/business/economy/us-trade-imports-tariffs.html",
+    "kind": "hyperlink",
+    "placement": "body",
+    "source_key": "https://nytimes.com/2025/09/04/business/economy/us-trade-imports-tariffs.html",
+    "host": "nytimes.com",
+    "target_article_id": null
+   }
   ],
-  "metadata_extension": {}
+  "metadata_extension": {
+   "field_sources": {
+    "title": "frontmatter",
+    "authors": "frontmatter",
+    "published_date": "frontmatter",
+    "url": "frontmatter",
+    "publisher": "frontmatter",
+    "series": "frontmatter"
+   },
+   "references_status": "preserved",
+   "links_hash": "sha256:96bafc13035aa679c703594e89d92e3db17edfca64f14093733d606cbb8ea6dc",
+   "subtitle": "The “core” U.S. trade deficit is still expanding, thanks to strong electronics imports.",
+   "published_at": "2025-09-12T11:11:21-04:00",
+   "programs": [
+    "Follow the Money",
+    "Greenberg Center for Geoeconomics"
+   ],
+   "source_tags": [
+    "Economics",
+    "Trade"
+   ],
+   "license": "CC BY-NC-ND 4.0",
+   "section": "Article",
+   "doc_type": "AnalysisNewsArticle",
+   "language": "en",
+   "word_count": 1009,
+   "date_modified": "2025-09-12",
+   "retrieved_at": "2026-10-19T20:54:52Z",
+   "page_sha256": "5aa7087e3e0e26ae55acaf2dc6a5d2ad582f9a2c0bde976763b11b5c617fbfd2",
+   "figures": [
+    {
+     "title": "Imp-Exp gold pharma non 12m sum",
+     "src": "https://static.cfr.org/sites/default/files/styles/large_s/public/image/2025/09/Imp-Exp%20gold%20pharma%20non%2012m%20sum_1.png",
+     "after_paragraph": "p2"
+    },
+    {
+     "title": "Annualized Deficit",
+     "src": "https://static.cfr.org/sites/default/files/styles/large_s/public/image/2025/09/Annualized%20Deficit.png",
+     "after_paragraph": "p11"
+    },
+    {
+     "title": "Imp-Exp Gold Pharma",
+     "src": "https://static.cfr.org/sites/default/files/styles/large_s/public/image/2025/09/Imp-Exp%20Gold%20Pharma.png",
+     "after_paragraph": "p13"
+    },
+    {
+     "title": "Imports china taiwan",
+     "src": "https://static.cfr.org/sites/default/files/styles/large_s/public/image/2025/09/Imports%20china%20taiwan.png",
+     "after_paragraph": "p14"
+    },
+    {
+     "title": "Dutch Trade Chart",
+     "src": "https://static.cfr.org/sites/default/files/styles/large_s/public/image/2025/09/Dutch%20Trade%20Chart.png",
+     "after_paragraph": "p27"
+    }
+   ],
+   "source_record": "trump-shock-wasnt-least-not-yet"
+  }
  },
  "annotation": {
   "annotated_at": "2026-11-09T21:12:02+00:00",

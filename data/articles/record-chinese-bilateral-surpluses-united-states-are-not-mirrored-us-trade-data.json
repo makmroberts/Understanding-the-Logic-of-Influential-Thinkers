@@ -1,0 +1,340 @@
+{
+  "schema_version": "source-record-0.1",
+  "article": {
+    "id": "record-chinese-bilateral-surpluses-united-states-are-not-mirrored-us-trade-data",
+    "title": "Record Chinese Bilateral Surpluses With the United States Are Not Mirrored in the U.S. Trade Data",
+    "authors": [
+      "Brad W. Setser"
+    ],
+    "published_date": "2020-10-05",
+    "url": "https://www.cfr.org/articles/record-chinese-bilateral-surpluses-united-states-are-not-mirrored-us-trade-data",
+    "publisher": "Council on Foreign Relations",
+    "series": "Follow the Money",
+    "source_text": {
+      "path": "internal/extracted/2020-10-05_record-chinese-bilateral-surpluses-united-states-are-not-mirrored-us-trade-data.md",
+      "paragraph_count": 29,
+      "content_hash": "sha256:6bc919c41bc4739ffe9ab6a7403eb429c593989055ef6cb71a58d73c3acca95c",
+      "revision": 1
+    },
+    "references": [
+      {
+        "id": "r001",
+        "paragraph_id": "p6",
+        "char_start": 412,
+        "char_end": 426,
+        "label": "this 2018 blog",
+        "href": "https://www.cfr.org/articles/right-and-wrong-ways-adjust-us-china-trade-balance",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://cfr.org/articles/right-and-wrong-ways-adjust-us-china-trade-balance",
+        "host": "cfr.org",
+        "target_article_id": null
+      },
+      {
+        "id": "r002",
+        "paragraph_id": "p27",
+        "char_start": 529,
+        "char_end": 538,
+        "label": "it wasn’t",
+        "href": "https://www.cfr.org/articles/chinas-ever-more-mysterious-tourism-numbers",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://cfr.org/articles/chinas-ever-more-mysterious-tourism-numbers",
+        "host": "cfr.org",
+        "target_article_id": null
+      },
+      {
+        "id": "r003",
+        "paragraph_id": "p27",
+        "char_start": 577,
+        "char_end": 586,
+        "label": "Fed paper",
+        "href": "https://www.federalreserve.gov/econres/ifdp/files/ifdp1208.pdf",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://federalreserve.gov/econres/ifdp/files/ifdp1208.pdf",
+        "host": "federalreserve.gov",
+        "target_article_id": null
+      },
+      {
+        "id": "r004",
+        "paragraph_id": "p29",
+        "char_start": 57,
+        "char_end": 93,
+        "label": "I am supporting Vice President Biden",
+        "href": "https://www.cfr.org/experts/brad-w-setser#:~:text=Expert%20Bio,the%20management%20of%20financial%20crises.",
+        "kind": "hyperlink",
+        "placement": "footnote",
+        "source_key": "https://cfr.org/experts/brad-w-setser",
+        "host": "cfr.org",
+        "target_article_id": null
+      }
+    ],
+    "metadata_extension": {
+      "field_sources": {
+        "title": "frontmatter",
+        "authors": "frontmatter",
+        "published_date": "frontmatter",
+        "url": "frontmatter",
+        "publisher": "frontmatter",
+        "series": "frontmatter"
+      },
+      "references_status": "preserved",
+      "links_hash": "sha256:90190476eac6c7792e261d0f66ab152bd82b250e8e58f31a26361767f3c7304f",
+      "subtitle": "Is China’s surplus with the United States back at a record level? It depends. In China’s data, China’s exports to the United States and its surplus with the United States are at all-time highs. The United States’ import data, however, shows fewer imports from China than China reports exports—which is interesting, because the norm has long been the other way around.",
+      "published_at": "2020-10-05T15:00:00-04:00",
+      "programs": [
+        "Follow the Money"
+      ],
+      "source_tags": [
+        "China"
+      ],
+      "license": "CC BY-NC-ND 4.0",
+      "section": "Article",
+      "doc_type": "AnalysisNewsArticle",
+      "language": "en",
+      "word_count": 1045,
+      "date_modified": "2020-10-05",
+      "retrieved_at": "2026-11-10T23:28:56Z",
+      "page_sha256": "2ccc5846033b04da77b2addf907aef1f628c9c369275e8e6736fcf57b55773be",
+      "figures": [
+        {
+          "title": "graph-1",
+          "src": "https://static.cfr.org/sites/default/files/styles/large_s/public/image/2020/10/graph-1.png",
+          "after_paragraph": "p9"
+        },
+        {
+          "title": "graph-2",
+          "src": "https://static.cfr.org/sites/default/files/styles/large_s/public/image/2020/10/graph-2.png",
+          "after_paragraph": "p10"
+        },
+        {
+          "title": "graph-3",
+          "src": "https://static.cfr.org/sites/default/files/styles/large_s/public/image/2020/10/graph-3_0.png",
+          "after_paragraph": "p15"
+        },
+        {
+          "title": "graph-4",
+          "src": "https://static.cfr.org/sites/default/files/styles/large_s/public/image/2020/10/graph-4.png",
+          "after_paragraph": "p16"
+        },
+        {
+          "title": "graph-5",
+          "src": "https://static.cfr.org/sites/default/files/styles/large_s/public/image/2020/10/graph-5.png",
+          "after_paragraph": "p18"
+        },
+        {
+          "title": "graph-6",
+          "src": "https://static.cfr.org/sites/default/files/styles/large_s/public/image/2020/10/graph-6.png",
+          "after_paragraph": "p19"
+        }
+      ]
+    }
+  },
+  "paragraphs": [
+    {
+      "id": "p1",
+      "sha256": "sha256:34cf7aadd55a05b4190021d6bea53e8e5b83cf17722fb9a8422bcd94a3bc4bae",
+      "n_chars": 66
+    },
+    {
+      "id": "p2",
+      "sha256": "sha256:963b963d3c6dd7982c9662a8aeceff7e3d7d403473caee21e49c0c4c7820ec83",
+      "n_chars": 106
+    },
+    {
+      "id": "p3",
+      "sha256": "sha256:ff5ff5f2220346cd37a7b2a7edc3e17d1c682d7f6825b42ae9930143802297e3",
+      "n_chars": 86
+    },
+    {
+      "id": "p4",
+      "sha256": "sha256:3229e2d606aeb8f5098095347604fdc4ec9d1f63a863da74c90f9befe01f432d",
+      "n_chars": 168
+    },
+    {
+      "id": "p5",
+      "sha256": "sha256:7eb0d36929e4c7f1defe9ec98d5f92e320e245f0156cbe2f1f9dfea349ce230c",
+      "n_chars": 134
+    },
+    {
+      "id": "p6",
+      "sha256": "sha256:098c7df05ea3975cf87279b9cbba425eaa3e5943175e8ce5efa5dd3d1efd7769",
+      "n_chars": 500
+    },
+    {
+      "id": "p7",
+      "sha256": "sha256:10e8a107f7490a9f3f88ccc148bf9291fa24095ff3a21e56ac66324c0c43774d",
+      "n_chars": 144
+    },
+    {
+      "id": "p8",
+      "sha256": "sha256:6c95fb69bca51be26f91a31a6ceacd5bc05392de7a6006b27e395ea1fb7f5d0f",
+      "n_chars": 53
+    },
+    {
+      "id": "p9",
+      "sha256": "sha256:ca5e999917fb8d6450384adcad3043947e9bc381a40df3929f9c68a13c4ee44b",
+      "n_chars": 176
+    },
+    {
+      "id": "p10",
+      "sha256": "sha256:608344a61c4b9652843268503ea1c3955872d6bc494e909ace4727896f8f7eed",
+      "n_chars": 148
+    },
+    {
+      "id": "p11",
+      "sha256": "sha256:ff27a8453c4e9d11f5a93a5bd431b81ac2818ec0b6113780087e7eb165a95af4",
+      "n_chars": 319
+    },
+    {
+      "id": "p12",
+      "sha256": "sha256:93bb86a8de39a4a1513b09e1350263c91964e57f71e2c1adc350be8f8cd9de6e",
+      "n_chars": 37
+    },
+    {
+      "id": "p13",
+      "sha256": "sha256:7a5494677043cc1c39047a249b5d32f364bb82e7fb66fde4f1654ca6bcc4008a",
+      "n_chars": 458
+    },
+    {
+      "id": "p14",
+      "sha256": "sha256:0868342c6f703603cb22ee262fc824d66b0e6d916225ddc7917afc520eed0953",
+      "n_chars": 215
+    },
+    {
+      "id": "p15",
+      "sha256": "sha256:bf56079fdea0794bfd12839e58e94eaf797dba303eefff819c221f075ae84cfa",
+      "n_chars": 197
+    },
+    {
+      "id": "p16",
+      "sha256": "sha256:87a13dd87944762badbe1879fb3208d7e96b75dbbd7a6665b0c8d7305336beca",
+      "n_chars": 193
+    },
+    {
+      "id": "p17",
+      "sha256": "sha256:0bc5b2d14eaac21700b5bb1aa9e2b92aed1ccaea0febb2738978b7635549b2f7",
+      "n_chars": 85
+    },
+    {
+      "id": "p18",
+      "sha256": "sha256:e73ebbdb1eec7bc4292aba3e4a7748774c3e27661c81aa78cd5d91eebdba8217",
+      "n_chars": 203
+    },
+    {
+      "id": "p19",
+      "sha256": "sha256:c25ef58f1ba34e57db71c9a923330ca5e6f7c8dd9ebd49f166ded1f8f920fa59",
+      "n_chars": 112
+    },
+    {
+      "id": "p20",
+      "sha256": "sha256:545754c80c60b0f02833cc0217b14862149e7d4c521a1962e73dad61e7f27f87",
+      "n_chars": 559
+    },
+    {
+      "id": "p21",
+      "sha256": "sha256:6b34e298521342461b41eee028775d83d00514989e5c63e0e804328fad6312f1",
+      "n_chars": 158
+    },
+    {
+      "id": "p22",
+      "sha256": "sha256:3dc793b13ccde49553b9cab5e679680aa8d299a382f699a131a3f6327c2af7fb",
+      "n_chars": 70
+    },
+    {
+      "id": "p23",
+      "sha256": "sha256:6fa40ba26ef34e03a0b227f9d5625cd940ce8004246cba899594920e71f92898",
+      "n_chars": 43
+    },
+    {
+      "id": "p24",
+      "sha256": "sha256:5c030f3d70649bcd8c7a52d2deee6aa03cba99dabd66680aeb23613edb471a71",
+      "n_chars": 184
+    },
+    {
+      "id": "p25",
+      "sha256": "sha256:64156f5c61e13732bdbd88b1c49969e91121196f016127dbec4223211353b960",
+      "n_chars": 353
+    },
+    {
+      "id": "p26",
+      "sha256": "sha256:c99d7f34fb32429e3cfd380e7aa74f7cf46d3503411bd70f17ed9ee527ff4b8c",
+      "n_chars": 87
+    },
+    {
+      "id": "p27",
+      "sha256": "sha256:56f80c5edee8596be7318d34cbf6f111f3c1b6543698e0bf80cbbf8678c0149b",
+      "n_chars": 707
+    },
+    {
+      "id": "p28",
+      "sha256": "sha256:796d09c6abd485a36a734c4ce5517b200854d741e1e9e59659493927f1dadb6f",
+      "n_chars": 286
+    },
+    {
+      "id": "p29",
+      "sha256": "sha256:72d565a6c273521ff18c0723d045f47a23ea0762077d3959c1393736f13ae0c9",
+      "n_chars": 94
+    }
+  ],
+  "revisions": [
+    {
+      "content_hash": "sha256:6bc919c41bc4739ffe9ab6a7403eb429c593989055ef6cb71a58d73c3acca95c",
+      "links_hash": "sha256:90190476eac6c7792e261d0f66ab152bd82b250e8e58f31a26361767f3c7304f",
+      "paragraph_count": 29,
+      "retrieved_at": "2026-11-10T23:28:56Z",
+      "revision": 1,
+      "changed_paragraphs": []
+    }
+  ],
+  "extensions": {
+    "entities": [
+      {
+        "entity_id": null,
+        "type": "person",
+        "name": "Brad W. Setser",
+        "role": "author"
+      },
+      {
+        "entity_id": null,
+        "type": "organization",
+        "name": "Council on Foreign Relations",
+        "role": "publisher"
+      }
+    ],
+    "cited_sources": [
+      {
+        "source_key": "https://cfr.org/articles/right-and-wrong-ways-adjust-us-china-trade-balance",
+        "host": "cfr.org",
+        "reference_ids": [
+          "r001"
+        ]
+      },
+      {
+        "source_key": "https://cfr.org/articles/chinas-ever-more-mysterious-tourism-numbers",
+        "host": "cfr.org",
+        "reference_ids": [
+          "r002"
+        ]
+      },
+      {
+        "source_key": "https://federalreserve.gov/econres/ifdp/files/ifdp1208.pdf",
+        "host": "federalreserve.gov",
+        "reference_ids": [
+          "r003"
+        ]
+      },
+      {
+        "source_key": "https://cfr.org/experts/brad-w-setser",
+        "host": "cfr.org",
+        "reference_ids": [
+          "r004"
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "flags": []
+  }
+}

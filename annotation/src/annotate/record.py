@@ -25,7 +25,9 @@ def second_opinion(a: Article, boxes: list[dict]) -> list[dict]:
     Its inputs and outputs are module-level paths, so they are pointed at a scratch folder
     for the run; the team's data/ files are not touched."""
     lp = (kb_scripts(), __import__("link_passages"))[1]
-    with tempfile.TemporaryDirectory(dir=path("kb") / "internal") as tmp:
+    scratch = path("kb") / "internal"             # gitignored; the linker reports paths under kb/
+    scratch.mkdir(exist_ok=True)
+    with tempfile.TemporaryDirectory(dir=scratch) as tmp:
         tmp = Path(tmp)
         nodes, urls = tmp / "nodes.csv", tmp / "urls.yaml"
         with nodes.open("w", newline="", encoding="utf-8") as fh:
@@ -35,15 +37,16 @@ def second_opinion(a: Article, boxes: list[dict]) -> list[dict]:
                 w.writerow({"doc": a.doc, "node_id": b["id"], "type": b["role"],
                             "header": ontology().roles[b["role"]]["name"], "text": b["claim"]})
         urls.write_text(yaml.safe_dump({"urls": {a.doc: {"url": a.url}}}), encoding="utf-8")
-        saved = (lp.NODES, lp.URL_MAP, lp.OUT_CSV, lp.OUT_MD, lp.REVIEW, sys.argv)
+        saved = (lp.NODES, lp.URL_MAP, lp.OUT_CSV, lp.OUT_MD, lp.REVIEW, lp.EXTRACTED, sys.argv)
         lp.NODES, lp.URL_MAP, lp.OUT_CSV, lp.OUT_MD = nodes, urls, tmp / "out.csv", tmp / "out.md"
+        lp.EXTRACTED = path("extracted")       # the same text the boxes were cited against
         lp.REVIEW = tmp / "no_review.yaml"     # hand verdicts are about the hand boxes, not ours
         sys.argv = ["link_passages.py", "--docs", a.doc]
         try:
             with contextlib.redirect_stdout(io.StringIO()):     # its progress report
                 lp.main()
         finally:
-            lp.NODES, lp.URL_MAP, lp.OUT_CSV, lp.OUT_MD, lp.REVIEW, sys.argv = saved
+            lp.NODES, lp.URL_MAP, lp.OUT_CSV, lp.OUT_MD, lp.REVIEW, lp.EXTRACTED, sys.argv = saved
         with (tmp / "out.csv").open(encoding="utf-8") as fh:
             return list(csv.DictReader(fh))
 
@@ -144,12 +147,7 @@ def build(a: Article, run: str, models: dict, params: dict, boxes: list[dict], l
     fy = yaml.safe_load((kb_scripts() / "facets.yaml").read_text(encoding="utf-8"))
     return {
         "schema_version": "0.1-draft",
-        "article": {"id": a.doc, "title": a.title, "authors": a.authors,
-                    "published_date": a.date, "url": a.url, "publisher": a.publisher,
-                    "series": a.series,
-                    "source_text": {"path": a.file.relative_to(ROOT).as_posix() if a.file else None,
-                                    "paragraph_count": len(a.paras), "content_hash": a.body_sha},
-                    "references": a.references, "metadata_extension": {}},
+        "article": article_block(a.doc, a.record),
         "annotation": {"annotated_at": now,
                        "ontology": {"id": ont.spec["id"], "version": ont.spec["version"]},
                        "facets_version": fy.get("version"), "pipeline_version": _git_version(),
@@ -162,6 +160,17 @@ def build(a: Article, run: str, models: dict, params: dict, boxes: list[dict], l
                        "review_items": items},
         "extensions": {},
     }
+
+
+def article_block(doc: str, record: dict) -> dict:
+    """The annotation's `article` block: the metadata record's, unchanged, except `id`.
+
+    `id` stays the knowledge base's document key, which the hand-drawn maps also use.
+    The record's own ID is kept in `metadata_extension.source_record`."""
+    meta = record["article"]
+    return {**meta, "id": doc,
+            "metadata_extension": {**meta.get("metadata_extension", {}),
+                                   "source_record": meta["id"]}}
 
 
 def passage_relation(b: dict, k: int) -> str:

@@ -11,37 +11,415 @@
   "publisher": "Council on Foreign Relations",
   "series": "Follow the Money",
   "source_text": {
-   "path": "kb/internal/extracted/2020-01-31_lessons-phase-one-trade-war-china.md",
+   "path": "internal/extracted/2020-01-31_lessons-phase-one-trade-war-china.md",
    "paragraph_count": 30,
-   "content_hash": "b71e24af72b5f857"
+   "content_hash": "sha256:01f9c1a3ac2608b4afc286ed5b7b96ab2372d70ad1c470c1f9696c7ae22c185c",
+   "revision": 2
   },
   "references": [
-   "trade deal signed",
-   "their coming book",
-   "views these programs",
-   "guarantees future trade conflict",
-   "though not necessarily",
-   "WTO illegal",
-   "bigger problems right now",
-   "aren’t going to have a huge impact on its 2020 imports",
-   "creating a synthetic T-bill",
-   "my friend Ramin Toloui",
-   "yield curve control",
-   "China’s overall imports of manufactures",
-   "the text of the deal",
-   "chicken paws",
-   "distillers dried grain",
-   "nuts",
-   "lobsters",
-   "unambiguous evidence of an impact",
-   "United States is exporting beans to Argentina",
-   "Brazil’s harvest",
-   "Trump’s strategy of managed trade",
-   "China’s state can take away",
-   "the conventional approach",
-   "indigenous innovation procurement"
+   {
+    "id": "r001",
+    "paragraph_id": "p1",
+    "char_start": 19,
+    "char_end": 36,
+    "label": "trade deal signed",
+    "href": "https://www.nytimes.com/2020/01/15/business/economy/china-trade-deal.html",
+    "kind": "hyperlink",
+    "placement": "body",
+    "source_key": "https://nytimes.com/2020/01/15/business/economy/china-trade-deal.html",
+    "host": "nytimes.com",
+    "target_article_id": null
+   },
+   {
+    "id": "r002",
+    "paragraph_id": "p3",
+    "char_start": 254,
+    "char_end": 271,
+    "label": "their coming book",
+    "href": "https://www.harpercollins.com/9780062953056/superpower-showdown/",
+    "kind": "hyperlink",
+    "placement": "body",
+    "source_key": "https://harpercollins.com/9780062953056/superpower-showdown",
+    "host": "harpercollins.com",
+    "target_article_id": null
+   },
+   {
+    "id": "r003",
+    "paragraph_id": "p4",
+    "char_start": 43,
+    "char_end": 63,
+    "label": "views these programs",
+    "href": "https://www.sbc.senate.gov/public/_cache/files/3/b/3bd85987-d8b4-48b3-a53e-8b49d2060821/4E39BD152B9F358A5E4254D80A512D8B.setser-testimony.pdf",
+    "kind": "hyperlink",
+    "placement": "body",
+    "source_key": "https://sbc.senate.gov/public/_cache/files/3/b/3bd85987-d8b4-48b3-a53e-8b49d2060821/4e39bd152b9f358a5e4254d80a512d8b.setser-testimony.pdf",
+    "host": "sbc.senate.gov",
+    "target_article_id": null
+   },
+   {
+    "id": "r004",
+    "paragraph_id": "p4",
+    "char_start": 268,
+    "char_end": 300,
+    "label": "guarantees future trade conflict",
+    "href": "https://www.nytimes.com/2020/01/16/business/us-china-trade.html",
+    "kind": "hyperlink",
+    "placement": "body",
+    "source_key": "https://nytimes.com/2020/01/16/business/us-china-trade.html",
+    "host": "nytimes.com",
+    "target_article_id": null
+   },
+   {
+    "id": "r005",
+    "paragraph_id": "p4",
+    "char_start": 502,
+    "char_end": 524,
+    "label": "though not necessarily",
+    "href": "https://www.cfr.org/articles/us-china-trade-war-how-we-got-here",
+    "kind": "hyperlink",
+    "placement": "body",
+    "source_key": "https://cfr.org/articles/us-china-trade-war-how-we-got-here",
+    "host": "cfr.org",
+    "target_article_id": null
+   },
+   {
+    "id": "r006",
+    "paragraph_id": "p4",
+    "char_start": 525,
+    "char_end": 536,
+    "label": "WTO illegal",
+    "href": "https://www.uscc.gov/sites/default/files/Hillman%20Testimony%20US%20China%20Comm%20w%20Appendix%20A.pdf",
+    "kind": "hyperlink",
+    "placement": "body",
+    "source_key": "https://uscc.gov/sites/default/files/hillman%20testimony%20us%20china%20comm%20w%20appendix%20a.pdf",
+    "host": "uscc.gov",
+    "target_article_id": null
+   },
+   {
+    "id": "r007",
+    "paragraph_id": "p4",
+    "char_start": 935,
+    "char_end": 960,
+    "label": "bigger problems right now",
+    "href": "https://www.wsj.com/articles/boeing-falls-to-full-year-loss-11580302091",
+    "kind": "hyperlink",
+    "placement": "body",
+    "source_key": "https://wsj.com/articles/boeing-falls-to-full-year-loss-11580302091",
+    "host": "wsj.com",
+    "target_article_id": null
+   },
+   {
+    "id": "r008",
+    "paragraph_id": "p4",
+    "char_start": 1101,
+    "char_end": 1155,
+    "label": "aren’t going to have a huge impact on its 2020 imports",
+    "href": "https://www.wsj.com/articles/the-great-u-s-china-tech-divide-11579542441?mod=searchresults&page=1&pos=12",
+    "kind": "hyperlink",
+    "placement": "body",
+    "source_key": "https://wsj.com/articles/the-great-u-s-china-tech-divide-11579542441",
+    "host": "wsj.com",
+    "target_article_id": null
+   },
+   {
+    "id": "r009",
+    "paragraph_id": "p10",
+    "char_start": 502,
+    "char_end": 529,
+    "label": "creating a synthetic T-bill",
+    "href": "https://www.wsj.com/articles/the-dollar-is-even-more-important-than-you-know-11578307908",
+    "kind": "hyperlink",
+    "placement": "body",
+    "source_key": "https://wsj.com/articles/the-dollar-is-even-more-important-than-you-know-11578307908",
+    "host": "wsj.com",
+    "target_article_id": null
+   },
+   {
+    "id": "r010",
+    "paragraph_id": "p11",
+    "char_start": 119,
+    "char_end": 141,
+    "label": "my friend Ramin Toloui",
+    "href": "https://siepr.stanford.edu/sites/default/files/publications/19-032.pdf",
+    "kind": "hyperlink",
+    "placement": "body",
+    "source_key": "https://siepr.stanford.edu/sites/default/files/publications/19-032.pdf",
+    "host": "siepr.stanford.edu",
+    "target_article_id": null
+   },
+   {
+    "id": "r011",
+    "paragraph_id": "p11",
+    "char_start": 147,
+    "char_end": 166,
+    "label": "yield curve control",
+    "href": "https://www.bloomberg.com/opinion/articles/2019-12-06/federal-reserve-considers-manipulating-bond-yields",
+    "kind": "hyperlink",
+    "placement": "body",
+    "source_key": "https://bloomberg.com/opinion/articles/2019-12-06/federal-reserve-considers-manipulating-bond-yields",
+    "host": "bloomberg.com",
+    "target_article_id": null
+   },
+   {
+    "id": "r012",
+    "paragraph_id": "p13",
+    "char_start": 208,
+    "char_end": 247,
+    "label": "China’s overall imports of manufactures",
+    "href": "https://www.cfr.org/articles/china-more-trump-has-been-driving-slowdown-global-trade",
+    "kind": "hyperlink",
+    "placement": "body",
+    "source_key": "https://cfr.org/articles/china-more-trump-has-been-driving-slowdown-global-trade",
+    "host": "cfr.org",
+    "target_article_id": null
+   },
+   {
+    "id": "r013",
+    "paragraph_id": "p18",
+    "char_start": 102,
+    "char_end": 122,
+    "label": "the text of the deal",
+    "href": "https://ustr.gov/countries-regions/china-mongolia-taiwan/peoples-republic-china/phase-one-trade-agreement/text",
+    "kind": "hyperlink",
+    "placement": "body",
+    "source_key": "https://ustr.gov/countries-regions/china-mongolia-taiwan/peoples-republic-china/phase-one-trade-agreement/text",
+    "host": "ustr.gov",
+    "target_article_id": null
+   },
+   {
+    "id": "r014",
+    "paragraph_id": "p22",
+    "char_start": 153,
+    "char_end": 165,
+    "label": "chicken paws",
+    "href": "https://www.cfr.org/articles/chicken-feet-and-china-back-future",
+    "kind": "hyperlink",
+    "placement": "body",
+    "source_key": "https://cfr.org/articles/chicken-feet-and-china-back-future",
+    "host": "cfr.org",
+    "target_article_id": null
+   },
+   {
+    "id": "r015",
+    "paragraph_id": "p22",
+    "char_start": 169,
+    "char_end": 191,
+    "label": "distillers dried grain",
+    "href": "https://news.bloomberglaw.com/international-trade/china-keeps-tariffs-on-u-s-distillers-grain-before-g-20-meeting",
+    "kind": "hyperlink",
+    "placement": "body",
+    "source_key": "https://news.bloomberglaw.com/international-trade/china-keeps-tariffs-on-u-s-distillers-grain-before-g-20-meeting",
+    "host": "news.bloomberglaw.com",
+    "target_article_id": null
+   },
+   {
+    "id": "r016",
+    "paragraph_id": "p22",
+    "char_start": 206,
+    "char_end": 210,
+    "label": "nuts",
+    "href": "https://www.thehindubusinessline.com/economy/agri-business/by-buying-us-almonds-and-pecans-china-may-crack-the-hard-trade-deal-nut/article30397060.ece",
+    "kind": "hyperlink",
+    "placement": "body",
+    "source_key": "https://thehindubusinessline.com/economy/agri-business/by-buying-us-almonds-and-pecans-china-may-crack-the-hard-trade-deal-nut/article30397060.ece",
+    "host": "thehindubusinessline.com",
+    "target_article_id": null
+   },
+   {
+    "id": "r017",
+    "paragraph_id": "p22",
+    "char_start": 215,
+    "char_end": 223,
+    "label": "lobsters",
+    "href": "https://www.nytimes.com/2018/06/22/us/politics/donald-trump-tariffs-trade-war.html",
+    "kind": "hyperlink",
+    "placement": "body",
+    "source_key": "https://nytimes.com/2018/06/22/us/politics/donald-trump-tariffs-trade-war.html",
+    "host": "nytimes.com",
+    "target_article_id": null
+   },
+   {
+    "id": "r018",
+    "paragraph_id": "p23",
+    "char_start": 477,
+    "char_end": 510,
+    "label": "unambiguous evidence of an impact",
+    "href": "https://www.cfr.org/articles/soybeans",
+    "kind": "hyperlink",
+    "placement": "body",
+    "source_key": "https://cfr.org/articles/soybeans",
+    "host": "cfr.org",
+    "target_article_id": null
+   },
+   {
+    "id": "r019",
+    "paragraph_id": "p23",
+    "char_start": 585,
+    "char_end": 630,
+    "label": "United States is exporting beans to Argentina",
+    "href": "https://www.reuters.com/article/us-g20-argentina-grains-insight/spoils-of-trade-war-argentina-loads-up-on-cheap-u-s-soybeans-idUSKCN1NZ0HC",
+    "kind": "hyperlink",
+    "placement": "body",
+    "source_key": "https://reuters.com/article/us-g20-argentina-grains-insight/spoils-of-trade-war-argentina-loads-up-on-cheap-u-s-soybeans-iduskcn1nz0hc",
+    "host": "reuters.com",
+    "target_article_id": null
+   },
+   {
+    "id": "r020",
+    "paragraph_id": "p23",
+    "char_start": 812,
+    "char_end": 828,
+    "label": "Brazil’s harvest",
+    "href": "https://www.ocj.com/2020/01/brazil-headed-for-a-bumper-soy-crop-amid-us-china-deal/",
+    "kind": "hyperlink",
+    "placement": "body",
+    "source_key": "https://ocj.com/2020/01/brazil-headed-for-a-bumper-soy-crop-amid-us-china-deal",
+    "host": "ocj.com",
+    "target_article_id": null
+   },
+   {
+    "id": "r021",
+    "paragraph_id": "p26",
+    "char_start": 40,
+    "char_end": 73,
+    "label": "Trump’s strategy of managed trade",
+    "href": "https://www.economist.com/finance-and-economics/2020/01/25/the-costs-of-americas-lurch-towards-managed-trade",
+    "kind": "hyperlink",
+    "placement": "body",
+    "source_key": "https://economist.com/finance-and-economics/2020/01/25/the-costs-of-americas-lurch-towards-managed-trade",
+    "host": "economist.com",
+    "target_article_id": null
+   },
+   {
+    "id": "r022",
+    "paragraph_id": "p27",
+    "char_start": 26,
+    "char_end": 53,
+    "label": "China’s state can take away",
+    "href": "https://www.cfr.org/articles/china-never-stopped-managing-its-trade",
+    "kind": "hyperlink",
+    "placement": "body",
+    "source_key": "https://cfr.org/articles/china-never-stopped-managing-its-trade",
+    "host": "cfr.org",
+    "target_article_id": "china-never-stopped-managing-its-trade"
+   },
+   {
+    "id": "r023",
+    "paragraph_id": "p30",
+    "char_start": 16,
+    "char_end": 35,
+    "label": "Economist’s article",
+    "href": "https://www.economist.com/finance-and-economics/2020/01/25/the-costs-of-americas-lurch-towards-managed-trade",
+    "kind": "hyperlink",
+    "placement": "footnote",
+    "source_key": "https://economist.com/finance-and-economics/2020/01/25/the-costs-of-americas-lurch-towards-managed-trade",
+    "host": "economist.com",
+    "target_article_id": null
+   },
+   {
+    "id": "r024",
+    "paragraph_id": "p30",
+    "char_start": 368,
+    "char_end": 393,
+    "label": "the conventional approach",
+    "href": "https://www.csis.org/analysis/does-phase-one-china-deal-measure-depends-how-you-measure",
+    "kind": "hyperlink",
+    "placement": "footnote",
+    "source_key": "https://csis.org/analysis/does-phase-one-china-deal-measure-depends-how-you-measure",
+    "host": "csis.org",
+    "target_article_id": null
+   },
+   {
+    "id": "r025",
+    "paragraph_id": "p30",
+    "char_start": 517,
+    "char_end": 550,
+    "label": "indigenous innovation procurement",
+    "href": "https://www.chinalawinsight.com/2010/09/articles/intellectual-property/chinas-indigenous-innovation-policy-and-its-effect-on-foreign-intellectual-property-rights-holders/",
+    "kind": "hyperlink",
+    "placement": "footnote",
+    "source_key": "https://chinalawinsight.com/2010/09/articles/intellectual-property/chinas-indigenous-innovation-policy-and-its-effect-on-foreign-intellectual-property-rights-holders",
+    "host": "chinalawinsight.com",
+    "target_article_id": null
+   }
   ],
-  "metadata_extension": {}
+  "metadata_extension": {
+   "field_sources": {
+    "title": "frontmatter",
+    "authors": "frontmatter",
+    "published_date": "frontmatter",
+    "url": "frontmatter",
+    "publisher": "frontmatter",
+    "series": "frontmatter"
+   },
+   "references_status": "preserved",
+   "links_hash": "sha256:d6f35111605c61eb292f667e9d69354d8da7343a671b2d98e4db0ce13aaea98f",
+   "subtitle": "With the phase one trade deal signed—and with China now promising (somewhat credibly in my view) to raise its imports of agriculture and energy above their pre-trade war levels and (less credibly) promising to raise its imports of U.S. manufactures—it is now possible look back at how China decided to respond to Trump’s tariff pressure. […]",
+   "published_at": "2020-01-31T20:53:29-05:00",
+   "programs": [
+    "Follow the Money"
+   ],
+   "source_tags": [
+    "China",
+    "United States"
+   ],
+   "license": "CC BY-NC-ND 4.0",
+   "section": "Article",
+   "doc_type": "AnalysisNewsArticle",
+   "language": "en",
+   "word_count": 1597,
+   "date_modified": "2020-01-31",
+   "retrieved_at": "2026-10-15T20:05:31Z",
+   "page_sha256": "2b7ee4f2ee9c6fbe449fc80bf3a9e71a00642e698d249a13492f79d3b789d2af",
+   "figures": [
+    {
+     "title": "Phase one Purchases",
+     "src": "https://static.cfr.org/sites/default/files/styles/large_s/public/image/2020/01/Phase%20one%20Purchases.png",
+     "after_paragraph": "p1"
+    },
+    {
+     "title": "Settlement Intervention",
+     "src": "https://static.cfr.org/sites/default/files/styles/large_s/public/image/2020/01/Settlement%20Intervention.png",
+     "after_paragraph": "p5"
+    },
+    {
+     "title": "China's Reported U.S. Holdings vs. its Estimated Dollar Reserves (USD Billions)",
+     "src": "https://static.cfr.org/sites/default/files/styles/large_s/public/image/2020/01/China%27s%20Reported%20U.S.%20Holdings%20vs.%20its%20Estimated%20Dollar%20Reserves%20%28USD%20Billions%29.png",
+     "after_paragraph": "p9"
+    },
+    {
+     "title": "Chinese Manufactruing Imports from the united States (trailing 3m sums,annualized, usd billions)",
+     "src": "https://static.cfr.org/sites/default/files/styles/large_s/public/image/2020/01/Chinese%20Manufactruing%20Imports%20from%20the%20united%20States%20%28trailing%203m%20sums%2Cannualized%2C%20usd%20billions%29_0.png",
+     "after_paragraph": "p13"
+    },
+    {
+     "title": "China's Imports from the United States (Trailing 12M Sums, USD Billions)",
+     "src": "https://static.cfr.org/sites/default/files/styles/large_s/public/image/2020/01/China%27s%20Imports%20from%20the%20United%20States%20%28Trailing%2012M%20Sums%2C%20USD%20Billions%29.png",
+     "after_paragraph": "p17"
+    },
+    {
+     "title": "Chinese Agriculture and Energy Exports from the United States (Trailing 12M Sums, USD Billions)",
+     "src": "https://static.cfr.org/sites/default/files/styles/large_s/public/image/2020/01/Chinese%20Agriculture%20and%20Energy%20Exports%20from%20the%20United%20States%20%28Trailing%2012M%20Sums%2C%20USD%20Billions%29_0.png",
+     "after_paragraph": "p19"
+    },
+    {
+     "title": "The Impact of the Trade War on Trade in Agriculture and Energy",
+     "src": "https://static.cfr.org/sites/default/files/styles/large_s/public/image/2020/01/The%20Impact%20of%20the%20Trade%20War%20on%20Trade%20in%20Agriculture%20and%20Energy_0.png",
+     "after_paragraph": "p22"
+    },
+    {
+     "title": "Chinese Meat Imports End 2017 vs. End 2019",
+     "src": "https://static.cfr.org/sites/default/files/styles/large_s/public/image/2020/01/Chinese%20Meat%20Imports%20End%202017%20vs.%20End%202019_1.png",
+     "after_paragraph": "p25"
+    },
+    {
+     "title": "China's Imports from the United States (Trailing 3M Sums Annualized, USD Billions)",
+     "src": "https://static.cfr.org/sites/default/files/styles/large_s/public/image/2020/01/China%27s%20Imports%20from%20the%20United%20States%20%28Trailing%203M%20Sums%20Annualized%2C%20USD%20Billions%29.png",
+     "after_paragraph": "p29"
+    }
+   ],
+   "source_record": "lessons-phase-one-trade-war-china"
+  }
  },
  "annotation": {
   "annotated_at": "2026-11-09T21:12:48+00:00",

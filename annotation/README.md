@@ -14,7 +14,7 @@ a repeat `_r<k>`, an oracle run `_oracle`, see Evaluation) is an experiment and 
 
 | # | Step | Done by | Output |
 |---|---|---|---|
-| 1 | Download, number the paragraphs | script (`kb/scripts/cfr_extract.py`, unchanged) | `kb/internal/extracted/<date>_<slug>.md` |
+| 1 | Download, number the paragraphs; read the metadata record | script (the repo's `scripts/parsers/` and `scripts/extractors/metadata.py`) | `../internal/extracted/<date>_<slug>.md`, `../data/articles/<id>.json` |
 | 2 | Boxes | model, then script: slot IDs and levels; every excerpt found word for word; every figure and name found in the article; completeness against the hand-drawn maps, with one targeted re-ask | `boxes.json` |
 | 3 | Links | model, then script: drops self-links and duplicates; flags level pairs no hand-drawn link has; one re-ask for unlinked boxes | `links.json` |
 | 4 | Subject facets | model, with `kb/scripts/label_facets.py`'s rules, vocabulary, schema, validation and repairs | `facets.json` |
@@ -48,13 +48,14 @@ no column for it.
 5. **Config-driven.** Roles, relations and ID rules come from `config/ontology.yaml`, facets
    from `kb/scripts/facets.yaml`. All paths are relative and set in `settings.yaml`.
 6. **Self-contained.** Verified team code is copied, not rewritten, and every change is listed
-   below.
+   below. The exception is source text and metadata, which come from the repo's parsers and
+   metadata records (see "Source text and metadata").
 7. **No vector retrieval.** Notes are selected by structure: role, subject, date and links.
 8. **LangGraph** for orchestration. No LangChain.
 9. **Measured.** Scored against the hand-drawn maps, compared across models, cost recorded.
 10. **A reason per box.** The general rule the author applies at that step.
 11. **Safe.** The key lives only in an environment variable (`settings.yaml` `gateway.key_env`). The article is passed to the model as
-    material, not instructions. The full article text (`kb/internal/`) and run state are
+    material, not instructions. The full article text (the repo's `internal/`) and run state are
     never committed. The official runs in `articles/` are: they are the source the
     model-mapped rows of the knowledge base are rebuilt from, as `kb/mermaid_code/` is for
     the hand-drawn ones, and they quote only a sentence or two at a time, as the hand maps
@@ -163,6 +164,45 @@ Changes, each marked `annotation/ tweak` in the file:
 `link_passages.py` is run unchanged for the second opinion: its input and output paths are
 pointed at a temporary folder for the duration of the call.
 
+## Source text and metadata (2026-11-10)
+
+Article text and metadata now come from the repo rather than from copies kept here:
+
+- **Text.** Step 1 reads what `scripts/parsers/` writes to `../internal/extracted/`, and
+  downloads with `settings.yaml` `parser` when an article has none. The copied
+  `cfr_extract.py` and `extract_lib.py` were removed. `link_passages.py` reads the same
+  folder (an `annotation/ tweak`), so the second opinion and a rebuild see the same text.
+- **Metadata.** Each annotation's `article` block is the article's record from
+  `../data/articles/`, unchanged except `id`, which stays the knowledge-base key. The
+  record's own ID is in `metadata_extension.source_record`. `content_hash` is now the
+  record's SHA-256 of the normalized text, and `references` carry URL, paragraph and
+  position rather than labels only.
+
+The repo's source revision 2 added list and subhead text the old extractor missed, which
+renumbered two of the official runs. Their paragraph IDs were remapped, and nothing else in
+them was changed:
+
+| Article | Paragraphs before | After | Mapping |
+|---|---|---|---|
+| `setser_dec_15_17` | 46 | 49 | p6 onward moves up 3 |
+| `setser_2026-02-03_october-2025-deficit` | 12 | 16 | p1 to p5 move up 2; p6 onward up 4 |
+
+The mapping was computed by rebuilding the old numbering with the old extractor from the
+same cached pages and aligning it with the new text, not by inference. Checks after the
+remap: every cited paragraph exists, every quoted excerpt is found word for word in the
+paragraph it cites, and the passage linker's agreement with the citations matches the
+original runs (identical for October; one anchored link fewer for December). The other
+eleven official runs kept their numbering.
+
+`kb/data/node_passages.csv` had the same problem for three hand-mapped articles
+(`setser_dec_15_17`, `setser_jun_4_18`, `setser_2026-02-03_october-2025-deficit`); their
+rows were replaced with the team table's, and the vault was rebuilt with `python -m annotate kb`.
+
+Replaying the committed cache: `calls.jsonl` and `cache/` keep the original requests, which
+quote the old text. Nine of the thirteen official runs now send slightly different article
+text (added paragraphs, or spacing fixed at link edges), so re-running those misses the
+cache and needs a key. The saved annotations themselves stay valid.
+
 Rebuilt here: 21 hand-mapped articles, 373 claims, 472 links. For the 20 articles in the
 team's `data/`, every table matches row by row (checked 2026-11-09).
 
@@ -201,7 +241,7 @@ Rebuilding the hand-drawn part of the knowledge base, from `kb/`:
 
 ```
 python scripts/parse_maps.py       # hand-drawn maps -> data/
-python scripts/cfr_extract.py --all
+python ../../scripts/parsers/cfr.py --all   # article text, written to the repo's internal/extracted/
 python scripts/link_passages.py
 python -m annotate kb              # from annotation/: adds the model-mapped articles and exports
 ```

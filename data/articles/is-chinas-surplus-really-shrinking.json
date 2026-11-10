@@ -1,0 +1,296 @@
+{
+  "schema_version": "source-record-0.1",
+  "article": {
+    "id": "is-chinas-surplus-really-shrinking",
+    "title": "Is China’s Surplus Really Shrinking?",
+    "authors": [
+      "Brad W. Setser"
+    ],
+    "published_date": "2026-07-27",
+    "url": "https://www.cfr.org/articles/is-chinas-surplus-really-shrinking",
+    "publisher": "Council on Foreign Relations",
+    "series": "Follow the Money",
+    "source_text": {
+      "path": "internal/extracted/2026-07-27_is-chinas-surplus-really-shrinking.md",
+      "paragraph_count": 27,
+      "content_hash": "sha256:398c44e868840162abb86378a690825218ea19e6c19397b358fe75e5f8d82dd9",
+      "revision": 1
+    },
+    "references": [
+      {
+        "id": "r001",
+        "paragraph_id": "p1",
+        "char_start": 0,
+        "char_end": 28,
+        "label": "The Economist is now arguing",
+        "href": "https://www.economist.com/finance-and-economics/2026/07/15/chinas-trade-gap-is-narrowing-and-other-surprises",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://economist.com/finance-and-economics/2026/07/15/chinas-trade-gap-is-narrowing-and-other-surprises",
+        "host": "economist.com",
+        "target_article_id": null
+      },
+      {
+        "id": "r002",
+        "paragraph_id": "p5",
+        "char_start": 104,
+        "char_end": 142,
+        "label": "import volumes have famously collapsed",
+        "href": "https://energyandcleanair.org/china-energy-and-emissions-trends-june-2026-snapshot/",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://energyandcleanair.org/china-energy-and-emissions-trends-june-2026-snapshot",
+        "host": "energyandcleanair.org",
+        "target_article_id": null
+      },
+      {
+        "id": "r003",
+        "paragraph_id": "p26",
+        "char_start": 231,
+        "char_end": 277,
+        "label": "relatively low U.S. trade deficit in Q4 and Q1",
+        "href": "https://www.cfr.org/articles/understanding-the-low-october-2025-trade-deficit",
+        "kind": "hyperlink",
+        "placement": "footnote",
+        "source_key": "https://cfr.org/articles/understanding-the-low-october-2025-trade-deficit",
+        "host": "cfr.org",
+        "target_article_id": "understanding-the-low-october-2025-trade-deficit"
+      },
+      {
+        "id": "r004",
+        "paragraph_id": "p27",
+        "char_start": 147,
+        "char_end": 204,
+        "label": "the arguments of Adam Wolfe of Absolute Strategy Research",
+        "href": "https://www.economist.com/finance-and-economics/2026/07/15/chinas-trade-gap-is-narrowing-and-other-surprises",
+        "kind": "hyperlink",
+        "placement": "footnote",
+        "source_key": "https://economist.com/finance-and-economics/2026/07/15/chinas-trade-gap-is-narrowing-and-other-surprises",
+        "host": "economist.com",
+        "target_article_id": null
+      }
+    ],
+    "metadata_extension": {
+      "field_sources": {
+        "title": "frontmatter",
+        "authors": "frontmatter",
+        "published_date": "frontmatter",
+        "url": "frontmatter",
+        "publisher": "frontmatter",
+        "series": "frontmatter"
+      },
+      "references_status": "preserved",
+      "links_hash": "sha256:622b7aef5d61689d04d654eda728a148758e0ca245222591ad1de1f2cb9148b8",
+      "subtitle": "Look past the gold imports, and China’s trade surplus is still climbing.",
+      "published_at": "2026-07-27T13:49:59-04:00",
+      "programs": [
+        "Follow the Money",
+        "Greenberg Center for Geoeconomics"
+      ],
+      "source_tags": [
+        "China",
+        "Economics",
+        "Trade"
+      ],
+      "license": "CC BY-NC-ND 4.0",
+      "section": "Article",
+      "doc_type": "AnalysisNewsArticle",
+      "language": "en",
+      "word_count": 811,
+      "date_modified": "2026-07-27",
+      "retrieved_at": "2026-11-10T23:23:41Z",
+      "page_sha256": "57b213b0d76b5ea18222e1d9ca0dcd5b0cbae18675e2c5e55d048e63dce5bffb",
+      "figures": []
+    }
+  },
+  "paragraphs": [
+    {
+      "id": "p1",
+      "sha256": "sha256:eface014e2e7a11d7024669542d5b5f03cd88f8b5847ae7905ee6356957842ef",
+      "n_chars": 67
+    },
+    {
+      "id": "p2",
+      "sha256": "sha256:5bac023dcd65a8e83a8232a5be472b1ae0a7511c0036df270cfd3b2a8e2fed07",
+      "n_chars": 163
+    },
+    {
+      "id": "p3",
+      "sha256": "sha256:0114dbd082b5f44ccc37536ad71d5991d55941c40a87f49e7a2b6ea92c8ee567",
+      "n_chars": 102
+    },
+    {
+      "id": "p4",
+      "sha256": "sha256:cbff3a5ef75649105299e4d27e06ebdad8a9c66cbd984a060690bd917dc0a61c",
+      "n_chars": 162
+    },
+    {
+      "id": "p5",
+      "sha256": "sha256:1d49a83ca75ee1650140b42021510e627711a3aa1b2f0595b381986e765836bb",
+      "n_chars": 195
+    },
+    {
+      "id": "p6",
+      "sha256": "sha256:43f8aa4480c4e2e5bd431b81e49826322df699e3c97edc35d9f16fddb1020e30",
+      "n_chars": 199
+    },
+    {
+      "id": "p7",
+      "sha256": "sha256:f42e56c3d11ffac54fa72d317fcc67f72edd41a952230319ddc0782df72da910",
+      "n_chars": 117
+    },
+    {
+      "id": "p8",
+      "sha256": "sha256:e6f746b909f8afe680610d0ff1ee49c6fc2a876e0de072dd4efa7eb1097e6572",
+      "n_chars": 164
+    },
+    {
+      "id": "p9",
+      "sha256": "sha256:9f3c015c08628b375023ca60ea840dc0f51b8c88f91f13e09ac88f1fc3c2aaef",
+      "n_chars": 190
+    },
+    {
+      "id": "p10",
+      "sha256": "sha256:b8dc7459f42277b614be1611f13a5c4106b3ef91e355ba8f1b7569e9e0689b33",
+      "n_chars": 23
+    },
+    {
+      "id": "p11",
+      "sha256": "sha256:a7ac22ed61abf2dffed1a7274eb0ab3f7c94bd31a440997ac73b4e12e5bf2181",
+      "n_chars": 175
+    },
+    {
+      "id": "p12",
+      "sha256": "sha256:68601af694a30ebb8e0161db56ceafd8f3cfcebe01b2c67972ab379caf31e91a",
+      "n_chars": 186
+    },
+    {
+      "id": "p13",
+      "sha256": "sha256:f44b678c3a4ce3f610c6c00f7961d26ce7431e75119fc6552da178d675f29bbc",
+      "n_chars": 110
+    },
+    {
+      "id": "p14",
+      "sha256": "sha256:312993b82226d220b936a86d7d95354bd8656fb0607afd9e6ca486979f20b8e6",
+      "n_chars": 111
+    },
+    {
+      "id": "p15",
+      "sha256": "sha256:5791403bef9a5948c06fa6c0c744dac3561a057aeb493428447a2127abfc2f17",
+      "n_chars": 173
+    },
+    {
+      "id": "p16",
+      "sha256": "sha256:b1b8e9e28415217d4e65dbda40298a6cad648324b8df564b606dfee3cc3d15e9",
+      "n_chars": 222
+    },
+    {
+      "id": "p17",
+      "sha256": "sha256:c33c1dcf0e89ead47f57bac457d1c14b09349e68f2ad20f31fd4350fbef5d603",
+      "n_chars": 32
+    },
+    {
+      "id": "p18",
+      "sha256": "sha256:1ba82a9757a3e89d4f9f7282399359ea313c1cb54ef2a6ca28ab9ed8d48ea2c8",
+      "n_chars": 247
+    },
+    {
+      "id": "p19",
+      "sha256": "sha256:ea711809666463b3dd9f7d4121c67947d713b88967ecb80eafa2fd8ff22dc370",
+      "n_chars": 222
+    },
+    {
+      "id": "p20",
+      "sha256": "sha256:3da2e4322670dea54bf7063b6504baa52d70c8b3f047946743530dddc890653d",
+      "n_chars": 274
+    },
+    {
+      "id": "p21",
+      "sha256": "sha256:3483b04e6a562d4572edcc25cd850e6212d046a07f34df2697e731443961d3d9",
+      "n_chars": 172
+    },
+    {
+      "id": "p22",
+      "sha256": "sha256:47aa2b826aeadfe2bf880d6aad31108568540039acaba12c4c4bba963ba17c3f",
+      "n_chars": 167
+    },
+    {
+      "id": "p23",
+      "sha256": "sha256:25c6414824e7aa915a4c5e9f81d1c7c16c471c87869d724575e6b9ffda6584da",
+      "n_chars": 62
+    },
+    {
+      "id": "p24",
+      "sha256": "sha256:516370c1515db1f2f46ce6861c723999e85963d8822a69e04881991099c29464",
+      "n_chars": 121
+    },
+    {
+      "id": "p25",
+      "sha256": "sha256:ac050350edb834602df7198a7e54a978a211507a70eb500019528cf6426fd922",
+      "n_chars": 319
+    },
+    {
+      "id": "p26",
+      "sha256": "sha256:141e2d7a8a5a5923a8ed74171fc88661470587a3302302f2e24a3d0ff02949bf",
+      "n_chars": 278
+    },
+    {
+      "id": "p27",
+      "sha256": "sha256:a74103d147774fa87cccfe88878915da66f3cf85098619c2142753ec3f22a83f",
+      "n_chars": 330
+    }
+  ],
+  "revisions": [
+    {
+      "content_hash": "sha256:398c44e868840162abb86378a690825218ea19e6c19397b358fe75e5f8d82dd9",
+      "links_hash": "sha256:622b7aef5d61689d04d654eda728a148758e0ca245222591ad1de1f2cb9148b8",
+      "paragraph_count": 27,
+      "retrieved_at": "2026-11-10T23:23:41Z",
+      "revision": 1,
+      "changed_paragraphs": []
+    }
+  ],
+  "extensions": {
+    "entities": [
+      {
+        "entity_id": null,
+        "type": "person",
+        "name": "Brad W. Setser",
+        "role": "author"
+      },
+      {
+        "entity_id": null,
+        "type": "organization",
+        "name": "Council on Foreign Relations",
+        "role": "publisher"
+      }
+    ],
+    "cited_sources": [
+      {
+        "source_key": "https://economist.com/finance-and-economics/2026/07/15/chinas-trade-gap-is-narrowing-and-other-surprises",
+        "host": "economist.com",
+        "reference_ids": [
+          "r001",
+          "r004"
+        ]
+      },
+      {
+        "source_key": "https://energyandcleanair.org/china-energy-and-emissions-trends-june-2026-snapshot",
+        "host": "energyandcleanair.org",
+        "reference_ids": [
+          "r002"
+        ]
+      },
+      {
+        "source_key": "https://cfr.org/articles/understanding-the-low-october-2025-trade-deficit",
+        "host": "cfr.org",
+        "reference_ids": [
+          "r003"
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "flags": []
+  }
+}

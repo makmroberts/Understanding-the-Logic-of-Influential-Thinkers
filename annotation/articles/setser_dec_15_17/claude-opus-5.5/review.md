@@ -13,4 +13,4 @@ nothing here was changed automatically.
 
 ## passages (1)
 
-- `C3`: the team's passage linker anchors it to p42 (shared: 2005), which the box does not cite
+- `C3`: the team's passage linker anchors it to p45 (shared: 2005), which the box does not cite

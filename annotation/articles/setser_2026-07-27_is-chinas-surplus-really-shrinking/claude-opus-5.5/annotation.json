@@ -11,16 +11,98 @@
   "publisher": "Council on Foreign Relations",
   "series": "Follow the Money",
   "source_text": {
-   "path": "kb/internal/extracted/2026-07-27_is-chinas-surplus-really-shrinking.md",
+   "path": "internal/extracted/2026-07-27_is-chinas-surplus-really-shrinking.md",
    "paragraph_count": 27,
-   "content_hash": "2d4a3eda8e3be030"
+   "content_hash": "sha256:398c44e868840162abb86378a690825218ea19e6c19397b358fe75e5f8d82dd9",
+   "revision": 1
   },
   "references": [
-   "The Economist is now arguing",
-   "import volumes have famously collapsed",
-   "relatively low U.S. trade deficit in Q4 and Q1"
+   {
+    "id": "r001",
+    "paragraph_id": "p1",
+    "char_start": 0,
+    "char_end": 28,
+    "label": "The Economist is now arguing",
+    "href": "https://www.economist.com/finance-and-economics/2026/07/15/chinas-trade-gap-is-narrowing-and-other-surprises",
+    "kind": "hyperlink",
+    "placement": "body",
+    "source_key": "https://economist.com/finance-and-economics/2026/07/15/chinas-trade-gap-is-narrowing-and-other-surprises",
+    "host": "economist.com",
+    "target_article_id": null
+   },
+   {
+    "id": "r002",
+    "paragraph_id": "p5",
+    "char_start": 104,
+    "char_end": 142,
+    "label": "import volumes have famously collapsed",
+    "href": "https://energyandcleanair.org/china-energy-and-emissions-trends-june-2026-snapshot/",
+    "kind": "hyperlink",
+    "placement": "body",
+    "source_key": "https://energyandcleanair.org/china-energy-and-emissions-trends-june-2026-snapshot",
+    "host": "energyandcleanair.org",
+    "target_article_id": null
+   },
+   {
+    "id": "r003",
+    "paragraph_id": "p26",
+    "char_start": 231,
+    "char_end": 277,
+    "label": "relatively low U.S. trade deficit in Q4 and Q1",
+    "href": "https://www.cfr.org/articles/understanding-the-low-october-2025-trade-deficit",
+    "kind": "hyperlink",
+    "placement": "footnote",
+    "source_key": "https://cfr.org/articles/understanding-the-low-october-2025-trade-deficit",
+    "host": "cfr.org",
+    "target_article_id": "understanding-the-low-october-2025-trade-deficit"
+   },
+   {
+    "id": "r004",
+    "paragraph_id": "p27",
+    "char_start": 147,
+    "char_end": 204,
+    "label": "the arguments of Adam Wolfe of Absolute Strategy Research",
+    "href": "https://www.economist.com/finance-and-economics/2026/07/15/chinas-trade-gap-is-narrowing-and-other-surprises",
+    "kind": "hyperlink",
+    "placement": "footnote",
+    "source_key": "https://economist.com/finance-and-economics/2026/07/15/chinas-trade-gap-is-narrowing-and-other-surprises",
+    "host": "economist.com",
+    "target_article_id": null
+   }
   ],
-  "metadata_extension": {}
+  "metadata_extension": {
+   "field_sources": {
+    "title": "frontmatter",
+    "authors": "frontmatter",
+    "published_date": "frontmatter",
+    "url": "frontmatter",
+    "publisher": "frontmatter",
+    "series": "frontmatter"
+   },
+   "references_status": "preserved",
+   "links_hash": "sha256:622b7aef5d61689d04d654eda728a148758e0ca245222591ad1de1f2cb9148b8",
+   "subtitle": "Look past the gold imports, and China’s trade surplus is still climbing.",
+   "published_at": "2026-07-27T13:49:59-04:00",
+   "programs": [
+    "Follow the Money",
+    "Greenberg Center for Geoeconomics"
+   ],
+   "source_tags": [
+    "China",
+    "Economics",
+    "Trade"
+   ],
+   "license": "CC BY-NC-ND 4.0",
+   "section": "Article",
+   "doc_type": "AnalysisNewsArticle",
+   "language": "en",
+   "word_count": 811,
+   "date_modified": "2026-07-27",
+   "retrieved_at": "2026-11-10T23:23:41Z",
+   "page_sha256": "57b213b0d76b5ea18222e1d9ca0dcd5b0cbae18675e2c5e55d048e63dce5bffb",
+   "figures": [],
+   "source_record": "is-chinas-surplus-really-shrinking"
+  }
  },
  "annotation": {
   "annotated_at": "2026-11-09T21:12:12+00:00",

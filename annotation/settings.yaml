@@ -1,12 +1,18 @@
 # Settings for the annotation pipeline. Every path is relative to this file's folder.
 
 paths:
-  kb: kb                         # the team's knowledge-base layout: scripts/ data/ internal/extracted/ mermaid_code/ obsidian/
+  repo: ..                       # the repository root, where scripts/parsers/ and scripts/extractors/ live
+  extracted: ../internal/extracted   # article text, written by the parsers (never committed)
+  records: ../data/articles      # metadata records, written by scripts/extractors/metadata.py
+  kb: kb                         # the team's knowledge-base layout: scripts/ data/ mermaid_code/ obsidian/
   ontology: config/ontology.yaml # roles, relations, ID rules; swap the file to change the vocabulary
   articles: articles             # the official run of each article: boxes.json, links.json, facets.json, annotation.json, calls.jsonl
   experiments: ../internal/annotation_experiments/openrouter   # every other run (other models, repeats, oracle) and the cross-run report, outside annotation/
   cache: cache                   # model responses by request hash, so a re-run costs nothing
   runs: runs                     # LangGraph checkpoints, so a stopped run resumes where it stopped
+
+# Parser used to download an article that has no text yet, run from the repository root.
+parser: scripts/parsers/cfr.py
 
 # The one model service in use. Any OpenAI-compatible service works by changing these lines.
 gateway:

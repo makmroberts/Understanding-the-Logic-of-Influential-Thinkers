@@ -8,11 +8,11 @@
    "kind": "none",
    "claim_type": "none",
    "paragraphs": [
-    1,
-    6
+    3,
+    10
    ],
    "reason": "A single month's trade swing must be decomposed by product before it can be read as a policy effect.",
-   "excerpt_para": 1,
+   "excerpt_para": 3,
    "id": "Q",
    "level": "L0"
   },
@@ -24,10 +24,10 @@
    "kind": "none",
    "claim_type": "none",
    "paragraphs": [
-    1
+    3
    ],
    "reason": "A change concentrated in untaxed goods cannot be credited to the tax.",
-   "excerpt_para": 1,
+   "excerpt_para": 3,
    "id": "C1",
    "level": "L4"
   },
@@ -39,12 +39,12 @@
    "kind": "economic",
    "claim_type": "none",
    "paragraphs": [
-    2,
-    3,
-    4
+    4,
+    5,
+    6
    ],
    "reason": "Anticipated tariffs pull imports forward, and the reversal later shows up as an artificial fall.",
-   "excerpt_para": 2,
+   "excerpt_para": 4,
    "id": "M1",
    "level": "L3"
   },
@@ -56,8 +56,8 @@
    "kind": "none",
    "claim_type": "none",
    "paragraphs": [
-    4,
-    5
+    6,
+    7
    ],
    "reason": "Volatile, non-economic flows distort headline trade data and should be excluded from the core measure.",
    "excerpt_para": null,
@@ -72,11 +72,11 @@
    "kind": "none",
    "claim_type": "none",
    "paragraphs": [
-    5,
-    6
+    7,
+    10
    ],
    "reason": "Which categories are excluded from a balance can reverse the sign of a monthly change.",
-   "excerpt_para": 5,
+   "excerpt_para": 7,
    "id": "SCP",
    "level": "L1B"
   },
@@ -88,10 +88,10 @@
    "kind": "none",
    "claim_type": "none",
    "paragraphs": [
-    6
+    10
    ],
    "reason": "A policymaker has an incentive to read favorable short-run data as proof that the policy works.",
-   "excerpt_para": 6,
+   "excerpt_para": 10,
    "id": "X",
    "level": "L6"
   },
@@ -103,11 +103,11 @@
    "kind": "none",
    "claim_type": "none",
    "paragraphs": [
-    6,
-    7
+    10,
+    11
    ],
    "reason": "Year-on-year comparisons must be read across the whole year when timing shifts are at work.",
-   "excerpt_para": 6,
+   "excerpt_para": 10,
    "id": "E1",
    "level": "L2"
   },
@@ -119,10 +119,10 @@
    "kind": "none",
    "claim_type": "none",
    "paragraphs": [
-    7
+    11
    ],
    "reason": "An import dip driven by drawing down inventories reverses once those inventories are used up.",
-   "excerpt_para": 7,
+   "excerpt_para": 11,
    "id": "C2",
    "level": "L4"
   },
@@ -134,11 +134,11 @@
    "kind": "none",
    "claim_type": "none",
    "paragraphs": [
-    7,
-    12
+    11,
+    16
    ],
    "reason": "Stockpiling only shifts the timing of demand; it does not eliminate it.",
-   "excerpt_para": 7,
+   "excerpt_para": 11,
    "id": "P1",
    "level": "L1"
   },
@@ -150,10 +150,10 @@
    "kind": "none",
    "claim_type": "none",
    "paragraphs": [
-    9
+    13
    ],
    "reason": "Product-level data show where a tax actually bites.",
-   "excerpt_para": 9,
+   "excerpt_para": 13,
    "id": "E2",
    "level": "L2"
   },
@@ -165,10 +165,10 @@
    "kind": "economic",
    "claim_type": "none",
    "paragraphs": [
-    9
+    13
    ],
    "reason": "A tax on imports lowers demand for the taxed goods, which need not raise local production.",
-   "excerpt_para": 9,
+   "excerpt_para": 13,
    "id": "M2",
    "level": "L3"
   },
@@ -180,10 +180,10 @@
    "kind": "none",
    "claim_type": "none",
    "paragraphs": [
-    10
+    14
    ],
    "reason": "Untaxed categories can grow fast enough to offset falls elsewhere.",
-   "excerpt_para": 10,
+   "excerpt_para": 14,
    "id": "E3",
    "level": "L2"
   },
@@ -195,10 +195,10 @@
    "kind": "economic",
    "claim_type": "none",
    "paragraphs": [
-    10
+    14
    ],
    "reason": "An investment boom raises imports of the capital goods it needs.",
-   "excerpt_para": 10,
+   "excerpt_para": 14,
    "id": "M3",
    "level": "L3"
   },
@@ -210,10 +210,10 @@
    "kind": "none",
    "claim_type": "none",
    "paragraphs": [
-    10
+    14
    ],
    "reason": "The scope of official trade measures determines which import flows can respond to them.",
-   "excerpt_para": 10,
+   "excerpt_para": 14,
    "id": "E4",
    "level": "L2"
   },
@@ -225,10 +225,10 @@
    "kind": "none",
    "claim_type": "single",
    "paragraphs": [
-    11
+    15
    ],
    "reason": "The aggregate balance reflects gains in untaxed imports as well as cuts in taxed ones.",
-   "excerpt_para": 11,
+   "excerpt_para": 15,
    "id": "K",
    "level": "L5"
   },
@@ -240,11 +240,11 @@
    "kind": "none",
    "claim_type": "none",
    "paragraphs": [
-    9,
-    11
+    13,
+    15
    ],
    "reason": "A policy can fail in aggregate while still working in particular sectors.",
-   "excerpt_para": 11,
+   "excerpt_para": 15,
    "id": "QF",
    "level": "L6"
   },
@@ -256,10 +256,10 @@
    "kind": "none",
    "claim_type": "none",
    "paragraphs": [
-    12
+    16
    ],
    "reason": "The external balance equals national saving minus investment, so it shifts only if saving rises.",
-   "excerpt_para": 12,
+   "excerpt_para": 16,
    "id": "P2",
    "level": "L1"
   },
@@ -271,10 +271,10 @@
    "kind": "none",
    "claim_type": "none",
    "paragraphs": [
-    12
+    16
    ],
    "reason": "If tax revenue is recycled into spending, the tax does not raise national saving.",
-   "excerpt_para": 12,
+   "excerpt_para": 16,
    "id": "C3",
    "level": "L4"
   },
@@ -286,10 +286,10 @@
    "kind": "none",
    "claim_type": "none",
    "paragraphs": [
-    12
+    16
    ],
    "reason": "Effects that depend on future inventory and spending behavior cannot yet be measured.",
-   "excerpt_para": 12,
+   "excerpt_para": 16,
    "id": "DF",
    "level": "L6"
   }

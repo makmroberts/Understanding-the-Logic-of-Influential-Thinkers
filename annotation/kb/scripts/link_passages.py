@@ -64,7 +64,8 @@ except ImportError:
 ROOT = Path(__file__).resolve().parent.parent
 NODES = ROOT / "data" / "nodes.csv"
 URL_MAP = Path(__file__).resolve().parent / "source_urls.yaml"
-EXTRACTED = ROOT / "internal" / "extracted"
+# annotation/ tweak: read the text the repo's parsers write (scripts/parsers/), not a local copy.
+EXTRACTED = ROOT.parent.parent / "internal" / "extracted"
 MAPS = ROOT / "mermaid_code"
 OUT_CSV = ROOT / "data" / "node_passages.csv"
 OUT_MD = ROOT / "data" / "passage_report.md"

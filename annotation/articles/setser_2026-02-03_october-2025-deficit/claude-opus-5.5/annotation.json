@@ -9,14 +9,44 @@
   "published_date": "2026-02-03",
   "url": "https://www.cfr.org/articles/understanding-the-low-october-2025-trade-deficit",
   "publisher": "Council on Foreign Relations",
-  "series": "Follow the Money",
+  "series": null,
   "source_text": {
-   "path": "kb/internal/extracted/2026-02-03_understanding-the-low-october-2025-trade-deficit.md",
-   "paragraph_count": 12,
-   "content_hash": "4c82f9a9c3721414"
+   "path": "internal/extracted/2026-02-03_understanding-the-low-october-2025-trade-deficit.md",
+   "paragraph_count": 16,
+   "content_hash": "sha256:d534c32357ba4b3c44a924d9ffd99a296898dbdee8a7ae4c65707df8de5ad444",
+   "revision": 2
   },
   "references": [],
-  "metadata_extension": {}
+  "metadata_extension": {
+   "field_sources": {
+    "title": "frontmatter",
+    "authors": "frontmatter",
+    "published_date": "frontmatter",
+    "url": "frontmatter",
+    "publisher": "frontmatter",
+    "series": "none"
+   },
+   "references_status": "preserved",
+   "links_hash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "subtitle": "A closer look at trade data shows that fears of tariffs that never materialized—rather than actual tariffs—drove October’s trade deficit down.",
+   "published_at": "2026-02-03T13:07:02-05:00",
+   "programs": [
+    "Greenberg Center for Geoeconomics"
+   ],
+   "source_tags": [
+    "Trade"
+   ],
+   "license": "CC BY-NC-ND 4.0",
+   "section": "Article",
+   "doc_type": "AnalysisNewsArticle",
+   "language": "en",
+   "word_count": 591,
+   "date_modified": "2026-02-03",
+   "retrieved_at": "2026-10-05T23:13:24Z",
+   "page_sha256": "f2acfd0db0d711341e0bfb50903ea4d826a9bfe234f0b71f2ccc4b7cdd3ddb40",
+   "figures": [],
+   "source_record": "understanding-the-low-october-2025-trade-deficit"
+  }
  },
  "annotation": {
   "annotated_at": "2026-11-09T21:12:09+00:00",
@@ -89,7 +119,7 @@
    "source": {
     "passages": [
      {
-      "paragraph_id": "p1",
+      "paragraph_id": "p3",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
@@ -97,7 +127,7 @@
       "source_excerpt": "The fall October’s deficit relative to September’s is entirely due to swings in pharmaceutical imports and gold imports (and exports)."
      },
      {
-      "paragraph_id": "p6",
+      "paragraph_id": "p10",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
@@ -156,7 +186,7 @@
    "source": {
     "passages": [
      {
-      "paragraph_id": "p1",
+      "paragraph_id": "p3",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
@@ -220,7 +250,7 @@
    "source": {
     "passages": [
      {
-      "paragraph_id": "p2",
+      "paragraph_id": "p4",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
@@ -228,7 +258,7 @@
       "source_excerpt": "Fear of a pharmaceutical tariff led to large imports of pharmaceuticals in February and March 2025, ahead of the Liberation Day tariff rollout."
      },
      {
-      "paragraph_id": "p3",
+      "paragraph_id": "p5",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
@@ -236,7 +266,7 @@
       "source_excerpt": null
      },
      {
-      "paragraph_id": "p4",
+      "paragraph_id": "p6",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
@@ -302,7 +332,7 @@
    "source": {
     "passages": [
      {
-      "paragraph_id": "p4",
+      "paragraph_id": "p6",
       "relation": "presupposes",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
@@ -310,7 +340,7 @@
       "source_excerpt": null
      },
      {
-      "paragraph_id": "p5",
+      "paragraph_id": "p7",
       "relation": "presupposes",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
@@ -371,7 +401,7 @@
    "source": {
     "passages": [
      {
-      "paragraph_id": "p5",
+      "paragraph_id": "p7",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
@@ -379,7 +409,7 @@
       "source_excerpt": "If gold and pharmaceuticals are removed from the October data, the October trade deficit was actually a bit bigger than the September deficit."
      },
      {
-      "paragraph_id": "p6",
+      "paragraph_id": "p10",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
@@ -440,7 +470,7 @@
    "source": {
     "passages": [
      {
-      "paragraph_id": "p6",
+      "paragraph_id": "p10",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
@@ -499,7 +529,7 @@
    "source": {
     "passages": [
      {
-      "paragraph_id": "p6",
+      "paragraph_id": "p10",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
@@ -507,7 +537,7 @@
       "source_excerpt": "The monthly deficits in August, September, and October 2025 were all a bit smaller than the deficits in comparable months in 2024."
      },
      {
-      "paragraph_id": "p7",
+      "paragraph_id": "p11",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
@@ -566,7 +596,7 @@
    "source": {
     "passages": [
      {
-      "paragraph_id": "p7",
+      "paragraph_id": "p11",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
@@ -624,7 +654,7 @@
    "source": {
     "passages": [
      {
-      "paragraph_id": "p7",
+      "paragraph_id": "p11",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
@@ -632,7 +662,7 @@
       "source_excerpt": "stockpiles do run out"
      },
      {
-      "paragraph_id": "p12",
+      "paragraph_id": "p16",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
@@ -685,7 +715,7 @@
    "source": {
     "passages": [
      {
-      "paragraph_id": "p9",
+      "paragraph_id": "p13",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
@@ -755,7 +785,7 @@
    "source": {
     "passages": [
      {
-      "paragraph_id": "p9",
+      "paragraph_id": "p13",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
@@ -828,7 +858,7 @@
    "source": {
     "passages": [
      {
-      "paragraph_id": "p10",
+      "paragraph_id": "p14",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
@@ -887,7 +917,7 @@
    "source": {
     "passages": [
      {
-      "paragraph_id": "p10",
+      "paragraph_id": "p14",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
@@ -953,7 +983,7 @@
    "source": {
     "passages": [
      {
-      "paragraph_id": "p10",
+      "paragraph_id": "p14",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
@@ -1012,7 +1042,7 @@
    "source": {
     "passages": [
      {
-      "paragraph_id": "p11",
+      "paragraph_id": "p15",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
@@ -1078,7 +1108,7 @@
    "source": {
     "passages": [
      {
-      "paragraph_id": "p9",
+      "paragraph_id": "p13",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
@@ -1086,7 +1116,7 @@
       "source_excerpt": null
      },
      {
-      "paragraph_id": "p11",
+      "paragraph_id": "p15",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
@@ -1147,7 +1177,7 @@
    "source": {
     "passages": [
      {
-      "paragraph_id": "p12",
+      "paragraph_id": "p16",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
@@ -1216,7 +1246,7 @@
    "source": {
     "passages": [
      {
-      "paragraph_id": "p12",
+      "paragraph_id": "p16",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
@@ -1280,7 +1310,7 @@
    "source": {
     "passages": [
      {
-      "paragraph_id": "p12",
+      "paragraph_id": "p16",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
