@@ -1,0 +1,496 @@
+{
+ "nodes": [
+  {
+   "id": "setser_jun_14_19-Q",
+   "type": "file",
+   "file": "claims/question/Why did China's tariffs devastate some U.S. exports but have limited effects on others.md",
+   "x": -260,
+   "y": 0,
+   "width": 520,
+   "height": 300,
+   "color": "#7A6FA8"
+  },
+  {
+   "id": "setser_jun_14_19-P1",
+   "type": "file",
+   "file": "claims/stated_assumption/Tariff effects are sector-specific.md",
+   "x": -840,
+   "y": 480,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "setser_jun_14_19-P2",
+   "type": "file",
+   "file": "claims/stated_assumption/Bilateral trade \u2260 total trade.md",
+   "x": -260,
+   "y": 480,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "setser_jun_14_19-P3",
+   "type": "file",
+   "file": "claims/stated_assumption/Retaliation requires viable substitutes.md",
+   "x": 320,
+   "y": 480,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "setser_jun_14_19-D1",
+   "type": "file",
+   "file": "claims/evidence_data/Commodity exports to China down 60%.md",
+   "x": -1710,
+   "y": 960,
+   "width": 520,
+   "height": 300,
+   "color": "#2F7FBF"
+  },
+  {
+   "id": "setser_jun_14_19-D2",
+   "type": "file",
+   "file": "claims/evidence_data/Soy exports effectively collapsed.md",
+   "x": -1130,
+   "y": 960,
+   "width": 520,
+   "height": 300,
+   "color": "#2F7FBF"
+  },
+  {
+   "id": "setser_jun_14_19-D3",
+   "type": "file",
+   "file": "claims/evidence_data/Oil exports to China collapsed.md",
+   "x": -550,
+   "y": 960,
+   "width": 520,
+   "height": 300,
+   "color": "#2F7FBF"
+  },
+  {
+   "id": "setser_jun_14_19-D4",
+   "type": "file",
+   "file": "claims/evidence_data/Auto exports responded to the tariff.md",
+   "x": 30,
+   "y": 960,
+   "width": 520,
+   "height": 300,
+   "color": "#2F7FBF"
+  },
+  {
+   "id": "setser_jun_14_19-D5",
+   "type": "file",
+   "file": "claims/evidence_data/Manufacturing decline surprisingly modest.md",
+   "x": 610,
+   "y": 960,
+   "width": 520,
+   "height": 300,
+   "color": "#2F7FBF"
+  },
+  {
+   "id": "setser_jun_14_19-D6",
+   "type": "file",
+   "file": "claims/evidence_data/China lacks substitutes in some sectors.md",
+   "x": 1190,
+   "y": 960,
+   "width": 520,
+   "height": 300,
+   "color": "#2F7FBF"
+  },
+  {
+   "id": "setser_jun_14_19-M1",
+   "type": "file",
+   "file": "claims/mechanism/Few alternative buyers magnify the shock.md",
+   "x": -1130,
+   "y": 1440,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "setser_jun_14_19-M2",
+   "type": "file",
+   "file": "claims/mechanism/Alternative buyers divert trade.md",
+   "x": -550,
+   "y": 1440,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "setser_jun_14_19-M3",
+   "type": "file",
+   "file": "claims/mechanism/Lack of substitutes weakens retaliation.md",
+   "x": 30,
+   "y": 1440,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "setser_jun_14_19-M4",
+   "type": "file",
+   "file": "claims/mechanism/Other demand can absorb export losses.md",
+   "x": 610,
+   "y": 1440,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "setser_jun_14_19-C1",
+   "type": "file",
+   "file": "claims/intermediate_claim/Soy retaliation was unusually effective.md",
+   "x": -1130,
+   "y": 1920,
+   "width": 520,
+   "height": 300,
+   "color": "#2FBF9B"
+  },
+  {
+   "id": "setser_jun_14_19-C2",
+   "type": "file",
+   "file": "claims/intermediate_claim/Oil retaliation mostly redirected trade.md",
+   "x": -550,
+   "y": 1920,
+   "width": 520,
+   "height": 300,
+   "color": "#2FBF9B"
+  },
+  {
+   "id": "setser_jun_14_19-C3",
+   "type": "file",
+   "file": "claims/intermediate_claim/Manufacturing retaliation was weaker.md",
+   "x": 30,
+   "y": 1920,
+   "width": 520,
+   "height": 300,
+   "color": "#2FBF9B"
+  },
+  {
+   "id": "setser_jun_14_19-C4",
+   "type": "file",
+   "file": "claims/intermediate_claim/Identical tariffs need not have identical effects.md",
+   "x": 610,
+   "y": 1920,
+   "width": 520,
+   "height": 300,
+   "color": "#2FBF9B"
+  },
+  {
+   "id": "setser_jun_14_19-K",
+   "type": "file",
+   "file": "claims/main_claim/Main claim don't equate bilateral trade with aggregate impact.md",
+   "x": -260,
+   "y": 2400,
+   "width": 520,
+   "height": 300,
+   "color": "#2FBF9B"
+  },
+  {
+   "id": "setser_jun_14_19-QF1",
+   "type": "file",
+   "file": "claims/caveat/China had not tariffed all major U.S. manufacturing exports.md",
+   "x": -840,
+   "y": 2880,
+   "width": 520,
+   "height": 300,
+   "color": "#9A8C6A"
+  },
+  {
+   "id": "setser_jun_14_19-QF2",
+   "type": "file",
+   "file": "claims/caveat/China may have preserved targets for future retaliation.md",
+   "x": -260,
+   "y": 2880,
+   "width": 520,
+   "height": 300,
+   "color": "#9A8C6A"
+  },
+  {
+   "id": "setser_jun_14_19-R1",
+   "type": "file",
+   "file": "claims/counterpoint/Auto counterfactual.md",
+   "x": 320,
+   "y": 2880,
+   "width": 520,
+   "height": 300,
+   "color": "#8A8A8A"
+  }
+ ],
+ "edges": [
+  {
+   "id": "P1-M1",
+   "fromNode": "setser_jun_14_19-P1",
+   "fromSide": "bottom",
+   "toNode": "setser_jun_14_19-M1",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "P1-M2",
+   "fromNode": "setser_jun_14_19-P1",
+   "fromSide": "bottom",
+   "toNode": "setser_jun_14_19-M2",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "P2-M2",
+   "fromNode": "setser_jun_14_19-P2",
+   "fromSide": "bottom",
+   "toNode": "setser_jun_14_19-M2",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "P3-M3",
+   "fromNode": "setser_jun_14_19-P3",
+   "fromSide": "bottom",
+   "toNode": "setser_jun_14_19-M3",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "D2-M1",
+   "fromNode": "setser_jun_14_19-D2",
+   "fromSide": "bottom",
+   "toNode": "setser_jun_14_19-M1",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "M1-C1",
+   "fromNode": "setser_jun_14_19-M1",
+   "fromSide": "bottom",
+   "toNode": "setser_jun_14_19-C1",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "D3-M2",
+   "fromNode": "setser_jun_14_19-D3",
+   "fromSide": "bottom",
+   "toNode": "setser_jun_14_19-M2",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "M2-C2",
+   "fromNode": "setser_jun_14_19-M2",
+   "fromSide": "bottom",
+   "toNode": "setser_jun_14_19-C2",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "D5-M3",
+   "fromNode": "setser_jun_14_19-D5",
+   "fromSide": "bottom",
+   "toNode": "setser_jun_14_19-M3",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "D6-M3",
+   "fromNode": "setser_jun_14_19-D6",
+   "fromSide": "bottom",
+   "toNode": "setser_jun_14_19-M3",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "M3-C3",
+   "fromNode": "setser_jun_14_19-M3",
+   "fromSide": "bottom",
+   "toNode": "setser_jun_14_19-C3",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "D4-M4",
+   "fromNode": "setser_jun_14_19-D4",
+   "fromSide": "bottom",
+   "toNode": "setser_jun_14_19-M4",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "M4-C3",
+   "fromNode": "setser_jun_14_19-M4",
+   "fromSide": "bottom",
+   "toNode": "setser_jun_14_19-C3",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "D1-C4",
+   "fromNode": "setser_jun_14_19-D1",
+   "fromSide": "bottom",
+   "toNode": "setser_jun_14_19-C4",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "C1-C4",
+   "fromNode": "setser_jun_14_19-C1",
+   "fromSide": "bottom",
+   "toNode": "setser_jun_14_19-C4",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "C2-C4",
+   "fromNode": "setser_jun_14_19-C2",
+   "fromSide": "bottom",
+   "toNode": "setser_jun_14_19-C4",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "C3-C4",
+   "fromNode": "setser_jun_14_19-C3",
+   "fromSide": "bottom",
+   "toNode": "setser_jun_14_19-C4",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "C4-K",
+   "fromNode": "setser_jun_14_19-C4",
+   "fromSide": "bottom",
+   "toNode": "setser_jun_14_19-K",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "C3-QF1",
+   "fromNode": "setser_jun_14_19-C3",
+   "fromSide": "bottom",
+   "toNode": "setser_jun_14_19-QF1",
+   "toSide": "top",
+   "label": "-1 qualified_by",
+   "color": "1"
+  },
+  {
+   "id": "C3-QF2",
+   "fromNode": "setser_jun_14_19-C3",
+   "fromSide": "bottom",
+   "toNode": "setser_jun_14_19-QF2",
+   "toSide": "top",
+   "label": "-1 undercut_by",
+   "color": "1"
+  },
+  {
+   "id": "M4-R1",
+   "fromNode": "setser_jun_14_19-M4",
+   "fromSide": "bottom",
+   "toNode": "setser_jun_14_19-R1",
+   "toSide": "top",
+   "label": "-1 undercut_by",
+   "color": "1"
+  },
+  {
+   "id": "Q-P1",
+   "fromNode": "setser_jun_14_19-Q",
+   "fromSide": "bottom",
+   "toNode": "setser_jun_14_19-P1",
+   "toSide": "top",
+   "label": "0 frames ~",
+   "color": "6"
+  },
+  {
+   "id": "Q-P2",
+   "fromNode": "setser_jun_14_19-Q",
+   "fromSide": "bottom",
+   "toNode": "setser_jun_14_19-P2",
+   "toSide": "top",
+   "label": "0 frames ~",
+   "color": "6"
+  },
+  {
+   "id": "Q-P3",
+   "fromNode": "setser_jun_14_19-Q",
+   "fromSide": "bottom",
+   "toNode": "setser_jun_14_19-P3",
+   "toSide": "top",
+   "label": "0 frames ~",
+   "color": "6"
+  },
+  {
+   "id": "P1-D1",
+   "fromNode": "setser_jun_14_19-P1",
+   "fromSide": "bottom",
+   "toNode": "setser_jun_14_19-D1",
+   "toSide": "top",
+   "label": "0 frames ~",
+   "color": "6"
+  },
+  {
+   "id": "P1-D2",
+   "fromNode": "setser_jun_14_19-P1",
+   "fromSide": "bottom",
+   "toNode": "setser_jun_14_19-D2",
+   "toSide": "top",
+   "label": "0 frames ~",
+   "color": "6"
+  },
+  {
+   "id": "P2-D3",
+   "fromNode": "setser_jun_14_19-P2",
+   "fromSide": "bottom",
+   "toNode": "setser_jun_14_19-D3",
+   "toSide": "top",
+   "label": "0 frames ~",
+   "color": "6"
+  },
+  {
+   "id": "P2-D4",
+   "fromNode": "setser_jun_14_19-P2",
+   "fromSide": "bottom",
+   "toNode": "setser_jun_14_19-D4",
+   "toSide": "top",
+   "label": "0 frames ~",
+   "color": "6"
+  },
+  {
+   "id": "P3-D5",
+   "fromNode": "setser_jun_14_19-P3",
+   "fromSide": "bottom",
+   "toNode": "setser_jun_14_19-D5",
+   "toSide": "top",
+   "label": "0 frames ~",
+   "color": "6"
+  },
+  {
+   "id": "P3-D6",
+   "fromNode": "setser_jun_14_19-P3",
+   "fromSide": "bottom",
+   "toNode": "setser_jun_14_19-D6",
+   "toSide": "top",
+   "label": "0 frames ~",
+   "color": "6"
+  }
+ ]
+}

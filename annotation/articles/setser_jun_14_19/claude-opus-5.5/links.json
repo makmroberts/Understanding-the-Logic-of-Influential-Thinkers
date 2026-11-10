@@ -1,0 +1,186 @@
+{
+ "result": [
+  {
+   "from": "Q",
+   "relation": "frames",
+   "to": "P1",
+   "sign": 0
+  },
+  {
+   "from": "Q",
+   "relation": "frames",
+   "to": "P2",
+   "sign": 0
+  },
+  {
+   "from": "P3",
+   "relation": "revises",
+   "to": "P1",
+   "sign": -1
+  },
+  {
+   "from": "P1",
+   "relation": "frames",
+   "to": "E1",
+   "sign": 0
+  },
+  {
+   "from": "P1",
+   "relation": "frames",
+   "to": "E3",
+   "sign": 0
+  },
+  {
+   "from": "E1",
+   "relation": "supports",
+   "to": "C1",
+   "sign": 1
+  },
+  {
+   "from": "C1",
+   "relation": "qualified_by",
+   "to": "R1",
+   "sign": -1
+  },
+  {
+   "from": "E3",
+   "relation": "supports",
+   "to": "M1",
+   "sign": 1
+  },
+  {
+   "from": "E3",
+   "relation": "supports",
+   "to": "M2",
+   "sign": 1
+  },
+  {
+   "from": "E2",
+   "relation": "supports",
+   "to": "M3",
+   "sign": 1
+  },
+  {
+   "from": "M1",
+   "relation": "supports",
+   "to": "K",
+   "sign": 1
+  },
+  {
+   "from": "M2",
+   "relation": "supports",
+   "to": "K",
+   "sign": 1
+  },
+  {
+   "from": "M3",
+   "relation": "supports",
+   "to": "K",
+   "sign": 1
+  },
+  {
+   "from": "M3",
+   "relation": "rebuts",
+   "to": "X",
+   "sign": -1
+  },
+  {
+   "from": "E1",
+   "relation": "supports",
+   "to": "M4",
+   "sign": 1
+  },
+  {
+   "from": "M4",
+   "relation": "undercut_by",
+   "to": "R2",
+   "sign": -1
+  },
+  {
+   "from": "M4",
+   "relation": "supports",
+   "to": "C2",
+   "sign": 1
+  },
+  {
+   "from": "P2",
+   "relation": "licenses",
+   "to": "C3",
+   "sign": 1
+  },
+  {
+   "from": "P2",
+   "relation": "licenses",
+   "to": "C4",
+   "sign": 1
+  },
+  {
+   "from": "C2",
+   "relation": "supports",
+   "to": "K",
+   "sign": 1
+  },
+  {
+   "from": "C3",
+   "relation": "supports",
+   "to": "K",
+   "sign": 1
+  },
+  {
+   "from": "C4",
+   "relation": "supports",
+   "to": "K",
+   "sign": 1
+  },
+  {
+   "from": "C1",
+   "relation": "supports",
+   "to": "K",
+   "sign": 1
+  },
+  {
+   "from": "C4",
+   "relation": "qualified_by",
+   "to": "QF",
+   "sign": -1
+  },
+  {
+   "from": "K",
+   "relation": "qualified_by",
+   "to": "QF2",
+   "sign": -1
+  },
+  {
+   "from": "K",
+   "relation": "defers",
+   "to": "DF",
+   "sign": 0
+  },
+  {
+   "from": "E2",
+   "relation": "supports",
+   "to": "REC",
+   "sign": 1
+  },
+  {
+   "from": "REC",
+   "relation": "rebuts",
+   "to": "X",
+   "sign": -1
+  },
+  {
+   "from": "P3",
+   "relation": "motivates",
+   "to": "M1",
+   "sign": 1
+  }
+ ],
+ "review": [
+  "`M3` rebuts `X` joins L3→L6, which no hand-drawn rebuts link does",
+  "`P3` motivates `M1` joins L1→L3, which no hand-drawn motivates link does"
+ ],
+ "gaps_left": [],
+ "dropped": [],
+ "fix_rounds": 0,
+ "reasks": 0
+}

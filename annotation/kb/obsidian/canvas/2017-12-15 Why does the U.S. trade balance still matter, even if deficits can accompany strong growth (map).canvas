@@ -1,0 +1,468 @@
+{
+ "nodes": [
+  {
+   "id": "setser_dec_15_17-Q",
+   "type": "file",
+   "file": "claims/question/Why does the U.S. trade balance still matter, even if deficits can accompany strong growth.md",
+   "x": -260,
+   "y": 0,
+   "width": 520,
+   "height": 300,
+   "color": "#7A6FA8"
+  },
+  {
+   "id": "setser_dec_15_17-P1",
+   "type": "file",
+   "file": "claims/stated_assumption/Net exports contribute to GDP growth.md",
+   "x": -840,
+   "y": 480,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "setser_dec_15_17-P2",
+   "type": "file",
+   "file": "claims/stated_assumption/Trade shapes employment composition.md",
+   "x": -260,
+   "y": 480,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "setser_dec_15_17-P3",
+   "type": "file",
+   "file": "claims/stated_assumption/Persistent deficits accumulate external debt.md",
+   "x": 320,
+   "y": 480,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "setser_dec_15_17-D1",
+   "type": "file",
+   "file": "claims/evidence_data/2014\u201316 net-export drag.md",
+   "x": -1710,
+   "y": 960,
+   "width": 520,
+   "height": 300,
+   "color": "#2F7FBF"
+  },
+  {
+   "id": "setser_dec_15_17-D2",
+   "type": "file",
+   "file": "claims/evidence_data/Manufacturing employment varies with trade.md",
+   "x": -1130,
+   "y": 960,
+   "width": 520,
+   "height": 300,
+   "color": "#2F7FBF"
+  },
+  {
+   "id": "setser_dec_15_17-D3",
+   "type": "file",
+   "file": "claims/evidence_data/Manufacturing balance did not drive adjustment.md",
+   "x": -550,
+   "y": 960,
+   "width": 520,
+   "height": 300,
+   "color": "#2F7FBF"
+  },
+  {
+   "id": "setser_dec_15_17-D4",
+   "type": "file",
+   "file": "claims/evidence_data/External debt rose from ~20% to ~50% of GDP.md",
+   "x": 30,
+   "y": 960,
+   "width": 520,
+   "height": 300,
+   "color": "#2F7FBF"
+  },
+  {
+   "id": "setser_dec_15_17-D5",
+   "type": "file",
+   "file": "claims/evidence_data/Higher rates or wider deficits raise debt ratios.md",
+   "x": 610,
+   "y": 960,
+   "width": 520,
+   "height": 300,
+   "color": "#2F7FBF"
+  },
+  {
+   "id": "setser_dec_15_17-D6",
+   "type": "file",
+   "file": "claims/evidence_data/Tax cuts could widen trade deficit.md",
+   "x": 1190,
+   "y": 960,
+   "width": 520,
+   "height": 300,
+   "color": "#2F7FBF"
+  },
+  {
+   "id": "setser_dec_15_17-M1",
+   "type": "file",
+   "file": "claims/mechanism/Trade deficits can drag on growth.md",
+   "x": -840,
+   "y": 1440,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "setser_dec_15_17-M2",
+   "type": "file",
+   "file": "claims/mechanism/Trade shifts where jobs are located.md",
+   "x": -260,
+   "y": 1440,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "setser_dec_15_17-M3",
+   "type": "file",
+   "file": "claims/mechanism/Deficits build external debt.md",
+   "x": 320,
+   "y": 1440,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "setser_dec_15_17-C1",
+   "type": "file",
+   "file": "claims/intermediate_claim/Trade changes the pace of growth.md",
+   "x": -840,
+   "y": 1920,
+   "width": 520,
+   "height": 300,
+   "color": "#2FBF9B"
+  },
+  {
+   "id": "setser_dec_15_17-C2",
+   "type": "file",
+   "file": "claims/intermediate_claim/Trade changes the composition of employment.md",
+   "x": -260,
+   "y": 1920,
+   "width": 520,
+   "height": 300,
+   "color": "#2FBF9B"
+  },
+  {
+   "id": "setser_dec_15_17-C3",
+   "type": "file",
+   "file": "claims/intermediate_claim/Current debt stability is conditional.md",
+   "x": 320,
+   "y": 1920,
+   "width": 520,
+   "height": 300,
+   "color": "#2FBF9B"
+  },
+  {
+   "id": "setser_dec_15_17-K",
+   "type": "file",
+   "file": "claims/main_claim/Main claim the trade balance remains worth watching.md",
+   "x": -260,
+   "y": 2400,
+   "width": 520,
+   "height": 300,
+   "color": "#2FBF9B"
+  },
+  {
+   "id": "setser_dec_15_17-QF1",
+   "type": "file",
+   "file": "claims/caveat/Monthly trade data are noisy and should be read as a time series.md",
+   "x": -1130,
+   "y": 2880,
+   "width": 520,
+   "height": 300,
+   "color": "#9A8C6A"
+  },
+  {
+   "id": "setser_dec_15_17-QF2",
+   "type": "file",
+   "file": "claims/caveat/Near full employment, trade changes job distribution more than total employment.md",
+   "x": -550,
+   "y": 2880,
+   "width": 520,
+   "height": 300,
+   "color": "#9A8C6A"
+  },
+  {
+   "id": "setser_dec_15_17-R1",
+   "type": "file",
+   "file": "claims/caveat/The U.S. can sustain more external debt than most because of the dollar's global role.md",
+   "x": 30,
+   "y": 2880,
+   "width": 520,
+   "height": 300,
+   "color": "#9A8C6A"
+  },
+  {
+   "id": "setser_dec_15_17-X",
+   "type": "file",
+   "file": "claims/opposing_view/A wider deficit can reflect stronger domestic demand rather than weakness.md",
+   "x": 610,
+   "y": 2880,
+   "width": 520,
+   "height": 300,
+   "color": "#8A8A8A"
+  }
+ ],
+ "edges": [
+  {
+   "id": "P1-M1",
+   "fromNode": "setser_dec_15_17-P1",
+   "fromSide": "bottom",
+   "toNode": "setser_dec_15_17-M1",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "D1-M1",
+   "fromNode": "setser_dec_15_17-D1",
+   "fromSide": "bottom",
+   "toNode": "setser_dec_15_17-M1",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "D6-M1",
+   "fromNode": "setser_dec_15_17-D6",
+   "fromSide": "bottom",
+   "toNode": "setser_dec_15_17-M1",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "M1-C1",
+   "fromNode": "setser_dec_15_17-M1",
+   "fromSide": "bottom",
+   "toNode": "setser_dec_15_17-C1",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "P2-M2",
+   "fromNode": "setser_dec_15_17-P2",
+   "fromSide": "bottom",
+   "toNode": "setser_dec_15_17-M2",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "D2-M2",
+   "fromNode": "setser_dec_15_17-D2",
+   "fromSide": "bottom",
+   "toNode": "setser_dec_15_17-M2",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "D3-M2",
+   "fromNode": "setser_dec_15_17-D3",
+   "fromSide": "bottom",
+   "toNode": "setser_dec_15_17-M2",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "M2-C2",
+   "fromNode": "setser_dec_15_17-M2",
+   "fromSide": "bottom",
+   "toNode": "setser_dec_15_17-C2",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "P3-M3",
+   "fromNode": "setser_dec_15_17-P3",
+   "fromSide": "bottom",
+   "toNode": "setser_dec_15_17-M3",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "D4-M3",
+   "fromNode": "setser_dec_15_17-D4",
+   "fromSide": "bottom",
+   "toNode": "setser_dec_15_17-M3",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "D5-M3",
+   "fromNode": "setser_dec_15_17-D5",
+   "fromSide": "bottom",
+   "toNode": "setser_dec_15_17-M3",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "M3-C3",
+   "fromNode": "setser_dec_15_17-M3",
+   "fromSide": "bottom",
+   "toNode": "setser_dec_15_17-C3",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "C1-K",
+   "fromNode": "setser_dec_15_17-C1",
+   "fromSide": "bottom",
+   "toNode": "setser_dec_15_17-K",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "C2-K",
+   "fromNode": "setser_dec_15_17-C2",
+   "fromSide": "bottom",
+   "toNode": "setser_dec_15_17-K",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "C3-K",
+   "fromNode": "setser_dec_15_17-C3",
+   "fromSide": "bottom",
+   "toNode": "setser_dec_15_17-K",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "C1-X",
+   "fromNode": "setser_dec_15_17-C1",
+   "fromSide": "bottom",
+   "toNode": "setser_dec_15_17-X",
+   "toSide": "top",
+   "label": "-1 qualified_by",
+   "color": "1"
+  },
+  {
+   "id": "K-QF1",
+   "fromNode": "setser_dec_15_17-K",
+   "fromSide": "bottom",
+   "toNode": "setser_dec_15_17-QF1",
+   "toSide": "top",
+   "label": "-1 qualified_by",
+   "color": "1"
+  },
+  {
+   "id": "C2-QF2",
+   "fromNode": "setser_dec_15_17-C2",
+   "fromSide": "bottom",
+   "toNode": "setser_dec_15_17-QF2",
+   "toSide": "top",
+   "label": "-1 qualified_by",
+   "color": "1"
+  },
+  {
+   "id": "C3-R1",
+   "fromNode": "setser_dec_15_17-C3",
+   "fromSide": "bottom",
+   "toNode": "setser_dec_15_17-R1",
+   "toSide": "top",
+   "label": "-1 qualified_by",
+   "color": "1"
+  },
+  {
+   "id": "Q-P1",
+   "fromNode": "setser_dec_15_17-Q",
+   "fromSide": "bottom",
+   "toNode": "setser_dec_15_17-P1",
+   "toSide": "top",
+   "label": "0 frames ~",
+   "color": "6"
+  },
+  {
+   "id": "Q-P2",
+   "fromNode": "setser_dec_15_17-Q",
+   "fromSide": "bottom",
+   "toNode": "setser_dec_15_17-P2",
+   "toSide": "top",
+   "label": "0 frames ~",
+   "color": "6"
+  },
+  {
+   "id": "Q-P3",
+   "fromNode": "setser_dec_15_17-Q",
+   "fromSide": "bottom",
+   "toNode": "setser_dec_15_17-P3",
+   "toSide": "top",
+   "label": "0 frames ~",
+   "color": "6"
+  },
+  {
+   "id": "P1-D1",
+   "fromNode": "setser_dec_15_17-P1",
+   "fromSide": "bottom",
+   "toNode": "setser_dec_15_17-D1",
+   "toSide": "top",
+   "label": "0 frames ~",
+   "color": "6"
+  },
+  {
+   "id": "P1-D6",
+   "fromNode": "setser_dec_15_17-P1",
+   "fromSide": "bottom",
+   "toNode": "setser_dec_15_17-D6",
+   "toSide": "top",
+   "label": "0 frames ~",
+   "color": "6"
+  },
+  {
+   "id": "P2-D2",
+   "fromNode": "setser_dec_15_17-P2",
+   "fromSide": "bottom",
+   "toNode": "setser_dec_15_17-D2",
+   "toSide": "top",
+   "label": "0 frames ~",
+   "color": "6"
+  },
+  {
+   "id": "P2-D3",
+   "fromNode": "setser_dec_15_17-P2",
+   "fromSide": "bottom",
+   "toNode": "setser_dec_15_17-D3",
+   "toSide": "top",
+   "label": "0 frames ~",
+   "color": "6"
+  },
+  {
+   "id": "P3-D4",
+   "fromNode": "setser_dec_15_17-P3",
+   "fromSide": "bottom",
+   "toNode": "setser_dec_15_17-D4",
+   "toSide": "top",
+   "label": "0 frames ~",
+   "color": "6"
+  },
+  {
+   "id": "P3-D5",
+   "fromNode": "setser_dec_15_17-P3",
+   "fromSide": "bottom",
+   "toNode": "setser_dec_15_17-D5",
+   "toSide": "top",
+   "label": "0 frames ~",
+   "color": "6"
+  }
+ ]
+}

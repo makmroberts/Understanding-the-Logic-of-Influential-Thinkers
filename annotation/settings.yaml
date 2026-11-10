@@ -1,0 +1,66 @@
+# Settings for the annotation pipeline. Every path is relative to this file's folder.
+
+paths:
+  repo: ..                       # the repository root, where scripts/parsers/ and scripts/extractors/ live
+  extracted: ../internal/extracted   # article text, written by the parsers (never committed)
+  records: ../data/articles      # metadata records, written by scripts/extractors/metadata.py
+  kb: kb                         # the team's knowledge-base layout: scripts/ data/ mermaid_code/ obsidian/
+  ontology: config/ontology.yaml # roles, relations, ID rules; swap the file to change the vocabulary
+  articles: articles             # the official run of each article: boxes.json, links.json, facets.json, annotation.json, calls.jsonl
+  experiments: ../internal/annotation_experiments/openrouter   # every other run (other models, repeats, oracle) and the cross-run report, outside annotation/
+  cache: cache                   # model responses by request hash, so a re-run costs nothing
+  runs: runs                     # LangGraph checkpoints, so a stopped run resumes where it stopped
+
+# Parser used to download an article that has no text yet, run from the repository root.
+parser: scripts/parsers/cfr.py
+
+# The one model service in use. Any OpenAI-compatible service works by changing these lines.
+gateway:
+  base_url: https://openrouter.ai/api/v1
+  key_env: OPENROUTER_API_KEY    # the key lives only in this environment variable
+  timeout_s: 600
+  extra_body:
+    provider: {require_parameters: true}   # only route to providers that honour the strict JSON schema
+    usage: {include: true}                 # report the cost of every call
+# Duke AI Gateway (used 2026-11-04 to 11-06; $1 a day per key; Duke VPN required):
+#   base_url: https://litellm.oit.duke.edu/v1
+#   key_env: LITELLM_TOKEN
+#   no extra_body; model names without the provider prefix, e.g. claude-sonnet-5-5
+
+# The official version uses these. Running with another model makes an experiment run.
+# Chosen 2026-11-09 after two screening rounds (8 models, then 4 x 5 practice articles x 2 runs):
+# no invented names or figures, most content matched by the same paragraph, fewest retries.
+# Gemini 4 Argon was the close second (more stable, cheaper); see the experiments folder.
+models:
+  boxes: anthropic/claude-opus-5.5
+  links: anthropic/claude-opus-5.5
+  facets: anthropic/claude-opus-5.5
+  compare: [anthropic/claude-opus-5.5, google/gemini-4-argon, openai/gpt-6.1-sol, deepseek/deepseek-v4.1-flash]
+
+# Sent with every call of that step. Kept here so the run record shows exactly what was asked.
+# Through the Duke Gateway, Claude showed no thinking with reasoning_effort (tested 2026-11-04);
+# OpenRouter lists reasoning support for Claude, to be checked in the first OpenRouter run.
+params:
+  boxes:  {max_tokens: 16000, reasoning_effort: medium}
+  links:  {max_tokens: 12000, reasoning_effort: medium}
+  facets: {max_tokens: 12000, reasoning_effort: low}   # tagging needs little thought; unset, some models spent all 12000 tokens thinking
+
+retries:
+  format: 2    # rounds of "here is what failed, fix it" before a step stops for a person
+  reask: 1     # targeted re-asks when the completeness check finds a gap
+
+completeness:
+  expect_share: 0.6   # a role found in at least this share of hand-mapped articles is expected
+
+# Hand-drawn maps shown to the model as worked examples, so never scored.
+# The first one is also the example in the links prompt.
+example_articles: [setser_2025-07-07_china-stealth-surplus, setser_may_5_25]
+
+# Never used while writing or tuning prompts, and left out of the corpus profile.
+# Scored only at the end. Spread over the three map families.
+held_out:
+  - setser_sep_20_19
+  - setser_may_10_19
+  - setser_mar_31_20
+  - setser_2025-11-12_china-surplus-imf
+  - setser_2026-02-03_october-2025-deficit

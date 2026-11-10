@@ -1,0 +1,836 @@
+{
+  "schema_version": "source-record-0.1",
+  "article": {
+    "id": "whats-the-renminbi-got-to-do-with-it",
+    "title": "What’s the Renminbi Got to Do With it?",
+    "authors": [
+      "Brad W. Setser"
+    ],
+    "published_date": "2026-10-13",
+    "url": "https://www.cfr.org/articles/whats-the-renminbi-got-to-do-with-it",
+    "publisher": "Council on Foreign Relations",
+    "series": "Follow the Money",
+    "source_text": {
+      "path": "internal/extracted/2026-10-13_whats-the-renminbi-got-to-do-with-it.md",
+      "paragraph_count": 47,
+      "content_hash": "sha256:c48ac63ff4e090d14df2a6659d9fa35c6b69a1d331746980e104511d42c0fca3",
+      "revision": 1
+    },
+    "references": [
+      {
+        "id": "r001",
+        "paragraph_id": "p1",
+        "char_start": 40,
+        "char_end": 53,
+        "label": "Geneva Report",
+        "href": "https://cepr.org/publications/books-and-reports/geneva-29-changing-structure-and-challenges-international-financial",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://cepr.org/publications/books-and-reports/geneva-29-changing-structure-and-challenges-international-financial",
+        "host": "cepr.org",
+        "target_article_id": null
+      },
+      {
+        "id": "r002",
+        "paragraph_id": "p1",
+        "char_start": 69,
+        "char_end": 89,
+        "label": "former IMF officials",
+        "href": "https://www.economist.com/by-invitation/2026/07/28/dont-blame-global-imbalances-on-the-undervalued-yuan",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://economist.com/by-invitation/2026/07/28/dont-blame-global-imbalances-on-the-undervalued-yuan",
+        "host": "economist.com",
+        "target_article_id": null
+      },
+      {
+        "id": "r003",
+        "paragraph_id": "p4",
+        "char_start": 36,
+        "char_end": 65,
+        "label": "your internal market supports",
+        "href": "https://www.wsj.com/business/autos/chinas-auto-sales-fall-despite-traditional-peak-season-bfbe9b1a",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://wsj.com/business/autos/chinas-auto-sales-fall-despite-traditional-peak-season-bfbe9b1a",
+        "host": "wsj.com",
+        "target_article_id": null
+      },
+      {
+        "id": "r004",
+        "paragraph_id": "p8",
+        "char_start": 209,
+        "char_end": 240,
+        "label": "recent comprehensive assessment",
+        "href": "https://www.imf.org/en/publications/cr/issues/2026/02/17/peoples-republic-of-china-2025-article-iv-consultation-press-release-staff-report-and-574028",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://imf.org/en/publications/cr/issues/2026/02/17/peoples-republic-of-china-2025-article-iv-consultation-press-release-staff-report-and-574028",
+        "host": "imf.org",
+        "target_article_id": null
+      },
+      {
+        "id": "r005",
+        "paragraph_id": "p9",
+        "char_start": 48,
+        "char_end": 56,
+        "label": "the PBOC",
+        "href": "https://www.pbc.gov.cn/goutongjiaoliu/attachDir/2026/10/2026100817415987714.pdf",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://pbc.gov.cn/goutongjiaoliu/attachdir/2026/10/2026100817415987714.pdf",
+        "host": "pbc.gov.cn",
+        "target_article_id": null
+      },
+      {
+        "id": "r006",
+        "paragraph_id": "p9",
+        "char_start": 65,
+        "char_end": 73,
+        "label": "absurdly",
+        "href": "https://www.ft.com/content/27be530d-2faf-43ce-874f-0e6e0802bee2?syn-25a6b1a6=1",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://ft.com/content/27be530d-2faf-43ce-874f-0e6e0802bee2",
+        "host": "ft.com",
+        "target_article_id": null
+      },
+      {
+        "id": "r007",
+        "paragraph_id": "p10",
+        "char_start": 42,
+        "char_end": 63,
+        "label": "agree with Mark Sobel",
+        "href": "https://www.omfif.org/2026/10/peoples-bank-of-china-exchange-rate-paper-is-left-wanting/",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://omfif.org/2026/10/peoples-bank-of-china-exchange-rate-paper-is-left-wanting",
+        "host": "omfif.org",
+        "target_article_id": null
+      },
+      {
+        "id": "r008",
+        "paragraph_id": "p11",
+        "char_start": 430,
+        "char_end": 464,
+        "label": "must be taken with a pinch of salt",
+        "href": "https://www.omfif.org/how-to-do-business-with-china/",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://omfif.org/how-to-do-business-with-china",
+        "host": "omfif.org",
+        "target_article_id": null
+      },
+      {
+        "id": "r009",
+        "paragraph_id": "p14",
+        "char_start": 62,
+        "char_end": 78,
+        "label": "the state banks.",
+        "href": "https://www.cfr.org/articles/the-pboc-the-state-banks-and-backdoor-intervention",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://cfr.org/articles/the-pboc-the-state-banks-and-backdoor-intervention",
+        "host": "cfr.org",
+        "target_article_id": null
+      },
+      {
+        "id": "r010",
+        "paragraph_id": "p17",
+        "char_start": 166,
+        "char_end": 210,
+        "label": "their open letter to the European Commission",
+        "href": "https://legrandcontinent.eu/fr/2026/10/05/la-france-et-lallemagne-veulent-donner-a-lunion-le-pouvoir-de-fermer-son-marche/",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://legrandcontinent.eu/fr/2026/10/05/la-france-et-lallemagne-veulent-donner-a-lunion-le-pouvoir-de-fermer-son-marche",
+        "host": "legrandcontinent.eu",
+        "target_article_id": null
+      },
+      {
+        "id": "r011",
+        "paragraph_id": "p22",
+        "char_start": 195,
+        "char_end": 199,
+        "label": "2023",
+        "href": "https://www.imf.org/en/publications/esr/issues/2023/07/19/2023-external-sector-report",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://imf.org/en/publications/esr/issues/2023/07/19/2023-external-sector-report",
+        "host": "imf.org",
+        "target_article_id": null
+      },
+      {
+        "id": "r012",
+        "paragraph_id": "p22",
+        "char_start": 204,
+        "char_end": 208,
+        "label": "2024",
+        "href": "https://www.imf.org/en/publications/esr/issues/2024/07/12/external-sector-report-2024",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://imf.org/en/publications/esr/issues/2024/07/12/external-sector-report-2024",
+        "host": "imf.org",
+        "target_article_id": null
+      },
+      {
+        "id": "r013",
+        "paragraph_id": "p23",
+        "char_start": 161,
+        "char_end": 189,
+        "label": "this blog with Shahin Vallee",
+        "href": "https://www.cfr.org/articles/currency-moves-can-drive-rebalancing",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://cfr.org/articles/currency-moves-can-drive-rebalancing",
+        "host": "cfr.org",
+        "target_article_id": null
+      },
+      {
+        "id": "r014",
+        "paragraph_id": "p23",
+        "char_start": 320,
+        "char_end": 324,
+        "label": "2022",
+        "href": "https://www.imf.org/en/publications/cr/issues/2023/02/02/peoples-republic-of-china-2022-article-iv-consultation-press-release-staff-report-and-529067",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://imf.org/en/publications/cr/issues/2023/02/02/peoples-republic-of-china-2022-article-iv-consultation-press-release-staff-report-and-529067",
+        "host": "imf.org",
+        "target_article_id": null
+      },
+      {
+        "id": "r015",
+        "paragraph_id": "p23",
+        "char_start": 326,
+        "char_end": 330,
+        "label": "2023",
+        "href": "https://www.imf.org/en/publications/cr/issues/2024/02/01/people-s-republic-of-china-2023-article-iv-consultation-press-release-staff-report-and-544379",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://imf.org/en/publications/cr/issues/2024/02/01/people-s-republic-of-china-2023-article-iv-consultation-press-release-staff-report-and-544379",
+        "host": "imf.org",
+        "target_article_id": null
+      },
+      {
+        "id": "r016",
+        "paragraph_id": "p23",
+        "char_start": 335,
+        "char_end": 339,
+        "label": "2024",
+        "href": "https://www.imf.org/en/publications/cr/issues/2024/08/01/peoples-republic-of-china-2024-article-iv-consultation-press-release-staff-report-and-552803",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://imf.org/en/publications/cr/issues/2024/08/01/peoples-republic-of-china-2024-article-iv-consultation-press-release-staff-report-and-552803",
+        "host": "imf.org",
+        "target_article_id": null
+      },
+      {
+        "id": "r017",
+        "paragraph_id": "p27",
+        "char_start": 11,
+        "char_end": 33,
+        "label": "Paul Krugman has noted",
+        "href": "https://paulkrugman.substack.com/p/economic-size-and-economic-power",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://paulkrugman.substack.com/p/economic-size-and-economic-power",
+        "host": "paulkrugman.substack.com",
+        "target_article_id": null
+      },
+      {
+        "id": "r018",
+        "paragraph_id": "p29",
+        "char_start": 0,
+        "char_end": 25,
+        "label": "The PBOC isn’t interested",
+        "href": "https://www.chinadailyasia.com/hk/article/640808",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://chinadailyasia.com/hk/article/640808",
+        "host": "chinadailyasia.com",
+        "target_article_id": null
+      },
+      {
+        "id": "r019",
+        "paragraph_id": "p32",
+        "char_start": 0,
+        "char_end": 24,
+        "label": "That clearly isn’t true.",
+        "href": "https://www.cfr.org/articles/is-chinas-surplus-really-shrinking",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://cfr.org/articles/is-chinas-surplus-really-shrinking",
+        "host": "cfr.org",
+        "target_article_id": "is-chinas-surplus-really-shrinking"
+      },
+      {
+        "id": "r020",
+        "paragraph_id": "p33",
+        "char_start": 19,
+        "char_end": 147,
+        "label": "that China is more interested in having a negotiation over its level of basic pension benefits or the size of its fiscal deficit",
+        "href": "https://www.economist.com/by-invitation/2026/07/28/dont-blame-global-imbalances-on-the-undervalued-yuan",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://economist.com/by-invitation/2026/07/28/dont-blame-global-imbalances-on-the-undervalued-yuan",
+        "host": "economist.com",
+        "target_article_id": null
+      },
+      {
+        "id": "r021",
+        "paragraph_id": "p33",
+        "char_start": 308,
+        "char_end": 349,
+        "label": "a discussion over its currency practices.",
+        "href": "https://www.economist.com/by-invitation/2026/08/16/chinas-exorbitant-surplus-calls-for-a-much-stronger-yuan",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://economist.com/by-invitation/2026/08/16/chinas-exorbitant-surplus-calls-for-a-much-stronger-yuan",
+        "host": "economist.com",
+        "target_article_id": null
+      },
+      {
+        "id": "r022",
+        "paragraph_id": "p36",
+        "char_start": 38,
+        "char_end": 66,
+        "label": "the recent tariff rate quota",
+        "href": "https://www.reuters.com/world/china/china-eu-reach-hybrid-vehicle-trade-understanding-keep-talks-alive-ev-dispute-2026-10-09/",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://reuters.com/world/china/china-eu-reach-hybrid-vehicle-trade-understanding-keep-talks-alive-ev-dispute-2026-10-09",
+        "host": "reuters.com",
+        "target_article_id": null
+      },
+      {
+        "id": "r023",
+        "paragraph_id": "p39",
+        "char_start": 44,
+        "char_end": 90,
+        "label": "doesn’t address the underlying systemic issues",
+        "href": "https://cepr.org/voxeu/columns/global-imbalances-and-china-challenge",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://cepr.org/voxeu/columns/global-imbalances-and-china-challenge",
+        "host": "cepr.org",
+        "target_article_id": null
+      },
+      {
+        "id": "r024",
+        "paragraph_id": "p42",
+        "char_start": 129,
+        "char_end": 149,
+        "label": "immaculate transfers",
+        "href": "https://archive.nytimes.com/krugman.blogs.nytimes.com/2011/01/12/the-doctrine-of-immaculate-transfer/",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://archive.nytimes.com/krugman.blogs.nytimes.com/2011/01/12/the-doctrine-of-immaculate-transfer",
+        "host": "archive.nytimes.com",
+        "target_article_id": null
+      },
+      {
+        "id": "r025",
+        "paragraph_id": "p46",
+        "char_start": 108,
+        "char_end": 196,
+        "label": "Europe’s institutional architecture for exchange rate coordination is not well-developed",
+        "href": "https://institutdelors.eu/en/publications/a-new-eu-structural-rebalancing-instrument-to-respond-to-chinas-export-surge/",
+        "kind": "hyperlink",
+        "placement": "footnote",
+        "source_key": "https://institutdelors.eu/en/publications/a-new-eu-structural-rebalancing-instrument-to-respond-to-chinas-export-surge",
+        "host": "institutdelors.eu",
+        "target_article_id": null
+      },
+      {
+        "id": "r026",
+        "paragraph_id": "p47",
+        "char_start": 150,
+        "char_end": 173,
+        "label": "per the Federal Reserve",
+        "href": "https://www.federalreserve.gov/econres/notes/feds-notes/revisiting-chinas-current-account-evidence-from-recent-revisions-20260922.html",
+        "kind": "hyperlink",
+        "placement": "footnote",
+        "source_key": "https://federalreserve.gov/econres/notes/feds-notes/revisiting-chinas-current-account-evidence-from-recent-revisions-20260922.html",
+        "host": "federalreserve.gov",
+        "target_article_id": null
+      }
+    ],
+    "metadata_extension": {
+      "field_sources": {
+        "title": "frontmatter",
+        "authors": "frontmatter",
+        "published_date": "frontmatter",
+        "url": "frontmatter",
+        "publisher": "frontmatter",
+        "series": "frontmatter"
+      },
+      "references_status": "preserved",
+      "links_hash": "sha256:5765d1e0c0656327d0d1ffa542e9ccb94de03301ca653070badb8e3717573226",
+      "subtitle": "A closer look at the impact of China’s currency on China’s export growth.",
+      "published_at": "2026-10-13T01:20:50-04:00",
+      "programs": [
+        "Follow the Money",
+        "Greenberg Center for Geoeconomics"
+      ],
+      "source_tags": [
+        "China",
+        "Economics",
+        "Trade"
+      ],
+      "license": "CC BY-NC-ND 4.0",
+      "section": "Article",
+      "doc_type": "AnalysisNewsArticle",
+      "language": "en",
+      "word_count": 2034,
+      "date_modified": "2026-10-11",
+      "retrieved_at": "2026-11-10T23:23:43Z",
+      "page_sha256": "d2a5021a8dcde1703e26c34e3cb9be67ed230da539eccd7d4a41225b3794b928",
+      "figures": []
+    }
+  },
+  "paragraphs": [
+    {
+      "id": "p1",
+      "sha256": "sha256:0de5f45fe2029a342c4a7d762910ab909725ec0ba2377cadc7051ce9e8a40457",
+      "n_chars": 229
+    },
+    {
+      "id": "p2",
+      "sha256": "sha256:b1bdce6a0cf88373a1bb160ebeb92e2bdff940c17258a58789efc050e1bf35a0",
+      "n_chars": 159
+    },
+    {
+      "id": "p3",
+      "sha256": "sha256:b3c703450b0cbfc0797c28ac2d395ba9037e6b6955ceda6d3327db730e12ec59",
+      "n_chars": 44
+    },
+    {
+      "id": "p4",
+      "sha256": "sha256:d8ef9b536628a0e48fd17295699cd013ea76932a28561588c6fac2688e5b1ae4",
+      "n_chars": 83
+    },
+    {
+      "id": "p5",
+      "sha256": "sha256:334df4b153c092e1e522e3f0aebecf7c372447646826051093f2cc909e6a284a",
+      "n_chars": 254
+    },
+    {
+      "id": "p6",
+      "sha256": "sha256:e069cf9b8a72c5e7d899f1107c4778665ae6da2071d3e2e33eaed7ba4f5d1e81",
+      "n_chars": 575
+    },
+    {
+      "id": "p7",
+      "sha256": "sha256:a2c4057a24a6dfadb5570087ffd5070ccad6f42db16f54c5b6ef16f1244fb6b8",
+      "n_chars": 531
+    },
+    {
+      "id": "p8",
+      "sha256": "sha256:bb1bfed5c96bf16bc920157fbcaf92ebedde133596d65a9d166c819c6424ae90",
+      "n_chars": 332
+    },
+    {
+      "id": "p9",
+      "sha256": "sha256:63629a8c74b1606e319cd1274491dce3cb926237f52f566226bb83bf6655422e",
+      "n_chars": 162
+    },
+    {
+      "id": "p10",
+      "sha256": "sha256:1633b84603f2bd26beb7d1dc92a870f7f08ae8c442a7918d0321adc5146903fd",
+      "n_chars": 64
+    },
+    {
+      "id": "p11",
+      "sha256": "sha256:a1336f9f1a29574e4b3fa721bad6f14047c8ff5a767c6b07506bb5be926c7786",
+      "n_chars": 638
+    },
+    {
+      "id": "p12",
+      "sha256": "sha256:b88895014c0699ae40f7e4fd6d29ba3df6a485c7db2772e231d951620c736aa8",
+      "n_chars": 168
+    },
+    {
+      "id": "p13",
+      "sha256": "sha256:66a76c7a88aeb817e6449c8e1b242f68d25d876563759d71ce200d1156739a89",
+      "n_chars": 244
+    },
+    {
+      "id": "p14",
+      "sha256": "sha256:d7fc6dd723a939b3202af70a1d05d0b00f5ae20260f729188598dee7b1f82f99",
+      "n_chars": 402
+    },
+    {
+      "id": "p15",
+      "sha256": "sha256:0da26b2f47ac62c0b732006f0859232268e9a77ddbe2e8b883944c8111fb8e94",
+      "n_chars": 237
+    },
+    {
+      "id": "p16",
+      "sha256": "sha256:fe8057cd68924ac1903f9e3c868e47dc316c7fa6e3b9796fe3986536b3963332",
+      "n_chars": 198
+    },
+    {
+      "id": "p17",
+      "sha256": "sha256:510f26a3f39e6dbc12d950dd4354f6c1e44b49c7dbfe6d88e28f62366b9196a8",
+      "n_chars": 211
+    },
+    {
+      "id": "p18",
+      "sha256": "sha256:bfd18a8275a8e308d0dc271d048a2cc6c90a00d7ad97688b95bee504bf25bf7c",
+      "n_chars": 348
+    },
+    {
+      "id": "p19",
+      "sha256": "sha256:f2878f30506be04eb3eafa3d72a1dc3acdfee9ba80e6bd18ba91d75a78278a56",
+      "n_chars": 233
+    },
+    {
+      "id": "p20",
+      "sha256": "sha256:9f3c62c4cb9435d9f5abfa3331975c43ca12b62c1c6b932e1e738c1cfa685a3c",
+      "n_chars": 25
+    },
+    {
+      "id": "p21",
+      "sha256": "sha256:dbe4394a9e8b8e9a1e069ae7f2774533d769fbb04ecef0f47f42ff661cd81e9c",
+      "n_chars": 346
+    },
+    {
+      "id": "p22",
+      "sha256": "sha256:398773fe3b36920c50b9e2d5b2a7127d15341d2d91e97df337ddc5ef2b605b78",
+      "n_chars": 209
+    },
+    {
+      "id": "p23",
+      "sha256": "sha256:a862ca38e342dd7dc4b2dc49a34d8d93dc0c27e6111c38dd1c50d5d2b6abddc7",
+      "n_chars": 361
+    },
+    {
+      "id": "p24",
+      "sha256": "sha256:85beb2e87d2ccb17e6f5623cc220841085f60b9f7d18bc381303c9fabda1ceaa",
+      "n_chars": 155
+    },
+    {
+      "id": "p25",
+      "sha256": "sha256:1edf4adf679f9fe45195b8abe0cb85962d4fc8d8b33b25d3a12f0d061df57da9",
+      "n_chars": 79
+    },
+    {
+      "id": "p26",
+      "sha256": "sha256:76bb90b7ba60e71ede777a9a776fd1394a2c046277afe3475699a622efc40419",
+      "n_chars": 341
+    },
+    {
+      "id": "p27",
+      "sha256": "sha256:60993fc7213e7ff8d6c755453957fc35dec55ef5ef5caab71b3fce71aedb4557",
+      "n_chars": 446
+    },
+    {
+      "id": "p28",
+      "sha256": "sha256:7589db4115121025faebf09c8eb0d0a6af13a24ea9b2e2bf499d4e3e6e55d779",
+      "n_chars": 98
+    },
+    {
+      "id": "p29",
+      "sha256": "sha256:d0e28faf983bef86f5c7b6b5fb298b391b90584a2552fbd14a12933eced97488",
+      "n_chars": 35
+    },
+    {
+      "id": "p30",
+      "sha256": "sha256:df592f8cff1db091a240da5da5b03659cb44ed44040617b85e430d84e6b09d30",
+      "n_chars": 663
+    },
+    {
+      "id": "p31",
+      "sha256": "sha256:94211a3abdff704662392e87466d1ec3df22c34551673c041a44d5efc89fa0b8",
+      "n_chars": 183
+    },
+    {
+      "id": "p32",
+      "sha256": "sha256:4090e9ea6528c6ec0b753a4b8d72b89013e87338b6c1b4a32a33867db692fe7e",
+      "n_chars": 24
+    },
+    {
+      "id": "p33",
+      "sha256": "sha256:d99866639fc733449e545592a47f37f2d600a052cc6a6f63a344208779343f5a",
+      "n_chars": 353
+    },
+    {
+      "id": "p34",
+      "sha256": "sha256:2ce92cf28d910754431b9f990c1a62b4295b1f56e86e570dce80e5f75d11d68d",
+      "n_chars": 299
+    },
+    {
+      "id": "p35",
+      "sha256": "sha256:7b378491c222205735d1693ceb6fd7525dc182ba7117c061a40b58f57777f1de",
+      "n_chars": 356
+    },
+    {
+      "id": "p36",
+      "sha256": "sha256:19caad4c0b539eb2f36801a1812977762f087568c77271b6f37e0b92bbac5ddb",
+      "n_chars": 334
+    },
+    {
+      "id": "p37",
+      "sha256": "sha256:1ba27c64db02c638e1b0cdfa2890202ad02c9de348f3a324bf8157a40c472120",
+      "n_chars": 237
+    },
+    {
+      "id": "p38",
+      "sha256": "sha256:0b7eb687f432604b83d24e3803f30e7dd0d1ae645a0e75b54775e41b1aa10294",
+      "n_chars": 236
+    },
+    {
+      "id": "p39",
+      "sha256": "sha256:5ad79fdaddb6a006e88de2ae0bb8bd845883c838f8d68266ff334daf90dfc284",
+      "n_chars": 91
+    },
+    {
+      "id": "p40",
+      "sha256": "sha256:4c6cd68565a0310ddcc449cee02203c1112e9522fd8cf2b0fe688a29ca96b463",
+      "n_chars": 380
+    },
+    {
+      "id": "p41",
+      "sha256": "sha256:af463ae8d8e839f6d11cd39e8712bca6f258ff49e8fe36d01a367486b464fd95",
+      "n_chars": 268
+    },
+    {
+      "id": "p42",
+      "sha256": "sha256:fe062905c62b66a9668c4a785392efc4c065eb7aaaf7b10e5a32280fa06b7d6c",
+      "n_chars": 150
+    },
+    {
+      "id": "p43",
+      "sha256": "sha256:2119c1a06255c63187826660f8ea1beea18cbbf13c00bf1f58b76983ea9d2ccf",
+      "n_chars": 337
+    },
+    {
+      "id": "p44",
+      "sha256": "sha256:e0ebd098a66e29decdb5282969e37ef4369208ecc8b4dcd0de50368a09d35875",
+      "n_chars": 274
+    },
+    {
+      "id": "p45",
+      "sha256": "sha256:f8bc72d771df2b7ad8f8d16d4d64996b8edddf720c95f85081f41691f4e97d54",
+      "n_chars": 413
+    },
+    {
+      "id": "p46",
+      "sha256": "sha256:0ac0c66ef23c9dc5890963f4cffd90065d04372c376e1a5a535305b7be6fa69d",
+      "n_chars": 197
+    },
+    {
+      "id": "p47",
+      "sha256": "sha256:543e5f6687af81decf2889e2ee7830302b8f2ad4e6cb03593a4c6df66fb4a105",
+      "n_chars": 422
+    }
+  ],
+  "revisions": [
+    {
+      "content_hash": "sha256:c48ac63ff4e090d14df2a6659d9fa35c6b69a1d331746980e104511d42c0fca3",
+      "links_hash": "sha256:5765d1e0c0656327d0d1ffa542e9ccb94de03301ca653070badb8e3717573226",
+      "paragraph_count": 47,
+      "retrieved_at": "2026-11-10T23:23:43Z",
+      "revision": 1,
+      "changed_paragraphs": []
+    }
+  ],
+  "extensions": {
+    "entities": [
+      {
+        "entity_id": null,
+        "type": "person",
+        "name": "Brad W. Setser",
+        "role": "author"
+      },
+      {
+        "entity_id": null,
+        "type": "organization",
+        "name": "Council on Foreign Relations",
+        "role": "publisher"
+      }
+    ],
+    "cited_sources": [
+      {
+        "source_key": "https://cepr.org/publications/books-and-reports/geneva-29-changing-structure-and-challenges-international-financial",
+        "host": "cepr.org",
+        "reference_ids": [
+          "r001"
+        ]
+      },
+      {
+        "source_key": "https://economist.com/by-invitation/2026/07/28/dont-blame-global-imbalances-on-the-undervalued-yuan",
+        "host": "economist.com",
+        "reference_ids": [
+          "r002",
+          "r020"
+        ]
+      },
+      {
+        "source_key": "https://wsj.com/business/autos/chinas-auto-sales-fall-despite-traditional-peak-season-bfbe9b1a",
+        "host": "wsj.com",
+        "reference_ids": [
+          "r003"
+        ]
+      },
+      {
+        "source_key": "https://imf.org/en/publications/cr/issues/2026/02/17/peoples-republic-of-china-2025-article-iv-consultation-press-release-staff-report-and-574028",
+        "host": "imf.org",
+        "reference_ids": [
+          "r004"
+        ]
+      },
+      {
+        "source_key": "https://pbc.gov.cn/goutongjiaoliu/attachdir/2026/10/2026100817415987714.pdf",
+        "host": "pbc.gov.cn",
+        "reference_ids": [
+          "r005"
+        ]
+      },
+      {
+        "source_key": "https://ft.com/content/27be530d-2faf-43ce-874f-0e6e0802bee2",
+        "host": "ft.com",
+        "reference_ids": [
+          "r006"
+        ]
+      },
+      {
+        "source_key": "https://omfif.org/2026/10/peoples-bank-of-china-exchange-rate-paper-is-left-wanting",
+        "host": "omfif.org",
+        "reference_ids": [
+          "r007"
+        ]
+      },
+      {
+        "source_key": "https://omfif.org/how-to-do-business-with-china",
+        "host": "omfif.org",
+        "reference_ids": [
+          "r008"
+        ]
+      },
+      {
+        "source_key": "https://cfr.org/articles/the-pboc-the-state-banks-and-backdoor-intervention",
+        "host": "cfr.org",
+        "reference_ids": [
+          "r009"
+        ]
+      },
+      {
+        "source_key": "https://legrandcontinent.eu/fr/2026/10/05/la-france-et-lallemagne-veulent-donner-a-lunion-le-pouvoir-de-fermer-son-marche",
+        "host": "legrandcontinent.eu",
+        "reference_ids": [
+          "r010"
+        ]
+      },
+      {
+        "source_key": "https://imf.org/en/publications/esr/issues/2023/07/19/2023-external-sector-report",
+        "host": "imf.org",
+        "reference_ids": [
+          "r011"
+        ]
+      },
+      {
+        "source_key": "https://imf.org/en/publications/esr/issues/2024/07/12/external-sector-report-2024",
+        "host": "imf.org",
+        "reference_ids": [
+          "r012"
+        ]
+      },
+      {
+        "source_key": "https://cfr.org/articles/currency-moves-can-drive-rebalancing",
+        "host": "cfr.org",
+        "reference_ids": [
+          "r013"
+        ]
+      },
+      {
+        "source_key": "https://imf.org/en/publications/cr/issues/2023/02/02/peoples-republic-of-china-2022-article-iv-consultation-press-release-staff-report-and-529067",
+        "host": "imf.org",
+        "reference_ids": [
+          "r014"
+        ]
+      },
+      {
+        "source_key": "https://imf.org/en/publications/cr/issues/2024/02/01/people-s-republic-of-china-2023-article-iv-consultation-press-release-staff-report-and-544379",
+        "host": "imf.org",
+        "reference_ids": [
+          "r015"
+        ]
+      },
+      {
+        "source_key": "https://imf.org/en/publications/cr/issues/2024/08/01/peoples-republic-of-china-2024-article-iv-consultation-press-release-staff-report-and-552803",
+        "host": "imf.org",
+        "reference_ids": [
+          "r016"
+        ]
+      },
+      {
+        "source_key": "https://paulkrugman.substack.com/p/economic-size-and-economic-power",
+        "host": "paulkrugman.substack.com",
+        "reference_ids": [
+          "r017"
+        ]
+      },
+      {
+        "source_key": "https://chinadailyasia.com/hk/article/640808",
+        "host": "chinadailyasia.com",
+        "reference_ids": [
+          "r018"
+        ]
+      },
+      {
+        "source_key": "https://cfr.org/articles/is-chinas-surplus-really-shrinking",
+        "host": "cfr.org",
+        "reference_ids": [
+          "r019"
+        ]
+      },
+      {
+        "source_key": "https://economist.com/by-invitation/2026/08/16/chinas-exorbitant-surplus-calls-for-a-much-stronger-yuan",
+        "host": "economist.com",
+        "reference_ids": [
+          "r021"
+        ]
+      },
+      {
+        "source_key": "https://reuters.com/world/china/china-eu-reach-hybrid-vehicle-trade-understanding-keep-talks-alive-ev-dispute-2026-10-09",
+        "host": "reuters.com",
+        "reference_ids": [
+          "r022"
+        ]
+      },
+      {
+        "source_key": "https://cepr.org/voxeu/columns/global-imbalances-and-china-challenge",
+        "host": "cepr.org",
+        "reference_ids": [
+          "r023"
+        ]
+      },
+      {
+        "source_key": "https://archive.nytimes.com/krugman.blogs.nytimes.com/2011/01/12/the-doctrine-of-immaculate-transfer",
+        "host": "archive.nytimes.com",
+        "reference_ids": [
+          "r024"
+        ]
+      },
+      {
+        "source_key": "https://institutdelors.eu/en/publications/a-new-eu-structural-rebalancing-instrument-to-respond-to-chinas-export-surge",
+        "host": "institutdelors.eu",
+        "reference_ids": [
+          "r025"
+        ]
+      },
+      {
+        "source_key": "https://federalreserve.gov/econres/notes/feds-notes/revisiting-chinas-current-account-evidence-from-recent-revisions-20260922.html",
+        "host": "federalreserve.gov",
+        "reference_ids": [
+          "r026"
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "flags": []
+  }
+}
