@@ -1,0 +1,732 @@
+# The subject layer: what a claim is ABOUT.
+#
+# schema_map.yaml classifies every node by the ROLE it plays in an argument -
+# prior, mechanism, evidence, claim, caveat. That axis is complete and is not
+# touched here. This file adds the orthogonal axis, and nothing else in the
+# pipeline infers it.
+#
+#   role     (schema_map.yaml)  -> "this is a hidden assumption"
+#   subject  (this file)        -> "...about China's current account, on BoP data"
+#
+# WHY FACETS AND NOT A TREE
+# A single topic tree forces every claim to pick one parent. Setser's claims
+# will not: "China's BoP data understates the goods surplus" is at once a
+# variable (current account), a geography (China) and a measurement regime (BoP
+# versus customs). In a tree two of those three are lost. Five independent
+# facets let a node carry all of them, and turn "the assumptions he has made
+# about bilateral trade" into a set intersection rather than a traversal.
+#
+# Browsable drill-down is a presentation concern: `parent:` gives each facet a
+# two-level rollup, which is what obsidian/views/ renders. The data model stays
+# flat.
+#
+# HOW IT IS POPULATED
+# The vocabulary below is authored by hand and is CLOSED. Assignment of terms
+# to nodes is done by an LLM against this closed list, which is the split the
+# ontology-learning literature supports: models are usable at term typing
+# against a given vocabulary and unreliable at inventing the vocabulary. Never
+# let the labeller add a term - it reports unmatched nodes instead, the same
+# contract parse_maps.py already has with data/review.md.
+#
+#   assignments:  data/node_facets.csv   (node -> facet values, with `source`)
+#   governance:   scripts/competency_questions.yaml
+#
+# REUSE BEFORE MINTING (LOT)
+# Poveda-Villalon et al.'s Linked Open Terms framework puts a term-reuse search
+# before any term is coined: go and look for a published vocabulary that
+# already means this, and record what the search found - including when it
+# found nothing. That step was skipped on the first pass and is done here.
+#
+#   `align:` on a term  = the published concept or code it corresponds to
+#   `reuse:` on a facet = the outcome when the search came up empty
+#
+# Coverage: 67 of 91 terms align. The frameworks reused are
+#   bpm6      IMF Balance of Payments and IIP Manual, 6th ed. - component names
+#   sna       System of National Accounts 2008 - aggregate names
+#   gfsm      Government Finance Statistics Manual 2014
+#   isic      ISIC rev.4 - activity sections
+#   sitc      SITC rev.4 - sections and divisions
+#   hs        Harmonized System - chapters, or 4-digit where a chapter is too broad
+#   iso3166   ISO 3166-1 alpha-2 country codes; m49 for UN aggregates
+#   wto, comtrade, imf, ecb, asean, gcc, imf_weo - named series and groupings
+#
+# The two facets with no alignment, `instrument` and `data_basis`, carry a
+# `reuse:` note saying what was searched and why it did not fit. An empty
+# search recorded is a LOT result; an empty search unrecorded is the thing LOT
+# exists to prevent.
+#
+# WHY THIS IS WORTH THE TROUBLE. It is what lets a second analyst, or a second
+# thinker's corpus, join to this one without renegotiating what each term
+# means. That is Laukkanen's comparability problem solved by reuse rather than
+# by fiat. It also lets a claim about `manufacturing-trade-balance` be checked
+# against the series Setser himself cites - he argues in SITC 5-9 and in HS
+# codes, and now so does the vocabulary.
+#
+# VERIFIED 2026-10-15 against the published sources, not from memory.
+#
+#   SITC rev.4   UNSD, Series M No.34/Rev.4 (the official publication PDF)
+#                unstats.un.org/unsd/publication/SeriesM/SeriesM_34rev4E.pdf
+#   HS           the SITC->HS correspondence printed in that same publication
+#   ISO 3166 /   UN Statistics Division M49 standard
+#   M49          unstats.un.org/unsd/methodology/m49/
+#   manufactures UNSD IMTS 2010 Compilation Guide, Annex A
+#
+# Confirmed, quoting the official titles:
+#   sitc 04  Cereals and cereal preparations
+#   sitc 22  Oil-seeds and oleaginous fruits   (HS 1201 Soya beans -> SITC 222.2)
+#   sitc 54  Medicinal and pharmaceutical products
+#   sitc 67  Iron and steel
+#   sitc 68  Non-ferrous metals                (HS 7403 Refined copper -> 682.12)
+#   sitc 78  Road vehicles                    (HS 8703 Motor cars -> 781.2)
+#   sitc 776 Thermionic, cold cathode or photo-cathode valves and tubes
+#            (HS 8541 photosensitive diodes, HS 8542 integrated circuits)
+#   sitc 792 Aircraft and associated equipment (HS 8802)
+#   sitc 971 Gold, non-monetary                (HS 7108)
+#   hs 27    confirmed via HS 2709 crude petroleum
+#   hs 30    confirmed via HS 3004 medicaments
+#   m49 001  World        m49 419  Latin America and the Caribbean
+#
+# ONE CORRECTION came out of the check: manufactured goods is SITC 5-8 less
+# 667 and 68, not 5-9. See the note on manufacturing-trade-balance below - the
+# map's own scope_choice node says 5-9, and that discrepancy is now recorded
+# rather than propagated.
+#
+# STILL UNVERIFIED: the BPM6, SNA 2008, GFSM 2014 and ISIC entries are
+# component NAMES rather than codes, taken from those manuals as known and not
+# re-read here. They are lower risk for being names rather than numbers, but
+# they are the remaining thing to check.
+#
+# EVERY TERM MUST BE EARNED. A term belongs here only if (a) some competency
+# question needs it to discriminate, and (b) it is attested in the corpus. The
+# `cq:` key on each facet records which questions justify it. A term that no
+# competency question needs is a tag, not a facet value, and it will rot.
+#
+# SIZING. Heddaya et al.'s inflation ontology runs 8 causes and 11 effects for a
+# whole literature. The ceiling below is deliberate: ~40 variables, ~18
+# geographies, ~14 instruments, ~11 data bases, ~13 sectors. If a facet needs a
+# 60th term, that is evidence the facet is really two facets.
+
+version: 1
+corpus_at_authoring: 20 documents, 358 nodes
+
+# Measured at authoring by matching every term's `aka` forms against node
+# header+text, WITH WORD BOUNDARIES (see the note on `aka` below - substring
+# matching gives badly inflated numbers). A floor, not an estimate of what the
+# LLM labeller will reach, but enough to prove no term here is speculative.
+#
+#   variable    70% of nodes touched      geo         54%
+#   instrument  33%                       sector      14%
+#   data_basis  10%  (sparse by design - see that facet's note)
+#   zero-hit terms: none, in any facet
+#   nodes matching nothing at all: 15 of 358 (4%)
+#
+# Those 15 are the case for LLM labelling over pattern matching, and for the
+# `inherited` source. Their subject is carried by the document, not by their own
+# words: setser_aug_14_24#SC ("the methodology was already changed at a
+# convenient moment in 2015, and backdated") is a balance-of-payments claim that
+# never says so, and setser_2025-09-12#K ("the Trump shock to trade flows has
+# not happened yet") is a goods-trade-balance claim with no variable term in it.
+# A regex labeller cannot reach either; a model reading the node in its document
+# context can.
+#
+# ACTUAL coverage, from the full labelling of all 358 nodes
+# (data/node_facets.csv, 1525 assignments, 0 review issues).
+#
+# NOT RE-TAKEN SINCE. The corpus is now 359 nodes and 1548 assignments, after
+# setser_may_2_19 was re-annotated from the correct article. The percentages
+# below are the 358-node run and are left as measured rather than rescaled;
+# `python scripts/label_facets.py --report` prints the live numbers:
+#
+#   variable   100% of nodes, 662 assignments    geo        100%, 454
+#   instrument  49%, 202                         data_basis  31%, 129
+#   sector      16%, 78
+#
+# `geo` no longer exists: it was split into country + bloc + actor on
+# 2026-10-16 (see FACET 2 below). Its row above reads as the where axis, which
+# now covers 358 of 359 claims - the exception being setser_mar_31_20#QF,
+# whose only where-value was `imf` and which --report flags.
+#
+# Every facet except geo came in far above its word-boundary floor, which is
+# the measured version of the argument for reading nodes in document context:
+# a matcher found a data_basis on 10% of nodes, a reader found one on 31%.
+#
+# NOTE ON `aka`. These are surface forms for humans and for any regex pre-pass;
+# the LLM labeller reads `def` and never sees them. They MUST be matched with
+# word boundaries. Nineteen of them are three characters or fewer (US, EU, EV,
+# oil, soy, BoP, IMF, SDR, WTO ...) and substring matching turns those into
+# nonsense: `ev` hit 42 nodes via "even", "revenue" and "level" while matching
+# zero actual words, and `us` hit 175 via "surplus", "because" and "thus"
+# against a true count of 64. If you write a matcher, anchor both ends on a word boundary.
+#
+coverage_at_authoring: see comment above
+
+
+# ===========================================================================
+# ASSIGNMENT RULES
+# ===========================================================================
+assignment:
+  # A node may carry several values per facet. Most nodes carry 1-2 variables,
+  # 1-2 geographies, 0-1 instruments, 0-1 data bases, 0 sectors.
+  cardinality:
+    variable:   {min: 1, max: 3}    # a claim with no variable is usually a
+                                    # question or an apparatus node - flag it
+    country:    {min: 0, max: 2}    # see country.roles below
+    bloc:       {min: 0, max: 2}    # same roles as country
+    instrument: {min: 0, max: 2}
+    data_basis: {min: 0, max: 2}
+
+  # A claim must land somewhere on the where-axis. This was `geo: {min: 1}`
+  # when there was one such facet; with three, the minimum is a rule across
+  # them. `actor` does not satisfy it: a claim about the IMF's framing is
+  # still about some economy's numbers.
+  requires_one_of: [country, bloc]
+
+  # WHERE-AXIS INHERITANCE
+  #
+  # An elliptical claim can attach to another claim without restating its
+  # subject. setser_mar_31_20#QF ("SDRs are allocated by quota rather than need,
+  # so they are insufficient alone") is a caveat on a recommendation about
+  # emerging markets with weak external balance sheets; it names no economy
+  # because the claim it qualifies already did.
+  #
+  # So a claim with no where-axis value takes it from the claim it ATTACHES TO,
+  # along the relations below. Marked `source: inherited`, which makes it
+  # visible in the data and revocable by a human - the same contract as
+  # variable inheritance.
+  #
+  # Only these relations, and only in this direction. A qualifier, an undercut,
+  # a rebuttal or a deferral is ABOUT the thing it attacks; a `supports` edge
+  # carries no such guarantee, because a premise can be general while the claim
+  # it supports is specific (an accounting identity supports a claim about
+  # China without being about China).
+  where_inheritance:
+    along: [qualified_by, undercut_by, rebuts, defers]
+    direction: >
+      the edge runs from the attacked claim to the attacker, so the attacker
+      (the `to` end) inherits from the attacked (the `from` end)
+    source: inherited
+
+  # ORPHANED COUNTERPARTS
+  #
+  # A counterpart is the OTHER side of a pair, so a claim carrying one without a
+  # subject is incoherent: it is about nothing, against something. The promotion
+  # rule is the only coherent reading - a one-sided pair is just a subject.
+  #
+  # This is not hypothetical. Three claims in setser_2025-11-12 had
+  # `actor: imf` as their subject and `china` as the counterpart. When the
+  # `actor` facet was removed on 2026-10-16 the subject went with it and the
+  # counterpart was left dangling. `requires_one_of` did not catch it, because
+  # that rule asks whether a facet is PRESENT, not whether the roles make sense -
+  # the claims still had a `country` row. What caught it was the Bilateral view
+  # counting 90 claims where a direct count found 93.
+  orphan_counterpart:
+    repair: promote the counterpart to subject
+    source: inherited
+
+
+  # FACET GROUPS
+  # `country` and `bloc` answer the same question - where, or about whom - and a
+  # competency question that asks it should not have to care which facet holds
+  # the answer. So they form one axis, and a question binds the AXIS:
+  #
+  #   {where} matches country_subject OR bloc_subject
+  #
+  # Without this the 39 bloc assignments would be unreachable by every CQ, which
+  # is what a blind rename produced on the first attempt.
+  groups:
+    where:
+      members: [country, bloc]
+      semantics: OR
+      roles: [subject, counterpart]
+      why: >
+        Splitting geography from analytic groupings is a statement about what
+        kind of thing a term is, not about what a question asks. The question
+        asks "where", and both facets answer it.
+
+  # Values that are true of the whole corpus carry no information. After a
+  # labelling run, any term landing on more than ~40% of nodes is not a facet
+  # value, it is the subject of the corpus, and should be split or dropped.
+  saturation_warn: 0.40
+
+  # Provenance on every assignment, so a bad labelling run can be rolled back
+  # without re-deriving the good ones.
+  sources: [hand, llm, inherited]   # inherited = taken from the parent document
+
+
+# ===========================================================================
+# FACET 1 - VARIABLE
+#
+# The measurable magnitude the claim is about. The primary facet: it is what
+# makes two claims five years apart comparable.
+#
+# WHERE THE IDEA COMES FROM, AND WHERE THE NAME DOES NOT
+# The idea is from the causal-map literature: a map is only comparable to
+# another map if its nodes are drawn from a controlled list (Axelrod 1976,
+# Laukkanen 1994, Markoczy & Goldberg 1995, Ozesmi & Ozesmi 2004).
+#
+# The NAME is not. Those papers say "variable" (Axelrod, Ozesmi) or "concept"
+# (Kosko, Laukkanen). `variable` was coined here, and the lineage it actually
+# has is metrology - the VIM / ISO 80000 sense in which a variable is a
+# property of a phenomenon having a magnitude, and QUDT's "variable kind".
+#
+# It was kept over the literature's own words for two reasons, both practical:
+#
+#   1. It carries the exclusion rule in the name. Variables are MAGNITUDES,
+#      not processes: "trade diversion" is a mechanism and lives on the role
+#      axis, while the variable it concerns is bilateral-trade-flows. "Variable"
+#      does not do that work, and nothing here actually varies.
+#   2. "Concept" is unavailable. This repo already has obsidian/concepts/ and
+#      scripts/concepts.yaml, meaning something entirely different - the same
+#      claim argued in more than one article. Reusing Kosko's word would
+#      collide with the project's own.
+#
+# If literature fidelity is worth more than those two, rename it `variable`:
+# the change is this key, the `variable/` tag prefix in the vault, and the
+# facet column in data/node_facets.csv. Nothing else depends on the word.
+# ===========================================================================
+variable:
+  cq: [CQ1, CQ2, CQ3, CQ4, CQ6, CQ8, CQ9, CQ11, CQ12, CQ13, CQ14]
+  parents:
+    external-balances:  Headline external accounts and their components
+    trade-flows:        Volumes and directions of trade, as distinct from balances
+    prices-and-rates:   Relative prices, policy rates and the elasticities linking them
+    balance-sheets:     Stocks, reserves and the financing of flows
+    domestic-macro:     The domestic counterpart that external balances resolve to
+    public-finance:     Government revenue and the fiscal stance
+  terms:
+
+    # --- external-balances -------------------------------------------------
+    goods-trade-balance:
+      parent: external-balances
+      def: Balance on merchandise trade; the headline deficit or surplus number.
+      aka: [trade balance, trade deficit, trade surplus, goods surplus, goods deficit, non-oil deficit]
+      align: {bpm6: goods}
+    services-balance:
+      parent: external-balances
+      def: Balance on trade in services, including travel and the services-export story.
+      aka: [services deficit, services surplus, service exports, travel]
+      align: {bpm6: services}
+    current-account:
+      parent: external-balances
+      def: The full external balance including income and transfers; the IMF's headline imbalance measure.
+      aka: [current account, current-account deficit, current account surplus, external balance]
+      align: {bpm6: current account}
+    manufacturing-trade-balance:
+      parent: external-balances
+      def: Balance on manufactures specifically, separated from the total because he argues it locates where production happens.
+      aka: [manufacturing surplus, manufacturing deficit, manufacturing balance, manufactured goods surplus]
+      # VERIFIED, AND IT TURNED UP A DISCREPANCY. UNCTAD's analytical
+      # definition of manufactured goods is SITC 5 to 8 less 667 and 68
+      # (unstats.un.org IMTS compilation guide). Section 9 is "commodities and
+      # transactions not classified elsewhere" - it holds non-monetary gold -
+      # so it is normally OUTSIDE manufactures.
+      #
+      # setser_mar_10_24#SCP records the scope choice as "SITC categories 5
+      # through 9, the standard manufactures breakout". Either the article used
+      # a wider cut than the standard one, or the annotator wrote 5-9 for 5-8.
+      # The align below is the published concept; the map's own scope_choice
+      # node still says what the article did, which is the right place for it.
+      # Worth one check against the article before anyone quotes the figure.
+      align: {sitc: "5-8 less 667 and 68"}
+    investment-income-balance:
+      parent: external-balances
+      def: Net income on the external position - interest to foreign creditors, offshore corporate profits, the unexplained Chinese income deficit.
+      aka: [investment income, income deficit, income balance, offshore profits, foreign corporate earnings, payments to foreign creditors]
+      align: {bpm6: primary income - investment income}
+    global-imbalances:
+      parent: external-balances
+      def: The world aggregate - surpluses that must sum to deficits somewhere. Used when the claim is about the system, not one country.
+      aka: [global imbalances, global surpluses, counterpart, offsetting deficit, matching deficits]
+      align: {bpm6: current account (world aggregate)}
+
+    # --- trade-flows -------------------------------------------------------
+    export-volumes:
+      parent: trade-flows
+      def: Volume of exports, held apart from their value so price effects can be separated.
+      aka: [export volumes, exports up, export growth, export dependence]
+      align: {bpm6: exports of goods and services}
+    import-volumes:
+      parent: trade-flows
+      def: Volume of imports, including the import share of GDP.
+      aka: [import volumes, imports, import growth, non-oil imports, import share]
+      align: {bpm6: imports of goods and services}
+    bilateral-trade-flows:
+      parent: trade-flows
+      def: Trade between a specific pair, as opposed to either side's global position. Central to the recurring claim that bilateral data misleads.
+      aka: [bilateral, bilateral data, bilateral trade, rerouting, transshipment, trade diversion, redirected]
+      align: {comtrade: reporter-partner goods flows}
+    trade-openness:
+      parent: trade-flows
+      def: Trade as a share of GDP; how much an economy engages externally, independent of its balance.
+      aka: [trade shares, export dependent, relatively closed, processing trade]
+      align: {sna: exports plus imports over GDP}
+
+    # --- prices-and-rates --------------------------------------------------
+    nominal-exchange-rate:
+      parent: prices-and-rates
+      def: The headline currency level, including the dollar index and the yuan's level against dollar or basket.
+      aka: [dollar, yuan, exchange rate, depreciation, appreciation, currency, renminbi, euro, CNY, dollar strength, weak currency]
+      align: {imf: nominal exchange rate}
+    real-exchange-rate:
+      parent: prices-and-rates
+      def: The inflation-adjusted competitiveness measure, used when the claim concerns lasting competitiveness rather than a market move.
+      aka: [real exchange rate, competitiveness, real effective]
+      align: {imf: real effective exchange rate}
+    interest-rates:
+      parent: prices-and-rates
+      def: Policy and market rates, where they drive debt service or capital flows.
+      aka: [rates, higher rates, yields, borrowing costs, rate cuts, Fed hikes]
+      align: {imf: policy rate and government bond yield}
+    commodity-prices:
+      parent: prices-and-rates
+      def: Price levels for oil, agriculture and metals, including the nominal-target problem a price crash creates.
+      aka: [Brent, oil prices, copper, breakeven, commodity price, price crash]
+      align: {imf: primary commodity price index}
+    tariff-rate:
+      parent: prices-and-rates
+      def: The statutory tariff level itself, as distinct from the revenue it raises or the policy decision to impose it.
+      aka: [tariff rate, 25 percent, average tariff, countervailing duty, tariff wall]
+      align: {wto: applied tariff rate}
+    trade-elasticity:
+      parent: prices-and-rates
+      def: The responsiveness coefficients the argument turns on - import income elasticity ~2, aggregate tariff elasticity 0.3-0.4, substitution elasticities.
+      aka: [elasticity, elasticities, income elasticity, substitution, pass-through, Lerner symmetry]
+      align: {none: "econometric parameter, no code list"}
+
+    # --- balance-sheets ----------------------------------------------------
+    net-external-debt:
+      parent: balance-sheets
+      def: The accumulated net liability position and its sustainability relative to exports.
+      aka: [external debt, net external debt, debt dynamics, debt stock, debt ratios, external balance sheet]
+      align: {bpm6: net international investment position}
+    fx-reserves:
+      parent: balance-sheets
+      def: Official reserves and quasi-reserves, including state-bank foreign assets and sovereign funds.
+      aka: [reserves, FX reserves, state-bank foreign assets, sovereign funds, Treasury holdings, firepower]
+      align: {bpm6: reserve assets}
+    capital-flows:
+      parent: balance-sheets
+      def: Gross and net financing flows, portfolio inflows, and the demand for a country's assets.
+      aka: [capital flows, portfolio inflows, outflows, inflows, financing, private capital, demand for U.S. assets]
+      align: {bpm6: financial account}
+    trade-finance:
+      parent: balance-sheets
+      def: Short-term credit that clears trade, treated separately because it fails independently of the balance of payments.
+      aka: [trade finance]
+      align: {bpm6: other investment - trade credit and advances}
+
+    # --- domestic-macro ----------------------------------------------------
+    gdp-growth:
+      parent: domestic-macro
+      def: Output growth, including the net-export contribution to it.
+      aka: [GDP growth, growth, output growth, net-export drag, pp from growth, recession]
+      align: {sna: gross domestic product}
+    domestic-demand:
+      parent: domestic-macro
+      def: Absorption - consumption plus investment plus government - and whether it is strong enough to match supply.
+      aka: [domestic demand, absorption, demand shortfall, spare capacity, consumer stimulus, consumption]
+      align: {sna: final consumption plus gross capital formation}
+    national-saving:
+      parent: domestic-macro
+      def: The saving rate, and excess saving as the structural source of surplus pressure.
+      aka: [saving, savings, excess saving, saves 44%, high saving]
+      align: {sna: gross saving}
+    savings-investment-gap:
+      parent: domestic-macro
+      def: The identity that the external balance equals saving minus investment. Frequently the hidden assumption rather than a stated one.
+      aka: [saving minus investment, saving-investment, savings-investment, macroeconomic outcome]
+      align: {sna: gross saving less gross capital formation}
+    household-consumption-share:
+      parent: domestic-macro
+      def: Consumption as a share of GDP, and the safety net and transfers that would raise it.
+      aka: [consumption share, safety net, consumption pygmy, pro-consumption]
+      align: {sna: household final consumption expenditure}
+    investment-capex:
+      parent: domestic-macro
+      def: Business fixed investment, including the AI data-centre buildout and the uncertainty channel that depresses it.
+      aka: [capex, investment slowdown, business equipment, data center, data centre, buildout, public investment]
+      align: {sna: gross fixed capital formation}
+    inventories:
+      parent: domestic-macro
+      def: Stock-building and drawdown, especially front-running ahead of an anticipated tariff.
+      aka: [inventory, inventories, stockpiling, stockpiles, front-running, drawdown]
+      align: {sna: changes in inventories}
+    manufacturing-output:
+      parent: domestic-macro
+      def: Industrial production and capacity, including subsidised capacity that output cannot absorb.
+      aka: [manufacturing output, capacity, overcapacity, industrial, production, localization]
+      align: {isic: "C - manufacturing"}
+    manufacturing-employment:
+      parent: domestic-macro
+      def: Jobs in exposed sectors and regions - the distributional reading of a trade balance.
+      aka: [manufacturing employment, employment composition, jobs, goods-producing]
+      align: {isic: "C - manufacturing (employment)"}
+    profitability:
+      parent: domestic-macro
+      def: Returns on capital, where accepting low returns is itself the mechanism.
+      aka: [return on equity, profits, low returns, profitability]
+      align: {sna: gross operating surplus}
+    price-level:
+      parent: domestic-macro
+      def: Inflation or deflation, where it bears on the policy prescription.
+      aka: [deflation, inflation, price level]
+      align: {imf: consumer price index}
+
+    # --- public-finance ----------------------------------------------------
+    fiscal-balance:
+      parent: public-finance
+      def: The budget deficit or surplus and the fiscal stance, including China's augmented deficit.
+      aka: [fiscal deficit, budget deficit, fiscal policy, fiscal expansion, fiscal tightening, consolidation, augmented deficit, fiscally tight]
+      align: {gfsm: "net lending or net borrowing, general government"}
+    fiscal-impulse:
+      parent: public-finance
+      def: The change in the fiscal stance and its pass-through to imports, as distinct from the level.
+      aka: [fiscal impulse, fiscal stimulus, tax cuts, stimulus, refund checks]
+      align: {gfsm: change in the structural primary balance}
+    tariff-revenue:
+      parent: public-finance
+      def: Receipts from tariffs, and whether they are offset elsewhere in the budget - the hinge of the tariffs-as-tax-hike argument.
+      aka: [tariff revenue, revenue, proceeds, tax hike, consumption tax]
+      align: {gfsm: taxes on international trade and transactions}
+
+
+# ===========================================================================
+# FACET 2 - WHERE AND WHO, IN THREE FACETS
+#
+# Not a flat list. Every claim has a SUBJECT economy; a bilateral claim also has
+# a COUNTERPART. That distinction is the facet's whole point, because the
+# feedback's own example - "a question about bilateral trade" - is not a topic.
+# It is a shape:
+#
+#   bilateral claim       := counterpart is set
+#   global-position claim := counterpart is null
+#
+# which is exactly the distinction setser_mar_10_24#P1 ("bilateral data
+# misleads about global position") and setser_jun_14_19#P2 ("bilateral trade is
+# not total trade") are about. A flat tag list cannot express it; this can, and
+# a pair is stored as two columns rather than as an exploding set of pair terms.
+#
+# WHY THIS WAS ONE FACET AND IS NOW THREE (2026-10-16)
+# `geo` held three different kinds of thing at once: 11 single reporting
+# economies carrying official codes, 7 analytic groupings the author builds
+# himself, and 1 institution - `imf`, whose own definition read "an institution,
+# not a geography". For this corpus that worked. It is also the first thing that
+# breaks for a thinker who argues about institutions or administrations rather
+# than about economies, so it is split while the term list is still small.
+#
+#   country  one reporting economy, with an official statistical code
+#   bloc     several economies treated together, or the world as a whole
+#   actor    an institution whose framing, advice or decisions are the subject
+#
+# The partition is a judgement and two entries are arguable. `euro-area` is
+# several economies, and sits in `country` because the ECB compiles it as one
+# reporting economy and he argues about it as one. `global` is not a bloc in any
+# real sense; it sits there as the maximal aggregate, and functions as a scope
+# marker meaning "no single economy is the subject".
+#
+# Roles survive on country AND bloc, because blocs are attested as counterparts
+# (southeast-asia 3, asia-surplus 2). `actor` carries no roles.
+#
+# Admission is unchanged: a term earns its place by being needed by a competency
+# question and attested in the corpus. On that test `trump` does not qualify
+# despite 80 uses across 17 articles - no question turns on who the actor is -
+# and that is the gate working rather than the vocabulary failing.
+# ===========================================================================
+country:
+  cq: [CQ1, CQ2, CQ3, CQ4, CQ6, CQ8, CQ9, CQ11, CQ12, CQ13, CQ14]
+  # CONFIRMED SATURATION, measured on the full labelling: `us` lands on 53% of
+  # claims and `china` on 50%, both over the 0.40 threshold. This is accepted,
+  # not fixed. It is a US-China corpus, so the subject alone barely
+  # discriminates - what does the work is the subject/counterpart split and the
+  # smaller terms. Do not split `us` or `china` into regions to game the
+  # threshold; the corpus does not argue regionally.
+  #
+  # `korea` is the one dead term: 0 of 359 claims. Every Korea mention in the
+  # corpus is inside a list of Asian surplus economies and was labelled
+  # `asia-surplus`, which is the right call. Drop `korea` unless a future
+  # article argues about Korea specifically.
+  roles:
+    subject:     The economy whose variable the claim is about.
+    counterpart: The other side, when the claim is bilateral or comparative. Null otherwise.
+  parents:
+    advanced:   Advanced economies argued about individually
+    asia:       Asian economies, surplus and assembly
+    emerging:   Emerging markets, grouped by external balance sheet
+  terms:
+    us:            {parent: advanced, def: "United States.", aka: [U.S., US, United States, America, American], align: {iso3166: US}}
+    china:         {parent: asia,     def: Mainland China., aka: [China, Chinese, Beijing, PRC], align: {iso3166: CN}}
+    euro-area:     {parent: advanced, def: "The euro area or EU treated as one economy.", aka: [Europe, European, EU, euro area, eurozone], align: {ecb: EA}}
+    germany:       {parent: advanced, def: "Germany specifically, where the claim is about its industry or fiscal stance rather than Europe's.", aka: [Germany, German], align: {iso3166: DE}}
+    ireland:       {parent: advanced, def: "Ireland specifically - the multinational-distortion case in EU data.", aka: [Ireland, Irish], align: {iso3166: IE}}
+    japan:         {parent: advanced, def: "Japan.", aka: [Japan, Japanese], align: {iso3166: JP}}
+    # Added when setser_may_2_19 was re-annotated against its real article.
+    # Both are attested as counterparts whose trade China curtailed
+    # administratively rather than by tariff (canola, coal), and CQ4 needs the
+    # pair to express that. Terms earn their place by being needed by a
+    # competency question and attested in the corpus - see the note at the top.
+    canada:        {parent: advanced, def: "Canada.", aka: [Canada, Canadian], align: {iso3166: CA}}
+    australia:     {parent: advanced, def: "Australia.", aka: [Australia, Australian], align: {iso3166: AU}}
+    italy:         {parent: advanced, def: "Italy, where the claim concerns eurozone financial stress.", aka: [Italy, Italian], align: {iso3166: IT}}
+    korea:         {parent: asia,     def: South Korea., aka: [Korea, Korean, KRW], align: {iso3166: KR}}
+    taiwan:        {parent: asia,     def: Taiwan., aka: [Taiwan, Taiwanese], align: {iso3166: TW}}
+    turkey:        {parent: emerging, def: "Turkey.", aka: [Turkey, Turkish], align: {iso3166: TR}}
+
+
+# ===========================================================================
+# FACET 2b - BLOC
+#
+# Groupings of economies argued about collectively. Several are the author's own
+# analytic constructions rather than published aggregates - `asia-surplus` and
+# `em-weak-balance-sheet` carry `align: {none: ...}` for exactly that reason -
+# which makes this facet a record of how he carves up the world, and arguably
+# more revealing than the country list.
+# ===========================================================================
+bloc:
+  cq: [CQ1, CQ2, CQ3, CQ4, CQ6, CQ8, CQ9, CQ11, CQ12, CQ13, CQ14]
+  roles:
+    subject:     The grouping whose variable the claim is about.
+    counterpart: The other side, when the claim is bilateral or comparative. Null otherwise.
+  parents:
+    asia:       Asian economies, surplus and assembly
+    emerging:   Emerging markets, grouped by external balance sheet
+    aggregate:  Supranational aggregates and the world as a whole
+  terms:
+    southeast-asia: {parent: asia, def: "Vietnam, Thailand, Malaysia and the assembly-relocation destinations.", aka: [Vietnam, Thailand, Southeast Asia, ASEAN, Singapore], align: {asean: member states}}
+    asia-surplus:  {parent: asia, def: "The Asian surplus creditors as a bloc, when argued about collectively.", aka: [Asian surplus, East Asia, Asian currencies, surplus economies], align: {none: "analytical grouping, no standard code"}}
+    latam:         {parent: emerging, def: "Argentina, Brazil and Latin American cases.", aka: [Argentina, Brazil, Brazilian], align: {m49: "419"}}
+    gulf:          {parent: emerging, def: "Saudi Arabia and the GCC reserve-rich exporters.", aka: [Saudi, GCC, Gulf], align: {gcc: member states}}
+    em-commodity:  {parent: emerging, def: "Reserve-rich commodity exporters as a type, per the mar_31_20 typology.", aka: [commodity exporters, reserve-rich], align: {imf_weo: commodity-exporting emerging markets}}
+    em-weak-balance-sheet: {parent: emerging, def: "Emerging markets with weak external balance sheets, the third type in that typology.", aka: [weak external balance sheets, emerging economies], align: {none: "analytical grouping, no standard code"}}
+    global:        {parent: aggregate, def: "The world as a whole; use when no single economy is the subject.", aka: [global, world, worldwide, world GDP], align: {m49: "001"}}
+
+
+# ===========================================================================
+# FACET 2c - ACTOR
+#
+# An institution whose framing, advice or decisions are themselves the subject
+# of the claim - as distinct from an economy whose numbers are. `imf` was living
+# in the geography facet with a definition that admitted it did not belong
+# there.
+#
+# Subject-only: all 4 assignments are subjects, and an institution is not a
+# counterpart in a bilateral flow.
+# ===========================================================================
+instrument:
+  cq: [CQ2, CQ14]
+  # LOT reuse search: NOTHING SUITABLE FOUND, so these terms are ours.
+  # Checked: WTO's measure types (antidumping, countervailing, safeguards) and
+  # UNCTAD TRAINS non-tariff measure codes both classify measures a government
+  # has formally notified. The lever this facet names is often not a measure at
+  # all - "a few phone calls" to state importers, or keeping a currency weak -
+  # which is precisely the claim setser_may_2_19 makes. A code list of notified
+  # measures cannot represent an unnotified one, so reusing it would misfile
+  # the argument. Recorded rather than left blank: an empty reuse search is a
+  # LOT result too.
+  reuse: searched WTO measure types and UNCTAD TRAINS; neither fits
+  terms:
+    tariffs:             {def: "Import tariffs as a policy choice - imposition, level, coverage, legality.", aka: [tariffs, tariff, Section 232, duties]}
+    retaliation:         {def: "Counter-tariffs and targeted retaliation by a trading partner.", aka: [retaliation, retaliatory, retaliate]}
+    purchase-commitments: {def: "Managed-trade numerical targets, as in Phase One.", aka: [purchase commitments, Phase One, managed trade, targets, Annex]}
+    industrial-policy:   {def: "Subsidies, directed credit and state capacity-building.", aka: [industrial policy, subsidized, subsidies, state firms, counter-industrial]}
+    fx-intervention:     {def: "Deliberate management of the exchange rate, including state-bank action and tolerated appreciation.", aka: [intervention, keep the yuan weak, currency management, one-sided intervention]}
+    capital-controls:    {def: "Restrictions on cross-border flows.", aka: [capital controls, outflow controls]}
+    fiscal-policy:       {def: "Discretionary tax and spending changes as the lever being argued for or against.", aka: [fiscal expansion, fiscal consolidation, tax cuts, spending, defense spending]}
+    monetary-policy:     {def: "Rate and liquidity policy as the lever, including the easing the IMF prescribes.", aka: [rate cuts, monetary easing, loosen, central bank]}
+    swap-lines:          {def: "Central bank dollar swap lines.", aka: [swap lines]}
+    official-lending:    {def: "IMF lending capacity, SDR allocation, MDB callable capital, payment deferral.", aka: [SDR, IMF lending, callable capital, maturity extension, payment deferral, official sector]}
+    export-controls:     {def: "Technology restrictions and decoupling measures.", aka: [tech decoupling, export controls, semiconductors restrictions, indigenous]}
+    trade-agreements:    {def: "Negotiated barrier removal, as the alternative to managed trade.", aka: [trade deals, trade agreements, barrier-removal, WTO]}
+    structural-reform:   {def: "Safety-net and consumption-raising reform as the prescribed lever.", aka: [structural reforms, safety net, pro-consumption reform]}
+
+
+# ===========================================================================
+# FACET 4 - DATA BASIS
+#
+# Which measurement regime the claim rests on.
+#
+# This is the facet no general framework would suggest, and the highest-value
+# one for this corpus specifically. The role axis already has evidence_rival,
+# evidence_discrepancy and source_credibility as node types because a large part
+# of the corpus is measurement critique - and in those arguments the dataset IS
+# the subject. setser_aug_14_24 is entirely customs-versus-BoP; it cannot be
+# retrieved correctly by variable and geography alone, because every node in it
+# shares the same variable and geography and they disagree about the number.
+# ===========================================================================
+data_basis:
+  cq: [CQ3, CQ6]
+  # LOT reuse search: NOTHING SUITABLE FOUND, so these terms are ours.
+  # Checked: SDMX has a DATA_SOURCE concept but no published code list of
+  # sources to reuse, and its structural metadata identifies a dataflow, not
+  # the rival-measurement stance this facet encodes. The closest published
+  # thing is a provenance vocabulary (PROV-O), which models how data was
+  # derived rather than which series an argument rests on. Values here are
+  # therefore local - but every one of them names a real published series, and
+  # the `variable` alignments carry the standard concept the series measures.
+  reuse: searched SDMX data-source concepts and PROV-O; neither fits
+  terms:
+    customs:         {def: "Customs and national trade statistics - the series he treats as ground truth.", aka: [customs, customs data, trade data, German customs]}
+    balance-of-payments: {def: "BoP accounts, including the 2022 methodology change and the series break.", aka: [balance of payments, BoP, methodology change, series break, SAFE]}
+    national-accounts: {def: "GDP and national-accounts aggregates.", aka: [GDP data, national accounts, net export math]}
+    imf-publications: {def: "Article IV, External Sector Report, WEO - cited both as source and as target of critique.", aka: [Article IV, External Sector Report, World Economic Outlook, WEO, IMF report]}
+    mirror-statistics: {def: "Counterpart-reported data used to check a country's own numbers.", aka: [mirror, counterpart data, partner data, Belgian accounts]}
+    enterprise-reporting: {def: "Direct firm surveys that replaced customs compilation in China's BoP from 2022.", aka: [enterprise reporting, direct reporting, compilers]}
+    corporate-disclosure: {def: "Company filings and annual reports used as independent evidence.", aka: [annual report, Microsoft annual report, corporate filings]}
+    academic-econometrics: {def: "Published estimates and models - Fajgelbaum, Bussière, the Fed model, IMF working papers.", aka: [Fed model, econometrics, working paper, study, estimates]}
+    third-party-trackers: {def: "PIIE purchase tracker, UN Comtrade, CPB, OECD value-added data.", aka: [PIIE, Comtrade, OECD, CPB, tracker]}
+    market-prices:   {def: "Observed market quotes and spreads used as evidence.", aka: [traded at a discount, market prices, multiyear lows]}
+    press-reporting: {def: "FT, NYT, WSJ, Reuters, S&P Global sector reporting.", aka: [Reuters, Financial Times, New York Times, Wall Street Journal, S&P Global, reporting]}
+
+
+rejected:
+  sector:
+    proposal: A facet for the sector a claim is argued at - autos, soybeans, semiconductors.
+    why_rejected: >
+      Admitted in version 1 and REMOVED on 2026-10-16, when the competency
+      questions were re-derived from the author's own 20 opening questions. He
+      poses no sector-shaped question in any of them, so the only two questions
+      that bound this facet (CQ5, CQ7) had slot shapes we invented rather than
+      shapes he uses - and CQ7 had no binding anywhere returning three claims.
+      Dropping the invented questions left this facet governed by nothing, which
+      the admission rule forbids.
+    removed_counts: 13 terms, 91 assignments, 70 claims
+    reversible: >
+      The terms and their definitions are in competency_questions.v1.yaml and in
+      git history. Re-admit the facet if a future article poses a question that
+      needs a sector to tell two answers apart - he has sector EVIDENCE in
+      quantity, but never a sector QUESTION, and the rule is about questions.
+  horizon:
+    proposal: A cyclical / structural / secular facet.
+    why_rejected: >
+      Genuinely present in the corpus - "worsen before improving", "inventory
+      swings reverse", "short-run tradeoff" - but no competency question needs
+      it to DISCRIMINATE, and date plus claim text already carry it. Admit it
+      only when a CQ requires sorting claims by horizon.
+  actor:
+    proposal: Who is being argued with - IMF, Treasury, Bessent, Pettis, Baldwin.
+    why_rejected: >
+      Real and useful, but it is already the role axis: opposing_view and
+      position_map nodes carry it. Adding it as a facet would duplicate the
+      distinction in two places with no join between them.
+    note_2026_10_16: >
+      This rejection was briefly overturned and then confirmed. The geo split on
+      2026-10-16 created an `actor` facet to house `imf`, whose definition in the
+      geography facet admitted it was "an institution, not a geography". That
+      solved a real modelling complaint but re-created a facet this file had
+      already declined, and the measurement vindicated the original reasoning:
+      the 4 `actor` claims sat in 4 different role families (claim, warrant,
+      rebuttal, qualifier), which is precisely the role axis carrying the
+      distinction. Removed again. 3 of the 4 claims keep `country: china`; the
+      fourth, setser_mar_31_20#QF, has no where-axis value and is flagged by
+      `label_facets.py --report` for a human decision rather than defaulted.
+      `imf` as a DATA SOURCE remains available as `data_basis: imf-publications`.
+  confidence:
+    proposal: How strongly he holds the claim.
+    why_rejected: >
+      A property of the claim, not a subject it is about, and already partly
+      captured by revised_prior / deferred_question / caveat. Belongs as a node
+      attribute if it is wanted, not as a retrieval facet.
+  argument_shape:
+    proposal: The Shape A-E annotation on the banner-family maps.
+    why_rejected: >
+      Already a document-level field in data/neo4j/documents.csv. Document
+      metadata, not a node subject.

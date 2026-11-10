@@ -1,0 +1,930 @@
+{
+ "result": [
+  {
+   "doc": "setser_jun_14_19",
+   "node_id": "Q",
+   "facet": "variable",
+   "value": "export-volumes",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_jun_14_19",
+   "node_id": "Q",
+   "facet": "variable",
+   "value": "bilateral-trade-flows",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_jun_14_19",
+   "node_id": "Q",
+   "facet": "instrument",
+   "value": "retaliation",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_jun_14_19",
+   "node_id": "Q",
+   "facet": "country",
+   "value": "us",
+   "role": "subject",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_jun_14_19",
+   "node_id": "Q",
+   "facet": "country",
+   "value": "china",
+   "role": "counterpart",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_jun_14_19",
+   "node_id": "P3",
+   "facet": "variable",
+   "value": "export-volumes",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_jun_14_19",
+   "node_id": "P3",
+   "facet": "variable",
+   "value": "bilateral-trade-flows",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_jun_14_19",
+   "node_id": "P3",
+   "facet": "instrument",
+   "value": "retaliation",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_jun_14_19",
+   "node_id": "P3",
+   "facet": "country",
+   "value": "us",
+   "role": "subject",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_jun_14_19",
+   "node_id": "P3",
+   "facet": "country",
+   "value": "china",
+   "role": "counterpart",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_jun_14_19",
+   "node_id": "P1",
+   "facet": "variable",
+   "value": "export-volumes",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_jun_14_19",
+   "node_id": "P1",
+   "facet": "variable",
+   "value": "trade-elasticity",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_jun_14_19",
+   "node_id": "P1",
+   "facet": "instrument",
+   "value": "tariffs",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_jun_14_19",
+   "node_id": "E3",
+   "facet": "variable",
+   "value": "tariff-rate",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_jun_14_19",
+   "node_id": "E3",
+   "facet": "instrument",
+   "value": "retaliation",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_jun_14_19",
+   "node_id": "E3",
+   "facet": "data_basis",
+   "value": "academic-econometrics",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_jun_14_19",
+   "node_id": "E3",
+   "facet": "country",
+   "value": "china",
+   "role": "subject",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_jun_14_19",
+   "node_id": "E3",
+   "facet": "country",
+   "value": "us",
+   "role": "counterpart",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_jun_14_19",
+   "node_id": "E1",
+   "facet": "variable",
+   "value": "bilateral-trade-flows",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_jun_14_19",
+   "node_id": "E1",
+   "facet": "variable",
+   "value": "export-volumes",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_jun_14_19",
+   "node_id": "E1",
+   "facet": "instrument",
+   "value": "retaliation",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_jun_14_19",
+   "node_id": "E1",
+   "facet": "data_basis",
+   "value": "customs",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_jun_14_19",
+   "node_id": "E1",
+   "facet": "country",
+   "value": "us",
+   "role": "subject",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_jun_14_19",
+   "node_id": "E1",
+   "facet": "country",
+   "value": "china",
+   "role": "counterpart",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_jun_14_19",
+   "node_id": "C1",
+   "facet": "variable",
+   "value": "bilateral-trade-flows",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_jun_14_19",
+   "node_id": "C1",
+   "facet": "variable",
+   "value": "nominal-exchange-rate",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_jun_14_19",
+   "node_id": "C1",
+   "facet": "instrument",
+   "value": "retaliation",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_jun_14_19",
+   "node_id": "C1",
+   "facet": "data_basis",
+   "value": "customs",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_jun_14_19",
+   "node_id": "C1",
+   "facet": "country",
+   "value": "us",
+   "role": "subject",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_jun_14_19",
+   "node_id": "C1",
+   "facet": "country",
+   "value": "euro-area",
+   "role": "counterpart",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_jun_14_19",
+   "node_id": "R1",
+   "facet": "variable",
+   "value": "nominal-exchange-rate",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_jun_14_19",
+   "node_id": "R1",
+   "facet": "variable",
+   "value": "export-volumes",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_jun_14_19",
+   "node_id": "R1",
+   "facet": "country",
+   "value": "us",
+   "role": "subject",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_jun_14_19",
+   "node_id": "M1",
+   "facet": "variable",
+   "value": "tariff-rate",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_jun_14_19",
+   "node_id": "M1",
+   "facet": "instrument",
+   "value": "retaliation",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_jun_14_19",
+   "node_id": "M1",
+   "facet": "country",
+   "value": "china",
+   "role": "subject",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_jun_14_19",
+   "node_id": "M1",
+   "facet": "country",
+   "value": "us",
+   "role": "counterpart",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_jun_14_19",
+   "node_id": "M2",
+   "facet": "variable",
+   "value": "import-volumes",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_jun_14_19",
+   "node_id": "M2",
+   "facet": "variable",
+   "value": "trade-elasticity",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_jun_14_19",
+   "node_id": "M2",
+   "facet": "instrument",
+   "value": "retaliation",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_jun_14_19",
+   "node_id": "M2",
+   "facet": "country",
+   "value": "china",
+   "role": "subject",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_jun_14_19",
+   "node_id": "M2",
+   "facet": "country",
+   "value": "us",
+   "role": "counterpart",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_jun_14_19",
+   "node_id": "M3",
+   "facet": "variable",
+   "value": "bilateral-trade-flows",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_jun_14_19",
+   "node_id": "M3",
+   "facet": "variable",
+   "value": "tariff-rate",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_jun_14_19",
+   "node_id": "M3",
+   "facet": "instrument",
+   "value": "industrial-policy",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_jun_14_19",
+   "node_id": "M3",
+   "facet": "country",
+   "value": "china",
+   "role": "subject",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_jun_14_19",
+   "node_id": "M3",
+   "facet": "country",
+   "value": "us",
+   "role": "counterpart",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_jun_14_19",
+   "node_id": "E2",
+   "facet": "variable",
+   "value": "bilateral-trade-flows",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_jun_14_19",
+   "node_id": "E2",
+   "facet": "variable",
+   "value": "manufacturing-trade-balance",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_jun_14_19",
+   "node_id": "E2",
+   "facet": "data_basis",
+   "value": "customs",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_jun_14_19",
+   "node_id": "E2",
+   "facet": "country",
+   "value": "us",
+   "role": "subject",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_jun_14_19",
+   "node_id": "E2",
+   "facet": "country",
+   "value": "china",
+   "role": "counterpart",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_jun_14_19",
+   "node_id": "X",
+   "facet": "variable",
+   "value": "bilateral-trade-flows",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_jun_14_19",
+   "node_id": "X",
+   "facet": "instrument",
+   "value": "retaliation",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_jun_14_19",
+   "node_id": "X",
+   "facet": "country",
+   "value": "us",
+   "role": "subject",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_jun_14_19",
+   "node_id": "X",
+   "facet": "country",
+   "value": "china",
+   "role": "counterpart",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_jun_14_19",
+   "node_id": "M4",
+   "facet": "variable",
+   "value": "trade-elasticity",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_jun_14_19",
+   "node_id": "M4",
+   "facet": "variable",
+   "value": "bilateral-trade-flows",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_jun_14_19",
+   "node_id": "M4",
+   "facet": "instrument",
+   "value": "retaliation",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_jun_14_19",
+   "node_id": "M4",
+   "facet": "data_basis",
+   "value": "academic-econometrics",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_jun_14_19",
+   "node_id": "M4",
+   "facet": "country",
+   "value": "us",
+   "role": "subject",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_jun_14_19",
+   "node_id": "M4",
+   "facet": "country",
+   "value": "china",
+   "role": "counterpart",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_jun_14_19",
+   "node_id": "R2",
+   "facet": "variable",
+   "value": "bilateral-trade-flows",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_jun_14_19",
+   "node_id": "R2",
+   "facet": "instrument",
+   "value": "purchase-commitments",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_jun_14_19",
+   "node_id": "R2",
+   "facet": "country",
+   "value": "china",
+   "role": "subject",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_jun_14_19",
+   "node_id": "R2",
+   "facet": "country",
+   "value": "us",
+   "role": "counterpart",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_jun_14_19",
+   "node_id": "C2",
+   "facet": "variable",
+   "value": "export-volumes",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_jun_14_19",
+   "node_id": "C2",
+   "facet": "instrument",
+   "value": "retaliation",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_jun_14_19",
+   "node_id": "C2",
+   "facet": "country",
+   "value": "us",
+   "role": "subject",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_jun_14_19",
+   "node_id": "C3",
+   "facet": "variable",
+   "value": "export-volumes",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_jun_14_19",
+   "node_id": "C3",
+   "facet": "variable",
+   "value": "investment-capex",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_jun_14_19",
+   "node_id": "C3",
+   "facet": "instrument",
+   "value": "retaliation",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_jun_14_19",
+   "node_id": "C3",
+   "facet": "country",
+   "value": "us",
+   "role": "subject",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_jun_14_19",
+   "node_id": "C4",
+   "facet": "variable",
+   "value": "export-volumes",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_jun_14_19",
+   "node_id": "C4",
+   "facet": "variable",
+   "value": "manufacturing-output",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_jun_14_19",
+   "node_id": "C4",
+   "facet": "instrument",
+   "value": "retaliation",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_jun_14_19",
+   "node_id": "C4",
+   "facet": "data_basis",
+   "value": "corporate-disclosure",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_jun_14_19",
+   "node_id": "C4",
+   "facet": "country",
+   "value": "us",
+   "role": "subject",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_jun_14_19",
+   "node_id": "C4",
+   "facet": "country",
+   "value": "china",
+   "role": "counterpart",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_jun_14_19",
+   "node_id": "QF",
+   "facet": "variable",
+   "value": "bilateral-trade-flows",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_jun_14_19",
+   "node_id": "QF",
+   "facet": "country",
+   "value": "us",
+   "role": "subject",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_jun_14_19",
+   "node_id": "QF",
+   "facet": "country",
+   "value": "china",
+   "role": "counterpart",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_jun_14_19",
+   "node_id": "P2",
+   "facet": "variable",
+   "value": "bilateral-trade-flows",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_jun_14_19",
+   "node_id": "P2",
+   "facet": "variable",
+   "value": "export-volumes",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_jun_14_19",
+   "node_id": "K",
+   "facet": "variable",
+   "value": "bilateral-trade-flows",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_jun_14_19",
+   "node_id": "K",
+   "facet": "variable",
+   "value": "export-volumes",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_jun_14_19",
+   "node_id": "K",
+   "facet": "instrument",
+   "value": "retaliation",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_jun_14_19",
+   "node_id": "K",
+   "facet": "country",
+   "value": "us",
+   "role": "subject",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_jun_14_19",
+   "node_id": "K",
+   "facet": "country",
+   "value": "china",
+   "role": "counterpart",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_jun_14_19",
+   "node_id": "QF2",
+   "facet": "variable",
+   "value": "trade-elasticity",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_jun_14_19",
+   "node_id": "QF2",
+   "facet": "instrument",
+   "value": "tariffs",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_jun_14_19",
+   "node_id": "QF2",
+   "facet": "data_basis",
+   "value": "customs",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_jun_14_19",
+   "node_id": "QF2",
+   "facet": "country",
+   "value": "us",
+   "role": "subject",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_jun_14_19",
+   "node_id": "QF2",
+   "facet": "country",
+   "value": "china",
+   "role": "counterpart",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_jun_14_19",
+   "node_id": "DF",
+   "facet": "variable",
+   "value": "gdp-growth",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_jun_14_19",
+   "node_id": "DF",
+   "facet": "instrument",
+   "value": "retaliation",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_jun_14_19",
+   "node_id": "DF",
+   "facet": "country",
+   "value": "us",
+   "role": "subject",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_jun_14_19",
+   "node_id": "REC",
+   "facet": "variable",
+   "value": "bilateral-trade-flows",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_jun_14_19",
+   "node_id": "REC",
+   "facet": "instrument",
+   "value": "retaliation",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_jun_14_19",
+   "node_id": "REC",
+   "facet": "data_basis",
+   "value": "customs",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_jun_14_19",
+   "node_id": "REC",
+   "facet": "country",
+   "value": "us",
+   "role": "subject",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_jun_14_19",
+   "node_id": "REC",
+   "facet": "country",
+   "value": "china",
+   "role": "counterpart",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  }
+ ],
+ "review": [
+  "`setser_jun_14_19#P1` where_subject empty - every claim needs a country or a bloc (assignment.requires_one_of) - needs review",
+  "`setser_jun_14_19#P2` where_subject empty - every claim needs a country or a bloc (assignment.requires_one_of) - needs review"
+ ],
+ "gaps_left": [],
+ "dropped": [],
+ "fix_rounds": 0,
+ "reasks": 0
+}

@@ -1,0 +1,486 @@
+{
+ "result": [
+  {
+   "excerpt": "it is now possible look back at how China decided to respond to Trump’s tariff pressure.",
+   "claim": "How did China respond to Trump's tariff pressure, and what does that response imply for the phase one deal?",
+   "role": "question",
+   "explicit": true,
+   "kind": "none",
+   "claim_type": "none",
+   "paragraphs": [
+    1,
+    2
+   ],
+   "reason": "A completed episode of bargaining reveals each side's priorities and capacities.",
+   "excerpt_para": 1,
+   "id": "Q",
+   "level": "L0"
+  },
+  {
+   "excerpt": "Five points stand out to me…",
+   "claim": "China's response had five features: it shielded industrial policy, used the currency without losing reserves, did not weaponize Treasuries, did not single out U.S. manufactures, and hit U.S. farm and energy exports, which shows that state-managed trade gives China leverage over U.S. agriculture.",
+   "role": "main_claim",
+   "explicit": true,
+   "kind": "none",
+   "claim_type": "enumerated",
+   "paragraphs": [
+    2,
+    3,
+    5,
+    9,
+    12,
+    19,
+    27
+   ],
+   "reason": "Lessons from a conflict can be listed as separate observed behaviours.",
+   "excerpt_para": 2,
+   "id": "K",
+   "level": "L5"
+  },
+  {
+   "excerpt": "China never was prepared—it seems from the outside—to negotiate on China 2025 or the subsidies and procurement preferences at the center of its industrial policies.",
+   "claim": "China refused to negotiate on its core industrial policies, and its import-substitution strategy all but guarantees future trade conflict.",
+   "role": "intermediate_claim",
+   "explicit": true,
+   "kind": "none",
+   "claim_type": "none",
+   "paragraphs": [
+    3,
+    4
+   ],
+   "reason": "A state will not trade away policies it sees as central to its long-run growth.",
+   "excerpt_para": 3,
+   "id": "C1",
+   "level": "L4"
+  },
+  {
+   "excerpt": "China’s vision of technological independence likely implies that over time its imports of advanced manufactures from the rest of the world will fall.",
+   "claim": "Technological self-sufficiency cuts China's imports of advanced manufactures, which erodes partners' willingness to keep their own markets open.",
+   "role": "mechanism",
+   "explicit": true,
+   "kind": "economic",
+   "claim_type": "none",
+   "paragraphs": [
+    4
+   ],
+   "reason": "Openness is sustained by reciprocity, so a country that stops importing invites closure abroad.",
+   "excerpt_para": 4,
+   "id": "M1",
+   "level": "L3"
+  },
+  {
+   "excerpt": "But these trends won’t play out over the next year",
+   "claim": "Import substitution will not visibly reduce China's imports in 2020, because jet engines, semiconductors and machine tools are not yet replaced.",
+   "role": "caveat",
+   "explicit": true,
+   "kind": "none",
+   "claim_type": "none",
+   "paragraphs": [
+    4
+   ],
+   "reason": "Structural industrial shifts take years to show up in trade flows.",
+   "excerpt_para": 4,
+   "id": "QF",
+   "level": "L6"
+  },
+  {
+   "excerpt": "China was able to use its currency to buffer the impact of the trade war without ever losing control—and without burning through a lot of reserves.",
+   "claim": "China let the yuan depreciate to cushion the tariffs without losing control of it or spending much in reserves.",
+   "role": "intermediate_claim",
+   "explicit": true,
+   "kind": "none",
+   "claim_type": "none",
+   "paragraphs": [
+    5,
+    8
+   ],
+   "reason": "A managed currency can absorb an external shock if capital flight is contained.",
+   "excerpt_para": 5,
+   "id": "C2",
+   "level": "L4"
+  },
+  {
+   "excerpt": "The yuan has fallen by 8 percent vs. the dollar and 4 percent vs. a broad basket since May 2018.",
+   "claim": "The yuan fell 8% against the dollar and 4% against a broad basket; the PBOC balance sheet shows no intervention, settlement data show small purchases, and the balance of payments shows only tiny reserve sales.",
+   "role": "evidence_data",
+   "explicit": true,
+   "kind": "none",
+   "claim_type": "none",
+   "paragraphs": [
+    6,
+    8
+   ],
+   "reason": "Exchange-rate and intervention series show whether a currency move was market-driven or defended.",
+   "excerpt_para": 6,
+   "id": "E1",
+   "level": "L2"
+  },
+  {
+   "excerpt": "That, in my view, is part of the reason why China’s overall exports have held up reasonably well even as its exports to the United States have fallen.",
+   "claim": "The weaker yuan helped China's overall exports hold up even as its exports to the U.S. fell.",
+   "role": "mechanism",
+   "explicit": true,
+   "kind": "economic",
+   "claim_type": "none",
+   "paragraphs": [
+    6
+   ],
+   "reason": "Depreciation offsets a tariff by lowering the foreign-currency price of exports.",
+   "excerpt_para": 6,
+   "id": "M2",
+   "level": "L3"
+  },
+  {
+   "excerpt": "In part, that is because China tightened its controls on outflows back in late 2016 and early 2017, and those controls worked.",
+   "claim": "The depreciation caused no panic because of tight capital controls, no carry trades to unwind, reserve demand for yuan over negative-yielding euros, moves proportionate to the tariffs, and a rising trade surplus.",
+   "role": "mechanism",
+   "explicit": true,
+   "kind": "economic",
+   "claim_type": "none",
+   "paragraphs": [
+    7
+   ],
+   "reason": "Depreciation triggers capital flight only when outflows are easy and the move signals more to come.",
+   "excerpt_para": 7,
+   "id": "M3",
+   "level": "L3"
+  },
+  {
+   "excerpt": "But I don’t think many expected that China would be able to keep its reserves stable through the trade war",
+   "claim": "The widespread expectation that defending the yuan would drain China's reserves turned out wrong.",
+   "role": "anomaly",
+   "explicit": true,
+   "kind": "none",
+   "claim_type": "none",
+   "paragraphs": [
+    8
+   ],
+   "reason": "A forecast that fails exposes a mechanism the forecasters missed.",
+   "excerpt_para": 8,
+   "id": "ANOM",
+   "level": "L0"
+  },
+  {
+   "excerpt": "even now Chinese data never quite fully lines up, which bothers me more than most",
+   "claim": "The author distrusts Chinese official data because the different series never fully reconcile.",
+   "role": "source_credibility",
+   "explicit": true,
+   "kind": "none",
+   "claim_type": "none",
+   "paragraphs": [
+    8
+   ],
+   "reason": "Statistics from a producer whose series do not reconcile deserve less trust.",
+   "excerpt_para": 8,
+   "id": "SC",
+   "level": "L1"
+  },
+  {
+   "excerpt": "the two standard indicators of Chinese intervention suggest either no activity over the course of 2019 (the PBOC’s balance sheet) or small purchases (the settlement data)",
+   "claim": "The PBOC balance sheet, the settlement data and the balance of payments give slightly different readings of intervention, though all point to small amounts.",
+   "role": "evidence_rival",
+   "explicit": true,
+   "kind": "none",
+   "claim_type": "none",
+   "paragraphs": [
+    8
+   ],
+   "reason": "Cross-check intervention against several independent series.",
+   "excerpt_para": 8,
+   "id": "E4",
+   "level": "L2"
+  },
+  {
+   "excerpt": "China did not try to use its Treasuries as a weapon.",
+   "claim": "China did not sell Treasuries as a weapon; its holdings, counting Belgian custodial accounts, fell only slightly as it sought yield in Agencies and hedged yen bonds.",
+   "role": "intermediate_claim",
+   "explicit": true,
+   "kind": "none",
+   "claim_type": "none",
+   "paragraphs": [
+    9,
+    10
+   ],
+   "reason": "Reserve managers mostly reallocate for yield rather than for political leverage.",
+   "excerpt_para": 9,
+   "id": "C3",
+   "level": "L4"
+  },
+  {
+   "excerpt": "China’s Treasury holdings are down just a bit, but only a bit after you take into account China’s not so hidden holdings in Belgian custodial accounts.",
+   "claim": "Reported U.S. holdings understate China's dollar reserves, so the author adjusts for custodial holdings when measuring any decline.",
+   "role": "mechanism",
+   "explicit": true,
+   "kind": "distortion",
+   "claim_type": "none",
+   "paragraphs": [
+    10
+   ],
+   "reason": "Custodial holdings misattribute a reserve holder's assets to the custodian's country.",
+   "excerpt_para": 10,
+   "id": "M4",
+   "level": "L3"
+  },
+  {
+   "excerpt": "if it tried to push Treasury yields up, the Fed would react",
+   "claim": "Because the Fed can expand its balance sheet or cap yields, a Chinese sale of Treasuries would be neutralized, leaving China little leverage.",
+   "role": "mechanism",
+   "explicit": true,
+   "kind": "economic",
+   "claim_type": "none",
+   "paragraphs": [
+    11
+   ],
+   "reason": "A central bank willing to buy its own bonds can offset any foreign seller.",
+   "excerpt_para": 11,
+   "id": "M5",
+   "level": "L3"
+  },
+  {
+   "excerpt": "",
+   "claim": "China acts as a rational strategic actor that weighs whether a retaliatory tool will work before using it.",
+   "role": "hidden_assumption",
+   "explicit": false,
+   "kind": "none",
+   "claim_type": "none",
+   "paragraphs": [
+    11,
+    16
+   ],
+   "reason": "States choose retaliatory tools by their effectiveness and cost.",
+   "excerpt_para": null,
+   "id": "P2",
+   "level": "L1"
+  },
+  {
+   "excerpt": "if you look at China’s imports of manufactured goods from the United States—excluding cars and planes—there wasn’t much change.",
+   "claim": "Excluding cars and planes, China's imports of U.S. manufactures fell only about as much as its total manufactured imports, so the U.S. was not singled out.",
+   "role": "intermediate_claim",
+   "explicit": true,
+   "kind": "none",
+   "claim_type": "none",
+   "paragraphs": [
+    12,
+    13
+   ],
+   "reason": "Bilateral trade must be compared with total trade to identify targeting.",
+   "excerpt_para": 13,
+   "id": "C4",
+   "level": "L4"
+  },
+  {
+   "excerpt": "excluding cars and planes",
+   "claim": "The author leaves autos and aircraft out of the manufactures comparison because their swings have special causes.",
+   "role": "scope_choice",
+   "explicit": true,
+   "kind": "none",
+   "claim_type": "none",
+   "paragraphs": [
+    13,
+    17
+   ],
+   "reason": "Strip out categories driven by idiosyncratic factors before judging a trend.",
+   "excerpt_para": 13,
+   "id": "SCP",
+   "level": "L1B"
+  },
+  {
+   "excerpt": "I know this goes a bit against the grain",
+   "claim": "The common view is that China broadly retaliated against U.S. manufactured exports.",
+   "role": "opposing_view",
+   "explicit": true,
+   "kind": "none",
+   "claim_type": "none",
+   "paragraphs": [
+    13
+   ],
+   "reason": "Conventional wisdom should be tested against disaggregated data.",
+   "excerpt_para": 13,
+   "id": "X",
+   "level": "L6"
+  },
+  {
+   "excerpt": "One theory is that, well, China had already been pretty good at squeezing manufactured imports out of its market",
+   "claim": "China may have spared U.S. manufactures because the remaining imports were ones it needed, or to keep room for retaliation if tariffs were widened; the author is unsure which.",
+   "role": "other_explanation",
+   "explicit": true,
+   "kind": "none",
+   "claim_type": "none",
+   "paragraphs": [
+    14,
+    15,
+    16
+   ],
+   "reason": "When a cause is unclear, list the plausible rivals without choosing.",
+   "excerpt_para": 15,
+   "id": "R1",
+   "level": "L6"
+  },
+  {
+   "excerpt": "That though is almost all Boeing’s fault",
+   "claim": "The fall in China's plane imports reflects Boeing's delivery problems more than retaliation, and auto imports rebounded after the SUV tariffs.",
+   "role": "caveat",
+   "explicit": true,
+   "kind": "none",
+   "claim_type": "none",
+   "paragraphs": [
+    17,
+    18
+   ],
+   "reason": "Current deliveries depend on past orders and supplier capacity, not on current policy.",
+   "excerpt_para": 17,
+   "id": "QF2",
+   "level": "L6"
+  },
+  {
+   "excerpt": "China did target American agricultural and energy exports, with mixed success.",
+   "claim": "China targeted U.S. farm and energy exports; the energy cuts had little effect, but the farm cuts had a modest economic and a large political impact.",
+   "role": "intermediate_claim",
+   "explicit": true,
+   "kind": "none",
+   "claim_type": "none",
+   "paragraphs": [
+    19,
+    20,
+    21,
+    22
+   ],
+   "reason": "Retaliation hurts most where the target has few alternative buyers.",
+   "excerpt_para": 19,
+   "id": "C5",
+   "level": "L4"
+  },
+  {
+   "excerpt": "there are other markets for sweet light crude and natural gas liquids",
+   "claim": "Fungible commodities such as crude and NGLs can be rerouted to other buyers, which limits the damage from a boycott.",
+   "role": "stated_assumption",
+   "explicit": true,
+   "kind": "none",
+   "claim_type": "none",
+   "paragraphs": [
+    20
+   ],
+   "reason": "In deep global commodity markets, trade diversion shuffles buyers without cutting total demand.",
+   "excerpt_para": 20,
+   "id": "P1",
+   "level": "L1"
+  },
+  {
+   "excerpt": "I thought U.S. soy would prove to be more of a pure commodity, and the global market would adjust.",
+   "claim": "The author expected the global soy market to absorb China's boycott and was surprised that it did not.",
+   "role": "revised_prior",
+   "explicit": true,
+   "kind": "none",
+   "claim_type": "none",
+   "paragraphs": [
+    23
+   ],
+   "reason": "Arbitrage fails when one buyer dominates the market.",
+   "excerpt_para": 23,
+   "id": "P3",
+   "level": "L1"
+  },
+  {
+   "excerpt": "China is such a big share of the global market (two-thirds of global imports)",
+   "claim": "China takes two-thirds of global soy imports, and U.S. beans traded at a discount to Brazil's.",
+   "role": "evidence_data",
+   "explicit": true,
+   "kind": "none",
+   "claim_type": "none",
+   "paragraphs": [
+    23
+   ],
+   "reason": "A persistent price gap between substitutes shows market segmentation.",
+   "excerpt_para": 23,
+   "id": "E2",
+   "level": "L2"
+  },
+  {
+   "excerpt": "the ultimate arbitrage is U.S. beans feed Brazilian pigs and chicken, freeing up all ofBrazil’s harvest for China",
+   "claim": "Over 2019 rerouting through Argentina and Brazil gradually arbitraged away part of the soy discount.",
+   "role": "mechanism",
+   "explicit": true,
+   "kind": "economic",
+   "claim_type": "none",
+   "paragraphs": [
+    23
+   ],
+   "reason": "Over time, triangular trade erodes price gaps that a boycott creates.",
+   "excerpt_para": 23,
+   "id": "M6",
+   "level": "L3"
+  },
+  {
+   "excerpt": "China’s revealed capacity to manage its commodity imports over the course of the trade war suggests that it could meet its 2020 agriculture and energy commitments.",
+   "claim": "China's demonstrated control over commodity imports, plus about $25 billion in meat imports, makes its 2020 farm and energy purchase commitments credible.",
+   "role": "intermediate_claim",
+   "explicit": true,
+   "kind": "none",
+   "claim_type": "none",
+   "paragraphs": [
+    1,
+    25
+   ],
+   "reason": "A state able to cut imports at will can also raise them at will.",
+   "excerpt_para": 25,
+   "id": "C6",
+   "level": "L4"
+  },
+  {
+   "excerpt": "What China’s state gives, China’s state can take away.",
+   "claim": "Managed trade leaves U.S. farmers exposed: any challenge to Chinese industrial policy will bring renewed retaliation against agriculture, so China is a big but unstable market.",
+   "role": "intermediate_claim",
+   "explicit": true,
+   "kind": "none",
+   "claim_type": "none",
+   "paragraphs": [
+    26,
+    27,
+    28,
+    29
+   ],
+   "reason": "Purchases granted by state decision can be withdrawn by state decision.",
+   "excerpt_para": 27,
+   "id": "C7",
+   "level": "L4"
+  },
+  {
+   "excerpt": "the U.S. is essentially giving China a big reward for redirecting its imports away from U.S. allies toward the United States",
+   "claim": "The Economist argued that Trump's managed trade rewards China for diverting imports from U.S. allies, while the conventional approach also has drawbacks.",
+   "role": "evidence_source",
+   "explicit": true,
+   "kind": "none",
+   "claim_type": "none",
+   "paragraphs": [
+    30
+   ],
+   "reason": "Bilateral purchase targets divert trade rather than create it.",
+   "excerpt_para": 30,
+   "id": "E3",
+   "level": "L2"
+  },
+  {
+   "excerpt": "I am not sure the considerable effort that the Obama Administration put into changing China’s legal rules on indigenous innovation procurementback in 2010 and 2011 yielded much in the end",
+   "claim": "The conventional legal approach to Chinese industrial policy, such as Obama's indigenous-innovation rule changes, also failed to change China's basic policy.",
+   "role": "opposing_view",
+   "explicit": true,
+   "kind": "none",
+   "claim_type": "none",
+   "paragraphs": [
+    30
+   ],
+   "reason": "Rule changes that leave the underlying strategy intact achieve little.",
+   "excerpt_para": 30,
+   "id": "X2",
+   "level": "L6"
+  }
+ ],
+ "review": [
+  "`P1` the name `ngls` does not occur in the article",
+  "30 boxes, more than any hand-drawn map (24)"
+ ],
+ "gaps_left": [],
+ "dropped": [],
+ "fix_rounds": 0,
+ "reasks": 0
+}

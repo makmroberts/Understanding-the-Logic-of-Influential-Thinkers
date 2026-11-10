@@ -1,0 +1,96 @@
+---
+config:
+  layout: elk
+  flowchart:
+    wrappingWidth: 170
+    nodeSpacing: 25
+    rankSpacing: 45
+---
+flowchart TD
+  subgraph L0["Level 0 · Question"]
+    Q["<b>Could global macro shocks overwhelm trade deals<br/>and push the U.S. trade deficit higher?</b><br/><i>Brad Setser, CFR, June 2018</i>"]
+  end
+
+  subgraph L1["Level 1 · Priors & assumptions"]
+    P1["<b>Trade balances are macroeconomic</b><br/>They reflect demand, fiscal policy, currencies, and external adjustment—not just trade deals"]
+    P2["<b>U.S. fiscal stimulus needs foreign demand</b><br/>The deficit rises unless stronger U.S. demand is matched abroad"]
+    P3["<b>Weak demand encourages export-led adjustment</b><br/>Countries under pressure often rely on weaker currencies and exports"]
+  end
+
+  subgraph L2["Level 2 · Evidence"]
+    D1["<b>Argentina and Turkey must adjust</b><br/>Large external deficits mean weaker domestic demand and less global demand growth"]
+    D2["<b>2014–15 precedent</b><br/>EM weakness coincided with slower global trade and a larger U.S. non-oil deficit"]
+    D3["<b>Italy/eurozone risk</b><br/>Financial and political stress could weaken the euro"]
+    D4["<b>China is tightening</b><br/>Domestic weakness plus dollar strength could create depreciation pressure"]
+    D5["<b>Japan faces fiscal tightening</b><br/>Consumption-tax hikes have historically weakened domestic demand"]
+    D6["<b>2017 was unusually favorable</b><br/>Europe, China, Japan, and EM demand all supported the global environment"]
+  end
+
+  subgraph L3["Level 3 · Mechanisms"]
+    M1["<b>Foreign adjustment weakens demand</b><br/>Lower domestic spending abroad reduces demand for imports"]
+    M2["<b>Weaker foreign currencies strengthen the dollar</b><br/>Dollar strength hurts U.S. trade competitiveness"]
+    M3["<b>Demand divergence widens the U.S. deficit</b><br/>Strong U.S. demand plus weak foreign demand raises net imports"]
+  end
+
+  subgraph L4["Level 4 · Intermediate claims"]
+    C1["<b>EM adjustment reduces global demand support</b><br/>Foreign economies contribute less to import growth"]
+    C2["<b>Euro and Asian weakness could lift the dollar</b><br/>Currency shifts reinforce pressure on U.S. trade"]
+    C3["<b>The 2017 macro constellation may be ending</b><br/>Foreign demand may no longer offset U.S. fiscal expansion"]
+  end
+
+  subgraph L5["Level 5 · Conclusion"]
+    K["<b>Main claim: macro shocks could overpower trade deals</b><br/>The U.S. trade deficit could rise even if the administration<br/>secures new trade agreements"]
+  end
+
+  subgraph L6["Level 6 · Dialectic"]
+    X["<b>Scale caveat</b><br/>Argentina and Turkey are individually too small to drive the full outcome"]
+    QF["<b>Path uncertainty</b><br/>Italy and China's eventual adjustments are not predetermined"]
+    R1["<b>Offsetting scenario</b><br/>Strong foreign demand could still counterbalance U.S. fiscal stimulus"]
+  end
+
+  P3 --> M1
+  D1 --> M1
+  D2 --> M1
+  D5 --> M1
+  M1 --> C1
+
+  P3 --> M2
+  D3 --> M2
+  D4 --> M2
+  M2 --> C2
+
+  P1 --> M3
+  P2 --> M3
+  C1 --> M3
+  C2 --> M3
+  D6 --> C3
+  C3 --> M3
+  M3 --> K
+
+  C1 -.->|qualified by| X
+  C2 -.->|uncertain path| QF
+  C3 -.->|could be offset by| R1
+
+  C2 --> M3
+
+  Q ~~~ P1 & P2 & P3
+  P1 ~~~ D1 & D2
+  P2 ~~~ D3 & D6
+  P3 ~~~ D4 & D5
+
+  classDef prior fill:#EEEDFE,stroke:#534AB7,color:#26215C
+  classDef unstated fill:#EEEDFE,stroke:#534AB7,color:#26215C,stroke-dasharray:5 4
+  classDef data fill:#E6F1FB,stroke:#185FA5,color:#042C53
+  classDef mech fill:#E1F5EE,stroke:#0F6E56,color:#04342C
+  classDef main fill:#E1F5EE,stroke:#0F6E56,color:#04342C,stroke-width:3px
+  classDef dia fill:#F1EFE8,stroke:#5F5E5A,color:#2C2C2A
+  classDef question fill:#FFFFFF,stroke:#2C2C2A,color:#2C2C2A
+
+  class P1,P2,P3 prior
+  class D1,D2,D3,D4,D5,D6 data
+  class M1,M2,M3,C1,C2,C3 mech
+  class K main
+  class X,QF,R1 dia
+  class Q question
+
+  linkStyle 16,17,18 stroke:#A32D2D,color:#A32D2D
