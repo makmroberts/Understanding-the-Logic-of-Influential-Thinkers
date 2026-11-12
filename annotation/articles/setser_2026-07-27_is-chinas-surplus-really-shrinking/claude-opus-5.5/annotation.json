@@ -176,27 +176,38 @@
     "passages": [
      {
       "paragraph_id": "p1",
+      "paragraph_sha256": "sha256:eface014e2e7a11d7024669542d5b5f03cd88f8b5847ae7905ee6356957842ef",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "The Economist is now arguing that China’s trade surplus has peaked."
+      "source_excerpt": "The Economist is now arguing that China’s trade surplus has peaked.",
+      "source_spans": [
+       {
+        "char_start": 0,
+        "char_end": 67
+       }
+      ]
      },
      {
       "paragraph_id": "p2",
+      "paragraph_sha256": "sha256:5bac023dcd65a8e83a8232a5be472b1ae0a7511c0036df270cfd3b2a8e2fed07",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      },
      {
       "paragraph_id": "p3",
+      "paragraph_sha256": "sha256:0114dbd082b5f44ccc37536ad71d5991d55941c40a87f49e7a2b6ea92c8ee567",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      }
     ]
    },
@@ -248,19 +259,28 @@
     "passages": [
      {
       "paragraph_id": "p1",
+      "paragraph_sha256": "sha256:eface014e2e7a11d7024669542d5b5f03cd88f8b5847ae7905ee6356957842ef",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "The Economist is now arguing that China’s trade surplus has peaked."
+      "source_excerpt": "The Economist is now arguing that China’s trade surplus has peaked.",
+      "source_spans": [
+       {
+        "char_start": 0,
+        "char_end": 67
+       }
+      ]
      },
      {
       "paragraph_id": "p27",
+      "paragraph_sha256": "sha256:a74103d147774fa87cccfe88878915da66f3cf85098619c2142753ec3f22a83f",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      }
     ]
    },
@@ -317,19 +337,28 @@
     "passages": [
      {
       "paragraph_id": "p2",
+      "paragraph_sha256": "sha256:5bac023dcd65a8e83a8232a5be472b1ae0a7511c0036df270cfd3b2a8e2fed07",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "Net exports have contributed positively to China’s growth in Q1 and Q2."
+      "source_excerpt": "Net exports have contributed positively to China’s growth in Q1 and Q2.",
+      "source_spans": [
+       {
+        "char_start": 91,
+        "char_end": 162
+       }
+      ]
      },
      {
       "paragraph_id": "p24",
+      "paragraph_sha256": "sha256:516370c1515db1f2f46ce6861c723999e85963d8822a69e04881991099c29464",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      }
     ]
    },
@@ -389,27 +418,38 @@
     "passages": [
      {
       "paragraph_id": "p4",
+      "paragraph_sha256": "sha256:cbff3a5ef75649105299e4d27e06ebdad8a9c66cbd984a060690bd917dc0a61c",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "China’s exports of chips are up almost as much as its imports."
+      "source_excerpt": "China’s exports of chips are up almost as much as its imports.",
+      "source_spans": [
+       {
+        "char_start": 100,
+        "char_end": 162
+       }
+      ]
      },
      {
       "paragraph_id": "p14",
+      "paragraph_sha256": "sha256:312993b82226d220b936a86d7d95354bd8656fb0607afd9e6ca486979f20b8e6",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      },
      {
       "paragraph_id": "p15",
+      "paragraph_sha256": "sha256:5791403bef9a5948c06fa6c0c744dac3561a057aeb493428447a2127abfc2f17",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      }
     ]
    },
@@ -465,11 +505,18 @@
     "passages": [
      {
       "paragraph_id": "p5",
+      "paragraph_sha256": "sha256:1d49a83ca75ee1650140b42021510e627711a3aa1b2f0595b381986e765836bb",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "The price of oil imports is up but import volumes have famously collapsed; the commodity import bill is up, but only modestly."
+      "source_excerpt": "The price of oil imports is up but import volumes have famously collapsed; the commodity import bill is up, but only modestly.",
+      "source_spans": [
+       {
+        "char_start": 69,
+        "char_end": 195
+       }
+      ]
      }
     ]
    },
@@ -523,27 +570,38 @@
     "passages": [
      {
       "paragraph_id": "p6",
+      "paragraph_sha256": "sha256:43f8aa4480c4e2e5bd431b81e49826322df699e3c97edc35d9f16fddb1020e30",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "The critical adjustment is to net out imports of gold"
+      "source_excerpt": "The critical adjustment is to net out imports of gold",
+      "source_spans": [
+       {
+        "char_start": 0,
+        "char_end": 53
+       }
+      ]
      },
      {
       "paragraph_id": "p9",
+      "paragraph_sha256": "sha256:9f3c015c08628b375023ca60ea840dc0f51b8c88f91f13e09ac88f1fc3c2aaef",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      },
      {
       "paragraph_id": "p12",
+      "paragraph_sha256": "sha256:68601af694a30ebb8e0161db56ceafd8f3cfcebe01b2c67972ab379caf31e91a",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      }
     ]
    },
@@ -602,27 +660,33 @@
     "passages": [
      {
       "paragraph_id": "p6",
+      "paragraph_sha256": "sha256:43f8aa4480c4e2e5bd431b81e49826322df699e3c97edc35d9f16fddb1020e30",
       "relation": "presupposes",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      },
      {
       "paragraph_id": "p7",
+      "paragraph_sha256": "sha256:f42e56c3d11ffac54fa72d317fcc67f72edd41a952230319ddc0782df72da910",
       "relation": "presupposes",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      },
      {
       "paragraph_id": "p22",
+      "paragraph_sha256": "sha256:47aa2b826aeadfe2bf880d6aad31108568540039acaba12c4c4bba963ba17c3f",
       "relation": "presupposes",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      }
     ]
    },
@@ -678,19 +742,28 @@
     "passages": [
      {
       "paragraph_id": "p6",
+      "paragraph_sha256": "sha256:43f8aa4480c4e2e5bd431b81e49826322df699e3c97edc35d9f16fddb1020e30",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "year-to-date imports in 2026 are $146 billion, nearly $100 billion above the 2025 H1 total. In Q2, gold imports were an incredible 1.5 pp of GDP."
+      "source_excerpt": "year-to-date imports in 2026 are $146 billion, nearly $100 billion above the 2025 H1 total. In Q2, gold imports were an incredible 1.5 pp of GDP.",
+      "source_spans": [
+       {
+        "char_start": 54,
+        "char_end": 199
+       }
+      ]
      },
      {
       "paragraph_id": "p9",
+      "paragraph_sha256": "sha256:9f3c015c08628b375023ca60ea840dc0f51b8c88f91f13e09ac88f1fc3c2aaef",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      }
     ]
    },
@@ -750,19 +823,28 @@
     "passages": [
      {
       "paragraph_id": "p9",
+      "paragraph_sha256": "sha256:9f3c015c08628b375023ca60ea840dc0f51b8c88f91f13e09ac88f1fc3c2aaef",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "to my surprise to be honest"
+      "source_excerpt": "to my surprise to be honest",
+      "source_spans": [
+       {
+        "char_start": 78,
+        "char_end": 105
+       }
+      ]
      },
      {
       "paragraph_id": "p25",
+      "paragraph_sha256": "sha256:ac050350edb834602df7198a7e54a978a211507a70eb500019528cf6426fd922",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      }
     ]
    },
@@ -811,27 +893,38 @@
     "passages": [
      {
       "paragraph_id": "p7",
+      "paragraph_sha256": "sha256:f42e56c3d11ffac54fa72d317fcc67f72edd41a952230319ddc0782df72da910",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "Without that import surge, the overall goods trade surplus would be up by over $80 billion in the first half of 2026."
+      "source_excerpt": "Without that import surge, the overall goods trade surplus would be up by over $80 billion in the first half of 2026.",
+      "source_spans": [
+       {
+        "char_start": 0,
+        "char_end": 117
+       }
+      ]
      },
      {
       "paragraph_id": "p16",
+      "paragraph_sha256": "sha256:b1b8e9e28415217d4e65dbda40298a6cad648324b8df564b606dfee3cc3d15e9",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      },
      {
       "paragraph_id": "p22",
+      "paragraph_sha256": "sha256:47aa2b826aeadfe2bf880d6aad31108568540039acaba12c4c4bba963ba17c3f",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      }
     ]
    },
@@ -889,35 +982,48 @@
     "passages": [
      {
       "paragraph_id": "p12",
+      "paragraph_sha256": "sha256:68601af694a30ebb8e0161db56ceafd8f3cfcebe01b2c67972ab379caf31e91a",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      },
      {
       "paragraph_id": "p13",
+      "paragraph_sha256": "sha256:f44b678c3a4ce3f610c6c00f7961d26ce7431e75119fc6552da178d675f29bbc",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "Exports are up. This shouldn’t be a surprise: auto exports are absolutely booming, and imports are still flat."
+      "source_excerpt": "Exports are up. This shouldn’t be a surprise: auto exports are absolutely booming, and imports are still flat.",
+      "source_spans": [
+       {
+        "char_start": 0,
+        "char_end": 110
+       }
+      ]
      },
      {
       "paragraph_id": "p21",
+      "paragraph_sha256": "sha256:3483b04e6a562d4572edcc25cd850e6212d046a07f34df2697e731443961d3d9",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      },
      {
       "paragraph_id": "p27",
+      "paragraph_sha256": "sha256:a74103d147774fa87cccfe88878915da66f3cf85098619c2142753ec3f22a83f",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      }
     ]
    },
@@ -977,19 +1083,28 @@
     "passages": [
      {
       "paragraph_id": "p12",
+      "paragraph_sha256": "sha256:68601af694a30ebb8e0161db56ceafd8f3cfcebe01b2c67972ab379caf31e91a",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "refined gold is classified as a manufacture, the commodity is gold rich ores"
+      "source_excerpt": "refined gold is classified as a manufacture, the commodity is gold rich ores",
+      "source_spans": [
+       {
+        "char_start": 108,
+        "char_end": 184
+       }
+      ]
      },
      {
       "paragraph_id": "p26",
+      "paragraph_sha256": "sha256:141e2d7a8a5a5923a8ed74171fc88661470587a3302302f2e24a3d0ff02949bf",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      }
     ]
    },
@@ -1044,27 +1159,38 @@
     "passages": [
      {
       "paragraph_id": "p18",
+      "paragraph_sha256": "sha256:1ba82a9757a3e89d4f9f7282399359ea313c1cb54ef2a6ca28ab9ed8d48ea2c8",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "China’s statistical authorities were slow to recognize the “chip” shock"
+      "source_excerpt": "China’s statistical authorities were slow to recognize the “chip” shock",
+      "source_spans": [
+       {
+        "char_start": 111,
+        "char_end": 182
+       }
+      ]
      },
      {
       "paragraph_id": "p19",
+      "paragraph_sha256": "sha256:ea711809666463b3dd9f7d4121c67947d713b88967ecb80eafa2fd8ff22dc370",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      },
      {
       "paragraph_id": "p20",
+      "paragraph_sha256": "sha256:3da2e4322670dea54bf7063b6504baa52d70c8b3f047946743530dddc890653d",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      }
     ]
    },
@@ -1126,35 +1252,48 @@
     "passages": [
      {
       "paragraph_id": "p11",
+      "paragraph_sha256": "sha256:a7ac22ed61abf2dffed1a7274eb0ab3f7c94bd31a440997ac73b4e12e5bf2181",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "The underlying Chinese surplus is still heading up, just as the underlying U.S. deficit is now expanding"
+      "source_excerpt": "The underlying Chinese surplus is still heading up, just as the underlying U.S. deficit is now expanding",
+      "source_spans": [
+       {
+        "char_start": 0,
+        "char_end": 104
+       }
+      ]
      },
      {
       "paragraph_id": "p21",
+      "paragraph_sha256": "sha256:3483b04e6a562d4572edcc25cd850e6212d046a07f34df2697e731443961d3d9",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      },
      {
       "paragraph_id": "p23",
+      "paragraph_sha256": "sha256:25c6414824e7aa915a4c5e9f81d1c7c16c471c87869d724575e6b9ffda6584da",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      },
      {
       "paragraph_id": "p27",
+      "paragraph_sha256": "sha256:a74103d147774fa87cccfe88878915da66f3cf85098619c2142753ec3f22a83f",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      }
     ]
    },
@@ -1212,11 +1351,18 @@
     "passages": [
      {
       "paragraph_id": "p11",
+      "paragraph_sha256": "sha256:a7ac22ed61abf2dffed1a7274eb0ab3f7c94bd31a440997ac73b4e12e5bf2181",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "the underlying U.S. deficit is now expanding (because of “AI”/ data center investment and a big fiscal deficit)"
+      "source_excerpt": "the underlying U.S. deficit is now expanding (because of “AI”/ data center investment and a big fiscal deficit)",
+      "source_spans": [
+       {
+        "char_start": 60,
+        "char_end": 171
+       }
+      ]
      }
     ]
    },
@@ -1283,11 +1429,18 @@
     "passages": [
      {
       "paragraph_id": "p26",
+      "paragraph_sha256": "sha256:141e2d7a8a5a5923a8ed74171fc88661470587a3302302f2e24a3d0ff02949bf",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "The 2025 U.S. trade data also needs to be gold-adjusted, by the way."
+      "source_excerpt": "The 2025 U.S. trade data also needs to be gold-adjusted, by the way.",
+      "source_spans": [
+       {
+        "char_start": 4,
+        "char_end": 72
+       }
+      ]
      }
     ]
    },
@@ -1353,27 +1506,38 @@
     "passages": [
      {
       "paragraph_id": "p8",
+      "paragraph_sha256": "sha256:e6f746b909f8afe680610d0ff1ee49c6fc2a876e0de072dd4efa7eb1097e6572",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "Yes, there are changes in the commodity balance and the manufacturing balance too."
+      "source_excerpt": "Yes, there are changes in the commodity balance and the manufacturing balance too.",
+      "source_spans": [
+       {
+        "char_start": 0,
+        "char_end": 82
+       }
+      ]
      },
      {
       "paragraph_id": "p14",
+      "paragraph_sha256": "sha256:312993b82226d220b936a86d7d95354bd8656fb0607afd9e6ca486979f20b8e6",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      },
      {
       "paragraph_id": "p21",
+      "paragraph_sha256": "sha256:3483b04e6a562d4572edcc25cd850e6212d046a07f34df2697e731443961d3d9",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      }
     ]
    },
@@ -1427,19 +1591,28 @@
     "passages": [
      {
       "paragraph_id": "p23",
+      "paragraph_sha256": "sha256:25c6414824e7aa915a4c5e9f81d1c7c16c471c87869d724575e6b9ffda6584da",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      },
      {
       "paragraph_id": "p27",
+      "paragraph_sha256": "sha256:a74103d147774fa87cccfe88878915da66f3cf85098619c2142753ec3f22a83f",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "Too many China analysts are trying to obscure what should be obvious"
+      "source_excerpt": "Too many China analysts are trying to obscure what should be obvious",
+      "source_spans": [
+       {
+        "char_start": 206,
+        "char_end": 274
+       }
+      ]
      }
     ]
    },

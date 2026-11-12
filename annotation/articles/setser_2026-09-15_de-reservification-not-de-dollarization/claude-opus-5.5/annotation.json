@@ -318,27 +318,38 @@
     "passages": [
      {
       "paragraph_id": "p2",
+      "paragraph_sha256": "sha256:19114db6b4aa39af2411b2d402e5541ebd34103b8bd0ba90154c0fb1d9294317",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "The IMF’s data on the currency composition of foreign exchange (FX) reserves is scrutinized carefully for any signs that the world is shifting way from the dollar."
+      "source_excerpt": "The IMF’s data on the currency composition of foreign exchange (FX) reserves is scrutinized carefully for any signs that the world is shifting way from the dollar.",
+      "source_spans": [
+       {
+        "char_start": 0,
+        "char_end": 163
+       }
+      ]
      },
      {
       "paragraph_id": "p3",
+      "paragraph_sha256": "sha256:e7ca5ee4621b231d16904ecc40266fc0df4e544168a2d98feeefa728b6f07589",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      },
      {
       "paragraph_id": "p5",
+      "paragraph_sha256": "sha256:5c8afb585b292c5b5ee0a6fbb69565f6b96572bc9b765523c8556b948accb90a",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      }
     ]
    },
@@ -387,27 +398,38 @@
     "passages": [
      {
       "paragraph_id": "p2",
+      "paragraph_sha256": "sha256:19114db6b4aa39af2411b2d402e5541ebd34103b8bd0ba90154c0fb1d9294317",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      },
      {
       "paragraph_id": "p3",
+      "paragraph_sha256": "sha256:e7ca5ee4621b231d16904ecc40266fc0df4e544168a2d98feeefa728b6f07589",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "Yet it doesn’t really matter that much if the dollar’s share of reserves has shifted from 56.5 percent to 57 percent. The ink-to-impact ratio of the quarterly reporting on the latest COFER data is all off."
+      "source_excerpt": "Yet it doesn’t really matter that much if the dollar’s share of reserves has shifted from 56.5 percent to 57 percent. The ink-to-impact ratio of the quarterly reporting on the latest COFER data is all off.",
+      "source_spans": [
+       {
+        "char_start": 0,
+        "char_end": 205
+       }
+      ]
      },
      {
       "paragraph_id": "p41",
+      "paragraph_sha256": "sha256:deeaafd1558a1b57b5fb552c61a47ecd1f885dedd47b3b090e811614766009c9",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      }
     ]
    },
@@ -464,27 +486,38 @@
     "passages": [
      {
       "paragraph_id": "p4",
+      "paragraph_sha256": "sha256:8c71ca8d9583e4cabb2be75b213ce2301a86492dfe612beb5bd4e57ac1a60616",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "Neither the stock of global reserves nor the stock of dollar reserves has changed much in the last ten years."
+      "source_excerpt": "Neither the stock of global reserves nor the stock of dollar reserves has changed much in the last ten years.",
+      "source_spans": [
+       {
+        "char_start": 0,
+        "char_end": 109
+       }
+      ]
      },
      {
       "paragraph_id": "p25",
+      "paragraph_sha256": "sha256:9f55bda4d1b38456df198abd0c637d726f03fc608153a5b3e53cb5d55379da34",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      },
      {
       "paragraph_id": "p30",
+      "paragraph_sha256": "sha256:37c8fb4cfcaca751e000bfc03e4fb74b3cab597f79d20c16bb0c546793f07927",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      }
     ]
    },
@@ -539,43 +572,53 @@
     "passages": [
      {
       "paragraph_id": "p7",
+      "paragraph_sha256": "sha256:ba21287981a87a2615b811febbeaa5cac0568ee7e8ef1daadcb315f94acbb147",
       "relation": "presupposes",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      },
      {
       "paragraph_id": "p9",
+      "paragraph_sha256": "sha256:305b6fdb5cbd26b6d508ed083144266e6aa5ad7fc90471d21e52403d0b041a90",
       "relation": "presupposes",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      },
      {
       "paragraph_id": "p13",
+      "paragraph_sha256": "sha256:b7fed9ddfa57deb4c9b3af740a002db47a6845cd9bc1db939e7d3a5bbe9e6594",
       "relation": "presupposes",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      },
      {
       "paragraph_id": "p32",
+      "paragraph_sha256": "sha256:4c8db33b81c80043c63fa733fcca3536019b3cd7f5990ffc54166b4a81e67612",
       "relation": "presupposes",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      },
      {
       "paragraph_id": "p33",
+      "paragraph_sha256": "sha256:8091ad5fc95d496ce4e844fe6f96f14bf4bff98247c27bc25f3007e625fe717b",
       "relation": "presupposes",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      }
     ]
    },
@@ -624,51 +667,68 @@
     "passages": [
      {
       "paragraph_id": "p6",
+      "paragraph_sha256": "sha256:c9b54097bd7b31d2e76c0b6c7f39cb8e78f8e517e6305667d59aaa653d604634",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "China’s state banks (per the Bank of International Settlements) have almost as many foreign assets as the central bank (PBOC)."
+      "source_excerpt": "China’s state banks (per the Bank of International Settlements) have almost as many foreign assets as the central bank (PBOC).",
+      "source_spans": [
+       {
+        "char_start": 0,
+        "char_end": 126
+       }
+      ]
      },
      {
       "paragraph_id": "p7",
+      "paragraph_sha256": "sha256:ba21287981a87a2615b811febbeaa5cac0568ee7e8ef1daadcb315f94acbb147",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      },
      {
       "paragraph_id": "p8",
+      "paragraph_sha256": "sha256:a4fbf59c461a6c4e1e0acc4bdbc198bf4dcdb9670c8964d1ab6d8df40be4d87b",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      },
      {
       "paragraph_id": "p9",
+      "paragraph_sha256": "sha256:305b6fdb5cbd26b6d508ed083144266e6aa5ad7fc90471d21e52403d0b041a90",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      },
      {
       "paragraph_id": "p11",
+      "paragraph_sha256": "sha256:0e0c09fc2367ce101917ca0f44b4a9256514b564e1c7a2e03cfcd62da322a8a7",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      },
      {
       "paragraph_id": "p36",
+      "paragraph_sha256": "sha256:f5ad8fb40da4a0f74a8693f65e4994b2ff4c5d7a8c22a724d64c12c37caeec9d",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      }
     ]
    },
@@ -727,11 +787,18 @@
     "passages": [
      {
       "paragraph_id": "p11",
+      "paragraph_sha256": "sha256:0e0c09fc2367ce101917ca0f44b4a9256514b564e1c7a2e03cfcd62da322a8a7",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "Asia’s big surplus economies are in a sense just catching up with the world’s oil exporters. Norway put its oil surplus into a sovereign wealth fund from the start."
+      "source_excerpt": "Asia’s big surplus economies are in a sense just catching up with the world’s oil exporters. Norway put its oil surplus into a sovereign wealth fund from the start.",
+      "source_spans": [
+       {
+        "char_start": 0,
+        "char_end": 164
+       }
+      ]
      }
     ]
    },
@@ -787,27 +854,38 @@
     "passages": [
      {
       "paragraph_id": "p9",
+      "paragraph_sha256": "sha256:305b6fdb5cbd26b6d508ed083144266e6aa5ad7fc90471d21e52403d0b041a90",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "So too does the PBOC’s use of the “macroprudential adjustment factor” effectively adjust banks’ net foreign assets in much the same way that CBC regulations adjust lifer hedge ratios."
+      "source_excerpt": "So too does the PBOC’s use of the “macroprudential adjustment factor” effectively adjust banks’ net foreign assets in much the same way that CBC regulations adjust lifer hedge ratios.",
+      "source_spans": [
+       {
+        "char_start": 421,
+        "char_end": 604
+       }
+      ]
      },
      {
       "paragraph_id": "p10",
+      "paragraph_sha256": "sha256:412107837649f6c6e3592f935c7a2f4d0ddb146612eb77da41ac0a1cbf4a82c2",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      },
      {
       "paragraph_id": "p33",
+      "paragraph_sha256": "sha256:8091ad5fc95d496ce4e844fe6f96f14bf4bff98247c27bc25f3007e625fe717b",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      }
     ]
    },
@@ -869,35 +947,48 @@
     "passages": [
      {
       "paragraph_id": "p15",
+      "paragraph_sha256": "sha256:dac883f82cc850daae68eeb249a19767d7015dd0ade4783c2be6a1992d619694",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      },
      {
       "paragraph_id": "p16",
+      "paragraph_sha256": "sha256:4e986664522b43d84e0f4533a98636efe66383bdaa16f35228c3c446d6a6f728",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "China reports $3.3 trillion in gross foreign assets to the BIS"
+      "source_excerpt": "China reports $3.3 trillion in gross foreign assets to the BIS",
+      "source_spans": [
+       {
+        "char_start": 0,
+        "char_end": 62
+       }
+      ]
      },
      {
       "paragraph_id": "p17",
+      "paragraph_sha256": "sha256:6eef26d231188873d3c62286eae6139a3961afbae1a0d4698cf96114a198e1be",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      },
      {
       "paragraph_id": "p18",
+      "paragraph_sha256": "sha256:362a24d5dfa59188f296babef0be45903d0bbc348941a4561b5e8285e5883da7",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      }
     ]
    },
@@ -957,35 +1048,48 @@
     "passages": [
      {
       "paragraph_id": "p16",
+      "paragraph_sha256": "sha256:4e986664522b43d84e0f4533a98636efe66383bdaa16f35228c3c446d6a6f728",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      },
      {
       "paragraph_id": "p18",
+      "paragraph_sha256": "sha256:362a24d5dfa59188f296babef0be45903d0bbc348941a4561b5e8285e5883da7",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      },
      {
       "paragraph_id": "p19",
+      "paragraph_sha256": "sha256:aab74205c2199db7e92867077a06aa1da93e2aaa0e576449dcc29a1c6ad1af4f",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "But the work of AidData points to nearly $1 trillion in foreign assets, with a hefty dollar share."
+      "source_excerpt": "But the work of AidData points to nearly $1 trillion in foreign assets, with a hefty dollar share.",
+      "source_spans": [
+       {
+        "char_start": 246,
+        "char_end": 344
+       }
+      ]
      },
      {
       "paragraph_id": "p21",
+      "paragraph_sha256": "sha256:fdce0e5f71dd0b59149ea2d3a419917a4fdba025ddb0cbed3698f3ed10067f23",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      }
     ]
    },
@@ -1045,11 +1149,18 @@
     "passages": [
      {
       "paragraph_id": "p19",
+      "paragraph_sha256": "sha256:aab74205c2199db7e92867077a06aa1da93e2aaa0e576449dcc29a1c6ad1af4f",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "with at this stage the complicity of the IMF, which has neither analyzed the role of SAFE policy bank financing, nor highlighted the glaring gap in China’s own reporting"
+      "source_excerpt": "with at this stage the complicity of the IMF, which has neither analyzed the role of SAFE policy bank financing, nor highlighted the glaring gap in China’s own reporting",
+      "source_spans": [
+       {
+        "char_start": 74,
+        "char_end": 243
+       }
+      ]
      }
     ]
    },
@@ -1104,59 +1215,78 @@
     "passages": [
      {
       "paragraph_id": "p12",
+      "paragraph_sha256": "sha256:0113a42ef9e60afda37ff04d7cebe7c68eef219bb5a54226cb198befd8239f86",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      },
      {
       "paragraph_id": "p21",
+      "paragraph_sha256": "sha256:fdce0e5f71dd0b59149ea2d3a419917a4fdba025ddb0cbed3698f3ed10067f23",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "SAFE’s disclosure—which covers the commercial banks—puts the dollar share of their offshore foreign currency assets at around 70 percent. That is well above the last disclosed dollar share of China’s formal reserves (55 percent in 2019)."
+      "source_excerpt": "SAFE’s disclosure—which covers the commercial banks—puts the dollar share of their offshore foreign currency assets at around 70 percent. That is well above the last disclosed dollar share of China’s formal reserves (55 percent in 2019).",
+      "source_spans": [
+       {
+        "char_start": 0,
+        "char_end": 237
+       }
+      ]
      },
      {
       "paragraph_id": "p27",
+      "paragraph_sha256": "sha256:5a7ab4239f9fe37d0766b0d6938e2bd9bdbf0c68cac9fd8eb5ba95af57753b69",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      },
      {
       "paragraph_id": "p28",
+      "paragraph_sha256": "sha256:eca0944b3d139165422852719fd0575483b6da9f6c23268fd23f04eb13bb6ed5",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      },
      {
       "paragraph_id": "p31",
+      "paragraph_sha256": "sha256:a57d28a2677e464fa53f89faa3edbcece690cf2c4ec6f7c41d60f27cfe138ffc",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      },
      {
       "paragraph_id": "p33",
+      "paragraph_sha256": "sha256:8091ad5fc95d496ce4e844fe6f96f14bf4bff98247c27bc25f3007e625fe717b",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      },
      {
       "paragraph_id": "p35",
+      "paragraph_sha256": "sha256:8e81fd2f4e43b4e233490d1660febfd8009bf17bbbfaa8b5c70571443b405357",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      }
     ]
    },
@@ -1216,27 +1346,38 @@
     "passages": [
      {
       "paragraph_id": "p22",
+      "paragraph_sha256": "sha256:9699c95c159de6846b07a9edc4e837cca10dc6a3646768dcee177e5ea2584606",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "Put simply, SAFE’s static dollar holdings aren’t the important story."
+      "source_excerpt": "Put simply, SAFE’s static dollar holdings aren’t the important story.",
+      "source_spans": [
+       {
+        "char_start": 0,
+        "char_end": 69
+       }
+      ]
      },
      {
       "paragraph_id": "p23",
+      "paragraph_sha256": "sha256:42bf8179fcf4680f42d5fd8ac24f30cc59148e53f5bffdb82aee8f98b8b1bc72",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      },
      {
       "paragraph_id": "p38",
+      "paragraph_sha256": "sha256:f523739703b83bd4d6656a5f4875ff330a0133aa5fb91bc9f4960e78049cefa1",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      }
     ]
    },
@@ -1291,19 +1432,28 @@
     "passages": [
      {
       "paragraph_id": "p26",
+      "paragraph_sha256": "sha256:f98357e0ce9efe30b93fc975b7c48ceae4ce1328d5557c8769e75c270e914d89",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "What has grown is the foreign portfolio of the GPIF. it was around $400 billion in 2014, ~$1 trillion in Q1 of 2026."
+      "source_excerpt": "What has grown is the foreign portfolio of the GPIF. it was around $400 billion in 2014, ~$1 trillion in Q1 of 2026.",
+      "source_spans": [
+       {
+        "char_start": 0,
+        "char_end": 116
+       }
+      ]
      },
      {
       "paragraph_id": "p31",
+      "paragraph_sha256": "sha256:a57d28a2677e464fa53f89faa3edbcece690cf2c4ec6f7c41d60f27cfe138ffc",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      }
     ]
    },
@@ -1368,19 +1518,32 @@
     "passages": [
      {
       "paragraph_id": "p29",
+      "paragraph_sha256": "sha256:bf0806f26ce373bd2f010005a85aeae6ab75b1adb2c133baf18f76c9c37cec17",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      },
      {
       "paragraph_id": "p32",
+      "paragraph_sha256": "sha256:4c8db33b81c80043c63fa733fcca3536019b3cd7f5990ffc54166b4a81e67612",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "the majority of the dollar assets held by Korea’s government ... aren’t held by the central bank and aren’t in the IMF’s COFER data set."
+      "source_excerpt": "the majority of the dollar assets held by Korea’s government ... aren’t held by the central bank and aren’t in the IMF’s COFER data set.",
+      "source_spans": [
+       {
+        "char_start": 16,
+        "char_end": 76
+       },
+       {
+        "char_start": 199,
+        "char_end": 270
+       }
+      ]
      }
     ]
    },
@@ -1437,19 +1600,28 @@
     "passages": [
      {
       "paragraph_id": "p13",
+      "paragraph_sha256": "sha256:b7fed9ddfa57deb4c9b3af740a002db47a6845cd9bc1db939e7d3a5bbe9e6594",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "by looking at the (easily available) data on the world’s static holdings of formal FX reserve assets, scholars and analysts miss most of the growth in the world’s sovereign and quasi-sovereign foreign assets."
+      "source_excerpt": "by looking at the (easily available) data on the world’s static holdings of formal FX reserve assets, scholars and analysts miss most of the growth in the world’s sovereign and quasi-sovereign foreign assets.",
+      "source_spans": [
+       {
+        "char_start": 16,
+        "char_end": 224
+       }
+      ]
      },
      {
       "paragraph_id": "p37",
+      "paragraph_sha256": "sha256:5b373f6a5f72bb6c62fbcc7dd5e84cbe035a474e586a72c6b69ce19963dd90c1",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      }
     ]
    },
@@ -1500,35 +1672,48 @@
     "passages": [
      {
       "paragraph_id": "p12",
+      "paragraph_sha256": "sha256:0113a42ef9e60afda37ff04d7cebe7c68eef219bb5a54226cb198befd8239f86",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      },
      {
       "paragraph_id": "p27",
+      "paragraph_sha256": "sha256:5a7ab4239f9fe37d0766b0d6938e2bd9bdbf0c68cac9fd8eb5ba95af57753b69",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      },
      {
       "paragraph_id": "p33",
+      "paragraph_sha256": "sha256:8091ad5fc95d496ce4e844fe6f96f14bf4bff98247c27bc25f3007e625fe717b",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      },
      {
       "paragraph_id": "p51",
+      "paragraph_sha256": "sha256:9fa4654a05c3ec602d9a8baf3ce1a3e9ca84d6255523e5af01789f4cb53f96c4",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "Japan is the main exception; the GPIF’s dollar share is below the likely dollar share of Japan’s MoF."
+      "source_excerpt": "Japan is the main exception; the GPIF’s dollar share is below the likely dollar share of Japan’s MoF.",
+      "source_spans": [
+       {
+        "char_start": 4,
+        "char_end": 105
+       }
+      ]
      }
     ]
    },
@@ -1588,11 +1773,18 @@
     "passages": [
      {
       "paragraph_id": "p42",
+      "paragraph_sha256": "sha256:dc8c8cb6e335fb323532b796249d59c81e2276869f1606c1b983e82ad0caacef",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "FX reserve managers are themselves ultimately liability matchers"
+      "source_excerpt": "FX reserve managers are themselves ultimately liability matchers",
+      "source_spans": [
+       {
+        "char_start": 187,
+        "char_end": 251
+       }
+      ]
      }
     ]
    },
@@ -1641,19 +1833,28 @@
     "passages": [
      {
       "paragraph_id": "p39",
+      "paragraph_sha256": "sha256:0ffa44582b55b13cc240c4011385acea6782820672f886a3c249b31f821bc563",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "Adam Tooze has noted that inflows into the U.S. are now coming from investors looking for a profit, not investors looking for safety."
+      "source_excerpt": "Adam Tooze has noted that inflows into the U.S. are now coming from investors looking for a profit, not investors looking for safety.",
+      "source_spans": [
+       {
+        "char_start": 0,
+        "char_end": 133
+       }
+      ]
      },
      {
       "paragraph_id": "p40",
+      "paragraph_sha256": "sha256:b65d51118cbb5a1a269a39dc384b0adc52fdd8946bf3f7c95b4d88ef49ee5e29",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      }
     ]
    },
@@ -1708,51 +1909,68 @@
     "passages": [
      {
       "paragraph_id": "p37",
+      "paragraph_sha256": "sha256:5b373f6a5f72bb6c62fbcc7dd5e84cbe035a474e586a72c6b69ce19963dd90c1",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      },
      {
       "paragraph_id": "p41",
+      "paragraph_sha256": "sha256:deeaafd1558a1b57b5fb552c61a47ecd1f885dedd47b3b090e811614766009c9",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "Do recognize that the dollar’s “reserve currency role” isn’t the source of any significant new inflows into the dollar."
+      "source_excerpt": "Do recognize that the dollar’s “reserve currency role” isn’t the source of any significant new inflows into the dollar.",
+      "source_spans": [
+       {
+        "char_start": 64,
+        "char_end": 183
+       }
+      ]
      },
      {
       "paragraph_id": "p42",
+      "paragraph_sha256": "sha256:dc8c8cb6e335fb323532b796249d59c81e2276869f1606c1b983e82ad0caacef",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      },
      {
       "paragraph_id": "p43",
+      "paragraph_sha256": "sha256:ba1cfee7c9174ec501eeaa9a5a6fe3ed82250f3973028709ed908adaac227226",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      },
      {
       "paragraph_id": "p44",
+      "paragraph_sha256": "sha256:d84dd4ed1dac5f8b846791e4d68ff9cb05b660eac34f6c80cf6f28db087c8469",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      },
      {
       "paragraph_id": "p46",
+      "paragraph_sha256": "sha256:fd85623142a6e225c25d701e496af76d35600d126c59947911094b5843b6de76",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      }
     ]
    },
@@ -1808,19 +2026,28 @@
     "passages": [
      {
       "paragraph_id": "p41",
+      "paragraph_sha256": "sha256:deeaafd1558a1b57b5fb552c61a47ecd1f885dedd47b3b090e811614766009c9",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "So don’t obsess about the dollar’s chare in formal FX reserves."
+      "source_excerpt": "So don’t obsess about the dollar’s chare in formal FX reserves.",
+      "source_spans": [
+       {
+        "char_start": 0,
+        "char_end": 63
+       }
+      ]
      },
      {
       "paragraph_id": "p48",
+      "paragraph_sha256": "sha256:f8a9d7a3439ad66fd7bd417b87991ecdd254eed60cbe8e48dca153036a0cdf5b",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      }
     ]
    },
@@ -1883,19 +2110,28 @@
     "passages": [
      {
       "paragraph_id": "p47",
+      "paragraph_sha256": "sha256:2c30de7f9945386abaf41569e8c1a750d25adbdf0c06e6e132ccc40760dc1acb",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "the shift in the global investor base, and their apparent portfolio preference for U.S. risk assets in lieu of Treasuries, may help explain the divergence between the convenience yield on UST and the convenience yield on USD."
+      "source_excerpt": "the shift in the global investor base, and their apparent portfolio preference for U.S. risk assets in lieu of Treasuries, may help explain the divergence between the convenience yield on UST and the convenience yield on USD.",
+      "source_spans": [
+       {
+        "char_start": 180,
+        "char_end": 405
+       }
+      ]
      },
      {
       "paragraph_id": "p48",
+      "paragraph_sha256": "sha256:f8a9d7a3439ad66fd7bd417b87991ecdd254eed60cbe8e48dca153036a0cdf5b",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      }
     ]
    },
@@ -1962,19 +2198,28 @@
     "passages": [
      {
       "paragraph_id": "p44",
+      "paragraph_sha256": "sha256:d84dd4ed1dac5f8b846791e4d68ff9cb05b660eac34f6c80cf6f28db087c8469",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "Those flows remain heavily tilted toward the dollar, at least for now."
+      "source_excerpt": "Those flows remain heavily tilted toward the dollar, at least for now.",
+      "source_spans": [
+       {
+        "char_start": 0,
+        "char_end": 70
+       }
+      ]
      },
      {
       "paragraph_id": "p45",
+      "paragraph_sha256": "sha256:0a70a7a0fd27749fc756c4b980541e2eb3c2c6c365238806e0fec2d1e887e68f",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      }
     ]
    },

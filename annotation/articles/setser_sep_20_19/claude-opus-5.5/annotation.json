@@ -610,27 +610,33 @@
     "passages": [
      {
       "paragraph_id": "p1",
+      "paragraph_sha256": "sha256:09a16632668498d689382c65032a30e1a47e04e16ced97f1998e64dd14b9a988",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      },
      {
       "paragraph_id": "p3",
+      "paragraph_sha256": "sha256:a4454cbdd032da95424d251e24b0267bf6326fe0227c86342023bcc59049dddd",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      },
      {
       "paragraph_id": "p9",
+      "paragraph_sha256": "sha256:ca61b0996c17e7569573b97086b4eb7702b328b70ee32caf0cd97b71c448eaaa",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      }
     ]
    },
@@ -679,43 +685,58 @@
     "passages": [
      {
       "paragraph_id": "p1",
+      "paragraph_sha256": "sha256:09a16632668498d689382c65032a30e1a47e04e16ced97f1998e64dd14b9a988",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      },
      {
       "paragraph_id": "p2",
+      "paragraph_sha256": "sha256:f8198c15fd56e897622d0ac877611ad1f22ff52794df6656702d1a05afd25c33",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      },
      {
       "paragraph_id": "p3",
+      "paragraph_sha256": "sha256:a4454cbdd032da95424d251e24b0267bf6326fe0227c86342023bcc59049dddd",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "trade imbalances run mostly along an east-west axis these days."
+      "source_excerpt": "trade imbalances run mostly along an east-west axis these days.",
+      "source_spans": [
+       {
+        "char_start": 13,
+        "char_end": 76
+       }
+      ]
      },
      {
       "paragraph_id": "p4",
+      "paragraph_sha256": "sha256:117191c410076810acbd34002962fb726740d25a0103cdc08a4bb626c8213aee",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      },
      {
       "paragraph_id": "p5",
+      "paragraph_sha256": "sha256:ab3bf3a24c947634648640c3593fb2c8cc8d456b31e0e9a792892a5b3553a8e1",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      }
     ]
    },
@@ -769,11 +790,18 @@
     "passages": [
      {
       "paragraph_id": "p9",
+      "paragraph_sha256": "sha256:ca61b0996c17e7569573b97086b4eb7702b328b70ee32caf0cd97b71c448eaaa",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "If China, the euro area, and Japan all have significant surpluses, someone big needs to have a significant deficit for global trade to add up."
+      "source_excerpt": "If China, the euro area, and Japan all have significant surpluses, someone big needs to have a significant deficit for global trade to add up.",
+      "source_spans": [
+       {
+        "char_start": 210,
+        "char_end": 352
+       }
+      ]
      }
     ]
    },
@@ -822,35 +850,48 @@
     "passages": [
      {
       "paragraph_id": "p6",
+      "paragraph_sha256": "sha256:d4bcedda19ea34f39aa3e236a450b6727db274b903ef3ececa279a3b1f1c9985",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "the U.S. trade deficit in manufactures right now just happens to be about equal to the combined current account surpluses of Europe and East Asia."
+      "source_excerpt": "the U.S. trade deficit in manufactures right now just happens to be about equal to the combined current account surpluses of Europe and East Asia.",
+      "source_spans": [
+       {
+        "char_start": 92,
+        "char_end": 238
+       }
+      ]
      },
      {
       "paragraph_id": "p7",
+      "paragraph_sha256": "sha256:d313bc9686fef61052490a4865a4ddb1d17e6957b2704c8f1827b769be346796",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      },
      {
       "paragraph_id": "p8",
+      "paragraph_sha256": "sha256:42ff1d12b3187c01488adbecf7fefbfd5a3bf6971eccd084763f034a07ea2a82",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      },
      {
       "paragraph_id": "p9",
+      "paragraph_sha256": "sha256:ca61b0996c17e7569573b97086b4eb7702b328b70ee32caf0cd97b71c448eaaa",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      }
     ]
    },
@@ -915,19 +956,28 @@
     "passages": [
      {
       "paragraph_id": "p8",
+      "paragraph_sha256": "sha256:42ff1d12b3187c01488adbecf7fefbfd5a3bf6971eccd084763f034a07ea2a82",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "the entire surplus on foreign direct investment income comes from the seven main low tax jurisdictions these days, see Martin Wolf"
+      "source_excerpt": "the entire surplus on foreign direct investment income comes from the seven main low tax jurisdictions these days, see Martin Wolf",
+      "source_spans": [
+       {
+        "char_start": 253,
+        "char_end": 383
+       }
+      ]
      },
      {
       "paragraph_id": "p38",
+      "paragraph_sha256": "sha256:fb008bf12a44edb9bb68b2197191698cdadbf8dff43922759976506cf0def9e8",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      }
     ]
    },
@@ -984,35 +1034,48 @@
     "passages": [
      {
       "paragraph_id": "p10",
+      "paragraph_sha256": "sha256:89a8a40f5af2f8734fc2a47ac3e1da0efae86716c6a2846167299e9e24a7cac0",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      },
      {
       "paragraph_id": "p11",
+      "paragraph_sha256": "sha256:22953ed8e031a1d9858a45bd3f1e643c6f5d0a076b4a20fd5794c68733a37fbc",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      },
      {
       "paragraph_id": "p12",
+      "paragraph_sha256": "sha256:e38052fdf61158ea9250d6d6b675c9279c54f3d403e55101f76e7930d871e937",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      },
      {
       "paragraph_id": "p13",
+      "paragraph_sha256": "sha256:907b9da1fd58ed61682a281569b062faaab5b56ec60eed28901e2b6c73ea9a46",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "It doesn’t take a genius to figure out that the gap between European fiscal policy and U.S. fiscal policy is a major cause of the transatlantic imbalances"
+      "source_excerpt": "It doesn’t take a genius to figure out that the gap between European fiscal policy and U.S. fiscal policy is a major cause of the transatlantic imbalances",
+      "source_spans": [
+       {
+        "char_start": 0,
+        "char_end": 154
+       }
+      ]
      }
     ]
    },
@@ -1080,11 +1143,18 @@
     "passages": [
      {
       "paragraph_id": "p13",
+      "paragraph_sha256": "sha256:907b9da1fd58ed61682a281569b062faaab5b56ec60eed28901e2b6c73ea9a46",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "he doesn’t attribute trade outcomes to fiscal policy choices"
+      "source_excerpt": "he doesn’t attribute trade outcomes to fiscal policy choices",
+      "source_spans": [
+       {
+        "char_start": 237,
+        "char_end": 297
+       }
+      ]
      }
     ]
    },
@@ -1144,11 +1214,18 @@
     "passages": [
      {
       "paragraph_id": "p12",
+      "paragraph_sha256": "sha256:e38052fdf61158ea9250d6d6b675c9279c54f3d403e55101f76e7930d871e937",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "With demand in short supply globally, negative interest rates in Europe and Japan, and real interest rates globally at very low levels, I would put more emphasis on the European side"
+      "source_excerpt": "With demand in short supply globally, negative interest rates in Europe and Japan, and real interest rates globally at very low levels, I would put more emphasis on the European side",
+      "source_spans": [
+       {
+        "char_start": 0,
+        "char_end": 182
+       }
+      ]
      }
     ]
    },
@@ -1203,19 +1280,28 @@
     "passages": [
      {
       "paragraph_id": "p14",
+      "paragraph_sha256": "sha256:726c12d32513ae2805b83595802cb21199bd5e9e6edc9b94ae8d3dcd3adf5e17",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "But still Germany ran a (gulp) 2.7 pp of GDP fiscal surplus in the first half of the year."
+      "source_excerpt": "But still Germany ran a (gulp) 2.7 pp of GDP fiscal surplus in the first half of the year.",
+      "source_spans": [
+       {
+        "char_start": 341,
+        "char_end": 431
+       }
+      ]
      },
      {
       "paragraph_id": "p15",
+      "paragraph_sha256": "sha256:f0db5f2587104de806b40013e612890837453f1776fa31c907ad8b1b6f10e023",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      }
     ]
    },
@@ -1277,19 +1363,28 @@
     "passages": [
      {
       "paragraph_id": "p14",
+      "paragraph_sha256": "sha256:726c12d32513ae2805b83595802cb21199bd5e9e6edc9b94ae8d3dcd3adf5e17",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "Maybe European fiscal policy is about to change—Mario Draghi certainly thinks it should."
+      "source_excerpt": "Maybe European fiscal policy is about to change—Mario Draghi certainly thinks it should.",
+      "source_spans": [
+       {
+        "char_start": 0,
+        "char_end": 88
+       }
+      ]
      },
      {
       "paragraph_id": "p15",
+      "paragraph_sha256": "sha256:f0db5f2587104de806b40013e612890837453f1776fa31c907ad8b1b6f10e023",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      }
     ]
    },
@@ -1344,43 +1439,58 @@
     "passages": [
      {
       "paragraph_id": "p17",
+      "paragraph_sha256": "sha256:06e46c49f7132e0403f2dc13a501b8f54d7daa56edcddf97e0a1e760d44d3f74",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      },
      {
       "paragraph_id": "p18",
+      "paragraph_sha256": "sha256:5f298f02280a3d9e2d9bfc2278d9324d288aa4d46107a8e181b1790ffa4369ef",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      },
      {
       "paragraph_id": "p19",
+      "paragraph_sha256": "sha256:0cc3c6a6cdbf19bce2e2269d632890b7c48ef6a115c07d6583ed957cc002a8fd",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "Korea and Taiwan. They both run tight fiscal policies when they don’t need to and also give their manufacturing heavy economies a boost with weak currencies"
+      "source_excerpt": "Korea and Taiwan. They both run tight fiscal policies when they don’t need to and also give their manufacturing heavy economies a boost with weak currencies",
+      "source_spans": [
+       {
+        "char_start": 0,
+        "char_end": 156
+       }
+      ]
      },
      {
       "paragraph_id": "p20",
+      "paragraph_sha256": "sha256:3a507632ae33ec06f6bd04555001bbbdad8da08ed51b6844e4d2eb38a69365c9",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      },
      {
       "paragraph_id": "p21",
+      "paragraph_sha256": "sha256:61c76c4ffc17d3cdbf4ffae2f1d69cf67a76bbb79a1aebb67b3d12a838cae2ff",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      }
     ]
    },
@@ -1440,27 +1550,38 @@
     "passages": [
      {
       "paragraph_id": "p16",
+      "paragraph_sha256": "sha256:aa0baae88ffd279bf850fddcf8af0da442f93b27e811e31d9554e5414cb8e1e8",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      },
      {
       "paragraph_id": "p22",
+      "paragraph_sha256": "sha256:9ebc10d1572fad6a64a46956fcec68da6db54af5e6561631756ed90dad2216f3",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "Their external surpluses don’t fit easily into a global narrative where imbalances stem primarily from differences in national fiscal policy."
+      "source_excerpt": "Their external surpluses don’t fit easily into a global narrative where imbalances stem primarily from differences in national fiscal policy.",
+      "source_spans": [
+       {
+        "char_start": 76,
+        "char_end": 217
+       }
+      ]
      },
      {
       "paragraph_id": "p23",
+      "paragraph_sha256": "sha256:f563ff95f969393f2badb314087d975931957255313e4d9de8672dde79460fba",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      }
     ]
    },
@@ -1520,11 +1641,18 @@
     "passages": [
      {
       "paragraph_id": "p26",
+      "paragraph_sha256": "sha256:eaa1aa291a292f70220125217cb361dc00d588cf28df0e370c10fc806aabadcf",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "Countries with 12 percent of GDP fiscal deficits usually run large external deficits."
+      "source_excerpt": "Countries with 12 percent of GDP fiscal deficits usually run large external deficits.",
+      "source_spans": [
+       {
+        "char_start": 31,
+        "char_end": 116
+       }
+      ]
      }
     ]
    },
@@ -1574,19 +1702,28 @@
     "passages": [
      {
       "paragraph_id": "p25",
+      "paragraph_sha256": "sha256:600843ccbc6aa75a9d35f6e42006945bde5176a55bb7507a0295d5a851356fde",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "Contrary to most forecasts, China is once again running a substantial current account surplus."
+      "source_excerpt": "Contrary to most forecasts, China is once again running a substantial current account surplus.",
+      "source_spans": [
+       {
+        "char_start": 0,
+        "char_end": 94
+       }
+      ]
      },
      {
       "paragraph_id": "p26",
+      "paragraph_sha256": "sha256:eaa1aa291a292f70220125217cb361dc00d588cf28df0e370c10fc806aabadcf",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      }
     ]
    },
@@ -1643,11 +1780,18 @@
     "passages": [
      {
       "paragraph_id": "p25",
+      "paragraph_sha256": "sha256:600843ccbc6aa75a9d35f6e42006945bde5176a55bb7507a0295d5a851356fde",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "more accurate measures of the tourism deficit would put the surplus at around $250 billion"
+      "source_excerpt": "more accurate measures of the tourism deficit would put the surplus at around $250 billion",
+      "source_spans": [
+       {
+        "char_start": 172,
+        "char_end": 262
+       }
+      ]
      }
     ]
    },
@@ -1709,11 +1853,18 @@
     "passages": [
      {
       "paragraph_id": "p25",
+      "paragraph_sha256": "sha256:600843ccbc6aa75a9d35f6e42006945bde5176a55bb7507a0295d5a851356fde",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "the augmented deficit includes the quasi fiscal borrowing of local investment vehicles"
+      "source_excerpt": "the augmented deficit includes the quasi fiscal borrowing of local investment vehicles",
+      "source_spans": [
+       {
+        "char_start": 382,
+        "char_end": 468
+       }
+      ]
      }
     ]
    },
@@ -1770,19 +1921,28 @@
     "passages": [
      {
       "paragraph_id": "p27",
+      "paragraph_sha256": "sha256:9b1b29610fe9fa6f488b52143c518251501a88f0709bcdffa12e175b9d41ca94",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "China saves way too much. In fact, China still saves about two times as much as a typical large economy"
+      "source_excerpt": "China saves way too much. In fact, China still saves about two times as much as a typical large economy",
+      "source_spans": [
+       {
+        "char_start": 114,
+        "char_end": 217
+       }
+      ]
      },
      {
       "paragraph_id": "p32",
+      "paragraph_sha256": "sha256:7b36ea3ebd56d3784b5528abb1873dc0c60de674f873087c891461abe668c4d0",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      }
     ]
    },
@@ -1838,35 +1998,48 @@
     "passages": [
      {
       "paragraph_id": "p29",
+      "paragraph_sha256": "sha256:a9a1d4de9cb7be0634b657b4e94b7296b1e7f339ce2edc41faf44234168dfca7",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      },
      {
       "paragraph_id": "p30",
+      "paragraph_sha256": "sha256:e7df91b37bdb07e156fc5f671028136c8c224e0ebd59357fdf87864ec18384d1",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      },
      {
       "paragraph_id": "p31",
+      "paragraph_sha256": "sha256:d1f5f3510c3661137c5e3e815c778e2b685460962ced58408fb6d726153241f1",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      },
      {
       "paragraph_id": "p33",
+      "paragraph_sha256": "sha256:dda930ba0b2a07a82aedfc8ee334a40654828405f70f27ebb933102ab66798e6",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "Today it is saving close to $6 trillion a year—it wouldn’t be hard to get a $600b current account surplus out of that kind of savings."
+      "source_excerpt": "Today it is saving close to $6 trillion a year—it wouldn’t be hard to get a $600b current account surplus out of that kind of savings.",
+      "source_spans": [
+       {
+        "char_start": 201,
+        "char_end": 335
+       }
+      ]
      }
     ]
    },
@@ -1928,19 +2101,28 @@
     "passages": [
      {
       "paragraph_id": "p32",
+      "paragraph_sha256": "sha256:7b36ea3ebd56d3784b5528abb1873dc0c60de674f873087c891461abe668c4d0",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "The only thing preventing that high savings rate from turning into a much larger current account surplus is China’s large augmented fiscal deficit"
+      "source_excerpt": "The only thing preventing that high savings rate from turning into a much larger current account surplus is China’s large augmented fiscal deficit",
+      "source_spans": [
+       {
+        "char_start": 0,
+        "char_end": 146
+       }
+      ]
      },
      {
       "paragraph_id": "p34",
+      "paragraph_sha256": "sha256:9ca025b31ccda986624672a16eddd45c02343f940e48af53a805b2b2e08dd0e7",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      }
     ]
    },
@@ -1996,19 +2178,23 @@
     "passages": [
      {
       "paragraph_id": "p34",
+      "paragraph_sha256": "sha256:9ca025b31ccda986624672a16eddd45c02343f940e48af53a805b2b2e08dd0e7",
       "relation": "presupposes",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      },
      {
       "paragraph_id": "p35",
+      "paragraph_sha256": "sha256:51a2224e06d170a17f12f10b0e7a8ccb0e8a4a72a80e870dc4c3467dd247ac36",
       "relation": "presupposes",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      }
     ]
    },
@@ -2062,19 +2248,28 @@
     "passages": [
      {
       "paragraph_id": "p36",
+      "paragraph_sha256": "sha256:199f19a11f2db30fb50272ba56e385d717b283a5b2ef36c7c51d9ec2c6a0906c",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "China’s import growth has collapsed—imports are falling in nominal terms, and at best flat in real terms."
+      "source_excerpt": "China’s import growth has collapsed—imports are falling in nominal terms, and at best flat in real terms.",
+      "source_spans": [
+       {
+        "char_start": 226,
+        "char_end": 331
+       }
+      ]
      },
      {
       "paragraph_id": "p37",
+      "paragraph_sha256": "sha256:88f844ed51bdc4f3f80692d009efda31c68501297940b8d3e474da31d51e92f2",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      }
     ]
    },
@@ -2133,11 +2328,18 @@
     "passages": [
      {
       "paragraph_id": "p37",
+      "paragraph_sha256": "sha256:88f844ed51bdc4f3f80692d009efda31c68501297940b8d3e474da31d51e92f2",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "the fall off in new investment in manufacturing associated with the trade war has contributed (ironically) to the rise in China’s surplus."
+      "source_excerpt": "the fall off in new investment in manufacturing associated with the trade war has contributed (ironically) to the rise in China’s surplus.",
+      "source_spans": [
+       {
+        "char_start": 120,
+        "char_end": 258
+       }
+      ]
      }
     ]
    },
@@ -2199,11 +2401,18 @@
     "passages": [
      {
       "paragraph_id": "p34",
+      "paragraph_sha256": "sha256:9ca025b31ccda986624672a16eddd45c02343f940e48af53a805b2b2e08dd0e7",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "A more sustainable adjustment requires policies that raise household income and reduce savings—basically more progressive tax policies and a much bigger system of social insurance"
+      "source_excerpt": "A more sustainable adjustment requires policies that raise household income and reduce savings—basically more progressive tax policies and a much bigger system of social insurance",
+      "source_spans": [
+       {
+        "char_start": 191,
+        "char_end": 370
+       }
+      ]
      }
     ]
    },
@@ -2263,11 +2472,18 @@
     "passages": [
      {
       "paragraph_id": "p38",
+      "paragraph_sha256": "sha256:fb008bf12a44edb9bb68b2197191698cdadbf8dff43922759976506cf0def9e8",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "The current “flow” deficit in the United States external accounts isn’t obviously unsustainable."
+      "source_excerpt": "The current “flow” deficit in the United States external accounts isn’t obviously unsustainable.",
+      "source_spans": [
+       {
+        "char_start": 0,
+        "char_end": 96
+       }
+      ]
      }
     ]
    },
@@ -2326,27 +2542,38 @@
     "passages": [
      {
       "paragraph_id": "p39",
+      "paragraph_sha256": "sha256:fec2f42a8c398a627f080f2b0bc1f863f8d97e285419d5d707d6198b85380227",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "At 45 percent of U.S. GDP, it is actually quite large relative to the United States’ limited export base."
+      "source_excerpt": "At 45 percent of U.S. GDP, it is actually quite large relative to the United States’ limited export base.",
+      "source_spans": [
+       {
+        "char_start": 107,
+        "char_end": 212
+       }
+      ]
      },
      {
       "paragraph_id": "p40",
+      "paragraph_sha256": "sha256:6b92a6784fa041e0f7e107fe14647574ec490fd61bb0a5dca839b292d72d9c31",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      },
      {
       "paragraph_id": "p41",
+      "paragraph_sha256": "sha256:1ce7ac8632f8ff31bcb187fd5c4ca9300ef30c5ccec00429747f2d431feceb57",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      }
     ]
    },
@@ -2406,11 +2633,18 @@
     "passages": [
      {
       "paragraph_id": "p39",
+      "paragraph_sha256": "sha256:fec2f42a8c398a627f080f2b0bc1f863f8d97e285419d5d707d6198b85380227",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "Especially if you assume that the United States won’t be a long-run exporter of energy"
+      "source_excerpt": "Especially if you assume that the United States won’t be a long-run exporter of energy",
+      "source_spans": [
+       {
+        "char_start": 213,
+        "char_end": 299
+       }
+      ]
      }
     ]
    },
@@ -2464,27 +2698,38 @@
     "passages": [
      {
       "paragraph_id": "p9",
+      "paragraph_sha256": "sha256:ca61b0996c17e7569573b97086b4eb7702b328b70ee32caf0cd97b71c448eaaa",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      },
      {
       "paragraph_id": "p35",
+      "paragraph_sha256": "sha256:51a2224e06d170a17f12f10b0e7a8ccb0e8a4a72a80e870dc4c3467dd247ac36",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      },
      {
       "paragraph_id": "p42",
+      "paragraph_sha256": "sha256:ac5524a06db165a825177dbcde52f03a7b6f0431100b822b2f175e30a9bf8194",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "Trump or no Trump. that at some point will limit its ability to take the other side of the world’s saving surpluses."
+      "source_excerpt": "Trump or no Trump. that at some point will limit its ability to take the other side of the world’s saving surpluses.",
+      "source_spans": [
+       {
+        "char_start": 0,
+        "char_end": 116
+       }
+      ]
      }
     ]
    },
@@ -2540,11 +2785,18 @@
     "passages": [
      {
       "paragraph_id": "p43",
+      "paragraph_sha256": "sha256:e3bebca1690ba02fe6804f8ce6ba7ba02896ca6459733d43abbbebbda0a134cb",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "they want the euro area to continue to tighten but only by a bit, while the US would tighten by a lot"
+      "source_excerpt": "they want the euro area to continue to tighten but only by a bit, while the US would tighten by a lot",
+      "source_spans": [
+       {
+        "char_start": 95,
+        "char_end": 196
+       }
+      ]
      }
     ]
    },
@@ -2616,11 +2868,18 @@
     "passages": [
      {
       "paragraph_id": "p43",
+      "paragraph_sha256": "sha256:e3bebca1690ba02fe6804f8ce6ba7ba02896ca6459733d43abbbebbda0a134cb",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "the new MD may want to question whether the long-term fiscal norm for most countries should be fiscal balance."
+      "source_excerpt": "the new MD may want to question whether the long-term fiscal norm for most countries should be fiscal balance.",
+      "source_spans": [
+       {
+        "char_start": 197,
+        "char_end": 307
+       }
+      ]
      }
     ]
    },

@@ -1,8 +1,16 @@
 """Step 1: get the article as numbered paragraphs, from the repo's parsers and metadata records.
 
-The text comes from the parser for its source (`scripts/parsers/`), which writes the shared
-text format to `paths.extracted`. The article's metadata comes from its record in
-`paths.records`, written by `scripts/extractors/metadata.py`. Neither is reimplemented here.
+The order is extract -> store -> metadata -> annotate. The text comes from the parser for its
+source (`scripts/parsers/`), which writes the shared text format to `paths.extracted`. The
+article's metadata comes from its record in `paths.records`, written by
+`scripts/extractors/metadata.py`. Neither is reimplemented here.
+
+The paragraphs the model sees are the record's: the same IDs and the same plain text
+(links reduced to their labels, footnote markers kept), read with the extractor's own
+functions. So an excerpt found in that text has character offsets that index the record's
+text, and each paragraph's hash can be pinned in the annotation. The text must hash to the
+record's `content_hash`, or step 1 stops: annotating text the record does not describe
+would make every citation unverifiable.
 """
 from __future__ import annotations
 
@@ -16,6 +24,7 @@ from pathlib import Path
 import yaml
 
 from .config import kb_scripts, path, settings
+from .spans import read_text
 
 
 @dataclass
@@ -27,7 +36,8 @@ class Article:
     authors: list[str]
     publisher: str
     series: str
-    paras: dict[int, str]                       # paragraph number -> text, links reduced to labels
+    paras: dict[int, str]                       # paragraph number -> the record's plain text
+    para_sha: dict[int, str] = field(default_factory=dict)   # paragraph number -> record hash
     figures: list[str] = field(default_factory=list)
     references: list[str] = field(default_factory=list)
     file: Path | None = None
@@ -98,20 +108,18 @@ def load(doc: str | None = None, url: str | None = None) -> Article:
         if record is None:
             raise SystemExit(f"the metadata extractor wrote no record for {url}")
 
-    lp = __import__("link_passages")                    # the team's paragraph reader
     raw = f.read_text(encoding="utf-8", errors="replace")
     fm = yaml.safe_load(raw.split("---", 2)[1])
-    paras = {}
-    for pm in re.finditer(r"<!--\s*p(\d+)\s*-->\s*\n(.*?)(?=\n<!--|\n##|\Z)", raw, re.S):
-        body = lp.strip_md(pm.group(2))
-        if body:
-            paras[int(pm.group(1))] = body
+    plain, hashes, content_hash = read_text(f)
+    meta = record["article"]
+    if (content_hash != meta["source_text"]["content_hash"]
+            or list(hashes) != [p["id"] for p in record["paragraphs"]]):
+        raise SystemExit(f"{f.name}: the text is not the one its metadata record describes "
+                         "- re-run scripts/extractors/metadata.py")
+    paras = {int(pid[1:]): t for pid, t in plain.items() if t.strip()}   # unstripped: offsets index it
+    para_sha = {int(pid[1:]): h for pid, h in hashes.items()}
     if not paras:
         raise SystemExit(f"{f.name}: the parser found no paragraphs")
-    meta = record["article"]
-    if meta["source_text"]["paragraph_count"] != len(re.findall(r"^<!--\s*p\d+\s*-->", raw, re.M)):
-        raise SystemExit(f"{f.name}: the text and its metadata record disagree on paragraph "
-                         "count - re-run scripts/extractors/metadata.py")
     authors = list(meta.get("authors") or [])
     date = str(meta.get("published_date") or "")
     if not doc:                                         # a new article: same style as the 2025+ maps
@@ -120,5 +128,5 @@ def load(doc: str | None = None, url: str | None = None) -> Article:
     return Article(doc=doc, url=url, title=str(meta.get("title") or ""), date=date,
                    authors=authors, publisher=str(meta.get("publisher") or ""),
                    series=str(meta.get("series") or ""),
-                   paras=paras, figures=_section(raw, "Figures"),
+                   paras=paras, para_sha=para_sha, figures=_section(raw, "Figures"),
                    references=_section(raw, "References"), file=f, record=record)

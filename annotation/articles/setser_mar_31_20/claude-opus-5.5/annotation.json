@@ -440,27 +440,38 @@
     "passages": [
      {
       "paragraph_id": "p1",
+      "paragraph_sha256": "sha256:d011e1f917bc8f3f06dcd806b11d3245ce50c10a446c6014f8753daca8ab67f4",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      },
      {
       "paragraph_id": "p7",
+      "paragraph_sha256": "sha256:8c26cf3564f413156056773367f37a73ba31e508fbd143ba587eb812ef0a9612",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      },
      {
       "paragraph_id": "p8",
+      "paragraph_sha256": "sha256:d2402a7d1f653bf07ce3503f3ca9a6ef4cc937c2a5a5d562090e2cd337835827",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "But the impact of these shocks will differ radically, as will the needed global policy response."
+      "source_excerpt": "But the impact of these shocks will differ radically, as will the needed global policy response.",
+      "source_spans": [
+       {
+        "char_start": 0,
+        "char_end": 96
+       }
+      ]
      }
     ]
    },
@@ -514,35 +525,48 @@
     "passages": [
      {
       "paragraph_id": "p2",
+      "paragraph_sha256": "sha256:c874f59dedbda399b1fbcbd914b84c6192bed39c77e2829d52df47fd5b750a82",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "An oil price shock that has sent the price of Brent oil down to under $25"
+      "source_excerpt": "An oil price shock that has sent the price of Brent oil down to under $25",
+      "source_spans": [
+       {
+        "char_start": 0,
+        "char_end": 73
+       }
+      ]
      },
      {
       "paragraph_id": "p3",
+      "paragraph_sha256": "sha256:7eafeabf33b7597671dab9c5c5703be506674efa5223478df16cd3a8bc0a8223",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      },
      {
       "paragraph_id": "p4",
+      "paragraph_sha256": "sha256:44d7082d175163ca6b50d8a6fbdd60219a2ae8c29be33ea2e91ab2278801dece",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      },
      {
       "paragraph_id": "p5",
+      "paragraph_sha256": "sha256:9e2b05f25ad6522b4bbd94b8f19a09c40e94c439986473a2828d28169aa0a1e1",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      }
     ]
    },
@@ -601,11 +625,18 @@
     "passages": [
      {
       "paragraph_id": "p5",
+      "paragraph_sha256": "sha256:9e2b05f25ad6522b4bbd94b8f19a09c40e94c439986473a2828d28169aa0a1e1",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "Global finance is now quickly being re-intermediated through banks, as they offer a form of stability that the “shadow” (non-bank) financial system cannot replicate in a crisis."
+      "source_excerpt": "Global finance is now quickly being re-intermediated through banks, as they offer a form of stability that the “shadow” (non-bank) financial system cannot replicate in a crisis.",
+      "source_spans": [
+       {
+        "char_start": 218,
+        "char_end": 395
+       }
+      ]
      }
     ]
    },
@@ -656,11 +687,18 @@
     "passages": [
      {
       "paragraph_id": "p6",
+      "paragraph_sha256": "sha256:0a4cb225c8678057aacf5fc7488bc57cd02ab48a10bc8bb7c50a426ed9ba4fdb",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "These shocks can have offsetting impacts. A country that imports oil, for example, Turkey, will benefit from lower energy prices."
+      "source_excerpt": "These shocks can have offsetting impacts. A country that imports oil, for example, Turkey, will benefit from lower energy prices.",
+      "source_spans": [
+       {
+        "char_start": 0,
+        "char_end": 129
+       }
+      ]
      }
     ]
    },
@@ -721,19 +759,28 @@
     "passages": [
      {
       "paragraph_id": "p9",
+      "paragraph_sha256": "sha256:9780f31699b8a85bc4eb1c25ec55d876eb942aa5faf6207a44d7da2ca9e41b6c",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "Some countries have relatively strong balance sheets and are thus fairly well equipped to handle these shocks on their own."
+      "source_excerpt": "Some countries have relatively strong balance sheets and are thus fairly well equipped to handle these shocks on their own.",
+      "source_spans": [
+       {
+        "char_start": 0,
+        "char_end": 123
+       }
+      ]
      },
      {
       "paragraph_id": "p10",
+      "paragraph_sha256": "sha256:aaefbf18291e2e82b3e6c51e5c97abb073438ccd5fcc40e53aeaccb880a8ef40",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      }
     ]
    },
@@ -782,19 +829,28 @@
     "passages": [
      {
       "paragraph_id": "p10",
+      "paragraph_sha256": "sha256:aaefbf18291e2e82b3e6c51e5c97abb073438ccd5fcc40e53aeaccb880a8ef40",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "The Saudis have around $500 billion in reserves, and the Russians a comparable sum and the added advantage of a floating currency."
+      "source_excerpt": "The Saudis have around $500 billion in reserves, and the Russians a comparable sum and the added advantage of a floating currency.",
+      "source_spans": [
+       {
+        "char_start": 402,
+        "char_end": 532
+       }
+      ]
      },
      {
       "paragraph_id": "p13",
+      "paragraph_sha256": "sha256:af5b32da54bc69b10527e59eaa3bf3fef824462be5869707c29b67fb00d80762",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      }
     ]
    },
@@ -852,35 +908,48 @@
     "passages": [
      {
       "paragraph_id": "p11",
+      "paragraph_sha256": "sha256:159ed57be1fb325c5d1487567455973168bdfa31c206bab2b31fbec12f3e5c02",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      },
      {
       "paragraph_id": "p12",
+      "paragraph_sha256": "sha256:e2d13d49e281fb7e5db6e4f8849d8160d607bc0e59aeec7726ebc6f68895f986",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "Now some of these institutions effectively need to borrow dollars to hedge their portfolios against currency risk"
+      "source_excerpt": "Now some of these institutions effectively need to borrow dollars to hedge their portfolios against currency risk",
+      "source_spans": [
+       {
+        "char_start": 0,
+        "char_end": 113
+       }
+      ]
      },
      {
       "paragraph_id": "p13",
+      "paragraph_sha256": "sha256:af5b32da54bc69b10527e59eaa3bf3fef824462be5869707c29b67fb00d80762",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      },
      {
       "paragraph_id": "p35",
+      "paragraph_sha256": "sha256:6d6316a7a943a933a655b77639f2798a362efdcde8173f1e594f87f5729be77b",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      }
     ]
    },
@@ -931,19 +1000,28 @@
     "passages": [
      {
       "paragraph_id": "p13",
+      "paragraph_sha256": "sha256:af5b32da54bc69b10527e59eaa3bf3fef824462be5869707c29b67fb00d80762",
       "relation": "presupposes",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "But any shortfall in the life insurers equity can be made up domestically, through a government recapitalization."
+      "source_excerpt": "But any shortfall in the life insurers equity can be made up domestically, through a government recapitalization.",
+      "source_spans": [
+       {
+        "char_start": 501,
+        "char_end": 614
+       }
+      ]
      },
      {
       "paragraph_id": "p14",
+      "paragraph_sha256": "sha256:1f93a2288c882bd35678dd279a3c629200d9956bc0f237e49e66713e237a5a2f",
       "relation": "presupposes",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      }
     ]
    },
@@ -992,11 +1070,18 @@
     "passages": [
      {
       "paragraph_id": "p14",
+      "paragraph_sha256": "sha256:1f93a2288c882bd35678dd279a3c629200d9956bc0f237e49e66713e237a5a2f",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "Countries with strong external balance sheets consequently can weather the storm if they act decisively and use their public sector balance sheet to backstop leveraged financial institutions."
+      "source_excerpt": "Countries with strong external balance sheets consequently can weather the storm if they act decisively and use their public sector balance sheet to backstop leveraged financial institutions.",
+      "source_spans": [
+       {
+        "char_start": 0,
+        "char_end": 191
+       }
+      ]
      }
     ]
    },
@@ -1057,11 +1142,18 @@
     "passages": [
      {
       "paragraph_id": "p15",
+      "paragraph_sha256": "sha256:29e2988118473becbb91003f8d10c862de1ce74a5ca74cb52be97cbe0b0eb5a7",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "In a crisis, those countries that most need financing are the least able to get it."
+      "source_excerpt": "In a crisis, those countries that most need financing are the least able to get it.",
+      "source_spans": [
+       {
+        "char_start": 264,
+        "char_end": 347
+       }
+      ]
      }
     ]
    },
@@ -1115,43 +1207,58 @@
     "passages": [
      {
       "paragraph_id": "p16",
+      "paragraph_sha256": "sha256:0a3d6ad8d8ff11a627cadb3bbd4edaa498aeb90e10b4e103acb6d181c9e47e45",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "I would differentiate here between two different kinds of funding needs:"
+      "source_excerpt": "I would differentiate here between two different kinds of funding needs:",
+      "source_spans": [
+       {
+        "char_start": 0,
+        "char_end": 72
+       }
+      ]
      },
      {
       "paragraph_id": "p17",
+      "paragraph_sha256": "sha256:f025504b60b84b343a33740ac5d135006a370032aa17eb0b259c67acca1f557c",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      },
      {
       "paragraph_id": "p18",
+      "paragraph_sha256": "sha256:e342b94b9f0bc676654762e047b6f12ce50118009d44c154474f805b81406309",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      },
      {
       "paragraph_id": "p19",
+      "paragraph_sha256": "sha256:367a97bc37c0ecc7cec2e3acad329b670689d5e8a40d4b12f46f0596b0dda767",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      },
      {
       "paragraph_id": "p21",
+      "paragraph_sha256": "sha256:487f4c807e8e5ace355fc6b1686f902a5b9a298658341c035ca23919a4136a08",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      }
     ]
    },
@@ -1205,11 +1312,18 @@
     "passages": [
      {
       "paragraph_id": "p18",
+      "paragraph_sha256": "sha256:e342b94b9f0bc676654762e047b6f12ce50118009d44c154474f805b81406309",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "Right now those balance of payments shortfalls can arise from a massive terms of trade shock (many oil exporters), from a fall off in financial inflows (South Africa), or even from a run on a dollarized domestic banking system (Lebanon)."
+      "source_excerpt": "Right now those balance of payments shortfalls can arise from a massive terms of trade shock (many oil exporters), from a fall off in financial inflows (South Africa), or even from a run on a dollarized domestic banking system (Lebanon).",
+      "source_spans": [
+       {
+        "char_start": 116,
+        "char_end": 353
+       }
+      ]
      }
     ]
    },
@@ -1269,27 +1383,38 @@
     "passages": [
      {
       "paragraph_id": "p22",
+      "paragraph_sha256": "sha256:2fedbddbfc00517c673a91c78e632f99ff13e8a4ffccce2f606fb167e75da4d7",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "The Fed’s swap lines historically have not been used to make up for financing shortfalls from a classic fall off in portfolio inflows"
+      "source_excerpt": "The Fed’s swap lines historically have not been used to make up for financing shortfalls from a classic fall off in portfolio inflows",
+      "source_spans": [
+       {
+        "char_start": 0,
+        "char_end": 133
+       }
+      ]
      },
      {
       "paragraph_id": "p23",
+      "paragraph_sha256": "sha256:b7b44279ec8c2632237c26de0e3a6f0b6b12ea1b43f9b55c340d5119b8f9e27d",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      },
      {
       "paragraph_id": "p32",
+      "paragraph_sha256": "sha256:738ebde201f158784e0035b72cf32ce00ca8c6c01ab792fecddfaaa6f00bc17f",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      }
     ]
    },
@@ -1354,51 +1479,68 @@
     "passages": [
      {
       "paragraph_id": "p20",
+      "paragraph_sha256": "sha256:0fc1ee04f609a30d4e30dda092c0d84cd88908dd9779b7b4451360a74ac6c032",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "Agustin Carstens of the BIS has provided some exceptionally helpful suggestions"
+      "source_excerpt": "Agustin Carstens of the BIS has provided some exceptionally helpful suggestions",
+      "source_spans": [
+       {
+        "char_start": 282,
+        "char_end": 361
+       }
+      ]
      },
      {
       "paragraph_id": "p26",
+      "paragraph_sha256": "sha256:16257e8e3b53495618c9980fc2386faf4a1e8b308c5899ff31e2da9c499d731e",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      },
      {
       "paragraph_id": "p27",
+      "paragraph_sha256": "sha256:303d9ae6c839966f44b9136f9c1c72385cc0adafcaf0491d64651d3e8c4694b0",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      },
      {
       "paragraph_id": "p28",
+      "paragraph_sha256": "sha256:9f1f15ec48428e785afcb4ab078ae18bdb5a42a6ae43689491e480dda40b66b3",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      },
      {
       "paragraph_id": "p33",
+      "paragraph_sha256": "sha256:ac08c5cb6f8821b8f7b33d47ea445750616873a0a9eb90f983a7baff2ab22e77",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      },
      {
       "paragraph_id": "p35",
+      "paragraph_sha256": "sha256:6d6316a7a943a933a655b77639f2798a362efdcde8173f1e594f87f5729be77b",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      }
     ]
    },
@@ -1456,75 +1598,98 @@
     "passages": [
      {
       "paragraph_id": "p12",
+      "paragraph_sha256": "sha256:e2d13d49e281fb7e5db6e4f8849d8160d607bc0e59aeec7726ebc6f68895f986",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      },
      {
       "paragraph_id": "p14",
+      "paragraph_sha256": "sha256:1f93a2288c882bd35678dd279a3c629200d9956bc0f237e49e66713e237a5a2f",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      },
      {
       "paragraph_id": "p20",
+      "paragraph_sha256": "sha256:0fc1ee04f609a30d4e30dda092c0d84cd88908dd9779b7b4451360a74ac6c032",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      },
      {
       "paragraph_id": "p24",
+      "paragraph_sha256": "sha256:c344da541522556a0b6053f3e8789f7d12cfa7122396a2a4a36d1e4939923f88",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "Now is the time when the IMF can and should use its ability to create global reserves through what’s called an “SDR allocation”"
+      "source_excerpt": "Now is the time when the IMF can and should use its ability to create global reserves through what’s called an “SDR allocation”",
+      "source_spans": [
+       {
+        "char_start": 0,
+        "char_end": 127
+       }
+      ]
      },
      {
       "paragraph_id": "p25",
+      "paragraph_sha256": "sha256:40751dc3ee03fddd212eb8456560d92e5db643feea03ce900262d7d665271ba6",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      },
      {
       "paragraph_id": "p26",
+      "paragraph_sha256": "sha256:16257e8e3b53495618c9980fc2386faf4a1e8b308c5899ff31e2da9c499d731e",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      },
      {
       "paragraph_id": "p27",
+      "paragraph_sha256": "sha256:303d9ae6c839966f44b9136f9c1c72385cc0adafcaf0491d64651d3e8c4694b0",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      },
      {
       "paragraph_id": "p28",
+      "paragraph_sha256": "sha256:9f1f15ec48428e785afcb4ab078ae18bdb5a42a6ae43689491e480dda40b66b3",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      },
      {
       "paragraph_id": "p35",
+      "paragraph_sha256": "sha256:6d6316a7a943a933a655b77639f2798a362efdcde8173f1e594f87f5729be77b",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      }
     ]
    },
@@ -1591,11 +1756,18 @@
     "passages": [
      {
       "paragraph_id": "p25",
+      "paragraph_sha256": "sha256:40751dc3ee03fddd212eb8456560d92e5db643feea03ce900262d7d665271ba6",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "But SDRs are distributed according to a country’s IMF quota, not according to the amount of reserves a country now needs"
+      "source_excerpt": "But SDRs are distributed according to a country’s IMF quota, not according to the amount of reserves a country now needs",
+      "source_spans": [
+       {
+        "char_start": 0,
+        "char_end": 120
+       }
+      ]
      }
     ]
    },
@@ -1652,11 +1824,18 @@
     "passages": [
      {
       "paragraph_id": "p28",
+      "paragraph_sha256": "sha256:9f1f15ec48428e785afcb4ab078ae18bdb5a42a6ae43689491e480dda40b66b3",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "Of course, private creditors would rather be paid. But voluntarily pushing out maturities beats default"
+      "source_excerpt": "Of course, private creditors would rather be paid. But voluntarily pushing out maturities beats default",
+      "source_spans": [
+       {
+        "char_start": 263,
+        "char_end": 366
+       }
+      ]
      }
     ]
    },
@@ -1711,27 +1890,38 @@
     "passages": [
      {
       "paragraph_id": "p8",
+      "paragraph_sha256": "sha256:d2402a7d1f653bf07ce3503f3ca9a6ef4cc937c2a5a5d562090e2cd337835827",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      },
      {
       "paragraph_id": "p19",
+      "paragraph_sha256": "sha256:367a97bc37c0ecc7cec2e3acad329b670689d5e8a40d4b12f46f0596b0dda767",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      },
      {
       "paragraph_id": "p29",
+      "paragraph_sha256": "sha256:78503c973e89ed169a6feab6e734101278af50324e826622b7f1aa454a59a476",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "When private capital retreats, the official sector needs to advance—and with creativity, sufficient resources can be mobilized to limit the global shock."
+      "source_excerpt": "When private capital retreats, the official sector needs to advance—and with creativity, sufficient resources can be mobilized to limit the global shock.",
+      "source_spans": [
+       {
+        "char_start": 0,
+        "char_end": 153
+       }
+      ]
      }
     ]
    },
@@ -1800,11 +1990,18 @@
     "passages": [
      {
       "paragraph_id": "p30",
+      "paragraph_sha256": "sha256:8f3f4eb9269936e3dd1c7bff5b9a835ed95cf4cd8a7ac40fb452a4c9d8cfd760",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "While none of this will prevent a massive global downturn, it is crisis economics—the financial equivalent of emergency medicine."
+      "source_excerpt": "While none of this will prevent a massive global downturn, it is crisis economics—the financial equivalent of emergency medicine.",
+      "source_spans": [
+       {
+        "char_start": 0,
+        "char_end": 129
+       }
+      ]
      }
     ]
    },
@@ -1853,11 +2050,18 @@
     "passages": [
      {
       "paragraph_id": "p33",
+      "paragraph_sha256": "sha256:ac08c5cb6f8821b8f7b33d47ea445750616873a0a9eb90f983a7baff2ab22e77",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "The system of private credit risk intermediation broke down well before the world’s central banks lost their appetite for FX intervention (contrary to a forecast that I made with Dr. Roubini back in 2005)."
+      "source_excerpt": "The system of private credit risk intermediation broke down well before the world’s central banks lost their appetite for FX intervention (contrary to a forecast that I made with Dr. Roubini back in 2005).",
+      "source_spans": [
+       {
+        "char_start": 649,
+        "char_end": 854
+       }
+      ]
      }
     ]
    },

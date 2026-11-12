@@ -22,6 +22,7 @@ from pydantic import ValidationError
 from .article import Article
 from .config import Ontology, examples, kb_scripts, profile, read_csv, path
 from .schema import boxes_model
+from .spans import locate, straighten
 
 
 # --- prompt ----------------------------------------------------------------------------
@@ -97,26 +98,17 @@ def start(a: Article, ont: Ontology) -> list[dict]:
 
 # --- checks ----------------------------------------------------------------------------
 
-_QUOTES = str.maketrans({"’": "'", "‘": "'", "“": '"', "”": '"', "–": "-", "—": "-", " ": " "})
-
-
-def _norm(s: str) -> str:
-    return " ".join(s.translate(_QUOTES).split())
-
-
-def find_excerpt(excerpt: str, paras: dict[int, str], cited: list[int] = ()) -> int | None:
-    """The paragraph holding the excerpt word for word (an ellipsis may skip words); a cited
-    paragraph first, when the words occur more than once."""
-    parts = [p for p in (_norm(x) for x in re.split(r"\.\.\.|…", excerpt)) if len(p) >= 3]
-    if not parts:
-        return None
+def find_excerpt(excerpt: str, paras: dict[int, str], cited: list[int] = ()
+                 ) -> tuple[int, list[dict]] | tuple[None, None]:
+    """The paragraph holding the excerpt word for word (an ellipsis may skip words, the parts
+    in order), and its character spans there; a cited paragraph first, when the words occur
+    more than once. `paras` is the record's text, so the spans index the record's text."""
     order = [k for k in cited if k in paras] + [k for k in paras if k not in cited]
     for k in order:
-        t = paras[k]
-        t = _norm(t)
-        if all(p in t for p in parts):
-            return k
-    return None
+        spans = locate(excerpt, paras[k])
+        if spans:
+            return k, spans
+    return None, None
 
 
 def _team_literals():
@@ -136,7 +128,7 @@ def _grounding(box: dict, a: Article, lp) -> list[str]:
     found = set()
     for t in src:
         found |= lp.literals(t)
-    whole = " " + re.sub(r"[(\[\"“‘/]", " ", _norm(" ".join(src)).lower().replace("-", " "))   # "(Lebanon)" holds lebanon
+    whole = " " + re.sub(r"[(\[\"“‘/]", " ", straighten(" ".join(src)).lower().replace("-", " "))   # "(Lebanon)" holds lebanon
     words = box["claim"].split()
     first = re.sub(r"[^a-z]", "", words[0].lower()) if words else ""
     authors = {w.lower() for n in a.authors for w in n.split()}
@@ -174,17 +166,17 @@ def check(text: str, a: Article, ont: Ontology, Model) -> dict:
             if b["role"] not in by_role:
                 b[attr] = "none"                    # an attribute another role owns
         b["excerpt"] = b["excerpt"].strip()
-        b["excerpt_para"] = None
+        b["excerpt_para"], b["excerpt_spans"] = None, None
         if not b["claim"].strip():
             fix.append(f"Box {i} ({b['role']}) has an empty claim.")
         if b["excerpt"]:
-            k = find_excerpt(b["excerpt"], a.paras, b["paragraphs"])
+            k, spans = find_excerpt(b["excerpt"], a.paras, b["paragraphs"])
             if k is None:
                 fix.append(f"Box {i} ({b['role']}): the excerpt is not word for word in any "
                            f"paragraph. Copy it exactly, or leave it empty. Excerpt: "
                            f"\"{b['excerpt'][:200]}\"")
             else:
-                b["excerpt_para"] = k
+                b["excerpt_para"], b["excerpt_spans"] = k, spans
                 if k not in b["paragraphs"]:        # cite the paragraph the quote came from
                     b["paragraphs"] = sorted(b["paragraphs"] + [k])
         if not b["paragraphs"]:

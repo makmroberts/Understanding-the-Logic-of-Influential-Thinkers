@@ -17,6 +17,7 @@ import yaml
 
 from .article import Article
 from .config import ROOT, kb_scripts, ontology, path
+from .spans import check, locate
 
 
 def second_opinion(a: Article, boxes: list[dict]) -> list[dict]:
@@ -86,7 +87,8 @@ def _git_version() -> str:
 
 def build(a: Article, run: str, models: dict, params: dict, boxes: list[dict], links: list[dict],
           facet_rows: list[dict], passage_stats: dict, review: dict[str, list[str]],
-          checks: list[str], calls: list[dict]) -> dict:
+          checks: list[str], calls: list[dict], spans: dict[str, list[dict]]) -> dict:
+    """`spans` is `excerpt_spans`' first result; its misses belong in `review` already."""
     ont = ontology()
     now = datetime.now(timezone.utc).isoformat(timespec="seconds")
     nid = {b["id"]: f"n{i:03d}" for i, b in enumerate(boxes, 1)}
@@ -108,11 +110,13 @@ def build(a: Article, run: str, models: dict, params: dict, boxes: list[dict], l
         facets[r["node_id"]][r["facet"]].append(t)
     nodes = []
     for b in boxes:
-        passages = [{"paragraph_id": f"p{k}", "relation": passage_relation(b, k),
+        passages = [{"paragraph_id": f"p{k}", "paragraph_sha256": a.para_sha.get(k),
+                     "relation": passage_relation(b, k),
                      "link_method": "llm_citation",
                      "anchor_grade": "excerpt" if k == b["excerpt_para"] else "cited",
                      "review_status": "pending",
-                     "source_excerpt": b["excerpt"] if k == b["excerpt_para"] else None}
+                     "source_excerpt": b["excerpt"] if k == b["excerpt_para"] else None,
+                     "source_spans": spans.get(b["id"]) if k == b["excerpt_para"] else None}
                     for k in b["paragraphs"]]
         attrs = {a_: b[a_] for a_ in ont.attributes if b.get(a_, "none") != "none"}
         nodes.append({
@@ -171,6 +175,27 @@ def article_block(doc: str, record: dict) -> dict:
     return {**meta, "id": doc,
             "metadata_extension": {**meta.get("metadata_extension", {}),
                                    "source_record": meta["id"]}}
+
+
+def excerpt_spans(a: Article, boxes: list[dict]) -> tuple[dict[str, list[dict]], list[str]]:
+    """Box ID -> character spans of its excerpt in the cited paragraph, and a review line for
+    each excerpt that cannot be placed.
+
+    Step 2 places the excerpt as it checks it, and those spans are used. A box saved before
+    step 2 did that has none, so it is placed here, with the loose match old runs need.
+    Either way a span is read back against the paragraph before it is kept."""
+    out, misses = {}, []
+    for b in boxes:
+        if not b.get("excerpt") or b.get("excerpt_para") is None:
+            continue
+        text = a.paras.get(b["excerpt_para"], "")
+        spans = b.get("excerpt_spans") or locate(b["excerpt"], text, loose=True)
+        if spans and check(spans, b["excerpt"], text):
+            out[b["id"]] = spans
+        else:
+            misses.append(f"`{b['id']}`: its excerpt could not be placed by character in "
+                          f"p{b['excerpt_para']}")
+    return out, misses
 
 
 def passage_relation(b: dict, k: int) -> str:

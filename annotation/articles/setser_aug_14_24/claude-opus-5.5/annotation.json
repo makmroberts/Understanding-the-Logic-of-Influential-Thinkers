@@ -209,27 +209,38 @@
     "passages": [
      {
       "paragraph_id": "p1",
+      "paragraph_sha256": "sha256:82432a07ec472d113a236f2fd2ae2e4ff8298fc64e0594e05f97939450b33ca9",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      },
      {
       "paragraph_id": "p2",
+      "paragraph_sha256": "sha256:a5ae65ba460dd3cbca1625509f08142d086caf644965d2586fd845ad4a721a7d",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "It at least explains why China’s balance of payments trade surplus diverges from China’s customs trade surplus, and why the gap started to explode around 2022."
+      "source_excerpt": "It at least explains why China’s balance of payments trade surplus diverges from China’s customs trade surplus, and why the gap started to explode around 2022.",
+      "source_spans": [
+       {
+        "char_start": 0,
+        "char_end": 159
+       }
+      ]
      },
      {
       "paragraph_id": "p3",
+      "paragraph_sha256": "sha256:44af0afebb405bf00e8c5ede458b7eaea9c9877e5ada3989e4996649d1ce84fb",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      }
     ]
    },
@@ -289,27 +300,38 @@
     "passages": [
      {
       "paragraph_id": "p1",
+      "paragraph_sha256": "sha256:82432a07ec472d113a236f2fd2ae2e4ff8298fc64e0594e05f97939450b33ca9",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      },
      {
       "paragraph_id": "p30",
+      "paragraph_sha256": "sha256:3e050a5150b8ed367fdfba4d92ff22c1ffc95857e7388e4354e76aa4ac1afe8e",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      },
      {
       "paragraph_id": "p31",
+      "paragraph_sha256": "sha256:2ce7d3e179ff443e8ebf69e95bec30357a32824c2dbdd96ba74e0353ff995aa1",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "In order to capture exports and imports of goods that do not physically cross the border comprehensively, the Chinese BOP compilers switched the data sources from Customs data to direct reporting of financial records by large enterprises in 2022."
+      "source_excerpt": "In order to capture exports and imports of goods that do not physically cross the border comprehensively, the Chinese BOP compilers switched the data sources from Customs data to direct reporting of financial records by large enterprises in 2022.",
+      "source_spans": [
+       {
+        "char_start": 1,
+        "char_end": 247
+       }
+      ]
      }
     ]
    },
@@ -369,27 +391,38 @@
     "passages": [
      {
       "paragraph_id": "p7",
+      "paragraph_sha256": "sha256:4fab0d7985bf334c87610f262cc59853ab25d044d58b2ce6370720d6c86d5402",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "BOP imports kept increasing relative to Customs imports in recent years and surpassed them for the first time in 2023."
+      "source_excerpt": "BOP imports kept increasing relative to Customs imports in recent years and surpassed them for the first time in 2023.",
+      "source_spans": [
+       {
+        "char_start": 1,
+        "char_end": 119
+       }
+      ]
      },
      {
       "paragraph_id": "p14",
+      "paragraph_sha256": "sha256:3815c7598107742710c48e44f3a6e149a8d12d467025ca49f705b5993faf98dc",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      },
      {
       "paragraph_id": "p15",
+      "paragraph_sha256": "sha256:bd5ce77c34b53442c90aeb20d57e21d96788f54db94b24803ff1aee6f67c80ac",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      }
     ]
    },
@@ -449,59 +482,78 @@
     "passages": [
      {
       "paragraph_id": "p5",
+      "paragraph_sha256": "sha256:8546d26875b4a76fe89250ac1aa19c823460eb24b3c83cc9677bbda116804ff8",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      },
      {
       "paragraph_id": "p6",
+      "paragraph_sha256": "sha256:5eb38e26d30fb10f157ac8c35742cd4fe183786967f212c578d2d628bf8b9ba7",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      },
      {
       "paragraph_id": "p8",
+      "paragraph_sha256": "sha256:a15edcaa58fdb2d62598c38504e28269ca475e18d1c694eed24984ae8e244873",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      },
      {
       "paragraph_id": "p10",
+      "paragraph_sha256": "sha256:884cbe04d9da795e9329158d5009a250b6961c30da404c2bd5bca1126a158651",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      },
      {
       "paragraph_id": "p12",
+      "paragraph_sha256": "sha256:16b54872023677d1d02749d616ca02768ade8bc6d8af8d2eec098ad6957dfdd5",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      },
      {
       "paragraph_id": "p13",
+      "paragraph_sha256": "sha256:4135a74670a17e8ff6bc630b8391ff9a8e2999c9f0ed4d03df9ca3eecdb9e437",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      },
      {
       "paragraph_id": "p15",
+      "paragraph_sha256": "sha256:bd5ce77c34b53442c90aeb20d57e21d96788f54db94b24803ff1aee6f67c80ac",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "If the nonresident enterprise subsequently sells the goods in China, imports of goods are recorded in BOP."
+      "source_excerpt": "If the nonresident enterprise subsequently sells the goods in China, imports of goods are recorded in BOP.",
+      "source_spans": [
+       {
+        "char_start": 334,
+        "char_end": 440
+       }
+      ]
      }
     ]
    },
@@ -560,19 +612,28 @@
     "passages": [
      {
       "paragraph_id": "p4",
+      "paragraph_sha256": "sha256:d37a61c311a04d4df90b1c77b59ddcc0f74fdc9ee1b660603ffcd452a97f851f",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      },
      {
       "paragraph_id": "p16",
+      "paragraph_sha256": "sha256:41d9d2baf5745fb62437e2b10f8136c77fb62e9649646731db60d3e2be7fe21b",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "So Chinese production for the Chinese market by foreign firms is somehow generating a trade deficit in the balance of payments data. This, of course, makes no real economic sense."
+      "source_excerpt": "So Chinese production for the Chinese market by foreign firms is somehow generating a trade deficit in the balance of payments data. This, of course, makes no real economic sense.",
+      "source_spans": [
+       {
+        "char_start": 0,
+        "char_end": 179
+       }
+      ]
      }
     ]
    },
@@ -621,27 +682,38 @@
     "passages": [
      {
       "paragraph_id": "p17",
+      "paragraph_sha256": "sha256:2cf7936c2b2cfbe365c571ff797b7861a0a6778c111ab43d870b4bb5d75a482a",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      },
      {
       "paragraph_id": "p18",
+      "paragraph_sha256": "sha256:75613d444713d693e7be632e8732b587c796c6c037b3a729fcc82656c37ac243",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      },
      {
       "paragraph_id": "p19",
+      "paragraph_sha256": "sha256:f1cf68fa75d117c4dd5d7b8d59b699188dc1fed6e339bb5bfc6588130f09e8dd",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "In other words, there should be offsetting adjustments in other parts of the balance of payments—the aggregate balance should not change."
+      "source_excerpt": "In other words, there should be offsetting adjustments in other parts of the balance of payments—the aggregate balance should not change.",
+      "source_spans": [
+       {
+        "char_start": 0,
+        "char_end": 137
+       }
+      ]
      }
     ]
    },
@@ -701,27 +773,38 @@
     "passages": [
      {
       "paragraph_id": "p20",
+      "paragraph_sha256": "sha256:379d5a5b80ec6a2638630c20ec7512f40ecc404f0c6c8ac26835eac3936fefe4",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      },
      {
       "paragraph_id": "p21",
+      "paragraph_sha256": "sha256:bce10a7e45093d3e13b2b035c53760f1b4d8eabe93679818cdaf6b801d6f1f7b",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      },
      {
       "paragraph_id": "p22",
+      "paragraph_sha256": "sha256:5c238906a9966e4dd481e8462840f638e50cfeb85a57059ff969caa9416bf243",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "That divergence is not offset elsewhere in the current account, though."
+      "source_excerpt": "That divergence is not offset elsewhere in the current account, though.",
+      "source_spans": [
+       {
+        "char_start": 0,
+        "char_end": 71
+       }
+      ]
      }
     ]
    },
@@ -786,35 +869,48 @@
     "passages": [
      {
       "paragraph_id": "p21",
+      "paragraph_sha256": "sha256:bce10a7e45093d3e13b2b035c53760f1b4d8eabe93679818cdaf6b801d6f1f7b",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      },
      {
       "paragraph_id": "p23",
+      "paragraph_sha256": "sha256:5d11b2d41ca9a43748000b6355b4fb17d9c095e59d49ade264cb590717a66fe4",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "Balance of payments exports are way below customs exports, and balance of payments imports are now higher than customs imports when they should be lower"
+      "source_excerpt": "Balance of payments exports are way below customs exports, and balance of payments imports are now higher than customs imports when they should be lower",
+      "source_spans": [
+       {
+        "char_start": 176,
+        "char_end": 328
+       }
+      ]
      },
      {
       "paragraph_id": "p24",
+      "paragraph_sha256": "sha256:3a0f6cf70a56e4290a28ce49f5ee191d82282d37d4fbe5370deb5886a1d33d5c",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      },
      {
       "paragraph_id": "p39",
+      "paragraph_sha256": "sha256:833f68c69fd33b48cc614fc94b99a753ababa59bb8c4c31e3a5706bf583d3650",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      }
     ]
    },
@@ -879,19 +975,28 @@
     "passages": [
      {
       "paragraph_id": "p21",
+      "paragraph_sha256": "sha256:bce10a7e45093d3e13b2b035c53760f1b4d8eabe93679818cdaf6b801d6f1f7b",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      },
      {
       "paragraph_id": "p39",
+      "paragraph_sha256": "sha256:833f68c69fd33b48cc614fc94b99a753ababa59bb8c4c31e3a5706bf583d3650",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "The BoP goods surplus should be larger than the customs trade surplus, as about 5 percent of the reported goods import bill is moved over to the services balance for insurance and freight."
+      "source_excerpt": "The BoP goods surplus should be larger than the customs trade surplus, as about 5 percent of the reported goods import bill is moved over to the services balance for insurance and freight.",
+      "source_spans": [
+       {
+        "char_start": 4,
+        "char_end": 192
+       }
+      ]
      }
     ]
    },
@@ -956,11 +1061,18 @@
     "passages": [
      {
       "paragraph_id": "p25",
+      "paragraph_sha256": "sha256:2d070c816e422c311c1c29ebc9cd9388a36c0090f2f1f3a3d1e8e6b54a4a9fc9",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "There is no good reason to think foreign firms want to report huge profits in China—and thus are charging huge markups in China."
+      "source_excerpt": "There is no good reason to think foreign firms want to report huge profits in China—and thus are charging huge markups in China.",
+      "source_spans": [
+       {
+        "char_start": 70,
+        "char_end": 198
+       }
+      ]
      }
     ]
    },
@@ -1015,27 +1127,38 @@
     "passages": [
      {
       "paragraph_id": "p26",
+      "paragraph_sha256": "sha256:a8013f4bf596d53146a03f6485dca3649161390d2e3a1391b02bd7063b199062",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      },
      {
       "paragraph_id": "p27",
+      "paragraph_sha256": "sha256:1bfa3b4dac3ba2fb7d1c23c4fa3997770a5edaecb570a5dadcd101097a71c087",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "Production in China for sale in China has no impact on the flow of foreign exchange and thus the “true” balance of payments."
+      "source_excerpt": "Production in China for sale in China has no impact on the flow of foreign exchange and thus the “true” balance of payments.",
+      "source_spans": [
+       {
+        "char_start": 0,
+        "char_end": 124
+       }
+      ]
      },
      {
       "paragraph_id": "p28",
+      "paragraph_sha256": "sha256:2d06c671bfe87df342ff59a858a096cd0bf1484b75da50361c1a4d2feb697eb1",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      }
     ]
    },
@@ -1090,19 +1213,23 @@
     "passages": [
      {
       "paragraph_id": "p30",
+      "paragraph_sha256": "sha256:3e050a5150b8ed367fdfba4d92ff22c1ffc95857e7388e4354e76aa4ac1afe8e",
       "relation": "presupposes",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      },
      {
       "paragraph_id": "p33",
+      "paragraph_sha256": "sha256:494b84b1f77b005c4417bab864a51560cd358d9fe272bf80626b2f424e525965",
       "relation": "presupposes",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      }
     ]
    },
@@ -1152,11 +1279,18 @@
     "passages": [
      {
       "paragraph_id": "p40",
+      "paragraph_sha256": "sha256:3f64abfd7b8029ee6ff923a799d5768e84bfeca6c0e506bbfdba79d83b47d5d7",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "That ancient sage just highlights how China has a history of changing the methodology it uses to calculate the components of the current account at opportune times."
+      "source_excerpt": "That ancient sage just highlights how China has a history of changing the methodology it uses to calculate the components of the current account at opportune times.",
+      "source_spans": [
+       {
+        "char_start": 374,
+        "char_end": 538
+       }
+      ]
      }
     ]
    },
@@ -1216,27 +1350,38 @@
     "passages": [
      {
       "paragraph_id": "p3",
+      "paragraph_sha256": "sha256:44af0afebb405bf00e8c5ede458b7eaea9c9877e5ada3989e4996649d1ce84fb",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      },
      {
       "paragraph_id": "p29",
+      "paragraph_sha256": "sha256:7e9216bb963de44fd2e797a9858c314a88b9bf74a700e05476b00dfab5a8d56c",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "the goods surplus in the balance of payments is now about $300 billion (over 1.5 percentage points of China’s GDP) smaller than what it should be"
+      "source_excerpt": "the goods surplus in the balance of payments is now about $300 billion (over 1.5 percentage points of China’s GDP) smaller than what it should be",
+      "source_spans": [
+       {
+        "char_start": 248,
+        "char_end": 393
+       }
+      ]
      },
      {
       "paragraph_id": "p32",
+      "paragraph_sha256": "sha256:ac3b2649b87d3fad56d129535ec0192c3fc3e8bd09d39bb5680d04ad27dcfd30",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      }
     ]
    },
@@ -1301,19 +1446,28 @@
     "passages": [
      {
       "paragraph_id": "p24",
+      "paragraph_sha256": "sha256:3a0f6cf70a56e4290a28ce49f5ee191d82282d37d4fbe5370deb5886a1d33d5c",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      },
      {
       "paragraph_id": "p29",
+      "paragraph_sha256": "sha256:7e9216bb963de44fd2e797a9858c314a88b9bf74a700e05476b00dfab5a8d56c",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "I personally now estimate the current account surplus to be close to $700 billion even after the drop tied the resumption of tourism in 2023."
+      "source_excerpt": "I personally now estimate the current account surplus to be close to $700 billion even after the drop tied the resumption of tourism in 2023.",
+      "source_spans": [
+       {
+        "char_start": 430,
+        "char_end": 571
+       }
+      ]
      }
     ]
    },
@@ -1368,27 +1522,38 @@
     "passages": [
      {
       "paragraph_id": "p29",
+      "paragraph_sha256": "sha256:7e9216bb963de44fd2e797a9858c314a88b9bf74a700e05476b00dfab5a8d56c",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      },
      {
       "paragraph_id": "p33",
+      "paragraph_sha256": "sha256:494b84b1f77b005c4417bab864a51560cd358d9fe272bf80626b2f424e525965",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      },
      {
       "paragraph_id": "p36",
+      "paragraph_sha256": "sha256:ff8a98a722a794d66118442b44e4cddae692c34f0f97a61027376e2f2aefba13",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "the fall in China’s surplus since 2021 is basically an artifact of difficult-to-justify changes in China’s balance of payments methodology. The real story is found in the old fashioned goods data."
+      "source_excerpt": "the fall in China’s surplus since 2021 is basically an artifact of difficult-to-justify changes in China’s balance of payments methodology. The real story is found in the old fashioned goods data.",
+      "source_spans": [
+       {
+        "char_start": 156,
+        "char_end": 352
+       }
+      ]
      }
     ]
    },
@@ -1455,11 +1620,18 @@
     "passages": [
      {
       "paragraph_id": "p3",
+      "paragraph_sha256": "sha256:44af0afebb405bf00e8c5ede458b7eaea9c9877e5ada3989e4996649d1ce84fb",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "the IMF and other guardians of the global economy absolutely should stop using China’s reported current account surplus"
+      "source_excerpt": "the IMF and other guardians of the global economy absolutely should stop using China’s reported current account surplus",
+      "source_spans": [
+       {
+        "char_start": 71,
+        "char_end": 190
+       }
+      ]
      }
     ]
    },
@@ -1519,11 +1691,18 @@
     "passages": [
      {
       "paragraph_id": "p36",
+      "paragraph_sha256": "sha256:ff8a98a722a794d66118442b44e4cddae692c34f0f97a61027376e2f2aefba13",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "a large number of analysts are using China’s current account data to assess China’s impact on the world without realizing"
+      "source_excerpt": "a large number of analysts are using China’s current account data to assess China’s impact on the world without realizing",
+      "source_spans": [
+       {
+        "char_start": 29,
+        "char_end": 150
+       }
+      ]
      }
     ]
    },
@@ -1578,11 +1757,18 @@
     "passages": [
      {
       "paragraph_id": "p11",
+      "paragraph_sha256": "sha256:fe65999403e27205505397855542e7257a0cd881ae798d319c25e5bd10719044",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "That’s all fine and good if the goods are then sold outside of China."
+      "source_excerpt": "That’s all fine and good if the goods are then sold outside of China.",
+      "source_spans": [
+       {
+        "char_start": 0,
+        "char_end": 69
+       }
+      ]
      }
     ]
    },
@@ -1639,19 +1825,28 @@
     "passages": [
      {
       "paragraph_id": "p37",
+      "paragraph_sha256": "sha256:58b115392e546df3d752cf1d54f950f544bec057270c5418b367b152fc9b36dc",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      },
      {
       "paragraph_id": "p38",
+      "paragraph_sha256": "sha256:d4efa91f7105b31067d17d9dec7328d065351b678cba8866984d39069d5590ab",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "The income line in China’s balance of payments provides absolutely no detail, so there is no way of knowing what is and what isn’t in China’s data."
+      "source_excerpt": "The income line in China’s balance of payments provides absolutely no detail, so there is no way of knowing what is and what isn’t in China’s data.",
+      "source_spans": [
+       {
+        "char_start": 3,
+        "char_end": 150
+       }
+      ]
      }
     ]
    },
@@ -1706,19 +1901,28 @@
     "passages": [
      {
       "paragraph_id": "p34",
+      "paragraph_sha256": "sha256:ce22e3415f3d80193657d73d28c05795800d873a137e2934f9b0e02e09e756ce",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      },
      {
       "paragraph_id": "p35",
+      "paragraph_sha256": "sha256:ce383f06b9db075cea869d24d837c09b0bf6f54b4a170cdf8e046df1da42b397",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "As a result, China reports a large income deficit when, in my view, it should not—but that is for a future blog."
+      "source_excerpt": "As a result, China reports a large income deficit when, in my view, it should not—but that is for a future blog.",
+      "source_spans": [
+       {
+        "char_start": 0,
+        "char_end": 112
+       }
+      ]
      }
     ]
    },

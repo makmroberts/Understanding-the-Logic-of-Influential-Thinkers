@@ -403,11 +403,18 @@
     "passages": [
      {
       "paragraph_id": "p12",
+      "paragraph_sha256": "sha256:2e62f4153bc03b2b61220f71d42ccbc3f98ebb292a47f98be085f768f1d4a17c",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "Will China continue to want to keep its currency stable, or would it want to try to offset the (substantial) trade impact of “full” U.S. tariffs with a weaker yuan?"
+      "source_excerpt": "Will China continue to want to keep its currency stable, or would it want to try to offset the (substantial) trade impact of “full” U.S. tariffs with a weaker yuan?",
+      "source_spans": [
+       {
+        "char_start": 85,
+        "char_end": 249
+       }
+      ]
      }
     ]
    },
@@ -467,51 +474,68 @@
     "passages": [
      {
       "paragraph_id": "p1",
+      "paragraph_sha256": "sha256:a4b9124c9f940cbd658620294eaed9b9ba93ead0190b0a985b1847998c0d4c2f",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      },
      {
       "paragraph_id": "p2",
+      "paragraph_sha256": "sha256:f951391bc1213427fa06c6429619f93ecc6507b684b475f971cec607b147fa13",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      },
      {
       "paragraph_id": "p3",
+      "paragraph_sha256": "sha256:b89714f104716ac2c6288ccb10677f713d73c756f2c56e6aac8226a9231ae7a8",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      },
      {
       "paragraph_id": "p4",
+      "paragraph_sha256": "sha256:98a472d4c011fd0095bbef0dfa3f979db59eeac4c283419efcb2a605202c2ffb",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      },
      {
       "paragraph_id": "p5",
+      "paragraph_sha256": "sha256:3b31b74a7db2bafe891312ff8695334d0e3b9cce49078cad117948d41672981a",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      },
      {
       "paragraph_id": "p8",
+      "paragraph_sha256": "sha256:36e59896e87de12b10947437f71475806fc3a3b03215f9555530c2e6fafb40fb",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "Maybe China really miscalculated and pulled back its offer during the negotiations in Beijing last week and thus provoked Trump’s tweet storm. Or perhaps Trump"
+      "source_excerpt": "Maybe China really miscalculated and pulled back its offer during the negotiations in Beijing last week and thus provoked Trump’s tweet storm. Or perhaps Trump",
+      "source_spans": [
+       {
+        "char_start": 0,
+        "char_end": 159
+       }
+      ]
      }
     ]
    },
@@ -583,27 +607,38 @@
     "passages": [
      {
       "paragraph_id": "p9",
+      "paragraph_sha256": "sha256:63b1551e834dd76d56874b1091671f16ff5f10f26469f709ea6c123163c1b7f4",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "putting 25 percent tariffs on close to $550 billion in imports would, if importers cannot substitute away from Chinese goods in the short-run, put something like $140 billion into the U.S. Treasury"
+      "source_excerpt": "putting 25 percent tariffs on close to $550 billion in imports would, if importers cannot substitute away from Chinese goods in the short-run, put something like $140 billion into the U.S. Treasury",
+      "source_spans": [
+       {
+        "char_start": 141,
+        "char_end": 338
+       }
+      ]
      },
      {
       "paragraph_id": "p10",
+      "paragraph_sha256": "sha256:2ff8f780efb994edfb68a69398755034bd3c4d48db6f8f13af01e081ba3b1a74",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      },
      {
       "paragraph_id": "p11",
+      "paragraph_sha256": "sha256:91ee4959c1476bcd53b16ddbe99b003e0cf9a92e163914a77bfdf0f9a9fd7011",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      }
     ]
    },
@@ -665,19 +700,28 @@
     "passages": [
      {
       "paragraph_id": "p10",
+      "paragraph_sha256": "sha256:2ff8f780efb994edfb68a69398755034bd3c4d48db6f8f13af01e081ba3b1a74",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "That’s big enough to notice but, as Dr. Krugman notes, not big enough to generate a recession on its own."
+      "source_excerpt": "That’s big enough to notice but, as Dr. Krugman notes, not big enough to generate a recession on its own.",
+      "source_spans": [
+       {
+        "char_start": 0,
+        "char_end": 105
+       }
+      ]
      },
      {
       "paragraph_id": "p11",
+      "paragraph_sha256": "sha256:91ee4959c1476bcd53b16ddbe99b003e0cf9a92e163914a77bfdf0f9a9fd7011",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      }
     ]
    },
@@ -742,19 +786,28 @@
     "passages": [
      {
       "paragraph_id": "p13",
+      "paragraph_sha256": "sha256:6b902b79d2ea1da84c3e0df7386d41fd9293b230670ef1809a919e1109309825",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "UBS estimates that 25 percent tariffs on all of China’s exports to the United States, plus Chinese retaliation against U.S. imports, might knock 1.5 percentage points off China’s GDP growth"
+      "source_excerpt": "UBS estimates that 25 percent tariffs on all of China’s exports to the United States, plus Chinese retaliation against U.S. imports, might knock 1.5 percentage points off China’s GDP growth",
+      "source_spans": [
+       {
+        "char_start": 0,
+        "char_end": 189
+       }
+      ]
      },
      {
       "paragraph_id": "p40",
+      "paragraph_sha256": "sha256:e8b50463f963059fd03cb983fc9b49ddb3ac2f4cbcbc86e81a01e10542b2563f",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      }
     ]
    },
@@ -833,19 +886,28 @@
     "passages": [
      {
       "paragraph_id": "p14",
+      "paragraph_sha256": "sha256:e36870e01b563be998fb72ab07355c3d7a708f330e0101f1793fae624b27fb11",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      },
      {
       "paragraph_id": "p15",
+      "paragraph_sha256": "sha256:b9fd528dd24c7f30ee122dbc22ac4a2ac5a4808ad6a4ee9c30c6c7f9db93d5ad",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "But letting the yuan weaken has always been, in my view, the logical “asymmetric” Chinese response to a trade war."
+      "source_excerpt": "But letting the yuan weaken has always been, in my view, the logical “asymmetric” Chinese response to a trade war.",
+      "source_spans": [
+       {
+        "char_start": 0,
+        "char_end": 114
+       }
+      ]
      }
     ]
    },
@@ -907,19 +969,28 @@
     "passages": [
      {
       "paragraph_id": "p16",
+      "paragraph_sha256": "sha256:22c3abeb16b031e8c3aef8093f2379ea3b28e21cd8c0df26300ee8b61c59725c",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "The market would certainly test China’s resolve—so if China didn’t want the yuan to weaken, it would need to take action—intervene, manage the fix, tighten controls"
+      "source_excerpt": "The market would certainly test China’s resolve—so if China didn’t want the yuan to weaken, it would need to take action—intervene, manage the fix, tighten controls",
+      "source_spans": [
+       {
+        "char_start": 0,
+        "char_end": 164
+       }
+      ]
      },
      {
       "paragraph_id": "p17",
+      "paragraph_sha256": "sha256:e7b6291f46d4763016f75f9381da8b0970a8b29c4d6209caff7de4b266d6616f",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      }
     ]
    },
@@ -976,19 +1047,28 @@
     "passages": [
      {
       "paragraph_id": "p18",
+      "paragraph_sha256": "sha256:ae769146edefd26135d87e80e319e3f04f0341d107f30b55d03e3be76c51017a",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "China has the firepower it needs to continue to manage its currency (concerns about China’s foreign currency debts are overstated in aggregate"
+      "source_excerpt": "China has the firepower it needs to continue to manage its currency (concerns about China’s foreign currency debts are overstated in aggregate",
+      "source_spans": [
+       {
+        "char_start": 39,
+        "char_end": 181
+       }
+      ]
      },
      {
       "paragraph_id": "p36",
+      "paragraph_sha256": "sha256:e04ff84f7c4008d48f847b4564fa07ff87e2d479aa022695390d7551f3d43da7",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      }
     ]
    },
@@ -1043,19 +1123,28 @@
     "passages": [
      {
       "paragraph_id": "p19",
+      "paragraph_sha256": "sha256:a63f0ee96edee308b29a8eb7e63fb32b6ebead7d43293ca800b407c1672aa46c",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "Indeed, I thought much of the criticism of China’s reported commitment to currency stability in the (now aborted?) trade deal was overdone."
+      "source_excerpt": "Indeed, I thought much of the criticism of China’s reported commitment to currency stability in the (now aborted?) trade deal was overdone.",
+      "source_spans": [
+       {
+        "char_start": 0,
+        "char_end": 139
+       }
+      ]
      },
      {
       "paragraph_id": "p20",
+      "paragraph_sha256": "sha256:b3f0c437091b4eb0f6da410b614a0f11289b06ef575902ba400144cd24b4a750",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      }
     ]
    },
@@ -1115,11 +1204,18 @@
     "passages": [
      {
       "paragraph_id": "p21",
+      "paragraph_sha256": "sha256:4a7d4d71159619dfee10ce4c4aee79d8510dade171deede5d516bd30b7b4e697",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "China’s manufacturing surplus has stayed around $1 trillion even as its current account surplus has come down"
+      "source_excerpt": "China’s manufacturing surplus has stayed around $1 trillion even as its current account surplus has come down",
+      "source_spans": [
+       {
+        "char_start": 0,
+        "char_end": 109
+       }
+      ]
      }
     ]
    },
@@ -1173,19 +1269,28 @@
     "passages": [
      {
       "paragraph_id": "p22",
+      "paragraph_sha256": "sha256:85a0be1199f1e78183748fc6159257fb1d4f512e958d84eb97a0c6e5b68122e6",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "as long as China’s currency stayed stable, its balance of payments, in my view, also would remain stable."
+      "source_excerpt": "as long as China’s currency stayed stable, its balance of payments, in my view, also would remain stable.",
+      "source_spans": [
+       {
+        "char_start": 39,
+        "char_end": 144
+       }
+      ]
      },
      {
       "paragraph_id": "p28",
+      "paragraph_sha256": "sha256:5f8dea4841f67ae88f63882d072a01f470bf3c1a46b9659e48e495ae073017c9",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      }
     ]
    },
@@ -1245,19 +1350,28 @@
     "passages": [
      {
       "paragraph_id": "p23",
+      "paragraph_sha256": "sha256:42aef1f032b2d47a851f960d3576ee32b25a751fc9cfddefb93db0f91adaa68f",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      },
      {
       "paragraph_id": "p24",
+      "paragraph_sha256": "sha256:1c958696d487bf7312b6028c5831200cea3a0b1b1f9ce1bc65474a3f9286e151",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "But looking only at reserves misses the real action in China’s balance of payments these days."
+      "source_excerpt": "But looking only at reserves misses the real action in China’s balance of payments these days.",
+      "source_spans": [
+       {
+        "char_start": 0,
+        "char_end": 94
+       }
+      ]
      }
     ]
    },
@@ -1317,19 +1431,28 @@
     "passages": [
      {
       "paragraph_id": "p25",
+      "paragraph_sha256": "sha256:3eb44c229e88d7885f52b41f39d5e5e35ac6b605a77ed67e6ef8fe65bda7e391",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "Every indicator I have found suggests the state banks now have a substantial (and growing) net foreign asset position."
+      "source_excerpt": "Every indicator I have found suggests the state banks now have a substantial (and growing) net foreign asset position.",
+      "source_spans": [
+       {
+        "char_start": 290,
+        "char_end": 408
+       }
+      ]
      },
      {
       "paragraph_id": "p26",
+      "paragraph_sha256": "sha256:4bc57ac3846a4b878f6c88ebffc150ff0c27f50221b3739dd3b855888df9cedb",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      }
     ]
    },
@@ -1389,11 +1512,18 @@
     "passages": [
      {
       "paragraph_id": "p25",
+      "paragraph_sha256": "sha256:3eb44c229e88d7885f52b41f39d5e5e35ac6b605a77ed67e6ef8fe65bda7e391",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "The BIS data (which shows global banks exposure to China) isn’t that different from China’s own data."
+      "source_excerpt": "The BIS data (which shows global banks exposure to China) isn’t that different from China’s own data.",
+      "source_spans": [
+       {
+        "char_start": 409,
+        "char_end": 510
+       }
+      ]
      }
     ]
    },
@@ -1448,27 +1578,38 @@
     "passages": [
      {
       "paragraph_id": "p27",
+      "paragraph_sha256": "sha256:809711eae7dd14f5c2fba87f951551cce648709ab5cec035312fc8b276967411",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      },
      {
       "paragraph_id": "p28",
+      "paragraph_sha256": "sha256:5f8dea4841f67ae88f63882d072a01f470bf3c1a46b9659e48e495ae073017c9",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      },
      {
       "paragraph_id": "p29",
+      "paragraph_sha256": "sha256:fc0b3ccc8d31e3b8708e3b55b392475cd980350ff889b2a8d1574406582671ff",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "There have been months when China’s state banks have sold foreign currency, but also months when China’s state banks have bought."
+      "source_excerpt": "There have been months when China’s state banks have sold foreign currency, but also months when China’s state banks have bought.",
+      "source_spans": [
+       {
+        "char_start": 101,
+        "char_end": 230
+       }
+      ]
      }
     ]
    },
@@ -1539,11 +1680,13 @@
     "passages": [
      {
       "paragraph_id": "p29",
+      "paragraph_sha256": "sha256:fc0b3ccc8d31e3b8708e3b55b392475cd980350ff889b2a8d1574406582671ff",
       "relation": "presupposes",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      }
     ]
    },
@@ -1598,35 +1741,48 @@
     "passages": [
      {
       "paragraph_id": "p30",
+      "paragraph_sha256": "sha256:d5c201eed1cc311944b9a1c60ae30d453ec34496bc321b1f1290c137ace3f2b8",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      },
      {
       "paragraph_id": "p31",
+      "paragraph_sha256": "sha256:2dd9259c2a6e63e384bea00458de22d4206d62ec1158af06ab2b26cc833544d1",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "Well, because it lends itself to two different interpretations of what China can and should do in response to the increase in U.S. tariffs."
+      "source_excerpt": "Well, because it lends itself to two different interpretations of what China can and should do in response to the increase in U.S. tariffs.",
+      "source_spans": [
+       {
+        "char_start": 0,
+        "char_end": 139
+       }
+      ]
      },
      {
       "paragraph_id": "p32",
+      "paragraph_sha256": "sha256:ee37f602f02340f2386effbab5c7c86c082fac3b59601cbe48a62ca9ec71fe19",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      },
      {
       "paragraph_id": "p34",
+      "paragraph_sha256": "sha256:a7b3b34fba924f04205b76773bc4d7ce917511b0f1f27618c03883dfc2db128e",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      }
     ]
    },
@@ -1681,19 +1837,28 @@
     "passages": [
      {
       "paragraph_id": "p32",
+      "paragraph_sha256": "sha256:ee37f602f02340f2386effbab5c7c86c082fac3b59601cbe48a62ca9ec71fe19",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      },
      {
       "paragraph_id": "p33",
+      "paragraph_sha256": "sha256:d16b1fd502032b2b1bba1f02251c71b04363af5fee5c94ed93f8084516863f3e",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "if China signaled that the yuan would remain stable, portfolio inflows would likely continue—and a modest deficit need not put any real strain on China’s reserves"
+      "source_excerpt": "if China signaled that the yuan would remain stable, portfolio inflows would likely continue—and a modest deficit need not put any real strain on China’s reserves",
+      "source_spans": [
+       {
+        "char_start": 399,
+        "char_end": 561
+       }
+      ]
      }
     ]
    },
@@ -1760,19 +1925,28 @@
     "passages": [
      {
       "paragraph_id": "p34",
+      "paragraph_sha256": "sha256:a7b3b34fba924f04205b76773bc4d7ce917511b0f1f27618c03883dfc2db128e",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      },
      {
       "paragraph_id": "p35",
+      "paragraph_sha256": "sha256:73b34c1bf2226c60160e041f2c6d29d41b488d8c0e0616559460411623bcfc96",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "That would let Chinese firms (who have already started to complain) cut their dollar prices (offsetting some of the impact of the tariff) without reducing their yuan revenues"
+      "source_excerpt": "That would let Chinese firms (who have already started to complain) cut their dollar prices (offsetting some of the impact of the tariff) without reducing their yuan revenues",
+      "source_spans": [
+       {
+        "char_start": 0,
+        "char_end": 174
+       }
+      ]
      }
     ]
    },
@@ -1834,11 +2008,18 @@
     "passages": [
      {
       "paragraph_id": "p34",
+      "paragraph_sha256": "sha256:a7b3b34fba924f04205b76773bc4d7ce917511b0f1f27618c03883dfc2db128e",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "Controlled depreciations are hard—the market (even a controlled market like the market for the yuan) obviously has an incentive to front run any predictable move (as China learned in 15 and 16)."
+      "source_excerpt": "Controlled depreciations are hard—the market (even a controlled market like the market for the yuan) obviously has an incentive to front run any predictable move (as China learned in 15 and 16).",
+      "source_spans": [
+       {
+        "char_start": 223,
+        "char_end": 417
+       }
+      ]
      }
     ]
    },
@@ -1898,11 +2079,18 @@
     "passages": [
      {
       "paragraph_id": "p37",
+      "paragraph_sha256": "sha256:772d30327b8a0d89a7c091ce34200b40609c1226e7a325539a5e29fd6c310cab",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "A weaker yuan, in effect, redistributes some of China’s trade pain globally"
+      "source_excerpt": "A weaker yuan, in effect, redistributes some of China’s trade pain globally",
+      "source_spans": [
+       {
+        "char_start": 628,
+        "char_end": 703
+       }
+      ]
      }
     ]
    },
@@ -1959,19 +2147,28 @@
     "passages": [
      {
       "paragraph_id": "p38",
+      "paragraph_sha256": "sha256:51be39ea5409f1d9a13c661d1a393d0dfad776ac5e5de566e614a7f2d58f55d1",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "Trump would also have to decide if he would raise the tariff rate above 25 percent in response to China’s depreciation"
+      "source_excerpt": "Trump would also have to decide if he would raise the tariff rate above 25 percent in response to China’s depreciation",
+      "source_spans": [
+       {
+        "char_start": 8,
+        "char_end": 126
+       }
+      ]
      },
      {
       "paragraph_id": "p42",
+      "paragraph_sha256": "sha256:70d49ca90a78eb4451d75b6781e2aa1f17993c50c00aad4ab933a93c0dee1cee",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      }
     ]
    },
@@ -2039,27 +2236,38 @@
     "passages": [
      {
       "paragraph_id": "p36",
+      "paragraph_sha256": "sha256:e04ff84f7c4008d48f847b4564fa07ff87e2d479aa022695390d7551f3d43da7",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      },
      {
       "paragraph_id": "p39",
+      "paragraph_sha256": "sha256:5c768aee3ab892907e6f7576722357462699ac1f324f44dbbf2e953a851fd531",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "That’s why my best guess is that China limits any near-term move as it tries to see if there is still time (and will) to cut a deal that avoids further escalation."
+      "source_excerpt": "That’s why my best guess is that China limits any near-term move as it tries to see if there is still time (and will) to cut a deal that avoids further escalation.",
+      "source_spans": [
+       {
+        "char_start": 0,
+        "char_end": 163
+       }
+      ]
      },
      {
       "paragraph_id": "p42",
+      "paragraph_sha256": "sha256:70d49ca90a78eb4451d75b6781e2aa1f17993c50c00aad4ab933a93c0dee1cee",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      }
     ]
    },
@@ -2121,19 +2329,28 @@
     "passages": [
      {
       "paragraph_id": "p11",
+      "paragraph_sha256": "sha256:91ee4959c1476bcd53b16ddbe99b003e0cf9a92e163914a77bfdf0f9a9fd7011",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      },
      {
       "paragraph_id": "p41",
+      "paragraph_sha256": "sha256:9f28652f0222503f9ab269479f2331fc220c2c74ee6939f316a8fd4dc7bf0c29",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "The gap between the extensive coverage that trade policy shifts receive relative to the limited coverage typically provided to the impact of exchange rate moves is a pet peeve of mine."
+      "source_excerpt": "The gap between the extensive coverage that trade policy shifts receive relative to the limited coverage typically provided to the impact of exchange rate moves is a pet peeve of mine.",
+      "source_spans": [
+       {
+        "char_start": 3,
+        "char_end": 187
+       }
+      ]
      }
     ]
    },

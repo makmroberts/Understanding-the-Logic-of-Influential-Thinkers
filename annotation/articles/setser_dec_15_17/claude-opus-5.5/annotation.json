@@ -453,27 +453,38 @@
     "passages": [
      {
       "paragraph_id": "p1",
+      "paragraph_sha256": "sha256:fc92eff79174037a92dd601614a2ae5e2e186f1dbe27bf93f89cf6d8d695faee",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      },
      {
       "paragraph_id": "p2",
+      "paragraph_sha256": "sha256:b90ed95d4595531408edbd52a8f2288aec85ea29e1f4d3989abe38e6f3154b24",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "But I still think it is a variable worth watching."
+      "source_excerpt": "But I still think it is a variable worth watching.",
+      "source_spans": [
+       {
+        "char_start": 315,
+        "char_end": 365
+       }
+      ]
      },
      {
       "paragraph_id": "p3",
+      "paragraph_sha256": "sha256:43b4411c9cd5c27452695f7900db98f32352251756830eeaa07ecd44450ed9f3",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      }
     ]
    },
@@ -522,11 +533,18 @@
     "passages": [
      {
       "paragraph_id": "p3",
+      "paragraph_sha256": "sha256:43b4411c9cd5c27452695f7900db98f32352251756830eeaa07ecd44450ed9f3",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "a widening of the trade deficit (as happened in October, in a reasonably big way) can reflect a strengthening economy, as higher imports are often a sign of stronger demand growth"
+      "source_excerpt": "a widening of the trade deficit (as happened in October, in a reasonably big way) can reflect a strengthening economy, as higher imports are often a sign of stronger demand growth",
+      "source_spans": [
+       {
+        "char_start": 54,
+        "char_end": 233
+       }
+      ]
      }
     ]
    },
@@ -580,19 +598,28 @@
     "passages": [
      {
       "paragraph_id": "p4",
+      "paragraph_sha256": "sha256:2234e242348f34d836790e73bd2c9a6849884e077f58cdf0e037b234bbb6defe",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "the monthly release is quite noisy (aircraft exports jump around from month to month as do net oil imports"
+      "source_excerpt": "the monthly release is quite noisy (aircraft exports jump around from month to month as do net oil imports",
+      "source_spans": [
+       {
+        "char_start": 108,
+        "char_end": 214
+       }
+      ]
      },
      {
       "paragraph_id": "p13",
+      "paragraph_sha256": "sha256:e0a3c27ee0ef4c0e84491d2e613b32b42f5c90b2cbad813c0a77863abf977556",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      }
     ]
    },
@@ -647,35 +674,48 @@
     "passages": [
      {
       "paragraph_id": "p5",
+      "paragraph_sha256": "sha256:2749645ba73945ce5f143cf73006b6093b14b8781cd0fdc59dd0539ad47d7bd2",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "Yet I think the trade balance matters for three reasons:"
+      "source_excerpt": "Yet I think the trade balance matters for three reasons:",
+      "source_spans": [
+       {
+        "char_start": 0,
+        "char_end": 56
+       }
+      ]
      },
      {
       "paragraph_id": "p9",
+      "paragraph_sha256": "sha256:c3e4f42c2b5ce6a1acceed0f17762ade75019a1a4a70462259d0ba5e4b95d9f3",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      },
      {
       "paragraph_id": "p25",
+      "paragraph_sha256": "sha256:8a1e4bbed0f93e5c41a1dc96c7b85c55853adc84e541ae2c07ccee7e0cfe969d",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      },
      {
       "paragraph_id": "p33",
+      "paragraph_sha256": "sha256:98ac758e225e7f8dea3c9613c4ae3087cf781f246b10130d7a4a37a3bf7b94cf",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      }
     ]
    },
@@ -736,27 +776,38 @@
     "passages": [
      {
       "paragraph_id": "p10",
+      "paragraph_sha256": "sha256:8427a4ce3263b21a3326b9ebe112209c6bd3334758820924c1bffb8b5cddc0f9",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      },
      {
       "paragraph_id": "p12",
+      "paragraph_sha256": "sha256:ec5e6226821799ee242bb160ea2772d785da329f8e8db9e1aeac626a6786b0f3",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "An acceleration of demand that isn’t matched by a widening of the trade deficit results, mechanically, in a faster expansion."
+      "source_excerpt": "An acceleration of demand that isn’t matched by a widening of the trade deficit results, mechanically, in a faster expansion.",
+      "source_spans": [
+       {
+        "char_start": 0,
+        "char_end": 125
+       }
+      ]
      },
      {
       "paragraph_id": "p14",
+      "paragraph_sha256": "sha256:f875ad379b9e73636296165ba63caf027829d11f2ccffa1e3c322ad1eb3bf12d",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      }
     ]
    },
@@ -810,35 +861,48 @@
     "passages": [
      {
       "paragraph_id": "p13",
+      "paragraph_sha256": "sha256:e0a3c27ee0ef4c0e84491d2e613b32b42f5c90b2cbad813c0a77863abf977556",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      },
      {
       "paragraph_id": "p15",
+      "paragraph_sha256": "sha256:1d8849743aad602b6035faef4d3bb25cc24385077d88175c49398bebe1c6c8f3",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "From the end of q4 2013 to the end of q4 2016, net exports subtracted about 1.5 percentage points from U.S. growth"
+      "source_excerpt": "From the end of q4 2013 to the end of q4 2016, net exports subtracted about 1.5 percentage points from U.S. growth",
+      "source_spans": [
+       {
+        "char_start": 0,
+        "char_end": 114
+       }
+      ]
      },
      {
       "paragraph_id": "p16",
+      "paragraph_sha256": "sha256:b3a49a1a503758fdad7c3a6bd7b1ce9d40f370e68d0c9238c5acf856aec5db46",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      },
      {
       "paragraph_id": "p18",
+      "paragraph_sha256": "sha256:592063f702f9a7f6c81f0b8d7937a2fdbd3670186f64f0c0ba2bfd72c49baa89",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      }
     ]
    },
@@ -900,19 +964,28 @@
     "passages": [
      {
       "paragraph_id": "p15",
+      "paragraph_sha256": "sha256:1d8849743aad602b6035faef4d3bb25cc24385077d88175c49398bebe1c6c8f3",
       "relation": "presupposes",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "At least in 2014 and 2015 the U.S. economy still had some slack, so a smaller drag from trade likely would have meant a faster pace of growth."
+      "source_excerpt": "At least in 2014 and 2015 the U.S. economy still had some slack, so a smaller drag from trade likely would have meant a faster pace of growth.",
+      "source_spans": [
+       {
+        "char_start": 198,
+        "char_end": 340
+       }
+      ]
      },
      {
       "paragraph_id": "p16",
+      "paragraph_sha256": "sha256:b3a49a1a503758fdad7c3a6bd7b1ce9d40f370e68d0c9238c5acf856aec5db46",
       "relation": "presupposes",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      }
     ]
    },
@@ -966,19 +1039,28 @@
     "passages": [
      {
       "paragraph_id": "p15",
+      "paragraph_sha256": "sha256:1d8849743aad602b6035faef4d3bb25cc24385077d88175c49398bebe1c6c8f3",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      },
      {
       "paragraph_id": "p17",
+      "paragraph_sha256": "sha256:0e2a52319f88bfcf070a4a69f2d99fa768406dc3b6a27608de3d160bfe3f4db5",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "in part because the “headline” trade deficit was more or less flat because of the fall in the price of oil."
+      "source_excerpt": "in part because the “headline” trade deficit was more or less flat because of the fall in the price of oil.",
+      "source_spans": [
+       {
+        "char_start": 139,
+        "char_end": 246
+       }
+      ]
      }
     ]
    },
@@ -1039,35 +1121,48 @@
     "passages": [
      {
       "paragraph_id": "p19",
+      "paragraph_sha256": "sha256:c560b75d7e395dd132386e89ce4964c7ff81d5f77d427e1292aa03819f75ca59",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "Sometimes a widening of the deficit can reflect excessive domestic demand growth (overheating)"
+      "source_excerpt": "Sometimes a widening of the deficit can reflect excessive domestic demand growth (overheating)",
+      "source_spans": [
+       {
+        "char_start": 91,
+        "char_end": 185
+       }
+      ]
      },
      {
       "paragraph_id": "p20",
+      "paragraph_sha256": "sha256:81c7d6a8c292726e0166818262c86af9c125cef6411c7a2c6a00d1e95f49b07d",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      },
      {
       "paragraph_id": "p21",
+      "paragraph_sha256": "sha256:8b9ab54cc8d3b5d08db6957538322a59964a5b0fd70f8051e352f15426648b9a",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      },
      {
       "paragraph_id": "p22",
+      "paragraph_sha256": "sha256:e0320825bcc01f03a5e60d892f667b50ed30c9a14ddc52c79005e6ade6ab343e",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      }
     ]
    },
@@ -1121,19 +1216,28 @@
     "passages": [
      {
       "paragraph_id": "p23",
+      "paragraph_sha256": "sha256:69d696f0aaef42d0bf0a1b7dfbdb747f0982dfa2e800ab875f45f008357ae1cf",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      },
      {
       "paragraph_id": "p24",
+      "paragraph_sha256": "sha256:54f5c5d2099f7ed6bafcaffac67237a3536a977535a9a1e7c302dfad76400012",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "The U.S. export sector (sadly) is also quite small, so mechanically it is hard to get a big boost to growth from exports."
+      "source_excerpt": "The U.S. export sector (sadly) is also quite small, so mechanically it is hard to get a big boost to growth from exports.",
+      "source_spans": [
+       {
+        "char_start": 0,
+        "char_end": 121
+       }
+      ]
      }
     ]
    },
@@ -1187,19 +1291,28 @@
     "passages": [
      {
       "paragraph_id": "p25",
+      "paragraph_sha256": "sha256:8a1e4bbed0f93e5c41a1dc96c7b85c55853adc84e541ae2c07ccee7e0cfe969d",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      },
      {
       "paragraph_id": "p26",
+      "paragraph_sha256": "sha256:45349bf109baf8e331d29e257613fece6210f4fc509c72e8b1a96d30829dd169",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "The trade deficit thus impacts the distribution of employment, not the absolute level of employment."
+      "source_excerpt": "The trade deficit thus impacts the distribution of employment, not the absolute level of employment.",
+      "source_spans": [
+       {
+        "char_start": 85,
+        "char_end": 185
+       }
+      ]
      }
     ]
    },
@@ -1253,27 +1366,38 @@
     "passages": [
      {
       "paragraph_id": "p27",
+      "paragraph_sha256": "sha256:86fab68e3ab81e0b71da8d7858727962d38eab7194f0ae147209d9f1aabb9501",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      },
      {
       "paragraph_id": "p28",
+      "paragraph_sha256": "sha256:142d13e1ad2a47872499599448d4939481293d4538f8b43ee84bab085da7ca1c",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "Manufacturing is twenty percent of employment in Germany, compared to around ten percent in the U.S."
+      "source_excerpt": "Manufacturing is twenty percent of employment in Germany, compared to around ten percent in the U.S.",
+      "source_spans": [
+       {
+        "char_start": 262,
+        "char_end": 362
+       }
+      ]
      },
      {
       "paragraph_id": "p30",
+      "paragraph_sha256": "sha256:35fe244b8dbda16145dce03591a5ac5d76aa4af5d9c9eb7736b3670ce500ffc0",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      }
     ]
    },
@@ -1333,19 +1457,28 @@
     "passages": [
      {
       "paragraph_id": "p29",
+      "paragraph_sha256": "sha256:5d8a995a6fa7cf7c577cc9d49ca9e00d4aee4d0bcd5e2ad5caff27e2a8097276",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      },
      {
       "paragraph_id": "p30",
+      "paragraph_sha256": "sha256:35fe244b8dbda16145dce03591a5ac5d76aa4af5d9c9eb7736b3670ce500ffc0",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "Variation in the trade balance—not technology—clearly explains much of the current variation in manufacturing’s share of employment."
+      "source_excerpt": "Variation in the trade balance—not technology—clearly explains much of the current variation in manufacturing’s share of employment.",
+      "source_spans": [
+       {
+        "char_start": 241,
+        "char_end": 373
+       }
+      ]
      }
     ]
    },
@@ -1401,11 +1534,18 @@
     "passages": [
      {
       "paragraph_id": "p27",
+      "paragraph_sha256": "sha256:86fab68e3ab81e0b71da8d7858727962d38eab7194f0ae147209d9f1aabb9501",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "As many have noted, high productivity growth in manufacturing has reduced manufacturing’s share of employment around the world."
+      "source_excerpt": "As many have noted, high productivity growth in manufacturing has reduced manufacturing’s share of employment around the world.",
+      "source_spans": [
+       {
+        "char_start": 0,
+        "char_end": 127
+       }
+      ]
      }
     ]
    },
@@ -1454,19 +1594,28 @@
     "passages": [
      {
       "paragraph_id": "p31",
+      "paragraph_sha256": "sha256:b6e90abd4c05156562f4e8f97ee7fc479c6db4dc74f87bf559dbcd411528602d",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "It has come rather through a rise in the offshore income of U.S. firms"
+      "source_excerpt": "It has come rather through a rise in the offshore income of U.S. firms",
+      "source_spans": [
+       {
+        "char_start": 206,
+        "char_end": 276
+       }
+      ]
      },
      {
       "paragraph_id": "p32",
+      "paragraph_sha256": "sha256:e36861468a4ce9c9c4ba260ef2b21ee576c74d130e02ba0606ee60a928348173",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      }
     ]
    },
@@ -1527,19 +1676,28 @@
     "passages": [
      {
       "paragraph_id": "p34",
+      "paragraph_sha256": "sha256:e5e246485838164e736fb1b1fe7c0fa806d80e199aea3e2abcc9ae13625a5469",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      },
      {
       "paragraph_id": "p35",
+      "paragraph_sha256": "sha256:9408edf3d04e36fcc8734ed765bb0f632b7af134c5b44fc144f820103fd93272",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "a 5-6 percent of GDP trade deficit does lead to steady increases in the U.S. external debt stock"
+      "source_excerpt": "a 5-6 percent of GDP trade deficit does lead to steady increases in the U.S. external debt stock",
+      "source_spans": [
+       {
+        "char_start": 30,
+        "char_end": 126
+       }
+      ]
      }
     ]
    },
@@ -1599,11 +1757,18 @@
     "passages": [
      {
       "paragraph_id": "p36",
+      "paragraph_sha256": "sha256:f73183a4a486a92931ca992b8935c3ad8cf58973531b8880059cb27bcd3d681c",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "We did though get one thing very wrong: we worried that rising external debt would ultimately raise the United States’ external cost of borrowing."
+      "source_excerpt": "We did though get one thing very wrong: we worried that rising external debt would ultimately raise the United States’ external cost of borrowing.",
+      "source_spans": [
+       {
+        "char_start": 0,
+        "char_end": 146
+       }
+      ]
      }
     ]
    },
@@ -1657,35 +1822,48 @@
     "passages": [
      {
       "paragraph_id": "p37",
+      "paragraph_sha256": "sha256:aba2c6b3f6767e90ac6ef5a31656f28d8086dbf3a65d9af82e337e718a5c99a0",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      },
      {
       "paragraph_id": "p38",
+      "paragraph_sha256": "sha256:6796190b733c494a8e12f7b6dfe7be933e708fa15206f46608eeca19194373e0",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      },
      {
       "paragraph_id": "p39",
+      "paragraph_sha256": "sha256:7778e44837060e250ae406ab751468917326ff39258a6e384bced4a6de5ca913",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "nominal growth exceeds the nominal interest rate the U.S. pays on its external debt—creating favorable intrinsic debt dynamics."
+      "source_excerpt": "nominal growth exceeds the nominal interest rate the U.S. pays on its external debt—creating favorable intrinsic debt dynamics.",
+      "source_spans": [
+       {
+        "char_start": 181,
+        "char_end": 308
+       }
+      ]
      },
      {
       "paragraph_id": "p40",
+      "paragraph_sha256": "sha256:6d3c22406d174105f1fa55eea1fff6621600c74d4f614c847f2068a11b36b6be",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      }
     ]
    },
@@ -1757,11 +1935,18 @@
     "passages": [
      {
       "paragraph_id": "p41",
+      "paragraph_sha256": "sha256:f470ea67e5c58843dcc8a09b990ea4afc899066ac69de2171f12654bb2d66ac8",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "personally I think external debt tends to be more of a source of risk than domestic fiscal debt"
+      "source_excerpt": "personally I think external debt tends to be more of a source of risk than domestic fiscal debt",
+      "source_spans": [
+       {
+        "char_start": 4,
+        "char_end": 99
+       }
+      ]
      }
     ]
    },
@@ -1810,27 +1995,38 @@
     "passages": [
      {
       "paragraph_id": "p19",
+      "paragraph_sha256": "sha256:c560b75d7e395dd132386e89ce4964c7ff81d5f77d427e1292aa03819f75ca59",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      },
      {
       "paragraph_id": "p41",
+      "paragraph_sha256": "sha256:f470ea67e5c58843dcc8a09b990ea4afc899066ac69de2171f12654bb2d66ac8",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      },
      {
       "paragraph_id": "p43",
+      "paragraph_sha256": "sha256:155f6e473625b61cbffdaf6e831f61ce3f7e3178493f9d1411bf63601036c3e1",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "I think it is reasonable to expect a widening of the trade deficit of between 0.3 and 0.5 percentage points of GDP"
+      "source_excerpt": "I think it is reasonable to expect a widening of the trade deficit of between 0.3 and 0.5 percentage points of GDP",
+      "source_spans": [
+       {
+        "char_start": 274,
+        "char_end": 388
+       }
+      ]
      }
     ]
    },
@@ -1896,11 +2092,18 @@
     "passages": [
      {
       "paragraph_id": "p42",
+      "paragraph_sha256": "sha256:29a918aa3e6ac51ba47f54d42465ac1dc1bbc5b60cd0267f7dfb0ef352aff27c",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "Measures that raise trade integration should raise the absolute level of trade more than they change the trade balance."
+      "source_excerpt": "Measures that raise trade integration should raise the absolute level of trade more than they change the trade balance.",
+      "source_spans": [
+       {
+        "char_start": 207,
+        "char_end": 326
+       }
+      ]
      }
     ]
    },
@@ -1965,11 +2168,18 @@
     "passages": [
      {
       "paragraph_id": "p44",
+      "paragraph_sha256": "sha256:2bfe64c32c02a98951cb431265bfc9fb4703eeab938fb4ec25715a5451dfb338",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "Martin Sandbu has argued that current account deficits can be financed with equity. True enough."
+      "source_excerpt": "Martin Sandbu has argued that current account deficits can be financed with equity. True enough.",
+      "source_spans": [
+       {
+        "char_start": 3,
+        "char_end": 99
+       }
+      ]
      }
     ]
    },
@@ -2023,19 +2233,28 @@
     "passages": [
      {
       "paragraph_id": "p47",
+      "paragraph_sha256": "sha256:6ba30953e90b7ef5dfc550043c3e63d6d8392d0549500d4cc244db8ae4838620",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "Goldman and Deutsche Bank have both argued in the past week that the U.S. trade deficit is significantly overstated because of profit shifting."
+      "source_excerpt": "Goldman and Deutsche Bank have both argued in the past week that the U.S. trade deficit is significantly overstated because of profit shifting.",
+      "source_spans": [
+       {
+        "char_start": 5,
+        "char_end": 148
+       }
+      ]
      },
      {
       "paragraph_id": "p48",
+      "paragraph_sha256": "sha256:1512e3536919660e41ec3a11d1f912999460f90b28a6b64fd461c715aeff23dc",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      }
     ]
    },
@@ -2095,11 +2314,18 @@
     "passages": [
      {
       "paragraph_id": "p49",
+      "paragraph_sha256": "sha256:e12aa84f0fd91e2ff37d843d96b0e45f09a547518dc7ccc72d75b0dec604bb7d",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "their baseline suggests the dollar needs to depreciate to assure U.S. external sustainability."
+      "source_excerpt": "their baseline suggests the dollar needs to depreciate to assure U.S. external sustainability.",
+      "source_spans": [
+       {
+        "char_start": 269,
+        "char_end": 363
+       }
+      ]
      }
     ]
    },

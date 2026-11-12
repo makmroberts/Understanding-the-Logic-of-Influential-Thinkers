@@ -120,19 +120,28 @@
     "passages": [
      {
       "paragraph_id": "p3",
+      "paragraph_sha256": "sha256:ad88b99b8096c936c73947badd8aa595783ad0cb204160ab59caeda44a318055",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "The fall October’s deficit relative to September’s is entirely due to swings in pharmaceutical imports and gold imports (and exports)."
+      "source_excerpt": "The fall October’s deficit relative to September’s is entirely due to swings in pharmaceutical imports and gold imports (and exports).",
+      "source_spans": [
+       {
+        "char_start": 0,
+        "char_end": 134
+       }
+      ]
      },
      {
       "paragraph_id": "p10",
+      "paragraph_sha256": "sha256:bf067b1c9d0433a7d8dbe6eb828b7b0535765d47db91f3a2913d8b27e43a19ea",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      }
     ]
    },
@@ -187,11 +196,18 @@
     "passages": [
      {
       "paragraph_id": "p3",
+      "paragraph_sha256": "sha256:ad88b99b8096c936c73947badd8aa595783ad0cb204160ab59caeda44a318055",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "Ironically, neither category has been subject to tariffs."
+      "source_excerpt": "Ironically, neither category has been subject to tariffs.",
+      "source_spans": [
+       {
+        "char_start": 135,
+        "char_end": 192
+       }
+      ]
      }
     ]
    },
@@ -251,27 +267,38 @@
     "passages": [
      {
       "paragraph_id": "p4",
+      "paragraph_sha256": "sha256:5a00029b773b9bfbffcc09dcc32af90a7466f904c844928dc8c0bad144307ae9",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "Fear of a pharmaceutical tariff led to large imports of pharmaceuticals in February and March 2025, ahead of the Liberation Day tariff rollout."
+      "source_excerpt": "Fear of a pharmaceutical tariff led to large imports of pharmaceuticals in February and March 2025, ahead of the Liberation Day tariff rollout.",
+      "source_spans": [
+       {
+        "char_start": 0,
+        "char_end": 143
+       }
+      ]
      },
      {
       "paragraph_id": "p5",
+      "paragraph_sha256": "sha256:4787ff819af6426b3cd55fed4216319c2facbd9a20f30965961b7af3a870810f",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      },
      {
       "paragraph_id": "p6",
+      "paragraph_sha256": "sha256:6499a8f88959b0279c0635318a654d1e70adc935ebee5476760f97edd4820caf",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      }
     ]
    },
@@ -333,19 +360,23 @@
     "passages": [
      {
       "paragraph_id": "p6",
+      "paragraph_sha256": "sha256:6499a8f88959b0279c0635318a654d1e70adc935ebee5476760f97edd4820caf",
       "relation": "presupposes",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      },
      {
       "paragraph_id": "p7",
+      "paragraph_sha256": "sha256:922af0ef20003a395939559c4c44e09e93414d9dad2c5f4ba7fe7cf65a0ab1e7",
       "relation": "presupposes",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      }
     ]
    },
@@ -402,19 +433,28 @@
     "passages": [
      {
       "paragraph_id": "p7",
+      "paragraph_sha256": "sha256:922af0ef20003a395939559c4c44e09e93414d9dad2c5f4ba7fe7cf65a0ab1e7",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "If gold and pharmaceuticals are removed from the October data, the October trade deficit was actually a bit bigger than the September deficit."
+      "source_excerpt": "If gold and pharmaceuticals are removed from the October data, the October trade deficit was actually a bit bigger than the September deficit.",
+      "source_spans": [
+       {
+        "char_start": 0,
+        "char_end": 142
+       }
+      ]
      },
      {
       "paragraph_id": "p10",
+      "paragraph_sha256": "sha256:bf067b1c9d0433a7d8dbe6eb828b7b0535765d47db91f3a2913d8b27e43a19ea",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      }
     ]
    },
@@ -471,11 +511,18 @@
     "passages": [
      {
       "paragraph_id": "p10",
+      "paragraph_sha256": "sha256:bf067b1c9d0433a7d8dbe6eb828b7b0535765d47db91f3a2913d8b27e43a19ea",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "That led President Donald Trump’s trade team to claim some success."
+      "source_excerpt": "That led President Donald Trump’s trade team to claim some success.",
+      "source_spans": [
+       {
+        "char_start": 199,
+        "char_end": 266
+       }
+      ]
      }
     ]
    },
@@ -530,19 +577,28 @@
     "passages": [
      {
       "paragraph_id": "p10",
+      "paragraph_sha256": "sha256:bf067b1c9d0433a7d8dbe6eb828b7b0535765d47db91f3a2913d8b27e43a19ea",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "The monthly deficits in August, September, and October 2025 were all a bit smaller than the deficits in comparable months in 2024."
+      "source_excerpt": "The monthly deficits in August, September, and October 2025 were all a bit smaller than the deficits in comparable months in 2024.",
+      "source_spans": [
+       {
+        "char_start": 68,
+        "char_end": 198
+       }
+      ]
      },
      {
       "paragraph_id": "p11",
+      "paragraph_sha256": "sha256:c540f884989d25791132dfbaf6ff2fdd713935b6f4848476bec7f84c42a84126",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      }
     ]
    },
@@ -597,11 +653,18 @@
     "passages": [
      {
       "paragraph_id": "p11",
+      "paragraph_sha256": "sha256:c540f884989d25791132dfbaf6ff2fdd713935b6f4848476bec7f84c42a84126",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "Thus, the dip in imports will not last that much longer; stockpiles do run out."
+      "source_excerpt": "Thus, the dip in imports will not last that much longer; stockpiles do run out.",
+      "source_spans": [
+       {
+        "char_start": 255,
+        "char_end": 334
+       }
+      ]
      }
     ]
    },
@@ -655,19 +718,28 @@
     "passages": [
      {
       "paragraph_id": "p11",
+      "paragraph_sha256": "sha256:c540f884989d25791132dfbaf6ff2fdd713935b6f4848476bec7f84c42a84126",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "stockpiles do run out"
+      "source_excerpt": "stockpiles do run out",
+      "source_spans": [
+       {
+        "char_start": 312,
+        "char_end": 333
+       }
+      ]
      },
      {
       "paragraph_id": "p16",
+      "paragraph_sha256": "sha256:3bd79ffe3e9f9c8e52db629359840aa578d03ef11a88b4d1b8fbd620f50b0b47",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      }
     ]
    },
@@ -716,11 +788,18 @@
     "passages": [
      {
       "paragraph_id": "p13",
+      "paragraph_sha256": "sha256:cb0c8dac9a2797a406d41d3a7b1ef87797cb2fe0da263016d5960377de6fc63c",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "Imports of autos—which have been heavily tariffed—are down. So, too, are overall auto sales, as U.S. auto production has not surged with the drop in imports."
+      "source_excerpt": "Imports of autos—which have been heavily tariffed—are down. So, too, are overall auto sales, as U.S. auto production has not surged with the drop in imports.",
+      "source_spans": [
+       {
+        "char_start": 0,
+        "char_end": 157
+       }
+      ]
      }
     ]
    },
@@ -786,11 +865,18 @@
     "passages": [
      {
       "paragraph_id": "p13",
+      "paragraph_sha256": "sha256:cb0c8dac9a2797a406d41d3a7b1ef87797cb2fe0da263016d5960377de6fc63c",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "So, the tariffs are affecting certain product categories."
+      "source_excerpt": "So, the tariffs are affecting certain product categories.",
+      "source_spans": [
+       {
+        "char_start": 347,
+        "char_end": 404
+       }
+      ]
      }
     ]
    },
@@ -859,11 +945,18 @@
     "passages": [
      {
       "paragraph_id": "p14",
+      "paragraph_sha256": "sha256:c8dcff67ff9bbf2a0b57943994a17f6d11c6984a7e9db4f0462225df1d69df3d",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "On the other hand, imports of semiconductors and computers are up substantially. Neither category has yet faced any real tariffs."
+      "source_excerpt": "On the other hand, imports of semiconductors and computers are up substantially. Neither category has yet faced any real tariffs.",
+      "source_spans": [
+       {
+        "char_start": 0,
+        "char_end": 129
+       }
+      ]
      }
     ]
    },
@@ -918,11 +1011,18 @@
     "passages": [
      {
       "paragraph_id": "p14",
+      "paragraph_sha256": "sha256:c8dcff67ff9bbf2a0b57943994a17f6d11c6984a7e9db4f0462225df1d69df3d",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "And building the data centers to support the current boom in artificial intelligence has required importing a lot of electronics."
+      "source_excerpt": "And building the data centers to support the current boom in artificial intelligence has required importing a lot of electronics.",
+      "source_spans": [
+       {
+        "char_start": 300,
+        "char_end": 429
+       }
+      ]
      }
     ]
    },
@@ -984,11 +1084,18 @@
     "passages": [
      {
       "paragraph_id": "p14",
+      "paragraph_sha256": "sha256:c8dcff67ff9bbf2a0b57943994a17f6d11c6984a7e9db4f0462225df1d69df3d",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "The 232 sectoral investigation into semiconductors—which was just released—more or less excludes semiconductors imported for domestic use from any tariffs going forward."
+      "source_excerpt": "The 232 sectoral investigation into semiconductors—which was just released—more or less excludes semiconductors imported for domestic use from any tariffs going forward.",
+      "source_spans": [
+       {
+        "char_start": 130,
+        "char_end": 299
+       }
+      ]
      }
     ]
    },
@@ -1043,11 +1150,18 @@
     "passages": [
      {
       "paragraph_id": "p15",
+      "paragraph_sha256": "sha256:f419b4cc715ac5b1a7465ecb96a63fb5e5fea706cee8d75d6d21e037a0283978",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "Overall, any significant fall in the 2025 trade deficit, even with the tariffs, seems unlikely."
+      "source_excerpt": "Overall, any significant fall in the 2025 trade deficit, even with the tariffs, seems unlikely.",
+      "source_spans": [
+       {
+        "char_start": 0,
+        "char_end": 95
+       }
+      ]
      }
     ]
    },
@@ -1109,19 +1223,28 @@
     "passages": [
      {
       "paragraph_id": "p13",
+      "paragraph_sha256": "sha256:cb0c8dac9a2797a406d41d3a7b1ef87797cb2fe0da263016d5960377de6fc63c",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      },
      {
       "paragraph_id": "p15",
+      "paragraph_sha256": "sha256:f419b4cc715ac5b1a7465ecb96a63fb5e5fea706cee8d75d6d21e037a0283978",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "Imports of some products that have been tariffed are set to fall."
+      "source_excerpt": "Imports of some products that have been tariffed are set to fall.",
+      "source_spans": [
+       {
+        "char_start": 242,
+        "char_end": 307
+       }
+      ]
      }
     ]
    },
@@ -1178,11 +1301,18 @@
     "passages": [
      {
       "paragraph_id": "p16",
+      "paragraph_sha256": "sha256:3bd79ffe3e9f9c8e52db629359840aa578d03ef11a88b4d1b8fbd620f50b0b47",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "Economic theory suggests that tariffs can reduce the trade deficit if their proceeds are used to reduce the budget deficit."
+      "source_excerpt": "Economic theory suggests that tariffs can reduce the trade deficit if their proceeds are used to reduce the budget deficit.",
+      "source_spans": [
+       {
+        "char_start": 162,
+        "char_end": 285
+       }
+      ]
      }
     ]
    },
@@ -1247,11 +1377,18 @@
     "passages": [
      {
       "paragraph_id": "p16",
+      "paragraph_sha256": "sha256:3bd79ffe3e9f9c8e52db629359840aa578d03ef11a88b4d1b8fbd620f50b0b47",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "At this stage, though, it seems unlikely that the tariffs will drive a significant fiscal adjustment—the refund checks are coming, and there is strong pressure to increase defense spending."
+      "source_excerpt": "At this stage, though, it seems unlikely that the tariffs will drive a significant fiscal adjustment—the refund checks are coming, and there is strong pressure to increase defense spending.",
+      "source_spans": [
+       {
+        "char_start": 338,
+        "char_end": 527
+       }
+      ]
      }
     ]
    },
@@ -1311,11 +1448,18 @@
     "passages": [
      {
       "paragraph_id": "p16",
+      "paragraph_sha256": "sha256:3bd79ffe3e9f9c8e52db629359840aa578d03ef11a88b4d1b8fbd620f50b0b47",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "Going forward, it will be important to see if imports rebound once stockpiles are exhausted, and how much of the promised refund checks flow into imported goods."
+      "source_excerpt": "Going forward, it will be important to see if imports rebound once stockpiles are exhausted, and how much of the promised refund checks flow into imported goods.",
+      "source_spans": [
+       {
+        "char_start": 0,
+        "char_end": 161
+       }
+      ]
      }
     ]
    },

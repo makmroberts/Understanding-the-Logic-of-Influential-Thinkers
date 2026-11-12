@@ -14,11 +14,11 @@ a repeat `_r<k>`, an oracle run `_oracle`, see Evaluation) is an experiment and 
 
 | # | Step | Done by | Output |
 |---|---|---|---|
-| 1 | Download, number the paragraphs; read the metadata record | script (the repo's `scripts/parsers/` and `scripts/extractors/metadata.py`) | `../internal/extracted/<date>_<slug>.md`, `../data/articles/<id>.json` |
-| 2 | Boxes | model, then script: slot IDs and levels; every excerpt found word for word; every figure and name found in the article; completeness against the hand-drawn maps, with one targeted re-ask | `boxes.json` |
+| 1 | Download, number the paragraphs; read the metadata record; the text must hash to the record's `content_hash` | script (the repo's `scripts/parsers/` and `scripts/extractors/metadata.py`) | `../internal/extracted/<date>_<slug>.md`, `../data/articles/<id>.json` |
+| 2 | Boxes | model, then script: slot IDs and levels; every excerpt found word for word and placed by character in the record's text; every figure and name found in the article; completeness against the hand-drawn maps, with one targeted re-ask | `boxes.json` |
 | 3 | Links | model, then script: drops self-links and duplicates; flags level pairs no hand-drawn link has; one re-ask for unlinked boxes | `links.json` |
 | 4 | Subject facets | model, with `kb/scripts/label_facets.py`'s rules, vocabulary, schema, validation and repairs | `facets.json` |
-| 5 | Check and save; second opinion on passages (`kb/scripts/link_passages.py`, unchanged) | script | `annotation.json`, plus `review.md` only if something needs a person |
+| 5 | Check and save, pinning each cited paragraph's hash; second opinion on passages (`kb/scripts/link_passages.py`, unchanged) | script | `annotation.json`, plus `review.md` only if something needs a person |
 | 6 | Into `kb/data` (articles without a hand-drawn map only), then `graph_indices` → `export_obsidian` → `export_canvas` → `export_obsidian` | script | the tables and the Obsidian vault |
 | 7 | Compare with the hand-drawn map, where one exists | script | `evaluation.md` |
 
@@ -205,6 +205,72 @@ cache and needs a key. The saved annotations themselves stay valid.
 
 Rebuilt here: 21 hand-mapped articles, 373 claims, 472 links. For the 20 articles in the
 team's `data/`, every table matches row by row (checked 2026-11-09).
+
+## Annotating the record's text (2026-11-11)
+
+The order is extract → store → metadata → annotate. The parser writes the text (kept
+locally in `../internal/`, never committed), the metadata extractor writes the record
+with paragraph IDs and hashes, and the annotator works on that record's text:
+
+- **Step 1** reads the paragraphs with the extractor's own functions
+  (`src/annotate/spans.py` `read_text`), so the model sees the record's plain text under
+  the record's IDs: links reduced to their labels, footnote markers (`*`, `**`) kept.
+  The text must hash to the record's `content_hash` and carry the same paragraph IDs, or
+  step 1 stops and asks for the extractor to be re-run. It used to read the text with the
+  passage linker's `strip_md`, which differed from the record in 75 of 487 paragraphs,
+  always by dropping footnote markers.
+- **Step 2** finds each excerpt and places it by character in one operation, on that same
+  text, and keeps the spans in `boxes.json` (`excerpt_spans`).
+- **Step 5** writes the spans and pins each cited paragraph's hash
+  (`paragraph_sha256`). The article block already pins the revision and `content_hash`,
+  being the record as it was at annotation time. When an article changes, a citation
+  whose paragraph hash still matches is still good, and one whose hash changed needs
+  review; the Neo4j loader flags those as `source_changed`. The paragraph remap done by
+  hand for revision 2 becomes a check.
+
+A passage that carries an excerpt also carries where it is, so a citation points at the
+words rather than the whole paragraph:
+
+```json
+{"paragraph_id": "p22", "paragraph_sha256": "sha256:…", "relation": "states",
+ "anchor_grade": "excerpt",
+ "source_excerpt": "That divergence is not offset elsewhere in the current account, though.",
+ "source_spans": [{"char_start": 0, "char_end": 71}]}
+```
+
+Written out, that is `chinas-imaginary-trade-data#p22[0:71]`. The offsets index the
+paragraph's plain text as `scripts/extractors/metadata.py` reads it (links reduced to their
+labels), the same text and convention as the record's `references[].char_start/char_end`,
+so a span can be checked against the record and its paragraph hash. Passages without an
+excerpt (`abstracts`, and hidden assumptions) keep `source_spans: null`: they are context
+the claim summarizes, and stay paragraph-level.
+
+No model is involved in placing an excerpt. The match ignores quote style, dash style and
+whitespace, maps back to the original characters, and is read back to confirm it. An
+ellipsis splits an excerpt into one span per part, which must appear in order. An excerpt
+that cannot be placed is left `null` and listed in `review.md` under `spans`.
+`python -m annotate.spans` runs a self-test of the matching (run it from `src/`).
+
+One trap, found in review and fixed: importing the metadata extractor puts the repo's
+`scripts/` first on the import path, and `scripts/` has older copies of `link_passages` and
+`label_facets`. For a moment the pipeline was importing those instead of `kb/scripts/`'s,
+with no error. `spans.py` now imports the extractor and moves `scripts/` to the end of the
+path. Character offsets
+were chosen over sentence IDs: a sentence splitter has to guess at "U.S.", "pre-2020" and
+"1.5%", and a wrong split would make a citation look exact while being wrong.
+
+The thirteen official runs were backfilled with the same code, without model calls and
+without changing anything else in them: every passage got `paragraph_sha256` (all equal
+to the record's), and 289 of 289 excerpts were placed and read back, two of them in
+several parts. Checked offline on the saved runs: step 1 loads all thirteen against their
+records and refuses a record whose hash does not match; step 5 gives the saved spans for
+all 301 boxes, from old `boxes.json` and from step 2's new spans alike.
+
+Two excerpts in `setser_jan_31_20` (n026, n030) were copied by the model from parser
+output older than source revision 2, which dropped the space before a link ("all
+ofBrazil's"). The backfill places them with a space-insensitive match (`loose`), kept for
+saved runs only. A new run is held to the exact words, so step 2 would send those two back
+to the model; the other 287 pass as they are.
 
 ## Running
 

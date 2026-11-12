@@ -503,27 +503,38 @@
     "passages": [
      {
       "paragraph_id": "p3",
+      "paragraph_sha256": "sha256:cf2b32816345982139f58801205383bce147649e1b73c9a928bbe3e747272804",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      },
      {
       "paragraph_id": "p5",
+      "paragraph_sha256": "sha256:e8824a40b363a9eb312636a2fb1defe6a6222c7029e44535a07f54f10a5af465",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      },
      {
       "paragraph_id": "p6",
+      "paragraph_sha256": "sha256:d55fb1ddd23aa73d0fe7618f50f026a754c98b5e502ed16a993fa2b035fd515d",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "One set of tariffs (on commodities) has had a very large impact: exports are down over 60 percent, and the fall isn't over"
+      "source_excerpt": "One set of tariffs (on commodities) has had a very large impact: exports are down over 60 percent, and the fall isn't over",
+      "source_spans": [
+       {
+        "char_start": 0,
+        "char_end": 122
+       }
+      ]
      }
     ]
    },
@@ -589,19 +600,28 @@
     "passages": [
      {
       "paragraph_id": "p5",
+      "paragraph_sha256": "sha256:e8824a40b363a9eb312636a2fb1defe6a6222c7029e44535a07f54f10a5af465",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "Somewhat to my surprise to be honest."
+      "source_excerpt": "Somewhat to my surprise to be honest.",
+      "source_spans": [
+       {
+        "char_start": 196,
+        "char_end": 233
+       }
+      ]
      },
      {
       "paragraph_id": "p10",
+      "paragraph_sha256": "sha256:cf6d986974f3d7812f82901e41a9679e3e6949ccd87d3ed55f06e21a22bcb7c1",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      }
     ]
    },
@@ -669,11 +689,18 @@
     "passages": [
      {
       "paragraph_id": "p7",
+      "paragraph_sha256": "sha256:ed07caeafdf86d0ce79c42a4373b4df761e2b88f82b1af6189fe9bdbd929102b",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "it did put tariffs on a decent chunk of U.S. manufacturing exports (see Bown's figure 3). So there should be some impact"
+      "source_excerpt": "it did put tariffs on a decent chunk of U.S. manufacturing exports (see Bown's figure 3). So there should be some impact",
+      "source_spans": [
+       {
+        "char_start": 381,
+        "char_end": 501
+       }
+      ]
      }
     ]
    },
@@ -728,19 +755,28 @@
     "passages": [
      {
       "paragraph_id": "p7",
+      "paragraph_sha256": "sha256:ed07caeafdf86d0ce79c42a4373b4df761e2b88f82b1af6189fe9bdbd929102b",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "China, per Chad Bown of the Peterson Institute, has only put tariffs on 55 percent of U.S. goods exports"
+      "source_excerpt": "China, per Chad Bown of the Peterson Institute, has only put tariffs on 55 percent of U.S. goods exports",
+      "source_spans": [
+       {
+        "char_start": 71,
+        "char_end": 175
+       }
+      ]
      },
      {
       "paragraph_id": "p15",
+      "paragraph_sha256": "sha256:544cec7c901886c29398ea894640c112407cd166cadf23f13fab3a22eddaf3cd",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      }
     ]
    },
@@ -807,43 +843,58 @@
     "passages": [
      {
       "paragraph_id": "p2",
+      "paragraph_sha256": "sha256:9a37e582dfe7d29b1363f2bb940ba511d205f9978f76e3883ffac43bc11ab672",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "Soybeans traditionally have accounted for about 10 percent of total U.S. (goods) exports to China"
+      "source_excerpt": "Soybeans traditionally have accounted for about 10 percent of total U.S. (goods) exports to China",
+      "source_spans": [
+       {
+        "char_start": 0,
+        "char_end": 97
+       }
+      ]
      },
      {
       "paragraph_id": "p6",
+      "paragraph_sha256": "sha256:d55fb1ddd23aa73d0fe7618f50f026a754c98b5e502ed16a993fa2b035fd515d",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      },
      {
       "paragraph_id": "p8",
+      "paragraph_sha256": "sha256:dcd06b847857b419ad6fa86e16a4b859e63280e9df63a3f146c98818f7252f18",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      },
      {
       "paragraph_id": "p9",
+      "paragraph_sha256": "sha256:bfb8c15fdba0e33255863a02294dd61c63ca70b3da9b4c54952810548bcbef66",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      },
      {
       "paragraph_id": "p42",
+      "paragraph_sha256": "sha256:bc7a4b04c648ee7847a93bef2e08dc1acb1a4993096169ccf74356b6524d0f21",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      }
     ]
    },
@@ -915,11 +966,18 @@
     "passages": [
      {
       "paragraph_id": "p9",
+      "paragraph_sha256": "sha256:bfb8c15fdba0e33255863a02294dd61c63ca70b3da9b4c54952810548bcbef66",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "There was a bigger drop off in American exports to China than in European exports to China last fall"
+      "source_excerpt": "There was a bigger drop off in American exports to China than in European exports to China last fall",
+      "source_spans": [
+       {
+        "char_start": 142,
+        "char_end": 242
+       }
+      ]
      }
     ]
    },
@@ -991,11 +1049,18 @@
     "passages": [
      {
       "paragraph_id": "p9",
+      "paragraph_sha256": "sha256:bfb8c15fdba0e33255863a02294dd61c63ca70b3da9b4c54952810548bcbef66",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "though not one so big that it could not be, in part, a function of the dollar's strength relative to the euro"
+      "source_excerpt": "though not one so big that it could not be, in part, a function of the dollar's strength relative to the euro",
+      "source_spans": [
+       {
+        "char_start": 244,
+        "char_end": 353
+       }
+      ]
      }
     ]
    },
@@ -1049,19 +1114,28 @@
     "passages": [
      {
       "paragraph_id": "p12",
+      "paragraph_sha256": "sha256:52c46bb626e89b54ee17d8f627a6441f9458ab332e3b816b4ac1cedb6231956d",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "China has exercised a bit of restraint, and held back on really restricting trade in some sectors to make sure it has targets to retaliate against"
+      "source_excerpt": "China has exercised a bit of restraint, and held back on really restricting trade in some sectors to make sure it has targets to retaliate against",
+      "source_spans": [
+       {
+        "char_start": 5,
+        "char_end": 151
+       }
+      ]
      },
      {
       "paragraph_id": "p15",
+      "paragraph_sha256": "sha256:544cec7c901886c29398ea894640c112407cd166cadf23f13fab3a22eddaf3cd",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      }
     ]
    },
@@ -1126,19 +1200,28 @@
     "passages": [
      {
       "paragraph_id": "p13",
+      "paragraph_sha256": "sha256:7c110f8d9c3db3576bf200464a9a0ce08112971e74b5e9f793d693d5aef6ac00",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "China lacks good targets, as the bulk of its manufactured imports from the United States are in sectors where there isn't (for now) a domestic Chinese alternative"
+      "source_excerpt": "China lacks good targets, as the bulk of its manufactured imports from the United States are in sectors where there isn't (for now) a domestic Chinese alternative",
+      "source_spans": [
+       {
+        "char_start": 5,
+        "char_end": 167
+       }
+      ]
      },
      {
       "paragraph_id": "p14",
+      "paragraph_sha256": "sha256:ad5d672d37060f54b2d3b5835629da50f43011042073696d32856f056c863967",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      }
     ]
    },
@@ -1206,27 +1289,38 @@
     "passages": [
      {
       "paragraph_id": "p16",
+      "paragraph_sha256": "sha256:86e763e8f900fca49dfacffe76064a70d5178d0a37157eaf537e8ab441ab8cc2",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      },
      {
       "paragraph_id": "p17",
+      "paragraph_sha256": "sha256:e9967572d1ff03a64af2d46562c9e22c119200cb36c1eff20e9195b7cfc7870b",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      },
      {
       "paragraph_id": "p18",
+      "paragraph_sha256": "sha256:18a639843617073b5984c41a6c78b1a244b474b5ac9a2305d3b1eb8dd3583254",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "China's relatively high initial tariffs and its efforts to encourage \"indigenous\" production have already limited U.S. exports in some important sectors."
+      "source_excerpt": "China's relatively high initial tariffs and its efforts to encourage \"indigenous\" production have already limited U.S. exports in some important sectors.",
+      "source_spans": [
+       {
+        "char_start": 186,
+        "char_end": 339
+       }
+      ]
      }
     ]
    },
@@ -1296,19 +1390,28 @@
     "passages": [
      {
       "paragraph_id": "p18",
+      "paragraph_sha256": "sha256:18a639843617073b5984c41a6c78b1a244b474b5ac9a2305d3b1eb8dd3583254",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      },
      {
       "paragraph_id": "p43",
+      "paragraph_sha256": "sha256:b087dd8baf8536f966e321fee729fdac03c2a0635c3b630d842564d0c0e2cee0",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "Exports of construction and agricultural equipment/ NAICS 3331 to China peaked at around $2 billion in 2012. They were running at between 0.6 and 0.8 billion a year before the trade war."
+      "source_excerpt": "Exports of construction and agricultural equipment/ NAICS 3331 to China peaked at around $2 billion in 2012. They were running at between 0.6 and 0.8 billion a year before the trade war.",
+      "source_spans": [
+       {
+        "char_start": 3,
+        "char_end": 189
+       }
+      ]
      }
     ]
    },
@@ -1374,11 +1477,18 @@
     "passages": [
      {
       "paragraph_id": "p43",
+      "paragraph_sha256": "sha256:b087dd8baf8536f966e321fee729fdac03c2a0635c3b630d842564d0c0e2cee0",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "I am often a little frustrated by otherwise well informed commentators who have an out-of-date concept of what the U.S. exports to China."
+      "source_excerpt": "I am often a little frustrated by otherwise well informed commentators who have an out-of-date concept of what the U.S. exports to China.",
+      "source_spans": [
+       {
+        "char_start": 319,
+        "char_end": 456
+       }
+      ]
      }
     ]
    },
@@ -1441,19 +1551,28 @@
     "passages": [
      {
       "paragraph_id": "p21",
+      "paragraph_sha256": "sha256:b55549b38fd436dc01f157f5148d2bf44100c05aad2a6e3a49d8320c77587f5b",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      },
      {
       "paragraph_id": "p22",
+      "paragraph_sha256": "sha256:62117426aceeb771ed09ab23943c7d86618269b00bddc6d7f43a4e3bd8241000",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "With an elasticity of 4, a 25 percent tariff would be expected to zero out trade."
+      "source_excerpt": "With an elasticity of 4, a 25 percent tariff would be expected to zero out trade.",
+      "source_spans": [
+       {
+        "char_start": 77,
+        "char_end": 158
+       }
+      ]
      }
     ]
    },
@@ -1527,19 +1646,28 @@
     "passages": [
      {
       "paragraph_id": "p1",
+      "paragraph_sha256": "sha256:3bd307bec775dbd792518ddcc4968215bfe6cd690e9f453ea0caf5abdbe2c824",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      },
      {
       "paragraph_id": "p23",
+      "paragraph_sha256": "sha256:97b34ba9a5925394b4b6d735bc34274f2e76a9c30fcbd739bc142ef594272453",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "But it is also consistent with a world where China's state importing companies were told not to buy American."
+      "source_excerpt": "But it is also consistent with a world where China's state importing companies were told not to buy American.",
+      "source_spans": [
+       {
+        "char_start": 0,
+        "char_end": 109
+       }
+      ]
      }
     ]
    },
@@ -1600,35 +1728,48 @@
     "passages": [
      {
       "paragraph_id": "p1",
+      "paragraph_sha256": "sha256:3bd307bec775dbd792518ddcc4968215bfe6cd690e9f453ea0caf5abdbe2c824",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      },
      {
       "paragraph_id": "p24",
+      "paragraph_sha256": "sha256:cc7d7f47056e5d2751d19422c3100b8790adffdfb4d586f1761e4fdcee7206cd",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      },
      {
       "paragraph_id": "p25",
+      "paragraph_sha256": "sha256:ce37e534350e4292a34d126e8119458ede09467f33e2fcf677852a45a9b7d2fe",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      },
      {
       "paragraph_id": "p26",
+      "paragraph_sha256": "sha256:81bc0e94550b2001f48dd95151c000eade2bc1336568666aefd359eb65e82cf4",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "The reduction in China's purchases of soybeans clearly hurt American farmers who weren't able to make up for the fall in Chinese demand"
+      "source_excerpt": "The reduction in China's purchases of soybeans clearly hurt American farmers who weren't able to make up for the fall in Chinese demand",
+      "source_spans": [
+       {
+        "char_start": 0,
+        "char_end": 135
+       }
+      ]
      }
     ]
    },
@@ -1683,35 +1824,48 @@
     "passages": [
      {
       "paragraph_id": "p4",
+      "paragraph_sha256": "sha256:ca8b3b5d9c3fcc37a7f13b95eb710853e96e9b82e59e2f00a85e7b872d144c48",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      },
      {
       "paragraph_id": "p27",
+      "paragraph_sha256": "sha256:304bf36b8076807d2b0178ce6c85cc99807ad2cc4a2458279c4a385709cc3c0b",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      },
      {
       "paragraph_id": "p28",
+      "paragraph_sha256": "sha256:750fe52c0c366e4c08c0f7d9ba7fbde2d995f0609e08622105b4ee086505898c",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      },
      {
       "paragraph_id": "p29",
+      "paragraph_sha256": "sha256:3187838bc89ab6ca965833a75773acf14bfd7f0f3947f7cf348fa9b690531070",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "The tariffs diverted bilateral trade in oil away from China without impacting overall trade."
+      "source_excerpt": "The tariffs diverted bilateral trade in oil away from China without impacting overall trade.",
+      "source_spans": [
+       {
+        "char_start": 139,
+        "char_end": 231
+       }
+      ]
      }
     ]
    },
@@ -1771,59 +1925,78 @@
     "passages": [
      {
       "paragraph_id": "p30",
+      "paragraph_sha256": "sha256:603cefef21cea5730e283256ca833ae6bea09bb08fd9ec914550de364a700006",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      },
      {
       "paragraph_id": "p31",
+      "paragraph_sha256": "sha256:55cdf72b699dbebc688041d72db38a0106227482a8b7af8f0b0427b663821dfd",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      },
      {
       "paragraph_id": "p32",
+      "paragraph_sha256": "sha256:b67dba26c4d49f4c7d89328f58f682c0fad4d8581d1e6c37fb62e28aa13e044b",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      },
      {
       "paragraph_id": "p33",
+      "paragraph_sha256": "sha256:ad2a875718486ca5be138a56fa3d416251d125a1b8912526e7cb3af93d1e3b7a",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      },
      {
       "paragraph_id": "p34",
+      "paragraph_sha256": "sha256:586a64f72ce5a6bc79a3b01c3ed69d293b361b800ac1bfdc81e1415e443ce773",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "it is possible that Mercedes and BMW were effectively able to offset their reduced exports to China by producing more for the U.S. market."
+      "source_excerpt": "it is possible that Mercedes and BMW were effectively able to offset their reduced exports to China by producing more for the U.S. market.",
+      "source_spans": [
+       {
+        "char_start": 53,
+        "char_end": 191
+       }
+      ]
      },
      {
       "paragraph_id": "p35",
+      "paragraph_sha256": "sha256:085acd1b79927d9bf7645ed940139d049abeee58e408241be1fcdcca36842d1e",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      },
      {
       "paragraph_id": "p36",
+      "paragraph_sha256": "sha256:08b1e2d3d70c3427374a88ca929f100c18a5a69ed96bde2abab1ebc8fb81f65d",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      }
     ]
    },
@@ -1898,11 +2071,18 @@
     "passages": [
      {
       "paragraph_id": "p37",
+      "paragraph_sha256": "sha256:5c71e1a34e57e6f558a59e3243b6afb4c9701fd406ce8898226b16c71a670f74",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "The counterfactual here is hard."
+      "source_excerpt": "The counterfactual here is hard.",
+      "source_spans": [
+       {
+        "char_start": 0,
+        "char_end": 32
+       }
+      ]
      }
     ]
    },
@@ -1957,35 +2137,43 @@
     "passages": [
      {
       "paragraph_id": "p20",
+      "paragraph_sha256": "sha256:7936f13fbad9d0eaeb4c7b48f65e6bf84cada37302680d30a23a8898855a273c",
       "relation": "presupposes",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      },
      {
       "paragraph_id": "p29",
+      "paragraph_sha256": "sha256:3187838bc89ab6ca965833a75773acf14bfd7f0f3947f7cf348fa9b690531070",
       "relation": "presupposes",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      },
      {
       "paragraph_id": "p34",
+      "paragraph_sha256": "sha256:586a64f72ce5a6bc79a3b01c3ed69d293b361b800ac1bfdc81e1415e443ce773",
       "relation": "presupposes",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      },
      {
       "paragraph_id": "p39",
+      "paragraph_sha256": "sha256:02c4cff39197bc46c5549ff217fcc5b5a77ab9dba0c75eb35fa3d0aecb26378d",
       "relation": "presupposes",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      }
     ]
    },
@@ -2034,27 +2222,38 @@
     "passages": [
      {
       "paragraph_id": "p38",
+      "paragraph_sha256": "sha256:8260fa985ec5bf1b6d9502d53ac53fb2288395c6866847a0b1734635767447b5",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      },
      {
       "paragraph_id": "p39",
+      "paragraph_sha256": "sha256:02c4cff39197bc46c5549ff217fcc5b5a77ab9dba0c75eb35fa3d0aecb26378d",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "Don't equate changes in bilateral trade with changes in overall trade, or changes in total output. A lot depends on the sector."
+      "source_excerpt": "Don't equate changes in bilateral trade with changes in overall trade, or changes in total output. A lot depends on the sector.",
+      "source_spans": [
+       {
+        "char_start": 0,
+        "char_end": 127
+       }
+      ]
      },
      {
       "paragraph_id": "p40",
+      "paragraph_sha256": "sha256:16a6dbbbb008a322948c59d1a47f373cdfe2c7bd6fc03cb8ee380f3b68ab0079",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      }
     ]
    },
@@ -2122,19 +2321,28 @@
     "passages": [
      {
       "paragraph_id": "p7",
+      "paragraph_sha256": "sha256:ed07caeafdf86d0ce79c42a4373b4df761e2b88f82b1af6189fe9bdbd929102b",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      },
      {
       "paragraph_id": "p40",
+      "paragraph_sha256": "sha256:16a6dbbbb008a322948c59d1a47f373cdfe2c7bd6fc03cb8ee380f3b68ab0079",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "but I haven't tried to disaggregate manufactures into those actually tariffed by China and those that have escaped so far"
+      "source_excerpt": "but I haven't tried to disaggregate manufactures into those actually tariffed by China and those that have escaped so far",
+      "source_spans": [
+       {
+        "char_start": 244,
+        "char_end": 365
+       }
+      ]
      }
     ]
    },
@@ -2201,11 +2409,18 @@
     "passages": [
      {
       "paragraph_id": "p41",
+      "paragraph_sha256": "sha256:0664e5fd9af4ece779ca77bad0baf1a1e91aa9ea5f3f8a26f25e143593be8922",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "the debate on the overall impact of China's retaliation on the U.S. economy is sure to continue"
+      "source_excerpt": "the debate on the overall impact of China's retaliation on the U.S. economy is sure to continue",
+      "source_spans": [
+       {
+        "char_start": 11,
+        "char_end": 106
+       }
+      ]
      }
     ]
    },
@@ -2260,11 +2475,18 @@
     "passages": [
      {
       "paragraph_id": "p43",
+      "paragraph_sha256": "sha256:b087dd8baf8536f966e321fee729fdac03c2a0635c3b630d842564d0c0e2cee0",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "Do look at the end use data, which is easy to use"
+      "source_excerpt": "Do look at the end use data, which is easy to use",
+      "source_spans": [
+       {
+        "char_start": 829,
+        "char_end": 878
+       }
+      ]
      }
     ]
    },

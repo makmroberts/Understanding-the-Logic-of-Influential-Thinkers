@@ -162,27 +162,38 @@
     "passages": [
      {
       "paragraph_id": "p1",
+      "paragraph_sha256": "sha256:b15412a8e2074d9ec1b7fda39c52113a6311e26846404c132761e5bdad4e116b",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      },
      {
       "paragraph_id": "p2",
+      "paragraph_sha256": "sha256:486ee658e1a5f880579eb17007b3f16a4f0f0fb718362705e0f81de502317048",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      },
      {
       "paragraph_id": "p3",
+      "paragraph_sha256": "sha256:f10cd383f2347f10275be5acdb277da6f74f0d6250e0d469393064a35a1aaf7b",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "The impact of the tariffs core trade flows—and hence the global economy—has been modest, at least so far."
+      "source_excerpt": "The impact of the tariffs core trade flows—and hence the global economy—has been modest, at least so far.",
+      "source_spans": [
+       {
+        "char_start": 129,
+        "char_end": 234
+       }
+      ]
      }
     ]
    },
@@ -242,51 +253,68 @@
     "passages": [
      {
       "paragraph_id": "p5",
+      "paragraph_sha256": "sha256:e887db5395a8ef4e5e17930447bbdfa86f1ed6e6bb028aa1eafc55bbdd22321f",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      },
      {
       "paragraph_id": "p6",
+      "paragraph_sha256": "sha256:76b16e8da0db92f04b9590f6555953bdf14a608f74699aaea829d99e95acb548",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "The U.S. has gone from low-bound tariffs"
+      "source_excerpt": "The U.S. has gone from low-bound tariffs",
+      "source_spans": [
+       {
+        "char_start": 0,
+        "char_end": 40
+       }
+      ]
      },
      {
       "paragraph_id": "p7",
+      "paragraph_sha256": "sha256:262a0d0d919e94910cd0f6996fde89dc4cdb5f47d3e4930035a55ffad850cedb",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      },
      {
       "paragraph_id": "p8",
+      "paragraph_sha256": "sha256:8f241be20561434ca8ef081aa329b84b029335087d7be20acb6495051a900aeb",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      },
      {
       "paragraph_id": "p9",
+      "paragraph_sha256": "sha256:4b5486c816c1e8b583364834e6754a81d0769a3c48c89afea2562980c4369cc4",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      },
      {
       "paragraph_id": "p30",
+      "paragraph_sha256": "sha256:1accaa6f21553d021f72535b9c42558240a06784fd2797012e5f645684360b81",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      }
     ]
    },
@@ -341,11 +369,18 @@
     "passages": [
      {
       "paragraph_id": "p7",
+      "paragraph_sha256": "sha256:262a0d0d919e94910cd0f6996fde89dc4cdb5f47d3e4930035a55ffad850cedb",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "Importers of the same good will pay different tariffs depending on the origin of the good (50 percent for India and Brazil, 30 percent for China"
+      "source_excerpt": "Importers of the same good will pay different tariffs depending on the origin of the good (50 percent for India and Brazil, 30 percent for China",
+      "source_spans": [
+       {
+        "char_start": 219,
+        "char_end": 363
+       }
+      ]
      }
     ]
    },
@@ -400,19 +435,28 @@
     "passages": [
      {
       "paragraph_id": "p10",
+      "paragraph_sha256": "sha256:5f14304904432b77f00ef09893e61b0567c86e4e50394e2148301bb4495041b6",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      },
      {
       "paragraph_id": "p11",
+      "paragraph_sha256": "sha256:8b9f251c6277de92e4ad4dad206ce977cbd7e5acd30a7995b6acfba7b1ff7eef",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "The annualized monthly trade deficit rose to a peak of $2 trillion in March before dipping to $1 trillion and then rebounding to $1.2 trillion in July"
+      "source_excerpt": "The annualized monthly trade deficit rose to a peak of $2 trillion in March before dipping to $1 trillion and then rebounding to $1.2 trillion in July",
+      "source_spans": [
+       {
+        "char_start": 0,
+        "char_end": 150
+       }
+      ]
      }
     ]
    },
@@ -472,19 +516,28 @@
     "passages": [
      {
       "paragraph_id": "p3",
+      "paragraph_sha256": "sha256:f10cd383f2347f10275be5acdb277da6f74f0d6250e0d469393064a35a1aaf7b",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      },
      {
       "paragraph_id": "p12",
+      "paragraph_sha256": "sha256:f51413bb8a276800c56dd14971b0fdbcaa510322c4c122acf4b48ad79a40cc63",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "pharmaceuticals (where trade is heavily distorted by tax and companies can easily front-run tariffs by stockpiling active ingredients) and gold."
+      "source_excerpt": "pharmaceuticals (where trade is heavily distorted by tax and companies can easily front-run tariffs by stockpiling active ingredients) and gold.",
+      "source_spans": [
+       {
+        "char_start": 57,
+        "char_end": 201
+       }
+      ]
      }
     ]
    },
@@ -540,11 +593,18 @@
     "passages": [
      {
       "paragraph_id": "p13",
+      "paragraph_sha256": "sha256:1497b09ff61740496d2d993f338a5a61694e7a7dab8a883bb08952a774013ccf",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "Take out pharmaceuticals and gold and U.S. trade looks, well, rather normal."
+      "source_excerpt": "Take out pharmaceuticals and gold and U.S. trade looks, well, rather normal.",
+      "source_spans": [
+       {
+        "char_start": 0,
+        "char_end": 76
+       }
+      ]
      }
     ]
    },
@@ -599,11 +659,13 @@
     "passages": [
      {
       "paragraph_id": "p13",
+      "paragraph_sha256": "sha256:1497b09ff61740496d2d993f338a5a61694e7a7dab8a883bb08952a774013ccf",
       "relation": "presupposes",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      }
     ]
    },
@@ -652,11 +714,18 @@
     "passages": [
      {
       "paragraph_id": "p14",
+      "paragraph_sha256": "sha256:2f4abb297ab8f8f44dd1aaad33f428e6f2cd35e0ee2dc0e1181bf2419c87a261",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "imports from China (where hefty tariffs were expected) tanked. But imports from Taiwan and Southeast Asia"
+      "source_excerpt": "imports from China (where hefty tariffs were expected) tanked. But imports from Taiwan and Southeast Asia",
+      "source_spans": [
+       {
+        "char_start": 12,
+        "char_end": 117
+       }
+      ]
      }
     ]
    },
@@ -719,19 +788,28 @@
     "passages": [
      {
       "paragraph_id": "p14",
+      "paragraph_sha256": "sha256:2f4abb297ab8f8f44dd1aaad33f428e6f2cd35e0ee2dc0e1181bf2419c87a261",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      },
      {
       "paragraph_id": "p22",
+      "paragraph_sha256": "sha256:d96c1ceecacab6a4b5db5760836afbd46d728b4541f89117f4da30f563c9c92d",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "firms shifted final assembly to southeast Asia to get around the bilateral tariffs"
+      "source_excerpt": "firms shifted final assembly to southeast Asia to get around the bilateral tariffs",
+      "source_spans": [
+       {
+        "char_start": 96,
+        "char_end": 178
+       }
+      ]
      }
     ]
    },
@@ -797,11 +875,18 @@
     "passages": [
      {
       "paragraph_id": "p15",
+      "paragraph_sha256": "sha256:e5aebe9fd10158c18f6190efbaea52a80c3857913847cc20c4ad6c2286fe5ad6",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "expect a big dip in September as European and Japanese importers wait for the finalization of their “deals”"
+      "source_excerpt": "expect a big dip in September as European and Japanese importers wait for the finalization of their “deals”",
+      "source_spans": [
+       {
+        "char_start": 65,
+        "char_end": 172
+       }
+      ]
      }
     ]
    },
@@ -856,11 +941,18 @@
     "passages": [
      {
       "paragraph_id": "p16",
+      "paragraph_sha256": "sha256:baefe41776b4854f8ed26b1118b3d984e26d336d764dc96a36f9f253864595d3",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "imports of electronics are up substantially (imports from Taiwan are up over 50 percent YTD) on the back of booming investment in data centers"
+      "source_excerpt": "imports of electronics are up substantially (imports from Taiwan are up over 50 percent YTD) on the back of booming investment in data centers",
+      "source_spans": [
+       {
+        "char_start": 4,
+        "char_end": 146
+       }
+      ]
      }
     ]
    },
@@ -922,27 +1014,38 @@
     "passages": [
      {
       "paragraph_id": "p17",
+      "paragraph_sha256": "sha256:b47fc68461d88e2ef603dc1adafe05c4cd9ca393050666c1b705642f09962cf9",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "So global trade has actually held up rather well even though the world’s largest economy"
+      "source_excerpt": "So global trade has actually held up rather well even though the world’s largest economy",
+      "source_spans": [
+       {
+        "char_start": 0,
+        "char_end": 88
+       }
+      ]
      },
      {
       "paragraph_id": "p26",
+      "paragraph_sha256": "sha256:30a81b4beaffa049594f65babe83c796b0ca9e77d6188b62285fcefa15865682",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      },
      {
       "paragraph_id": "p27",
+      "paragraph_sha256": "sha256:add6fb7a2363e0973ee301fda177d21edac32fb262642cbd8777abc02fc3490a",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      }
     ]
    },
@@ -991,11 +1094,18 @@
     "passages": [
      {
       "paragraph_id": "p4",
+      "paragraph_sha256": "sha256:78c5c403383fc565af4c008d86940a0c4e8c86a83d9a7b3ae67f901e70fa43c4",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "the surge in revenue implies that Americans are continuing to import and just paying the tariff."
+      "source_excerpt": "the surge in revenue implies that Americans are continuing to import and just paying the tariff.",
+      "source_spans": [
+       {
+        "char_start": 109,
+        "char_end": 205
+       }
+      ]
      }
     ]
    },
@@ -1050,11 +1160,18 @@
     "passages": [
      {
       "paragraph_id": "p23",
+      "paragraph_sha256": "sha256:ea342d854152531cec05ccb4a4bfa4a2266b168934a593ace01fce1f10250108",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "The import elasticity for exchange rate moves is closer to 0.3 or 0.4"
+      "source_excerpt": "The import elasticity for exchange rate moves is closer to 0.3 or 0.4",
+      "source_spans": [
+       {
+        "char_start": 0,
+        "char_end": 69
+       }
+      ]
      }
     ]
    },
@@ -1104,19 +1221,28 @@
     "passages": [
      {
       "paragraph_id": "p21",
+      "paragraph_sha256": "sha256:2a23ff3f7a7fe073d079bbcae0b24ad05caf302de16bac728faa5089eec975b7",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      },
      {
       "paragraph_id": "p22",
+      "paragraph_sha256": "sha256:d96c1ceecacab6a4b5db5760836afbd46d728b4541f89117f4da30f563c9c92d",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "the bilateral tariff elasticity of 2 is too high for a global tariff increase"
+      "source_excerpt": "the bilateral tariff elasticity of 2 is too high for a global tariff increase",
+      "source_spans": [
+       {
+        "char_start": 4,
+        "char_end": 81
+       }
+      ]
      }
     ]
    },
@@ -1191,11 +1317,18 @@
     "passages": [
      {
       "paragraph_id": "p21",
+      "paragraph_sha256": "sha256:2a23ff3f7a7fe073d079bbcae0b24ad05caf302de16bac728faa5089eec975b7",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "The roughly 15 percent average tariff increase on trade with China in trump’s first term reduced trade by roughly 30 percent"
+      "source_excerpt": "The roughly 15 percent average tariff increase on trade with China in trump’s first term reduced trade by roughly 30 percent",
+      "source_spans": [
+       {
+        "char_start": 0,
+        "char_end": 124
+       }
+      ]
      }
     ]
    },
@@ -1259,27 +1392,38 @@
     "passages": [
      {
       "paragraph_id": "p20",
+      "paragraph_sha256": "sha256:16cd90b916c6327a2f08daeceba206e42330a9d4aa8aa20830866154052eb43d",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      },
      {
       "paragraph_id": "p23",
+      "paragraph_sha256": "sha256:ea342d854152531cec05ccb4a4bfa4a2266b168934a593ace01fce1f10250108",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "so a 15 percent tariff might be expected to reduce impacts by 5-6 percent. That is a year or two of normal import volume growth"
+      "source_excerpt": "so a 15 percent tariff might be expected to reduce impacts by 5-6 percent. That is a year or two of normal import volume growth",
+      "source_spans": [
+       {
+        "char_start": 70,
+        "char_end": 197
+       }
+      ]
      },
      {
       "paragraph_id": "p24",
+      "paragraph_sha256": "sha256:182eb4f170e5c47e1cf94c6359e4fbad06136784b34fefecb83463c0efa78c02",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      }
     ]
    },
@@ -1339,19 +1483,28 @@
     "passages": [
      {
       "paragraph_id": "p23",
+      "paragraph_sha256": "sha256:ea342d854152531cec05ccb4a4bfa4a2266b168934a593ace01fce1f10250108",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "Some countries will be able to offset reduced U.S. sales by taking market share from US exports"
+      "source_excerpt": "Some countries will be able to offset reduced U.S. sales by taking market share from US exports",
+      "source_spans": [
+       {
+        "char_start": 270,
+        "char_end": 365
+       }
+      ]
      },
      {
       "paragraph_id": "p31",
+      "paragraph_sha256": "sha256:da1997b7b7b3a21a28f7a22a0cb6470ebf5391b339cde862f382b63ea868b2f1",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      }
     ]
    },
@@ -1408,11 +1561,18 @@
     "passages": [
      {
       "paragraph_id": "p31",
+      "paragraph_sha256": "sha256:da1997b7b7b3a21a28f7a22a0cb6470ebf5391b339cde862f382b63ea868b2f1",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "An actual exchange rate depreciation increases exports as well as lowering imports"
+      "source_excerpt": "An actual exchange rate depreciation increases exports as well as lowering imports",
+      "source_spans": [
+       {
+        "char_start": 3,
+        "char_end": 85
+       }
+      ]
      }
     ]
    },
@@ -1469,27 +1629,38 @@
     "passages": [
      {
       "paragraph_id": "p25",
+      "paragraph_sha256": "sha256:0f5d1938d7ae7e590e486c8a9e6df6dc4e48ff91fc7aac4073249b65c2f30455",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "So far at least it is hard to see strong evidence of this kind of impact."
+      "source_excerpt": "So far at least it is hard to see strong evidence of this kind of impact.",
+      "source_spans": [
+       {
+        "char_start": 0,
+        "char_end": 73
+       }
+      ]
      },
      {
       "paragraph_id": "p26",
+      "paragraph_sha256": "sha256:30a81b4beaffa049594f65babe83c796b0ca9e77d6188b62285fcefa15865682",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      },
      {
       "paragraph_id": "p27",
+      "paragraph_sha256": "sha256:add6fb7a2363e0973ee301fda177d21edac32fb262642cbd8777abc02fc3490a",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      }
     ]
    },
@@ -1549,19 +1720,28 @@
     "passages": [
      {
       "paragraph_id": "p3",
+      "paragraph_sha256": "sha256:f10cd383f2347f10275be5acdb277da6f74f0d6250e0d469393064a35a1aaf7b",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      },
      {
       "paragraph_id": "p28",
+      "paragraph_sha256": "sha256:d3254eb2f29ad473922b537debc2bcb2679d865de6687a6b478c796533ce2768",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "The liberation day shock to the trade rules was thus bigger than the shock to overall trade flows."
+      "source_excerpt": "The liberation day shock to the trade rules was thus bigger than the shock to overall trade flows.",
+      "source_spans": [
+       {
+        "char_start": 0,
+        "char_end": 98
+       }
+      ]
      }
     ]
    },
@@ -1623,27 +1803,38 @@
     "passages": [
      {
       "paragraph_id": "p18",
+      "paragraph_sha256": "sha256:da296c9cc02b260e864bd1c3521cdfc1d5bd81fa96d0025d8fb708bfe1325155",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      },
      {
       "paragraph_id": "p19",
+      "paragraph_sha256": "sha256:5a164eca78c655d18a2b72f52fee026a324391693c76e43e9901230e06117a92",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      },
      {
       "paragraph_id": "p29",
+      "paragraph_sha256": "sha256:f042cd072c68e0261d9702b82f5168b550627b3b41a315b0ff2043317dd2cc96",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "Let’s though see what judgement day brings, and what the data for the fall shows—there should be more of an impact than is now apparent."
+      "source_excerpt": "Let’s though see what judgement day brings, and what the data for the fall shows—there should be more of an impact than is now apparent.",
+      "source_spans": [
+       {
+        "char_start": 0,
+        "char_end": 136
+       }
+      ]
      }
     ]
    },
@@ -1698,27 +1889,38 @@
     "passages": [
      {
       "paragraph_id": "p18",
+      "paragraph_sha256": "sha256:da296c9cc02b260e864bd1c3521cdfc1d5bd81fa96d0025d8fb708bfe1325155",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      },
      {
       "paragraph_id": "p19",
+      "paragraph_sha256": "sha256:5a164eca78c655d18a2b72f52fee026a324391693c76e43e9901230e06117a92",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "The August deals and letters resulted in hefty tariff increases for many countries (tariffs on Southeast Asia doubled relative to April)."
+      "source_excerpt": "The August deals and letters resulted in hefty tariff increases for many countries (tariffs on Southeast Asia doubled relative to April).",
+      "source_spans": [
+       {
+        "char_start": 0,
+        "char_end": 137
+       }
+      ]
      },
      {
       "paragraph_id": "p20",
+      "paragraph_sha256": "sha256:16cd90b916c6327a2f08daeceba206e42330a9d4aa8aa20830866154052eb43d",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      }
     ]
    },
@@ -1778,19 +1980,23 @@
     "passages": [
      {
       "paragraph_id": "p20",
+      "paragraph_sha256": "sha256:16cd90b916c6327a2f08daeceba206e42330a9d4aa8aa20830866154052eb43d",
       "relation": "presupposes",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      },
      {
       "paragraph_id": "p23",
+      "paragraph_sha256": "sha256:ea342d854152531cec05ccb4a4bfa4a2266b168934a593ace01fce1f10250108",
       "relation": "presupposes",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      }
     ]
    },

@@ -171,8 +171,11 @@ def save(s: State) -> dict:
               f"gaps left {lk['gaps_left'] or 'none'}, dropped {lk['dropped'] or 'none'}"]
     calls = [json.loads(x) for x in (run_dir(s) / "calls.jsonl").read_text(encoding="utf-8").splitlines()]
     calls = [c for c in calls if c.get("repeat", 0) == s.get("repeat", 0)]
+    spans, unplaced = record.excerpt_spans(a, bx["result"])
+    if unplaced:
+        review["spans"] = unplaced
     ann = record.build(a, s["run"], s["models"], settings()["params"], bx["result"], lk["result"],
-                       fc["result"], stats, review, checks, calls)
+                       fc["result"], stats, review, checks, calls, spans)
     _write(s, "annotation.json", ann)
     md = record.review_md(a, s["run"], review)
     f = run_dir(s) / "review.md"

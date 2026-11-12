@@ -462,19 +462,28 @@
     "passages": [
      {
       "paragraph_id": "p1",
+      "paragraph_sha256": "sha256:0de5f45fe2029a342c4a7d762910ab909725ec0ba2377cadc7051ce9e8a40457",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "China’s current export surge is the simple consequence of the housing downturn and the resulting weakness in Chinese internal demand."
+      "source_excerpt": "China’s current export surge is the simple consequence of the housing downturn and the resulting weakness in Chinese internal demand.",
+      "source_spans": [
+       {
+        "char_start": 95,
+        "char_end": 228
+       }
+      ]
      },
      {
       "paragraph_id": "p2",
+      "paragraph_sha256": "sha256:b1bdce6a0cf88373a1bb160ebeb92e2bdff940c17258a58789efc050e1bf35a0",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      }
     ]
    },
@@ -533,43 +542,58 @@
     "passages": [
      {
       "paragraph_id": "p1",
+      "paragraph_sha256": "sha256:0de5f45fe2029a342c4a7d762910ab909725ec0ba2377cadc7051ce9e8a40457",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      },
      {
       "paragraph_id": "p2",
+      "paragraph_sha256": "sha256:b1bdce6a0cf88373a1bb160ebeb92e2bdff940c17258a58789efc050e1bf35a0",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "The weakness in the RMB in this story is entirely incidental to the increase in exports, which is, more or less, a mechanical response to weak internal demand."
+      "source_excerpt": "The weakness in the RMB in this story is entirely incidental to the increase in exports, which is, more or less, a mechanical response to weak internal demand.",
+      "source_spans": [
+       {
+        "char_start": 0,
+        "char_end": 159
+       }
+      ]
      },
      {
       "paragraph_id": "p3",
+      "paragraph_sha256": "sha256:b3c703450b0cbfc0797c28ac2d395ba9037e6b6955ceda6d3327db730e12ec59",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      },
      {
       "paragraph_id": "p4",
+      "paragraph_sha256": "sha256:d8ef9b536628a0e48fd17295699cd013ea76932a28561588c6fac2688e5b1ae4",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      },
      {
       "paragraph_id": "p5",
+      "paragraph_sha256": "sha256:334df4b153c092e1e522e3f0aebecf7c372447646826051093f2cc909e6a284a",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      }
     ]
    },
@@ -628,11 +652,18 @@
     "passages": [
      {
       "paragraph_id": "p7",
+      "paragraph_sha256": "sha256:a2c4057a24a6dfadb5570087ffd5070ccad6f42db16f54c5b6ef16f1244fb6b8",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "China doesn’t have an open financial account. As a result, equilibrium in the foreign exchange market is thus driven far more by exporter conversion and current account flows than by rate differentials"
+      "source_excerpt": "China doesn’t have an open financial account. As a result, equilibrium in the foreign exchange market is thus driven far more by exporter conversion and current account flows than by rate differentials",
+      "source_spans": [
+       {
+        "char_start": 0,
+        "char_end": 201
+       }
+      ]
      }
     ]
    },
@@ -697,11 +728,18 @@
     "passages": [
      {
       "paragraph_id": "p6",
+      "paragraph_sha256": "sha256:e069cf9b8a72c5e7d899f1107c4778665ae6da2071d3e2e33eaed7ba4f5d1e81",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "The RMB didn’t consistently get pulled up when Chinese rates were higher than U.S. rates (2002-2020 generally speaking)"
+      "source_excerpt": "The RMB didn’t consistently get pulled up when Chinese rates were higher than U.S. rates (2002-2020 generally speaking)",
+      "source_spans": [
+       {
+        "char_start": 88,
+        "char_end": 207
+       }
+      ]
      }
     ]
    },
@@ -767,19 +805,28 @@
     "passages": [
      {
       "paragraph_id": "p7",
+      "paragraph_sha256": "sha256:a2c4057a24a6dfadb5570087ffd5070ccad6f42db16f54c5b6ef16f1244fb6b8",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "the value of the RMB is much more of a policy variable under the independent control of the Chinese authorities than a simple byproduct of monetary and fiscal policies."
+      "source_excerpt": "the value of the RMB is much more of a policy variable under the independent control of the Chinese authorities than a simple byproduct of monetary and fiscal policies.",
+      "source_spans": [
+       {
+        "char_start": 363,
+        "char_end": 531
+       }
+      ]
      },
      {
       "paragraph_id": "p12",
+      "paragraph_sha256": "sha256:b88895014c0699ae40f7e4fd6d29ba3df6a485c7db2772e231d951620c736aa8",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      }
     ]
    },
@@ -834,19 +881,28 @@
     "passages": [
      {
       "paragraph_id": "p9",
+      "paragraph_sha256": "sha256:63629a8c74b1606e319cd1274491dce3cb926237f52f566226bb83bf6655422e",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "the PBOC, rather absurdly, insists that “market forces play a decisive role in determining the RMB exchange rate.”"
+      "source_excerpt": "the PBOC, rather absurdly, insists that “market forces play a decisive role in determining the RMB exchange rate.”",
+      "source_spans": [
+       {
+        "char_start": 48,
+        "char_end": 162
+       }
+      ]
      },
      {
       "paragraph_id": "p10",
+      "paragraph_sha256": "sha256:1633b84603f2bd26beb7d1dc92a870f7f08ae8c442a7918d0321adc5146903fd",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      }
     ]
    },
@@ -901,27 +957,38 @@
     "passages": [
      {
       "paragraph_id": "p11",
+      "paragraph_sha256": "sha256:a1336f9f1a29574e4b3fa721bad6f14047c8ff5a767c6b07506bb5be926c7786",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "it has many means at its disposal to achieve the same effect through extensive capital controls, administrative guidance, signalling at the fix and deploying state-owned commercial banks."
+      "source_excerpt": "it has many means at its disposal to achieve the same effect through extensive capital controls, administrative guidance, signalling at the fix and deploying state-owned commercial banks.",
+      "source_spans": [
+       {
+        "char_start": 187,
+        "char_end": 374
+       }
+      ]
      },
      {
       "paragraph_id": "p44",
+      "paragraph_sha256": "sha256:e0ebd098a66e29decdb5282969e37ef4369208ecc8b4dcd0de50368a09d35875",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      },
      {
       "paragraph_id": "p45",
+      "paragraph_sha256": "sha256:f8bc72d771df2b7ad8f8d16d4d64996b8edddf720c95f85081f41691f4e97d54",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      }
     ]
    },
@@ -985,11 +1052,18 @@
     "passages": [
      {
       "paragraph_id": "p14",
+      "paragraph_sha256": "sha256:d7fc6dd723a939b3202af70a1d05d0b00f5ae20260f729188598dee7b1f82f99",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "the state banks in practice buy FX to keep the CNY from testing the strong side of the band"
+      "source_excerpt": "the state banks in practice buy FX to keep the CNY from testing the strong side of the band",
+      "source_spans": [
+       {
+        "char_start": 257,
+        "char_end": 348
+       }
+      ]
      }
     ]
    },
@@ -1051,19 +1125,28 @@
     "passages": [
      {
       "paragraph_id": "p13",
+      "paragraph_sha256": "sha256:66a76c7a88aeb817e6449c8e1b242f68d25d876563759d71ce200d1156739a89",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "The yuan’s move down against the dollar in 2022 was a controlled 10 percent move, and the appreciation over the last 16 months has been even more controlled crawl."
+      "source_excerpt": "The yuan’s move down against the dollar in 2022 was a controlled 10 percent move, and the appreciation over the last 16 months has been even more controlled crawl.",
+      "source_spans": [
+       {
+        "char_start": 81,
+        "char_end": 244
+       }
+      ]
      },
      {
       "paragraph_id": "p14",
+      "paragraph_sha256": "sha256:d7fc6dd723a939b3202af70a1d05d0b00f5ae20260f729188598dee7b1f82f99",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      }
     ]
    },
@@ -1124,11 +1207,18 @@
     "passages": [
      {
       "paragraph_id": "p8",
+      "paragraph_sha256": "sha256:bb1bfed5c96bf16bc920157fbcaf92ebedde133596d65a9d166c819c6424ae90",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "Its surveillance has generally ignored China’s currency management"
+      "source_excerpt": "Its surveillance has generally ignored China’s currency management",
+      "source_spans": [
+       {
+        "char_start": 55,
+        "char_end": 121
+       }
+      ]
      }
     ]
    },
@@ -1188,19 +1278,28 @@
     "passages": [
      {
       "paragraph_id": "p15",
+      "paragraph_sha256": "sha256:0da26b2f47ac62c0b732006f0859232268e9a77ddbe2e8b883944c8111fb8e94",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      },
      {
       "paragraph_id": "p16",
+      "paragraph_sha256": "sha256:fe8057cd68924ac1903f9e3c868e47dc316c7fa6e3b9796fe3986536b3963332",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "Periods of RMB weakness have consistently been associated with periods of especially rapid Chinese export growth."
+      "source_excerpt": "Periods of RMB weakness have consistently been associated with periods of especially rapid Chinese export growth.",
+      "source_spans": [
+       {
+        "char_start": 85,
+        "char_end": 198
+       }
+      ]
      }
     ]
    },
@@ -1256,27 +1355,38 @@
     "passages": [
      {
       "paragraph_id": "p15",
+      "paragraph_sha256": "sha256:0da26b2f47ac62c0b732006f0859232268e9a77ddbe2e8b883944c8111fb8e94",
       "relation": "presupposes",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "None of this would matter much if China’s economy was small. But that obviously isn’t the case."
+      "source_excerpt": "None of this would matter much if China’s economy was small. But that obviously isn’t the case.",
+      "source_spans": [
+       {
+        "char_start": 0,
+        "char_end": 95
+       }
+      ]
      },
      {
       "paragraph_id": "p31",
+      "paragraph_sha256": "sha256:94211a3abdff704662392e87466d1ec3df22c34551673c041a44d5efc89fa0b8",
       "relation": "presupposes",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      },
      {
       "paragraph_id": "p32",
+      "paragraph_sha256": "sha256:4090e9ea6528c6ec0b753a4b8d72b89013e87338b6c1b4a32a33867db692fe7e",
       "relation": "presupposes",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      }
     ]
    },
@@ -1331,43 +1441,58 @@
     "passages": [
      {
       "paragraph_id": "p19",
+      "paragraph_sha256": "sha256:f2878f30506be04eb3eafa3d72a1dc3acdfee9ba80e6bd18ba91d75a78278a56",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "the acceleration in China’s export growth after the RMB’s depreciation over the course of 2022."
+      "source_excerpt": "the acceleration in China’s export growth after the RMB’s depreciation over the course of 2022.",
+      "source_spans": [
+       {
+        "char_start": 138,
+        "char_end": 233
+       }
+      ]
      },
      {
       "paragraph_id": "p20",
+      "paragraph_sha256": "sha256:9f3c62c4cb9435d9f5abfa3331975c43ca12b62c1c6b932e1e738c1cfa685a3c",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      },
      {
       "paragraph_id": "p21",
+      "paragraph_sha256": "sha256:dbe4394a9e8b8e9a1e069ae7f2774533d769fbb04ecef0f47f42ff661cd81e9c",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      },
      {
       "paragraph_id": "p24",
+      "paragraph_sha256": "sha256:85beb2e87d2ccb17e6f5623cc220841085f60b9f7d18bc381303c9fabda1ceaa",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      },
      {
       "paragraph_id": "p25",
+      "paragraph_sha256": "sha256:1edf4adf679f9fe45195b8abe0cb85962d4fc8d8b33b25d3a12f0d061df57da9",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      }
     ]
    },
@@ -1427,11 +1552,18 @@
     "passages": [
      {
       "paragraph_id": "p21",
+      "paragraph_sha256": "sha256:dbe4394a9e8b8e9a1e069ae7f2774533d769fbb04ecef0f47f42ff661cd81e9c",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "what of the acceleration in export growth in 2020 and 2021? That was pretty clearly tied to the global increase in goods demand"
+      "source_excerpt": "what of the acceleration in export growth in 2020 and 2021? That was pretty clearly tied to the global increase in goods demand",
+      "source_spans": [
+       {
+        "char_start": 20,
+        "char_end": 147
+       }
+      ]
      }
     ]
    },
@@ -1480,19 +1612,28 @@
     "passages": [
      {
       "paragraph_id": "p22",
+      "paragraph_sha256": "sha256:398773fe3b36920c50b9e2d5b2a7127d15341d2d91e97df337ddc5ef2b605b78",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      },
      {
       "paragraph_id": "p23",
+      "paragraph_sha256": "sha256:a862ca38e342dd7dc4b2dc49a34d8d93dc0c27e6111c38dd1c50d5d2b6abddc7",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "neglecting the exchange rate was the key reason the IMF’s kept forecasting, incorrectly, that China’s current account surplus would fall"
+      "source_excerpt": "neglecting the exchange rate was the key reason the IMF’s kept forecasting, incorrectly, that China’s current account surplus would fall",
+      "source_spans": [
+       {
+        "char_start": 19,
+        "char_end": 155
+       }
+      ]
      }
     ]
    },
@@ -1549,11 +1690,18 @@
     "passages": [
      {
       "paragraph_id": "p26",
+      "paragraph_sha256": "sha256:76bb90b7ba60e71ede777a9a776fd1394a2c046277afe3475699a622efc40419",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "In both cses exports were turbocharged when structural shifts that should have resulted in a stronger currency were instead amplified by currency weakness."
+      "source_excerpt": "In both cses exports were turbocharged when structural shifts that should have resulted in a stronger currency were instead amplified by currency weakness.",
+      "source_spans": [
+       {
+        "char_start": 186,
+        "char_end": 341
+       }
+      ]
      }
     ]
    },
@@ -1613,11 +1761,18 @@
     "passages": [
      {
       "paragraph_id": "p27",
+      "paragraph_sha256": "sha256:60993fc7213e7ff8d6c755453957fc35dec55ef5ef5caab71b3fce71aedb4557",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "a country that is converging technologically with its trade partners should see a trend appreciation in its currency."
+      "source_excerpt": "a country that is converging technologically with its trade partners should see a trend appreciation in its currency.",
+      "source_spans": [
+       {
+        "char_start": 39,
+        "char_end": 156
+       }
+      ]
      }
     ]
    },
@@ -1667,27 +1822,38 @@
     "passages": [
      {
       "paragraph_id": "p28",
+      "paragraph_sha256": "sha256:7589db4115121025faebf09c8eb0d0a6af13a24ea9b2e2bf499d4e3e6e55d779",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      },
      {
       "paragraph_id": "p29",
+      "paragraph_sha256": "sha256:d0e28faf983bef86f5c7b6b5fb298b391b90584a2552fbd14a12933eced97488",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      },
      {
       "paragraph_id": "p30",
+      "paragraph_sha256": "sha256:df592f8cff1db091a240da5da5b03659cb44ed44040617b85e430d84e6b09d30",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "a stronger RMB would slow China’s exports and thus slow China’s economy at a time when China needs export growth to escape deflation"
+      "source_excerpt": "a stronger RMB would slow China’s exports and thus slow China’s economy at a time when China needs export growth to escape deflation",
+      "source_spans": [
+       {
+        "char_start": 129,
+        "char_end": 261
+       }
+      ]
      }
     ]
    },
@@ -1741,27 +1907,38 @@
     "passages": [
      {
       "paragraph_id": "p34",
+      "paragraph_sha256": "sha256:2ce92cf28d910754431b9f990c1a62b4295b1f56e86e570dce80e5f75d11d68d",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "there was an expectation (not always met to be sure) that surplus countries would allow their currencies to strengthen"
+      "source_excerpt": "there was an expectation (not always met to be sure) that surplus countries would allow their currencies to strengthen",
+      "source_spans": [
+       {
+        "char_start": 58,
+        "char_end": 176
+       }
+      ]
      },
      {
       "paragraph_id": "p35",
+      "paragraph_sha256": "sha256:7b378491c222205735d1693ceb6fd7525dc182ba7117c061a40b58f57777f1de",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      },
      {
       "paragraph_id": "p43",
+      "paragraph_sha256": "sha256:2119c1a06255c63187826660f8ea1beea18cbbf13c00bf1f58b76983ea9d2ccf",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      }
     ]
    },
@@ -1823,35 +2000,48 @@
     "passages": [
      {
       "paragraph_id": "p36",
+      "paragraph_sha256": "sha256:19caad4c0b539eb2f36801a1812977762f087568c77271b6f37e0b92bbac5ddb",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "aren’t going to address the underlying imbalance on their own. They can provide a bit of a buffer for specific sectors."
+      "source_excerpt": "aren’t going to address the underlying imbalance on their own. They can provide a bit of a buffer for specific sectors.",
+      "source_spans": [
+       {
+        "char_start": 215,
+        "char_end": 334
+       }
+      ]
      },
      {
       "paragraph_id": "p37",
+      "paragraph_sha256": "sha256:1ba27c64db02c638e1b0cdfa2890202ad02c9de348f3a324bf8157a40c472120",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      },
      {
       "paragraph_id": "p38",
+      "paragraph_sha256": "sha256:0b7eb687f432604b83d24e3803f30e7dd0d1ae645a0e75b54775e41b1aa10294",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      },
      {
       "paragraph_id": "p39",
+      "paragraph_sha256": "sha256:5ad79fdaddb6a006e88de2ae0bb8bd845883c838f8d68266ff334daf90dfc284",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      }
     ]
    },
@@ -1912,11 +2102,18 @@
     "passages": [
      {
       "paragraph_id": "p37",
+      "paragraph_sha256": "sha256:1ba27c64db02c638e1b0cdfa2890202ad02c9de348f3a324bf8157a40c472120",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "This erosion will persist as long as an undervalued RMB sends the entire world a signal to use China as its production base."
+      "source_excerpt": "This erosion will persist as long as an undervalued RMB sends the entire world a signal to use China as its production base.",
+      "source_spans": [
+       {
+        "char_start": 113,
+        "char_end": 237
+       }
+      ]
      }
     ]
    },
@@ -1979,11 +2176,18 @@
     "passages": [
      {
       "paragraph_id": "p40",
+      "paragraph_sha256": "sha256:4c6cd68565a0310ddcc449cee02203c1112e9522fd8cf2b0fe688a29ca96b463",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "domestic demand growth is no longer feeding over to import growth (ex-gold, that is)."
+      "source_excerpt": "domestic demand growth is no longer feeding over to import growth (ex-gold, that is).",
+      "source_spans": [
+       {
+        "char_start": 295,
+        "char_end": 380
+       }
+      ]
      }
     ]
    },
@@ -2037,11 +2241,18 @@
     "passages": [
      {
       "paragraph_id": "p42",
+      "paragraph_sha256": "sha256:fe062905c62b66a9668c4a785392efc4c065eb7aaaf7b10e5a32280fa06b7d6c",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "there aren’t, as Paul Krugman once put it, immaculate transfers."
+      "source_excerpt": "there aren’t, as Paul Krugman once put it, immaculate transfers.",
+      "source_spans": [
+       {
+        "char_start": 86,
+        "char_end": 150
+       }
+      ]
      }
     ]
    },
@@ -2090,19 +2301,28 @@
     "passages": [
      {
       "paragraph_id": "p41",
+      "paragraph_sha256": "sha256:af463ae8d8e839f6d11cd39e8712bca6f258ff49e8fe36d01a367486b464fd95",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      },
      {
       "paragraph_id": "p42",
+      "paragraph_sha256": "sha256:fe062905c62b66a9668c4a785392efc4c065eb7aaaf7b10e5a32280fa06b7d6c",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "there isn’t a realistic path towards balance that doesn’t involve a stronger RMB"
+      "source_excerpt": "there isn’t a realistic path towards balance that doesn’t involve a stronger RMB",
+      "source_spans": [
+       {
+        "char_start": 4,
+        "char_end": 84
+       }
+      ]
      }
     ]
    },
@@ -2171,35 +2391,48 @@
     "passages": [
      {
       "paragraph_id": "p17",
+      "paragraph_sha256": "sha256:510f26a3f39e6dbc12d950dd4354f6c1e44b49c7dbfe6d88e28f62366b9196a8",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      },
      {
       "paragraph_id": "p18",
+      "paragraph_sha256": "sha256:bfd18a8275a8e308d0dc271d048a2cc6c90a00d7ad97688b95bee504bf25bf7c",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "European policy discussions focused on forging a common understanding of these exchange rate issues and their interaction with global imbalances would be useful."
+      "source_excerpt": "European policy discussions focused on forging a common understanding of these exchange rate issues and their interaction with global imbalances would be useful.",
+      "source_spans": [
+       {
+        "char_start": 186,
+        "char_end": 347
+       }
+      ]
      },
      {
       "paragraph_id": "p33",
+      "paragraph_sha256": "sha256:d99866639fc733449e545592a47f37f2d600a052cc6a6f63a344208779343f5a",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      },
      {
       "paragraph_id": "p46",
+      "paragraph_sha256": "sha256:0ac0c66ef23c9dc5890963f4cffd90065d04372c376e1a5a535305b7be6fa69d",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      }
     ]
    },
@@ -2262,11 +2495,18 @@
     "passages": [
      {
       "paragraph_id": "p46",
+      "paragraph_sha256": "sha256:0ac0c66ef23c9dc5890963f4cffd90065d04372c376e1a5a535305b7be6fa69d",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "Europe’s institutional architecture for exchange rate coordination is not well-developed."
+      "source_excerpt": "Europe’s institutional architecture for exchange rate coordination is not well-developed.",
+      "source_spans": [
+       {
+        "char_start": 108,
+        "char_end": 197
+       }
+      ]
      }
     ]
    },
@@ -2315,19 +2555,28 @@
     "passages": [
      {
       "paragraph_id": "p6",
+      "paragraph_sha256": "sha256:e069cf9b8a72c5e7d899f1107c4778665ae6da2071d3e2e33eaed7ba4f5d1e81",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "That appreciation hasn’t been big enough to correct the deep undervaluation of the RMB"
+      "source_excerpt": "That appreciation hasn’t been big enough to correct the deep undervaluation of the RMB",
+      "source_spans": [
+       {
+        "char_start": 379,
+        "char_end": 465
+       }
+      ]
      },
      {
       "paragraph_id": "p27",
+      "paragraph_sha256": "sha256:60993fc7213e7ff8d6c755453957fc35dec55ef5ef5caab71b3fce71aedb4557",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": null
+      "source_excerpt": null,
+      "source_spans": null
      }
     ]
    },
@@ -2387,11 +2636,18 @@
     "passages": [
      {
       "paragraph_id": "p47",
+      "paragraph_sha256": "sha256:543e5f6687af81decf2889e2ee7830302b8f2ad4e6cb03593a4c6df66fb4a105",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "SAFE has fiddled with its BoP methodology once again (per the Federal Reserve) and the BoP goods surplus is no longer significantly below the customs goods surplus."
+      "source_excerpt": "SAFE has fiddled with its BoP methodology once again (per the Federal Reserve) and the BoP goods surplus is no longer significantly below the customs goods surplus.",
+      "source_spans": [
+       {
+        "char_start": 96,
+        "char_end": 260
+       }
+      ]
      }
     ]
    },
