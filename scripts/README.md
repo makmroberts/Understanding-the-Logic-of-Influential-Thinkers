@@ -852,6 +852,81 @@ Still open:
 - Entities cover byline authors and the publisher only, with `entity_id` null.
   Matching names in prose needs a hand-maintained list that does not exist yet.
 
+## Neo4j from the annotation JSON (2026-11-11)
+
+`exporters/neo4j_graph.py` loads the new pipeline's outputs into the repo's local
+Neo4j (`docker-compose.yml`). It reads `data/articles/*.json`, the paragraph text
+in `internal/extracted/`, the official run of each
+`annotation/articles/*/<model>/annotation.json`, and the role hierarchy from
+`schema_map.yaml` `role_families` (vocabulary, not map content). It loads the
+model's maps only, so the 13 model-annotated articles have claims; all 25 records
+have articles, paragraphs and citations. It replaces `export_neo4j.py` for this
+database: each run deletes **everything** in it, including a legacy `load.cypher`
+load, and writes the graph again.
+
+```
+(:Person|:Organization)-[:AUTHORED|:PUBLISHED]->(:Article)
+(:Article)-[:HAS_PARAGRAPH]->(:Paragraph)-[:LINKS_TO]->(:Source)-[:IS_ARTICLE]->(:Article)
+(:Article)-[:HAS_CLAIM]->(:Claim)-[:CITES]->(:Paragraph)
+(:Claim)-[:SUPPORTS|:FRAMES|:QUALIFIED_BY|... {relation, sign}]->(:Claim)
+(:Claim)-[:TAGGED {facet, geo_role}]->(:Term)
+```
+
+A claim is `:Claim` plus its role type (`:Mechanism`, `:MainClaim`, ...) and carries
+`toulmin` and `oper`, so rules can key on any level of the hierarchy. A `CITES` edge
+with an excerpt carries its character spans (`span_starts`, `span_ends`) and the
+citation written out, `citation: "chinas-imaginary-trade-data#p22[0:71]"`. Every
+`CITES` edge also carries the paragraph hash it was annotated against
+(`paragraph_sha256`) and `source_changed`, true when the record's paragraph no longer
+has that hash; the loader warns for each. See `annotation/README.md` "Annotating the
+record's text". Every node has a `name` for Neo4j Browser's
+caption (a claim's is its short ID and the start of its text). Each relation
+is its own relationship type, so a chain of any length is one pattern. Every node
+has a unique `key`; `claim_text` (text and reason) and `paragraph_text` are
+full-text indexes with the English analyzer.
+
+```
+docker compose up -d
+python scripts/exporters/neo4j_graph.py            # rebuild, then compare counts with the files
+python scripts/exporters/neo4j_graph.py --check    # counts only
+# browser: http://localhost:7474  (neo4j / argumentmaps)
+```
+
+It uses Neo4j's HTTP API, so it needs no driver. Because a load deletes everything
+first, it refuses a database that is not on this machine unless `--wipe-remote` is
+passed, and it stops if a role or relation in the files is not a plain identifier,
+since those become labels in the Cypher text. Counts from the files: 25 articles,
+976 paragraphs, 345 sources, 301 claims, 72 facet terms; 367 argument links over
+11 relation types, 672 `CITES`, 1,097 `TAGGED`, 383 `LINKS_TO`. Only 6 citations
+point to another article in the set.
+
+Verified on 2026-11-11: a load takes about 7 seconds, every label, role label and
+relationship type count matches the files, and a second run gives the same counts.
+`whats-the-renminbi-got-to-do-with-it#n001` cites p1 (`states`) and p2
+(`abstracts`), as in its annotation JSON. In `setser_aug_14_24`, 13 claims lie
+behind the main claim, at most 3 links deep. Full-text search for "renminbi
+undervalued exports" ranks that article's n001 first; with the default analyzer it
+did not, because it does not stem "exports" to "export".
+
+### HelixDB, tried and dropped (2026-11-10)
+
+The same graph was first loaded into HelixDB, a graph database with vector and BM25
+search in one store. It loaded and checked, and was dropped for Neo4j:
+
+- Its Cypher has no variable-length paths, so "what does this main claim rest on"
+  needs one query per depth. It also has no `MERGE`, shortest paths or `UNION`.
+- One label per node, so the role hierarchy cannot be labels.
+- Its ontology feature (Helix Foundry) has an AI agent draft the types from data
+  sources for a person to approve, with no hand authoring or import. Here the
+  vocabulary is authored and governed by people, so that is the wrong way round.
+- Young: the Windows CLI is x86-64 only (it ran from WSL on this ARM machine), the
+  local image was v0.0.12, and the planner label-scanned instead of using the unique
+  `key` index when keys came from an `UNWIND` row, which exceeded the per-query
+  memory budget until edges were matched in two steps and batches of 50.
+
+Its one real advantage, graph traversal and vector search in a single query, is a
+retrieval question for `ask.py`, not a reason to hold the graph there.
+
 ## Known issues
 
 - **Date in the article list is wrong for one entry.** "Why Didn't Tariffs Push
