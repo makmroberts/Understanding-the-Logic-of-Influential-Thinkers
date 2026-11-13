@@ -1,0 +1,812 @@
+{
+  "schema_version": "source-record-0.1",
+  "article": {
+    "id": "slouching-toward-phase-one",
+    "title": "Slouching Toward Phase One",
+    "authors": [
+      "Brad W. Setser",
+      "Dylan Yalbir"
+    ],
+    "published_date": "2020-07-08",
+    "url": "https://www.cfr.org/articles/slouching-toward-phase-one",
+    "publisher": "Council on Foreign Relations",
+    "series": "Follow the Money",
+    "source_text": {
+      "path": "internal/extracted/2020-07-08_slouching-toward-phase-one.md",
+      "paragraph_count": 39,
+      "content_hash": "sha256:e021368b580ed8e82fcc073095a893cc34c8102bcbb77a49a82a587b7003a1f1",
+      "revision": 1
+    },
+    "references": [
+      {
+        "id": "r001",
+        "paragraph_id": "p2",
+        "char_start": 102,
+        "char_end": 126,
+        "label": "China’s defense attorney",
+        "href": "https://www.wsj.com/articles/congress-to-probe-trumps-aggressive-trade-policies-11592395201",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://wsj.com/articles/congress-to-probe-trumps-aggressive-trade-policies-11592395201",
+        "host": "wsj.com",
+        "target_article_id": null
+      },
+      {
+        "id": "r002",
+        "paragraph_id": "p5",
+        "char_start": 253,
+        "char_end": 337,
+        "label": "the IMF is forecasting that China’s q4 output will be up by 4.4 percent over q4 2019",
+        "href": "https://www.imf.org/en/Publications/WEO/Issues/2020/06/24/WEOUpdateJune2020",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://imf.org/en/publications/weo/issues/2020/06/24/weoupdatejune2020",
+        "host": "imf.org",
+        "target_article_id": null
+      },
+      {
+        "id": "r003",
+        "paragraph_id": "p6",
+        "char_start": 43,
+        "char_end": 90,
+        "label": "on track to live up to its purchase commitments",
+        "href": "https://www.piie.com/research/piie-charts/us-china-phase-one-tracker-chinas-purchases-us-goods",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://piie.com/research/piie-charts/us-china-phase-one-tracker-chinas-purchases-us-goods",
+        "host": "piie.com",
+        "target_article_id": null
+      },
+      {
+        "id": "r004",
+        "paragraph_id": "p6",
+        "char_start": 131,
+        "char_end": 148,
+        "label": "more worried here",
+        "href": "https://www.wsj.com/articles/u-s-business-groups-urge-china-to-redouble-efforts-to-implement-trade-deal-11594066059",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://wsj.com/articles/u-s-business-groups-urge-china-to-redouble-efforts-to-implement-trade-deal-11594066059",
+        "host": "wsj.com",
+        "target_article_id": null
+      },
+      {
+        "id": "r005",
+        "paragraph_id": "p8",
+        "char_start": 259,
+        "char_end": 284,
+        "label": "PDF, Chapter 6, annex 6.1",
+        "href": "https://ustr.gov/sites/default/files/files/agreements/phase%20one%20agreement/Economic_And_Trade_Agreement_Between_The_United_States_And_China_Text.pdf",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://ustr.gov/sites/default/files/files/agreements/phase%20one%20agreement/economic_and_trade_agreement_between_the_united_states_and_china_text.pdf",
+        "host": "ustr.gov",
+        "target_article_id": null
+      },
+      {
+        "id": "r006",
+        "paragraph_id": "p13",
+        "char_start": 60,
+        "char_end": 102,
+        "label": "many manufactures for its own internal use",
+        "href": "https://www.cfr.org/articles/president-xi-still-deglobalizer-chief",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://cfr.org/articles/president-xi-still-deglobalizer-chief",
+        "host": "cfr.org",
+        "target_article_id": null
+      },
+      {
+        "id": "r007",
+        "paragraph_id": "p13",
+        "char_start": 132,
+        "char_end": 175,
+        "label": "a particularly big exporter of manufactures",
+        "href": "https://www.cfr.org/articles/five-points-about-us-trade-over-last-thirty-years",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://cfr.org/articles/five-points-about-us-trade-over-last-thirty-years",
+        "host": "cfr.org",
+        "target_article_id": null
+      },
+      {
+        "id": "r008",
+        "paragraph_id": "p16",
+        "char_start": 56,
+        "char_end": 76,
+        "label": "(somewhat strangely)",
+        "href": "https://www.cfr.org/articles/tale-two-tariffs-chinas-so-far-ineffective-tariffs-us-manufacturing-exports",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://cfr.org/articles/tale-two-tariffs-chinas-so-far-ineffective-tariffs-us-manufacturing-exports",
+        "host": "cfr.org",
+        "target_article_id": "tale-two-tariffs-chinas-so-far-ineffective-tariffs-us-manufacturing-exports"
+      },
+      {
+        "id": "r009",
+        "paragraph_id": "p18",
+        "char_start": 554,
+        "char_end": 595,
+        "label": "flows through a few big state-owned firms",
+        "href": "https://www.cfr.org/articles/china-never-stopped-managing-its-trade",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://cfr.org/articles/china-never-stopped-managing-its-trade",
+        "host": "cfr.org",
+        "target_article_id": "china-never-stopped-managing-its-trade"
+      },
+      {
+        "id": "r010",
+        "paragraph_id": "p20",
+        "char_start": 90,
+        "char_end": 141,
+        "label": "outsized political impact of Iowa’s soybean farmers",
+        "href": "https://www.wsj.com/articles/john-bolton-the-scandal-of-trumps-china-policy-11592419564",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://wsj.com/articles/john-bolton-the-scandal-of-trumps-china-policy-11592419564",
+        "host": "wsj.com",
+        "target_article_id": null
+      },
+      {
+        "id": "r011",
+        "paragraph_id": "p23",
+        "char_start": 49,
+        "char_end": 62,
+        "label": "poultry parts",
+        "href": "https://www.atlasobscura.com/articles/chicken-feet-trade",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://atlasobscura.com/articles/chicken-feet-trade",
+        "host": "atlasobscura.com",
+        "target_article_id": null
+      },
+      {
+        "id": "r012",
+        "paragraph_id": "p23",
+        "char_start": 89,
+        "char_end": 106,
+        "label": "the almighty bean",
+        "href": "https://www.cfr.org/articles/soybeans",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://cfr.org/articles/soybeans",
+        "host": "cfr.org",
+        "target_article_id": null
+      },
+      {
+        "id": "r013",
+        "paragraph_id": "p23",
+        "char_start": 256,
+        "char_end": 299,
+        "label": "Brazilian exports of beans to China surging",
+        "href": "https://uk.reuters.com/article/us-usa-soybeans-braun/column-does-china-still-need-u-s-soybeans-after-brazils-export-bonanza-idUKKBN23U182",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://uk.reuters.com/article/us-usa-soybeans-braun/column-does-china-still-need-u-s-soybeans-after-brazils-export-bonanza-idukkbn23u182",
+        "host": "uk.reuters.com",
+        "target_article_id": null
+      },
+      {
+        "id": "r014",
+        "paragraph_id": "p24",
+        "char_start": 476,
+        "char_end": 517,
+        "label": "the purchasing decisions of China’s state",
+        "href": "https://www.economist.com/business/2019/02/02/a-chinese-state-backed-giants-rapid-rise-in-global-trading-of-food",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://economist.com/business/2019/02/02/a-chinese-state-backed-giants-rapid-rise-in-global-trading-of-food",
+        "host": "economist.com",
+        "target_article_id": null
+      },
+      {
+        "id": "r015",
+        "paragraph_id": "p25",
+        "char_start": 113,
+        "char_end": 125,
+        "label": "pork exports",
+        "href": "https://www.nytimes.com/2020/06/16/business/meat-industry-china-pork.html",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://nytimes.com/2020/06/16/business/meat-industry-china-pork.html",
+        "host": "nytimes.com",
+        "target_article_id": null
+      },
+      {
+        "id": "r016",
+        "paragraph_id": "p25",
+        "char_start": 231,
+        "char_end": 259,
+        "label": "renewal of the chicken parts",
+        "href": "https://www.cfr.org/articles/chicken-feet-and-china-back-future",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://cfr.org/articles/chicken-feet-and-china-back-future",
+        "host": "cfr.org",
+        "target_article_id": null
+      },
+      {
+        "id": "r017",
+        "paragraph_id": "p25",
+        "char_start": 270,
+        "char_end": 282,
+        "label": "chicken paws",
+        "href": "https://www.atlasobscura.com/articles/chicken-feet-trade",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://atlasobscura.com/articles/chicken-feet-trade",
+        "host": "atlasobscura.com",
+        "target_article_id": null
+      },
+      {
+        "id": "r018",
+        "paragraph_id": "p26",
+        "char_start": 28,
+        "char_end": 45,
+        "label": "recent coronation",
+        "href": "https://www.wsj.com/articles/all-hail-the-lobster-king-11593381414",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://wsj.com/articles/all-hail-the-lobster-king-11593381414",
+        "host": "wsj.com",
+        "target_article_id": null
+      },
+      {
+        "id": "r019",
+        "paragraph_id": "p26",
+        "char_start": 399,
+        "char_end": 415,
+        "label": "the numbers here",
+        "href": "https://www.cfr.org/articles/how-effective-have-chinas-agricultural-and-seafood-tariffs-been",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://cfr.org/articles/how-effective-have-chinas-agricultural-and-seafood-tariffs-been",
+        "host": "cfr.org",
+        "target_article_id": null
+      },
+      {
+        "id": "r020",
+        "paragraph_id": "p30",
+        "char_start": 0,
+        "char_end": 13,
+        "label": "Reuters notes",
+        "href": "https://uk.reuters.com/article/uk-column-russell-usa-china-energy/column-chinas-record-us-crude-imports-in-july-underscores-trade-deal-failure-idUKKBN23W194",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://uk.reuters.com/article/uk-column-russell-usa-china-energy/column-chinas-record-us-crude-imports-in-july-underscores-trade-deal-failure-idukkbn23w194",
+        "host": "uk.reuters.com",
+        "target_article_id": null
+      },
+      {
+        "id": "r021",
+        "paragraph_id": "p32",
+        "char_start": 276,
+        "char_end": 286,
+        "label": "price drop",
+        "href": "https://www.spglobal.com/platts/en/market-insights/latest-news/coal/022620-china-to-exempt-us-origin-petcoke-from-25-import-tarrif-sources",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://spglobal.com/platts/en/market-insights/latest-news/coal/022620-china-to-exempt-us-origin-petcoke-from-25-import-tarrif-sources",
+        "host": "spglobal.com",
+        "target_article_id": null
+      },
+      {
+        "id": "r022",
+        "paragraph_id": "p33",
+        "char_start": 53,
+        "char_end": 126,
+        "label": "U.S. natural gas prices above that of competition in Europe and East Asia",
+        "href": "https://www.ft.com/content/6a3872a0-fa38-4a1c-90fa-2db35cbfff58",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://ft.com/content/6a3872a0-fa38-4a1c-90fa-2db35cbfff58",
+        "host": "ft.com",
+        "target_article_id": null
+      },
+      {
+        "id": "r023",
+        "paragraph_id": "p33",
+        "char_start": 211,
+        "char_end": 229,
+        "label": "canceled by buyers",
+        "href": "https://www.spglobal.com/marketintelligence/en/news-insights/latest-news-headlines/summer-outlook-for-us-lng-exports-dims-as-cancellations-mount-59185114",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://spglobal.com/marketintelligence/en/news-insights/latest-news-headlines/summer-outlook-for-us-lng-exports-dims-as-cancellations-mount-59185114",
+        "host": "spglobal.com",
+        "target_article_id": null
+      },
+      {
+        "id": "r024",
+        "paragraph_id": "p39",
+        "char_start": 216,
+        "char_end": 227,
+        "label": "the targets",
+        "href": "https://ustr.gov/countries-regions/china-mongolia-taiwan/peoples-republic-china/phase-one-trade-agreement/text",
+        "kind": "hyperlink",
+        "placement": "footnote",
+        "source_key": "https://ustr.gov/countries-regions/china-mongolia-taiwan/peoples-republic-china/phase-one-trade-agreement/text",
+        "host": "ustr.gov",
+        "target_article_id": null
+      }
+    ],
+    "metadata_extension": {
+      "field_sources": {
+        "title": "frontmatter",
+        "authors": "frontmatter",
+        "published_date": "frontmatter",
+        "url": "frontmatter",
+        "publisher": "frontmatter",
+        "series": "frontmatter"
+      },
+      "references_status": "preserved",
+      "links_hash": "sha256:3bfe3f1ec0618bcad1b0e672710ae46cf31b4f61f9d859190fdf8a1f8eb53144",
+      "subtitle": "On current trends, goods exports to China will struggle to reach their 2017 level—there won’t be any big gains from the Phase One deal.",
+      "published_at": "2020-07-08T00:24:15-04:00",
+      "programs": [
+        "Follow the Money"
+      ],
+      "source_tags": [
+        "China",
+        "United States"
+      ],
+      "license": "CC BY-NC-ND 4.0",
+      "section": "Article",
+      "doc_type": "AnalysisNewsArticle",
+      "language": "en",
+      "word_count": 1982,
+      "date_modified": "2020-07-08",
+      "retrieved_at": "2026-10-19T20:54:52Z",
+      "page_sha256": "5db4f467f3402f3ae542fa05825eb67b3d51c430021ced09b7dca76da4108557",
+      "figures": [
+        {
+          "title": "deal-table",
+          "src": "https://static.cfr.org/sites/default/files/styles/large_s/public/image/2020/07/deal-table_0.png",
+          "after_paragraph": "p6"
+        },
+        {
+          "title": "us-goods-exports-to-china-cumulative-comp-and-projections-for-2020",
+          "src": "https://static.cfr.org/sites/default/files/styles/large_s/public/image/2020/07/us-goods-exports-to-china-cumulative-comp-and-projections-for-2020.png",
+          "after_paragraph": "p8"
+        },
+        {
+          "title": "us-aircraft-exports-to-china",
+          "src": "https://static.cfr.org/sites/default/files/styles/large_s/public/image/2020/07/us-aircraft-exports-to-china.png",
+          "after_paragraph": "p14"
+        },
+        {
+          "title": "us-manufacturing-exc-aircraft-exports-to-china-cumulative-comp",
+          "src": "https://static.cfr.org/sites/default/files/styles/large_s/public/image/2020/07/us-manufacturing-exc-aircraft-exports-to-china-cumulative-comp.png",
+          "after_paragraph": "p17"
+        },
+        {
+          "title": "comp-of-us-manufacturing-exc-aircraft-exports-to-china",
+          "src": "https://static.cfr.org/sites/default/files/styles/large_s/public/image/2020/07/comp-of-us-manufacturing-exc-aircraft-exports-to-china.png",
+          "after_paragraph": "p18"
+        },
+        {
+          "title": "us-ag-exports-to-china-cumulative-comp",
+          "src": "https://static.cfr.org/sites/default/files/styles/large_s/public/image/2020/07/us-ag-exports-to-china-cumulative-comp.png",
+          "after_paragraph": "p21"
+        },
+        {
+          "title": "comp-of-us-ag-exports-to-china",
+          "src": "https://static.cfr.org/sites/default/files/styles/large_s/public/image/2020/07/comp-of-us-ag-exports-to-china.png",
+          "after_paragraph": "p24"
+        },
+        {
+          "title": "us-meat-exports-to-china",
+          "src": "https://static.cfr.org/sites/default/files/styles/large_s/public/image/2020/07/us-meat-exports-to-china_0.png",
+          "after_paragraph": "p25"
+        },
+        {
+          "title": "us-energy-exports-to-china-cumulative-comp",
+          "src": "https://static.cfr.org/sites/default/files/styles/large_s/public/image/2020/07/us-energy-exports-to-china-cumulative-comp.png",
+          "after_paragraph": "p28"
+        },
+        {
+          "title": "comp-of-us-energy-exports-to-china",
+          "src": "https://static.cfr.org/sites/default/files/styles/large_s/public/image/2020/07/comp-of-us-energy-exports-to-china.png",
+          "after_paragraph": "p29"
+        }
+      ]
+    }
+  },
+  "paragraphs": [
+    {
+      "id": "p1",
+      "sha256": "sha256:1054e18e9da32ea48ecec073696585f9d616389463f9c3f1229d3fd9f8084710",
+      "n_chars": 118
+    },
+    {
+      "id": "p2",
+      "sha256": "sha256:769b3bb0fedda04d7631d7b6054c8ab77478099418065fab33e4e648db780112",
+      "n_chars": 562
+    },
+    {
+      "id": "p3",
+      "sha256": "sha256:38144a9c31532b257996345d6c7f4714d3d95b77a65083fc4301fe846c99c1e8",
+      "n_chars": 251
+    },
+    {
+      "id": "p4",
+      "sha256": "sha256:9b60ecfa7aa91b9528583cf091dec826c3ea3a27da62a34c9b2ed2422615750b",
+      "n_chars": 185
+    },
+    {
+      "id": "p5",
+      "sha256": "sha256:abfec5f480e70480125257c2babc85aaff6cdb3d6ecf59bb33d9d9e1b1da1ff9",
+      "n_chars": 339
+    },
+    {
+      "id": "p6",
+      "sha256": "sha256:ed5ff877818d174a55dd4a38c82eb2578f28d404c7b457ca2973d203ba14acaf",
+      "n_chars": 179
+    },
+    {
+      "id": "p7",
+      "sha256": "sha256:be5ba4e334ba60d4aaee713e20ba9654ee440d4d4e89529c716cc897777307f7",
+      "n_chars": 261
+    },
+    {
+      "id": "p8",
+      "sha256": "sha256:aef934c3147f26fd14fa13cfe325e25cf1f707d362f3550971c7d71590e0ec92",
+      "n_chars": 506
+    },
+    {
+      "id": "p9",
+      "sha256": "sha256:5c5a4987b969beabcedd351291e28b6a9b93f7890d7be7f20554f8f989fb0717",
+      "n_chars": 511
+    },
+    {
+      "id": "p10",
+      "sha256": "sha256:be926066b9d7f6527353f095055645e88fb9184a4081223d4f94668d2a017595",
+      "n_chars": 84
+    },
+    {
+      "id": "p11",
+      "sha256": "sha256:350ea4f7e66f80515f52a908d43315508fa8e8548e4ff7b59a5c880f2271b02c",
+      "n_chars": 328
+    },
+    {
+      "id": "p12",
+      "sha256": "sha256:c6838ed989fd7d93ba9023466783c95230843ee13acafd63a355f9ad766cc39f",
+      "n_chars": 13
+    },
+    {
+      "id": "p13",
+      "sha256": "sha256:848792167dd2f615b2a8025505ed60b3d3d916a1d7a1e6269bd8d37ab55ea41f",
+      "n_chars": 349
+    },
+    {
+      "id": "p14",
+      "sha256": "sha256:be613d4cb535feb9dc00b73937086594816dae3d3b53f14d3298200b851ae7c2",
+      "n_chars": 136
+    },
+    {
+      "id": "p15",
+      "sha256": "sha256:8267b09ac1266f23cade9afc6ecd8ed7e2a3d0138dd5cfafc69ba2e716863506",
+      "n_chars": 106
+    },
+    {
+      "id": "p16",
+      "sha256": "sha256:24b880e1c5f9c48dba7145dd8a04be15b4099da8132571ba6ed578e61f45c5c8",
+      "n_chars": 336
+    },
+    {
+      "id": "p17",
+      "sha256": "sha256:88dc62af95a6dc080336163c54911def72df0f39c37c9a6c2af533526be39f1e",
+      "n_chars": 167
+    },
+    {
+      "id": "p18",
+      "sha256": "sha256:39eaf4569144ff3c32ad151ee059b9bf918a675facba00ee2d4efd719ddc31c0",
+      "n_chars": 596
+    },
+    {
+      "id": "p19",
+      "sha256": "sha256:f0b1b07aa8f1945fb808a699a69905206d091ec5722369cf36fc5f4c98c58f90",
+      "n_chars": 11
+    },
+    {
+      "id": "p20",
+      "sha256": "sha256:4147f07f5a65a4858824917ee548b35dbf3408d7cc0c4326de0ae4ecb76eb95c",
+      "n_chars": 394
+    },
+    {
+      "id": "p21",
+      "sha256": "sha256:fcac82352f47df5dde50e1e3a24bf0927e5f1453308f511f799018e473ab4d4a",
+      "n_chars": 234
+    },
+    {
+      "id": "p22",
+      "sha256": "sha256:76cfbe5d33f637dd9683f8187b447a338106bb78dba06984dbf1f2eb1269adb1",
+      "n_chars": 62
+    },
+    {
+      "id": "p23",
+      "sha256": "sha256:b455853a2fcbca0943f82a0683ee3acd81722dee1c527eea45294b374159e039",
+      "n_chars": 508
+    },
+    {
+      "id": "p24",
+      "sha256": "sha256:590ffca4605505a60cb1aa2c7ac3b2b48a1218a1c8edaf373d14cffef44ac27a",
+      "n_chars": 518
+    },
+    {
+      "id": "p25",
+      "sha256": "sha256:8c166af8b669f2321ae8bd65937325fc262caa187a70cc847ceccc07286ea9b5",
+      "n_chars": 383
+    },
+    {
+      "id": "p26",
+      "sha256": "sha256:613fd7b341622b08f5b831516c057ca6650dfb5bdd14e0d06470d529613da2b7",
+      "n_chars": 528
+    },
+    {
+      "id": "p27",
+      "sha256": "sha256:f2fcd3f7dccadd194c4c5a54a5102c9559487743ac236a6236301e4418d0dd7c",
+      "n_chars": 6
+    },
+    {
+      "id": "p28",
+      "sha256": "sha256:0a1ecd68bba4e9465f26a3cd6b5853591086df71e8e11614fbe353bd14845aff",
+      "n_chars": 409
+    },
+    {
+      "id": "p29",
+      "sha256": "sha256:be261029b77343ce7247647263fc55cf9c0becf56eab908d99197573c40167a4",
+      "n_chars": 309
+    },
+    {
+      "id": "p30",
+      "sha256": "sha256:0f2c9daf38d82b368f50f6d7aa328cb08e523615bb92b85f1d8d8e9811994ad0",
+      "n_chars": 649
+    },
+    {
+      "id": "p31",
+      "sha256": "sha256:72f23a8d1e0242989f421e092bf4a342e50840bf4bb1db0d0f1b797bef0a8857",
+      "n_chars": 56
+    },
+    {
+      "id": "p32",
+      "sha256": "sha256:b2bd86138d4399a5731a1dc03ec98b09bb0b52792a961549891c54678652d93f",
+      "n_chars": 335
+    },
+    {
+      "id": "p33",
+      "sha256": "sha256:1762b9d5f1cc0bc6e12249bd9d0eb6ba83fa8bb213637f748519aff6db539e28",
+      "n_chars": 254
+    },
+    {
+      "id": "p34",
+      "sha256": "sha256:89db2ad881f29c18b305a20c8ed7bdffdfde49d633c27a83bd204bf9cfedaba3",
+      "n_chars": 10
+    },
+    {
+      "id": "p35",
+      "sha256": "sha256:4a95a3af90106c8faef8d82d5442e88c0660a4f0d35b14bb98a8d9a6862dcf12",
+      "n_chars": 259
+    },
+    {
+      "id": "p36",
+      "sha256": "sha256:4e677cd809d9483e523d7cc11693649b734e20745014801844bedb9da6dcfade",
+      "n_chars": 610
+    },
+    {
+      "id": "p37",
+      "sha256": "sha256:b7be77efb996d0cbb3977761dacb4d3b14ffea123abd3201f0b51470dbc07a37",
+      "n_chars": 215
+    },
+    {
+      "id": "p38",
+      "sha256": "sha256:d25c74b99e5cce24cded6883379005d0a348aedfd7c4f17c8f676c1b176a8f50",
+      "n_chars": 300
+    },
+    {
+      "id": "p39",
+      "sha256": "sha256:7ac91d07f096b77be54dbeaefa9f0deae283f47158ef7b22567eb5ab41de4587",
+      "n_chars": 504
+    }
+  ],
+  "revisions": [
+    {
+      "content_hash": "sha256:e021368b580ed8e82fcc073095a893cc34c8102bcbb77a49a82a587b7003a1f1",
+      "links_hash": "sha256:3bfe3f1ec0618bcad1b0e672710ae46cf31b4f61f9d859190fdf8a1f8eb53144",
+      "paragraph_count": 39,
+      "retrieved_at": "2026-10-19T20:54:52Z",
+      "revision": 1,
+      "changed_paragraphs": []
+    }
+  ],
+  "extensions": {
+    "entities": [
+      {
+        "entity_id": null,
+        "type": "person",
+        "name": "Brad W. Setser",
+        "role": "author"
+      },
+      {
+        "entity_id": null,
+        "type": "person",
+        "name": "Dylan Yalbir",
+        "role": "author"
+      },
+      {
+        "entity_id": null,
+        "type": "organization",
+        "name": "Council on Foreign Relations",
+        "role": "publisher"
+      }
+    ],
+    "cited_sources": [
+      {
+        "source_key": "https://wsj.com/articles/congress-to-probe-trumps-aggressive-trade-policies-11592395201",
+        "host": "wsj.com",
+        "reference_ids": [
+          "r001"
+        ]
+      },
+      {
+        "source_key": "https://imf.org/en/publications/weo/issues/2020/06/24/weoupdatejune2020",
+        "host": "imf.org",
+        "reference_ids": [
+          "r002"
+        ]
+      },
+      {
+        "source_key": "https://piie.com/research/piie-charts/us-china-phase-one-tracker-chinas-purchases-us-goods",
+        "host": "piie.com",
+        "reference_ids": [
+          "r003"
+        ]
+      },
+      {
+        "source_key": "https://wsj.com/articles/u-s-business-groups-urge-china-to-redouble-efforts-to-implement-trade-deal-11594066059",
+        "host": "wsj.com",
+        "reference_ids": [
+          "r004"
+        ]
+      },
+      {
+        "source_key": "https://ustr.gov/sites/default/files/files/agreements/phase%20one%20agreement/economic_and_trade_agreement_between_the_united_states_and_china_text.pdf",
+        "host": "ustr.gov",
+        "reference_ids": [
+          "r005"
+        ]
+      },
+      {
+        "source_key": "https://cfr.org/articles/president-xi-still-deglobalizer-chief",
+        "host": "cfr.org",
+        "reference_ids": [
+          "r006"
+        ]
+      },
+      {
+        "source_key": "https://cfr.org/articles/five-points-about-us-trade-over-last-thirty-years",
+        "host": "cfr.org",
+        "reference_ids": [
+          "r007"
+        ]
+      },
+      {
+        "source_key": "https://cfr.org/articles/tale-two-tariffs-chinas-so-far-ineffective-tariffs-us-manufacturing-exports",
+        "host": "cfr.org",
+        "reference_ids": [
+          "r008"
+        ]
+      },
+      {
+        "source_key": "https://cfr.org/articles/china-never-stopped-managing-its-trade",
+        "host": "cfr.org",
+        "reference_ids": [
+          "r009"
+        ]
+      },
+      {
+        "source_key": "https://wsj.com/articles/john-bolton-the-scandal-of-trumps-china-policy-11592419564",
+        "host": "wsj.com",
+        "reference_ids": [
+          "r010"
+        ]
+      },
+      {
+        "source_key": "https://atlasobscura.com/articles/chicken-feet-trade",
+        "host": "atlasobscura.com",
+        "reference_ids": [
+          "r011",
+          "r017"
+        ]
+      },
+      {
+        "source_key": "https://cfr.org/articles/soybeans",
+        "host": "cfr.org",
+        "reference_ids": [
+          "r012"
+        ]
+      },
+      {
+        "source_key": "https://uk.reuters.com/article/us-usa-soybeans-braun/column-does-china-still-need-u-s-soybeans-after-brazils-export-bonanza-idukkbn23u182",
+        "host": "uk.reuters.com",
+        "reference_ids": [
+          "r013"
+        ]
+      },
+      {
+        "source_key": "https://economist.com/business/2019/02/02/a-chinese-state-backed-giants-rapid-rise-in-global-trading-of-food",
+        "host": "economist.com",
+        "reference_ids": [
+          "r014"
+        ]
+      },
+      {
+        "source_key": "https://nytimes.com/2020/06/16/business/meat-industry-china-pork.html",
+        "host": "nytimes.com",
+        "reference_ids": [
+          "r015"
+        ]
+      },
+      {
+        "source_key": "https://cfr.org/articles/chicken-feet-and-china-back-future",
+        "host": "cfr.org",
+        "reference_ids": [
+          "r016"
+        ]
+      },
+      {
+        "source_key": "https://wsj.com/articles/all-hail-the-lobster-king-11593381414",
+        "host": "wsj.com",
+        "reference_ids": [
+          "r018"
+        ]
+      },
+      {
+        "source_key": "https://cfr.org/articles/how-effective-have-chinas-agricultural-and-seafood-tariffs-been",
+        "host": "cfr.org",
+        "reference_ids": [
+          "r019"
+        ]
+      },
+      {
+        "source_key": "https://uk.reuters.com/article/uk-column-russell-usa-china-energy/column-chinas-record-us-crude-imports-in-july-underscores-trade-deal-failure-idukkbn23w194",
+        "host": "uk.reuters.com",
+        "reference_ids": [
+          "r020"
+        ]
+      },
+      {
+        "source_key": "https://spglobal.com/platts/en/market-insights/latest-news/coal/022620-china-to-exempt-us-origin-petcoke-from-25-import-tarrif-sources",
+        "host": "spglobal.com",
+        "reference_ids": [
+          "r021"
+        ]
+      },
+      {
+        "source_key": "https://ft.com/content/6a3872a0-fa38-4a1c-90fa-2db35cbfff58",
+        "host": "ft.com",
+        "reference_ids": [
+          "r022"
+        ]
+      },
+      {
+        "source_key": "https://spglobal.com/marketintelligence/en/news-insights/latest-news-headlines/summer-outlook-for-us-lng-exports-dims-as-cancellations-mount-59185114",
+        "host": "spglobal.com",
+        "reference_ids": [
+          "r023"
+        ]
+      },
+      {
+        "source_key": "https://ustr.gov/countries-regions/china-mongolia-taiwan/peoples-republic-china/phase-one-trade-agreement/text",
+        "host": "ustr.gov",
+        "reference_ids": [
+          "r024"
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "flags": []
+  }
+}

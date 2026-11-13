@@ -1,0 +1,155 @@
+{
+ "result": [
+  {
+   "from": "Q",
+   "relation": "frames",
+   "to": "ID",
+   "sign": 0
+  },
+  {
+   "from": "Q",
+   "relation": "frames",
+   "to": "P1",
+   "sign": 0
+  },
+  {
+   "from": "Q",
+   "relation": "frames",
+   "to": "P3",
+   "sign": 0
+  },
+  {
+   "from": "Q",
+   "relation": "frames",
+   "to": "P4",
+   "sign": 0
+  },
+  {
+   "from": "E3",
+   "relation": "supports",
+   "to": "M1",
+   "sign": 1
+  },
+  {
+   "from": "M1",
+   "relation": "supports",
+   "to": "C1",
+   "sign": 1
+  },
+  {
+   "from": "P3",
+   "relation": "licenses",
+   "to": "C1",
+   "sign": 1
+  },
+  {
+   "from": "P2",
+   "relation": "supports",
+   "to": "C1",
+   "sign": 1
+  },
+  {
+   "from": "ID",
+   "relation": "frames",
+   "to": "E5",
+   "sign": 0
+  },
+  {
+   "from": "E5",
+   "relation": "supports",
+   "to": "K",
+   "sign": 1
+  },
+  {
+   "from": "P1",
+   "relation": "frames",
+   "to": "E4",
+   "sign": 0
+  },
+  {
+   "from": "E4",
+   "relation": "supports",
+   "to": "K",
+   "sign": 1
+  },
+  {
+   "from": "C1",
+   "relation": "supports",
+   "to": "K",
+   "sign": 1
+  },
+  {
+   "from": "P4",
+   "relation": "frames",
+   "to": "E2",
+   "sign": 0
+  },
+  {
+   "from": "E2",
+   "relation": "supports",
+   "to": "K",
+   "sign": 1
+  },
+  {
+   "from": "P4",
+   "relation": "licenses",
+   "to": "K",
+   "sign": 1
+  },
+  {
+   "from": "SC",
+   "relation": "supports",
+   "to": "K",
+   "sign": 1
+  },
+  {
+   "from": "E1",
+   "relation": "supports",
+   "to": "RC",
+   "sign": 1
+  },
+  {
+   "from": "K",
+   "relation": "reconstructs",
+   "to": "RC",
+   "sign": 1
+  },
+  {
+   "from": "K",
+   "relation": "motivates",
+   "to": "REC",
+   "sign": 1
+  },
+  {
+   "from": "K",
+   "relation": "rebuts",
+   "to": "X",
+   "sign": -1
+  },
+  {
+   "from": "M1",
+   "relation": "qualified_by",
+   "to": "QF",
+   "sign": -1
+  },
+  {
+   "from": "K",
+   "relation": "qualified_by",
+   "to": "QF2",
+   "sign": -1
+  },
+  {
+   "from": "K",
+   "relation": "defers",
+   "to": "DF",
+   "sign": 0
+  }
+ ],
+ "review": [
+  "`M1` qualified_by `QF` joins L3→L6, which no hand-drawn qualified_by link does"
+ ],
+ "gaps_left": [],
+ "dropped": [],
+ "fix_rounds": 0,
+ "reasks": 0
+}

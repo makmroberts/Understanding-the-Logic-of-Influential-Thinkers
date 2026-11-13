@@ -1,0 +1,189 @@
+{
+ "result": [
+  {
+   "from": "Q",
+   "relation": "frames",
+   "to": "P2",
+   "sign": 0
+  },
+  {
+   "from": "Q",
+   "relation": "frames",
+   "to": "P1",
+   "sign": 0
+  },
+  {
+   "from": "P2",
+   "relation": "frames",
+   "to": "E2",
+   "sign": 0
+  },
+  {
+   "from": "E2",
+   "relation": "supports",
+   "to": "M1",
+   "sign": 1
+  },
+  {
+   "from": "E2",
+   "relation": "supports",
+   "to": "M2",
+   "sign": 1
+  },
+  {
+   "from": "E1",
+   "relation": "supports",
+   "to": "M3",
+   "sign": 1
+  },
+  {
+   "from": "E2",
+   "relation": "supports",
+   "to": "M3",
+   "sign": 1
+  },
+  {
+   "from": "M1",
+   "relation": "supports",
+   "to": "M3",
+   "sign": 1
+  },
+  {
+   "from": "M2",
+   "relation": "supports",
+   "to": "M3",
+   "sign": 1
+  },
+  {
+   "from": "E3",
+   "relation": "supports",
+   "to": "C1",
+   "sign": 1
+  },
+  {
+   "from": "E6",
+   "relation": "supports",
+   "to": "E3",
+   "sign": 1
+  },
+  {
+   "from": "E6",
+   "relation": "supports",
+   "to": "E4",
+   "sign": 1
+  },
+  {
+   "from": "SC",
+   "relation": "frames",
+   "to": "E6",
+   "sign": 0
+  },
+  {
+   "from": "E4",
+   "relation": "supports",
+   "to": "C1",
+   "sign": 1
+  },
+  {
+   "from": "E5",
+   "relation": "supports",
+   "to": "C2",
+   "sign": 1
+  },
+  {
+   "from": "E4",
+   "relation": "supports",
+   "to": "C2",
+   "sign": 1
+  },
+  {
+   "from": "P2",
+   "relation": "licenses",
+   "to": "K",
+   "sign": 1
+  },
+  {
+   "from": "M3",
+   "relation": "supports",
+   "to": "K",
+   "sign": 1
+  },
+  {
+   "from": "C1",
+   "relation": "supports",
+   "to": "K",
+   "sign": 1
+  },
+  {
+   "from": "C2",
+   "relation": "supports",
+   "to": "K",
+   "sign": 1
+  },
+  {
+   "from": "E4",
+   "relation": "supports",
+   "to": "K",
+   "sign": 1
+  },
+  {
+   "from": "P1",
+   "relation": "supports",
+   "to": "K",
+   "sign": 1
+  },
+  {
+   "from": "E7",
+   "relation": "supports",
+   "to": "M4",
+   "sign": 1
+  },
+  {
+   "from": "E7",
+   "relation": "supports",
+   "to": "K",
+   "sign": 1
+  },
+  {
+   "from": "M4",
+   "relation": "supports",
+   "to": "REC",
+   "sign": 1
+  },
+  {
+   "from": "K",
+   "relation": "motivates",
+   "to": "REC",
+   "sign": 1
+  },
+  {
+   "from": "K",
+   "relation": "rebuts",
+   "to": "X",
+   "sign": -1
+  },
+  {
+   "from": "REC",
+   "relation": "rebuts",
+   "to": "X",
+   "sign": -1
+  },
+  {
+   "from": "K",
+   "relation": "qualified_by",
+   "to": "QF",
+   "sign": -1
+  },
+  {
+   "from": "K",
+   "relation": "qualified_by",
+   "to": "QF2",
+   "sign": -1
+  }
+ ],
+ "review": [],
+ "gaps_left": [],
+ "dropped": [],
+ "fix_rounds": 0,
+ "reasks": 0
+}

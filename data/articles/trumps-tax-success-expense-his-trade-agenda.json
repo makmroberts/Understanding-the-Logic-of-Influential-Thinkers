@@ -1,0 +1,495 @@
+{
+  "schema_version": "source-record-0.1",
+  "article": {
+    "id": "trumps-tax-success-expense-his-trade-agenda",
+    "title": "Trump’s Tax Success Is at the Expense of His Trade Agenda",
+    "authors": [
+      "Brad W. Setser"
+    ],
+    "published_date": "2018-02-15",
+    "url": "https://www.cfr.org/articles/trumps-tax-success-expense-his-trade-agenda",
+    "publisher": "Council on Foreign Relations",
+    "series": "Follow the Money",
+    "source_text": {
+      "path": "internal/extracted/2018-02-15_trumps-tax-success-expense-his-trade-agenda.md",
+      "paragraph_count": 45,
+      "content_hash": "sha256:be9a503083bd89937cb362099f2bcd177b850db39eff9f32ea4bd1c10546447f",
+      "revision": 1
+    },
+    "references": [
+      {
+        "id": "r001",
+        "paragraph_id": "p1",
+        "char_start": 153,
+        "char_end": 160,
+        "label": "Krugman",
+        "href": "https://www.nytimes.com/2018/02/10/opinion/how-big-a-bang-for-trumps-buck-wonkish.html",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://nytimes.com/2018/02/10/opinion/how-big-a-bang-for-trumps-buck-wonkish.html",
+        "host": "nytimes.com",
+        "target_article_id": null
+      },
+      {
+        "id": "r002",
+        "paragraph_id": "p4",
+        "char_start": 186,
+        "char_end": 223,
+        "label": "designed for maximum impact on demand",
+        "href": "https://www.npr.org/sections/money/2018/02/14/585844313/stimulus-response",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://npr.org/sections/money/2018/02/14/585844313/stimulus-response",
+        "host": "npr.org",
+        "target_article_id": null
+      },
+      {
+        "id": "r003",
+        "paragraph_id": "p15",
+        "char_start": 26,
+        "char_end": 43,
+        "label": "(finally!) strong",
+        "href": "https://www.nytimes.com/2018/02/11/opinion/notes-on-european-recovery-wonkish.html",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://nytimes.com/2018/02/11/opinion/notes-on-european-recovery-wonkish.html",
+        "host": "nytimes.com",
+        "target_article_id": null
+      },
+      {
+        "id": "r004",
+        "paragraph_id": "p17",
+        "char_start": 32,
+        "char_end": 112,
+        "label": "calls to expand its system of social insurance and bring its fiscal surplus down",
+        "href": "http://www.imf.org/~/media/Files/Publications/CR/2018/cr1840.ashx",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://imf.org/~/media/files/publications/cr/2018/cr1840.ashx",
+        "host": "imf.org",
+        "target_article_id": null
+      },
+      {
+        "id": "r005",
+        "paragraph_id": "p22",
+        "char_start": 162,
+        "char_end": 200,
+        "label": "Fed’s international transactions model",
+        "href": "https://www.federalreserve.gov/econresdata/notes/ifdp-notes/2016/the-dollar-in-the-us-international-transactions-model-20160208.html",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://federalreserve.gov/econresdata/notes/ifdp-notes/2016/the-dollar-in-the-us-international-transactions-model-20160208.html",
+        "host": "federalreserve.gov",
+        "target_article_id": null
+      },
+      {
+        "id": "r006",
+        "paragraph_id": "p23",
+        "char_start": 343,
+        "char_end": 370,
+        "label": "generate over the long-term",
+        "href": "https://www.wsj.com/articles/as-boomers-go-gray-even-2-growth-will-be-hard-to-sustain-1518652737",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://wsj.com/articles/as-boomers-go-gray-even-2-growth-will-be-hard-to-sustain-1518652737",
+        "host": "wsj.com",
+        "target_article_id": null
+      },
+      {
+        "id": "r007",
+        "paragraph_id": "p24",
+        "char_start": 105,
+        "char_end": 137,
+        "label": "IMF’s forecast for global growth",
+        "href": "https://www.imf.org/en/Publications/WEO/Issues/2018/01/11/world-economic-outlook-update-january-2018",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://imf.org/en/publications/weo/issues/2018/01/11/world-economic-outlook-update-january-2018",
+        "host": "imf.org",
+        "target_article_id": null
+      },
+      {
+        "id": "r008",
+        "paragraph_id": "p25",
+        "char_start": 17,
+        "char_end": 50,
+        "label": "income elasticity of U.S. imports",
+        "href": "https://www.federalreserve.gov/econresdata/notes/ifdp-notes/2016/the-dollar-in-the-us-international-transactions-model-20160208.html",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://federalreserve.gov/econresdata/notes/ifdp-notes/2016/the-dollar-in-the-us-international-transactions-model-20160208.html",
+        "host": "federalreserve.gov",
+        "target_article_id": null
+      },
+      {
+        "id": "r009",
+        "paragraph_id": "p39",
+        "char_start": 90,
+        "char_end": 103,
+        "label": "some evidence",
+        "href": "http://econ.sciences-po.fr/sites/default/files/file/GlobalTradeFlowsRevisitingTheExcha_preview.pdf",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://econ.sciences-po.fr/sites/default/files/file/globaltradeflowsrevisitingtheexcha_preview.pdf",
+        "host": "econ.sciences-po.fr",
+        "target_article_id": null
+      }
+    ],
+    "metadata_extension": {
+      "field_sources": {
+        "title": "frontmatter",
+        "authors": "frontmatter",
+        "published_date": "frontmatter",
+        "url": "frontmatter",
+        "publisher": "frontmatter",
+        "series": "frontmatter"
+      },
+      "references_status": "preserved",
+      "links_hash": "sha256:6f1b2713d7b7eff4874dc19d87b184a5c95b06a5af66708cab61f791a2934900",
+      "subtitle": "It looks like a combination of tax cuts and spending increases will raise the U.S. fiscal deficit by about 2 percentage points of GDP (that’s the number Krugman used; Goldman’s US economics team puts the increase in the fiscal deficit between fiscal 2017 and fiscal 2019 at 1.7 percent of GDP). The IMF’s standard coefficient […]",
+      "published_at": "2018-02-15T16:03:26-05:00",
+      "programs": [
+        "Follow the Money"
+      ],
+      "source_tags": [
+        "United States",
+        "Budget, Debt, and Deficits"
+      ],
+      "license": "CC BY-NC-ND 4.0",
+      "section": "Article",
+      "doc_type": "AnalysisNewsArticle",
+      "language": "en",
+      "word_count": 2199,
+      "date_modified": "2018-02-15",
+      "retrieved_at": "2026-10-19T20:54:52Z",
+      "page_sha256": "cef807becdea5e9e14f12b689a7526bc39259a66b261af8f1a2cf47d7b00f746",
+      "figures": [
+        {
+          "title": "trade-contributions-to-gdp",
+          "src": "https://static.cfr.org/sites/default/files/styles/large_s/public/image/2018/02/trade-contributions-to-gdp.png",
+          "after_paragraph": "p7"
+        },
+        {
+          "title": "US-real-XR",
+          "src": "https://static.cfr.org/sites/default/files/styles/large_s/public/image/2018/02/US-real-XR.png",
+          "after_paragraph": "p31"
+        }
+      ]
+    }
+  },
+  "paragraphs": [
+    {
+      "id": "p1",
+      "sha256": "sha256:32af87d5c4cdf49af3b1e87522cc8118fd207bf197ce8c250cc29dc0a5fcb1f0",
+      "n_chars": 534
+    },
+    {
+      "id": "p2",
+      "sha256": "sha256:cf335776215b16fa890f528e0512b0eae15b2cfc1056c2f217d53663ba2df05c",
+      "n_chars": 63
+    },
+    {
+      "id": "p3",
+      "sha256": "sha256:bf39a9ee58007316c745b626331950bc9d3140c72fc7ee3c88ef37ed3807d4e4",
+      "n_chars": 304
+    },
+    {
+      "id": "p4",
+      "sha256": "sha256:a5003bcb1f8f844954493871c532e196478efc5ce8637c5f2a6ea378f21c26f7",
+      "n_chars": 224
+    },
+    {
+      "id": "p5",
+      "sha256": "sha256:b9f47713ad2d846ea638042fb74b3a8a05a16490246f8f4b98fd05599864d95b",
+      "n_chars": 548
+    },
+    {
+      "id": "p6",
+      "sha256": "sha256:6299a0da07c33dfd5b535ccc71f4ed6362c7179d8c5fe6d485bcb236dcc50338",
+      "n_chars": 68
+    },
+    {
+      "id": "p7",
+      "sha256": "sha256:6b864993873bdd8dc47f36fe53ff7261b780851d1eca377fed924920a2f457fb",
+      "n_chars": 394
+    },
+    {
+      "id": "p8",
+      "sha256": "sha256:d2e737b522a288bf517b25bcd5102be2ff390f0ccf4fb01cbdaa8223bd51987e",
+      "n_chars": 267
+    },
+    {
+      "id": "p9",
+      "sha256": "sha256:15461b04846965f97b7c3e33b44bec9c6366de8df72f72087aa16600d5e21ee4",
+      "n_chars": 134
+    },
+    {
+      "id": "p10",
+      "sha256": "sha256:c2123ac7ca37f1da83d3f8090163d9b6990e5645bbab1ac1827711b23a9bd1e7",
+      "n_chars": 574
+    },
+    {
+      "id": "p11",
+      "sha256": "sha256:3586c79e8ea57e810a4c176e9c00fd36fcd1c12d7ced55b6944668b4ec6718f2",
+      "n_chars": 298
+    },
+    {
+      "id": "p12",
+      "sha256": "sha256:07d2c7d7b5f3c0b202a9192221b894df04ba4f78651998bc0b2614b4d5809784",
+      "n_chars": 38
+    },
+    {
+      "id": "p13",
+      "sha256": "sha256:15bf21926b41cb6f30fc157ecf06a36c9deff3ed90f6a66c03096fad2cc72233",
+      "n_chars": 129
+    },
+    {
+      "id": "p14",
+      "sha256": "sha256:22053e27c087ee3f699ccb79ff88c8e1ea662d2f3b4ba6d033278781d375f83e",
+      "n_chars": 198
+    },
+    {
+      "id": "p15",
+      "sha256": "sha256:c34283a5dbc9a87783024fcf03409d4191dd4f3db7a60f1a85472eaf897bb151",
+      "n_chars": 236
+    },
+    {
+      "id": "p16",
+      "sha256": "sha256:024b42833abd9f6248f549870dd25979c26c22c1f6a073f2203f852df23cdd12",
+      "n_chars": 171
+    },
+    {
+      "id": "p17",
+      "sha256": "sha256:2b0afa664873565b109aee3fcc5fd623367d1bfae3a459d2a3f285a029adec70",
+      "n_chars": 446
+    },
+    {
+      "id": "p18",
+      "sha256": "sha256:3d33c4581c3e54c4d095b419fb75e141f71bc37a4bbc37734272b242fef17430",
+      "n_chars": 129
+    },
+    {
+      "id": "p19",
+      "sha256": "sha256:97517a45e2febb9c252691314d9cf8cd34815cb9eb214d9b280c47c0249f92a9",
+      "n_chars": 159
+    },
+    {
+      "id": "p20",
+      "sha256": "sha256:93a463409ccfe517adde862207785d80d8a60ccda8c52e66956ed33892a34524",
+      "n_chars": 187
+    },
+    {
+      "id": "p21",
+      "sha256": "sha256:3537d955b58c32112245d38b110e86f4595f3fb15c6619426e235f5f30799748",
+      "n_chars": 19
+    },
+    {
+      "id": "p22",
+      "sha256": "sha256:0f1e473dd4f67b362c83639e64f0e041688bcf7de5315ebfa0c9e1aab424d007",
+      "n_chars": 427
+    },
+    {
+      "id": "p23",
+      "sha256": "sha256:0c3a56b7d1e1937500126abb28ebff76416ead0eb819860b20eda1b990d6c041",
+      "n_chars": 371
+    },
+    {
+      "id": "p24",
+      "sha256": "sha256:31d4b0e8c24400c75433422fb07c17f2e51736345987780c23f1b9a68db26f78",
+      "n_chars": 139
+    },
+    {
+      "id": "p25",
+      "sha256": "sha256:905214f65c6a60d9ea583cba6747116189a3a9eab6d2750d25ff41a33be28d9c",
+      "n_chars": 505
+    },
+    {
+      "id": "p26",
+      "sha256": "sha256:52df8ed8b10b3d67a452c57c4598f76a917fff29782d7365bf4a991aed55fcc0",
+      "n_chars": 931
+    },
+    {
+      "id": "p27",
+      "sha256": "sha256:3a943f2d4d1b95302e2cafb7eab2746eb9b474e5bcdd39179d22c5c58162be86",
+      "n_chars": 62
+    },
+    {
+      "id": "p28",
+      "sha256": "sha256:c998878a6af3110c2b71d4d601e9d3b9a0aa4491532d696bf115898de1741483",
+      "n_chars": 231
+    },
+    {
+      "id": "p29",
+      "sha256": "sha256:7851b05d3c060260eded31ce3980d3b4c0cfa6dbda4715089fad46f7de85ad39",
+      "n_chars": 204
+    },
+    {
+      "id": "p30",
+      "sha256": "sha256:4c9e95cb19557710a79dcb94c335dea00ebf471e246971940dfaf3e725c10a59",
+      "n_chars": 199
+    },
+    {
+      "id": "p31",
+      "sha256": "sha256:56069bb6b6bd03e173660ca42db532215cad6a9b02e6c54570b1a4e0b0579433",
+      "n_chars": 280
+    },
+    {
+      "id": "p32",
+      "sha256": "sha256:951bbc86b547784b0f528ff46347f6075832c55a4900952a4e5e6c53993528a7",
+      "n_chars": 252
+    },
+    {
+      "id": "p33",
+      "sha256": "sha256:ebb60774bfffefb7f9ad53f2bf790f032ad6cc331c75c3f0c89283a6dad3c348",
+      "n_chars": 475
+    },
+    {
+      "id": "p34",
+      "sha256": "sha256:24698d3cbbe3d4c04b4cc4b437b703a86f08a9b8631110b9fd8664ce500d04d9",
+      "n_chars": 192
+    },
+    {
+      "id": "p35",
+      "sha256": "sha256:67e0e55b015393ec6324bded5da1a9f834e42f3ce65b9745a8236b3b3e0774e3",
+      "n_chars": 284
+    },
+    {
+      "id": "p36",
+      "sha256": "sha256:2a0c7e8115a15691a27fc4332017923a5512700357e769381620ba378f99b5e5",
+      "n_chars": 93
+    },
+    {
+      "id": "p37",
+      "sha256": "sha256:7b4816b5c6d3f5c0f17a972bb454068678759e66841a01723995d4bf6d37b451",
+      "n_chars": 393
+    },
+    {
+      "id": "p38",
+      "sha256": "sha256:e3cc9a88aa26731f0bc9368f2fdb3ea44e5dc5a1353d53419da40ca2d32907f1",
+      "n_chars": 439
+    },
+    {
+      "id": "p39",
+      "sha256": "sha256:cadd699142fe5b664dc2e1d5c5ca5ebab5beadf07f5febd296483c51c62b2fd7",
+      "n_chars": 150
+    },
+    {
+      "id": "p40",
+      "sha256": "sha256:0d77622088e1f392f62885df82c375173d6f3a8783dbb3762a402a398f813fc5",
+      "n_chars": 53
+    },
+    {
+      "id": "p41",
+      "sha256": "sha256:ee2892ff9ecf51138225c69b9856a402cec40d50f4deec8db4487336d69d61a2",
+      "n_chars": 67
+    },
+    {
+      "id": "p42",
+      "sha256": "sha256:8290ff9ece7b60bc34edc889183cc4d05bcde9cabf2433516516970f4789ba1f",
+      "n_chars": 242
+    },
+    {
+      "id": "p43",
+      "sha256": "sha256:0150bd488d3c7af893b678479dcc05f9ad3db134f4ba01bedaa25d22eeb2ff24",
+      "n_chars": 277
+    },
+    {
+      "id": "p44",
+      "sha256": "sha256:1ee4d6980c4880db4face674f6678c4078a91904849f5306423b24ec2798a6a7",
+      "n_chars": 587
+    },
+    {
+      "id": "p45",
+      "sha256": "sha256:1a8426b554f9bf3991b359f4b540ab9f90f43a8c0bda7f6badd292e8b746d2a2",
+      "n_chars": 624
+    }
+  ],
+  "revisions": [
+    {
+      "content_hash": "sha256:be9a503083bd89937cb362099f2bcd177b850db39eff9f32ea4bd1c10546447f",
+      "links_hash": "sha256:6f1b2713d7b7eff4874dc19d87b184a5c95b06a5af66708cab61f791a2934900",
+      "paragraph_count": 45,
+      "retrieved_at": "2026-10-19T20:54:52Z",
+      "revision": 1,
+      "changed_paragraphs": []
+    }
+  ],
+  "extensions": {
+    "entities": [
+      {
+        "entity_id": null,
+        "type": "person",
+        "name": "Brad W. Setser",
+        "role": "author"
+      },
+      {
+        "entity_id": null,
+        "type": "organization",
+        "name": "Council on Foreign Relations",
+        "role": "publisher"
+      }
+    ],
+    "cited_sources": [
+      {
+        "source_key": "https://nytimes.com/2018/02/10/opinion/how-big-a-bang-for-trumps-buck-wonkish.html",
+        "host": "nytimes.com",
+        "reference_ids": [
+          "r001"
+        ]
+      },
+      {
+        "source_key": "https://npr.org/sections/money/2018/02/14/585844313/stimulus-response",
+        "host": "npr.org",
+        "reference_ids": [
+          "r002"
+        ]
+      },
+      {
+        "source_key": "https://nytimes.com/2018/02/11/opinion/notes-on-european-recovery-wonkish.html",
+        "host": "nytimes.com",
+        "reference_ids": [
+          "r003"
+        ]
+      },
+      {
+        "source_key": "https://imf.org/~/media/files/publications/cr/2018/cr1840.ashx",
+        "host": "imf.org",
+        "reference_ids": [
+          "r004"
+        ]
+      },
+      {
+        "source_key": "https://federalreserve.gov/econresdata/notes/ifdp-notes/2016/the-dollar-in-the-us-international-transactions-model-20160208.html",
+        "host": "federalreserve.gov",
+        "reference_ids": [
+          "r005",
+          "r008"
+        ]
+      },
+      {
+        "source_key": "https://wsj.com/articles/as-boomers-go-gray-even-2-growth-will-be-hard-to-sustain-1518652737",
+        "host": "wsj.com",
+        "reference_ids": [
+          "r006"
+        ]
+      },
+      {
+        "source_key": "https://imf.org/en/publications/weo/issues/2018/01/11/world-economic-outlook-update-january-2018",
+        "host": "imf.org",
+        "reference_ids": [
+          "r007"
+        ]
+      },
+      {
+        "source_key": "https://econ.sciences-po.fr/sites/default/files/file/globaltradeflowsrevisitingtheexcha_preview.pdf",
+        "host": "econ.sciences-po.fr",
+        "reference_ids": [
+          "r009"
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "flags": []
+  }
+}

@@ -29,7 +29,7 @@ tags: [type/stated_assumption, level/L1, family/meta, variable/domestic-demand, 
 ## Source
 - Article: [[2025-07-07 China's Stealth Trade Surplus]]
 - Authored map: `mermaid_code/setser_2025-07-07_china-stealth-surplus.mmd`
-- Passage: p6 — _proposed `abstracts`, score 0.694; unreviewed, not a citation_
+- Passage: p6 — _proposed `abstracts`, score 0.693; unreviewed, not a citation_
 - Published: https://www.cfr.org/articles/chinas-stealth-trade-surplus
 - Node `setser_2025-07-07_china-stealth-surplus#P1` · level L1 · type resolved by `header`
 - Full chain: `python scripts/trace.py setser_2025-07-07_china-stealth-surplus#P1`

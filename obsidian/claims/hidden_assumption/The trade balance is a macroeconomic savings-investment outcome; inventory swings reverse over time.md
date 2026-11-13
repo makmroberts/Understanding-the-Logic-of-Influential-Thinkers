@@ -29,7 +29,7 @@ tags: [type/hidden_assumption, level/L1, family/meta, variable/goods-trade-balan
 ## Source
 - Article: [[2026-02-03 Understanding the Low October 2025 Trade Deficit]]
 - Authored map: `mermaid_code/setser_2026-02-03_october-2025-deficit.mmd`
-- Passage: p7 — _proposed `presupposes`, score 0.234; unreviewed, not a citation_
+- Passage: p11 — _proposed `presupposes`, score 0.221; unreviewed, not a citation_
 - Published: https://www.cfr.org/articles/understanding-the-low-october-2025-trade-deficit
 - Node `setser_2026-02-03_october-2025-deficit#P3` · level L1 · type resolved by `header`
 - Full chain: `python scripts/trace.py setser_2026-02-03_october-2025-deficit#P3`

@@ -1,0 +1,104 @@
+---
+config:
+  layout: elk
+  flowchart:
+    wrappingWidth: 170
+    nodeSpacing: 25
+    rankSpacing: 45
+---
+flowchart TD
+
+  subgraph L0["Level 0 · Question"]
+    Q["<b>Why do global trade imbalances persist,<br/>and why could they worsen before improving?</b><br/><i>Brad Setser, CFR, Sept 2019</i>"]
+  end
+
+  subgraph L1["Level 1 · Priors & assumptions"]
+    P1["<b>Global surpluses require matching deficits</b><br/>If large economies save externally, another economy must absorb the surplus"]
+    P2["<b>Fiscal policy shapes external balances</b><br/>Weak domestic demand tends to reduce imports and raise surpluses"]
+    P3["<b>Excess saving generates surplus pressure</b><br/>Saving above domestic investment pushes capital and demand abroad"]
+  end
+
+  subgraph L2["Level 2 · Evidence"]
+    D1["<b>Europe and East Asia run large surpluses</b><br/>Together they roughly mirror the U.S. manufacturing deficit"]
+    D2["<b>Europe remains fiscally tight</b><br/>Germany and other surplus economies run restrictive demand policies"]
+    D3["<b>Asian surplus economies restrain demand/currencies</b><br/>Korea, Taiwan, Singapore, and Thailand remain export oriented"]
+    D4["<b>China has a surplus despite huge fiscal support</b><br/>Current account ~$200–250B with augmented deficit near 12% of GDP"]
+    D5["<b>China still saves ~44% of GDP</b><br/>East Asian aggregate saving remains close to 40%"]
+    D6["<b>China's imports weakened in 2019</b><br/>Modest stimulus failed to offset tightening and the trade war"]
+    D7["<b>U.S. net external debt ~45% of GDP</b><br/>Large relative to the country's limited export base"]
+  end
+
+  subgraph L3["Level 3 · Mechanisms"]
+    M1["<b>Fiscal restraint suppresses domestic demand</b><br/>Lower imports and excess saving generate European surpluses"]
+    M2["<b>Structural high saving generates surplus pressure</b><br/>China saves more than its economy can sustainably absorb"]
+    M3["<b>Weak investment and imports raise China's surplus</b><br/>Less domestic absorption pushes the external balance upward"]
+    M4["<b>Foreign surpluses require deficit absorption</b><br/>North America takes the other side through external deficits and debt"]
+  end
+
+  subgraph L4["Level 4 · Intermediate claims"]
+    C1["<b>Europe's imbalance is mainly a demand problem</b><br/>Looser fiscal policy could directly raise domestic absorption"]
+    C2["<b>East Asia's imbalance is structurally harder</b><br/>China's underlying problem is exceptionally high saving"]
+    C3["<b>China's current adjustment is fragile</b><br/>Large public investment prevents an even larger external surplus"]
+    C4["<b>The U.S. cannot absorb surpluses forever</b><br/>Its external debt stock is already large relative to exports"]
+  end
+
+  subgraph L5["Level 5 · Conclusion"]
+    K["<b>Main claim: global imbalances could worsen first</b><br/>Europe still lacks demand and China's excess-saving problem remains;<br/>the U.S. cannot indefinitely absorb the resulting surpluses"]
+  end
+
+  subgraph L6["Level 6 · Dialectic"]
+    X["<b>U.S.-adjustment alternative</b><br/>Tighter U.S. fiscal policy would also reduce the American trade deficit"]
+    R1["<b>Japan exception</b><br/>Japan runs a surplus despite relatively loose fiscal policy"]
+    QF1["<b>U.S. sustainability caveat</b><br/>The current flow deficit is not obviously unsustainable today"]
+    QF2["<b>China adjustment caveat</b><br/>Fiscal and credit stimulus currently absorbs much of China's excess saving"]
+  end
+
+  P2 --> M1
+  D2 --> M1
+  M1 --> C1
+
+  P3 --> M2
+  D4 --> M2
+  D5 --> M2
+  M2 --> C2
+
+  D6 --> M3
+  M2 --> M3
+  M3 --> C3
+
+  P1 --> M4
+  D1 --> M4
+  D3 --> M4
+  M4 --> C4
+  D7 --> C4
+
+  C1 --> K
+  C2 --> K
+  C3 --> K
+  C4 --> K
+
+  C1 -.->|alternative adjustment| X
+  C1 -.->|doesn't fully explain| R1
+  C4 -.->|qualified by| QF1
+  C3 -.->|currently offset by| QF2
+
+  Q ~~~ P1 & P2 & P3
+  P1 ~~~ D1 & D3
+  P2 ~~~ D2 & D6
+  P3 ~~~ D4 & D5 & D7
+
+  classDef prior fill:#EEEDFE,stroke:#534AB7,color:#26215C
+  classDef unstated fill:#EEEDFE,stroke:#534AB7,color:#26215C,stroke-dasharray:5 4
+  classDef data fill:#E6F1FB,stroke:#185FA5,color:#042C53
+  classDef mech fill:#E1F5EE,stroke:#0F6E56,color:#04342C
+  classDef main fill:#E1F5EE,stroke:#0F6E56,color:#04342C,stroke-width:3px
+  classDef dia fill:#F1EFE8,stroke:#5F5E5A,color:#2C2C2A
+  classDef question fill:#FFFFFF,stroke:#2C2C2A,color:#2C2C2A
+
+  class P1,P2,P3 prior
+  class D1,D2,D3,D4,D5,D6,D7 data
+  class M1,M2,M3,M4,C1,C2,C3,C4 mech
+  class K main
+  class X,R1,QF1,QF2 dia
+  class Q question
+  linkStyle 19,20,21,22 stroke:#A32D2D,color:#A32D2D

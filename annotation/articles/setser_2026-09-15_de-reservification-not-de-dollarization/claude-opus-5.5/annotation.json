@@ -1,0 +1,2748 @@
+{
+ "schema_version": "0.1-draft",
+ "article": {
+  "id": "setser_2026-09-15_de-reservification-not-de-dollarization",
+  "title": "De-reservification, Not De-dollarization",
+  "authors": [
+   "Brad W. Setser"
+  ],
+  "published_date": "2026-09-15",
+  "url": "https://www.cfr.org/articles/de-reservification-not-de-dollarization",
+  "publisher": "Council on Foreign Relations",
+  "series": "Follow the Money",
+  "source_text": {
+   "path": "internal/extracted/2026-09-15_de-reservification-not-de-dollarization.md",
+   "paragraph_count": 51,
+   "content_hash": "sha256:8074f51f012d2bebb5fe7724e1b3918e473e5f11f6404078e175de3d89598843",
+   "revision": 1
+  },
+  "references": [
+   {
+    "id": "r001",
+    "paragraph_id": "p1",
+    "char_start": 26,
+    "char_end": 35,
+    "label": "Alex Etra",
+    "href": "https://homepage.exantedata.com/about-us/alex-etra/",
+    "kind": "hyperlink",
+    "placement": "body",
+    "source_key": "https://homepage.exantedata.com/about-us/alex-etra",
+    "host": "homepage.exantedata.com",
+    "target_article_id": null
+   },
+   {
+    "id": "r002",
+    "paragraph_id": "p2",
+    "char_start": 4,
+    "char_end": 14,
+    "label": "IMF’s data",
+    "href": "https://data.imf.org/en/datasets/IMF.STA:COFER",
+    "kind": "hyperlink",
+    "placement": "body",
+    "source_key": "https://data.imf.org/en/datasets/imf.sta:cofer",
+    "host": "data.imf.org",
+    "target_article_id": null
+   },
+   {
+    "id": "r003",
+    "paragraph_id": "p7",
+    "char_start": 8,
+    "char_end": 42,
+    "label": "Government Pension Investment Fund",
+    "href": "https://www.bloomberg.com/news/articles/2026-09-11/japan-s-gpif-may-sell-62-billion-of-treasuries-santander-says",
+    "kind": "hyperlink",
+    "placement": "body",
+    "source_key": "https://bloomberg.com/news/articles/2026-09-11/japan-s-gpif-may-sell-62-billion-of-treasuries-santander-says",
+    "host": "bloomberg.com",
+    "target_article_id": null
+   },
+   {
+    "id": "r004",
+    "paragraph_id": "p7",
+    "char_start": 85,
+    "char_end": 97,
+    "label": "$986 billion",
+    "href": "https://www.gpif.go.jp/en/",
+    "kind": "hyperlink",
+    "placement": "body",
+    "source_key": "https://gpif.go.jp/en",
+    "host": "gpif.go.jp",
+    "target_article_id": null
+   },
+   {
+    "id": "r005",
+    "paragraph_id": "p8",
+    "char_start": 42,
+    "char_end": 56,
+    "label": "foreign assets",
+    "href": "https://www.asiaasset.com/pension-funds/koreas-nps-picks-state-street-bank-and-trust-bny-as-custodians-for-us619-billion-foreign-assets/",
+    "kind": "hyperlink",
+    "placement": "body",
+    "source_key": "https://asiaasset.com/pension-funds/koreas-nps-picks-state-street-bank-and-trust-bny-as-custodians-for-us619-billion-foreign-assets",
+    "host": "asiaasset.com",
+    "target_article_id": null
+   },
+   {
+    "id": "r006",
+    "paragraph_id": "p9",
+    "char_start": 336,
+    "char_end": 386,
+    "label": "the foreign currency market it directly influences",
+    "href": "https://www.bloomberg.com/news/articles/2026-06-02/taiwan-s-big-boss-central-bank-is-stamping-out-currency-swings",
+    "kind": "hyperlink",
+    "placement": "body",
+    "source_key": "https://bloomberg.com/news/articles/2026-06-02/taiwan-s-big-boss-central-bank-is-stamping-out-currency-swings",
+    "host": "bloomberg.com",
+    "target_article_id": null
+   },
+   {
+    "id": "r007",
+    "paragraph_id": "p11",
+    "char_start": 317,
+    "char_end": 339,
+    "label": "Public Investment Fund",
+    "href": "https://www.pif.gov.sa/en/",
+    "kind": "hyperlink",
+    "placement": "body",
+    "source_key": "https://pif.gov.sa/en",
+    "host": "pif.gov.sa",
+    "target_article_id": null
+   },
+   {
+    "id": "r008",
+    "paragraph_id": "p15",
+    "char_start": 130,
+    "char_end": 164,
+    "label": "several trillion in foreign assets",
+    "href": "https://thechinaproject.com/2023/06/29/shadow-reserves-how-china-hides-trillions-of-dollars-of-hard-currency/",
+    "kind": "hyperlink",
+    "placement": "body",
+    "source_key": "https://thechinaproject.com/2023/06/29/shadow-reserves-how-china-hides-trillions-of-dollars-of-hard-currency",
+    "host": "thechinaproject.com",
+    "target_article_id": null
+   },
+   {
+    "id": "r009",
+    "paragraph_id": "p19",
+    "char_start": 250,
+    "char_end": 269,
+    "label": "the work of AidData",
+    "href": "https://china.aiddata.org/",
+    "kind": "hyperlink",
+    "placement": "body",
+    "source_key": "https://china.aiddata.org",
+    "host": "china.aiddata.org",
+    "target_article_id": null
+   },
+   {
+    "id": "r010",
+    "paragraph_id": "p23",
+    "char_start": 18,
+    "char_end": 69,
+    "label": "the rapid growth of the state banks dollar holdings",
+    "href": "https://www.cfr.org/articles/the-pboc-the-state-banks-and-backdoor-intervention",
+    "kind": "hyperlink",
+    "placement": "body",
+    "source_key": "https://cfr.org/articles/the-pboc-the-state-banks-and-backdoor-intervention",
+    "host": "cfr.org",
+    "target_article_id": null
+   },
+   {
+    "id": "r011",
+    "paragraph_id": "p24",
+    "char_start": 245,
+    "char_end": 294,
+    "label": "SAFE has shifted its funds out of U.S. custodians",
+    "href": "https://www.cfr.org/articles/finding-china-and-the-u-s-tic-data",
+    "kind": "hyperlink",
+    "placement": "body",
+    "source_key": "https://cfr.org/articles/finding-china-and-the-u-s-tic-data",
+    "host": "cfr.org",
+    "target_article_id": null
+   },
+   {
+    "id": "r012",
+    "paragraph_id": "p30",
+    "char_start": 98,
+    "char_end": 143,
+    "label": "Around two-thirds of those are now in dollars",
+    "href": "https://www.bloomberg.com/news/articles/2025-10-01/south-korea-agrees-to-share-monthly-fx-intervention-data-with-us",
+    "kind": "hyperlink",
+    "placement": "body",
+    "source_key": "https://bloomberg.com/news/articles/2025-10-01/south-korea-agrees-to-share-monthly-fx-intervention-data-with-us",
+    "host": "bloomberg.com",
+    "target_article_id": null
+   },
+   {
+    "id": "r013",
+    "paragraph_id": "p31",
+    "char_start": 19,
+    "char_end": 48,
+    "label": "the foreign assets at the NPS",
+    "href": "https://fund.nps.or.kr/eng/main.do",
+    "kind": "hyperlink",
+    "placement": "body",
+    "source_key": "https://fund.nps.or.kr/eng/main.do",
+    "host": "fund.nps.or.kr",
+    "target_article_id": null
+   },
+   {
+    "id": "r014",
+    "paragraph_id": "p33",
+    "char_start": 607,
+    "char_end": 641,
+    "label": "an exceptionally high dollar share",
+    "href": "https://www.cfr.org/articles/taiwans-backdoor-currency-manipulation",
+    "kind": "hyperlink",
+    "placement": "body",
+    "source_key": "https://cfr.org/articles/taiwans-backdoor-currency-manipulation",
+    "host": "cfr.org",
+    "target_article_id": null
+   },
+   {
+    "id": "r015",
+    "paragraph_id": "p39",
+    "char_start": 0,
+    "char_end": 20,
+    "label": "Adam Tooze has noted",
+    "href": "https://www.ft.com/content/d063fef6-c92c-4058-998f-bc5bfecdfe8e",
+    "kind": "hyperlink",
+    "placement": "body",
+    "source_key": "https://ft.com/content/d063fef6-c92c-4058-998f-bc5bfecdfe8e",
+    "host": "ft.com",
+    "target_article_id": null
+   }
+  ],
+  "metadata_extension": {
+   "field_sources": {
+    "title": "frontmatter",
+    "authors": "frontmatter",
+    "published_date": "frontmatter",
+    "url": "frontmatter",
+    "publisher": "frontmatter",
+    "series": "frontmatter"
+   },
+   "references_status": "preserved",
+   "links_hash": "sha256:f4989b19f64cba695fdb2597ee9318df6f6551875bb0946864cbf7917bcfbd87",
+   "subtitle": "The world isn’t moving away from the dollar. It is shifting its dollars from traditional reserves to state banks, pension funds, and other quasi-sovereign investors.",
+   "published_at": "2026-09-15T08:37:40-04:00",
+   "programs": [
+    "Follow the Money",
+    "Greenberg Center for Geoeconomics"
+   ],
+   "source_tags": [
+    "Capital Flows",
+    "Banking"
+   ],
+   "license": "CC BY-NC-ND 4.0",
+   "section": "Article",
+   "doc_type": "AnalysisNewsArticle",
+   "language": "en",
+   "word_count": 1906,
+   "date_modified": "2026-09-15",
+   "retrieved_at": "2026-11-10T23:23:38Z",
+   "page_sha256": "4cd35b026339451ca689379cd552c2384c41e7762f0ec69b76432870b91b42a0",
+   "figures": [],
+   "source_record": "de-reservification-not-de-dollarization"
+  }
+ },
+ "annotation": {
+  "annotated_at": "2026-11-09T21:12:21+00:00",
+  "ontology": {
+   "id": "setser_argument",
+   "version": 2
+  },
+  "facets_version": 1,
+  "pipeline_version": "8d03103",
+  "status": "needs_review",
+  "runs": [
+   {
+    "run_id": "claude-opus-5.5_boxes",
+    "stage": "boxes",
+    "method": "llm",
+    "model": "anthropic/claude-opus-5.5",
+    "parameters": {
+     "max_tokens": 16000,
+     "reasoning_effort": "medium"
+    },
+    "timestamp": "2026-11-09T21:12:21+00:00",
+    "calls": 1,
+    "cost_usd": 0.11678
+   },
+   {
+    "run_id": "claude-opus-5.5_links",
+    "stage": "links",
+    "method": "llm",
+    "model": "anthropic/claude-opus-5.5",
+    "parameters": {
+     "max_tokens": 12000,
+     "reasoning_effort": "medium"
+    },
+    "timestamp": "2026-11-09T21:12:21+00:00",
+    "calls": 1,
+    "cost_usd": 0.04645
+   },
+   {
+    "run_id": "claude-opus-5.5_facets",
+    "stage": "facets",
+    "method": "llm",
+    "model": "anthropic/claude-opus-5.5",
+    "parameters": {
+     "max_tokens": 12000,
+     "reasoning_effort": "low"
+    },
+    "timestamp": "2026-11-09T21:12:21+00:00",
+    "calls": 1,
+    "cost_usd": 0.05545
+   }
+  ]
+ },
+ "summary": {
+  "central_question": "Is the dollar's global role really measured by its share in central bank FX reserves, or is the action elsewhere?",
+  "main_thesis": "The world is de-reservifying, not de-dollarizing: sovereign foreign asset growth flows through non-reserve institutions that remain heavily dollar-tilted, so the dollar's role is increasingly about returns rather than safety.",
+  "argument_summary": null
+ },
+ "nodes": [
+  {
+   "id": "n001",
+   "legacy_id": "Q",
+   "role": "question",
+   "level": "L0",
+   "content": {
+    "text": "Is the dollar's global role really measured by its share in central bank FX reserves, or is the action elsewhere?",
+    "label": null,
+    "explicit": false,
+    "reason": "Ask whether the most-watched statistic actually captures where a phenomenon is changing."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p2",
+      "paragraph_sha256": "sha256:19114db6b4aa39af2411b2d402e5541ebd34103b8bd0ba90154c0fb1d9294317",
+      "relation": "states",
+      "link_method": "llm_citation",
+      "anchor_grade": "excerpt",
+      "review_status": "pending",
+      "source_excerpt": "The IMF’s data on the currency composition of foreign exchange (FX) reserves is scrutinized carefully for any signs that the world is shifting way from the dollar.",
+      "source_spans": [
+       {
+        "char_start": 0,
+        "char_end": 163
+       }
+      ]
+     },
+     {
+      "paragraph_id": "p3",
+      "paragraph_sha256": "sha256:e7ca5ee4621b231d16904ecc40266fc0df4e544168a2d98feeefa728b6f07589",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     },
+     {
+      "paragraph_id": "p5",
+      "paragraph_sha256": "sha256:5c8afb585b292c5b5ee0a6fbb69565f6b96572bc9b765523c8556b948accb90a",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "fx-reserves",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [],
+    "bloc": [
+     {
+      "term": "global",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     }
+    ],
+    "instrument": [],
+    "data_basis": []
+   },
+   "attributes": {},
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "n002",
+   "legacy_id": "X",
+   "role": "opposing_view",
+   "level": "L6",
+   "content": {
+    "text": "Analysts who pore over quarterly COFER shares for signs of de-dollarization are focused on the wrong data.",
+    "label": null,
+    "explicit": true,
+    "reason": "Small shifts in a static stock matter less than where new flows are going."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p2",
+      "paragraph_sha256": "sha256:19114db6b4aa39af2411b2d402e5541ebd34103b8bd0ba90154c0fb1d9294317",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     },
+     {
+      "paragraph_id": "p3",
+      "paragraph_sha256": "sha256:e7ca5ee4621b231d16904ecc40266fc0df4e544168a2d98feeefa728b6f07589",
+      "relation": "states",
+      "link_method": "llm_citation",
+      "anchor_grade": "excerpt",
+      "review_status": "pending",
+      "source_excerpt": "Yet it doesn’t really matter that much if the dollar’s share of reserves has shifted from 56.5 percent to 57 percent. The ink-to-impact ratio of the quarterly reporting on the latest COFER data is all off.",
+      "source_spans": [
+       {
+        "char_start": 0,
+        "char_end": 205
+       }
+      ]
+     },
+     {
+      "paragraph_id": "p41",
+      "paragraph_sha256": "sha256:deeaafd1558a1b57b5fb552c61a47ecd1f885dedd47b3b090e811614766009c9",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "fx-reserves",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [],
+    "bloc": [
+     {
+      "term": "global",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     }
+    ],
+    "instrument": [],
+    "data_basis": [
+     {
+      "term": "imf-publications",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ]
+   },
+   "attributes": {},
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": [
+     "passages: `X`: the team's passage linker anchors it to p32 (shared: cofer), which the box does not cite"
+    ]
+   }
+  },
+  {
+   "id": "n003",
+   "legacy_id": "E1",
+   "role": "evidence_data",
+   "level": "L2",
+   "content": {
+    "text": "Global reserves and dollar reserves have been roughly flat for a decade, including Japan's and Korea's.",
+    "label": null,
+    "explicit": true,
+    "reason": "A stock that has stopped growing cannot be the source of new inflows."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p4",
+      "paragraph_sha256": "sha256:8c71ca8d9583e4cabb2be75b213ce2301a86492dfe612beb5bd4e57ac1a60616",
+      "relation": "states",
+      "link_method": "llm_citation",
+      "anchor_grade": "excerpt",
+      "review_status": "pending",
+      "source_excerpt": "Neither the stock of global reserves nor the stock of dollar reserves has changed much in the last ten years.",
+      "source_spans": [
+       {
+        "char_start": 0,
+        "char_end": 109
+       }
+      ]
+     },
+     {
+      "paragraph_id": "p25",
+      "paragraph_sha256": "sha256:9f55bda4d1b38456df198abd0c637d726f03fc608153a5b3e53cb5d55379da34",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     },
+     {
+      "paragraph_id": "p30",
+      "paragraph_sha256": "sha256:37c8fb4cfcaca751e000bfc03e4fb74b3cab597f79d20c16bb0c546793f07927",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "fx-reserves",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [],
+    "bloc": [
+     {
+      "term": "global",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     }
+    ],
+    "instrument": [],
+    "data_basis": [
+     {
+      "term": "imf-publications",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ]
+   },
+   "attributes": {},
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "n004",
+   "legacy_id": "P2",
+   "role": "hidden_assumption",
+   "level": "L1",
+   "content": {
+    "text": "Assets held by pension funds, state banks, sovereign funds and state-steered insurers are effectively public-sector foreign assets comparable to reserves.",
+    "label": null,
+    "explicit": false,
+    "reason": "Ownership or control by the state, not the legal label of the holder, determines whether assets are official."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p7",
+      "paragraph_sha256": "sha256:ba21287981a87a2615b811febbeaa5cac0568ee7e8ef1daadcb315f94acbb147",
+      "relation": "presupposes",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     },
+     {
+      "paragraph_id": "p9",
+      "paragraph_sha256": "sha256:305b6fdb5cbd26b6d508ed083144266e6aa5ad7fc90471d21e52403d0b041a90",
+      "relation": "presupposes",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     },
+     {
+      "paragraph_id": "p13",
+      "paragraph_sha256": "sha256:b7fed9ddfa57deb4c9b3af740a002db47a6845cd9bc1db939e7d3a5bbe9e6594",
+      "relation": "presupposes",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     },
+     {
+      "paragraph_id": "p32",
+      "paragraph_sha256": "sha256:4c8db33b81c80043c63fa733fcca3536019b3cd7f5990ffc54166b4a81e67612",
+      "relation": "presupposes",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     },
+     {
+      "paragraph_id": "p33",
+      "paragraph_sha256": "sha256:8091ad5fc95d496ce4e844fe6f96f14bf4bff98247c27bc25f3007e625fe717b",
+      "relation": "presupposes",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "fx-reserves",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [],
+    "bloc": [
+     {
+      "term": "asia-surplus",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     }
+    ],
+    "instrument": [],
+    "data_basis": []
+   },
+   "attributes": {},
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "n005",
+   "legacy_id": "E2",
+   "role": "evidence_data",
+   "level": "L2",
+   "content": {
+    "text": "Quasi-sovereign pools now rival formal reserves in China, Japan, Korea and Saudi Arabia, and Taiwan's lifers play a similar policy role.",
+    "label": null,
+    "explicit": true,
+    "reason": "Compare the size of alternative state pools with the official measure to judge its coverage."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p6",
+      "paragraph_sha256": "sha256:c9b54097bd7b31d2e76c0b6c7f39cb8e78f8e517e6305667d59aaa653d604634",
+      "relation": "states",
+      "link_method": "llm_citation",
+      "anchor_grade": "excerpt",
+      "review_status": "pending",
+      "source_excerpt": "China’s state banks (per the Bank of International Settlements) have almost as many foreign assets as the central bank (PBOC).",
+      "source_spans": [
+       {
+        "char_start": 0,
+        "char_end": 126
+       }
+      ]
+     },
+     {
+      "paragraph_id": "p7",
+      "paragraph_sha256": "sha256:ba21287981a87a2615b811febbeaa5cac0568ee7e8ef1daadcb315f94acbb147",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     },
+     {
+      "paragraph_id": "p8",
+      "paragraph_sha256": "sha256:a4fbf59c461a6c4e1e0acc4bdbc198bf4dcdb9670c8964d1ab6d8df40be4d87b",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     },
+     {
+      "paragraph_id": "p9",
+      "paragraph_sha256": "sha256:305b6fdb5cbd26b6d508ed083144266e6aa5ad7fc90471d21e52403d0b041a90",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     },
+     {
+      "paragraph_id": "p11",
+      "paragraph_sha256": "sha256:0e0c09fc2367ce101917ca0f44b4a9256514b564e1c7a2e03cfcd62da322a8a7",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     },
+     {
+      "paragraph_id": "p36",
+      "paragraph_sha256": "sha256:f5ad8fb40da4a0f74a8693f65e4994b2ff4c5d7a8c22a724d64c12c37caeec9d",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "fx-reserves",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [],
+    "bloc": [
+     {
+      "term": "asia-surplus",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     },
+     {
+      "term": "gulf",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     }
+    ],
+    "instrument": [],
+    "data_basis": []
+   },
+   "attributes": {},
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": [
+     "boxes: `E2` the name `arabia` does not occur in the article",
+     "passages: `E2`: the team's passage linker anchors it to p34 (shared: saudi), which the box does not cite",
+     "passages: `E2`: the team's passage linker anchors it to p49 (shared: saudi), which the box does not cite"
+    ]
+   }
+  },
+  {
+   "id": "n006",
+   "legacy_id": "M1",
+   "role": "mechanism",
+   "level": "L3",
+   "content": {
+    "text": "Asian surplus economies are following oil exporters in routing surpluses into sovereign funds rather than central bank reserves.",
+    "label": null,
+    "explicit": true,
+    "reason": "Governments with persistent surpluses shift savings toward return-seeking vehicles over time."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p11",
+      "paragraph_sha256": "sha256:0e0c09fc2367ce101917ca0f44b4a9256514b564e1c7a2e03cfcd62da322a8a7",
+      "relation": "states",
+      "link_method": "llm_citation",
+      "anchor_grade": "excerpt",
+      "review_status": "pending",
+      "source_excerpt": "Asia’s big surplus economies are in a sense just catching up with the world’s oil exporters. Norway put its oil surplus into a sovereign wealth fund from the start.",
+      "source_spans": [
+       {
+        "char_start": 0,
+        "char_end": 164
+       }
+      ]
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "fx-reserves",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     },
+     {
+      "term": "capital-flows",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [],
+    "bloc": [
+     {
+      "term": "asia-surplus",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     }
+    ],
+    "instrument": [],
+    "data_basis": []
+   },
+   "attributes": {
+    "kind": "economic"
+   },
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "n007",
+   "legacy_id": "M2",
+   "role": "mechanism",
+   "level": "L3",
+   "content": {
+    "text": "Central banks steer currency by regulating hedge ratios and bank net foreign assets, moving foreign asset accumulation off their own books.",
+    "label": null,
+    "explicit": true,
+    "reason": "Regulating private balance sheets can substitute for direct intervention."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p9",
+      "paragraph_sha256": "sha256:305b6fdb5cbd26b6d508ed083144266e6aa5ad7fc90471d21e52403d0b041a90",
+      "relation": "states",
+      "link_method": "llm_citation",
+      "anchor_grade": "excerpt",
+      "review_status": "pending",
+      "source_excerpt": "So too does the PBOC’s use of the “macroprudential adjustment factor” effectively adjust banks’ net foreign assets in much the same way that CBC regulations adjust lifer hedge ratios.",
+      "source_spans": [
+       {
+        "char_start": 421,
+        "char_end": 604
+       }
+      ]
+     },
+     {
+      "paragraph_id": "p10",
+      "paragraph_sha256": "sha256:412107837649f6c6e3592f935c7a2f4d0ddb146612eb77da41ac0a1cbf4a82c2",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     },
+     {
+      "paragraph_id": "p33",
+      "paragraph_sha256": "sha256:8091ad5fc95d496ce4e844fe6f96f14bf4bff98247c27bc25f3007e625fe717b",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "fx-reserves",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     },
+     {
+      "term": "nominal-exchange-rate",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [],
+    "bloc": [
+     {
+      "term": "asia-surplus",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     }
+    ],
+    "instrument": [
+     {
+      "term": "fx-intervention",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "data_basis": []
+   },
+   "attributes": {
+    "kind": "economic"
+   },
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "n008",
+   "legacy_id": "E3",
+   "role": "evidence_data",
+   "level": "L2",
+   "content": {
+    "text": "China's state banks hold $3.3 trillion gross foreign assets (BIS), ~$4 trillion BOP outflows, $2.5 trillion at top five banks, and policy banks nearly $1 trillion; net bank outflows exceeded reserve accumulation since 2010.",
+    "label": null,
+    "explicit": true,
+    "reason": "Cross-check balance-of-payments flows against banking and balance sheet stocks."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p15",
+      "paragraph_sha256": "sha256:dac883f82cc850daae68eeb249a19767d7015dd0ade4783c2be6a1992d619694",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     },
+     {
+      "paragraph_id": "p16",
+      "paragraph_sha256": "sha256:4e986664522b43d84e0f4533a98636efe66383bdaa16f35228c3c446d6a6f728",
+      "relation": "states",
+      "link_method": "llm_citation",
+      "anchor_grade": "excerpt",
+      "review_status": "pending",
+      "source_excerpt": "China reports $3.3 trillion in gross foreign assets to the BIS",
+      "source_spans": [
+       {
+        "char_start": 0,
+        "char_end": 62
+       }
+      ]
+     },
+     {
+      "paragraph_id": "p17",
+      "paragraph_sha256": "sha256:6eef26d231188873d3c62286eae6139a3961afbae1a0d4698cf96114a198e1be",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     },
+     {
+      "paragraph_id": "p18",
+      "paragraph_sha256": "sha256:362a24d5dfa59188f296babef0be45903d0bbc348941a4561b5e8285e5883da7",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "fx-reserves",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     },
+     {
+      "term": "capital-flows",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [
+     {
+      "term": "china",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     }
+    ],
+    "bloc": [],
+    "instrument": [],
+    "data_basis": [
+     {
+      "term": "balance-of-payments",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ]
+   },
+   "attributes": {},
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "n009",
+   "legacy_id": "E6",
+   "role": "evidence_source",
+   "level": "L2",
+   "content": {
+    "text": "BIS data, SAFE disclosures, bank annual reports and AidData research all point to large, dollar-heavy state bank assets.",
+    "label": null,
+    "explicit": true,
+    "reason": "Independent sources agreeing strengthen an estimate of undisclosed holdings."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p16",
+      "paragraph_sha256": "sha256:4e986664522b43d84e0f4533a98636efe66383bdaa16f35228c3c446d6a6f728",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     },
+     {
+      "paragraph_id": "p18",
+      "paragraph_sha256": "sha256:362a24d5dfa59188f296babef0be45903d0bbc348941a4561b5e8285e5883da7",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     },
+     {
+      "paragraph_id": "p19",
+      "paragraph_sha256": "sha256:aab74205c2199db7e92867077a06aa1da93e2aaa0e576449dcc29a1c6ad1af4f",
+      "relation": "states",
+      "link_method": "llm_citation",
+      "anchor_grade": "excerpt",
+      "review_status": "pending",
+      "source_excerpt": "But the work of AidData points to nearly $1 trillion in foreign assets, with a hefty dollar share.",
+      "source_spans": [
+       {
+        "char_start": 246,
+        "char_end": 344
+       }
+      ]
+     },
+     {
+      "paragraph_id": "p21",
+      "paragraph_sha256": "sha256:fdce0e5f71dd0b59149ea2d3a419917a4fdba025ddb0cbed3698f3ed10067f23",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "fx-reserves",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [
+     {
+      "term": "china",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     }
+    ],
+    "bloc": [],
+    "instrument": [],
+    "data_basis": [
+     {
+      "term": "corporate-disclosure",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     },
+     {
+      "term": "third-party-trackers",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ]
+   },
+   "attributes": {},
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "n010",
+   "legacy_id": "SC",
+   "role": "source_credibility",
+   "level": "L1",
+   "content": {
+    "text": "China does not disclose policy bank foreign assets and the IMF has failed to flag the gap, so official reporting is incomplete.",
+    "label": null,
+    "explicit": true,
+    "reason": "Treat gaps tolerated by the official data steward as a reason to look beyond its datasets."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p19",
+      "paragraph_sha256": "sha256:aab74205c2199db7e92867077a06aa1da93e2aaa0e576449dcc29a1c6ad1af4f",
+      "relation": "states",
+      "link_method": "llm_citation",
+      "anchor_grade": "excerpt",
+      "review_status": "pending",
+      "source_excerpt": "with at this stage the complicity of the IMF, which has neither analyzed the role of SAFE policy bank financing, nor highlighted the glaring gap in China’s own reporting",
+      "source_spans": [
+       {
+        "char_start": 74,
+        "char_end": 243
+       }
+      ]
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "fx-reserves",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [
+     {
+      "term": "china",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     }
+    ],
+    "bloc": [],
+    "instrument": [],
+    "data_basis": [
+     {
+      "term": "imf-publications",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ]
+   },
+   "attributes": {},
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "n011",
+   "legacy_id": "E4",
+   "role": "evidence_data",
+   "level": "L2",
+   "content": {
+    "text": "Dollar shares of quasi-sovereign pools are high: ~70% for Chinese banks, ~70% for NPS, over 95% for Taiwan lifers, ~80% for PIF, versus 55% in China's reserves.",
+    "label": null,
+    "explicit": true,
+    "reason": "Compare currency composition across holders to see where dollar demand sits."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p12",
+      "paragraph_sha256": "sha256:0113a42ef9e60afda37ff04d7cebe7c68eef219bb5a54226cb198befd8239f86",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     },
+     {
+      "paragraph_id": "p21",
+      "paragraph_sha256": "sha256:fdce0e5f71dd0b59149ea2d3a419917a4fdba025ddb0cbed3698f3ed10067f23",
+      "relation": "states",
+      "link_method": "llm_citation",
+      "anchor_grade": "excerpt",
+      "review_status": "pending",
+      "source_excerpt": "SAFE’s disclosure—which covers the commercial banks—puts the dollar share of their offshore foreign currency assets at around 70 percent. That is well above the last disclosed dollar share of China’s formal reserves (55 percent in 2019).",
+      "source_spans": [
+       {
+        "char_start": 0,
+        "char_end": 237
+       }
+      ]
+     },
+     {
+      "paragraph_id": "p27",
+      "paragraph_sha256": "sha256:5a7ab4239f9fe37d0766b0d6938e2bd9bdbf0c68cac9fd8eb5ba95af57753b69",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     },
+     {
+      "paragraph_id": "p28",
+      "paragraph_sha256": "sha256:eca0944b3d139165422852719fd0575483b6da9f6c23268fd23f04eb13bb6ed5",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     },
+     {
+      "paragraph_id": "p31",
+      "paragraph_sha256": "sha256:a57d28a2677e464fa53f89faa3edbcece690cf2c4ec6f7c41d60f27cfe138ffc",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     },
+     {
+      "paragraph_id": "p33",
+      "paragraph_sha256": "sha256:8091ad5fc95d496ce4e844fe6f96f14bf4bff98247c27bc25f3007e625fe717b",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     },
+     {
+      "paragraph_id": "p35",
+      "paragraph_sha256": "sha256:8e81fd2f4e43b4e233490d1660febfd8009bf17bbbfaa8b5c70571443b405357",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "fx-reserves",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [],
+    "bloc": [
+     {
+      "term": "asia-surplus",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     },
+     {
+      "term": "gulf",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     }
+    ],
+    "instrument": [],
+    "data_basis": []
+   },
+   "attributes": {},
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": [
+     "passages: `E4`: the team's passage linker anchors it to p32 (shared: nps), which the box does not cite",
+     "passages: `E4`: the team's passage linker anchors it to p34 (shared: pif), which the box does not cite",
+     "passages: `E4`: the team's passage linker anchors it to p36 (shared: pif), which the box does not cite",
+     "passages: `E4`: the team's passage linker anchors it to p49 (shared: pif), which the box does not cite"
+    ]
+   }
+  },
+  {
+   "id": "n012",
+   "legacy_id": "C1",
+   "role": "intermediate_claim",
+   "level": "L4",
+   "content": {
+    "text": "In China the real story is the rapid growth of state bank dollar holdings, not SAFE's static reserves.",
+    "label": null,
+    "explicit": true,
+    "reason": "Growth at the margin matters more than a stagnant stock."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p22",
+      "paragraph_sha256": "sha256:9699c95c159de6846b07a9edc4e837cca10dc6a3646768dcee177e5ea2584606",
+      "relation": "states",
+      "link_method": "llm_citation",
+      "anchor_grade": "excerpt",
+      "review_status": "pending",
+      "source_excerpt": "Put simply, SAFE’s static dollar holdings aren’t the important story.",
+      "source_spans": [
+       {
+        "char_start": 0,
+        "char_end": 69
+       }
+      ]
+     },
+     {
+      "paragraph_id": "p23",
+      "paragraph_sha256": "sha256:42bf8179fcf4680f42d5fd8ac24f30cc59148e53f5bffdb82aee8f98b8b1bc72",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     },
+     {
+      "paragraph_id": "p38",
+      "paragraph_sha256": "sha256:f523739703b83bd4d6656a5f4875ff330a0133aa5fb91bc9f4960e78049cefa1",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "fx-reserves",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [
+     {
+      "term": "china",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     }
+    ],
+    "bloc": [],
+    "instrument": [
+     {
+      "term": "fx-intervention",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "data_basis": []
+   },
+   "attributes": {},
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "n013",
+   "legacy_id": "E5",
+   "role": "evidence_data",
+   "level": "L2",
+   "content": {
+    "text": "GPIF foreign assets rose from ~$400bn to ~$1tn and NPS from ~$80bn to over $660bn while reserves stagnated.",
+    "label": null,
+    "explicit": true,
+    "reason": "Where public foreign assets grew shows where flows are coming from."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p26",
+      "paragraph_sha256": "sha256:f98357e0ce9efe30b93fc975b7c48ceae4ce1328d5557c8769e75c270e914d89",
+      "relation": "states",
+      "link_method": "llm_citation",
+      "anchor_grade": "excerpt",
+      "review_status": "pending",
+      "source_excerpt": "What has grown is the foreign portfolio of the GPIF. it was around $400 billion in 2014, ~$1 trillion in Q1 of 2026.",
+      "source_spans": [
+       {
+        "char_start": 0,
+        "char_end": 116
+       }
+      ]
+     },
+     {
+      "paragraph_id": "p31",
+      "paragraph_sha256": "sha256:a57d28a2677e464fa53f89faa3edbcece690cf2c4ec6f7c41d60f27cfe138ffc",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "fx-reserves",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     },
+     {
+      "term": "capital-flows",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [
+     {
+      "term": "japan",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     },
+     {
+      "term": "korea",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     }
+    ],
+    "bloc": [],
+    "instrument": [],
+    "data_basis": []
+   },
+   "attributes": {},
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": [
+     "passages: `E5`: the team's passage linker anchors it to p27 (shared: gpif), which the box does not cite",
+     "passages: `E5`: the team's passage linker anchors it to p28 (shared: gpif), which the box does not cite",
+     "passages: `E5`: the team's passage linker anchors it to p32 (shared: nps), which the box does not cite",
+     "passages: `E5`: the team's passage linker anchors it to p7 (shared: gpif), which the box does not cite"
+    ]
+   }
+  },
+  {
+   "id": "n014",
+   "legacy_id": "C2",
+   "role": "intermediate_claim",
+   "level": "L4",
+   "content": {
+    "text": "Most of Korea's government dollar assets sit outside the central bank and COFER.",
+    "label": null,
+    "explicit": true,
+    "reason": "A dataset limited to one institution misses holdings by sister public entities."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p29",
+      "paragraph_sha256": "sha256:bf0806f26ce373bd2f010005a85aeae6ab75b1adb2c133baf18f76c9c37cec17",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     },
+     {
+      "paragraph_id": "p32",
+      "paragraph_sha256": "sha256:4c8db33b81c80043c63fa733fcca3536019b3cd7f5990ffc54166b4a81e67612",
+      "relation": "states",
+      "link_method": "llm_citation",
+      "anchor_grade": "excerpt",
+      "review_status": "pending",
+      "source_excerpt": "the majority of the dollar assets held by Korea’s government ... aren’t held by the central bank and aren’t in the IMF’s COFER data set.",
+      "source_spans": [
+       {
+        "char_start": 16,
+        "char_end": 76
+       },
+       {
+        "char_start": 199,
+        "char_end": 270
+       }
+      ]
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "fx-reserves",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [
+     {
+      "term": "korea",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     }
+    ],
+    "bloc": [],
+    "instrument": [],
+    "data_basis": [
+     {
+      "term": "imf-publications",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ]
+   },
+   "attributes": {},
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": [
+     "passages: `C2`: the team's passage linker anchors it to p3 (shared: cofer), which the box does not cite"
+    ]
+   }
+  },
+  {
+   "id": "n015",
+   "legacy_id": "M3",
+   "role": "mechanism",
+   "level": "L3",
+   "content": {
+    "text": "Focusing on formal reserves misses most growth of sovereign foreign assets because the growth happens in other institutions.",
+    "label": null,
+    "explicit": true,
+    "reason": "Measures defined by institution miss activity that migrates to other institutions."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p13",
+      "paragraph_sha256": "sha256:b7fed9ddfa57deb4c9b3af740a002db47a6845cd9bc1db939e7d3a5bbe9e6594",
+      "relation": "states",
+      "link_method": "llm_citation",
+      "anchor_grade": "excerpt",
+      "review_status": "pending",
+      "source_excerpt": "by looking at the (easily available) data on the world’s static holdings of formal FX reserve assets, scholars and analysts miss most of the growth in the world’s sovereign and quasi-sovereign foreign assets.",
+      "source_spans": [
+       {
+        "char_start": 16,
+        "char_end": 224
+       }
+      ]
+     },
+     {
+      "paragraph_id": "p37",
+      "paragraph_sha256": "sha256:5b373f6a5f72bb6c62fbcc7dd5e84cbe035a474e586a72c6b69ce19963dd90c1",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "fx-reserves",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [],
+    "bloc": [
+     {
+      "term": "global",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     }
+    ],
+    "instrument": [],
+    "data_basis": []
+   },
+   "attributes": {
+    "kind": "distortion"
+   },
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "n016",
+   "legacy_id": "QF",
+   "role": "caveat",
+   "level": "L6",
+   "content": {
+    "text": "Japan is an exception: GPIF's dollar share is below the MoF's, and Taiwan's lifers aren't technically sovereign.",
+    "label": null,
+    "explicit": true,
+    "reason": "Concede cases where the pattern does not hold uniformly."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p12",
+      "paragraph_sha256": "sha256:0113a42ef9e60afda37ff04d7cebe7c68eef219bb5a54226cb198befd8239f86",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     },
+     {
+      "paragraph_id": "p27",
+      "paragraph_sha256": "sha256:5a7ab4239f9fe37d0766b0d6938e2bd9bdbf0c68cac9fd8eb5ba95af57753b69",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     },
+     {
+      "paragraph_id": "p33",
+      "paragraph_sha256": "sha256:8091ad5fc95d496ce4e844fe6f96f14bf4bff98247c27bc25f3007e625fe717b",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     },
+     {
+      "paragraph_id": "p51",
+      "paragraph_sha256": "sha256:9fa4654a05c3ec602d9a8baf3ce1a3e9ca84d6255523e5af01789f4cb53f96c4",
+      "relation": "states",
+      "link_method": "llm_citation",
+      "anchor_grade": "excerpt",
+      "review_status": "pending",
+      "source_excerpt": "Japan is the main exception; the GPIF’s dollar share is below the likely dollar share of Japan’s MoF.",
+      "source_spans": [
+       {
+        "char_start": 4,
+        "char_end": 105
+       }
+      ]
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "fx-reserves",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [
+     {
+      "term": "japan",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     },
+     {
+      "term": "taiwan",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     }
+    ],
+    "bloc": [],
+    "instrument": [],
+    "data_basis": []
+   },
+   "attributes": {},
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": [
+     "passages: `QF`: the team's passage linker anchors it to p24 (shared: mof), which the box does not cite",
+     "passages: `QF`: the team's passage linker anchors it to p25 (shared: mof), which the box does not cite",
+     "passages: `QF`: the team's passage linker anchors it to p28 (shared: gpif), which the box does not cite",
+     "passages: `QF`: the team's passage linker anchors it to p7 (shared: gpif), which the box does not cite"
+    ]
+   }
+  },
+  {
+   "id": "n017",
+   "legacy_id": "P1",
+   "role": "stated_assumption",
+   "level": "L1",
+   "content": {
+    "text": "Reserve managers match liabilities, so the dollar's role depends at least as much on the portfolio choices of quasi-sovereign and private investors.",
+    "label": null,
+    "explicit": true,
+    "reason": "Currency choices of liability-matching managers follow the liabilities, not independent preference."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p42",
+      "paragraph_sha256": "sha256:dc8c8cb6e335fb323532b796249d59c81e2276869f1606c1b983e82ad0caacef",
+      "relation": "states",
+      "link_method": "llm_citation",
+      "anchor_grade": "excerpt",
+      "review_status": "pending",
+      "source_excerpt": "FX reserve managers are themselves ultimately liability matchers",
+      "source_spans": [
+       {
+        "char_start": 187,
+        "char_end": 251
+       }
+      ]
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "capital-flows",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [],
+    "bloc": [
+     {
+      "term": "global",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     }
+    ],
+    "instrument": [],
+    "data_basis": []
+   },
+   "attributes": {},
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "n018",
+   "legacy_id": "E7",
+   "role": "evidence_source",
+   "level": "L2",
+   "content": {
+    "text": "Tooze's 'profit dollar': inflows seek returns via equities and corporate bonds, with less official demand for Treasuries and more opacity.",
+    "label": null,
+    "explicit": true,
+    "reason": "Draw on an established framework that matches the observed pattern."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p39",
+      "paragraph_sha256": "sha256:0ffa44582b55b13cc240c4011385acea6782820672f886a3c249b31f821bc563",
+      "relation": "states",
+      "link_method": "llm_citation",
+      "anchor_grade": "excerpt",
+      "review_status": "pending",
+      "source_excerpt": "Adam Tooze has noted that inflows into the U.S. are now coming from investors looking for a profit, not investors looking for safety.",
+      "source_spans": [
+       {
+        "char_start": 0,
+        "char_end": 133
+       }
+      ]
+     },
+     {
+      "paragraph_id": "p40",
+      "paragraph_sha256": "sha256:b65d51118cbb5a1a269a39dc384b0adc52fdd8946bf3f7c95b4d88ef49ee5e29",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "capital-flows",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [
+     {
+      "term": "us",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     }
+    ],
+    "bloc": [],
+    "instrument": [],
+    "data_basis": []
+   },
+   "attributes": {},
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": [
+     "passages: `E7`: the team's passage linker anchors it to p24 (shared: treasuries), which the box does not cite",
+     "passages: `E7`: the team's passage linker anchors it to p46 (shared: treasuries), which the box does not cite",
+     "passages: `E7`: the team's passage linker anchors it to p47 (shared: treasuries), which the box does not cite",
+     "passages: `E7`: the team's passage linker anchors it to p48 (shared: treasuries), which the box does not cite",
+     "passages: `E7`: the team's passage linker anchors it to p50 (shared: treasuries), which the box does not cite"
+    ]
+   }
+  },
+  {
+   "id": "n019",
+   "legacy_id": "K",
+   "role": "main_claim",
+   "level": "L5",
+   "content": {
+    "text": "The world is de-reservifying, not de-dollarizing: sovereign foreign asset growth flows through non-reserve institutions that remain heavily dollar-tilted, so the dollar's role is increasingly about returns rather than safety.",
+    "label": null,
+    "explicit": true,
+    "reason": "Judge a currency's international role by where new flows go, not by a static official stock."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p37",
+      "paragraph_sha256": "sha256:5b373f6a5f72bb6c62fbcc7dd5e84cbe035a474e586a72c6b69ce19963dd90c1",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     },
+     {
+      "paragraph_id": "p41",
+      "paragraph_sha256": "sha256:deeaafd1558a1b57b5fb552c61a47ecd1f885dedd47b3b090e811614766009c9",
+      "relation": "states",
+      "link_method": "llm_citation",
+      "anchor_grade": "excerpt",
+      "review_status": "pending",
+      "source_excerpt": "Do recognize that the dollar’s “reserve currency role” isn’t the source of any significant new inflows into the dollar.",
+      "source_spans": [
+       {
+        "char_start": 64,
+        "char_end": 183
+       }
+      ]
+     },
+     {
+      "paragraph_id": "p42",
+      "paragraph_sha256": "sha256:dc8c8cb6e335fb323532b796249d59c81e2276869f1606c1b983e82ad0caacef",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     },
+     {
+      "paragraph_id": "p43",
+      "paragraph_sha256": "sha256:ba1cfee7c9174ec501eeaa9a5a6fe3ed82250f3973028709ed908adaac227226",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     },
+     {
+      "paragraph_id": "p44",
+      "paragraph_sha256": "sha256:d84dd4ed1dac5f8b846791e4d68ff9cb05b660eac34f6c80cf6f28db087c8469",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     },
+     {
+      "paragraph_id": "p46",
+      "paragraph_sha256": "sha256:fd85623142a6e225c25d701e496af76d35600d126c59947911094b5843b6de76",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "fx-reserves",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     },
+     {
+      "term": "capital-flows",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [],
+    "bloc": [
+     {
+      "term": "global",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     }
+    ],
+    "instrument": [],
+    "data_basis": []
+   },
+   "attributes": {
+    "claim_type": "single"
+   },
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "n020",
+   "legacy_id": "REC",
+   "role": "recommendation",
+   "level": "L5",
+   "content": {
+    "text": "Analysts should stop obsessing over COFER shares and scrutinize the premium on U.S. risk assets instead.",
+    "label": null,
+    "explicit": true,
+    "reason": "Direct scrutiny to where the risk is concentrated."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p41",
+      "paragraph_sha256": "sha256:deeaafd1558a1b57b5fb552c61a47ecd1f885dedd47b3b090e811614766009c9",
+      "relation": "states",
+      "link_method": "llm_citation",
+      "anchor_grade": "excerpt",
+      "review_status": "pending",
+      "source_excerpt": "So don’t obsess about the dollar’s chare in formal FX reserves.",
+      "source_spans": [
+       {
+        "char_start": 0,
+        "char_end": 63
+       }
+      ]
+     },
+     {
+      "paragraph_id": "p48",
+      "paragraph_sha256": "sha256:f8a9d7a3439ad66fd7bd417b87991ecdd254eed60cbe8e48dca153036a0cdf5b",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "capital-flows",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [
+     {
+      "term": "us",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     }
+    ],
+    "bloc": [],
+    "instrument": [],
+    "data_basis": [
+     {
+      "term": "imf-publications",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     },
+     {
+      "term": "market-prices",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ]
+   },
+   "attributes": {},
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": [
+     "passages: `REC`: the team's passage linker anchors it to p3 (shared: cofer), which the box does not cite",
+     "passages: `REC`: the team's passage linker anchors it to p32 (shared: cofer), which the box does not cite"
+    ]
+   }
+  },
+  {
+   "id": "n021",
+   "legacy_id": "M4",
+   "role": "mechanism",
+   "level": "L3",
+   "content": {
+    "text": "The investor base shift toward U.S. risk assets explains why Treasuries lost convenience yield while the dollar kept it, implying a premium on U.S. risk assets.",
+    "label": null,
+    "explicit": true,
+    "reason": "Asset prices reflect who the marginal buyer is and what it wants."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p47",
+      "paragraph_sha256": "sha256:2c30de7f9945386abaf41569e8c1a750d25adbdf0c06e6e132ccc40760dc1acb",
+      "relation": "states",
+      "link_method": "llm_citation",
+      "anchor_grade": "excerpt",
+      "review_status": "pending",
+      "source_excerpt": "the shift in the global investor base, and their apparent portfolio preference for U.S. risk assets in lieu of Treasuries, may help explain the divergence between the convenience yield on UST and the convenience yield on USD.",
+      "source_spans": [
+       {
+        "char_start": 180,
+        "char_end": 405
+       }
+      ]
+     },
+     {
+      "paragraph_id": "p48",
+      "paragraph_sha256": "sha256:f8a9d7a3439ad66fd7bd417b87991ecdd254eed60cbe8e48dca153036a0cdf5b",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "capital-flows",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     },
+     {
+      "term": "interest-rates",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [
+     {
+      "term": "us",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     }
+    ],
+    "bloc": [],
+    "instrument": [],
+    "data_basis": [
+     {
+      "term": "market-prices",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ]
+   },
+   "attributes": {
+    "kind": "economic"
+   },
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": [
+     "passages: `M4`: the team's passage linker anchors it to p24 (shared: treasuries), which the box does not cite",
+     "passages: `M4`: the team's passage linker anchors it to p39 (shared: treasuries), which the box does not cite",
+     "passages: `M4`: the team's passage linker anchors it to p46 (shared: treasuries), which the box does not cite",
+     "passages: `M4`: the team's passage linker anchors it to p50 (shared: treasuries), which the box does not cite"
+    ]
+   }
+  },
+  {
+   "id": "n022",
+   "legacy_id": "QF2",
+   "role": "caveat",
+   "level": "L6",
+   "content": {
+    "text": "The dollar tilt may not last; any real de-dollarization would first appear among these quasi-sovereign investors.",
+    "label": null,
+    "explicit": true,
+    "reason": "Portfolio preferences of return-seeking investors can change faster than reserve allocations."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p44",
+      "paragraph_sha256": "sha256:d84dd4ed1dac5f8b846791e4d68ff9cb05b660eac34f6c80cf6f28db087c8469",
+      "relation": "states",
+      "link_method": "llm_citation",
+      "anchor_grade": "excerpt",
+      "review_status": "pending",
+      "source_excerpt": "Those flows remain heavily tilted toward the dollar, at least for now.",
+      "source_spans": [
+       {
+        "char_start": 0,
+        "char_end": 70
+       }
+      ]
+     },
+     {
+      "paragraph_id": "p45",
+      "paragraph_sha256": "sha256:0a70a7a0fd27749fc756c4b980541e2eb3c2c6c365238806e0fec2d1e887e68f",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "capital-flows",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [],
+    "bloc": [
+     {
+      "term": "global",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     }
+    ],
+    "instrument": [],
+    "data_basis": []
+   },
+   "attributes": {},
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  }
+ ],
+ "edges": [
+  {
+   "id": "e001",
+   "from": "n001",
+   "to": "n004",
+   "relation": "frames",
+   "sign": 0,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e002",
+   "from": "n001",
+   "to": "n017",
+   "relation": "frames",
+   "sign": 0,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e003",
+   "from": "n004",
+   "to": "n005",
+   "relation": "frames",
+   "sign": 0,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e004",
+   "from": "n005",
+   "to": "n006",
+   "relation": "supports",
+   "sign": 1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e005",
+   "from": "n005",
+   "to": "n007",
+   "relation": "supports",
+   "sign": 1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e006",
+   "from": "n003",
+   "to": "n015",
+   "relation": "supports",
+   "sign": 1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e007",
+   "from": "n005",
+   "to": "n015",
+   "relation": "supports",
+   "sign": 1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e008",
+   "from": "n006",
+   "to": "n015",
+   "relation": "supports",
+   "sign": 1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e009",
+   "from": "n007",
+   "to": "n015",
+   "relation": "supports",
+   "sign": 1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e010",
+   "from": "n008",
+   "to": "n012",
+   "relation": "supports",
+   "sign": 1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e011",
+   "from": "n009",
+   "to": "n008",
+   "relation": "supports",
+   "sign": 1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e012",
+   "from": "n009",
+   "to": "n011",
+   "relation": "supports",
+   "sign": 1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e013",
+   "from": "n010",
+   "to": "n009",
+   "relation": "frames",
+   "sign": 0,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e014",
+   "from": "n011",
+   "to": "n012",
+   "relation": "supports",
+   "sign": 1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e015",
+   "from": "n013",
+   "to": "n014",
+   "relation": "supports",
+   "sign": 1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e016",
+   "from": "n011",
+   "to": "n014",
+   "relation": "supports",
+   "sign": 1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e017",
+   "from": "n004",
+   "to": "n019",
+   "relation": "licenses",
+   "sign": 1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e018",
+   "from": "n015",
+   "to": "n019",
+   "relation": "supports",
+   "sign": 1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e019",
+   "from": "n012",
+   "to": "n019",
+   "relation": "supports",
+   "sign": 1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e020",
+   "from": "n014",
+   "to": "n019",
+   "relation": "supports",
+   "sign": 1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e021",
+   "from": "n011",
+   "to": "n019",
+   "relation": "supports",
+   "sign": 1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e022",
+   "from": "n017",
+   "to": "n019",
+   "relation": "supports",
+   "sign": 1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e023",
+   "from": "n018",
+   "to": "n021",
+   "relation": "supports",
+   "sign": 1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e024",
+   "from": "n018",
+   "to": "n019",
+   "relation": "supports",
+   "sign": 1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e025",
+   "from": "n021",
+   "to": "n020",
+   "relation": "supports",
+   "sign": 1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e026",
+   "from": "n019",
+   "to": "n020",
+   "relation": "motivates",
+   "sign": 1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e027",
+   "from": "n019",
+   "to": "n002",
+   "relation": "rebuts",
+   "sign": -1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e028",
+   "from": "n020",
+   "to": "n002",
+   "relation": "rebuts",
+   "sign": -1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e029",
+   "from": "n019",
+   "to": "n016",
+   "relation": "qualified_by",
+   "sign": -1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e030",
+   "from": "n019",
+   "to": "n022",
+   "relation": "qualified_by",
+   "sign": -1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  }
+ ],
+ "validation": {
+  "status": "needs_review",
+  "checks": [
+   "boxes: 22, fix rounds 0, re-asks 0, gaps left none",
+   "links: 30, fix rounds 0, re-asks 0, gaps left none, dropped none",
+   "passage linker agreement: {'anchored': 43, 'anchored_cited': 16, 'candidate': 11, 'candidate_cited': 10}"
+  ],
+  "review_items": [
+   "boxes: `E2` the name `arabia` does not occur in the article",
+   "passages: `X`: the team's passage linker anchors it to p32 (shared: cofer), which the box does not cite",
+   "passages: `E2`: the team's passage linker anchors it to p34 (shared: saudi), which the box does not cite",
+   "passages: `E2`: the team's passage linker anchors it to p49 (shared: saudi), which the box does not cite",
+   "passages: `E4`: the team's passage linker anchors it to p32 (shared: nps), which the box does not cite",
+   "passages: `E4`: the team's passage linker anchors it to p34 (shared: pif), which the box does not cite",
+   "passages: `E4`: the team's passage linker anchors it to p36 (shared: pif), which the box does not cite",
+   "passages: `E4`: the team's passage linker anchors it to p49 (shared: pif), which the box does not cite",
+   "passages: `E5`: the team's passage linker anchors it to p27 (shared: gpif), which the box does not cite",
+   "passages: `E5`: the team's passage linker anchors it to p28 (shared: gpif), which the box does not cite",
+   "passages: `E5`: the team's passage linker anchors it to p32 (shared: nps), which the box does not cite",
+   "passages: `E5`: the team's passage linker anchors it to p7 (shared: gpif), which the box does not cite",
+   "passages: `C2`: the team's passage linker anchors it to p3 (shared: cofer), which the box does not cite",
+   "passages: `QF`: the team's passage linker anchors it to p24 (shared: mof), which the box does not cite",
+   "passages: `QF`: the team's passage linker anchors it to p25 (shared: mof), which the box does not cite",
+   "passages: `QF`: the team's passage linker anchors it to p28 (shared: gpif), which the box does not cite",
+   "passages: `QF`: the team's passage linker anchors it to p7 (shared: gpif), which the box does not cite",
+   "passages: `E7`: the team's passage linker anchors it to p24 (shared: treasuries), which the box does not cite",
+   "passages: `E7`: the team's passage linker anchors it to p46 (shared: treasuries), which the box does not cite",
+   "passages: `E7`: the team's passage linker anchors it to p47 (shared: treasuries), which the box does not cite",
+   "passages: `E7`: the team's passage linker anchors it to p48 (shared: treasuries), which the box does not cite",
+   "passages: `E7`: the team's passage linker anchors it to p50 (shared: treasuries), which the box does not cite",
+   "passages: `REC`: the team's passage linker anchors it to p3 (shared: cofer), which the box does not cite",
+   "passages: `REC`: the team's passage linker anchors it to p32 (shared: cofer), which the box does not cite",
+   "passages: `M4`: the team's passage linker anchors it to p24 (shared: treasuries), which the box does not cite",
+   "passages: `M4`: the team's passage linker anchors it to p39 (shared: treasuries), which the box does not cite",
+   "passages: `M4`: the team's passage linker anchors it to p46 (shared: treasuries), which the box does not cite",
+   "passages: `M4`: the team's passage linker anchors it to p50 (shared: treasuries), which the box does not cite"
+  ]
+ },
+ "extensions": {}
+}

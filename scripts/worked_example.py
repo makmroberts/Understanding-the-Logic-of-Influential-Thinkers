@@ -257,12 +257,12 @@ def panel_front(doc, nodes, edges, meta, manifest, notes) -> list:
 
 def panel_article(paras, passages, full_text) -> list:
     o = ["---", "", "## Panel 1 - The article, as the annotator sees it", "",
-         "`cfr_extract.py` numbers the paragraphs. Those numbers are the only "
+         "The parser numbers the paragraphs. Those numbers are the only "
          "handle anything downstream has on the prose, so a paragraph is the "
          "unit a passage link points at.", ""]
     if not paras:
         o += ["> No local extract matches this url, so paragraph text is "
-              "unavailable here. Run `cfr_extract.py` first.", ""]
+              "unavailable here. Run the parser first.", ""]
         return o
 
     by_para = defaultdict(list)

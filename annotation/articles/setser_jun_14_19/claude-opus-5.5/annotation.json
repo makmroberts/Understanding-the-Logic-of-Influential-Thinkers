@@ -1,0 +1,3000 @@
+{
+ "schema_version": "0.1-draft",
+ "article": {
+  "id": "setser_jun_14_19",
+  "title": "A Tale of Two Tariffs: China’s So Far Ineffective Tariffs on U.S. Manufacturing Exports",
+  "authors": [
+   "Brad W. Setser"
+  ],
+  "published_date": "2019-06-14",
+  "url": "https://www.cfr.org/articles/tale-two-tariffs-chinas-so-far-ineffective-tariffs-us-manufacturing-exports",
+  "publisher": "Council on Foreign Relations",
+  "series": "Follow the Money",
+  "source_text": {
+   "path": "internal/extracted/2019-06-14_tale-two-tariffs-chinas-so-far-ineffective-tariffs-us-manufacturing-exports.md",
+   "paragraph_count": 43,
+   "content_hash": "sha256:a95ce1f79e7761f0303225d38229fb791d10479df964607af602645ee662d243",
+   "revision": 2
+  },
+  "references": [
+   {
+    "id": "r001",
+    "paragraph_id": "p1",
+    "char_start": 306,
+    "char_end": 326,
+    "label": "really is China, Inc",
+    "href": "https://www.cfr.org/articles/china-never-stopped-managing-its-trade",
+    "kind": "hyperlink",
+    "placement": "body",
+    "source_key": "https://cfr.org/articles/china-never-stopped-managing-its-trade",
+    "host": "cfr.org",
+    "target_article_id": "china-never-stopped-managing-its-trade"
+   },
+   {
+    "id": "r002",
+    "paragraph_id": "p1",
+    "char_start": 334,
+    "char_end": 339,
+    "label": "COFCO",
+    "href": "https://en.wikipedia.org/wiki/COFCO_Group",
+    "kind": "hyperlink",
+    "placement": "body",
+    "source_key": "https://en.wikipedia.org/wiki/cofco_group",
+    "host": "en.wikipedia.org",
+    "target_article_id": null
+   },
+   {
+    "id": "r003",
+    "paragraph_id": "p1",
+    "char_start": 377,
+    "char_end": 395,
+    "label": "sell at a discount",
+    "href": "https://www.cfr.org/articles/soybeans",
+    "kind": "hyperlink",
+    "placement": "body",
+    "source_key": "https://cfr.org/articles/soybeans",
+    "host": "cfr.org",
+    "target_article_id": null
+   },
+   {
+    "id": "r004",
+    "paragraph_id": "p7",
+    "char_start": 82,
+    "char_end": 117,
+    "label": "Chad Bown of the Peterson Institute",
+    "href": "https://piie.com/blogs/trade-investment-policy-watch/trump-has-gotten-china-lower-its-tariffs-just-toward-everyone",
+    "kind": "hyperlink",
+    "placement": "body",
+    "source_key": "https://piie.com/blogs/trade-investment-policy-watch/trump-has-gotten-china-lower-its-tariffs-just-toward-everyone",
+    "host": "piie.com",
+    "target_article_id": null
+   },
+   {
+    "id": "r005",
+    "paragraph_id": "p13",
+    "char_start": 169,
+    "char_end": 186,
+    "label": "widebody aircraft",
+    "href": "https://www.wsj.com/articles/boeing-and-its-737-max-jets-have-a-china-problem-11554904340",
+    "kind": "hyperlink",
+    "placement": "body",
+    "source_key": "https://wsj.com/articles/boeing-and-its-737-max-jets-have-a-china-problem-11554904340",
+    "host": "wsj.com",
+    "target_article_id": null
+   },
+   {
+    "id": "r006",
+    "paragraph_id": "p13",
+    "char_start": 279,
+    "char_end": 326,
+    "label": "imports from the U.S. feed into China’s exports",
+    "href": "https://www.nytimes.com/2019/05/21/technology/huawei-china-us-trade.html",
+    "kind": "hyperlink",
+    "placement": "body",
+    "source_key": "https://nytimes.com/2019/05/21/technology/huawei-china-us-trade.html",
+    "host": "nytimes.com",
+    "target_article_id": null
+   },
+   {
+    "id": "r007",
+    "paragraph_id": "p15",
+    "char_start": 156,
+    "char_end": 165,
+    "label": "Chad Bown",
+    "href": "https://piie.com/blogs/trade-investment-policy-watch/trump-has-gotten-china-lower-its-tariffs-just-toward-everyone",
+    "kind": "hyperlink",
+    "placement": "body",
+    "source_key": "https://piie.com/blogs/trade-investment-policy-watch/trump-has-gotten-china-lower-its-tariffs-just-toward-everyone",
+    "host": "piie.com",
+    "target_article_id": null
+   },
+   {
+    "id": "r008",
+    "paragraph_id": "p18",
+    "char_start": 230,
+    "char_end": 278,
+    "label": "its efforts to encourage “indigenous” production",
+    "href": "https://www.nytimes.com/2019/05/17/business/china-trade-influence.html",
+    "kind": "hyperlink",
+    "placement": "body",
+    "source_key": "https://nytimes.com/2019/05/17/business/china-trade-influence.html",
+    "host": "nytimes.com",
+    "target_article_id": null
+   },
+   {
+    "id": "r009",
+    "paragraph_id": "p21",
+    "char_start": 17,
+    "char_end": 32,
+    "label": "straightforward",
+    "href": "https://www.bloomberg.com/news/articles/2019-05-13/grain-soy-soybeans-at-decade-low-amid-trade-war-pig-fever-woes",
+    "kind": "hyperlink",
+    "placement": "body",
+    "source_key": "https://bloomberg.com/news/articles/2019-05-13/grain-soy-soybeans-at-decade-low-amid-trade-war-pig-fever-woes",
+    "host": "bloomberg.com",
+    "target_article_id": null
+   },
+   {
+    "id": "r010",
+    "paragraph_id": "p24",
+    "char_start": 92,
+    "char_end": 126,
+    "label": "unless China cancels the contracts",
+    "href": "https://www.bloomberg.com/news/articles/2019-05-30/china-puts-u-s-soy-purchases-on-hold-as-tariff-war-escalates",
+    "kind": "hyperlink",
+    "placement": "body",
+    "source_key": "https://bloomberg.com/news/articles/2019-05-30/china-puts-u-s-soy-purchases-on-hold-as-tariff-war-escalates",
+    "host": "bloomberg.com",
+    "target_article_id": null
+   },
+   {
+    "id": "r011",
+    "paragraph_id": "p25",
+    "char_start": 11,
+    "char_end": 35,
+    "label": "reduced Chinese pig herd",
+    "href": "https://www.bloomberg.com/news/articles/2019-04-11/hog-apocalypse-in-china-leaves-farmers-fortifying-pigsties",
+    "kind": "hyperlink",
+    "placement": "body",
+    "source_key": "https://bloomberg.com/news/articles/2019-04-11/hog-apocalypse-in-china-leaves-farmers-fortifying-pigsties",
+    "host": "bloomberg.com",
+    "target_article_id": null
+   },
+   {
+    "id": "r012",
+    "paragraph_id": "p25",
+    "char_start": 37,
+    "char_end": 72,
+    "label": "bad weather in parts of the Midwest",
+    "href": "https://www.npr.org/2019/06/03/729191928/u-s-farmers-hit-with-bad-weather-and-trade-disputes",
+    "kind": "hyperlink",
+    "placement": "body",
+    "source_key": "https://npr.org/2019/06/03/729191928/u-s-farmers-hit-with-bad-weather-and-trade-disputes",
+    "host": "npr.org",
+    "target_article_id": null
+   },
+   {
+    "id": "r013",
+    "paragraph_id": "p25",
+    "char_start": 102,
+    "char_end": 113,
+    "label": "toward corn",
+    "href": "https://www.wsj.com/articles/tariffs-may-crown-corn-king-again-1540728000",
+    "kind": "hyperlink",
+    "placement": "body",
+    "source_key": "https://wsj.com/articles/tariffs-may-crown-corn-king-again-1540728000",
+    "host": "wsj.com",
+    "target_article_id": null
+   },
+   {
+    "id": "r014",
+    "paragraph_id": "p29",
+    "char_start": 52,
+    "char_end": 101,
+    "label": "impede investments in the pipeline infrastructure",
+    "href": "https://www.wsj.com/articles/bigger-oil-pipelines-are-coming-to-west-texas-to-ease-bottleneck-1532943030",
+    "kind": "hyperlink",
+    "placement": "body",
+    "source_key": "https://wsj.com/articles/bigger-oil-pipelines-are-coming-to-west-texas-to-ease-bottleneck-1532943030",
+    "host": "wsj.com",
+    "target_article_id": null
+   },
+   {
+    "id": "r015",
+    "paragraph_id": "p32",
+    "char_start": 25,
+    "char_end": 46,
+    "label": "Mercedes and BMW SUVs",
+    "href": "https://www.reuters.com/article/us-autoshow-detroit-germany/german-car-exports-to-china-from-u-s-fell-37-percent-in-2018-auto-association-idUSKCN1P81TK",
+    "kind": "hyperlink",
+    "placement": "body",
+    "source_key": "https://reuters.com/article/us-autoshow-detroit-germany/german-car-exports-to-china-from-u-s-fell-37-percent-in-2018-auto-association-iduskcn1p81tk",
+    "host": "reuters.com",
+    "target_article_id": null
+   },
+   {
+    "id": "r016",
+    "paragraph_id": "p32",
+    "char_start": 114,
+    "char_end": 121,
+    "label": "Alabama",
+    "href": "https://www.census.gov/foreign-trade/statistics/state/data/al.html",
+    "kind": "hyperlink",
+    "placement": "body",
+    "source_key": "https://census.gov/foreign-trade/statistics/state/data/al.html",
+    "host": "census.gov",
+    "target_article_id": null
+   },
+   {
+    "id": "r017",
+    "paragraph_id": "p32",
+    "char_start": 126,
+    "char_end": 140,
+    "label": "South Carolina",
+    "href": "https://www.census.gov/foreign-trade/statistics/state/data/sc.html",
+    "kind": "hyperlink",
+    "placement": "body",
+    "source_key": "https://census.gov/foreign-trade/statistics/state/data/sc.html",
+    "host": "census.gov",
+    "target_article_id": null
+   },
+   {
+    "id": "r018",
+    "paragraph_id": "p34",
+    "char_start": 37,
+    "char_end": 48,
+    "label": "toward SUVs",
+    "href": "https://www.cnbc.com/2018/11/01/fiat-chrysler-us-october-sales-rise-15point7percent.html",
+    "kind": "hyperlink",
+    "placement": "body",
+    "source_key": "https://cnbc.com/2018/11/01/fiat-chrysler-us-october-sales-rise-15point7percent.html",
+    "host": "cnbc.com",
+    "target_article_id": null
+   },
+   {
+    "id": "r019",
+    "paragraph_id": "p35",
+    "char_start": 47,
+    "char_end": 91,
+    "label": "BMW’s U.S. production was down a bit in 2018",
+    "href": "https://www.greenvilleonline.com/story/money/2018/12/21/why-bmw-production-down-second-straight-year-spartanburg-south-carolina-u-s-plant/2290597002/",
+    "kind": "hyperlink",
+    "placement": "body",
+    "source_key": "https://greenvilleonline.com/story/money/2018/12/21/why-bmw-production-down-second-straight-year-spartanburg-south-carolina-u-s-plant/2290597002",
+    "host": "greenvilleonline.com",
+    "target_article_id": null
+   },
+   {
+    "id": "r020",
+    "paragraph_id": "p36",
+    "char_start": 19,
+    "char_end": 72,
+    "label": "still planning to expand its output in South Carolina",
+    "href": "https://www.cnbc.com/2019/02/13/bmws-us-boss-slams-tariffs-as-us-factory-approaches-record-production.html",
+    "kind": "hyperlink",
+    "placement": "body",
+    "source_key": "https://cnbc.com/2019/02/13/bmws-us-boss-slams-tariffs-as-us-factory-approaches-record-production.html",
+    "host": "cnbc.com",
+    "target_article_id": null
+   },
+   {
+    "id": "r021",
+    "paragraph_id": "p36",
+    "char_start": 114,
+    "char_end": 149,
+    "label": "inside China for the Chinese market",
+    "href": "https://www.bloomberg.com/news/articles/2018-07-09/bmw-unveils-plan-to-boost-production-in-china-amid-trade-war",
+    "kind": "hyperlink",
+    "placement": "body",
+    "source_key": "https://bloomberg.com/news/articles/2018-07-09/bmw-unveils-plan-to-boost-production-in-china-amid-trade-war",
+    "host": "bloomberg.com",
+    "target_article_id": null
+   },
+   {
+    "id": "r022",
+    "paragraph_id": "p36",
+    "char_start": 287,
+    "char_end": 311,
+    "label": "order to build more SUVs",
+    "href": "https://www.autonews.com/sales/no-room-us-plant-mercedes-make-c-class",
+    "kind": "hyperlink",
+    "placement": "body",
+    "source_key": "https://autonews.com/sales/no-room-us-plant-mercedes-make-c-class",
+    "host": "autonews.com",
+    "target_article_id": null
+   },
+   {
+    "id": "r023",
+    "paragraph_id": "p43",
+    "char_start": 283,
+    "char_end": 317,
+    "label": "haven’t grown with China’s economy",
+    "href": "https://www.cfr.org/articles/china-should-import-more",
+    "kind": "hyperlink",
+    "placement": "footnote",
+    "source_key": "https://cfr.org/articles/china-should-import-more",
+    "host": "cfr.org",
+    "target_article_id": null
+   },
+   {
+    "id": "r024",
+    "paragraph_id": "p43",
+    "char_start": 527,
+    "char_end": 601,
+    "label": "U.S. construction equipment exports, and against U.S. switching equipment.",
+    "href": "https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/hostilecoexistence20190503.pdf",
+    "kind": "hyperlink",
+    "placement": "footnote",
+    "source_key": "https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/hostilecoexistence20190503.pdf",
+    "host": "fsi-live.s3.us-west-1.amazonaws.com",
+    "target_article_id": null
+   },
+   {
+    "id": "r025",
+    "paragraph_id": "p43",
+    "char_start": 844,
+    "char_end": 856,
+    "label": "end use data",
+    "href": "https://www.census.gov/foreign-trade/statistics/product/enduse/exports/c5700.html",
+    "kind": "hyperlink",
+    "placement": "footnote",
+    "source_key": "https://census.gov/foreign-trade/statistics/product/enduse/exports/c5700.html",
+    "host": "census.gov",
+    "target_article_id": null
+   },
+   {
+    "id": "r026",
+    "paragraph_id": "p43",
+    "char_start": 872,
+    "char_end": 878,
+    "label": "to use",
+    "href": "https://www.census.gov/foreign-trade/statistics/product/enduse/imports/c5700.html",
+    "kind": "hyperlink",
+    "placement": "footnote",
+    "source_key": "https://census.gov/foreign-trade/statistics/product/enduse/imports/c5700.html",
+    "host": "census.gov",
+    "target_article_id": null
+   }
+  ],
+  "metadata_extension": {
+   "field_sources": {
+    "title": "frontmatter",
+    "authors": "frontmatter",
+    "published_date": "frontmatter",
+    "url": "frontmatter",
+    "publisher": "frontmatter",
+    "series": "frontmatter"
+   },
+   "references_status": "preserved",
+   "links_hash": "sha256:6a1c97ff605e913f09fba749ac4770fbd1a17e338c8cd9892b7e1f33fa8978fe",
+   "subtitle": "China’s tariffs on U.S. commodities? A huge impact. Especially on bilateral trade. But also on global U.S. exports of soybeans. China’s tariffs on U.S. manufactures? By comparison, a relative modest impact.",
+   "published_at": "2019-06-14T21:15:22-04:00",
+   "programs": [
+    "Follow the Money"
+   ],
+   "source_tags": [
+    "China",
+    "Trade",
+    "United States",
+    "Agricultural Policy"
+   ],
+   "license": "CC BY-NC-ND 4.0",
+   "section": "Article",
+   "doc_type": "AnalysisNewsArticle",
+   "language": "en",
+   "word_count": 1762,
+   "date_modified": "2019-06-14",
+   "retrieved_at": "2026-10-15T20:05:34Z",
+   "page_sha256": "6841bab1c6c1dd7721b35fc8b8affed9f2b77eb7b30d7fc19a735d5873b7f0be",
+   "figures": [
+    {
+     "title": "U.S. Exports to China Commodities vs. Manufactures (NAICS Categories, T12M Sums, Indexed to End 2017)",
+     "src": "https://static.cfr.org/sites/default/files/styles/large_s/public/image/2019/06/U.S.%20Exports%20to%20China%20Commodities%20vs.%20Manufactures%20%28NAICS%20Categories%2C%20T12M%20Sums%2C%20Indexed%20to%20End%202017%29.png",
+     "after_paragraph": "p5"
+    },
+    {
+     "title": "U.S. Exports to China Commodities vs. Manufactures (NAICS Categories, T12M Sums, Change from End 2013)",
+     "src": "https://static.cfr.org/sites/default/files/styles/large_s/public/image/2019/06/U.S.%20Exports%20to%20China%20Commodities%20vs.%20Manufactures%20%28NAICS%20Categories%2C%20T12M%20Sums%2C%20Change%20from%20End%202013%29.png",
+     "after_paragraph": "p8"
+    },
+    {
+     "title": "U.S. Manufacturing Exports to China vs. Euro Area Total Exports to China (T3M Sums, YoY Change)",
+     "src": "https://static.cfr.org/sites/default/files/styles/large_s/public/image/2019/06/U.S.%20Manufacturing%20Exports%20to%20China%20vs.%20Euro%20Area%20Total%20Exports%20to%20China%20%28T3M%20Sums%2C%20YoY%20Change%29.png",
+     "after_paragraph": "p9"
+    },
+    {
+     "title": "U.S. Soybean and Grain Exports to China",
+     "src": "https://static.cfr.org/sites/default/files/styles/large_s/public/image/2019/06/U.S.%20Soybean%20and%20Grain%20Exports%20to%20China.png",
+     "after_paragraph": "p21"
+    },
+    {
+     "title": "U.S. Oilseeds and Grains Exports China vs. RoW (T12M Sums, 2015 Dollars)",
+     "src": "https://static.cfr.org/sites/default/files/styles/large_s/public/image/2019/06/U.S.%20Oilseeds%20and%20Grains%20Exports%20China%20vs.%20RoW%20%28T12M%20Sums%2C%202015%20Dollars%29_0.png",
+     "after_paragraph": "p26"
+    },
+    {
+     "title": "U.S. Oil and Gas Exports to China (Monthly Data, USD Millions)",
+     "src": "https://static.cfr.org/sites/default/files/styles/large_s/public/image/2019/06/U.S.%20Oil%20and%20Gas%20Exports%20to%20China%20%28Monthly%20Data%2C%20USD%20Millions%29.png",
+     "after_paragraph": "p27"
+    },
+    {
+     "title": "U.S. Oil and Gas Exports China vs. RoW (T12M Sums, 2015 Dollars)",
+     "src": "https://static.cfr.org/sites/default/files/styles/large_s/public/image/2019/06/U.S.%20Oil%20and%20Gas%20Exports%20China%20vs.%20RoW%20%28T12M%20Sums%2C%202015%20Dollars%29_0.png",
+     "after_paragraph": "p28"
+    },
+    {
+     "title": "U.S. Auto Exports to China (Monthly Data, USD Millions)",
+     "src": "https://static.cfr.org/sites/default/files/styles/large_s/public/image/2019/06/U.S.%20Auto%20Exports%20to%20China%20%28Monthly%20Data%2C%20USD%20Millions%29.png",
+     "after_paragraph": "p30"
+    }
+   ],
+   "source_record": "tale-two-tariffs-chinas-so-far-ineffective-tariffs-us-manufacturing-exports"
+  }
+ },
+ "annotation": {
+  "annotated_at": "2026-11-09T21:12:53+00:00",
+  "ontology": {
+   "id": "setser_argument",
+   "version": 2
+  },
+  "facets_version": 1,
+  "pipeline_version": "8d03103",
+  "status": "needs_review",
+  "runs": [
+   {
+    "run_id": "claude-opus-5.5_boxes",
+    "stage": "boxes",
+    "method": "llm",
+    "model": "anthropic/claude-opus-5.5",
+    "parameters": {
+     "max_tokens": 16000,
+     "reasoning_effort": "medium"
+    },
+    "timestamp": "2026-11-09T21:12:52+00:00",
+    "calls": 1,
+    "cost_usd": 0.11497
+   },
+   {
+    "run_id": "claude-opus-5.5_links",
+    "stage": "links",
+    "method": "llm",
+    "model": "anthropic/claude-opus-5.5",
+    "parameters": {
+     "max_tokens": 12000,
+     "reasoning_effort": "medium"
+    },
+    "timestamp": "2026-11-09T21:12:52+00:00",
+    "calls": 1,
+    "cost_usd": 0.04608
+   },
+   {
+    "run_id": "claude-opus-5.5_facets",
+    "stage": "facets",
+    "method": "llm",
+    "model": "anthropic/claude-opus-5.5",
+    "parameters": {
+     "max_tokens": 12000,
+     "reasoning_effort": "low"
+    },
+    "timestamp": "2026-11-09T21:12:53+00:00",
+    "calls": 1,
+    "cost_usd": 0.06028
+   }
+  ]
+ },
+ "summary": {
+  "central_question": "Why have China's retaliatory tariffs crushed U.S. commodity exports while barely denting U.S. manufacturing exports to China?",
+  "main_thesis": "China's retaliation has so far bitten mainly through commodities; its manufacturing tariffs have had modest effect, and bilateral trade declines should not be equated with overall trade or output losses.",
+  "argument_summary": null
+ },
+ "nodes": [
+  {
+   "id": "n001",
+   "legacy_id": "Q",
+   "role": "question",
+   "level": "L0",
+   "content": {
+    "text": "Why have China's retaliatory tariffs crushed U.S. commodity exports while barely denting U.S. manufacturing exports to China?",
+    "label": null,
+    "explicit": false,
+    "reason": "A puzzle arises when similar policy instruments produce very different effects across sectors."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p3",
+      "paragraph_sha256": "sha256:cf2b32816345982139f58801205383bce147649e1b73c9a928bbe3e747272804",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     },
+     {
+      "paragraph_id": "p5",
+      "paragraph_sha256": "sha256:e8824a40b363a9eb312636a2fb1defe6a6222c7029e44535a07f54f10a5af465",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     },
+     {
+      "paragraph_id": "p6",
+      "paragraph_sha256": "sha256:d55fb1ddd23aa73d0fe7618f50f026a754c98b5e502ed16a993fa2b035fd515d",
+      "relation": "states",
+      "link_method": "llm_citation",
+      "anchor_grade": "excerpt",
+      "review_status": "pending",
+      "source_excerpt": "One set of tariffs (on commodities) has had a very large impact: exports are down over 60 percent, and the fall isn't over",
+      "source_spans": [
+       {
+        "char_start": 0,
+        "char_end": 122
+       }
+      ]
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "export-volumes",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     },
+     {
+      "term": "bilateral-trade-flows",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [
+     {
+      "term": "us",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     },
+     {
+      "term": "china",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "counterpart"
+     }
+    ],
+    "bloc": [],
+    "instrument": [
+     {
+      "term": "retaliation",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "data_basis": []
+   },
+   "attributes": {},
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "n002",
+   "legacy_id": "P3",
+   "role": "revised_prior",
+   "level": "L1",
+   "content": {
+    "text": "The author expected a bigger fall in U.S. manufacturing exports to China and admits the modest decline surprised him.",
+    "label": null,
+    "explicit": true,
+    "reason": "An analyst should flag when outcomes contradict his own prior expectation."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p5",
+      "paragraph_sha256": "sha256:e8824a40b363a9eb312636a2fb1defe6a6222c7029e44535a07f54f10a5af465",
+      "relation": "states",
+      "link_method": "llm_citation",
+      "anchor_grade": "excerpt",
+      "review_status": "pending",
+      "source_excerpt": "Somewhat to my surprise to be honest.",
+      "source_spans": [
+       {
+        "char_start": 196,
+        "char_end": 233
+       }
+      ]
+     },
+     {
+      "paragraph_id": "p10",
+      "paragraph_sha256": "sha256:cf6d986974f3d7812f82901e41a9679e3e6949ccd87d3ed55f06e21a22bcb7c1",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "export-volumes",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     },
+     {
+      "term": "bilateral-trade-flows",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [
+     {
+      "term": "us",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     },
+     {
+      "term": "china",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "counterpart"
+     }
+    ],
+    "bloc": [],
+    "instrument": [
+     {
+      "term": "retaliation",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "data_basis": []
+   },
+   "attributes": {},
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": [
+     "links: `P3` motivates `M1` joins L1→L3, which no hand-drawn motivates link does"
+    ]
+   }
+  },
+  {
+   "id": "n003",
+   "legacy_id": "P1",
+   "role": "stated_assumption",
+   "level": "L1",
+   "content": {
+    "text": "Raising tariffs on a substantial share of goods should, after enough time, show up as a visible decline in those exports.",
+    "label": null,
+    "explicit": true,
+    "reason": "Tariffs raise prices to buyers and so should reduce the volume of tariffed imports over time."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p7",
+      "paragraph_sha256": "sha256:ed07caeafdf86d0ce79c42a4373b4df761e2b88f82b1af6189fe9bdbd929102b",
+      "relation": "states",
+      "link_method": "llm_citation",
+      "anchor_grade": "excerpt",
+      "review_status": "pending",
+      "source_excerpt": "it did put tariffs on a decent chunk of U.S. manufacturing exports (see Bown's figure 3). So there should be some impact",
+      "source_spans": [
+       {
+        "char_start": 381,
+        "char_end": 501
+       }
+      ]
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "export-volumes",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     },
+     {
+      "term": "trade-elasticity",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [],
+    "bloc": [],
+    "instrument": [
+     {
+      "term": "tariffs",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "data_basis": []
+   },
+   "attributes": {},
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": [
+     "facets: `setser_jun_14_19#P1` where_subject empty - every claim needs a country or a bloc (assignment.requires_one_of) - needs review"
+    ]
+   }
+  },
+  {
+   "id": "n004",
+   "legacy_id": "E3",
+   "role": "evidence_source",
+   "level": "L2",
+   "content": {
+    "text": "Chad Bown's work shows China tariffed 55% of U.S. exports, raised its effective tariff from 8% to 18%, left aircraft out, and refrained from re-raising auto tariffs.",
+    "label": null,
+    "explicit": true,
+    "reason": "Trade-policy trackers by specialist researchers provide the coverage of tariff actions."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p7",
+      "paragraph_sha256": "sha256:ed07caeafdf86d0ce79c42a4373b4df761e2b88f82b1af6189fe9bdbd929102b",
+      "relation": "states",
+      "link_method": "llm_citation",
+      "anchor_grade": "excerpt",
+      "review_status": "pending",
+      "source_excerpt": "China, per Chad Bown of the Peterson Institute, has only put tariffs on 55 percent of U.S. goods exports",
+      "source_spans": [
+       {
+        "char_start": 71,
+        "char_end": 175
+       }
+      ]
+     },
+     {
+      "paragraph_id": "p15",
+      "paragraph_sha256": "sha256:544cec7c901886c29398ea894640c112407cd166cadf23f13fab3a22eddaf3cd",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "tariff-rate",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [
+     {
+      "term": "china",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     },
+     {
+      "term": "us",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "counterpart"
+     }
+    ],
+    "bloc": [],
+    "instrument": [
+     {
+      "term": "retaliation",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "data_basis": [
+     {
+      "term": "academic-econometrics",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ]
+   },
+   "attributes": {},
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "n005",
+   "legacy_id": "E1",
+   "role": "evidence_data",
+   "level": "L2",
+   "content": {
+    "text": "Soybeans are ~10% of U.S. exports to China; commodity exports fell over 60% while manufacturing exports show no visible break, with only a somewhat larger U.S. than European drop last fall.",
+    "label": null,
+    "explicit": true,
+    "reason": "Trailing sums of sectoral export data reveal whether a policy shock leaves a visible break."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p2",
+      "paragraph_sha256": "sha256:9a37e582dfe7d29b1363f2bb940ba511d205f9978f76e3883ffac43bc11ab672",
+      "relation": "states",
+      "link_method": "llm_citation",
+      "anchor_grade": "excerpt",
+      "review_status": "pending",
+      "source_excerpt": "Soybeans traditionally have accounted for about 10 percent of total U.S. (goods) exports to China",
+      "source_spans": [
+       {
+        "char_start": 0,
+        "char_end": 97
+       }
+      ]
+     },
+     {
+      "paragraph_id": "p6",
+      "paragraph_sha256": "sha256:d55fb1ddd23aa73d0fe7618f50f026a754c98b5e502ed16a993fa2b035fd515d",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     },
+     {
+      "paragraph_id": "p8",
+      "paragraph_sha256": "sha256:dcd06b847857b419ad6fa86e16a4b859e63280e9df63a3f146c98818f7252f18",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     },
+     {
+      "paragraph_id": "p9",
+      "paragraph_sha256": "sha256:bfb8c15fdba0e33255863a02294dd61c63ca70b3da9b4c54952810548bcbef66",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     },
+     {
+      "paragraph_id": "p42",
+      "paragraph_sha256": "sha256:bc7a4b04c648ee7847a93bef2e08dc1acb1a4993096169ccf74356b6524d0f21",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "bilateral-trade-flows",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     },
+     {
+      "term": "export-volumes",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [
+     {
+      "term": "us",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     },
+     {
+      "term": "china",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "counterpart"
+     }
+    ],
+    "bloc": [],
+    "instrument": [
+     {
+      "term": "retaliation",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "data_basis": [
+     {
+      "term": "customs",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ]
+   },
+   "attributes": {},
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "n006",
+   "legacy_id": "C1",
+   "role": "intermediate_claim",
+   "level": "L4",
+   "content": {
+    "text": "Comparing U.S. manufacturing exports with euro area exports to China shows some tariff impact, though partly attributable to dollar strength.",
+    "label": null,
+    "explicit": true,
+    "reason": "A comparable peer's exports to the same market serve as a control for demand shocks."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p9",
+      "paragraph_sha256": "sha256:bfb8c15fdba0e33255863a02294dd61c63ca70b3da9b4c54952810548bcbef66",
+      "relation": "states",
+      "link_method": "llm_citation",
+      "anchor_grade": "excerpt",
+      "review_status": "pending",
+      "source_excerpt": "There was a bigger drop off in American exports to China than in European exports to China last fall",
+      "source_spans": [
+       {
+        "char_start": 142,
+        "char_end": 242
+       }
+      ]
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "bilateral-trade-flows",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     },
+     {
+      "term": "nominal-exchange-rate",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [
+     {
+      "term": "us",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     },
+     {
+      "term": "euro-area",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "counterpart"
+     }
+    ],
+    "bloc": [],
+    "instrument": [
+     {
+      "term": "retaliation",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "data_basis": [
+     {
+      "term": "customs",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ]
+   },
+   "attributes": {},
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "n007",
+   "legacy_id": "R1",
+   "role": "other_explanation",
+   "level": "L6",
+   "content": {
+    "text": "Part of the relative U.S. underperformance could reflect the dollar's appreciation rather than tariffs.",
+    "label": null,
+    "explicit": true,
+    "reason": "Exchange rate moves affect relative export performance with lags of years."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p9",
+      "paragraph_sha256": "sha256:bfb8c15fdba0e33255863a02294dd61c63ca70b3da9b4c54952810548bcbef66",
+      "relation": "states",
+      "link_method": "llm_citation",
+      "anchor_grade": "excerpt",
+      "review_status": "pending",
+      "source_excerpt": "though not one so big that it could not be, in part, a function of the dollar's strength relative to the euro",
+      "source_spans": [
+       {
+        "char_start": 244,
+        "char_end": 353
+       }
+      ]
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "nominal-exchange-rate",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     },
+     {
+      "term": "export-volumes",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [
+     {
+      "term": "us",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     }
+    ],
+    "bloc": [],
+    "instrument": [],
+    "data_basis": []
+   },
+   "attributes": {},
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "n008",
+   "legacy_id": "M1",
+   "role": "mechanism",
+   "level": "L3",
+   "content": {
+    "text": "China has held back from fully squeezing some sectors, such as autos, to keep targets in reserve for future escalation.",
+    "label": null,
+    "explicit": true,
+    "reason": "In repeated bargaining a party preserves leverage by not using all its retaliation at once."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p12",
+      "paragraph_sha256": "sha256:52c46bb626e89b54ee17d8f627a6441f9458ab332e3b816b4ac1cedb6231956d",
+      "relation": "states",
+      "link_method": "llm_citation",
+      "anchor_grade": "excerpt",
+      "review_status": "pending",
+      "source_excerpt": "China has exercised a bit of restraint, and held back on really restricting trade in some sectors to make sure it has targets to retaliate against",
+      "source_spans": [
+       {
+        "char_start": 5,
+        "char_end": 151
+       }
+      ]
+     },
+     {
+      "paragraph_id": "p15",
+      "paragraph_sha256": "sha256:544cec7c901886c29398ea894640c112407cd166cadf23f13fab3a22eddaf3cd",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "tariff-rate",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [
+     {
+      "term": "china",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     },
+     {
+      "term": "us",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "counterpart"
+     }
+    ],
+    "bloc": [],
+    "instrument": [
+     {
+      "term": "retaliation",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "data_basis": []
+   },
+   "attributes": {
+    "kind": "economic"
+   },
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": [
+     "links: `P3` motivates `M1` joins L1→L3, which no hand-drawn motivates link does"
+    ]
+   }
+  },
+  {
+   "id": "n009",
+   "legacy_id": "M2",
+   "role": "mechanism",
+   "level": "L3",
+   "content": {
+    "text": "China lacks good targets because many U.S. manufactured imports have no domestic substitute or feed China's own exports, so tariffs would hurt China.",
+    "label": null,
+    "explicit": true,
+    "reason": "Tariffs on non-substitutable or input goods mainly tax the importing country's own firms."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p13",
+      "paragraph_sha256": "sha256:7c110f8d9c3db3576bf200464a9a0ce08112971e74b5e9f793d693d5aef6ac00",
+      "relation": "states",
+      "link_method": "llm_citation",
+      "anchor_grade": "excerpt",
+      "review_status": "pending",
+      "source_excerpt": "China lacks good targets, as the bulk of its manufactured imports from the United States are in sectors where there isn't (for now) a domestic Chinese alternative",
+      "source_spans": [
+       {
+        "char_start": 5,
+        "char_end": 167
+       }
+      ]
+     },
+     {
+      "paragraph_id": "p14",
+      "paragraph_sha256": "sha256:ad5d672d37060f54b2d3b5835629da50f43011042073696d32856f056c863967",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "import-volumes",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     },
+     {
+      "term": "trade-elasticity",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [
+     {
+      "term": "china",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     },
+     {
+      "term": "us",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "counterpart"
+     }
+    ],
+    "bloc": [],
+    "instrument": [
+     {
+      "term": "retaliation",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "data_basis": []
+   },
+   "attributes": {
+    "kind": "economic"
+   },
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "n010",
+   "legacy_id": "M3",
+   "role": "mechanism",
+   "level": "L3",
+   "content": {
+    "text": "Industrial policy and high pre-existing tariffs already pushed U.S. exports out of sectors like construction equipment, removing them as targets.",
+    "label": null,
+    "explicit": true,
+    "reason": "A market already closed by import substitution offers little further room for retaliation."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p16",
+      "paragraph_sha256": "sha256:86e763e8f900fca49dfacffe76064a70d5178d0a37157eaf537e8ab441ab8cc2",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     },
+     {
+      "paragraph_id": "p17",
+      "paragraph_sha256": "sha256:e9967572d1ff03a64af2d46562c9e22c119200cb36c1eff20e9195b7cfc7870b",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     },
+     {
+      "paragraph_id": "p18",
+      "paragraph_sha256": "sha256:18a639843617073b5984c41a6c78b1a244b474b5ac9a2305d3b1eb8dd3583254",
+      "relation": "states",
+      "link_method": "llm_citation",
+      "anchor_grade": "excerpt",
+      "review_status": "pending",
+      "source_excerpt": "China's relatively high initial tariffs and its efforts to encourage \"indigenous\" production have already limited U.S. exports in some important sectors.",
+      "source_spans": [
+       {
+        "char_start": 186,
+        "char_end": 339
+       }
+      ]
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "bilateral-trade-flows",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     },
+     {
+      "term": "tariff-rate",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [
+     {
+      "term": "china",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     },
+     {
+      "term": "us",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "counterpart"
+     }
+    ],
+    "bloc": [],
+    "instrument": [
+     {
+      "term": "industrial-policy",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "data_basis": []
+   },
+   "attributes": {
+    "kind": "economic"
+   },
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": [
+     "links: `M3` rebuts `X` joins L3→L6, which no hand-drawn rebuts link does"
+    ]
+   }
+  },
+  {
+   "id": "n011",
+   "legacy_id": "E2",
+   "role": "evidence_data",
+   "level": "L2",
+   "content": {
+    "text": "U.S. construction equipment exports to China fell from about $2 billion in 2012 to $0.6-0.8 billion pre-trade war, and the U.S. runs deficits with China in construction and telecom equipment.",
+    "label": null,
+    "explicit": true,
+    "reason": "Sector-level export histories show whether a supposed target still exists."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p18",
+      "paragraph_sha256": "sha256:18a639843617073b5984c41a6c78b1a244b474b5ac9a2305d3b1eb8dd3583254",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     },
+     {
+      "paragraph_id": "p43",
+      "paragraph_sha256": "sha256:b087dd8baf8536f966e321fee729fdac03c2a0635c3b630d842564d0c0e2cee0",
+      "relation": "states",
+      "link_method": "llm_citation",
+      "anchor_grade": "excerpt",
+      "review_status": "pending",
+      "source_excerpt": "Exports of construction and agricultural equipment/ NAICS 3331 to China peaked at around $2 billion in 2012. They were running at between 0.6 and 0.8 billion a year before the trade war.",
+      "source_spans": [
+       {
+        "char_start": 3,
+        "char_end": 189
+       }
+      ]
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "bilateral-trade-flows",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     },
+     {
+      "term": "manufacturing-trade-balance",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [
+     {
+      "term": "us",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     },
+     {
+      "term": "china",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "counterpart"
+     }
+    ],
+    "bloc": [],
+    "instrument": [],
+    "data_basis": [
+     {
+      "term": "customs",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ]
+   },
+   "attributes": {},
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "n012",
+   "legacy_id": "X",
+   "role": "opposing_view",
+   "level": "L6",
+   "content": {
+    "text": "Commentators who assume China can easily retaliate against U.S. construction and switching equipment rely on an outdated picture of U.S. exports.",
+    "label": null,
+    "explicit": true,
+    "reason": "Claims about trade leverage must be checked against current trade composition."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p43",
+      "paragraph_sha256": "sha256:b087dd8baf8536f966e321fee729fdac03c2a0635c3b630d842564d0c0e2cee0",
+      "relation": "states",
+      "link_method": "llm_citation",
+      "anchor_grade": "excerpt",
+      "review_status": "pending",
+      "source_excerpt": "I am often a little frustrated by otherwise well informed commentators who have an out-of-date concept of what the U.S. exports to China.",
+      "source_spans": [
+       {
+        "char_start": 319,
+        "char_end": 456
+       }
+      ]
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "bilateral-trade-flows",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [
+     {
+      "term": "us",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     },
+     {
+      "term": "china",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "counterpart"
+     }
+    ],
+    "bloc": [],
+    "instrument": [
+     {
+      "term": "retaliation",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "data_basis": []
+   },
+   "attributes": {},
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": [
+     "links: `M3` rebuts `X` joins L3→L6, which no hand-drawn rebuts link does"
+    ]
+   }
+  },
+  {
+   "id": "n013",
+   "legacy_id": "M4",
+   "role": "mechanism",
+   "level": "L3",
+   "content": {
+    "text": "Soy exports to China went to zero, consistent with high trade elasticities found in many studies.",
+    "label": null,
+    "explicit": true,
+    "reason": "For homogeneous goods with many suppliers, demand is highly price-elastic to tariffs."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p21",
+      "paragraph_sha256": "sha256:b55549b38fd436dc01f157f5148d2bf44100c05aad2a6e3a49d8320c77587f5b",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     },
+     {
+      "paragraph_id": "p22",
+      "paragraph_sha256": "sha256:62117426aceeb771ed09ab23943c7d86618269b00bddc6d7f43a4e3bd8241000",
+      "relation": "states",
+      "link_method": "llm_citation",
+      "anchor_grade": "excerpt",
+      "review_status": "pending",
+      "source_excerpt": "With an elasticity of 4, a 25 percent tariff would be expected to zero out trade.",
+      "source_spans": [
+       {
+        "char_start": 77,
+        "char_end": 158
+       }
+      ]
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "trade-elasticity",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     },
+     {
+      "term": "bilateral-trade-flows",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [
+     {
+      "term": "us",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     },
+     {
+      "term": "china",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "counterpart"
+     }
+    ],
+    "bloc": [],
+    "instrument": [
+     {
+      "term": "retaliation",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "data_basis": [
+     {
+      "term": "academic-econometrics",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ]
+   },
+   "attributes": {
+    "kind": "economic"
+   },
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "n014",
+   "legacy_id": "R2",
+   "role": "other_explanation",
+   "level": "L6",
+   "content": {
+    "text": "The soy collapse may instead reflect state importers being directed not to buy U.S. beans, which cost them little given the discount.",
+    "label": null,
+    "explicit": true,
+    "reason": "Where state-owned firms dominate imports, political directives can substitute for price effects."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p1",
+      "paragraph_sha256": "sha256:3bd307bec775dbd792518ddcc4968215bfe6cd690e9f453ea0caf5abdbe2c824",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     },
+     {
+      "paragraph_id": "p23",
+      "paragraph_sha256": "sha256:97b34ba9a5925394b4b6d735bc34274f2e76a9c30fcbd739bc142ef594272453",
+      "relation": "states",
+      "link_method": "llm_citation",
+      "anchor_grade": "excerpt",
+      "review_status": "pending",
+      "source_excerpt": "But it is also consistent with a world where China's state importing companies were told not to buy American.",
+      "source_spans": [
+       {
+        "char_start": 0,
+        "char_end": 109
+       }
+      ]
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "bilateral-trade-flows",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [
+     {
+      "term": "china",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     },
+     {
+      "term": "us",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "counterpart"
+     }
+    ],
+    "bloc": [],
+    "instrument": [
+     {
+      "term": "purchase-commitments",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "data_basis": []
+   },
+   "attributes": {},
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "n015",
+   "legacy_id": "C2",
+   "role": "intermediate_claim",
+   "level": "L4",
+   "content": {
+    "text": "Soy losses to China were not offset elsewhere, so the tariff cut total U.S. soy exports and hurt farmers, with 2019 exports likely modest regardless of a deal.",
+    "label": null,
+    "explicit": true,
+    "reason": "When the targeted buyer is dominant, exporters cannot fully redirect sales to others."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p1",
+      "paragraph_sha256": "sha256:3bd307bec775dbd792518ddcc4968215bfe6cd690e9f453ea0caf5abdbe2c824",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     },
+     {
+      "paragraph_id": "p24",
+      "paragraph_sha256": "sha256:cc7d7f47056e5d2751d19422c3100b8790adffdfb4d586f1761e4fdcee7206cd",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     },
+     {
+      "paragraph_id": "p25",
+      "paragraph_sha256": "sha256:ce37e534350e4292a34d126e8119458ede09467f33e2fcf677852a45a9b7d2fe",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     },
+     {
+      "paragraph_id": "p26",
+      "paragraph_sha256": "sha256:81bc0e94550b2001f48dd95151c000eade2bc1336568666aefd359eb65e82cf4",
+      "relation": "states",
+      "link_method": "llm_citation",
+      "anchor_grade": "excerpt",
+      "review_status": "pending",
+      "source_excerpt": "The reduction in China's purchases of soybeans clearly hurt American farmers who weren't able to make up for the fall in Chinese demand",
+      "source_spans": [
+       {
+        "char_start": 0,
+        "char_end": 135
+       }
+      ]
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "export-volumes",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [
+     {
+      "term": "us",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     }
+    ],
+    "bloc": [],
+    "instrument": [
+     {
+      "term": "retaliation",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "data_basis": []
+   },
+   "attributes": {},
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "n016",
+   "legacy_id": "C3",
+   "role": "intermediate_claim",
+   "level": "L4",
+   "content": {
+    "text": "Oil exports to China fell to near zero but total U.S. oil exports and pipeline investment were unaffected because oil is easily redirected.",
+    "label": null,
+    "explicit": true,
+    "reason": "In a true global commodity market, a bilateral tariff diverts trade rather than reducing it."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p4",
+      "paragraph_sha256": "sha256:ca8b3b5d9c3fcc37a7f13b95eb710853e96e9b82e59e2f00a85e7b872d144c48",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     },
+     {
+      "paragraph_id": "p27",
+      "paragraph_sha256": "sha256:304bf36b8076807d2b0178ce6c85cc99807ad2cc4a2458279c4a385709cc3c0b",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     },
+     {
+      "paragraph_id": "p28",
+      "paragraph_sha256": "sha256:750fe52c0c366e4c08c0f7d9ba7fbde2d995f0609e08622105b4ee086505898c",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     },
+     {
+      "paragraph_id": "p29",
+      "paragraph_sha256": "sha256:3187838bc89ab6ca965833a75773acf14bfd7f0f3947f7cf348fa9b690531070",
+      "relation": "states",
+      "link_method": "llm_citation",
+      "anchor_grade": "excerpt",
+      "review_status": "pending",
+      "source_excerpt": "The tariffs diverted bilateral trade in oil away from China without impacting overall trade.",
+      "source_spans": [
+       {
+        "char_start": 139,
+        "char_end": 231
+       }
+      ]
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "export-volumes",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     },
+     {
+      "term": "investment-capex",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [
+     {
+      "term": "us",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     }
+    ],
+    "bloc": [],
+    "instrument": [
+     {
+      "term": "retaliation",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "data_basis": []
+   },
+   "attributes": {},
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "n017",
+   "legacy_id": "C4",
+   "role": "intermediate_claim",
+   "level": "L4",
+   "content": {
+    "text": "Auto exports to China fell then rebounded, and BMW and Mercedes appear to have offset lost China sales with rising U.S. SUV demand, leaving production plans largely intact.",
+    "label": null,
+    "explicit": true,
+    "reason": "Producers can absorb a lost export market by reallocating output to growing domestic demand."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p30",
+      "paragraph_sha256": "sha256:603cefef21cea5730e283256ca833ae6bea09bb08fd9ec914550de364a700006",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     },
+     {
+      "paragraph_id": "p31",
+      "paragraph_sha256": "sha256:55cdf72b699dbebc688041d72db38a0106227482a8b7af8f0b0427b663821dfd",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     },
+     {
+      "paragraph_id": "p32",
+      "paragraph_sha256": "sha256:b67dba26c4d49f4c7d89328f58f682c0fad4d8581d1e6c37fb62e28aa13e044b",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     },
+     {
+      "paragraph_id": "p33",
+      "paragraph_sha256": "sha256:ad2a875718486ca5be138a56fa3d416251d125a1b8912526e7cb3af93d1e3b7a",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     },
+     {
+      "paragraph_id": "p34",
+      "paragraph_sha256": "sha256:586a64f72ce5a6bc79a3b01c3ed69d293b361b800ac1bfdc81e1415e443ce773",
+      "relation": "states",
+      "link_method": "llm_citation",
+      "anchor_grade": "excerpt",
+      "review_status": "pending",
+      "source_excerpt": "it is possible that Mercedes and BMW were effectively able to offset their reduced exports to China by producing more for the U.S. market.",
+      "source_spans": [
+       {
+        "char_start": 53,
+        "char_end": 191
+       }
+      ]
+     },
+     {
+      "paragraph_id": "p35",
+      "paragraph_sha256": "sha256:085acd1b79927d9bf7645ed940139d049abeee58e408241be1fcdcca36842d1e",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     },
+     {
+      "paragraph_id": "p36",
+      "paragraph_sha256": "sha256:08b1e2d3d70c3427374a88ca929f100c18a5a69ed96bde2abab1ebc8fb81f65d",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "export-volumes",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     },
+     {
+      "term": "manufacturing-output",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [
+     {
+      "term": "us",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     },
+     {
+      "term": "china",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "counterpart"
+     }
+    ],
+    "bloc": [],
+    "instrument": [
+     {
+      "term": "retaliation",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "data_basis": [
+     {
+      "term": "corporate-disclosure",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ]
+   },
+   "attributes": {},
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": [
+     "passages: `C4`: the team's passage linker anchors it to p15 (shared: bmw mercedes), which the box does not cite",
+     "passages: `C4`: the team's passage linker anchors it to p37 (shared: bmw suv), which the box does not cite"
+    ]
+   }
+  },
+  {
+   "id": "n018",
+   "legacy_id": "QF",
+   "role": "caveat",
+   "level": "L6",
+   "content": {
+    "text": "U.S. auto exports to China would likely fall anyway as German firms localize production in China, making the tariff effect hard to isolate.",
+    "label": null,
+    "explicit": true,
+    "reason": "Structural trends can mimic policy effects, complicating causal attribution."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p37",
+      "paragraph_sha256": "sha256:5c71e1a34e57e6f558a59e3243b6afb4c9701fd406ce8898226b16c71a670f74",
+      "relation": "states",
+      "link_method": "llm_citation",
+      "anchor_grade": "excerpt",
+      "review_status": "pending",
+      "source_excerpt": "The counterfactual here is hard.",
+      "source_spans": [
+       {
+        "char_start": 0,
+        "char_end": 32
+       }
+      ]
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "bilateral-trade-flows",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [
+     {
+      "term": "us",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     },
+     {
+      "term": "china",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "counterpart"
+     }
+    ],
+    "bloc": [],
+    "instrument": [],
+    "data_basis": []
+   },
+   "attributes": {},
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "n019",
+   "legacy_id": "P2",
+   "role": "hidden_assumption",
+   "level": "L1",
+   "content": {
+    "text": "Firms and exporters that lose one market can find alternative buyers or uses, so bilateral losses need not translate into aggregate losses.",
+    "label": null,
+    "explicit": false,
+    "reason": "Markets reallocate goods across buyers when one buyer withdraws, if substitutes exist."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p20",
+      "paragraph_sha256": "sha256:7936f13fbad9d0eaeb4c7b48f65e6bf84cada37302680d30a23a8898855a273c",
+      "relation": "presupposes",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     },
+     {
+      "paragraph_id": "p29",
+      "paragraph_sha256": "sha256:3187838bc89ab6ca965833a75773acf14bfd7f0f3947f7cf348fa9b690531070",
+      "relation": "presupposes",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     },
+     {
+      "paragraph_id": "p34",
+      "paragraph_sha256": "sha256:586a64f72ce5a6bc79a3b01c3ed69d293b361b800ac1bfdc81e1415e443ce773",
+      "relation": "presupposes",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     },
+     {
+      "paragraph_id": "p39",
+      "paragraph_sha256": "sha256:02c4cff39197bc46c5549ff217fcc5b5a77ab9dba0c75eb35fa3d0aecb26378d",
+      "relation": "presupposes",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "bilateral-trade-flows",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     },
+     {
+      "term": "export-volumes",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [],
+    "bloc": [],
+    "instrument": [],
+    "data_basis": []
+   },
+   "attributes": {},
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": [
+     "facets: `setser_jun_14_19#P2` where_subject empty - every claim needs a country or a bloc (assignment.requires_one_of) - needs review"
+    ]
+   }
+  },
+  {
+   "id": "n020",
+   "legacy_id": "K",
+   "role": "main_claim",
+   "level": "L5",
+   "content": {
+    "text": "China's retaliation has so far bitten mainly through commodities; its manufacturing tariffs have had modest effect, and bilateral trade declines should not be equated with overall trade or output losses.",
+    "label": null,
+    "explicit": true,
+    "reason": "The aggregate impact of a tariff depends on how easily the affected sector can redirect its sales."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p38",
+      "paragraph_sha256": "sha256:8260fa985ec5bf1b6d9502d53ac53fb2288395c6866847a0b1734635767447b5",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     },
+     {
+      "paragraph_id": "p39",
+      "paragraph_sha256": "sha256:02c4cff39197bc46c5549ff217fcc5b5a77ab9dba0c75eb35fa3d0aecb26378d",
+      "relation": "states",
+      "link_method": "llm_citation",
+      "anchor_grade": "excerpt",
+      "review_status": "pending",
+      "source_excerpt": "Don't equate changes in bilateral trade with changes in overall trade, or changes in total output. A lot depends on the sector.",
+      "source_spans": [
+       {
+        "char_start": 0,
+        "char_end": 127
+       }
+      ]
+     },
+     {
+      "paragraph_id": "p40",
+      "paragraph_sha256": "sha256:16a6dbbbb008a322948c59d1a47f373cdfe2c7bd6fc03cb8ee380f3b68ab0079",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "bilateral-trade-flows",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     },
+     {
+      "term": "export-volumes",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [
+     {
+      "term": "us",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     },
+     {
+      "term": "china",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "counterpart"
+     }
+    ],
+    "bloc": [],
+    "instrument": [
+     {
+      "term": "retaliation",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "data_basis": []
+   },
+   "attributes": {
+    "claim_type": "single"
+   },
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "n021",
+   "legacy_id": "QF2",
+   "role": "caveat",
+   "level": "L6",
+   "content": {
+    "text": "The modest manufacturing elasticity may partly reflect untariffed goods in the aggregate, since he did not disaggregate tariffed from untariffed products.",
+    "label": null,
+    "explicit": true,
+    "reason": "Aggregates mixing treated and untreated goods understate the effect on the treated."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p7",
+      "paragraph_sha256": "sha256:ed07caeafdf86d0ce79c42a4373b4df761e2b88f82b1af6189fe9bdbd929102b",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     },
+     {
+      "paragraph_id": "p40",
+      "paragraph_sha256": "sha256:16a6dbbbb008a322948c59d1a47f373cdfe2c7bd6fc03cb8ee380f3b68ab0079",
+      "relation": "states",
+      "link_method": "llm_citation",
+      "anchor_grade": "excerpt",
+      "review_status": "pending",
+      "source_excerpt": "but I haven't tried to disaggregate manufactures into those actually tariffed by China and those that have escaped so far",
+      "source_spans": [
+       {
+        "char_start": 244,
+        "char_end": 365
+       }
+      ]
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "trade-elasticity",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [
+     {
+      "term": "us",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     },
+     {
+      "term": "china",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "counterpart"
+     }
+    ],
+    "bloc": [],
+    "instrument": [
+     {
+      "term": "tariffs",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "data_basis": [
+     {
+      "term": "customs",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ]
+   },
+   "attributes": {},
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "n022",
+   "legacy_id": "DF",
+   "role": "deferred_question",
+   "level": "L6",
+   "content": {
+    "text": "The overall impact of China's retaliation on the U.S. economy remains an open question.",
+    "label": null,
+    "explicit": true,
+    "reason": "Early data on trade shocks warrant provisional conclusions."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p41",
+      "paragraph_sha256": "sha256:0664e5fd9af4ece779ca77bad0baf1a1e91aa9ea5f3f8a26f25e143593be8922",
+      "relation": "states",
+      "link_method": "llm_citation",
+      "anchor_grade": "excerpt",
+      "review_status": "pending",
+      "source_excerpt": "the debate on the overall impact of China's retaliation on the U.S. economy is sure to continue",
+      "source_spans": [
+       {
+        "char_start": 11,
+        "char_end": 106
+       }
+      ]
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "gdp-growth",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [
+     {
+      "term": "us",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     }
+    ],
+    "bloc": [],
+    "instrument": [
+     {
+      "term": "retaliation",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "data_basis": []
+   },
+   "attributes": {},
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "n023",
+   "legacy_id": "REC",
+   "role": "recommendation",
+   "level": "L5",
+   "content": {
+    "text": "Commentators should consult end-use trade data before assessing retaliation targets.",
+    "label": null,
+    "explicit": true,
+    "reason": "Detailed product-level data should ground claims about trade leverage."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p43",
+      "paragraph_sha256": "sha256:b087dd8baf8536f966e321fee729fdac03c2a0635c3b630d842564d0c0e2cee0",
+      "relation": "states",
+      "link_method": "llm_citation",
+      "anchor_grade": "excerpt",
+      "review_status": "pending",
+      "source_excerpt": "Do look at the end use data, which is easy to use",
+      "source_spans": [
+       {
+        "char_start": 829,
+        "char_end": 878
+       }
+      ]
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "bilateral-trade-flows",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [
+     {
+      "term": "us",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     },
+     {
+      "term": "china",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "counterpart"
+     }
+    ],
+    "bloc": [],
+    "instrument": [
+     {
+      "term": "retaliation",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "data_basis": [
+     {
+      "term": "customs",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ]
+   },
+   "attributes": {},
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  }
+ ],
+ "edges": [
+  {
+   "id": "e001",
+   "from": "n001",
+   "to": "n003",
+   "relation": "frames",
+   "sign": 0,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e002",
+   "from": "n001",
+   "to": "n019",
+   "relation": "frames",
+   "sign": 0,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e003",
+   "from": "n002",
+   "to": "n003",
+   "relation": "revises",
+   "sign": -1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e004",
+   "from": "n003",
+   "to": "n005",
+   "relation": "frames",
+   "sign": 0,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e005",
+   "from": "n003",
+   "to": "n004",
+   "relation": "frames",
+   "sign": 0,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e006",
+   "from": "n005",
+   "to": "n006",
+   "relation": "supports",
+   "sign": 1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e007",
+   "from": "n006",
+   "to": "n007",
+   "relation": "qualified_by",
+   "sign": -1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e008",
+   "from": "n004",
+   "to": "n008",
+   "relation": "supports",
+   "sign": 1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e009",
+   "from": "n004",
+   "to": "n009",
+   "relation": "supports",
+   "sign": 1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e010",
+   "from": "n011",
+   "to": "n010",
+   "relation": "supports",
+   "sign": 1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e011",
+   "from": "n008",
+   "to": "n020",
+   "relation": "supports",
+   "sign": 1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e012",
+   "from": "n009",
+   "to": "n020",
+   "relation": "supports",
+   "sign": 1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e013",
+   "from": "n010",
+   "to": "n020",
+   "relation": "supports",
+   "sign": 1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e014",
+   "from": "n010",
+   "to": "n012",
+   "relation": "rebuts",
+   "sign": -1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": [
+     "`M3` rebuts `X` joins L3→L6, which no hand-drawn rebuts link does"
+    ]
+   }
+  },
+  {
+   "id": "e015",
+   "from": "n005",
+   "to": "n013",
+   "relation": "supports",
+   "sign": 1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e016",
+   "from": "n013",
+   "to": "n014",
+   "relation": "undercut_by",
+   "sign": -1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e017",
+   "from": "n013",
+   "to": "n015",
+   "relation": "supports",
+   "sign": 1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e018",
+   "from": "n019",
+   "to": "n016",
+   "relation": "licenses",
+   "sign": 1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e019",
+   "from": "n019",
+   "to": "n017",
+   "relation": "licenses",
+   "sign": 1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e020",
+   "from": "n015",
+   "to": "n020",
+   "relation": "supports",
+   "sign": 1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e021",
+   "from": "n016",
+   "to": "n020",
+   "relation": "supports",
+   "sign": 1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e022",
+   "from": "n017",
+   "to": "n020",
+   "relation": "supports",
+   "sign": 1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e023",
+   "from": "n006",
+   "to": "n020",
+   "relation": "supports",
+   "sign": 1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e024",
+   "from": "n017",
+   "to": "n018",
+   "relation": "qualified_by",
+   "sign": -1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e025",
+   "from": "n020",
+   "to": "n021",
+   "relation": "qualified_by",
+   "sign": -1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e026",
+   "from": "n020",
+   "to": "n022",
+   "relation": "defers",
+   "sign": 0,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e027",
+   "from": "n011",
+   "to": "n023",
+   "relation": "supports",
+   "sign": 1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e028",
+   "from": "n023",
+   "to": "n012",
+   "relation": "rebuts",
+   "sign": -1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e029",
+   "from": "n002",
+   "to": "n008",
+   "relation": "motivates",
+   "sign": 1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": [
+     "`P3` motivates `M1` joins L1→L3, which no hand-drawn motivates link does"
+    ]
+   }
+  }
+ ],
+ "validation": {
+  "status": "needs_review",
+  "checks": [
+   "boxes: 23, fix rounds 0, re-asks 0, gaps left none",
+   "links: 29, fix rounds 0, re-asks 0, gaps left none, dropped none",
+   "passage linker agreement: {'anchored': 10, 'anchored_cited': 8, 'candidate': 18, 'candidate_cited': 14}"
+  ],
+  "review_items": [
+   "links: `M3` rebuts `X` joins L3→L6, which no hand-drawn rebuts link does",
+   "links: `P3` motivates `M1` joins L1→L3, which no hand-drawn motivates link does",
+   "facets: `setser_jun_14_19#P1` where_subject empty - every claim needs a country or a bloc (assignment.requires_one_of) - needs review",
+   "facets: `setser_jun_14_19#P2` where_subject empty - every claim needs a country or a bloc (assignment.requires_one_of) - needs review",
+   "passages: `C4`: the team's passage linker anchors it to p15 (shared: bmw mercedes), which the box does not cite",
+   "passages: `C4`: the team's passage linker anchors it to p37 (shared: bmw suv), which the box does not cite"
+  ]
+ },
+ "extensions": {}
+}

@@ -1,0 +1,2395 @@
+{
+ "schema_version": "0.1-draft",
+ "article": {
+  "id": "setser_2025-11-12_china-surplus-imf",
+  "title": "China’s Massive Surplus is Everywhere (Yet The IMF Still Has Trouble Seeing It Clearly)",
+  "authors": [
+   "Brad W. Setser"
+  ],
+  "published_date": "2025-11-12",
+  "url": "https://www.cfr.org/articles/chinas-massive-surplus-everywhere-yet-imf-still-has-trouble-seeing-it-clearly",
+  "publisher": "Council on Foreign Relations",
+  "series": "Follow the Money",
+  "source_text": {
+   "path": "internal/extracted/2025-11-12_chinas-massive-surplus-everywhere-yet-imf-still-has-trouble-seeing-it-clearly.md",
+   "paragraph_count": 32,
+   "content_hash": "sha256:11b0f2c06a29abf0b1026476008c4a7a77112086be7ea1c6e07c502ce75e3114",
+   "revision": 2
+  },
+  "references": [
+   {
+    "id": "r001",
+    "paragraph_id": "p3",
+    "char_start": 143,
+    "char_end": 176,
+    "label": "its new fleet of car transporters",
+    "href": "https://www.nytimes.com/2024/02/12/business/byd-china-electric-vehicle.html",
+    "kind": "hyperlink",
+    "placement": "body",
+    "source_key": "https://nytimes.com/2024/02/12/business/byd-china-electric-vehicle.html",
+    "host": "nytimes.com",
+    "target_article_id": null
+   },
+   {
+    "id": "r002",
+    "paragraph_id": "p3",
+    "char_start": 289,
+    "char_end": 306,
+    "label": "five million cars",
+    "href": "https://www.ft.com/content/1f218a59-421e-4932-8b5b-7ff5be7057b1?syn-25a6b1a6=1",
+    "kind": "hyperlink",
+    "placement": "body",
+    "source_key": "https://ft.com/content/1f218a59-421e-4932-8b5b-7ff5be7057b1",
+    "host": "ft.com",
+    "target_article_id": null
+   },
+   {
+    "id": "r003",
+    "paragraph_id": "p12",
+    "char_start": 278,
+    "char_end": 356,
+    "label": "The ECB says this ultimately stems from a shortfall in China’s domestic demand",
+    "href": "https://www.ecb.europa.eu/press/economic-bulletin/focus/2025/html/ecb.ebbox202507_01~83b0e7edd4.en.html",
+    "kind": "hyperlink",
+    "placement": "body",
+    "source_key": "https://ecb.europa.eu/press/economic-bulletin/focus/2025/html/ecb.ebbox202507_01~83b0e7edd4.en.html",
+    "host": "ecb.europa.eu",
+    "target_article_id": null
+   },
+   {
+    "id": "r004",
+    "paragraph_id": "p13",
+    "char_start": 106,
+    "char_end": 155,
+    "label": "imbalances a central focus of the next G-7 summit",
+    "href": "https://www.bloomberg.com/news/articles/2025-11-12/macron-has-floated-idea-of-a-g-7-invite-for-xi-jinping-next-year",
+    "kind": "hyperlink",
+    "placement": "body",
+    "source_key": "https://bloomberg.com/news/articles/2025-11-12/macron-has-floated-idea-of-a-g-7-invite-for-xi-jinping-next-year",
+    "host": "bloomberg.com",
+    "target_article_id": null
+   },
+   {
+    "id": "r005",
+    "paragraph_id": "p13",
+    "char_start": 288,
+    "char_end": 313,
+    "label": "Germany’s industrial base",
+    "href": "https://www.ft.com/content/239eed1b-a268-42ec-861e-fc3047f47c32",
+    "kind": "hyperlink",
+    "placement": "body",
+    "source_key": "https://ft.com/content/239eed1b-a268-42ec-861e-fc3047f47c32",
+    "host": "ft.com",
+    "target_article_id": null
+   },
+   {
+    "id": "r006",
+    "paragraph_id": "p14",
+    "char_start": 142,
+    "char_end": 230,
+    "label": "IMF has struggled to clearly identify China’s outsized contribution to global imbalances",
+    "href": "https://www.cfr.org/articles/better-late-never-imf-starts-recognizes-balance-payments-reality",
+    "kind": "hyperlink",
+    "placement": "body",
+    "source_key": "https://cfr.org/articles/better-late-never-imf-starts-recognizes-balance-payments-reality",
+    "host": "cfr.org",
+    "target_article_id": null
+   },
+   {
+    "id": "r007",
+    "paragraph_id": "p14",
+    "char_start": 328,
+    "char_end": 386,
+    "label": "its assessment of the size of external payments imbalances",
+    "href": "https://www.imf.org/en/publications/esr/issues/2025/07/22/external-sector-report-2025",
+    "kind": "hyperlink",
+    "placement": "body",
+    "source_key": "https://imf.org/en/publications/esr/issues/2025/07/22/external-sector-report-2025",
+    "host": "imf.org",
+    "target_article_id": null
+   },
+   {
+    "id": "r008",
+    "paragraph_id": "p15",
+    "char_start": 154,
+    "char_end": 206,
+    "label": "the IMF claim that China now has an excess imbalance",
+    "href": "https://www.imf.org/en/blogs/articles/2025/07/22/global-current-account-balances-widen-reversing-narrowing-trend",
+    "kind": "hyperlink",
+    "placement": "body",
+    "source_key": "https://imf.org/en/blogs/articles/2025/07/22/global-current-account-balances-widen-reversing-narrowing-trend",
+    "host": "imf.org",
+    "target_article_id": null
+   },
+   {
+    "id": "r009",
+    "paragraph_id": "p15",
+    "char_start": 483,
+    "char_end": 494,
+    "label": "October WEO",
+    "href": "https://www.imf.org/en/publications/weo/issues/2025/10/14/world-economic-outlook-october-2025",
+    "kind": "hyperlink",
+    "placement": "body",
+    "source_key": "https://imf.org/en/publications/weo/issues/2025/10/14/world-economic-outlook-october-2025",
+    "host": "imf.org",
+    "target_article_id": null
+   },
+   {
+    "id": "r010",
+    "paragraph_id": "p18",
+    "char_start": 59,
+    "char_end": 80,
+    "label": "the 2024 staff report",
+    "href": "https://www.imf.org/en/publications/cr/issues/2024/08/01/peoples-republic-of-china-2024-article-iv-consultation-press-release-staff-report-and-552803",
+    "kind": "hyperlink",
+    "placement": "body",
+    "source_key": "https://imf.org/en/publications/cr/issues/2024/08/01/peoples-republic-of-china-2024-article-iv-consultation-press-release-staff-report-and-552803",
+    "host": "imf.org",
+    "target_article_id": null
+   },
+   {
+    "id": "r011",
+    "paragraph_id": "p20",
+    "char_start": 200,
+    "char_end": 243,
+    "label": "the strong central government balance sheet",
+    "href": "https://www.cfr.org/articles/beijing-still-has-fiscal-space",
+    "kind": "hyperlink",
+    "placement": "body",
+    "source_key": "https://cfr.org/articles/beijing-still-has-fiscal-space",
+    "host": "cfr.org",
+    "target_article_id": null
+   },
+   {
+    "id": "r012",
+    "paragraph_id": "p20",
+    "char_start": 248,
+    "char_end": 264,
+    "label": "limited net debt",
+    "href": "https://www.imf.org/en/publications/wp/issues/2023/08/02/fiscal-policy-and-the-government-balance-sheet-in-china-536273",
+    "kind": "hyperlink",
+    "placement": "body",
+    "source_key": "https://imf.org/en/publications/wp/issues/2023/08/02/fiscal-policy-and-the-government-balance-sheet-in-china-536273",
+    "host": "imf.org",
+    "target_article_id": null
+   },
+   {
+    "id": "r013",
+    "paragraph_id": "p24",
+    "char_start": 12,
+    "char_end": 64,
+    "label": "mis-measured and understated current account surplus",
+    "href": "https://www.cfr.org/articles/iphone-imf-and-chinas-balance-payments",
+    "kind": "hyperlink",
+    "placement": "body",
+    "source_key": "https://cfr.org/articles/iphone-imf-and-chinas-balance-payments",
+    "host": "cfr.org",
+    "target_article_id": null
+   },
+   {
+    "id": "r014",
+    "paragraph_id": "p26",
+    "char_start": 39,
+    "char_end": 95,
+    "label": "Europe’s market share in a host of manufacturing sectors",
+    "href": "https://www.ft.com/content/239eed1b-a268-42ec-861e-fc3047f47c32",
+    "kind": "hyperlink",
+    "placement": "body",
+    "source_key": "https://ft.com/content/239eed1b-a268-42ec-861e-fc3047f47c32",
+    "host": "ft.com",
+    "target_article_id": null
+   },
+   {
+    "id": "r015",
+    "paragraph_id": "p27",
+    "char_start": 355,
+    "char_end": 396,
+    "label": "another percentage points off the surplus",
+    "href": "https://www.cfr.org/articles/chinese-state-investors-do-not-seem-profit-higher-us-interest-rates",
+    "kind": "hyperlink",
+    "placement": "body",
+    "source_key": "https://cfr.org/articles/chinese-state-investors-do-not-seem-profit-higher-us-interest-rates",
+    "host": "cfr.org",
+    "target_article_id": null
+   },
+   {
+    "id": "r016",
+    "paragraph_id": "p31",
+    "char_start": 770,
+    "char_end": 793,
+    "label": "the box in the 2024 ESR",
+    "href": "https://www.cfr.org/articles/imfs-latest-external-sector-report-misses-mark",
+    "kind": "hyperlink",
+    "placement": "footnote",
+    "source_key": "https://cfr.org/articles/imfs-latest-external-sector-report-misses-mark",
+    "host": "cfr.org",
+    "target_article_id": null
+   },
+   {
+    "id": "r017",
+    "paragraph_id": "p32",
+    "char_start": 230,
+    "char_end": 247,
+    "label": "Microsoft reports",
+    "href": "https://www.microsoft.com/en-us/investor/sec-filings",
+    "kind": "hyperlink",
+    "placement": "footnote",
+    "source_key": "https://microsoft.com/en-us/investor/sec-filings",
+    "host": "microsoft.com",
+    "target_article_id": null
+   }
+  ],
+  "metadata_extension": {
+   "field_sources": {
+    "title": "frontmatter",
+    "authors": "frontmatter",
+    "published_date": "frontmatter",
+    "url": "frontmatter",
+    "publisher": "frontmatter",
+    "series": "frontmatter"
+   },
+   "references_status": "preserved",
+   "links_hash": "sha256:a0b33c128f32d86ae42d8471260b967a6a419c965ab5ed9b9540d5eeea23fd51",
+   "subtitle": "China’s reported current account surplus understates China’s contribution to global trade imbalances. The massive gap between China’s export and import volume growth over the last six years tells a more accurate story.",
+   "published_at": "2025-11-12T15:34:29-05:00",
+   "programs": [
+    "Follow the Money",
+    "Greenberg Center for Geoeconomics"
+   ],
+   "source_tags": [
+    "China",
+    "Trade"
+   ],
+   "license": "CC BY-NC-ND 4.0",
+   "section": "Article",
+   "doc_type": "AnalysisNewsArticle",
+   "language": "en",
+   "word_count": 1660,
+   "date_modified": "2025-11-12",
+   "retrieved_at": "2026-10-05T23:13:21Z",
+   "page_sha256": "90f8d3d476d07c6783591cb861dcbca570b00b7e0f6c2f15c83f177824d912f3",
+   "figures": [
+    {
+     "title": "CHina Mfg Balance",
+     "src": "https://static.cfr.org/sites/default/files/styles/large_s/public/image/2025/11/CHina%20Mfg%20Balance.png",
+     "after_paragraph": "p1"
+    },
+    {
+     "title": "CHina autos trade",
+     "src": "https://static.cfr.org/sites/default/files/styles/large_s/public/image/2025/11/CHina%20autos%20trade.png",
+     "after_paragraph": "p2"
+    },
+    {
+     "title": "china export vol growth",
+     "src": "https://static.cfr.org/sites/default/files/styles/large_s/public/image/2025/11/china%20export%20vol%20growth.png",
+     "after_paragraph": "p4"
+    },
+    {
+     "title": "CHina pct increase since 2019",
+     "src": "https://static.cfr.org/sites/default/files/styles/large_s/public/image/2025/11/CHina%20pct%20increase%20since%202019.png",
+     "after_paragraph": "p5"
+    },
+    {
+     "title": "Growth Contribution CA Goods",
+     "src": "https://static.cfr.org/sites/default/files/styles/large_s/public/image/2025/12/Growth%20Contribution%20CA%20Goods_0.png",
+     "after_paragraph": "p6"
+    },
+    {
+     "title": "quarterly china gdp manufac",
+     "src": "https://static.cfr.org/sites/default/files/styles/large_s/public/image/2025/11/quarterly%20china%20gdp%20manufac.png",
+     "after_paragraph": "p7"
+    },
+    {
+     "title": "Picture1",
+     "src": "https://static.cfr.org/sites/default/files/styles/large_s/public/image/2025/11/Picture1.png",
+     "after_paragraph": "p8"
+    },
+    {
+     "title": "Customs Goods Trade",
+     "src": "https://static.cfr.org/sites/default/files/styles/large_s/public/image/2025/11/Customs%20Goods%20Trade.png",
+     "after_paragraph": "p10"
+    },
+    {
+     "title": "Exp Vols Dutch",
+     "src": "https://static.cfr.org/sites/default/files/styles/large_s/public/image/2025/11/Exp%20Vols%20Dutch.png",
+     "after_paragraph": "p11"
+    },
+    {
+     "title": "Global Imbalance",
+     "src": "https://static.cfr.org/sites/default/files/styles/large_s/public/image/2025/11/Global%20Imbalance.png",
+     "after_paragraph": "p12"
+    },
+    {
+     "title": "Customs",
+     "src": "https://static.cfr.org/sites/default/files/styles/large_s/public/image/2025/11/Customs.png",
+     "after_paragraph": "p25"
+    }
+   ],
+   "source_record": "chinas-massive-surplus-everywhere-yet-imf-still-has-trouble-seeing-it-clearly"
+  }
+ },
+ "annotation": {
+  "annotated_at": "2026-11-09T21:12:05+00:00",
+  "ontology": {
+   "id": "setser_argument",
+   "version": 2
+  },
+  "facets_version": 1,
+  "pipeline_version": "8d03103",
+  "status": "needs_review",
+  "runs": [
+   {
+    "run_id": "claude-opus-5.5_boxes",
+    "stage": "boxes",
+    "method": "llm",
+    "model": "anthropic/claude-opus-5.5",
+    "parameters": {
+     "max_tokens": 16000,
+     "reasoning_effort": "medium"
+    },
+    "timestamp": "2026-11-09T21:12:05+00:00",
+    "calls": 1,
+    "cost_usd": 0.09492
+   },
+   {
+    "run_id": "claude-opus-5.5_links",
+    "stage": "links",
+    "method": "llm",
+    "model": "anthropic/claude-opus-5.5",
+    "parameters": {
+     "max_tokens": 12000,
+     "reasoning_effort": "medium"
+    },
+    "timestamp": "2026-11-09T21:12:05+00:00",
+    "calls": 1,
+    "cost_usd": 0.0393
+   },
+   {
+    "run_id": "claude-opus-5.5_facets",
+    "stage": "facets",
+    "method": "llm",
+    "model": "anthropic/claude-opus-5.5",
+    "parameters": {
+     "max_tokens": 12000,
+     "reasoning_effort": "low"
+    },
+    "timestamp": "2026-11-09T21:12:05+00:00",
+    "calls": 1,
+    "cost_usd": 0.05199
+   }
+  ]
+ },
+ "summary": {
+  "central_question": "Why does the IMF fail to see China's huge surplus, and what does that miss cost in its policy advice?",
+  "main_thesis": "China's understated surplus leads the IMF to underplay China's role in global imbalances and to give it wrong policy advice; attention should be on China.",
+  "argument_summary": null
+ },
+ "nodes": [
+  {
+   "id": "n001",
+   "legacy_id": "Q",
+   "role": "question",
+   "level": "L0",
+   "content": {
+    "text": "Why does the IMF fail to see China's huge surplus, and what does that miss cost in its policy advice?",
+    "label": null,
+    "explicit": false,
+    "reason": "When direct evidence and an institution's headline measure disagree, ask why the measure misses it."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p1",
+      "paragraph_sha256": "sha256:9247587ff10cde2ceaa7290d10da0b39c329ee387275f8433039ef0805e4e949",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     },
+     {
+      "paragraph_id": "p14",
+      "paragraph_sha256": "sha256:0494a91bd3cd860aa9c8d0aaacb02c1b0f76aef4fd7478458e4d1166c3b0c467",
+      "relation": "states",
+      "link_method": "llm_citation",
+      "anchor_grade": "excerpt",
+      "review_status": "pending",
+      "source_excerpt": "the IMF has struggled to clearly identify China's outsized contribution to global imbalances.",
+      "source_spans": [
+       {
+        "char_start": 138,
+        "char_end": 231
+       }
+      ]
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "current-account",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     },
+     {
+      "term": "global-imbalances",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [
+     {
+      "term": "china",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     }
+    ],
+    "bloc": [],
+    "instrument": [],
+    "data_basis": [
+     {
+      "term": "imf-publications",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ]
+   },
+   "attributes": {},
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": [
+     "links: `Q` frames `SCP` joins L0→L1B, which no hand-drawn frames link does"
+    ]
+   }
+  },
+  {
+   "id": "n002",
+   "legacy_id": "SCP",
+   "role": "scope_choice",
+   "level": "L1B",
+   "content": {
+    "text": "The IMF judges imbalances solely on reported current account balances.",
+    "label": null,
+    "explicit": true,
+    "reason": "Which statistic an assessment relies on determines what imbalances it can see."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p14",
+      "paragraph_sha256": "sha256:0494a91bd3cd860aa9c8d0aaacb02c1b0f76aef4fd7478458e4d1166c3b0c467",
+      "relation": "states",
+      "link_method": "llm_citation",
+      "anchor_grade": "excerpt",
+      "review_status": "pending",
+      "source_excerpt": "That is IMF relies exclusively on countries' reported current account surpluses and deficits in its assessment of the size of external payments imbalances.",
+      "source_spans": [
+       {
+        "char_start": 232,
+        "char_end": 387
+       }
+      ]
+     },
+     {
+      "paragraph_id": "p16",
+      "paragraph_sha256": "sha256:93cde05cbae650cbb079bdda40b6c8091581fdb7624ab4623adc6486fa4be5ea",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "current-account",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [],
+    "bloc": [
+     {
+      "term": "global",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     }
+    ],
+    "instrument": [],
+    "data_basis": [
+     {
+      "term": "imf-publications",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     },
+     {
+      "term": "balance-of-payments",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ]
+   },
+   "attributes": {},
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": [
+     "links: `Q` frames `SCP` joins L0→L1B, which no hand-drawn frames link does"
+    ]
+   }
+  },
+  {
+   "id": "n003",
+   "legacy_id": "E1",
+   "role": "evidence_data",
+   "level": "L2",
+   "content": {
+    "text": "China's car exports above 6 million, export volumes up 40% against imports up 1%, a manufactured goods surplus above $2 trillion (10.5% of GDP) and a customs goods surplus of $1.2 trillion all show a massive surplus.",
+    "label": null,
+    "explicit": true,
+    "reason": "Physical trade volumes and customs flows show the scale of an external imbalance directly."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p2",
+      "paragraph_sha256": "sha256:7ed3ea331f901d63e8b14f8e3a590d587cc0584e0082e45f13561b1117e63ae6",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     },
+     {
+      "paragraph_id": "p3",
+      "paragraph_sha256": "sha256:b72ebb7e5401866d38151f31a7a8566d8183e628e12a6b33d524feb4b6153f61",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     },
+     {
+      "paragraph_id": "p4",
+      "paragraph_sha256": "sha256:7300e3008fbfc023cfcd6004ddcdbe392f092e6f85bbcffd829ce3743cbf5d46",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     },
+     {
+      "paragraph_id": "p5",
+      "paragraph_sha256": "sha256:2fdb4fc82875182a35fe1cefe5975b35bd0c51cdd9a2e9ff18f37dce00f25e3a",
+      "relation": "states",
+      "link_method": "llm_citation",
+      "anchor_grade": "excerpt",
+      "review_status": "pending",
+      "source_excerpt": "China's exports are up a cumulative 40 percent in volume terms since the end of 2019, while imports in volume terms are up only 1 percent.",
+      "source_spans": [
+       {
+        "char_start": 48,
+        "char_end": 186
+       }
+      ]
+     },
+     {
+      "paragraph_id": "p6",
+      "paragraph_sha256": "sha256:84d4f2270b44c0e19d3a1c040239f0d7916a2bec5419b78198a6cf5c380e76a2",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     },
+     {
+      "paragraph_id": "p7",
+      "paragraph_sha256": "sha256:437beaad620c9e7e5f05f72ec4bb2a22b0c4e09f4d84ccb7219a323d0e5be958",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     },
+     {
+      "paragraph_id": "p8",
+      "paragraph_sha256": "sha256:62ce217d9bcc677f6317f3704efac883f6c4479b0a5716ef4b0c02be79224bfb",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     },
+     {
+      "paragraph_id": "p9",
+      "paragraph_sha256": "sha256:54a6513529c6652a14fc71636a7fd653086d39f5a2c2391cf4f8cd03c91319b4",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "export-volumes",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     },
+     {
+      "term": "manufacturing-trade-balance",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     },
+     {
+      "term": "goods-trade-balance",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [
+     {
+      "term": "china",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     }
+    ],
+    "bloc": [],
+    "instrument": [],
+    "data_basis": [
+     {
+      "term": "customs",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ]
+   },
+   "attributes": {},
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "n004",
+   "legacy_id": "C1",
+   "role": "intermediate_claim",
+   "level": "L4",
+   "content": {
+    "text": "Net exports have contributed more than a percentage point a year to China's growth, which does not fit its GDP data.",
+    "label": null,
+    "explicit": true,
+    "reason": "Export share times the gap between export and import growth gives the growth contribution of net exports."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p6",
+      "paragraph_sha256": "sha256:84d4f2270b44c0e19d3a1c040239f0d7916a2bec5419b78198a6cf5c380e76a2",
+      "relation": "states",
+      "link_method": "llm_citation",
+      "anchor_grade": "excerpt",
+      "review_status": "pending",
+      "source_excerpt": "exports were 17 percent of GDP at the start of this boom, so the math here is simple",
+      "source_spans": [
+       {
+        "char_start": 133,
+        "char_end": 217
+       }
+      ]
+     },
+     {
+      "paragraph_id": "p30",
+      "paragraph_sha256": "sha256:6ebfbfd828fe7cdf44bb45a87f563ab05255161b91d565740952ad8e708add12",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "gdp-growth",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [
+     {
+      "term": "china",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     }
+    ],
+    "bloc": [],
+    "instrument": [],
+    "data_basis": [
+     {
+      "term": "national-accounts",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ]
+   },
+   "attributes": {},
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "n005",
+   "legacy_id": "E3",
+   "role": "evidence_source",
+   "level": "L2",
+   "content": {
+    "text": "CPB data show China's export volumes outpacing global trade while Europe's shrink.",
+    "label": null,
+    "explicit": true,
+    "reason": "An independent trade volume dataset can confirm a shift in market share."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p11",
+      "paragraph_sha256": "sha256:bae75ae36260dbd117b600aad5a764a83b835d021ddd8b72d940263c76a27ef4",
+      "relation": "states",
+      "link_method": "llm_citation",
+      "anchor_grade": "excerpt",
+      "review_status": "pending",
+      "source_excerpt": "The Dutch CPB data set on export volumes shows China's export volume growth lapping global trade",
+      "source_spans": [
+       {
+        "char_start": 0,
+        "char_end": 96
+       }
+      ]
+     },
+     {
+      "paragraph_id": "p26",
+      "paragraph_sha256": "sha256:f552330d61fdcf52e0f35da7af88809f194953bc9b82961e549ffa38ce946d38",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "export-volumes",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [
+     {
+      "term": "china",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     },
+     {
+      "term": "euro-area",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "counterpart"
+     }
+    ],
+    "bloc": [],
+    "instrument": [],
+    "data_basis": [
+     {
+      "term": "third-party-trackers",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ]
+   },
+   "attributes": {},
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "n006",
+   "legacy_id": "M1",
+   "role": "mechanism",
+   "level": "L3",
+   "content": {
+    "text": "Weak Chinese domestic demand frees spare capacity for export, and the low rates and weak currency it brings push the surplus up further.",
+    "label": null,
+    "explicit": true,
+    "reason": "Weak domestic demand plus monetary easing and a weak currency raise net exports."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p12",
+      "paragraph_sha256": "sha256:9f28a8c24e5938e8f29a104d807912297686adc47cb41ebbe0f19f1ce7e0df16",
+      "relation": "states",
+      "link_method": "llm_citation",
+      "anchor_grade": "excerpt",
+      "review_status": "pending",
+      "source_excerpt": "The ECB says this ultimately stems from a shortfall in China's domestic demand, which makes sense.",
+      "source_spans": [
+       {
+        "char_start": 278,
+        "char_end": 376
+       }
+      ]
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "domestic-demand",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     },
+     {
+      "term": "manufacturing-output",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     },
+     {
+      "term": "nominal-exchange-rate",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [
+     {
+      "term": "china",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     }
+    ],
+    "bloc": [],
+    "instrument": [],
+    "data_basis": []
+   },
+   "attributes": {
+    "kind": "economic"
+   },
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "n007",
+   "legacy_id": "C2",
+   "role": "intermediate_claim",
+   "level": "L4",
+   "content": {
+    "text": "Global imbalances are back and large, and China's export-led growth points to wider imbalances and more trade tension.",
+    "label": null,
+    "explicit": true,
+    "reason": "Growth that relies on net exports in a large economy widens global imbalances."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p12",
+      "paragraph_sha256": "sha256:9f28a8c24e5938e8f29a104d807912297686adc47cb41ebbe0f19f1ce7e0df16",
+      "relation": "states",
+      "link_method": "llm_citation",
+      "anchor_grade": "excerpt",
+      "review_status": "pending",
+      "source_excerpt": "There consequently should be no doubt that global payments imbalances have returned, and are now quite large.",
+      "source_spans": [
+       {
+        "char_start": 0,
+        "char_end": 109
+       }
+      ]
+     },
+     {
+      "paragraph_id": "p13",
+      "paragraph_sha256": "sha256:41682469e06d2c24203734a3eac55bbe3d53372887d031a8940a31e29bd89910",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "global-imbalances",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [],
+    "bloc": [
+     {
+      "term": "global",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     }
+    ],
+    "instrument": [],
+    "data_basis": []
+   },
+   "attributes": {},
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "n008",
+   "legacy_id": "E2",
+   "role": "evidence_data",
+   "level": "L2",
+   "content": {
+    "text": "China's reported current account surplus, at 2.2% of GDP, is only slightly above its norm and smaller as a share of GDP than those of Japan, Korea, Germany or the EU.",
+    "label": null,
+    "explicit": true,
+    "reason": "Measured on the official headline number, an imbalance can look ordinary."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p15",
+      "paragraph_sha256": "sha256:1b635f29de133f12bed2b1728d821ad3d5636fa00e6b1506774d116021832259",
+      "relation": "states",
+      "link_method": "llm_citation",
+      "anchor_grade": "excerpt",
+      "review_status": "pending",
+      "source_excerpt": "China's reported current account surplus rose to $420 billion in 2024... It reached 2.2 percent of China's GDP",
+      "source_spans": [
+       {
+        "char_start": 6,
+        "char_end": 75
+       },
+       {
+        "char_start": 97,
+        "char_end": 134
+       }
+      ]
+     },
+     {
+      "paragraph_id": "p16",
+      "paragraph_sha256": "sha256:93cde05cbae650cbb079bdda40b6c8091581fdb7624ab4623adc6486fa4be5ea",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     },
+     {
+      "paragraph_id": "p17",
+      "paragraph_sha256": "sha256:180de365e08398903906175c9ce4bba0e87fa0e4e648002d807316b73ea814b3",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "current-account",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [
+     {
+      "term": "china",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     }
+    ],
+    "bloc": [],
+    "instrument": [],
+    "data_basis": [
+     {
+      "term": "imf-publications",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ]
+   },
+   "attributes": {},
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "n009",
+   "legacy_id": "M2",
+   "role": "mechanism",
+   "level": "L3",
+   "content": {
+    "text": "A methodology change in China's balance of payments and an unexplained investment income deficit despite large net foreign assets deflate the reported current account.",
+    "label": null,
+    "explicit": true,
+    "reason": "Methodology changes and unexplained income items can artificially shrink a reported balance."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p24",
+      "paragraph_sha256": "sha256:334c8aeca15b0b69fc2058e0e458584dc8915c0204cdafb0d528ab730d756ba6",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     },
+     {
+      "paragraph_id": "p27",
+      "paragraph_sha256": "sha256:90dfcc5539066b81dd639441b8a98be451688cbd4754cef992e35ed97d08a482",
+      "relation": "states",
+      "link_method": "llm_citation",
+      "anchor_grade": "excerpt",
+      "review_status": "pending",
+      "source_excerpt": "its 2022 balance of payments methodology magically cut the goods surplus by over a percentage point of GDP, and the mysterious income deficit",
+      "source_spans": [
+       {
+        "char_start": 119,
+        "char_end": 260
+       }
+      ]
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "current-account",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     },
+     {
+      "term": "investment-income-balance",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [
+     {
+      "term": "china",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     }
+    ],
+    "bloc": [],
+    "instrument": [],
+    "data_basis": [
+     {
+      "term": "balance-of-payments",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ]
+   },
+   "attributes": {
+    "kind": "distortion"
+   },
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "n010",
+   "legacy_id": "SC",
+   "role": "source_credibility",
+   "level": "L1",
+   "content": {
+    "text": "China's official data cannot be verified and deserve less trust than observable shipping flows.",
+    "label": null,
+    "explicit": true,
+    "reason": "Discount statistics from a producer whose numbers cannot be independently replicated."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p29",
+      "paragraph_sha256": "sha256:e125c3b1366b61e6437a0c27cce306d46a1c3712166859d56b07ae482bcb4131",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     },
+     {
+      "paragraph_id": "p30",
+      "paragraph_sha256": "sha256:6ebfbfd828fe7cdf44bb45a87f563ab05255161b91d565740952ad8e708add12",
+      "relation": "states",
+      "link_method": "llm_citation",
+      "anchor_grade": "excerpt",
+      "review_status": "pending",
+      "source_excerpt": "China still doesn't produce detailed quarterly GDP data at any level, a major data shortfall.",
+      "source_spans": [
+       {
+        "char_start": 2,
+        "char_end": 95
+       }
+      ]
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "goods-trade-balance",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [
+     {
+      "term": "china",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     }
+    ],
+    "bloc": [],
+    "instrument": [],
+    "data_basis": [
+     {
+      "term": "balance-of-payments",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     },
+     {
+      "term": "mirror-statistics",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ]
+   },
+   "attributes": {},
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "n011",
+   "legacy_id": "P2",
+   "role": "hidden_assumption",
+   "level": "L1",
+   "content": {
+    "text": "Customs trade data measure a country's true external imbalance better than balance of payments current account data.",
+    "label": null,
+    "explicit": false,
+    "reason": "Directly observed transaction data beat heavily adjusted aggregates."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p25",
+      "paragraph_sha256": "sha256:54641fe5a10f330c684f0f02db446e41d04143d57296da20a52cdc7966665f0b",
+      "relation": "presupposes",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     },
+     {
+      "paragraph_id": "p27",
+      "paragraph_sha256": "sha256:90dfcc5539066b81dd639441b8a98be451688cbd4754cef992e35ed97d08a482",
+      "relation": "presupposes",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     },
+     {
+      "paragraph_id": "p29",
+      "paragraph_sha256": "sha256:e125c3b1366b61e6437a0c27cce306d46a1c3712166859d56b07ae482bcb4131",
+      "relation": "presupposes",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "goods-trade-balance",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     },
+     {
+      "term": "current-account",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [],
+    "bloc": [],
+    "instrument": [],
+    "data_basis": [
+     {
+      "term": "customs",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     },
+     {
+      "term": "balance-of-payments",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ]
+   },
+   "attributes": {},
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": [
+     "facets: `setser_2025-11-12_china-surplus-imf#P2` where_subject empty - every claim needs a country or a bloc (assignment.requires_one_of) - needs review"
+    ]
+   }
+  },
+  {
+   "id": "n012",
+   "legacy_id": "ANOM",
+   "role": "anomaly",
+   "level": "L0",
+   "content": {
+    "text": "The IMF forecast China's 2025 surplus to fall to $375 billion, yet it will top $650 billion through Q3.",
+    "label": null,
+    "explicit": true,
+    "reason": "A forecast badly beaten by outcomes signals a flawed model."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p15",
+      "paragraph_sha256": "sha256:1b635f29de133f12bed2b1728d821ad3d5636fa00e6b1506774d116021832259",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     },
+     {
+      "paragraph_id": "p31",
+      "paragraph_sha256": "sha256:9af667e12ac348a14f5640d72b2ddb1de615fad04fcb4fa2c3903b2a947a3ec1",
+      "relation": "states",
+      "link_method": "llm_citation",
+      "anchor_grade": "excerpt",
+      "review_status": "pending",
+      "source_excerpt": "The IMF's current account forecasts for China have consistently been off",
+      "source_spans": [
+       {
+        "char_start": 3,
+        "char_end": 75
+       }
+      ]
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "current-account",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [
+     {
+      "term": "china",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     }
+    ],
+    "bloc": [],
+    "instrument": [],
+    "data_basis": [
+     {
+      "term": "imf-publications",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ]
+   },
+   "attributes": {},
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": [
+     "links: `P1` supports `ANOM` joins L1→L0, which no hand-drawn supports link does",
+     "links: `ANOM` supports `K` joins L0→L5, which no hand-drawn supports link does"
+    ]
+   }
+  },
+  {
+   "id": "n013",
+   "legacy_id": "P1",
+   "role": "stated_assumption",
+   "level": "L1",
+   "content": {
+    "text": "Exchange rate moves affect trade with a lag, and a property downturn raises the external surplus.",
+    "label": null,
+    "explicit": true,
+    "reason": "Currency depreciation raises the trade balance with a multi-year lag."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p31",
+      "paragraph_sha256": "sha256:9af667e12ac348a14f5640d72b2ddb1de615fad04fcb4fa2c3903b2a947a3ec1",
+      "relation": "states",
+      "link_method": "llm_citation",
+      "anchor_grade": "excerpt",
+      "review_status": "pending",
+      "source_excerpt": "China's currency has fallen further, which also should raise the surplus with a lag.",
+      "source_spans": [
+       {
+        "char_start": 807,
+        "char_end": 891
+       }
+      ]
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "nominal-exchange-rate",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     },
+     {
+      "term": "current-account",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [],
+    "bloc": [],
+    "instrument": [],
+    "data_basis": []
+   },
+   "attributes": {},
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": [
+     "links: `P1` supports `ANOM` joins L1→L0, which no hand-drawn supports link does",
+     "facets: `setser_2025-11-12_china-surplus-imf#P1` where_subject empty - every claim needs a country or a bloc (assignment.requires_one_of) - needs review"
+    ]
+   }
+  },
+  {
+   "id": "n014",
+   "legacy_id": "C3",
+   "role": "intermediate_claim",
+   "level": "L4",
+   "content": {
+    "text": "Because the surplus looks small, the IMF treats China's problem as purely internal and recommends monetary easing, which weakens the currency and raises the surplus.",
+    "label": null,
+    "explicit": true,
+    "reason": "Monetary easing in a surplus economy weakens the currency and widens the surplus."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p18",
+      "paragraph_sha256": "sha256:0a05da588c57be2c0274e87e9e411545b2ec0f35ce2793736a2d6bcc7fcb3099",
+      "relation": "states",
+      "link_method": "llm_citation",
+      "anchor_grade": "excerpt",
+      "review_status": "pending",
+      "source_excerpt": "it has allowed the IMF to define China's problem as one of lack of internal balance",
+      "source_spans": [
+       {
+        "char_start": 390,
+        "char_end": 473
+       }
+      ]
+     },
+     {
+      "paragraph_id": "p19",
+      "paragraph_sha256": "sha256:be700e69225b75d281b42385cff76b2d8946723da89512c80295a0976148afbe",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     },
+     {
+      "paragraph_id": "p21",
+      "paragraph_sha256": "sha256:e6ed0840fa491c86cb6edf0c87be77def68cf09b46ba569ebd972cffae52f32e",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "nominal-exchange-rate",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     },
+     {
+      "term": "current-account",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [
+     {
+      "term": "china",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     }
+    ],
+    "bloc": [],
+    "instrument": [
+     {
+      "term": "monetary-policy",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "data_basis": [
+     {
+      "term": "imf-publications",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ]
+   },
+   "attributes": {},
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": [
+     "links: `C3` motivates `REC` joins L4→L5, which no hand-drawn motivates link does"
+    ]
+   }
+  },
+  {
+   "id": "n015",
+   "legacy_id": "REC",
+   "role": "recommendation",
+   "level": "L5",
+   "content": {
+    "text": "The IMF should call for a centrally funded fiscal expansion, including a bigger social safety net, in China.",
+    "label": null,
+    "explicit": true,
+    "reason": "Deflation together with a rising surplus calls for fiscal expansion, not easing."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p20",
+      "paragraph_sha256": "sha256:ce8629564db0e336328b62a9514d6af9e39e5fbfac08b0f9e95a1cd8a32bb27d",
+      "relation": "states",
+      "link_method": "llm_citation",
+      "anchor_grade": "excerpt",
+      "review_status": "pending",
+      "source_excerpt": "The right response to a shortfall in demand that is leading to deflation and a rising trade surplus, though, is a sustained fiscal expansion",
+      "source_spans": [
+       {
+        "char_start": 0,
+        "char_end": 140
+       }
+      ]
+     },
+     {
+      "paragraph_id": "p22",
+      "paragraph_sha256": "sha256:54c0199afbe886ec0ec8bd8c817666fa36b40e018ab4e59d01c62fe8019b6976",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     },
+     {
+      "paragraph_id": "p23",
+      "paragraph_sha256": "sha256:ddc907896483b91f921b003b1b07af9a6cde103f03988b78dc99e38b4b073056",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "fiscal-balance",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     },
+     {
+      "term": "household-consumption-share",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [
+     {
+      "term": "china",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     }
+    ],
+    "bloc": [],
+    "instrument": [
+     {
+      "term": "fiscal-policy",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     },
+     {
+      "term": "structural-reform",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "data_basis": []
+   },
+   "attributes": {},
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": [
+     "links: `C3` motivates `REC` joins L4→L5, which no hand-drawn motivates link does"
+    ]
+   }
+  },
+  {
+   "id": "n016",
+   "legacy_id": "X",
+   "role": "opposing_view",
+   "level": "L6",
+   "content": {
+    "text": "The view that Europe's surplus is nearly as large, so China deserves no special focus.",
+    "label": null,
+    "explicit": true,
+    "reason": "Rival claims should be tested against the best-measured data."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p24",
+      "paragraph_sha256": "sha256:334c8aeca15b0b69fc2058e0e458584dc8915c0204cdafb0d528ab730d756ba6",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     },
+     {
+      "paragraph_id": "p25",
+      "paragraph_sha256": "sha256:54641fe5a10f330c684f0f02db446e41d04143d57296da20a52cdc7966665f0b",
+      "relation": "states",
+      "link_method": "llm_citation",
+      "anchor_grade": "excerpt",
+      "review_status": "pending",
+      "source_excerpt": "Europe's surplus is almost as big and thus a focus on China isn't really warranted.",
+      "source_spans": [
+       {
+        "char_start": 46,
+        "char_end": 129
+       }
+      ]
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "current-account",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [
+     {
+      "term": "euro-area",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     },
+     {
+      "term": "china",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "counterpart"
+     }
+    ],
+    "bloc": [],
+    "instrument": [],
+    "data_basis": []
+   },
+   "attributes": {},
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "n017",
+   "legacy_id": "M3",
+   "role": "mechanism",
+   "level": "L3",
+   "content": {
+    "text": "Ireland's tax-driven surplus and its FDI income deficit, including Microsoft's Irish profits, distort the euro area figures.",
+    "label": null,
+    "explicit": true,
+    "reason": "Multinational profit shifting inflates the goods balance of a tax haven and hides its region's income balance."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p10",
+      "paragraph_sha256": "sha256:87c29f1af129766480f92b25e004f3237cfc84592517c2820b35c3e37bc4703c",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     },
+     {
+      "paragraph_id": "p25",
+      "paragraph_sha256": "sha256:54641fe5a10f330c684f0f02db446e41d04143d57296da20a52cdc7966665f0b",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     },
+     {
+      "paragraph_id": "p32",
+      "paragraph_sha256": "sha256:97b6a3c01a6cc7b98f9190d98d688c62f05470f653479ab9688ded8d6b962313",
+      "relation": "states",
+      "link_method": "llm_citation",
+      "anchor_grade": "excerpt",
+      "review_status": "pending",
+      "source_excerpt": "Its 15 percent of GDP current account surplus adds about half a point to the euro area's aggregate surplus.",
+      "source_spans": [
+       {
+        "char_start": 47,
+        "char_end": 154
+       }
+      ]
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "current-account",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     },
+     {
+      "term": "investment-income-balance",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [
+     {
+      "term": "ireland",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     },
+     {
+      "term": "euro-area",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     }
+    ],
+    "bloc": [],
+    "instrument": [],
+    "data_basis": [
+     {
+      "term": "balance-of-payments",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ]
+   },
+   "attributes": {
+    "kind": "distortion"
+   },
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": [
+     "boxes: `M3` the name `irish` does not occur in the article"
+    ]
+   }
+  },
+  {
+   "id": "n018",
+   "legacy_id": "QF",
+   "role": "caveat",
+   "level": "L6",
+   "content": {
+    "text": "To be fair, the IMF does support pro-consumption reforms and bank recapitalization.",
+    "label": null,
+    "explicit": true,
+    "reason": "Acknowledge where the criticised party partly agrees."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p23",
+      "paragraph_sha256": "sha256:ddc907896483b91f921b003b1b07af9a6cde103f03988b78dc99e38b4b073056",
+      "relation": "states",
+      "link_method": "llm_citation",
+      "anchor_grade": "excerpt",
+      "review_status": "pending",
+      "source_excerpt": "the IMF does want pro-consumption structural reforms",
+      "source_spans": [
+       {
+        "char_start": 230,
+        "char_end": 282
+       }
+      ]
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "household-consumption-share",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [
+     {
+      "term": "china",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     }
+    ],
+    "bloc": [],
+    "instrument": [
+     {
+      "term": "structural-reform",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "data_basis": [
+     {
+      "term": "imf-publications",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ]
+   },
+   "attributes": {},
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "n019",
+   "legacy_id": "K",
+   "role": "main_claim",
+   "level": "L5",
+   "content": {
+    "text": "China's understated surplus leads the IMF to underplay China's role in global imbalances and to give it wrong policy advice; attention should be on China.",
+    "label": null,
+    "explicit": true,
+    "reason": "Mismeasured statistics lead to misdirected policy."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p24",
+      "paragraph_sha256": "sha256:334c8aeca15b0b69fc2058e0e458584dc8915c0204cdafb0d528ab730d756ba6",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     },
+     {
+      "paragraph_id": "p28",
+      "paragraph_sha256": "sha256:73120e325a92839588b353d06577f255a6dc8d1976da09da17e328aa14065ddf",
+      "relation": "states",
+      "link_method": "llm_citation",
+      "anchor_grade": "excerpt",
+      "review_status": "pending",
+      "source_excerpt": "the result of these statistical shenanigans is rather problematic if it keeps the IMF (and others) from recognizing how much of an issue China's current growth model is",
+      "source_spans": [
+       {
+        "char_start": 4,
+        "char_end": 172
+       }
+      ]
+     },
+     {
+      "paragraph_id": "p29",
+      "paragraph_sha256": "sha256:e125c3b1366b61e6437a0c27cce306d46a1c3712166859d56b07ae482bcb4131",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "current-account",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     },
+     {
+      "term": "global-imbalances",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [
+     {
+      "term": "china",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     }
+    ],
+    "bloc": [],
+    "instrument": [],
+    "data_basis": [
+     {
+      "term": "imf-publications",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ]
+   },
+   "attributes": {
+    "claim_type": "single"
+   },
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": [
+     "links: `ANOM` supports `K` joins L0→L5, which no hand-drawn supports link does"
+    ]
+   }
+  }
+ ],
+ "edges": [
+  {
+   "id": "e001",
+   "from": "n001",
+   "to": "n002",
+   "relation": "frames",
+   "sign": 0,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": [
+     "`Q` frames `SCP` joins L0→L1B, which no hand-drawn frames link does"
+    ]
+   }
+  },
+  {
+   "id": "e002",
+   "from": "n001",
+   "to": "n011",
+   "relation": "frames",
+   "sign": 0,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e003",
+   "from": "n001",
+   "to": "n012",
+   "relation": "motivates",
+   "sign": 1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e004",
+   "from": "n002",
+   "to": "n008",
+   "relation": "bounds",
+   "sign": 1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e005",
+   "from": "n011",
+   "to": "n003",
+   "relation": "frames",
+   "sign": 0,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e006",
+   "from": "n003",
+   "to": "n004",
+   "relation": "supports",
+   "sign": 1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e007",
+   "from": "n003",
+   "to": "n007",
+   "relation": "supports",
+   "sign": 1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e008",
+   "from": "n005",
+   "to": "n007",
+   "relation": "supports",
+   "sign": 1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e009",
+   "from": "n006",
+   "to": "n007",
+   "relation": "supports",
+   "sign": 1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e010",
+   "from": "n004",
+   "to": "n007",
+   "relation": "supports",
+   "sign": 1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e011",
+   "from": "n008",
+   "to": "n014",
+   "relation": "supports",
+   "sign": 1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e012",
+   "from": "n009",
+   "to": "n019",
+   "relation": "supports",
+   "sign": 1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e013",
+   "from": "n010",
+   "to": "n009",
+   "relation": "supports",
+   "sign": 1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e014",
+   "from": "n013",
+   "to": "n012",
+   "relation": "supports",
+   "sign": 1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": [
+     "`P1` supports `ANOM` joins L1→L0, which no hand-drawn supports link does"
+    ]
+   }
+  },
+  {
+   "id": "e015",
+   "from": "n014",
+   "to": "n019",
+   "relation": "supports",
+   "sign": 1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e016",
+   "from": "n007",
+   "to": "n019",
+   "relation": "supports",
+   "sign": 1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e017",
+   "from": "n006",
+   "to": "n015",
+   "relation": "supports",
+   "sign": 1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e018",
+   "from": "n014",
+   "to": "n015",
+   "relation": "motivates",
+   "sign": 1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": [
+     "`C3` motivates `REC` joins L4→L5, which no hand-drawn motivates link does"
+    ]
+   }
+  },
+  {
+   "id": "e019",
+   "from": "n019",
+   "to": "n016",
+   "relation": "rebuts",
+   "sign": -1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e020",
+   "from": "n017",
+   "to": "n019",
+   "relation": "supports",
+   "sign": 1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e021",
+   "from": "n015",
+   "to": "n018",
+   "relation": "qualified_by",
+   "sign": -1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e022",
+   "from": "n011",
+   "to": "n019",
+   "relation": "licenses",
+   "sign": 1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e023",
+   "from": "n012",
+   "to": "n019",
+   "relation": "supports",
+   "sign": 1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": [
+     "`ANOM` supports `K` joins L0→L5, which no hand-drawn supports link does"
+    ]
+   }
+  }
+ ],
+ "validation": {
+  "status": "needs_review",
+  "checks": [
+   "boxes: 19, fix rounds 0, re-asks 0, gaps left none",
+   "links: 23, fix rounds 0, re-asks 0, gaps left none, dropped none",
+   "passage linker agreement: {'anchored': 9, 'anchored_cited': 9, 'candidate': 14, 'candidate_cited': 11}"
+  ],
+  "review_items": [
+   "boxes: `M3` the name `irish` does not occur in the article",
+   "links: `Q` frames `SCP` joins L0→L1B, which no hand-drawn frames link does",
+   "links: `P1` supports `ANOM` joins L1→L0, which no hand-drawn supports link does",
+   "links: `C3` motivates `REC` joins L4→L5, which no hand-drawn motivates link does",
+   "links: `ANOM` supports `K` joins L0→L5, which no hand-drawn supports link does",
+   "facets: `setser_2025-11-12_china-surplus-imf#P2` where_subject empty - every claim needs a country or a bloc (assignment.requires_one_of) - needs review",
+   "facets: `setser_2025-11-12_china-surplus-imf#P1` where_subject empty - every claim needs a country or a bloc (assignment.requires_one_of) - needs review"
+  ]
+ },
+ "extensions": {}
+}

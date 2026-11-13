@@ -1,0 +1,641 @@
+{
+  "schema_version": "source-record-0.1",
+  "article": {
+    "id": "de-reservification-not-de-dollarization",
+    "title": "De-reservification, Not De-dollarization",
+    "authors": [
+      "Brad W. Setser"
+    ],
+    "published_date": "2026-09-15",
+    "url": "https://www.cfr.org/articles/de-reservification-not-de-dollarization",
+    "publisher": "Council on Foreign Relations",
+    "series": "Follow the Money",
+    "source_text": {
+      "path": "internal/extracted/2026-09-15_de-reservification-not-de-dollarization.md",
+      "paragraph_count": 51,
+      "content_hash": "sha256:8074f51f012d2bebb5fe7724e1b3918e473e5f11f6404078e175de3d89598843",
+      "revision": 1
+    },
+    "references": [
+      {
+        "id": "r001",
+        "paragraph_id": "p1",
+        "char_start": 26,
+        "char_end": 35,
+        "label": "Alex Etra",
+        "href": "https://homepage.exantedata.com/about-us/alex-etra/",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://homepage.exantedata.com/about-us/alex-etra",
+        "host": "homepage.exantedata.com",
+        "target_article_id": null
+      },
+      {
+        "id": "r002",
+        "paragraph_id": "p2",
+        "char_start": 4,
+        "char_end": 14,
+        "label": "IMF’s data",
+        "href": "https://data.imf.org/en/datasets/IMF.STA:COFER",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://data.imf.org/en/datasets/imf.sta:cofer",
+        "host": "data.imf.org",
+        "target_article_id": null
+      },
+      {
+        "id": "r003",
+        "paragraph_id": "p7",
+        "char_start": 8,
+        "char_end": 42,
+        "label": "Government Pension Investment Fund",
+        "href": "https://www.bloomberg.com/news/articles/2026-09-11/japan-s-gpif-may-sell-62-billion-of-treasuries-santander-says",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://bloomberg.com/news/articles/2026-09-11/japan-s-gpif-may-sell-62-billion-of-treasuries-santander-says",
+        "host": "bloomberg.com",
+        "target_article_id": null
+      },
+      {
+        "id": "r004",
+        "paragraph_id": "p7",
+        "char_start": 85,
+        "char_end": 97,
+        "label": "$986 billion",
+        "href": "https://www.gpif.go.jp/en/",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://gpif.go.jp/en",
+        "host": "gpif.go.jp",
+        "target_article_id": null
+      },
+      {
+        "id": "r005",
+        "paragraph_id": "p8",
+        "char_start": 42,
+        "char_end": 56,
+        "label": "foreign assets",
+        "href": "https://www.asiaasset.com/pension-funds/koreas-nps-picks-state-street-bank-and-trust-bny-as-custodians-for-us619-billion-foreign-assets/",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://asiaasset.com/pension-funds/koreas-nps-picks-state-street-bank-and-trust-bny-as-custodians-for-us619-billion-foreign-assets",
+        "host": "asiaasset.com",
+        "target_article_id": null
+      },
+      {
+        "id": "r006",
+        "paragraph_id": "p9",
+        "char_start": 336,
+        "char_end": 386,
+        "label": "the foreign currency market it directly influences",
+        "href": "https://www.bloomberg.com/news/articles/2026-06-02/taiwan-s-big-boss-central-bank-is-stamping-out-currency-swings",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://bloomberg.com/news/articles/2026-06-02/taiwan-s-big-boss-central-bank-is-stamping-out-currency-swings",
+        "host": "bloomberg.com",
+        "target_article_id": null
+      },
+      {
+        "id": "r007",
+        "paragraph_id": "p11",
+        "char_start": 317,
+        "char_end": 339,
+        "label": "Public Investment Fund",
+        "href": "https://www.pif.gov.sa/en/",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://pif.gov.sa/en",
+        "host": "pif.gov.sa",
+        "target_article_id": null
+      },
+      {
+        "id": "r008",
+        "paragraph_id": "p15",
+        "char_start": 130,
+        "char_end": 164,
+        "label": "several trillion in foreign assets",
+        "href": "https://thechinaproject.com/2023/06/29/shadow-reserves-how-china-hides-trillions-of-dollars-of-hard-currency/",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://thechinaproject.com/2023/06/29/shadow-reserves-how-china-hides-trillions-of-dollars-of-hard-currency",
+        "host": "thechinaproject.com",
+        "target_article_id": null
+      },
+      {
+        "id": "r009",
+        "paragraph_id": "p19",
+        "char_start": 250,
+        "char_end": 269,
+        "label": "the work of AidData",
+        "href": "https://china.aiddata.org/",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://china.aiddata.org",
+        "host": "china.aiddata.org",
+        "target_article_id": null
+      },
+      {
+        "id": "r010",
+        "paragraph_id": "p23",
+        "char_start": 18,
+        "char_end": 69,
+        "label": "the rapid growth of the state banks dollar holdings",
+        "href": "https://www.cfr.org/articles/the-pboc-the-state-banks-and-backdoor-intervention",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://cfr.org/articles/the-pboc-the-state-banks-and-backdoor-intervention",
+        "host": "cfr.org",
+        "target_article_id": null
+      },
+      {
+        "id": "r011",
+        "paragraph_id": "p24",
+        "char_start": 245,
+        "char_end": 294,
+        "label": "SAFE has shifted its funds out of U.S. custodians",
+        "href": "https://www.cfr.org/articles/finding-china-and-the-u-s-tic-data",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://cfr.org/articles/finding-china-and-the-u-s-tic-data",
+        "host": "cfr.org",
+        "target_article_id": null
+      },
+      {
+        "id": "r012",
+        "paragraph_id": "p30",
+        "char_start": 98,
+        "char_end": 143,
+        "label": "Around two-thirds of those are now in dollars",
+        "href": "https://www.bloomberg.com/news/articles/2025-10-01/south-korea-agrees-to-share-monthly-fx-intervention-data-with-us",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://bloomberg.com/news/articles/2025-10-01/south-korea-agrees-to-share-monthly-fx-intervention-data-with-us",
+        "host": "bloomberg.com",
+        "target_article_id": null
+      },
+      {
+        "id": "r013",
+        "paragraph_id": "p31",
+        "char_start": 19,
+        "char_end": 48,
+        "label": "the foreign assets at the NPS",
+        "href": "https://fund.nps.or.kr/eng/main.do",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://fund.nps.or.kr/eng/main.do",
+        "host": "fund.nps.or.kr",
+        "target_article_id": null
+      },
+      {
+        "id": "r014",
+        "paragraph_id": "p33",
+        "char_start": 607,
+        "char_end": 641,
+        "label": "an exceptionally high dollar share",
+        "href": "https://www.cfr.org/articles/taiwans-backdoor-currency-manipulation",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://cfr.org/articles/taiwans-backdoor-currency-manipulation",
+        "host": "cfr.org",
+        "target_article_id": null
+      },
+      {
+        "id": "r015",
+        "paragraph_id": "p39",
+        "char_start": 0,
+        "char_end": 20,
+        "label": "Adam Tooze has noted",
+        "href": "https://www.ft.com/content/d063fef6-c92c-4058-998f-bc5bfecdfe8e",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://ft.com/content/d063fef6-c92c-4058-998f-bc5bfecdfe8e",
+        "host": "ft.com",
+        "target_article_id": null
+      }
+    ],
+    "metadata_extension": {
+      "field_sources": {
+        "title": "frontmatter",
+        "authors": "frontmatter",
+        "published_date": "frontmatter",
+        "url": "frontmatter",
+        "publisher": "frontmatter",
+        "series": "frontmatter"
+      },
+      "references_status": "preserved",
+      "links_hash": "sha256:f4989b19f64cba695fdb2597ee9318df6f6551875bb0946864cbf7917bcfbd87",
+      "subtitle": "The world isn’t moving away from the dollar. It is shifting its dollars from traditional reserves to state banks, pension funds, and other quasi-sovereign investors.",
+      "published_at": "2026-09-15T08:37:40-04:00",
+      "programs": [
+        "Follow the Money",
+        "Greenberg Center for Geoeconomics"
+      ],
+      "source_tags": [
+        "Capital Flows",
+        "Banking"
+      ],
+      "license": "CC BY-NC-ND 4.0",
+      "section": "Article",
+      "doc_type": "AnalysisNewsArticle",
+      "language": "en",
+      "word_count": 1906,
+      "date_modified": "2026-09-15",
+      "retrieved_at": "2026-11-10T23:23:38Z",
+      "page_sha256": "4cd35b026339451ca689379cd552c2384c41e7762f0ec69b76432870b91b42a0",
+      "figures": []
+    }
+  },
+  "paragraphs": [
+    {
+      "id": "p1",
+      "sha256": "sha256:a675d5407346eb3d4000d90b14f8ac869d00851937abb2b85528dafa4c01efbe",
+      "n_chars": 105
+    },
+    {
+      "id": "p2",
+      "sha256": "sha256:19114db6b4aa39af2411b2d402e5541ebd34103b8bd0ba90154c0fb1d9294317",
+      "n_chars": 163
+    },
+    {
+      "id": "p3",
+      "sha256": "sha256:e7ca5ee4621b231d16904ecc40266fc0df4e544168a2d98feeefa728b6f07589",
+      "n_chars": 205
+    },
+    {
+      "id": "p4",
+      "sha256": "sha256:8c71ca8d9583e4cabb2be75b213ce2301a86492dfe612beb5bd4e57ac1a60616",
+      "n_chars": 109
+    },
+    {
+      "id": "p5",
+      "sha256": "sha256:5c8afb585b292c5b5ee0a6fbb69565f6b96572bc9b765523c8556b948accb90a",
+      "n_chars": 24
+    },
+    {
+      "id": "p6",
+      "sha256": "sha256:c9b54097bd7b31d2e76c0b6c7f39cb8e78f8e517e6305667d59aaa653d604634",
+      "n_chars": 126
+    },
+    {
+      "id": "p7",
+      "sha256": "sha256:ba21287981a87a2615b811febbeaa5cac0568ee7e8ef1daadcb315f94acbb147",
+      "n_chars": 414
+    },
+    {
+      "id": "p8",
+      "sha256": "sha256:a4fbf59c461a6c4e1e0acc4bdbc198bf4dcdb9670c8964d1ab6d8df40be4d87b",
+      "n_chars": 96
+    },
+    {
+      "id": "p9",
+      "sha256": "sha256:305b6fdb5cbd26b6d508ed083144266e6aa5ad7fc90471d21e52403d0b041a90",
+      "n_chars": 604
+    },
+    {
+      "id": "p10",
+      "sha256": "sha256:412107837649f6c6e3592f935c7a2f4d0ddb146612eb77da41ac0a1cbf4a82c2",
+      "n_chars": 198
+    },
+    {
+      "id": "p11",
+      "sha256": "sha256:0e0c09fc2367ce101917ca0f44b4a9256514b564e1c7a2e03cfcd62da322a8a7",
+      "n_chars": 408
+    },
+    {
+      "id": "p12",
+      "sha256": "sha256:0113a42ef9e60afda37ff04d7cebe7c68eef219bb5a54226cb198befd8239f86",
+      "n_chars": 201
+    },
+    {
+      "id": "p13",
+      "sha256": "sha256:b7fed9ddfa57deb4c9b3af740a002db47a6845cd9bc1db939e7d3a5bbe9e6594",
+      "n_chars": 224
+    },
+    {
+      "id": "p14",
+      "sha256": "sha256:6e3b344b0acb15f4866e28eef906a2d73e20988585ff176c907e7c84230652ba",
+      "n_chars": 15
+    },
+    {
+      "id": "p15",
+      "sha256": "sha256:dac883f82cc850daae68eeb249a19767d7015dd0ade4783c2be6a1992d619694",
+      "n_chars": 165
+    },
+    {
+      "id": "p16",
+      "sha256": "sha256:4e986664522b43d84e0f4533a98636efe66383bdaa16f35228c3c446d6a6f728",
+      "n_chars": 417
+    },
+    {
+      "id": "p17",
+      "sha256": "sha256:6eef26d231188873d3c62286eae6139a3961afbae1a0d4698cf96114a198e1be",
+      "n_chars": 115
+    },
+    {
+      "id": "p18",
+      "sha256": "sha256:362a24d5dfa59188f296babef0be45903d0bbc348941a4561b5e8285e5883da7",
+      "n_chars": 253
+    },
+    {
+      "id": "p19",
+      "sha256": "sha256:aab74205c2199db7e92867077a06aa1da93e2aaa0e576449dcc29a1c6ad1af4f",
+      "n_chars": 344
+    },
+    {
+      "id": "p20",
+      "sha256": "sha256:6076aa485538e92bbfd1a81da628ad88c5443a149b98cf5f7a7ddf5609ed0946",
+      "n_chars": 109
+    },
+    {
+      "id": "p21",
+      "sha256": "sha256:fdce0e5f71dd0b59149ea2d3a419917a4fdba025ddb0cbed3698f3ed10067f23",
+      "n_chars": 523
+    },
+    {
+      "id": "p22",
+      "sha256": "sha256:9699c95c159de6846b07a9edc4e837cca10dc6a3646768dcee177e5ea2584606",
+      "n_chars": 69
+    },
+    {
+      "id": "p23",
+      "sha256": "sha256:42bf8179fcf4680f42d5fd8ac24f30cc59148e53f5bffdb82aee8f98b8b1bc72",
+      "n_chars": 70
+    },
+    {
+      "id": "p24",
+      "sha256": "sha256:f4ec08a3204e7f3220d6195c58a9484a566201cb80fade4530f4e218a73a109f",
+      "n_chars": 391
+    },
+    {
+      "id": "p25",
+      "sha256": "sha256:9f55bda4d1b38456df198abd0c637d726f03fc608153a5b3e53cb5d55379da34",
+      "n_chars": 386
+    },
+    {
+      "id": "p26",
+      "sha256": "sha256:f98357e0ce9efe30b93fc975b7c48ceae4ce1328d5557c8769e75c270e914d89",
+      "n_chars": 116
+    },
+    {
+      "id": "p27",
+      "sha256": "sha256:5a7ab4239f9fe37d0766b0d6938e2bd9bdbf0c68cac9fd8eb5ba95af57753b69",
+      "n_chars": 147
+    },
+    {
+      "id": "p28",
+      "sha256": "sha256:eca0944b3d139165422852719fd0575483b6da9f6c23268fd23f04eb13bb6ed5",
+      "n_chars": 165
+    },
+    {
+      "id": "p29",
+      "sha256": "sha256:bf0806f26ce373bd2f010005a85aeae6ab75b1adb2c133baf18f76c9c37cec17",
+      "n_chars": 41
+    },
+    {
+      "id": "p30",
+      "sha256": "sha256:37c8fb4cfcaca751e000bfc03e4fb74b3cab597f79d20c16bb0c546793f07927",
+      "n_chars": 168
+    },
+    {
+      "id": "p31",
+      "sha256": "sha256:a57d28a2677e464fa53f89faa3edbcece690cf2c4ec6f7c41d60f27cfe138ffc",
+      "n_chars": 422
+    },
+    {
+      "id": "p32",
+      "sha256": "sha256:4c8db33b81c80043c63fa733fcca3536019b3cd7f5990ffc54166b4a81e67612",
+      "n_chars": 270
+    },
+    {
+      "id": "p33",
+      "sha256": "sha256:8091ad5fc95d496ce4e844fe6f96f14bf4bff98247c27bc25f3007e625fe717b",
+      "n_chars": 682
+    },
+    {
+      "id": "p34",
+      "sha256": "sha256:18d19679a75f5bbc5b037133f040475a9ff3831df3755f4a3a3e6062c831e30e",
+      "n_chars": 58
+    },
+    {
+      "id": "p35",
+      "sha256": "sha256:8e81fd2f4e43b4e233490d1660febfd8009bf17bbbfaa8b5c70571443b405357",
+      "n_chars": 216
+    },
+    {
+      "id": "p36",
+      "sha256": "sha256:f5ad8fb40da4a0f74a8693f65e4994b2ff4c5d7a8c22a724d64c12c37caeec9d",
+      "n_chars": 98
+    },
+    {
+      "id": "p37",
+      "sha256": "sha256:5b373f6a5f72bb6c62fbcc7dd5e84cbe035a474e586a72c6b69ce19963dd90c1",
+      "n_chars": 195
+    },
+    {
+      "id": "p38",
+      "sha256": "sha256:f523739703b83bd4d6656a5f4875ff330a0133aa5fb91bc9f4960e78049cefa1",
+      "n_chars": 162
+    },
+    {
+      "id": "p39",
+      "sha256": "sha256:0ffa44582b55b13cc240c4011385acea6782820672f886a3c249b31f821bc563",
+      "n_chars": 338
+    },
+    {
+      "id": "p40",
+      "sha256": "sha256:b65d51118cbb5a1a269a39dc384b0adc52fdd8946bf3f7c95b4d88ef49ee5e29",
+      "n_chars": 76
+    },
+    {
+      "id": "p41",
+      "sha256": "sha256:deeaafd1558a1b57b5fb552c61a47ecd1f885dedd47b3b090e811614766009c9",
+      "n_chars": 183
+    },
+    {
+      "id": "p42",
+      "sha256": "sha256:dc8c8cb6e335fb323532b796249d59c81e2276869f1606c1b983e82ad0caacef",
+      "n_chars": 460
+    },
+    {
+      "id": "p43",
+      "sha256": "sha256:ba1cfee7c9174ec501eeaa9a5a6fe3ed82250f3973028709ed908adaac227226",
+      "n_chars": 156
+    },
+    {
+      "id": "p44",
+      "sha256": "sha256:d84dd4ed1dac5f8b846791e4d68ff9cb05b660eac34f6c80cf6f28db087c8469",
+      "n_chars": 73
+    },
+    {
+      "id": "p45",
+      "sha256": "sha256:0a70a7a0fd27749fc756c4b980541e2eb3c2c6c365238806e0fec2d1e887e68f",
+      "n_chars": 77
+    },
+    {
+      "id": "p46",
+      "sha256": "sha256:fd85623142a6e225c25d701e496af76d35600d126c59947911094b5843b6de76",
+      "n_chars": 416
+    },
+    {
+      "id": "p47",
+      "sha256": "sha256:2c30de7f9945386abaf41569e8c1a750d25adbdf0c06e6e132ccc40760dc1acb",
+      "n_chars": 405
+    },
+    {
+      "id": "p48",
+      "sha256": "sha256:f8a9d7a3439ad66fd7bd417b87991ecdd254eed60cbe8e48dca153036a0cdf5b",
+      "n_chars": 396
+    },
+    {
+      "id": "p49",
+      "sha256": "sha256:e393e9e9678b4b833b420187372f330b5cb593139471eced7d055c80fdef93bb",
+      "n_chars": 66
+    },
+    {
+      "id": "p50",
+      "sha256": "sha256:2dab0308554ee4037fa1fd97ac125b37a763812163db814821d491c33f3fefcd",
+      "n_chars": 106
+    },
+    {
+      "id": "p51",
+      "sha256": "sha256:9fa4654a05c3ec602d9a8baf3ce1a3e9ca84d6255523e5af01789f4cb53f96c4",
+      "n_chars": 105
+    }
+  ],
+  "revisions": [
+    {
+      "content_hash": "sha256:8074f51f012d2bebb5fe7724e1b3918e473e5f11f6404078e175de3d89598843",
+      "links_hash": "sha256:f4989b19f64cba695fdb2597ee9318df6f6551875bb0946864cbf7917bcfbd87",
+      "paragraph_count": 51,
+      "retrieved_at": "2026-11-10T23:23:38Z",
+      "revision": 1,
+      "changed_paragraphs": []
+    }
+  ],
+  "extensions": {
+    "entities": [
+      {
+        "entity_id": null,
+        "type": "person",
+        "name": "Brad W. Setser",
+        "role": "author"
+      },
+      {
+        "entity_id": null,
+        "type": "organization",
+        "name": "Council on Foreign Relations",
+        "role": "publisher"
+      }
+    ],
+    "cited_sources": [
+      {
+        "source_key": "https://homepage.exantedata.com/about-us/alex-etra",
+        "host": "homepage.exantedata.com",
+        "reference_ids": [
+          "r001"
+        ]
+      },
+      {
+        "source_key": "https://data.imf.org/en/datasets/imf.sta:cofer",
+        "host": "data.imf.org",
+        "reference_ids": [
+          "r002"
+        ]
+      },
+      {
+        "source_key": "https://bloomberg.com/news/articles/2026-09-11/japan-s-gpif-may-sell-62-billion-of-treasuries-santander-says",
+        "host": "bloomberg.com",
+        "reference_ids": [
+          "r003"
+        ]
+      },
+      {
+        "source_key": "https://gpif.go.jp/en",
+        "host": "gpif.go.jp",
+        "reference_ids": [
+          "r004"
+        ]
+      },
+      {
+        "source_key": "https://asiaasset.com/pension-funds/koreas-nps-picks-state-street-bank-and-trust-bny-as-custodians-for-us619-billion-foreign-assets",
+        "host": "asiaasset.com",
+        "reference_ids": [
+          "r005"
+        ]
+      },
+      {
+        "source_key": "https://bloomberg.com/news/articles/2026-06-02/taiwan-s-big-boss-central-bank-is-stamping-out-currency-swings",
+        "host": "bloomberg.com",
+        "reference_ids": [
+          "r006"
+        ]
+      },
+      {
+        "source_key": "https://pif.gov.sa/en",
+        "host": "pif.gov.sa",
+        "reference_ids": [
+          "r007"
+        ]
+      },
+      {
+        "source_key": "https://thechinaproject.com/2023/06/29/shadow-reserves-how-china-hides-trillions-of-dollars-of-hard-currency",
+        "host": "thechinaproject.com",
+        "reference_ids": [
+          "r008"
+        ]
+      },
+      {
+        "source_key": "https://china.aiddata.org",
+        "host": "china.aiddata.org",
+        "reference_ids": [
+          "r009"
+        ]
+      },
+      {
+        "source_key": "https://cfr.org/articles/the-pboc-the-state-banks-and-backdoor-intervention",
+        "host": "cfr.org",
+        "reference_ids": [
+          "r010"
+        ]
+      },
+      {
+        "source_key": "https://cfr.org/articles/finding-china-and-the-u-s-tic-data",
+        "host": "cfr.org",
+        "reference_ids": [
+          "r011"
+        ]
+      },
+      {
+        "source_key": "https://bloomberg.com/news/articles/2025-10-01/south-korea-agrees-to-share-monthly-fx-intervention-data-with-us",
+        "host": "bloomberg.com",
+        "reference_ids": [
+          "r012"
+        ]
+      },
+      {
+        "source_key": "https://fund.nps.or.kr/eng/main.do",
+        "host": "fund.nps.or.kr",
+        "reference_ids": [
+          "r013"
+        ]
+      },
+      {
+        "source_key": "https://cfr.org/articles/taiwans-backdoor-currency-manipulation",
+        "host": "cfr.org",
+        "reference_ids": [
+          "r014"
+        ]
+      },
+      {
+        "source_key": "https://ft.com/content/d063fef6-c92c-4058-998f-bc5bfecdfe8e",
+        "host": "ft.com",
+        "reference_ids": [
+          "r015"
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "flags": []
+  }
+}

@@ -1,0 +1,539 @@
+{
+  "schema_version": "source-record-0.1",
+  "article": {
+    "id": "chinas-stealth-trade-surplus",
+    "title": "China’s Stealth Trade Surplus",
+    "authors": [
+      "Brad W. Setser"
+    ],
+    "published_date": "2025-07-07",
+    "url": "https://www.cfr.org/articles/chinas-stealth-trade-surplus",
+    "publisher": "Council on Foreign Relations",
+    "series": "Follow the Money",
+    "source_text": {
+      "path": "internal/extracted/2025-07-07_chinas-stealth-trade-surplus.md",
+      "paragraph_count": 29,
+      "content_hash": "sha256:bef9b9b5e054b2333ed098a46834e2d0410bea8f746acf95bc0673745d831522",
+      "revision": 2
+    },
+    "references": [
+      {
+        "id": "r001",
+        "paragraph_id": "p1",
+        "char_start": 22,
+        "char_end": 55,
+        "label": "has soared in the last five years",
+        "href": "https://tradingeconomics.com/china/balance-of-trade",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://tradingeconomics.com/china/balance-of-trade",
+        "host": "tradingeconomics.com",
+        "target_article_id": null
+      },
+      {
+        "id": "r002",
+        "paragraph_id": "p3",
+        "char_start": 29,
+        "char_end": 59,
+        "label": "a large trade surplus in autos",
+        "href": "https://www.nytimes.com/interactive/2024/11/29/business/china-cars-sales-exports.html",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://nytimes.com/interactive/2024/11/29/business/china-cars-sales-exports.html",
+        "host": "nytimes.com",
+        "target_article_id": null
+      },
+      {
+        "id": "r003",
+        "paragraph_id": "p4",
+        "char_start": 106,
+        "char_end": 151,
+        "label": "take the U.S. back to the age of fossil fuels",
+        "href": "https://www.whitehouse.gov/presidential-actions/2025/01/unleashing-american-energy/",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://whitehouse.gov/presidential-actions/2025/01/unleashing-american-energy",
+        "host": "whitehouse.gov",
+        "target_article_id": null
+      },
+      {
+        "id": "r004",
+        "paragraph_id": "p5",
+        "char_start": 46,
+        "char_end": 74,
+        "label": "exceeded global trade growth",
+        "href": "https://www.cfr.org/articles/evolution-global-trade-2024",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://cfr.org/articles/evolution-global-trade-2024",
+        "host": "cfr.org",
+        "target_article_id": null
+      },
+      {
+        "id": "r005",
+        "paragraph_id": "p6",
+        "char_start": 168,
+        "char_end": 180,
+        "label": "ask the IMF…",
+        "href": "https://www.imf.org/en/Publications/fandd/issues/2024/12/chinas-real-estate-challenge-kenneth-rogoff",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://imf.org/en/publications/fandd/issues/2024/12/chinas-real-estate-challenge-kenneth-rogoff",
+        "host": "imf.org",
+        "target_article_id": null
+      },
+      {
+        "id": "r006",
+        "paragraph_id": "p12",
+        "char_start": 223,
+        "char_end": 321,
+        "label": "But there are occasionally more complex adjustments from the activities of multinational companies",
+        "href": "https://www.cfr.org/articles/iphone-imf-and-chinas-balance-payments",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://cfr.org/articles/iphone-imf-and-chinas-balance-payments",
+        "host": "cfr.org",
+        "target_article_id": null
+      },
+      {
+        "id": "r007",
+        "paragraph_id": "p13",
+        "char_start": 133,
+        "char_end": 188,
+        "label": "a large Irish subsidiary of a U.S. mobile phone company",
+        "href": "https://www.cfr.org/articles/apples-exports-arent-missing-they-are-ireland",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://cfr.org/articles/apples-exports-arent-missing-they-are-ireland",
+        "host": "cfr.org",
+        "target_article_id": null
+      },
+      {
+        "id": "r008",
+        "paragraph_id": "p14",
+        "char_start": 97,
+        "char_end": 142,
+        "label": "insists that it is one continuous data series",
+        "href": "https://www.imf.org/en/Publications/CR/Issues/2024/08/01/Peoples-Republic-of-China-2024-Article-IV-Consultation-Press-Release-Staff-Report-and-552803",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://imf.org/en/publications/cr/issues/2024/08/01/peoples-republic-of-china-2024-article-iv-consultation-press-release-staff-report-and-552803",
+        "host": "imf.org",
+        "target_article_id": null
+      },
+      {
+        "id": "r009",
+        "paragraph_id": "p15",
+        "char_start": 77,
+        "char_end": 104,
+        "label": "that story didn’t check out",
+        "href": "https://www.cfr.org/articles/somewhat-mysterious-surge-chinas-current-account-surplus",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://cfr.org/articles/somewhat-mysterious-surge-chinas-current-account-surplus",
+        "host": "cfr.org",
+        "target_article_id": null
+      },
+      {
+        "id": "r010",
+        "paragraph_id": "p16",
+        "char_start": 511,
+        "char_end": 540,
+        "label": "the cost of iPhone production",
+        "href": "https://www.digitimes.com/news/a20241004PD214/apple-iphone-component-cost-production-profit.html",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://digitimes.com/news/a20241004pd214/apple-iphone-component-cost-production-profit.html",
+        "host": "digitimes.com",
+        "target_article_id": null
+      },
+      {
+        "id": "r011",
+        "paragraph_id": "p22",
+        "char_start": 89,
+        "char_end": 138,
+        "label": "large profits U.S. firms report earning in the EU",
+        "href": "https://www.cfr.org/articles/american-pharmaceutical-companies-arent-paying-any-tax-united-states",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://cfr.org/articles/american-pharmaceutical-companies-arent-paying-any-tax-united-states",
+        "host": "cfr.org",
+        "target_article_id": null
+      },
+      {
+        "id": "r012",
+        "paragraph_id": "p23",
+        "char_start": 71,
+        "char_end": 96,
+        "label": "no one really can explain",
+        "href": "https://www.cfr.org/articles/chinese-state-investors-do-not-seem-profit-higher-us-interest-rates",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://cfr.org/articles/chinese-state-investors-do-not-seem-profit-higher-us-interest-rates",
+        "host": "cfr.org",
+        "target_article_id": null
+      },
+      {
+        "id": "r013",
+        "paragraph_id": "p26",
+        "char_start": 584,
+        "char_end": 614,
+        "label": "actually understand quite well",
+        "href": "https://www.ecb.europa.eu/press/economic-bulletin/focus/2025/html/ecb.ebbox202504_02~b993bf44eb.en.html",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://ecb.europa.eu/press/economic-bulletin/focus/2025/html/ecb.ebbox202504_02~b993bf44eb.en.html",
+        "host": "ecb.europa.eu",
+        "target_article_id": null
+      }
+    ],
+    "metadata_extension": {
+      "field_sources": {
+        "title": "frontmatter",
+        "authors": "frontmatter",
+        "published_date": "frontmatter",
+        "url": "frontmatter",
+        "publisher": "frontmatter",
+        "series": "frontmatter"
+      },
+      "references_status": "preserved",
+      "links_hash": "sha256:733997a15e6936b956891d84c1006ea9ca84b1abd54c1128e39a95761518814a",
+      "subtitle": "China’s surplus wears an invisibility cloak; it disappears in the IMF’s eyes.",
+      "published_at": "2025-07-07T22:53:33-04:00",
+      "programs": [
+        "Follow the Money",
+        "Greenberg Center for Geoeconomics"
+      ],
+      "source_tags": [
+        "China"
+      ],
+      "license": "CC BY-NC-ND 4.0",
+      "section": "Article",
+      "doc_type": "AnalysisNewsArticle",
+      "language": "en",
+      "word_count": 1179,
+      "date_modified": "2025-07-07",
+      "retrieved_at": "2026-10-05T23:13:16Z",
+      "page_sha256": "a33eb51362fad69a521c4b5da4b21f7f6fe5268022384dc74cf86cd5a5b7c467",
+      "figures": [
+        {
+          "title": "Select CA Balances",
+          "src": "https://static.cfr.org/sites/default/files/styles/large_s/public/image/2025/07/Select%20CA%20Balances.png",
+          "after_paragraph": "p8"
+        },
+        {
+          "title": "China goods v eu goods",
+          "src": "https://static.cfr.org/sites/default/files/styles/large_s/public/image/2025/07/China%20goods%20v%20eu%20goods_1.png",
+          "after_paragraph": "p11"
+        },
+        {
+          "title": "China EU Customs Goods",
+          "src": "https://static.cfr.org/sites/default/files/styles/large_s/public/image/2025/07/China%20EU%20Customs%20Goods.png",
+          "after_paragraph": "p12"
+        },
+        {
+          "title": "Global Goods Trade",
+          "src": "https://static.cfr.org/sites/default/files/styles/large_s/public/image/2025/07/Global%20Goods%20Trade_0.png",
+          "after_paragraph": "p13"
+        },
+        {
+          "title": "China vs EU GS BOP",
+          "src": "https://static.cfr.org/sites/default/files/styles/large_s/public/image/2025/07/China%20vs%20EU%20GS%20BOP_4.png",
+          "after_paragraph": "p20"
+        },
+        {
+          "title": "Select investment income",
+          "src": "https://static.cfr.org/sites/default/files/styles/large_s/public/image/2025/07/Select%20investment%20income_1.png",
+          "after_paragraph": "p23"
+        },
+        {
+          "title": "NIIP",
+          "src": "https://static.cfr.org/sites/default/files/styles/large_s/public/image/2025/07/NIIP_0.png",
+          "after_paragraph": "p24"
+        }
+      ]
+    }
+  },
+  "paragraphs": [
+    {
+      "id": "p1",
+      "sha256": "sha256:8a211743576e95377d8eb70d25638af2548e4c30053a4aca06b6c43f2cb772ea",
+      "n_chars": 56
+    },
+    {
+      "id": "p2",
+      "sha256": "sha256:f7ff9fc46e9e1a0527218afbd71ec8a37a097e2ac4c0ab101fbc7f4c20dc438d",
+      "n_chars": 80
+    },
+    {
+      "id": "p3",
+      "sha256": "sha256:3801c2b9fae98fa9d7b340a6d350638c130e7677289f7155e1850d2d7e711181",
+      "n_chars": 230
+    },
+    {
+      "id": "p4",
+      "sha256": "sha256:d54504e733c3306a65fee62cb930b4b2bbdde6411ee358252e48940e8e0aae4f",
+      "n_chars": 153
+    },
+    {
+      "id": "p5",
+      "sha256": "sha256:cab69f588cb9bd65785f9dd628a51f55880bc3f1969198af825968816e9db0f5",
+      "n_chars": 75
+    },
+    {
+      "id": "p6",
+      "sha256": "sha256:d7ee34ad36ddc1cb8994ee9a11b15ab2e4368c6631c4c67328337faa9fa3a8fa",
+      "n_chars": 181
+    },
+    {
+      "id": "p7",
+      "sha256": "sha256:5be58f73c880888f42daab99ef4115f3d81d19210759f956478d6aa94ecb39d5",
+      "n_chars": 95
+    },
+    {
+      "id": "p8",
+      "sha256": "sha256:a202a6d271ed0c89fd719302f997737f62157a0c288ae64688294769762117f6",
+      "n_chars": 337
+    },
+    {
+      "id": "p9",
+      "sha256": "sha256:42d782955051d9ad223fffe2338a1e94084011b27477fe86a401e2ff13b1e6d8",
+      "n_chars": 148
+    },
+    {
+      "id": "p10",
+      "sha256": "sha256:9d4c09472b40fa06a5e8c9e7e6d2c071f8556233edd6a9641c7bad85a6c5d190",
+      "n_chars": 51
+    },
+    {
+      "id": "p11",
+      "sha256": "sha256:ba1c44e0e870e8f67d89531baca88f9facd8968e1490308bfdc8bbc0823c758d",
+      "n_chars": 233
+    },
+    {
+      "id": "p12",
+      "sha256": "sha256:4ca25b3de038a85acf0840ae90e4dd82b8c8c30f789ea0db4c0c5aea7d16c932",
+      "n_chars": 322
+    },
+    {
+      "id": "p13",
+      "sha256": "sha256:d50202348aed224efa8fad2edf15ab09dfe58d466e18481a492b9c3a38aef34b",
+      "n_chars": 311
+    },
+    {
+      "id": "p14",
+      "sha256": "sha256:bf9aa0a1aa4fced653b3f9b9cd38c4e2af8c10a5c2dd46de4411e82187067d25",
+      "n_chars": 181
+    },
+    {
+      "id": "p15",
+      "sha256": "sha256:310eec37f723df247d97de8393c5c5811536a6995945dd2505f06539676570a8",
+      "n_chars": 105
+    },
+    {
+      "id": "p16",
+      "sha256": "sha256:d522ab8a5a10d86dc77a62c58c62088e7c17d1bc3be2d297dc796ad75470ea8d",
+      "n_chars": 542
+    },
+    {
+      "id": "p17",
+      "sha256": "sha256:2130cade944f0d214d618c6bb37c670e53e1c7a12162297f7351b04adacf0837",
+      "n_chars": 172
+    },
+    {
+      "id": "p18",
+      "sha256": "sha256:7f91bb1effe2d486db941ba0fdc2feedaa24b7a1b5a6f897becae7f2fdf8fb85",
+      "n_chars": 443
+    },
+    {
+      "id": "p19",
+      "sha256": "sha256:b94a10edff6d42f5facda3bb14c547947ad49c4b8de6fd1ec085bf8b2ba1a3dc",
+      "n_chars": 310
+    },
+    {
+      "id": "p20",
+      "sha256": "sha256:3521560c34cacbc7dd9d784970e00830ec590143dddf7311b646d348825880d3",
+      "n_chars": 131
+    },
+    {
+      "id": "p21",
+      "sha256": "sha256:234ac39fb23eadb9c8954e2566fb5ad808bf3c80b248052a615ee83921fffe04",
+      "n_chars": 31
+    },
+    {
+      "id": "p22",
+      "sha256": "sha256:7f6ed923669e1f5e1a2a2fa1f1394766d7e5927a71f72ba258ce096128027d43",
+      "n_chars": 172
+    },
+    {
+      "id": "p23",
+      "sha256": "sha256:46a7398615f431298878e14224829c0cc3e083850502fc767d09ed04d3f937ac",
+      "n_chars": 97
+    },
+    {
+      "id": "p24",
+      "sha256": "sha256:9e677fc9153f8d7504ec773d31fcd6c177f80dd91ea5a17c7aa114c7f0976d7d",
+      "n_chars": 571
+    },
+    {
+      "id": "p25",
+      "sha256": "sha256:35a88e628f63a3c0fa04544a9d9895d14a6a0a42b9900b3517cd579d1721459c",
+      "n_chars": 152
+    },
+    {
+      "id": "p26",
+      "sha256": "sha256:6bf2a59c738f6689bf6e03ed33d5848a5a25f3d959c265904710dee53e949530",
+      "n_chars": 918
+    },
+    {
+      "id": "p27",
+      "sha256": "sha256:20afa4529765b5b8076289aee4f9e8fbad57828f918d4eb6865725ef04d3e1a6",
+      "n_chars": 251
+    },
+    {
+      "id": "p28",
+      "sha256": "sha256:556a61cedcc8481ec924b38496df5a66a7a970b2add6445d9be0f17f84762f25",
+      "n_chars": 172
+    },
+    {
+      "id": "p29",
+      "sha256": "sha256:799fffb281549ad8f3d9de8b5fb8010856ebbe4b0ce316a5e8180082d5443bc2",
+      "n_chars": 338
+    }
+  ],
+  "revisions": [
+    {
+      "content_hash": "sha256:6690fd99ec3db7c829a7bf2151017452b51104c1be8853a5b29e45578c5fa953",
+      "links_hash": "sha256:733997a15e6936b956891d84c1006ea9ca84b1abd54c1128e39a95761518814a",
+      "paragraph_count": 29,
+      "retrieved_at": "2026-10-19T20:54:52Z",
+      "revision": 1,
+      "changed_paragraphs": []
+    },
+    {
+      "content_hash": "sha256:bef9b9b5e054b2333ed098a46834e2d0410bea8f746acf95bc0673745d831522",
+      "links_hash": "sha256:733997a15e6936b956891d84c1006ea9ca84b1abd54c1128e39a95761518814a",
+      "paragraph_count": 29,
+      "retrieved_at": "2026-10-05T23:13:16Z",
+      "revision": 2,
+      "changed_paragraphs": [
+        "p4",
+        "p22"
+      ]
+    }
+  ],
+  "extensions": {
+    "entities": [
+      {
+        "entity_id": null,
+        "type": "person",
+        "name": "Brad W. Setser",
+        "role": "author"
+      },
+      {
+        "entity_id": null,
+        "type": "organization",
+        "name": "Council on Foreign Relations",
+        "role": "publisher"
+      }
+    ],
+    "cited_sources": [
+      {
+        "source_key": "https://tradingeconomics.com/china/balance-of-trade",
+        "host": "tradingeconomics.com",
+        "reference_ids": [
+          "r001"
+        ]
+      },
+      {
+        "source_key": "https://nytimes.com/interactive/2024/11/29/business/china-cars-sales-exports.html",
+        "host": "nytimes.com",
+        "reference_ids": [
+          "r002"
+        ]
+      },
+      {
+        "source_key": "https://whitehouse.gov/presidential-actions/2025/01/unleashing-american-energy",
+        "host": "whitehouse.gov",
+        "reference_ids": [
+          "r003"
+        ]
+      },
+      {
+        "source_key": "https://cfr.org/articles/evolution-global-trade-2024",
+        "host": "cfr.org",
+        "reference_ids": [
+          "r004"
+        ]
+      },
+      {
+        "source_key": "https://imf.org/en/publications/fandd/issues/2024/12/chinas-real-estate-challenge-kenneth-rogoff",
+        "host": "imf.org",
+        "reference_ids": [
+          "r005"
+        ]
+      },
+      {
+        "source_key": "https://cfr.org/articles/iphone-imf-and-chinas-balance-payments",
+        "host": "cfr.org",
+        "reference_ids": [
+          "r006"
+        ]
+      },
+      {
+        "source_key": "https://cfr.org/articles/apples-exports-arent-missing-they-are-ireland",
+        "host": "cfr.org",
+        "reference_ids": [
+          "r007"
+        ]
+      },
+      {
+        "source_key": "https://imf.org/en/publications/cr/issues/2024/08/01/peoples-republic-of-china-2024-article-iv-consultation-press-release-staff-report-and-552803",
+        "host": "imf.org",
+        "reference_ids": [
+          "r008"
+        ]
+      },
+      {
+        "source_key": "https://cfr.org/articles/somewhat-mysterious-surge-chinas-current-account-surplus",
+        "host": "cfr.org",
+        "reference_ids": [
+          "r009"
+        ]
+      },
+      {
+        "source_key": "https://digitimes.com/news/a20241004pd214/apple-iphone-component-cost-production-profit.html",
+        "host": "digitimes.com",
+        "reference_ids": [
+          "r010"
+        ]
+      },
+      {
+        "source_key": "https://cfr.org/articles/american-pharmaceutical-companies-arent-paying-any-tax-united-states",
+        "host": "cfr.org",
+        "reference_ids": [
+          "r011"
+        ]
+      },
+      {
+        "source_key": "https://cfr.org/articles/chinese-state-investors-do-not-seem-profit-higher-us-interest-rates",
+        "host": "cfr.org",
+        "reference_ids": [
+          "r012"
+        ]
+      },
+      {
+        "source_key": "https://ecb.europa.eu/press/economic-bulletin/focus/2025/html/ecb.ebbox202504_02~b993bf44eb.en.html",
+        "host": "ecb.europa.eu",
+        "reference_ids": [
+          "r013"
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "flags": [
+      "source_changed_review_passages"
+    ]
+  }
+}

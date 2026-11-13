@@ -1,0 +1,95 @@
+---
+config:
+  layout: elk
+  flowchart:
+    wrappingWidth: 170
+    nodeSpacing: 25
+    rankSpacing: 45
+---
+flowchart TD
+  subgraph L0["Level 0 · Question"]
+    Q["<b>Why does the U.S. trade balance still matter,<br/>even if deficits can accompany strong growth?</b><br/><i>Brad Setser, CFR, Dec 2017</i>"]
+  end
+
+  subgraph L1["Level 1 · Priors & assumptions"]
+    P1["<b>Net exports contribute to GDP growth</b><br/>Changes in exports and imports mechanically affect output growth"]
+    P2["<b>Trade shapes employment composition</b><br/>Goods-producing sectors and regions are unevenly exposed"]
+    P3["<b>Persistent deficits accumulate external debt</b><br/>Ongoing borrowing raises the net external debt stock"]
+  end
+
+  subgraph L2["Level 2 · Evidence"]
+    D1["<b>2014–16 net-export drag</b><br/>Net exports subtracted about 1.5pp from U.S. growth"]
+    D2["<b>Manufacturing employment varies with trade</b><br/>Surplus economies retain larger manufacturing job shares"]
+    D3["<b>Manufacturing balance did not drive adjustment</b><br/>Lower oil imports and offshore income reduced the current-account deficit"]
+    D4["<b>External debt rose from ~20% to ~50% of GDP</b><br/>Debt increased even as U.S. borrowing costs fell"]
+    D5["<b>Higher rates or wider deficits raise debt ratios</b><br/>Either would weaken current favorable debt dynamics"]
+    D6["<b>Tax cuts could widen trade deficit</b><br/>Setser estimates roughly 0.3–0.5% of GDP over several years"]
+  end
+
+  subgraph L3["Level 3 · Mechanisms"]
+    M1["<b>Trade deficits can drag on growth</b><br/>More demand leaks abroad through net imports"]
+    M2["<b>Trade shifts where jobs are located</b><br/>Manufacturing deficits reduce employment in exposed sectors and regions"]
+    M3["<b>Deficits build external debt</b><br/>Persistent borrowing plus higher interest costs raise the external debt burden"]
+  end
+
+  subgraph L4["Level 4 · Intermediate claims"]
+    C1["<b>Trade changes the pace of growth</b><br/>A stronger economy can coexist with a deficit, but net exports still affect realized GDP growth"]
+    C2["<b>Trade changes the composition of employment</b><br/>Its effects are sectoral and regional even near full employment"]
+    C3["<b>Current debt stability is conditional</b><br/>It depends on favorable growth, rates, and offshore income continuing"]
+  end
+
+  subgraph L5["Level 5 · Conclusion"]
+    K["<b>Main claim: the trade balance remains worth watching</b><br/>It contains information about growth, employment composition,<br/>and long-run external debt sustainability"]
+  end
+
+  subgraph L6["Level 6 · Dialectic"]
+    X["<b>Opposing view</b><br/>A wider deficit can reflect stronger domestic demand rather than weakness"]
+    QF1["<b>Measurement caveat</b><br/>Monthly trade data are noisy and should be read as a time series"]
+    QF2["<b>Employment caveat</b><br/>Near full employment, trade changes job distribution more than total employment"]
+    R1["<b>Debt caveat</b><br/>The U.S. can sustain more external debt than most because of the dollar's global role"]
+  end
+
+  P1 --> M1
+  D1 --> M1
+  D6 --> M1
+  M1 --> C1
+
+  P2 --> M2
+  D2 --> M2
+  D3 --> M2
+  M2 --> C2
+
+  P3 --> M3
+  D4 --> M3
+  D5 --> M3
+  M3 --> C3
+
+  C1 --> K
+  C2 --> K
+  C3 --> K
+
+  C1 -.->|qualified by| X
+  K -.->|measurement caveat| QF1
+  C2 -.->|qualified by| QF2
+  C3 -.->|qualified by| R1
+
+  Q ~~~ P1 & P2 & P3
+  P1 ~~~ D1 & D6
+  P2 ~~~ D2 & D3
+  P3 ~~~ D4 & D5
+
+  classDef prior fill:#EEEDFE,stroke:#534AB7,color:#26215C
+  classDef unstated fill:#EEEDFE,stroke:#534AB7,color:#26215C,stroke-dasharray:5 4
+  classDef data fill:#E6F1FB,stroke:#185FA5,color:#042C53
+  classDef mech fill:#E1F5EE,stroke:#0F6E56,color:#04342C
+  classDef main fill:#E1F5EE,stroke:#0F6E56,color:#04342C,stroke-width:3px
+  classDef dia fill:#F1EFE8,stroke:#5F5E5A,color:#2C2C2A
+  classDef question fill:#FFFFFF,stroke:#2C2C2A,color:#2C2C2A
+
+  class P1,P2,P3 prior
+  class D1,D2,D3,D4,D5,D6 data
+  class M1,M2,M3,C1,C2,C3 mech
+  class K main
+  class X,QF1,QF2,R1 dia
+  class Q question
+  linkStyle 15,16,17,18 stroke:#A32D2D,color:#A32D2D

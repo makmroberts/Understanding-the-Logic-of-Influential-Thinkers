@@ -1,0 +1,2489 @@
+{
+ "schema_version": "0.1-draft",
+ "article": {
+  "id": "setser_2025-09-12_trump-shock-that-wasnt",
+  "title": "The Trump Shock That Wasn’t (At Least Not Yet)",
+  "authors": [
+   "Brad W. Setser"
+  ],
+  "published_date": "2025-09-12",
+  "url": "https://www.cfr.org/articles/trump-shock-wasnt-least-not-yet",
+  "publisher": "Council on Foreign Relations",
+  "series": "Follow the Money",
+  "source_text": {
+   "path": "internal/extracted/2025-09-12_trump-shock-wasnt-least-not-yet.md",
+   "paragraph_count": 31,
+   "content_hash": "sha256:ea43515962eb7816ee5fd66d4cc531ffe09acf7aab2e64cc167954dd1fffacc4",
+   "revision": 1
+  },
+  "references": [
+   {
+    "id": "r001",
+    "paragraph_id": "p2",
+    "char_start": 0,
+    "char_end": 39,
+    "label": "They have generated enormous volatility",
+    "href": "https://www.nytimes.com/2025/09/04/business/economy/us-trade-imports-tariffs.html",
+    "kind": "hyperlink",
+    "placement": "body",
+    "source_key": "https://nytimes.com/2025/09/04/business/economy/us-trade-imports-tariffs.html",
+    "host": "nytimes.com",
+    "target_article_id": null
+   }
+  ],
+  "metadata_extension": {
+   "field_sources": {
+    "title": "frontmatter",
+    "authors": "frontmatter",
+    "published_date": "frontmatter",
+    "url": "frontmatter",
+    "publisher": "frontmatter",
+    "series": "frontmatter"
+   },
+   "references_status": "preserved",
+   "links_hash": "sha256:96bafc13035aa679c703594e89d92e3db17edfca64f14093733d606cbb8ea6dc",
+   "subtitle": "The “core” U.S. trade deficit is still expanding, thanks to strong electronics imports.",
+   "published_at": "2025-09-12T11:11:21-04:00",
+   "programs": [
+    "Follow the Money",
+    "Greenberg Center for Geoeconomics"
+   ],
+   "source_tags": [
+    "Economics",
+    "Trade"
+   ],
+   "license": "CC BY-NC-ND 4.0",
+   "section": "Article",
+   "doc_type": "AnalysisNewsArticle",
+   "language": "en",
+   "word_count": 1009,
+   "date_modified": "2025-09-12",
+   "retrieved_at": "2026-10-19T20:54:52Z",
+   "page_sha256": "5aa7087e3e0e26ae55acaf2dc6a5d2ad582f9a2c0bde976763b11b5c617fbfd2",
+   "figures": [
+    {
+     "title": "Imp-Exp gold pharma non 12m sum",
+     "src": "https://static.cfr.org/sites/default/files/styles/large_s/public/image/2025/09/Imp-Exp%20gold%20pharma%20non%2012m%20sum_1.png",
+     "after_paragraph": "p2"
+    },
+    {
+     "title": "Annualized Deficit",
+     "src": "https://static.cfr.org/sites/default/files/styles/large_s/public/image/2025/09/Annualized%20Deficit.png",
+     "after_paragraph": "p11"
+    },
+    {
+     "title": "Imp-Exp Gold Pharma",
+     "src": "https://static.cfr.org/sites/default/files/styles/large_s/public/image/2025/09/Imp-Exp%20Gold%20Pharma.png",
+     "after_paragraph": "p13"
+    },
+    {
+     "title": "Imports china taiwan",
+     "src": "https://static.cfr.org/sites/default/files/styles/large_s/public/image/2025/09/Imports%20china%20taiwan.png",
+     "after_paragraph": "p14"
+    },
+    {
+     "title": "Dutch Trade Chart",
+     "src": "https://static.cfr.org/sites/default/files/styles/large_s/public/image/2025/09/Dutch%20Trade%20Chart.png",
+     "after_paragraph": "p27"
+    }
+   ],
+   "source_record": "trump-shock-wasnt-least-not-yet"
+  }
+ },
+ "annotation": {
+  "annotated_at": "2026-11-09T21:12:02+00:00",
+  "ontology": {
+   "id": "setser_argument",
+   "version": 2
+  },
+  "facets_version": 1,
+  "pipeline_version": "8d03103",
+  "status": "needs_review",
+  "runs": [
+   {
+    "run_id": "claude-opus-5.5_boxes",
+    "stage": "boxes",
+    "method": "llm",
+    "model": "anthropic/claude-opus-5.5",
+    "parameters": {
+     "max_tokens": 16000,
+     "reasoning_effort": "medium"
+    },
+    "timestamp": "2026-11-09T21:12:02+00:00",
+    "calls": 1,
+    "cost_usd": 0.105
+   },
+   {
+    "run_id": "claude-opus-5.5_links",
+    "stage": "links",
+    "method": "llm",
+    "model": "anthropic/claude-opus-5.5",
+    "parameters": {
+     "max_tokens": 12000,
+     "reasoning_effort": "medium"
+    },
+    "timestamp": "2026-11-09T21:12:02+00:00",
+    "calls": 1,
+    "cost_usd": 0.0373
+   },
+   {
+    "run_id": "claude-opus-5.5_facets",
+    "stage": "facets",
+    "method": "llm",
+    "model": "anthropic/claude-opus-5.5",
+    "parameters": {
+     "max_tokens": 12000,
+     "reasoning_effort": "low"
+    },
+    "timestamp": "2026-11-09T21:12:02+00:00",
+    "calls": 1,
+    "cost_usd": 0.05848
+   }
+  ]
+ },
+ "summary": {
+  "central_question": "Why has the large shock to trade rules from Trump's tariffs produced only a small shock to core trade flows so far?",
+  "main_thesis": "The tariff shock to trade rules has been far larger than the shock to trade flows, at least so far.",
+  "argument_summary": null
+ },
+ "nodes": [
+  {
+   "id": "n001",
+   "legacy_id": "Q",
+   "role": "question",
+   "level": "L0",
+   "content": {
+    "text": "Why has the large shock to trade rules from Trump's tariffs produced only a small shock to core trade flows so far?",
+    "label": null,
+    "explicit": false,
+    "reason": "A shift in policy regime need not show up immediately in the quantities it is meant to affect."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p1",
+      "paragraph_sha256": "sha256:b15412a8e2074d9ec1b7fda39c52113a6311e26846404c132761e5bdad4e116b",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     },
+     {
+      "paragraph_id": "p2",
+      "paragraph_sha256": "sha256:486ee658e1a5f880579eb17007b3f16a4f0f0fb718362705e0f81de502317048",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     },
+     {
+      "paragraph_id": "p3",
+      "paragraph_sha256": "sha256:f10cd383f2347f10275be5acdb277da6f74f0d6250e0d469393064a35a1aaf7b",
+      "relation": "states",
+      "link_method": "llm_citation",
+      "anchor_grade": "excerpt",
+      "review_status": "pending",
+      "source_excerpt": "The impact of the tariffs core trade flows—and hence the global economy—has been modest, at least so far.",
+      "source_spans": [
+       {
+        "char_start": 129,
+        "char_end": 234
+       }
+      ]
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "import-volumes",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     },
+     {
+      "term": "tariff-rate",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [
+     {
+      "term": "us",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     }
+    ],
+    "bloc": [],
+    "instrument": [
+     {
+      "term": "tariffs",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "data_basis": []
+   },
+   "attributes": {},
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "n002",
+   "legacy_id": "C1",
+   "role": "intermediate_claim",
+   "level": "L4",
+   "content": {
+    "text": "The U.S. moved from low, bound, most-favoured-nation tariffs to high, unbound, country-specific tariffs with demanding rules of origin, a rejection of WTO rules for all trade.",
+    "label": null,
+    "explicit": true,
+    "reason": "Abandoning non-discrimination and binding commitments is a regime change, whatever the trade outcome."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p5",
+      "paragraph_sha256": "sha256:e887db5395a8ef4e5e17930447bbdfa86f1ed6e6bb028aa1eafc55bbdd22321f",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     },
+     {
+      "paragraph_id": "p6",
+      "paragraph_sha256": "sha256:76b16e8da0db92f04b9590f6555953bdf14a608f74699aaea829d99e95acb548",
+      "relation": "states",
+      "link_method": "llm_citation",
+      "anchor_grade": "excerpt",
+      "review_status": "pending",
+      "source_excerpt": "The U.S. has gone from low-bound tariffs",
+      "source_spans": [
+       {
+        "char_start": 0,
+        "char_end": 40
+       }
+      ]
+     },
+     {
+      "paragraph_id": "p7",
+      "paragraph_sha256": "sha256:262a0d0d919e94910cd0f6996fde89dc4cdb5f47d3e4930035a55ffad850cedb",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     },
+     {
+      "paragraph_id": "p8",
+      "paragraph_sha256": "sha256:8f241be20561434ca8ef081aa329b84b029335087d7be20acb6495051a900aeb",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     },
+     {
+      "paragraph_id": "p9",
+      "paragraph_sha256": "sha256:4b5486c816c1e8b583364834e6754a81d0769a3c48c89afea2562980c4369cc4",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     },
+     {
+      "paragraph_id": "p30",
+      "paragraph_sha256": "sha256:1accaa6f21553d021f72535b9c42558240a06784fd2797012e5f645684360b81",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "tariff-rate",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [
+     {
+      "term": "us",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     }
+    ],
+    "bloc": [],
+    "instrument": [
+     {
+      "term": "tariffs",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "data_basis": []
+   },
+   "attributes": {},
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "n003",
+   "legacy_id": "E1",
+   "role": "evidence_data",
+   "level": "L2",
+   "content": {
+    "text": "Tariff rates now range from 50% for India and Brazil to 10% for Australia and the UK, with zero for USMCA-compliant trade.",
+    "label": null,
+    "explicit": true,
+    "reason": "Divergent rates by origin for the same good measure the departure from equal treatment."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p7",
+      "paragraph_sha256": "sha256:262a0d0d919e94910cd0f6996fde89dc4cdb5f47d3e4930035a55ffad850cedb",
+      "relation": "states",
+      "link_method": "llm_citation",
+      "anchor_grade": "excerpt",
+      "review_status": "pending",
+      "source_excerpt": "Importers of the same good will pay different tariffs depending on the origin of the good (50 percent for India and Brazil, 30 percent for China",
+      "source_spans": [
+       {
+        "char_start": 219,
+        "char_end": 363
+       }
+      ]
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "tariff-rate",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [
+     {
+      "term": "us",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     }
+    ],
+    "bloc": [],
+    "instrument": [
+     {
+      "term": "tariffs",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "data_basis": []
+   },
+   "attributes": {},
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "n004",
+   "legacy_id": "E2",
+   "role": "evidence_data",
+   "level": "L2",
+   "content": {
+    "text": "Import swings exceeded those of COVID or Lehman, with the annualized deficit going from $2 trillion to $1 trillion and back to about $1.2 trillion, where it began.",
+    "label": null,
+    "explicit": true,
+    "reason": "Headline trade volatility must be checked against its starting point before it is read as a lasting change."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p10",
+      "paragraph_sha256": "sha256:5f14304904432b77f00ef09893e61b0567c86e4e50394e2148301bb4495041b6",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     },
+     {
+      "paragraph_id": "p11",
+      "paragraph_sha256": "sha256:8b9f251c6277de92e4ad4dad206ce977cbd7e5acd30a7995b6acfba7b1ff7eef",
+      "relation": "states",
+      "link_method": "llm_citation",
+      "anchor_grade": "excerpt",
+      "review_status": "pending",
+      "source_excerpt": "The annualized monthly trade deficit rose to a peak of $2 trillion in March before dipping to $1 trillion and then rebounding to $1.2 trillion in July",
+      "source_spans": [
+       {
+        "char_start": 0,
+        "char_end": 150
+       }
+      ]
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "goods-trade-balance",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     },
+     {
+      "term": "import-volumes",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [
+     {
+      "term": "us",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     }
+    ],
+    "bloc": [],
+    "instrument": [],
+    "data_basis": [
+     {
+      "term": "customs",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ]
+   },
+   "attributes": {},
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "n005",
+   "legacy_id": "M1",
+   "role": "mechanism",
+   "level": "L3",
+   "content": {
+    "text": "The headline volatility comes from pharmaceutical stockpiling and tax-driven trade, and from gold flows, not from core trade.",
+    "label": null,
+    "explicit": true,
+    "reason": "Tax-driven and financial flows can swamp trade aggregates without reflecting real demand."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p3",
+      "paragraph_sha256": "sha256:f10cd383f2347f10275be5acdb277da6f74f0d6250e0d469393064a35a1aaf7b",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     },
+     {
+      "paragraph_id": "p12",
+      "paragraph_sha256": "sha256:f51413bb8a276800c56dd14971b0fdbcaa510322c4c122acf4b48ad79a40cc63",
+      "relation": "states",
+      "link_method": "llm_citation",
+      "anchor_grade": "excerpt",
+      "review_status": "pending",
+      "source_excerpt": "pharmaceuticals (where trade is heavily distorted by tax and companies can easily front-run tariffs by stockpiling active ingredients) and gold.",
+      "source_spans": [
+       {
+        "char_start": 57,
+        "char_end": 201
+       }
+      ]
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "import-volumes",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     },
+     {
+      "term": "inventories",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [
+     {
+      "term": "us",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     }
+    ],
+    "bloc": [],
+    "instrument": [],
+    "data_basis": []
+   },
+   "attributes": {
+    "kind": "distortion"
+   },
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "n006",
+   "legacy_id": "SCP",
+   "role": "scope_choice",
+   "level": "L1B",
+   "content": {
+    "text": "Core trade is measured excluding pharmaceuticals and gold, and on that basis it looks normal.",
+    "label": null,
+    "explicit": true,
+    "reason": "Strip out distorted categories to see the underlying trend."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p13",
+      "paragraph_sha256": "sha256:1497b09ff61740496d2d993f338a5a61694e7a7dab8a883bb08952a774013ccf",
+      "relation": "states",
+      "link_method": "llm_citation",
+      "anchor_grade": "excerpt",
+      "review_status": "pending",
+      "source_excerpt": "Take out pharmaceuticals and gold and U.S. trade looks, well, rather normal.",
+      "source_spans": [
+       {
+        "char_start": 0,
+        "char_end": 76
+       }
+      ]
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "import-volumes",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [
+     {
+      "term": "us",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     }
+    ],
+    "bloc": [],
+    "instrument": [],
+    "data_basis": [
+     {
+      "term": "customs",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ]
+   },
+   "attributes": {},
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "n007",
+   "legacy_id": "P2",
+   "role": "hidden_assumption",
+   "level": "L1",
+   "content": {
+    "text": "Gold and pharmaceutical flows say little about real economic activity or global demand, so leaving them out reveals the true tariff effect.",
+    "label": null,
+    "explicit": false,
+    "reason": "Excluding categories is valid only if they are noise with respect to the question asked."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p13",
+      "paragraph_sha256": "sha256:1497b09ff61740496d2d993f338a5a61694e7a7dab8a883bb08952a774013ccf",
+      "relation": "presupposes",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "import-volumes",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [
+     {
+      "term": "us",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     }
+    ],
+    "bloc": [],
+    "instrument": [],
+    "data_basis": []
+   },
+   "attributes": {},
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "n008",
+   "legacy_id": "E3",
+   "role": "evidence_data",
+   "level": "L2",
+   "content": {
+    "text": "Imports from China fell but imports from Taiwan and Southeast Asia soared, leaving total imports from Asia about flat.",
+    "label": null,
+    "explicit": true,
+    "reason": "Bilateral declines can be offset by diversion to other sources."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p14",
+      "paragraph_sha256": "sha256:2f4abb297ab8f8f44dd1aaad33f428e6f2cd35e0ee2dc0e1181bf2419c87a261",
+      "relation": "states",
+      "link_method": "llm_citation",
+      "anchor_grade": "excerpt",
+      "review_status": "pending",
+      "source_excerpt": "imports from China (where hefty tariffs were expected) tanked. But imports from Taiwan and Southeast Asia",
+      "source_spans": [
+       {
+        "char_start": 12,
+        "char_end": 117
+       }
+      ]
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "bilateral-trade-flows",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [
+     {
+      "term": "us",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     },
+     {
+      "term": "china",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "counterpart"
+     }
+    ],
+    "bloc": [],
+    "instrument": [],
+    "data_basis": [
+     {
+      "term": "customs",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ]
+   },
+   "attributes": {},
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": [
+     "passages: `E3`: the team's passage linker anchors it to p19 (shared: southeast), which the box does not cite"
+    ]
+   }
+  },
+  {
+   "id": "n009",
+   "legacy_id": "M2",
+   "role": "mechanism",
+   "level": "L3",
+   "content": {
+    "text": "Bilateral tariffs mainly reroute trade through relocated final assembly rather than reducing total imports or Chinese content.",
+    "label": null,
+    "explicit": true,
+    "reason": "Discriminatory tariffs invite trade diversion when rules of origin are loose."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p14",
+      "paragraph_sha256": "sha256:2f4abb297ab8f8f44dd1aaad33f428e6f2cd35e0ee2dc0e1181bf2419c87a261",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     },
+     {
+      "paragraph_id": "p22",
+      "paragraph_sha256": "sha256:d96c1ceecacab6a4b5db5760836afbd46d728b4541f89117f4da30f563c9c92d",
+      "relation": "states",
+      "link_method": "llm_citation",
+      "anchor_grade": "excerpt",
+      "review_status": "pending",
+      "source_excerpt": "firms shifted final assembly to southeast Asia to get around the bilateral tariffs",
+      "source_spans": [
+       {
+        "char_start": 96,
+        "char_end": 178
+       }
+      ]
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "bilateral-trade-flows",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [
+     {
+      "term": "us",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     }
+    ],
+    "bloc": [
+     {
+      "term": "southeast-asia",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "counterpart"
+     }
+    ],
+    "instrument": [
+     {
+      "term": "tariffs",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "data_basis": []
+   },
+   "attributes": {
+    "kind": "economic"
+   },
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": [
+     "links: `M2` supports `X` joins L3→L6, which no hand-drawn supports link does"
+    ]
+   }
+  },
+  {
+   "id": "n010",
+   "legacy_id": "E4",
+   "role": "evidence_data",
+   "level": "L2",
+   "content": {
+    "text": "Tariffs have slowed auto imports, and importers waiting for tariff relief will depress them further in September.",
+    "label": null,
+    "explicit": true,
+    "reason": "Expected changes in tariffs shift the timing of imports."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p15",
+      "paragraph_sha256": "sha256:e5aebe9fd10158c18f6190efbaea52a80c3857913847cc20c4ad6c2286fe5ad6",
+      "relation": "states",
+      "link_method": "llm_citation",
+      "anchor_grade": "excerpt",
+      "review_status": "pending",
+      "source_excerpt": "expect a big dip in September as European and Japanese importers wait for the finalization of their “deals”",
+      "source_spans": [
+       {
+        "char_start": 65,
+        "char_end": 172
+       }
+      ]
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "import-volumes",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [
+     {
+      "term": "us",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     }
+    ],
+    "bloc": [],
+    "instrument": [
+     {
+      "term": "tariffs",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "data_basis": []
+   },
+   "attributes": {},
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "n011",
+   "legacy_id": "M3",
+   "role": "mechanism",
+   "level": "L3",
+   "content": {
+    "text": "An AI data-center investment boom has pushed electronics imports up, with imports from Taiwan more than 50% higher year to date.",
+    "label": null,
+    "explicit": true,
+    "reason": "Strong domestic investment demand can outweigh tariff price effects on imports."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p16",
+      "paragraph_sha256": "sha256:baefe41776b4854f8ed26b1118b3d984e26d336d764dc96a36f9f253864595d3",
+      "relation": "states",
+      "link_method": "llm_citation",
+      "anchor_grade": "excerpt",
+      "review_status": "pending",
+      "source_excerpt": "imports of electronics are up substantially (imports from Taiwan are up over 50 percent YTD) on the back of booming investment in data centers",
+      "source_spans": [
+       {
+        "char_start": 4,
+        "char_end": 146
+       }
+      ]
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "investment-capex",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     },
+     {
+      "term": "import-volumes",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [
+     {
+      "term": "us",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     },
+     {
+      "term": "taiwan",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "counterpart"
+     }
+    ],
+    "bloc": [],
+    "instrument": [],
+    "data_basis": []
+   },
+   "attributes": {
+    "kind": "economic"
+   },
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "n012",
+   "legacy_id": "C2",
+   "role": "intermediate_claim",
+   "level": "L4",
+   "content": {
+    "text": "Global trade has held up well despite the U.S. flouting the rules.",
+    "label": null,
+    "explicit": true,
+    "reason": "Aggregate trade resilience is judged by core flows, not by headline swings."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p17",
+      "paragraph_sha256": "sha256:b47fc68461d88e2ef603dc1adafe05c4cd9ca393050666c1b705642f09962cf9",
+      "relation": "states",
+      "link_method": "llm_citation",
+      "anchor_grade": "excerpt",
+      "review_status": "pending",
+      "source_excerpt": "So global trade has actually held up rather well even though the world’s largest economy",
+      "source_spans": [
+       {
+        "char_start": 0,
+        "char_end": 88
+       }
+      ]
+     },
+     {
+      "paragraph_id": "p26",
+      "paragraph_sha256": "sha256:30a81b4beaffa049594f65babe83c796b0ca9e77d6188b62285fcefa15865682",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     },
+     {
+      "paragraph_id": "p27",
+      "paragraph_sha256": "sha256:add6fb7a2363e0973ee301fda177d21edac32fb262642cbd8777abc02fc3490a",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "trade-openness",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [],
+    "bloc": [
+     {
+      "term": "global",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     }
+    ],
+    "instrument": [],
+    "data_basis": []
+   },
+   "attributes": {},
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "n013",
+   "legacy_id": "C3",
+   "role": "intermediate_claim",
+   "level": "L4",
+   "content": {
+    "text": "Record U.S. tariff revenue signals that imports continue and Americans are bearing the tariff.",
+    "label": null,
+    "explicit": true,
+    "reason": "Tariff revenue is the rate times the volume, so high revenue means volumes have not collapsed."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p4",
+      "paragraph_sha256": "sha256:78c5c403383fc565af4c008d86940a0c4e8c86a83d9a7b3ae67f901e70fa43c4",
+      "relation": "states",
+      "link_method": "llm_citation",
+      "anchor_grade": "excerpt",
+      "review_status": "pending",
+      "source_excerpt": "the surge in revenue implies that Americans are continuing to import and just paying the tariff.",
+      "source_spans": [
+       {
+        "char_start": 109,
+        "char_end": 205
+       }
+      ]
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "tariff-revenue",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [
+     {
+      "term": "us",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     }
+    ],
+    "bloc": [],
+    "instrument": [
+     {
+      "term": "tariffs",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "data_basis": []
+   },
+   "attributes": {},
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "n014",
+   "legacy_id": "P1",
+   "role": "stated_assumption",
+   "level": "L1",
+   "content": {
+    "text": "The import response to a broad price change such as an exchange rate move is about 0.3 to 0.4.",
+    "label": null,
+    "explicit": true,
+    "reason": "A broad tariff acts on import prices much like a currency depreciation."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p23",
+      "paragraph_sha256": "sha256:ea342d854152531cec05ccb4a4bfa4a2266b168934a593ace01fce1f10250108",
+      "relation": "states",
+      "link_method": "llm_citation",
+      "anchor_grade": "excerpt",
+      "review_status": "pending",
+      "source_excerpt": "The import elasticity for exchange rate moves is closer to 0.3 or 0.4",
+      "source_spans": [
+       {
+        "char_start": 0,
+        "char_end": 69
+       }
+      ]
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "trade-elasticity",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [],
+    "bloc": [],
+    "instrument": [],
+    "data_basis": [
+     {
+      "term": "academic-econometrics",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ]
+   },
+   "attributes": {},
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": [
+     "facets: `setser_2025-09-12_trump-shock-that-wasnt#P1` where_subject empty - every claim needs a country or a bloc (assignment.requires_one_of) - needs review"
+    ]
+   }
+  },
+  {
+   "id": "n015",
+   "legacy_id": "X",
+   "role": "opposing_view",
+   "level": "L6",
+   "content": {
+    "text": "The elasticity of about 2 seen in the first-term China tariffs overstates the effect of a global tariff, because it reflects diversion.",
+    "label": null,
+    "explicit": true,
+    "reason": "Elasticities estimated from bilateral shocks include substitution that is unavailable when tariffs are universal."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p21",
+      "paragraph_sha256": "sha256:2a23ff3f7a7fe073d079bbcae0b24ad05caf302de16bac728faa5089eec975b7",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     },
+     {
+      "paragraph_id": "p22",
+      "paragraph_sha256": "sha256:d96c1ceecacab6a4b5db5760836afbd46d728b4541f89117f4da30f563c9c92d",
+      "relation": "states",
+      "link_method": "llm_citation",
+      "anchor_grade": "excerpt",
+      "review_status": "pending",
+      "source_excerpt": "the bilateral tariff elasticity of 2 is too high for a global tariff increase",
+      "source_spans": [
+       {
+        "char_start": 4,
+        "char_end": 81
+       }
+      ]
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "trade-elasticity",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     },
+     {
+      "term": "bilateral-trade-flows",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [
+     {
+      "term": "us",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     },
+     {
+      "term": "china",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "counterpart"
+     }
+    ],
+    "bloc": [],
+    "instrument": [
+     {
+      "term": "tariffs",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "data_basis": [
+     {
+      "term": "academic-econometrics",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ]
+   },
+   "attributes": {},
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": [
+     "links: `E5` supports `X` joins L2→L6, which no hand-drawn supports link does",
+     "links: `M2` supports `X` joins L3→L6, which no hand-drawn supports link does"
+    ]
+   }
+  },
+  {
+   "id": "n016",
+   "legacy_id": "E5",
+   "role": "evidence_data",
+   "level": "L2",
+   "content": {
+    "text": "First-term tariffs averaging 15% cut U.S.-China trade by about 30%, and trade under 25% tariffs fell by nearly 50%.",
+    "label": null,
+    "explicit": true,
+    "reason": "Past episodes calibrate expected tariff responses."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p21",
+      "paragraph_sha256": "sha256:2a23ff3f7a7fe073d079bbcae0b24ad05caf302de16bac728faa5089eec975b7",
+      "relation": "states",
+      "link_method": "llm_citation",
+      "anchor_grade": "excerpt",
+      "review_status": "pending",
+      "source_excerpt": "The roughly 15 percent average tariff increase on trade with China in trump’s first term reduced trade by roughly 30 percent",
+      "source_spans": [
+       {
+        "char_start": 0,
+        "char_end": 124
+       }
+      ]
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "bilateral-trade-flows",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [
+     {
+      "term": "us",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     },
+     {
+      "term": "china",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "counterpart"
+     }
+    ],
+    "bloc": [],
+    "instrument": [
+     {
+      "term": "tariffs",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "data_basis": []
+   },
+   "attributes": {},
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": [
+     "links: `E5` supports `X` joins L2→L6, which no hand-drawn supports link does",
+     "passages: `E5`: the team's passage linker anchors it to p7 (shared: 30percent 50percent), which the box does not cite"
+    ]
+   }
+  },
+  {
+   "id": "n017",
+   "legacy_id": "C4",
+   "role": "intermediate_claim",
+   "level": "L4",
+   "content": {
+    "text": "A roughly 15% tariff wall should cut imports by 5 to 6%, taking non-oil imports from about 10% to about 9.5% of GDP: meaningful, but far smaller than COVID or the financial crisis.",
+    "label": null,
+    "explicit": true,
+    "reason": "The expected volume effect is the price change times the elasticity."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p20",
+      "paragraph_sha256": "sha256:16cd90b916c6327a2f08daeceba206e42330a9d4aa8aa20830866154052eb43d",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     },
+     {
+      "paragraph_id": "p23",
+      "paragraph_sha256": "sha256:ea342d854152531cec05ccb4a4bfa4a2266b168934a593ace01fce1f10250108",
+      "relation": "states",
+      "link_method": "llm_citation",
+      "anchor_grade": "excerpt",
+      "review_status": "pending",
+      "source_excerpt": "so a 15 percent tariff might be expected to reduce impacts by 5-6 percent. That is a year or two of normal import volume growth",
+      "source_spans": [
+       {
+        "char_start": 70,
+        "char_end": 197
+       }
+      ]
+     },
+     {
+      "paragraph_id": "p24",
+      "paragraph_sha256": "sha256:182eb4f170e5c47e1cf94c6359e4fbad06136784b34fefecb83463c0efa78c02",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "import-volumes",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     },
+     {
+      "term": "trade-elasticity",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [
+     {
+      "term": "us",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     }
+    ],
+    "bloc": [],
+    "instrument": [
+     {
+      "term": "tariffs",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "data_basis": []
+   },
+   "attributes": {},
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "n018",
+   "legacy_id": "M4",
+   "role": "mechanism",
+   "level": "L3",
+   "content": {
+    "text": "Foreign exporters can offset lost U.S. sales by taking market share from U.S. exporters burdened by tariffed inputs.",
+    "label": null,
+    "explicit": true,
+    "reason": "Tariffs on inputs tax a country's own exports."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p23",
+      "paragraph_sha256": "sha256:ea342d854152531cec05ccb4a4bfa4a2266b168934a593ace01fce1f10250108",
+      "relation": "states",
+      "link_method": "llm_citation",
+      "anchor_grade": "excerpt",
+      "review_status": "pending",
+      "source_excerpt": "Some countries will be able to offset reduced U.S. sales by taking market share from US exports",
+      "source_spans": [
+       {
+        "char_start": 270,
+        "char_end": 365
+       }
+      ]
+     },
+     {
+      "paragraph_id": "p31",
+      "paragraph_sha256": "sha256:da1997b7b7b3a21a28f7a22a0cb6470ebf5391b339cde862f382b63ea868b2f1",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "export-volumes",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [
+     {
+      "term": "us",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     }
+    ],
+    "bloc": [],
+    "instrument": [
+     {
+      "term": "tariffs",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "data_basis": []
+   },
+   "attributes": {
+    "kind": "economic"
+   },
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "n019",
+   "legacy_id": "QF",
+   "role": "caveat",
+   "level": "L6",
+   "content": {
+    "text": "Unlike a tariff, a real depreciation also raises exports, because export price elasticities are higher.",
+    "label": null,
+    "explicit": true,
+    "reason": "The analogy between a tariff and a depreciation holds only on the import side."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p31",
+      "paragraph_sha256": "sha256:da1997b7b7b3a21a28f7a22a0cb6470ebf5391b339cde862f382b63ea868b2f1",
+      "relation": "states",
+      "link_method": "llm_citation",
+      "anchor_grade": "excerpt",
+      "review_status": "pending",
+      "source_excerpt": "An actual exchange rate depreciation increases exports as well as lowering imports",
+      "source_spans": [
+       {
+        "char_start": 3,
+        "char_end": 85
+       }
+      ]
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "real-exchange-rate",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     },
+     {
+      "term": "trade-elasticity",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [
+     {
+      "term": "us",
+      "assignment_source": "inherited",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     }
+    ],
+    "bloc": [],
+    "instrument": [],
+    "data_basis": []
+   },
+   "attributes": {},
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": [
+     "facets: `setser_2025-09-12_trump-shock-that-wasnt#QF` where_subject empty - every claim needs a country or a bloc (assignment.requires_one_of) - needs review",
+     "facets: `setser_2025-09-12_trump-shock-that-wasnt#QF` inherited its where-axis value from `C4` along `qualified_by` (['us']) - check this one"
+    ]
+   }
+  },
+  {
+   "id": "n020",
+   "legacy_id": "E6",
+   "role": "evidence_data",
+   "level": "L2",
+   "content": {
+    "text": "U.S. imports are roughly on trend, with only slight front-running into Q1, and high-frequency global trade measures have not slowed.",
+    "label": null,
+    "explicit": true,
+    "reason": "Compare the actual data with the predicted effect."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p25",
+      "paragraph_sha256": "sha256:0f5d1938d7ae7e590e486c8a9e6df6dc4e48ff91fc7aac4073249b65c2f30455",
+      "relation": "states",
+      "link_method": "llm_citation",
+      "anchor_grade": "excerpt",
+      "review_status": "pending",
+      "source_excerpt": "So far at least it is hard to see strong evidence of this kind of impact.",
+      "source_spans": [
+       {
+        "char_start": 0,
+        "char_end": 73
+       }
+      ]
+     },
+     {
+      "paragraph_id": "p26",
+      "paragraph_sha256": "sha256:30a81b4beaffa049594f65babe83c796b0ca9e77d6188b62285fcefa15865682",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     },
+     {
+      "paragraph_id": "p27",
+      "paragraph_sha256": "sha256:add6fb7a2363e0973ee301fda177d21edac32fb262642cbd8777abc02fc3490a",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "import-volumes",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     },
+     {
+      "term": "inventories",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [
+     {
+      "term": "us",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     }
+    ],
+    "bloc": [],
+    "instrument": [],
+    "data_basis": [
+     {
+      "term": "customs",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ]
+   },
+   "attributes": {},
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "n021",
+   "legacy_id": "K",
+   "role": "main_claim",
+   "level": "L5",
+   "content": {
+    "text": "The tariff shock to trade rules has been far larger than the shock to trade flows, at least so far.",
+    "label": null,
+    "explicit": true,
+    "reason": "Judge a policy shock by its measured real effects as well as its legal form."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p3",
+      "paragraph_sha256": "sha256:f10cd383f2347f10275be5acdb277da6f74f0d6250e0d469393064a35a1aaf7b",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     },
+     {
+      "paragraph_id": "p28",
+      "paragraph_sha256": "sha256:d3254eb2f29ad473922b537debc2bcb2679d865de6687a6b478c796533ce2768",
+      "relation": "states",
+      "link_method": "llm_citation",
+      "anchor_grade": "excerpt",
+      "review_status": "pending",
+      "source_excerpt": "The liberation day shock to the trade rules was thus bigger than the shock to overall trade flows.",
+      "source_spans": [
+       {
+        "char_start": 0,
+        "char_end": 98
+       }
+      ]
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "import-volumes",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     },
+     {
+      "term": "tariff-rate",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [
+     {
+      "term": "us",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     }
+    ],
+    "bloc": [],
+    "instrument": [
+     {
+      "term": "tariffs",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "data_basis": []
+   },
+   "attributes": {
+    "claim_type": "single"
+   },
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "n022",
+   "legacy_id": "DF",
+   "role": "deferred_question",
+   "level": "L6",
+   "content": {
+    "text": "The fall data, after the August tariff hikes, should show a larger impact than is visible now.",
+    "label": null,
+    "explicit": true,
+    "reason": "Tariff effects arrive with a lag and must be reassessed as data comes in."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p18",
+      "paragraph_sha256": "sha256:da296c9cc02b260e864bd1c3521cdfc1d5bd81fa96d0025d8fb708bfe1325155",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     },
+     {
+      "paragraph_id": "p19",
+      "paragraph_sha256": "sha256:5a164eca78c655d18a2b72f52fee026a324391693c76e43e9901230e06117a92",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     },
+     {
+      "paragraph_id": "p29",
+      "paragraph_sha256": "sha256:f042cd072c68e0261d9702b82f5168b550627b3b41a315b0ff2043317dd2cc96",
+      "relation": "states",
+      "link_method": "llm_citation",
+      "anchor_grade": "excerpt",
+      "review_status": "pending",
+      "source_excerpt": "Let’s though see what judgement day brings, and what the data for the fall shows—there should be more of an impact than is now apparent.",
+      "source_spans": [
+       {
+        "char_start": 0,
+        "char_end": 136
+       }
+      ]
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "import-volumes",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [
+     {
+      "term": "us",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     }
+    ],
+    "bloc": [],
+    "instrument": [
+     {
+      "term": "tariffs",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "data_basis": []
+   },
+   "attributes": {},
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "n023",
+   "legacy_id": "QF2",
+   "role": "caveat",
+   "level": "L6",
+   "content": {
+    "text": "The verdict may not hold, because the August deals raised tariffs sharply and their effects are not yet in the data.",
+    "label": null,
+    "explicit": true,
+    "reason": "Recent policy changes are not yet captured in current data."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p18",
+      "paragraph_sha256": "sha256:da296c9cc02b260e864bd1c3521cdfc1d5bd81fa96d0025d8fb708bfe1325155",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     },
+     {
+      "paragraph_id": "p19",
+      "paragraph_sha256": "sha256:5a164eca78c655d18a2b72f52fee026a324391693c76e43e9901230e06117a92",
+      "relation": "states",
+      "link_method": "llm_citation",
+      "anchor_grade": "excerpt",
+      "review_status": "pending",
+      "source_excerpt": "The August deals and letters resulted in hefty tariff increases for many countries (tariffs on Southeast Asia doubled relative to April).",
+      "source_spans": [
+       {
+        "char_start": 0,
+        "char_end": 137
+       }
+      ]
+     },
+     {
+      "paragraph_id": "p20",
+      "paragraph_sha256": "sha256:16cd90b916c6327a2f08daeceba206e42330a9d4aa8aa20830866154052eb43d",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "tariff-rate",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     },
+     {
+      "term": "import-volumes",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [
+     {
+      "term": "us",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     }
+    ],
+    "bloc": [],
+    "instrument": [
+     {
+      "term": "tariffs",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "data_basis": []
+   },
+   "attributes": {},
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "n024",
+   "legacy_id": "P3",
+   "role": "hidden_assumption",
+   "level": "L1",
+   "content": {
+    "text": "A tariff left in place is passed through to import prices and persists long enough to change trade volumes.",
+    "label": null,
+    "explicit": false,
+    "reason": "Elasticity-based forecasts require that the price change persists and reaches buyers."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p20",
+      "paragraph_sha256": "sha256:16cd90b916c6327a2f08daeceba206e42330a9d4aa8aa20830866154052eb43d",
+      "relation": "presupposes",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     },
+     {
+      "paragraph_id": "p23",
+      "paragraph_sha256": "sha256:ea342d854152531cec05ccb4a4bfa4a2266b168934a593ace01fce1f10250108",
+      "relation": "presupposes",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "tariff-rate",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     },
+     {
+      "term": "import-volumes",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [
+     {
+      "term": "us",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     }
+    ],
+    "bloc": [],
+    "instrument": [
+     {
+      "term": "tariffs",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "data_basis": []
+   },
+   "attributes": {},
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  }
+ ],
+ "edges": [
+  {
+   "id": "e001",
+   "from": "n001",
+   "to": "n014",
+   "relation": "frames",
+   "sign": 0,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e002",
+   "from": "n001",
+   "to": "n007",
+   "relation": "frames",
+   "sign": 0,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e003",
+   "from": "n001",
+   "to": "n024",
+   "relation": "frames",
+   "sign": 0,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e004",
+   "from": "n003",
+   "to": "n002",
+   "relation": "supports",
+   "sign": 1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e005",
+   "from": "n004",
+   "to": "n005",
+   "relation": "supports",
+   "sign": 1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e006",
+   "from": "n006",
+   "to": "n008",
+   "relation": "bounds",
+   "sign": 1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e007",
+   "from": "n006",
+   "to": "n020",
+   "relation": "bounds",
+   "sign": 1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e008",
+   "from": "n007",
+   "to": "n012",
+   "relation": "licenses",
+   "sign": 1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e009",
+   "from": "n007",
+   "to": "n004",
+   "relation": "frames",
+   "sign": 0,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e010",
+   "from": "n005",
+   "to": "n012",
+   "relation": "supports",
+   "sign": 1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e011",
+   "from": "n008",
+   "to": "n009",
+   "relation": "supports",
+   "sign": 1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e012",
+   "from": "n009",
+   "to": "n012",
+   "relation": "supports",
+   "sign": 1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e013",
+   "from": "n010",
+   "to": "n017",
+   "relation": "supports",
+   "sign": 1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e014",
+   "from": "n011",
+   "to": "n012",
+   "relation": "supports",
+   "sign": 1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e015",
+   "from": "n020",
+   "to": "n012",
+   "relation": "supports",
+   "sign": 1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e016",
+   "from": "n013",
+   "to": "n012",
+   "relation": "supports",
+   "sign": 1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e017",
+   "from": "n002",
+   "to": "n021",
+   "relation": "supports",
+   "sign": 1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e018",
+   "from": "n012",
+   "to": "n021",
+   "relation": "supports",
+   "sign": 1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e019",
+   "from": "n014",
+   "to": "n017",
+   "relation": "licenses",
+   "sign": 1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e020",
+   "from": "n024",
+   "to": "n017",
+   "relation": "licenses",
+   "sign": 1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e021",
+   "from": "n014",
+   "to": "n016",
+   "relation": "frames",
+   "sign": 0,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e022",
+   "from": "n016",
+   "to": "n015",
+   "relation": "supports",
+   "sign": 1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": [
+     "`E5` supports `X` joins L2→L6, which no hand-drawn supports link does"
+    ]
+   }
+  },
+  {
+   "id": "e023",
+   "from": "n009",
+   "to": "n015",
+   "relation": "supports",
+   "sign": 1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": [
+     "`M2` supports `X` joins L3→L6, which no hand-drawn supports link does"
+    ]
+   }
+  },
+  {
+   "id": "e024",
+   "from": "n018",
+   "to": "n017",
+   "relation": "supports",
+   "sign": 1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e025",
+   "from": "n017",
+   "to": "n019",
+   "relation": "qualified_by",
+   "sign": -1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e026",
+   "from": "n017",
+   "to": "n021",
+   "relation": "supports",
+   "sign": 1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e027",
+   "from": "n021",
+   "to": "n023",
+   "relation": "qualified_by",
+   "sign": -1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e028",
+   "from": "n021",
+   "to": "n022",
+   "relation": "defers",
+   "sign": 0,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  }
+ ],
+ "validation": {
+  "status": "needs_review",
+  "checks": [
+   "boxes: 24, fix rounds 0, re-asks 0, gaps left none",
+   "links: 28, fix rounds 0, re-asks 0, gaps left none, dropped none",
+   "passage linker agreement: {'anchored': 10, 'anchored_cited': 8, 'candidate': 17, 'candidate_cited': 15}"
+  ],
+  "review_items": [
+   "links: `E5` supports `X` joins L2→L6, which no hand-drawn supports link does",
+   "links: `M2` supports `X` joins L3→L6, which no hand-drawn supports link does",
+   "facets: `setser_2025-09-12_trump-shock-that-wasnt#P1` where_subject empty - every claim needs a country or a bloc (assignment.requires_one_of) - needs review",
+   "facets: `setser_2025-09-12_trump-shock-that-wasnt#QF` where_subject empty - every claim needs a country or a bloc (assignment.requires_one_of) - needs review",
+   "facets: `setser_2025-09-12_trump-shock-that-wasnt#QF` inherited its where-axis value from `C4` along `qualified_by` (['us']) - check this one",
+   "passages: `E3`: the team's passage linker anchors it to p19 (shared: southeast), which the box does not cite",
+   "passages: `E5`: the team's passage linker anchors it to p7 (shared: 30percent 50percent), which the box does not cite"
+  ]
+ },
+ "extensions": {}
+}

@@ -1,0 +1,1204 @@
+{
+  "schema_version": "source-record-0.1",
+  "article": {
+    "id": "the-confidence-machine",
+    "title": "The Confidence Machine",
+    "authors": [
+      "David Fishman"
+    ],
+    "published_date": "2026-10-03",
+    "url": "https://www.feelingthestones.com/p/the-confidence-machine",
+    "publisher": "Crossing the River by Feeling the Stones",
+    "series": null,
+    "source_text": {
+      "path": "internal/extracted/2026-10-03_the-confidence-machine.md",
+      "paragraph_count": 126,
+      "content_hash": "sha256:8ac68c0f45e9fd57e9996deea3cc276730c236ffda304970075cf6b3336a6ac4",
+      "revision": 2
+    },
+    "references": [
+      {
+        "id": "r001",
+        "paragraph_id": "p47",
+        "char_start": 367,
+        "char_end": 377,
+        "label": "RMB 35,000",
+        "href": "https://www.stats.gov.cn/english/PressRelease/202201/t20220118_1826649.html",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://stats.gov.cn/english/pressrelease/202201/t20220118_1826649.html",
+        "host": "stats.gov.cn",
+        "target_article_id": null
+      },
+      {
+        "id": "r002",
+        "paragraph_id": "p47",
+        "char_start": 391,
+        "char_end": 401,
+        "label": "RMB 43,000",
+        "href": "https://www.stats.gov.cn/english/PressRelease/202601/t20260120_1962356.html",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://stats.gov.cn/english/pressrelease/202601/t20260120_1962356.html",
+        "host": "stats.gov.cn",
+        "target_article_id": null
+      },
+      {
+        "id": "r003",
+        "paragraph_id": "p56",
+        "char_start": 132,
+        "char_end": 135,
+        "label": "has",
+        "href": "https://www.ceicdata.com/en/china/final-account-general-public-budget-revenue--expenditure-national/government-expenditure-social-security-and-employment",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://ceicdata.com/en/china/final-account-general-public-budget-revenue--expenditure-national/government-expenditure-social-security-and-employment",
+        "host": "ceicdata.com",
+        "target_article_id": null
+      },
+      {
+        "id": "r004",
+        "paragraph_id": "p56",
+        "char_start": 136,
+        "char_end": 140,
+        "label": "seen",
+        "href": "https://english.www.gov.cn/archive/statistics/202507/25/content_WS688325f4c6d0868f4e8f46da.html",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://english.www.gov.cn/archive/statistics/202507/25/content_ws688325f4c6d0868f4e8f46da.html",
+        "host": "english.www.gov.cn",
+        "target_article_id": null
+      },
+      {
+        "id": "r005",
+        "paragraph_id": "p56",
+        "char_start": 141,
+        "char_end": 152,
+        "label": "significant",
+        "href": "https://english.www.gov.cn/news/202507/24/content_WS6881c72cc6d0868f4e8f463b.html",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://english.www.gov.cn/news/202507/24/content_ws6881c72cc6d0868f4e8f463b.html",
+        "host": "english.www.gov.cn",
+        "target_article_id": null
+      },
+      {
+        "id": "r006",
+        "paragraph_id": "p56",
+        "char_start": 153,
+        "char_end": 162,
+        "label": "expansion",
+        "href": "https://link.springer.com/article/10.1186/s12913-022-08602-1",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://link.springer.com/article/10.1186/s12913-022-08602-1",
+        "host": "link.springer.com",
+        "target_article_id": null
+      },
+      {
+        "id": "r007",
+        "paragraph_id": "p76",
+        "char_start": 342,
+        "char_end": 350,
+        "label": "Everyone",
+        "href": "https://www.rba.gov.au/publications/bulletin/2015/mar/5.html",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://rba.gov.au/publications/bulletin/2015/mar/5.html",
+        "host": "rba.gov.au",
+        "target_article_id": null
+      },
+      {
+        "id": "r008",
+        "paragraph_id": "p76",
+        "char_start": 351,
+        "char_end": 357,
+        "label": "seemed",
+        "href": "https://finance.yahoo.com/news/chinas-property-market-unravel-2015-034849575.html",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://finance.yahoo.com/news/chinas-property-market-unravel-2015-034849575.html",
+        "host": "finance.yahoo.com",
+        "target_article_id": null
+      },
+      {
+        "id": "r009",
+        "paragraph_id": "p76",
+        "char_start": 358,
+        "char_end": 366,
+        "label": "to agree",
+        "href": "https://www.chinadaily.com.cn/bizchina//2015-03/06/content_19737858.htm",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://chinadaily.com.cn/bizchina//2015-03/06/content_19737858.htm",
+        "host": "chinadaily.com.cn",
+        "target_article_id": null
+      },
+      {
+        "id": "r010",
+        "paragraph_id": "p111",
+        "char_start": 582,
+        "char_end": 592,
+        "label": "this piece",
+        "href": "https://crossingtheriver.substack.com/p/did-li-keqiang-really-say-600-million",
+        "kind": "hyperlink",
+        "placement": "footnote",
+        "source_key": "https://crossingtheriver.substack.com/p/did-li-keqiang-really-say-600-million",
+        "host": "crossingtheriver.substack.com",
+        "target_article_id": null
+      },
+      {
+        "id": "r011",
+        "paragraph_id": "p112",
+        "char_start": 152,
+        "char_end": 221,
+        "label": "",
+        "href": "https://wenku.baidu.com/view/58719ccc41323968011ca300a6c30c225801f0d5",
+        "kind": "bare_url",
+        "placement": "footnote",
+        "source_key": "https://wenku.baidu.com/view/58719ccc41323968011ca300a6c30c225801f0d5",
+        "host": "wenku.baidu.com",
+        "target_article_id": null
+      },
+      {
+        "id": "r012",
+        "paragraph_id": "p114",
+        "char_start": 141,
+        "char_end": 210,
+        "label": "",
+        "href": "https://finance.sina.com.cn/roll/2026-01-19/doc-inhhuvac8126827.shtml",
+        "kind": "bare_url",
+        "placement": "footnote",
+        "source_key": "https://finance.sina.com.cn/roll/2026-01-19/doc-inhhuvac8126827.shtml",
+        "host": "finance.sina.com.cn",
+        "target_article_id": null
+      },
+      {
+        "id": "r013",
+        "paragraph_id": "p115",
+        "char_start": 19,
+        "char_end": 135,
+        "label": "",
+        "href": "https://www.piie.com/publications/policy-briefs/2025/does-weak-social-safety-net-hold-back-private-consumption-china",
+        "kind": "bare_url",
+        "placement": "footnote",
+        "source_key": "https://piie.com/publications/policy-briefs/2025/does-weak-social-safety-net-hold-back-private-consumption-china",
+        "host": "piie.com",
+        "target_article_id": null
+      },
+      {
+        "id": "r014",
+        "paragraph_id": "p116",
+        "char_start": 415,
+        "char_end": 440,
+        "label": "recorded negative savings",
+        "href": "https://www.jiemian.com/article/4238793.html",
+        "kind": "hyperlink",
+        "placement": "footnote",
+        "source_key": "https://jiemian.com/article/4238793.html",
+        "host": "jiemian.com",
+        "target_article_id": null
+      },
+      {
+        "id": "r015",
+        "paragraph_id": "p116",
+        "char_start": 447,
+        "char_end": 479,
+        "label": "recent survey evidence from 2023",
+        "href": "https://www.sohu.com/a/739935046_121713887",
+        "kind": "hyperlink",
+        "placement": "footnote",
+        "source_key": "https://sohu.com/a/739935046_121713887",
+        "host": "sohu.com",
+        "target_article_id": null
+      },
+      {
+        "id": "r016",
+        "paragraph_id": "p118",
+        "char_start": 144,
+        "char_end": 183,
+        "label": "",
+        "href": "https://www.mdpi.com/2073-445X/13/4/521",
+        "kind": "bare_url",
+        "placement": "footnote",
+        "source_key": "https://mdpi.com/2073-445x/13/4/521",
+        "host": "mdpi.com",
+        "target_article_id": null
+      },
+      {
+        "id": "r017",
+        "paragraph_id": "p118",
+        "char_start": 184,
+        "char_end": 264,
+        "label": "",
+        "href": "https://www.bis.org/publications/working-paper-1319-housing-wealth-effects-china",
+        "kind": "bare_url",
+        "placement": "footnote",
+        "source_key": "https://bis.org/publications/working-paper-1319-housing-wealth-effects-china",
+        "host": "bis.org",
+        "target_article_id": null
+      },
+      {
+        "id": "r018",
+        "paragraph_id": "p118",
+        "char_start": 265,
+        "char_end": 338,
+        "label": "",
+        "href": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0289712",
+        "kind": "bare_url",
+        "placement": "footnote",
+        "source_key": "https://journals.plos.org/plosone/article",
+        "host": "journals.plos.org",
+        "target_article_id": null
+      },
+      {
+        "id": "r019",
+        "paragraph_id": "p118",
+        "char_start": 339,
+        "char_end": 449,
+        "label": "",
+        "href": "https://www.mckinsey.com.cn/%E6%96%B0%E5%B8%B8%E6%80%81%E4%B8%8B%E7%9A%84%E4%B8%AD%E5%9B%BD%E6%B6%88%E8%B4%B9/",
+        "kind": "bare_url",
+        "placement": "footnote",
+        "source_key": "https://mckinsey.com.cn/%e6%96%b0%e5%b8%b8%e6%80%81%e4%b8%8b%e7%9a%84%e4%b8%ad%e5%9b%bd%e6%b6%88%e8%b4%b9",
+        "host": "mckinsey.com.cn",
+        "target_article_id": null
+      },
+      {
+        "id": "r020",
+        "paragraph_id": "p119",
+        "char_start": 95,
+        "char_end": 137,
+        "label": "roughly 24% of household disposable income",
+        "href": "https://news.qq.com/rain/a/20230721A07M1O00",
+        "kind": "hyperlink",
+        "placement": "footnote",
+        "source_key": "https://news.qq.com/rain/a/20230721a07m1o00",
+        "host": "news.qq.com",
+        "target_article_id": null
+      },
+      {
+        "id": "r021",
+        "paragraph_id": "p123",
+        "char_start": 20,
+        "char_end": 134,
+        "label": "",
+        "href": "https://english.ckgsb.edu.cn/knowledge/professor_analysis/series-chinas-real-estate-problem-1-the-three-red-lines/",
+        "kind": "bare_url",
+        "placement": "footnote",
+        "source_key": "https://english.ckgsb.edu.cn/knowledge/professor_analysis/series-chinas-real-estate-problem-1-the-three-red-lines",
+        "host": "english.ckgsb.edu.cn",
+        "target_article_id": null
+      },
+      {
+        "id": "r022",
+        "paragraph_id": "p124",
+        "char_start": 7,
+        "char_end": 72,
+        "label": "",
+        "href": "https://finance.cnr.cn/gundong/20200915/t20200915_525254490.shtml",
+        "kind": "bare_url",
+        "placement": "footnote",
+        "source_key": "https://finance.cnr.cn/gundong/20200915/t20200915_525254490.shtml",
+        "host": "finance.cnr.cn",
+        "target_article_id": null
+      },
+      {
+        "id": "r023",
+        "paragraph_id": "p125",
+        "char_start": 7,
+        "char_end": 55,
+        "label": "",
+        "href": "https://www.peopleapp.com/rmharticle/30020607395",
+        "kind": "bare_url",
+        "placement": "footnote",
+        "source_key": "https://peopleapp.com/rmharticle/30020607395",
+        "host": "peopleapp.com",
+        "target_article_id": null
+      }
+    ],
+    "metadata_extension": {
+      "field_sources": {
+        "title": "frontmatter",
+        "authors": "frontmatter",
+        "published_date": "frontmatter",
+        "url": "frontmatter",
+        "publisher": "frontmatter",
+        "series": "none"
+      },
+      "references_status": "preserved",
+      "links_hash": "sha256:5dea383efbba433baf7ff87a135efa796b4ecab7ac834f0584a831b3ad088293",
+      "subtitle": "Why China’s consumption challenge is actually a property challenge",
+      "published_at": "2026-10-03T11:09:02+00:00",
+      "programs": [],
+      "source_tags": [],
+      "license": null,
+      "section": null,
+      "doc_type": "NewsArticle",
+      "language": "en",
+      "word_count": 6610,
+      "date_modified": "2026-10-03",
+      "retrieved_at": "2026-11-09T19:54:11Z",
+      "page_sha256": "5ffe05c29406270d3c2beda052cec12fd5991206f31c7dc18832c27053fd9b3f",
+      "figures": [
+        {
+          "title": "Source: NBS Annual Statistical Yearbooks. Compiled by the author.",
+          "src": "https://substackcdn.com/image/fetch/$s_!r8GL!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9a9950f2-c0f9-4c1f-83fd-db9e5a8a65c0_2419x1531.png",
+          "after_paragraph": "p40"
+        },
+        {
+          "title": "Source: PBOC. Compiled by the author.",
+          "src": "https://substackcdn.com/image/fetch/$s_!lh0u!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F27914630-bb75-4be8-be40-088c12a42bcd_2213x2376.png",
+          "after_paragraph": "p49"
+        },
+        {
+          "title": "Apartment buildings in Hangzhou at night. Photo credit: 虞卓浩",
+          "src": "https://substackcdn.com/image/fetch/$s_!69ql!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F55e4a227-cada-441b-9b94-07fc01f6c15f_6960x4640.jpeg",
+          "after_paragraph": "p74"
+        },
+        {
+          "title": "Unfinished apartment buildings in China. Photo credit: Mike van Schoonderwalt",
+          "src": "https://substackcdn.com/image/fetch/$s_!3LT8!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fae108942-f955-4719-a524-3fccddfa8c73_5472x3648.jpeg",
+          "after_paragraph": "p94"
+        }
+      ]
+    }
+  },
+  "paragraphs": [
+    {
+      "id": "p1",
+      "sha256": "sha256:3c844bf668b4f5b70b8bebe7aad2e8e2fbc32a8d4b6e9dee49e5a594950c65c5",
+      "n_chars": 263
+    },
+    {
+      "id": "p2",
+      "sha256": "sha256:c4a7f3ea5b01756a5f2b69662fe351623c3654230b1c521930e7b655f28d1008",
+      "n_chars": 456
+    },
+    {
+      "id": "p3",
+      "sha256": "sha256:e51e92a652a58251c3cf59eeede6f257192b6a108dfc315cf04271eeb6a629c3",
+      "n_chars": 216
+    },
+    {
+      "id": "p4",
+      "sha256": "sha256:4127ae592d5502973a11ef7710ca8f60808a2e541f060aa6efa259a70856af18",
+      "n_chars": 57
+    },
+    {
+      "id": "p5",
+      "sha256": "sha256:e0ffc30d9bb77a1b67706273aeff323248f5499123da5c56b65701fd945dae72",
+      "n_chars": 22
+    },
+    {
+      "id": "p6",
+      "sha256": "sha256:c2522c47d872d72be23050ee510c91c1f61d400870e3ef0ac9cd88dcd585add1",
+      "n_chars": 368
+    },
+    {
+      "id": "p7",
+      "sha256": "sha256:14e3fa130e66280f311a99e7b2ea78584e4476e923ece2906c1f1723ad9fb520",
+      "n_chars": 531
+    },
+    {
+      "id": "p8",
+      "sha256": "sha256:738991dc1cbc2df51fd48b81fdb5b53b44883f163478193baab218b93e398a86",
+      "n_chars": 305
+    },
+    {
+      "id": "p9",
+      "sha256": "sha256:4696f40aa4a76e4f261ec17a251e2feaca9e8e224c4c075115afa8022c384f4f",
+      "n_chars": 224
+    },
+    {
+      "id": "p10",
+      "sha256": "sha256:08e52a28867bb66a32614330fd24cdde59e2f2068168d9ce428624999caf4b82",
+      "n_chars": 488
+    },
+    {
+      "id": "p11",
+      "sha256": "sha256:36ea9977435297ebea2dd8ef38f08fa61fbda849f41cb441d6c2a2dc57f5ca05",
+      "n_chars": 645
+    },
+    {
+      "id": "p12",
+      "sha256": "sha256:c1e5807fc170349844b5abb38b44f303e61eb4e6197c070528aca6ef55f65b62",
+      "n_chars": 141
+    },
+    {
+      "id": "p13",
+      "sha256": "sha256:d9bb22ed481d3933b1be8adcc48392688abba0f7212d588bfc70f8ed8976b6e4",
+      "n_chars": 334
+    },
+    {
+      "id": "p14",
+      "sha256": "sha256:bcd91cc89f781ab773e3dee617d70ce78fb4838c855b843b147a379822fa0114",
+      "n_chars": 655
+    },
+    {
+      "id": "p15",
+      "sha256": "sha256:55774d4e301c30f9678939252ab628a306fd6439038ac78dd07ca3265505757e",
+      "n_chars": 50
+    },
+    {
+      "id": "p16",
+      "sha256": "sha256:ec7b6a0904093425ed90013e6c213cf0ab3700c1f4f6b4e824c78f8a3a9bd5cb",
+      "n_chars": 81
+    },
+    {
+      "id": "p17",
+      "sha256": "sha256:27cf3e11b0ae8e48fb91c08e029b7578b61cd4cf7b2f5520f99231570438f305",
+      "n_chars": 6
+    },
+    {
+      "id": "p18",
+      "sha256": "sha256:8e7d20ca926443b7307b88d3360b0c65349f8abc6967cbf046a885c5c27d7767",
+      "n_chars": 94
+    },
+    {
+      "id": "p19",
+      "sha256": "sha256:cbfaa11d06d94f3020d6c2b01049bf5dfc782a4c1e4e35b631d98a77a5f2c637",
+      "n_chars": 236
+    },
+    {
+      "id": "p20",
+      "sha256": "sha256:2901818c3e78717e5579715f1b77ae3cba3e19e70e7b3de7c747586e45638e05",
+      "n_chars": 289
+    },
+    {
+      "id": "p21",
+      "sha256": "sha256:7f95a60faa44d5026f646fcbb9291bf9ea4ebe460f9a59387d7fcfd289d34413",
+      "n_chars": 205
+    },
+    {
+      "id": "p22",
+      "sha256": "sha256:28f06f243c481734096e0aa061c83ed9aa5cd324242e5c2c2da9a797eb565f18",
+      "n_chars": 16
+    },
+    {
+      "id": "p23",
+      "sha256": "sha256:9ee2bc5fb5f79eb77ffb9feb6b8b505f7c38d37227a6433c3e1217b59b6a0a79",
+      "n_chars": 20
+    },
+    {
+      "id": "p24",
+      "sha256": "sha256:dd2ddce28b29428461ff2221eabf3821c38b8deb38fe8b7e86a808dd90eb9924",
+      "n_chars": 59
+    },
+    {
+      "id": "p25",
+      "sha256": "sha256:9ee2bc5fb5f79eb77ffb9feb6b8b505f7c38d37227a6433c3e1217b59b6a0a79",
+      "n_chars": 20
+    },
+    {
+      "id": "p26",
+      "sha256": "sha256:08ad98df04b279f5c53bbd5cd256450ba740c5138453936a06f094903f993c26",
+      "n_chars": 598
+    },
+    {
+      "id": "p27",
+      "sha256": "sha256:16a96f6e103a6955ff16b9dc6eda130373a735a39a02870805b9ecd15da617a7",
+      "n_chars": 98
+    },
+    {
+      "id": "p28",
+      "sha256": "sha256:28f06f243c481734096e0aa061c83ed9aa5cd324242e5c2c2da9a797eb565f18",
+      "n_chars": 16
+    },
+    {
+      "id": "p29",
+      "sha256": "sha256:5f9a2b795615ba6a3d5455fd5624d773fbca5bcd16249c421fd37411dc9837da",
+      "n_chars": 4
+    },
+    {
+      "id": "p30",
+      "sha256": "sha256:93982f0668f19054a99434ee64f64dd4261b579e2140b1a7d9876a744d913e11",
+      "n_chars": 46
+    },
+    {
+      "id": "p31",
+      "sha256": "sha256:ab5df625bc76dbd4e163bed2dd888df828f90159bb93556525c31821b6541d46",
+      "n_chars": 3
+    },
+    {
+      "id": "p32",
+      "sha256": "sha256:af856b915c427e0468a98d85569123ef3f82d2eb594458f697c003092c4b6007",
+      "n_chars": 51
+    },
+    {
+      "id": "p33",
+      "sha256": "sha256:ab5df625bc76dbd4e163bed2dd888df828f90159bb93556525c31821b6541d46",
+      "n_chars": 3
+    },
+    {
+      "id": "p34",
+      "sha256": "sha256:1b50ce062045dbf9b9fb220006b44e03d8643420a27398e52572ce05630426d3",
+      "n_chars": 60
+    },
+    {
+      "id": "p35",
+      "sha256": "sha256:ab5df625bc76dbd4e163bed2dd888df828f90159bb93556525c31821b6541d46",
+      "n_chars": 3
+    },
+    {
+      "id": "p36",
+      "sha256": "sha256:5261ccf27754580a8cfa527c4c05977faeee93c3e6feeaf1e82e2aa87a817a6e",
+      "n_chars": 23
+    },
+    {
+      "id": "p37",
+      "sha256": "sha256:3c73dad64c41e1a7acf8594e68156f5a267a474a04243eda3976ce76f52bfc27",
+      "n_chars": 492
+    },
+    {
+      "id": "p38",
+      "sha256": "sha256:db97014fc515bdaec75336e37132d9f2ec90316fbbd91ed527292d2523090f78",
+      "n_chars": 366
+    },
+    {
+      "id": "p39",
+      "sha256": "sha256:2bb83bbf7ceb47616d0773bd1f6a3e9267d04a1e5b6e5b08473868f5a5497d52",
+      "n_chars": 337
+    },
+    {
+      "id": "p40",
+      "sha256": "sha256:10151454f768d9248647d00e9b012ddef53b7cdc7d204b060727cecaa4595faf",
+      "n_chars": 483
+    },
+    {
+      "id": "p41",
+      "sha256": "sha256:f20778088e7ad48d3842ab3a26f09cccd26a0b98e385a75b9aecb07b22a09619",
+      "n_chars": 289
+    },
+    {
+      "id": "p42",
+      "sha256": "sha256:03df3cdad9d4a019fd58bf2baf1f75fe923c1b21017dfd8a0e54d325f0769f3c",
+      "n_chars": 571
+    },
+    {
+      "id": "p43",
+      "sha256": "sha256:a8f81860d5959e6a3b16a50cfc1a4e0318c104330dcbb2154f425a2e4907c4b3",
+      "n_chars": 66
+    },
+    {
+      "id": "p44",
+      "sha256": "sha256:72289f4337de21f4bfcf66ad8082aded26349b393727d458c08773ceb141d61a",
+      "n_chars": 32
+    },
+    {
+      "id": "p45",
+      "sha256": "sha256:4bd0d01e596194a97d1dc09177970d4b7f3335337bb2e307907724d44bcbbae3",
+      "n_chars": 346
+    },
+    {
+      "id": "p46",
+      "sha256": "sha256:21e8f42c4f669619fe85bfd8159adc7854c4c40f63602fc16f04bbdc5dbdc1dd",
+      "n_chars": 543
+    },
+    {
+      "id": "p47",
+      "sha256": "sha256:8d3f73af01ec4322d63e10ccfced9287b506588a72feadc5bc87851bb7bf32c0",
+      "n_chars": 673
+    },
+    {
+      "id": "p48",
+      "sha256": "sha256:30eed106eca9985acfa6f1f2c2a10ab7f0ba8e638142b3147aae565b2e3bca70",
+      "n_chars": 518
+    },
+    {
+      "id": "p49",
+      "sha256": "sha256:35ef8929f5d7db8747c1034ceb5ed6f073ffb7e7009bf0b5d1525afc1577b52f",
+      "n_chars": 424
+    },
+    {
+      "id": "p50",
+      "sha256": "sha256:9f910173e145f6252e01cba09e4ad3ec2be86d4be761c3372bfcee1c48dd508f",
+      "n_chars": 490
+    },
+    {
+      "id": "p51",
+      "sha256": "sha256:0cd11fbbf8c530e41ff5cac65450bf8e49437e06ad39bf3b062846294268958b",
+      "n_chars": 24
+    },
+    {
+      "id": "p52",
+      "sha256": "sha256:50b3fd499054cd552befd6846327563cd762a9396c7dc6ac4fb2876552379406",
+      "n_chars": 37
+    },
+    {
+      "id": "p53",
+      "sha256": "sha256:455d6fbbbcf1b9219cd76557452b2409426a6f2848d55c00c0b7fa7bc28840fc",
+      "n_chars": 104
+    },
+    {
+      "id": "p54",
+      "sha256": "sha256:f3fef2220ff5645c2679bd6b84e551786c68cf6fc0b9bc91e4d7d85e99f3163c",
+      "n_chars": 484
+    },
+    {
+      "id": "p55",
+      "sha256": "sha256:37fd53d5feb40f24e011a174c796bbc6590d1c228dc438b231bbe2af8dcf978d",
+      "n_chars": 153
+    },
+    {
+      "id": "p56",
+      "sha256": "sha256:11e42b8296dac7946b7f14a21eb844eeb17a516a9d8e08ce3bcac210045c2c02",
+      "n_chars": 728
+    },
+    {
+      "id": "p57",
+      "sha256": "sha256:8d121cfda46712edcfe3eb41963b22fbb3a67bd4faeb7d5339cb41c8ae349a8f",
+      "n_chars": 291
+    },
+    {
+      "id": "p58",
+      "sha256": "sha256:ade1e003da1fa7e5d08667c3be661f5be45a83e3f12709000654351a0b67ba9f",
+      "n_chars": 748
+    },
+    {
+      "id": "p59",
+      "sha256": "sha256:d18e5fa950d04405f4596a6386b09ac9c72edc90f91dae6b3aa2e4208ce20000",
+      "n_chars": 465
+    },
+    {
+      "id": "p60",
+      "sha256": "sha256:e1470a00deab30a2778f580021c64ffb5395f782dcdbeeb52b5a7168da1f9ef0",
+      "n_chars": 350
+    },
+    {
+      "id": "p61",
+      "sha256": "sha256:4d54bb9dab15595d36b0d5b9cf06158db541ec5822a78ea4d7ec3b28e8213219",
+      "n_chars": 28
+    },
+    {
+      "id": "p62",
+      "sha256": "sha256:d2fb817769f73c81b452621409d3abf417ccf1213294ab29b9d7dab51db7666b",
+      "n_chars": 269
+    },
+    {
+      "id": "p63",
+      "sha256": "sha256:9558a2c874f87ec6a509e91cd74345760cdb3796d02321fb0b7c654551f8267e",
+      "n_chars": 334
+    },
+    {
+      "id": "p64",
+      "sha256": "sha256:28f4ca61d6e0435df2e2f1e44b046109982a358940e5292eab2d0dffb5897319",
+      "n_chars": 815
+    },
+    {
+      "id": "p65",
+      "sha256": "sha256:5d237788982cbe15b2bc17a3dcd9956c9539845a93c5d59186bec3f49a0507c3",
+      "n_chars": 403
+    },
+    {
+      "id": "p66",
+      "sha256": "sha256:8d01ebabf52fbe5431350d912a54b147c531c4228c116de295792864b2d4d1dd",
+      "n_chars": 611
+    },
+    {
+      "id": "p67",
+      "sha256": "sha256:83634bf1798d6d282fa5a7d39521764a87d0988feb2d8125856831e750c7281a",
+      "n_chars": 174
+    },
+    {
+      "id": "p68",
+      "sha256": "sha256:fe81fefafbfd1e96521f61c13679e1938315d1cde01daa3df650e113c88e1c4e",
+      "n_chars": 16
+    },
+    {
+      "id": "p69",
+      "sha256": "sha256:8a20afc4a06e4a9839bd20bc9da7b17d943cc17b394f09d9a1b829eac9ed4951",
+      "n_chars": 682
+    },
+    {
+      "id": "p70",
+      "sha256": "sha256:f959123e46e7e70dc4b85203fe918d104c4b7f10f6d6bccf320e9d2d1b11d654",
+      "n_chars": 579
+    },
+    {
+      "id": "p71",
+      "sha256": "sha256:accad8888f2bc80351457691937e387d4afabe9150895e684fe5be5f371f6ba5",
+      "n_chars": 515
+    },
+    {
+      "id": "p72",
+      "sha256": "sha256:3022b3115de686cd0fad5aab3cce56e50df00a2afd47e202b2dafe3675b15f3e",
+      "n_chars": 675
+    },
+    {
+      "id": "p73",
+      "sha256": "sha256:d453bf7fe7bfa931e624eb2934014a83bb3aa85f47a3210c6f9027a5fa644f94",
+      "n_chars": 577
+    },
+    {
+      "id": "p74",
+      "sha256": "sha256:e76f60c553ebb78244303f1249f9a1e6a37e588e3a223540e94ad680202f5044",
+      "n_chars": 747
+    },
+    {
+      "id": "p75",
+      "sha256": "sha256:d4594ab08dd04bf86ee74dbb3f44fa2c373ea3590263525e1c0e2cf7e873a017",
+      "n_chars": 494
+    },
+    {
+      "id": "p76",
+      "sha256": "sha256:a9121fff13432938288a6fb7f371682a0a449ef957050c6b79f8955716eb44f5",
+      "n_chars": 597
+    },
+    {
+      "id": "p77",
+      "sha256": "sha256:e9c666d0c3a79e38ad51761c76bb44a2a6847e45d214c156fb02b8ba5cab39fd",
+      "n_chars": 489
+    },
+    {
+      "id": "p78",
+      "sha256": "sha256:49cbdced05945069521b8e0d99e2be96d7e8b3f194c121dca226b5024264cead",
+      "n_chars": 125
+    },
+    {
+      "id": "p79",
+      "sha256": "sha256:35d45c78dca64bf66e58105773fe26c98e2f78d6fce5f4b8cfb96c7c8b3d7d5f",
+      "n_chars": 15
+    },
+    {
+      "id": "p80",
+      "sha256": "sha256:3d31e47083607c2cbfd0583d58600cc9b6b0216c955f70aec9d1ed671fb87479",
+      "n_chars": 21
+    },
+    {
+      "id": "p81",
+      "sha256": "sha256:146299c2cd549446a872ce5392fbd7c9395f2e8ce82b120785a0532d6de490fe",
+      "n_chars": 418
+    },
+    {
+      "id": "p82",
+      "sha256": "sha256:967e8ac7eccec6c728b9350dc4145c0ce27545420cc4a9505b0c3a3941ed91c7",
+      "n_chars": 454
+    },
+    {
+      "id": "p83",
+      "sha256": "sha256:182f8b58ff6fd558b0fc3cade3cc40b5976cca6261d869ea035b6aa13af05923",
+      "n_chars": 691
+    },
+    {
+      "id": "p84",
+      "sha256": "sha256:225b61c60dcfc5f342b8b8bcfe80965d0d7b2ffe106f5817868489dd5fbb5409",
+      "n_chars": 801
+    },
+    {
+      "id": "p85",
+      "sha256": "sha256:dcf3599675f507a6c83573cd1db8e275db20885c72f71a44791d829f48b928d3",
+      "n_chars": 230
+    },
+    {
+      "id": "p86",
+      "sha256": "sha256:4e0a748914128eb8c2153a63775bbbb020c0823fb4e9fabe42225b6aa0c5065e",
+      "n_chars": 40
+    },
+    {
+      "id": "p87",
+      "sha256": "sha256:2972f4bd2f869c17250f0f9ef479b6c30dceaa06806be8c6af034d2105975b62",
+      "n_chars": 291
+    },
+    {
+      "id": "p88",
+      "sha256": "sha256:5193244945c74627d477071d8cb687eac6d38f7767200d9e2223c6ae3b90e11d",
+      "n_chars": 694
+    },
+    {
+      "id": "p89",
+      "sha256": "sha256:b8fa9004537583cd8296c06b16d19787103db7ad9b8be31729ea2d2436f3b56d",
+      "n_chars": 189
+    },
+    {
+      "id": "p90",
+      "sha256": "sha256:13bbdb3634ab5de5665239b1d68d10368b1b7ed6846d1a63e582eff9794fda5f",
+      "n_chars": 31
+    },
+    {
+      "id": "p91",
+      "sha256": "sha256:8c626d38bee73af5d8e41fe25fdeb3b775a4617e5ffdc2f97d0682f4265cfe76",
+      "n_chars": 743
+    },
+    {
+      "id": "p92",
+      "sha256": "sha256:f9e871dec1a1b2c50fb578f81b5c5cee4330dc278289735290f4380ab804ea9c",
+      "n_chars": 1016
+    },
+    {
+      "id": "p93",
+      "sha256": "sha256:aac7f40a210d8a0a85a96f1cdc267df8c6695c0309bbf34a833fef0bd13f529d",
+      "n_chars": 488
+    },
+    {
+      "id": "p94",
+      "sha256": "sha256:5f93a7ead947e892ae22defbd9f23c7ba90933dbc310e94aaceeecb38114715f",
+      "n_chars": 460
+    },
+    {
+      "id": "p95",
+      "sha256": "sha256:9f26b0227e2962b195d10a49ace9e5dfb1eaa645dc2ea0d5ef1c0040907c8a2c",
+      "n_chars": 466
+    },
+    {
+      "id": "p96",
+      "sha256": "sha256:18e6ae5c60e652520e78476fd33d68eb937ad43bc293e16dd8879eff509c5fae",
+      "n_chars": 608
+    },
+    {
+      "id": "p97",
+      "sha256": "sha256:51298bcb33dc685ecb1f9ccd6c52c57c32f2605259c04ed7828c95beb58abe77",
+      "n_chars": 714
+    },
+    {
+      "id": "p98",
+      "sha256": "sha256:3810ac033d539c3500f07d81f7d186ca60396ce5cb7db2bd4fa536c319f69499",
+      "n_chars": 483
+    },
+    {
+      "id": "p99",
+      "sha256": "sha256:e0c4e54c71ff7ee95bb56ea447bab815b9e2ace0987f47ca2d7e870aa683a606",
+      "n_chars": 477
+    },
+    {
+      "id": "p100",
+      "sha256": "sha256:0ac7753cf2e78c98fda16fccc2ab5578af7b3ca5b34b067f025b9198cb686b2b",
+      "n_chars": 729
+    },
+    {
+      "id": "p101",
+      "sha256": "sha256:c0e12f5191c38b1e0fd17acfea05173b420b824a3e990bf0564bb4ae7ce61014",
+      "n_chars": 611
+    },
+    {
+      "id": "p102",
+      "sha256": "sha256:a6824df62dec2e32ddf748637fd887307e0d2e4b3b781eadbb84aec019dde769",
+      "n_chars": 32
+    },
+    {
+      "id": "p103",
+      "sha256": "sha256:a29d75a14cfdb937b6a0338007641012fbd641d7c091d655ff0a4bf0cf8abed0",
+      "n_chars": 1339
+    },
+    {
+      "id": "p104",
+      "sha256": "sha256:f1ee4b25e1299fadd39c2e1f4e80187e106c0376aa3cc05322e468a59ea88bef",
+      "n_chars": 333
+    },
+    {
+      "id": "p105",
+      "sha256": "sha256:3d77fb6672130dcc40b449c8a1ad97b358e2da14f714d937e3571f777f44352c",
+      "n_chars": 420
+    },
+    {
+      "id": "p106",
+      "sha256": "sha256:8329a582dd8f3e8bcc29abee04d4c60d26f378aee0478a64830c949634b11f7e",
+      "n_chars": 33
+    },
+    {
+      "id": "p107",
+      "sha256": "sha256:3beaeea44a914dbd595d7fed97ffa487249128960c5bbf75c331c337d8174bd2",
+      "n_chars": 53
+    },
+    {
+      "id": "p108",
+      "sha256": "sha256:53c12884ef4cd208dea1ecd57405a80b9e844cedb718891d5ce2598940c5e8fe",
+      "n_chars": 45
+    },
+    {
+      "id": "p109",
+      "sha256": "sha256:d15a591a9c78ae0ecb2ebae969db0d5e9eec5b4e00de98dd5872b4afc9ca67c5",
+      "n_chars": 343
+    },
+    {
+      "id": "p110",
+      "sha256": "sha256:f8746aee4040c7acc61cc484de5a3a42c73650df1d076b8d2a97e7902324d957",
+      "n_chars": 268
+    },
+    {
+      "id": "p111",
+      "sha256": "sha256:f388024205d6e60761979a7b897a30e23dd11d916403a6729ebf818049f8e866",
+      "n_chars": 593
+    },
+    {
+      "id": "p112",
+      "sha256": "sha256:96370b7666f08771cf0eeffdd4f72857bb35e356374c754021a99ee0f5832c57",
+      "n_chars": 221
+    },
+    {
+      "id": "p113",
+      "sha256": "sha256:59d11a4a3e62ee68b636399ae5cf5e9deba69f937d8d583b4aed42481a9eec8b",
+      "n_chars": 570
+    },
+    {
+      "id": "p114",
+      "sha256": "sha256:8f419fa78a2aeaa31a47176b3c0e1720267415b5dbfb54cb277778b520724c7e",
+      "n_chars": 210
+    },
+    {
+      "id": "p115",
+      "sha256": "sha256:deb6345b1e57f345baa92b769c3784499491d1525fc300493dbe6f3bc440fffe",
+      "n_chars": 135
+    },
+    {
+      "id": "p116",
+      "sha256": "sha256:dc774f8b45978ccc36e803b79a09d3aca90c85fd73a7f2e7204c6b9295f6a766",
+      "n_chars": 753
+    },
+    {
+      "id": "p117",
+      "sha256": "sha256:0a7352047b38712b258faba17d3c4d3cba2c8c2b475f4c926effbd81b62490ed",
+      "n_chars": 229
+    },
+    {
+      "id": "p118",
+      "sha256": "sha256:56edf6b064871849b6f89855c272b36a8c849fc6bf0feebda569d3fe460ab0f2",
+      "n_chars": 449
+    },
+    {
+      "id": "p119",
+      "sha256": "sha256:fd29e4a09f44c43639d1dac788c6b8b6b88fdd9570ce5a9bfb98303c4f266efd",
+      "n_chars": 322
+    },
+    {
+      "id": "p120",
+      "sha256": "sha256:f6a626ce03ba262d51c6350d7b872664b9c5c1dbf5b1dce443e734c05ed00c41",
+      "n_chars": 387
+    },
+    {
+      "id": "p121",
+      "sha256": "sha256:3e7b4ffe7db2e0e78fc82603d2702bcced661da2a5bcfe775b4e2751e1f83561",
+      "n_chars": 711
+    },
+    {
+      "id": "p122",
+      "sha256": "sha256:f40136693fa57cfb1323694961e6ab362315034ff1b6787038f841e545f21295",
+      "n_chars": 284
+    },
+    {
+      "id": "p123",
+      "sha256": "sha256:b8717717d2cbf4e6a62a8277683fbf6b11d121274dc15bee97d9adf241068ec9",
+      "n_chars": 485
+    },
+    {
+      "id": "p124",
+      "sha256": "sha256:a17a97519a47014b8fd601737abcd7b895def52faaac85e519205c74be78da21",
+      "n_chars": 72
+    },
+    {
+      "id": "p125",
+      "sha256": "sha256:95bc349df3c15ec257676b6b91f6c0737fb6a2f45f3e9bf9debf2d62c0d91bfd",
+      "n_chars": 55
+    },
+    {
+      "id": "p126",
+      "sha256": "sha256:7bdf42116161d7ad8bb909e286a21f7939e4b069c0bbaf2da7e6ca45ded01975",
+      "n_chars": 358
+    }
+  ],
+  "revisions": [
+    {
+      "content_hash": "sha256:e017f9dcb523d4470d174085fb65f33b696cf2bd181e82ae6b8bb7958e5c56a0",
+      "links_hash": "sha256:5dea383efbba433baf7ff87a135efa796b4ecab7ac834f0584a831b3ad088293",
+      "paragraph_count": 126,
+      "retrieved_at": "2026-10-19T20:52:14Z",
+      "revision": 1,
+      "changed_paragraphs": []
+    },
+    {
+      "content_hash": "sha256:8ac68c0f45e9fd57e9996deea3cc276730c236ffda304970075cf6b3336a6ac4",
+      "links_hash": "sha256:5dea383efbba433baf7ff87a135efa796b4ecab7ac834f0584a831b3ad088293",
+      "paragraph_count": 126,
+      "retrieved_at": "2026-11-09T19:54:11Z",
+      "revision": 2,
+      "changed_paragraphs": [
+        "p99",
+        "p101"
+      ]
+    }
+  ],
+  "extensions": {
+    "entities": [
+      {
+        "entity_id": null,
+        "type": "person",
+        "name": "David Fishman",
+        "role": "author"
+      },
+      {
+        "entity_id": null,
+        "type": "organization",
+        "name": "Crossing the River by Feeling the Stones",
+        "role": "publisher"
+      }
+    ],
+    "cited_sources": [
+      {
+        "source_key": "https://stats.gov.cn/english/pressrelease/202201/t20220118_1826649.html",
+        "host": "stats.gov.cn",
+        "reference_ids": [
+          "r001"
+        ]
+      },
+      {
+        "source_key": "https://stats.gov.cn/english/pressrelease/202601/t20260120_1962356.html",
+        "host": "stats.gov.cn",
+        "reference_ids": [
+          "r002"
+        ]
+      },
+      {
+        "source_key": "https://ceicdata.com/en/china/final-account-general-public-budget-revenue--expenditure-national/government-expenditure-social-security-and-employment",
+        "host": "ceicdata.com",
+        "reference_ids": [
+          "r003"
+        ]
+      },
+      {
+        "source_key": "https://english.www.gov.cn/archive/statistics/202507/25/content_ws688325f4c6d0868f4e8f46da.html",
+        "host": "english.www.gov.cn",
+        "reference_ids": [
+          "r004"
+        ]
+      },
+      {
+        "source_key": "https://english.www.gov.cn/news/202507/24/content_ws6881c72cc6d0868f4e8f463b.html",
+        "host": "english.www.gov.cn",
+        "reference_ids": [
+          "r005"
+        ]
+      },
+      {
+        "source_key": "https://link.springer.com/article/10.1186/s12913-022-08602-1",
+        "host": "link.springer.com",
+        "reference_ids": [
+          "r006"
+        ]
+      },
+      {
+        "source_key": "https://rba.gov.au/publications/bulletin/2015/mar/5.html",
+        "host": "rba.gov.au",
+        "reference_ids": [
+          "r007"
+        ]
+      },
+      {
+        "source_key": "https://finance.yahoo.com/news/chinas-property-market-unravel-2015-034849575.html",
+        "host": "finance.yahoo.com",
+        "reference_ids": [
+          "r008"
+        ]
+      },
+      {
+        "source_key": "https://chinadaily.com.cn/bizchina//2015-03/06/content_19737858.htm",
+        "host": "chinadaily.com.cn",
+        "reference_ids": [
+          "r009"
+        ]
+      },
+      {
+        "source_key": "https://crossingtheriver.substack.com/p/did-li-keqiang-really-say-600-million",
+        "host": "crossingtheriver.substack.com",
+        "reference_ids": [
+          "r010"
+        ]
+      },
+      {
+        "source_key": "https://wenku.baidu.com/view/58719ccc41323968011ca300a6c30c225801f0d5",
+        "host": "wenku.baidu.com",
+        "reference_ids": [
+          "r011"
+        ]
+      },
+      {
+        "source_key": "https://finance.sina.com.cn/roll/2026-01-19/doc-inhhuvac8126827.shtml",
+        "host": "finance.sina.com.cn",
+        "reference_ids": [
+          "r012"
+        ]
+      },
+      {
+        "source_key": "https://piie.com/publications/policy-briefs/2025/does-weak-social-safety-net-hold-back-private-consumption-china",
+        "host": "piie.com",
+        "reference_ids": [
+          "r013"
+        ]
+      },
+      {
+        "source_key": "https://jiemian.com/article/4238793.html",
+        "host": "jiemian.com",
+        "reference_ids": [
+          "r014"
+        ]
+      },
+      {
+        "source_key": "https://sohu.com/a/739935046_121713887",
+        "host": "sohu.com",
+        "reference_ids": [
+          "r015"
+        ]
+      },
+      {
+        "source_key": "https://mdpi.com/2073-445x/13/4/521",
+        "host": "mdpi.com",
+        "reference_ids": [
+          "r016"
+        ]
+      },
+      {
+        "source_key": "https://bis.org/publications/working-paper-1319-housing-wealth-effects-china",
+        "host": "bis.org",
+        "reference_ids": [
+          "r017"
+        ]
+      },
+      {
+        "source_key": "https://journals.plos.org/plosone/article",
+        "host": "journals.plos.org",
+        "reference_ids": [
+          "r018"
+        ]
+      },
+      {
+        "source_key": "https://mckinsey.com.cn/%e6%96%b0%e5%b8%b8%e6%80%81%e4%b8%8b%e7%9a%84%e4%b8%ad%e5%9b%bd%e6%b6%88%e8%b4%b9",
+        "host": "mckinsey.com.cn",
+        "reference_ids": [
+          "r019"
+        ]
+      },
+      {
+        "source_key": "https://news.qq.com/rain/a/20230721a07m1o00",
+        "host": "news.qq.com",
+        "reference_ids": [
+          "r020"
+        ]
+      },
+      {
+        "source_key": "https://english.ckgsb.edu.cn/knowledge/professor_analysis/series-chinas-real-estate-problem-1-the-three-red-lines",
+        "host": "english.ckgsb.edu.cn",
+        "reference_ids": [
+          "r021"
+        ]
+      },
+      {
+        "source_key": "https://finance.cnr.cn/gundong/20200915/t20200915_525254490.shtml",
+        "host": "finance.cnr.cn",
+        "reference_ids": [
+          "r022"
+        ]
+      },
+      {
+        "source_key": "https://peopleapp.com/rmharticle/30020607395",
+        "host": "peopleapp.com",
+        "reference_ids": [
+          "r023"
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "flags": [
+      "source_changed_review_passages"
+    ]
+  }
+}

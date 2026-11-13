@@ -36,7 +36,7 @@ tags: [type/intermediate_claim, level/L4, family/meta, variable/goods-trade-bala
 ## Source
 - Article: [[2026-02-03 Understanding the Low October 2025 Trade Deficit]]
 - Authored map: `mermaid_code/setser_2026-02-03_october-2025-deficit.mmd`
-- Passage: p12 — _proposed `abstracts`, score 0.260; unreviewed, not a citation_
+- Passage: p13 — _proposed `abstracts`, score 0.256; unreviewed, not a citation_
 - Published: https://www.cfr.org/articles/understanding-the-low-october-2025-trade-deficit
 - Node `setser_2026-02-03_october-2025-deficit#C1` · level L4 · type resolved by `header`
 - Full chain: `python scripts/trace.py setser_2026-02-03_october-2025-deficit#C1`

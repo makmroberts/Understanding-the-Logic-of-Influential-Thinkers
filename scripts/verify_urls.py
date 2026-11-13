@@ -13,7 +13,7 @@ inference is not provenance until somebody checks it. This fetches each page
 and compares what CFR actually publishes - headline and datePublished, from the
 page's own JSON-LD - against what the overlay asserts.
 
-Reuses cfr_extract.py's fetch and JSON-LD parsing, so it shares the same cache
+Reuses parsers/common.py's fetch and JSON-LD parsing, so it shares the same cache
 in internal/.cache_html/ and does not re-hit CFR on a re-run.
 
 Entries under `needs_review:` are fetched too, and are the whole point: one
@@ -33,9 +33,9 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 import yaml
 
 try:
-    from cfr_extract import fetch, parse_jsonld
+    from parsers.common import fetch, jsonld as parse_jsonld
 except ImportError as exc:
-    sys.exit(f"could not import cfr_extract: {exc}")
+    sys.exit(f"could not import parsers.common: {exc}")
 
 ROOT = Path(__file__).resolve().parent.parent
 URL_MAP = ROOT / "scripts" / "source_urls.yaml"

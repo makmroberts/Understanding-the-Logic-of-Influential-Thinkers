@@ -5,5 +5,5 @@
 PyYAML==6.0.2
 anthropic==1.14.0
 
-# Used only by the citation audit in scripts/, not by the pipeline.
+# Used by scripts/parsers/pozsar.py and the citation audit in scripts/.
 pypdf==6.19.0

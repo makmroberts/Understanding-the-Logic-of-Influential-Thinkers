@@ -1,0 +1,845 @@
+{
+  "schema_version": "source-record-0.1",
+  "article": {
+    "id": "china-never-stopped-managing-its-trade",
+    "title": "China Never Stopped Managing its Trade",
+    "authors": [
+      "Brad W. Setser"
+    ],
+    "published_date": "2019-05-02",
+    "url": "https://www.cfr.org/articles/china-never-stopped-managing-its-trade",
+    "publisher": "Council on Foreign Relations",
+    "series": "Follow the Money",
+    "source_text": {
+      "path": "internal/extracted/2019-05-02_china-never-stopped-managing-its-trade.md",
+      "paragraph_count": 53,
+      "content_hash": "sha256:34bec7d7c024f034a4a091c5df8c24f4d11011c19c64166c5b6f93459e5f05d7",
+      "revision": 1
+    },
+    "references": [
+      {
+        "id": "r001",
+        "paragraph_id": "p2",
+        "char_start": 23,
+        "char_end": 60,
+        "label": "via Ana Swanson of the New York Times",
+        "href": "https://www.nytimes.com/2019/04/01/us/politics/us-china-trade-trump.html",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://nytimes.com/2019/04/01/us/politics/us-china-trade-trump.html",
+        "host": "nytimes.com",
+        "target_article_id": null
+      },
+      {
+        "id": "r002",
+        "paragraph_id": "p4",
+        "char_start": 0,
+        "char_end": 12,
+        "label": "Shawn Donnan",
+        "href": "https://www.bloomberg.com/news/articles/2019-02-28/u-s-china-negotiations-risk-shutting-the-rest-of-the-world-out",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://bloomberg.com/news/articles/2019-02-28/u-s-china-negotiations-risk-shutting-the-rest-of-the-world-out",
+        "host": "bloomberg.com",
+        "target_article_id": null
+      },
+      {
+        "id": "r003",
+        "paragraph_id": "p7",
+        "char_start": 267,
+        "char_end": 303,
+        "label": "Mark Wu’s rightly celebrated article",
+        "href": "https://today.law.harvard.edu/mark-wu-appointed-professor-of-law/",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://today.law.harvard.edu/mark-wu-appointed-professor-of-law",
+        "host": "today.law.harvard.edu",
+        "target_article_id": null
+      },
+      {
+        "id": "r004",
+        "paragraph_id": "p9",
+        "char_start": 21,
+        "char_end": 58,
+        "label": "shut down trade in canola with Canada",
+        "href": "https://www.producer.com/2019/03/feds-on-canola-dispute-every-ounce-of-effort/",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://producer.com/2019/03/feds-on-canola-dispute-every-ounce-of-effort",
+        "host": "producer.com",
+        "target_article_id": null
+      },
+      {
+        "id": "r005",
+        "paragraph_id": "p10",
+        "char_start": 21,
+        "char_end": 64,
+        "label": "scale back its purchases of Australian coal",
+        "href": "https://www.theguardian.com/environment/2019/mar/22/chinese-ports-restricting-australian-coal-on-the-rise-as-export-bonanza-in-danger",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://theguardian.com/environment/2019/mar/22/chinese-ports-restricting-australian-coal-on-the-rise-as-export-bonanza-in-danger",
+        "host": "theguardian.com",
+        "target_article_id": null
+      },
+      {
+        "id": "r006",
+        "paragraph_id": "p12",
+        "char_start": 59,
+        "char_end": 79,
+        "label": "deceptive in a sense",
+        "href": "https://www.ft.com/content/7c90ac22-101a-11e9-b2f2-f4c566a4fc5f",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://ft.com/content/7c90ac22-101a-11e9-b2f2-f4c566a4fc5f",
+        "host": "ft.com",
+        "target_article_id": null
+      },
+      {
+        "id": "r007",
+        "paragraph_id": "p16",
+        "char_start": 177,
+        "char_end": 218,
+        "label": "they have to get the approval of the NDRC",
+        "href": "https://www.bloomberg.com/news/articles/2019-03-19/china-said-to-consider-excluding-boeing-max-jet-from-trade-deal",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://bloomberg.com/news/articles/2019-03-19/china-said-to-consider-excluding-boeing-max-jet-from-trade-deal",
+        "host": "bloomberg.com",
+        "target_article_id": null
+      },
+      {
+        "id": "r008",
+        "paragraph_id": "p17",
+        "char_start": 22,
+        "char_end": 94,
+        "label": "Boeing’s single biggest market and one of its largest future competitors",
+        "href": "https://www.wsj.com/articles/boeing-and-its-737-max-jets-have-a-china-problem-11554904340",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://wsj.com/articles/boeing-and-its-737-max-jets-have-a-china-problem-11554904340",
+        "host": "wsj.com",
+        "target_article_id": null
+      },
+      {
+        "id": "r009",
+        "paragraph_id": "p18",
+        "char_start": 33,
+        "char_end": 44,
+        "label": "Rolls-Royce",
+        "href": "https://www.bloomberg.com/news/articles/2019-02-27/rolls-royce-said-to-offer-china-engine-plant-to-win-deal-on-jet",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://bloomberg.com/news/articles/2019-02-27/rolls-royce-said-to-offer-china-engine-plant-to-win-deal-on-jet",
+        "host": "bloomberg.com",
+        "target_article_id": null
+      },
+      {
+        "id": "r010",
+        "paragraph_id": "p21",
+        "char_start": 120,
+        "char_end": 175,
+        "label": "China National Oilseeds, Grains, and Foodstuffs Company",
+        "href": "https://en.wikipedia.org/wiki/COFCO_Group",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://en.wikipedia.org/wiki/cofco_group",
+        "host": "en.wikipedia.org",
+        "target_article_id": null
+      },
+      {
+        "id": "r011",
+        "paragraph_id": "p21",
+        "char_start": 471,
+        "char_end": 492,
+        "label": "steps into the market",
+        "href": "https://www.reuters.com/article/us-usa-trade-china-soybeans/chinas-sinograin-confirms-us-soybean-purchases-idUSKCN1OJ017",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://reuters.com/article/us-usa-trade-china-soybeans/chinas-sinograin-confirms-us-soybean-purchases-iduskcn1oj017",
+        "host": "reuters.com",
+        "target_article_id": null
+      },
+      {
+        "id": "r012",
+        "paragraph_id": "p23",
+        "char_start": 185,
+        "char_end": 219,
+        "label": "Center for American Progress notes",
+        "href": "https://www.americanprogress.org/issues/security/reports/2018/04/18/449807/not-fall-hype-u-s-china-natural-gas-trade/",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://americanprogress.org/issues/security/reports/2018/04/18/449807/not-fall-hype-u-s-china-natural-gas-trade",
+        "host": "americanprogress.org",
+        "target_article_id": null
+      },
+      {
+        "id": "r013",
+        "paragraph_id": "p23",
+        "char_start": 429,
+        "char_end": 433,
+        "label": "deal",
+        "href": "https://oilprice.com/Energy/Natural-Gas/LNG-To-Win-Big-In-US-China-Trade-Deal.html",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://oilprice.com/energy/natural-gas/lng-to-win-big-in-us-china-trade-deal.html",
+        "host": "oilprice.com",
+        "target_article_id": null
+      },
+      {
+        "id": "r014",
+        "paragraph_id": "p26",
+        "char_start": 133,
+        "char_end": 143,
+        "label": "15 percent",
+        "href": "https://www.bloomberg.com/opinion/articles/2018-12-12/china-s-auto-tariff-reversal-looks-like-a-lemon",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://bloomberg.com/opinion/articles/2018-12-12/china-s-auto-tariff-reversal-looks-like-a-lemon",
+        "host": "bloomberg.com",
+        "target_article_id": null
+      },
+      {
+        "id": "r015",
+        "paragraph_id": "p27",
+        "char_start": 34,
+        "char_end": 78,
+        "label": "has substantial domestic production capacity",
+        "href": "https://www.wsj.com/articles/idle-hands-in-china-workshops-as-foreign-car-makers-struggle-with-zombie-factories-11545750002?mod=searchresults&page=1&pos=4",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://wsj.com/articles/idle-hands-in-china-workshops-as-foreign-car-makers-struggle-with-zombie-factories-11545750002",
+        "host": "wsj.com",
+        "target_article_id": null
+      },
+      {
+        "id": "r016",
+        "paragraph_id": "p34",
+        "char_start": 33,
+        "char_end": 50,
+        "label": "high speed trains",
+        "href": "https://www.ft.com/content/2b843e4c-c745-11df-aeb1-00144feab49a",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://ft.com/content/2b843e4c-c745-11df-aeb1-00144feab49a",
+        "host": "ft.com",
+        "target_article_id": null
+      },
+      {
+        "id": "r017",
+        "paragraph_id": "p35",
+        "char_start": 104,
+        "char_end": 114,
+        "label": "State Grid",
+        "href": "https://en.wikipedia.org/wiki/State_Grid_Corporation_of_China",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://en.wikipedia.org/wiki/state_grid_corporation_of_china",
+        "host": "en.wikipedia.org",
+        "target_article_id": null
+      },
+      {
+        "id": "r018",
+        "paragraph_id": "p37",
+        "char_start": 132,
+        "char_end": 143,
+        "label": "procurement",
+        "href": "https://www.ft.com/content/ea032bba-5f33-11e8-9334-2218e7146b04",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://ft.com/content/ea032bba-5f33-11e8-9334-2218e7146b04",
+        "host": "ft.com",
+        "target_article_id": null
+      },
+      {
+        "id": "r019",
+        "paragraph_id": "p39",
+        "char_start": 56,
+        "char_end": 82,
+        "label": "still manages its currency",
+        "href": "https://www.cfr.org/articles/how-did-china-manage-its-currency-over-summer",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://cfr.org/articles/how-did-china-manage-its-currency-over-summer",
+        "host": "cfr.org",
+        "target_article_id": null
+      },
+      {
+        "id": "r020",
+        "paragraph_id": "p39",
+        "char_start": 148,
+        "char_end": 156,
+        "label": "as large",
+        "href": "https://www.cfr.org/articles/why-hasnt-china-needed-intervene-more-year",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://cfr.org/articles/why-hasnt-china-needed-intervene-more-year",
+        "host": "cfr.org",
+        "target_article_id": null
+      },
+      {
+        "id": "r021",
+        "paragraph_id": "p43",
+        "char_start": 39,
+        "char_end": 61,
+        "label": "considering setting up",
+        "href": "https://www.industryweek.com/leadership/rolls-royce-said-offer-china-engine-plant-win-deal-jet",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://industryweek.com/leadership/rolls-royce-said-offer-china-engine-plant-win-deal-jet",
+        "host": "industryweek.com",
+        "target_article_id": null
+      },
+      {
+        "id": "r022",
+        "paragraph_id": "p46",
+        "char_start": 32,
+        "char_end": 45,
+        "label": "by Kevin Book",
+        "href": "https://www.nytimes.com/2019/04/01/us/politics/us-china-trade-trump.html",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://nytimes.com/2019/04/01/us/politics/us-china-trade-trump.html",
+        "host": "nytimes.com",
+        "target_article_id": null
+      },
+      {
+        "id": "r023",
+        "paragraph_id": "p51",
+        "char_start": 263,
+        "char_end": 276,
+        "label": "certain Audis",
+        "href": "https://www.nytimes.com/2012/11/18/fashion/in-china-audi-means-big-shot.html",
+        "kind": "hyperlink",
+        "placement": "footnote",
+        "source_key": "https://nytimes.com/2012/11/18/fashion/in-china-audi-means-big-shot.html",
+        "host": "nytimes.com",
+        "target_article_id": null
+      },
+      {
+        "id": "r024",
+        "paragraph_id": "p51",
+        "char_start": 345,
+        "char_end": 362,
+        "label": "trade down to VWs",
+        "href": "https://www.nytimes.com/2011/11/15/business/global/in-china-car-brands-evoke-an-unexpected-set-of-stereotypes.html",
+        "kind": "hyperlink",
+        "placement": "footnote",
+        "source_key": "https://nytimes.com/2011/11/15/business/global/in-china-car-brands-evoke-an-unexpected-set-of-stereotypes.html",
+        "host": "nytimes.com",
+        "target_article_id": null
+      }
+    ],
+    "metadata_extension": {
+      "field_sources": {
+        "title": "frontmatter",
+        "authors": "frontmatter",
+        "published_date": "frontmatter",
+        "url": "frontmatter",
+        "publisher": "frontmatter",
+        "series": "frontmatter"
+      },
+      "references_status": "preserved",
+      "links_hash": "sha256:abf59b51979334a652048212b88955c9cd333edd24f9cb1d01162726be829a0e",
+      "subtitle": "So long as the bulk of China’s imports from the United States (and many others) are bought by state firms, China has the ability to manage its trade. The management isn’t new. What’s new is Trump’s implicit willingness to accept managed trade so long as the trade is managed in a way that is judged to help the United States.",
+      "published_at": "2019-05-02T12:18:34-04:00",
+      "programs": [
+        "Follow the Money"
+      ],
+      "source_tags": [
+        "China",
+        "Trade"
+      ],
+      "license": "CC BY-NC-ND 4.0",
+      "section": "Article",
+      "doc_type": "AnalysisNewsArticle",
+      "language": "en",
+      "word_count": 1893,
+      "date_modified": "2019-05-02",
+      "retrieved_at": "2026-10-19T20:54:52Z",
+      "page_sha256": "81e95068278333147c7d03c1bd121d4b0ff099c851b9a3791faff93fea1d06eb",
+      "figures": [
+        {
+          "title": "tracking the yuan",
+          "src": "https://static.cfr.org/sites/default/files/styles/large_s/public/image/2019/05/tracking%20the%20yuan.png",
+          "after_paragraph": "p38"
+        },
+        {
+          "title": "U.S. Soybean and Grain Exports to China (monthly, usd millions)",
+          "src": "https://static.cfr.org/sites/default/files/styles/large_s/public/image/2019/04/U.S.%20Soybean%20and%20Grain%20Exports%20to%20China%20%28monthly%2C%20usd%20millions%29.png",
+          "after_paragraph": "p48"
+        },
+        {
+          "title": "U.S. Oil and gas Exports to China (monthly, usd millions)",
+          "src": "https://static.cfr.org/sites/default/files/styles/large_s/public/image/2019/04/U.S.%20Oil%20and%20gas%20Exports%20to%20China%20%28monthly%2C%20usd%20millions%29.png",
+          "after_paragraph": "p49"
+        },
+        {
+          "title": "U.S. Auto Exports to China (monthly, USD millions)",
+          "src": "https://static.cfr.org/sites/default/files/styles/large_s/public/image/2019/04/U.S.%20Auto%20Exports%20to%20China%20%28monthly%2C%20USD%20millions%29.png",
+          "after_paragraph": "p50"
+        }
+      ]
+    }
+  },
+  "paragraphs": [
+    {
+      "id": "p1",
+      "sha256": "sha256:dbbbf5ace616fb0902b2937205220f6fc2ae9820d876af986d837b8eef84c0f6",
+      "n_chars": 167
+    },
+    {
+      "id": "p2",
+      "sha256": "sha256:a259ee9e387545aad55d83d8cfc9a8bb7e6c0a5d3bdefd3fb27b7bef7e4126a3",
+      "n_chars": 62
+    },
+    {
+      "id": "p3",
+      "sha256": "sha256:1f6d188bd5872d9c3e0ff8a7f9b85e12288691b01c287e1c83cd1c10f637f4e6",
+      "n_chars": 159
+    },
+    {
+      "id": "p4",
+      "sha256": "sha256:b6fc3873e834a328020ce1597f2551d39e7df169d8401a01b33f84d712f92a8f",
+      "n_chars": 54
+    },
+    {
+      "id": "p5",
+      "sha256": "sha256:ad08f5f25ea2df1343d925c9b56524a98abe1b4c3c1bbd1407f0390980e58eb9",
+      "n_chars": 81
+    },
+    {
+      "id": "p6",
+      "sha256": "sha256:286581f6e7bd42740ef4933aeb1e4a3b706f278ebfc69d636cd9adb642bcba2c",
+      "n_chars": 115
+    },
+    {
+      "id": "p7",
+      "sha256": "sha256:e6aedfc28f0807f3c82cfcf4af85002d5e8d5678f8a19335cb2b879e3ab9eb92",
+      "n_chars": 358
+    },
+    {
+      "id": "p8",
+      "sha256": "sha256:8ca6baf29d8bf2aa67c1f3bd59cb4f8beaf1efbccf80a1568fd1c63a52381d39",
+      "n_chars": 104
+    },
+    {
+      "id": "p9",
+      "sha256": "sha256:f70e25ece866e3f6fd5cce8db5679473a25ae869c653ed0450baf72c612dadf5",
+      "n_chars": 100
+    },
+    {
+      "id": "p10",
+      "sha256": "sha256:cdfb8d0688e4c9bedf0289af17fae0fd8b752d121a79125beb58e7d855868fbf",
+      "n_chars": 128
+    },
+    {
+      "id": "p11",
+      "sha256": "sha256:7da00fbfd4a2456261d24d1334b0f1b865007855e3b37b99d1f2b1f741c703d8",
+      "n_chars": 243
+    },
+    {
+      "id": "p12",
+      "sha256": "sha256:9a95c3540a2b8338f4de44411b4e0b7891033db09c576c4e447b48a31f22e492",
+      "n_chars": 635
+    },
+    {
+      "id": "p13",
+      "sha256": "sha256:6223f4cbdcda1673b151f55b613843d3a574b10134fe8aad124dac514a54606f",
+      "n_chars": 239
+    },
+    {
+      "id": "p14",
+      "sha256": "sha256:ebbb8282a3adaef6abcc4b29c973d7d3ad2055a7de368f8e91cde4b033c82e7f",
+      "n_chars": 14
+    },
+    {
+      "id": "p15",
+      "sha256": "sha256:1e294b4642a50b46ab30d4ecbf55bf52d62ee72977ae5fda06bbc9f72b5064f3",
+      "n_chars": 17
+    },
+    {
+      "id": "p16",
+      "sha256": "sha256:bd44360cc81748980abb0735f08adb5b863b5ae751c72922c3f70a9826375f01",
+      "n_chars": 284
+    },
+    {
+      "id": "p17",
+      "sha256": "sha256:98492b4e4deb80fe9d52ca9c628797c924e78ff9e3d2e82318814f3922070eea",
+      "n_chars": 177
+    },
+    {
+      "id": "p18",
+      "sha256": "sha256:b0c7287aca7d88317ceac0dbdc9f2893417acdbfc3f95d12a5c02b9b86c5cf74",
+      "n_chars": 247
+    },
+    {
+      "id": "p19",
+      "sha256": "sha256:aa462da5f6d646db800f4975155beb32c67951aa54613a9afe5469646ba97a5a",
+      "n_chars": 17
+    },
+    {
+      "id": "p20",
+      "sha256": "sha256:94136683e0351e39bbdfdc6bc0b1d0dbcde2e45e99f1a4e0c9ac30bd0c83efa4",
+      "n_chars": 26
+    },
+    {
+      "id": "p21",
+      "sha256": "sha256:5f043517eeef2ba9561d44605814390f350cf7693a9813462dfcd6eca90d1ca4",
+      "n_chars": 578
+    },
+    {
+      "id": "p22",
+      "sha256": "sha256:309f1ba4e7412d943d9a0d45468477e9fb2f180775197797e880be61a8d2a809",
+      "n_chars": 17
+    },
+    {
+      "id": "p23",
+      "sha256": "sha256:59ebb06d417e0b521c8051c7e72bb134b2c5fa7fa8ac2c0ba486522b529fc004",
+      "n_chars": 596
+    },
+    {
+      "id": "p24",
+      "sha256": "sha256:9e15889f0c8893b39745a7bcbe5298fcc0e41d400666c62014863c1b561950c7",
+      "n_chars": 11
+    },
+    {
+      "id": "p25",
+      "sha256": "sha256:3e37f6277f9d39e42d22568dd7da01c7f04ea66933f453a8035ff85d1a1efe85",
+      "n_chars": 149
+    },
+    {
+      "id": "p26",
+      "sha256": "sha256:23962dd86f6dd17acce21cbb0d7b9e51aa2cf6df90dfc01eaae7f4ff292cfa59",
+      "n_chars": 169
+    },
+    {
+      "id": "p27",
+      "sha256": "sha256:6d2ce7344ecd9d343a7fb07fdf6900d89cba0ad9bca8e2464e4d822348a18935",
+      "n_chars": 165
+    },
+    {
+      "id": "p28",
+      "sha256": "sha256:cad4b62883a004143b3542c3698ab6a4b3c4fa3b640cca8b57893395df652cfb",
+      "n_chars": 628
+    },
+    {
+      "id": "p29",
+      "sha256": "sha256:c0210eabcdeb5a34953783d6c722412d76c58d207da9b261c5019e2773624566",
+      "n_chars": 50
+    },
+    {
+      "id": "p30",
+      "sha256": "sha256:2d40a0f68689a1b0cd2d22741936e64d719d725838765fd23b381af9c9eeb6d0",
+      "n_chars": 185
+    },
+    {
+      "id": "p31",
+      "sha256": "sha256:55deec455246ae04048c2b88540ad7f5c620e0d06bdb1f1f83f72650bd70d69b",
+      "n_chars": 34
+    },
+    {
+      "id": "p32",
+      "sha256": "sha256:89f9a08ac36457265fc41e59a8865a4456816437f0c1abf0da5ea7661fc951bc",
+      "n_chars": 102
+    },
+    {
+      "id": "p33",
+      "sha256": "sha256:17a90f1ad7173b65143ad27fc674bcf5edc82d49eeb9c366300933169da851c5",
+      "n_chars": 98
+    },
+    {
+      "id": "p34",
+      "sha256": "sha256:116761293150528704d00d61fc515ff8831d4840c314d3181f2ac037dc3b29cf",
+      "n_chars": 106
+    },
+    {
+      "id": "p35",
+      "sha256": "sha256:1c7fa6f56c520dbd5721ff1d20c868f91b14f1713dfc913c5464b6cf59074238",
+      "n_chars": 149
+    },
+    {
+      "id": "p36",
+      "sha256": "sha256:ce60f17c84212126bd97b7985858e6cc576ff8427264ba28e2666f0f360ae7fc",
+      "n_chars": 122
+    },
+    {
+      "id": "p37",
+      "sha256": "sha256:e0fd7ebffc35d84503bae167502b1bdc5ac34adb46bde7117727182fbf3eec54",
+      "n_chars": 194
+    },
+    {
+      "id": "p38",
+      "sha256": "sha256:98cfe6c1fe076d46158f10a501851c7dd8222481bfeff9e3af5b202fe599c6a7",
+      "n_chars": 66
+    },
+    {
+      "id": "p39",
+      "sha256": "sha256:2fa08eb6198d94112dc733794bebe1849cf931fdef1374b1c39d6fb7f5dabc34",
+      "n_chars": 186
+    },
+    {
+      "id": "p40",
+      "sha256": "sha256:f862dc27b4b3d28c97d16181bf25bb2b4db705bc894a082b41097f06edb512a8",
+      "n_chars": 79
+    },
+    {
+      "id": "p41",
+      "sha256": "sha256:ccbb7480c6d721d9a2b6824faaf9b6151149e667c6c14111335183a5100cac69",
+      "n_chars": 37
+    },
+    {
+      "id": "p42",
+      "sha256": "sha256:cf9403afb8e36016b7fe8a865253866fb6913f43aa993dde13e480474ab2a666",
+      "n_chars": 480
+    },
+    {
+      "id": "p43",
+      "sha256": "sha256:507e0a1623f6e308e44caab6c0033076c48e08b6a0f423872841742d6bd70c9c",
+      "n_chars": 327
+    },
+    {
+      "id": "p44",
+      "sha256": "sha256:40bb8b17419c008bd37d6e40b2ccef29c689d845d6a5d3a381ee4377f25fc3fe",
+      "n_chars": 364
+    },
+    {
+      "id": "p45",
+      "sha256": "sha256:c56a440cdea23a886c436663504a15be2c3d1b0485e33cd9747a18f37633d19f",
+      "n_chars": 322
+    },
+    {
+      "id": "p46",
+      "sha256": "sha256:b3f607472a41d8da60ab42d999bfaafe4a2ceda7f99d1e4711a8bddd0190d17c",
+      "n_chars": 154
+    },
+    {
+      "id": "p47",
+      "sha256": "sha256:e85a32fff2bbca99dc1911c84db2d57323f513bd4d34e5125a1ee387838f450c",
+      "n_chars": 354
+    },
+    {
+      "id": "p48",
+      "sha256": "sha256:bf3e4b53d03c41d0df1550037d5e5a540ad06ae5124dbd3593843ce8f9d623d2",
+      "n_chars": 286
+    },
+    {
+      "id": "p49",
+      "sha256": "sha256:87236834b0708d5071cdb97b8304fda6c30af6ae7c51ab37d40d1941b518443c",
+      "n_chars": 49
+    },
+    {
+      "id": "p50",
+      "sha256": "sha256:079704ba48f2341902bf6163c23b48f22dfe73e899c82f48fc29dada7b487be8",
+      "n_chars": 67
+    },
+    {
+      "id": "p51",
+      "sha256": "sha256:18d49cffeeecda739c06d9c25504a4e058199f863aa8c1889a4c3b6e7621c930",
+      "n_chars": 363
+    },
+    {
+      "id": "p52",
+      "sha256": "sha256:1339022702fce9d1f5cc8cce35dfc43039f879b331aa4833e7a25a376a4056bf",
+      "n_chars": 489
+    },
+    {
+      "id": "p53",
+      "sha256": "sha256:8a65dbad16835c80741e699486515de57bc1dd0a029de514091871ca95add02b",
+      "n_chars": 1110
+    }
+  ],
+  "revisions": [
+    {
+      "content_hash": "sha256:34bec7d7c024f034a4a091c5df8c24f4d11011c19c64166c5b6f93459e5f05d7",
+      "links_hash": "sha256:abf59b51979334a652048212b88955c9cd333edd24f9cb1d01162726be829a0e",
+      "paragraph_count": 53,
+      "retrieved_at": "2026-10-19T20:54:52Z",
+      "revision": 1,
+      "changed_paragraphs": []
+    }
+  ],
+  "extensions": {
+    "entities": [
+      {
+        "entity_id": null,
+        "type": "person",
+        "name": "Brad W. Setser",
+        "role": "author"
+      },
+      {
+        "entity_id": null,
+        "type": "organization",
+        "name": "Council on Foreign Relations",
+        "role": "publisher"
+      }
+    ],
+    "cited_sources": [
+      {
+        "source_key": "https://nytimes.com/2019/04/01/us/politics/us-china-trade-trump.html",
+        "host": "nytimes.com",
+        "reference_ids": [
+          "r001",
+          "r022"
+        ]
+      },
+      {
+        "source_key": "https://bloomberg.com/news/articles/2019-02-28/u-s-china-negotiations-risk-shutting-the-rest-of-the-world-out",
+        "host": "bloomberg.com",
+        "reference_ids": [
+          "r002"
+        ]
+      },
+      {
+        "source_key": "https://today.law.harvard.edu/mark-wu-appointed-professor-of-law",
+        "host": "today.law.harvard.edu",
+        "reference_ids": [
+          "r003"
+        ]
+      },
+      {
+        "source_key": "https://producer.com/2019/03/feds-on-canola-dispute-every-ounce-of-effort",
+        "host": "producer.com",
+        "reference_ids": [
+          "r004"
+        ]
+      },
+      {
+        "source_key": "https://theguardian.com/environment/2019/mar/22/chinese-ports-restricting-australian-coal-on-the-rise-as-export-bonanza-in-danger",
+        "host": "theguardian.com",
+        "reference_ids": [
+          "r005"
+        ]
+      },
+      {
+        "source_key": "https://ft.com/content/7c90ac22-101a-11e9-b2f2-f4c566a4fc5f",
+        "host": "ft.com",
+        "reference_ids": [
+          "r006"
+        ]
+      },
+      {
+        "source_key": "https://bloomberg.com/news/articles/2019-03-19/china-said-to-consider-excluding-boeing-max-jet-from-trade-deal",
+        "host": "bloomberg.com",
+        "reference_ids": [
+          "r007"
+        ]
+      },
+      {
+        "source_key": "https://wsj.com/articles/boeing-and-its-737-max-jets-have-a-china-problem-11554904340",
+        "host": "wsj.com",
+        "reference_ids": [
+          "r008"
+        ]
+      },
+      {
+        "source_key": "https://bloomberg.com/news/articles/2019-02-27/rolls-royce-said-to-offer-china-engine-plant-to-win-deal-on-jet",
+        "host": "bloomberg.com",
+        "reference_ids": [
+          "r009"
+        ]
+      },
+      {
+        "source_key": "https://en.wikipedia.org/wiki/cofco_group",
+        "host": "en.wikipedia.org",
+        "reference_ids": [
+          "r010"
+        ]
+      },
+      {
+        "source_key": "https://reuters.com/article/us-usa-trade-china-soybeans/chinas-sinograin-confirms-us-soybean-purchases-iduskcn1oj017",
+        "host": "reuters.com",
+        "reference_ids": [
+          "r011"
+        ]
+      },
+      {
+        "source_key": "https://americanprogress.org/issues/security/reports/2018/04/18/449807/not-fall-hype-u-s-china-natural-gas-trade",
+        "host": "americanprogress.org",
+        "reference_ids": [
+          "r012"
+        ]
+      },
+      {
+        "source_key": "https://oilprice.com/energy/natural-gas/lng-to-win-big-in-us-china-trade-deal.html",
+        "host": "oilprice.com",
+        "reference_ids": [
+          "r013"
+        ]
+      },
+      {
+        "source_key": "https://bloomberg.com/opinion/articles/2018-12-12/china-s-auto-tariff-reversal-looks-like-a-lemon",
+        "host": "bloomberg.com",
+        "reference_ids": [
+          "r014"
+        ]
+      },
+      {
+        "source_key": "https://wsj.com/articles/idle-hands-in-china-workshops-as-foreign-car-makers-struggle-with-zombie-factories-11545750002",
+        "host": "wsj.com",
+        "reference_ids": [
+          "r015"
+        ]
+      },
+      {
+        "source_key": "https://ft.com/content/2b843e4c-c745-11df-aeb1-00144feab49a",
+        "host": "ft.com",
+        "reference_ids": [
+          "r016"
+        ]
+      },
+      {
+        "source_key": "https://en.wikipedia.org/wiki/state_grid_corporation_of_china",
+        "host": "en.wikipedia.org",
+        "reference_ids": [
+          "r017"
+        ]
+      },
+      {
+        "source_key": "https://ft.com/content/ea032bba-5f33-11e8-9334-2218e7146b04",
+        "host": "ft.com",
+        "reference_ids": [
+          "r018"
+        ]
+      },
+      {
+        "source_key": "https://cfr.org/articles/how-did-china-manage-its-currency-over-summer",
+        "host": "cfr.org",
+        "reference_ids": [
+          "r019"
+        ]
+      },
+      {
+        "source_key": "https://cfr.org/articles/why-hasnt-china-needed-intervene-more-year",
+        "host": "cfr.org",
+        "reference_ids": [
+          "r020"
+        ]
+      },
+      {
+        "source_key": "https://industryweek.com/leadership/rolls-royce-said-offer-china-engine-plant-win-deal-jet",
+        "host": "industryweek.com",
+        "reference_ids": [
+          "r021"
+        ]
+      },
+      {
+        "source_key": "https://nytimes.com/2012/11/18/fashion/in-china-audi-means-big-shot.html",
+        "host": "nytimes.com",
+        "reference_ids": [
+          "r023"
+        ]
+      },
+      {
+        "source_key": "https://nytimes.com/2011/11/15/business/global/in-china-car-brands-evoke-an-unexpected-set-of-stereotypes.html",
+        "host": "nytimes.com",
+        "reference_ids": [
+          "r024"
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "flags": []
+  }
+}

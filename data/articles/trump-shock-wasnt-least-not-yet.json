@@ -1,0 +1,287 @@
+{
+  "schema_version": "source-record-0.1",
+  "article": {
+    "id": "trump-shock-wasnt-least-not-yet",
+    "title": "The Trump Shock That Wasn’t (At Least Not Yet)",
+    "authors": [
+      "Brad W. Setser"
+    ],
+    "published_date": "2025-09-12",
+    "url": "https://www.cfr.org/articles/trump-shock-wasnt-least-not-yet",
+    "publisher": "Council on Foreign Relations",
+    "series": "Follow the Money",
+    "source_text": {
+      "path": "internal/extracted/2025-09-12_trump-shock-wasnt-least-not-yet.md",
+      "paragraph_count": 31,
+      "content_hash": "sha256:ea43515962eb7816ee5fd66d4cc531ffe09acf7aab2e64cc167954dd1fffacc4",
+      "revision": 1
+    },
+    "references": [
+      {
+        "id": "r001",
+        "paragraph_id": "p2",
+        "char_start": 0,
+        "char_end": 39,
+        "label": "They have generated enormous volatility",
+        "href": "https://www.nytimes.com/2025/09/04/business/economy/us-trade-imports-tariffs.html",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://nytimes.com/2025/09/04/business/economy/us-trade-imports-tariffs.html",
+        "host": "nytimes.com",
+        "target_article_id": null
+      }
+    ],
+    "metadata_extension": {
+      "field_sources": {
+        "title": "frontmatter",
+        "authors": "frontmatter",
+        "published_date": "frontmatter",
+        "url": "frontmatter",
+        "publisher": "frontmatter",
+        "series": "frontmatter"
+      },
+      "references_status": "preserved",
+      "links_hash": "sha256:96bafc13035aa679c703594e89d92e3db17edfca64f14093733d606cbb8ea6dc",
+      "subtitle": "The “core” U.S. trade deficit is still expanding, thanks to strong electronics imports.",
+      "published_at": "2025-09-12T11:11:21-04:00",
+      "programs": [
+        "Follow the Money",
+        "Greenberg Center for Geoeconomics"
+      ],
+      "source_tags": [
+        "Economics",
+        "Trade"
+      ],
+      "license": "CC BY-NC-ND 4.0",
+      "section": "Article",
+      "doc_type": "AnalysisNewsArticle",
+      "language": "en",
+      "word_count": 1009,
+      "date_modified": "2025-09-12",
+      "retrieved_at": "2026-10-19T20:54:52Z",
+      "page_sha256": "5aa7087e3e0e26ae55acaf2dc6a5d2ad582f9a2c0bde976763b11b5c617fbfd2",
+      "figures": [
+        {
+          "title": "Imp-Exp gold pharma non 12m sum",
+          "src": "https://static.cfr.org/sites/default/files/styles/large_s/public/image/2025/09/Imp-Exp%20gold%20pharma%20non%2012m%20sum_1.png",
+          "after_paragraph": "p2"
+        },
+        {
+          "title": "Annualized Deficit",
+          "src": "https://static.cfr.org/sites/default/files/styles/large_s/public/image/2025/09/Annualized%20Deficit.png",
+          "after_paragraph": "p11"
+        },
+        {
+          "title": "Imp-Exp Gold Pharma",
+          "src": "https://static.cfr.org/sites/default/files/styles/large_s/public/image/2025/09/Imp-Exp%20Gold%20Pharma.png",
+          "after_paragraph": "p13"
+        },
+        {
+          "title": "Imports china taiwan",
+          "src": "https://static.cfr.org/sites/default/files/styles/large_s/public/image/2025/09/Imports%20china%20taiwan.png",
+          "after_paragraph": "p14"
+        },
+        {
+          "title": "Dutch Trade Chart",
+          "src": "https://static.cfr.org/sites/default/files/styles/large_s/public/image/2025/09/Dutch%20Trade%20Chart.png",
+          "after_paragraph": "p27"
+        }
+      ]
+    }
+  },
+  "paragraphs": [
+    {
+      "id": "p1",
+      "sha256": "sha256:b15412a8e2074d9ec1b7fda39c52113a6311e26846404c132761e5bdad4e116b",
+      "n_chars": 79
+    },
+    {
+      "id": "p2",
+      "sha256": "sha256:486ee658e1a5f880579eb17007b3f16a4f0f0fb718362705e0f81de502317048",
+      "n_chars": 64
+    },
+    {
+      "id": "p3",
+      "sha256": "sha256:f10cd383f2347f10275be5acdb277da6f74f0d6250e0d469393064a35a1aaf7b",
+      "n_chars": 234
+    },
+    {
+      "id": "p4",
+      "sha256": "sha256:78c5c403383fc565af4c008d86940a0c4e8c86a83d9a7b3ae67f901e70fa43c4",
+      "n_chars": 205
+    },
+    {
+      "id": "p5",
+      "sha256": "sha256:e887db5395a8ef4e5e17930447bbdfa86f1ed6e6bb028aa1eafc55bbdd22321f",
+      "n_chars": 62
+    },
+    {
+      "id": "p6",
+      "sha256": "sha256:76b16e8da0db92f04b9590f6555953bdf14a608f74699aaea829d99e95acb548",
+      "n_chars": 310
+    },
+    {
+      "id": "p7",
+      "sha256": "sha256:262a0d0d919e94910cd0f6996fde89dc4cdb5f47d3e4930035a55ffad850cedb",
+      "n_chars": 589
+    },
+    {
+      "id": "p8",
+      "sha256": "sha256:8f241be20561434ca8ef081aa329b84b029335087d7be20acb6495051a900aeb",
+      "n_chars": 323
+    },
+    {
+      "id": "p9",
+      "sha256": "sha256:4b5486c816c1e8b583364834e6754a81d0769a3c48c89afea2562980c4369cc4",
+      "n_chars": 136
+    },
+    {
+      "id": "p10",
+      "sha256": "sha256:5f14304904432b77f00ef09893e61b0567c86e4e50394e2148301bb4495041b6",
+      "n_chars": 84
+    },
+    {
+      "id": "p11",
+      "sha256": "sha256:8b9f251c6277de92e4ad4dad206ce977cbd7e5acd30a7995b6acfba7b1ff7eef",
+      "n_chars": 193
+    },
+    {
+      "id": "p12",
+      "sha256": "sha256:f51413bb8a276800c56dd14971b0fdbcaa510322c4c122acf4b48ad79a40cc63",
+      "n_chars": 201
+    },
+    {
+      "id": "p13",
+      "sha256": "sha256:1497b09ff61740496d2d993f338a5a61694e7a7dab8a883bb08952a774013ccf",
+      "n_chars": 76
+    },
+    {
+      "id": "p14",
+      "sha256": "sha256:2f4abb297ab8f8f44dd1aaad33f428e6f2cd35e0ee2dc0e1181bf2419c87a261",
+      "n_chars": 307
+    },
+    {
+      "id": "p15",
+      "sha256": "sha256:e5aebe9fd10158c18f6190efbaea52a80c3857913847cc20c4ad6c2286fe5ad6",
+      "n_chars": 292
+    },
+    {
+      "id": "p16",
+      "sha256": "sha256:baefe41776b4854f8ed26b1118b3d984e26d336d764dc96a36f9f253864595d3",
+      "n_chars": 221
+    },
+    {
+      "id": "p17",
+      "sha256": "sha256:b47fc68461d88e2ef603dc1adafe05c4cd9ca393050666c1b705642f09962cf9",
+      "n_chars": 180
+    },
+    {
+      "id": "p18",
+      "sha256": "sha256:da296c9cc02b260e864bd1c3521cdfc1d5bd81fa96d0025d8fb708bfe1325155",
+      "n_chars": 54
+    },
+    {
+      "id": "p19",
+      "sha256": "sha256:5a164eca78c655d18a2b72f52fee026a324391693c76e43e9901230e06117a92",
+      "n_chars": 137
+    },
+    {
+      "id": "p20",
+      "sha256": "sha256:16cd90b916c6327a2f08daeceba206e42330a9d4aa8aa20830866154052eb43d",
+      "n_chars": 187
+    },
+    {
+      "id": "p21",
+      "sha256": "sha256:2a23ff3f7a7fe073d079bbcae0b24ad05caf302de16bac728faa5089eec975b7",
+      "n_chars": 280
+    },
+    {
+      "id": "p22",
+      "sha256": "sha256:d96c1ceecacab6a4b5db5760836afbd46d728b4541f89117f4da30f563c9c92d",
+      "n_chars": 321
+    },
+    {
+      "id": "p23",
+      "sha256": "sha256:ea342d854152531cec05ccb4a4bfa4a2266b168934a593ace01fce1f10250108",
+      "n_chars": 413
+    },
+    {
+      "id": "p24",
+      "sha256": "sha256:182eb4f170e5c47e1cf94c6359e4fbad06136784b34fefecb83463c0efa78c02",
+      "n_chars": 114
+    },
+    {
+      "id": "p25",
+      "sha256": "sha256:0f5d1938d7ae7e590e486c8a9e6df6dc4e48ff91fc7aac4073249b65c2f30455",
+      "n_chars": 73
+    },
+    {
+      "id": "p26",
+      "sha256": "sha256:30a81b4beaffa049594f65babe83c796b0ca9e77d6188b62285fcefa15865682",
+      "n_chars": 103
+    },
+    {
+      "id": "p27",
+      "sha256": "sha256:add6fb7a2363e0973ee301fda177d21edac32fb262642cbd8777abc02fc3490a",
+      "n_chars": 66
+    },
+    {
+      "id": "p28",
+      "sha256": "sha256:d3254eb2f29ad473922b537debc2bcb2679d865de6687a6b478c796533ce2768",
+      "n_chars": 98
+    },
+    {
+      "id": "p29",
+      "sha256": "sha256:f042cd072c68e0261d9702b82f5168b550627b3b41a315b0ff2043317dd2cc96",
+      "n_chars": 136
+    },
+    {
+      "id": "p30",
+      "sha256": "sha256:1accaa6f21553d021f72535b9c42558240a06784fd2797012e5f645684360b81",
+      "n_chars": 264
+    },
+    {
+      "id": "p31",
+      "sha256": "sha256:da1997b7b7b3a21a28f7a22a0cb6470ebf5391b339cde862f382b63ea868b2f1",
+      "n_chars": 202
+    }
+  ],
+  "revisions": [
+    {
+      "content_hash": "sha256:ea43515962eb7816ee5fd66d4cc531ffe09acf7aab2e64cc167954dd1fffacc4",
+      "links_hash": "sha256:96bafc13035aa679c703594e89d92e3db17edfca64f14093733d606cbb8ea6dc",
+      "paragraph_count": 31,
+      "retrieved_at": "2026-10-19T20:54:52Z",
+      "revision": 1,
+      "changed_paragraphs": []
+    }
+  ],
+  "extensions": {
+    "entities": [
+      {
+        "entity_id": null,
+        "type": "person",
+        "name": "Brad W. Setser",
+        "role": "author"
+      },
+      {
+        "entity_id": null,
+        "type": "organization",
+        "name": "Council on Foreign Relations",
+        "role": "publisher"
+      }
+    ],
+    "cited_sources": [
+      {
+        "source_key": "https://nytimes.com/2025/09/04/business/economy/us-trade-imports-tariffs.html",
+        "host": "nytimes.com",
+        "reference_ids": [
+          "r001"
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "flags": []
+  }
+}

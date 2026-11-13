@@ -32,7 +32,7 @@ tags: [type/evidence_data, level/L2, family/plain, variable/import-volumes, vari
 ## Source
 - Article: [[2020-02-26 Do tariffs change the trade balance, and who absorbed the Q4 US demand drop]]
 - Authored map: `mermaid_code/setser_feb_26_20.mmd`
-- Passage: p5 — _proposed `abstracts`, score 0.319; unreviewed, not a citation_
+- Passage: p5 — _proposed `abstracts`, score 0.316; unreviewed, not a citation_
 - Published: https://www.cfr.org/articles/us-shock-global-demand-q4-coronavirus
 - Node `setser_feb_26_20#D3` · level L2 · type resolved by `class`
 - Full chain: `python scripts/trace.py setser_feb_26_20#D3`

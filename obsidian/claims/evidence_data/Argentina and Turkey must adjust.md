@@ -32,7 +32,8 @@ tags: [type/evidence_data, level/L2, family/plain, variable/current-account, var
 ## Source
 - Article: [[2018-06-04 Could global macro shocks overwhelm trade deals and push the U.S. trade deficit higher]]
 - Authored map: `mermaid_code/setser_jun_4_18.mmd`
-- Passage: **p12** — **states**, anchored on `argentina turkey`, a literal the claim and the paragraph share
+- Passage: **p15** — **states**, anchored on `argentina turkey`, a literal the claim and the paragraph share
+- Passage: **p5** — **states**, anchored on `argentina turkey`, a literal the claim and the paragraph share
 - Published: https://www.cfr.org/articles/trade-deals-or-macroeconomic-shocks
 - Node `setser_jun_4_18#D1` · level L2 · type resolved by `class`
 - Full chain: `python scripts/trace.py setser_jun_4_18#D1`

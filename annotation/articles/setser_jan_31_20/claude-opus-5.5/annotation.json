@@ -1,0 +1,3431 @@
+{
+ "schema_version": "0.1-draft",
+ "article": {
+  "id": "setser_jan_31_20",
+  "title": "Lessons From Phase One of the Trade War With China",
+  "authors": [
+   "Brad W. Setser"
+  ],
+  "published_date": "2020-01-31",
+  "url": "https://www.cfr.org/articles/lessons-phase-one-trade-war-china",
+  "publisher": "Council on Foreign Relations",
+  "series": "Follow the Money",
+  "source_text": {
+   "path": "internal/extracted/2020-01-31_lessons-phase-one-trade-war-china.md",
+   "paragraph_count": 30,
+   "content_hash": "sha256:01f9c1a3ac2608b4afc286ed5b7b96ab2372d70ad1c470c1f9696c7ae22c185c",
+   "revision": 2
+  },
+  "references": [
+   {
+    "id": "r001",
+    "paragraph_id": "p1",
+    "char_start": 19,
+    "char_end": 36,
+    "label": "trade deal signed",
+    "href": "https://www.nytimes.com/2020/01/15/business/economy/china-trade-deal.html",
+    "kind": "hyperlink",
+    "placement": "body",
+    "source_key": "https://nytimes.com/2020/01/15/business/economy/china-trade-deal.html",
+    "host": "nytimes.com",
+    "target_article_id": null
+   },
+   {
+    "id": "r002",
+    "paragraph_id": "p3",
+    "char_start": 254,
+    "char_end": 271,
+    "label": "their coming book",
+    "href": "https://www.harpercollins.com/9780062953056/superpower-showdown/",
+    "kind": "hyperlink",
+    "placement": "body",
+    "source_key": "https://harpercollins.com/9780062953056/superpower-showdown",
+    "host": "harpercollins.com",
+    "target_article_id": null
+   },
+   {
+    "id": "r003",
+    "paragraph_id": "p4",
+    "char_start": 43,
+    "char_end": 63,
+    "label": "views these programs",
+    "href": "https://www.sbc.senate.gov/public/_cache/files/3/b/3bd85987-d8b4-48b3-a53e-8b49d2060821/4E39BD152B9F358A5E4254D80A512D8B.setser-testimony.pdf",
+    "kind": "hyperlink",
+    "placement": "body",
+    "source_key": "https://sbc.senate.gov/public/_cache/files/3/b/3bd85987-d8b4-48b3-a53e-8b49d2060821/4e39bd152b9f358a5e4254d80a512d8b.setser-testimony.pdf",
+    "host": "sbc.senate.gov",
+    "target_article_id": null
+   },
+   {
+    "id": "r004",
+    "paragraph_id": "p4",
+    "char_start": 268,
+    "char_end": 300,
+    "label": "guarantees future trade conflict",
+    "href": "https://www.nytimes.com/2020/01/16/business/us-china-trade.html",
+    "kind": "hyperlink",
+    "placement": "body",
+    "source_key": "https://nytimes.com/2020/01/16/business/us-china-trade.html",
+    "host": "nytimes.com",
+    "target_article_id": null
+   },
+   {
+    "id": "r005",
+    "paragraph_id": "p4",
+    "char_start": 502,
+    "char_end": 524,
+    "label": "though not necessarily",
+    "href": "https://www.cfr.org/articles/us-china-trade-war-how-we-got-here",
+    "kind": "hyperlink",
+    "placement": "body",
+    "source_key": "https://cfr.org/articles/us-china-trade-war-how-we-got-here",
+    "host": "cfr.org",
+    "target_article_id": null
+   },
+   {
+    "id": "r006",
+    "paragraph_id": "p4",
+    "char_start": 525,
+    "char_end": 536,
+    "label": "WTO illegal",
+    "href": "https://www.uscc.gov/sites/default/files/Hillman%20Testimony%20US%20China%20Comm%20w%20Appendix%20A.pdf",
+    "kind": "hyperlink",
+    "placement": "body",
+    "source_key": "https://uscc.gov/sites/default/files/hillman%20testimony%20us%20china%20comm%20w%20appendix%20a.pdf",
+    "host": "uscc.gov",
+    "target_article_id": null
+   },
+   {
+    "id": "r007",
+    "paragraph_id": "p4",
+    "char_start": 935,
+    "char_end": 960,
+    "label": "bigger problems right now",
+    "href": "https://www.wsj.com/articles/boeing-falls-to-full-year-loss-11580302091",
+    "kind": "hyperlink",
+    "placement": "body",
+    "source_key": "https://wsj.com/articles/boeing-falls-to-full-year-loss-11580302091",
+    "host": "wsj.com",
+    "target_article_id": null
+   },
+   {
+    "id": "r008",
+    "paragraph_id": "p4",
+    "char_start": 1101,
+    "char_end": 1155,
+    "label": "aren’t going to have a huge impact on its 2020 imports",
+    "href": "https://www.wsj.com/articles/the-great-u-s-china-tech-divide-11579542441?mod=searchresults&page=1&pos=12",
+    "kind": "hyperlink",
+    "placement": "body",
+    "source_key": "https://wsj.com/articles/the-great-u-s-china-tech-divide-11579542441",
+    "host": "wsj.com",
+    "target_article_id": null
+   },
+   {
+    "id": "r009",
+    "paragraph_id": "p10",
+    "char_start": 502,
+    "char_end": 529,
+    "label": "creating a synthetic T-bill",
+    "href": "https://www.wsj.com/articles/the-dollar-is-even-more-important-than-you-know-11578307908",
+    "kind": "hyperlink",
+    "placement": "body",
+    "source_key": "https://wsj.com/articles/the-dollar-is-even-more-important-than-you-know-11578307908",
+    "host": "wsj.com",
+    "target_article_id": null
+   },
+   {
+    "id": "r010",
+    "paragraph_id": "p11",
+    "char_start": 119,
+    "char_end": 141,
+    "label": "my friend Ramin Toloui",
+    "href": "https://siepr.stanford.edu/sites/default/files/publications/19-032.pdf",
+    "kind": "hyperlink",
+    "placement": "body",
+    "source_key": "https://siepr.stanford.edu/sites/default/files/publications/19-032.pdf",
+    "host": "siepr.stanford.edu",
+    "target_article_id": null
+   },
+   {
+    "id": "r011",
+    "paragraph_id": "p11",
+    "char_start": 147,
+    "char_end": 166,
+    "label": "yield curve control",
+    "href": "https://www.bloomberg.com/opinion/articles/2019-12-06/federal-reserve-considers-manipulating-bond-yields",
+    "kind": "hyperlink",
+    "placement": "body",
+    "source_key": "https://bloomberg.com/opinion/articles/2019-12-06/federal-reserve-considers-manipulating-bond-yields",
+    "host": "bloomberg.com",
+    "target_article_id": null
+   },
+   {
+    "id": "r012",
+    "paragraph_id": "p13",
+    "char_start": 208,
+    "char_end": 247,
+    "label": "China’s overall imports of manufactures",
+    "href": "https://www.cfr.org/articles/china-more-trump-has-been-driving-slowdown-global-trade",
+    "kind": "hyperlink",
+    "placement": "body",
+    "source_key": "https://cfr.org/articles/china-more-trump-has-been-driving-slowdown-global-trade",
+    "host": "cfr.org",
+    "target_article_id": null
+   },
+   {
+    "id": "r013",
+    "paragraph_id": "p18",
+    "char_start": 102,
+    "char_end": 122,
+    "label": "the text of the deal",
+    "href": "https://ustr.gov/countries-regions/china-mongolia-taiwan/peoples-republic-china/phase-one-trade-agreement/text",
+    "kind": "hyperlink",
+    "placement": "body",
+    "source_key": "https://ustr.gov/countries-regions/china-mongolia-taiwan/peoples-republic-china/phase-one-trade-agreement/text",
+    "host": "ustr.gov",
+    "target_article_id": null
+   },
+   {
+    "id": "r014",
+    "paragraph_id": "p22",
+    "char_start": 153,
+    "char_end": 165,
+    "label": "chicken paws",
+    "href": "https://www.cfr.org/articles/chicken-feet-and-china-back-future",
+    "kind": "hyperlink",
+    "placement": "body",
+    "source_key": "https://cfr.org/articles/chicken-feet-and-china-back-future",
+    "host": "cfr.org",
+    "target_article_id": null
+   },
+   {
+    "id": "r015",
+    "paragraph_id": "p22",
+    "char_start": 169,
+    "char_end": 191,
+    "label": "distillers dried grain",
+    "href": "https://news.bloomberglaw.com/international-trade/china-keeps-tariffs-on-u-s-distillers-grain-before-g-20-meeting",
+    "kind": "hyperlink",
+    "placement": "body",
+    "source_key": "https://news.bloomberglaw.com/international-trade/china-keeps-tariffs-on-u-s-distillers-grain-before-g-20-meeting",
+    "host": "news.bloomberglaw.com",
+    "target_article_id": null
+   },
+   {
+    "id": "r016",
+    "paragraph_id": "p22",
+    "char_start": 206,
+    "char_end": 210,
+    "label": "nuts",
+    "href": "https://www.thehindubusinessline.com/economy/agri-business/by-buying-us-almonds-and-pecans-china-may-crack-the-hard-trade-deal-nut/article30397060.ece",
+    "kind": "hyperlink",
+    "placement": "body",
+    "source_key": "https://thehindubusinessline.com/economy/agri-business/by-buying-us-almonds-and-pecans-china-may-crack-the-hard-trade-deal-nut/article30397060.ece",
+    "host": "thehindubusinessline.com",
+    "target_article_id": null
+   },
+   {
+    "id": "r017",
+    "paragraph_id": "p22",
+    "char_start": 215,
+    "char_end": 223,
+    "label": "lobsters",
+    "href": "https://www.nytimes.com/2018/06/22/us/politics/donald-trump-tariffs-trade-war.html",
+    "kind": "hyperlink",
+    "placement": "body",
+    "source_key": "https://nytimes.com/2018/06/22/us/politics/donald-trump-tariffs-trade-war.html",
+    "host": "nytimes.com",
+    "target_article_id": null
+   },
+   {
+    "id": "r018",
+    "paragraph_id": "p23",
+    "char_start": 477,
+    "char_end": 510,
+    "label": "unambiguous evidence of an impact",
+    "href": "https://www.cfr.org/articles/soybeans",
+    "kind": "hyperlink",
+    "placement": "body",
+    "source_key": "https://cfr.org/articles/soybeans",
+    "host": "cfr.org",
+    "target_article_id": null
+   },
+   {
+    "id": "r019",
+    "paragraph_id": "p23",
+    "char_start": 585,
+    "char_end": 630,
+    "label": "United States is exporting beans to Argentina",
+    "href": "https://www.reuters.com/article/us-g20-argentina-grains-insight/spoils-of-trade-war-argentina-loads-up-on-cheap-u-s-soybeans-idUSKCN1NZ0HC",
+    "kind": "hyperlink",
+    "placement": "body",
+    "source_key": "https://reuters.com/article/us-g20-argentina-grains-insight/spoils-of-trade-war-argentina-loads-up-on-cheap-u-s-soybeans-iduskcn1nz0hc",
+    "host": "reuters.com",
+    "target_article_id": null
+   },
+   {
+    "id": "r020",
+    "paragraph_id": "p23",
+    "char_start": 812,
+    "char_end": 828,
+    "label": "Brazil’s harvest",
+    "href": "https://www.ocj.com/2020/01/brazil-headed-for-a-bumper-soy-crop-amid-us-china-deal/",
+    "kind": "hyperlink",
+    "placement": "body",
+    "source_key": "https://ocj.com/2020/01/brazil-headed-for-a-bumper-soy-crop-amid-us-china-deal",
+    "host": "ocj.com",
+    "target_article_id": null
+   },
+   {
+    "id": "r021",
+    "paragraph_id": "p26",
+    "char_start": 40,
+    "char_end": 73,
+    "label": "Trump’s strategy of managed trade",
+    "href": "https://www.economist.com/finance-and-economics/2020/01/25/the-costs-of-americas-lurch-towards-managed-trade",
+    "kind": "hyperlink",
+    "placement": "body",
+    "source_key": "https://economist.com/finance-and-economics/2020/01/25/the-costs-of-americas-lurch-towards-managed-trade",
+    "host": "economist.com",
+    "target_article_id": null
+   },
+   {
+    "id": "r022",
+    "paragraph_id": "p27",
+    "char_start": 26,
+    "char_end": 53,
+    "label": "China’s state can take away",
+    "href": "https://www.cfr.org/articles/china-never-stopped-managing-its-trade",
+    "kind": "hyperlink",
+    "placement": "body",
+    "source_key": "https://cfr.org/articles/china-never-stopped-managing-its-trade",
+    "host": "cfr.org",
+    "target_article_id": "china-never-stopped-managing-its-trade"
+   },
+   {
+    "id": "r023",
+    "paragraph_id": "p30",
+    "char_start": 16,
+    "char_end": 35,
+    "label": "Economist’s article",
+    "href": "https://www.economist.com/finance-and-economics/2020/01/25/the-costs-of-americas-lurch-towards-managed-trade",
+    "kind": "hyperlink",
+    "placement": "footnote",
+    "source_key": "https://economist.com/finance-and-economics/2020/01/25/the-costs-of-americas-lurch-towards-managed-trade",
+    "host": "economist.com",
+    "target_article_id": null
+   },
+   {
+    "id": "r024",
+    "paragraph_id": "p30",
+    "char_start": 368,
+    "char_end": 393,
+    "label": "the conventional approach",
+    "href": "https://www.csis.org/analysis/does-phase-one-china-deal-measure-depends-how-you-measure",
+    "kind": "hyperlink",
+    "placement": "footnote",
+    "source_key": "https://csis.org/analysis/does-phase-one-china-deal-measure-depends-how-you-measure",
+    "host": "csis.org",
+    "target_article_id": null
+   },
+   {
+    "id": "r025",
+    "paragraph_id": "p30",
+    "char_start": 517,
+    "char_end": 550,
+    "label": "indigenous innovation procurement",
+    "href": "https://www.chinalawinsight.com/2010/09/articles/intellectual-property/chinas-indigenous-innovation-policy-and-its-effect-on-foreign-intellectual-property-rights-holders/",
+    "kind": "hyperlink",
+    "placement": "footnote",
+    "source_key": "https://chinalawinsight.com/2010/09/articles/intellectual-property/chinas-indigenous-innovation-policy-and-its-effect-on-foreign-intellectual-property-rights-holders",
+    "host": "chinalawinsight.com",
+    "target_article_id": null
+   }
+  ],
+  "metadata_extension": {
+   "field_sources": {
+    "title": "frontmatter",
+    "authors": "frontmatter",
+    "published_date": "frontmatter",
+    "url": "frontmatter",
+    "publisher": "frontmatter",
+    "series": "frontmatter"
+   },
+   "references_status": "preserved",
+   "links_hash": "sha256:d6f35111605c61eb292f667e9d69354d8da7343a671b2d98e4db0ce13aaea98f",
+   "subtitle": "With the phase one trade deal signed—and with China now promising (somewhat credibly in my view) to raise its imports of agriculture and energy above their pre-trade war levels and (less credibly) promising to raise its imports of U.S. manufactures—it is now possible look back at how China decided to respond to Trump’s tariff pressure. […]",
+   "published_at": "2020-01-31T20:53:29-05:00",
+   "programs": [
+    "Follow the Money"
+   ],
+   "source_tags": [
+    "China",
+    "United States"
+   ],
+   "license": "CC BY-NC-ND 4.0",
+   "section": "Article",
+   "doc_type": "AnalysisNewsArticle",
+   "language": "en",
+   "word_count": 1597,
+   "date_modified": "2020-01-31",
+   "retrieved_at": "2026-10-15T20:05:31Z",
+   "page_sha256": "2b7ee4f2ee9c6fbe449fc80bf3a9e71a00642e698d249a13492f79d3b789d2af",
+   "figures": [
+    {
+     "title": "Phase one Purchases",
+     "src": "https://static.cfr.org/sites/default/files/styles/large_s/public/image/2020/01/Phase%20one%20Purchases.png",
+     "after_paragraph": "p1"
+    },
+    {
+     "title": "Settlement Intervention",
+     "src": "https://static.cfr.org/sites/default/files/styles/large_s/public/image/2020/01/Settlement%20Intervention.png",
+     "after_paragraph": "p5"
+    },
+    {
+     "title": "China's Reported U.S. Holdings vs. its Estimated Dollar Reserves (USD Billions)",
+     "src": "https://static.cfr.org/sites/default/files/styles/large_s/public/image/2020/01/China%27s%20Reported%20U.S.%20Holdings%20vs.%20its%20Estimated%20Dollar%20Reserves%20%28USD%20Billions%29.png",
+     "after_paragraph": "p9"
+    },
+    {
+     "title": "Chinese Manufactruing Imports from the united States (trailing 3m sums,annualized, usd billions)",
+     "src": "https://static.cfr.org/sites/default/files/styles/large_s/public/image/2020/01/Chinese%20Manufactruing%20Imports%20from%20the%20united%20States%20%28trailing%203m%20sums%2Cannualized%2C%20usd%20billions%29_0.png",
+     "after_paragraph": "p13"
+    },
+    {
+     "title": "China's Imports from the United States (Trailing 12M Sums, USD Billions)",
+     "src": "https://static.cfr.org/sites/default/files/styles/large_s/public/image/2020/01/China%27s%20Imports%20from%20the%20United%20States%20%28Trailing%2012M%20Sums%2C%20USD%20Billions%29.png",
+     "after_paragraph": "p17"
+    },
+    {
+     "title": "Chinese Agriculture and Energy Exports from the United States (Trailing 12M Sums, USD Billions)",
+     "src": "https://static.cfr.org/sites/default/files/styles/large_s/public/image/2020/01/Chinese%20Agriculture%20and%20Energy%20Exports%20from%20the%20United%20States%20%28Trailing%2012M%20Sums%2C%20USD%20Billions%29_0.png",
+     "after_paragraph": "p19"
+    },
+    {
+     "title": "The Impact of the Trade War on Trade in Agriculture and Energy",
+     "src": "https://static.cfr.org/sites/default/files/styles/large_s/public/image/2020/01/The%20Impact%20of%20the%20Trade%20War%20on%20Trade%20in%20Agriculture%20and%20Energy_0.png",
+     "after_paragraph": "p22"
+    },
+    {
+     "title": "Chinese Meat Imports End 2017 vs. End 2019",
+     "src": "https://static.cfr.org/sites/default/files/styles/large_s/public/image/2020/01/Chinese%20Meat%20Imports%20End%202017%20vs.%20End%202019_1.png",
+     "after_paragraph": "p25"
+    },
+    {
+     "title": "China's Imports from the United States (Trailing 3M Sums Annualized, USD Billions)",
+     "src": "https://static.cfr.org/sites/default/files/styles/large_s/public/image/2020/01/China%27s%20Imports%20from%20the%20United%20States%20%28Trailing%203M%20Sums%20Annualized%2C%20USD%20Billions%29.png",
+     "after_paragraph": "p29"
+    }
+   ],
+   "source_record": "lessons-phase-one-trade-war-china"
+  }
+ },
+ "annotation": {
+  "annotated_at": "2026-11-09T21:12:48+00:00",
+  "ontology": {
+   "id": "setser_argument",
+   "version": 2
+  },
+  "facets_version": 1,
+  "pipeline_version": "8d03103",
+  "status": "needs_review",
+  "runs": [
+   {
+    "run_id": "claude-opus-5.5_boxes",
+    "stage": "boxes",
+    "method": "llm",
+    "model": "anthropic/claude-opus-5.5",
+    "parameters": {
+     "max_tokens": 16000,
+     "reasoning_effort": "medium"
+    },
+    "timestamp": "2026-11-09T21:12:48+00:00",
+    "calls": 1,
+    "cost_usd": 0.13083
+   },
+   {
+    "run_id": "claude-opus-5.5_links",
+    "stage": "links",
+    "method": "llm",
+    "model": "anthropic/claude-opus-5.5",
+    "parameters": {
+     "max_tokens": 12000,
+     "reasoning_effort": "medium"
+    },
+    "timestamp": "2026-11-09T21:12:48+00:00",
+    "calls": 1,
+    "cost_usd": 0.04831
+   },
+   {
+    "run_id": "claude-opus-5.5_facets",
+    "stage": "facets",
+    "method": "llm",
+    "model": "anthropic/claude-opus-5.5",
+    "parameters": {
+     "max_tokens": 12000,
+     "reasoning_effort": "low"
+    },
+    "timestamp": "2026-11-09T21:12:48+00:00",
+    "calls": 1,
+    "cost_usd": 0.07097
+   }
+  ]
+ },
+ "summary": {
+  "central_question": "How did China respond to Trump's tariff pressure, and what does that response imply for the phase one deal?",
+  "main_thesis": "China's response had five features: it shielded industrial policy, used the currency without losing reserves, did not weaponize Treasuries, did not single out U.S. manufactures, and hit U.S. farm and energy exports, which shows that state-managed trade gives China leverage over U.S. agriculture.",
+  "argument_summary": null
+ },
+ "nodes": [
+  {
+   "id": "n001",
+   "legacy_id": "Q",
+   "role": "question",
+   "level": "L0",
+   "content": {
+    "text": "How did China respond to Trump's tariff pressure, and what does that response imply for the phase one deal?",
+    "label": null,
+    "explicit": true,
+    "reason": "A completed episode of bargaining reveals each side's priorities and capacities."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p1",
+      "paragraph_sha256": "sha256:70bc2c82bc6c20f54bd4f69ff226c573225d67bdd9e59f68cb53159221e9c9b1",
+      "relation": "states",
+      "link_method": "llm_citation",
+      "anchor_grade": "excerpt",
+      "review_status": "pending",
+      "source_excerpt": "it is now possible look back at how China decided to respond to Trump’s tariff pressure.",
+      "source_spans": [
+       {
+        "char_start": 249,
+        "char_end": 337
+       }
+      ]
+     },
+     {
+      "paragraph_id": "p2",
+      "paragraph_sha256": "sha256:133b2ad84a6660dff04ecdc899180a8d435b2ea404026534e4b5f0e865795580",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "bilateral-trade-flows",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [
+     {
+      "term": "china",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     },
+     {
+      "term": "us",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "counterpart"
+     }
+    ],
+    "bloc": [],
+    "instrument": [
+     {
+      "term": "tariffs",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     },
+     {
+      "term": "retaliation",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "data_basis": []
+   },
+   "attributes": {},
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "n002",
+   "legacy_id": "K",
+   "role": "main_claim",
+   "level": "L5",
+   "content": {
+    "text": "China's response had five features: it shielded industrial policy, used the currency without losing reserves, did not weaponize Treasuries, did not single out U.S. manufactures, and hit U.S. farm and energy exports, which shows that state-managed trade gives China leverage over U.S. agriculture.",
+    "label": null,
+    "explicit": true,
+    "reason": "Lessons from a conflict can be listed as separate observed behaviours."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p2",
+      "paragraph_sha256": "sha256:133b2ad84a6660dff04ecdc899180a8d435b2ea404026534e4b5f0e865795580",
+      "relation": "states",
+      "link_method": "llm_citation",
+      "anchor_grade": "excerpt",
+      "review_status": "pending",
+      "source_excerpt": "Five points stand out to me…",
+      "source_spans": [
+       {
+        "char_start": 0,
+        "char_end": 27
+       }
+      ]
+     },
+     {
+      "paragraph_id": "p3",
+      "paragraph_sha256": "sha256:d1f90f47e952fee52c4edb2f915b1f61af8b849ebf5dd0f9cc2d2f08fb098e00",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     },
+     {
+      "paragraph_id": "p5",
+      "paragraph_sha256": "sha256:bc2994fe16ee3c33fbbf6424d1a00e90f7b467573d1843a320e1a95d9d796737",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     },
+     {
+      "paragraph_id": "p9",
+      "paragraph_sha256": "sha256:57d0055fcbd056a3adebb6289324f6d9931528451f2e654687ddd236deae32cc",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     },
+     {
+      "paragraph_id": "p12",
+      "paragraph_sha256": "sha256:64464fe19d8dfe7c0a7949d853ab105d261567d6128ab8de680ac137bb2f86d2",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     },
+     {
+      "paragraph_id": "p19",
+      "paragraph_sha256": "sha256:e198addba5c154f8cca907dab8008973488985ffd99e6fa4a5d0962047dea3bf",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     },
+     {
+      "paragraph_id": "p27",
+      "paragraph_sha256": "sha256:10dff99d42b29983a593a99401e37a883a2577ade4a906d8417bc8112c0adbb9",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "bilateral-trade-flows",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     },
+     {
+      "term": "nominal-exchange-rate",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [
+     {
+      "term": "china",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     },
+     {
+      "term": "us",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "counterpart"
+     }
+    ],
+    "bloc": [],
+    "instrument": [
+     {
+      "term": "retaliation",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     },
+     {
+      "term": "purchase-commitments",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "data_basis": []
+   },
+   "attributes": {
+    "claim_type": "enumerated"
+   },
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": [
+     "passages: `K`: the team's passage linker anchors it to p10 (shared: treasuries), which the box does not cite",
+     "passages: `K`: the team's passage linker anchors it to p11 (shared: treasuries), which the box does not cite"
+    ]
+   }
+  },
+  {
+   "id": "n003",
+   "legacy_id": "C1",
+   "role": "intermediate_claim",
+   "level": "L4",
+   "content": {
+    "text": "China refused to negotiate on its core industrial policies, and its import-substitution strategy all but guarantees future trade conflict.",
+    "label": null,
+    "explicit": true,
+    "reason": "A state will not trade away policies it sees as central to its long-run growth."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p3",
+      "paragraph_sha256": "sha256:d1f90f47e952fee52c4edb2f915b1f61af8b849ebf5dd0f9cc2d2f08fb098e00",
+      "relation": "states",
+      "link_method": "llm_citation",
+      "anchor_grade": "excerpt",
+      "review_status": "pending",
+      "source_excerpt": "China never was prepared—it seems from the outside—to negotiate on China 2025 or the subsidies and procurement preferences at the center of its industrial policies.",
+      "source_spans": [
+       {
+        "char_start": 3,
+        "char_end": 167
+       }
+      ]
+     },
+     {
+      "paragraph_id": "p4",
+      "paragraph_sha256": "sha256:4ff53b13bbd12730c3cecd802c11501298076defff5353a97e5bc2b797840102",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "import-volumes",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [
+     {
+      "term": "china",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     }
+    ],
+    "bloc": [],
+    "instrument": [
+     {
+      "term": "industrial-policy",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "data_basis": []
+   },
+   "attributes": {},
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "n004",
+   "legacy_id": "M1",
+   "role": "mechanism",
+   "level": "L3",
+   "content": {
+    "text": "Technological self-sufficiency cuts China's imports of advanced manufactures, which erodes partners' willingness to keep their own markets open.",
+    "label": null,
+    "explicit": true,
+    "reason": "Openness is sustained by reciprocity, so a country that stops importing invites closure abroad."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p4",
+      "paragraph_sha256": "sha256:4ff53b13bbd12730c3cecd802c11501298076defff5353a97e5bc2b797840102",
+      "relation": "states",
+      "link_method": "llm_citation",
+      "anchor_grade": "excerpt",
+      "review_status": "pending",
+      "source_excerpt": "China’s vision of technological independence likely implies that over time its imports of advanced manufactures from the rest of the world will fall.",
+      "source_spans": [
+       {
+        "char_start": 560,
+        "char_end": 709
+       }
+      ]
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "import-volumes",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [
+     {
+      "term": "china",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     }
+    ],
+    "bloc": [],
+    "instrument": [
+     {
+      "term": "industrial-policy",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "data_basis": []
+   },
+   "attributes": {
+    "kind": "economic"
+   },
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "n005",
+   "legacy_id": "QF",
+   "role": "caveat",
+   "level": "L6",
+   "content": {
+    "text": "Import substitution will not visibly reduce China's imports in 2020, because jet engines, semiconductors and machine tools are not yet replaced.",
+    "label": null,
+    "explicit": true,
+    "reason": "Structural industrial shifts take years to show up in trade flows."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p4",
+      "paragraph_sha256": "sha256:4ff53b13bbd12730c3cecd802c11501298076defff5353a97e5bc2b797840102",
+      "relation": "states",
+      "link_method": "llm_citation",
+      "anchor_grade": "excerpt",
+      "review_status": "pending",
+      "source_excerpt": "But these trends won’t play out over the next year",
+      "source_spans": [
+       {
+        "char_start": 873,
+        "char_end": 923
+       }
+      ]
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "import-volumes",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [
+     {
+      "term": "china",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     }
+    ],
+    "bloc": [],
+    "instrument": [
+     {
+      "term": "industrial-policy",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "data_basis": []
+   },
+   "attributes": {},
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "n006",
+   "legacy_id": "C2",
+   "role": "intermediate_claim",
+   "level": "L4",
+   "content": {
+    "text": "China let the yuan depreciate to cushion the tariffs without losing control of it or spending much in reserves.",
+    "label": null,
+    "explicit": true,
+    "reason": "A managed currency can absorb an external shock if capital flight is contained."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p5",
+      "paragraph_sha256": "sha256:bc2994fe16ee3c33fbbf6424d1a00e90f7b467573d1843a320e1a95d9d796737",
+      "relation": "states",
+      "link_method": "llm_citation",
+      "anchor_grade": "excerpt",
+      "review_status": "pending",
+      "source_excerpt": "China was able to use its currency to buffer the impact of the trade war without ever losing control—and without burning through a lot of reserves.",
+      "source_spans": [
+       {
+        "char_start": 3,
+        "char_end": 150
+       }
+      ]
+     },
+     {
+      "paragraph_id": "p8",
+      "paragraph_sha256": "sha256:8762d885f75ee69938f90f158b8f3b851e803bd807b17318f662e4803e297d5a",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "nominal-exchange-rate",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     },
+     {
+      "term": "fx-reserves",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [
+     {
+      "term": "china",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     }
+    ],
+    "bloc": [],
+    "instrument": [
+     {
+      "term": "fx-intervention",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "data_basis": []
+   },
+   "attributes": {},
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": [
+     "links: `ANOM` motivates `C2` joins L0→L4, which no hand-drawn motivates link does"
+    ]
+   }
+  },
+  {
+   "id": "n007",
+   "legacy_id": "E1",
+   "role": "evidence_data",
+   "level": "L2",
+   "content": {
+    "text": "The yuan fell 8% against the dollar and 4% against a broad basket; the PBOC balance sheet shows no intervention, settlement data show small purchases, and the balance of payments shows only tiny reserve sales.",
+    "label": null,
+    "explicit": true,
+    "reason": "Exchange-rate and intervention series show whether a currency move was market-driven or defended."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p6",
+      "paragraph_sha256": "sha256:b7de940153e54ecefa18e66f9490f6b1b3f55e8fd77a10041157f38e5f10dab7",
+      "relation": "states",
+      "link_method": "llm_citation",
+      "anchor_grade": "excerpt",
+      "review_status": "pending",
+      "source_excerpt": "The yuan has fallen by 8 percent vs. the dollar and 4 percent vs. a broad basket since May 2018.",
+      "source_spans": [
+       {
+        "char_start": 0,
+        "char_end": 96
+       }
+      ]
+     },
+     {
+      "paragraph_id": "p8",
+      "paragraph_sha256": "sha256:8762d885f75ee69938f90f158b8f3b851e803bd807b17318f662e4803e297d5a",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "nominal-exchange-rate",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     },
+     {
+      "term": "fx-reserves",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [
+     {
+      "term": "china",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     }
+    ],
+    "bloc": [],
+    "instrument": [
+     {
+      "term": "fx-intervention",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "data_basis": [
+     {
+      "term": "balance-of-payments",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ]
+   },
+   "attributes": {},
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "n008",
+   "legacy_id": "M2",
+   "role": "mechanism",
+   "level": "L3",
+   "content": {
+    "text": "The weaker yuan helped China's overall exports hold up even as its exports to the U.S. fell.",
+    "label": null,
+    "explicit": true,
+    "reason": "Depreciation offsets a tariff by lowering the foreign-currency price of exports."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p6",
+      "paragraph_sha256": "sha256:b7de940153e54ecefa18e66f9490f6b1b3f55e8fd77a10041157f38e5f10dab7",
+      "relation": "states",
+      "link_method": "llm_citation",
+      "anchor_grade": "excerpt",
+      "review_status": "pending",
+      "source_excerpt": "That, in my view, is part of the reason why China’s overall exports have held up reasonably well even as its exports to the United States have fallen.",
+      "source_spans": [
+       {
+        "char_start": 97,
+        "char_end": 247
+       }
+      ]
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "nominal-exchange-rate",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     },
+     {
+      "term": "export-volumes",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [
+     {
+      "term": "china",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     }
+    ],
+    "bloc": [],
+    "instrument": [],
+    "data_basis": []
+   },
+   "attributes": {
+    "kind": "economic"
+   },
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "n009",
+   "legacy_id": "M3",
+   "role": "mechanism",
+   "level": "L3",
+   "content": {
+    "text": "The depreciation caused no panic because of tight capital controls, no carry trades to unwind, reserve demand for yuan over negative-yielding euros, moves proportionate to the tariffs, and a rising trade surplus.",
+    "label": null,
+    "explicit": true,
+    "reason": "Depreciation triggers capital flight only when outflows are easy and the move signals more to come."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p7",
+      "paragraph_sha256": "sha256:dd118f3e379713a1f4628a321cfbe7c26547ecce125f7ea89796bacd66e823e8",
+      "relation": "states",
+      "link_method": "llm_citation",
+      "anchor_grade": "excerpt",
+      "review_status": "pending",
+      "source_excerpt": "In part, that is because China tightened its controls on outflows back in late 2016 and early 2017, and those controls worked.",
+      "source_spans": [
+       {
+        "char_start": 138,
+        "char_end": 264
+       }
+      ]
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "nominal-exchange-rate",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     },
+     {
+      "term": "capital-flows",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [
+     {
+      "term": "china",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     }
+    ],
+    "bloc": [],
+    "instrument": [
+     {
+      "term": "capital-controls",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "data_basis": []
+   },
+   "attributes": {
+    "kind": "economic"
+   },
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "n010",
+   "legacy_id": "ANOM",
+   "role": "anomaly",
+   "level": "L0",
+   "content": {
+    "text": "The widespread expectation that defending the yuan would drain China's reserves turned out wrong.",
+    "label": null,
+    "explicit": true,
+    "reason": "A forecast that fails exposes a mechanism the forecasters missed."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p8",
+      "paragraph_sha256": "sha256:8762d885f75ee69938f90f158b8f3b851e803bd807b17318f662e4803e297d5a",
+      "relation": "states",
+      "link_method": "llm_citation",
+      "anchor_grade": "excerpt",
+      "review_status": "pending",
+      "source_excerpt": "But I don’t think many expected that China would be able to keep its reserves stable through the trade war",
+      "source_spans": [
+       {
+        "char_start": 0,
+        "char_end": 106
+       }
+      ]
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "fx-reserves",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [
+     {
+      "term": "china",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     }
+    ],
+    "bloc": [],
+    "instrument": [
+     {
+      "term": "fx-intervention",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "data_basis": []
+   },
+   "attributes": {},
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": [
+     "links: `ANOM` motivates `C2` joins L0→L4, which no hand-drawn motivates link does"
+    ]
+   }
+  },
+  {
+   "id": "n011",
+   "legacy_id": "SC",
+   "role": "source_credibility",
+   "level": "L1",
+   "content": {
+    "text": "The author distrusts Chinese official data because the different series never fully reconcile.",
+    "label": null,
+    "explicit": true,
+    "reason": "Statistics from a producer whose series do not reconcile deserve less trust."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p8",
+      "paragraph_sha256": "sha256:8762d885f75ee69938f90f158b8f3b851e803bd807b17318f662e4803e297d5a",
+      "relation": "states",
+      "link_method": "llm_citation",
+      "anchor_grade": "excerpt",
+      "review_status": "pending",
+      "source_excerpt": "even now Chinese data never quite fully lines up, which bothers me more than most",
+      "source_spans": [
+       {
+        "char_start": 481,
+        "char_end": 562
+       }
+      ]
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "fx-reserves",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [
+     {
+      "term": "china",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     }
+    ],
+    "bloc": [],
+    "instrument": [],
+    "data_basis": [
+     {
+      "term": "balance-of-payments",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ]
+   },
+   "attributes": {},
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "n012",
+   "legacy_id": "E4",
+   "role": "evidence_rival",
+   "level": "L2",
+   "content": {
+    "text": "The PBOC balance sheet, the settlement data and the balance of payments give slightly different readings of intervention, though all point to small amounts.",
+    "label": null,
+    "explicit": true,
+    "reason": "Cross-check intervention against several independent series."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p8",
+      "paragraph_sha256": "sha256:8762d885f75ee69938f90f158b8f3b851e803bd807b17318f662e4803e297d5a",
+      "relation": "states",
+      "link_method": "llm_citation",
+      "anchor_grade": "excerpt",
+      "review_status": "pending",
+      "source_excerpt": "the two standard indicators of Chinese intervention suggest either no activity over the course of 2019 (the PBOC’s balance sheet) or small purchases (the settlement data)",
+      "source_spans": [
+       {
+        "char_start": 189,
+        "char_end": 359
+       }
+      ]
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "fx-reserves",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [
+     {
+      "term": "china",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     }
+    ],
+    "bloc": [],
+    "instrument": [
+     {
+      "term": "fx-intervention",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "data_basis": [
+     {
+      "term": "balance-of-payments",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ]
+   },
+   "attributes": {},
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "n013",
+   "legacy_id": "C3",
+   "role": "intermediate_claim",
+   "level": "L4",
+   "content": {
+    "text": "China did not sell Treasuries as a weapon; its holdings, counting Belgian custodial accounts, fell only slightly as it sought yield in Agencies and hedged yen bonds.",
+    "label": null,
+    "explicit": true,
+    "reason": "Reserve managers mostly reallocate for yield rather than for political leverage."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p9",
+      "paragraph_sha256": "sha256:57d0055fcbd056a3adebb6289324f6d9931528451f2e654687ddd236deae32cc",
+      "relation": "states",
+      "link_method": "llm_citation",
+      "anchor_grade": "excerpt",
+      "review_status": "pending",
+      "source_excerpt": "China did not try to use its Treasuries as a weapon.",
+      "source_spans": [
+       {
+        "char_start": 3,
+        "char_end": 55
+       }
+      ]
+     },
+     {
+      "paragraph_id": "p10",
+      "paragraph_sha256": "sha256:2c4035a7b32e34aa030a66518eeacc272d2fa409313a252e64e3fa6f24385fcb",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "fx-reserves",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [
+     {
+      "term": "china",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     },
+     {
+      "term": "us",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "counterpart"
+     }
+    ],
+    "bloc": [],
+    "instrument": [
+     {
+      "term": "retaliation",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "data_basis": []
+   },
+   "attributes": {},
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": [
+     "passages: `C3`: the team's passage linker anchors it to p11 (shared: treasuries), which the box does not cite"
+    ]
+   }
+  },
+  {
+   "id": "n014",
+   "legacy_id": "M4",
+   "role": "mechanism",
+   "level": "L3",
+   "content": {
+    "text": "Reported U.S. holdings understate China's dollar reserves, so the author adjusts for custodial holdings when measuring any decline.",
+    "label": null,
+    "explicit": true,
+    "reason": "Custodial holdings misattribute a reserve holder's assets to the custodian's country."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p10",
+      "paragraph_sha256": "sha256:2c4035a7b32e34aa030a66518eeacc272d2fa409313a252e64e3fa6f24385fcb",
+      "relation": "states",
+      "link_method": "llm_citation",
+      "anchor_grade": "excerpt",
+      "review_status": "pending",
+      "source_excerpt": "China’s Treasury holdings are down just a bit, but only a bit after you take into account China’s not so hidden holdings in Belgian custodial accounts.",
+      "source_spans": [
+       {
+        "char_start": 0,
+        "char_end": 151
+       }
+      ]
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "fx-reserves",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [
+     {
+      "term": "china",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     }
+    ],
+    "bloc": [],
+    "instrument": [],
+    "data_basis": [
+     {
+      "term": "mirror-statistics",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ]
+   },
+   "attributes": {
+    "kind": "distortion"
+   },
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "n015",
+   "legacy_id": "M5",
+   "role": "mechanism",
+   "level": "L3",
+   "content": {
+    "text": "Because the Fed can expand its balance sheet or cap yields, a Chinese sale of Treasuries would be neutralized, leaving China little leverage.",
+    "label": null,
+    "explicit": true,
+    "reason": "A central bank willing to buy its own bonds can offset any foreign seller."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p11",
+      "paragraph_sha256": "sha256:7c105de4bb6bd3ff5e6c9fc64412601864ece11fc73cccc7ead9333f1387249e",
+      "relation": "states",
+      "link_method": "llm_citation",
+      "anchor_grade": "excerpt",
+      "review_status": "pending",
+      "source_excerpt": "if it tried to push Treasury yields up, the Fed would react",
+      "source_spans": [
+       {
+        "char_start": 277,
+        "char_end": 336
+       }
+      ]
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "interest-rates",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [
+     {
+      "term": "us",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     }
+    ],
+    "bloc": [],
+    "instrument": [
+     {
+      "term": "monetary-policy",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "data_basis": []
+   },
+   "attributes": {
+    "kind": "economic"
+   },
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": [
+     "passages: `M5`: the team's passage linker anchors it to p10 (shared: treasuries), which the box does not cite",
+     "passages: `M5`: the team's passage linker anchors it to p9 (shared: treasuries), which the box does not cite"
+    ]
+   }
+  },
+  {
+   "id": "n016",
+   "legacy_id": "P2",
+   "role": "hidden_assumption",
+   "level": "L1",
+   "content": {
+    "text": "China acts as a rational strategic actor that weighs whether a retaliatory tool will work before using it.",
+    "label": null,
+    "explicit": false,
+    "reason": "States choose retaliatory tools by their effectiveness and cost."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p11",
+      "paragraph_sha256": "sha256:7c105de4bb6bd3ff5e6c9fc64412601864ece11fc73cccc7ead9333f1387249e",
+      "relation": "presupposes",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     },
+     {
+      "paragraph_id": "p16",
+      "paragraph_sha256": "sha256:a5e4cb927148f2514fe2f7db2f1610247185761113dfafb91221dcd40221ac17",
+      "relation": "presupposes",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "bilateral-trade-flows",
+      "assignment_source": "inherited",
+      "run_id": "claude-opus-5.5_facets"
+     },
+     {
+      "term": "fx-reserves",
+      "assignment_source": "inherited",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [
+     {
+      "term": "china",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     }
+    ],
+    "bloc": [],
+    "instrument": [
+     {
+      "term": "retaliation",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "data_basis": []
+   },
+   "attributes": {},
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": [
+     "facets: `setser_jan_31_20#P2` inherited variable ['bilateral-trade-flows', 'fx-reserves'] from the document - check this one"
+    ]
+   }
+  },
+  {
+   "id": "n017",
+   "legacy_id": "C4",
+   "role": "intermediate_claim",
+   "level": "L4",
+   "content": {
+    "text": "Excluding cars and planes, China's imports of U.S. manufactures fell only about as much as its total manufactured imports, so the U.S. was not singled out.",
+    "label": null,
+    "explicit": true,
+    "reason": "Bilateral trade must be compared with total trade to identify targeting."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p12",
+      "paragraph_sha256": "sha256:64464fe19d8dfe7c0a7949d853ab105d261567d6128ab8de680ac137bb2f86d2",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     },
+     {
+      "paragraph_id": "p13",
+      "paragraph_sha256": "sha256:ec0ea57d749253d1692e837a85abaf8bf7b05832261d444fb0c1d55336f116de",
+      "relation": "states",
+      "link_method": "llm_citation",
+      "anchor_grade": "excerpt",
+      "review_status": "pending",
+      "source_excerpt": "if you look at China’s imports of manufactured goods from the United States—excluding cars and planes—there wasn’t much change.",
+      "source_spans": [
+       {
+        "char_start": 46,
+        "char_end": 173
+       }
+      ]
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "bilateral-trade-flows",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     },
+     {
+      "term": "import-volumes",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [
+     {
+      "term": "china",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     },
+     {
+      "term": "us",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "counterpart"
+     }
+    ],
+    "bloc": [],
+    "instrument": [
+     {
+      "term": "retaliation",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "data_basis": [
+     {
+      "term": "customs",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ]
+   },
+   "attributes": {},
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": [
+     "links: `SCP` bounds `C4` joins L1B→L4, which no hand-drawn bounds link does"
+    ]
+   }
+  },
+  {
+   "id": "n018",
+   "legacy_id": "SCP",
+   "role": "scope_choice",
+   "level": "L1B",
+   "content": {
+    "text": "The author leaves autos and aircraft out of the manufactures comparison because their swings have special causes.",
+    "label": null,
+    "explicit": true,
+    "reason": "Strip out categories driven by idiosyncratic factors before judging a trend."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p13",
+      "paragraph_sha256": "sha256:ec0ea57d749253d1692e837a85abaf8bf7b05832261d444fb0c1d55336f116de",
+      "relation": "states",
+      "link_method": "llm_citation",
+      "anchor_grade": "excerpt",
+      "review_status": "pending",
+      "source_excerpt": "excluding cars and planes",
+      "source_spans": [
+       {
+        "char_start": 122,
+        "char_end": 147
+       }
+      ]
+     },
+     {
+      "paragraph_id": "p17",
+      "paragraph_sha256": "sha256:fbae088e482697f9addb60913e515c9b8411789c05c2b9488b9992f39ed66aa0",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "bilateral-trade-flows",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [
+     {
+      "term": "china",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     },
+     {
+      "term": "us",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "counterpart"
+     }
+    ],
+    "bloc": [],
+    "instrument": [],
+    "data_basis": [
+     {
+      "term": "customs",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ]
+   },
+   "attributes": {},
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": [
+     "links: `SCP` bounds `C4` joins L1B→L4, which no hand-drawn bounds link does"
+    ]
+   }
+  },
+  {
+   "id": "n019",
+   "legacy_id": "X",
+   "role": "opposing_view",
+   "level": "L6",
+   "content": {
+    "text": "The common view is that China broadly retaliated against U.S. manufactured exports.",
+    "label": null,
+    "explicit": true,
+    "reason": "Conventional wisdom should be tested against disaggregated data."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p13",
+      "paragraph_sha256": "sha256:ec0ea57d749253d1692e837a85abaf8bf7b05832261d444fb0c1d55336f116de",
+      "relation": "states",
+      "link_method": "llm_citation",
+      "anchor_grade": "excerpt",
+      "review_status": "pending",
+      "source_excerpt": "I know this goes a bit against the grain",
+      "source_spans": [
+       {
+        "char_start": 0,
+        "char_end": 40
+       }
+      ]
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "bilateral-trade-flows",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [
+     {
+      "term": "china",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     },
+     {
+      "term": "us",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "counterpart"
+     }
+    ],
+    "bloc": [],
+    "instrument": [
+     {
+      "term": "retaliation",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "data_basis": []
+   },
+   "attributes": {},
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "n020",
+   "legacy_id": "R1",
+   "role": "other_explanation",
+   "level": "L6",
+   "content": {
+    "text": "China may have spared U.S. manufactures because the remaining imports were ones it needed, or to keep room for retaliation if tariffs were widened; the author is unsure which.",
+    "label": null,
+    "explicit": true,
+    "reason": "When a cause is unclear, list the plausible rivals without choosing."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p14",
+      "paragraph_sha256": "sha256:1d9ac3f9fe49f2951a71113c4c98d995656c93f66a2341e1c8ce9aa2d34a5cbb",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     },
+     {
+      "paragraph_id": "p15",
+      "paragraph_sha256": "sha256:06e552231b087d55c53c783af48e6ef0e336035e01d919875f85311931b1b6cc",
+      "relation": "states",
+      "link_method": "llm_citation",
+      "anchor_grade": "excerpt",
+      "review_status": "pending",
+      "source_excerpt": "One theory is that, well, China had already been pretty good at squeezing manufactured imports out of its market",
+      "source_spans": [
+       {
+        "char_start": 0,
+        "char_end": 112
+       }
+      ]
+     },
+     {
+      "paragraph_id": "p16",
+      "paragraph_sha256": "sha256:a5e4cb927148f2514fe2f7db2f1610247185761113dfafb91221dcd40221ac17",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "bilateral-trade-flows",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [
+     {
+      "term": "china",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     },
+     {
+      "term": "us",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "counterpart"
+     }
+    ],
+    "bloc": [],
+    "instrument": [
+     {
+      "term": "retaliation",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "data_basis": []
+   },
+   "attributes": {},
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "n021",
+   "legacy_id": "QF2",
+   "role": "caveat",
+   "level": "L6",
+   "content": {
+    "text": "The fall in China's plane imports reflects Boeing's delivery problems more than retaliation, and auto imports rebounded after the SUV tariffs.",
+    "label": null,
+    "explicit": true,
+    "reason": "Current deliveries depend on past orders and supplier capacity, not on current policy."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p17",
+      "paragraph_sha256": "sha256:fbae088e482697f9addb60913e515c9b8411789c05c2b9488b9992f39ed66aa0",
+      "relation": "states",
+      "link_method": "llm_citation",
+      "anchor_grade": "excerpt",
+      "review_status": "pending",
+      "source_excerpt": "That though is almost all Boeing’s fault",
+      "source_spans": [
+       {
+        "char_start": 264,
+        "char_end": 304
+       }
+      ]
+     },
+     {
+      "paragraph_id": "p18",
+      "paragraph_sha256": "sha256:5b1b0aaeec5c01bc7e9191507924b043e9bbdb110b5c6c1b1d7864570ed8a36b",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "bilateral-trade-flows",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [
+     {
+      "term": "china",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     },
+     {
+      "term": "us",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "counterpart"
+     }
+    ],
+    "bloc": [],
+    "instrument": [
+     {
+      "term": "retaliation",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "data_basis": []
+   },
+   "attributes": {},
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "n022",
+   "legacy_id": "C5",
+   "role": "intermediate_claim",
+   "level": "L4",
+   "content": {
+    "text": "China targeted U.S. farm and energy exports; the energy cuts had little effect, but the farm cuts had a modest economic and a large political impact.",
+    "label": null,
+    "explicit": true,
+    "reason": "Retaliation hurts most where the target has few alternative buyers."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p19",
+      "paragraph_sha256": "sha256:e198addba5c154f8cca907dab8008973488985ffd99e6fa4a5d0962047dea3bf",
+      "relation": "states",
+      "link_method": "llm_citation",
+      "anchor_grade": "excerpt",
+      "review_status": "pending",
+      "source_excerpt": "China did target American agricultural and energy exports, with mixed success.",
+      "source_spans": [
+       {
+        "char_start": 3,
+        "char_end": 81
+       }
+      ]
+     },
+     {
+      "paragraph_id": "p20",
+      "paragraph_sha256": "sha256:1715f133b32d0bc444e7b7b239940b9c31b24540400b5e35df6d89b3071376b8",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     },
+     {
+      "paragraph_id": "p21",
+      "paragraph_sha256": "sha256:7856a7b0f3eaae300b3acdbb79f2a295833c6a249fd65037f1aee1a68cc4ff37",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     },
+     {
+      "paragraph_id": "p22",
+      "paragraph_sha256": "sha256:03d9d9ad879849a9f7b6d21747fc444438741b3448efe1d4f241aa6ae22393a6",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "bilateral-trade-flows",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [
+     {
+      "term": "china",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     },
+     {
+      "term": "us",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "counterpart"
+     }
+    ],
+    "bloc": [],
+    "instrument": [
+     {
+      "term": "retaliation",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "data_basis": []
+   },
+   "attributes": {},
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "n023",
+   "legacy_id": "P1",
+   "role": "stated_assumption",
+   "level": "L1",
+   "content": {
+    "text": "Fungible commodities such as crude and NGLs can be rerouted to other buyers, which limits the damage from a boycott.",
+    "label": null,
+    "explicit": true,
+    "reason": "In deep global commodity markets, trade diversion shuffles buyers without cutting total demand."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p20",
+      "paragraph_sha256": "sha256:1715f133b32d0bc444e7b7b239940b9c31b24540400b5e35df6d89b3071376b8",
+      "relation": "states",
+      "link_method": "llm_citation",
+      "anchor_grade": "excerpt",
+      "review_status": "pending",
+      "source_excerpt": "there are other markets for sweet light crude and natural gas liquids",
+      "source_spans": [
+       {
+        "char_start": 76,
+        "char_end": 145
+       }
+      ]
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "bilateral-trade-flows",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     },
+     {
+      "term": "commodity-prices",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [],
+    "bloc": [
+     {
+      "term": "global",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     }
+    ],
+    "instrument": [],
+    "data_basis": []
+   },
+   "attributes": {},
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": [
+     "boxes: `P1` the name `ngls` does not occur in the article"
+    ]
+   }
+  },
+  {
+   "id": "n024",
+   "legacy_id": "P3",
+   "role": "revised_prior",
+   "level": "L1",
+   "content": {
+    "text": "The author expected the global soy market to absorb China's boycott and was surprised that it did not.",
+    "label": null,
+    "explicit": true,
+    "reason": "Arbitrage fails when one buyer dominates the market."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p23",
+      "paragraph_sha256": "sha256:6d71995baad200ab5ddf90465479a42b8397c5ef40387c17e53b3bb8db374aa4",
+      "relation": "states",
+      "link_method": "llm_citation",
+      "anchor_grade": "excerpt",
+      "review_status": "pending",
+      "source_excerpt": "I thought U.S. soy would prove to be more of a pure commodity, and the global market would adjust.",
+      "source_spans": [
+       {
+        "char_start": 101,
+        "char_end": 199
+       }
+      ]
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "commodity-prices",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [
+     {
+      "term": "us",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     }
+    ],
+    "bloc": [],
+    "instrument": [
+     {
+      "term": "retaliation",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "data_basis": []
+   },
+   "attributes": {},
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "n025",
+   "legacy_id": "E2",
+   "role": "evidence_data",
+   "level": "L2",
+   "content": {
+    "text": "China takes two-thirds of global soy imports, and U.S. beans traded at a discount to Brazil's.",
+    "label": null,
+    "explicit": true,
+    "reason": "A persistent price gap between substitutes shows market segmentation."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p23",
+      "paragraph_sha256": "sha256:6d71995baad200ab5ddf90465479a42b8397c5ef40387c17e53b3bb8db374aa4",
+      "relation": "states",
+      "link_method": "llm_citation",
+      "anchor_grade": "excerpt",
+      "review_status": "pending",
+      "source_excerpt": "China is such a big share of the global market (two-thirds of global imports)",
+      "source_spans": [
+       {
+        "char_start": 204,
+        "char_end": 281
+       }
+      ]
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "commodity-prices",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     },
+     {
+      "term": "import-volumes",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [
+     {
+      "term": "us",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     }
+    ],
+    "bloc": [
+     {
+      "term": "latam",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "counterpart"
+     }
+    ],
+    "instrument": [],
+    "data_basis": [
+     {
+      "term": "market-prices",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ]
+   },
+   "attributes": {},
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "n026",
+   "legacy_id": "M6",
+   "role": "mechanism",
+   "level": "L3",
+   "content": {
+    "text": "Over 2019 rerouting through Argentina and Brazil gradually arbitraged away part of the soy discount.",
+    "label": null,
+    "explicit": true,
+    "reason": "Over time, triangular trade erodes price gaps that a boycott creates."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p23",
+      "paragraph_sha256": "sha256:6d71995baad200ab5ddf90465479a42b8397c5ef40387c17e53b3bb8db374aa4",
+      "relation": "states",
+      "link_method": "llm_citation",
+      "anchor_grade": "excerpt",
+      "review_status": "pending",
+      "source_excerpt": "the ultimate arbitrage is U.S. beans feed Brazilian pigs and chicken, freeing up all ofBrazil’s harvest for China",
+      "source_spans": [
+       {
+        "char_start": 724,
+        "char_end": 838
+       }
+      ]
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "bilateral-trade-flows",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     },
+     {
+      "term": "commodity-prices",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [],
+    "bloc": [
+     {
+      "term": "latam",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     }
+    ],
+    "instrument": [],
+    "data_basis": []
+   },
+   "attributes": {
+    "kind": "economic"
+   },
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "n027",
+   "legacy_id": "C6",
+   "role": "intermediate_claim",
+   "level": "L4",
+   "content": {
+    "text": "China's demonstrated control over commodity imports, plus about $25 billion in meat imports, makes its 2020 farm and energy purchase commitments credible.",
+    "label": null,
+    "explicit": true,
+    "reason": "A state able to cut imports at will can also raise them at will."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p1",
+      "paragraph_sha256": "sha256:70bc2c82bc6c20f54bd4f69ff226c573225d67bdd9e59f68cb53159221e9c9b1",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     },
+     {
+      "paragraph_id": "p25",
+      "paragraph_sha256": "sha256:8e425883fb1931125ce3d6b0df583b047f6466c3d7a5e6c84e294d95ce81b27b",
+      "relation": "states",
+      "link_method": "llm_citation",
+      "anchor_grade": "excerpt",
+      "review_status": "pending",
+      "source_excerpt": "China’s revealed capacity to manage its commodity imports over the course of the trade war suggests that it could meet its 2020 agriculture and energy commitments.",
+      "source_spans": [
+       {
+        "char_start": 14,
+        "char_end": 177
+       }
+      ]
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "bilateral-trade-flows",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [
+     {
+      "term": "china",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     },
+     {
+      "term": "us",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "counterpart"
+     }
+    ],
+    "bloc": [],
+    "instrument": [
+     {
+      "term": "purchase-commitments",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "data_basis": []
+   },
+   "attributes": {},
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "n028",
+   "legacy_id": "C7",
+   "role": "intermediate_claim",
+   "level": "L4",
+   "content": {
+    "text": "Managed trade leaves U.S. farmers exposed: any challenge to Chinese industrial policy will bring renewed retaliation against agriculture, so China is a big but unstable market.",
+    "label": null,
+    "explicit": true,
+    "reason": "Purchases granted by state decision can be withdrawn by state decision."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p26",
+      "paragraph_sha256": "sha256:a8d72e1fe0ca078a601121dfa716c47366aac5fc1ed996df9081d96685fbc103",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     },
+     {
+      "paragraph_id": "p27",
+      "paragraph_sha256": "sha256:10dff99d42b29983a593a99401e37a883a2577ade4a906d8417bc8112c0adbb9",
+      "relation": "states",
+      "link_method": "llm_citation",
+      "anchor_grade": "excerpt",
+      "review_status": "pending",
+      "source_excerpt": "What China’s state gives, China’s state can take away.",
+      "source_spans": [
+       {
+        "char_start": 0,
+        "char_end": 54
+       }
+      ]
+     },
+     {
+      "paragraph_id": "p28",
+      "paragraph_sha256": "sha256:b5bfb5c8582c8e308cb907962c414a9165bbfb002db7fcc1708785cb3f011b80",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     },
+     {
+      "paragraph_id": "p29",
+      "paragraph_sha256": "sha256:eef6808b13d16e9f9f7eee8b74435e4fb7bae90fc70810639b9db60214d774ce",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "bilateral-trade-flows",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [
+     {
+      "term": "us",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     },
+     {
+      "term": "china",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "counterpart"
+     }
+    ],
+    "bloc": [],
+    "instrument": [
+     {
+      "term": "purchase-commitments",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     },
+     {
+      "term": "retaliation",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "data_basis": []
+   },
+   "attributes": {},
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "n029",
+   "legacy_id": "E3",
+   "role": "evidence_source",
+   "level": "L2",
+   "content": {
+    "text": "The Economist argued that Trump's managed trade rewards China for diverting imports from U.S. allies, while the conventional approach also has drawbacks.",
+    "label": null,
+    "explicit": true,
+    "reason": "Bilateral purchase targets divert trade rather than create it."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p30",
+      "paragraph_sha256": "sha256:904210875cdef0b1fcef53d39b9ed0db02da1a18a49799f51320353eb2403505",
+      "relation": "states",
+      "link_method": "llm_citation",
+      "anchor_grade": "excerpt",
+      "review_status": "pending",
+      "source_excerpt": "the U.S. is essentially giving China a big reward for redirecting its imports away from U.S. allies toward the United States",
+      "source_spans": [
+       {
+        "char_start": 115,
+        "char_end": 239
+       }
+      ]
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "bilateral-trade-flows",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [
+     {
+      "term": "china",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     },
+     {
+      "term": "us",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "counterpart"
+     }
+    ],
+    "bloc": [],
+    "instrument": [
+     {
+      "term": "purchase-commitments",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "data_basis": [
+     {
+      "term": "press-reporting",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ]
+   },
+   "attributes": {},
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "n030",
+   "legacy_id": "X2",
+   "role": "opposing_view",
+   "level": "L6",
+   "content": {
+    "text": "The conventional legal approach to Chinese industrial policy, such as Obama's indigenous-innovation rule changes, also failed to change China's basic policy.",
+    "label": null,
+    "explicit": true,
+    "reason": "Rule changes that leave the underlying strategy intact achieve little."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p30",
+      "paragraph_sha256": "sha256:904210875cdef0b1fcef53d39b9ed0db02da1a18a49799f51320353eb2403505",
+      "relation": "states",
+      "link_method": "llm_citation",
+      "anchor_grade": "excerpt",
+      "review_status": "pending",
+      "source_excerpt": "I am not sure the considerable effort that the Obama Administration put into changing China’s legal rules on indigenous innovation procurementback in 2010 and 2011 yielded much in the end",
+      "source_spans": [
+       {
+        "char_start": 408,
+        "char_end": 596
+       }
+      ]
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "bilateral-trade-flows",
+      "assignment_source": "inherited",
+      "run_id": "claude-opus-5.5_facets"
+     },
+     {
+      "term": "fx-reserves",
+      "assignment_source": "inherited",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [
+     {
+      "term": "china",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     }
+    ],
+    "bloc": [],
+    "instrument": [
+     {
+      "term": "industrial-policy",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     },
+     {
+      "term": "trade-agreements",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "data_basis": []
+   },
+   "attributes": {},
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": [
+     "facets: `setser_jan_31_20#X2` inherited variable ['bilateral-trade-flows', 'fx-reserves'] from the document - check this one"
+    ]
+   }
+  }
+ ],
+ "edges": [
+  {
+   "id": "e001",
+   "from": "n001",
+   "to": "n016",
+   "relation": "frames",
+   "sign": 0,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e002",
+   "from": "n001",
+   "to": "n023",
+   "relation": "frames",
+   "sign": 0,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e003",
+   "from": "n001",
+   "to": "n024",
+   "relation": "frames",
+   "sign": 0,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e004",
+   "from": "n001",
+   "to": "n011",
+   "relation": "frames",
+   "sign": 0,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e005",
+   "from": "n004",
+   "to": "n003",
+   "relation": "supports",
+   "sign": 1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e006",
+   "from": "n003",
+   "to": "n005",
+   "relation": "qualified_by",
+   "sign": -1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e007",
+   "from": "n003",
+   "to": "n002",
+   "relation": "supports",
+   "sign": 1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e008",
+   "from": "n007",
+   "to": "n006",
+   "relation": "supports",
+   "sign": 1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e009",
+   "from": "n007",
+   "to": "n008",
+   "relation": "supports",
+   "sign": 1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e010",
+   "from": "n008",
+   "to": "n006",
+   "relation": "supports",
+   "sign": 1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e011",
+   "from": "n009",
+   "to": "n006",
+   "relation": "supports",
+   "sign": 1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e012",
+   "from": "n010",
+   "to": "n006",
+   "relation": "motivates",
+   "sign": 1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": [
+     "`ANOM` motivates `C2` joins L0→L4, which no hand-drawn motivates link does"
+    ]
+   }
+  },
+  {
+   "id": "e013",
+   "from": "n011",
+   "to": "n012",
+   "relation": "frames",
+   "sign": 0,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e014",
+   "from": "n012",
+   "to": "n006",
+   "relation": "supports",
+   "sign": 1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e015",
+   "from": "n006",
+   "to": "n002",
+   "relation": "supports",
+   "sign": 1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e016",
+   "from": "n014",
+   "to": "n013",
+   "relation": "supports",
+   "sign": 1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e017",
+   "from": "n015",
+   "to": "n013",
+   "relation": "supports",
+   "sign": 1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e018",
+   "from": "n016",
+   "to": "n015",
+   "relation": "licenses",
+   "sign": 1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e019",
+   "from": "n013",
+   "to": "n002",
+   "relation": "supports",
+   "sign": 1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e020",
+   "from": "n018",
+   "to": "n017",
+   "relation": "bounds",
+   "sign": 1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": [
+     "`SCP` bounds `C4` joins L1B→L4, which no hand-drawn bounds link does"
+    ]
+   }
+  },
+  {
+   "id": "e021",
+   "from": "n017",
+   "to": "n019",
+   "relation": "rebuts",
+   "sign": -1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e022",
+   "from": "n017",
+   "to": "n020",
+   "relation": "undercut_by",
+   "sign": -1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e023",
+   "from": "n017",
+   "to": "n021",
+   "relation": "qualified_by",
+   "sign": -1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e024",
+   "from": "n017",
+   "to": "n002",
+   "relation": "supports",
+   "sign": 1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e025",
+   "from": "n023",
+   "to": "n022",
+   "relation": "supports",
+   "sign": 1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e026",
+   "from": "n024",
+   "to": "n023",
+   "relation": "revises",
+   "sign": -1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e027",
+   "from": "n025",
+   "to": "n022",
+   "relation": "supports",
+   "sign": 1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e028",
+   "from": "n024",
+   "to": "n025",
+   "relation": "frames",
+   "sign": 0,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e029",
+   "from": "n026",
+   "to": "n027",
+   "relation": "supports",
+   "sign": 1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e030",
+   "from": "n022",
+   "to": "n002",
+   "relation": "supports",
+   "sign": 1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e031",
+   "from": "n027",
+   "to": "n002",
+   "relation": "supports",
+   "sign": 1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e032",
+   "from": "n028",
+   "to": "n002",
+   "relation": "supports",
+   "sign": 1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e033",
+   "from": "n029",
+   "to": "n028",
+   "relation": "supports",
+   "sign": 1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e034",
+   "from": "n028",
+   "to": "n030",
+   "relation": "qualified_by",
+   "sign": -1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  }
+ ],
+ "validation": {
+  "status": "needs_review",
+  "checks": [
+   "boxes: 30, fix rounds 0, re-asks 0, gaps left none",
+   "links: 34, fix rounds 0, re-asks 0, gaps left none, dropped none",
+   "passage linker agreement: {'anchored': 13, 'anchored_cited': 8, 'candidate': 23, 'candidate_cited': 19}"
+  ],
+  "review_items": [
+   "boxes: `P1` the name `ngls` does not occur in the article",
+   "boxes: 30 boxes, more than any hand-drawn map (24)",
+   "links: `ANOM` motivates `C2` joins L0→L4, which no hand-drawn motivates link does",
+   "links: `SCP` bounds `C4` joins L1B→L4, which no hand-drawn bounds link does",
+   "facets: `setser_jan_31_20#P2` inherited variable ['bilateral-trade-flows', 'fx-reserves'] from the document - check this one",
+   "facets: `setser_jan_31_20#X2` inherited variable ['bilateral-trade-flows', 'fx-reserves'] from the document - check this one",
+   "passages: `K`: the team's passage linker anchors it to p10 (shared: treasuries), which the box does not cite",
+   "passages: `K`: the team's passage linker anchors it to p11 (shared: treasuries), which the box does not cite",
+   "passages: `C3`: the team's passage linker anchors it to p11 (shared: treasuries), which the box does not cite",
+   "passages: `M5`: the team's passage linker anchors it to p10 (shared: treasuries), which the box does not cite",
+   "passages: `M5`: the team's passage linker anchors it to p9 (shared: treasuries), which the box does not cite"
+  ]
+ },
+ "extensions": {}
+}

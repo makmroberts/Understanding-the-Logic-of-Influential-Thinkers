@@ -1,0 +1,189 @@
+{
+  "schema_version": "source-record-0.1",
+  "article": {
+    "id": "understanding-the-low-october-2025-trade-deficit",
+    "title": "Understanding the Low October 2025 Trade Deficit",
+    "authors": [
+      "Brad W. Setser"
+    ],
+    "published_date": "2026-02-03",
+    "url": "https://www.cfr.org/articles/understanding-the-low-october-2025-trade-deficit",
+    "publisher": "Council on Foreign Relations",
+    "series": null,
+    "source_text": {
+      "path": "internal/extracted/2026-02-03_understanding-the-low-october-2025-trade-deficit.md",
+      "paragraph_count": 16,
+      "content_hash": "sha256:d534c32357ba4b3c44a924d9ffd99a296898dbdee8a7ae4c65707df8de5ad444",
+      "revision": 2
+    },
+    "references": [],
+    "metadata_extension": {
+      "field_sources": {
+        "title": "frontmatter",
+        "authors": "frontmatter",
+        "published_date": "frontmatter",
+        "url": "frontmatter",
+        "publisher": "frontmatter",
+        "series": "none"
+      },
+      "references_status": "preserved",
+      "links_hash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "subtitle": "A closer look at trade data shows that fears of tariffs that never materialized—rather than actual tariffs—drove October’s trade deficit down.",
+      "published_at": "2026-02-03T13:07:02-05:00",
+      "programs": [
+        "Greenberg Center for Geoeconomics"
+      ],
+      "source_tags": [
+        "Trade"
+      ],
+      "license": "CC BY-NC-ND 4.0",
+      "section": "Article",
+      "doc_type": "AnalysisNewsArticle",
+      "language": "en",
+      "word_count": 591,
+      "date_modified": "2026-02-03",
+      "retrieved_at": "2026-10-05T23:13:24Z",
+      "page_sha256": "f2acfd0db0d711341e0bfb50903ea4d826a9bfe234f0b71f2ccc4b7cdd3ddb40",
+      "figures": []
+    }
+  },
+  "paragraphs": [
+    {
+      "id": "p1",
+      "sha256": "sha256:fe2b62befc780c33e550a46e4f12e59cb5280c0eee31aceacc21c5f45465d33e",
+      "n_chars": 123
+    },
+    {
+      "id": "p2",
+      "sha256": "sha256:827168ece61f5dc884719ff8af42c1563085c7d208adb9613d779a9bf355a487",
+      "n_chars": 39
+    },
+    {
+      "id": "p3",
+      "sha256": "sha256:ad88b99b8096c936c73947badd8aa595783ad0cb204160ab59caeda44a318055",
+      "n_chars": 192
+    },
+    {
+      "id": "p4",
+      "sha256": "sha256:5a00029b773b9bfbffcc09dcc32af90a7466f904c844928dc8c0bad144307ae9",
+      "n_chars": 252
+    },
+    {
+      "id": "p5",
+      "sha256": "sha256:4787ff819af6426b3cd55fed4216319c2facbd9a20f30965961b7af3a870810f",
+      "n_chars": 238
+    },
+    {
+      "id": "p6",
+      "sha256": "sha256:6499a8f88959b0279c0635318a654d1e70adc935ebee5476760f97edd4820caf",
+      "n_chars": 215
+    },
+    {
+      "id": "p7",
+      "sha256": "sha256:922af0ef20003a395939559c4c44e09e93414d9dad2c5f4ba7fe7cf65a0ab1e7",
+      "n_chars": 142
+    },
+    {
+      "id": "p8",
+      "sha256": "sha256:49130ce8a0cb13831ca97a9eb3d85d6411e256ad7526a137c99ecf1a87fedcc2",
+      "n_chars": 70
+    },
+    {
+      "id": "p9",
+      "sha256": "sha256:0428f8792a01660c3b7ad3ae28e5ee306ec0cfde78ef439f0179b466a35c301c",
+      "n_chars": 36
+    },
+    {
+      "id": "p10",
+      "sha256": "sha256:bf067b1c9d0433a7d8dbe6eb828b7b0535765d47db91f3a2913d8b27e43a19ea",
+      "n_chars": 266
+    },
+    {
+      "id": "p11",
+      "sha256": "sha256:c540f884989d25791132dfbaf6ff2fdd713935b6f4848476bec7f84c42a84126",
+      "n_chars": 334
+    },
+    {
+      "id": "p12",
+      "sha256": "sha256:9275a2d37ba6c84629fa8151566b4051082911e869685fb2f38b6f7f6d030779",
+      "n_chars": 67
+    },
+    {
+      "id": "p13",
+      "sha256": "sha256:cb0c8dac9a2797a406d41d3a7b1ef87797cb2fe0da263016d5960377de6fc63c",
+      "n_chars": 404
+    },
+    {
+      "id": "p14",
+      "sha256": "sha256:c8dcff67ff9bbf2a0b57943994a17f6d11c6984a7e9db4f0462225df1d69df3d",
+      "n_chars": 429
+    },
+    {
+      "id": "p15",
+      "sha256": "sha256:f419b4cc715ac5b1a7465ecb96a63fb5e5fea706cee8d75d6d21e037a0283978",
+      "n_chars": 307
+    },
+    {
+      "id": "p16",
+      "sha256": "sha256:3bd79ffe3e9f9c8e52db629359840aa578d03ef11a88b4d1b8fbd620f50b0b47",
+      "n_chars": 527
+    }
+  ],
+  "revisions": [
+    {
+      "content_hash": "sha256:693d2fd2c4dc8619de9431679ae82cda8714059c58af08b0a840df2aba5d0324",
+      "links_hash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "paragraph_count": 12,
+      "retrieved_at": "2026-10-19T20:54:52Z",
+      "revision": 1,
+      "changed_paragraphs": []
+    },
+    {
+      "content_hash": "sha256:d534c32357ba4b3c44a924d9ffd99a296898dbdee8a7ae4c65707df8de5ad444",
+      "links_hash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "paragraph_count": 16,
+      "retrieved_at": "2026-10-05T23:13:24Z",
+      "revision": 2,
+      "changed_paragraphs": [
+        "p1",
+        "p2",
+        "p3",
+        "p4",
+        "p5",
+        "p6",
+        "p7",
+        "p8",
+        "p9",
+        "p10",
+        "p11",
+        "p12",
+        "p13",
+        "p14",
+        "p15",
+        "p16"
+      ]
+    }
+  ],
+  "extensions": {
+    "entities": [
+      {
+        "entity_id": null,
+        "type": "person",
+        "name": "Brad W. Setser",
+        "role": "author"
+      },
+      {
+        "entity_id": null,
+        "type": "organization",
+        "name": "Council on Foreign Relations",
+        "role": "publisher"
+      }
+    ],
+    "cited_sources": []
+  },
+  "validation": {
+    "flags": [
+      "source_changed_review_passages"
+    ]
+  }
+}
