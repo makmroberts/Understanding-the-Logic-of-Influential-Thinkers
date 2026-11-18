@@ -35,6 +35,8 @@ def _roles_block(ont: Ontology) -> str:
             line = f"- {rid} ({r['name']}, level {lv}): {r['definition']}"
             if r.get("boundary"):
                 line += f" Boundary: {r['boundary']}"
+            if r.get("guidance"):
+                line += f" Guidance: {r['guidance']}"
             out.append(line)
     return "\n".join(out)
 
@@ -71,7 +73,6 @@ def system_prompt(ont: Ontology) -> str:
         "HOW TO WRITE EACH BOX\n"
         "- Write the excerpt first: copy the words exactly as they appear in one paragraph, "
         "then write the claim in your own words.\n"
-        "- A hidden assumption has no excerpt; cite the paragraph whose step depends on it.\n"
         "- The reason is the general rule the author relies on at this step, written so it would "
         "hold for another country or period: no names, figures or dates from this article, and "
         "not a description of what the box does in the argument.\n"
@@ -87,7 +88,9 @@ def system_prompt(ont: Ontology) -> str:
 def user_prompt(a: Article) -> str:
     head = [f"Title: {a.title}", f"Author: {', '.join(a.authors)}", f"Published: {a.date}"]
     return ("\n".join(head) + "\n\n<article>\n" + a.numbered() + "\n</article>\n\n"
-            "Map this article. List the boxes in the order of the argument, question first.")
+            "Extract the article's argument components using the supplied "
+            "ontology. Do not force particular roles or a predetermined "
+            "argument structure.")
 
 
 def start(a: Article, ont: Ontology) -> list[dict]:

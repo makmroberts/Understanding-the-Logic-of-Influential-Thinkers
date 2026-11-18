@@ -11,13 +11,20 @@
 # fallback; the model is never offered it.
 
 id: setser_argument
-version: 2
-# v2 (2026-11-09), measured on the 5 practice articles before it was frozen. Changes from v1:
-#   stated_assumption  a general premise applied in passing; premise and applied result are two boxes
-#   mechanism          a channel stated next to figures is still its own box
-#   intermediate_claim boundary added: reached on the way to the main claim; one per separate point
-#   main_claim         only the final conclusion
-# Settings changed with it: a second worked example, facets reasoning low, model claude-opus-5.5.
+
+version: 3
+# v3 (2026-11-18), draft; not yet evaluated against the hand-drawn maps.
+# Changes from v2:
+#   all roles          expanded definitions, boundaries, and role-specific guidance
+#   evidence_data      includes qualitative observations when used as evidence
+#   evidence_rival     clarified distinction from evidence_discrepancy to avoid redundant boxes
+#   hidden_assumption  restricted to essential, unstated, nontrivial premises
+#   intermediate_claim must be a distinct conclusion derived from prior reasoning
+#   main_claim         prefer one central conclusion; multiple only when necessary
+#   other roles        clarified boundaries to reduce misclassification and over-extraction
+# Existing levels, role IDs, attributes, relations, and granularity structure preserved.
+# Pipeline update needed: boxes.py must read the new guidance fields.
+# Model settings and evaluation results from v2 do not automatically apply to v3.
 
 levels: [L0, L1, L1B, L2, L3, L4, L5, L6]      # reading order; links run forward through it
 
@@ -29,112 +36,199 @@ roles:
     name: Question
     level: L0
     id: Q
-    definition: The problem the article sets out to answer, in one sentence.
+    definition: >-
+      The central question or problem motivating the author's argument.
     boundary: >-
-      Not the title. Usually the sentence the article turns on, restated as a question.
-      If the article never poses one, infer it and mark it not explicit.
+      Must represent the article's main inquiry, not a minor question or the title alone. 
+      Infer only when the underlying question is clearly identifiable.
+    guidance: >-
+      Express in one sentence and mark as implicit if inferred. Do not force a question where no
+      distinct central inquiry can be established.
   position_map:
     name: Position map
     level: L0
     id: POS
-    definition: Named actors and what each claimed, before the author weighs in.
-    boundary: Needs at least two identified positions. One opposing view is opposing_view.
+    definition: >-
+      A description of multiple identifiable actors and their differing positions in a debate.
+    boundary: >-
+      Requires at least two distinct positions attributed to identifiable actors, not general 
+      disagreement or a single opposing view.
+    guidance: >-
+      Capture who holds which position without evaluating their validity. Use opposing_view 
+      when the author challenges one particular position.
   anomaly:
     name: Anomaly
     level: L0
     id: ANOM
-    definition: A specific prediction that failed, used as the starting point.
-    boundary: Only when a named forecast is shown to be wrong. General surprise is not an anomaly.
+    definition: >-
+      An identifiable prediction or forecast that failed, motivating the author's investigation.
+    boundary: >-
+      Requires a specific prior expectation contradicted by an observed outcome. General 
+      surprises or unexplained observations do not qualify.
+    guidance: >-
+      Identify the failed prediction and actual outcome. Use evidence_data for observations 
+      without a specific failed prediction, and revised_prior when the author acknowledges 
+      revising their own earlier belief.
 
   stated_assumption:
     name: Stated assumption
     level: L1
     group: P
-    definition: Something the author openly takes as given and does not argue for.
+    definition: >-
+      An explicitly stated premise the author accepts without providing supporting argument.
     boundary: >-
-      Usually a general economic premise or rule of thumb he applies in passing, such as "import
-      bills must ultimately be covered by income or borrowing" or "dollar moves take years to
-      fully affect trade". When the article states such a premise and then applies it, make two
-      boxes: the premise here, the applied result as a mechanism or intermediate claim. If he
-      argues for it, it is evidence or a claim, not an assumption.
+      Must function as a premise, not an observation or conclusion.
+      If the author provides evidence for it, classify accordingly.
+    guidance: >-
+      Separate a general premise from its application when both are distinct reasoning steps. 
+      Use hidden_assumption only when the premise is unstated.
   hidden_assumption:
     name: Hidden assumption
     level: L1
     group: P
-    definition: A premise the argument needs but the author never states.
+    definition: >-
+      An unstated, nontrivial premise essential to a specific step in the author's reasoning.
     boundary: >-
-      Test: remove it and a step collapses. It is the general rule behind a step, never a
-      quotation; the paragraph it presupposes is the closest place it surfaces.
+      Removing the premise must break the inference. Exclude established economic identities, 
+      widely accepted facts, and general background knowledge. Do not infer a hidden
+      assumption merely to fill a perceived gap.
+    guidance: >-
+      Identify the specific inference that depends on the premise. Extract only when the author 
+      relies on a substantive, unstated belief that is not necessarily universally accepted. 
+      Most articles may have none. Cite the paragraph containing the dependent inference.
   revised_prior:
     name: Revised prior
     level: L1
     group: P
-    definition: A belief the author states and marks as wrong.
+    definition: >-
+      An earlier belief or prediction the author explicitly
+      acknowledges was mistaken or requires revision.
     boundary: >-
-      First-person and explicit ("I was surprised", "I thought"). Someone else being wrong is
-      position_map or opposing_view.
+      Requires an identifiable prior belief and its revision
+      by the author. Other people's errors are not revised_prior.
+    guidance: >-
+      Use opposing_view for positions attributed to others.
+      Do not infer belief revision from a change in emphasis.
   accounting_identity:
     name: Accounting identity
     level: L1
     id: ID
-    definition: A balance that must hold by definition, doing work in the argument.
-    boundary: Only when stated. An identity used silently is a hidden assumption.
+    definition: >-
+      An accounting relationship that must hold by definition
+      and serves as a premise in the argument.
+    boundary: >-
+      Must be explicitly invoked and used in the reasoning,
+      not merely a numerical relationship or empirical pattern.
+    guidance: >-
+      Use hidden_assumption when an accounting identity is necessary but unstated. 
+      Distinguish identities from empirical regularities that may not always hold.
   source_credibility:
     name: Source credibility
     level: L1
     id: SC
-    definition: A prior about whoever produced the data, not about the economics.
-    boundary: Doubting a number is evidence. Doubting the producer is this role.
+    definition: >-
+      An assessment of the reliability or incentives of a source producing evidence.
+    boundary: >-
+      Must concern the trustworthiness of the source, not simply disagreement between measurements.
+    guidance: >-
+      Use evidence_source when citing an authority and evidence_discrepancy when 
+      identifying conflicting data. Assessments of methodology also qualify when used 
+      to judge source reliability.
 
   scope_choice:
     name: Scope choice
     level: L1B
     id: SCP
-    definition: A definitional decision that changes the verdict.
-    boundary: Only when stated and consequential - which categories, which baseline, what is excluded.
+    definition: >-
+      An explicit analytical choice about what is included,
+      excluded, or measured that materially affects the conclusion.
+    boundary: >-
+      Must be a consequential choice of definition, population, timeframe, or measurement 
+      scope, not routine context or an unstated premise.
+    guidance: >-
+      Identify how the chosen scope affects the analysis. Use hidden_assumption only for 
+      necessary, unstated, nontrivial premises rather than explicit scope decisions.
   benchmark:
     name: Benchmark
     level: L1B
     id: BM
-    definition: An external target the evidence is measured against, set by someone else.
-    boundary: Must be external and specific. The author's own expectation is an assumption.
+    definition: >-
+      An externally established reference standard or target
+      against which the author evaluates evidence.
+    boundary: >-
+      Must be specific, external to the author's own expectations,and actively used in 
+      comparison rather than mentioned as background.
+    guidance: >-
+      Identify the standard and what it is compared against. Use evidence_data for observed 
+      values and stated_assumption for the author's own unargued expectations.
 
   evidence_data:
     name: Data
     level: L2
     group: E
-    definition: Numbers and charts cited in support.
+    definition: >-
+      An empirical observation, statistic, or qualitative finding
+      used to support or challenge an argumentative claim.
     boundary: >-
-      Gather the figures that make one point into ONE box. A number that is a consequence of
-      the mechanism belongs with the claim it supports.
+      Must serve as evidence, not background context, causal explanation, or interpretation. 
+      Group related observations that establish one point into a single node.
+    guidance: >-
+      Use mechanism for causal explanations and intermediate_claim
+      or main_claim for conclusions drawn from evidence.
   evidence_source:
     name: Studies and sources
     level: L2
     group: E
-    definition: Research, reports or named experts cited.
-    boundary: Self-citation lands here.
+    definition: >-
+      A study, report, dataset, or expert invoked as evidentiary
+      authority for a claim.
+    boundary: >-
+      Create a separate node only when the source makes a distinct
+      argumentative contribution, not for routine attribution.
+    guidance: >-
+      Use evidence_data for observations with incidental citations;
+      use source_credibility for judgments about source reliability.
   evidence_rival:
     name: Rival measurement
     level: L2
     group: E
-    definition: A second series measuring the same quantity.
-    boundary: Needs two series of the same thing. Two different indicators are just data.
+    definition: >-
+      An alternative measurement of the same underlying quantity,
+      used to compare, corroborate, or challenge existing evidence.
+    boundary: >-
+      Requires two comparable measurements, not merely related indicators. The alternative
+      must serve a distinct argumentative purpose.
+    guidance: >-
+      If only the disagreement matters, use evidence_discrepancy.
+      Extract both roles only when each contributes a separate point.
   evidence_discrepancy:
     name: Discrepancy
     level: L2
     group: E
-    definition: The gap between rival measurements, treated as the finding itself.
-    boundary: Requires a rival measurement.
+    definition: >-
+      A consequential disagreement between measurements of the same quantity, 
+      used as evidence in the argument.
+    boundary: >-
+      Requires an explicit or clearly established comparison. Do not extract incidental 
+      differences or duplicate a rival measurement without a distinct argumentative purpose.
+    guidance: >-
+      Describe the disagreement without assuming which measure is correct. Use source_credibility 
+      for judgments about the reliability of a source.
+
 
   mechanism:
     name: Mechanism
     level: L3
     group: M
-    definition: A causal channel - how one thing produces another.
+    definition: >-
+      A causal process explaining how or why one condition produces an outcome.
     boundary: >-
-      kind economic = a channel in the world; kind distortion = how a statistic gets
-      misstated. One kind per box. A channel stated next to figures is still its own
-      mechanism box: the figures go in the data box, the "because" goes here.
+      Must identify a causal channel, not merely an observed relationship or conclusion. 
+      Extract separately only when the process contributes a distinct reasoning step.
+    guidance: >-
+      Separate causal explanations from supporting evidence. Use evidence_data for 
+      observations and intermediate_claim for conclusions. Distinguish economic processes 
+      from measurement distortions.
     attributes:
       kind: [economic, distortion]
 
@@ -142,73 +236,138 @@ roles:
     name: Intermediate claim
     level: L4
     group: C
-    definition: What the mechanisms add up to, short of the conclusion.
+    definition: >-
+      A distinct conclusion drawn from earlier steps in the
+      argument that contributes to the author's main conclusion.
     boundary: >-
-      A conclusion the author reaches on the way to the main claim, usually what evidence
-      and mechanisms add up to. Not a general rule he takes as given (that is an
-      assumption) and not the final conclusion (that is the main claim). When an article
-      makes several separate points, each point is usually its own intermediate claim.
+      Must follow from preceding evidence, premises, or reasoning and stand as a meaningful 
+      conclusion on its own. May support or form part of the main conclusion, but must not 
+      simply restate it.
+    guidance: >-
+      Extract separate nodes for distinct intermediate conclusions. A mechanism is not required. 
+      Do not classify observations, assumptions, or causal processes as intermediate claims.
   case_type:
     name: Case type
     level: L4
     group: C
-    definition: A branch, where the argument sorts cases rather than converging.
-    boundary: Needs at least two types with different consequences.
+    definition: >-
+      A classification that divides an argument into distinct cases with different 
+      implications or outcomes.
+    boundary: >-
+      Requires at least two meaningful cases with different consequences, not merely a 
+      list of examples or categories.
+    guidance: >-
+      Identify the distinction between cases and why it matters to the reasoning. Use 
+      intermediate_claim when the author draws a conclusion rather than distinguishes cases.
   policy_reductio:
     name: Policy reductio
     level: L4
     group: C
-    definition: Someone's proposal run to a consequence they would reject.
-    boundary: Must be a proposal the author did not make. Criticising an argument is opposing_view.
+    definition: >-
+      An argument challenging another actor's policy proposal by showing a consequence 
+      they would reject.
+    boundary: >-
+      Must trace the implications of a proposal the author does not advocate. General policy 
+      criticism or disagreement alone does not qualify.
+    guidance: >-
+      Identify the proposal and the consequence used to challenge it. Use opposing_view 
+      for a disputed position without a demonstrated implication.
 
   main_claim:
     name: Main claim
     level: L5
     id: K
-    definition: The author's conclusion.
+    definition: >-
+      The author's central conclusion, representing the overall finding or position 
+      established by the argument.
     boundary: >-
-      Only the final conclusion; a conclusion reached on the way to it is an intermediate claim.
-      claim_type single = one claim; enumerated = several parallel; typology = the
-      classification is the answer; unresolved = explicitly declines to choose.
+      Must express a final substantive conclusion, not an intermediate inference. Prefer one 
+      main claim per article; use multiple only when the author establishes distinct, equally 
+      central conclusions that cannot reasonably be combined.
+    guidance: >-
+      Identify what the author ultimately establishes, regardless of where it appears in the 
+      text. Use intermediate_claim for supporting conclusions. Do not create additional main
+      claims solely because an intermediate finding is important.
     attributes:
       claim_type: [single, enumerated, typology, unresolved]
   reconstruction:
     name: Reconstruction
     level: L5
     id: RC
-    definition: A replacement quantity built after showing the official one is wrong.
-    boundary: Requires a rejected measure. An estimate with no rejected counterpart is data.
+    definition: >-
+      A replacement estimate or quantity constructed after identifying shortcomings in an 
+      existing measurement.
+    boundary: >-
+      Requires an identifiable rejected or challenged measurement and a substantive replacement. 
+      A new estimate without a challenged counterpart is evidence.
+    guidance: >-
+      Identify the original measurement and its replacement. Use evidence_discrepancy when 
+      the disagreement itself is the finding, without constructing a replacement.
   recommendation:
     name: Recommendation
     level: L5
     id: REC
-    definition: A normative "should", separate from the claim.
-    boundary: Must be addressed to someone. "This matters" is not a recommendation.
+    definition: >-
+      A specific action or policy the author advocates in response to the argument's findings.
+    boundary: >-
+      Must express a normative prescription directed toward an identifiable actor. Describing 
+      consequences or stating that an issue matters is not a recommendation.
+    guidance: >-
+      Identify the advocated action and its intended purpose. Use main_claim for substantive 
+      conclusions that do not prescribe action.
 
   opposing_view:
     name: Opposing view
     level: L6
     id: X
-    definition: The position the author argues against.
-    boundary: May appear anywhere in the text, including the opening.
+    definition: >-
+      A position or argument held by others that the author challenges through their reasoning.
+    boundary: >-
+      Must represent an identifiable opposing position, not merely a different perspective 
+      or background debate.
+    guidance: >-
+      Extract the challenged position regardless of where it appears. Use position_map for 
+      neutral descriptions of multiple views and policy_reductio when the author challenges 
+      a proposal through its consequences.
   caveat:
     name: Caveat
     level: L6
     id: QF
-    definition: Where the author concedes the claim may not hold.
-    boundary: Must be the author's own concession.
+    definition: >-
+      A limitation or qualification the author acknowledges regarding their own argument 
+      or conclusion.
+    boundary: >-
+      Must be the author's own concession limiting the scope, strength, certainty, or 
+      applicability of a claim.
+    guidance: >-
+      Identify which claim is qualified and how. Do not classify opposing arguments or 
+      alternative explanations as caveats without a distinct qualification.
   other_explanation:
     name: Other explanation
     level: L6
     group: R
-    definition: A rival cause the author admits but does not adopt.
-    boundary: If he adopts it, it is a mechanism.
+    definition: >-
+      An alternative causal explanation the author acknowledges but does not adopt as their 
+      preferred account.
+    boundary: >-
+      Must identify a plausible rival cause, not merely an opposing claim or conflicting measurement.
+    guidance: >-
+      Use mechanism for causal explanations the author adopts. Use evidence_discrepancy for 
+      conflicting measurements and opposing_view for disputed positions without a rival
+      causal explanation.
   deferred_question:
     name: Deferred question
     level: L6
     id: DF
-    definition: A question explicitly postponed.
-    boundary: Needs explicit postponement - "for a future post", "too early to tell".
+    definition: >-
+      A question or issue the author explicitly postpones rather than resolving within 
+      the current argument.
+    boundary: >-
+      Requires clear evidence of deliberate postponement, not merely uncertainty or an 
+      unanswered question.
+    guidance: >-
+      Extract only when the author explicitly sets an issue aside or reserves it for future 
+      consideration. Use question for the central problem motivating the article.
 
 # A link reads "<from> <relation> <to>". sign is argumentative (+1 backs, -1 pushes back,
 # 0 neither), never causal. `seen` lists the level pairs (from>to) this relation joins in
