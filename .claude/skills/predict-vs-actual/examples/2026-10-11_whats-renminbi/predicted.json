@@ -1,0 +1,83 @@
+{
+  "kind": "predicted",
+  "article": {"title": "What’s the Renminbi Got to Do With it?", "date": "2026-10-11", "url": ""},
+  "summary": {"claim_type": "single"},
+  "slots": {
+    "question": {
+      "status": "filled",
+      "items": [{"label": "Does China's weak renminbi help drive its surging trade surplus?", "from": ["title", "2025-07-28 Q", "2025-11-12 Q"]}]
+    },
+    "anomaly": {"status": "unsure"},
+    "position_map": {"status": "unsure"},
+    "stated_assumption": {
+      "status": "filled",
+      "items": [{"label": "Assumes real exchange rates move trade volumes, with multi-year lags.", "from": ["2018-02-15 P3", "2025-09-12 P1", "2025-11-12 R1"]}]
+    },
+    "hidden_assumption": {
+      "status": "filled",
+      "items": [{"label": "Presumes China's surplus imposes real costs on its trading partners.", "from": ["2025-07-28 P3", "2025-11-12 P3"]}]
+    },
+    "revised_prior": {"status": "absent"},
+    "accounting_identity": {"status": "absent"},
+    "source_credibility": {"status": "unsure"},
+    "scope_choice": {"status": "unsure"},
+    "benchmark": {"status": "absent"},
+    "evidence_data": {
+      "status": "filled",
+      "items": [{"label": "Cites the yuan's slide against the euro and record surplus figures.", "from": ["2025-07-28 E1", "2025-11-12 E1"]}]
+    },
+    "evidence_source": {
+      "status": "filled",
+      "items": [{"label": "Draws on IMF assessments and Chinese official foreign exchange data.", "from": ["2025-11-12 E2", "2025-07-07 E2", "2025-05-05 E2"]}]
+    },
+    "evidence_rival": {"status": "absent"},
+    "evidence_discrepancy": {"status": "absent"},
+    "mechanism": {
+      "status": "filled",
+      "items": [
+        {"label": "Cheapens Chinese exports as deflation drives real yuan depreciation.", "kind": "economic", "from": ["2025-11-12 P2", "2025-11-12 M1", "2025-11-12 R1"]},
+        {"label": "Offsets partners' tariffs as state banks hold the yuan down.", "kind": "economic", "from": ["2025-07-28 M2", "2025-07-28 P1", "2019-05-02 M2"]}
+      ]
+    },
+    "intermediate_claim": {
+      "status": "filled",
+      "items": [{"label": "Argues the undervalued yuan materially enlarges China's export surplus.", "from": ["2025-07-28 C1", "2025-11-12 C1"]}]
+    },
+    "case_type": {"status": "absent"},
+    "policy_reductio": {"status": "unsure"},
+    "main_claim": {
+      "status": "filled",
+      "items": [{"label": "Holds the weak renminbi is central to China's surplus and must rise.", "from": ["title", "2025-07-28 K", "2025-11-12 K"]}]
+    },
+    "reconstruction": {"status": "absent"},
+    "recommendation": {
+      "status": "filled",
+      "items": [{"label": "Urges pressure for yuan appreciation alongside central-government fiscal expansion in China.", "from": ["2025-07-28 K", "2025-11-12 K"]}]
+    },
+    "opposing_view": {
+      "status": "filled",
+      "items": [{"label": "Treats the surplus as structural saving, leaving the currency irrelevant.", "from": ["title", "2025-11-12 X", "2019-09-20 C2"]}]
+    },
+    "caveat": {
+      "status": "filled",
+      "items": [{"label": "Concedes the yuan alone cannot fix China's weak domestic demand.", "from": ["2025-11-12 P1", "2019-09-20 C2"]}]
+    },
+    "other_explanation": {
+      "status": "filled",
+      "items": [{"label": "Credits subsidized industrial overcapacity as a parallel driver of exports.", "from": ["2025-07-28 M1", "2025-07-28 R1", "2024-03-10 M1"]}]
+    },
+    "deferred_question": {"status": "absent"}
+  },
+  "edges": [
+    {"from": "stated_assumption", "to": "mechanism", "type": "supports"},
+    {"from": "evidence_data", "to": "mechanism", "type": "supports"},
+    {"from": "evidence_source", "to": "mechanism", "type": "supports"},
+    {"from": "mechanism", "to": "intermediate_claim", "type": "supports"},
+    {"from": "hidden_assumption", "to": "intermediate_claim", "type": "licenses"},
+    {"from": "intermediate_claim", "to": "main_claim", "type": "supports"},
+    {"from": "main_claim", "to": "recommendation", "type": "motivates"},
+    {"from": "main_claim", "to": "opposing_view", "type": "rebuts"},
+    {"from": "main_claim", "to": "caveat", "type": "qualified_by"},
+    {"from": "mechanism", "to": "other_explanation", "type": "undercut_by"}
+  ]
+}

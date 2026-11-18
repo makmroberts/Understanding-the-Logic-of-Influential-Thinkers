@@ -1,0 +1,150 @@
+{
+ "result": [
+  {
+   "from": "Q",
+   "relation": "frames",
+   "to": "P3",
+   "sign": 0
+  },
+  {
+   "from": "Q",
+   "relation": "frames",
+   "to": "P1",
+   "sign": 0
+  },
+  {
+   "from": "Q",
+   "relation": "frames",
+   "to": "P2",
+   "sign": 0
+  },
+  {
+   "from": "M1",
+   "relation": "supports",
+   "to": "C1",
+   "sign": 1
+  },
+  {
+   "from": "P3",
+   "relation": "licenses",
+   "to": "C1",
+   "sign": 1
+  },
+  {
+   "from": "SCP",
+   "relation": "bounds",
+   "to": "E1",
+   "sign": 1
+  },
+  {
+   "from": "P3",
+   "relation": "frames",
+   "to": "SCP",
+   "sign": 0
+  },
+  {
+   "from": "E1",
+   "relation": "supports",
+   "to": "C2",
+   "sign": 1
+  },
+  {
+   "from": "P1",
+   "relation": "licenses",
+   "to": "C2",
+   "sign": 1
+  },
+  {
+   "from": "C2",
+   "relation": "rebuts",
+   "to": "X",
+   "sign": -1
+  },
+  {
+   "from": "E2",
+   "relation": "supports",
+   "to": "M2",
+   "sign": 1
+  },
+  {
+   "from": "E3",
+   "relation": "supports",
+   "to": "M3",
+   "sign": 1
+  },
+  {
+   "from": "E4",
+   "relation": "supports",
+   "to": "M3",
+   "sign": 1
+  },
+  {
+   "from": "M3",
+   "relation": "supports",
+   "to": "K",
+   "sign": 1
+  },
+  {
+   "from": "M2",
+   "relation": "supports",
+   "to": "K",
+   "sign": 1
+  },
+  {
+   "from": "C1",
+   "relation": "supports",
+   "to": "K",
+   "sign": 1
+  },
+  {
+   "from": "C2",
+   "relation": "supports",
+   "to": "K",
+   "sign": 1
+  },
+  {
+   "from": "K",
+   "relation": "rebuts",
+   "to": "X",
+   "sign": -1
+  },
+  {
+   "from": "K",
+   "relation": "qualified_by",
+   "to": "QF",
+   "sign": -1
+  },
+  {
+   "from": "P2",
+   "relation": "licenses",
+   "to": "C3",
+   "sign": 1
+  },
+  {
+   "from": "C3",
+   "relation": "supports",
+   "to": "K",
+   "sign": 1
+  },
+  {
+   "from": "K",
+   "relation": "defers",
+   "to": "DF",
+   "sign": 0
+  },
+  {
+   "from": "M2",
+   "relation": "supports",
+   "to": "QF",
+   "sign": 1
+  }
+ ],
+ "review": [
+  "`P3` frames `SCP` joins L1→L1B, which no hand-drawn frames link does",
+  "`M2` supports `QF` joins L3→L6, which no hand-drawn supports link does"
+ ],
+ "gaps_left": [],
+ "dropped": [],
+ "fix_rounds": 0,
+ "reasks": 0
+}

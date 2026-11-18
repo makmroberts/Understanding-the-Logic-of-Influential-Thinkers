@@ -1,0 +1,254 @@
+{
+  "collapse-filter": false,
+  "search": "tag:#type/hidden_assumption OR path:subjects",
+  "showTags": false,
+  "showAttachments": false,
+  "hideUnresolved": false,
+  "showOrphans": false,
+  "collapse-color-groups": true,
+  "colorGroups": [
+    {
+      "query": "path:claims/hidden_assumption",
+      "color": {
+        "a": 1,
+        "rgb": 8024024
+      }
+    },
+    {
+      "query": "path:claims/stated_assumption",
+      "color": {
+        "a": 1,
+        "rgb": 4998304
+      }
+    },
+    {
+      "query": "path:claims/revised_prior",
+      "color": {
+        "a": 1,
+        "rgb": 10698859
+      }
+    },
+    {
+      "query": "path:claims/accounting_identity",
+      "color": {
+        "a": 1,
+        "rgb": 4998304
+      }
+    },
+    {
+      "query": "path:claims/source_credibility",
+      "color": {
+        "a": 1,
+        "rgb": 8012960
+      }
+    },
+    {
+      "query": "path:claims/scope_choice",
+      "color": {
+        "a": 1,
+        "rgb": 9071893
+      }
+    },
+    {
+      "query": "path:claims/benchmark",
+      "color": {
+        "a": 1,
+        "rgb": 9071893
+      }
+    },
+    {
+      "query": "path:claims/evidence_data",
+      "color": {
+        "a": 1,
+        "rgb": 1402293
+      }
+    },
+    {
+      "query": "path:claims/evidence_source",
+      "color": {
+        "a": 1,
+        "rgb": 1402293
+      }
+    },
+    {
+      "query": "path:claims/evidence_rival",
+      "color": {
+        "a": 1,
+        "rgb": 1402293
+      }
+    },
+    {
+      "query": "path:claims/evidence_discrepancy",
+      "color": {
+        "a": 1,
+        "rgb": 1402293
+      }
+    },
+    {
+      "query": "path:claims/mechanism",
+      "color": {
+        "a": 1,
+        "rgb": 948835
+      }
+    },
+    {
+      "query": "path:claims/intermediate_claim",
+      "color": {
+        "a": 1,
+        "rgb": 1282165
+      }
+    },
+    {
+      "query": "path:claims/case_type",
+      "color": {
+        "a": 1,
+        "rgb": 1282165
+      }
+    },
+    {
+      "query": "path:claims/policy_reductio",
+      "color": {
+        "a": 1,
+        "rgb": 1282165
+      }
+    },
+    {
+      "query": "path:claims/main_claim",
+      "color": {
+        "a": 1,
+        "rgb": 3129243
+      }
+    },
+    {
+      "query": "path:claims/reconstruction",
+      "color": {
+        "a": 1,
+        "rgb": 3129243
+      }
+    },
+    {
+      "query": "path:claims/recommendation",
+      "color": {
+        "a": 1,
+        "rgb": 13214269
+      }
+    },
+    {
+      "query": "path:claims/question",
+      "color": {
+        "a": 1,
+        "rgb": 14210508
+      }
+    },
+    {
+      "query": "path:claims/opposing_view",
+      "color": {
+        "a": 1,
+        "rgb": 9078912
+      }
+    },
+    {
+      "query": "path:claims/caveat",
+      "color": {
+        "a": 1,
+        "rgb": 7236710
+      }
+    },
+    {
+      "query": "path:claims/other_explanation",
+      "color": {
+        "a": 1,
+        "rgb": 7236710
+      }
+    },
+    {
+      "query": "path:claims/deferred_question",
+      "color": {
+        "a": 1,
+        "rgb": 7236710
+      }
+    },
+    {
+      "query": "path:claims/counterpoint",
+      "color": {
+        "a": 1,
+        "rgb": 7236710
+      }
+    },
+    {
+      "query": "path:claims/anomaly",
+      "color": {
+        "a": 1,
+        "rgb": 9078912
+      }
+    },
+    {
+      "query": "path:claims/position_map",
+      "color": {
+        "a": 1,
+        "rgb": 9078912
+      }
+    },
+    {
+      "query": "path:subjects/variable",
+      "color": {
+        "a": 1,
+        "rgb": 3112895
+      }
+    },
+    {
+      "query": "path:subjects/country",
+      "color": {
+        "a": 1,
+        "rgb": 12545839
+      }
+    },
+    {
+      "query": "path:subjects/bloc",
+      "color": {
+        "a": 1,
+        "rgb": 12554063
+      }
+    },
+    {
+      "query": "path:subjects/instrument",
+      "color": {
+        "a": 1,
+        "rgb": 9392063
+      }
+    },
+    {
+      "query": "path:subjects/data_basis",
+      "color": {
+        "a": 1,
+        "rgb": 3123343
+      }
+    },
+    {
+      "query": "path:concepts",
+      "color": {
+        "a": 1,
+        "rgb": 15245503
+      }
+    },
+    {
+      "query": "path:articles",
+      "color": {
+        "a": 1,
+        "rgb": 13214269
+      }
+    }
+  ],
+  "collapse-display": false,
+  "showArrow": true,
+  "textFadeMultiplier": -0.9,
+  "nodeSizeMultiplier": 1.1,
+  "lineSizeMultiplier": 0.785219249951422,
+  "collapse-forces": false,
+  "centerStrength": 0.1,
+  "repelStrength": 16,
+  "linkStrength": 0.55,
+  "linkDistance": 260,
+  "scale": 0.054101070063445854,
+  "close": true
+}

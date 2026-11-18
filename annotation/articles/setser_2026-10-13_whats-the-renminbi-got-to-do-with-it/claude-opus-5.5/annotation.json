@@ -1,0 +1,2633 @@
+{
+ "schema_version": "0.1-draft",
+ "article": {
+  "id": "setser_2026-10-13_whats-the-renminbi-got-to-do-with-it",
+  "title": "What’s the Renminbi Got to Do With it?",
+  "authors": [
+   "Brad W. Setser"
+  ],
+  "published_date": "2026-10-13",
+  "url": "https://www.cfr.org/articles/whats-the-renminbi-got-to-do-with-it",
+  "publisher": "Council on Foreign Relations",
+  "series": "Follow the Money",
+  "source_text": {
+   "path": "kb/internal/extracted/2026-10-13_whats-the-renminbi-got-to-do-with-it.md",
+   "paragraph_count": 47,
+   "content_hash": "3fa60fa0942c1d1a"
+  },
+  "references": [
+   "Geneva Report",
+   "former IMF officials",
+   "your internal market supports",
+   "recent comprehensive assessment",
+   "the PBOC",
+   "absurdly",
+   "agree with Mark Sobel",
+   "must be taken with a pinch of salt",
+   "the state banks.",
+   "their open letter to the European Commission",
+   "2023",
+   "2024",
+   "this blog with Shahin Vallee",
+   "2022",
+   "2023",
+   "2024",
+   "Paul Krugman has noted",
+   "The PBOC isn’t interested",
+   "That clearly isn’t true.",
+   "a discussion over its currency practices.",
+   "the recent tariff rate quota",
+   "doesn’t address the underlying systemic issues",
+   "immaculate transfers",
+   "Europe’s institutional architecture for exchange rate coordination is not well-developed",
+   "per the Federal Reserve"
+  ],
+  "metadata_extension": {}
+ },
+ "annotation": {
+  "annotated_at": "2026-11-09T21:12:31+00:00",
+  "ontology": {
+   "id": "setser_argument",
+   "version": 2
+  },
+  "facets_version": 1,
+  "pipeline_version": "8d03103",
+  "status": "needs_review",
+  "runs": [
+   {
+    "run_id": "claude-opus-5.5_boxes",
+    "stage": "boxes",
+    "method": "llm",
+    "model": "anthropic/claude-opus-5.5",
+    "parameters": {
+     "max_tokens": 16000,
+     "reasoning_effort": "medium"
+    },
+    "timestamp": "2026-11-09T21:12:30+00:00",
+    "calls": 1,
+    "cost_usd": 0.13042
+   },
+   {
+    "run_id": "claude-opus-5.5_links",
+    "stage": "links",
+    "method": "llm",
+    "model": "anthropic/claude-opus-5.5",
+    "parameters": {
+     "max_tokens": 12000,
+     "reasoning_effort": "medium"
+    },
+    "timestamp": "2026-11-09T21:12:31+00:00",
+    "calls": 1,
+    "cost_usd": 0.0503
+   },
+   {
+    "run_id": "claude-opus-5.5_facets",
+    "stage": "facets",
+    "method": "llm",
+    "model": "anthropic/claude-opus-5.5",
+    "parameters": {
+     "max_tokens": 12000,
+     "reasoning_effort": "low"
+    },
+    "timestamp": "2026-11-09T21:12:31+00:00",
+    "calls": 1,
+    "cost_usd": 0.06705
+   }
+  ]
+ },
+ "summary": {
+  "central_question": "Is China's export surge just a mechanical result of weak internal demand, or did the weak renminbi play a causal role?",
+  "main_thesis": "China, which relies on net exports for growth, is on a collision course with its trading partners unless the RMB strengthens; there is no realistic path to balance without it.",
+  "argument_summary": null
+ },
+ "nodes": [
+  {
+   "id": "n001",
+   "legacy_id": "Q",
+   "role": "question",
+   "level": "L0",
+   "content": {
+    "text": "Is China's export surge just a mechanical result of weak internal demand, or did the weak renminbi play a causal role?",
+    "label": null,
+    "explicit": false,
+    "reason": "When a trade surge has two candidate causes, ask whether the price channel adds anything beyond the demand channel."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p1",
+      "relation": "states",
+      "link_method": "llm_citation",
+      "anchor_grade": "excerpt",
+      "review_status": "pending",
+      "source_excerpt": "China’s current export surge is the simple consequence of the housing downturn and the resulting weakness in Chinese internal demand."
+     },
+     {
+      "paragraph_id": "p2",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "export-volumes",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     },
+     {
+      "term": "nominal-exchange-rate",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     },
+     {
+      "term": "domestic-demand",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [
+     {
+      "term": "china",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     }
+    ],
+    "bloc": [],
+    "instrument": [],
+    "data_basis": []
+   },
+   "attributes": {},
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "n002",
+   "legacy_id": "X",
+   "role": "opposing_view",
+   "level": "L6",
+   "content": {
+    "text": "The Geneva Report and former IMF officials argue that exports rose mechanically from weak domestic demand and that RMB weakness was incidental, driven by rate differentials rather than policy.",
+    "label": null,
+    "explicit": true,
+    "reason": "A view that treats the exchange rate as a passive outcome must be tested against evidence of active management."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p1",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null
+     },
+     {
+      "paragraph_id": "p2",
+      "relation": "states",
+      "link_method": "llm_citation",
+      "anchor_grade": "excerpt",
+      "review_status": "pending",
+      "source_excerpt": "The weakness in the RMB in this story is entirely incidental to the increase in exports, which is, more or less, a mechanical response to weak internal demand."
+     },
+     {
+      "paragraph_id": "p3",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null
+     },
+     {
+      "paragraph_id": "p4",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null
+     },
+     {
+      "paragraph_id": "p5",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "export-volumes",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     },
+     {
+      "term": "domestic-demand",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     },
+     {
+      "term": "interest-rates",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [
+     {
+      "term": "china",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     }
+    ],
+    "bloc": [],
+    "instrument": [],
+    "data_basis": []
+   },
+   "attributes": {},
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "n003",
+   "legacy_id": "P1",
+   "role": "stated_assumption",
+   "level": "L1",
+   "content": {
+    "text": "With a closed financial account, the currency market is driven mainly by exporter conversion and current account flows, not by rate differentials.",
+    "label": null,
+    "explicit": true,
+    "reason": "Capital controls weaken the link between interest rate differentials and the exchange rate."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p7",
+      "relation": "states",
+      "link_method": "llm_citation",
+      "anchor_grade": "excerpt",
+      "review_status": "pending",
+      "source_excerpt": "China doesn’t have an open financial account. As a result, equilibrium in the foreign exchange market is thus driven far more by exporter conversion and current account flows than by rate differentials"
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "nominal-exchange-rate",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     },
+     {
+      "term": "current-account",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     },
+     {
+      "term": "capital-flows",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [
+     {
+      "term": "china",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     }
+    ],
+    "bloc": [],
+    "instrument": [
+     {
+      "term": "capital-controls",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "data_basis": []
+   },
+   "attributes": {},
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "n004",
+   "legacy_id": "E1",
+   "role": "evidence_data",
+   "level": "L2",
+   "content": {
+    "text": "The RMB has not tracked rate differentials: it did not rise when Chinese rates were higher, and it appreciated after mid-2024 even though PBOC rates were below U.S. rates.",
+    "label": null,
+    "explicit": true,
+    "reason": "A currency that ignores rate differentials is being set by something other than financial flows."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p6",
+      "relation": "states",
+      "link_method": "llm_citation",
+      "anchor_grade": "excerpt",
+      "review_status": "pending",
+      "source_excerpt": "The RMB didn’t consistently get pulled up when Chinese rates were higher than U.S. rates (2002-2020 generally speaking)"
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "nominal-exchange-rate",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     },
+     {
+      "term": "interest-rates",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [
+     {
+      "term": "china",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     },
+     {
+      "term": "us",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "counterpart"
+     }
+    ],
+    "bloc": [],
+    "instrument": [],
+    "data_basis": [
+     {
+      "term": "market-prices",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ]
+   },
+   "attributes": {},
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "n005",
+   "legacy_id": "C1",
+   "role": "intermediate_claim",
+   "level": "L4",
+   "content": {
+    "text": "The RMB's value is a policy variable controlled by the Chinese authorities, not a byproduct of macro policy.",
+    "label": null,
+    "explicit": true,
+    "reason": "Where authorities manage the exchange rate and capital flows, the rate is a choice rather than an outcome."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p7",
+      "relation": "states",
+      "link_method": "llm_citation",
+      "anchor_grade": "excerpt",
+      "review_status": "pending",
+      "source_excerpt": "the value of the RMB is much more of a policy variable under the independent control of the Chinese authorities than a simple byproduct of monetary and fiscal policies."
+     },
+     {
+      "paragraph_id": "p12",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "nominal-exchange-rate",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [
+     {
+      "term": "china",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     }
+    ],
+    "bloc": [],
+    "instrument": [
+     {
+      "term": "fx-intervention",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "data_basis": []
+   },
+   "attributes": {},
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "n006",
+   "legacy_id": "SC",
+   "role": "source_credibility",
+   "level": "L1",
+   "content": {
+    "text": "The PBOC's claim that market forces determine the RMB is not credible.",
+    "label": null,
+    "explicit": true,
+    "reason": "Discount a central bank's self-description of its regime when it has a motive to deny management."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p9",
+      "relation": "states",
+      "link_method": "llm_citation",
+      "anchor_grade": "excerpt",
+      "review_status": "pending",
+      "source_excerpt": "the PBOC, rather absurdly, insists that “market forces play a decisive role in determining the RMB exchange rate.”"
+     },
+     {
+      "paragraph_id": "p10",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "nominal-exchange-rate",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [
+     {
+      "term": "china",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     }
+    ],
+    "bloc": [],
+    "instrument": [
+     {
+      "term": "fx-intervention",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "data_basis": []
+   },
+   "attributes": {},
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "n007",
+   "legacy_id": "E4",
+   "role": "evidence_source",
+   "level": "L2",
+   "content": {
+    "text": "Mark Sobel and the Goldman Sachs analysts describe heavy management of the RMB and an FX conversion ratio that rose with appreciation expectations.",
+    "label": null,
+    "explicit": true,
+    "reason": "Independent experts' readings of the market corroborate an inference about management."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p11",
+      "relation": "states",
+      "link_method": "llm_citation",
+      "anchor_grade": "excerpt",
+      "review_status": "pending",
+      "source_excerpt": "it has many means at its disposal to achieve the same effect through extensive capital controls, administrative guidance, signalling at the fix and deploying state-owned commercial banks."
+     },
+     {
+      "paragraph_id": "p44",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null
+     },
+     {
+      "paragraph_id": "p45",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "nominal-exchange-rate",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [
+     {
+      "term": "china",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     }
+    ],
+    "bloc": [],
+    "instrument": [
+     {
+      "term": "fx-intervention",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "data_basis": [
+     {
+      "term": "press-reporting",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ]
+   },
+   "attributes": {},
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": [
+     "passages: `E4`: the team's passage linker anchors it to p10 (shared: mark sobel), which the box does not cite",
+     "passages: `E4`: the team's passage linker anchors it to p43 (shared: goldman sachs), which the box does not cite"
+    ]
+   }
+  },
+  {
+   "id": "n008",
+   "legacy_id": "M1",
+   "role": "mechanism",
+   "level": "L3",
+   "content": {
+    "text": "State banks buy foreign exchange to cap the yuan's strength, so the yuan is managed asymmetrically against appreciation.",
+    "label": null,
+    "explicit": true,
+    "reason": "Intervention can be carried out through state-owned intermediaries instead of the official reserves."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p14",
+      "relation": "states",
+      "link_method": "llm_citation",
+      "anchor_grade": "excerpt",
+      "review_status": "pending",
+      "source_excerpt": "the state banks in practice buy FX to keep the CNY from testing the strong side of the band"
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "nominal-exchange-rate",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     },
+     {
+      "term": "fx-reserves",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [
+     {
+      "term": "china",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     }
+    ],
+    "bloc": [],
+    "instrument": [
+     {
+      "term": "fx-intervention",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "data_basis": []
+   },
+   "attributes": {
+    "kind": "economic"
+   },
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "n009",
+   "legacy_id": "E2",
+   "role": "evidence_data",
+   "level": "L2",
+   "content": {
+    "text": "Yuan volatility is low (a controlled 10 percent fall in 2022, then a slow crawl up), and the FX settlement data show a pattern typical of band management.",
+    "label": null,
+    "explicit": true,
+    "reason": "Low volatility and settlement flows that mirror intervention patterns reveal a managed currency."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p13",
+      "relation": "states",
+      "link_method": "llm_citation",
+      "anchor_grade": "excerpt",
+      "review_status": "pending",
+      "source_excerpt": "The yuan’s move down against the dollar in 2022 was a controlled 10 percent move, and the appreciation over the last 16 months has been even more controlled crawl."
+     },
+     {
+      "paragraph_id": "p14",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "nominal-exchange-rate",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [
+     {
+      "term": "china",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     }
+    ],
+    "bloc": [],
+    "instrument": [
+     {
+      "term": "fx-intervention",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "data_basis": [
+     {
+      "term": "market-prices",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ]
+   },
+   "attributes": {},
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "n010",
+   "legacy_id": "X2",
+   "role": "opposing_view",
+   "level": "L6",
+   "content": {
+    "text": "IMF surveillance ignores China's currency management and the balance of payments.",
+    "label": null,
+    "explicit": true,
+    "reason": "Surveillance that omits the exchange rate will misjudge external adjustment."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p8",
+      "relation": "states",
+      "link_method": "llm_citation",
+      "anchor_grade": "excerpt",
+      "review_status": "pending",
+      "source_excerpt": "Its surveillance has generally ignored China’s currency management"
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "nominal-exchange-rate",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     },
+     {
+      "term": "current-account",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [
+     {
+      "term": "china",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     }
+    ],
+    "bloc": [],
+    "instrument": [],
+    "data_basis": [
+     {
+      "term": "imf-publications",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ]
+   },
+   "attributes": {},
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "n011",
+   "legacy_id": "M2",
+   "role": "mechanism",
+   "level": "L3",
+   "content": {
+    "text": "Chinese exports respond to the real value of the RMB.",
+    "label": null,
+    "explicit": true,
+    "reason": "A weaker real exchange rate raises export competitiveness and volumes."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p15",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null
+     },
+     {
+      "paragraph_id": "p16",
+      "relation": "states",
+      "link_method": "llm_citation",
+      "anchor_grade": "excerpt",
+      "review_status": "pending",
+      "source_excerpt": "Periods of RMB weakness have consistently been associated with periods of especially rapid Chinese export growth."
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "export-volumes",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     },
+     {
+      "term": "real-exchange-rate",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [
+     {
+      "term": "china",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     }
+    ],
+    "bloc": [],
+    "instrument": [],
+    "data_basis": []
+   },
+   "attributes": {
+    "kind": "economic"
+   },
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "n012",
+   "legacy_id": "P4",
+   "role": "hidden_assumption",
+   "level": "L1",
+   "content": {
+    "text": "China's size makes its currency management matter for the rest of the world.",
+    "label": null,
+    "explicit": false,
+    "reason": "A large economy's external surplus imposes spillovers on its trading partners."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p15",
+      "relation": "presupposes",
+      "link_method": "llm_citation",
+      "anchor_grade": "excerpt",
+      "review_status": "pending",
+      "source_excerpt": "None of this would matter much if China’s economy was small. But that obviously isn’t the case."
+     },
+     {
+      "paragraph_id": "p31",
+      "relation": "presupposes",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null
+     },
+     {
+      "paragraph_id": "p32",
+      "relation": "presupposes",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "global-imbalances",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [
+     {
+      "term": "china",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     }
+    ],
+    "bloc": [],
+    "instrument": [
+     {
+      "term": "fx-intervention",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "data_basis": []
+   },
+   "attributes": {},
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "n013",
+   "legacy_id": "E3",
+   "role": "evidence_data",
+   "level": "L2",
+   "content": {
+    "text": "Exports accelerated after the 2022 depreciation and outgrew global trade by 2023; the same outperformance followed the RMB's fall alongside the dollar in 2003.",
+    "label": null,
+    "explicit": true,
+    "reason": "Export outperformance that follows depreciation in more than one episode points to a price effect."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p19",
+      "relation": "states",
+      "link_method": "llm_citation",
+      "anchor_grade": "excerpt",
+      "review_status": "pending",
+      "source_excerpt": "the acceleration in China’s export growth after the RMB’s depreciation over the course of 2022."
+     },
+     {
+      "paragraph_id": "p20",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null
+     },
+     {
+      "paragraph_id": "p21",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null
+     },
+     {
+      "paragraph_id": "p24",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null
+     },
+     {
+      "paragraph_id": "p25",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "export-volumes",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     },
+     {
+      "term": "nominal-exchange-rate",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [
+     {
+      "term": "china",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     }
+    ],
+    "bloc": [],
+    "instrument": [],
+    "data_basis": [
+     {
+      "term": "customs",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ]
+   },
+   "attributes": {},
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "n014",
+   "legacy_id": "R1",
+   "role": "other_explanation",
+   "level": "L6",
+   "content": {
+    "text": "The 2020-21 export surge came from pandemic goods demand, not from the currency.",
+    "label": null,
+    "explicit": true,
+    "reason": "Separate a global demand shock from a price effect before attributing growth to the exchange rate."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p21",
+      "relation": "states",
+      "link_method": "llm_citation",
+      "anchor_grade": "excerpt",
+      "review_status": "pending",
+      "source_excerpt": "what of the acceleration in export growth in 2020 and 2021? That was pretty clearly tied to the global increase in goods demand"
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "export-volumes",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [
+     {
+      "term": "china",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     }
+    ],
+    "bloc": [],
+    "instrument": [],
+    "data_basis": []
+   },
+   "attributes": {},
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "n015",
+   "legacy_id": "ANOM",
+   "role": "anomaly",
+   "level": "L0",
+   "content": {
+    "text": "The IMF repeatedly forecast that China's surplus would fall as Covid effects proved transitory, and it was wrong.",
+    "label": null,
+    "explicit": true,
+    "reason": "A forecast that keeps failing points to a variable the model leaves out."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p22",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null
+     },
+     {
+      "paragraph_id": "p23",
+      "relation": "states",
+      "link_method": "llm_citation",
+      "anchor_grade": "excerpt",
+      "review_status": "pending",
+      "source_excerpt": "neglecting the exchange rate was the key reason the IMF’s kept forecasting, incorrectly, that China’s current account surplus would fall"
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "current-account",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [
+     {
+      "term": "china",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     }
+    ],
+    "bloc": [],
+    "instrument": [],
+    "data_basis": [
+     {
+      "term": "imf-publications",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ]
+   },
+   "attributes": {},
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": [
+     "links: `ANOM` motivates `K` joins L0→L5, which no hand-drawn motivates link does"
+    ]
+   }
+  },
+  {
+   "id": "n016",
+   "legacy_id": "C2",
+   "role": "intermediate_claim",
+   "level": "L4",
+   "content": {
+    "text": "Structural gains (WTO accession, green industrial policy) were amplified by a weak currency instead of being offset by appreciation.",
+    "label": null,
+    "explicit": true,
+    "reason": "Productivity gains should be absorbed by real appreciation; blocking it magnifies export surges."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p26",
+      "relation": "states",
+      "link_method": "llm_citation",
+      "anchor_grade": "excerpt",
+      "review_status": "pending",
+      "source_excerpt": "In both cses exports were turbocharged when structural shifts that should have resulted in a stronger currency were instead amplified by currency weakness."
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "real-exchange-rate",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     },
+     {
+      "term": "export-volumes",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [
+     {
+      "term": "china",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     }
+    ],
+    "bloc": [],
+    "instrument": [
+     {
+      "term": "industrial-policy",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "data_basis": []
+   },
+   "attributes": {},
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "n017",
+   "legacy_id": "P2",
+   "role": "stated_assumption",
+   "level": "L1",
+   "content": {
+    "text": "A country converging technologically with its partners should see trend real appreciation (Krugman).",
+    "label": null,
+    "explicit": true,
+    "reason": "Catch-up productivity growth implies a rising real exchange rate."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p27",
+      "relation": "states",
+      "link_method": "llm_citation",
+      "anchor_grade": "excerpt",
+      "review_status": "pending",
+      "source_excerpt": "a country that is converging technologically with its trade partners should see a trend appreciation in its currency."
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "real-exchange-rate",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [],
+    "bloc": [],
+    "instrument": [],
+    "data_basis": [
+     {
+      "term": "academic-econometrics",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ]
+   },
+   "attributes": {},
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": [
+     "facets: `setser_2026-10-13_whats-the-renminbi-got-to-do-with-it#P2` where_subject empty - every claim needs a country or a bloc (assignment.requires_one_of) - needs review"
+    ]
+   }
+  },
+  {
+   "id": "n018",
+   "legacy_id": "X3",
+   "role": "opposing_view",
+   "level": "L6",
+   "content": {
+    "text": "Some argue that, for comity and for China's growth, the IMF should ignore external balance and focus only on internal balance.",
+    "label": null,
+    "explicit": true,
+    "reason": "Treating a member's external surplus as harmless ignores its costs to other members."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p28",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null
+     },
+     {
+      "paragraph_id": "p29",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null
+     },
+     {
+      "paragraph_id": "p30",
+      "relation": "states",
+      "link_method": "llm_citation",
+      "anchor_grade": "excerpt",
+      "review_status": "pending",
+      "source_excerpt": "a stronger RMB would slow China’s exports and thus slow China’s economy at a time when China needs export growth to escape deflation"
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "current-account",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     },
+     {
+      "term": "domestic-demand",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [
+     {
+      "term": "china",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     }
+    ],
+    "bloc": [],
+    "instrument": [],
+    "data_basis": []
+   },
+   "attributes": {},
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "n019",
+   "legacy_id": "BM",
+   "role": "benchmark",
+   "level": "L1B",
+   "content": {
+    "text": "Under fixed-but-adjustable regimes, surplus countries were expected to revalue for external balance and use other tools for internal balance, and China's regime resembles that system.",
+    "label": null,
+    "explicit": true,
+    "reason": "Two targets require two instruments: the exchange rate for external balance and domestic policy for internal balance."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p34",
+      "relation": "states",
+      "link_method": "llm_citation",
+      "anchor_grade": "excerpt",
+      "review_status": "pending",
+      "source_excerpt": "there was an expectation (not always met to be sure) that surplus countries would allow their currencies to strengthen"
+     },
+     {
+      "paragraph_id": "p35",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null
+     },
+     {
+      "paragraph_id": "p43",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "nominal-exchange-rate",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     },
+     {
+      "term": "current-account",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [
+     {
+      "term": "china",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     }
+    ],
+    "bloc": [],
+    "instrument": [
+     {
+      "term": "fx-intervention",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "data_basis": []
+   },
+   "attributes": {},
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": [
+     "links: `BM` licenses `REC` joins L1B→L5, which no hand-drawn licenses link does"
+    ]
+   }
+  },
+  {
+   "id": "n020",
+   "legacy_id": "C3",
+   "role": "intermediate_claim",
+   "level": "L4",
+   "content": {
+    "text": "Sectoral protection such as the EU hybrid car quota buffers specific sectors but would have to spread ever wider if it substitutes for exchange rate adjustment.",
+    "label": null,
+    "explicit": true,
+    "reason": "Sector-by-sector trade restrictions cannot offset a broad relative price misalignment."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p36",
+      "relation": "states",
+      "link_method": "llm_citation",
+      "anchor_grade": "excerpt",
+      "review_status": "pending",
+      "source_excerpt": "aren’t going to address the underlying imbalance on their own. They can provide a bit of a buffer for specific sectors."
+     },
+     {
+      "paragraph_id": "p37",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null
+     },
+     {
+      "paragraph_id": "p38",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null
+     },
+     {
+      "paragraph_id": "p39",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "bilateral-trade-flows",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [
+     {
+      "term": "euro-area",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     },
+     {
+      "term": "china",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "counterpart"
+     }
+    ],
+    "bloc": [],
+    "instrument": [
+     {
+      "term": "tariffs",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "data_basis": []
+   },
+   "attributes": {},
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "n021",
+   "legacy_id": "M3",
+   "role": "mechanism",
+   "level": "L3",
+   "content": {
+    "text": "An undervalued RMB signals the world to locate production in China, eroding manufacturing capacity elsewhere.",
+    "label": null,
+    "explicit": true,
+    "reason": "Relative prices across currencies guide where firms locate production."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p37",
+      "relation": "states",
+      "link_method": "llm_citation",
+      "anchor_grade": "excerpt",
+      "review_status": "pending",
+      "source_excerpt": "This erosion will persist as long as an undervalued RMB sends the entire world a signal to use China as its production base."
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "real-exchange-rate",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     },
+     {
+      "term": "manufacturing-output",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [
+     {
+      "term": "china",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     }
+    ],
+    "bloc": [
+     {
+      "term": "global",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "counterpart"
+     }
+    ],
+    "instrument": [],
+    "data_basis": []
+   },
+   "attributes": {
+    "kind": "economic"
+   },
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "n022",
+   "legacy_id": "C4",
+   "role": "intermediate_claim",
+   "level": "L4",
+   "content": {
+    "text": "Stronger domestic demand alone would not rebalance China's external accounts, because its demand no longer pulls in imports.",
+    "label": null,
+    "explicit": true,
+    "reason": "Demand-led rebalancing requires demand to spill over into imports."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p40",
+      "relation": "states",
+      "link_method": "llm_citation",
+      "anchor_grade": "excerpt",
+      "review_status": "pending",
+      "source_excerpt": "domestic demand growth is no longer feeding over to import growth (ex-gold, that is)."
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "domestic-demand",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     },
+     {
+      "term": "import-volumes",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [
+     {
+      "term": "china",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     }
+    ],
+    "bloc": [],
+    "instrument": [],
+    "data_basis": []
+   },
+   "attributes": {},
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "n023",
+   "legacy_id": "P3",
+   "role": "stated_assumption",
+   "level": "L1",
+   "content": {
+    "text": "External adjustment requires a change in relative prices; there are no immaculate transfers.",
+    "label": null,
+    "explicit": true,
+    "reason": "Shifting trade balances requires a real exchange rate change."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p42",
+      "relation": "states",
+      "link_method": "llm_citation",
+      "anchor_grade": "excerpt",
+      "review_status": "pending",
+      "source_excerpt": "there aren’t, as Paul Krugman once put it, immaculate transfers."
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "real-exchange-rate",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     },
+     {
+      "term": "current-account",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [],
+    "bloc": [],
+    "instrument": [],
+    "data_basis": []
+   },
+   "attributes": {},
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": [
+     "facets: `setser_2026-10-13_whats-the-renminbi-got-to-do-with-it#P3` where_subject empty - every claim needs a country or a bloc (assignment.requires_one_of) - needs review"
+    ]
+   }
+  },
+  {
+   "id": "n024",
+   "legacy_id": "K",
+   "role": "main_claim",
+   "level": "L5",
+   "content": {
+    "text": "China, which relies on net exports for growth, is on a collision course with its trading partners unless the RMB strengthens; there is no realistic path to balance without it.",
+    "label": null,
+    "explicit": true,
+    "reason": "Persistent surpluses in a large economy require currency correction to avoid protectionist conflict."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p41",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null
+     },
+     {
+      "paragraph_id": "p42",
+      "relation": "states",
+      "link_method": "llm_citation",
+      "anchor_grade": "excerpt",
+      "review_status": "pending",
+      "source_excerpt": "there isn’t a realistic path towards balance that doesn’t involve a stronger RMB"
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "nominal-exchange-rate",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     },
+     {
+      "term": "gdp-growth",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     },
+     {
+      "term": "current-account",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [
+     {
+      "term": "china",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     }
+    ],
+    "bloc": [],
+    "instrument": [
+     {
+      "term": "fx-intervention",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "data_basis": []
+   },
+   "attributes": {
+    "claim_type": "single"
+   },
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": [
+     "links: `ANOM` motivates `K` joins L0→L5, which no hand-drawn motivates link does"
+    ]
+   }
+  },
+  {
+   "id": "n025",
+   "legacy_id": "REC",
+   "role": "recommendation",
+   "level": "L5",
+   "content": {
+    "text": "Europe and the IMF should put RMB exchange rate adjustment on the agenda with China.",
+    "label": null,
+    "explicit": true,
+    "reason": "Policymakers should address the exchange rate directly when it drives imbalances."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p17",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null
+     },
+     {
+      "paragraph_id": "p18",
+      "relation": "states",
+      "link_method": "llm_citation",
+      "anchor_grade": "excerpt",
+      "review_status": "pending",
+      "source_excerpt": "European policy discussions focused on forging a common understanding of these exchange rate issues and their interaction with global imbalances would be useful."
+     },
+     {
+      "paragraph_id": "p33",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null
+     },
+     {
+      "paragraph_id": "p46",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "nominal-exchange-rate",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [
+     {
+      "term": "china",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     },
+     {
+      "term": "euro-area",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "counterpart"
+     }
+    ],
+    "bloc": [],
+    "instrument": [
+     {
+      "term": "fx-intervention",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "data_basis": []
+   },
+   "attributes": {},
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": [
+     "links: `BM` licenses `REC` joins L1B→L5, which no hand-drawn licenses link does"
+    ]
+   }
+  },
+  {
+   "id": "n026",
+   "legacy_id": "QF",
+   "role": "caveat",
+   "level": "L6",
+   "content": {
+    "text": "Europe's institutions lack the tools to coordinate on exchange rates, which limits its ability to press the issue.",
+    "label": null,
+    "explicit": true,
+    "reason": "Recommendations depend on institutions able to carry them out."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p46",
+      "relation": "states",
+      "link_method": "llm_citation",
+      "anchor_grade": "excerpt",
+      "review_status": "pending",
+      "source_excerpt": "Europe’s institutional architecture for exchange rate coordination is not well-developed."
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "nominal-exchange-rate",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [
+     {
+      "term": "euro-area",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     }
+    ],
+    "bloc": [],
+    "instrument": [],
+    "data_basis": []
+   },
+   "attributes": {},
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "n027",
+   "legacy_id": "QF2",
+   "role": "caveat",
+   "level": "L6",
+   "content": {
+    "text": "The RMB has appreciated since mid-2025, which reverses the liberation-day depreciation but not the structural undervaluation.",
+    "label": null,
+    "explicit": true,
+    "reason": "A partial correction does not remove an underlying misalignment."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p6",
+      "relation": "states",
+      "link_method": "llm_citation",
+      "anchor_grade": "excerpt",
+      "review_status": "pending",
+      "source_excerpt": "That appreciation hasn’t been big enough to correct the deep undervaluation of the RMB"
+     },
+     {
+      "paragraph_id": "p27",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "nominal-exchange-rate",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     },
+     {
+      "term": "real-exchange-rate",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [
+     {
+      "term": "china",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     }
+    ],
+    "bloc": [],
+    "instrument": [],
+    "data_basis": [
+     {
+      "term": "market-prices",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ]
+   },
+   "attributes": {},
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "n028",
+   "legacy_id": "QF3",
+   "role": "caveat",
+   "level": "L6",
+   "content": {
+    "text": "China's surplus is now less masked in balance of payments data, though problems remain with investment income and customs gold imports.",
+    "label": null,
+    "explicit": true,
+    "reason": "Methodology changes by the statistics producer can hide or reveal imbalances."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p47",
+      "relation": "states",
+      "link_method": "llm_citation",
+      "anchor_grade": "excerpt",
+      "review_status": "pending",
+      "source_excerpt": "SAFE has fiddled with its BoP methodology once again (per the Federal Reserve) and the BoP goods surplus is no longer significantly below the customs goods surplus."
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "current-account",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     },
+     {
+      "term": "investment-income-balance",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [
+     {
+      "term": "china",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     }
+    ],
+    "bloc": [],
+    "instrument": [],
+    "data_basis": [
+     {
+      "term": "balance-of-payments",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     },
+     {
+      "term": "customs",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ]
+   },
+   "attributes": {},
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  }
+ ],
+ "edges": [
+  {
+   "id": "e001",
+   "from": "n001",
+   "to": "n003",
+   "relation": "frames",
+   "sign": 0,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e002",
+   "from": "n001",
+   "to": "n012",
+   "relation": "frames",
+   "sign": 0,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e003",
+   "from": "n001",
+   "to": "n017",
+   "relation": "frames",
+   "sign": 0,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e004",
+   "from": "n001",
+   "to": "n023",
+   "relation": "frames",
+   "sign": 0,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e005",
+   "from": "n003",
+   "to": "n004",
+   "relation": "frames",
+   "sign": 0,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e006",
+   "from": "n004",
+   "to": "n005",
+   "relation": "supports",
+   "sign": 1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e007",
+   "from": "n003",
+   "to": "n005",
+   "relation": "supports",
+   "sign": 1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e008",
+   "from": "n006",
+   "to": "n005",
+   "relation": "supports",
+   "sign": 1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e009",
+   "from": "n007",
+   "to": "n005",
+   "relation": "supports",
+   "sign": 1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e010",
+   "from": "n009",
+   "to": "n008",
+   "relation": "supports",
+   "sign": 1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e011",
+   "from": "n008",
+   "to": "n005",
+   "relation": "supports",
+   "sign": 1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e012",
+   "from": "n005",
+   "to": "n002",
+   "relation": "rebuts",
+   "sign": -1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e013",
+   "from": "n005",
+   "to": "n010",
+   "relation": "rebuts",
+   "sign": -1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e014",
+   "from": "n013",
+   "to": "n011",
+   "relation": "supports",
+   "sign": 1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e015",
+   "from": "n011",
+   "to": "n024",
+   "relation": "supports",
+   "sign": 1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e016",
+   "from": "n011",
+   "to": "n014",
+   "relation": "undercut_by",
+   "sign": -1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e017",
+   "from": "n015",
+   "to": "n024",
+   "relation": "motivates",
+   "sign": 1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": [
+     "`ANOM` motivates `K` joins L0→L5, which no hand-drawn motivates link does"
+    ]
+   }
+  },
+  {
+   "id": "e018",
+   "from": "n017",
+   "to": "n016",
+   "relation": "supports",
+   "sign": 1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e019",
+   "from": "n013",
+   "to": "n016",
+   "relation": "supports",
+   "sign": 1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e020",
+   "from": "n016",
+   "to": "n024",
+   "relation": "supports",
+   "sign": 1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e021",
+   "from": "n016",
+   "to": "n027",
+   "relation": "qualified_by",
+   "sign": -1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e022",
+   "from": "n012",
+   "to": "n024",
+   "relation": "licenses",
+   "sign": 1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e023",
+   "from": "n024",
+   "to": "n018",
+   "relation": "rebuts",
+   "sign": -1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e024",
+   "from": "n019",
+   "to": "n025",
+   "relation": "licenses",
+   "sign": 1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": [
+     "`BM` licenses `REC` joins L1B→L5, which no hand-drawn licenses link does"
+    ]
+   }
+  },
+  {
+   "id": "e025",
+   "from": "n021",
+   "to": "n020",
+   "relation": "supports",
+   "sign": 1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e026",
+   "from": "n020",
+   "to": "n024",
+   "relation": "supports",
+   "sign": 1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e027",
+   "from": "n022",
+   "to": "n024",
+   "relation": "supports",
+   "sign": 1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e028",
+   "from": "n022",
+   "to": "n002",
+   "relation": "rebuts",
+   "sign": -1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e029",
+   "from": "n023",
+   "to": "n024",
+   "relation": "licenses",
+   "sign": 1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e030",
+   "from": "n005",
+   "to": "n024",
+   "relation": "supports",
+   "sign": 1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e031",
+   "from": "n024",
+   "to": "n025",
+   "relation": "motivates",
+   "sign": 1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e032",
+   "from": "n025",
+   "to": "n026",
+   "relation": "qualified_by",
+   "sign": -1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e033",
+   "from": "n024",
+   "to": "n028",
+   "relation": "qualified_by",
+   "sign": -1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e034",
+   "from": "n025",
+   "to": "n010",
+   "relation": "rebuts",
+   "sign": -1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  }
+ ],
+ "validation": {
+  "status": "needs_review",
+  "checks": [
+   "boxes: 28, fix rounds 0, re-asks 0, gaps left none",
+   "links: 34, fix rounds 0, re-asks 0, gaps left none, dropped none",
+   "passage linker agreement: {'anchored': 4, 'anchored_cited': 2, 'candidate': 26, 'candidate_cited': 22}"
+  ],
+  "review_items": [
+   "boxes: 28 boxes, more than any hand-drawn map (24)",
+   "links: `ANOM` motivates `K` joins L0→L5, which no hand-drawn motivates link does",
+   "links: `BM` licenses `REC` joins L1B→L5, which no hand-drawn licenses link does",
+   "facets: `setser_2026-10-13_whats-the-renminbi-got-to-do-with-it#P2` where_subject empty - every claim needs a country or a bloc (assignment.requires_one_of) - needs review",
+   "facets: `setser_2026-10-13_whats-the-renminbi-got-to-do-with-it#P3` where_subject empty - every claim needs a country or a bloc (assignment.requires_one_of) - needs review",
+   "passages: `E4`: the team's passage linker anchors it to p10 (shared: mark sobel), which the box does not cite",
+   "passages: `E4`: the team's passage linker anchors it to p43 (shared: goldman sachs), which the box does not cite"
+  ]
+ },
+ "extensions": {}
+}

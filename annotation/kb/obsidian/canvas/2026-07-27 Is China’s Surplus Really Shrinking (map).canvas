@@ -1,0 +1,402 @@
+{
+ "nodes": [
+  {
+   "id": "setser_2026-07-27_is-chinas-surplus-really-shrinking-Q",
+   "type": "file",
+   "file": "claims/question/Has China's trade surplus really peaked, as the Economist claims, or is the underlying.md",
+   "x": -260,
+   "y": 0,
+   "width": 520,
+   "height": 300,
+   "color": "#7A6FA8"
+  },
+  {
+   "id": "setser_2026-07-27_is-chinas-surplus-really-shrinking-P1",
+   "type": "file",
+   "file": "claims/stated_assumption/Refined gold is classified as a manufacture, so gold flows contaminate the manufacturing.md",
+   "x": -1130,
+   "y": 480,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "setser_2026-07-27_is-chinas-surplus-really-shrinking-P2",
+   "type": "file",
+   "file": "claims/hidden_assumption/Gold imports reflect financial or reserve-asset demand rather than the real trade.md",
+   "x": -550,
+   "y": 480,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "setser_2026-07-27_is-chinas-surplus-really-shrinking-P3",
+   "type": "file",
+   "file": "claims/revised_prior/The author expected chips or oil, not gold, to be the key adjustment, and expected chips.md",
+   "x": 30,
+   "y": 480,
+   "width": 520,
+   "height": 300,
+   "color": "#BF6F2F"
+  },
+  {
+   "id": "setser_2026-07-27_is-chinas-surplus-really-shrinking-SC",
+   "type": "file",
+   "file": "claims/source_credibility/Financial press and many China analysts misread the trend, failing to adjust for gold.md",
+   "x": 610,
+   "y": 480,
+   "width": 520,
+   "height": 300,
+   "color": "#2FA88F"
+  },
+  {
+   "id": "setser_2026-07-27_is-chinas-surplus-really-shrinking-SCP",
+   "type": "file",
+   "file": "claims/scope_choice/Gold imports should be netted out of the headline balance because they are a one-off.md",
+   "x": -260,
+   "y": 960,
+   "width": 520,
+   "height": 300,
+   "color": "#9A8C6A"
+  },
+  {
+   "id": "setser_2026-07-27_is-chinas-surplus-really-shrinking-E1",
+   "type": "file",
+   "file": "claims/evidence_data/The price-adjusted surplus is still rising net exports added 0.8 pp of GDP in Q1.md",
+   "x": -550,
+   "y": 1440,
+   "width": 520,
+   "height": 300,
+   "color": "#2F7FBF"
+  },
+  {
+   "id": "setser_2026-07-27_is-chinas-surplus-really-shrinking-E2",
+   "type": "file",
+   "file": "claims/evidence_data/Gold imports reached $146 billion in H1 2026, nearly $100 billion above H1 2025, and 1.5%.md",
+   "x": 30,
+   "y": 1440,
+   "width": 520,
+   "height": 300,
+   "color": "#2F7FBF"
+  },
+  {
+   "id": "setser_2026-07-27_is-chinas-surplus-really-shrinking-M1",
+   "type": "file",
+   "file": "claims/mechanism/Higher chip prices raise both chip imports and exports, so they barely move the net.md",
+   "x": -840,
+   "y": 1920,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "setser_2026-07-27_is-chinas-surplus-really-shrinking-M2",
+   "type": "file",
+   "file": "claims/mechanism/Lagging price indices treated chip-price-driven value gains as volume gains in Q1.md",
+   "x": -260,
+   "y": 1920,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "setser_2026-07-27_is-chinas-surplus-really-shrinking-M3",
+   "type": "file",
+   "file": "claims/mechanism/The U.S. deficit is widening due to AI investment and fiscal deficits, the mirror.md",
+   "x": 320,
+   "y": 1920,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "setser_2026-07-27_is-chinas-surplus-really-shrinking-C1",
+   "type": "file",
+   "file": "claims/intermediate_claim/Oil price gains are offset by collapsing import volumes, so the commodity bill rose.md",
+   "x": -840,
+   "y": 2400,
+   "width": 520,
+   "height": 300,
+   "color": "#2FBF9B"
+  },
+  {
+   "id": "setser_2026-07-27_is-chinas-surplus-really-shrinking-C2",
+   "type": "file",
+   "file": "claims/intermediate_claim/Manufactures trade excluding chips and gold shows rising exports driven by autos.md",
+   "x": -260,
+   "y": 2400,
+   "width": 520,
+   "height": 300,
+   "color": "#2FBF9B"
+  },
+  {
+   "id": "setser_2026-07-27_is-chinas-surplus-really-shrinking-C3",
+   "type": "file",
+   "file": "claims/intermediate_claim/U.S. 2025 data are also distorted by tariff-driven gold bar imports and their reversal.md",
+   "x": 320,
+   "y": 2400,
+   "width": 520,
+   "height": 300,
+   "color": "#2FBF9B"
+  },
+  {
+   "id": "setser_2026-07-27_is-chinas-surplus-really-shrinking-K",
+   "type": "file",
+   "file": "claims/main_claim/China's underlying surplus is still rising; it continues to rely heavily on exports.md",
+   "x": -550,
+   "y": 2880,
+   "width": 520,
+   "height": 300,
+   "color": "#2FBF9B"
+  },
+  {
+   "id": "setser_2026-07-27_is-chinas-surplus-really-shrinking-RC",
+   "type": "file",
+   "file": "claims/reconstruction/Excluding gold, the goods surplus rose over $80 billion in H1 2026 and would be near 7%.md",
+   "x": 30,
+   "y": 2880,
+   "width": 520,
+   "height": 300,
+   "color": "#2FBF9B"
+  },
+  {
+   "id": "setser_2026-07-27_is-chinas-surplus-really-shrinking-QF",
+   "type": "file",
+   "file": "claims/caveat/The author concedes commodity and manufacturing balances shifted too, the chip deficit.md",
+   "x": -550,
+   "y": 3360,
+   "width": 520,
+   "height": 300,
+   "color": "#9A8C6A"
+  },
+  {
+   "id": "setser_2026-07-27_is-chinas-surplus-really-shrinking-X",
+   "type": "file",
+   "file": "claims/opposing_view/The Economist, following Adam Wolfe of Absolute Strategy Research, argues China's surplus.md",
+   "x": 30,
+   "y": 3360,
+   "width": 520,
+   "height": 300,
+   "color": "#8A8A8A"
+  }
+ ],
+ "edges": [
+  {
+   "id": "Q-SCP",
+   "fromNode": "setser_2026-07-27_is-chinas-surplus-really-shrinking-Q",
+   "fromSide": "bottom",
+   "toNode": "setser_2026-07-27_is-chinas-surplus-really-shrinking-SCP",
+   "toSide": "top",
+   "label": "0 frames",
+   "color": "6"
+  },
+  {
+   "id": "Q-P3",
+   "fromNode": "setser_2026-07-27_is-chinas-surplus-really-shrinking-Q",
+   "fromSide": "bottom",
+   "toNode": "setser_2026-07-27_is-chinas-surplus-really-shrinking-P3",
+   "toSide": "top",
+   "label": "0 frames",
+   "color": "6"
+  },
+  {
+   "id": "Q-P2",
+   "fromNode": "setser_2026-07-27_is-chinas-surplus-really-shrinking-Q",
+   "fromSide": "bottom",
+   "toNode": "setser_2026-07-27_is-chinas-surplus-really-shrinking-P2",
+   "toSide": "top",
+   "label": "0 frames",
+   "color": "6"
+  },
+  {
+   "id": "P2-SCP",
+   "fromNode": "setser_2026-07-27_is-chinas-surplus-really-shrinking-P2",
+   "fromSide": "bottom",
+   "toNode": "setser_2026-07-27_is-chinas-surplus-really-shrinking-SCP",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "SCP-E2",
+   "fromNode": "setser_2026-07-27_is-chinas-surplus-really-shrinking-SCP",
+   "fromSide": "bottom",
+   "toNode": "setser_2026-07-27_is-chinas-surplus-really-shrinking-E2",
+   "toSide": "top",
+   "label": "+1 bounds",
+   "color": "4"
+  },
+  {
+   "id": "P3-P2",
+   "fromNode": "setser_2026-07-27_is-chinas-surplus-really-shrinking-P3",
+   "fromSide": "bottom",
+   "toNode": "setser_2026-07-27_is-chinas-surplus-really-shrinking-P2",
+   "toSide": "top",
+   "label": "-1 revises",
+   "color": "1"
+  },
+  {
+   "id": "E2-RC",
+   "fromNode": "setser_2026-07-27_is-chinas-surplus-really-shrinking-E2",
+   "fromSide": "bottom",
+   "toNode": "setser_2026-07-27_is-chinas-surplus-really-shrinking-RC",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "SCP-RC",
+   "fromNode": "setser_2026-07-27_is-chinas-surplus-really-shrinking-SCP",
+   "fromSide": "bottom",
+   "toNode": "setser_2026-07-27_is-chinas-surplus-really-shrinking-RC",
+   "toSide": "top",
+   "label": "+1 licenses",
+   "color": "4"
+  },
+  {
+   "id": "M1-C2",
+   "fromNode": "setser_2026-07-27_is-chinas-surplus-really-shrinking-M1",
+   "fromSide": "bottom",
+   "toNode": "setser_2026-07-27_is-chinas-surplus-really-shrinking-C2",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "P1-C2",
+   "fromNode": "setser_2026-07-27_is-chinas-surplus-really-shrinking-P1",
+   "fromSide": "bottom",
+   "toNode": "setser_2026-07-27_is-chinas-surplus-really-shrinking-C2",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "P1-E2",
+   "fromNode": "setser_2026-07-27_is-chinas-surplus-really-shrinking-P1",
+   "fromSide": "bottom",
+   "toNode": "setser_2026-07-27_is-chinas-surplus-really-shrinking-E2",
+   "toSide": "top",
+   "label": "0 frames",
+   "color": "6"
+  },
+  {
+   "id": "C1-RC",
+   "fromNode": "setser_2026-07-27_is-chinas-surplus-really-shrinking-C1",
+   "fromSide": "bottom",
+   "toNode": "setser_2026-07-27_is-chinas-surplus-really-shrinking-RC",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "M1-RC",
+   "fromNode": "setser_2026-07-27_is-chinas-surplus-really-shrinking-M1",
+   "fromSide": "bottom",
+   "toNode": "setser_2026-07-27_is-chinas-surplus-really-shrinking-RC",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "RC-K",
+   "fromNode": "setser_2026-07-27_is-chinas-surplus-really-shrinking-RC",
+   "fromSide": "bottom",
+   "toNode": "setser_2026-07-27_is-chinas-surplus-really-shrinking-K",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "C2-K",
+   "fromNode": "setser_2026-07-27_is-chinas-surplus-really-shrinking-C2",
+   "fromSide": "bottom",
+   "toNode": "setser_2026-07-27_is-chinas-surplus-really-shrinking-K",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "E1-K",
+   "fromNode": "setser_2026-07-27_is-chinas-surplus-really-shrinking-E1",
+   "fromSide": "bottom",
+   "toNode": "setser_2026-07-27_is-chinas-surplus-really-shrinking-K",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "E1-M2",
+   "fromNode": "setser_2026-07-27_is-chinas-surplus-really-shrinking-E1",
+   "fromSide": "bottom",
+   "toNode": "setser_2026-07-27_is-chinas-surplus-really-shrinking-M2",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "M2-K",
+   "fromNode": "setser_2026-07-27_is-chinas-surplus-really-shrinking-M2",
+   "fromSide": "bottom",
+   "toNode": "setser_2026-07-27_is-chinas-surplus-really-shrinking-K",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "M3-K",
+   "fromNode": "setser_2026-07-27_is-chinas-surplus-really-shrinking-M3",
+   "fromSide": "bottom",
+   "toNode": "setser_2026-07-27_is-chinas-surplus-really-shrinking-K",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "C3-M3",
+   "fromNode": "setser_2026-07-27_is-chinas-surplus-really-shrinking-C3",
+   "fromSide": "bottom",
+   "toNode": "setser_2026-07-27_is-chinas-surplus-really-shrinking-M3",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "K-X",
+   "fromNode": "setser_2026-07-27_is-chinas-surplus-really-shrinking-K",
+   "fromSide": "bottom",
+   "toNode": "setser_2026-07-27_is-chinas-surplus-really-shrinking-X",
+   "toSide": "top",
+   "label": "-1 rebuts",
+   "color": "1"
+  },
+  {
+   "id": "K-QF",
+   "fromNode": "setser_2026-07-27_is-chinas-surplus-really-shrinking-K",
+   "fromSide": "bottom",
+   "toNode": "setser_2026-07-27_is-chinas-surplus-really-shrinking-QF",
+   "toSide": "top",
+   "label": "-1 qualified_by",
+   "color": "1"
+  },
+  {
+   "id": "SC-K",
+   "fromNode": "setser_2026-07-27_is-chinas-surplus-really-shrinking-SC",
+   "fromSide": "bottom",
+   "toNode": "setser_2026-07-27_is-chinas-surplus-really-shrinking-K",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "SC-X",
+   "fromNode": "setser_2026-07-27_is-chinas-surplus-really-shrinking-SC",
+   "fromSide": "bottom",
+   "toNode": "setser_2026-07-27_is-chinas-surplus-really-shrinking-X",
+   "toSide": "top",
+   "label": "-1 undercut_by",
+   "color": "1"
+  }
+ ]
+}

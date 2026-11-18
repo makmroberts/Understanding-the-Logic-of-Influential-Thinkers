@@ -1,0 +1,128 @@
+---
+config:
+  layout: elk
+  theme: dark
+  themeVariables:
+    lineColor: "#D3D1C7"
+    clusterBkg: "#262624"
+    clusterBorder: "#5F5E5A"
+    titleColor: "#F1EFE8"
+    edgeLabelBackground: "#2C2C2A"
+  flowchart:
+    wrappingWidth: 180
+    nodeSpacing: 22
+    rankSpacing: 40
+---
+flowchart TD
+
+  T["<b>Jan 2020 · #quot;Lessons From Phase One of the Trade War With China#quot;</b><br/><b>Shape E · parallel enumeration</b><br/>Five independent verdicts rather than one chain. Two revised priors — the densest self-correction in the set.<br/><br/>14 of 26 slots filled"]
+
+  subgraph L0["Level 0 · Question"]
+    Q["<b>Question</b><br/>How did China choose to respond to tariff pressure, and what does that reveal about managed trade?"]
+    ANOM["<b>Anomaly</b><br/><i>n/a — not anomaly-driven</i>"]
+    POS["<b>Position map</b><br/><i>absent</i>"]
+  end
+
+  subgraph L1["Level 1 · Priors & assumptions"]
+    P1["<b>Stated assumption</b><br/>Industrial policy is non-negotiable; the state can direct commodity purchases"]
+    P2["<b>Hidden assumption</b><br/>The capacity to deliver purchases is the same capacity that can withdraw them"]
+    P3["<b>Revised prior</b><br/>#quot;I was surprised by the size of China's impact... I thought U.S. soy would prove to be more of a pure commodity#quot; — and #quot;I don't think many expected#quot; reserves to stay stable"]
+    ID["<b>Accounting identity</b><br/><i>n/a</i>"]
+    SC["<b>Source credibility</b><br/>#quot;Chinese data never quite fully lines up, which bothers me more than most#quot;"]
+  end
+
+  subgraph L1B["Level 1b · Frame & scope"]
+    BM["<b>Benchmark</b><br/><i>n/a — retrospective, nothing scored</i>"]
+    SCP["<b>Scope choice</b><br/><i>absent</i>"]
+  end
+
+  subgraph L2["Level 2 · Evidence"]
+    E1["<b>Data</b><br/>Yuan -8% vs USD and -4% vs basket; Treasury holdings flat once Belgian accounts are counted; China is two-thirds of global soybean imports; U.S. beans traded at a discount to Brazil"]
+    E2["<b>Studies & sources</b><br/>His own Senate testimony; Toloui on balance-sheet policy; the Economist on managed trade"]
+    E3["<b>Rival measurement</b><br/><i>absent</i>"]
+    E4["<b>Discrepancy</b><br/><i>absent</i>"]
+  end
+
+  subgraph L3["Level 3 · Mechanisms"]
+    M1["<b>Mechanism A</b> · <i>kind: economic</i><br/>Outflow controls and the absence of carry-trade leverage prevented a 2015-style panic"]
+    M2["<b>Mechanism B</b> · <i>kind: economic</i><br/>Treasuries carry no leverage — if China pushed yields up, the Fed would simply react"]
+  end
+
+  subgraph L4["Level 4 · Intermediate claims"]
+    C1["<b>Intermediate claim</b><br/>Five parallel verdicts: industrial policy untouched, currency buffered, Treasuries unused, manufactures spared, ag and energy targeted"]
+    C2["<b>Case type</b><br/><i>n/a</i>"]
+    C3["<b>Policy reductio</b><br/><i>absent</i>"]
+  end
+
+  subgraph L5["Level 5 · Conclusion"]
+    K["<b>Main claim</b> · <i>type: single</i><br/>China can meet its 2020 commitments — and that is precisely the risk.<br/>#quot;What China's state gives, China's state can take away#quot;"]
+    RC["<b>Reconstruction</b><br/><i>n/a</i>"]
+    REC["<b>Recommendation</b><br/><i>absent</i>"]
+  end
+
+  subgraph L6["Level 6 · Counterpoints"]
+    X["<b>Opposing view</b><br/>Both approaches carry costs — managed trade rewards diversion away from allies, while the conventional approach changed little in 2010-11"]
+    QF["<b>Caveat</b><br/>Tech decoupling will not bite in 2020: Boeing's own problems, no indigenous jet engines, semiconductors too early"]
+    R1["<b>Other explanation</b><br/>Why were manufactures spared? #quot;I am not quite sure why this is the case#quot; — two theories offered, neither chosen"]
+    DF["<b>Deferred question</b><br/><i>absent</i>"]
+  end
+
+  P3 -.->|revises| P1
+  P1 -->|licenses| C1
+  E1 -->|supports| M1
+  E1 -->|supports| C1
+  E2 -->|supports| C1
+  M1 -->|supports| C1
+  M2 -->|supports| C1
+  SC -.->|undercut by| E1
+  C1 -->|supports| K
+  P2 -->|licenses| K
+  K -.->|rebuts| X
+  K -.->|qualified by| QF
+  C1 -.->|undercut by| R1
+
+  T ~~~ L0
+  L0 ~~~ L1
+  L1 ~~~ L1B
+  L1B ~~~ L2
+  L2 ~~~ L3
+  L3 ~~~ L4
+  L4 ~~~ L5
+  L5 ~~~ L6
+
+
+  subgraph LEG["How to read this"]
+    G1["<b>Filled</b><br/>the article does this"]
+    G2["<b>Implicit</b><br/>present, but never stated outright"]
+    G3["<b>Empty</b><br/><i>n/a</i> = category error here<br/><i>absent</i> = could have, did not"]
+  end
+
+  classDef title fill:#2C2C2A,stroke:#F1EFE8,color:#F1EFE8,stroke-width:2px
+  classDef prior fill:#3C3489,stroke:#AFA9EC,color:#EEEDFE
+  classDef unstated fill:#3C3489,stroke:#AFA9EC,color:#EEEDFE,stroke-dasharray:5 4
+  classDef revised fill:#7A2B4D,stroke:#F0A8C4,color:#FBE4EE,stroke-width:2px
+  classDef cred fill:#5A2E7A,stroke:#CFA8EC,color:#F3E4FB
+  classDef data fill:#0C447C,stroke:#85B7EB,color:#E6F1FB
+  classDef mech fill:#085041,stroke:#5DCAA5,color:#E1F5EE
+  classDef main fill:#085041,stroke:#9FE1CB,color:#E1F5EE,stroke-width:3px
+  classDef dia fill:#444441,stroke:#B4B2A9,color:#F1EFE8
+  classDef question fill:#2C2C2A,stroke:#F1EFE8,color:#F1EFE8
+  classDef implicit fill:#2A2A45,stroke:#7A79A8,color:#C9C8E4
+  classDef legdemo fill:#085041,stroke:#5DCAA5,color:#E1F5EE
+  classDef ghost fill:#1C1C1B,stroke:#4A4945,color:#6B6A65,stroke-dasharray:4 4
+
+  class T title
+  class Q question
+  class P1 prior
+  class P2 unstated
+  class P3 revised
+  class SC cred
+  class E1,E2 data
+  class M1,M2 mech
+  class C1 mech
+  class K main
+  class X,QF,R1 dia
+  class ANOM,POS,ID,BM,SCP,E3,E4,C2,C3,RC,REC,DF ghost
+  class G1 legdemo
+  class G2 implicit
+  class G3 ghost

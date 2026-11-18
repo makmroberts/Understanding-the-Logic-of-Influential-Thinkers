@@ -1,0 +1,126 @@
+---
+config:
+  layout: elk
+  theme: dark
+  themeVariables:
+    lineColor: "#D3D1C7"
+    clusterBkg: "#262624"
+    clusterBorder: "#5F5E5A"
+    titleColor: "#F1EFE8"
+    edgeLabelBackground: "#2C2C2A"
+  flowchart:
+    wrappingWidth: 180
+    nodeSpacing: 22
+    rankSpacing: 40
+---
+flowchart TD
+
+  T["<b>Jul 2020 · #quot;Slouching Toward Phase One#quot;</b><br/><b>Shape B · benchmark audit</b><br/>The only article that lights up Level 1b. Everything is scored against a target someone else set.<br/><br/>14 of 26 slots filled"]
+
+  subgraph L0["Level 0 · Question"]
+    Q["<b>Question</b><br/>Is China on track to meet its Phase One purchase commitments?"]
+    ANOM["<b>Anomaly</b><br/><i>n/a</i>"]
+    POS["<b>Position map</b><br/><i>absent</i>"]
+  end
+
+  subgraph L1["Level 1 · Priors & assumptions"]
+    P1["<b>Stated assumption</b><br/>Agriculture and energy flow through a few state firms, so purchases can be directed; manufacturing cannot"]
+    P2["<b>Hidden assumption</b><br/>A deal with numerical targets may be judged on those targets alone"]
+    P3["<b>Revised prior</b><br/><i>absent</i>"]
+    ID["<b>Accounting identity</b><br/><i>n/a</i>"]
+    SC["<b>Source credibility</b><br/><i>absent</i>"]
+  end
+
+  subgraph L1B["Level 1b · Frame & scope"]
+    BM["<b>Benchmark</b><br/>The deal's own numbers — a 2017 baseline, roughly $60bn above it, a $164.65bn target across the codes in Annex 6.1"]
+    SCP["<b>Scope choice</b><br/>Services excluded because in-China sales are not exports; aircraft adjusted out; only the listed HS codes counted"]
+  end
+
+  subgraph L2["Level 2 · Evidence"]
+    E1["<b>Data</b><br/>First-half pace implies ~$83bn, below the 2017 baseline of ~$101bn and even below 2019; energy at 7% of its target; 1m barrels a day at $40 still yields only $7.36bn"]
+    E2["<b>Studies & sources</b><br/>PIIE purchase tracker; Reuters on crude loadings; S&P Global on cancelled LNG cargoes; IMF growth forecast"]
+    E3["<b>Rival measurement</b><br/><i>absent</i>"]
+    E4["<b>Discrepancy</b><br/><i>absent</i>"]
+  end
+
+  subgraph L3["Level 3 · Mechanisms"]
+    M1["<b>Mechanism A</b> · <i>kind: economic</i><br/>There is no policy lever in manufacturing — import substitution continues and trade does not run through a few buyers"]
+    M2["<b>Mechanism B</b> · <i>kind: economic</i><br/>Seasonality blocks catch-up, and because targets are nominal a commodity price crash widens the gap without any change in volume"]
+  end
+
+  subgraph L4["Level 4 · Intermediate claims"]
+    C1["<b>Intermediate claim</b><br/>Category by category: manufacturing will not close the gap, agriculture is behind but Q4 is still live, energy is effectively impossible"]
+    C2["<b>Case type</b><br/><i>absent — categories are scored, not sorted into kinds</i>"]
+    C3["<b>Policy reductio</b><br/><i>absent</i>"]
+  end
+
+  subgraph L5["Level 5 · Conclusion"]
+    K["<b>Main claim</b> · <i>type: single</i><br/>The deal is failing on its own terms — insisting on impressive numbers made the shortfall easy to demonstrate"]
+    RC["<b>Reconstruction</b><br/><i>n/a</i>"]
+    REC["<b>Recommendation</b><br/><i>absent — the better deal is raised as a counterfactual, not a proposal</i>"]
+  end
+
+  subgraph L6["Level 6 · Counterpoints"]
+    X["<b>Opposing view</b><br/>Raised up front and rebutted: #quot;the purchase commitments themselves were a mistake#quot; and #quot;COVID-19 changed everything#quot;. A barrier-removal deal might have worked — but would not have produced a big number"]
+    QF["<b>Caveat</b><br/>Agriculture could still deliver in Q4, which creates a real cost to abandoning the deal now"]
+    R1["<b>Other explanation</b><br/>The aircraft collapse is exogenous — the largest category fell with the 737 MAX grounding, not with the deal"]
+    DF["<b>Deferred question</b><br/><i>absent</i>"]
+  end
+
+  SCP -->|bounds| BM
+  BM -->|compared against| E1
+  E2 -->|supports| E1
+  P1 -->|supports| M1
+  E1 -->|supports| C1
+  M1 -->|supports| C1
+  M2 -->|supports| C1
+  BM -->|licenses| C1
+  C1 -->|supports| K
+  P2 -->|licenses| K
+  K -.->|rebuts| X
+  C1 -.->|qualified by| QF
+  C1 -.->|undercut by| R1
+
+  T ~~~ L0
+  L0 ~~~ L1
+  L1 ~~~ L1B
+  L1B ~~~ L2
+  L2 ~~~ L3
+  L3 ~~~ L4
+  L4 ~~~ L5
+  L5 ~~~ L6
+
+
+  subgraph LEG["How to read this"]
+    G1["<b>Filled</b><br/>the article does this"]
+    G2["<b>Implicit</b><br/>present, but never stated outright"]
+    G3["<b>Empty</b><br/><i>n/a</i> = category error here<br/><i>absent</i> = could have, did not"]
+  end
+
+  classDef title fill:#2C2C2A,stroke:#F1EFE8,color:#F1EFE8,stroke-width:2px
+  classDef prior fill:#3C3489,stroke:#AFA9EC,color:#EEEDFE
+  classDef unstated fill:#3C3489,stroke:#AFA9EC,color:#EEEDFE,stroke-dasharray:5 4
+  classDef bench fill:#6B5410,stroke:#E8CE7A,color:#FBF3DC,stroke-width:2px
+  classDef data fill:#0C447C,stroke:#85B7EB,color:#E6F1FB
+  classDef mech fill:#085041,stroke:#5DCAA5,color:#E1F5EE
+  classDef main fill:#085041,stroke:#9FE1CB,color:#E1F5EE,stroke-width:3px
+  classDef dia fill:#444441,stroke:#B4B2A9,color:#F1EFE8
+  classDef question fill:#2C2C2A,stroke:#F1EFE8,color:#F1EFE8
+  classDef implicit fill:#2A2A45,stroke:#7A79A8,color:#C9C8E4
+  classDef legdemo fill:#085041,stroke:#5DCAA5,color:#E1F5EE
+  classDef ghost fill:#1C1C1B,stroke:#4A4945,color:#6B6A65,stroke-dasharray:4 4
+
+  class T title
+  class Q question
+  class P1 prior
+  class P2 unstated
+  class BM,SCP bench
+  class E1,E2 data
+  class M1,M2 mech
+  class C1 mech
+  class K main
+  class X,QF,R1 dia
+  class ANOM,POS,P3,ID,SC,E3,E4,C2,C3,RC,REC,DF ghost
+  class G1 legdemo
+  class G2 implicit
+  class G3 ghost

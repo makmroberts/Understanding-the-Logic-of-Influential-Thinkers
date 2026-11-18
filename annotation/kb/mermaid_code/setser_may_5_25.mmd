@@ -1,0 +1,131 @@
+---
+config:
+  layout: elk
+  theme: dark
+  themeVariables:
+    lineColor: "#D3D1C7"
+    clusterBkg: "#262624"
+    clusterBorder: "#5F5E5A"
+    titleColor: "#F1EFE8"
+    edgeLabelBackground: "#2C2C2A"
+  flowchart:
+    wrappingWidth: 180
+    nodeSpacing: 22
+    rankSpacing: 40
+---
+flowchart TD
+
+  T["<b>May 2025 · #quot;Why Didn't Tariffs Push Up the U.S. Dollar?#quot;</b><br/><b>Shape E · parallel enumeration</b><br/>The only article that starts from a failed forecast and the only one that refuses to land on a single cause.<br/><br/>16 of 26 slots filled"]
+
+  subgraph L0["Level 0 · Question"]
+    Q["<b>Question</b><br/>Why didn't tariffs push up the dollar?"]
+    ANOM["<b>Anomaly</b><br/>Treasury, the CEA, conventional analysts and markets all expected appreciation. The dollar fell about 10% against the G10."]
+    POS["<b>Position map</b><br/>Bessent at roughly 4% appreciation per 10% of tariffs; Miran expecting a rise; Lerner symmetry in the textbooks; going long the dollar as the standard post-election trade"]
+  end
+
+  subgraph L1["Level 1 · Priors & assumptions"]
+    P1["<b>Stated assumption</b><br/>Lerner symmetry holds — a tax on imports is a tax on exports, even without retaliation"]
+    P2["<b>Hidden assumption</b><br/>Tariffs leave capital flows untouched, demand for U.S. assets is constant, and trading partners will not change their own policies"]
+    P3["<b>Revised prior</b><br/>#quot;the dollar's downturn was still a bit of a surprise#quot; — he counts himself among those caught out"]
+    ID["<b>Accounting identity</b><br/><i>n/a</i>"]
+    SC["<b>Source credibility</b><br/><i>n/a</i>"]
+  end
+
+  subgraph L1B["Level 1b · Frame & scope"]
+    BM["<b>Benchmark</b><br/><i>n/a</i>"]
+    SCP["<b>Scope choice</b><br/><i>absent</i>"]
+  end
+
+  subgraph L2["Level 2 · Evidence"]
+    E1["<b>Data</b><br/>Dollar down ~10% against the G10; a $400-550 imported phone now carries $40-110 of tariff; CNY 7.2, KRW 1400, JPY 140; 55% of China's formal reserves still in dollars"]
+    E2["<b>Studies & sources</b><br/>The Miran paper; IMF working paper on Lerner symmetry; SAFE 2023 annual report; Aitken on the ageing exceptionalism trade"]
+    E3["<b>Rival measurement</b><br/><i>n/a</i>"]
+    E4["<b>Discrepancy</b><br/><i>n/a</i>"]
+  end
+
+  subgraph L3["Level 3 · Mechanisms"]
+    M1["<b>Mechanism A</b> · <i>kind: economic</i><br/>Five channels at once — tariffs as fiscal tightening, recession risk hitting equities, China declining to let the yuan slide, Europe's fiscal turn, and a risk premium from treating allies as adversaries"]
+    M2["<b>Mechanism B</b> · <i>kind: economic</i><br/>The dollar was priced for perfection: the flow equilibrium needed ever-larger inflows at ever-higher valuations"]
+  end
+
+  subgraph L4["Level 4 · Intermediate claims"]
+    C1["<b>Intermediate claim</b><br/>Each of the five channels is plausible and none is decisive on its own"]
+    C2["<b>Case type</b><br/><i>absent</i>"]
+    C3["<b>Policy reductio</b><br/><i>absent</i>"]
+  end
+
+  subgraph L5["Level 5 · Conclusion"]
+    K["<b>Main claim</b> · <i>type: unresolved</i><br/>#quot;In a sense, the dollar's recent weakness is over-determined#quot; — he declines to choose"]
+    RC["<b>Reconstruction</b><br/><i>n/a</i>"]
+    REC["<b>Recommendation</b><br/><i>absent</i>"]
+  end
+
+  subgraph L6["Level 6 · Counterpoints"]
+    X["<b>Opposing view</b><br/>The consensus he started from — that tariffs mechanically lift the dollar"]
+    QF["<b>Caveat</b><br/>The dollar is still strong by most measures; claims about the end of its reign are exaggerated"]
+    R1["<b>Other explanation</b><br/>The five theories function as rivals to each other, and he keeps all of them live"]
+    DF["<b>Deferred question</b><br/>The Taiwan test — how much appreciation will its central bank tolerate, and how would Treasury respond to one-sided intervention? #quot;This story isn't over.#quot;"]
+  end
+
+  POS -->|supports| ANOM
+  ANOM -->|motivates| Q
+  P3 -.->|revises| P1
+  E1 -->|supports| M1
+  E2 -->|supports| M1
+  E1 -->|supports| M2
+  P2 -.->|undercut by| M1
+  M1 -->|supports| C1
+  M2 -->|supports| C1
+  C1 -->|supports| K
+  K -.->|rebuts| X
+  K -.->|qualified by| QF
+  C1 -.->|undercut by| R1
+  K -.->|defers| DF
+
+  T ~~~ L0
+  L0 ~~~ L1
+  L1 ~~~ L1B
+  L1B ~~~ L2
+  L2 ~~~ L3
+  L3 ~~~ L4
+  L4 ~~~ L5
+  L5 ~~~ L6
+
+
+  subgraph LEG["How to read this"]
+    G1["<b>Filled</b><br/>the article does this"]
+    G2["<b>Implicit</b><br/>present, but never stated outright"]
+    G3["<b>Empty</b><br/><i>n/a</i> = category error here<br/><i>absent</i> = could have, did not"]
+  end
+
+  classDef title fill:#2C2C2A,stroke:#F1EFE8,color:#F1EFE8,stroke-width:2px
+  classDef anom fill:#2C2C2A,stroke:#F1EFE8,color:#F1EFE8,stroke-width:3px
+  classDef pos fill:#2E3A5A,stroke:#9FB3DC,color:#E9ECF5,stroke-width:2px
+  classDef prior fill:#3C3489,stroke:#AFA9EC,color:#EEEDFE
+  classDef unstated fill:#3C3489,stroke:#AFA9EC,color:#EEEDFE,stroke-dasharray:5 4
+  classDef revised fill:#7A2B4D,stroke:#F0A8C4,color:#FBE4EE,stroke-width:2px
+  classDef data fill:#0C447C,stroke:#85B7EB,color:#E6F1FB
+  classDef mech fill:#085041,stroke:#5DCAA5,color:#E1F5EE
+  classDef main fill:#085041,stroke:#9FE1CB,color:#E1F5EE,stroke-width:3px,stroke-dasharray:6 3
+  classDef dia fill:#444441,stroke:#B4B2A9,color:#F1EFE8
+  classDef question fill:#2C2C2A,stroke:#F1EFE8,color:#F1EFE8
+  classDef implicit fill:#2A2A45,stroke:#7A79A8,color:#C9C8E4
+  classDef legdemo fill:#085041,stroke:#5DCAA5,color:#E1F5EE
+  classDef ghost fill:#1C1C1B,stroke:#4A4945,color:#6B6A65,stroke-dasharray:4 4
+
+  class T title
+  class Q question
+  class ANOM anom
+  class POS pos
+  class P1 prior
+  class P2 unstated
+  class P3 revised
+  class E1,E2 data
+  class M1,M2 mech
+  class C1 mech
+  class K main
+  class X,QF,R1,DF dia
+  class ID,SC,BM,SCP,E3,E4,C2,C3,RC,REC ghost
+  class G1 legdemo
+  class G2 implicit
+  class G3 ghost

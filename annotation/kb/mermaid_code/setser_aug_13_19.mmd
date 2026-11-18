@@ -1,0 +1,104 @@
+---
+config:
+  layout: elk
+  flowchart:
+    wrappingWidth: 170
+    nodeSpacing: 25
+    rankSpacing: 45
+---
+flowchart TD
+
+  subgraph L0["Level 0 · Question"]
+    Q["<b>Why do the U.S., Europe, and China now occupy<br/>such different positions in manufacturing trade?</b><br/><i>Brad Setser, CFR, Aug 2019</i>"]
+  end
+
+  subgraph L1["Level 1 · Priors & assumptions"]
+    P1["<b>Trade shares reveal production structure</b><br/>Exports and imports relative to GDP show how economies engage globally"]
+    P2["<b>Manufacturing balances reflect where production occurs</b><br/>Not simply how open an economy is"]
+    P3["<b>Persistent deficits require financing</b><br/>Import bills must ultimately be covered by income or borrowing"]
+  end
+
+  subgraph L2["Level 2 · Evidence"]
+    D1["<b>U.S. manufacturing exports are unusually low</b><br/>About one-third of the euro area's level relative to GDP"]
+    D2["<b>Manufacturing imports are similar</b><br/>U.S. and euro-area import shares are broadly comparable"]
+    D3["<b>Mirror-image manufacturing balances</b><br/>U.S. deficit ~4–5% of GDP; euro-area surplus ~4%"]
+    D4["<b>Offshore profits exceed the service-export story</b><br/>Foreign corporate earnings help finance the U.S. deficit"]
+    D5["<b>Europe is highly export dependent</b><br/>Leaving it exposed to the global manufacturing downturn"]
+    D6["<b>China's manufacturing trade is highly unbalanced</b><br/>Surplus ~7% of GDP; non-processing imports ~4%"]
+  end
+
+  subgraph L3["Level 3 · Mechanisms"]
+    M1["<b>Offshoring weakens domestic exports</b><br/>'Design here, make abroad' shifts manufacturing production overseas"]
+    M2["<b>Offshore profits finance goods deficits</b><br/>Foreign earnings offset part of the manufacturing import bill"]
+    M3["<b>Export dependence transmits global weakness</b><br/>Manufacturing downturns hit Europe especially hard"]
+    M4["<b>Low imports + high exports generate surplus</b><br/>China sells far more manufactures abroad than it buys"]
+  end
+
+  subgraph L4["Level 4 · Intermediate claims"]
+    C1["<b>The U.S.-Europe gap is mainly an export gap</b><br/>U.S. imports are not unusually high relative to Europe"]
+    C2["<b>U.S. globalization favored offshore profits</b><br/>More than domestically produced manufacturing exports"]
+    C3["<b>Europe's strength creates cyclical exposure</b><br/>Its export model is vulnerable when global manufacturing slows"]
+    C4["<b>China's manufacturing model is unusually one-sided</b><br/>Large exports coexist with relatively small manufactured imports"]
+  end
+
+  subgraph L5["Level 5 · Conclusion"]
+    K1["<b>Long-run U.S. claim</b><br/>The U.S. may need to rebuild a stronger manufacturing base rather than finance imports indefinitely"]
+    K2["<b>Comparative claim</b><br/>Europe and China remain far more manufacturing-oriented,<br/>but with very different import structures"]
+  end
+
+  subgraph L6["Level 6 · Dialectic"]
+    X["<b>Services explanation</b><br/>Some attribute the U.S. goods deficit to comparative advantage in services"]
+    R1["<b>Resource-endowment explanation</b><br/>The shale boom reduces the need to export manufactures to pay for oil"]
+    QF["<b>Comparison caveat</b><br/>Processing trade makes Europe-China comparisons imperfect"]
+    R2["<b>Short-run tradeoff</b><br/>Europe's export strength also makes it vulnerable to industrial downturns"]
+  end
+
+  P2 --> M1
+  D1 --> M1
+  M1 --> C1
+  D2 --> C1
+  D3 --> C1
+
+  P3 --> M2
+  D4 --> M2
+  M2 --> C2
+
+  D5 --> M3
+  M3 --> C3
+
+  P1 --> M4
+  D6 --> M4
+  M4 --> C4
+
+  C1 --> K1
+
+  C3 --> K2
+  C4 --> K2
+
+  C2 -.->|pushes back on| X
+  C1 -.->|other explanation| R1
+  C4 -.->|comparison caveat| QF
+  C3 -.->|tradeoff| R2
+
+  C2 --> K1
+
+  Q ~~~ P1 & P2 & P3
+  P1 ~~~ D1 & D2
+  P2 ~~~ D3 & D4
+  P3 ~~~ D5 & D6
+
+  classDef prior fill:#EEEDFE,stroke:#534AB7,color:#26215C
+  classDef unstated fill:#EEEDFE,stroke:#534AB7,color:#26215C,stroke-dasharray:5 4
+  classDef data fill:#E6F1FB,stroke:#185FA5,color:#042C53
+  classDef mech fill:#E1F5EE,stroke:#0F6E56,color:#04342C
+  classDef main fill:#E1F5EE,stroke:#0F6E56,color:#04342C,stroke-width:3px
+  classDef dia fill:#F1EFE8,stroke:#5F5E5A,color:#2C2C2A
+  classDef question fill:#FFFFFF,stroke:#2C2C2A,color:#2C2C2A
+
+  class P1,P2,P3 prior
+  class D1,D2,D3,D4,D5,D6 data
+  class M1,M2,M3,M4,C1,C2,C3,C4 mech
+  class K1,K2 main
+  class X,R1,QF,R2 dia
+  class Q question
+  linkStyle 16,17,18,19 stroke:#A32D2D,color:#A32D2D

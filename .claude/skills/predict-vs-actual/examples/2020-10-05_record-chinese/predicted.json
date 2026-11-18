@@ -1,0 +1,84 @@
+{
+  "kind": "predicted",
+  "article": {
+    "title": "Record Chinese Bilateral Surpluses With the United States Are Not Mirrored in the U.S. Trade Data",
+    "date": "2020-10-05",
+    "url": "https://www.cfr.org/articles/record-chinese-bilateral-surpluses-united-states-are-not-mirrored-us-trade-data"
+  },
+  "summary": {"claim_type": "single"},
+  "slots": {
+    "question": {"status": "filled", "items": [
+      {"label": "Why does China's record surplus not show in US data?",
+       "from": ["2020-07-08 Q", "2019-06-14 Q"]}]},
+    "anomaly": {"status": "unavailable"},
+    "position_map": {"status": "unavailable"},
+
+    "stated_assumption": {"status": "filled", "items": [
+      {"label": "", "from": ["pattern"]}]},
+    "hidden_assumption": {"status": "filled", "items": [
+      {"label": "", "from": ["2020-01-31 P2", "2020-03-31 P2", "2020-07-08 P2"]}]},
+    "revised_prior": {"status": "unsure"},
+    "accounting_identity": {"status": "unavailable"},
+    "source_credibility": {"status": "filled", "items": [
+      {"label": "Discounts the Chinese numbers and checks how they were compiled",
+       "from": ["2020-01-31 SC", "2020-01-31 E1"]}]},
+
+    "scope_choice": {"status": "filled", "items": [
+      {"label": "Fixes the comparison first: goods only, customs basis, 12-month sums",
+       "from": ["2020-07-08 SCP"]}]},
+    "benchmark": {"status": "filled", "items": [
+      {"label": "Measures both series against their earlier peak",
+       "from": ["2020-07-08 BM"]}]},
+
+    "evidence_data": {"status": "filled", "items": [
+      {"label": "Shows a record on China's series, below peak on the US's",
+       "from": ["2020-07-08 E1", "2020-02-26 D5"]}]},
+    "evidence_source": {"status": "filled", "items": [
+      {"label": "Names the data source behind each series",
+       "from": ["2020-07-08 E2", "2020-01-31 E2"]}]},
+    "evidence_rival": {"status": "unavailable"},
+    "evidence_discrepancy": {"status": "unavailable"},
+
+    "mechanism": {"status": "filled", "items": [
+      {"label": "Same trade gets recorded differently in the two sets of books",
+       "kind": "distortion", "from": ["2019-08-13 QF", "title"]}]},
+
+    "intermediate_claim": {"status": "filled", "items": [
+      {"label": "Says the bilateral figure can't carry the meaning put on it",
+       "from": ["2019-06-14 C2", "2019-06-14 C4", "2018-06-04 P1"]}]},
+    "case_type": {"status": "unsure"},
+    "policy_reductio": {"status": "unavailable"},
+
+    "main_claim": {"status": "filled", "items": [
+      {"label": "Concludes the record reflects how China measures, not the US position",
+       "from": ["2019-06-14 K", "2017-12-15 K", "2020-07-08 K"]}]},
+    "reconstruction": {"status": "unavailable"},
+    "recommendation": {"status": "absent", "why": "appears once before, in a policy piece"},
+
+    "opposing_view": {"status": "filled", "items": [
+      {"label": "", "from": ["2020-07-08 X", "2020-01-31 X", "2020-03-31 X"]}]},
+    "caveat": {"status": "filled", "items": [
+      {"label": "", "from": ["pattern"]}]},
+    "other_explanation": {"status": "filled", "items": [
+      {"label": "Allows the surplus may be real: China's imports fell instead",
+       "from": ["2019-09-20 M2", "2020-02-26 D3", "2020-01-31 R1"]}]},
+    "deferred_question": {"status": "unavailable"}
+  },
+  "edges": [
+    {"from": "question",           "to": "scope_choice",       "type": "motivates"},
+    {"from": "scope_choice",       "to": "benchmark",          "type": "bounds"},
+    {"from": "benchmark",          "to": "evidence_data",      "type": "bounds"},
+    {"from": "benchmark",          "to": "intermediate_claim", "type": "licenses"},
+    {"from": "evidence_data",      "to": "source_credibility", "type": "undercut_by"},
+    {"from": "evidence_data",      "to": "mechanism",          "type": "supports"},
+    {"from": "evidence_data",      "to": "intermediate_claim", "type": "supports"},
+    {"from": "source_credibility", "to": "mechanism",          "type": "supports"},
+    {"from": "stated_assumption",  "to": "mechanism",          "type": "supports"},
+    {"from": "mechanism",          "to": "intermediate_claim", "type": "supports"},
+    {"from": "intermediate_claim", "to": "other_explanation",  "type": "undercut_by"},
+    {"from": "intermediate_claim", "to": "main_claim",         "type": "supports"},
+    {"from": "hidden_assumption",  "to": "main_claim",         "type": "licenses"},
+    {"from": "main_claim",         "to": "caveat",             "type": "qualified_by"},
+    {"from": "main_claim",         "to": "opposing_view",      "type": "rebuts"}
+  ]
+}

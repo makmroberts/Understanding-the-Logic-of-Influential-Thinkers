@@ -1,0 +1,64 @@
+/* Canvas cards: smaller type, so a claim fits in its card.
+ *
+ * A canvas file-card renders the whole note, and a claim note opens with its
+ * text as an H1 - which is why cards look shouty at default sizes. This shrinks
+ * type inside cards only; the notes themselves are untouched everywhere else.
+ *
+ * Written and enabled by scripts/export_canvas.py. Edit --canvas-card-font to
+ * taste: the rest scales off it.
+ */
+
+.canvas-node-content {
+  --canvas-card-font: 11px;
+}
+
+.canvas-node-content .markdown-preview-view,
+.canvas-node-content .markdown-rendered {
+  font-size: var(--canvas-card-font);
+  line-height: 1.35;
+}
+
+/* the claim itself - an H1 in the note, a title in the card */
+.canvas-node-content .markdown-rendered h1,
+.canvas-node-content .markdown-rendered h2,
+.canvas-node-content .markdown-rendered h3 {
+  font-size: calc(var(--canvas-card-font) * 1.15);
+  line-height: 1.25;
+  margin: 0 0 0.3em 0;
+  font-weight: 600;
+  border: none;
+  padding: 0;
+}
+
+/* the gloss, which the plain-family maps put in italics under the claim */
+.canvas-node-content .markdown-rendered blockquote {
+  font-size: calc(var(--canvas-card-font) * 0.95);
+  margin: 0.2em 0;
+  padding-left: 0.6em;
+  border-left-width: 2px;
+}
+
+.canvas-node-content .markdown-rendered ul,
+.canvas-node-content .markdown-rendered ol {
+  padding-left: 1.1em;
+  margin: 0.2em 0;
+}
+
+.canvas-node-content .markdown-rendered code {
+  font-size: calc(var(--canvas-card-font) * 0.9);
+}
+
+/* The properties block is 14 lines of facets and provenance. Useful in the
+ * note, noise in a 300x120 card - the facets are on the hub notes and in the
+ * card's own note one click away. */
+.canvas-node-content .metadata-container,
+.canvas-node-content .frontmatter-container,
+.canvas-node-content .mod-header,
+.canvas-node-content .mod-footer {
+  display: none !important;
+}
+
+/* edge labels, which carry the sign and the relation */
+.canvas-edge-label {
+  font-size: 10px;
+}

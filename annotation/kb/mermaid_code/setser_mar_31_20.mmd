@@ -1,0 +1,131 @@
+---
+config:
+  layout: elk
+  theme: dark
+  themeVariables:
+    lineColor: "#D3D1C7"
+    clusterBkg: "#262624"
+    clusterBorder: "#5F5E5A"
+    titleColor: "#F1EFE8"
+    edgeLabelBackground: "#2C2C2A"
+  flowchart:
+    wrappingWidth: 180
+    nodeSpacing: 22
+    rankSpacing: 40
+---
+flowchart TD
+
+  T["<b>Mar 2020 · #quot;Not One Emerging Market Financial Crisis, but Many#quot;</b><br/><b>Shape D · typology + prescription</b><br/>Fans out instead of narrowing. The only article whose conclusion is a classification, and the heaviest user of the recommendation slot.<br/><br/>14 of 26 slots filled"]
+
+  subgraph L0["Level 0 · Question"]
+    Q["<b>Question</b><br/>Emerging economies face the same shocks — do they need the same response?"]
+    ANOM["<b>Anomaly</b><br/><i>n/a</i>"]
+    POS["<b>Position map</b><br/><i>absent</i>"]
+  end
+
+  subgraph L1["Level 1 · Priors & assumptions"]
+    P1["<b>Stated assumption</b><br/>Shocks can offset one another; swap lines fund dollar balance sheets, not balance-of-payments gaps"]
+    P2["<b>Hidden assumption</b><br/>The external balance sheet is the right thing to sort countries by"]
+    P3["<b>Revised prior</b><br/>#quot;contrary to a forecast that I made with Dr. Roubini back in 2005#quot; — private credit intermediation broke down before central banks lost their appetite for intervention"]
+    ID["<b>Accounting identity</b><br/><i>absent</i>"]
+    SC["<b>Source credibility</b><br/><i>n/a</i>"]
+  end
+
+  subgraph L1B["Level 1b · Frame & scope"]
+    BM["<b>Benchmark</b><br/><i>n/a</i>"]
+    SCP["<b>Scope choice</b><br/><i>absent</i>"]
+  end
+
+  subgraph L2["Level 2 · Evidence"]
+    E1["<b>Data</b><br/>Brent under $25, below almost every exporter's breakeven; Saudi reserves ~$500bn; GCC sovereign funds over $1tn; copper at multiyear lows"]
+    E2["<b>Studies & sources</b><br/>Truman on IMF lending capacity; Landers, Lee and Morris on callable capital; Hagan and Buchheit on maturity extension; Carstens and the BIS on trade finance"]
+    E3["<b>Rival measurement</b><br/><i>n/a</i>"]
+    E4["<b>Discrepancy</b><br/><i>n/a</i>"]
+  end
+
+  subgraph L3["Level 3 · Mechanisms"]
+    M1["<b>Mechanism A</b> · <i>kind: economic</i><br/>The same four shocks land very differently depending on the external balance sheet"]
+    M2["<b>Mechanism B</b> · <i>kind: economic</i><br/>Swap lines solve dollar funding, but were never designed to cover a balance-of-payments shortfall"]
+  end
+
+  subgraph L4["Level 4 · Intermediate claims"]
+    C1["<b>Intermediate claim</b><br/>Countries with strong external balance sheets can weather this themselves if they act decisively"]
+    C2["<b>Case type</b><br/>Three types — reserve-rich commodity exporters, Asian surplus creditors, weak external balance sheets — and the last splits again into trade finance and balance-of-payments need"]
+    C3["<b>Policy reductio</b><br/><i>absent</i>"]
+  end
+
+  subgraph L5["Level 5 · Conclusion"]
+    K["<b>Main claim</b> · <i>type: typology</i><br/>#quot;Different problems require different solutions#quot; — when private capital retreats, the official sector must advance"]
+    RC["<b>Reconstruction</b><br/><i>n/a</i>"]
+    REC["<b>Recommendation</b><br/>Draw down buffers; central bank backstop plus swap lines; mobilise trade finance; SDR allocation, larger IMF capacity, MDB callable capital, payment deferral"]
+  end
+
+  subgraph L6["Level 6 · Counterpoints"]
+    X["<b>Opposing view</b><br/>Private creditors would rather be paid — #quot;this will take goodwill#quot;"]
+    QF["<b>Caveat</b><br/>SDRs are allocated by quota rather than need, so they are insufficient alone; MDB capital would need legislation"]
+    R1["<b>Other explanation</b><br/><i>absent</i>"]
+    DF["<b>Deferred question</b><br/><i>absent</i>"]
+  end
+
+  P3 -.->|revises| P1
+  P1 -->|supports| M1
+  E1 -->|supports| M1
+  M1 -->|supports| C1
+  P2 -->|licenses| C2
+  M1 -->|supports| C2
+  C1 -->|supports| K
+  C2 -->|supports| K
+  M2 -->|licenses| REC
+  E2 -->|supports| REC
+  C2 -->|supports| REC
+  K -->|motivates| REC
+  K -.->|rebuts| X
+  REC -.->|qualified by| QF
+
+  T ~~~ L0
+  L0 ~~~ L1
+  L1 ~~~ L1B
+  L1B ~~~ L2
+  L2 ~~~ L3
+  L3 ~~~ L4
+  L4 ~~~ L5
+  L5 ~~~ L6
+
+
+  subgraph LEG["How to read this"]
+    G1["<b>Filled</b><br/>the article does this"]
+    G2["<b>Implicit</b><br/>present, but never stated outright"]
+    G3["<b>Empty</b><br/><i>n/a</i> = category error here<br/><i>absent</i> = could have, did not"]
+  end
+
+  classDef title fill:#2C2C2A,stroke:#F1EFE8,color:#F1EFE8,stroke-width:2px
+  classDef prior fill:#3C3489,stroke:#AFA9EC,color:#EEEDFE
+  classDef unstated fill:#3C3489,stroke:#AFA9EC,color:#EEEDFE,stroke-dasharray:5 4
+  classDef revised fill:#7A2B4D,stroke:#F0A8C4,color:#FBE4EE,stroke-width:2px
+  classDef data fill:#0C447C,stroke:#85B7EB,color:#E6F1FB
+  classDef mech fill:#085041,stroke:#5DCAA5,color:#E1F5EE
+  classDef ctype fill:#0C5F7C,stroke:#7AC8E8,color:#E6F6FB,stroke-width:2px
+  classDef main fill:#085041,stroke:#9FE1CB,color:#E1F5EE,stroke-width:3px
+  classDef rec fill:#6B5410,stroke:#E8CE7A,color:#FBF3DC,stroke-width:3px
+  classDef dia fill:#444441,stroke:#B4B2A9,color:#F1EFE8
+  classDef question fill:#2C2C2A,stroke:#F1EFE8,color:#F1EFE8
+  classDef implicit fill:#2A2A45,stroke:#7A79A8,color:#C9C8E4
+  classDef legdemo fill:#085041,stroke:#5DCAA5,color:#E1F5EE
+  classDef ghost fill:#1C1C1B,stroke:#4A4945,color:#6B6A65,stroke-dasharray:4 4
+
+  class T title
+  class Q question
+  class P1 prior
+  class P2 unstated
+  class P3 revised
+  class E1,E2 data
+  class M1,M2 mech
+  class C1 mech
+  class C2 ctype
+  class K main
+  class REC rec
+  class X,QF dia
+  class ANOM,POS,ID,SC,BM,SCP,E3,E4,C3,RC,R1,DF ghost
+  class G1 legdemo
+  class G2 implicit
+  class G3 ghost

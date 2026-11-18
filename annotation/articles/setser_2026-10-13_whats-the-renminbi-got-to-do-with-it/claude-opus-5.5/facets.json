@@ -1,0 +1,921 @@
+{
+ "result": [
+  {
+   "doc": "setser_2026-10-13_whats-the-renminbi-got-to-do-with-it",
+   "node_id": "Q",
+   "facet": "variable",
+   "value": "export-volumes",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-10-13_whats-the-renminbi-got-to-do-with-it",
+   "node_id": "Q",
+   "facet": "variable",
+   "value": "nominal-exchange-rate",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-10-13_whats-the-renminbi-got-to-do-with-it",
+   "node_id": "Q",
+   "facet": "variable",
+   "value": "domestic-demand",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-10-13_whats-the-renminbi-got-to-do-with-it",
+   "node_id": "Q",
+   "facet": "country",
+   "value": "china",
+   "role": "subject",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-10-13_whats-the-renminbi-got-to-do-with-it",
+   "node_id": "X",
+   "facet": "variable",
+   "value": "export-volumes",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-10-13_whats-the-renminbi-got-to-do-with-it",
+   "node_id": "X",
+   "facet": "variable",
+   "value": "domestic-demand",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-10-13_whats-the-renminbi-got-to-do-with-it",
+   "node_id": "X",
+   "facet": "variable",
+   "value": "interest-rates",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-10-13_whats-the-renminbi-got-to-do-with-it",
+   "node_id": "X",
+   "facet": "country",
+   "value": "china",
+   "role": "subject",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-10-13_whats-the-renminbi-got-to-do-with-it",
+   "node_id": "P1",
+   "facet": "variable",
+   "value": "nominal-exchange-rate",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-10-13_whats-the-renminbi-got-to-do-with-it",
+   "node_id": "P1",
+   "facet": "variable",
+   "value": "current-account",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-10-13_whats-the-renminbi-got-to-do-with-it",
+   "node_id": "P1",
+   "facet": "variable",
+   "value": "capital-flows",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-10-13_whats-the-renminbi-got-to-do-with-it",
+   "node_id": "P1",
+   "facet": "instrument",
+   "value": "capital-controls",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-10-13_whats-the-renminbi-got-to-do-with-it",
+   "node_id": "P1",
+   "facet": "country",
+   "value": "china",
+   "role": "subject",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-10-13_whats-the-renminbi-got-to-do-with-it",
+   "node_id": "E1",
+   "facet": "variable",
+   "value": "nominal-exchange-rate",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-10-13_whats-the-renminbi-got-to-do-with-it",
+   "node_id": "E1",
+   "facet": "variable",
+   "value": "interest-rates",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-10-13_whats-the-renminbi-got-to-do-with-it",
+   "node_id": "E1",
+   "facet": "data_basis",
+   "value": "market-prices",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-10-13_whats-the-renminbi-got-to-do-with-it",
+   "node_id": "E1",
+   "facet": "country",
+   "value": "china",
+   "role": "subject",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-10-13_whats-the-renminbi-got-to-do-with-it",
+   "node_id": "E1",
+   "facet": "country",
+   "value": "us",
+   "role": "counterpart",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-10-13_whats-the-renminbi-got-to-do-with-it",
+   "node_id": "C1",
+   "facet": "variable",
+   "value": "nominal-exchange-rate",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-10-13_whats-the-renminbi-got-to-do-with-it",
+   "node_id": "C1",
+   "facet": "instrument",
+   "value": "fx-intervention",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-10-13_whats-the-renminbi-got-to-do-with-it",
+   "node_id": "C1",
+   "facet": "country",
+   "value": "china",
+   "role": "subject",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-10-13_whats-the-renminbi-got-to-do-with-it",
+   "node_id": "SC",
+   "facet": "variable",
+   "value": "nominal-exchange-rate",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-10-13_whats-the-renminbi-got-to-do-with-it",
+   "node_id": "SC",
+   "facet": "instrument",
+   "value": "fx-intervention",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-10-13_whats-the-renminbi-got-to-do-with-it",
+   "node_id": "SC",
+   "facet": "country",
+   "value": "china",
+   "role": "subject",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-10-13_whats-the-renminbi-got-to-do-with-it",
+   "node_id": "E4",
+   "facet": "variable",
+   "value": "nominal-exchange-rate",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-10-13_whats-the-renminbi-got-to-do-with-it",
+   "node_id": "E4",
+   "facet": "instrument",
+   "value": "fx-intervention",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-10-13_whats-the-renminbi-got-to-do-with-it",
+   "node_id": "E4",
+   "facet": "data_basis",
+   "value": "press-reporting",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-10-13_whats-the-renminbi-got-to-do-with-it",
+   "node_id": "E4",
+   "facet": "country",
+   "value": "china",
+   "role": "subject",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-10-13_whats-the-renminbi-got-to-do-with-it",
+   "node_id": "M1",
+   "facet": "variable",
+   "value": "nominal-exchange-rate",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-10-13_whats-the-renminbi-got-to-do-with-it",
+   "node_id": "M1",
+   "facet": "variable",
+   "value": "fx-reserves",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-10-13_whats-the-renminbi-got-to-do-with-it",
+   "node_id": "M1",
+   "facet": "instrument",
+   "value": "fx-intervention",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-10-13_whats-the-renminbi-got-to-do-with-it",
+   "node_id": "M1",
+   "facet": "country",
+   "value": "china",
+   "role": "subject",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-10-13_whats-the-renminbi-got-to-do-with-it",
+   "node_id": "E2",
+   "facet": "variable",
+   "value": "nominal-exchange-rate",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-10-13_whats-the-renminbi-got-to-do-with-it",
+   "node_id": "E2",
+   "facet": "instrument",
+   "value": "fx-intervention",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-10-13_whats-the-renminbi-got-to-do-with-it",
+   "node_id": "E2",
+   "facet": "data_basis",
+   "value": "market-prices",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-10-13_whats-the-renminbi-got-to-do-with-it",
+   "node_id": "E2",
+   "facet": "country",
+   "value": "china",
+   "role": "subject",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-10-13_whats-the-renminbi-got-to-do-with-it",
+   "node_id": "X2",
+   "facet": "variable",
+   "value": "nominal-exchange-rate",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-10-13_whats-the-renminbi-got-to-do-with-it",
+   "node_id": "X2",
+   "facet": "variable",
+   "value": "current-account",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-10-13_whats-the-renminbi-got-to-do-with-it",
+   "node_id": "X2",
+   "facet": "data_basis",
+   "value": "imf-publications",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-10-13_whats-the-renminbi-got-to-do-with-it",
+   "node_id": "X2",
+   "facet": "country",
+   "value": "china",
+   "role": "subject",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-10-13_whats-the-renminbi-got-to-do-with-it",
+   "node_id": "M2",
+   "facet": "variable",
+   "value": "export-volumes",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-10-13_whats-the-renminbi-got-to-do-with-it",
+   "node_id": "M2",
+   "facet": "variable",
+   "value": "real-exchange-rate",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-10-13_whats-the-renminbi-got-to-do-with-it",
+   "node_id": "M2",
+   "facet": "country",
+   "value": "china",
+   "role": "subject",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-10-13_whats-the-renminbi-got-to-do-with-it",
+   "node_id": "P4",
+   "facet": "variable",
+   "value": "global-imbalances",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-10-13_whats-the-renminbi-got-to-do-with-it",
+   "node_id": "P4",
+   "facet": "instrument",
+   "value": "fx-intervention",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-10-13_whats-the-renminbi-got-to-do-with-it",
+   "node_id": "P4",
+   "facet": "country",
+   "value": "china",
+   "role": "subject",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-10-13_whats-the-renminbi-got-to-do-with-it",
+   "node_id": "E3",
+   "facet": "variable",
+   "value": "export-volumes",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-10-13_whats-the-renminbi-got-to-do-with-it",
+   "node_id": "E3",
+   "facet": "variable",
+   "value": "nominal-exchange-rate",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-10-13_whats-the-renminbi-got-to-do-with-it",
+   "node_id": "E3",
+   "facet": "data_basis",
+   "value": "customs",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-10-13_whats-the-renminbi-got-to-do-with-it",
+   "node_id": "E3",
+   "facet": "country",
+   "value": "china",
+   "role": "subject",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-10-13_whats-the-renminbi-got-to-do-with-it",
+   "node_id": "R1",
+   "facet": "variable",
+   "value": "export-volumes",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-10-13_whats-the-renminbi-got-to-do-with-it",
+   "node_id": "R1",
+   "facet": "country",
+   "value": "china",
+   "role": "subject",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-10-13_whats-the-renminbi-got-to-do-with-it",
+   "node_id": "ANOM",
+   "facet": "variable",
+   "value": "current-account",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-10-13_whats-the-renminbi-got-to-do-with-it",
+   "node_id": "ANOM",
+   "facet": "data_basis",
+   "value": "imf-publications",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-10-13_whats-the-renminbi-got-to-do-with-it",
+   "node_id": "ANOM",
+   "facet": "country",
+   "value": "china",
+   "role": "subject",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-10-13_whats-the-renminbi-got-to-do-with-it",
+   "node_id": "C2",
+   "facet": "variable",
+   "value": "real-exchange-rate",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-10-13_whats-the-renminbi-got-to-do-with-it",
+   "node_id": "C2",
+   "facet": "variable",
+   "value": "export-volumes",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-10-13_whats-the-renminbi-got-to-do-with-it",
+   "node_id": "C2",
+   "facet": "instrument",
+   "value": "industrial-policy",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-10-13_whats-the-renminbi-got-to-do-with-it",
+   "node_id": "C2",
+   "facet": "country",
+   "value": "china",
+   "role": "subject",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-10-13_whats-the-renminbi-got-to-do-with-it",
+   "node_id": "P2",
+   "facet": "variable",
+   "value": "real-exchange-rate",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-10-13_whats-the-renminbi-got-to-do-with-it",
+   "node_id": "P2",
+   "facet": "data_basis",
+   "value": "academic-econometrics",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-10-13_whats-the-renminbi-got-to-do-with-it",
+   "node_id": "X3",
+   "facet": "variable",
+   "value": "current-account",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-10-13_whats-the-renminbi-got-to-do-with-it",
+   "node_id": "X3",
+   "facet": "variable",
+   "value": "domestic-demand",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-10-13_whats-the-renminbi-got-to-do-with-it",
+   "node_id": "X3",
+   "facet": "country",
+   "value": "china",
+   "role": "subject",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-10-13_whats-the-renminbi-got-to-do-with-it",
+   "node_id": "BM",
+   "facet": "variable",
+   "value": "nominal-exchange-rate",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-10-13_whats-the-renminbi-got-to-do-with-it",
+   "node_id": "BM",
+   "facet": "variable",
+   "value": "current-account",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-10-13_whats-the-renminbi-got-to-do-with-it",
+   "node_id": "BM",
+   "facet": "instrument",
+   "value": "fx-intervention",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-10-13_whats-the-renminbi-got-to-do-with-it",
+   "node_id": "BM",
+   "facet": "country",
+   "value": "china",
+   "role": "subject",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-10-13_whats-the-renminbi-got-to-do-with-it",
+   "node_id": "C3",
+   "facet": "variable",
+   "value": "bilateral-trade-flows",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-10-13_whats-the-renminbi-got-to-do-with-it",
+   "node_id": "C3",
+   "facet": "instrument",
+   "value": "tariffs",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-10-13_whats-the-renminbi-got-to-do-with-it",
+   "node_id": "C3",
+   "facet": "country",
+   "value": "euro-area",
+   "role": "subject",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-10-13_whats-the-renminbi-got-to-do-with-it",
+   "node_id": "C3",
+   "facet": "country",
+   "value": "china",
+   "role": "counterpart",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-10-13_whats-the-renminbi-got-to-do-with-it",
+   "node_id": "M3",
+   "facet": "variable",
+   "value": "real-exchange-rate",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-10-13_whats-the-renminbi-got-to-do-with-it",
+   "node_id": "M3",
+   "facet": "variable",
+   "value": "manufacturing-output",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-10-13_whats-the-renminbi-got-to-do-with-it",
+   "node_id": "M3",
+   "facet": "country",
+   "value": "china",
+   "role": "subject",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-10-13_whats-the-renminbi-got-to-do-with-it",
+   "node_id": "M3",
+   "facet": "bloc",
+   "value": "global",
+   "role": "counterpart",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-10-13_whats-the-renminbi-got-to-do-with-it",
+   "node_id": "C4",
+   "facet": "variable",
+   "value": "domestic-demand",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-10-13_whats-the-renminbi-got-to-do-with-it",
+   "node_id": "C4",
+   "facet": "variable",
+   "value": "import-volumes",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-10-13_whats-the-renminbi-got-to-do-with-it",
+   "node_id": "C4",
+   "facet": "country",
+   "value": "china",
+   "role": "subject",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-10-13_whats-the-renminbi-got-to-do-with-it",
+   "node_id": "P3",
+   "facet": "variable",
+   "value": "real-exchange-rate",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-10-13_whats-the-renminbi-got-to-do-with-it",
+   "node_id": "P3",
+   "facet": "variable",
+   "value": "current-account",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-10-13_whats-the-renminbi-got-to-do-with-it",
+   "node_id": "K",
+   "facet": "variable",
+   "value": "nominal-exchange-rate",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-10-13_whats-the-renminbi-got-to-do-with-it",
+   "node_id": "K",
+   "facet": "variable",
+   "value": "gdp-growth",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-10-13_whats-the-renminbi-got-to-do-with-it",
+   "node_id": "K",
+   "facet": "variable",
+   "value": "current-account",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-10-13_whats-the-renminbi-got-to-do-with-it",
+   "node_id": "K",
+   "facet": "instrument",
+   "value": "fx-intervention",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-10-13_whats-the-renminbi-got-to-do-with-it",
+   "node_id": "K",
+   "facet": "country",
+   "value": "china",
+   "role": "subject",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-10-13_whats-the-renminbi-got-to-do-with-it",
+   "node_id": "REC",
+   "facet": "variable",
+   "value": "nominal-exchange-rate",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-10-13_whats-the-renminbi-got-to-do-with-it",
+   "node_id": "REC",
+   "facet": "instrument",
+   "value": "fx-intervention",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-10-13_whats-the-renminbi-got-to-do-with-it",
+   "node_id": "REC",
+   "facet": "country",
+   "value": "china",
+   "role": "subject",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-10-13_whats-the-renminbi-got-to-do-with-it",
+   "node_id": "REC",
+   "facet": "country",
+   "value": "euro-area",
+   "role": "counterpart",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-10-13_whats-the-renminbi-got-to-do-with-it",
+   "node_id": "QF",
+   "facet": "variable",
+   "value": "nominal-exchange-rate",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-10-13_whats-the-renminbi-got-to-do-with-it",
+   "node_id": "QF",
+   "facet": "country",
+   "value": "euro-area",
+   "role": "subject",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-10-13_whats-the-renminbi-got-to-do-with-it",
+   "node_id": "QF2",
+   "facet": "variable",
+   "value": "nominal-exchange-rate",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-10-13_whats-the-renminbi-got-to-do-with-it",
+   "node_id": "QF2",
+   "facet": "variable",
+   "value": "real-exchange-rate",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-10-13_whats-the-renminbi-got-to-do-with-it",
+   "node_id": "QF2",
+   "facet": "data_basis",
+   "value": "market-prices",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-10-13_whats-the-renminbi-got-to-do-with-it",
+   "node_id": "QF2",
+   "facet": "country",
+   "value": "china",
+   "role": "subject",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-10-13_whats-the-renminbi-got-to-do-with-it",
+   "node_id": "QF3",
+   "facet": "variable",
+   "value": "current-account",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-10-13_whats-the-renminbi-got-to-do-with-it",
+   "node_id": "QF3",
+   "facet": "variable",
+   "value": "investment-income-balance",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-10-13_whats-the-renminbi-got-to-do-with-it",
+   "node_id": "QF3",
+   "facet": "data_basis",
+   "value": "balance-of-payments",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-10-13_whats-the-renminbi-got-to-do-with-it",
+   "node_id": "QF3",
+   "facet": "data_basis",
+   "value": "customs",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-10-13_whats-the-renminbi-got-to-do-with-it",
+   "node_id": "QF3",
+   "facet": "country",
+   "value": "china",
+   "role": "subject",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  }
+ ],
+ "review": [
+  "`setser_2026-10-13_whats-the-renminbi-got-to-do-with-it#P2` where_subject empty - every claim needs a country or a bloc (assignment.requires_one_of) - needs review",
+  "`setser_2026-10-13_whats-the-renminbi-got-to-do-with-it#P3` where_subject empty - every claim needs a country or a bloc (assignment.requires_one_of) - needs review"
+ ],
+ "gaps_left": [],
+ "dropped": [],
+ "fix_rounds": 0,
+ "reasks": 0
+}

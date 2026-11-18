@@ -1,0 +1,412 @@
+{
+  "kind": "actual",
+  "article": {
+    "title": "Is China’s Surplus Really Shrinking?",
+    "date": "2026-07-27",
+    "url": "https://www.cfr.org/articles/is-chinas-surplus-really-shrinking"
+  },
+  "summary": {
+    "claim_type": "single",
+    "finding": "Predicted a mismeasurement story built on balance-of-payments data; the article reached the same answer, surplus still rising, but through gold imports."
+  },
+  "slots": {
+    "question": {
+      "status": "implicit",
+      "items": [
+        {
+          "label": "Has China's trade surplus really peaked, as the Economist claims?",
+          "para": [
+            "p1",
+            "p3"
+          ],
+          "verdict": "match",
+          "note": "predicted: real fall or statistical artifact; cause judged in mechanism"
+        }
+      ]
+    },
+    "anomaly": {
+      "status": "absent",
+      "why": "Economist's claim is a view, not a failed forecast"
+    },
+    "position_map": {
+      "status": "absent",
+      "why": "Only one opposing position is named"
+    },
+    "stated_assumption": {
+      "status": "filled",
+      "items": [
+        {
+          "label": "Takes the price-adjusted surplus as the real test, not dollar values",
+          "para": [
+            "p2",
+            "p24"
+          ],
+          "verdict": "close",
+          "note": "predicted: treats customs goods data as the better gauge"
+        }
+      ]
+    },
+    "hidden_assumption": {
+      "status": "filled",
+      "items": [
+        {
+          "label": "Treats gold imports as noise to strip out, not real demand",
+          "para": [
+            "p6",
+            "p7",
+            "p21"
+          ],
+          "verdict": "close",
+          "note": "predicted: opaque official statistics deserve less trust than physical trade"
+        }
+      ]
+    },
+    "revised_prior": {
+      "status": "filled",
+      "items": [
+        {
+          "label": "Expected chip prices to move the net most; gold did instead",
+          "para": [
+            "p9",
+            "p25"
+          ]
+        }
+      ]
+    },
+    "accounting_identity": {
+      "status": "filled",
+      "items": [
+        {
+          "label": "Equates the net export growth contribution with the change in real surplus",
+          "para": [
+            "p24"
+          ]
+        }
+      ]
+    },
+    "source_credibility": {
+      "status": "filled",
+      "items": [
+        {
+          "label": "Faults China's statisticians for catching the chip price jump too late",
+          "para": [
+            "p18"
+          ],
+          "verdict": "close",
+          "note": "predicted: doubts balance of payments series over methodology changes"
+        }
+      ]
+    },
+    "scope_choice": {
+      "status": "filled",
+      "items": [
+        {
+          "label": "Strips out gold and chips, which swamp or inflate both trade sides",
+          "para": [
+            "p12",
+            "p15",
+            "p21"
+          ]
+        }
+      ]
+    },
+    "benchmark": {
+      "status": "absent",
+      "why": "No external target to measure against"
+    },
+    "evidence_data": {
+      "status": "filled",
+      "items": [
+        {
+          "label": "Cites gold imports near $100 billion above last year's first half",
+          "para": [
+            "p6",
+            "p9"
+          ],
+          "verdict": "close",
+          "note": "predicted: export volumes outpacing imports and a record surplus"
+        }
+      ]
+    },
+    "evidence_source": {
+      "status": "filled",
+      "items": [
+        {
+          "label": "Cites energy data: oil import volumes collapsed, so oil bill barely rose",
+          "para": [
+            "p5"
+          ],
+          "verdict": "close",
+          "note": "predicted: customs data, SAFE releases and IMF reports"
+        }
+      ]
+    },
+    "evidence_rival": {
+      "status": "filled",
+      "items": [
+        {
+          "label": "Sets the still-growing real surplus against the shrinking dollar surplus",
+          "para": [
+            "p1",
+            "p2",
+            "p24"
+          ],
+          "verdict": "close",
+          "note": "predicted: customs goods series against balance of payments series"
+        }
+      ]
+    },
+    "evidence_discrepancy": {
+      "status": "implicit",
+      "items": [
+        {
+          "label": "Reads the gap as a sign the peak story is wrong",
+          "para": [
+            "p2",
+            "p3"
+          ],
+          "verdict": "close",
+          "note": "predicted: widening gap between customs surplus and current account"
+        }
+      ]
+    },
+    "mechanism": {
+      "status": "filled",
+      "items": [
+        {
+          "label": "Gold import surge, despite falling gold prices, drags down the headline surplus",
+          "para": [
+            "p6",
+            "p7",
+            "p9"
+          ],
+          "kind": "economic",
+          "verdict": "close",
+          "note": "predicted: methodology changes and income deficit shrink reported surplus"
+        },
+        {
+          "label": "Lagging price indices turn chip price rises into fake Q1 volume gains",
+          "para": [
+            "p18",
+            "p19",
+            "p20"
+          ],
+          "kind": "distortion",
+          "verdict": "close",
+          "note": "predicted: weak domestic demand and weak yuan push exports"
+        }
+      ]
+    },
+    "intermediate_claim": {
+      "status": "filled",
+      "items": [
+        {
+          "label": "Shows manufacturing surplus ex gold and chips rising on booming autos",
+          "para": [
+            "p12",
+            "p13",
+            "p21"
+          ],
+          "verdict": "close",
+          "note": "predicted: reported current account understates a still-growing surplus"
+        }
+      ]
+    },
+    "case_type": {
+      "status": "absent",
+      "why": "No sorting of cases into types"
+    },
+    "policy_reductio": {
+      "status": "absent",
+      "why": "No one's proposal is run to a consequence"
+    },
+    "main_claim": {
+      "status": "filled",
+      "items": [
+        {
+          "label": "Rejects the peak: underlying surplus still rising once gold is removed",
+          "para": [
+            "p11",
+            "p21",
+            "p23"
+          ],
+          "verdict": "match",
+          "note": "predicted: shrinkage is mismeasurement; reason judged in mechanism"
+        }
+      ]
+    },
+    "reconstruction": {
+      "status": "filled",
+      "items": [
+        {
+          "label": "Rebuilds Q2 goods surplus without gold: close to 7% of GDP",
+          "para": [
+            "p7",
+            "p16",
+            "p22"
+          ],
+          "verdict": "close",
+          "note": "predicted: true surplus rebuilt from customs data, above reported"
+        }
+      ]
+    },
+    "recommendation": {
+      "status": "filled",
+      "items": [
+        {
+          "label": "Urges analysts to gold-adjust trade data and decompose both sides",
+          "para": [
+            "p25",
+            "p26"
+          ],
+          "verdict": "close",
+          "note": "predicted: IMF should use corrected numbers, push fiscal expansion"
+        }
+      ]
+    },
+    "opposing_view": {
+      "status": "filled",
+      "items": [
+        {
+          "label": "Claims China's surplus has peaked, per the Economist and Adam Wolfe",
+          "para": [
+            "p1",
+            "p27"
+          ],
+          "verdict": "close",
+          "note": "predicted: IMF and analysts read the reported decline as real"
+        }
+      ]
+    },
+    "caveat": {
+      "status": "filled",
+      "items": [
+        {
+          "label": "Concedes commodity and chip balances shifted; chip deficit widened slightly",
+          "para": [
+            "p8",
+            "p14"
+          ],
+          "verdict": "close",
+          "note": "predicted: some adjustments legitimate; income line unverifiable"
+        }
+      ]
+    },
+    "other_explanation": {
+      "status": "filled",
+      "items": [
+        {
+          "label": "Traces the surplus drop to pricier chips and oil, both big imports",
+          "para": [
+            "p4",
+            "p5",
+            "p9"
+          ],
+          "verdict": "close",
+          "note": "predicted: services and travel deficit genuinely trims the surplus"
+        }
+      ]
+    },
+    "deferred_question": {
+      "status": "absent",
+      "why": "No question explicitly set aside"
+    }
+  },
+  "edges": [
+    {
+      "from": "hidden_assumption",
+      "to": "scope_choice",
+      "type": "licenses"
+    },
+    {
+      "from": "stated_assumption",
+      "to": "evidence_rival",
+      "type": "licenses"
+    },
+    {
+      "from": "accounting_identity",
+      "to": "evidence_rival",
+      "type": "supports"
+    },
+    {
+      "from": "revised_prior",
+      "to": "mechanism",
+      "type": "revises"
+    },
+    {
+      "from": "source_credibility",
+      "to": "mechanism#2",
+      "type": "supports"
+    },
+    {
+      "from": "scope_choice",
+      "to": "intermediate_claim",
+      "type": "bounds"
+    },
+    {
+      "from": "evidence_data",
+      "to": "mechanism",
+      "type": "supports"
+    },
+    {
+      "from": "evidence_source",
+      "to": "other_explanation",
+      "type": "rebuts"
+    },
+    {
+      "from": "evidence_rival",
+      "to": "evidence_discrepancy",
+      "type": "supports"
+    },
+    {
+      "from": "evidence_rival",
+      "to": "opposing_view",
+      "type": "rebuts"
+    },
+    {
+      "from": "mechanism",
+      "to": "other_explanation",
+      "type": "rebuts"
+    },
+    {
+      "from": "mechanism",
+      "to": "reconstruction",
+      "type": "supports"
+    },
+    {
+      "from": "mechanism",
+      "to": "main_claim",
+      "type": "supports"
+    },
+    {
+      "from": "mechanism#2",
+      "to": "main_claim",
+      "type": "supports"
+    },
+    {
+      "from": "intermediate_claim",
+      "to": "main_claim",
+      "type": "supports"
+    },
+    {
+      "from": "main_claim",
+      "to": "reconstruction",
+      "type": "reconstructs"
+    },
+    {
+      "from": "main_claim",
+      "to": "recommendation",
+      "type": "motivates"
+    },
+    {
+      "from": "main_claim",
+      "to": "opposing_view",
+      "type": "rebuts"
+    },
+    {
+      "from": "main_claim",
+      "to": "caveat",
+      "type": "qualified_by"
+    }
+  ]
+}

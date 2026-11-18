@@ -1,0 +1,592 @@
+{
+ "nodes": [
+  {
+   "id": "setser_2026-10-13_whats-the-renminbi-got-to-do-with-it-ANOM",
+   "type": "file",
+   "file": "claims/anomaly/The IMF repeatedly forecast that China's surplus would fall as Covid effects proved.md",
+   "x": -550,
+   "y": 0,
+   "width": 520,
+   "height": 300,
+   "color": "#AAAAAA"
+  },
+  {
+   "id": "setser_2026-10-13_whats-the-renminbi-got-to-do-with-it-Q",
+   "type": "file",
+   "file": "claims/question/Is China's export surge just a mechanical result of weak internal demand, or did the weak.md",
+   "x": 30,
+   "y": 0,
+   "width": 520,
+   "height": 300,
+   "color": "#7A6FA8"
+  },
+  {
+   "id": "setser_2026-10-13_whats-the-renminbi-got-to-do-with-it-P1",
+   "type": "file",
+   "file": "claims/stated_assumption/With a closed financial account, the currency market is driven mainly by exporter.md",
+   "x": -1420,
+   "y": 480,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "setser_2026-10-13_whats-the-renminbi-got-to-do-with-it-P2",
+   "type": "file",
+   "file": "claims/stated_assumption/A country converging technologically with its partners should see trend real appreciation.md",
+   "x": -840,
+   "y": 480,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "setser_2026-10-13_whats-the-renminbi-got-to-do-with-it-P3",
+   "type": "file",
+   "file": "claims/stated_assumption/External adjustment requires a change in relative prices; there are no immaculate.md",
+   "x": -260,
+   "y": 480,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "setser_2026-10-13_whats-the-renminbi-got-to-do-with-it-P4",
+   "type": "file",
+   "file": "claims/hidden_assumption/China's size makes its currency management matter for the rest of the world.md",
+   "x": 320,
+   "y": 480,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "setser_2026-10-13_whats-the-renminbi-got-to-do-with-it-SC",
+   "type": "file",
+   "file": "claims/source_credibility/The PBOC's claim that market forces determine the RMB is not credible.md",
+   "x": 900,
+   "y": 480,
+   "width": 520,
+   "height": 300,
+   "color": "#2FA88F"
+  },
+  {
+   "id": "setser_2026-10-13_whats-the-renminbi-got-to-do-with-it-BM",
+   "type": "file",
+   "file": "claims/benchmark/Under fixed-but-adjustable regimes, surplus countries were expected to revalue.md",
+   "x": -260,
+   "y": 960,
+   "width": 520,
+   "height": 300,
+   "color": "#2FA88F"
+  },
+  {
+   "id": "setser_2026-10-13_whats-the-renminbi-got-to-do-with-it-E1",
+   "type": "file",
+   "file": "claims/evidence_data/The RMB has not tracked rate differentials it did not rise when Chinese rates were.md",
+   "x": -1130,
+   "y": 1440,
+   "width": 520,
+   "height": 300,
+   "color": "#2F7FBF"
+  },
+  {
+   "id": "setser_2026-10-13_whats-the-renminbi-got-to-do-with-it-E2",
+   "type": "file",
+   "file": "claims/evidence_data/Yuan volatility is low (a controlled 10 percent fall in 2022, then a slow crawl up).md",
+   "x": -550,
+   "y": 1440,
+   "width": 520,
+   "height": 300,
+   "color": "#2F7FBF"
+  },
+  {
+   "id": "setser_2026-10-13_whats-the-renminbi-got-to-do-with-it-E3",
+   "type": "file",
+   "file": "claims/evidence_data/Exports accelerated after the 2022 depreciation and outgrew global trade by 2023.md",
+   "x": 30,
+   "y": 1440,
+   "width": 520,
+   "height": 300,
+   "color": "#2F7FBF"
+  },
+  {
+   "id": "setser_2026-10-13_whats-the-renminbi-got-to-do-with-it-E4",
+   "type": "file",
+   "file": "claims/evidence_source/Mark Sobel and the Goldman Sachs analysts describe heavy management of the RMB and an FX.md",
+   "x": 610,
+   "y": 1440,
+   "width": 520,
+   "height": 300,
+   "color": "#2F7FBF"
+  },
+  {
+   "id": "setser_2026-10-13_whats-the-renminbi-got-to-do-with-it-M1",
+   "type": "file",
+   "file": "claims/mechanism/State banks buy foreign exchange to cap the yuan's strength, so the yuan is managed.md",
+   "x": -840,
+   "y": 1920,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "setser_2026-10-13_whats-the-renminbi-got-to-do-with-it-M2",
+   "type": "file",
+   "file": "claims/mechanism/Chinese exports respond to the real value of the RMB.md",
+   "x": -260,
+   "y": 1920,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "setser_2026-10-13_whats-the-renminbi-got-to-do-with-it-M3",
+   "type": "file",
+   "file": "claims/mechanism/An undervalued RMB signals the world to locate production in China, eroding manufacturing.md",
+   "x": 320,
+   "y": 1920,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "setser_2026-10-13_whats-the-renminbi-got-to-do-with-it-C1",
+   "type": "file",
+   "file": "claims/intermediate_claim/The RMB's value is a policy variable controlled by the Chinese authorities.md",
+   "x": -1130,
+   "y": 2400,
+   "width": 520,
+   "height": 300,
+   "color": "#2FBF9B"
+  },
+  {
+   "id": "setser_2026-10-13_whats-the-renminbi-got-to-do-with-it-C2",
+   "type": "file",
+   "file": "claims/intermediate_claim/Structural gains (WTO accession, green industrial policy) were amplified by a weak.md",
+   "x": -550,
+   "y": 2400,
+   "width": 520,
+   "height": 300,
+   "color": "#2FBF9B"
+  },
+  {
+   "id": "setser_2026-10-13_whats-the-renminbi-got-to-do-with-it-C3",
+   "type": "file",
+   "file": "claims/intermediate_claim/Sectoral protection such as the EU hybrid car quota buffers specific sectors but would.md",
+   "x": 30,
+   "y": 2400,
+   "width": 520,
+   "height": 300,
+   "color": "#2FBF9B"
+  },
+  {
+   "id": "setser_2026-10-13_whats-the-renminbi-got-to-do-with-it-C4",
+   "type": "file",
+   "file": "claims/intermediate_claim/Stronger domestic demand alone would not rebalance China's external accounts, because.md",
+   "x": 610,
+   "y": 2400,
+   "width": 520,
+   "height": 300,
+   "color": "#2FBF9B"
+  },
+  {
+   "id": "setser_2026-10-13_whats-the-renminbi-got-to-do-with-it-K",
+   "type": "file",
+   "file": "claims/main_claim/China, which relies on net exports for growth, is on a collision course with its trading.md",
+   "x": -550,
+   "y": 2880,
+   "width": 520,
+   "height": 300,
+   "color": "#2FBF9B"
+  },
+  {
+   "id": "setser_2026-10-13_whats-the-renminbi-got-to-do-with-it-REC",
+   "type": "file",
+   "file": "claims/recommendation/Europe and the IMF should put RMB exchange rate adjustment on the agenda with China.md",
+   "x": 30,
+   "y": 2880,
+   "width": 520,
+   "height": 300,
+   "color": "#2FBF9B"
+  },
+  {
+   "id": "setser_2026-10-13_whats-the-renminbi-got-to-do-with-it-QF",
+   "type": "file",
+   "file": "claims/caveat/Europe's institutions lack the tools to coordinate on exchange rates, which limits.md",
+   "x": -2000,
+   "y": 3360,
+   "width": 520,
+   "height": 300,
+   "color": "#9A8C6A"
+  },
+  {
+   "id": "setser_2026-10-13_whats-the-renminbi-got-to-do-with-it-QF2",
+   "type": "file",
+   "file": "claims/caveat/The RMB has appreciated since mid-2025, which reverses the liberation-day depreciation.md",
+   "x": -1420,
+   "y": 3360,
+   "width": 520,
+   "height": 300,
+   "color": "#9A8C6A"
+  },
+  {
+   "id": "setser_2026-10-13_whats-the-renminbi-got-to-do-with-it-QF3",
+   "type": "file",
+   "file": "claims/caveat/China's surplus is now less masked in balance of payments data, though problems remain.md",
+   "x": -840,
+   "y": 3360,
+   "width": 520,
+   "height": 300,
+   "color": "#9A8C6A"
+  },
+  {
+   "id": "setser_2026-10-13_whats-the-renminbi-got-to-do-with-it-R1",
+   "type": "file",
+   "file": "claims/other_explanation/The 2020-21 export surge came from pandemic goods demand, not from the currency.md",
+   "x": -260,
+   "y": 3360,
+   "width": 520,
+   "height": 300,
+   "color": "#8A8A8A"
+  },
+  {
+   "id": "setser_2026-10-13_whats-the-renminbi-got-to-do-with-it-X",
+   "type": "file",
+   "file": "claims/opposing_view/The Geneva Report and former IMF officials argue that exports rose mechanically from weak.md",
+   "x": 320,
+   "y": 3360,
+   "width": 520,
+   "height": 300,
+   "color": "#8A8A8A"
+  },
+  {
+   "id": "setser_2026-10-13_whats-the-renminbi-got-to-do-with-it-X2",
+   "type": "file",
+   "file": "claims/opposing_view/IMF surveillance ignores China's currency management and the balance of payments.md",
+   "x": 900,
+   "y": 3360,
+   "width": 520,
+   "height": 300,
+   "color": "#8A8A8A"
+  },
+  {
+   "id": "setser_2026-10-13_whats-the-renminbi-got-to-do-with-it-X3",
+   "type": "file",
+   "file": "claims/opposing_view/Some argue that, for comity and for China's growth, the IMF should ignore external.md",
+   "x": 1480,
+   "y": 3360,
+   "width": 520,
+   "height": 300,
+   "color": "#8A8A8A"
+  }
+ ],
+ "edges": [
+  {
+   "id": "Q-P1",
+   "fromNode": "setser_2026-10-13_whats-the-renminbi-got-to-do-with-it-Q",
+   "fromSide": "bottom",
+   "toNode": "setser_2026-10-13_whats-the-renminbi-got-to-do-with-it-P1",
+   "toSide": "top",
+   "label": "0 frames",
+   "color": "6"
+  },
+  {
+   "id": "Q-P4",
+   "fromNode": "setser_2026-10-13_whats-the-renminbi-got-to-do-with-it-Q",
+   "fromSide": "bottom",
+   "toNode": "setser_2026-10-13_whats-the-renminbi-got-to-do-with-it-P4",
+   "toSide": "top",
+   "label": "0 frames",
+   "color": "6"
+  },
+  {
+   "id": "Q-P2",
+   "fromNode": "setser_2026-10-13_whats-the-renminbi-got-to-do-with-it-Q",
+   "fromSide": "bottom",
+   "toNode": "setser_2026-10-13_whats-the-renminbi-got-to-do-with-it-P2",
+   "toSide": "top",
+   "label": "0 frames",
+   "color": "6"
+  },
+  {
+   "id": "Q-P3",
+   "fromNode": "setser_2026-10-13_whats-the-renminbi-got-to-do-with-it-Q",
+   "fromSide": "bottom",
+   "toNode": "setser_2026-10-13_whats-the-renminbi-got-to-do-with-it-P3",
+   "toSide": "top",
+   "label": "0 frames",
+   "color": "6"
+  },
+  {
+   "id": "P1-E1",
+   "fromNode": "setser_2026-10-13_whats-the-renminbi-got-to-do-with-it-P1",
+   "fromSide": "bottom",
+   "toNode": "setser_2026-10-13_whats-the-renminbi-got-to-do-with-it-E1",
+   "toSide": "top",
+   "label": "0 frames",
+   "color": "6"
+  },
+  {
+   "id": "E1-C1",
+   "fromNode": "setser_2026-10-13_whats-the-renminbi-got-to-do-with-it-E1",
+   "fromSide": "bottom",
+   "toNode": "setser_2026-10-13_whats-the-renminbi-got-to-do-with-it-C1",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "P1-C1",
+   "fromNode": "setser_2026-10-13_whats-the-renminbi-got-to-do-with-it-P1",
+   "fromSide": "bottom",
+   "toNode": "setser_2026-10-13_whats-the-renminbi-got-to-do-with-it-C1",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "SC-C1",
+   "fromNode": "setser_2026-10-13_whats-the-renminbi-got-to-do-with-it-SC",
+   "fromSide": "bottom",
+   "toNode": "setser_2026-10-13_whats-the-renminbi-got-to-do-with-it-C1",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "E4-C1",
+   "fromNode": "setser_2026-10-13_whats-the-renminbi-got-to-do-with-it-E4",
+   "fromSide": "bottom",
+   "toNode": "setser_2026-10-13_whats-the-renminbi-got-to-do-with-it-C1",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "E2-M1",
+   "fromNode": "setser_2026-10-13_whats-the-renminbi-got-to-do-with-it-E2",
+   "fromSide": "bottom",
+   "toNode": "setser_2026-10-13_whats-the-renminbi-got-to-do-with-it-M1",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "M1-C1",
+   "fromNode": "setser_2026-10-13_whats-the-renminbi-got-to-do-with-it-M1",
+   "fromSide": "bottom",
+   "toNode": "setser_2026-10-13_whats-the-renminbi-got-to-do-with-it-C1",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "C1-X",
+   "fromNode": "setser_2026-10-13_whats-the-renminbi-got-to-do-with-it-C1",
+   "fromSide": "bottom",
+   "toNode": "setser_2026-10-13_whats-the-renminbi-got-to-do-with-it-X",
+   "toSide": "top",
+   "label": "-1 rebuts",
+   "color": "1"
+  },
+  {
+   "id": "C1-X2",
+   "fromNode": "setser_2026-10-13_whats-the-renminbi-got-to-do-with-it-C1",
+   "fromSide": "bottom",
+   "toNode": "setser_2026-10-13_whats-the-renminbi-got-to-do-with-it-X2",
+   "toSide": "top",
+   "label": "-1 rebuts",
+   "color": "1"
+  },
+  {
+   "id": "E3-M2",
+   "fromNode": "setser_2026-10-13_whats-the-renminbi-got-to-do-with-it-E3",
+   "fromSide": "bottom",
+   "toNode": "setser_2026-10-13_whats-the-renminbi-got-to-do-with-it-M2",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "M2-K",
+   "fromNode": "setser_2026-10-13_whats-the-renminbi-got-to-do-with-it-M2",
+   "fromSide": "bottom",
+   "toNode": "setser_2026-10-13_whats-the-renminbi-got-to-do-with-it-K",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "M2-R1",
+   "fromNode": "setser_2026-10-13_whats-the-renminbi-got-to-do-with-it-M2",
+   "fromSide": "bottom",
+   "toNode": "setser_2026-10-13_whats-the-renminbi-got-to-do-with-it-R1",
+   "toSide": "top",
+   "label": "-1 undercut_by",
+   "color": "1"
+  },
+  {
+   "id": "ANOM-K",
+   "fromNode": "setser_2026-10-13_whats-the-renminbi-got-to-do-with-it-ANOM",
+   "fromSide": "bottom",
+   "toNode": "setser_2026-10-13_whats-the-renminbi-got-to-do-with-it-K",
+   "toSide": "top",
+   "label": "+1 motivates",
+   "color": "4"
+  },
+  {
+   "id": "P2-C2",
+   "fromNode": "setser_2026-10-13_whats-the-renminbi-got-to-do-with-it-P2",
+   "fromSide": "bottom",
+   "toNode": "setser_2026-10-13_whats-the-renminbi-got-to-do-with-it-C2",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "E3-C2",
+   "fromNode": "setser_2026-10-13_whats-the-renminbi-got-to-do-with-it-E3",
+   "fromSide": "bottom",
+   "toNode": "setser_2026-10-13_whats-the-renminbi-got-to-do-with-it-C2",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "C2-K",
+   "fromNode": "setser_2026-10-13_whats-the-renminbi-got-to-do-with-it-C2",
+   "fromSide": "bottom",
+   "toNode": "setser_2026-10-13_whats-the-renminbi-got-to-do-with-it-K",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "C2-QF2",
+   "fromNode": "setser_2026-10-13_whats-the-renminbi-got-to-do-with-it-C2",
+   "fromSide": "bottom",
+   "toNode": "setser_2026-10-13_whats-the-renminbi-got-to-do-with-it-QF2",
+   "toSide": "top",
+   "label": "-1 qualified_by",
+   "color": "1"
+  },
+  {
+   "id": "P4-K",
+   "fromNode": "setser_2026-10-13_whats-the-renminbi-got-to-do-with-it-P4",
+   "fromSide": "bottom",
+   "toNode": "setser_2026-10-13_whats-the-renminbi-got-to-do-with-it-K",
+   "toSide": "top",
+   "label": "+1 licenses",
+   "color": "4"
+  },
+  {
+   "id": "K-X3",
+   "fromNode": "setser_2026-10-13_whats-the-renminbi-got-to-do-with-it-K",
+   "fromSide": "bottom",
+   "toNode": "setser_2026-10-13_whats-the-renminbi-got-to-do-with-it-X3",
+   "toSide": "top",
+   "label": "-1 rebuts",
+   "color": "1"
+  },
+  {
+   "id": "BM-REC",
+   "fromNode": "setser_2026-10-13_whats-the-renminbi-got-to-do-with-it-BM",
+   "fromSide": "bottom",
+   "toNode": "setser_2026-10-13_whats-the-renminbi-got-to-do-with-it-REC",
+   "toSide": "top",
+   "label": "+1 licenses",
+   "color": "4"
+  },
+  {
+   "id": "M3-C3",
+   "fromNode": "setser_2026-10-13_whats-the-renminbi-got-to-do-with-it-M3",
+   "fromSide": "bottom",
+   "toNode": "setser_2026-10-13_whats-the-renminbi-got-to-do-with-it-C3",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "C3-K",
+   "fromNode": "setser_2026-10-13_whats-the-renminbi-got-to-do-with-it-C3",
+   "fromSide": "bottom",
+   "toNode": "setser_2026-10-13_whats-the-renminbi-got-to-do-with-it-K",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "C4-K",
+   "fromNode": "setser_2026-10-13_whats-the-renminbi-got-to-do-with-it-C4",
+   "fromSide": "bottom",
+   "toNode": "setser_2026-10-13_whats-the-renminbi-got-to-do-with-it-K",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "C4-X",
+   "fromNode": "setser_2026-10-13_whats-the-renminbi-got-to-do-with-it-C4",
+   "fromSide": "bottom",
+   "toNode": "setser_2026-10-13_whats-the-renminbi-got-to-do-with-it-X",
+   "toSide": "top",
+   "label": "-1 rebuts",
+   "color": "1"
+  },
+  {
+   "id": "P3-K",
+   "fromNode": "setser_2026-10-13_whats-the-renminbi-got-to-do-with-it-P3",
+   "fromSide": "bottom",
+   "toNode": "setser_2026-10-13_whats-the-renminbi-got-to-do-with-it-K",
+   "toSide": "top",
+   "label": "+1 licenses",
+   "color": "4"
+  },
+  {
+   "id": "C1-K",
+   "fromNode": "setser_2026-10-13_whats-the-renminbi-got-to-do-with-it-C1",
+   "fromSide": "bottom",
+   "toNode": "setser_2026-10-13_whats-the-renminbi-got-to-do-with-it-K",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "K-REC",
+   "fromNode": "setser_2026-10-13_whats-the-renminbi-got-to-do-with-it-K",
+   "fromSide": "bottom",
+   "toNode": "setser_2026-10-13_whats-the-renminbi-got-to-do-with-it-REC",
+   "toSide": "top",
+   "label": "+1 motivates",
+   "color": "4"
+  },
+  {
+   "id": "REC-QF",
+   "fromNode": "setser_2026-10-13_whats-the-renminbi-got-to-do-with-it-REC",
+   "fromSide": "bottom",
+   "toNode": "setser_2026-10-13_whats-the-renminbi-got-to-do-with-it-QF",
+   "toSide": "top",
+   "label": "-1 qualified_by",
+   "color": "1"
+  },
+  {
+   "id": "K-QF3",
+   "fromNode": "setser_2026-10-13_whats-the-renminbi-got-to-do-with-it-K",
+   "fromSide": "bottom",
+   "toNode": "setser_2026-10-13_whats-the-renminbi-got-to-do-with-it-QF3",
+   "toSide": "top",
+   "label": "-1 qualified_by",
+   "color": "1"
+  },
+  {
+   "id": "REC-X2",
+   "fromNode": "setser_2026-10-13_whats-the-renminbi-got-to-do-with-it-REC",
+   "fromSide": "bottom",
+   "toNode": "setser_2026-10-13_whats-the-renminbi-got-to-do-with-it-X2",
+   "toSide": "top",
+   "label": "-1 rebuts",
+   "color": "1"
+  }
+ ]
+}

@@ -1,0 +1,480 @@
+{
+ "result": [
+  {
+   "excerpt": "",
+   "claim": "Why might global trade imbalances get worse before they improve, given where surpluses and deficits now sit?",
+   "role": "question",
+   "explicit": false,
+   "kind": "none",
+   "claim_type": "none",
+   "paragraphs": [
+    1,
+    3,
+    9
+   ],
+   "reason": "An argument about future imbalances starts from locating today's surpluses and their causes.",
+   "excerpt_para": null,
+   "id": "Q",
+   "level": "L0"
+  },
+  {
+   "excerpt": "trade imbalances run mostly along an east-west axis these days.",
+   "claim": "With lower oil prices, the commodity side of imbalances has shrunk, leaving Europe and East Asia in surplus against North America.",
+   "role": "intermediate_claim",
+   "explicit": true,
+   "kind": "none",
+   "claim_type": "none",
+   "paragraphs": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "reason": "Commodity exporters' surpluses rise and fall with commodity prices.",
+   "excerpt_para": 3,
+   "id": "C1",
+   "level": "L4"
+  },
+  {
+   "excerpt": "If China, the euro area, and Japan all have significant surpluses, someone big needs to have a significant deficit for global trade to add up.",
+   "claim": "World surpluses and deficits must sum to zero, so large surpluses elsewhere require a large deficit somewhere.",
+   "role": "accounting_identity",
+   "explicit": true,
+   "kind": "none",
+   "claim_type": "none",
+   "paragraphs": [
+    9
+   ],
+   "reason": "Global current account balances sum to zero by definition.",
+   "excerpt_para": 9,
+   "id": "ID",
+   "level": "L1"
+  },
+  {
+   "excerpt": "the U.S. trade deficit in manufactures right now just happens to be about equal to the combined current account surpluses of Europe and East Asia.",
+   "claim": "The U.S. manufactures deficit roughly equals the combined surpluses of Europe and East Asia, while U.S. IP and offshore income surpluses keep the total U.S. current account deficit smaller.",
+   "role": "evidence_data",
+   "explicit": true,
+   "kind": "none",
+   "claim_type": "none",
+   "paragraphs": [
+    6,
+    7,
+    8,
+    9
+   ],
+   "reason": "Sector-level balances can be compared with partner surpluses to locate the imbalance.",
+   "excerpt_para": 6,
+   "id": "E1",
+   "level": "L2"
+  },
+  {
+   "excerpt": "the entire surplus on foreign direct investment income comes from the seven main low tax jurisdictions these days, see Martin Wolf",
+   "claim": "Martin Wolf's work shows that U.S. FDI income surpluses come from tax havens.",
+   "role": "evidence_source",
+   "explicit": true,
+   "kind": "none",
+   "claim_type": "none",
+   "paragraphs": [
+    8,
+    38
+   ],
+   "reason": "Tax-driven profit booking shapes measured income balances.",
+   "excerpt_para": 8,
+   "id": "E5",
+   "level": "L2"
+  },
+  {
+   "excerpt": "It doesn’t take a genius to figure out that the gap between European fiscal policy and U.S. fiscal policy is a major cause of the transatlantic imbalances",
+   "claim": "The gap between tight European and loose U.S. fiscal policy drives the transatlantic imbalance.",
+   "role": "mechanism",
+   "explicit": true,
+   "kind": "economic",
+   "claim_type": "none",
+   "paragraphs": [
+    10,
+    11,
+    12,
+    13
+   ],
+   "reason": "National saving-investment gaps, shaped by fiscal stance, determine external balances.",
+   "excerpt_para": 13,
+   "id": "M1",
+   "level": "L3"
+  },
+  {
+   "excerpt": "he doesn’t attribute trade outcomes to fiscal policy choices",
+   "claim": "Trump attributes trade outcomes to things other than fiscal policy, ignoring the fiscal driver.",
+   "role": "opposing_view",
+   "explicit": true,
+   "kind": "none",
+   "claim_type": "none",
+   "paragraphs": [
+    13
+   ],
+   "reason": "Trade balances reflect macroeconomic saving choices, not just trade policy.",
+   "excerpt_para": 13,
+   "id": "X",
+   "level": "L6"
+  },
+  {
+   "excerpt": "With demand in short supply globally, negative interest rates in Europe and Japan, and real interest rates globally at very low levels, I would put more emphasis on the European side",
+   "claim": "When global demand is scarce and rates are low, surplus countries rather than deficit countries should adjust.",
+   "role": "stated_assumption",
+   "explicit": true,
+   "kind": "none",
+   "claim_type": "none",
+   "paragraphs": [
+    12
+   ],
+   "reason": "In a demand-deficient world, adjustment by deficit countries through austerity is contractionary.",
+   "excerpt_para": 12,
+   "id": "P1",
+   "level": "L1"
+  },
+  {
+   "excerpt": "But still Germany ran a (gulp) 2.7 pp of GDP fiscal surplus in the first half of the year.",
+   "claim": "Europe's surplus countries (Germany, Sweden, Switzerland) show little sign of fiscal expansion, and EU debt rules push others toward surpluses.",
+   "role": "intermediate_claim",
+   "explicit": true,
+   "kind": "none",
+   "claim_type": "none",
+   "paragraphs": [
+    14,
+    15
+   ],
+   "reason": "Fiscal rules that target debt levels in slow nominal growth imply persistent surpluses.",
+   "excerpt_para": 14,
+   "id": "C2",
+   "level": "L4"
+  },
+  {
+   "excerpt": "Maybe European fiscal policy is about to change—Mario Draghi certainly thinks it should.",
+   "claim": "Draghi and a shifting German debate suggest Europe may yet loosen fiscal policy.",
+   "role": "caveat",
+   "explicit": true,
+   "kind": "none",
+   "claim_type": "none",
+   "paragraphs": [
+    14,
+    15
+   ],
+   "reason": "Policy debates can shift once recession and negative rates bite.",
+   "excerpt_para": 14,
+   "id": "QF",
+   "level": "L6"
+  },
+  {
+   "excerpt": "Korea and Taiwan. They both run tight fiscal policies when they don’t need to and also give their manufacturing heavy economies a boost with weak currencies",
+   "claim": "Korea, Taiwan, Singapore and Thailand fit the fiscal story: tight budgets plus direct or indirect currency intervention keep surpluses high.",
+   "role": "case_type",
+   "explicit": true,
+   "kind": "none",
+   "claim_type": "none",
+   "paragraphs": [
+    17,
+    18,
+    19,
+    20,
+    21
+   ],
+   "reason": "Tight fiscal policy combined with undervalued currencies generates external surpluses.",
+   "excerpt_para": 19,
+   "id": "C4",
+   "level": "L4"
+  },
+  {
+   "excerpt": "Their external surpluses don’t fit easily into a global narrative where imbalances stem primarily from differences in national fiscal policy.",
+   "claim": "Japan and China run loose fiscal policies yet keep surpluses, so fiscal differences alone cannot explain Asian imbalances.",
+   "role": "case_type",
+   "explicit": true,
+   "kind": "none",
+   "claim_type": "none",
+   "paragraphs": [
+    16,
+    22,
+    23
+   ],
+   "reason": "A surplus despite fiscal deficits points to excess private saving.",
+   "excerpt_para": 22,
+   "id": "C5",
+   "level": "L4"
+  },
+  {
+   "excerpt": "Countries with 12 percent of GDP fiscal deficits usually run large external deficits.",
+   "claim": "Very large fiscal deficits normally produce large external deficits.",
+   "role": "stated_assumption",
+   "explicit": true,
+   "kind": "none",
+   "claim_type": "none",
+   "paragraphs": [
+    26
+   ],
+   "reason": "Public dissaving usually spills into external borrowing.",
+   "excerpt_para": 26,
+   "id": "P2",
+   "level": "L1"
+  },
+  {
+   "excerpt": "Contrary to most forecasts, China is once again running a substantial current account surplus.",
+   "claim": "Forecasts expected China's surplus to fade, yet it is back near $200-250 billion despite a 12% of GDP augmented fiscal deficit.",
+   "role": "anomaly",
+   "explicit": true,
+   "kind": "none",
+   "claim_type": "none",
+   "paragraphs": [
+    25,
+    26
+   ],
+   "reason": "A surplus that persists against the forecast signals a missing driver.",
+   "excerpt_para": 25,
+   "id": "ANOM",
+   "level": "L0"
+  },
+  {
+   "excerpt": "more accurate measures of the tourism deficit would put the surplus at around $250 billion",
+   "claim": "Mismeasured tourism imports understate China's surplus; true figure nearer $250 billion than $200 billion.",
+   "role": "mechanism",
+   "explicit": true,
+   "kind": "distortion",
+   "claim_type": "none",
+   "paragraphs": [
+    25
+   ],
+   "reason": "Overstated service imports shrink a reported surplus.",
+   "excerpt_para": 25,
+   "id": "M2",
+   "level": "L3"
+  },
+  {
+   "excerpt": "the augmented deficit includes the quasi fiscal borrowing of local investment vehicles",
+   "claim": "Measuring China's fiscal deficit to include local investment vehicles' borrowing gives about 12% of GDP rather than 3-5%.",
+   "role": "scope_choice",
+   "explicit": true,
+   "kind": "none",
+   "claim_type": "none",
+   "paragraphs": [
+    25
+   ],
+   "reason": "Off-budget quasi-fiscal borrowing belongs in the true fiscal stance.",
+   "excerpt_para": 25,
+   "id": "SCP",
+   "level": "L1B"
+  },
+  {
+   "excerpt": "China saves way too much. In fact, China still saves about two times as much as a typical large economy",
+   "claim": "China's surplus persists because it saves far too much; the raw material for a much larger surplus exists.",
+   "role": "intermediate_claim",
+   "explicit": true,
+   "kind": "none",
+   "claim_type": "none",
+   "paragraphs": [
+    27,
+    32
+   ],
+   "reason": "External balance equals national saving minus investment.",
+   "excerpt_para": 27,
+   "id": "C3",
+   "level": "L4"
+  },
+  {
+   "excerpt": "Today it is saving close to $6 trillion a year—it wouldn’t be hard to get a $600b current account surplus out of that kind of savings.",
+   "claim": "East Asian saving stays near 40% of GDP; China saves 44% of GDP (down from 51%) but its share of East Asia rose from 49% to 72%; Chinese saving rose from $2 trillion to about $6 trillion a year.",
+   "role": "evidence_data",
+   "explicit": true,
+   "kind": "none",
+   "claim_type": "none",
+   "paragraphs": [
+    29,
+    30,
+    31,
+    33
+   ],
+   "reason": "Saving levels set an upper bound on potential external surpluses.",
+   "excerpt_para": 33,
+   "id": "E2",
+   "level": "L2"
+  },
+  {
+   "excerpt": "The only thing preventing that high savings rate from turning into a much larger current account surplus is China’s large augmented fiscal deficit",
+   "claim": "China's quasi-fiscal borrowing and public investment absorb its excess saving; withdraw them and the surplus surges.",
+   "role": "mechanism",
+   "explicit": true,
+   "kind": "economic",
+   "claim_type": "none",
+   "paragraphs": [
+    32,
+    34
+   ],
+   "reason": "Public dissaving can offset private oversaving and hold down an external surplus.",
+   "excerpt_para": 32,
+   "id": "M3",
+   "level": "L3"
+  },
+  {
+   "excerpt": "",
+   "claim": "China's fiscal and credit stimulus cannot be kept up indefinitely, so the offset to high saving will eventually shrink.",
+   "role": "hidden_assumption",
+   "explicit": false,
+   "kind": "none",
+   "claim_type": "none",
+   "paragraphs": [
+    34,
+    35
+   ],
+   "reason": "Debt-financed adjustment unwinds when the borrowing becomes unsustainable.",
+   "excerpt_para": null,
+   "id": "P4",
+   "level": "L1"
+  },
+  {
+   "excerpt": "China’s import growth has collapsed—imports are falling in nominal terms, and at best flat in real terms.",
+   "claim": "Modest 2019 stimulus (flat credit impulse per UBS), the 2018 tightening and the trade war collapsed imports and pushed China's surplus up.",
+   "role": "evidence_data",
+   "explicit": true,
+   "kind": "none",
+   "claim_type": "none",
+   "paragraphs": [
+    36,
+    37
+   ],
+   "reason": "Weaker domestic demand cuts imports and widens a surplus.",
+   "excerpt_para": 36,
+   "id": "E3",
+   "level": "L2"
+  },
+  {
+   "excerpt": "the fall off in new investment in manufacturing associated with the trade war has contributed (ironically) to the rise in China’s surplus.",
+   "claim": "The trade war cut Chinese manufacturing investment, which raised rather than lowered China's surplus.",
+   "role": "mechanism",
+   "explicit": true,
+   "kind": "economic",
+   "claim_type": "none",
+   "paragraphs": [
+    37
+   ],
+   "reason": "Lower investment with unchanged saving raises the external surplus.",
+   "excerpt_para": 37,
+   "id": "M4",
+   "level": "L3"
+  },
+  {
+   "excerpt": "A more sustainable adjustment requires policies that raise household income and reduce savings—basically more progressive tax policies and a much bigger system of social insurance",
+   "claim": "China should cut household saving with progressive taxes and a bigger social insurance system.",
+   "role": "recommendation",
+   "explicit": true,
+   "kind": "none",
+   "claim_type": "none",
+   "paragraphs": [
+    34
+   ],
+   "reason": "Durable rebalancing requires lower private saving, not more public borrowing.",
+   "excerpt_para": 34,
+   "id": "REC",
+   "level": "L5"
+  },
+  {
+   "excerpt": "The current “flow” deficit in the United States external accounts isn’t obviously unsustainable.",
+   "claim": "The U.S. current account deficit stays under 3% of GDP and external debt is stable because interest (2%) is below nominal growth (4%).",
+   "role": "caveat",
+   "explicit": true,
+   "kind": "none",
+   "claim_type": "none",
+   "paragraphs": [
+    38
+   ],
+   "reason": "Debt ratios stay stable when the interest rate is below the growth rate.",
+   "excerpt_para": 38,
+   "id": "QF2",
+   "level": "L6"
+  },
+  {
+   "excerpt": "At 45 percent of U.S. GDP, it is actually quite large relative to the United States’ limited export base.",
+   "claim": "U.S. net external debt is 45% of GDP, triple its level of twenty years ago, against a non-commodity export base of only about 8% of GDP.",
+   "role": "evidence_data",
+   "explicit": true,
+   "kind": "none",
+   "claim_type": "none",
+   "paragraphs": [
+    39,
+    40,
+    41
+   ],
+   "reason": "External debt is best judged relative to the export base that services it.",
+   "excerpt_para": 39,
+   "id": "E4",
+   "level": "L2"
+  },
+  {
+   "excerpt": "Especially if you assume that the United States won’t be a long-run exporter of energy",
+   "claim": "The U.S. will not remain a long-run net energy exporter.",
+   "role": "stated_assumption",
+   "explicit": true,
+   "kind": "none",
+   "claim_type": "none",
+   "paragraphs": [
+    39
+   ],
+   "reason": "Strong domestic demand and slow decarbonisation limit energy export capacity.",
+   "excerpt_para": 39,
+   "id": "P3",
+   "level": "L1"
+  },
+  {
+   "excerpt": "Trump or no Trump. that at some point will limit its ability to take the other side of the world’s saving surpluses.",
+   "claim": "With surpluses in Europe and China likely to grow and U.S. debt capacity limited, imbalances may worsen and then force painful adjustment.",
+   "role": "main_claim",
+   "explicit": true,
+   "kind": "none",
+   "claim_type": "single",
+   "paragraphs": [
+    9,
+    35,
+    42
+   ],
+   "reason": "Rising debt eventually caps a deficit country's ability to absorb others' excess saving.",
+   "excerpt_para": 42,
+   "id": "K",
+   "level": "L5"
+  },
+  {
+   "excerpt": "they want the euro area to continue to tighten but only by a bit, while the US would tighten by a lot",
+   "claim": "The IMF's plan puts most adjustment on U.S. fiscal tightening with little from the euro area.",
+   "role": "opposing_view",
+   "explicit": true,
+   "kind": "none",
+   "claim_type": "none",
+   "paragraphs": [
+    43
+   ],
+   "reason": "Symmetric fiscal balance norms push adjustment onto deficit countries.",
+   "excerpt_para": 43,
+   "id": "X2",
+   "level": "L6"
+  },
+  {
+   "excerpt": "the new MD may want to question whether the long-term fiscal norm for most countries should be fiscal balance.",
+   "claim": "The new IMF managing director should question fiscal balance as the long-term norm.",
+   "role": "recommendation",
+   "explicit": true,
+   "kind": "none",
+   "claim_type": "none",
+   "paragraphs": [
+    43
+   ],
+   "reason": "With global saving in excess, a universal fiscal balance target is contractionary.",
+   "excerpt_para": 43,
+   "id": "REC2",
+   "level": "L5"
+  }
+ ],
+ "review": [
+  "`E5` the name `fdi` does not occur in the article",
+  "29 boxes, more than any hand-drawn map (24)"
+ ],
+ "gaps_left": [],
+ "dropped": [],
+ "fix_rounds": 0,
+ "reasks": 0
+}

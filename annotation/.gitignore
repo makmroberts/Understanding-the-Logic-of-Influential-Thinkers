@@ -1,0 +1,17 @@
+# Article text and HTML caches stay local, as in the team repo.
+kb/internal/
+# The Obsidian vault is versioned, as on main; only per-user window state stays local.
+kb/obsidian/.obsidian/workspace.json
+kb/obsidian/.obsidian/workspace-mobile.json
+# articles/ IS versioned: the official runs are the source the knowledge base's model-mapped
+# rows are rebuilt from, as kb/mermaid_code/ is for the hand-drawn ones. They hold short
+# quotes (a sentence or two), as the hand-drawn maps do, never the full text.
+# cache/ IS versioned too: with the saved answers anyone can replay the official runs without
+# a key, at no cost, and get the same output.
+
+# Run state and secrets.
+/runs/
+*.sqlite
+.env
+__pycache__/
+*.egg-info/

@@ -1,0 +1,90 @@
+---
+config:
+  layout: elk
+  theme: dark
+  themeVariables:
+    lineColor: "#D3D1C7"
+    clusterBkg: "#262624"
+    clusterBorder: "#5F5E5A"
+    titleColor: "#F1EFE8"
+    edgeLabelBackground: "#2C2C2A"
+  flowchart:
+    wrappingWidth: 170
+    nodeSpacing: 25
+    rankSpacing: 45
+---
+flowchart TD
+  subgraph L0["Level 0 · Question"]
+    Q["<b>Question</b><br/>What problem is the author answering?"]
+  end
+
+  subgraph L1["Level 1 · Priors & assumptions"]
+    P1["<b>Stated assumption</b><br/>What they openly take as given"]
+    P2["<b>Hidden assumption</b><br/><i>Never stated, but the argument depends on it</i>"]
+  end
+
+  subgraph L2["Level 2 · Evidence"]
+    E1["<b>Data</b><br/>Numbers and charts they cite"]
+    E2["<b>Studies & sources</b><br/>Research or experts they cite"]
+  end
+
+  subgraph L3["Level 3 · Mechanisms"]
+    M1["<b>Mechanism A</b><br/>How one thing causes another"]
+    M2["<b>Mechanism B</b><br/>A second causal channel"]
+  end
+
+  subgraph L4["Level 4 · Intermediate claims"]
+    C1["<b>Intermediate claim</b><br/>What the mechanisms add up to"]
+  end
+
+  subgraph L5["Level 5 · Conclusion"]
+    K["<b>Main claim</b><br/>The author's conclusion"]
+  end
+
+  subgraph L6["Level 6 · Counterpoints"]
+    X["<b>Opposing view</b><br/>What they argue against"]
+    QF["<b>Caveat</b><br/>Where the claim may not hold"]
+    R1["<b>Other explanation</b><br/>Rival causes they admit"]
+  end
+
+  subgraph REF["Based on"]
+    F1["<b>Toulmin (1958)</b><br/>Hidden rules and counterpoints"]
+    F2["<b>Axelrod (1976)</b><br/>Cause-and-effect maps"]
+    F3["<b>Walton, Reed & Macagno (2008)</b><br/>Types of arguments"]
+    F4["<b>Andre et al. (2026)</b><br/>Economic stories as causal graphs"]
+  end
+
+  P1 --> M1
+  E1 --> M1
+  E2 --> M2
+  M1 --> C1
+  M2 --> C1
+  P2 -->|rule behind it| C1
+  C1 --> K
+
+  K -.->|pushes back on| X
+  K -. caveat .- QF
+  M2 -. other explanation .- R1
+
+  Q ~~~ P1 & P2
+  P1 ~~~ E1
+  P2 ~~~ E2
+  X ~~~ F1 & F2 & F3 & F4
+
+  classDef prior fill:#3C3489,stroke:#AFA9EC,color:#EEEDFE
+  classDef unstated fill:#3C3489,stroke:#AFA9EC,color:#EEEDFE,stroke-dasharray:5 4
+  classDef data fill:#0C447C,stroke:#85B7EB,color:#E6F1FB
+  classDef mech fill:#085041,stroke:#5DCAA5,color:#E1F5EE
+  classDef main fill:#085041,stroke:#9FE1CB,color:#E1F5EE,stroke-width:3px
+  classDef dia fill:#444441,stroke:#B4B2A9,color:#F1EFE8
+  classDef ref fill:#2C2C2A,stroke:#888780,color:#D3D1C7
+  classDef question fill:#2C2C2A,stroke:#F1EFE8,color:#F1EFE8
+  class P1 prior
+  class P2 unstated
+  class E1,E2 data
+  class M1,M2,C1 mech
+  class K main
+  class X,QF,R1 dia
+  class Q question
+  class F1,F2,F3,F4 ref
+  linkStyle 7,8,9 stroke:#B4B2A9,color:#D3D1C7,stroke-dasharray:6 4

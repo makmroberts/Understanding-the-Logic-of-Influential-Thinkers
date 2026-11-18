@@ -1,0 +1,22 @@
+# Install into a venv outside OneDrive, then run `python -m annotate ...` from this folder:
+#   py -3.12 -m venv C:\Users\<you>\envs\annotation
+#   C:\Users\<you>\envs\annotation\Scripts\pip install -e .
+# Versions are pinned: LangGraph releases several times a month.
+[project]
+name = "annotate"
+version = "0.1.0"
+requires-python = ">=3.11"
+dependencies = [
+  "pydantic==2.14.2",
+  "openai==3.45.0",
+  "langgraph==1.2.19",
+  "langgraph-checkpoint-sqlite==3.1.3",
+  "PyYAML==6.0.3",
+]
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]

@@ -1,0 +1,216 @@
+{
+ "result": [
+  {
+   "from": "Q",
+   "relation": "frames",
+   "to": "P1",
+   "sign": 0
+  },
+  {
+   "from": "Q",
+   "relation": "frames",
+   "to": "P4",
+   "sign": 0
+  },
+  {
+   "from": "Q",
+   "relation": "frames",
+   "to": "P2",
+   "sign": 0
+  },
+  {
+   "from": "Q",
+   "relation": "frames",
+   "to": "P3",
+   "sign": 0
+  },
+  {
+   "from": "P1",
+   "relation": "frames",
+   "to": "E1",
+   "sign": 0
+  },
+  {
+   "from": "E1",
+   "relation": "supports",
+   "to": "C1",
+   "sign": 1
+  },
+  {
+   "from": "P1",
+   "relation": "supports",
+   "to": "C1",
+   "sign": 1
+  },
+  {
+   "from": "SC",
+   "relation": "supports",
+   "to": "C1",
+   "sign": 1
+  },
+  {
+   "from": "E4",
+   "relation": "supports",
+   "to": "C1",
+   "sign": 1
+  },
+  {
+   "from": "E2",
+   "relation": "supports",
+   "to": "M1",
+   "sign": 1
+  },
+  {
+   "from": "M1",
+   "relation": "supports",
+   "to": "C1",
+   "sign": 1
+  },
+  {
+   "from": "C1",
+   "relation": "rebuts",
+   "to": "X",
+   "sign": -1
+  },
+  {
+   "from": "C1",
+   "relation": "rebuts",
+   "to": "X2",
+   "sign": -1
+  },
+  {
+   "from": "E3",
+   "relation": "supports",
+   "to": "M2",
+   "sign": 1
+  },
+  {
+   "from": "M2",
+   "relation": "supports",
+   "to": "K",
+   "sign": 1
+  },
+  {
+   "from": "M2",
+   "relation": "undercut_by",
+   "to": "R1",
+   "sign": -1
+  },
+  {
+   "from": "ANOM",
+   "relation": "motivates",
+   "to": "K",
+   "sign": 1
+  },
+  {
+   "from": "P2",
+   "relation": "supports",
+   "to": "C2",
+   "sign": 1
+  },
+  {
+   "from": "E3",
+   "relation": "supports",
+   "to": "C2",
+   "sign": 1
+  },
+  {
+   "from": "C2",
+   "relation": "supports",
+   "to": "K",
+   "sign": 1
+  },
+  {
+   "from": "C2",
+   "relation": "qualified_by",
+   "to": "QF2",
+   "sign": -1
+  },
+  {
+   "from": "P4",
+   "relation": "licenses",
+   "to": "K",
+   "sign": 1
+  },
+  {
+   "from": "K",
+   "relation": "rebuts",
+   "to": "X3",
+   "sign": -1
+  },
+  {
+   "from": "BM",
+   "relation": "licenses",
+   "to": "REC",
+   "sign": 1
+  },
+  {
+   "from": "M3",
+   "relation": "supports",
+   "to": "C3",
+   "sign": 1
+  },
+  {
+   "from": "C3",
+   "relation": "supports",
+   "to": "K",
+   "sign": 1
+  },
+  {
+   "from": "C4",
+   "relation": "supports",
+   "to": "K",
+   "sign": 1
+  },
+  {
+   "from": "C4",
+   "relation": "rebuts",
+   "to": "X",
+   "sign": -1
+  },
+  {
+   "from": "P3",
+   "relation": "licenses",
+   "to": "K",
+   "sign": 1
+  },
+  {
+   "from": "C1",
+   "relation": "supports",
+   "to": "K",
+   "sign": 1
+  },
+  {
+   "from": "K",
+   "relation": "motivates",
+   "to": "REC",
+   "sign": 1
+  },
+  {
+   "from": "REC",
+   "relation": "qualified_by",
+   "to": "QF",
+   "sign": -1
+  },
+  {
+   "from": "K",
+   "relation": "qualified_by",
+   "to": "QF3",
+   "sign": -1
+  },
+  {
+   "from": "REC",
+   "relation": "rebuts",
+   "to": "X2",
+   "sign": -1
+  }
+ ],
+ "review": [
+  "`ANOM` motivates `K` joins L0→L5, which no hand-drawn motivates link does",
+  "`BM` licenses `REC` joins L1B→L5, which no hand-drawn licenses link does"
+ ],
+ "gaps_left": [],
+ "dropped": [],
+ "fix_rounds": 0,
+ "reasks": 0
+}

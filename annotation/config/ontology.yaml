@@ -1,0 +1,276 @@
+# The argument vocabulary the pipeline extracts against. The code reads roles, relations,
+# ID rules and level order from this file, so a new ontology means a new file, not new code.
+#
+# Sources:
+#   kb/mermaid_code/second_flow_template.mmd          slot IDs, levels, one-line definitions
+#   .claude/skills/predict-vs-actual/CODEBOOK.md      definitions and boundaries
+#   proposed_architecture/config/proposed_ontology.yaml (commit da38b19)   role and relation IDs, signs
+#   WORKED_EXAMPLE.md on origin/feat/worked_examples  how annotators actually cut an article
+# The role and relation IDs equal kb/scripts/schema_map.yaml, so model output loads into the
+# knowledge base unchanged. The generic `counterpoint` exists in the data only as a parser
+# fallback; the model is never offered it.
+
+id: setser_argument
+version: 2
+# v2 (2026-11-09), measured on the 5 practice articles before it was frozen. Changes from v1:
+#   stated_assumption  a general premise applied in passing; premise and applied result are two boxes
+#   mechanism          a channel stated next to figures is still its own box
+#   intermediate_claim boundary added: reached on the way to the main claim; one per separate point
+#   main_claim         only the final conclusion
+# Settings changed with it: a second worked example, facets reasoning low, model claude-opus-5.5.
+
+levels: [L0, L1, L1B, L2, L3, L4, L5, L6]      # reading order; links run forward through it
+
+# name: the header a box gets in the knowledge base, as on the template.
+# id: the slot ID a box gets. A fixed ID repeats as K2, X2 ...; a group shares one counter in
+# the order the boxes are listed here, as the hand-drawn maps do (P1, P2, P3; E1, E2; M1, M2).
+roles:
+  question:
+    name: Question
+    level: L0
+    id: Q
+    definition: The problem the article sets out to answer, in one sentence.
+    boundary: >-
+      Not the title. Usually the sentence the article turns on, restated as a question.
+      If the article never poses one, infer it and mark it not explicit.
+  position_map:
+    name: Position map
+    level: L0
+    id: POS
+    definition: Named actors and what each claimed, before the author weighs in.
+    boundary: Needs at least two identified positions. One opposing view is opposing_view.
+  anomaly:
+    name: Anomaly
+    level: L0
+    id: ANOM
+    definition: A specific prediction that failed, used as the starting point.
+    boundary: Only when a named forecast is shown to be wrong. General surprise is not an anomaly.
+
+  stated_assumption:
+    name: Stated assumption
+    level: L1
+    group: P
+    definition: Something the author openly takes as given and does not argue for.
+    boundary: >-
+      Usually a general economic premise or rule of thumb he applies in passing, such as "import
+      bills must ultimately be covered by income or borrowing" or "dollar moves take years to
+      fully affect trade". When the article states such a premise and then applies it, make two
+      boxes: the premise here, the applied result as a mechanism or intermediate claim. If he
+      argues for it, it is evidence or a claim, not an assumption.
+  hidden_assumption:
+    name: Hidden assumption
+    level: L1
+    group: P
+    definition: A premise the argument needs but the author never states.
+    boundary: >-
+      Test: remove it and a step collapses. It is the general rule behind a step, never a
+      quotation; the paragraph it presupposes is the closest place it surfaces.
+  revised_prior:
+    name: Revised prior
+    level: L1
+    group: P
+    definition: A belief the author states and marks as wrong.
+    boundary: >-
+      First-person and explicit ("I was surprised", "I thought"). Someone else being wrong is
+      position_map or opposing_view.
+  accounting_identity:
+    name: Accounting identity
+    level: L1
+    id: ID
+    definition: A balance that must hold by definition, doing work in the argument.
+    boundary: Only when stated. An identity used silently is a hidden assumption.
+  source_credibility:
+    name: Source credibility
+    level: L1
+    id: SC
+    definition: A prior about whoever produced the data, not about the economics.
+    boundary: Doubting a number is evidence. Doubting the producer is this role.
+
+  scope_choice:
+    name: Scope choice
+    level: L1B
+    id: SCP
+    definition: A definitional decision that changes the verdict.
+    boundary: Only when stated and consequential - which categories, which baseline, what is excluded.
+  benchmark:
+    name: Benchmark
+    level: L1B
+    id: BM
+    definition: An external target the evidence is measured against, set by someone else.
+    boundary: Must be external and specific. The author's own expectation is an assumption.
+
+  evidence_data:
+    name: Data
+    level: L2
+    group: E
+    definition: Numbers and charts cited in support.
+    boundary: >-
+      Gather the figures that make one point into ONE box. A number that is a consequence of
+      the mechanism belongs with the claim it supports.
+  evidence_source:
+    name: Studies and sources
+    level: L2
+    group: E
+    definition: Research, reports or named experts cited.
+    boundary: Self-citation lands here.
+  evidence_rival:
+    name: Rival measurement
+    level: L2
+    group: E
+    definition: A second series measuring the same quantity.
+    boundary: Needs two series of the same thing. Two different indicators are just data.
+  evidence_discrepancy:
+    name: Discrepancy
+    level: L2
+    group: E
+    definition: The gap between rival measurements, treated as the finding itself.
+    boundary: Requires a rival measurement.
+
+  mechanism:
+    name: Mechanism
+    level: L3
+    group: M
+    definition: A causal channel - how one thing produces another.
+    boundary: >-
+      kind economic = a channel in the world; kind distortion = how a statistic gets
+      misstated. One kind per box. A channel stated next to figures is still its own
+      mechanism box: the figures go in the data box, the "because" goes here.
+    attributes:
+      kind: [economic, distortion]
+
+  intermediate_claim:
+    name: Intermediate claim
+    level: L4
+    group: C
+    definition: What the mechanisms add up to, short of the conclusion.
+    boundary: >-
+      A conclusion the author reaches on the way to the main claim, usually what evidence
+      and mechanisms add up to. Not a general rule he takes as given (that is an
+      assumption) and not the final conclusion (that is the main claim). When an article
+      makes several separate points, each point is usually its own intermediate claim.
+  case_type:
+    name: Case type
+    level: L4
+    group: C
+    definition: A branch, where the argument sorts cases rather than converging.
+    boundary: Needs at least two types with different consequences.
+  policy_reductio:
+    name: Policy reductio
+    level: L4
+    group: C
+    definition: Someone's proposal run to a consequence they would reject.
+    boundary: Must be a proposal the author did not make. Criticising an argument is opposing_view.
+
+  main_claim:
+    name: Main claim
+    level: L5
+    id: K
+    definition: The author's conclusion.
+    boundary: >-
+      Only the final conclusion; a conclusion reached on the way to it is an intermediate claim.
+      claim_type single = one claim; enumerated = several parallel; typology = the
+      classification is the answer; unresolved = explicitly declines to choose.
+    attributes:
+      claim_type: [single, enumerated, typology, unresolved]
+  reconstruction:
+    name: Reconstruction
+    level: L5
+    id: RC
+    definition: A replacement quantity built after showing the official one is wrong.
+    boundary: Requires a rejected measure. An estimate with no rejected counterpart is data.
+  recommendation:
+    name: Recommendation
+    level: L5
+    id: REC
+    definition: A normative "should", separate from the claim.
+    boundary: Must be addressed to someone. "This matters" is not a recommendation.
+
+  opposing_view:
+    name: Opposing view
+    level: L6
+    id: X
+    definition: The position the author argues against.
+    boundary: May appear anywhere in the text, including the opening.
+  caveat:
+    name: Caveat
+    level: L6
+    id: QF
+    definition: Where the author concedes the claim may not hold.
+    boundary: Must be the author's own concession.
+  other_explanation:
+    name: Other explanation
+    level: L6
+    group: R
+    definition: A rival cause the author admits but does not adopt.
+    boundary: If he adopts it, it is a mechanism.
+  deferred_question:
+    name: Deferred question
+    level: L6
+    id: DF
+    definition: A question explicitly postponed.
+    boundary: Needs explicit postponement - "for a future post", "too early to tell".
+
+# A link reads "<from> <relation> <to>". sign is argumentative (+1 backs, -1 pushes back,
+# 0 neither), never causal. `seen` lists the level pairs (from>to) this relation joins in
+# the 472 hand-drawn links; a model link outside that list is flagged for a person, not
+# rejected, because the maps themselves contain rare pairs (for example 6 L4>L3 supports).
+relations:
+  supports:
+    sign: 1
+    meaning: <from> gives a reason to accept <to>.
+    seen: [L0>L0, L1>L2, L1>L3, L1>L4, L1>L5, L2>L2, L2>L3, L2>L4, L2>L5, L3>L3, L3>L4, L3>L5, L4>L3, L4>L4, L4>L5]
+  licenses:
+    sign: 1
+    meaning: <from> is the rule behind the step to <to>; without it the step is invalid.
+    seen: [L1>L3, L1>L4, L1>L5, L1B>L4, L3>L5]
+  bounds:
+    sign: 1
+    meaning: <from> fixes how <to> is measured or what it is compared against.
+    seen: [L1B>L1B, L1B>L2]
+  motivates:
+    sign: 1
+    meaning: <from> is the reason <to> is raised or proposed.
+    seen: [L0>L0, L5>L5]
+  reconstructs:
+    sign: 1
+    meaning: <from> leads to <to>, a replacement for a quantity shown to be wrong.
+    seen: [L5>L5]
+  revises:
+    sign: -1
+    meaning: <from> is a belief the author admits was wrong; <to> is the assumption that admission bears on.
+    seen: [L1>L1]
+  rebuts:
+    sign: -1
+    meaning: <from> argues directly against <to>.
+    seen: [L4>L6, L5>L6]
+  qualified_by:
+    sign: -1
+    meaning: <to> limits where <from> holds; <to> is the caveat.
+    seen: [L2>L6, L4>L6, L5>L6]
+  undercut_by:
+    sign: -1
+    meaning: <to> weakens <from> without refuting it; <to> is the rival cause or offsetting force.
+    seen: [L1>L2, L1>L3, L3>L6, L4>L6]
+  defers:
+    sign: 0
+    meaning: <from> explicitly sets <to> aside for later.
+    seen: [L5>L6]
+  frames:
+    sign: 0
+    meaning: <from> sets up <to> without arguing for it - the question setting up a prior, or a prior setting up the evidence it makes relevant.
+    seen: [L0>L1, L1>L2]
+
+# Every hand-drawn box except a few questions takes part in at least one link (367 of 373).
+# A model box left unlinked gets one targeted re-ask.
+linked_exempt: [question]
+
+# How finely an article is cut, from the annotator's hand-written reading pass of the worked
+# example. The box-count range is measured from the hand-drawn maps at run time.
+granularity:
+  rules:
+    - One box per move in the argument, written as one sentence in your own words.
+    - Gather the figures that make one point into one evidence_data box; do not make one box per number.
+    - Connective paragraphs and background illustrations of the premise get no box of their own; the premise belongs in the question.
+    - Cite every paragraph a box draws on, not only the best one.
+    - Read the figures and the references too - much of the evidence is in charts and cited work.
+    - Do not add a box the article does not support. Leaving a role empty is a valid answer.

@@ -1,0 +1,760 @@
+{
+ "result": [
+  {
+   "doc": "setser_2025-09-12_trump-shock-that-wasnt",
+   "node_id": "Q",
+   "facet": "variable",
+   "value": "import-volumes",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2025-09-12_trump-shock-that-wasnt",
+   "node_id": "Q",
+   "facet": "variable",
+   "value": "tariff-rate",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2025-09-12_trump-shock-that-wasnt",
+   "node_id": "Q",
+   "facet": "instrument",
+   "value": "tariffs",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2025-09-12_trump-shock-that-wasnt",
+   "node_id": "Q",
+   "facet": "country",
+   "value": "us",
+   "role": "subject",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2025-09-12_trump-shock-that-wasnt",
+   "node_id": "C1",
+   "facet": "variable",
+   "value": "tariff-rate",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2025-09-12_trump-shock-that-wasnt",
+   "node_id": "C1",
+   "facet": "instrument",
+   "value": "tariffs",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2025-09-12_trump-shock-that-wasnt",
+   "node_id": "C1",
+   "facet": "country",
+   "value": "us",
+   "role": "subject",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2025-09-12_trump-shock-that-wasnt",
+   "node_id": "E1",
+   "facet": "variable",
+   "value": "tariff-rate",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2025-09-12_trump-shock-that-wasnt",
+   "node_id": "E1",
+   "facet": "instrument",
+   "value": "tariffs",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2025-09-12_trump-shock-that-wasnt",
+   "node_id": "E1",
+   "facet": "country",
+   "value": "us",
+   "role": "subject",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2025-09-12_trump-shock-that-wasnt",
+   "node_id": "E2",
+   "facet": "variable",
+   "value": "goods-trade-balance",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2025-09-12_trump-shock-that-wasnt",
+   "node_id": "E2",
+   "facet": "variable",
+   "value": "import-volumes",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2025-09-12_trump-shock-that-wasnt",
+   "node_id": "E2",
+   "facet": "data_basis",
+   "value": "customs",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2025-09-12_trump-shock-that-wasnt",
+   "node_id": "E2",
+   "facet": "country",
+   "value": "us",
+   "role": "subject",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2025-09-12_trump-shock-that-wasnt",
+   "node_id": "M1",
+   "facet": "variable",
+   "value": "import-volumes",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2025-09-12_trump-shock-that-wasnt",
+   "node_id": "M1",
+   "facet": "variable",
+   "value": "inventories",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2025-09-12_trump-shock-that-wasnt",
+   "node_id": "M1",
+   "facet": "country",
+   "value": "us",
+   "role": "subject",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2025-09-12_trump-shock-that-wasnt",
+   "node_id": "SCP",
+   "facet": "variable",
+   "value": "import-volumes",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2025-09-12_trump-shock-that-wasnt",
+   "node_id": "SCP",
+   "facet": "data_basis",
+   "value": "customs",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2025-09-12_trump-shock-that-wasnt",
+   "node_id": "SCP",
+   "facet": "country",
+   "value": "us",
+   "role": "subject",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2025-09-12_trump-shock-that-wasnt",
+   "node_id": "P2",
+   "facet": "variable",
+   "value": "import-volumes",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2025-09-12_trump-shock-that-wasnt",
+   "node_id": "P2",
+   "facet": "country",
+   "value": "us",
+   "role": "subject",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2025-09-12_trump-shock-that-wasnt",
+   "node_id": "E3",
+   "facet": "variable",
+   "value": "bilateral-trade-flows",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2025-09-12_trump-shock-that-wasnt",
+   "node_id": "E3",
+   "facet": "data_basis",
+   "value": "customs",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2025-09-12_trump-shock-that-wasnt",
+   "node_id": "E3",
+   "facet": "country",
+   "value": "us",
+   "role": "subject",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2025-09-12_trump-shock-that-wasnt",
+   "node_id": "E3",
+   "facet": "country",
+   "value": "china",
+   "role": "counterpart",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2025-09-12_trump-shock-that-wasnt",
+   "node_id": "M2",
+   "facet": "variable",
+   "value": "bilateral-trade-flows",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2025-09-12_trump-shock-that-wasnt",
+   "node_id": "M2",
+   "facet": "instrument",
+   "value": "tariffs",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2025-09-12_trump-shock-that-wasnt",
+   "node_id": "M2",
+   "facet": "country",
+   "value": "us",
+   "role": "subject",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2025-09-12_trump-shock-that-wasnt",
+   "node_id": "M2",
+   "facet": "bloc",
+   "value": "southeast-asia",
+   "role": "counterpart",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2025-09-12_trump-shock-that-wasnt",
+   "node_id": "E4",
+   "facet": "variable",
+   "value": "import-volumes",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2025-09-12_trump-shock-that-wasnt",
+   "node_id": "E4",
+   "facet": "instrument",
+   "value": "tariffs",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2025-09-12_trump-shock-that-wasnt",
+   "node_id": "E4",
+   "facet": "country",
+   "value": "us",
+   "role": "subject",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2025-09-12_trump-shock-that-wasnt",
+   "node_id": "M3",
+   "facet": "variable",
+   "value": "investment-capex",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2025-09-12_trump-shock-that-wasnt",
+   "node_id": "M3",
+   "facet": "variable",
+   "value": "import-volumes",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2025-09-12_trump-shock-that-wasnt",
+   "node_id": "M3",
+   "facet": "country",
+   "value": "us",
+   "role": "subject",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2025-09-12_trump-shock-that-wasnt",
+   "node_id": "M3",
+   "facet": "country",
+   "value": "taiwan",
+   "role": "counterpart",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2025-09-12_trump-shock-that-wasnt",
+   "node_id": "C2",
+   "facet": "variable",
+   "value": "trade-openness",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2025-09-12_trump-shock-that-wasnt",
+   "node_id": "C2",
+   "facet": "bloc",
+   "value": "global",
+   "role": "subject",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2025-09-12_trump-shock-that-wasnt",
+   "node_id": "C3",
+   "facet": "variable",
+   "value": "tariff-revenue",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2025-09-12_trump-shock-that-wasnt",
+   "node_id": "C3",
+   "facet": "instrument",
+   "value": "tariffs",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2025-09-12_trump-shock-that-wasnt",
+   "node_id": "C3",
+   "facet": "country",
+   "value": "us",
+   "role": "subject",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2025-09-12_trump-shock-that-wasnt",
+   "node_id": "P1",
+   "facet": "variable",
+   "value": "trade-elasticity",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2025-09-12_trump-shock-that-wasnt",
+   "node_id": "P1",
+   "facet": "data_basis",
+   "value": "academic-econometrics",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2025-09-12_trump-shock-that-wasnt",
+   "node_id": "X",
+   "facet": "variable",
+   "value": "trade-elasticity",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2025-09-12_trump-shock-that-wasnt",
+   "node_id": "X",
+   "facet": "variable",
+   "value": "bilateral-trade-flows",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2025-09-12_trump-shock-that-wasnt",
+   "node_id": "X",
+   "facet": "instrument",
+   "value": "tariffs",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2025-09-12_trump-shock-that-wasnt",
+   "node_id": "X",
+   "facet": "data_basis",
+   "value": "academic-econometrics",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2025-09-12_trump-shock-that-wasnt",
+   "node_id": "X",
+   "facet": "country",
+   "value": "us",
+   "role": "subject",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2025-09-12_trump-shock-that-wasnt",
+   "node_id": "X",
+   "facet": "country",
+   "value": "china",
+   "role": "counterpart",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2025-09-12_trump-shock-that-wasnt",
+   "node_id": "E5",
+   "facet": "variable",
+   "value": "bilateral-trade-flows",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2025-09-12_trump-shock-that-wasnt",
+   "node_id": "E5",
+   "facet": "instrument",
+   "value": "tariffs",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2025-09-12_trump-shock-that-wasnt",
+   "node_id": "E5",
+   "facet": "country",
+   "value": "us",
+   "role": "subject",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2025-09-12_trump-shock-that-wasnt",
+   "node_id": "E5",
+   "facet": "country",
+   "value": "china",
+   "role": "counterpart",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2025-09-12_trump-shock-that-wasnt",
+   "node_id": "C4",
+   "facet": "variable",
+   "value": "import-volumes",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2025-09-12_trump-shock-that-wasnt",
+   "node_id": "C4",
+   "facet": "variable",
+   "value": "trade-elasticity",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2025-09-12_trump-shock-that-wasnt",
+   "node_id": "C4",
+   "facet": "instrument",
+   "value": "tariffs",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2025-09-12_trump-shock-that-wasnt",
+   "node_id": "C4",
+   "facet": "country",
+   "value": "us",
+   "role": "subject",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2025-09-12_trump-shock-that-wasnt",
+   "node_id": "M4",
+   "facet": "variable",
+   "value": "export-volumes",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2025-09-12_trump-shock-that-wasnt",
+   "node_id": "M4",
+   "facet": "instrument",
+   "value": "tariffs",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2025-09-12_trump-shock-that-wasnt",
+   "node_id": "M4",
+   "facet": "country",
+   "value": "us",
+   "role": "subject",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2025-09-12_trump-shock-that-wasnt",
+   "node_id": "QF",
+   "facet": "variable",
+   "value": "real-exchange-rate",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2025-09-12_trump-shock-that-wasnt",
+   "node_id": "QF",
+   "facet": "variable",
+   "value": "trade-elasticity",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2025-09-12_trump-shock-that-wasnt",
+   "node_id": "E6",
+   "facet": "variable",
+   "value": "import-volumes",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2025-09-12_trump-shock-that-wasnt",
+   "node_id": "E6",
+   "facet": "variable",
+   "value": "inventories",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2025-09-12_trump-shock-that-wasnt",
+   "node_id": "E6",
+   "facet": "data_basis",
+   "value": "customs",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2025-09-12_trump-shock-that-wasnt",
+   "node_id": "E6",
+   "facet": "country",
+   "value": "us",
+   "role": "subject",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2025-09-12_trump-shock-that-wasnt",
+   "node_id": "K",
+   "facet": "variable",
+   "value": "import-volumes",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2025-09-12_trump-shock-that-wasnt",
+   "node_id": "K",
+   "facet": "variable",
+   "value": "tariff-rate",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2025-09-12_trump-shock-that-wasnt",
+   "node_id": "K",
+   "facet": "instrument",
+   "value": "tariffs",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2025-09-12_trump-shock-that-wasnt",
+   "node_id": "K",
+   "facet": "country",
+   "value": "us",
+   "role": "subject",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2025-09-12_trump-shock-that-wasnt",
+   "node_id": "DF",
+   "facet": "variable",
+   "value": "import-volumes",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2025-09-12_trump-shock-that-wasnt",
+   "node_id": "DF",
+   "facet": "instrument",
+   "value": "tariffs",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2025-09-12_trump-shock-that-wasnt",
+   "node_id": "DF",
+   "facet": "country",
+   "value": "us",
+   "role": "subject",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2025-09-12_trump-shock-that-wasnt",
+   "node_id": "QF2",
+   "facet": "variable",
+   "value": "tariff-rate",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2025-09-12_trump-shock-that-wasnt",
+   "node_id": "QF2",
+   "facet": "variable",
+   "value": "import-volumes",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2025-09-12_trump-shock-that-wasnt",
+   "node_id": "QF2",
+   "facet": "instrument",
+   "value": "tariffs",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2025-09-12_trump-shock-that-wasnt",
+   "node_id": "QF2",
+   "facet": "country",
+   "value": "us",
+   "role": "subject",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2025-09-12_trump-shock-that-wasnt",
+   "node_id": "P3",
+   "facet": "variable",
+   "value": "tariff-rate",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2025-09-12_trump-shock-that-wasnt",
+   "node_id": "P3",
+   "facet": "variable",
+   "value": "import-volumes",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2025-09-12_trump-shock-that-wasnt",
+   "node_id": "P3",
+   "facet": "instrument",
+   "value": "tariffs",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2025-09-12_trump-shock-that-wasnt",
+   "node_id": "P3",
+   "facet": "country",
+   "value": "us",
+   "role": "subject",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2025-09-12_trump-shock-that-wasnt",
+   "node_id": "QF",
+   "facet": "country",
+   "value": "us",
+   "role": "subject",
+   "source": "inherited",
+   "model": ""
+  }
+ ],
+ "review": [
+  "`setser_2025-09-12_trump-shock-that-wasnt#P1` where_subject empty - every claim needs a country or a bloc (assignment.requires_one_of) - needs review",
+  "`setser_2025-09-12_trump-shock-that-wasnt#QF` where_subject empty - every claim needs a country or a bloc (assignment.requires_one_of) - needs review",
+  "`setser_2025-09-12_trump-shock-that-wasnt#QF` inherited its where-axis value from `C4` along `qualified_by` (['us']) - check this one"
+ ],
+ "gaps_left": [],
+ "dropped": [],
+ "fix_rounds": 0,
+ "reasks": 0
+}

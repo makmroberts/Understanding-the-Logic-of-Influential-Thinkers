@@ -1,0 +1,299 @@
+{
+ "nodes": [
+  {
+   "id": "setser_2020-10-05-Q",
+   "type": "file",
+   "file": "claims/question/Is China's bilateral trade surplus with the United States really back at a record level.md",
+   "x": -260,
+   "y": 0,
+   "width": 520,
+   "height": 300,
+   "color": "#7A6FA8"
+  },
+  {
+   "id": "setser_2020-10-05-P1",
+   "type": "file",
+   "file": "claims/stated_assumption/The bilateral data normally diverge predictably.md",
+   "x": -550,
+   "y": 480,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "setser_2020-10-05-P2",
+   "type": "file",
+   "file": "claims/stated_assumption/A break in a stable data relationship is informative.md",
+   "x": 30,
+   "y": 480,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "setser_2020-10-05-D1",
+   "type": "file",
+   "file": "claims/evidence_data/U.S. imports from China normally exceed China's reported exports to the U.S.md",
+   "x": -1130,
+   "y": 960,
+   "width": 520,
+   "height": 300,
+   "color": "#2F7FBF"
+  },
+  {
+   "id": "setser_2020-10-05-D2",
+   "type": "file",
+   "file": "claims/evidence_data/2020 pattern reverses.md",
+   "x": -550,
+   "y": 960,
+   "width": 520,
+   "height": 300,
+   "color": "#2F7FBF"
+  },
+  {
+   "id": "setser_2020-10-05-D3",
+   "type": "file",
+   "file": "claims/evidence_data/July comparison flips sign.md",
+   "x": 30,
+   "y": 960,
+   "width": 520,
+   "height": 300,
+   "color": "#2F7FBF"
+  },
+  {
+   "id": "setser_2020-10-05-D4",
+   "type": "file",
+   "file": "claims/evidence_data/The two datasets imply different trade stories.md",
+   "x": 610,
+   "y": 960,
+   "width": 520,
+   "height": 300,
+   "color": "#2F7FBF"
+  },
+  {
+   "id": "setser_2020-10-05-M1",
+   "type": "file",
+   "file": "claims/mechanism/Tariffs encourage U.S. import under-reporting.md",
+   "x": -260,
+   "y": 1440,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "setser_2020-10-05-C1",
+   "type": "file",
+   "file": "claims/intermediate_claim/The old Hong Kong explanation is no longer enough.md",
+   "x": -550,
+   "y": 1920,
+   "width": 520,
+   "height": 300,
+   "color": "#2FBF9B"
+  },
+  {
+   "id": "setser_2020-10-05-C2",
+   "type": "file",
+   "file": "claims/intermediate_claim/The discrepancy likely reflects reporting behavior.md",
+   "x": 30,
+   "y": 1920,
+   "width": 520,
+   "height": 300,
+   "color": "#2FBF9B"
+  },
+  {
+   "id": "setser_2020-10-05-K",
+   "type": "file",
+   "file": "claims/main_claim/Main claim U.S. imports are probably undercounted.md",
+   "x": -260,
+   "y": 2400,
+   "width": 520,
+   "height": 300,
+   "color": "#2FBF9B"
+  },
+  {
+   "id": "setser_2020-10-05-QF1",
+   "type": "file",
+   "file": "claims/caveat/The reversal appears in monthly and 3-month data, not yet in the 12-month sum.md",
+   "x": -840,
+   "y": 2880,
+   "width": 520,
+   "height": 300,
+   "color": "#9A8C6A"
+  },
+  {
+   "id": "setser_2020-10-05-QF2",
+   "type": "file",
+   "file": "claims/caveat/More investigation is needed before reaching a firm conclusion.md",
+   "x": -260,
+   "y": 2880,
+   "width": 520,
+   "height": 300,
+   "color": "#9A8C6A"
+  },
+  {
+   "id": "setser_2020-10-05-X",
+   "type": "file",
+   "file": "claims/other_explanation/Chinese exporters may be overstating exports.md",
+   "x": 320,
+   "y": 2880,
+   "width": 520,
+   "height": 300,
+   "color": "#8A8A8A"
+  }
+ ],
+ "edges": [
+  {
+   "id": "P1-C1",
+   "fromNode": "setser_2020-10-05-P1",
+   "fromSide": "bottom",
+   "toNode": "setser_2020-10-05-C1",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "D1-C1",
+   "fromNode": "setser_2020-10-05-D1",
+   "fromSide": "bottom",
+   "toNode": "setser_2020-10-05-C1",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "P2-C2",
+   "fromNode": "setser_2020-10-05-P2",
+   "fromSide": "bottom",
+   "toNode": "setser_2020-10-05-C2",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "D2-C2",
+   "fromNode": "setser_2020-10-05-D2",
+   "fromSide": "bottom",
+   "toNode": "setser_2020-10-05-C2",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "D3-C2",
+   "fromNode": "setser_2020-10-05-D3",
+   "fromSide": "bottom",
+   "toNode": "setser_2020-10-05-C2",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "D4-C2",
+   "fromNode": "setser_2020-10-05-D4",
+   "fromSide": "bottom",
+   "toNode": "setser_2020-10-05-C2",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "C1-M1",
+   "fromNode": "setser_2020-10-05-C1",
+   "fromSide": "bottom",
+   "toNode": "setser_2020-10-05-M1",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "C2-M1",
+   "fromNode": "setser_2020-10-05-C2",
+   "fromSide": "bottom",
+   "toNode": "setser_2020-10-05-M1",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "M1-K",
+   "fromNode": "setser_2020-10-05-M1",
+   "fromSide": "bottom",
+   "toNode": "setser_2020-10-05-K",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "D2-QF1",
+   "fromNode": "setser_2020-10-05-D2",
+   "fromSide": "bottom",
+   "toNode": "setser_2020-10-05-QF1",
+   "toSide": "top",
+   "label": "-1 qualified_by",
+   "color": "1"
+  },
+  {
+   "id": "K-QF2",
+   "fromNode": "setser_2020-10-05-K",
+   "fromSide": "bottom",
+   "toNode": "setser_2020-10-05-QF2",
+   "toSide": "top",
+   "label": "0 ",
+   "color": "6"
+  },
+  {
+   "id": "Q-P1",
+   "fromNode": "setser_2020-10-05-Q",
+   "fromSide": "bottom",
+   "toNode": "setser_2020-10-05-P1",
+   "toSide": "top",
+   "label": "0 frames ~",
+   "color": "6"
+  },
+  {
+   "id": "Q-P2",
+   "fromNode": "setser_2020-10-05-Q",
+   "fromSide": "bottom",
+   "toNode": "setser_2020-10-05-P2",
+   "toSide": "top",
+   "label": "0 frames ~",
+   "color": "6"
+  },
+  {
+   "id": "P1-D1",
+   "fromNode": "setser_2020-10-05-P1",
+   "fromSide": "bottom",
+   "toNode": "setser_2020-10-05-D1",
+   "toSide": "top",
+   "label": "0 frames ~",
+   "color": "6"
+  },
+  {
+   "id": "P2-D2",
+   "fromNode": "setser_2020-10-05-P2",
+   "fromSide": "bottom",
+   "toNode": "setser_2020-10-05-D2",
+   "toSide": "top",
+   "label": "0 frames ~",
+   "color": "6"
+  },
+  {
+   "id": "P2-D3",
+   "fromNode": "setser_2020-10-05-P2",
+   "fromSide": "bottom",
+   "toNode": "setser_2020-10-05-D3",
+   "toSide": "top",
+   "label": "0 frames ~",
+   "color": "6"
+  },
+  {
+   "id": "P2-D4",
+   "fromNode": "setser_2020-10-05-P2",
+   "fromSide": "bottom",
+   "toNode": "setser_2020-10-05-D4",
+   "toSide": "top",
+   "label": "0 frames ~",
+   "color": "6"
+  }
+ ]
+}

@@ -1,0 +1,515 @@
+{
+ "nodes": [
+  {
+   "id": "setser_may_10_19-Q",
+   "type": "file",
+   "file": "claims/question/If U.S.-China trade tensions escalate, will China keep the yuan stable or let it weaken.md",
+   "x": -260,
+   "y": 0,
+   "width": 520,
+   "height": 300,
+   "color": "#7A6FA8"
+  },
+  {
+   "id": "setser_may_10_19-P1",
+   "type": "file",
+   "file": "claims/stated_assumption/China controls the yuan.md",
+   "x": -840,
+   "y": 480,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "setser_may_10_19-P2",
+   "type": "file",
+   "file": "claims/stated_assumption/Depreciation offsets tariffs.md",
+   "x": -260,
+   "y": 480,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "setser_may_10_19-P3",
+   "type": "file",
+   "file": "claims/stated_assumption/Stability has value.md",
+   "x": 320,
+   "y": 480,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "setser_may_10_19-D1",
+   "type": "file",
+   "file": "claims/evidence_data/Full tariffs would be substantial.md",
+   "x": -1710,
+   "y": 960,
+   "width": 520,
+   "height": 300,
+   "color": "#2F7FBF"
+  },
+  {
+   "id": "setser_may_10_19-D2",
+   "type": "file",
+   "file": "claims/evidence_data/Large potential China growth hit.md",
+   "x": -1130,
+   "y": 960,
+   "width": 520,
+   "height": 300,
+   "color": "#2F7FBF"
+  },
+  {
+   "id": "setser_may_10_19-D3",
+   "type": "file",
+   "file": "claims/evidence_data/Recent yuan stability required little intervention.md",
+   "x": -550,
+   "y": 960,
+   "width": 520,
+   "height": 300,
+   "color": "#2F7FBF"
+  },
+  {
+   "id": "setser_may_10_19-D4",
+   "type": "file",
+   "file": "claims/evidence_data/China retains external firepower.md",
+   "x": 30,
+   "y": 960,
+   "width": 520,
+   "height": 300,
+   "color": "#2F7FBF"
+  },
+  {
+   "id": "setser_may_10_19-D5",
+   "type": "file",
+   "file": "claims/evidence_data/Balance of payments broadly stable.md",
+   "x": 610,
+   "y": 960,
+   "width": 520,
+   "height": 300,
+   "color": "#2F7FBF"
+  },
+  {
+   "id": "setser_may_10_19-D6",
+   "type": "file",
+   "file": "claims/evidence_data/Manufacturing surplus ~ $1T.md",
+   "x": 1190,
+   "y": 960,
+   "width": 520,
+   "height": 300,
+   "color": "#2F7FBF"
+  },
+  {
+   "id": "setser_may_10_19-M1",
+   "type": "file",
+   "file": "claims/mechanism/Tariffs weaken Chinese export demand.md",
+   "x": -1130,
+   "y": 1440,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "setser_may_10_19-M2",
+   "type": "file",
+   "file": "claims/mechanism/Depreciation cushions exporters.md",
+   "x": -550,
+   "y": 1440,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "setser_may_10_19-M3",
+   "type": "file",
+   "file": "claims/mechanism/Stability protects domestic confidence.md",
+   "x": 30,
+   "y": 1440,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "setser_may_10_19-M4",
+   "type": "file",
+   "file": "claims/mechanism/Yuan weakness spreads outward.md",
+   "x": 610,
+   "y": 1440,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "setser_may_10_19-C1",
+   "type": "file",
+   "file": "claims/intermediate_claim/China has a genuine policy choice.md",
+   "x": -1130,
+   "y": 1920,
+   "width": 520,
+   "height": 300,
+   "color": "#2FBF9B"
+  },
+  {
+   "id": "setser_may_10_19-C2",
+   "type": "file",
+   "file": "claims/intermediate_claim/Depreciation can absorb part of the tariff shock.md",
+   "x": -550,
+   "y": 1920,
+   "width": 520,
+   "height": 300,
+   "color": "#2FBF9B"
+  },
+  {
+   "id": "setser_may_10_19-C3",
+   "type": "file",
+   "file": "claims/intermediate_claim/But depreciation carries domestic and strategic costs.md",
+   "x": 30,
+   "y": 1920,
+   "width": 520,
+   "height": 300,
+   "color": "#2FBF9B"
+  },
+  {
+   "id": "setser_may_10_19-C4",
+   "type": "file",
+   "file": "claims/intermediate_claim/A weaker yuan redistributes trade pain.md",
+   "x": 610,
+   "y": 1920,
+   "width": 520,
+   "height": 300,
+   "color": "#2FBF9B"
+  },
+  {
+   "id": "setser_may_10_19-K",
+   "type": "file",
+   "file": "claims/main_claim/Main claim China's currency response is a strategic choice.md",
+   "x": -260,
+   "y": 2400,
+   "width": 520,
+   "height": 300,
+   "color": "#2FBF9B"
+  },
+  {
+   "id": "setser_may_10_19-QF",
+   "type": "file",
+   "file": "claims/caveat/Controlled depreciations are difficult because markets may front-run them.md",
+   "x": -1130,
+   "y": 2880,
+   "width": 520,
+   "height": 300,
+   "color": "#9A8C6A"
+  },
+  {
+   "id": "setser_may_10_19-R1",
+   "type": "file",
+   "file": "claims/caveat/Retaliation risk.md",
+   "x": -550,
+   "y": 2880,
+   "width": 520,
+   "height": 300,
+   "color": "#9A8C6A"
+  },
+  {
+   "id": "setser_may_10_19-R2",
+   "type": "file",
+   "file": "claims/caveat/Tariffs and oil prices could push China toward current-account deficit.md",
+   "x": 30,
+   "y": 2880,
+   "width": 520,
+   "height": 300,
+   "color": "#9A8C6A"
+  },
+  {
+   "id": "setser_may_10_19-X",
+   "type": "file",
+   "file": "claims/counterpoint/Case for stability.md",
+   "x": 610,
+   "y": 2880,
+   "width": 520,
+   "height": 300,
+   "color": "#8A8A8A"
+  }
+ ],
+ "edges": [
+  {
+   "id": "D1-M1",
+   "fromNode": "setser_may_10_19-D1",
+   "fromSide": "bottom",
+   "toNode": "setser_may_10_19-M1",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "D2-M1",
+   "fromNode": "setser_may_10_19-D2",
+   "fromSide": "bottom",
+   "toNode": "setser_may_10_19-M1",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "P2-M2",
+   "fromNode": "setser_may_10_19-P2",
+   "fromSide": "bottom",
+   "toNode": "setser_may_10_19-M2",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "M1-M2",
+   "fromNode": "setser_may_10_19-M1",
+   "fromSide": "bottom",
+   "toNode": "setser_may_10_19-M2",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "P3-M3",
+   "fromNode": "setser_may_10_19-P3",
+   "fromSide": "bottom",
+   "toNode": "setser_may_10_19-M3",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "D3-M3",
+   "fromNode": "setser_may_10_19-D3",
+   "fromSide": "bottom",
+   "toNode": "setser_may_10_19-M3",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "D4-M3",
+   "fromNode": "setser_may_10_19-D4",
+   "fromSide": "bottom",
+   "toNode": "setser_may_10_19-M3",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "D5-M3",
+   "fromNode": "setser_may_10_19-D5",
+   "fromSide": "bottom",
+   "toNode": "setser_may_10_19-M3",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "P1-C1",
+   "fromNode": "setser_may_10_19-P1",
+   "fromSide": "bottom",
+   "toNode": "setser_may_10_19-C1",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "M2-C2",
+   "fromNode": "setser_may_10_19-M2",
+   "fromSide": "bottom",
+   "toNode": "setser_may_10_19-C2",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "M3-C3",
+   "fromNode": "setser_may_10_19-M3",
+   "fromSide": "bottom",
+   "toNode": "setser_may_10_19-C3",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "D6-M4",
+   "fromNode": "setser_may_10_19-D6",
+   "fromSide": "bottom",
+   "toNode": "setser_may_10_19-M4",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "M2-M4",
+   "fromNode": "setser_may_10_19-M2",
+   "fromSide": "bottom",
+   "toNode": "setser_may_10_19-M4",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "M4-C4",
+   "fromNode": "setser_may_10_19-M4",
+   "fromSide": "bottom",
+   "toNode": "setser_may_10_19-C4",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "C1-K",
+   "fromNode": "setser_may_10_19-C1",
+   "fromSide": "bottom",
+   "toNode": "setser_may_10_19-K",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "C2-K",
+   "fromNode": "setser_may_10_19-C2",
+   "fromSide": "bottom",
+   "toNode": "setser_may_10_19-K",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "C3-K",
+   "fromNode": "setser_may_10_19-C3",
+   "fromSide": "bottom",
+   "toNode": "setser_may_10_19-K",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "C4-K",
+   "fromNode": "setser_may_10_19-C4",
+   "fromSide": "bottom",
+   "toNode": "setser_may_10_19-K",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "C1-X",
+   "fromNode": "setser_may_10_19-C1",
+   "fromSide": "bottom",
+   "toNode": "setser_may_10_19-X",
+   "toSide": "top",
+   "label": "-1 undercut_by",
+   "color": "1"
+  },
+  {
+   "id": "C2-QF",
+   "fromNode": "setser_may_10_19-C2",
+   "fromSide": "bottom",
+   "toNode": "setser_may_10_19-QF",
+   "toSide": "top",
+   "label": "-1 qualified_by",
+   "color": "1"
+  },
+  {
+   "id": "C3-R1",
+   "fromNode": "setser_may_10_19-C3",
+   "fromSide": "bottom",
+   "toNode": "setser_may_10_19-R1",
+   "toSide": "top",
+   "label": "-1 qualified_by",
+   "color": "1"
+  },
+  {
+   "id": "C1-R2",
+   "fromNode": "setser_may_10_19-C1",
+   "fromSide": "bottom",
+   "toNode": "setser_may_10_19-R2",
+   "toSide": "top",
+   "label": "-1 qualified_by",
+   "color": "1"
+  },
+  {
+   "id": "Q-P1",
+   "fromNode": "setser_may_10_19-Q",
+   "fromSide": "bottom",
+   "toNode": "setser_may_10_19-P1",
+   "toSide": "top",
+   "label": "0 frames ~",
+   "color": "6"
+  },
+  {
+   "id": "Q-P2",
+   "fromNode": "setser_may_10_19-Q",
+   "fromSide": "bottom",
+   "toNode": "setser_may_10_19-P2",
+   "toSide": "top",
+   "label": "0 frames ~",
+   "color": "6"
+  },
+  {
+   "id": "Q-P3",
+   "fromNode": "setser_may_10_19-Q",
+   "fromSide": "bottom",
+   "toNode": "setser_may_10_19-P3",
+   "toSide": "top",
+   "label": "0 frames ~",
+   "color": "6"
+  },
+  {
+   "id": "P1-D3",
+   "fromNode": "setser_may_10_19-P1",
+   "fromSide": "bottom",
+   "toNode": "setser_may_10_19-D3",
+   "toSide": "top",
+   "label": "0 frames ~",
+   "color": "6"
+  },
+  {
+   "id": "P1-D4",
+   "fromNode": "setser_may_10_19-P1",
+   "fromSide": "bottom",
+   "toNode": "setser_may_10_19-D4",
+   "toSide": "top",
+   "label": "0 frames ~",
+   "color": "6"
+  },
+  {
+   "id": "P1-D5",
+   "fromNode": "setser_may_10_19-P1",
+   "fromSide": "bottom",
+   "toNode": "setser_may_10_19-D5",
+   "toSide": "top",
+   "label": "0 frames ~",
+   "color": "6"
+  },
+  {
+   "id": "P2-D1",
+   "fromNode": "setser_may_10_19-P2",
+   "fromSide": "bottom",
+   "toNode": "setser_may_10_19-D1",
+   "toSide": "top",
+   "label": "0 frames ~",
+   "color": "6"
+  },
+  {
+   "id": "P2-D2",
+   "fromNode": "setser_may_10_19-P2",
+   "fromSide": "bottom",
+   "toNode": "setser_may_10_19-D2",
+   "toSide": "top",
+   "label": "0 frames ~",
+   "color": "6"
+  },
+  {
+   "id": "P3-D6",
+   "fromNode": "setser_may_10_19-P3",
+   "fromSide": "bottom",
+   "toNode": "setser_may_10_19-D6",
+   "toSide": "top",
+   "label": "0 frames ~",
+   "color": "6"
+  }
+ ]
+}

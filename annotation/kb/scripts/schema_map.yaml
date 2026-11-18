@@ -1,0 +1,316 @@
+# Normalization table: the vocabulary actually used in mermaid_code/*.mmd,
+# mapped onto the schema declared by second_flow_template.mmd and
+# second_flow_edge_types.mmd.
+#
+# The .mmd files are the authored artifact and are never rewritten. This file
+# is the only place the drift is reconciled, so every normalization decision is
+# reviewable as a diff. parse_maps.py reports anything it cannot map here
+# instead of guessing - see data/review.md after a run.
+
+# ---------------------------------------------------------------------------
+# Presentation-only classes. Nodes carrying these are not argument nodes and
+# never enter the graph.
+#   title    - the T[...] banner node on the six shape-annotated maps
+#   legdemo  - legend swatches ("Filled - the article does this")
+#   ghost    - schema slots the article leaves empty, drawn greyed out as "n/a"
+# ---------------------------------------------------------------------------
+drop_classes: [title, legdemo, ghost]
+
+# Whole subgraphs that are apparatus rather than argument:
+#   LEG - the "How to read this" legend block
+#   REF - the "Based on" methodology citations
+drop_subgraphs: [LEG, REF]
+
+# A node whose whole body is one of these is an unfilled slot regardless of class.
+drop_if_text_matches: ['^n/?a$', '^-$', '^$']
+
+
+# ---------------------------------------------------------------------------
+# NODE TYPES
+#
+# Resolved in priority order:
+#   1. header   - the bold first line of the label ("Hidden assumption", "Data")
+#   2. class    - the classDef name assigned via `class X role`
+#   3. level    - the enclosing subgraph, as a last resort
+#
+# The header wins because `class` is ambiguous by design: the template assigns
+# `mech` to both Level 3 mechanisms and Level 4 intermediate claims.
+# ---------------------------------------------------------------------------
+node_types_by_header:
+  question: question
+  position map: position_map
+  anomaly: anomaly
+
+  stated assumption: stated_assumption
+  hidden assumption: hidden_assumption
+  implicit: hidden_assumption          # marked implicit_only by the parser
+  revised prior: revised_prior
+  accounting identity: accounting_identity
+  source credibility: source_credibility
+
+  scope choice: scope_choice
+  benchmark: benchmark
+
+  data: evidence_data
+  studies and sources: evidence_source
+  studies & sources: evidence_source
+  rival measurement: evidence_rival
+  discrepancy: evidence_discrepancy
+
+  mechanism a: mechanism
+  mechanism b: mechanism
+  mechanism c: mechanism
+  mechanism d: mechanism
+
+  intermediate claim: intermediate_claim
+  case type: case_type
+  policy reductio: policy_reductio
+
+  main claim: main_claim
+  reconstruction: reconstruction
+  recommendation: recommendation
+
+  opposing view: opposing_view
+  caveat: caveat
+  other explanation: other_explanation
+  deferred question: deferred_question
+
+node_types_by_class:
+  question: question
+  pos: position_map
+  anom: anomaly
+  prior: stated_assumption
+  unstated: hidden_assumption
+  implicit: hidden_assumption
+  revised: revised_prior
+  ident: accounting_identity
+  cred: source_credibility
+  bench: benchmark                     # also carries scope_choice; header splits them
+  data: evidence_data
+  mech: mechanism                      # L4 members re-resolved to intermediate_claim
+  distort: mechanism                   # mechanism_kind: distortion
+  main: main_claim
+  recon: reconstruction
+  rec: recommendation
+  red: policy_reductio
+  ctype: case_type
+  dia: counterpoint                    # generic L6; header splits it
+
+node_types_by_level:
+  L0: question
+  L1: stated_assumption
+  L1B: scope_choice
+  L2: evidence_data
+  L3: mechanism
+  L4: intermediate_claim
+  L5: main_claim
+  L6: counterpoint
+
+# Every Level 6 node carries class `dia`, so only the header distinguishes a
+# caveat from an opposing view from a rival explanation. First match wins;
+# anything unmatched stays the generic `counterpoint` and is reported.
+counterpoint_by_header_contains:
+  caveat: caveat
+  uncertainty: caveat
+  tradeoff: caveat
+  risk: caveat
+  limit: caveat
+  explanation: other_explanation
+  alternative: other_explanation
+  argument: opposing_view
+  view: opposing_view
+  objection: opposing_view
+  deferred: deferred_question
+  open question: deferred_question
+
+
+# Classes that mark a mechanism as a measurement distortion rather than an
+# economic channel (the `kind:` field in second_flow_template.mmd).
+mechanism_kind_by_class:
+  distort: distortion
+
+
+# ---------------------------------------------------------------------------
+# EDGE TYPES
+#
+# second_flow_edge_types.mmd declares exactly ten. Everything observed in the
+# corpus maps onto one of them. `raw` is preserved on every edge so a mapping
+# can be challenged without re-parsing.
+#
+#   solid  (argument moves forward): supports licenses bounds motivates reconstructs
+#   dashed (argument pushes back):   revises rebuts qualified_by undercut_by defers
+# ---------------------------------------------------------------------------
+edge_types:
+  # --- as declared ---
+  supports: supports
+  licenses: licenses
+  bounds: bounds
+  motivates: motivates
+  reconstructs: reconstructs
+  revises: revises
+  rebuts: rebuts
+  qualified by: qualified_by
+  undercut by: undercut_by
+  defers: defers
+
+  # --- observed variants, older maps ---
+  rule behind it: licenses          # the Toulmin warrant; template labels this edge so
+  pushes back on: rebuts
+  compared against: bounds
+
+  # scope limits: B narrows where A holds
+  caveat: qualified_by
+  qualifies: qualified_by
+  limited by: qualified_by
+  comparison caveat: qualified_by
+  measurement caveat: qualified_by
+  model caveat: qualified_by
+  tradeoff: qualified_by
+  strategic risk: qualified_by
+  uncertain path: qualified_by
+
+  # rival causes and counterweights: B weakens A without refuting it
+  other explanation: undercut_by
+  possible explanation: undercut_by
+  supports alternative: undercut_by
+  alternative adjustment: undercut_by
+  doesn't fully explain: undercut_by
+  offsetting force: undercut_by
+  could be offset by: undercut_by
+  currently offset by: undercut_by
+
+# Used when an edge carries no label at all.
+edge_default_solid: supports
+# Unlabelled dashed edges are genuinely ambiguous between rebuts / qualified_by /
+# undercut_by. The parser flags them for review rather than picking one.
+edge_default_dashed: null
+
+# ---------------------------------------------------------------------------
+# MERMAID'S INVISIBLE LINK, `~~~`
+#
+# It is used for TWO different things in this corpus, and an earlier version of
+# this file dropped both on the grounds that they are "all invisible". Invisible
+# in the rendering, yes - but one of the two is argument structure.
+#
+#   container chaining   T ~~~ L0, L0 ~~~ L1, L1 ~~~ L1B ...
+#                        forces the subgraphs to stack vertically. 48 of these.
+#                        Pure layout. Dropped.
+#
+#   claim to claim       Q ~~~ P2 & P3 & P1 & P4      the question and its priors
+#                        P2 ~~~ D1, P3 ~~~ D2         a prior and its datum
+#                        P1 ~~~ D4 & D5
+#                        111 of these, in 14 of 20 maps. Nobody writes a
+#                        one-to-one prior/datum pairing for layout. Kept.
+#
+# Measured 2026-10-16: keeping them adds 111 edges to 344 (+32%), connects 14 of
+# the 20 isolated question nodes, and recovers the prior-to-evidence layer, which
+# was absent from the graph entirely.
+#
+# The classification is mechanical - are both endpoints claim nodes, or is either
+# a subgraph container - so it needs no judgement per edge.
+# ---------------------------------------------------------------------------
+layout_operators: ['~~~']
+
+# A kept layout-operator edge carries NO label, so its relation is a convention,
+# not something the annotator wrote. Every one is marked `relation_source:
+# layout_operator` in data/edges.csv so it can never be mistaken for a read
+# label, and so the three provenance classes stay countable:
+#
+#   label        161   the annotator wrote the relation
+#   arrow        183   inferred from a solid arrow (edge_default_solid)
+#   layout       111   recovered from `~~~`, typed by the table below
+#
+# Relations are reused rather than minted wherever one fits (LOT 2022). Only
+# `frames` is new: the question-to-prior link is not support, licensing,
+# bounding or motivation - it is the question setting up what the article will
+# assume. It signs 0, like `defers`, so recovering this structure cannot inflate
+# the support count or move the measured push-back rate by arithmetic.
+# ---------------------------------------------------------------------------
+# ROLE FAMILIES: a three-level specialisation hierarchy, borrowed not invented
+#
+# The 26 role types are this annotator's vocabulary. Keying rules on them
+# over-specifies: 49 of 676 possible role pairs are attested, 24 of those by a
+# single edge. The standard answer is to specialise an upper ontology rather
+# than invent one, and to back off from fine to coarse where data is sparse
+# (coarse-to-fine attention for long-tail relations, Han et al. 2018; the same
+# idea as hierarchical smoothing in n-gram models).
+#
+# LEVEL 3  toulmin   Toulmin's six elements. AIF introduces claim, data,
+#                    backing, rebuttal and qualifier as I-nodes, so this level
+#                    is what an AIF export writes and what another annotation
+#                    scheme can be mapped onto. Interoperability lives here.
+# LEVEL 2  oper      Toulmin refined where THIS corpus shows the split matters.
+#                    Measured, not chosen: Toulmin-pure families predict the
+#                    annotator's own relations at 59% leave-one-out, because
+#                    merging `mechanism` with the priors under `warrant` loses
+#                    the distinction between "a prior licenses a datum" and "a
+#                    mechanism supports a step". Splitting warrant and claim
+#                    takes it to 85%.
+# LEVEL 1  type      the 26 types as annotated. 81% alone, but undefined for
+#                    15% of edges.
+#
+# Backing off type -> oper -> toulmin scores 89% with 5 of 161 edges unpredicted.
+# A second annotator maps their own types onto `oper`/`toulmin` once; nothing
+# else has to be rewritten.
+#
+# THE RESIDUE IS THE INTERESTING PART. 28 of 359 claims have no Toulmin slot
+# and no slot in AIF's single-argument core:
+#   framing   question, position_map, deferred_question - article-level
+#             apparatus, which is AIF+ dialogue territory rather than argument
+#             structure
+#   revision  revised_prior - a change of mind ACROSS articles. Neither Toulmin
+#             nor AIF has anywhere to put this, and it is the thing this project
+#             exists to capture.
+# They are kept as named families rather than forced into a slot they do not fit.
+# ---------------------------------------------------------------------------
+role_families:
+  toulmin:
+    claim:      [main_claim, intermediate_claim, reconstruction, recommendation, policy_reductio, case_type]
+    grounds:    [evidence_data, evidence_source, evidence_rival, evidence_discrepancy]
+    warrant:    [hidden_assumption, stated_assumption, accounting_identity, mechanism]
+    backing:    [source_credibility, benchmark]
+    qualifier:  [caveat, scope_choice]
+    rebuttal:   [opposing_view, counterpoint, other_explanation]
+    framing:    [question, position_map, deferred_question]
+    revision:   [revised_prior]
+    unassigned: [anomaly]
+  oper:
+    claim.step:       [intermediate_claim, case_type, policy_reductio]
+    claim.final:      [main_claim, reconstruction, recommendation]
+    grounds:          [evidence_data, evidence_source, evidence_rival, evidence_discrepancy]
+    warrant.prior:    [hidden_assumption, stated_assumption, accounting_identity]
+    warrant.mechanism: [mechanism]
+    backing:          [source_credibility, benchmark]
+    qualifier:        [caveat, scope_choice]
+    rebuttal:         [opposing_view, counterpoint, other_explanation]
+    framing:          [question, position_map, deferred_question]
+    revision:         [revised_prior]
+    unassigned:       [anomaly]
+
+# A recovered layout-operator edge carries no label, so its relation is DERIVED
+# from the relations the annotator did write, by the back-off above - not from a
+# table anybody hand-wrote. An earlier version of this file had 12 hand-chosen
+# cells; this replaces them, and every derived edge records the level it was
+# typed at and the purity of the cell, so the weak ones are a review queue.
+layout_edge_derivation:
+  backoff: [type, oper, toulmin]
+  min_examples: 1
+  # Below this cell purity the edge is still typed, and flagged in review.md.
+  flag_below_purity: 0.60
+
+  # THE FALLBACK IS LOAD-BEARING, AND MEASURED TO BE SO.
+  # 108 of the 111 recovered edges reach it, because the role pairs they connect
+  # - question to prior, prior to datum - carry NO labelled example anywhere in
+  # the corpus. That is not sparsity, it is structural: the annotator used the
+  # unlabelled `~~~` operator for precisely this structure, so no amount of
+  # backing off finds evidence to use. Derivation types only the 3 edges whose
+  # role pairs ARE attested (2 supports, 1 rebuts); the rest take this.
+  #
+  # `frames`, sign 0, is the agnostic choice. An earlier version of this file
+  # asserted the 65 prior-to-datum edges as `licenses` (+1), reasoning that a
+  # prior licenses a datum's relevance. Plausible, unevidenced, and it would
+  # have added 65 units of support to every corpus-wide measurement. Sign 0
+  # records the structure without claiming a direction of support.
+  fallback: frames
+
+pushes_back_relations: [rebuts, qualified_by, undercut_by, revises]

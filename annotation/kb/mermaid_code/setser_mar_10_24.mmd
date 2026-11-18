@@ -1,0 +1,137 @@
+---
+config:
+  layout: elk
+  theme: dark
+  themeVariables:
+    lineColor: "#D3D1C7"
+    clusterBkg: "#262624"
+    clusterBorder: "#5F5E5A"
+    titleColor: "#F1EFE8"
+    edgeLabelBackground: "#2C2C2A"
+  flowchart:
+    wrappingWidth: 180
+    nodeSpacing: 22
+    rankSpacing: 40
+---
+flowchart TD
+
+  T["<b>Mar 2024 · #quot;China's Record Manufacturing Surplus#quot;</b><br/><b>Shape C · measurement critique, with a policy reductio</b><br/>The only article that uses an accounting identity openly, and the only one that turns an opponent's own advice against them.<br/><br/>17 of 26 slots filled"]
+
+  subgraph L0["Level 0 · Question"]
+    Q["<b>Question</b><br/>Is China's centrality to global manufacturing really declining, as the fragmentation narrative suggests?"]
+    ANOM["<b>Anomaly</b><br/><i>n/a</i>"]
+    POS["<b>Position map</b><br/><i>absent</i>"]
+  end
+
+  subgraph L1["Level 1 · Priors & assumptions"]
+    P1["<b>Stated assumption</b><br/>Bilateral data misleads about global position — rerouting is not displacement"]
+    P2["<b>Hidden assumption</b><br/>A correctly measured imbalance ought to drive policy"]
+    P3["<b>Revised prior</b><br/><i>absent</i>"]
+    ID["<b>Accounting identity</b><br/>#quot;A large manufacturing surplus requires an offsetting deficit in manufactures elsewhere#quot; — stated, and used to locate the counterpart"]
+    SC["<b>Source credibility</b><br/>The reported current account #quot;misleads#quot; — flagged, with the full case made in the August companion piece"]
+  end
+
+  subgraph L1B["Level 1b · Frame & scope"]
+    BM["<b>Benchmark</b><br/><i>n/a</i>"]
+    SCP["<b>Scope choice</b><br/>SITC categories 5 through 9, the standard manufactures breakout, from the long UN Comtrade series"]
+  end
+
+  subgraph L2["Level 2 · Evidence"]
+    E1["<b>Data</b><br/>Surplus at ~2% of world GDP, above peak Japan and Germany; 80% of solar panels; 35% of manufacturing output against 15% of global output"]
+    E2["<b>Studies & sources</b><br/>Baldwin on sole manufacturing superpower; Pettis on production giant and consumption pygmy; Bown on the tariff timeline; OECD value-added data"]
+    E3["<b>Rival measurement</b><br/><i>absent</i>"]
+    E4["<b>Discrepancy</b><br/>Manufacturing surplus near 2% of world GDP against a reported current account of just 1.5% of China's own GDP"]
+  end
+
+  subgraph L3["Level 3 · Mechanisms"]
+    M1["<b>Mechanism A</b> · <i>kind: economic</i><br/>Policy, not only comparative advantage — resistance to consumer stimulus and a thin safety net sustain a savings surplus"]
+    M2["<b>Mechanism B</b> · <i>kind: economic</i><br/>Upgrading is the stated growth plan, so advanced manufacturing capacity keeps expanding"]
+  end
+
+  subgraph L4["Level 4 · Intermediate claims"]
+    C1["<b>Intermediate claim</b><br/>The counterpart to the surplus is the United States, not commodity exporters, and the gap keeps widening as a share of world GDP"]
+    C2["<b>Case type</b><br/><i>absent</i>"]
+    C3["<b>Policy reductio</b><br/>Take the IMF's own advice — consolidate 7.5pp of GDP, cut rates, loosen the currency — run it through IMF-derived econometrics, and the current account rises about 4pp of China's GDP. The cure enlarges the disease."]
+  end
+
+  subgraph L5["Level 5 · Conclusion"]
+    K["<b>Main claim</b> · <i>type: single</i><br/>The imbalance is large, growing and mismeasured — it shows up everywhere except in the reported current account and in the IMF's analysis"]
+    RC["<b>Reconstruction</b><br/><i>absent — corrected measure asserted, not rebuilt here</i>"]
+    REC["<b>Recommendation</b><br/>The size of the imbalance, correctly measured, must be factored into Chinese policymaking and into external policy advice"]
+  end
+
+  subgraph L6["Level 6 · Counterpoints"]
+    X["<b>Opposing view</b><br/>The standard view that the post-crisis fall in China's current account means external imbalances are no longer pressing"]
+    QF["<b>Caveat</b><br/>Specialisation does partly reflect a large population and limited resources; the comprehensive data also lags and misses the 2020-2022 surge"]
+    R1["<b>Other explanation</b><br/><i>absent</i>"]
+    DF["<b>Deferred question</b><br/><i>absent</i>"]
+  end
+
+  SCP -->|bounds| E1
+  SC -->|supports| E4
+  E1 -->|supports| C1
+  E2 -->|supports| C1
+  E4 -->|supports| C1
+  ID -->|licenses| C1
+  P1 -->|licenses| C1
+  M1 -->|supports| C1
+  M2 -->|supports| C1
+  C1 -->|supports| K
+  C1 -->|supports| C3
+  C3 -->|supports| K
+  K -->|motivates| REC
+  P2 -->|licenses| REC
+  K -.->|rebuts| X
+  K -.->|qualified by| QF
+
+  T ~~~ L0
+  L0 ~~~ L1
+  L1 ~~~ L1B
+  L1B ~~~ L2
+  L2 ~~~ L3
+  L3 ~~~ L4
+  L4 ~~~ L5
+  L5 ~~~ L6
+
+
+  subgraph LEG["How to read this"]
+    G1["<b>Filled</b><br/>the article does this"]
+    G2["<b>Implicit</b><br/>present, but never stated outright"]
+    G3["<b>Empty</b><br/><i>n/a</i> = category error here<br/><i>absent</i> = could have, did not"]
+  end
+
+  classDef title fill:#2C2C2A,stroke:#F1EFE8,color:#F1EFE8,stroke-width:2px
+  classDef prior fill:#3C3489,stroke:#AFA9EC,color:#EEEDFE
+  classDef unstated fill:#3C3489,stroke:#AFA9EC,color:#EEEDFE,stroke-dasharray:5 4
+  classDef ident fill:#5146B5,stroke:#CFC9F7,color:#EEEDFE,stroke-width:3px
+  classDef cred fill:#5A2E7A,stroke:#CFA8EC,color:#F3E4FB
+  classDef bench fill:#6B5410,stroke:#E8CE7A,color:#FBF3DC,stroke-width:2px
+  classDef data fill:#0C447C,stroke:#85B7EB,color:#E6F1FB
+  classDef mech fill:#085041,stroke:#5DCAA5,color:#E1F5EE
+  classDef red fill:#7A4310,stroke:#EBA869,color:#FBEFE6,stroke-width:2px
+  classDef main fill:#085041,stroke:#9FE1CB,color:#E1F5EE,stroke-width:3px
+  classDef rec fill:#6B5410,stroke:#E8CE7A,color:#FBF3DC,stroke-width:3px
+  classDef dia fill:#444441,stroke:#B4B2A9,color:#F1EFE8
+  classDef question fill:#2C2C2A,stroke:#F1EFE8,color:#F1EFE8
+  classDef implicit fill:#2A2A45,stroke:#7A79A8,color:#C9C8E4
+  classDef legdemo fill:#085041,stroke:#5DCAA5,color:#E1F5EE
+  classDef ghost fill:#1C1C1B,stroke:#4A4945,color:#6B6A65,stroke-dasharray:4 4
+
+  class T title
+  class Q question
+  class P1 prior
+  class P2 unstated
+  class ID ident
+  class SC cred
+  class SCP bench
+  class E1,E2,E4 data
+  class M1,M2 mech
+  class C1 mech
+  class C3 red
+  class K main
+  class REC rec
+  class X,QF dia
+  class ANOM,POS,P3,BM,E3,C2,RC,R1,DF ghost
+  class G1 legdemo
+  class G2 implicit
+  class G3 ghost
