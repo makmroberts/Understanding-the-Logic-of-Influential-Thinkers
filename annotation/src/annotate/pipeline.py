@@ -12,6 +12,7 @@ at the step that was running, and the response cache makes repeating a finished 
 from __future__ import annotations
 
 import json
+import os
 from pathlib import Path
 from typing import TypedDict
 
@@ -48,7 +49,9 @@ class State(TypedDict, total=False):
 def run_dir(s: State) -> Path:
     """Official runs live in annotation/articles; experiments (another model, a repeat, an
     oracle run) live in paths.experiments, outside annotation/."""
-    return path("articles" if s.get("official") else "experiments") / s["doc"] / s["run"]
+    # normpath drops the "annotation/.." detour of the relative experiments path: the same folder,
+    # 14 characters shorter, which keeps long article IDs under Windows' 260-character path limit
+    return Path(os.path.normpath(path("articles" if s.get("official") else "experiments") / s["doc"] / s["run"]))
 
 
 def _article(s: State):
