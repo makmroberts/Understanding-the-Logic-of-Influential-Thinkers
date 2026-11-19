@@ -20,7 +20,7 @@ a repeat `_r<k>`, an oracle run `_oracle`, see Evaluation) is an experiment and 
 | 4 | Subject facets | model, with `kb/scripts/label_facets.py`'s rules, vocabulary, schema, validation and repairs | `facets.json` |
 | 5 | Check and save, pinning each cited paragraph's hash; second opinion on passages (`kb/scripts/link_passages.py`, unchanged) | script | `annotation.json`, plus `review.md` only if something needs a person |
 | 6 | Into `kb/data` (articles without a hand-drawn map only), then `graph_indices` → `export_obsidian` → `export_canvas` → `export_obsidian` | script | the tables and the Obsidian vault |
-| 7 | Compare with the hand-drawn map, where one exists | script | `evaluation.md` |
+| 7 | Compare with the hand-drawn map, where one exists | script; the optional meaning check uses a small local scoring model (see Evaluation) | `evaluation.md` |
 
 A step that fails a check goes back to the model with the problem listed, at most
 `retries.format` times; a gap against the hand-drawn maps gets `retries.reask` targeted
@@ -62,58 +62,68 @@ no column for it.
     do. Their saved answers in `cache/` are committed too, so anyone can replay them.
 12. **Lean.** Every step's output is used by a later step or by a person.
 
-## Current version (2026-11-09)
+## Current version (2026-11-18)
 
 - **Model:** `anthropic/claude-opus-5.5` for all three model steps, through OpenRouter. Chosen
   from 8 models in two screening rounds: no invented names or figures and the fewest retries.
   `google/gemini-4-argon` was a close second at about half the cost.
-- **Rules:** `config/ontology.yaml` version 2 (the change note is in the file), with two worked
-  examples (`settings.yaml` `example_articles`).
+- **Rules:** `config/ontology.yaml` version 3 (the change note is in the file): each role has a
+  `guidance` line, which step 2 adds to the prompt. Two worked examples (`settings.yaml`
+  `example_articles`).
 - **Where the version is recorded:** each run's `annotation.json` (`annotation.ontology.version`,
   the models and parameters of every step). The knowledge-base tables only mark these
   articles `llm`. When the ontology version changes, re-run every model-mapped article, about
-  $0.2 each, so the knowledge base never mixes versions.
-- **Knowledge base:** 21 hand-mapped articles and 3 model-mapped ones.
-  - The hand-mapped articles are the team's 20, identical row by row to `origin/main` b327459,
-    plus 2020-10-05.
-  - The model-mapped ones are 2026-07-27, 2026-09-15 and 2026-10-13.
+  $0.3 each, so the knowledge base never mixes versions. All 14 official runs are version 3.
+- **Knowledge base:** 21 hand-mapped articles and 4 model-mapped ones.
+  - The hand-mapped articles are the team's 20 plus 2020-10-05. The team's 20 have the same
+    rows as the team's `data/` on `origin/main` abbb47c, except 14 `node_passages.csv` rows
+    whose `score` or `margin` differ; main's own `annotation/kb/data` has the same difference.
+  - The model-mapped ones are 2026-07-27, 2026-08-02, 2026-09-15 and 2026-10-13.
 
 Results of the official runs. The hand-drawn map is one human reading, not a gold standard.
 
 | | 5 practice articles | 5 held-out articles |
 |---|---|---|
-| hand steps found (by shared paragraph) | 63% (52%) | 57% (46%) |
-| steps per article, hand range 13-24 | 24, 4 of 5 in range | 22, 4 of 5 in range |
-| boxes with a word-for-word excerpt | 96% | 95% |
-| fix rounds / re-asks | 0 / 0 | 0 / 0 |
-| cost per article | $0.22 | $0.21 |
+| hand steps found by the box matcher (by shared paragraph) | 64% (53%) | 52% (39%) |
+| hand steps said with the same meaning (meaning check) | 36% | 31% |
+| hand steps covered within their role family (meaning check) | 48% | 47% |
+| steps per article, hand range 13-24 | 24, 3 of 5 in range | 24, 2 of 5 in range |
+| boxes with a word-for-word excerpt | 95% | 96% |
+| fix rounds / re-asks | 1 / 2 | 2 / 1 |
+| cost per article | $0.31 | $0.31 |
 
-- The same article mapped twice: 83% of steps agree.
-- No invented names or figures in 13 official runs. Every grounding warning was checked by
-  hand; all were spelling variants or abbreviations.
-- Four articles were read in full and broken down before any map was opened: two held-out and
-  two new. The third new article was checked line by line against its text. The model maps
-  covered every main step; one error was found (see Known limits).
-- The three new articles were also compared with the 4 maps the predict-vs-actual skill drew
-  of each. None of the skill's 216 steps is missing from the model maps; 55-73% sit at the
-  same role.
+- **Version 3 against version 2**, the same 10 articles scored with the same rules. Neither
+  version invents anything. Agreement with the hand maps is a tie: the gap is within the
+  variation between two runs. Two held-out articles were read against a breakdown written
+  before any map was opened, and version 3 was better on both. Two outside models (GPT-6.1 Sol
+  and Gemini 4 Argon) compared the two versions blind, with the order of A and B swapped
+  between them. They chose version 3 in all 4 judgements, for coverage, whys and step size.
+  Version 3 costs about 45% more and cuts articles finer.
+- The same article mapped twice: 88% of steps agree, with the same role for 93% of them (5
+  practice articles; version 2: 83%).
+- No invented names or figures in 14 official runs. Every grounding warning was checked
+  against the text. All were spelling variants, abbreviations or paraphrases ("Saudi"
+  becoming "Saudi Arabia", "tariff rate quota" becoming "TRQ").
+- Each of the four model-mapped articles was read against its text, and none of their steps
+  is unfaithful to it. They were also compared with the 4 maps the predict-vs-actual skill
+  drew of each: none of the skill's 301 steps is missing from the model maps, and 51-77% sit
+  at the same role.
 
 Known limits:
-- **Role placement.** Content is found but often sits under a neighbouring role: a scope
-  choice or benchmark becomes a hidden assumption, and a policy reductio becomes an
-  intermediate claim. Most unmatched hand steps have their paragraph cited by a model step at
-  another level.
-- **Long articles are cut finer.** 3 of 13 runs exceed 24 steps: jan_31_20 has 30, sep_20_19
-  has 29 and 2026-10-13 has 28.
+- **Role placement.** Of the 179 hand steps in the 10 scored articles, 31 are said by a model
+  step under another role, and for 63 no model step says the same thing.
+- **Long articles are cut finer.** 8 of 14 runs exceed 24 steps, with 25 to 28 each (version 2:
+  3 of 13). The range is a guide in the prompt, not a check.
 - **Shallow hidden assumptions.** They are often nearly stated premises rather than the deeper
-  unstated one.
-- **One date error, found by reading.** In 2026-10-13, step E1 says "mid-2024"; the article
-  means mid-2025. The grounding check cannot catch a wrong year that occurs elsewhere in the
-  text.
+  unstated one. One goes too far: in 2025-11-12, step P3 says China could expand fiscal
+  policy "without risk", while the article only says it has fiscal space.
+- **Role errors found by reading.** In 2026-09-15, step C7 (the quasi-official role of
+  Taiwan's life insurers) is labelled a case type, but it is a finding about one actor.
 - **Empty document fields.** `genre`, `shape` and `topics` in `documents.csv` stay empty for
   model-mapped articles; hand maps write them in their header.
 - **Small samples.** The matcher pairs about 30 of 36 boxes the way a person would, and the
-  test sets are 5 + 5 articles.
+  test sets are 5 + 5 articles. The meaning check's threshold was set on 40 pairs labelled by
+  the majority of several AI raters, not yet by a person.
 
 ## Evaluation
 
@@ -130,6 +140,24 @@ Known limits:
 - `python -m annotate report` re-scores every run, official and experimental, and writes
   `evaluation.md` in the experiments folder.
 - The matcher was checked by hand on two articles (36 pairs): about 30 pair the same content.
+- **Meaning check** (optional), after the soft matching of S²match (Opitz et al., 2020). The
+  matcher above pairs boxes by position, so it cannot tell whether a pair says the same thing,
+  and it misses content a model splits across several steps. A small local scoring model
+  (`settings.yaml` `meaning`: `cross-encoder/stsb-roberta-large` at a pinned revision, on the
+  CPU, the same score every time) rates each pair of texts in both orders. A pair scoring 0.40
+  or more on the average says the same thing. Each hand step gets one of four outcomes:
+  - matched, with the same meaning;
+  - covered by another model step of the same role family. The families are the middle level
+    of `kb/scripts/schema_map.yaml` `role_families.oper`, so several finer model steps can
+    cover one hand step;
+  - said by a model step under another role;
+  - not found.
+
+  `evaluation.md` gives the counts per role family. Install it with
+  `pip install -e ".[meaning]"`; the scoring model (1.4 GB) downloads on first use. Without it,
+  every other score is the same and the section is left out. `report` runs it on official runs
+  only. Changing the model, revision or threshold changes the scores, so re-score every run
+  after such a change.
 
 ## Copied from the team repo
 
@@ -201,7 +229,9 @@ rows were replaced with the team table's, and the vault was rebuilt with `python
 Replaying the committed cache: `calls.jsonl` and `cache/` keep the original requests, which
 quote the old text. Nine of the thirteen official runs now send slightly different article
 text (added paragraphs, or spacing fixed at link edges), so re-running those misses the
-cache and needs a key. The saved annotations themselves stay valid.
+cache and needs a key. The saved annotations themselves stay valid. (Since the version 3
+re-run on 2026-11-18, every official run was made on the record's text and replays from the
+cache.)
 
 Rebuilt here: 21 hand-mapped articles, 373 claims, 472 links. For the 20 articles in the
 team's `data/`, every table matches row by row (checked 2026-11-09).
@@ -272,13 +302,22 @@ ofBrazil's"). The backfill places them with a space-insensitive match (`loose`),
 saved runs only. A new run is held to the exact words, so step 2 would send those two back
 to the model; the other 287 pass as they are.
 
+The backfill applied to the version 2 runs. The version 3 runs (2026-11-18) were made with
+this code from the start, and none of them needs the `loose` match.
+
 ## Running
 
-Install once (see `pyproject.toml`), then from this folder. Models are called through one
-OpenAI-compatible service set in `settings.yaml` `gateway` (OpenRouter; the Duke AI Gateway is
-kept there as a comment). Cached steps run offline, so the committed official runs replay
-without a key and give the same output. A new article needs a key in the environment
-variable `OPENROUTER_API_KEY`. Never put a key in a file.
+Install once (see `pyproject.toml`; `pip install -e ".[meaning]"` adds the meaning check),
+then run from this folder. Models are called through one OpenAI-compatible service set in
+`settings.yaml` `gateway` (OpenRouter; the Duke AI Gateway is kept there as a comment).
+Cached steps run offline, so the committed official runs replay without a key and give the
+same maps, links, facets and knowledge-base rows. Only the second opinion on passages (its
+review notes and agreement count) can differ a little: the team's passage linker weighs a
+word by how rare it is across the article texts on the machine, so it repeats exactly only
+when the same articles have been downloaded. A new article needs a key in the environment
+variable `OPENROUTER_API_KEY`. Never put a key in a file. The first run of an article
+downloads its text with the repo's parser (no key needed) into `../internal/extracted/`,
+which is never committed.
 
 ```
 python -m annotate run --url https://www.cfr.org/articles/<slug>   # a new article
@@ -294,8 +333,15 @@ A run killed part-way (sleep, closed terminal) resumes at the step that was runn
 (checkpoints in `runs/`). A run that stopped on an error starts afresh next time; the steps it
 finished come back from the cache at no cost.
 
-Measured cost per article through OpenRouter: about $0.22 with Claude Opus 5.5 (the official
-model), $0.13 with Gemini 4 Argon, $0.10 with GPT-6.1 Sol, $0.04 with DeepSeek V4.1 Flash.
+Path length: article IDs are long, and Windows refuses paths over 260 characters. Run folders
+are written by their shortest form, without the `annotation/..` detour, which saves 14
+characters. If a path still fails, turn on Windows long paths (`LongPathsEnabled`) or clone
+the repo into a shorter folder. When opening an experiment's files from this folder, use the
+full path rather than `../internal/...`.
+
+Measured cost per article through OpenRouter: about $0.31 with Claude Opus 5.5 (the official
+model) and ontology version 3. Under version 2 it was $0.22, against $0.13 with Gemini 4
+Argon, $0.10 with GPT-6.1 Sol and $0.04 with DeepSeek V4.1 Flash.
 Used-up credit stops the run with a plain message; the same command continues once it is
 topped up.
 
