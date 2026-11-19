@@ -32,13 +32,13 @@ What each article sets out to answer.
 - **2025-09** [[Have Trump's tariffs actually shocked trade flows and the global economy]] · _The Trump Shock That Wasn't (At Least Not Yet)_
 - **2025-11** [[How big is China's surplus really, why does the IMF miss it, and what policy should follow]] · _China's Massive Surplus is Everywhere (Yet T..._
 - **2026-02** [[Does the low October 2025 trade deficit mean the tariffs are working]] · _Understanding the Low October 2025 Trade Def..._
-- **2026-07** [[Has China's trade surplus really peaked, as the Economist claims, or is the underlying]] · _Is China’s Surplus Really Shrinking?_
-- **2026-09** [[Is the dollar's global role really measured by its share in central bank FX reserves]] · _De-reservification, Not De-dollarization_
-- **2026-10** [[Is China's export surge just a mechanical result of weak internal demand, or did the weak]] · _What’s the Renminbi Got to Do With it?_
+- **2026-07** [[Has China's trade surplus really peaked and begun shrinking, as the Economist claims]] · _Is China’s Surplus Really Shrinking?_
+- **2026-09** [[Does the IMF's data on the currency composition of central bank reserves actually tell us]] · _De-reservification, Not De-dollarization_
+- **2026-10** [[Is China's export surge simply a mechanical result of weak domestic demand]] · _What’s the Renminbi Got to Do With it?_
 
 ## Anomalies and position maps (3)
 
 - **2025-05** [[Treasury, the CEA, conventional analysts and markets all expected appreciation.]] · _Why Didn't Tariffs Push Up the U.S. Dollar?_
 - **2025-05** [[Bessent at roughly 4% appreciation per 10% of tariffs; Miran expecting a rise; Lerner]] · _Why Didn't Tariffs Push Up the U.S. Dollar?_
-- **2026-10** [[The IMF repeatedly forecast that China's surplus would fall as Covid effects proved]] · _What’s the Renminbi Got to Do With it?_
+- **2026-10** [[The IMF expected China's Covid-era surplus to be transitory and its current account]] · _What’s the Renminbi Got to Do With it?_
 

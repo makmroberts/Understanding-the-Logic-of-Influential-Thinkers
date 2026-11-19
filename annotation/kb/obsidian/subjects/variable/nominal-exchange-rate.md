@@ -2,7 +2,7 @@
 type: subject
 facet: variable
 term: nominal-exchange-rate
-claims: 65
+claims: 61
 saturated: false
 tags: [subject, subject/variable, variable/nominal-exchange-rate]
 ---
@@ -13,18 +13,18 @@ tags: [subject, subject/variable, variable/nominal-exchange-rate]
 
 Aligned to **imf** `nominal exchange rate` — _component name, not yet re-checked_
 
-65 claims across 11 articles · facet `variable` · [[By variable]] · [[index]]
+61 claims across 11 articles · facet `variable` · [[By variable]] · [[index]]
 
-**Position in the argument graph** — centrality 168 (2.58 per claim), 86 out / 82 in, bias +0.02.
+**Position in the argument graph** — centrality 156 (2.56 per claim), 85 out / 71 in, bias +0.09.
 
-Sits in the middle of arguments - as much argued toward as argued from.
+He argues **from** this more than toward it: it behaves like a prior or a mechanism.
 
 ## Argued together with
 
-- **country**: [[china]] (36), [[us]] (30), [[euro-area]] (5), [[ireland]] (1), [[italy]] (1)
+- **country**: [[china]] (32), [[us]] (30), [[euro-area]] (3), [[taiwan]] (2), [[ireland]] (1)
 - **bloc**: [[asia-surplus]] (4)
-- **instrument**: [[fx-intervention]] (25), [[tariffs]] (16), [[capital-controls]] (3), [[industrial-policy]] (2), [[monetary-policy]] (1)
-- **data_basis**: [[market-prices]] (6), [[imf-publications]] (2), [[academic-econometrics]] (2), [[mirror-statistics]] (1), [[corporate-disclosure]] (1)
+- **instrument**: [[fx-intervention]] (25), [[tariffs]] (16), [[capital-controls]] (4), [[industrial-policy]] (2), [[monetary-policy]] (1)
+- **data_basis**: [[market-prices]] (5), [[imf-publications]] (2), [[academic-econometrics]] (2), [[mirror-statistics]] (1), [[corporate-disclosure]] (1)
 
 ## Claims by role
 
@@ -40,8 +40,8 @@ Sits in the middle of arguments - as much argued toward as argued from.
 - **2025-05** [[The dollar was priced for perfection the flow equilibrium needed ever-larger inflows]] · _Why Didn't Tariffs Push Up the U.S. Dollar?_
 - **2025-07** [[Weak currency]] · _China is also Fighting a Trade War with Euro..._
 - **2025-11** [[Demand shortfall]] · _China's Massive Surplus is Everywhere (Yet T..._
-- **2026-09** [[Central banks steer currency by regulating hedge ratios and bank net foreign assets]] · _De-reservification, Not De-dollarization_
-- **2026-10** [[State banks buy foreign exchange to cap the yuan's strength, so the yuan is managed]] · _What’s the Renminbi Got to Do With it?_
+- **2026-09** [[Authorities manage their currencies by adjusting the foreign positions]] · _De-reservification, Not De-dollarization_
+- **2026-10** [[With a closed financial account, the RMB is set mainly by exporter conversion]] · _What’s the Renminbi Got to Do With it?_
 
 ### evidence_data (10)
 
@@ -52,11 +52,11 @@ Sits in the middle of arguments - as much argued toward as argued from.
 - **2019-09** [[Asian surplus economies restrain demandcurrencies]] · _Why do global trade imbalances persist, and ..._
 - **2020-01** [[Yuan -8% vs USD and -4% vs basket; Treasury holdings flat once Belgian accounts are]] · _Lessons From Phase One of the Trade War With..._
 - **2025-05** [[Dollar down ~10% against the G10; a $400-550 imported phone now carries $40-110]] · _Why Didn't Tariffs Push Up the U.S. Dollar?_
-- **2026-10** [[The RMB has not tracked rate differentials it did not rise when Chinese rates were]] · _What’s the Renminbi Got to Do With it?_
-- **2026-10** [[Yuan volatility is low (a controlled 10 percent fall in 2022, then a slow crawl up)]] · _What’s the Renminbi Got to Do With it?_
-- **2026-10** [[Exports accelerated after the 2022 depreciation and outgrew global trade by 2023]] · _What’s the Renminbi Got to Do With it?_
+- **2026-10** [[The RMB has not tracked rate differentials it did not rise when Chinese rates were higher]] · _What’s the Renminbi Got to Do With it?_
+- **2026-10** [[Low volatility, the controlled 10% fall in 2022, the slow crawl up since, and FX]] · _What’s the Renminbi Got to Do With it?_
+- **2026-10** [[Chinese exports accelerated and outperformed global trade after the 2022 depreciation]] · _What’s the Renminbi Got to Do With it?_
 
-### intermediate_claim (8)
+### intermediate_claim (9)
 
 - **2018-02** [[Favorable adjustment forces arrive too slowly]] · _Will Trump's fiscal expansion undermine his ..._
 - **2018-06** [[Euro and Asian weakness could lift the dollar]] · _Could global macro shocks overwhelm trade de..._
@@ -65,9 +65,10 @@ Sits in the middle of arguments - as much argued toward as argued from.
 - **2019-05** [[But depreciation carries domestic and strategic costs]] · _If U.S.-China trade tensions escalate, will ..._
 - **2019-05** [[A weaker yuan redistributes trade pain]] · _If U.S.-China trade tensions escalate, will ..._
 - **2025-05** [[Each of the five channels is plausible and none is decisive on its own]] · _Why Didn't Tariffs Push Up the U.S. Dollar?_
-- **2026-10** [[The RMB's value is a policy variable controlled by the Chinese authorities]] · _What’s the Renminbi Got to Do With it?_
+- **2026-10** [[RMB weakness was a policy outcome under Chinese control, not incidental]] · _What’s the Renminbi Got to Do With it?_
+- **2026-10** [[The IMF's neglect of China's exchange rate management explains its forecast errors]] · _What’s the Renminbi Got to Do With it?_
 
-### stated_assumption (7)
+### stated_assumption (6)
 
 - **2018-02** [[Exchange-rate effects arrive with lags]] · _Will Trump's fiscal expansion undermine his ..._
 - **2019-05** [[China controls the yuan]] · _If U.S.-China trade tensions escalate, will ..._
@@ -75,28 +76,24 @@ Sits in the middle of arguments - as much argued toward as argued from.
 - **2019-05** [[Stability has value]] · _If U.S.-China trade tensions escalate, will ..._
 - **2025-05** [[Lerner symmetry holds — a tax on imports is a tax on exports, even without retaliation]] · _Why Didn't Tariffs Push Up the U.S. Dollar?_
 - **2025-07** [[China's trade war tools are industrial policy and a weak currency, not tariffs]] · _China is also Fighting a Trade War with Euro..._
-- **2026-10** [[With a closed financial account, the currency market is driven mainly by exporter]] · _What’s the Renminbi Got to Do With it?_
 
-### caveat (5)
-
-- **2019-05** [[Controlled depreciations are difficult because markets may front-run them]] · _If U.S.-China trade tensions escalate, will ..._
-- **2019-05** [[Retaliation risk]] · _If U.S.-China trade tensions escalate, will ..._
-- **2025-05** [[The dollar is still strong by most measures; claims about the end of its reign are]] · _Why Didn't Tariffs Push Up the U.S. Dollar?_
-- **2026-10** [[Europe's institutions lack the tools to coordinate on exchange rates, which limits]] · _What’s the Renminbi Got to Do With it?_
-- **2026-10** [[The RMB has appreciated since mid-2025, which reverses the liberation-day depreciation]] · _What’s the Renminbi Got to Do With it?_
-
-### main_claim (4)
+### main_claim (3)
 
 - **2019-05** [[Main claim China's currency response is a strategic choice]] · _If U.S.-China trade tensions escalate, will ..._
 - **2025-05** [[In a sense, the dollar's recent weakness is over-determined — he declines to choose]] · _Why Didn't Tariffs Push Up the U.S. Dollar?_
 - **2025-07** [[China is winning a trade war with Europe; Europe needs a counter-industrial policy]] · _China is also Fighting a Trade War with Euro..._
-- **2026-10** [[China, which relies on net exports for growth, is on a collision course with its trading]] · _What’s the Renminbi Got to Do With it?_
 
 ### question (3)
 
 - **2019-05** [[If U.S.-China trade tensions escalate, will China keep the yuan stable or let it weaken]] · _If U.S.-China trade tensions escalate, will ..._
 - **2025-05** [[Why didn't tariffs push up the dollar]] · _Why Didn't Tariffs Push Up the U.S. Dollar?_
-- **2026-10** [[Is China's export surge just a mechanical result of weak internal demand, or did the weak]] · _What’s the Renminbi Got to Do With it?_
+- **2026-10** [[Is China's export surge simply a mechanical result of weak domestic demand]] · _What’s the Renminbi Got to Do With it?_
+
+### caveat (3)
+
+- **2019-05** [[Controlled depreciations are difficult because markets may front-run them]] · _If U.S.-China trade tensions escalate, will ..._
+- **2019-05** [[Retaliation risk]] · _If U.S.-China trade tensions escalate, will ..._
+- **2025-05** [[The dollar is still strong by most measures; claims about the end of its reign are]] · _Why Didn't Tariffs Push Up the U.S. Dollar?_
 
 ### other_explanation (2)
 
@@ -111,12 +108,7 @@ Sits in the middle of arguments - as much argued toward as argued from.
 ### evidence_source (2)
 
 - **2025-05** [[The Miran paper; IMF working paper on Lerner symmetry; SAFE 2023 annual report; Aitken]] · _Why Didn't Tariffs Push Up the U.S. Dollar?_
-- **2026-10** [[Mark Sobel and the Goldman Sachs analysts describe heavy management of the RMB and an FX]] · _What’s the Renminbi Got to Do With it?_
-
-### opposing_view (2)
-
-- **2025-05** [[The consensus he started from — that tariffs mechanically lift the dollar]] · _Why Didn't Tariffs Push Up the U.S. Dollar?_
-- **2026-10** [[IMF surveillance ignores China's currency management and the balance of payments]] · _What’s the Renminbi Got to Do With it?_
+- **2026-10** [[Mark Sobel argues the PBOC achieves intervention-like effects through capital controls]] · _What’s the Renminbi Got to Do With it?_
 
 ### anomaly (1)
 
@@ -138,15 +130,19 @@ Sits in the middle of arguments - as much argued toward as argued from.
 
 - **2025-05** [[Bessent at roughly 4% appreciation per 10% of tariffs; Miran expecting a rise; Lerner]] · _Why Didn't Tariffs Push Up the U.S. Dollar?_
 
+### opposing_view (1)
+
+- **2025-05** [[The consensus he started from — that tariffs mechanically lift the dollar]] · _Why Didn't Tariffs Push Up the U.S. Dollar?_
+
+### case_type (1)
+
+- **2026-09** [[Taiwan's life insurers have taken on a quasi-official role because the regulator sets]] · _De-reservification, Not De-dollarization_
+
 ### source_credibility (1)
 
-- **2026-10** [[The PBOC's claim that market forces determine the RMB is not credible]] · _What’s the Renminbi Got to Do With it?_
+- **2026-10** [[The PBOC's claim that market forces decide the RMB is not credible]] · _What’s the Renminbi Got to Do With it?_
 
 ### benchmark (1)
 
 - **2026-10** [[Under fixed-but-adjustable regimes, surplus countries were expected to revalue]] · _What’s the Renminbi Got to Do With it?_
-
-### recommendation (1)
-
-- **2026-10** [[Europe and the IMF should put RMB exchange rate adjustment on the agenda with China]] · _What’s the Renminbi Got to Do With it?_
 

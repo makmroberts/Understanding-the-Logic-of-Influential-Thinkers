@@ -19,7 +19,7 @@ Sits in the middle of arguments - as much argued toward as argued from.
 
 ## Argued together with
 
-- **variable**: [[gdp-growth]] (4), [[manufacturing-trade-balance]] (4), [[import-volumes]] (3), [[export-volumes]] (2), [[national-saving]] (1)
+- **variable**: [[gdp-growth]] (4), [[manufacturing-trade-balance]] (4), [[export-volumes]] (3), [[import-volumes]] (2), [[national-saving]] (1)
 - **country**: [[us]] (6), [[china]] (3), [[euro-area]] (3)
 - **bloc**: [[global]] (1)
 - **instrument**: [[structural-reform]] (1), [[fiscal-policy]] (1)
@@ -35,7 +35,7 @@ Sits in the middle of arguments - as much argued toward as argued from.
 - **2019-08** [[U.S. manufacturing exports are unusually low]] · _Why do the U.S., Europe, and China now occup..._
 - **2019-08** [[Manufacturing imports are similar]] · _Why do the U.S., Europe, and China now occup..._
 - **2019-08** [[Mirror-image manufacturing balances]] · _Why do the U.S., Europe, and China now occup..._
-- **2026-07** [[The price-adjusted surplus is still rising net exports added 0.8 pp of GDP in Q1]] · _Is China’s Surplus Really Shrinking?_
+- **2026-07** [[The price-adjusted trade surplus is still growing, with net exports adding 0.8 pp of GDP]] · _Is China’s Surplus Really Shrinking?_
 
 ### caveat (1)
 
@@ -43,5 +43,5 @@ Sits in the middle of arguments - as much argued toward as argued from.
 
 ### mechanism (1)
 
-- **2026-07** [[Lagging price indices treated chip-price-driven value gains as volume gains in Q1]] · _Is China’s Surplus Really Shrinking?_
+- **2026-07** [[Slow recognition of the chip price shock in Q1 deflators distorted volume data]] · _Is China’s Surplus Really Shrinking?_
 

@@ -15,9 +15,9 @@ Aligned to **iso3166** `KR` — _verified against the published list_
 
 2 claims across 1 articles · facet `country` · [[By country]] · [[index]]
 
-**Position in the argument graph** — centrality 4 (2.0 per claim), 2 out / 2 in, bias +0.0.
+**Position in the argument graph** — centrality 4 (2.0 per claim), 3 out / 1 in, bias +0.5.
 
-Sits in the middle of arguments - as much argued toward as argued from.
+He argues **from** this more than toward it: it behaves like a prior or a mechanism.
 
 ## Argued together with
 
@@ -28,9 +28,9 @@ Sits in the middle of arguments - as much argued toward as argued from.
 
 ### evidence_data (1)
 
-- **2026-09** [[GPIF foreign assets rose from ~$400bn to ~$1tn and NPS from ~$80bn to over $660bn]] · _De-reservification, Not De-dollarization_
+- **2026-09** [[Korea's NPS foreign assets rose from $80 billion to over $660 billion, about 70 percent]] · _De-reservification, Not De-dollarization_
 
 ### intermediate_claim (1)
 
-- **2026-09** [[Most of Korea's government dollar assets sit outside the central bank and COFER]] · _De-reservification, Not De-dollarization_
+- **2026-09** [[Most of Korea's government dollar assets sit outside the central bank and outside COFER]] · _De-reservification, Not De-dollarization_
 

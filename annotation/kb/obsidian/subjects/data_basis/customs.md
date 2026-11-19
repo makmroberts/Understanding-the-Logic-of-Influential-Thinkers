@@ -2,7 +2,7 @@
 type: subject
 facet: data_basis
 term: customs
-claims: 59
+claims: 58
 saturated: false
 tags: [subject, subject/data_basis, data_basis/customs]
 ---
@@ -11,22 +11,22 @@ tags: [subject, subject/data_basis, data_basis/customs]
 
 > Customs and national trade statistics - the series he treats as ground truth.
 
-59 claims across 19 articles · facet `data_basis` · [[By data basis]] · [[index]]
+58 claims across 19 articles · facet `data_basis` · [[By data basis]] · [[index]]
 
-**Position in the argument graph** — centrality 133 (2.25 per claim), 67 out / 66 in, bias +0.01.
+**Position in the argument graph** — centrality 127 (2.19 per claim), 66 out / 61 in, bias +0.04.
 
 Sits in the middle of arguments - as much argued toward as argued from.
 
 ## Argued together with
 
-- **variable**: [[import-volumes]] (23), [[goods-trade-balance]] (19), [[bilateral-trade-flows]] (17), [[export-volumes]] (11), [[current-account]] (11)
-- **country**: [[china]] (43), [[us]] (33), [[euro-area]] (3), [[taiwan]] (1)
+- **variable**: [[import-volumes]] (23), [[goods-trade-balance]] (18), [[bilateral-trade-flows]] (17), [[export-volumes]] (11), [[manufacturing-trade-balance]] (11)
+- **country**: [[china]] (42), [[us]] (33), [[euro-area]] (3), [[taiwan]] (1)
 - **bloc**: [[southeast-asia]] (1)
 - **instrument**: [[tariffs]] (11), [[retaliation]] (5), [[purchase-commitments]] (2), [[export-controls]] (1)
 
 ## Claims by role
 
-### evidence_data (22)
+### evidence_data (24)
 
 - **2018-06** [[2014–15 precedent]] · _Could global macro shocks overwhelm trade de..._
 - **2019-05** [[Manufacturing surplus ~ $1T]] · _If U.S.-China trade tensions escalate, will ..._
@@ -48,34 +48,33 @@ Sits in the middle of arguments - as much argued toward as argued from.
 - **2025-09** [[Annualized trade deficit peaked at $2 trillion in March, fell to $1 trillion]] · _The Trump Shock That Wasn't (At Least Not Yet)_
 - **2025-11** [[Export volumes up 40 percent since end-2019 versus imports up 1 percent; manufactured]] · _China's Massive Surplus is Everywhere (Yet T..._
 - **2026-02** [[October's drop came entirely from pharmaceuticals and gold; excluding them, October's]] · _Understanding the Low October 2025 Trade Def..._
-- **2026-07** [[Gold imports reached $146 billion in H1 2026, nearly $100 billion above H1 2025, and 1.5%]] · _Is China’s Surplus Really Shrinking?_
-- **2026-10** [[Exports accelerated after the 2022 depreciation and outgrew global trade by 2023]] · _What’s the Renminbi Got to Do With it?_
+- **2026-07** [[Oil import volumes collapsed, so the commodity import bill rose only modestly and oil]] · _Is China’s Surplus Really Shrinking?_
+- **2026-07** [[Gold imports reached $146 billion in H1 2026, nearly $100 billion above H1]] · _Is China’s Surplus Really Shrinking?_
+- **2026-07** [[Booming auto exports, globally and to Europe, alongside flat imports drive the rising]] · _Is China’s Surplus Really Shrinking?_
+- **2026-10** [[Chinese exports accelerated and outperformed global trade after the 2022 depreciation]] · _What’s the Renminbi Got to Do With it?_
 
-### caveat (6)
+### caveat (5)
 
 - **2017-12** [[Monthly trade data are noisy and should be read as a time series]] · _Why does the U.S. trade balance still matter..._
 - **2019-08** [[Processing trade makes Europe-China comparisons imperfect]] · _Why do the U.S., Europe, and China now occup..._
 - **2020-10** [[The reversal appears in monthly and 3-month data, not yet in the 12-month sum]] · _Record Chinese Bilateral Surpluses With the ..._
 - **2024-03** [[Specialisation does partly reflect a large population and limited resources]] · _China's Record Manufacturing Surplus_
 - **2026-02** [[Tariffed categories really are falling; watch whether imports rebound once stockpiles are]] · _Understanding the Low October 2025 Trade Def..._
-- **2026-10** [[China's surplus is now less masked in balance of payments data, though problems remain]] · _What’s the Renminbi Got to Do With it?_
 
-### stated_assumption (6)
+### stated_assumption (5)
 
 - **2024-03** [[Bilateral data misleads about global position — rerouting is not displacement]] · _China's Record Manufacturing Surplus_
 - **2024-08** [[The balance-of-payments surplus should exceed customs; a methodology change should net out]] · _China's Imaginary Trade Data_
 - **2025-07** [[Customs goods data captures China's real imbalance better than balance of payments data]] · _China's Stealth Trade Surplus_
 - **2025-09** [[Record tariff revenue means Americans keep importing and paying the tariff]] · _The Trump Shock That Wasn't (At Least Not Yet)_
 - **2026-02** [[Remove pharmaceuticals and gold to read the underlying deficit]] · _Understanding the Low October 2025 Trade Def..._
-- **2026-07** [[Refined gold is classified as a manufacture, so gold flows contaminate the manufacturing]] · _Is China’s Surplus Really Shrinking?_
 
-### intermediate_claim (5)
+### intermediate_claim (4)
 
 - **2020-10** [[The discrepancy likely reflects reporting behavior]] · _Record Chinese Bilateral Surpluses With the ..._
 - **2025-09** [[Excluding pharmaceuticals and gold, U.S. imports are roughly on trend; the shock to trade]] · _The Trump Shock That Wasn't (At Least Not Yet)_
 - **2026-02** [[Tariffs reduce imports in specific categories, but the overall deficit is driven]] · _Understanding the Low October 2025 Trade Def..._
-- **2026-07** [[Manufactures trade excluding chips and gold shows rising exports driven by autos]] · _Is China’s Surplus Really Shrinking?_
-- **2026-07** [[U.S. 2025 data are also distorted by tariff-driven gold bar imports and their reversal]] · _Is China’s Surplus Really Shrinking?_
+- **2026-07** [[U.S. 2025 data also needs gold adjustment, as tariff-driven gold bar imports]] · _Is China’s Surplus Really Shrinking?_
 
 ### hidden_assumption (3)
 
@@ -101,12 +100,12 @@ Sits in the middle of arguments - as much argued toward as argued from.
 ### reconstruction (2)
 
 - **2024-08** [[Goods surplus understated by ~$300bn, over 1.5pp of GDP; true current account surplus]] · _China's Imaginary Trade Data_
-- **2026-07** [[Excluding gold, the goods surplus rose over $80 billion in H1 2026 and would be near 7%]] · _Is China’s Surplus Really Shrinking?_
+- **2026-07** [[Excluding gold, China's goods surplus rose by over $80 billion in H1 2026 and would be]] · _Is China’s Surplus Really Shrinking?_
 
 ### scope_choice (2)
 
 - **2020-07** [[Services excluded because in-China sales are not exports; aircraft adjusted out]] · _Slouching Toward Phase One_
-- **2026-07** [[Gold imports should be netted out of the headline balance because they are a one-off]] · _Is China’s Surplus Really Shrinking?_
+- **2026-07** [[The cleanest gauge is manufactures trade excluding chips and gold, where exports are up]] · _Is China’s Surplus Really Shrinking?_
 
 ### main_claim (1)
 

@@ -2,9 +2,9 @@
  "result": [
   {
    "excerpt": "But the impact of these shocks will differ radically, as will the needed global policy response.",
-   "claim": "Given a set of simultaneous global shocks hitting emerging economies, how will their impact differ across countries and what policy responses does each kind of case require?",
+   "claim": "How will the simultaneous shocks of 2020 affect different emerging economies, and what policy responses do they require?",
    "role": "question",
-   "explicit": false,
+   "explicit": true,
    "kind": "none",
    "claim_type": "none",
    "paragraphs": [
@@ -12,47 +12,45 @@
     7,
     8
    ],
-   "reason": "When common shocks hit heterogeneous economies, the right response depends on each economy's balance sheet.",
+   "reason": "A common shock can demand different responses depending on each country's starting position.",
    "excerpt_para": 8,
+   "excerpt_spans": [
+    {
+     "char_start": 0,
+     "char_end": 96
+    }
+   ],
    "id": "Q",
    "level": "L0"
   },
   {
    "excerpt": "An oil price shock that has sent the price of Brent oil down to under $25",
-   "claim": "Four shocks hit at once: an oil and commodity price collapse, a manufacturing trade shock from shutdowns, a sudden stop in private flows to emerging markets, and reduced cross-border dollar financing.",
+   "claim": "Four simultaneous shocks hit emerging economies: an oil and commodity price collapse below breakevens, a manufacturing trade shock from shutdowns, a sudden stop in private flows, and reduced cross-border dollar financing.",
    "role": "evidence_data",
    "explicit": true,
    "kind": "none",
    "claim_type": "none",
    "paragraphs": [
+    1,
     2,
     3,
     4,
     5
    ],
-   "reason": "Prices below balance of payments breakevens signal external financing stress for exporters.",
+   "reason": "Commodity prices below balance of payments breakevens create external financing gaps for exporters.",
    "excerpt_para": 2,
+   "excerpt_spans": [
+    {
+     "char_start": 0,
+     "char_end": 73
+    }
+   ],
    "id": "E1",
    "level": "L2"
   },
   {
-   "excerpt": "Global finance is now quickly being re-intermediated through banks, as they offer a form of stability that the “shadow” (non-bank) financial system cannot replicate in a crisis.",
-   "claim": "Global finance is shifting back onto bank balance sheets because non-bank finance cannot offer stability in a crisis, straining banks with Fed and ECB access.",
-   "role": "mechanism",
-   "explicit": true,
-   "kind": "economic",
-   "claim_type": "none",
-   "paragraphs": [
-    5
-   ],
-   "reason": "In crises, funding migrates to institutions with central bank access, straining their balance sheets.",
-   "excerpt_para": 5,
-   "id": "M1",
-   "level": "L3"
-  },
-  {
    "excerpt": "These shocks can have offsetting impacts. A country that imports oil, for example, Turkey, will benefit from lower energy prices.",
-   "claim": "The shocks can offset one another: an oil importer like Turkey gains from cheap energy but loses export, tourism and bank rollover funding.",
+   "claim": "The shocks offset each other in some cases, as with Turkey, which gains from cheap oil but loses exports, tourism and access to loan rollovers.",
    "role": "mechanism",
    "explicit": true,
    "kind": "economic",
@@ -60,64 +58,148 @@
    "paragraphs": [
     6
    ],
-   "reason": "A country's net exposure is the sum of its gains and losses across simultaneous shocks.",
+   "reason": "A country's net exposure depends on the sum of its gains and losses across several channels.",
    "excerpt_para": 6,
-   "id": "M2",
+   "excerpt_spans": [
+    {
+     "char_start": 0,
+     "char_end": 129
+    }
+   ],
+   "id": "M1",
    "level": "L3"
   },
   {
-   "excerpt": "Some countries have relatively strong balance sheets and are thus fairly well equipped to handle these shocks on their own.",
-   "claim": "Countries with large reserves and net foreign assets can self-finance their shortfalls and avoid immediate adjustment.",
-   "role": "stated_assumption",
-   "explicit": true,
-   "kind": "none",
-   "claim_type": "none",
-   "paragraphs": [
-    9,
-    10
-   ],
-   "reason": "Accumulated external buffers let a country finance a temporary shortfall instead of adjusting at once.",
-   "excerpt_para": 9,
-   "id": "P1",
-   "level": "L1"
-  },
-  {
-   "excerpt": "The Saudis have around $500 billion in reserves, and the Russians a comparable sum and the added advantage of a floating currency.",
-   "claim": "Saudi Arabia and Russia each hold about $500 billion in reserves, the smaller GCC states over $1 trillion in sovereign funds, and Taiwan has far more foreign assets than foreign liabilities.",
-   "role": "evidence_data",
-   "explicit": true,
-   "kind": "none",
-   "claim_type": "none",
-   "paragraphs": [
-    10,
-    13
-   ],
-   "reason": "The size of reserves relative to likely shortfalls measures capacity to self-finance.",
-   "excerpt_para": 10,
-   "id": "E2",
-   "level": "L2"
-  },
-  {
-   "excerpt": "Now some of these institutions effectively need to borrow dollars to hedge their portfolios against currency risk",
-   "claim": "Asian insurers and other holders of offshore assets need dollars to hedge currency risk, and thinly capitalized ones face trouble when hedging markets seize.",
+   "excerpt": "Global finance is now quickly being re-intermediated through banks, as they offer a form of stability that the “shadow” (non-bank) financial system cannot replicate in a crisis.",
+   "claim": "In a crisis, finance shifts back to banks with central bank access, which squeezes their balance sheets and limits dollar credit even to creditworthy borrowers.",
    "role": "mechanism",
    "explicit": true,
    "kind": "economic",
    "claim_type": "none",
    "paragraphs": [
-    11,
-    12,
-    13,
-    35
+    5
    ],
-   "reason": "Leveraged holders of foreign assets face funding risk when hedging markets dry up, even if the country is a net creditor.",
-   "excerpt_para": 12,
+   "reason": "In stress, funding migrates to institutions with lender-of-last-resort access, straining their capacity.",
+   "excerpt_para": 5,
+   "excerpt_spans": [
+    {
+     "char_start": 218,
+     "char_end": 395
+    }
+   ],
+   "id": "M2",
+   "level": "L3"
+  },
+  {
+   "excerpt": "Some countries have relatively strong balance sheets and are thus fairly well equipped to handle these shocks on their own.",
+   "claim": "Countries divide into those with strong external balance sheets, which can self-insure, and those with weaker ones, which face the pressing problems.",
+   "role": "case_type",
+   "explicit": true,
+   "kind": "none",
+   "claim_type": "none",
+   "paragraphs": [
+    9,
+    15
+   ],
+   "reason": "Net external asset positions decide whether a country can absorb a shock or must adjust or borrow.",
+   "excerpt_para": 9,
+   "excerpt_spans": [
+    {
+     "char_start": 0,
+     "char_end": 123
+    }
+   ],
+   "id": "C4",
+   "level": "L4"
+  },
+  {
+   "excerpt": "The Saudis have around $500 billion in reserves, and the Russians a comparable sum and the added advantage of a floating currency.",
+   "claim": "Saudi Arabia and Russia hold about $500 billion in reserves each, and the smaller GCC states hold over $1 trillion in sovereign wealth funds, so strong oil exporters can self-finance the revenue shortfall.",
+   "role": "evidence_data",
+   "explicit": true,
+   "kind": "none",
+   "claim_type": "none",
+   "paragraphs": [
+    10
+   ],
+   "reason": "Accumulated reserves let a country delay adjustment to a terms of trade shock.",
+   "excerpt_para": 10,
+   "excerpt_spans": [
+    {
+     "char_start": 402,
+     "char_end": 532
+    }
+   ],
+   "id": "E2",
+   "level": "L2"
+  },
+  {
+   "excerpt": "Those buffers can and should be used.",
+   "claim": "Oil exporters with large reserves and sovereign wealth funds should draw them down rather than adjust immediately.",
+   "role": "recommendation",
+   "explicit": true,
+   "kind": "none",
+   "claim_type": "none",
+   "paragraphs": [
+    10,
+    14
+   ],
+   "reason": "Reserves are built precisely to be spent in a shock.",
+   "excerpt_para": 10,
+   "excerpt_spans": [
+    {
+     "char_start": 632,
+     "char_end": 669
+    }
+   ],
+   "id": "REC",
+   "level": "L5"
+  },
+  {
+   "excerpt": "That’s only an immediate problem if the assets are held on levered balance sheets—some insurers, for example, are pretty thinly capitalized",
+   "claim": "Asian surplus countries lose value on their offshore portfolios, but this only becomes a problem where the assets sit on leveraged, thinly capitalized balance sheets, such as some life insurers.",
+   "role": "mechanism",
+   "explicit": true,
+   "kind": "economic",
+   "claim_type": "none",
+   "paragraphs": [
+    11
+   ],
+   "reason": "Asset losses threaten stability mainly when the holders are leveraged.",
+   "excerpt_para": 11,
+   "excerpt_spans": [
+    {
+     "char_start": 420,
+     "char_end": 559
+    }
+   ],
    "id": "M3",
    "level": "L3"
   },
   {
+   "excerpt": "But it has significantly more foreign assets than foreign debt. It faces the same risk as other creditors, namely that it lent out funds that it may not get back in full or on time.",
+   "claim": "Taiwan's foreign assets far exceed its foreign liabilities, so despite its insurers' large hedging needs the country faces no external financial risk.",
+   "role": "evidence_data",
+   "explicit": true,
+   "kind": "none",
+   "claim_type": "none",
+   "paragraphs": [
+    13
+   ],
+   "reason": "A net external creditor faces credit risk on what it lent, not funding risk.",
+   "excerpt_para": 13,
+   "excerpt_spans": [
+    {
+     "char_start": 151,
+     "char_end": 332
+    }
+   ],
+   "id": "E3",
+   "level": "L2"
+  },
+  {
    "excerpt": "But any shortfall in the life insurers equity can be made up domestically, through a government recapitalization.",
-   "claim": "A creditor country's losses on its institutions can be absorbed domestically, so it faces no external financial risk.",
+   "claim": "Losses at the financial institutions of strong-balance-sheet countries can be absorbed domestically, on the assumption that the government is able and willing to recapitalize them.",
    "role": "hidden_assumption",
    "explicit": false,
    "kind": "none",
@@ -126,14 +208,43 @@
     13,
     14
    ],
-   "reason": "A net creditor government can recapitalize domestic institutions in its own currency without external financing.",
+   "reason": "A solvent sovereign with fiscal space can backstop its own financial sector.",
    "excerpt_para": 13,
+   "excerpt_spans": [
+    {
+     "char_start": 501,
+     "char_end": 614
+    }
+   ],
    "id": "P3",
    "level": "L1"
   },
   {
-   "excerpt": "Countries with strong external balance sheets consequently can weather the storm if they act decisively and use their public sector balance sheet to backstop leveraged financial institutions.",
-   "claim": "Strong-balance-sheet countries can weather the storm by using public balance sheets and Fed swap lines to backstop leveraged institutions.",
+   "excerpt": "Their “home” central banks in my view need to—and can—step up, and their regulators need to show flexibility.",
+   "claim": "Home central banks should supply dollar hedges to their institutions, regulators should be flexible, and Fed swap lines and the repo facility could be repurposed to help.",
+   "role": "recommendation",
+   "explicit": true,
+   "kind": "none",
+   "claim_type": "none",
+   "paragraphs": [
+    12,
+    14,
+    35
+   ],
+   "reason": "A public balance sheet should backstop private leveraged institutions when hedging markets seize up.",
+   "excerpt_para": 12,
+   "excerpt_spans": [
+    {
+     "char_start": 258,
+     "char_end": 367
+    }
+   ],
+   "id": "REC2",
+   "level": "L5"
+  },
+  {
+   "excerpt": "Countries with strong external balance sheets consequently can weather the storm if they act decisively",
+   "claim": "Countries with strong external balance sheets can weather the shock by using their public balance sheets.",
    "role": "intermediate_claim",
    "explicit": true,
    "kind": "none",
@@ -141,14 +252,20 @@
    "paragraphs": [
     14
    ],
-   "reason": "A public balance sheet can stand in for private balance sheets that lose market access.",
+   "reason": "Self-insurance works when the public sector holds enough net external assets.",
    "excerpt_para": 14,
+   "excerpt_spans": [
+    {
+     "char_start": 0,
+     "char_end": 103
+    }
+   ],
    "id": "C1",
    "level": "L4"
   },
   {
    "excerpt": "In a crisis, those countries that most need financing are the least able to get it.",
-   "claim": "Countries whose external debt exceeds their liquid reserves face the hardest problems, because financing dries up exactly when they need it.",
+   "claim": "Countries with more external debt than liquid reserves face the hardest problems, because private financing disappears exactly when they need it.",
    "role": "intermediate_claim",
    "explicit": true,
    "kind": "none",
@@ -156,14 +273,20 @@
    "paragraphs": [
     15
    ],
-   "reason": "Private capital is procyclical, fleeing the borrowers who most need it.",
+   "reason": "Private capital is procyclical and withdraws from the weakest borrowers first.",
    "excerpt_para": 15,
+   "excerpt_spans": [
+    {
+     "char_start": 264,
+     "char_end": 347
+    }
+   ],
    "id": "C2",
    "level": "L4"
   },
   {
    "excerpt": "I would differentiate here between two different kinds of funding needs:",
-   "claim": "Funding needs come in two types: short-term dollar trade finance, and longer-term balance of payments funding for lost inflows, and each needs a different remedy.",
+   "claim": "Funding needs come in two kinds, short-term dollar trade finance and medium- to long-term balance of payments gaps from terms of trade shocks, inflow stops or bank runs, and each needs a different tool.",
    "role": "case_type",
    "explicit": true,
    "kind": "none",
@@ -175,30 +298,63 @@
     19,
     21
    ],
-   "reason": "Liquidity needs and solvency-type financing gaps call for different instruments.",
+   "reason": "Liquidity needs and solvency-like external gaps call for different instruments.",
    "excerpt_para": 16,
-   "id": "C3",
+   "excerpt_spans": [
+    {
+     "char_start": 0,
+     "char_end": 72
+    }
+   ],
+   "id": "C5",
    "level": "L4"
   },
   {
-   "excerpt": "Right now those balance of payments shortfalls can arise from a massive terms of trade shock (many oil exporters), from a fall off in financial inflows (South Africa), or even from a run on a dollarized domestic banking system (Lebanon).",
-   "claim": "Balance of payments shortfalls stem from terms-of-trade shocks for oil exporters, lost financial inflows in South Africa, and a dollarized bank run in Lebanon.",
-   "role": "evidence_data",
+   "excerpt": "Those are the kinds of financing shortfalls normally met out of national reserves—with the IMF and the World Bank stepping in to provide additional financing when national reserves are insufficient.",
+   "claim": "Balance of payments shortfalls are properly met from national reserves, with the IMF and World Bank as the backstop when reserves run short.",
+   "role": "stated_assumption",
    "explicit": true,
    "kind": "none",
    "claim_type": "none",
    "paragraphs": [
-    18
+    23
    ],
-   "reason": "Different external shocks produce the same financing gap.",
-   "excerpt_para": 18,
-   "id": "E3",
-   "level": "L2"
+   "reason": "External financing gaps are first covered by own reserves and then by multilateral lenders.",
+   "excerpt_para": 23,
+   "excerpt_spans": [
+    {
+     "char_start": 0,
+     "char_end": 198
+    }
+   ],
+   "id": "P1",
+   "level": "L1"
+  },
+  {
+   "excerpt": "no country should have to face a situation where it is unable to pay for food and medical supplies simply because it has an external bond coming due",
+   "claim": "Essential imports such as food and medicine should take priority over on-time repayment of external bonds.",
+   "role": "stated_assumption",
+   "explicit": true,
+   "kind": "none",
+   "claim_type": "none",
+   "paragraphs": [
+    28
+   ],
+   "reason": "Debt service should not crowd out a country's basic humanitarian needs in an emergency.",
+   "excerpt_para": 28,
+   "excerpt_spans": [
+    {
+     "char_start": 372,
+     "char_end": 520
+    }
+   ],
+   "id": "P2",
+   "level": "L1"
   },
   {
    "excerpt": "The Fed’s swap lines historically have not been used to make up for financing shortfalls from a classic fall off in portfolio inflows",
-   "claim": "Swap lines fund dollar intermediaries, not current account gaps; balance of payments gaps are normally met by reserves, then the IMF and World Bank.",
-   "role": "stated_assumption",
+   "claim": "Fed swap lines are suited to dollar funding of intermediaries, not to covering balance of payments shortfalls, as the 2008 experience shows.",
+   "role": "intermediate_claim",
    "explicit": true,
    "kind": "none",
    "claim_type": "none",
@@ -207,119 +363,20 @@
     23,
     32
    ],
-   "reason": "Central bank liquidity lines address funding of intermediaries, while lost external receipts need reserves or official lending.",
+   "reason": "A liquidity facility for intermediaries cannot substitute for external financing of a country.",
    "excerpt_para": 22,
-   "id": "P2",
-   "level": "L1"
-  },
-  {
-   "excerpt": "Agustin Carstens of the BIS has provided some exceptionally helpful suggestions",
-   "claim": "The BIS (Carstens, Shin), Truman, CGD (Landers, Lee, Morris), Hagan and Buchheit, Brender and Pisani, Concentrated Ambiguity and Cheap Convexity supply the proposals and analysis drawn on.",
-   "role": "evidence_source",
-   "explicit": true,
-   "kind": "none",
-   "claim_type": "none",
-   "paragraphs": [
-    20,
-    26,
-    27,
-    28,
-    33,
-    35
+   "excerpt_spans": [
+    {
+     "char_start": 0,
+     "char_end": 133
+    }
    ],
-   "reason": "Detailed proposals from specialists strengthen a policy agenda.",
-   "excerpt_para": 20,
-   "id": "E4",
-   "level": "L2"
-  },
-  {
-   "excerpt": "Now is the time when the IMF can and should use its ability to create global reserves through what’s called an “SDR allocation”",
-   "claim": "The IMF should issue an SDR allocation and get more lending resources; MDBs should use callable capital; creditors should defer payments; private bondholders should extend 2020 maturities; and central banks should backstop hedging and trade finance.",
-   "role": "recommendation",
-   "explicit": true,
-   "kind": "none",
-   "claim_type": "none",
-   "paragraphs": [
-    12,
-    14,
-    20,
-    24,
-    25,
-    26,
-    27,
-    28,
-    35
-   ],
-   "reason": "When global demand for reserves rises, official creation of reserves and lending should rise with it.",
-   "excerpt_para": 24,
-   "id": "REC",
-   "level": "L5"
-  },
-  {
-   "excerpt": "But SDRs are distributed according to a country’s IMF quota, not according to the amount of reserves a country now needs",
-   "claim": "An SDR allocation alone is insufficient because it goes by quota rather than need.",
-   "role": "caveat",
-   "explicit": true,
-   "kind": "none",
-   "claim_type": "none",
-   "paragraphs": [
-    25
-   ],
-   "reason": "Distributing aid by formula rather than need leaves the neediest underfunded.",
-   "excerpt_para": 25,
-   "id": "QF",
-   "level": "L6"
-  },
-  {
-   "excerpt": "Of course, private creditors would rather be paid. But voluntarily pushing out maturities beats default",
-   "claim": "Private creditors would prefer full payment, but voluntary extension beats default.",
-   "role": "opposing_view",
-   "explicit": true,
-   "kind": "none",
-   "claim_type": "none",
-   "paragraphs": [
-    28
-   ],
-   "reason": "Creditors gain more from voluntary extension than from disorderly default.",
-   "excerpt_para": 28,
-   "id": "X",
-   "level": "L6"
-  },
-  {
-   "excerpt": "When private capital retreats, the official sector needs to advance—and with creativity, sufficient resources can be mobilized to limit the global shock.",
-   "claim": "Emerging markets face many distinct crises, not one, and the official sector must step in with tailored tools, home backstops for the strong and IMF and MDB financing for the weak, to limit the shock.",
-   "role": "main_claim",
-   "explicit": true,
-   "kind": "none",
-   "claim_type": "typology",
-   "paragraphs": [
-    8,
-    19,
-    29
-   ],
-   "reason": "Official finance should replace private finance when it withdraws in a crisis.",
-   "excerpt_para": 29,
-   "id": "K",
-   "level": "L5"
-  },
-  {
-   "excerpt": "While none of this will prevent a massive global downturn, it is crisis economics—the financial equivalent of emergency medicine.",
-   "claim": "These measures will not prevent a massive downturn; they only preserve financial infrastructure for the rebound, and further reforms will be needed.",
-   "role": "caveat",
-   "explicit": true,
-   "kind": "none",
-   "claim_type": "none",
-   "paragraphs": [
-    30
-   ],
-   "reason": "Emergency finance limits damage but cannot offset a real shock.",
-   "excerpt_para": 30,
-   "id": "QF2",
-   "level": "L6"
+   "id": "C3",
+   "level": "L4"
   },
   {
    "excerpt": "The system of private credit risk intermediation broke down well before the world’s central banks lost their appetite for FX intervention (contrary to a forecast that I made with Dr. Roubini back in 2005).",
-   "claim": "He and Roubini forecast in 2005 that central banks would stop financing the U.S. deficit first, but private credit intermediation broke down first.",
+   "claim": "The author's 2005 forecast with Roubini, that central banks would stop financing the U.S. deficit first, was wrong: private credit intermediation broke down first.",
    "role": "revised_prior",
    "explicit": true,
    "kind": "none",
@@ -327,18 +384,219 @@
    "paragraphs": [
     33
    ],
-   "reason": "Sustaining an external deficit requires someone to take both currency risk and credit risk.",
+   "reason": "External deficits need both official buyers to bear currency risk and private intermediaries to bear credit risk.",
    "excerpt_para": 33,
+   "excerpt_spans": [
+    {
+     "char_start": 649,
+     "char_end": 854
+    }
+   ],
    "id": "P4",
    "level": "L1"
+  },
+  {
+   "excerpt": "as Brender and Pisani laid out so clearly, in a still under appreciated monograph",
+   "claim": "Brender and Pisani, along with the author's Iceland conference paper, explain how the U.S. deficit before 2008 depended on both official reserve accumulation and private credit intermediation.",
+   "role": "evidence_source",
+   "explicit": true,
+   "kind": "none",
+   "claim_type": "none",
+   "paragraphs": [
+    33,
+    34
+   ],
+   "reason": "Past crises show how funding structures break down.",
+   "excerpt_para": 33,
+   "excerpt_spans": [
+    {
+     "char_start": 382,
+     "char_end": 463
+    }
+   ],
+   "id": "E4",
+   "level": "L2"
+  },
+  {
+   "excerpt": "Agustin Carstens of the BIS has provided some exceptionally helpful suggestions",
+   "claim": "Central banks, with Fed help and national export-import banks, can address trade finance, building on BIS proposals.",
+   "role": "recommendation",
+   "explicit": true,
+   "kind": "none",
+   "claim_type": "none",
+   "paragraphs": [
+    20
+   ],
+   "reason": "Short-term dollar trade finance gaps are a liquidity problem that central banks can fill.",
+   "excerpt_para": 20,
+   "excerpt_spans": [
+    {
+     "char_start": 282,
+     "char_end": 361
+    }
+   ],
+   "id": "REC3",
+   "level": "L5"
+  },
+  {
+   "excerpt": "Now is the time when the IMF can and should use its ability to create global reserves through what’s called an “SDR allocation”",
+   "claim": "The IMF should make an SDR allocation to raise global reserves, with reserve-rich countries lending their SDRs back.",
+   "role": "recommendation",
+   "explicit": true,
+   "kind": "none",
+   "claim_type": "none",
+   "paragraphs": [
+    24
+   ],
+   "reason": "When the global demand for reserves jumps, the official sector should create more.",
+   "excerpt_para": 24,
+   "excerpt_spans": [
+    {
+     "char_start": 0,
+     "char_end": 127
+    }
+   ],
+   "id": "REC4",
+   "level": "L5"
+  },
+  {
+   "excerpt": "But SDRs are distributed according to a country’s IMF quota, not according to the amount of reserves a country now needs",
+   "claim": "An SDR allocation alone is insufficient because it is distributed by quota rather than need, so the IMF and the multilateral development banks also need more lending capacity.",
+   "role": "caveat",
+   "explicit": true,
+   "kind": "none",
+   "claim_type": "none",
+   "paragraphs": [
+    25,
+    26,
+    27
+   ],
+   "reason": "A tool distributed by formula rather than need will miss the countries in greatest need.",
+   "excerpt_para": 25,
+   "excerpt_spans": [
+    {
+     "char_start": 0,
+     "char_end": 120
+    }
+   ],
+   "id": "QF",
+   "level": "L6"
+  },
+  {
+   "excerpt": "private creditors should also be encouraged to extend the maturity of bonds that are coming due in 2020",
+   "claim": "Bilateral creditors should defer payments and private bondholders should voluntarily extend 2020 maturities.",
+   "role": "recommendation",
+   "explicit": true,
+   "kind": "none",
+   "claim_type": "none",
+   "paragraphs": [
+    28
+   ],
+   "reason": "A voluntary maturity extension beats default for both creditor and debtor.",
+   "excerpt_para": 28,
+   "excerpt_spans": [
+    {
+     "char_start": 158,
+     "char_end": 261
+    }
+   ],
+   "id": "REC5",
+   "level": "L5"
+  },
+  {
+   "excerpt": "Of course, private creditors would rather be paid.",
+   "claim": "Private creditors prefer full repayment and may resist maturity extensions.",
+   "role": "opposing_view",
+   "explicit": true,
+   "kind": "none",
+   "claim_type": "none",
+   "paragraphs": [
+    28
+   ],
+   "reason": "Individual creditors gain from being paid even when collective restraint serves everyone better.",
+   "excerpt_para": 28,
+   "excerpt_spans": [
+    {
+     "char_start": 263,
+     "char_end": 313
+    }
+   ],
+   "id": "X",
+   "level": "L6"
+  },
+  {
+   "excerpt": "When private capital retreats, the official sector needs to advance—and with creativity, sufficient resources can be mobilized to limit the global shock.",
+   "claim": "The shocks create many different emerging market crises: strong countries should self-insure, while the official sector (IMF, World Bank, central banks) must replace retreating private capital for the weaker ones.",
+   "role": "main_claim",
+   "explicit": true,
+   "kind": "none",
+   "claim_type": "typology",
+   "paragraphs": [
+    8,
+    14,
+    15,
+    29
+   ],
+   "reason": "Official finance should substitute for procyclical private finance in a crisis.",
+   "excerpt_para": 29,
+   "excerpt_spans": [
+    {
+     "char_start": 0,
+     "char_end": 153
+    }
+   ],
+   "id": "K",
+   "level": "L5"
+  },
+  {
+   "excerpt": "While none of this will prevent a massive global downturn, it is crisis economics",
+   "claim": "These measures will not prevent a massive downturn; they only aim to preserve the financial infrastructure for the recovery.",
+   "role": "caveat",
+   "explicit": true,
+   "kind": "none",
+   "claim_type": "none",
+   "paragraphs": [
+    30
+   ],
+   "reason": "Emergency liquidity limits damage but cannot offset a real shock.",
+   "excerpt_para": 30,
+   "excerpt_spans": [
+    {
+     "char_start": 0,
+     "char_end": 81
+    }
+   ],
+   "id": "QF2",
+   "level": "L6"
+  },
+  {
+   "excerpt": "And when that bounce back happens, many more reforms will be needed.",
+   "claim": "Broader reforms are explicitly put off until after the recovery.",
+   "role": "deferred_question",
+   "explicit": true,
+   "kind": "none",
+   "claim_type": "none",
+   "paragraphs": [
+    30
+   ],
+   "reason": "Structural reform is best sequenced after crisis containment.",
+   "excerpt_para": 30,
+   "excerpt_spans": [
+    {
+     "char_start": 282,
+     "char_end": 350
+    }
+   ],
+   "id": "DF",
+   "level": "L6"
   }
  ],
  "review": [
   "`E2` the name `arabia` does not occur in the article",
-  "`E4` the name `cgd` does not occur in the article"
+  "27 boxes, more than any hand-drawn map (24)"
  ],
  "gaps_left": [],
  "dropped": [],
  "fix_rounds": 0,
- "reasks": 0
+ "reasks": 1
 }

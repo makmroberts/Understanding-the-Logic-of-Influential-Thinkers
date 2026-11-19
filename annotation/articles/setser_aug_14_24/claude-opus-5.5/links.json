@@ -3,19 +3,25 @@
   {
    "from": "Q",
    "relation": "frames",
-   "to": "ID",
-   "sign": 0
-  },
-  {
-   "from": "Q",
-   "relation": "frames",
    "to": "P1",
    "sign": 0
   },
   {
    "from": "Q",
    "relation": "frames",
+   "to": "P2",
+   "sign": 0
+  },
+  {
+   "from": "Q",
+   "relation": "frames",
    "to": "P3",
+   "sign": 0
+  },
+  {
+   "from": "Q",
+   "relation": "frames",
+   "to": "ID",
    "sign": 0
   },
   {
@@ -37,31 +43,13 @@
    "sign": 1
   },
   {
-   "from": "P3",
+   "from": "P1",
    "relation": "licenses",
    "to": "C1",
    "sign": 1
   },
   {
-   "from": "P2",
-   "relation": "supports",
-   "to": "C1",
-   "sign": 1
-  },
-  {
    "from": "ID",
-   "relation": "frames",
-   "to": "E5",
-   "sign": 0
-  },
-  {
-   "from": "E5",
-   "relation": "supports",
-   "to": "K",
-   "sign": 1
-  },
-  {
-   "from": "P1",
    "relation": "frames",
    "to": "E4",
    "sign": 0
@@ -73,26 +61,26 @@
    "sign": 1
   },
   {
-   "from": "C1",
-   "relation": "supports",
-   "to": "K",
-   "sign": 1
-  },
-  {
-   "from": "P4",
+   "from": "P3",
    "relation": "frames",
-   "to": "E2",
+   "to": "E1",
    "sign": 0
   },
   {
-   "from": "E2",
+   "from": "E1",
    "relation": "supports",
    "to": "K",
    "sign": 1
   },
   {
-   "from": "P4",
-   "relation": "licenses",
+   "from": "M2",
+   "relation": "supports",
+   "to": "C1",
+   "sign": 1
+  },
+  {
+   "from": "C1",
+   "relation": "supports",
    "to": "K",
    "sign": 1
   },
@@ -103,7 +91,19 @@
    "sign": 1
   },
   {
-   "from": "E1",
+   "from": "SC2",
+   "relation": "supports",
+   "to": "K",
+   "sign": 1
+  },
+  {
+   "from": "P3",
+   "relation": "bounds",
+   "to": "E2",
+   "sign": 1
+  },
+  {
+   "from": "E2",
    "relation": "supports",
    "to": "RC",
    "sign": 1
@@ -112,6 +112,18 @@
    "from": "K",
    "relation": "reconstructs",
    "to": "RC",
+   "sign": 1
+  },
+  {
+   "from": "P2",
+   "relation": "licenses",
+   "to": "K",
+   "sign": 1
+  },
+  {
+   "from": "P4",
+   "relation": "licenses",
+   "to": "K",
    "sign": 1
   },
   {
@@ -133,7 +145,7 @@
    "sign": -1
   },
   {
-   "from": "K",
+   "from": "E4",
    "relation": "qualified_by",
    "to": "QF2",
    "sign": -1
@@ -143,10 +155,18 @@
    "relation": "defers",
    "to": "DF",
    "sign": 0
+  },
+  {
+   "from": "P2",
+   "relation": "frames",
+   "to": "SC",
+   "sign": 0
   }
  ],
  "review": [
-  "`M1` qualified_by `QF` joins L3→L6, which no hand-drawn qualified_by link does"
+  "`P3` bounds `E2` joins L1→L2, which no hand-drawn bounds link does",
+  "`M1` qualified_by `QF` joins L3→L6, which no hand-drawn qualified_by link does",
+  "`P2` frames `SC` joins L1→L1, which no hand-drawn frames link does"
  ],
  "gaps_left": [],
  "dropped": [],

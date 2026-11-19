@@ -12,6 +12,42 @@
   {
    "doc": "setser_sep_20_19",
    "node_id": "Q",
+   "facet": "variable",
+   "value": "national-saving",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_sep_20_19",
+   "node_id": "Q",
+   "facet": "country",
+   "value": "us",
+   "role": "subject",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_sep_20_19",
+   "node_id": "ID",
+   "facet": "variable",
+   "value": "current-account",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_sep_20_19",
+   "node_id": "ID",
+   "facet": "variable",
+   "value": "global-imbalances",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_sep_20_19",
+   "node_id": "ID",
    "facet": "bloc",
    "value": "global",
    "role": "subject",
@@ -41,96 +77,6 @@
    "node_id": "C1",
    "facet": "bloc",
    "value": "global",
-   "role": "subject",
-   "source": "llm",
-   "model": "anthropic/claude-opus-5.5"
-  },
-  {
-   "doc": "setser_sep_20_19",
-   "node_id": "ID",
-   "facet": "variable",
-   "value": "global-imbalances",
-   "role": "",
-   "source": "llm",
-   "model": "anthropic/claude-opus-5.5"
-  },
-  {
-   "doc": "setser_sep_20_19",
-   "node_id": "ID",
-   "facet": "bloc",
-   "value": "global",
-   "role": "subject",
-   "source": "llm",
-   "model": "anthropic/claude-opus-5.5"
-  },
-  {
-   "doc": "setser_sep_20_19",
-   "node_id": "E1",
-   "facet": "variable",
-   "value": "manufacturing-trade-balance",
-   "role": "",
-   "source": "llm",
-   "model": "anthropic/claude-opus-5.5"
-  },
-  {
-   "doc": "setser_sep_20_19",
-   "node_id": "E1",
-   "facet": "variable",
-   "value": "investment-income-balance",
-   "role": "",
-   "source": "llm",
-   "model": "anthropic/claude-opus-5.5"
-  },
-  {
-   "doc": "setser_sep_20_19",
-   "node_id": "E1",
-   "facet": "variable",
-   "value": "current-account",
-   "role": "",
-   "source": "llm",
-   "model": "anthropic/claude-opus-5.5"
-  },
-  {
-   "doc": "setser_sep_20_19",
-   "node_id": "E1",
-   "facet": "data_basis",
-   "value": "balance-of-payments",
-   "role": "",
-   "source": "llm",
-   "model": "anthropic/claude-opus-5.5"
-  },
-  {
-   "doc": "setser_sep_20_19",
-   "node_id": "E1",
-   "facet": "country",
-   "value": "us",
-   "role": "subject",
-   "source": "llm",
-   "model": "anthropic/claude-opus-5.5"
-  },
-  {
-   "doc": "setser_sep_20_19",
-   "node_id": "E5",
-   "facet": "variable",
-   "value": "investment-income-balance",
-   "role": "",
-   "source": "llm",
-   "model": "anthropic/claude-opus-5.5"
-  },
-  {
-   "doc": "setser_sep_20_19",
-   "node_id": "E5",
-   "facet": "data_basis",
-   "value": "press-reporting",
-   "role": "",
-   "source": "llm",
-   "model": "anthropic/claude-opus-5.5"
-  },
-  {
-   "doc": "setser_sep_20_19",
-   "node_id": "E5",
-   "facet": "country",
-   "value": "us",
    "role": "subject",
    "source": "llm",
    "model": "anthropic/claude-opus-5.5"
@@ -202,7 +148,7 @@
    "doc": "setser_sep_20_19",
    "node_id": "X",
    "facet": "instrument",
-   "value": "tariffs",
+   "value": "fiscal-policy",
    "role": "",
    "source": "llm",
    "model": "anthropic/claude-opus-5.5"
@@ -220,7 +166,7 @@
    "doc": "setser_sep_20_19",
    "node_id": "P1",
    "facet": "variable",
-   "value": "global-imbalances",
+   "value": "fiscal-balance",
    "role": "",
    "source": "llm",
    "model": "anthropic/claude-opus-5.5"
@@ -229,7 +175,7 @@
    "doc": "setser_sep_20_19",
    "node_id": "P1",
    "facet": "variable",
-   "value": "interest-rates",
+   "value": "domestic-demand",
    "role": "",
    "source": "llm",
    "model": "anthropic/claude-opus-5.5"
@@ -245,7 +191,16 @@
   },
   {
    "doc": "setser_sep_20_19",
-   "node_id": "C2",
+   "node_id": "P1",
+   "facet": "country",
+   "value": "euro-area",
+   "role": "subject",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_sep_20_19",
+   "node_id": "E1",
    "facet": "variable",
    "value": "fiscal-balance",
    "role": "",
@@ -254,16 +209,7 @@
   },
   {
    "doc": "setser_sep_20_19",
-   "node_id": "C2",
-   "facet": "variable",
-   "value": "current-account",
-   "role": "",
-   "source": "llm",
-   "model": "anthropic/claude-opus-5.5"
-  },
-  {
-   "doc": "setser_sep_20_19",
-   "node_id": "C2",
+   "node_id": "E1",
    "facet": "instrument",
    "value": "fiscal-policy",
    "role": "",
@@ -272,7 +218,16 @@
   },
   {
    "doc": "setser_sep_20_19",
-   "node_id": "C2",
+   "node_id": "E1",
+   "facet": "country",
+   "value": "germany",
+   "role": "subject",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_sep_20_19",
+   "node_id": "E1",
    "facet": "country",
    "value": "euro-area",
    "role": "subject",
@@ -291,6 +246,15 @@
   {
    "doc": "setser_sep_20_19",
    "node_id": "QF",
+   "facet": "variable",
+   "value": "current-account",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_sep_20_19",
+   "node_id": "QF",
    "facet": "instrument",
    "value": "fiscal-policy",
    "role": "",
@@ -308,16 +272,7 @@
   },
   {
    "doc": "setser_sep_20_19",
-   "node_id": "C4",
-   "facet": "variable",
-   "value": "fiscal-balance",
-   "role": "",
-   "source": "llm",
-   "model": "anthropic/claude-opus-5.5"
-  },
-  {
-   "doc": "setser_sep_20_19",
-   "node_id": "C4",
+   "node_id": "M2",
    "facet": "variable",
    "value": "current-account",
    "role": "",
@@ -326,7 +281,16 @@
   },
   {
    "doc": "setser_sep_20_19",
-   "node_id": "C4",
+   "node_id": "M2",
+   "facet": "variable",
+   "value": "fiscal-balance",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_sep_20_19",
+   "node_id": "M2",
    "facet": "instrument",
    "value": "fx-intervention",
    "role": "",
@@ -335,7 +299,16 @@
   },
   {
    "doc": "setser_sep_20_19",
-   "node_id": "C4",
+   "node_id": "M2",
+   "facet": "instrument",
+   "value": "fiscal-policy",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_sep_20_19",
+   "node_id": "M2",
    "facet": "bloc",
    "value": "asia-surplus",
    "role": "subject",
@@ -344,16 +317,7 @@
   },
   {
    "doc": "setser_sep_20_19",
-   "node_id": "C5",
-   "facet": "variable",
-   "value": "fiscal-balance",
-   "role": "",
-   "source": "llm",
-   "model": "anthropic/claude-opus-5.5"
-  },
-  {
-   "doc": "setser_sep_20_19",
-   "node_id": "C5",
+   "node_id": "C2",
    "facet": "variable",
    "value": "current-account",
    "role": "",
@@ -362,7 +326,16 @@
   },
   {
    "doc": "setser_sep_20_19",
-   "node_id": "C5",
+   "node_id": "C2",
+   "facet": "variable",
+   "value": "fiscal-balance",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_sep_20_19",
+   "node_id": "C2",
    "facet": "country",
    "value": "china",
    "role": "subject",
@@ -371,7 +344,7 @@
   },
   {
    "doc": "setser_sep_20_19",
-   "node_id": "C5",
+   "node_id": "C2",
    "facet": "country",
    "value": "japan",
    "role": "subject",
@@ -380,36 +353,9 @@
   },
   {
    "doc": "setser_sep_20_19",
-   "node_id": "P2",
-   "facet": "variable",
-   "value": "fiscal-balance",
-   "role": "",
-   "source": "llm",
-   "model": "anthropic/claude-opus-5.5"
-  },
-  {
-   "doc": "setser_sep_20_19",
-   "node_id": "P2",
-   "facet": "variable",
-   "value": "current-account",
-   "role": "",
-   "source": "llm",
-   "model": "anthropic/claude-opus-5.5"
-  },
-  {
-   "doc": "setser_sep_20_19",
    "node_id": "ANOM",
    "facet": "variable",
    "value": "current-account",
-   "role": "",
-   "source": "llm",
-   "model": "anthropic/claude-opus-5.5"
-  },
-  {
-   "doc": "setser_sep_20_19",
-   "node_id": "ANOM",
-   "facet": "variable",
-   "value": "fiscal-balance",
    "role": "",
    "source": "llm",
    "model": "anthropic/claude-opus-5.5"
@@ -425,7 +371,16 @@
   },
   {
    "doc": "setser_sep_20_19",
-   "node_id": "M2",
+   "node_id": "RC",
+   "facet": "variable",
+   "value": "current-account",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_sep_20_19",
+   "node_id": "RC",
    "facet": "variable",
    "value": "services-balance",
    "role": "",
@@ -434,16 +389,7 @@
   },
   {
    "doc": "setser_sep_20_19",
-   "node_id": "M2",
-   "facet": "variable",
-   "value": "current-account",
-   "role": "",
-   "source": "llm",
-   "model": "anthropic/claude-opus-5.5"
-  },
-  {
-   "doc": "setser_sep_20_19",
-   "node_id": "M2",
+   "node_id": "RC",
    "facet": "data_basis",
    "value": "balance-of-payments",
    "role": "",
@@ -452,10 +398,28 @@
   },
   {
    "doc": "setser_sep_20_19",
-   "node_id": "M2",
+   "node_id": "RC",
    "facet": "country",
    "value": "china",
    "role": "subject",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_sep_20_19",
+   "node_id": "P2",
+   "facet": "variable",
+   "value": "fiscal-balance",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_sep_20_19",
+   "node_id": "P2",
+   "facet": "variable",
+   "value": "current-account",
+   "role": "",
    "source": "llm",
    "model": "anthropic/claude-opus-5.5"
   },
@@ -553,7 +517,7 @@
    "doc": "setser_sep_20_19",
    "node_id": "M3",
    "facet": "variable",
-   "value": "savings-investment-gap",
+   "value": "fiscal-balance",
    "role": "",
    "source": "llm",
    "model": "anthropic/claude-opus-5.5"
@@ -562,7 +526,16 @@
    "doc": "setser_sep_20_19",
    "node_id": "M3",
    "facet": "variable",
-   "value": "fiscal-balance",
+   "value": "national-saving",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_sep_20_19",
+   "node_id": "M3",
+   "facet": "variable",
+   "value": "current-account",
    "role": "",
    "source": "llm",
    "model": "anthropic/claude-opus-5.5"
@@ -578,10 +551,28 @@
   },
   {
    "doc": "setser_sep_20_19",
-   "node_id": "P4",
+   "node_id": "C4",
    "facet": "variable",
-   "value": "fiscal-impulse",
+   "value": "fiscal-balance",
    "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_sep_20_19",
+   "node_id": "C4",
+   "facet": "variable",
+   "value": "current-account",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_sep_20_19",
+   "node_id": "C4",
+   "facet": "country",
+   "value": "china",
+   "role": "subject",
    "source": "llm",
    "model": "anthropic/claude-opus-5.5"
   },
@@ -590,6 +581,15 @@
    "node_id": "P4",
    "facet": "variable",
    "value": "national-saving",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_sep_20_19",
+   "node_id": "P4",
+   "facet": "variable",
+   "value": "household-consumption-share",
    "role": "",
    "source": "llm",
    "model": "anthropic/claude-opus-5.5"
@@ -679,7 +679,7 @@
    "doc": "setser_sep_20_19",
    "node_id": "REC",
    "facet": "variable",
-   "value": "national-saving",
+   "value": "household-consumption-share",
    "role": "",
    "source": "llm",
    "model": "anthropic/claude-opus-5.5"
@@ -688,7 +688,7 @@
    "doc": "setser_sep_20_19",
    "node_id": "REC",
    "facet": "variable",
-   "value": "household-consumption-share",
+   "value": "national-saving",
    "role": "",
    "source": "llm",
    "model": "anthropic/claude-opus-5.5"
@@ -768,15 +768,6 @@
   {
    "doc": "setser_sep_20_19",
    "node_id": "E4",
-   "facet": "data_basis",
-   "value": "balance-of-payments",
-   "role": "",
-   "source": "llm",
-   "model": "anthropic/claude-opus-5.5"
-  },
-  {
-   "doc": "setser_sep_20_19",
-   "node_id": "E4",
    "facet": "country",
    "value": "us",
    "role": "subject",
@@ -796,7 +787,7 @@
    "doc": "setser_sep_20_19",
    "node_id": "P3",
    "facet": "variable",
-   "value": "commodity-prices",
+   "value": "domestic-demand",
    "role": "",
    "source": "llm",
    "model": "anthropic/claude-opus-5.5"
@@ -815,6 +806,15 @@
    "node_id": "K",
    "facet": "variable",
    "value": "global-imbalances",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_sep_20_19",
+   "node_id": "K",
+   "facet": "variable",
+   "value": "national-saving",
    "role": "",
    "source": "llm",
    "model": "anthropic/claude-opus-5.5"
@@ -890,46 +890,9 @@
    "role": "subject",
    "source": "llm",
    "model": "anthropic/claude-opus-5.5"
-  },
-  {
-   "doc": "setser_sep_20_19",
-   "node_id": "REC2",
-   "facet": "variable",
-   "value": "fiscal-balance",
-   "role": "",
-   "source": "llm",
-   "model": "anthropic/claude-opus-5.5"
-  },
-  {
-   "doc": "setser_sep_20_19",
-   "node_id": "REC2",
-   "facet": "instrument",
-   "value": "fiscal-policy",
-   "role": "",
-   "source": "llm",
-   "model": "anthropic/claude-opus-5.5"
-  },
-  {
-   "doc": "setser_sep_20_19",
-   "node_id": "REC2",
-   "facet": "data_basis",
-   "value": "imf-publications",
-   "role": "",
-   "source": "llm",
-   "model": "anthropic/claude-opus-5.5"
-  },
-  {
-   "doc": "setser_sep_20_19",
-   "node_id": "REC2",
-   "facet": "bloc",
-   "value": "global",
-   "role": "subject",
-   "source": "llm",
-   "model": "anthropic/claude-opus-5.5"
   }
  ],
  "review": [
-  "`setser_sep_20_19#P1` where_subject empty - every claim needs a country or a bloc (assignment.requires_one_of) - needs review",
   "`setser_sep_20_19#P2` where_subject empty - every claim needs a country or a bloc (assignment.requires_one_of) - needs review"
  ],
  "gaps_left": [],

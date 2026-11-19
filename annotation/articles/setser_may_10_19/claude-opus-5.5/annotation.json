@@ -332,13 +332,13 @@
   }
  },
  "annotation": {
-  "annotated_at": "2026-11-09T21:13:00+00:00",
+  "annotated_at": "2026-11-19T02:35:59+00:00",
   "ontology": {
    "id": "setser_argument",
-   "version": 2
+   "version": 3
   },
   "facets_version": 1,
-  "pipeline_version": "8d03103",
+  "pipeline_version": "137f37e",
   "status": "needs_review",
   "runs": [
    {
@@ -350,9 +350,9 @@
      "max_tokens": 16000,
      "reasoning_effort": "medium"
     },
-    "timestamp": "2026-11-09T21:13:00+00:00",
+    "timestamp": "2026-11-19T02:35:59+00:00",
     "calls": 1,
-    "cost_usd": 0.12069
+    "cost_usd": 0.13362
    },
    {
     "run_id": "claude-opus-5.5_links",
@@ -363,9 +363,9 @@
      "max_tokens": 12000,
      "reasoning_effort": "medium"
     },
-    "timestamp": "2026-11-09T21:13:00+00:00",
+    "timestamp": "2026-11-19T02:35:59+00:00",
     "calls": 1,
-    "cost_usd": 0.04616
+    "cost_usd": 0.04806
    },
    {
     "run_id": "claude-opus-5.5_facets",
@@ -376,15 +376,15 @@
      "max_tokens": 12000,
      "reasoning_effort": "low"
     },
-    "timestamp": "2026-11-09T21:13:00+00:00",
+    "timestamp": "2026-11-19T02:35:59+00:00",
     "calls": 1,
-    "cost_usd": 0.06219
+    "cost_usd": 0.06314
    }
   ]
  },
  "summary": {
-  "central_question": "With the trade deal collapsing and full U.S. tariffs looming, will China keep the yuan stable or let it weaken to offset the tariffs?",
-  "main_thesis": "China will likely limit near-term yuan weakness while it tests whether a deal is still possible, saving a major depreciation for after tariffs are fully extended.",
+  "central_question": "If the US imposes the full threatened tariffs, will China hold the yuan stable or let it weaken to offset the trade hit?",
+  "main_thesis": "China can choose either path, but it will most likely limit near-term depreciation while it tests whether a deal is still possible.",
   "argument_summary": null
  },
  "nodes": [
@@ -394,10 +394,10 @@
    "role": "question",
    "level": "L0",
    "content": {
-    "text": "With the trade deal collapsing and full U.S. tariffs looming, will China keep the yuan stable or let it weaken to offset the tariffs?",
+    "text": "If the US imposes the full threatened tariffs, will China hold the yuan stable or let it weaken to offset the trade hit?",
     "label": null,
     "explicit": true,
-    "reason": "A large trade shock forces a choice between holding the exchange rate and letting it absorb the shock."
+    "reason": "A country hit by a large external trade shock must choose whether to absorb it or shift it through the exchange rate."
    },
    "source": {
     "passages": [
@@ -461,26 +461,31 @@
   },
   {
    "id": "n002",
-   "legacy_id": "POS",
-   "role": "position_map",
+   "legacy_id": "ANOM",
+   "role": "anomaly",
    "level": "L0",
    "content": {
-    "text": "The deal's collapse may stem from China pulling back its offer, or from Trump deciding the deal was not great enough; Fickling suggests a deficit-fixated Trump may not want a deal at all.",
+    "text": "Signals had pointed to a modest US-China deal: Trump's tweets, early soybean purchases, summit preparations and a stable yuan, but the deal collapsed within a week.",
     "label": null,
     "explicit": true,
-    "reason": "When negotiations break down, list the competing accounts of who moved before judging."
+    "reason": "When convergent signals of an agreement are suddenly reversed, the shift calls for re-examining each side's options."
    },
    "source": {
     "passages": [
      {
       "paragraph_id": "p1",
       "paragraph_sha256": "sha256:a4b9124c9f940cbd658620294eaed9b9ba93ead0190b0a985b1847998c0d4c2f",
-      "relation": "abstracts",
+      "relation": "states",
       "link_method": "llm_citation",
-      "anchor_grade": "cited",
+      "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": null,
-      "source_spans": null
+      "source_excerpt": "Until this past week, it looked like the United States and China were heading toward a deal. Not a great deal, but a deal.",
+      "source_spans": [
+       {
+        "char_start": 0,
+        "char_end": 122
+       }
+      ]
      },
      {
       "paragraph_id": "p2",
@@ -523,6 +528,91 @@
       "source_spans": null
      },
      {
+      "paragraph_id": "p6",
+      "paragraph_sha256": "sha256:e7a8a954e2267ef1ee195b92070be4620c3f31d2db495f01b38adc83f0c004aa",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     },
+     {
+      "paragraph_id": "p7",
+      "paragraph_sha256": "sha256:922b4b2ec775761e07d90ed075d9efc076706f4947e47433a24d34f8d3ef057c",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "bilateral-trade-flows",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [
+     {
+      "term": "china",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     },
+     {
+      "term": "us",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "counterpart"
+     }
+    ],
+    "bloc": [],
+    "instrument": [
+     {
+      "term": "trade-agreements",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     },
+     {
+      "term": "purchase-commitments",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "data_basis": []
+   },
+   "attributes": {},
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": [
+     "boxes: `ANOM` the name `us-china` does not occur in the article",
+     "links: `ANOM` undercut_by `R1` joins L0→L6, which no hand-drawn undercut_by link does"
+    ]
+   }
+  },
+  {
+   "id": "n003",
+   "legacy_id": "R1",
+   "role": "other_explanation",
+   "level": "L6",
+   "content": {
+    "text": "The breakdown may reflect China withdrawing its offer, or Trump deciding the deal was not 'great' enough and preferring tariffs.",
+    "label": null,
+    "explicit": true,
+    "reason": "A negotiation collapse can stem from either party's change of position, and the evidence may not discriminate between them."
+   },
+   "source": {
+    "passages": [
+     {
       "paragraph_id": "p8",
       "paragraph_sha256": "sha256:36e59896e87de12b10947437f71475806fc3a3b03215f9555530c2e6fafb40fb",
       "relation": "states",
@@ -542,7 +632,7 @@
    "facets": {
     "variable": [
      {
-      "term": "bilateral-trade-flows",
+      "term": "tariff-rate",
       "assignment_source": "llm",
       "run_id": "claude-opus-5.5_facets"
      }
@@ -574,13 +664,7 @@
       "run_id": "claude-opus-5.5_facets"
      }
     ],
-    "data_basis": [
-     {
-      "term": "press-reporting",
-      "assignment_source": "llm",
-      "run_id": "claude-opus-5.5_facets"
-     }
-    ]
+    "data_basis": []
    },
    "attributes": {},
    "provenance": {
@@ -589,19 +673,21 @@
    },
    "review": {
     "status": "pending",
-    "reasons": []
+    "reasons": [
+     "links: `ANOM` undercut_by `R1` joins L0→L6, which no hand-drawn undercut_by link does"
+    ]
    }
   },
   {
-   "id": "n003",
+   "id": "n004",
    "legacy_id": "E1",
    "role": "evidence_data",
    "level": "L2",
    "content": {
-    "text": "Full tariffs would raise about $100–140 billion, roughly half a point of GDP fiscal tightening, smaller than the dollar's 2014–15 drag.",
+    "text": "Full 25 percent tariffs on about $550 billion of imports would raise $100 to 140 billion, a fiscal tightening of about half a point of GDP.",
     "label": null,
     "explicit": true,
-    "reason": "Tariff revenue drains private spending just as a tax increase does."
+    "reason": "Tariff revenue acts as a tax increase that withdraws demand from the economy."
    },
    "source": {
     "passages": [
@@ -612,27 +698,17 @@
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "putting 25 percent tariffs on close to $550 billion in imports would, if importers cannot substitute away from Chinese goods in the short-run, put something like $140 billion into the U.S. Treasury",
+      "source_excerpt": "Realistically, it might be more like $100 billion in new tariff revenue, given opportunities to substitute away from Chinese goods in some sectors—but that’s still a half point of GDP fiscal consolidation",
       "source_spans": [
        {
-        "char_start": 141,
-        "char_end": 338
+        "char_start": 366,
+        "char_end": 570
        }
       ]
      },
      {
-      "paragraph_id": "p10",
-      "paragraph_sha256": "sha256:2ff8f780efb994edfb68a69398755034bd3c4d48db6f8f13af01e081ba3b1a74",
-      "relation": "abstracts",
-      "link_method": "llm_citation",
-      "anchor_grade": "cited",
-      "review_status": "pending",
-      "source_excerpt": null,
-      "source_spans": null
-     },
-     {
-      "paragraph_id": "p11",
-      "paragraph_sha256": "sha256:91ee4959c1476bcd53b16ddbe99b003e0cf9a92e163914a77bfdf0f9a9fd7011",
+      "paragraph_id": "p40",
+      "paragraph_sha256": "sha256:e8b50463f963059fd03cb983fc9b49ddb3ac2f4cbcbc86e81a01e10542b2563f",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
@@ -650,7 +726,7 @@
       "run_id": "claude-opus-5.5_facets"
      },
      {
-      "term": "fiscal-balance",
+      "term": "fiscal-impulse",
       "assignment_source": "llm",
       "run_id": "claude-opus-5.5_facets"
      }
@@ -680,21 +756,19 @@
    },
    "review": {
     "status": "pending",
-    "reasons": [
-     "passages: `E1`: the team's passage linker anchors it to p34 (shared: 15), which the box does not cite"
-    ]
+    "reasons": []
    }
   },
   {
-   "id": "n004",
+   "id": "n005",
    "legacy_id": "C1",
    "role": "intermediate_claim",
    "level": "L4",
    "content": {
-    "text": "The tariff fiscal drag is noticeable but not recessionary, partly offset by tax cuts and spending.",
+    "text": "The tariff drag is noticeable but too small to cause a US recession on its own, and it is far smaller than the drag from the 2014-15 dollar appreciation.",
     "label": null,
     "explicit": true,
-    "reason": "A fiscal shock of under a percent of GDP rarely causes a recession alone, especially with offsetting stimulus."
+    "reason": "Exchange rate swings can affect growth more than headline trade policy measures."
    },
    "source": {
     "passages": [
@@ -722,21 +796,21 @@
       "review_status": "pending",
       "source_excerpt": null,
       "source_spans": null
+     },
+     {
+      "paragraph_id": "p41",
+      "paragraph_sha256": "sha256:9f28652f0222503f9ab269479f2331fc220c2c74ee6939f316a8fd4dc7bf0c29",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
      }
     ]
    },
    "facets": {
     "variable": [
-     {
-      "term": "tariff-revenue",
-      "assignment_source": "llm",
-      "run_id": "claude-opus-5.5_facets"
-     },
-     {
-      "term": "fiscal-impulse",
-      "assignment_source": "llm",
-      "run_id": "claude-opus-5.5_facets"
-     },
      {
       "term": "gdp-growth",
       "assignment_source": "llm",
@@ -772,15 +846,15 @@
    }
   },
   {
-   "id": "n005",
-   "legacy_id": "E5",
+   "id": "n006",
+   "legacy_id": "E4",
    "role": "evidence_source",
    "level": "L2",
    "content": {
-    "text": "UBS estimates full tariffs plus retaliation could cut China's growth by 1.5 points; exports to the U.S. are 3–4% of China's GDP.",
+    "text": "UBS estimates full tariffs plus retaliation could cut China's growth by 1.5 points, with exports to the US at about 3-4 percent of China's GDP.",
     "label": null,
     "explicit": true,
-    "reason": "A country's exposure to a tariff scales with the share of its output sold to the taxing market."
+    "reason": "The size of a trade shock depends on the targeted exports' share of value added in output."
    },
    "source": {
     "passages": [
@@ -798,16 +872,6 @@
         "char_end": 189
        }
       ]
-     },
-     {
-      "paragraph_id": "p40",
-      "paragraph_sha256": "sha256:e8b50463f963059fd03cb983fc9b49ddb3ac2f4cbcbc86e81a01e10542b2563f",
-      "relation": "abstracts",
-      "link_method": "llm_citation",
-      "anchor_grade": "cited",
-      "review_status": "pending",
-      "source_excerpt": null,
-      "source_spans": null
      }
     ]
    },
@@ -866,21 +930,19 @@
    },
    "review": {
     "status": "pending",
-    "reasons": [
-     "links: `E5` supports `P1` joins L2→L1, which no hand-drawn supports link does"
-    ]
+    "reasons": []
    }
   },
   {
-   "id": "n006",
+   "id": "n007",
    "legacy_id": "P1",
    "role": "stated_assumption",
    "level": "L1",
    "content": {
-    "text": "Beyond soybean cuts and tariff retaliation, currency depreciation is China's natural asymmetric response.",
+    "text": "Of China's retaliation options (soybeans, broader tariffs, squeezing GM, Airbus orders), letting the yuan weaken is the logical asymmetric response.",
     "label": null,
     "explicit": true,
-    "reason": "A country facing tariffs can offset them by letting its currency fall, lowering its export prices."
+    "reason": "A country facing tariffs can offset them through currency depreciation rather than matching tariff for tariff."
    },
    "source": {
     "passages": [
@@ -949,38 +1011,31 @@
    },
    "review": {
     "status": "pending",
-    "reasons": [
-     "links: `E5` supports `P1` joins L2→L1, which no hand-drawn supports link does"
-    ]
+    "reasons": []
    }
   },
   {
-   "id": "n007",
-   "legacy_id": "M1",
-   "role": "mechanism",
-   "level": "L3",
+   "id": "n008",
+   "legacy_id": "C2",
+   "role": "intermediate_claim",
+   "level": "L4",
    "content": {
-    "text": "Markets would push the yuan down, so stability requires active intervention, and depreciation requires eventually setting a new floor.",
+    "text": "China has enough dollars at the central bank and in state banks to manage its currency, and fears about its foreign debt are overstated.",
     "label": null,
     "explicit": true,
-    "reason": "Markets front-run expected currency moves, so a managed rate needs visible signals in either direction."
+    "reason": "A state holding ample foreign assets across its official and state-bank balance sheets can defend or steer its exchange rate."
    },
    "source": {
     "passages": [
      {
       "paragraph_id": "p16",
       "paragraph_sha256": "sha256:22c3abeb16b031e8c3aef8093f2379ea3b28e21cd8c0df26300ee8b61c59725c",
-      "relation": "states",
+      "relation": "abstracts",
       "link_method": "llm_citation",
-      "anchor_grade": "excerpt",
+      "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": "The market would certainly test China’s resolve—so if China didn’t want the yuan to weaken, it would need to take action—intervene, manage the fix, tighten controls",
-      "source_spans": [
-       {
-        "char_start": 0,
-        "char_end": 164
-       }
-      ]
+      "source_excerpt": null,
+      "source_spans": null
      },
      {
       "paragraph_id": "p17",
@@ -991,60 +1046,7 @@
       "review_status": "pending",
       "source_excerpt": null,
       "source_spans": null
-     }
-    ]
-   },
-   "facets": {
-    "variable": [
-     {
-      "term": "nominal-exchange-rate",
-      "assignment_source": "llm",
-      "run_id": "claude-opus-5.5_facets"
-     }
-    ],
-    "country": [
-     {
-      "term": "china",
-      "assignment_source": "llm",
-      "run_id": "claude-opus-5.5_facets",
-      "geo_role": "subject"
-     }
-    ],
-    "bloc": [],
-    "instrument": [
-     {
-      "term": "fx-intervention",
-      "assignment_source": "llm",
-      "run_id": "claude-opus-5.5_facets"
-     }
-    ],
-    "data_basis": []
-   },
-   "attributes": {
-    "kind": "economic"
-   },
-   "provenance": {
-    "method": "llm",
-    "run_id": "claude-opus-5.5_boxes"
-   },
-   "review": {
-    "status": "pending",
-    "reasons": []
-   }
-  },
-  {
-   "id": "n008",
-   "legacy_id": "C2",
-   "role": "intermediate_claim",
-   "level": "L4",
-   "content": {
-    "text": "China has ample dollars at the central bank and banks to manage its currency either way.",
-    "label": null,
-    "explicit": true,
-    "reason": "A country with large liquid foreign assets and limited net foreign debt can choose its exchange rate."
-   },
-   "source": {
-    "passages": [
+     },
      {
       "paragraph_id": "p18",
       "paragraph_sha256": "sha256:ae769146edefd26135d87e80e319e3f04f0341d107f30b55d03e3be76c51017a",
@@ -1052,23 +1054,13 @@
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "China has the firepower it needs to continue to manage its currency (concerns about China’s foreign currency debts are overstated in aggregate",
+      "source_excerpt": "In my view, China has the firepower it needs to continue to manage its currency (concerns about China’s foreign currency debts are overstated in aggregate",
       "source_spans": [
        {
-        "char_start": 39,
+        "char_start": 27,
         "char_end": 181
        }
       ]
-     },
-     {
-      "paragraph_id": "p36",
-      "paragraph_sha256": "sha256:e04ff84f7c4008d48f847b4564fa07ff87e2d479aa022695390d7551f3d43da7",
-      "relation": "abstracts",
-      "link_method": "llm_citation",
-      "anchor_grade": "cited",
-      "review_status": "pending",
-      "source_excerpt": null,
-      "source_spans": null
      }
     ]
    },
@@ -1076,6 +1068,11 @@
     "variable": [
      {
       "term": "fx-reserves",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     },
+     {
+      "term": "net-external-debt",
       "assignment_source": "llm",
       "run_id": "claude-opus-5.5_facets"
      }
@@ -1114,10 +1111,10 @@
    "role": "opposing_view",
    "level": "L6",
    "content": {
-    "text": "Critics overstated the weakness of the deal's currency stability commitment, which locked in current policy and nudged China toward fiscal stimulus.",
+    "text": "Critics overstated the problems with China's reported currency-stability commitment, since stability is already China's policy.",
     "label": null,
     "explicit": true,
-    "reason": "A commitment matching existing policy is still valuable if it rules out a costly deviation."
+    "reason": "A commitment that codifies existing policy imposes little additional cost."
    },
    "source": {
     "passages": [
@@ -1167,12 +1164,7 @@
     "bloc": [],
     "instrument": [
      {
-      "term": "trade-agreements",
-      "assignment_source": "llm",
-      "run_id": "claude-opus-5.5_facets"
-     },
-     {
-      "term": "fiscal-policy",
+      "term": "fx-intervention",
       "assignment_source": "llm",
       "run_id": "claude-opus-5.5_facets"
      }
@@ -1191,17 +1183,27 @@
   },
   {
    "id": "n010",
-   "legacy_id": "E2",
-   "role": "evidence_data",
-   "level": "L2",
+   "legacy_id": "P2",
+   "role": "stated_assumption",
+   "level": "L1",
    "content": {
-    "text": "China's manufacturing surplus remains about $1 trillion, and a larger one would harm the world economy and fuel populism in left-behind regions.",
+    "text": "An even larger Chinese manufacturing surplus, already around $1 trillion, would harm the global economy and fuel populism in deindustrialized regions.",
     "label": null,
     "explicit": true,
-    "reason": "Large manufacturing surpluses export adjustment costs to trading partners' industrial regions."
+    "reason": "Large manufacturing surpluses in a major economy displace production elsewhere and generate political backlash."
    },
    "source": {
     "passages": [
+     {
+      "paragraph_id": "p20",
+      "paragraph_sha256": "sha256:b3f0c437091b4eb0f6da410b614a0f11289b06ef575902ba400144cd24b4a750",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     },
      {
       "paragraph_id": "p21",
       "paragraph_sha256": "sha256:4a7d4d71159619dfee10ce4c4aee79d8510dade171deede5d516bd30b7b4e697",
@@ -1209,11 +1211,11 @@
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "China’s manufacturing surplus has stayed around $1 trillion even as its current account surplus has come down",
+      "source_excerpt": "I for one don’t think an even larger Chinese manufacturing surplus would improve the global economy. It would also fan populist pressure",
       "source_spans": [
        {
-        "char_start": 0,
-        "char_end": 109
+        "char_start": 115,
+        "char_end": 251
        }
       ]
      }
@@ -1256,98 +1258,27 @@
   },
   {
    "id": "n011",
-   "legacy_id": "C3",
-   "role": "intermediate_claim",
-   "level": "L4",
+   "legacy_id": "SCP",
+   "role": "scope_choice",
+   "level": "L1B",
    "content": {
-    "text": "A stable yuan has gone with a stable, balanced Chinese balance of payments.",
+    "text": "Tracking only official reserves misses China's real balance-of-payments flows, which now run through state bank lending and borrowing.",
     "label": null,
     "explicit": true,
-    "reason": "Exchange rate expectations drive private capital flows, so a credible peg damps outflow pressure."
+    "reason": "Where state banks hold foreign assets, official reserves understate official external activity."
    },
    "source": {
     "passages": [
      {
       "paragraph_id": "p22",
       "paragraph_sha256": "sha256:85a0be1199f1e78183748fc6159257fb1d4f512e958d84eb97a0c6e5b68122e6",
-      "relation": "states",
-      "link_method": "llm_citation",
-      "anchor_grade": "excerpt",
-      "review_status": "pending",
-      "source_excerpt": "as long as China’s currency stayed stable, its balance of payments, in my view, also would remain stable.",
-      "source_spans": [
-       {
-        "char_start": 39,
-        "char_end": 144
-       }
-      ]
-     },
-     {
-      "paragraph_id": "p28",
-      "paragraph_sha256": "sha256:5f8dea4841f67ae88f63882d072a01f470bf3c1a46b9659e48e495ae073017c9",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
       "source_excerpt": null,
       "source_spans": null
-     }
-    ]
-   },
-   "facets": {
-    "variable": [
-     {
-      "term": "nominal-exchange-rate",
-      "assignment_source": "llm",
-      "run_id": "claude-opus-5.5_facets"
      },
-     {
-      "term": "current-account",
-      "assignment_source": "llm",
-      "run_id": "claude-opus-5.5_facets"
-     }
-    ],
-    "country": [
-     {
-      "term": "china",
-      "assignment_source": "llm",
-      "run_id": "claude-opus-5.5_facets",
-      "geo_role": "subject"
-     }
-    ],
-    "bloc": [],
-    "instrument": [],
-    "data_basis": [
-     {
-      "term": "balance-of-payments",
-      "assignment_source": "llm",
-      "run_id": "claude-opus-5.5_facets"
-     }
-    ]
-   },
-   "attributes": {},
-   "provenance": {
-    "method": "llm",
-    "run_id": "claude-opus-5.5_boxes"
-   },
-   "review": {
-    "status": "pending",
-    "reasons": []
-   }
-  },
-  {
-   "id": "n012",
-   "legacy_id": "SCP",
-   "role": "scope_choice",
-   "level": "L1B",
-   "content": {
-    "text": "Reserves alone understate China's external activity; state bank lending abroad and bank borrowing matter more.",
-    "label": null,
-    "explicit": true,
-    "reason": "Where state banks hold foreign assets, official reserves are an incomplete measure of official external activity."
-   },
-   "source": {
-    "passages": [
      {
       "paragraph_id": "p23",
       "paragraph_sha256": "sha256:42aef1f032b2d47a851f960d3576ee32b25a751fc9cfddefb93db0f91adaa68f",
@@ -1417,15 +1348,15 @@
    }
   },
   {
-   "id": "n013",
-   "legacy_id": "E3",
+   "id": "n012",
+   "legacy_id": "E2",
    "role": "evidence_data",
    "level": "L2",
    "content": {
-    "text": "Chinese bank lending abroad has soared for nine years, funded by bank borrowing and $150–200 billion of portfolio inflows, leaving state banks with large net foreign assets.",
+    "text": "Chinese bank lending abroad has soared, funded by bank borrowing and $150-200 billion a year of portfolio inflows, and BIS data broadly agree with China's own data.",
     "label": null,
     "explicit": true,
-    "reason": "Gross official-sector outflows can be financed by private inflows, keeping net positions balanced."
+    "reason": "Outflows must be financed by inflows or reserve drawdowns."
    },
    "source": {
     "passages": [
@@ -1462,11 +1393,6 @@
       "term": "capital-flows",
       "assignment_source": "llm",
       "run_id": "claude-opus-5.5_facets"
-     },
-     {
-      "term": "fx-reserves",
-      "assignment_source": "llm",
-      "run_id": "claude-opus-5.5_facets"
      }
     ],
     "country": [
@@ -1480,6 +1406,11 @@
     "bloc": [],
     "instrument": [],
     "data_basis": [
+     {
+      "term": "mirror-statistics",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     },
      {
       "term": "balance-of-payments",
       "assignment_source": "llm",
@@ -1498,15 +1429,15 @@
    }
   },
   {
-   "id": "n014",
-   "legacy_id": "E6",
-   "role": "evidence_rival",
-   "level": "L2",
+   "id": "n013",
+   "legacy_id": "SC",
+   "role": "source_credibility",
+   "level": "L1",
    "content": {
-    "text": "BIS data on global banks' exposure to China broadly matches China's own figures.",
+    "text": "Cross-checking China's bank data against BIS counterpart data supports its reliability.",
     "label": null,
     "explicit": true,
-    "reason": "Cross-check a country's own statistics against counterparties' independent records."
+    "reason": "Counterparty data from an independent source can validate a country's self-reported figures."
    },
    "source": {
     "passages": [
@@ -1560,32 +1491,95 @@
    },
    "review": {
     "status": "pending",
-    "reasons": []
+    "reasons": [
+     "boxes: `SC` the name `cross-checking` does not occur in the article"
+    ]
    }
   },
   {
-   "id": "n015",
-   "legacy_id": "E4",
-   "role": "evidence_data",
-   "level": "L2",
+   "id": "n014",
+   "legacy_id": "ID",
+   "role": "accounting_identity",
+   "level": "L1",
    "content": {
-    "text": "Intervention proxies show two-way state bank activity, with no sustained pressure either way; trade surplus covers tourism and errors.",
+    "text": "The trade surplus covers tourism and errors while bank outflows match inflows, so the balance of payments roughly balances.",
     "label": null,
     "explicit": true,
-    "reason": "Alternating purchases and sales of foreign currency indicate an equilibrium rather than a defended disequilibrium."
+    "reason": "The current account, financial flows and reserve changes must sum to zero."
    },
    "source": {
     "passages": [
      {
       "paragraph_id": "p27",
       "paragraph_sha256": "sha256:809711eae7dd14f5c2fba87f951551cce648709ab5cec035312fc8b276967411",
-      "relation": "abstracts",
+      "relation": "states",
       "link_method": "llm_citation",
-      "anchor_grade": "cited",
+      "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": null,
-      "source_spans": null
+      "source_excerpt": "China’s trade surplus, while reduced, is still sufficient to cover China’s tourism imports and the “error” term in the balance of payments. Everything, more or less, balanced.",
+      "source_spans": [
+       {
+        "char_start": 0,
+        "char_end": 175
+       }
+      ]
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "goods-trade-balance",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
      },
+     {
+      "term": "capital-flows",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [
+     {
+      "term": "china",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     }
+    ],
+    "bloc": [],
+    "instrument": [],
+    "data_basis": [
+     {
+      "term": "balance-of-payments",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ]
+   },
+   "attributes": {},
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "n015",
+   "legacy_id": "E3",
+   "role": "evidence_data",
+   "level": "L2",
+   "content": {
+    "text": "Intervention proxies show state bank purchases and sales alternating, with no sustained pressure in either direction.",
+    "label": null,
+    "explicit": true,
+    "reason": "Two-way intervention indicates a currency near its equilibrium under current controls."
+   },
+   "source": {
+    "passages": [
      {
       "paragraph_id": "p28",
       "paragraph_sha256": "sha256:5f8dea4841f67ae88f63882d072a01f470bf3c1a46b9659e48e495ae073017c9",
@@ -1610,83 +1604,6 @@
         "char_end": 230
        }
       ]
-     }
-    ]
-   },
-   "facets": {
-    "variable": [
-     {
-      "term": "fx-reserves",
-      "assignment_source": "llm",
-      "run_id": "claude-opus-5.5_facets"
-     },
-     {
-      "term": "goods-trade-balance",
-      "assignment_source": "llm",
-      "run_id": "claude-opus-5.5_facets"
-     },
-     {
-      "term": "services-balance",
-      "assignment_source": "llm",
-      "run_id": "claude-opus-5.5_facets"
-     }
-    ],
-    "country": [
-     {
-      "term": "china",
-      "assignment_source": "llm",
-      "run_id": "claude-opus-5.5_facets",
-      "geo_role": "subject"
-     }
-    ],
-    "bloc": [],
-    "instrument": [
-     {
-      "term": "fx-intervention",
-      "assignment_source": "llm",
-      "run_id": "claude-opus-5.5_facets"
-     }
-    ],
-    "data_basis": [
-     {
-      "term": "balance-of-payments",
-      "assignment_source": "llm",
-      "run_id": "claude-opus-5.5_facets"
-     }
-    ]
-   },
-   "attributes": {},
-   "provenance": {
-    "method": "llm",
-    "run_id": "claude-opus-5.5_boxes"
-   },
-   "review": {
-    "status": "pending",
-    "reasons": []
-   }
-  },
-  {
-   "id": "n016",
-   "legacy_id": "P3",
-   "role": "hidden_assumption",
-   "level": "L1",
-   "content": {
-    "text": "Intervention by state banks, not just the central bank, is the relevant indicator of China's currency management.",
-    "label": null,
-    "explicit": false,
-    "reason": "Official intervention can be done off the central bank's balance sheet through state-controlled institutions."
-   },
-   "source": {
-    "passages": [
-     {
-      "paragraph_id": "p29",
-      "paragraph_sha256": "sha256:fc0b3ccc8d31e3b8708e3b55b392475cd980350ff889b2a8d1574406582671ff",
-      "relation": "presupposes",
-      "link_method": "llm_citation",
-      "anchor_grade": "cited",
-      "review_status": "pending",
-      "source_excerpt": null,
-      "source_spans": null
      }
     ]
    },
@@ -1727,15 +1644,100 @@
    }
   },
   {
+   "id": "n016",
+   "legacy_id": "C3",
+   "role": "intermediate_claim",
+   "level": "L4",
+   "content": {
+    "text": "A stable yuan would keep China's balance of payments stable.",
+    "label": null,
+    "explicit": true,
+    "reason": "Exchange rate expectations drive capital flows, so a credible stable rate keeps flows balanced."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p22",
+      "paragraph_sha256": "sha256:85a0be1199f1e78183748fc6159257fb1d4f512e958d84eb97a0c6e5b68122e6",
+      "relation": "states",
+      "link_method": "llm_citation",
+      "anchor_grade": "excerpt",
+      "review_status": "pending",
+      "source_excerpt": "as long as China’s currency stayed stable, its balance of payments, in my view, also would remain stable.",
+      "source_spans": [
+       {
+        "char_start": 39,
+        "char_end": 144
+       }
+      ]
+     },
+     {
+      "paragraph_id": "p27",
+      "paragraph_sha256": "sha256:809711eae7dd14f5c2fba87f951551cce648709ab5cec035312fc8b276967411",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     },
+     {
+      "paragraph_id": "p28",
+      "paragraph_sha256": "sha256:5f8dea4841f67ae88f63882d072a01f470bf3c1a46b9659e48e495ae073017c9",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "nominal-exchange-rate",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     },
+     {
+      "term": "capital-flows",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [
+     {
+      "term": "china",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     }
+    ],
+    "bloc": [],
+    "instrument": [],
+    "data_basis": []
+   },
+   "attributes": {},
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
    "id": "n017",
    "legacy_id": "C5",
    "role": "case_type",
    "level": "L4",
    "content": {
-    "text": "Recent stability supports two options: keep the yuan stable, or use control to engineer a managed depreciation.",
+    "text": "The recent history supports two readings: China need not upset its stability, or China is in enough control to engineer a weaker yuan.",
     "label": null,
     "explicit": true,
-    "reason": "The same evidence of control can justify either holding steady or a controlled move."
+    "reason": "The same evidence of control can justify either preserving the status quo or using that control to change it."
    },
    "source": {
     "passages": [
@@ -1752,27 +1754,27 @@
      {
       "paragraph_id": "p31",
       "paragraph_sha256": "sha256:2dd9259c2a6e63e384bea00458de22d4206d62ec1158af06ab2b26cc833544d1",
-      "relation": "states",
-      "link_method": "llm_citation",
-      "anchor_grade": "excerpt",
-      "review_status": "pending",
-      "source_excerpt": "Well, because it lends itself to two different interpretations of what China can and should do in response to the increase in U.S. tariffs.",
-      "source_spans": [
-       {
-        "char_start": 0,
-        "char_end": 139
-       }
-      ]
-     },
-     {
-      "paragraph_id": "p32",
-      "paragraph_sha256": "sha256:ee37f602f02340f2386effbab5c7c86c082fac3b59601cbe48a62ca9ec71fe19",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
       "source_excerpt": null,
       "source_spans": null
+     },
+     {
+      "paragraph_id": "p32",
+      "paragraph_sha256": "sha256:ee37f602f02340f2386effbab5c7c86c082fac3b59601cbe48a62ca9ec71fe19",
+      "relation": "states",
+      "link_method": "llm_citation",
+      "anchor_grade": "excerpt",
+      "review_status": "pending",
+      "source_excerpt": "One view, more or less, is that China has no need to upset the apple cart.",
+      "source_spans": [
+       {
+        "char_start": 0,
+        "char_end": 74
+       }
+      ]
      },
      {
       "paragraph_id": "p34",
@@ -1824,27 +1826,17 @@
   },
   {
    "id": "n018",
-   "legacy_id": "M2",
+   "legacy_id": "M1",
    "role": "mechanism",
    "level": "L3",
    "content": {
-    "text": "Even if tariffs and oil sanctions push China into a current account deficit, a credible stable yuan would keep inflows coming and protect reserves.",
+    "text": "Even if tariffs and oil sanctions pushed China's current account into a modest deficit, a credible stability signal would keep portfolio inflows coming and protect reserves.",
     "label": null,
     "explicit": true,
-    "reason": "A small external deficit is easily financed when investors expect currency stability."
+    "reason": "Signaled currency stability sustains portfolio inflows that can finance a small external deficit."
    },
    "source": {
     "passages": [
-     {
-      "paragraph_id": "p32",
-      "paragraph_sha256": "sha256:ee37f602f02340f2386effbab5c7c86c082fac3b59601cbe48a62ca9ec71fe19",
-      "relation": "abstracts",
-      "link_method": "llm_citation",
-      "anchor_grade": "cited",
-      "review_status": "pending",
-      "source_excerpt": null,
-      "source_spans": null
-     },
      {
       "paragraph_id": "p33",
       "paragraph_sha256": "sha256:d16b1fd502032b2b1bba1f02251c71b04363af5fee5c94ed93f8084516863f3e",
@@ -1889,13 +1881,7 @@
      }
     ],
     "bloc": [],
-    "instrument": [
-     {
-      "term": "fx-intervention",
-      "assignment_source": "llm",
-      "run_id": "claude-opus-5.5_facets"
-     }
-    ],
+    "instrument": [],
     "data_basis": []
    },
    "attributes": {
@@ -1912,27 +1898,83 @@
   },
   {
    "id": "n019",
-   "legacy_id": "M3",
-   "role": "mechanism",
-   "level": "L3",
+   "legacy_id": "QF",
+   "role": "caveat",
+   "level": "L6",
    "content": {
-    "text": "A managed reset to a lower band would let exporters cut dollar prices and redirect exports elsewhere without losing yuan revenue.",
+    "text": "Controlled depreciation is hard because markets front-run predictable moves, but China could manage it by signaling a new floor and resetting the trading band.",
     "label": null,
     "explicit": true,
-    "reason": "Depreciation lets exporters lower foreign prices while keeping domestic-currency margins."
+    "reason": "Anticipated depreciation invites speculative outflows unless authorities credibly cap the move."
    },
    "source": {
     "passages": [
      {
       "paragraph_id": "p34",
       "paragraph_sha256": "sha256:a7b3b34fba924f04205b76773bc4d7ce917511b0f1f27618c03883dfc2db128e",
-      "relation": "abstracts",
+      "relation": "states",
       "link_method": "llm_citation",
-      "anchor_grade": "cited",
+      "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": null,
-      "source_spans": null
-     },
+      "source_excerpt": "Controlled depreciations are hard—the market (even a controlled market like the market for the yuan) obviously has an incentive to front run any predictable move (as China learned in 15 and 16).",
+      "source_spans": [
+       {
+        "char_start": 223,
+        "char_end": 417
+       }
+      ]
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "nominal-exchange-rate",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [
+     {
+      "term": "china",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     }
+    ],
+    "bloc": [],
+    "instrument": [
+     {
+      "term": "fx-intervention",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "data_basis": []
+   },
+   "attributes": {},
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "n020",
+   "legacy_id": "M2",
+   "role": "mechanism",
+   "level": "L3",
+   "content": {
+    "text": "A weaker yuan lets Chinese exporters cut dollar prices to offset tariffs and shift sales to other markets.",
+    "label": null,
+    "explicit": true,
+    "reason": "Depreciation lowers foreign-currency prices while preserving domestic-currency revenue."
+   },
+   "source": {
+    "passages": [
      {
       "paragraph_id": "p35",
       "paragraph_sha256": "sha256:73b34c1bf2226c60160e041f2c6d29d41b488d8c0e0616559460411623bcfc96",
@@ -1972,13 +2014,7 @@
      }
     ],
     "bloc": [],
-    "instrument": [
-     {
-      "term": "fx-intervention",
-      "assignment_source": "llm",
-      "run_id": "claude-opus-5.5_facets"
-     }
-    ],
+    "instrument": [],
     "data_basis": []
    },
    "attributes": {
@@ -1994,86 +2030,15 @@
    }
   },
   {
-   "id": "n020",
-   "legacy_id": "QF",
-   "role": "caveat",
-   "level": "L6",
-   "content": {
-    "text": "Controlled depreciations risk being front-run, as in 2015–16.",
-    "label": null,
-    "explicit": true,
-    "reason": "Predictable currency moves invite speculative outflows that can overshoot."
-   },
-   "source": {
-    "passages": [
-     {
-      "paragraph_id": "p34",
-      "paragraph_sha256": "sha256:a7b3b34fba924f04205b76773bc4d7ce917511b0f1f27618c03883dfc2db128e",
-      "relation": "states",
-      "link_method": "llm_citation",
-      "anchor_grade": "excerpt",
-      "review_status": "pending",
-      "source_excerpt": "Controlled depreciations are hard—the market (even a controlled market like the market for the yuan) obviously has an incentive to front run any predictable move (as China learned in 15 and 16).",
-      "source_spans": [
-       {
-        "char_start": 223,
-        "char_end": 417
-       }
-      ]
-     }
-    ]
-   },
-   "facets": {
-    "variable": [
-     {
-      "term": "capital-flows",
-      "assignment_source": "llm",
-      "run_id": "claude-opus-5.5_facets"
-     },
-     {
-      "term": "nominal-exchange-rate",
-      "assignment_source": "llm",
-      "run_id": "claude-opus-5.5_facets"
-     }
-    ],
-    "country": [
-     {
-      "term": "china",
-      "assignment_source": "llm",
-      "run_id": "claude-opus-5.5_facets",
-      "geo_role": "subject"
-     }
-    ],
-    "bloc": [],
-    "instrument": [
-     {
-      "term": "fx-intervention",
-      "assignment_source": "llm",
-      "run_id": "claude-opus-5.5_facets"
-     }
-    ],
-    "data_basis": []
-   },
-   "attributes": {},
-   "provenance": {
-    "method": "llm",
-    "run_id": "claude-opus-5.5_boxes"
-   },
-   "review": {
-    "status": "pending",
-    "reasons": []
-   }
-  },
-  {
    "id": "n021",
    "legacy_id": "C4",
    "role": "intermediate_claim",
    "level": "L4",
    "content": {
-    "text": "A weaker yuan would drag other Asian currencies down, pressure Turkey-like economies, and hurt European and Japanese exporters.",
+    "text": "A weaker yuan would spread China's trade pain globally: other Asian currencies would follow, oil-importing emerging economies would face pressure, and European and Japanese exporters would lose.",
     "label": null,
     "explicit": true,
-    "reason": "A large exporter's depreciation shifts adjustment onto competitors and export-reliant economies."
+    "reason": "A large exporter's depreciation pushes competitors to follow and hurts export-reliant economies."
    },
    "source": {
     "passages": [
@@ -2084,11 +2049,11 @@
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "A weaker yuan, in effect, redistributes some of China’s trade pain globally",
+      "source_excerpt": "A weaker yuan, in effect, redistributes some of China’s trade pain globally, and thus poses a challenge to those parts of the world that have relied on exports",
       "source_spans": [
        {
         "char_start": 628,
-        "char_end": 703
+        "char_end": 787
        }
       ]
      }
@@ -2100,18 +2065,17 @@
       "term": "nominal-exchange-rate",
       "assignment_source": "llm",
       "run_id": "claude-opus-5.5_facets"
+     },
+     {
+      "term": "global-imbalances",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
      }
     ],
     "country": [],
     "bloc": [
      {
-      "term": "asia-surplus",
-      "assignment_source": "llm",
-      "run_id": "claude-opus-5.5_facets",
-      "geo_role": "subject"
-     },
-     {
-      "term": "em-weak-balance-sheet",
+      "term": "global",
       "assignment_source": "llm",
       "run_id": "claude-opus-5.5_facets",
       "geo_role": "subject"
@@ -2127,21 +2091,19 @@
    },
    "review": {
     "status": "pending",
-    "reasons": [
-     "boxes: `C4` the name `turkey-like` does not occur in the article"
-    ]
+    "reasons": []
    }
   },
   {
    "id": "n022",
-   "legacy_id": "M4",
+   "legacy_id": "M3",
    "role": "mechanism",
    "level": "L3",
    "content": {
-    "text": "Depreciation risks provoking Trump into higher or broader tariffs.",
+    "text": "Depreciation could provoke Trump into higher or broader tariffs, so a major move is better timed after the tariffs are fully extended.",
     "label": null,
     "explicit": true,
-    "reason": "Offsetting a tariff via currency invites the tariffing party to escalate."
+    "reason": "A retaliatory move that invites counter-escalation is best saved until the opponent has used up its threats."
    },
    "source": {
     "passages": [
@@ -2152,10 +2114,10 @@
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "Trump would also have to decide if he would raise the tariff rate above 25 percent in response to China’s depreciation",
+      "source_excerpt": "Oh, and Trump would also have to decide if he would raise the tariff rate above 25 percent in response to China’s depreciation",
       "source_spans": [
        {
-        "char_start": 8,
+        "char_start": 0,
         "char_end": 126
        }
       ]
@@ -2176,11 +2138,6 @@
     "variable": [
      {
       "term": "nominal-exchange-rate",
-      "assignment_source": "llm",
-      "run_id": "claude-opus-5.5_facets"
-     },
-     {
-      "term": "tariff-rate",
       "assignment_source": "llm",
       "run_id": "claude-opus-5.5_facets"
      }
@@ -2205,6 +2162,11 @@
       "term": "tariffs",
       "assignment_source": "llm",
       "run_id": "claude-opus-5.5_facets"
+     },
+     {
+      "term": "fx-intervention",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
      }
     ],
     "data_basis": []
@@ -2227,10 +2189,10 @@
    "role": "main_claim",
    "level": "L5",
    "content": {
-    "text": "China will likely limit near-term yuan weakness while it tests whether a deal is still possible, saving a major depreciation for after tariffs are fully extended.",
+    "text": "China can choose either path, but it will most likely limit near-term depreciation while it tests whether a deal is still possible.",
     "label": null,
     "explicit": true,
-    "reason": "A player holding a retaliatory option keeps it in reserve while escalation can still be averted."
+    "reason": "An actor with ample policy room keeps its strongest lever in reserve while negotiations remain possible."
    },
    "source": {
     "passages": [
@@ -2258,16 +2220,6 @@
         "char_end": 163
        }
       ]
-     },
-     {
-      "paragraph_id": "p42",
-      "paragraph_sha256": "sha256:70d49ca90a78eb4451d75b6781e2aa1f17993c50c00aad4ab933a93c0dee1cee",
-      "relation": "abstracts",
-      "link_method": "llm_citation",
-      "anchor_grade": "cited",
-      "review_status": "pending",
-      "source_excerpt": null,
-      "source_spans": null
      }
     ]
    },
@@ -2293,11 +2245,6 @@
       "term": "fx-intervention",
       "assignment_source": "llm",
       "run_id": "claude-opus-5.5_facets"
-     },
-     {
-      "term": "tariffs",
-      "assignment_source": "llm",
-      "run_id": "claude-opus-5.5_facets"
      }
     ],
     "data_basis": []
@@ -2316,41 +2263,26 @@
   },
   {
    "id": "n024",
-   "legacy_id": "P2",
-   "role": "stated_assumption",
+   "legacy_id": "P3",
+   "role": "hidden_assumption",
    "level": "L1",
    "content": {
-    "text": "Exchange rate moves matter as much as tariffs but get far less attention.",
+    "text": "China's leadership weighs the risk of provoking further US escalation above the immediate export gains from a weaker yuan.",
     "label": null,
-    "explicit": true,
-    "reason": "Currency swings can affect trade and growth more than headline tariff changes."
+    "explicit": false,
+    "reason": "Forecasts of policy restraint presume decision-makers value avoiding escalation over short-term gains."
    },
    "source": {
     "passages": [
      {
-      "paragraph_id": "p11",
-      "paragraph_sha256": "sha256:91ee4959c1476bcd53b16ddbe99b003e0cf9a92e163914a77bfdf0f9a9fd7011",
-      "relation": "abstracts",
+      "paragraph_id": "p39",
+      "paragraph_sha256": "sha256:5c768aee3ab892907e6f7576722357462699ac1f324f44dbbf2e953a851fd531",
+      "relation": "presupposes",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
       "source_excerpt": null,
       "source_spans": null
-     },
-     {
-      "paragraph_id": "p41",
-      "paragraph_sha256": "sha256:9f28652f0222503f9ab269479f2331fc220c2c74ee6939f316a8fd4dc7bf0c29",
-      "relation": "states",
-      "link_method": "llm_citation",
-      "anchor_grade": "excerpt",
-      "review_status": "pending",
-      "source_excerpt": "The gap between the extensive coverage that trade policy shifts receive relative to the limited coverage typically provided to the impact of exchange rate moves is a pet peeve of mine.",
-      "source_spans": [
-       {
-        "char_start": 3,
-        "char_end": 187
-       }
-      ]
      }
     ]
    },
@@ -2360,16 +2292,35 @@
       "term": "nominal-exchange-rate",
       "assignment_source": "llm",
       "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [
+     {
+      "term": "china",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
      },
      {
-      "term": "tariff-rate",
+      "term": "us",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "counterpart"
+     }
+    ],
+    "bloc": [],
+    "instrument": [
+     {
+      "term": "fx-intervention",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     },
+     {
+      "term": "tariffs",
       "assignment_source": "llm",
       "run_id": "claude-opus-5.5_facets"
      }
     ],
-    "country": [],
-    "bloc": [],
-    "instrument": [],
     "data_basis": []
    },
    "attributes": {},
@@ -2379,60 +2330,85 @@
    },
    "review": {
     "status": "pending",
-    "reasons": [
-     "facets: `setser_may_10_19#P2` where_subject empty - every claim needs a country or a bloc (assignment.requires_one_of) - needs review"
+    "reasons": []
+   }
+  },
+  {
+   "id": "n025",
+   "legacy_id": "QF2",
+   "role": "caveat",
+   "level": "L6",
+   "content": {
+    "text": "Trump may not actually want a deal if he is fixated on the bilateral deficit, which a modest deal would not fix.",
+    "label": null,
+    "explicit": true,
+    "reason": "A negotiator whose goal a deal cannot meet may prefer continued conflict."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p8",
+      "paragraph_sha256": "sha256:36e59896e87de12b10947437f71475806fc3a3b03215f9555530c2e6fafb40fb",
+      "relation": "states",
+      "link_method": "llm_citation",
+      "anchor_grade": "excerpt",
+      "review_status": "pending",
+      "source_excerpt": "As David Fickling notes, if Trump is fixated on the bilateral deficit, it isn’t entirely obvious that Trump really wants a deal.",
+      "source_spans": [
+       {
+        "char_start": 683,
+        "char_end": 811
+       }
+      ]
+     }
     ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "bilateral-trade-flows",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [
+     {
+      "term": "us",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     },
+     {
+      "term": "china",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "counterpart"
+     }
+    ],
+    "bloc": [],
+    "instrument": [
+     {
+      "term": "trade-agreements",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "data_basis": []
+   },
+   "attributes": {},
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
    }
   }
  ],
  "edges": [
   {
    "id": "e001",
-   "from": "n001",
-   "to": "n006",
-   "relation": "frames",
-   "sign": 0,
-   "provenance": {
-    "method": "llm",
-    "run_id": "claude-opus-5.5_links"
-   },
-   "review": {
-    "status": "pending",
-    "reasons": []
-   }
-  },
-  {
-   "id": "e002",
-   "from": "n001",
-   "to": "n024",
-   "relation": "frames",
-   "sign": 0,
-   "provenance": {
-    "method": "llm",
-    "run_id": "claude-opus-5.5_links"
-   },
-   "review": {
-    "status": "pending",
-    "reasons": []
-   }
-  },
-  {
-   "id": "e003",
-   "from": "n001",
-   "to": "n016",
-   "relation": "frames",
-   "sign": 0,
-   "provenance": {
-    "method": "llm",
-    "run_id": "claude-opus-5.5_links"
-   },
-   "review": {
-    "status": "pending",
-    "reasons": []
-   }
-  },
-  {
-   "id": "e004",
    "from": "n002",
    "to": "n001",
    "relation": "motivates",
@@ -2447,11 +2423,58 @@
    }
   },
   {
+   "id": "e002",
+   "from": "n002",
+   "to": "n003",
+   "relation": "undercut_by",
+   "sign": -1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": [
+     "`ANOM` undercut_by `R1` joins L0→L6, which no hand-drawn undercut_by link does"
+    ]
+   }
+  },
+  {
+   "id": "e003",
+   "from": "n001",
+   "to": "n007",
+   "relation": "frames",
+   "sign": 0,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e004",
+   "from": "n001",
+   "to": "n010",
+   "relation": "frames",
+   "sign": 0,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
    "id": "e005",
-   "from": "n003",
-   "to": "n004",
-   "relation": "supports",
-   "sign": 1,
+   "from": "n001",
+   "to": "n024",
+   "relation": "frames",
+   "sign": 0,
    "provenance": {
     "method": "llm",
     "run_id": "claude-opus-5.5_links"
@@ -2463,8 +2486,8 @@
   },
   {
    "id": "e006",
-   "from": "n024",
-   "to": "n003",
+   "from": "n001",
+   "to": "n014",
    "relation": "frames",
    "sign": 0,
    "provenance": {
@@ -2478,25 +2501,8 @@
   },
   {
    "id": "e007",
-   "from": "n005",
-   "to": "n006",
-   "relation": "supports",
-   "sign": 1,
-   "provenance": {
-    "method": "llm",
-    "run_id": "claude-opus-5.5_links"
-   },
-   "review": {
-    "status": "pending",
-    "reasons": [
-     "`E5` supports `P1` joins L2→L1, which no hand-drawn supports link does"
-    ]
-   }
-  },
-  {
-   "id": "e008",
-   "from": "n006",
-   "to": "n007",
+   "from": "n004",
+   "to": "n005",
    "relation": "supports",
    "sign": 1,
    "provenance": {
@@ -2509,9 +2515,24 @@
    }
   },
   {
-   "id": "e009",
+   "id": "e008",
    "from": "n007",
-   "to": "n008",
+   "to": "n006",
+   "relation": "frames",
+   "sign": 0,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e009",
+   "from": "n006",
+   "to": "n020",
    "relation": "supports",
    "sign": 1,
    "provenance": {
@@ -2525,6 +2546,21 @@
   },
   {
    "id": "e010",
+   "from": "n007",
+   "to": "n020",
+   "relation": "supports",
+   "sign": 1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e011",
    "from": "n008",
    "to": "n009",
    "relation": "rebuts",
@@ -2539,25 +2575,10 @@
    }
   },
   {
-   "id": "e011",
-   "from": "n010",
-   "to": "n011",
-   "relation": "supports",
-   "sign": 1,
-   "provenance": {
-    "method": "llm",
-    "run_id": "claude-opus-5.5_links"
-   },
-   "review": {
-    "status": "pending",
-    "reasons": []
-   }
-  },
-  {
    "id": "e012",
-   "from": "n012",
-   "to": "n013",
-   "relation": "bounds",
+   "from": "n010",
+   "to": "n016",
+   "relation": "supports",
    "sign": 1,
    "provenance": {
     "method": "llm",
@@ -2570,9 +2591,9 @@
   },
   {
    "id": "e013",
-   "from": "n013",
-   "to": "n011",
-   "relation": "supports",
+   "from": "n011",
+   "to": "n012",
+   "relation": "bounds",
    "sign": 1,
    "provenance": {
     "method": "llm",
@@ -2585,8 +2606,8 @@
   },
   {
    "id": "e014",
-   "from": "n014",
-   "to": "n013",
+   "from": "n013",
+   "to": "n012",
    "relation": "supports",
    "sign": 1,
    "provenance": {
@@ -2600,8 +2621,8 @@
   },
   {
    "id": "e015",
-   "from": "n015",
-   "to": "n011",
+   "from": "n012",
+   "to": "n008",
    "relation": "supports",
    "sign": 1,
    "provenance": {
@@ -2615,7 +2636,7 @@
   },
   {
    "id": "e016",
-   "from": "n016",
+   "from": "n014",
    "to": "n015",
    "relation": "frames",
    "sign": 0,
@@ -2630,9 +2651,9 @@
   },
   {
    "id": "e017",
-   "from": "n016",
-   "to": "n011",
-   "relation": "licenses",
+   "from": "n014",
+   "to": "n016",
+   "relation": "supports",
    "sign": 1,
    "provenance": {
     "method": "llm",
@@ -2645,8 +2666,8 @@
   },
   {
    "id": "e018",
-   "from": "n011",
-   "to": "n017",
+   "from": "n015",
+   "to": "n016",
    "relation": "supports",
    "sign": 1,
    "provenance": {
@@ -2660,8 +2681,8 @@
   },
   {
    "id": "e019",
-   "from": "n017",
-   "to": "n023",
+   "from": "n012",
+   "to": "n016",
    "relation": "supports",
    "sign": 1,
    "provenance": {
@@ -2675,7 +2696,7 @@
   },
   {
    "id": "e020",
-   "from": "n018",
+   "from": "n016",
    "to": "n017",
    "relation": "supports",
    "sign": 1,
@@ -2690,7 +2711,7 @@
   },
   {
    "id": "e021",
-   "from": "n019",
+   "from": "n018",
    "to": "n017",
    "relation": "supports",
    "sign": 1,
@@ -2705,10 +2726,10 @@
   },
   {
    "id": "e022",
-   "from": "n019",
-   "to": "n020",
-   "relation": "undercut_by",
-   "sign": -1,
+   "from": "n008",
+   "to": "n018",
+   "relation": "supports",
+   "sign": 1,
    "provenance": {
     "method": "llm",
     "run_id": "claude-opus-5.5_links"
@@ -2720,8 +2741,8 @@
   },
   {
    "id": "e023",
-   "from": "n019",
-   "to": "n021",
+   "from": "n017",
+   "to": "n023",
    "relation": "supports",
    "sign": 1,
    "provenance": {
@@ -2735,6 +2756,21 @@
   },
   {
    "id": "e024",
+   "from": "n020",
+   "to": "n021",
+   "relation": "supports",
+   "sign": 1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e025",
    "from": "n021",
    "to": "n023",
    "relation": "supports",
@@ -2749,23 +2785,8 @@
    }
   },
   {
-   "id": "e025",
-   "from": "n022",
-   "to": "n023",
-   "relation": "supports",
-   "sign": 1,
-   "provenance": {
-    "method": "llm",
-    "run_id": "claude-opus-5.5_links"
-   },
-   "review": {
-    "status": "pending",
-    "reasons": []
-   }
-  },
-  {
    "id": "e026",
-   "from": "n008",
+   "from": "n022",
    "to": "n023",
    "relation": "supports",
    "sign": 1,
@@ -2781,8 +2802,8 @@
   {
    "id": "e027",
    "from": "n024",
-   "to": "n021",
-   "relation": "supports",
+   "to": "n023",
+   "relation": "licenses",
    "sign": 1,
    "provenance": {
     "method": "llm",
@@ -2795,8 +2816,8 @@
   },
   {
    "id": "e028",
-   "from": "n023",
-   "to": "n020",
+   "from": "n017",
+   "to": "n019",
    "relation": "qualified_by",
    "sign": -1,
    "provenance": {
@@ -2810,7 +2831,37 @@
   },
   {
    "id": "e029",
-   "from": "n004",
+   "from": "n023",
+   "to": "n025",
+   "relation": "qualified_by",
+   "sign": -1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e030",
+   "from": "n005",
+   "to": "n023",
+   "relation": "supports",
+   "sign": 1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e031",
+   "from": "n008",
    "to": "n023",
    "relation": "supports",
    "sign": 1,
@@ -2827,15 +2878,15 @@
  "validation": {
   "status": "needs_review",
   "checks": [
-   "boxes: 24, fix rounds 0, re-asks 0, gaps left none",
-   "links: 29, fix rounds 0, re-asks 0, gaps left none, dropped none",
-   "passage linker agreement: {'anchored': 6, 'anchored_cited': 5, 'candidate': 19, 'candidate_cited': 17}"
+   "boxes: 25, fix rounds 0, re-asks 0, gaps left none",
+   "links: 31, fix rounds 0, re-asks 0, gaps left none, dropped none",
+   "passage linker agreement: {'anchored': 4, 'anchored_cited': 4, 'candidate': 20, 'candidate_cited': 19}"
   ],
   "review_items": [
-   "boxes: `C4` the name `turkey-like` does not occur in the article",
-   "links: `E5` supports `P1` joins L2→L1, which no hand-drawn supports link does",
-   "facets: `setser_may_10_19#P2` where_subject empty - every claim needs a country or a bloc (assignment.requires_one_of) - needs review",
-   "passages: `E1`: the team's passage linker anchors it to p34 (shared: 15), which the box does not cite"
+   "boxes: `ANOM` the name `us-china` does not occur in the article",
+   "boxes: `SC` the name `cross-checking` does not occur in the article",
+   "boxes: 25 boxes, more than any hand-drawn map (24)",
+   "links: `ANOM` undercut_by `R1` joins L0→L6, which no hand-drawn undercut_by link does"
   ]
  },
  "extensions": {}

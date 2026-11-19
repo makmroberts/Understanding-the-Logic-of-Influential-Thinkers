@@ -8,9 +8,9 @@ back on*, not *increases* / *decreases*. See the script docstring.
 
 ## 1. Signed edges
 
-- 559 edges signed, from 560 parsed
-- supporting (+1): 344  ·  attacking (-1): 85  ·  neutral (0): 130
-- **15% of his edges push back.** Every article carries its own counterpoints; this is the size of that habit.
+- 558 edges signed, from 559 parsed
+- supporting (+1): 347  ·  attacking (-1): 79  ·  neutral (0): 132
+- **14% of his edges push back.** Every article carries its own counterpoints; this is the size of that habit.
 - conflicts with the parser's `polarity` column: 0
 - UNSIGNED edge types (not in the SIGN table): 
 
@@ -19,7 +19,7 @@ back on*, not *increases* / *decreases*. See the script docstring.
 | | this corpus | Ozesmi & Ozesmi (2004) |
 |---|---|---|
 | variables per map | 18.4 ± 4.3 | 23 ± 2 |
-| connections per map | 23.3 ± 7.5 | 37 ± 3 |
+| connections per map | 23.2 ± 7.8 | 37 ± 3 |
 
 Comparable in size, roughly half as densely connected. That is the
 expected signature of an argument map rather than a causal web: it is
@@ -28,9 +28,9 @@ closes feedback loops, and these maps deliberately do not.
 
 | scope | variables | connections | density | hierarchy |
 |---|---|---|---|---|
-| whole corpus | 441 | 559 | 0.0029 | 0.0001 |
-| mean per article | 18.4 | 23.3 | 0.0753 | 0.0364 |
-| variable-level map | 34 | 599 | 0.5339 | 1.7968 |
+| whole corpus | 441 | 558 | 0.0029 | 0.0001 |
+| mean per article | 18.4 | 23.2 | 0.0749 | 0.0361 |
+| variable-level map | 34 | 580 | 0.5169 | 1.6171 |
 
 Corpus-wide density is near zero by construction - the 20 maps are 20 disconnected components, joined only by the concept layer (9 of 358 nodes). The per-article figures are the meaningful ones.
 
@@ -40,13 +40,13 @@ only for a star - one node with outdegree near N-1. It measures
 star-ness, not layeredness. These maps are layered L0-L6 with a peak
 outdegree around 4 out of a possible 16, so a near-zero h is correct
 and is NOT evidence the maps are flat. The variable-level map scores
-1.7968 because a handful of variables really do
+1.6171 because a handful of variables really do
 dominate the outflow there.
 
 Variable character, per article (mean):
 
-- ordinary: 11.5 per map (276 total)
-- receiver: 3.7 per map (88 total)
+- ordinary: 11.6 per map (278 total)
+- receiver: 3.6 per map (86 total)
 - transmitter: 2.9 per map (70 total)
 - isolated: 0.3 per map (7 total)
 
@@ -63,30 +63,30 @@ a term: **positive means he argues FROM it** (it behaves like a prior or a mecha
 
 | term | claims | out | in | centrality | per claim | bias |
 |---|---|---|---|---|---|---|
-| import-volumes | 103 | 128 | 143 | 271 | 2.63 | -0.06 |
-| goods-trade-balance | 72 | 108 | 100 | 208 | 2.89 | +0.04 |
-| current-account | 80 | 102 | 98 | 200 | 2.5 | +0.02 |
-| nominal-exchange-rate | 65 | 86 | 82 | 168 | 2.58 | +0.02 |
-| export-volumes | 48 | 66 | 62 | 128 | 2.67 | +0.03 |
-| domestic-demand | 37 | 52 | 54 | 106 | 2.86 | -0.02 |
+| import-volumes | 101 | 124 | 142 | 266 | 2.63 | -0.07 |
+| goods-trade-balance | 70 | 104 | 97 | 201 | 2.87 | +0.03 |
+| current-account | 79 | 102 | 97 | 199 | 2.52 | +0.03 |
+| nominal-exchange-rate | 61 | 85 | 71 | 156 | 2.56 | +0.09 |
+| export-volumes | 49 | 66 | 61 | 127 | 2.59 | +0.04 |
+| domestic-demand | 38 | 52 | 55 | 107 | 2.82 | -0.03 |
 | bilateral-trade-flows | 43 | 55 | 50 | 105 | 2.44 | +0.05 |
-| manufacturing-trade-balance | 37 | 49 | 43 | 92 | 2.49 | +0.07 |
-| fx-reserves | 33 | 44 | 40 | 84 | 2.55 | +0.05 |
-| capital-flows | 32 | 37 | 42 | 79 | 2.47 | -0.06 |
-| global-imbalances | 21 | 30 | 38 | 68 | 3.24 | -0.12 |
+| fx-reserves | 37 | 51 | 46 | 97 | 2.62 | +0.05 |
+| manufacturing-trade-balance | 37 | 48 | 42 | 90 | 2.43 | +0.07 |
+| capital-flows | 34 | 40 | 48 | 88 | 2.59 | -0.09 |
+| global-imbalances | 20 | 29 | 37 | 66 | 3.3 | -0.12 |
 | manufacturing-output | 27 | 33 | 30 | 63 | 2.33 | +0.05 |
 
 ### country
 
 | term | claims | out | in | centrality | per claim | bias |
 |---|---|---|---|---|---|---|
-| china | 241 | 293 | 301 | 594 | 2.46 | -0.01 |
-| us | 212 | 264 | 281 | 545 | 2.57 | -0.03 |
-| euro-area | 29 | 32 | 40 | 72 | 2.48 | -0.11 |
+| china | 239 | 286 | 295 | 581 | 2.43 | -0.02 |
+| us | 213 | 264 | 281 | 545 | 2.56 | -0.03 |
+| euro-area | 28 | 31 | 37 | 68 | 2.43 | -0.09 |
+| taiwan | 3 | 4 | 4 | 8 | 2.67 | +0.0 |
 | ireland | 3 | 3 | 4 | 7 | 2.33 | -0.14 |
-| taiwan | 3 | 3 | 3 | 6 | 2.0 | +0.0 |
 | japan | 4 | 2 | 3 | 5 | 1.25 | -0.2 |
-| korea | 2 | 2 | 2 | 4 | 2.0 | +0.0 |
+| korea | 2 | 3 | 1 | 4 | 2.0 | +0.5 |
 | turkey | 2 | 1 | 2 | 3 | 1.5 | -0.33 |
 | italy | 2 | 1 | 2 | 3 | 1.5 | -0.33 |
 | australia | 2 | 1 | 2 | 3 | 1.5 | -0.33 |
@@ -97,12 +97,12 @@ a term: **positive means he argues FROM it** (it behaves like a prior or a mecha
 
 | term | claims | out | in | centrality | per claim | bias |
 |---|---|---|---|---|---|---|
-| global | 22 | 42 | 32 | 74 | 3.36 | +0.14 |
-| asia-surplus | 10 | 15 | 11 | 26 | 2.6 | +0.15 |
+| global | 24 | 49 | 35 | 84 | 3.5 | +0.17 |
 | em-weak-balance-sheet | 12 | 12 | 13 | 25 | 2.08 | -0.04 |
-| gulf | 3 | 7 | 2 | 9 | 3.0 | +0.56 |
+| asia-surplus | 8 | 9 | 12 | 21 | 2.62 | -0.14 |
 | southeast-asia | 3 | 3 | 3 | 6 | 2.0 | +0.0 |
 | em-commodity | 3 | 4 | 2 | 6 | 2.0 | +0.33 |
+| gulf | 3 | 4 | 2 | 6 | 2.0 | +0.33 |
 | latam | 2 | 1 | 2 | 3 | 1.5 | -0.33 |
 
 ### instrument
@@ -110,14 +110,14 @@ a term: **positive means he argues FROM it** (it behaves like a prior or a mecha
 | term | claims | out | in | centrality | per claim | bias |
 |---|---|---|---|---|---|---|
 | tariffs | 68 | 81 | 87 | 168 | 2.47 | -0.04 |
-| industrial-policy | 29 | 47 | 45 | 92 | 3.17 | +0.02 |
-| fx-intervention | 27 | 44 | 43 | 87 | 3.22 | +0.01 |
+| fx-intervention | 27 | 45 | 44 | 89 | 3.3 | +0.01 |
+| industrial-policy | 28 | 45 | 43 | 88 | 3.14 | +0.02 |
 | fiscal-policy | 26 | 36 | 36 | 72 | 2.77 | +0.0 |
 | purchase-commitments | 28 | 30 | 35 | 65 | 2.32 | -0.08 |
 | retaliation | 21 | 23 | 29 | 52 | 2.48 | -0.12 |
 | official-lending | 7 | 7 | 10 | 17 | 2.43 | -0.18 |
 | trade-agreements | 6 | 7 | 7 | 14 | 2.33 | +0.0 |
-| capital-controls | 3 | 7 | 3 | 10 | 3.33 | +0.4 |
+| capital-controls | 4 | 7 | 6 | 13 | 3.25 | +0.08 |
 | monetary-policy | 3 | 4 | 5 | 9 | 3.0 | -0.11 |
 | swap-lines | 3 | 3 | 5 | 8 | 2.67 | -0.25 |
 | structural-reform | 4 | 2 | 4 | 6 | 1.5 | -0.33 |
@@ -126,22 +126,22 @@ a term: **positive means he argues FROM it** (it behaves like a prior or a mecha
 
 | term | claims | out | in | centrality | per claim | bias |
 |---|---|---|---|---|---|---|
-| customs | 59 | 67 | 66 | 133 | 2.25 | +0.01 |
-| balance-of-payments | 33 | 35 | 42 | 77 | 2.33 | -0.09 |
-| imf-publications | 24 | 23 | 24 | 47 | 1.96 | -0.02 |
+| customs | 58 | 66 | 61 | 127 | 2.19 | +0.04 |
+| balance-of-payments | 34 | 36 | 43 | 79 | 2.32 | -0.09 |
+| imf-publications | 25 | 31 | 30 | 61 | 2.44 | +0.02 |
 | mirror-statistics | 12 | 17 | 14 | 31 | 2.58 | +0.1 |
-| academic-econometrics | 15 | 19 | 9 | 28 | 1.87 | +0.36 |
+| academic-econometrics | 15 | 19 | 8 | 27 | 1.8 | +0.41 |
 | national-accounts | 10 | 10 | 9 | 19 | 1.9 | +0.05 |
-| market-prices | 9 | 8 | 7 | 15 | 1.67 | +0.07 |
-| third-party-trackers | 6 | 8 | 4 | 12 | 2.0 | +0.33 |
-| press-reporting | 7 | 6 | 5 | 11 | 1.57 | +0.09 |
-| corporate-disclosure | 3 | 5 | 2 | 7 | 2.33 | +0.43 |
+| third-party-trackers | 5 | 6 | 3 | 9 | 1.8 | +0.33 |
+| market-prices | 6 | 6 | 3 | 9 | 1.5 | +0.33 |
+| corporate-disclosure | 4 | 6 | 2 | 8 | 2.0 | +0.5 |
+| press-reporting | 5 | 3 | 4 | 7 | 1.4 | -0.14 |
 | enterprise-reporting | 1 | 1 | 1 | 2 | 2.0 | +0.0 |
 
 
 #### The one finding worth stating outright
 
-`customs` runs 67 out / 66 in (bias +0.01), while `balance-of-payments` runs 35 out / 42 in (bias -0.09).
+`customs` runs 66 out / 61 in (bias +0.04), while `balance-of-payments` runs 36 out / 43 in (bias -0.09).
 
 He argues **from** customs data and **about** balance-of-payments
 data. Customs is a premise he does not defend; BoP is a contested
@@ -158,35 +158,35 @@ something he argues toward, never a premise he reasons from.
 
 ## 4. The variable-level signed map
 
-34 variables, 599 signed edges, plus 519 within-variable edges excluded from density.
+34 variables, 580 signed edges, plus 529 within-variable edges excluded from density.
 
 Strongest supporting links (a claim about A backs a claim about B):
 
-- `import-volumes` → `goods-trade-balance` (24)
-- `goods-trade-balance` → `import-volumes` (18)
+- `import-volumes` → `goods-trade-balance` (23)
+- `fx-reserves` → `capital-flows` (22)
 - `current-account` → `global-imbalances` (18)
+- `goods-trade-balance` → `import-volumes` (17)
 - `bilateral-trade-flows` → `import-volumes` (16)
-- `fx-reserves` → `capital-flows` (16)
+- `capital-flows` → `fx-reserves` (15)
 - `import-volumes` → `bilateral-trade-flows` (13)
-- `current-account` → `goods-trade-balance` (10)
-- `export-volumes` → `nominal-exchange-rate` (10)
-- `global-imbalances` → `current-account` (10)
-- `goods-trade-balance` → `current-account` (10)
 - `current-account` → `investment-income-balance` (9)
+- `current-account` → `goods-trade-balance` (9)
+- `export-volumes` → `nominal-exchange-rate` (9)
+- `fx-reserves` → `nominal-exchange-rate` (9)
 - `manufacturing-output` → `export-volumes` (9)
 
 Strongest attacking links (a claim about A pushes back on B):
 
 - `global-imbalances` ⊣ `current-account` (6)
-- `nominal-exchange-rate` ⊣ `domestic-demand` (5)
-- `nominal-exchange-rate` ⊣ `current-account` (5)
 - `goods-trade-balance` ⊣ `import-volumes` (5)
-- `capital-flows` ⊣ `fx-reserves` (5)
-- `import-volumes` ⊣ `export-volumes` (4)
+- `nominal-exchange-rate` ⊣ `domestic-demand` (4)
+- `capital-flows` ⊣ `fx-reserves` (4)
 - `goods-trade-balance` ⊣ `domestic-demand` (3)
 - `gdp-growth` ⊣ `goods-trade-balance` (3)
-- `import-volumes` ⊣ `domestic-demand` (3)
 - `domestic-demand` ⊣ `goods-trade-balance` (3)
+- `import-volumes` ⊣ `tariff-rate` (3)
+- `nominal-exchange-rate` ⊣ `capital-flows` (3)
+- `nominal-exchange-rate` ⊣ `tariff-rate` (3)
 
 Full edge list: `data/variable_map.csv`.
 

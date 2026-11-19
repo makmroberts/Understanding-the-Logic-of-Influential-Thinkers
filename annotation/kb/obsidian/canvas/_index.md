@@ -32,8 +32,8 @@ Cards are coloured by Toulmin family. Edge labels carry the sign (**+1** backs, 
 | [[2025-09-12 The Trump Shock That Wasn't (At Least Not Yet) (map).canvas\|2025-09-12 The Trump Shock That Wasn't (At Least Not Yet) (map)]] | 15 | 21 |
 | [[2025-11-12 China's Massive Surplus is Everywhere (Yet The IMF Still Has Trouble Seeing It Clearly) (map).canvas\|2025-11-12 China's Massive Surplus is Everywhere (Yet The IMF Still Has Trouble Seeing It Clearly) (map)]] | 14 | 19 |
 | [[2026-02-03 Understanding the Low October 2025 Trade Deficit (map).canvas\|2026-02-03 Understanding the Low October 2025 Trade Deficit (map)]] | 15 | 20 |
-| [[2026-07-27 Is China’s Surplus Really Shrinking (map).canvas\|2026-07-27 Is China’s Surplus Really Shrinking (map)]] | 18 | 24 |
-| [[2026-09-15 De-reservification, Not De-dollarization (map).canvas\|2026-09-15 De-reservification, Not De-dollarization (map)]] | 22 | 30 |
-| [[2026-10-13 What’s the Renminbi Got to Do With it (map).canvas\|2026-10-13 What’s the Renminbi Got to Do With it (map)]] | 28 | 34 |
+| [[2026-07-27 Is China’s Surplus Really Shrinking (map).canvas\|2026-07-27 Is China’s Surplus Really Shrinking (map)]] | 17 | 20 |
+| [[2026-09-15 De-reservification, Not De-dollarization (map).canvas\|2026-09-15 De-reservification, Not De-dollarization (map)]] | 26 | 37 |
+| [[2026-10-13 What’s the Renminbi Got to Do With it (map).canvas\|2026-10-13 What’s the Renminbi Got to Do With it (map)]] | 25 | 30 |
 
 Back to [[index]].

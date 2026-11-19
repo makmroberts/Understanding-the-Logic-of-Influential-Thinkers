@@ -37,7 +37,7 @@ Sits in the middle of arguments - as much argued toward as argued from.
 - **2020-07** [[There is no policy lever in manufacturing — import substitution continues and trade does]] · _Slouching Toward Phase One_
 - **2024-03** [[Upgrading is the stated growth plan, so advanced manufacturing capacity keeps expanding]] · _China's Record Manufacturing Surplus_
 - **2025-07** [[Overcapacity]] · _China is also Fighting a Trade War with Euro..._
-- **2026-10** [[An undervalued RMB signals the world to locate production in China, eroding manufacturing]] · _What’s the Renminbi Got to Do With it?_
+- **2026-10** [[An undervalued RMB signals firms everywhere to produce in China, eroding manufacturing]] · _What’s the Renminbi Got to Do With it?_
 
 ### stated_assumption (4)
 

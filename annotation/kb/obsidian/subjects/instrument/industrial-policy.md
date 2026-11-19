@@ -2,7 +2,7 @@
 type: subject
 facet: instrument
 term: industrial-policy
-claims: 29
+claims: 28
 saturated: false
 tags: [subject, subject/instrument, instrument/industrial-policy]
 ---
@@ -11,16 +11,16 @@ tags: [subject, subject/instrument, instrument/industrial-policy]
 
 > Subsidies, directed credit and state capacity-building.
 
-29 claims across 6 articles · facet `instrument` · [[By instrument]] · [[index]]
+28 claims across 5 articles · facet `instrument` · [[By instrument]] · [[index]]
 
-**Position in the argument graph** — centrality 92 (3.17 per claim), 47 out / 45 in, bias +0.02.
+**Position in the argument graph** — centrality 88 (3.14 per claim), 45 out / 43 in, bias +0.02.
 
 Sits in the middle of arguments - as much argued toward as argued from.
 
 ## Argued together with
 
 - **variable**: [[import-volumes]] (22), [[manufacturing-output]] (8), [[bilateral-trade-flows]] (4), [[tariff-rate]] (3), [[nominal-exchange-rate]] (2)
-- **country**: [[china]] (29), [[us]] (5), [[euro-area]] (1), [[canada]] (1), [[australia]] (1)
+- **country**: [[china]] (28), [[us]] (5), [[euro-area]] (1), [[canada]] (1), [[australia]] (1)
 - **data_basis**: [[imf-publications]] (1), [[press-reporting]] (1)
 
 ## Claims by role
@@ -53,13 +53,12 @@ Sits in the middle of arguments - as much argued toward as argued from.
 - **2019-05** [[Oil and gas state majors control the pipes]] · _Does a purchase-commitment deal push China b..._
 - **2019-05** [[The capital-goods roll call]] · _Does a purchase-commitment deal push China b..._
 
-### intermediate_claim (5)
+### intermediate_claim (4)
 
 - **2019-05** [[China never left managed trade]] · _Does a purchase-commitment deal push China b..._
 - **2019-05** [[Reform and opening was partial and sector-specific]] · _Does a purchase-commitment deal push China b..._
 - **2019-05** [[Removing formal barriers is not enough]] · _Does a purchase-commitment deal push China b..._
 - **2020-01** [[Five parallel verdicts industrial policy untouched, currency buffered, Treasuries unused]] · _Lessons From Phase One of the Trade War With..._
-- **2026-10** [[Structural gains (WTO accession, green industrial policy) were amplified by a weak]] · _What’s the Renminbi Got to Do With it?_
 
 ### main_claim (2)
 

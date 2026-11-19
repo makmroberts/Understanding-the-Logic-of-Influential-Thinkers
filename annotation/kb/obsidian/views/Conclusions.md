@@ -7,7 +7,7 @@ tags: [view]
 
 Where the arguments land.
 
-32 across 24 articles. Back to [[index]].
+31 across 24 articles. Back to [[index]].
 
 ## Main claims (25)
 
@@ -33,20 +33,19 @@ Where the arguments land.
 - **2025-09** [[The Trump shock to trade flows has not happened yet, though a modest impact should appear]] · _The Trump Shock That Wasn't (At Least Not Yet)_
 - **2025-11** [[The IMF should recognize China's external imbalance and call for a fiscal expansion]] · _China's Massive Surplus is Everywhere (Yet T..._
 - **2026-02** [[No the low October deficit is not evidence the tariffs work, and a significant fall]] · _Understanding the Low October 2025 Trade Def..._
-- **2026-07** [[China's underlying surplus is still rising; it continues to rely heavily on exports]] · _Is China’s Surplus Really Shrinking?_
-- **2026-09** [[The world is de-reservifying, not de-dollarizing sovereign foreign asset growth flows]] · _De-reservification, Not De-dollarization_
-- **2026-10** [[China, which relies on net exports for growth, is on a collision course with its trading]] · _What’s the Renminbi Got to Do With it?_
+- **2026-07** [[China's underlying surplus is still rising and China continues to rely heavily on exports]] · _Is China’s Surplus Really Shrinking?_
+- **2026-09** [[The story is de-reservification rather than de-dollarization sovereign foreign asset]] · _De-reservification, Not De-dollarization_
+- **2026-10** [[China is on a collision course with its trading partners, and there is no realistic path]] · _What’s the Renminbi Got to Do With it?_
 
 ## Reconstructions - replacement numbers he builds (2)
 
 - **2024-08** [[Goods surplus understated by ~$300bn, over 1.5pp of GDP; true current account surplus]] · _China's Imaginary Trade Data_
-- **2026-07** [[Excluding gold, the goods surplus rose over $80 billion in H1 2026 and would be near 7%]] · _Is China’s Surplus Really Shrinking?_
+- **2026-07** [[Excluding gold, China's goods surplus rose by over $80 billion in H1 2026 and would be]] · _Is China’s Surplus Really Shrinking?_
 
-## Recommendations - the normative 'should' (5)
+## Recommendations - the normative 'should' (4)
 
 - **2020-03** [[Draw down buffers; central bank backstop plus swap lines; mobilise trade finance; SDR]] · _Not One Emerging Market Financial Crisis, bu..._
 - **2024-03** [[The size of the imbalance, correctly measured, must be factored into Chinese policymaking]] · _China's Record Manufacturing Surplus_
 - **2024-08** [[implied only — stop using the reported series]] · _China's Imaginary Trade Data_
-- **2026-09** [[Analysts should stop obsessing over COFER shares and scrutinize the premium on U.S. risk]] · _De-reservification, Not De-dollarization_
-- **2026-10** [[Europe and the IMF should put RMB exchange rate adjustment on the agenda with China]] · _What’s the Renminbi Got to Do With it?_
+- **2026-09** [[Analysts should scrutinize the apparent premium on U.S. risk assets, the 'profit dollar']] · _De-reservification, Not De-dollarization_
 

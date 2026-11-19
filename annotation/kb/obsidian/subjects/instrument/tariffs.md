@@ -19,7 +19,7 @@ Sits in the middle of arguments - as much argued toward as argued from.
 
 ## Argued together with
 
-- **variable**: [[import-volumes]] (27), [[tariff-rate]] (22), [[goods-trade-balance]] (19), [[nominal-exchange-rate]] (16), [[bilateral-trade-flows]] (8)
+- **variable**: [[import-volumes]] (26), [[tariff-rate]] (22), [[goods-trade-balance]] (19), [[nominal-exchange-rate]] (16), [[bilateral-trade-flows]] (8)
 - **country**: [[us]] (60), [[china]] (22), [[euro-area]] (4), [[taiwan]] (1), [[germany]] (1)
 - **bloc**: [[southeast-asia]] (2)
 - **data_basis**: [[customs]] (11), [[academic-econometrics]] (3), [[market-prices]] (2), [[mirror-statistics]] (1), [[press-reporting]] (1)
@@ -61,8 +61,8 @@ Sits in the middle of arguments - as much argued toward as argued from.
 - **2025-05** [[Each of the five channels is plausible and none is decisive on its own]] · _Why Didn't Tariffs Push Up the U.S. Dollar?_
 - **2025-09** [[Excluding pharmaceuticals and gold, U.S. imports are roughly on trend; the shock to trade]] · _The Trump Shock That Wasn't (At Least Not Yet)_
 - **2026-02** [[Tariffs reduce imports in specific categories, but the overall deficit is driven]] · _Understanding the Low October 2025 Trade Def..._
-- **2026-07** [[U.S. 2025 data are also distorted by tariff-driven gold bar imports and their reversal]] · _Is China’s Surplus Really Shrinking?_
-- **2026-10** [[Sectoral protection such as the EU hybrid car quota buffers specific sectors but would]] · _What’s the Renminbi Got to Do With it?_
+- **2026-07** [[U.S. 2025 data also needs gold adjustment, as tariff-driven gold bar imports]] · _Is China’s Surplus Really Shrinking?_
+- **2026-10** [[Sector quotas such as the EU hybrid-car TRQ only buffer specific sectors; using]] · _What’s the Renminbi Got to Do With it?_
 
 ### evidence_data (8)
 

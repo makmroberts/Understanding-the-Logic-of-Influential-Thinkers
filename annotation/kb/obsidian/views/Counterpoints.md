@@ -7,9 +7,9 @@ tags: [view]
 
 What he concedes and who he argues against.
 
-79 across 24 articles. Back to [[index]].
+76 across 24 articles. Back to [[index]].
 
-## Opposing views (20)
+## Opposing views (19)
 
 - **2017-12** [[A wider deficit can reflect stronger domestic demand rather than weakness]] · _Why does the U.S. trade balance still matter..._
 - **2018-02** [[Smaller-spillover argument]] · _Will Trump's fiscal expansion undermine his ..._
@@ -26,13 +26,12 @@ What he concedes and who he argues against.
 - **2025-09** [[Reading headline volatility as tariffs crushing trade]] · _The Trump Shock That Wasn't (At Least Not Yet)_
 - **2025-11** [[The IMF's framing; the argument that Europe's surplus is almost as big]] · _China's Massive Surplus is Everywhere (Yet T..._
 - **2026-02** [[Trump's trade team claiming success from smaller deficits than in the same months of 2024]] · _Understanding the Low October 2025 Trade Def..._
-- **2026-07** [[The Economist, following Adam Wolfe of Absolute Strategy Research, argues China's surplus]] · _Is China’s Surplus Really Shrinking?_
-- **2026-09** [[Analysts who pore over quarterly COFER shares for signs of de-dollarization are focused]] · _De-reservification, Not De-dollarization_
-- **2026-10** [[The Geneva Report and former IMF officials argue that exports rose mechanically from weak]] · _What’s the Renminbi Got to Do With it?_
-- **2026-10** [[IMF surveillance ignores China's currency management and the balance of payments]] · _What’s the Renminbi Got to Do With it?_
-- **2026-10** [[Some argue that, for comity and for China's growth, the IMF should ignore external]] · _What’s the Renminbi Got to Do With it?_
+- **2026-07** [[The Economist, drawing on Adam Wolfe of Absolute Strategy Research, argues China's trade]] · _Is China’s Surplus Really Shrinking?_
+- **2026-09** [[Analysts who focus on small quarterly shifts in the dollar's COFER reserve share are]] · _De-reservification, Not De-dollarization_
+- **2026-10** [[The Geneva Report and former IMF officials hold that exports rose mechanically from weak]] · _What’s the Renminbi Got to Do With it?_
+- **2026-10** [[Some argue the IMF should defer to the PBOC, ignore external balance and focus]] · _What’s the Renminbi Got to Do With it?_
 
-## Caveats (35)
+## Caveats (33)
 
 - **2017-12** [[Monthly trade data are noisy and should be read as a time series]] · _Why does the U.S. trade balance still matter..._
 - **2017-12** [[Near full employment, trade changes job distribution more than total employment]] · _Why does the U.S. trade balance still matter..._
@@ -63,12 +62,10 @@ What he concedes and who he argues against.
 - **2025-09** [[August deals doubled tariffs on Southeast Asia relative to April; fall data may show]] · _The Trump Shock That Wasn't (At Least Not Yet)_
 - **2025-11** [[China's GDP data are too thin to confirm the net export math; the IMF does support]] · _China's Massive Surplus is Everywhere (Yet T..._
 - **2026-02** [[Tariffed categories really are falling; watch whether imports rebound once stockpiles are]] · _Understanding the Low October 2025 Trade Def..._
-- **2026-07** [[The author concedes commodity and manufacturing balances shifted too, the chip deficit]] · _Is China’s Surplus Really Shrinking?_
-- **2026-09** [[Japan is an exception GPIF's dollar share is below the MoF's, and Taiwan's lifers aren't]] · _De-reservification, Not De-dollarization_
-- **2026-09** [[The dollar tilt may not last; any real de-dollarization would first appear among]] · _De-reservification, Not De-dollarization_
-- **2026-10** [[Europe's institutions lack the tools to coordinate on exchange rates, which limits]] · _What’s the Renminbi Got to Do With it?_
-- **2026-10** [[The RMB has appreciated since mid-2025, which reverses the liberation-day depreciation]] · _What’s the Renminbi Got to Do With it?_
-- **2026-10** [[China's surplus is now less masked in balance of payments data, though problems remain]] · _What’s the Renminbi Got to Do With it?_
+- **2026-07** [[Commodity and manufacturing balances also changed, and the adjustments are complex]] · _Is China’s Surplus Really Shrinking?_
+- **2026-09** [[Japan is the exception, since GPIF's dollar share is likely below that of the Ministry]] · _De-reservification, Not De-dollarization_
+- **2026-10** [[The RMB has appreciated modestly since mid-2025, but this has not corrected]] · _What’s the Renminbi Got to Do With it?_
+- **2026-10** [[China's BoP data are less distorted than in 2023-24, but problems remain in investment]] · _What’s the Renminbi Got to Do With it?_
 
 ## Other explanations (14)
 
@@ -85,7 +82,7 @@ What he concedes and who he argues against.
 - **2025-09** [[Waiting for tariff relief (autos) replaces front-running; other exporters can take U.S.]] · _The Trump Shock That Wasn't (At Least Not Yet)_
 - **2025-11** [[Ireland distorts European data; IMF forecast misses come from ignoring lagged exchange]] · _China's Massive Surplus is Everywhere (Yet T..._
 - **2026-02** [[Auto imports fell along with auto sales weaker demand rather than more U.S. production]] · _Understanding the Low October 2025 Trade Def..._
-- **2026-10** [[The 2020-21 export surge came from pandemic goods demand, not from the currency]] · _What’s the Renminbi Got to Do With it?_
+- **2026-10** [[The 2020-21 export surge came from pandemic goods demand, not the currency]] · _What’s the Renminbi Got to Do With it?_
 
 ## Deferred questions (2)
 

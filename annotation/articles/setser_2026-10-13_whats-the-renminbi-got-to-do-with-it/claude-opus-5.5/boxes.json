@@ -1,24 +1,26 @@
 {
  "result": [
   {
-   "excerpt": "China’s current export surge is the simple consequence of the housing downturn and the resulting weakness in Chinese internal demand.",
-   "claim": "Is China's export surge just a mechanical result of weak internal demand, or did the weak renminbi play a causal role?",
+   "excerpt": "",
+   "claim": "Is China's export surge simply a mechanical result of weak domestic demand after the housing downturn, or has the weak RMB played a causal role?",
    "role": "question",
    "explicit": false,
    "kind": "none",
    "claim_type": "none",
    "paragraphs": [
     1,
-    2
+    2,
+    19
    ],
-   "reason": "When a trade surge has two candidate causes, ask whether the price channel adds anything beyond the demand channel.",
-   "excerpt_para": 1,
+   "reason": "When a surplus surges, ask whether relative prices or only domestic demand drove it.",
+   "excerpt_para": null,
+   "excerpt_spans": null,
    "id": "Q",
    "level": "L0"
   },
   {
-   "excerpt": "The weakness in the RMB in this story is entirely incidental to the increase in exports, which is, more or less, a mechanical response to weak internal demand.",
-   "claim": "The Geneva Report and former IMF officials argue that exports rose mechanically from weak domestic demand and that RMB weakness was incidental, driven by rate differentials rather than policy.",
+   "excerpt": "China’s current export surge is the simple consequence of the housing downturn and the resulting weakness in Chinese internal demand.",
+   "claim": "The Geneva Report and former IMF officials hold that exports rose mechanically from weak internal demand and that RMB weakness was incidental, driven by rate differentials rather than policy.",
    "role": "opposing_view",
    "explicit": true,
    "kind": "none",
@@ -30,29 +32,42 @@
     4,
     5
    ],
-   "reason": "A view that treats the exchange rate as a passive outcome must be tested against evidence of active management.",
-   "excerpt_para": 2,
+   "reason": "A demand-only story must still explain why the currency moved and what it did to trade.",
+   "excerpt_para": 1,
+   "excerpt_spans": [
+    {
+     "char_start": 95,
+     "char_end": 228
+    }
+   ],
    "id": "X",
    "level": "L6"
   },
   {
    "excerpt": "China doesn’t have an open financial account. As a result, equilibrium in the foreign exchange market is thus driven far more by exporter conversion and current account flows than by rate differentials",
-   "claim": "With a closed financial account, the currency market is driven mainly by exporter conversion and current account flows, not by rate differentials.",
-   "role": "stated_assumption",
+   "claim": "With a closed financial account, the RMB is set mainly by exporter conversion and official management, making it a policy variable rather than a byproduct of monetary policy.",
+   "role": "mechanism",
    "explicit": true,
-   "kind": "none",
+   "kind": "economic",
    "claim_type": "none",
    "paragraphs": [
-    7
+    7,
+    44
    ],
-   "reason": "Capital controls weaken the link between interest rate differentials and the exchange rate.",
+   "reason": "Where capital controls bind, currency values reflect trade flows and official management more than interest rate gaps.",
    "excerpt_para": 7,
-   "id": "P1",
-   "level": "L1"
+   "excerpt_spans": [
+    {
+     "char_start": 0,
+     "char_end": 201
+    }
+   ],
+   "id": "M1",
+   "level": "L3"
   },
   {
    "excerpt": "The RMB didn’t consistently get pulled up when Chinese rates were higher than U.S. rates (2002-2020 generally speaking)",
-   "claim": "The RMB has not tracked rate differentials: it did not rise when Chinese rates were higher, and it appreciated after mid-2024 even though PBOC rates were below U.S. rates.",
+   "claim": "The RMB has not tracked rate differentials: it did not rise when Chinese rates were higher and has appreciated since mid-2025 despite PBOC rates below U.S. rates.",
    "role": "evidence_data",
    "explicit": true,
    "kind": "none",
@@ -60,30 +75,65 @@
    "paragraphs": [
     6
    ],
-   "reason": "A currency that ignores rate differentials is being set by something other than financial flows.",
+   "reason": "If a currency diverges from rate differentials, rate differentials are not what sets it.",
    "excerpt_para": 6,
+   "excerpt_spans": [
+    {
+     "char_start": 88,
+     "char_end": 207
+    }
+   ],
    "id": "E1",
    "level": "L2"
   },
   {
-   "excerpt": "the value of the RMB is much more of a policy variable under the independent control of the Chinese authorities than a simple byproduct of monetary and fiscal policies.",
-   "claim": "The RMB's value is a policy variable controlled by the Chinese authorities, not a byproduct of macro policy.",
-   "role": "intermediate_claim",
+   "excerpt": "The yuan’s move down against the dollar in 2022 was a controlled 10 percent move, and the appreciation over the last 16 months has been even more controlled crawl.",
+   "claim": "Low volatility, the controlled 10% fall in 2022, the slow crawl up since, and FX settlement data resembling band intervention by state banks show heavy management.",
+   "role": "evidence_data",
    "explicit": true,
    "kind": "none",
    "claim_type": "none",
    "paragraphs": [
-    7,
-    12
+    12,
+    13,
+    14
    ],
-   "reason": "Where authorities manage the exchange rate and capital flows, the rate is a choice rather than an outcome.",
-   "excerpt_para": 7,
-   "id": "C1",
-   "level": "L4"
+   "reason": "Smooth, controlled paths and asymmetric buying patterns reveal a managed currency.",
+   "excerpt_para": 13,
+   "excerpt_spans": [
+    {
+     "char_start": 81,
+     "char_end": 244
+    }
+   ],
+   "id": "E2",
+   "level": "L2"
   },
   {
-   "excerpt": "the PBOC, rather absurdly, insists that “market forces play a decisive role in determining the RMB exchange rate.”",
-   "claim": "The PBOC's claim that market forces determine the RMB is not credible.",
+   "excerpt": "The renminbi is still heavily managed and the authorities have acted to slow appreciation.",
+   "claim": "Mark Sobel argues the PBOC achieves intervention-like effects through capital controls, guidance, the fix and state banks, so its claim to have stopped regular intervention is misleading.",
+   "role": "evidence_source",
+   "explicit": true,
+   "kind": "none",
+   "claim_type": "none",
+   "paragraphs": [
+    10,
+    11
+   ],
+   "reason": "An experienced official observer's judgment can corroborate evidence of hidden management.",
+   "excerpt_para": 11,
+   "excerpt_spans": [
+    {
+     "char_start": 1,
+     "char_end": 91
+    }
+   ],
+   "id": "E5",
+   "level": "L2"
+  },
+  {
+   "excerpt": "even if the PBOC, rather absurdly, insists that “market forces play a decisive role in determining the RMB exchange rate.”",
+   "claim": "The PBOC's claim that market forces decide the RMB is not credible.",
    "role": "source_credibility",
    "explicit": true,
    "kind": "none",
@@ -92,129 +142,89 @@
     9,
     10
    ],
-   "reason": "Discount a central bank's self-description of its regime when it has a motive to deny management.",
+   "reason": "Discount an authority's self-description when it has an interest in denying management and observable behaviour contradicts it.",
    "excerpt_para": 9,
+   "excerpt_spans": [
+    {
+     "char_start": 40,
+     "char_end": 162
+    }
+   ],
    "id": "SC",
    "level": "L1"
   },
   {
-   "excerpt": "it has many means at its disposal to achieve the same effect through extensive capital controls, administrative guidance, signalling at the fix and deploying state-owned commercial banks.",
-   "claim": "Mark Sobel and the Goldman Sachs analysts describe heavy management of the RMB and an FX conversion ratio that rose with appreciation expectations.",
-   "role": "evidence_source",
+   "excerpt": "the value of the RMB is much more of a policy variable under the independent control of the Chinese authorities than a simple byproduct of monetary and fiscal policies.",
+   "claim": "RMB weakness was a policy outcome under Chinese control, not incidental.",
+   "role": "intermediate_claim",
    "explicit": true,
    "kind": "none",
    "claim_type": "none",
    "paragraphs": [
-    11,
-    44,
-    45
+    7,
+    12
    ],
-   "reason": "Independent experts' readings of the market corroborate an inference about management.",
-   "excerpt_para": 11,
-   "id": "E4",
-   "level": "L2"
-  },
-  {
-   "excerpt": "the state banks in practice buy FX to keep the CNY from testing the strong side of the band",
-   "claim": "State banks buy foreign exchange to cap the yuan's strength, so the yuan is managed asymmetrically against appreciation.",
-   "role": "mechanism",
-   "explicit": true,
-   "kind": "economic",
-   "claim_type": "none",
-   "paragraphs": [
-    14
+   "reason": "A managed price reflects the manager's choices.",
+   "excerpt_para": 7,
+   "excerpt_spans": [
+    {
+     "char_start": 363,
+     "char_end": 531
+    }
    ],
-   "reason": "Intervention can be carried out through state-owned intermediaries instead of the official reserves.",
-   "excerpt_para": 14,
-   "id": "M1",
-   "level": "L3"
-  },
-  {
-   "excerpt": "The yuan’s move down against the dollar in 2022 was a controlled 10 percent move, and the appreciation over the last 16 months has been even more controlled crawl.",
-   "claim": "Yuan volatility is low (a controlled 10 percent fall in 2022, then a slow crawl up), and the FX settlement data show a pattern typical of band management.",
-   "role": "evidence_data",
-   "explicit": true,
-   "kind": "none",
-   "claim_type": "none",
-   "paragraphs": [
-    13,
-    14
-   ],
-   "reason": "Low volatility and settlement flows that mirror intervention patterns reveal a managed currency.",
-   "excerpt_para": 13,
-   "id": "E2",
-   "level": "L2"
-  },
-  {
-   "excerpt": "Its surveillance has generally ignored China’s currency management",
-   "claim": "IMF surveillance ignores China's currency management and the balance of payments.",
-   "role": "opposing_view",
-   "explicit": true,
-   "kind": "none",
-   "claim_type": "none",
-   "paragraphs": [
-    8
-   ],
-   "reason": "Surveillance that omits the exchange rate will misjudge external adjustment.",
-   "excerpt_para": 8,
-   "id": "X2",
-   "level": "L6"
+   "id": "C1",
+   "level": "L4"
   },
   {
    "excerpt": "Periods of RMB weakness have consistently been associated with periods of especially rapid Chinese export growth.",
-   "claim": "Chinese exports respond to the real value of the RMB.",
-   "role": "mechanism",
-   "explicit": true,
-   "kind": "economic",
-   "claim_type": "none",
-   "paragraphs": [
-    15,
-    16
-   ],
-   "reason": "A weaker real exchange rate raises export competitiveness and volumes.",
-   "excerpt_para": 16,
-   "id": "M2",
-   "level": "L3"
-  },
-  {
-   "excerpt": "None of this would matter much if China’s economy was small. But that obviously isn’t the case.",
-   "claim": "China's size makes its currency management matter for the rest of the world.",
-   "role": "hidden_assumption",
-   "explicit": false,
-   "kind": "none",
-   "claim_type": "none",
-   "paragraphs": [
-    15,
-    31,
-    32
-   ],
-   "reason": "A large economy's external surplus imposes spillovers on its trading partners.",
-   "excerpt_para": 15,
-   "id": "P4",
-   "level": "L1"
-  },
-  {
-   "excerpt": "the acceleration in China’s export growth after the RMB’s depreciation over the course of 2022.",
-   "claim": "Exports accelerated after the 2022 depreciation and outgrew global trade by 2023; the same outperformance followed the RMB's fall alongside the dollar in 2003.",
+   "claim": "Chinese exports accelerated and outperformed global trade after the 2022 depreciation, as they did after the RMB followed the dollar down in 2003.",
    "role": "evidence_data",
    "explicit": true,
    "kind": "none",
    "claim_type": "none",
    "paragraphs": [
+    16,
     19,
     20,
-    21,
     24,
     25
    ],
-   "reason": "Export outperformance that follows depreciation in more than one episode points to a price effect.",
-   "excerpt_para": 19,
+   "reason": "Repeated co-movement of currency weakness and export outperformance across episodes points to a price effect.",
+   "excerpt_para": 16,
+   "excerpt_spans": [
+    {
+     "char_start": 85,
+     "char_end": 198
+    }
+   ],
    "id": "E3",
    "level": "L2"
   },
   {
-   "excerpt": "what of the acceleration in export growth in 2020 and 2021? That was pretty clearly tied to the global increase in goods demand",
-   "claim": "The 2020-21 export surge came from pandemic goods demand, not from the currency.",
+   "excerpt": "exports were turbocharged when structural shifts that should have resulted in a stronger currency were instead amplified by currency weakness.",
+   "claim": "Structural gains (WTO entry, green industry and autos) that should have strengthened the RMB were instead amplified by currency weakness.",
+   "role": "mechanism",
+   "explicit": true,
+   "kind": "economic",
+   "claim_type": "none",
+   "paragraphs": [
+    26,
+    27
+   ],
+   "reason": "A converging economy should see real appreciation; suppressing it magnifies export gains.",
+   "excerpt_para": 26,
+   "excerpt_spans": [
+    {
+     "char_start": 199,
+     "char_end": 341
+    }
+   ],
+   "id": "M2",
+   "level": "L3"
+  },
+  {
+   "excerpt": "That was pretty clearly tied to the global increase in goods demand that came with the pandemic and work from home requirements.",
+   "claim": "The 2020-21 export surge came from pandemic goods demand, not the currency.",
    "role": "other_explanation",
    "explicit": true,
    "kind": "none",
@@ -222,45 +232,66 @@
    "paragraphs": [
     21
    ],
-   "reason": "Separate a global demand shock from a price effect before attributing growth to the exchange rate.",
+   "reason": "Separate episodes driven by global demand shocks from those driven by relative prices.",
    "excerpt_para": 21,
+   "excerpt_spans": [
+    {
+     "char_start": 80,
+     "char_end": 208
+    }
+   ],
    "id": "R1",
    "level": "L6"
   },
   {
-   "excerpt": "neglecting the exchange rate was the key reason the IMF’s kept forecasting, incorrectly, that China’s current account surplus would fall",
-   "claim": "The IMF repeatedly forecast that China's surplus would fall as Covid effects proved transitory, and it was wrong.",
+   "excerpt": "It was expected to fade when the world economy normalized. But it didn’t. By 2023 Chinese export growth again topped global trade growth.",
+   "claim": "The IMF expected China's Covid-era surplus to be transitory and its current account surplus to fall, but exports kept outpacing global trade.",
    "role": "anomaly",
    "explicit": true,
    "kind": "none",
    "claim_type": "none",
    "paragraphs": [
+    21,
     22,
     23
    ],
-   "reason": "A forecast that keeps failing points to a variable the model leaves out.",
-   "excerpt_para": 23,
+   "reason": "A forecast that fails repeatedly signals an omitted variable.",
+   "excerpt_para": 21,
+   "excerpt_spans": [
+    {
+     "char_start": 209,
+     "char_end": 346
+    }
+   ],
    "id": "ANOM",
    "level": "L0"
   },
   {
-   "excerpt": "In both cses exports were turbocharged when structural shifts that should have resulted in a stronger currency were instead amplified by currency weakness.",
-   "claim": "Structural gains (WTO accession, green industrial policy) were amplified by a weak currency instead of being offset by appreciation.",
+   "excerpt": "neglecting the exchange rate was the key reason the IMF’s kept forecasting, incorrectly, that China’s current account surplus would fall",
+   "claim": "The IMF's neglect of China's exchange rate management explains its forecast errors and its failure to warn of a second China shock.",
    "role": "intermediate_claim",
    "explicit": true,
    "kind": "none",
    "claim_type": "none",
    "paragraphs": [
-    26
+    8,
+    22,
+    23
    ],
-   "reason": "Productivity gains should be absorbed by real appreciation; blocking it magnifies export surges.",
-   "excerpt_para": 26,
+   "reason": "Ignoring a price that affects trade leads to biased trade forecasts.",
+   "excerpt_para": 23,
+   "excerpt_spans": [
+    {
+     "char_start": 19,
+     "char_end": 155
+    }
+   ],
    "id": "C2",
    "level": "L4"
   },
   {
-   "excerpt": "a country that is converging technologically with its trade partners should see a trend appreciation in its currency.",
-   "claim": "A country converging technologically with its partners should see trend real appreciation (Krugman).",
+   "excerpt": "Paul Krugman has noted that a country that is converging technologically with its trade partners should see a trend appreciation in its currency.",
+   "claim": "A technologically converging country should see trend real appreciation.",
    "role": "stated_assumption",
    "explicit": true,
    "kind": "none",
@@ -268,14 +299,20 @@
    "paragraphs": [
     27
    ],
-   "reason": "Catch-up productivity growth implies a rising real exchange rate.",
+   "reason": "Productivity catch-up normally raises the real exchange rate.",
    "excerpt_para": 27,
-   "id": "P2",
+   "excerpt_spans": [
+    {
+     "char_start": 11,
+     "char_end": 156
+    }
+   ],
+   "id": "P1",
    "level": "L1"
   },
   {
-   "excerpt": "a stronger RMB would slow China’s exports and thus slow China’s economy at a time when China needs export growth to escape deflation",
-   "claim": "Some argue that, for comity and for China's growth, the IMF should ignore external balance and focus only on internal balance.",
+   "excerpt": "After all a stronger RMB would slow China’s exports and thus slow China’s economy at a time when China needs export growth to escape deflation",
+   "claim": "Some argue the IMF should defer to the PBOC, ignore external balance and focus only on China's internal balance.",
    "role": "opposing_view",
    "explicit": true,
    "kind": "none",
@@ -285,31 +322,64 @@
     29,
     30
    ],
-   "reason": "Treating a member's external surplus as harmless ignores its costs to other members.",
+   "reason": "Diplomatic comity is no reason to ignore a large economy's spillovers.",
    "excerpt_para": 30,
-   "id": "X3",
+   "excerpt_spans": [
+    {
+     "char_start": 119,
+     "char_end": 261
+    }
+   ],
+   "id": "X2",
    "level": "L6"
   },
   {
-   "excerpt": "there was an expectation (not always met to be sure) that surplus countries would allow their currencies to strengthen",
-   "claim": "Under fixed-but-adjustable regimes, surplus countries were expected to revalue for external balance and use other tools for internal balance, and China's regime resembles that system.",
-   "role": "benchmark",
+   "excerpt": "That argument, however, assumes that China’s economy is small and thus China’s external surplus can safely be ignored",
+   "claim": "The internal-balance-only argument fails because China is large and its surplus drags on other members' growth.",
+   "role": "intermediate_claim",
    "explicit": true,
    "kind": "none",
    "claim_type": "none",
    "paragraphs": [
-    34,
-    35,
-    43
+    15,
+    31,
+    32
    ],
-   "reason": "Two targets require two instruments: the exchange rate for external balance and domestic policy for internal balance.",
-   "excerpt_para": 34,
-   "id": "BM",
-   "level": "L1B"
+   "reason": "A large economy's surplus is someone else's deficit and lost demand.",
+   "excerpt_para": 31,
+   "excerpt_spans": [
+    {
+     "char_start": 0,
+     "char_end": 117
+    }
+   ],
+   "id": "C3",
+   "level": "L4"
+  },
+  {
+   "excerpt": "One important, stylized fact about China is that domestic demand growth is no longer feeding over to import growth (ex-gold, that is).",
+   "claim": "Faster domestic demand alone would not rebalance China's external accounts because it no longer raises imports.",
+   "role": "evidence_data",
+   "explicit": true,
+   "kind": "none",
+   "claim_type": "none",
+   "paragraphs": [
+    40
+   ],
+   "reason": "Demand stimulus rebalances trade only if it spills into imports.",
+   "excerpt_para": 40,
+   "excerpt_spans": [
+    {
+     "char_start": 246,
+     "char_end": 380
+    }
+   ],
+   "id": "E4",
+   "level": "L2"
   },
   {
    "excerpt": "aren’t going to address the underlying imbalance on their own. They can provide a bit of a buffer for specific sectors.",
-   "claim": "Sectoral protection such as the EU hybrid car quota buffers specific sectors but would have to spread ever wider if it substitutes for exchange rate adjustment.",
+   "claim": "Sector quotas such as the EU hybrid-car TRQ only buffer specific sectors; using protection instead of currency adjustment would require ever-expanding managed trade.",
    "role": "intermediate_claim",
    "explicit": true,
    "kind": "none",
@@ -320,14 +390,20 @@
     38,
     39
    ],
-   "reason": "Sector-by-sector trade restrictions cannot offset a broad relative price misalignment.",
+   "reason": "Sector protection cannot offset an economy-wide price signal.",
    "excerpt_para": 36,
-   "id": "C3",
+   "excerpt_spans": [
+    {
+     "char_start": 215,
+     "char_end": 334
+    }
+   ],
+   "id": "C4",
    "level": "L4"
   },
   {
    "excerpt": "This erosion will persist as long as an undervalued RMB sends the entire world a signal to use China as its production base.",
-   "claim": "An undervalued RMB signals the world to locate production in China, eroding manufacturing capacity elsewhere.",
+   "claim": "An undervalued RMB signals firms everywhere to produce in China, eroding manufacturing elsewhere.",
    "role": "mechanism",
    "explicit": true,
    "kind": "economic",
@@ -335,44 +411,20 @@
    "paragraphs": [
     37
    ],
-   "reason": "Relative prices across currencies guide where firms locate production.",
+   "reason": "An undervalued currency lowers a location's costs across all tradable sectors.",
    "excerpt_para": 37,
+   "excerpt_spans": [
+    {
+     "char_start": 113,
+     "char_end": 237
+    }
+   ],
    "id": "M3",
    "level": "L3"
   },
   {
-   "excerpt": "domestic demand growth is no longer feeding over to import growth (ex-gold, that is).",
-   "claim": "Stronger domestic demand alone would not rebalance China's external accounts, because its demand no longer pulls in imports.",
-   "role": "intermediate_claim",
-   "explicit": true,
-   "kind": "none",
-   "claim_type": "none",
-   "paragraphs": [
-    40
-   ],
-   "reason": "Demand-led rebalancing requires demand to spill over into imports.",
-   "excerpt_para": 40,
-   "id": "C4",
-   "level": "L4"
-  },
-  {
-   "excerpt": "there aren’t, as Paul Krugman once put it, immaculate transfers.",
-   "claim": "External adjustment requires a change in relative prices; there are no immaculate transfers.",
-   "role": "stated_assumption",
-   "explicit": true,
-   "kind": "none",
-   "claim_type": "none",
-   "paragraphs": [
-    42
-   ],
-   "reason": "Shifting trade balances requires a real exchange rate change.",
-   "excerpt_para": 42,
-   "id": "P3",
-   "level": "L1"
-  },
-  {
-   "excerpt": "there isn’t a realistic path towards balance that doesn’t involve a stronger RMB",
-   "claim": "China, which relies on net exports for growth, is on a collision course with its trading partners unless the RMB strengthens; there is no realistic path to balance without it.",
+   "excerpt": "there isn’t a realistic path towards balance that doesn’t involve a stronger RMB; there aren’t, as Paul Krugman once put it, immaculate transfers.",
+   "claim": "China is on a collision course with its trading partners, and there is no realistic path to balance without a stronger RMB.",
    "role": "main_claim",
    "explicit": true,
    "kind": "none",
@@ -381,47 +433,66 @@
     41,
     42
    ],
-   "reason": "Persistent surpluses in a large economy require currency correction to avoid protectionist conflict.",
+   "reason": "External adjustment requires a relative price change; transfers are not immaculate.",
    "excerpt_para": 42,
+   "excerpt_spans": [
+    {
+     "char_start": 4,
+     "char_end": 150
+    }
+   ],
    "id": "K",
    "level": "L5"
   },
   {
-   "excerpt": "European policy discussions focused on forging a common understanding of these exchange rate issues and their interaction with global imbalances would be useful.",
-   "claim": "Europe and the IMF should put RMB exchange rate adjustment on the agenda with China.",
-   "role": "recommendation",
+   "excerpt": "Back in the world of fixed but adjustable exchange rates, there was an expectation (not always met to be sure) that surplus countries would allow their currencies to strengthen",
+   "claim": "Under fixed-but-adjustable regimes, surplus countries were expected to revalue for external balance and use other tools for internal balance; China's managed rate resembles that regime.",
+   "role": "benchmark",
+   "explicit": true,
+   "kind": "none",
+   "claim_type": "none",
+   "paragraphs": [
+    34,
+    35,
+    43
+   ],
+   "reason": "Two targets need two instruments: the exchange rate for external balance, domestic policy for internal balance.",
+   "excerpt_para": 34,
+   "excerpt_spans": [
+    {
+     "char_start": 0,
+     "char_end": 176
+    }
+   ],
+   "id": "BM",
+   "level": "L1B"
+  },
+  {
+   "excerpt": "An appreciation of undervalued currencies towards a value more in line with fundamentals would help support the rebalancing of trade accounts with the EU",
+   "claim": "Merz and Macron's open letter supports addressing undervalued currencies, though EU macro coordination architecture is weak.",
+   "role": "evidence_source",
    "explicit": true,
    "kind": "none",
    "claim_type": "none",
    "paragraphs": [
     17,
     18,
-    33,
     46
    ],
-   "reason": "Policymakers should address the exchange rate directly when it drives imbalances.",
+   "reason": "Senior policymakers' endorsement shows that currency concerns are broadly shared.",
    "excerpt_para": 18,
-   "id": "REC",
-   "level": "L5"
-  },
-  {
-   "excerpt": "Europe’s institutional architecture for exchange rate coordination is not well-developed.",
-   "claim": "Europe's institutions lack the tools to coordinate on exchange rates, which limits its ability to press the issue.",
-   "role": "caveat",
-   "explicit": true,
-   "kind": "none",
-   "claim_type": "none",
-   "paragraphs": [
-    46
+   "excerpt_spans": [
+    {
+     "char_start": 1,
+     "char_end": 154
+    }
    ],
-   "reason": "Recommendations depend on institutions able to carry them out.",
-   "excerpt_para": 46,
-   "id": "QF",
-   "level": "L6"
+   "id": "E6",
+   "level": "L2"
   },
   {
    "excerpt": "That appreciation hasn’t been big enough to correct the deep undervaluation of the RMB",
-   "claim": "The RMB has appreciated since mid-2025, which reverses the liberation-day depreciation but not the structural undervaluation.",
+   "claim": "The RMB has appreciated modestly since mid-2025, but this has not corrected its structural undervaluation.",
    "role": "caveat",
    "explicit": true,
    "kind": "none",
@@ -430,14 +501,20 @@
     6,
     27
    ],
-   "reason": "A partial correction does not remove an underlying misalignment.",
+   "reason": "Acknowledge partial corrections while distinguishing them from full adjustment.",
    "excerpt_para": 6,
-   "id": "QF2",
+   "excerpt_spans": [
+    {
+     "char_start": 379,
+     "char_end": 465
+    }
+   ],
+   "id": "QF",
    "level": "L6"
   },
   {
-   "excerpt": "SAFE has fiddled with its BoP methodology once again (per the Federal Reserve) and the BoP goods surplus is no longer significantly below the customs goods surplus.",
-   "claim": "China's surplus is now less masked in balance of payments data, though problems remain with investment income and customs gold imports.",
+   "excerpt": "Of course, there are still problems in the data—the deficit in the investment income account most obviously, but also the recent surge in “customs” gold imports.",
+   "claim": "China's BoP data are less distorted than in 2023-24, but problems remain in investment income and gold imports.",
    "role": "caveat",
    "explicit": true,
    "kind": "none",
@@ -445,14 +522,38 @@
    "paragraphs": [
     47
    ],
-   "reason": "Methodology changes by the statistics producer can hide or reveal imbalances.",
+   "reason": "Flag remaining measurement problems in official balance of payments data.",
    "excerpt_para": 47,
-   "id": "QF3",
+   "excerpt_spans": [
+    {
+     "char_start": 261,
+     "char_end": 422
+    }
+   ],
+   "id": "QF2",
    "level": "L6"
+  },
+  {
+   "excerpt": "",
+   "claim": "The author takes for granted that a stronger RMB would reduce China's surplus enough to matter, rather than mainly cutting Chinese growth with little effect on other countries.",
+   "role": "hidden_assumption",
+   "explicit": false,
+   "kind": "none",
+   "claim_type": "none",
+   "paragraphs": [
+    41,
+    42
+   ],
+   "reason": "Recommending currency adjustment presumes trade volumes are sufficiently price-elastic.",
+   "excerpt_para": null,
+   "excerpt_spans": null,
+   "id": "P2",
+   "level": "L1"
   }
  ],
  "review": [
-  "28 boxes, more than any hand-drawn map (24)"
+  "`C4` the name `trq` does not occur in the article",
+  "25 boxes, more than any hand-drawn map (24)"
  ],
  "gaps_left": [],
  "dropped": [],

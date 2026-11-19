@@ -1,8 +1,8 @@
 {
  "result": [
   {
-   "excerpt": "One set of tariffs (on commodities) has had a very large impact: exports are down over 60 percent, and the fall isn't over",
-   "claim": "Why have China's retaliatory tariffs crushed U.S. commodity exports while barely denting U.S. manufacturing exports to China?",
+   "excerpt": "",
+   "claim": "Why have China's retaliatory tariffs hit U.S. commodity exports hard but had little visible effect on U.S. manufacturing exports to China?",
    "role": "question",
    "explicit": false,
    "kind": "none",
@@ -12,45 +12,61 @@
     5,
     6
    ],
-   "reason": "A puzzle arises when similar policy instruments produce very different effects across sectors.",
-   "excerpt_para": 6,
+   "reason": "A policy's effect differs across sectors, so aggregate outcomes need sector-level explanation.",
+   "excerpt_para": null,
+   "excerpt_spans": null,
    "id": "Q",
    "level": "L0"
   },
   {
-   "excerpt": "Somewhat to my surprise to be honest.",
-   "claim": "The author expected a bigger fall in U.S. manufacturing exports to China and admits the modest decline surprised him.",
+   "excerpt": "And another (on manufactures) has had a more modest impact than expected.",
+   "claim": "The author expected China's tariffs to cause a much larger fall in U.S. manufacturing exports than has occurred.",
    "role": "revised_prior",
    "explicit": true,
    "kind": "none",
    "claim_type": "none",
    "paragraphs": [
     5,
+    6,
     10
    ],
-   "reason": "An analyst should flag when outcomes contradict his own prior expectation.",
-   "excerpt_para": 5,
+   "reason": "When the data contradict your expectation, say so and revise the expectation.",
+   "excerpt_para": 6,
+   "excerpt_spans": [
+    {
+     "char_start": 174,
+     "char_end": 247
+    }
+   ],
    "id": "P3",
    "level": "L1"
   },
   {
-   "excerpt": "it did put tariffs on a decent chunk of U.S. manufacturing exports (see Bown's figure 3). So there should be some impact",
-   "claim": "Raising tariffs on a substantial share of goods should, after enough time, show up as a visible decline in those exports.",
-   "role": "stated_assumption",
+   "excerpt": "exports are down over 60 percent, and the fall isn’t over",
+   "claim": "U.S. commodity exports to China fell more than 60 percent, while manufacturing exports show no clear break at the tariff date.",
+   "role": "evidence_data",
    "explicit": true,
    "kind": "none",
    "claim_type": "none",
    "paragraphs": [
-    7
+    6,
+    8,
+    40
    ],
-   "reason": "Tariffs raise prices to buyers and so should reduce the volume of tariffed imports over time.",
-   "excerpt_para": 7,
-   "id": "P1",
-   "level": "L1"
+   "reason": "Compare the indexed series of tariffed sectors to see where the policy actually bit.",
+   "excerpt_para": 6,
+   "excerpt_spans": [
+    {
+     "char_start": 65,
+     "char_end": 122
+    }
+   ],
+   "id": "E1",
+   "level": "L2"
   },
   {
    "excerpt": "China, per Chad Bown of the Peterson Institute, has only put tariffs on 55 percent of U.S. goods exports",
-   "claim": "Chad Bown's work shows China tariffed 55% of U.S. exports, raised its effective tariff from 8% to 18%, left aircraft out, and refrained from re-raising auto tariffs.",
+   "claim": "Bown's work shows China tariffed 55 percent of U.S. exports, raising the average tariff from 8 to 18 percent and covering a decent share of manufactures.",
    "role": "evidence_source",
    "explicit": true,
    "kind": "none",
@@ -59,48 +75,41 @@
     7,
     15
    ],
-   "reason": "Trade-policy trackers by specialist researchers provide the coverage of tariff actions.",
+   "reason": "A tariff covering a large share of trade should leave a visible mark after enough time.",
    "excerpt_para": 7,
-   "id": "E3",
-   "level": "L2"
-  },
-  {
-   "excerpt": "Soybeans traditionally have accounted for about 10 percent of total U.S. (goods) exports to China",
-   "claim": "Soybeans are ~10% of U.S. exports to China; commodity exports fell over 60% while manufacturing exports show no visible break, with only a somewhat larger U.S. than European drop last fall.",
-   "role": "evidence_data",
-   "explicit": true,
-   "kind": "none",
-   "claim_type": "none",
-   "paragraphs": [
-    2,
-    6,
-    8,
-    9,
-    42
+   "excerpt_spans": [
+    {
+     "char_start": 71,
+     "char_end": 175
+    }
    ],
-   "reason": "Trailing sums of sectoral export data reveal whether a policy shock leaves a visible break.",
-   "excerpt_para": 2,
-   "id": "E1",
+   "id": "E7",
    "level": "L2"
   },
   {
    "excerpt": "There was a bigger drop off in American exports to China than in European exports to China last fall",
-   "claim": "Comparing U.S. manufacturing exports with euro area exports to China shows some tariff impact, though partly attributable to dollar strength.",
-   "role": "intermediate_claim",
+   "claim": "U.S. manufacturing exports to China fell somewhat more than euro-area exports last fall, showing some tariff effect.",
+   "role": "evidence_data",
    "explicit": true,
    "kind": "none",
    "claim_type": "none",
    "paragraphs": [
     9
    ],
-   "reason": "A comparable peer's exports to the same market serve as a control for demand shocks.",
+   "reason": "A comparable untariffed exporter serves as a control for common demand shocks.",
    "excerpt_para": 9,
-   "id": "C1",
-   "level": "L4"
+   "excerpt_spans": [
+    {
+     "char_start": 142,
+     "char_end": 242
+    }
+   ],
+   "id": "E2",
+   "level": "L2"
   },
   {
-   "excerpt": "though not one so big that it could not be, in part, a function of the dollar's strength relative to the euro",
-   "claim": "Part of the relative U.S. underperformance could reflect the dollar's appreciation rather than tariffs.",
+   "excerpt": "though not one so big that it could not be, in part, a function of the dollar’s strength relative to the euro",
+   "claim": "Part of the U.S. underperformance relative to Europe could reflect the dollar's strength rather than tariffs.",
    "role": "other_explanation",
    "explicit": true,
    "kind": "none",
@@ -108,14 +117,20 @@
    "paragraphs": [
     9
    ],
-   "reason": "Exchange rate moves affect relative export performance with lags of years.",
+   "reason": "Exchange-rate moves shift relative export performance independently of tariffs.",
    "excerpt_para": 9,
+   "excerpt_spans": [
+    {
+     "char_start": 244,
+     "char_end": 353
+    }
+   ],
    "id": "R1",
    "level": "L6"
   },
   {
    "excerpt": "China has exercised a bit of restraint, and held back on really restricting trade in some sectors to make sure it has targets to retaliate against",
-   "claim": "China has held back from fully squeezing some sectors, such as autos, to keep targets in reserve for future escalation.",
+   "claim": "China has held back on some sectors, such as autos, to keep retaliation targets in reserve.",
    "role": "mechanism",
    "explicit": true,
    "kind": "economic",
@@ -124,14 +139,20 @@
     12,
     15
    ],
-   "reason": "In repeated bargaining a party preserves leverage by not using all its retaliation at once.",
+   "reason": "A retaliator keeps leverage by not using all its threats at once.",
    "excerpt_para": 12,
+   "excerpt_spans": [
+    {
+     "char_start": 5,
+     "char_end": 151
+    }
+   ],
    "id": "M1",
    "level": "L3"
   },
   {
-   "excerpt": "China lacks good targets, as the bulk of its manufactured imports from the United States are in sectors where there isn't (for now) a domestic Chinese alternative",
-   "claim": "China lacks good targets because many U.S. manufactured imports have no domestic substitute or feed China's own exports, so tariffs would hurt China.",
+   "excerpt": "China lacks good targets, as the bulk of its manufactured imports from the United States are in sectors where there isn’t (for now) a domestic Chinese alternative",
+   "claim": "China lacks good manufacturing targets because many U.S. imports have no substitute or feed China's own exports, so tariffs on them would hurt China.",
    "role": "mechanism",
    "explicit": true,
    "kind": "economic",
@@ -140,47 +161,44 @@
     13,
     14
    ],
-   "reason": "Tariffs on non-substitutable or input goods mainly tax the importing country's own firms.",
+   "reason": "Tariffs on essential or input goods mostly tax the importing country itself.",
    "excerpt_para": 13,
+   "excerpt_spans": [
+    {
+     "char_start": 5,
+     "char_end": 167
+    }
+   ],
    "id": "M2",
    "level": "L3"
   },
   {
-   "excerpt": "China's relatively high initial tariffs and its efforts to encourage \"indigenous\" production have already limited U.S. exports in some important sectors.",
-   "claim": "Industrial policy and high pre-existing tariffs already pushed U.S. exports out of sectors like construction equipment, removing them as targets.",
-   "role": "mechanism",
-   "explicit": true,
-   "kind": "economic",
-   "claim_type": "none",
-   "paragraphs": [
-    16,
-    17,
-    18
-   ],
-   "reason": "A market already closed by import substitution offers little further room for retaliation.",
-   "excerpt_para": 18,
-   "id": "M3",
-   "level": "L3"
-  },
-  {
-   "excerpt": "Exports of construction and agricultural equipment/ NAICS 3331 to China peaked at around $2 billion in 2012. They were running at between 0.6 and 0.8 billion a year before the trade war.",
-   "claim": "U.S. construction equipment exports to China fell from about $2 billion in 2012 to $0.6-0.8 billion pre-trade war, and the U.S. runs deficits with China in construction and telecom equipment.",
+   "excerpt": "U.S. exports of construction equipment to China are less than half their 2011-12 levels even before the trade war started.",
+   "claim": "Earlier Chinese tariffs and indigenous-production policies had already cut U.S. construction equipment exports, from about $2 billion in 2012 to $0.6-0.8 billion.",
    "role": "evidence_data",
    "explicit": true,
    "kind": "none",
    "claim_type": "none",
    "paragraphs": [
+    16,
+    17,
     18,
     43
    ],
-   "reason": "Sector-level export histories show whether a supposed target still exists.",
-   "excerpt_para": 43,
-   "id": "E2",
+   "reason": "A market already lost cannot be squeezed further by new tariffs.",
+   "excerpt_para": 18,
+   "excerpt_spans": [
+    {
+     "char_start": 61,
+     "char_end": 183
+    }
+   ],
+   "id": "E3",
    "level": "L2"
   },
   {
-   "excerpt": "I am often a little frustrated by otherwise well informed commentators who have an out-of-date concept of what the U.S. exports to China.",
-   "claim": "Commentators who assume China can easily retaliate against U.S. construction and switching equipment rely on an outdated picture of U.S. exports.",
+   "excerpt": "it is common to argue that China might retaliate against U.S. construction equipment exports, and against U.S. switching equipment.",
+   "claim": "Commentators who think China can retaliate against U.S. construction and telecom equipment hold an out-of-date view, since the U.S. runs deficits with China in those sectors.",
    "role": "opposing_view",
    "explicit": true,
    "kind": "none",
@@ -188,30 +206,41 @@
    "paragraphs": [
     43
    ],
-   "reason": "Claims about trade leverage must be checked against current trade composition.",
+   "reason": "In a sector where you are a net exporter, an exchange of tariffs costs you more.",
    "excerpt_para": 43,
+   "excerpt_spans": [
+    {
+     "char_start": 470,
+     "char_end": 601
+    }
+   ],
    "id": "X",
    "level": "L6"
   },
   {
    "excerpt": "With an elasticity of 4, a 25 percent tariff would be expected to zero out trade.",
-   "claim": "Soy exports to China went to zero, consistent with high trade elasticities found in many studies.",
-   "role": "mechanism",
+   "claim": "Studies find high trade elasticities to tariffs, which would predict the collapse in soybean trade.",
+   "role": "stated_assumption",
    "explicit": true,
-   "kind": "economic",
+   "kind": "none",
    "claim_type": "none",
    "paragraphs": [
-    21,
     22
    ],
-   "reason": "For homogeneous goods with many suppliers, demand is highly price-elastic to tariffs.",
+   "reason": "High price elasticity means a large tariff can eliminate bilateral trade.",
    "excerpt_para": 22,
-   "id": "M4",
-   "level": "L3"
+   "excerpt_spans": [
+    {
+     "char_start": 77,
+     "char_end": 158
+    }
+   ],
+   "id": "P1",
+   "level": "L1"
   },
   {
-   "excerpt": "But it is also consistent with a world where China's state importing companies were told not to buy American.",
-   "claim": "The soy collapse may instead reflect state importers being directed not to buy U.S. beans, which cost them little given the discount.",
+   "excerpt": "But it is also consistent with a world where China’s state importing companies were told not to buy American.",
+   "claim": "The soybean collapse may instead reflect state importers being directed not to buy U.S. beans.",
    "role": "other_explanation",
    "explicit": true,
    "kind": "none",
@@ -220,33 +249,45 @@
     1,
     23
    ],
-   "reason": "Where state-owned firms dominate imports, political directives can substitute for price effects.",
+   "reason": "Where state firms dominate imports, administrative direction can replace price signals.",
    "excerpt_para": 23,
+   "excerpt_spans": [
+    {
+     "char_start": 0,
+     "char_end": 109
+    }
+   ],
    "id": "R2",
    "level": "L6"
   },
   {
-   "excerpt": "The reduction in China's purchases of soybeans clearly hurt American farmers who weren't able to make up for the fall in Chinese demand",
-   "claim": "Soy losses to China were not offset elsewhere, so the tariff cut total U.S. soy exports and hurt farmers, with 2019 exports likely modest regardless of a deal.",
-   "role": "intermediate_claim",
+   "excerpt": "The reduction in China’s purchases of soybeans clearly hurt American farmers who weren’t able to make up for the fall in Chinese demand",
+   "claim": "Soybean exports went to near zero and farmers could not redirect sales, so total U.S. soy exports and prices fell.",
+   "role": "evidence_data",
    "explicit": true,
    "kind": "none",
    "claim_type": "none",
    "paragraphs": [
     1,
-    24,
-    25,
+    2,
+    21,
     26
    ],
-   "reason": "When the targeted buyer is dominant, exporters cannot fully redirect sales to others.",
+   "reason": "When one buyer dominates a market, losing it cannot easily be offset elsewhere.",
    "excerpt_para": 26,
-   "id": "C2",
-   "level": "L4"
+   "excerpt_spans": [
+    {
+     "char_start": 0,
+     "char_end": 135
+    }
+   ],
+   "id": "E4",
+   "level": "L2"
   },
   {
    "excerpt": "The tariffs diverted bilateral trade in oil away from China without impacting overall trade.",
-   "claim": "Oil exports to China fell to near zero but total U.S. oil exports and pipeline investment were unaffected because oil is easily redirected.",
-   "role": "intermediate_claim",
+   "claim": "Oil exports to China fell near zero but overall U.S. oil exports and Permian pipeline investment were unaffected.",
+   "role": "evidence_data",
    "explicit": true,
    "kind": "none",
    "claim_type": "none",
@@ -256,35 +297,102 @@
     28,
     29
    ],
-   "reason": "In a true global commodity market, a bilateral tariff diverts trade rather than reducing it.",
+   "reason": "Compare bilateral and total exports to separate diversion from destruction.",
    "excerpt_para": 29,
-   "id": "C3",
-   "level": "L4"
+   "excerpt_spans": [
+    {
+     "char_start": 139,
+     "char_end": 231
+    }
+   ],
+   "id": "E5",
+   "level": "L2"
   },
   {
-   "excerpt": "it is possible that Mercedes and BMW were effectively able to offset their reduced exports to China by producing more for the U.S. market.",
-   "claim": "Auto exports to China fell then rebounded, and BMW and Mercedes appear to have offset lost China sales with rising U.S. SUV demand, leaving production plans largely intact.",
-   "role": "intermediate_claim",
+   "excerpt": "That’s more or less what one would expect in a true commodity where it isn’t that hard to find alternatives to the Chinese market.",
+   "claim": "For fungible commodities with deep global markets, tariffs reroute trade rather than reduce it.",
+   "role": "mechanism",
+   "explicit": true,
+   "kind": "economic",
+   "claim_type": "none",
+   "paragraphs": [
+    29
+   ],
+   "reason": "Homogeneous goods with many buyers are easily redirected when one market closes.",
+   "excerpt_para": 29,
+   "excerpt_spans": [
+    {
+     "char_start": 232,
+     "char_end": 362
+    }
+   ],
+   "id": "M3",
+   "level": "L3"
+  },
+  {
+   "excerpt": "China’s tariff on autos did have an impact last summer and fall.",
+   "claim": "U.S. auto exports to China fell in late 2018 and rebounded when China lifted the extra tariffs; Alabama and South Carolina exports fell.",
+   "role": "evidence_data",
    "explicit": true,
    "kind": "none",
    "claim_type": "none",
    "paragraphs": [
-    30,
     31,
-    32,
-    33,
+    32
+   ],
+   "reason": "Trade that moves in step with tariff changes points to a causal effect.",
+   "excerpt_para": 31,
+   "excerpt_spans": [
+    {
+     "char_start": 0,
+     "char_end": 64
+    }
+   ],
+   "id": "E6",
+   "level": "L2"
+  },
+  {
+   "excerpt": "it is possible that Mercedes and BMW were effectively able to offset their reduced exports to China by producing more for the U.S. market.",
+   "claim": "Automakers offset lost China sales by shifting SUV output to rising U.S. demand, so U.S. production plans were largely unchanged.",
+   "role": "mechanism",
+   "explicit": true,
+   "kind": "economic",
+   "claim_type": "none",
+   "paragraphs": [
     34,
     35,
     36
    ],
-   "reason": "Producers can absorb a lost export market by reallocating output to growing domestic demand.",
+   "reason": "Producers can absorb a lost export market if domestic demand for the same product is growing.",
    "excerpt_para": 34,
-   "id": "C4",
-   "level": "L4"
+   "excerpt_spans": [
+    {
+     "char_start": 53,
+     "char_end": 191
+    }
+   ],
+   "id": "M4",
+   "level": "L3"
+  },
+  {
+   "excerpt": "",
+   "claim": "Trade-by-state data for Alabama and South Carolina are a good proxy for BMW and Mercedes SUV exports to China.",
+   "role": "hidden_assumption",
+   "explicit": false,
+   "kind": "none",
+   "claim_type": "none",
+   "paragraphs": [
+    32
+   ],
+   "reason": "Regional trade data can stand in for firm-level flows when a few plants dominate a state's exports.",
+   "excerpt_para": null,
+   "excerpt_spans": null,
+   "id": "P2",
+   "level": "L1"
   },
   {
    "excerpt": "The counterfactual here is hard.",
-   "claim": "U.S. auto exports to China would likely fall anyway as German firms localize production in China, making the tariff effect hard to isolate.",
+   "claim": "Auto exports to China would probably have fallen anyway as German firms localize production in China, which makes the tariff effect hard to isolate.",
    "role": "caveat",
    "explicit": true,
    "kind": "none",
@@ -292,32 +400,42 @@
    "paragraphs": [
     37
    ],
-   "reason": "Structural trends can mimic policy effects, complicating causal attribution.",
+   "reason": "Structural trends can mask or mimic a policy's effect.",
    "excerpt_para": 37,
+   "excerpt_spans": [
+    {
+     "char_start": 0,
+     "char_end": 32
+    }
+   ],
    "id": "QF",
    "level": "L6"
   },
   {
-   "excerpt": "",
-   "claim": "Firms and exporters that lose one market can find alternative buyers or uses, so bilateral losses need not translate into aggregate losses.",
-   "role": "hidden_assumption",
-   "explicit": false,
+   "excerpt": "In all three cases, China’s tariffs reduced bilateral trade. But so far, China’s retaliation only looks to have been far more effective",
+   "claim": "Across soy, oil and autos, tariffs cut bilateral trade, but only in soy did they cause real economic and political damage.",
+   "role": "intermediate_claim",
+   "explicit": true,
    "kind": "none",
    "claim_type": "none",
    "paragraphs": [
     20,
-    29,
-    34,
     39
    ],
-   "reason": "Markets reallocate goods across buyers when one buyer withdraws, if substitutes exist.",
-   "excerpt_para": null,
-   "id": "P2",
-   "level": "L1"
+   "reason": "The harm from losing a market depends on how easily output can be redirected.",
+   "excerpt_para": 20,
+   "excerpt_spans": [
+    {
+     "char_start": 50,
+     "char_end": 185
+    }
+   ],
+   "id": "C1",
+   "level": "L4"
   },
   {
-   "excerpt": "Don't equate changes in bilateral trade with changes in overall trade, or changes in total output. A lot depends on the sector.",
-   "claim": "China's retaliation has so far bitten mainly through commodities; its manufacturing tariffs have had modest effect, and bilateral trade declines should not be equated with overall trade or output losses.",
+   "excerpt": "Don’t equate changes in bilateral trade with changes in overall trade, or changes in total output. A lot depends on the sector.",
+   "claim": "China's retaliation has mainly hurt U.S. commodity exports, has been largely ineffective against manufactures, and falls in bilateral trade should not be read as falls in total trade or output.",
    "role": "main_claim",
    "explicit": true,
    "kind": "none",
@@ -327,14 +445,42 @@
     39,
     40
    ],
-   "reason": "The aggregate impact of a tariff depends on how easily the affected sector can redirect its sales.",
+   "reason": "Bilateral trade shocks matter only to the extent that other markets cannot absorb the diverted goods.",
    "excerpt_para": 39,
+   "excerpt_spans": [
+    {
+     "char_start": 0,
+     "char_end": 127
+    }
+   ],
    "id": "K",
    "level": "L5"
   },
   {
-   "excerpt": "but I haven't tried to disaggregate manufactures into those actually tariffed by China and those that have escaped so far",
-   "claim": "The modest manufacturing elasticity may partly reflect untariffed goods in the aggregate, since he did not disaggregate tariffed from untariffed products.",
+   "excerpt": "Manufacturing exports come from the NAICs data, using all exports in the 300s.",
+   "claim": "Manufactures are defined as NAICS 300s and commodities as the 100s and 200s, without separating tariffed from untariffed goods.",
+   "role": "scope_choice",
+   "explicit": true,
+   "kind": "none",
+   "claim_type": "none",
+   "paragraphs": [
+    40,
+    42
+   ],
+   "reason": "Broad aggregates that mix affected and unaffected goods dilute a measured policy effect.",
+   "excerpt_para": 42,
+   "excerpt_spans": [
+    {
+     "char_start": 2,
+     "char_end": 80
+    }
+   ],
+   "id": "SCP",
+   "level": "L1B"
+  },
+  {
+   "excerpt": "but I haven’t tried to disaggregate manufactures into those actually tariffed by China and those that have escaped so far",
+   "claim": "The modest implied manufacturing elasticity may be understated because untariffed goods were not separated out.",
    "role": "caveat",
    "explicit": true,
    "kind": "none",
@@ -343,14 +489,20 @@
     7,
     40
    ],
-   "reason": "Aggregates mixing treated and untreated goods understate the effect on the treated.",
+   "reason": "Estimates from aggregates are limited by what the aggregation includes.",
    "excerpt_para": 40,
+   "excerpt_spans": [
+    {
+     "char_start": 244,
+     "char_end": 365
+    }
+   ],
    "id": "QF2",
    "level": "L6"
   },
   {
-   "excerpt": "the debate on the overall impact of China's retaliation on the U.S. economy is sure to continue",
-   "claim": "The overall impact of China's retaliation on the U.S. economy remains an open question.",
+   "excerpt": "the debate on the overall impact of China’s retaliation on the U.S. economy is sure to continue",
+   "claim": "The full economic impact of China's retaliation remains an open question.",
    "role": "deferred_question",
    "explicit": true,
    "kind": "none",
@@ -358,25 +510,16 @@
    "paragraphs": [
     41
    ],
-   "reason": "Early data on trade shocks warrant provisional conclusions.",
+   "reason": "Effects still unfolding in the data cannot yet be judged in full.",
    "excerpt_para": 41,
+   "excerpt_spans": [
+    {
+     "char_start": 11,
+     "char_end": 106
+    }
+   ],
    "id": "DF",
    "level": "L6"
-  },
-  {
-   "excerpt": "Do look at the end use data, which is easy to use",
-   "claim": "Commentators should consult end-use trade data before assessing retaliation targets.",
-   "role": "recommendation",
-   "explicit": true,
-   "kind": "none",
-   "claim_type": "none",
-   "paragraphs": [
-    43
-   ],
-   "reason": "Detailed product-level data should ground claims about trade leverage.",
-   "excerpt_para": 43,
-   "id": "REC",
-   "level": "L5"
   }
  ],
  "review": [],

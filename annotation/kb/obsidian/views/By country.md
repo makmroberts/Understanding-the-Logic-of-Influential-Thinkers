@@ -13,9 +13,9 @@ Graph filter: `tag:#country/<term>`. Vocabulary and the reasoning behind it: `sc
 
 | term | claims | articles | what it means |
 |---|---|---|---|
-| [[china]] | 241 | 18 | Mainland China. |
-| [[us]] | 212 | 20 | United States. |
-| [[euro-area]] | 29 | 6 | The euro area or EU treated as one economy. |
+| [[china]] | 239 | 18 | Mainland China. |
+| [[us]] | 213 | 20 | United States. |
+| [[euro-area]] | 28 | 6 | The euro area or EU treated as one economy. |
 | [[japan]] | 4 | 3 | Japan. |
 | [[ireland]] | 3 | 2 | Ireland specifically - the multinational-distortion case in EU data. |
 | [[taiwan]] | 3 | 3 | Taiwan. |

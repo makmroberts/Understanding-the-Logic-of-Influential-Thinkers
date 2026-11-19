@@ -83,7 +83,7 @@
   },
   {
    "doc": "setser_2026-07-27_is-chinas-surplus-really-shrinking",
-   "node_id": "M1",
+   "node_id": "C1",
    "facet": "variable",
    "value": "goods-trade-balance",
    "role": "",
@@ -92,97 +92,7 @@
   },
   {
    "doc": "setser_2026-07-27_is-chinas-surplus-really-shrinking",
-   "node_id": "M1",
-   "facet": "variable",
-   "value": "import-volumes",
-   "role": "",
-   "source": "llm",
-   "model": "anthropic/claude-opus-5.5"
-  },
-  {
-   "doc": "setser_2026-07-27_is-chinas-surplus-really-shrinking",
-   "node_id": "M1",
-   "facet": "country",
-   "value": "china",
-   "role": "subject",
-   "source": "llm",
-   "model": "anthropic/claude-opus-5.5"
-  },
-  {
-   "doc": "setser_2026-07-27_is-chinas-surplus-really-shrinking",
    "node_id": "C1",
-   "facet": "variable",
-   "value": "commodity-prices",
-   "role": "",
-   "source": "llm",
-   "model": "anthropic/claude-opus-5.5"
-  },
-  {
-   "doc": "setser_2026-07-27_is-chinas-surplus-really-shrinking",
-   "node_id": "C1",
-   "facet": "variable",
-   "value": "import-volumes",
-   "role": "",
-   "source": "llm",
-   "model": "anthropic/claude-opus-5.5"
-  },
-  {
-   "doc": "setser_2026-07-27_is-chinas-surplus-really-shrinking",
-   "node_id": "C1",
-   "facet": "country",
-   "value": "china",
-   "role": "subject",
-   "source": "llm",
-   "model": "anthropic/claude-opus-5.5"
-  },
-  {
-   "doc": "setser_2026-07-27_is-chinas-surplus-really-shrinking",
-   "node_id": "SCP",
-   "facet": "variable",
-   "value": "goods-trade-balance",
-   "role": "",
-   "source": "llm",
-   "model": "anthropic/claude-opus-5.5"
-  },
-  {
-   "doc": "setser_2026-07-27_is-chinas-surplus-really-shrinking",
-   "node_id": "SCP",
-   "facet": "data_basis",
-   "value": "customs",
-   "role": "",
-   "source": "llm",
-   "model": "anthropic/claude-opus-5.5"
-  },
-  {
-   "doc": "setser_2026-07-27_is-chinas-surplus-really-shrinking",
-   "node_id": "SCP",
-   "facet": "country",
-   "value": "china",
-   "role": "subject",
-   "source": "llm",
-   "model": "anthropic/claude-opus-5.5"
-  },
-  {
-   "doc": "setser_2026-07-27_is-chinas-surplus-really-shrinking",
-   "node_id": "P2",
-   "facet": "variable",
-   "value": "goods-trade-balance",
-   "role": "",
-   "source": "llm",
-   "model": "anthropic/claude-opus-5.5"
-  },
-  {
-   "doc": "setser_2026-07-27_is-chinas-surplus-really-shrinking",
-   "node_id": "P2",
-   "facet": "variable",
-   "value": "fx-reserves",
-   "role": "",
-   "source": "llm",
-   "model": "anthropic/claude-opus-5.5"
-  },
-  {
-   "doc": "setser_2026-07-27_is-chinas-surplus-really-shrinking",
-   "node_id": "P2",
    "facet": "country",
    "value": "china",
    "role": "subject",
@@ -227,7 +137,34 @@
   },
   {
    "doc": "setser_2026-07-27_is-chinas-surplus-really-shrinking",
-   "node_id": "P3",
+   "node_id": "E3",
+   "facet": "variable",
+   "value": "import-volumes",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-07-27_is-chinas-surplus-really-shrinking",
+   "node_id": "E3",
+   "facet": "data_basis",
+   "value": "customs",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-07-27_is-chinas-surplus-really-shrinking",
+   "node_id": "E3",
+   "facet": "country",
+   "value": "china",
+   "role": "subject",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-07-27_is-chinas-surplus-really-shrinking",
+   "node_id": "P1",
    "facet": "variable",
    "value": "goods-trade-balance",
    "role": "",
@@ -236,7 +173,7 @@
   },
   {
    "doc": "setser_2026-07-27_is-chinas-surplus-really-shrinking",
-   "node_id": "P3",
+   "node_id": "P1",
    "facet": "country",
    "value": "china",
    "role": "subject",
@@ -272,7 +209,7 @@
   },
   {
    "doc": "setser_2026-07-27_is-chinas-surplus-really-shrinking",
-   "node_id": "C2",
+   "node_id": "SCP",
    "facet": "variable",
    "value": "manufacturing-trade-balance",
    "role": "",
@@ -281,7 +218,34 @@
   },
   {
    "doc": "setser_2026-07-27_is-chinas-surplus-really-shrinking",
-   "node_id": "C2",
+   "node_id": "SCP",
+   "facet": "data_basis",
+   "value": "customs",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-07-27_is-chinas-surplus-really-shrinking",
+   "node_id": "SCP",
+   "facet": "country",
+   "value": "china",
+   "role": "subject",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-07-27_is-chinas-surplus-really-shrinking",
+   "node_id": "E4",
+   "facet": "variable",
+   "value": "manufacturing-trade-balance",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-07-27_is-chinas-surplus-really-shrinking",
+   "node_id": "E4",
    "facet": "variable",
    "value": "export-volumes",
    "role": "",
@@ -290,7 +254,7 @@
   },
   {
    "doc": "setser_2026-07-27_is-chinas-surplus-really-shrinking",
-   "node_id": "C2",
+   "node_id": "E4",
    "facet": "data_basis",
    "value": "customs",
    "role": "",
@@ -299,7 +263,7 @@
   },
   {
    "doc": "setser_2026-07-27_is-chinas-surplus-really-shrinking",
-   "node_id": "C2",
+   "node_id": "E4",
    "facet": "country",
    "value": "china",
    "role": "subject",
@@ -308,28 +272,64 @@
   },
   {
    "doc": "setser_2026-07-27_is-chinas-surplus-really-shrinking",
-   "node_id": "P1",
+   "node_id": "K",
    "facet": "variable",
-   "value": "manufacturing-trade-balance",
+   "value": "goods-trade-balance",
    "role": "",
    "source": "llm",
    "model": "anthropic/claude-opus-5.5"
   },
   {
    "doc": "setser_2026-07-27_is-chinas-surplus-really-shrinking",
-   "node_id": "P1",
-   "facet": "data_basis",
-   "value": "customs",
+   "node_id": "K",
+   "facet": "variable",
+   "value": "gdp-growth",
    "role": "",
    "source": "llm",
    "model": "anthropic/claude-opus-5.5"
   },
   {
    "doc": "setser_2026-07-27_is-chinas-surplus-really-shrinking",
-   "node_id": "P1",
+   "node_id": "K",
    "facet": "country",
    "value": "china",
    "role": "subject",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-07-27_is-chinas-surplus-really-shrinking",
+   "node_id": "M1",
+   "facet": "variable",
+   "value": "investment-capex",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-07-27_is-chinas-surplus-really-shrinking",
+   "node_id": "M1",
+   "facet": "variable",
+   "value": "fiscal-balance",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-07-27_is-chinas-surplus-really-shrinking",
+   "node_id": "M1",
+   "facet": "country",
+   "value": "us",
+   "role": "subject",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-07-27_is-chinas-surplus-really-shrinking",
+   "node_id": "M1",
+   "facet": "country",
+   "value": "china",
+   "role": "counterpart",
    "source": "llm",
    "model": "anthropic/claude-opus-5.5"
   },
@@ -346,7 +346,7 @@
    "doc": "setser_2026-07-27_is-chinas-surplus-really-shrinking",
    "node_id": "M2",
    "facet": "variable",
-   "value": "import-volumes",
+   "value": "export-volumes",
    "role": "",
    "source": "llm",
    "model": "anthropic/claude-opus-5.5"
@@ -371,123 +371,6 @@
   },
   {
    "doc": "setser_2026-07-27_is-chinas-surplus-really-shrinking",
-   "node_id": "K",
-   "facet": "variable",
-   "value": "goods-trade-balance",
-   "role": "",
-   "source": "llm",
-   "model": "anthropic/claude-opus-5.5"
-  },
-  {
-   "doc": "setser_2026-07-27_is-chinas-surplus-really-shrinking",
-   "node_id": "K",
-   "facet": "variable",
-   "value": "gdp-growth",
-   "role": "",
-   "source": "llm",
-   "model": "anthropic/claude-opus-5.5"
-  },
-  {
-   "doc": "setser_2026-07-27_is-chinas-surplus-really-shrinking",
-   "node_id": "K",
-   "facet": "country",
-   "value": "china",
-   "role": "subject",
-   "source": "llm",
-   "model": "anthropic/claude-opus-5.5"
-  },
-  {
-   "doc": "setser_2026-07-27_is-chinas-surplus-really-shrinking",
-   "node_id": "M3",
-   "facet": "variable",
-   "value": "current-account",
-   "role": "",
-   "source": "llm",
-   "model": "anthropic/claude-opus-5.5"
-  },
-  {
-   "doc": "setser_2026-07-27_is-chinas-surplus-really-shrinking",
-   "node_id": "M3",
-   "facet": "variable",
-   "value": "investment-capex",
-   "role": "",
-   "source": "llm",
-   "model": "anthropic/claude-opus-5.5"
-  },
-  {
-   "doc": "setser_2026-07-27_is-chinas-surplus-really-shrinking",
-   "node_id": "M3",
-   "facet": "variable",
-   "value": "fiscal-balance",
-   "role": "",
-   "source": "llm",
-   "model": "anthropic/claude-opus-5.5"
-  },
-  {
-   "doc": "setser_2026-07-27_is-chinas-surplus-really-shrinking",
-   "node_id": "M3",
-   "facet": "country",
-   "value": "us",
-   "role": "subject",
-   "source": "llm",
-   "model": "anthropic/claude-opus-5.5"
-  },
-  {
-   "doc": "setser_2026-07-27_is-chinas-surplus-really-shrinking",
-   "node_id": "M3",
-   "facet": "country",
-   "value": "china",
-   "role": "counterpart",
-   "source": "llm",
-   "model": "anthropic/claude-opus-5.5"
-  },
-  {
-   "doc": "setser_2026-07-27_is-chinas-surplus-really-shrinking",
-   "node_id": "C3",
-   "facet": "variable",
-   "value": "goods-trade-balance",
-   "role": "",
-   "source": "llm",
-   "model": "anthropic/claude-opus-5.5"
-  },
-  {
-   "doc": "setser_2026-07-27_is-chinas-surplus-really-shrinking",
-   "node_id": "C3",
-   "facet": "variable",
-   "value": "import-volumes",
-   "role": "",
-   "source": "llm",
-   "model": "anthropic/claude-opus-5.5"
-  },
-  {
-   "doc": "setser_2026-07-27_is-chinas-surplus-really-shrinking",
-   "node_id": "C3",
-   "facet": "instrument",
-   "value": "tariffs",
-   "role": "",
-   "source": "llm",
-   "model": "anthropic/claude-opus-5.5"
-  },
-  {
-   "doc": "setser_2026-07-27_is-chinas-surplus-really-shrinking",
-   "node_id": "C3",
-   "facet": "data_basis",
-   "value": "customs",
-   "role": "",
-   "source": "llm",
-   "model": "anthropic/claude-opus-5.5"
-  },
-  {
-   "doc": "setser_2026-07-27_is-chinas-surplus-really-shrinking",
-   "node_id": "C3",
-   "facet": "country",
-   "value": "us",
-   "role": "subject",
-   "source": "llm",
-   "model": "anthropic/claude-opus-5.5"
-  },
-  {
-   "doc": "setser_2026-07-27_is-chinas-surplus-really-shrinking",
    "node_id": "QF",
    "facet": "variable",
    "value": "manufacturing-trade-balance",
@@ -515,7 +398,7 @@
   },
   {
    "doc": "setser_2026-07-27_is-chinas-surplus-really-shrinking",
-   "node_id": "SC",
+   "node_id": "P3",
    "facet": "variable",
    "value": "goods-trade-balance",
    "role": "",
@@ -524,16 +407,70 @@
   },
   {
    "doc": "setser_2026-07-27_is-chinas-surplus-really-shrinking",
-   "node_id": "SC",
-   "facet": "data_basis",
-   "value": "press-reporting",
+   "node_id": "P3",
+   "facet": "country",
+   "value": "china",
+   "role": "subject",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-07-27_is-chinas-surplus-really-shrinking",
+   "node_id": "C2",
+   "facet": "variable",
+   "value": "goods-trade-balance",
    "role": "",
    "source": "llm",
    "model": "anthropic/claude-opus-5.5"
   },
   {
    "doc": "setser_2026-07-27_is-chinas-surplus-really-shrinking",
-   "node_id": "SC",
+   "node_id": "C2",
+   "facet": "instrument",
+   "value": "tariffs",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-07-27_is-chinas-surplus-really-shrinking",
+   "node_id": "C2",
+   "facet": "data_basis",
+   "value": "customs",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-07-27_is-chinas-surplus-really-shrinking",
+   "node_id": "C2",
+   "facet": "country",
+   "value": "us",
+   "role": "subject",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-07-27_is-chinas-surplus-really-shrinking",
+   "node_id": "P2",
+   "facet": "variable",
+   "value": "domestic-demand",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-07-27_is-chinas-surplus-really-shrinking",
+   "node_id": "P2",
+   "facet": "variable",
+   "value": "import-volumes",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-07-27_is-chinas-surplus-really-shrinking",
+   "node_id": "P2",
    "facet": "country",
    "value": "china",
    "role": "subject",

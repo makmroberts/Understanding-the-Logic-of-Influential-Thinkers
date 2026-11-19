@@ -7,7 +7,7 @@ tags: [view, shape/bilateral]
 
 Claims about trade between a specific pair, as opposed to either side's global position.
 
-109 of 441 claims are bilateral. Back to [[index]].
+110 of 441 claims are bilateral. Back to [[index]].
 
 This is a shape, not a topic: a claim is bilateral when it carries a counterpart on the where axis. Graph filter: `tag:#shape/bilateral`.
 
@@ -56,7 +56,7 @@ This is a shape, not a topic: a claim is bilateral when it carries a counterpart
 - **2020-10** [[Chinese exporters may be overstating exports]] `other_explanation`
 - **2024-03** [[The counterpart to the surplus is the United States, not commodity exporters, and the gap]] `intermediate_claim`
 - **2024-03** [[Bilateral data misleads about global position — rerouting is not displacement]] `stated_assumption`
-- **2026-10** [[The RMB has not tracked rate differentials it did not rise when Chinese rates were]] `evidence_data`
+- **2026-10** [[The RMB has not tracked rate differentials it did not rise when Chinese rates were higher]] `evidence_data`
 
 ## us → china (34)
 
@@ -93,9 +93,9 @@ This is a shape, not a topic: a claim is bilateral when it carries a counterpart
 - **2020-10** [[The reversal appears in monthly and 3-month data, not yet in the 12-month sum]] `caveat`
 - **2020-10** [[More investigation is needed before reaching a firm conclusion]] `caveat`
 - **2025-07** [[The United States is still importing, which limits the damage, but American firms will]] `caveat`
-- **2026-07** [[The U.S. deficit is widening due to AI investment and fiscal deficits, the mirror]] `mechanism`
+- **2026-07** [[AIdata-center investment and a large fiscal deficit are expanding the U.S. deficit]] `mechanism`
 
-## euro-area → china (12)
+## euro-area → china (13)
 
 - **2019-08** [[Europe and China remain far more manufacturing-oriented, but with very different import]] `main_claim`
 - **2019-08** [[Processing trade makes Europe-China comparisons imperfect]] `caveat`
@@ -108,7 +108,8 @@ This is a shape, not a topic: a claim is bilateral when it carries a counterpart
 - **2025-07** [[A trading partner's surplus drains demand from your economy; manufacturing capacity has]] `hidden_assumption`
 - **2025-07** [[Why is Europe losing ground to China in trade, and what should it do about it]] `question`
 - **2025-07** [[Europe's inadequate response so far; Trump-style tariffs or commodity purchase deals]] `opposing_view`
-- **2026-10** [[Sectoral protection such as the EU hybrid car quota buffers specific sectors but would]] `intermediate_claim`
+- **2026-10** [[Sector quotas such as the EU hybrid-car TRQ only buffer specific sectors; using]] `intermediate_claim`
+- **2026-10** [[Merz and Macron's open letter supports addressing undervalued currencies, though EU macro]] `evidence_source`
 
 ## us → euro-area (4)
 
@@ -117,17 +118,16 @@ This is a shape, not a topic: a claim is bilateral when it carries a counterpart
 - **2019-08** [[Manufacturing imports are similar]] `evidence_data`
 - **2019-08** [[Mirror-image manufacturing balances]] `evidence_data`
 
-## china → euro-area (3)
-
-- **2025-07** [[China's 2024 current account surplus about $430 billion (just over 2 percent of GDP)]] `evidence_data`
-- **2025-07** [[Weak currency]] `mechanism`
-- **2026-10** [[Europe and the IMF should put RMB exchange rate adjustment on the agenda with China]] `recommendation`
-
 ## us → southeast-asia (3)
 
 - **2020-02** [[Vietnam exports to US +$17.5B]] `evidence_data`
 - **2025-09** [[Trade diversion]] `mechanism`
 - **2025-09** [[August deals doubled tariffs on Southeast Asia relative to April; fall data may show]] `caveat`
+
+## china → euro-area (2)
+
+- **2025-07** [[China's 2024 current account surplus about $430 billion (just over 2 percent of GDP)]] `evidence_data`
+- **2025-07** [[Weak currency]] `mechanism`
 
 ## ireland → euro-area (2)
 
@@ -138,6 +138,11 @@ This is a shape, not a topic: a claim is bilateral when it carries a counterpart
 
 - **2019-05** [[A weaker yuan redistributes trade pain]] `intermediate_claim`
 - **2019-05** [[Yuan weakness spreads outward]] `mechanism`
+
+## china → global (2)
+
+- **2026-10** [[The internal-balance-only argument fails because China is large and its surplus drags]] `intermediate_claim`
+- **2026-10** [[An undervalued RMB signals firms everywhere to produce in China, eroding manufacturing]] `mechanism`
 
 ## us → taiwan (1)
 
@@ -162,8 +167,4 @@ This is a shape, not a topic: a claim is bilateral when it carries a counterpart
 ## taiwan → us (1)
 
 - **2025-05** [[The Taiwan test — how much appreciation will its central bank tolerate, and how would]] `deferred_question`
-
-## china → global (1)
-
-- **2026-10** [[An undervalued RMB signals the world to locate production in China, eroding manufacturing]] `mechanism`
 

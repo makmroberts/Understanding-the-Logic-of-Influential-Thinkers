@@ -2,7 +2,7 @@
 type: subject
 facet: country
 term: us
-claims: 212
+claims: 213
 saturated: true
 tags: [subject, subject/country, country/us, subject/saturated]
 ---
@@ -13,22 +13,22 @@ tags: [subject, subject/country, country/us, subject/saturated]
 
 Aligned to **iso3166** `US` — _verified against the published list_
 
-212 claims across 20 articles · facet `country` · [[By country]] · [[index]]
+213 claims across 20 articles · facet `country` · [[By country]] · [[index]]
 
 > **Saturated.** This term is on 48% of all 441 claims, past the 40% threshold in `facets.yaml`. On its own it barely narrows anything; cross it with another facet. It also makes this note one of the densest in the graph.
 
-**Position in the argument graph** — centrality 545 (2.57 per claim), 264 out / 281 in, bias -0.03.
+**Position in the argument graph** — centrality 545 (2.56 per claim), 264 out / 281 in, bias -0.03.
 
 Sits in the middle of arguments - as much argued toward as argued from.
 
 ## Argued together with
 
-- **variable**: [[import-volumes]] (69), [[goods-trade-balance]] (51), [[bilateral-trade-flows]] (38), [[nominal-exchange-rate]] (30), [[export-volumes]] (27)
+- **variable**: [[import-volumes]] (68), [[goods-trade-balance]] (51), [[bilateral-trade-flows]] (38), [[nominal-exchange-rate]] (30), [[export-volumes]] (27)
 - **bloc**: [[southeast-asia]] (3)
 - **instrument**: [[tariffs]] (60), [[purchase-commitments]] (21), [[retaliation]] (20), [[fiscal-policy]] (13), [[industrial-policy]] (5)
-- **data_basis**: [[customs]] (33), [[mirror-statistics]] (11), [[academic-econometrics]] (7), [[national-accounts]] (6), [[market-prices]] (6)
+- **data_basis**: [[customs]] (33), [[mirror-statistics]] (11), [[academic-econometrics]] (8), [[national-accounts]] (6), [[market-prices]] (4)
 
-Appears as subject in 169 claims and as counterpart in 43 (i.e. bilateral claims) · [[Bilateral]]
+Appears as subject in 170 claims and as counterpart in 43 (i.e. bilateral claims) · [[Bilateral]]
 
 ## Claims by role
 
@@ -75,7 +75,7 @@ Appears as subject in 169 claims and as counterpart in 43 (i.e. bilateral claims
 - **2025-05** [[Dollar down ~10% against the G10; a $400-550 imported phone now carries $40-110]] · _Why Didn't Tariffs Push Up the U.S. Dollar?_
 - **2025-09** [[Annualized trade deficit peaked at $2 trillion in March, fell to $1 trillion]] · _The Trump Shock That Wasn't (At Least Not Yet)_
 - **2026-02** [[October's drop came entirely from pharmaceuticals and gold; excluding them, October's]] · _Understanding the Low October 2025 Trade Def..._
-- **2026-10** [[The RMB has not tracked rate differentials it did not rise when Chinese rates were]] · _What’s the Renminbi Got to Do With it?_
+- **2026-10** [[The RMB has not tracked rate differentials it did not rise when Chinese rates were higher]] · _What’s the Renminbi Got to Do With it?_
 
 ### mechanism (35)
 
@@ -112,10 +112,10 @@ Appears as subject in 169 claims and as counterpart in 43 (i.e. bilateral claims
 - **2026-02** [[Inventory drawdown]] · _Understanding the Low October 2025 Trade Def..._
 - **2026-02** [[Untariffed artificial intelligence investment]] · _Understanding the Low October 2025 Trade Def..._
 - **2026-02** [[Fiscal channel]] · _Understanding the Low October 2025 Trade Def..._
-- **2026-07** [[The U.S. deficit is widening due to AI investment and fiscal deficits, the mirror]] · _Is China’s Surplus Really Shrinking?_
-- **2026-09** [[The investor base shift toward U.S. risk assets explains why Treasuries lost convenience]] · _De-reservification, Not De-dollarization_
+- **2026-07** [[AIdata-center investment and a large fiscal deficit are expanding the U.S. deficit]] · _Is China’s Surplus Really Shrinking?_
+- **2026-09** [[Because the new official investors seek returns, foreign demand goes to U.S. risk assets]] · _De-reservification, Not De-dollarization_
 
-### intermediate_claim (27)
+### intermediate_claim (28)
 
 - **2017-12** [[Trade changes the pace of growth]] · _Why does the U.S. trade balance still matter..._
 - **2017-12** [[Trade changes the composition of employment]] · _Why does the U.S. trade balance still matter..._
@@ -143,7 +143,8 @@ Appears as subject in 169 claims and as counterpart in 43 (i.e. bilateral claims
 - **2025-05** [[Each of the five channels is plausible and none is decisive on its own]] · _Why Didn't Tariffs Push Up the U.S. Dollar?_
 - **2025-09** [[Excluding pharmaceuticals and gold, U.S. imports are roughly on trend; the shock to trade]] · _The Trump Shock That Wasn't (At Least Not Yet)_
 - **2026-02** [[Tariffs reduce imports in specific categories, but the overall deficit is driven]] · _Understanding the Low October 2025 Trade Def..._
-- **2026-07** [[U.S. 2025 data are also distorted by tariff-driven gold bar imports and their reversal]] · _Is China’s Surplus Really Shrinking?_
+- **2026-07** [[U.S. 2025 data also needs gold adjustment, as tariff-driven gold bar imports]] · _Is China’s Surplus Really Shrinking?_
+- **2026-09** [[The shift in the investor base helps explain why the Treasury convenience yield has faded]] · _De-reservification, Not De-dollarization_
 
 ### stated_assumption (24)
 
@@ -262,7 +263,7 @@ Appears as subject in 169 claims and as counterpart in 43 (i.e. bilateral claims
 - **2025-05** [[The Miran paper; IMF working paper on Lerner symmetry; SAFE 2023 annual report; Aitken]] · _Why Didn't Tariffs Push Up the U.S. Dollar?_
 - **2025-09** [[New York Times reporting; U.S. trade data; federal court ruling on tariff authority]] · _The Trump Shock That Wasn't (At Least Not Yet)_
 - **2026-02** [[U.S. trade data; Section 232 semiconductor investigation]] · _Understanding the Low October 2025 Trade Def..._
-- **2026-09** [[Tooze's 'profit dollar' inflows seek returns via equities and corporate bonds, with less]] · _De-reservification, Not De-dollarization_
+- **2026-09** [[Tooze's 'profit dollar' idea, with inflows going to equities and corporate bonds rather]] · _De-reservification, Not De-dollarization_
 
 ### hidden_assumption (5)
 
@@ -299,5 +300,5 @@ Appears as subject in 169 claims and as counterpart in 43 (i.e. bilateral claims
 
 ### recommendation (1)
 
-- **2026-09** [[Analysts should stop obsessing over COFER shares and scrutinize the premium on U.S. risk]] · _De-reservification, Not De-dollarization_
+- **2026-09** [[Analysts should scrutinize the apparent premium on U.S. risk assets, the 'profit dollar']] · _De-reservification, Not De-dollarization_
 

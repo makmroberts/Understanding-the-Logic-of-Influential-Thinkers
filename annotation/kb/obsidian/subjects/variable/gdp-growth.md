@@ -2,7 +2,7 @@
 type: subject
 facet: variable
 term: gdp-growth
-claims: 14
+claims: 15
 saturated: false
 tags: [subject, subject/variable, variable/gdp-growth]
 ---
@@ -13,16 +13,17 @@ tags: [subject, subject/variable, variable/gdp-growth]
 
 Aligned to **sna** `gross domestic product` — _component name, not yet re-checked_
 
-14 claims across 6 articles · facet `variable` · [[By variable]] · [[index]]
+15 claims across 6 articles · facet `variable` · [[By variable]] · [[index]]
 
-**Position in the argument graph** — centrality 49 (3.5 per claim), 21 out / 28 in, bias -0.14.
+**Position in the argument graph** — centrality 41 (2.73 per claim), 20 out / 21 in, bias -0.02.
 
-He argues **toward** this more than from it: it behaves like a conclusion.
+Sits in the middle of arguments - as much argued toward as argued from.
 
 ## Argued together with
 
-- **country**: [[china]] (7), [[us]] (7)
-- **instrument**: [[tariffs]] (3), [[structural-reform]] (1), [[retaliation]] (1), [[fiscal-policy]] (1), [[fx-intervention]] (1)
+- **country**: [[china]] (8), [[us]] (7)
+- **bloc**: [[global]] (1)
+- **instrument**: [[tariffs]] (3), [[structural-reform]] (1), [[retaliation]] (1), [[fiscal-policy]] (1)
 - **data_basis**: [[national-accounts]] (4), [[academic-econometrics]] (2)
 
 ## Claims by role
@@ -32,22 +33,18 @@ He argues **toward** this more than from it: it behaves like a conclusion.
 - **2017-12** [[2014–16 net-export drag]] · _Why does the U.S. trade balance still matter..._
 - **2019-05** [[Large potential China growth hit]] · _If U.S.-China trade tensions escalate, will ..._
 - **2020-02** [[Fajgelbaum et al]] · _Do tariffs change the trade balance, and who..._
-- **2026-07** [[The price-adjusted surplus is still rising net exports added 0.8 pp of GDP in Q1]] · _Is China’s Surplus Really Shrinking?_
+- **2026-07** [[The price-adjusted trade surplus is still growing, with net exports adding 0.8 pp of GDP]] · _Is China’s Surplus Really Shrinking?_
 
-### intermediate_claim (2)
+### intermediate_claim (3)
 
 - **2017-12** [[Trade changes the pace of growth]] · _Why does the U.S. trade balance still matter..._
 - **2020-02** [[Tariffs cut the deficit by slowing growth]] · _Do tariffs change the trade balance, and who..._
+- **2026-10** [[The internal-balance-only argument fails because China is large and its surplus drags]] · _What’s the Renminbi Got to Do With it?_
 
 ### mechanism (2)
 
 - **2017-12** [[Trade deficits can drag on growth]] · _Why does the U.S. trade balance still matter..._
-- **2026-07** [[Lagging price indices treated chip-price-driven value gains as volume gains in Q1]] · _Is China’s Surplus Really Shrinking?_
-
-### main_claim (2)
-
-- **2026-07** [[China's underlying surplus is still rising; it continues to rely heavily on exports]] · _Is China’s Surplus Really Shrinking?_
-- **2026-10** [[China, which relies on net exports for growth, is on a collision course with its trading]] · _What’s the Renminbi Got to Do With it?_
+- **2026-07** [[Slow recognition of the chip price shock in Q1 deflators distorted volume data]] · _Is China’s Surplus Really Shrinking?_
 
 ### caveat (1)
 
@@ -64,4 +61,12 @@ He argues **toward** this more than from it: it behaves like a conclusion.
 ### counterpoint (1)
 
 - **2019-05** [[Case for stability]] · _If U.S.-China trade tensions escalate, will ..._
+
+### main_claim (1)
+
+- **2026-07** [[China's underlying surplus is still rising and China continues to rely heavily on exports]] · _Is China’s Surplus Really Shrinking?_
+
+### hidden_assumption (1)
+
+- **2026-10** [[The author takes for granted that a stronger RMB would reduce China's surplus enough]] · _What’s the Renminbi Got to Do With it?_
 

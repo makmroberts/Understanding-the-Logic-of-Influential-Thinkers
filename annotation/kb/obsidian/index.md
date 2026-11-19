@@ -8,22 +8,22 @@ Every claim is filed on two independent axes. **Role** is what a claim does in a
 
 ## Browse by role — what a claim does
 
-- [[Assumptions]] — 81
-- [[Evidence]] — 97
-- [[Mechanisms]] — 70
-- [[Conclusions]] — 32
-- [[Counterpoints]] — 79
+- [[Assumptions]] — 79
+- [[Evidence]] — 102
+- [[Mechanisms]] — 67
+- [[Conclusions]] — 31
+- [[Counterpoints]] — 76
 - [[Questions]] — 27
-- [[Intermediate steps]] — 55
+- [[Intermediate steps]] — 59
 
 ## Browse by subject — what a claim is about
 
 - [[By variable]] — 34 terms, 441 claims
 - [[By country]] — 12 terms, 397 claims
-- [[By bloc]] — 7 terms, 52 claims
-- [[By instrument]] — 13 terms, 197 claims
-- [[By data basis]] — 11 terms, 150 claims
-- [[Bilateral]] — 109 claims across 15 country pairs
+- [[By bloc]] — 7 terms, 53 claims
+- [[By instrument]] — 13 terms, 195 claims
+- [[By data basis]] — 11 terms, 147 claims
+- [[Bilateral]] — 110 claims across 15 country pairs
 
 Cross the two axes to answer a question on one topic without reading the whole corpus. In the graph filter box:
 
@@ -43,28 +43,28 @@ The role cuts still work the same way:
 
 ## By type
 
-- `evidence_data` — 80
-- `mechanism` — 70
-- `intermediate_claim` — 53
-- `stated_assumption` — 49
-- `caveat` — 35
+- `evidence_data` — 85
+- `mechanism` — 67
+- `intermediate_claim` — 56
+- `stated_assumption` — 47
+- `caveat` — 33
 - `main_claim` — 25
 - `question` — 24
-- `opposing_view` — 20
+- `opposing_view` — 19
 - `hidden_assumption` — 16
 - `other_explanation` — 14
 - `evidence_source` — 14
 - `counterpoint` — 8
-- `source_credibility` — 6
-- `recommendation` — 5
+- `source_credibility` — 5
 - `revised_prior` — 4
-- `scope_choice` — 3
+- `recommendation` — 4
+- `scope_choice` — 4
+- `case_type` — 2
 - `benchmark` — 2
 - `evidence_discrepancy` — 2
 - `reconstruction` — 2
 - `deferred_question` — 2
 - `anomaly` — 2
-- `case_type` — 1
 - `accounting_identity` — 1
 - `policy_reductio` — 1
 - `evidence_rival` — 1
@@ -132,11 +132,11 @@ SORT date ASC
 ## Notes
 
 - **For an ordered, hierarchical view, use [[_index|the canvases]]** — one per article, laid out by argument level. Obsidian's graph is force-directed and cannot draw a hierarchy; a canvas can.
-- In the graph view, the useful filters, measured on this vault at export time (561 notes, 3945 links between them, mean degree 14.1):
-    - `-path:subjects -path:views -file:index` → 470 notes, 1046 links, mean degree **4.5** — the per-article argument trees, joined only where a concept spans articles
-    - `-path:subjects -path:views -path:canvas -path:articles -file:index` → **the argument only**: 446 notes, 572 links, mean degree 2.6, busiest node 11. Dropping the article notes matters more than it sounds — removing them takes 474 of the 1046 links with them, nearly all of it membership rather than reasoning, and each article note is a star at the centre of its cluster that the force layout bends everything around. Turn on Display → Arrows here: the direction is the content.
+- In the graph view, the useful filters, measured on this vault at export time (561 notes, 3936 links between them, mean degree 14.0):
+    - `-path:subjects -path:views -file:index` → 470 notes, 1045 links, mean degree **4.4** — the per-article argument trees, joined only where a concept spans articles
+    - `-path:subjects -path:views -path:canvas -path:articles -file:index` → **the argument only**: 446 notes, 571 links, mean degree 2.6, busiest node 12. Dropping the article notes matters more than it sounds — removing them takes 474 of the 1045 links with them, nearly all of it membership rather than reasoning, and each article note is a star at the centre of its cluster that the force layout bends everything around. Turn on Display → Arrows here: the direction is the content.
     - `-path:canvas` → the canvases are files too and every card on one counts as a link, so they add 441 link-ends to the graph view. They are for reading, not for the force layout.
-    - `-tag:#subject/saturated` → drops just `china`, `us`, which carry 560 of the 3945 link-ends between them, and keeps the other 75 hubs
+    - `-tag:#subject/saturated` → drops just `china`, `us`, which carry 559 of the 3936 link-ends between them, and keeps the other 75 hubs
 - Every link shows its sign: **+1** backs, **-1** pushes back, **0** neither. The sign is argumentative, not causal - it means *backs* and *pushes back on*, never *increases* and *decreases*.
 - Each link records how its relation was known, in frontmatter: `label` (the annotator wrote it), `arrow` (from the arrow style, by convention) or `layout_operator` (recovered from the map's `~~~` links, which carry the question-to-priors and prior-to-evidence structure).
 - Articles use three annotation templates (`plain`, `banner`, `meta`); the `family` tag on every note records which.

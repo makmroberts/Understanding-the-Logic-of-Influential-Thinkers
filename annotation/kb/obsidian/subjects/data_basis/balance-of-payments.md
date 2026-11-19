@@ -2,7 +2,7 @@
 type: subject
 facet: data_basis
 term: balance-of-payments
-claims: 33
+claims: 34
 saturated: false
 tags: [subject, subject/data_basis, data_basis/balance-of-payments]
 ---
@@ -11,16 +11,16 @@ tags: [subject, subject/data_basis, data_basis/balance-of-payments]
 
 > BoP accounts, including the 2022 methodology change and the series break.
 
-33 claims across 9 articles · facet `data_basis` · [[By data basis]] · [[index]]
+34 claims across 9 articles · facet `data_basis` · [[By data basis]] · [[index]]
 
-**Position in the argument graph** — centrality 77 (2.33 per claim), 35 out / 42 in, bias -0.09.
+**Position in the argument graph** — centrality 79 (2.32 per claim), 36 out / 43 in, bias -0.09.
 
 He argues **toward** this more than from it: it behaves like a conclusion.
 
 ## Argued together with
 
 - **variable**: [[current-account]] (28), [[goods-trade-balance]] (10), [[investment-income-balance]] (9), [[global-imbalances]] (3), [[manufacturing-trade-balance]] (2)
-- **country**: [[china]] (29), [[euro-area]] (3), [[us]] (3), [[ireland]] (1)
+- **country**: [[china]] (30), [[euro-area]] (3), [[us]] (3), [[ireland]] (1)
 - **instrument**: [[monetary-policy]] (1)
 
 ## Claims by role
@@ -33,7 +33,7 @@ He argues **toward** this more than from it: it behaves like a conclusion.
 - **2019-08** [[Offshore profits exceed the service-export story]] · _Why do the U.S., Europe, and China now occup..._
 - **2024-08** [[Reported current account ~$150bn below expectation in Q2]] · _China's Imaginary Trade Data_
 - **2025-07** [[China's 2024 current account surplus about $430 billion (just over 2 percent of GDP)]] · _China's Stealth Trade Surplus_
-- **2026-09** [[China's state banks hold $3.3 trillion gross foreign assets (BIS), ~$4 trillion BOP]] · _De-reservification, Not De-dollarization_
+- **2026-09** [[China's state banks hold about $3.3 trillion in gross foreign assets, matching]] · _De-reservification, Not De-dollarization_
 
 ### mechanism (6)
 
@@ -48,7 +48,13 @@ He argues **toward** this more than from it: it behaves like a conclusion.
 
 - **2024-08** [[The income line carries no detail, so this cannot be checked from outside]] · _China's Imaginary Trade Data_
 - **2025-07** [[Balance of payments adjustments may or may not be more accurate, and some are legitimate]] · _China's Stealth Trade Surplus_
-- **2026-10** [[China's surplus is now less masked in balance of payments data, though problems remain]] · _What’s the Renminbi Got to Do With it?_
+- **2026-10** [[China's BoP data are less distorted than in 2023-24, but problems remain in investment]] · _What’s the Renminbi Got to Do With it?_
+
+### source_credibility (3)
+
+- **2024-03** [[The reported current account misleads — flagged, with the full case made in the August]] · _China's Record Manufacturing Surplus_
+- **2024-08** [[The methodology was already changed at a convenient moment in 2015, and backdated]] · _China's Imaginary Trade Data_
+- **2026-09** [[China's official reporting is incomplete and the IMF has failed to flag the gap]] · _De-reservification, Not De-dollarization_
 
 ### intermediate_claim (2)
 
@@ -69,11 +75,6 @@ He argues **toward** this more than from it: it behaves like a conclusion.
 
 - **2024-03** [[The imbalance is large, growing and mismeasured — it shows up everywhere except]] · _China's Record Manufacturing Surplus_
 - **2024-08** [[The reported surplus is an artifact of a methodology change]] · _China's Imaginary Trade Data_
-
-### source_credibility (2)
-
-- **2024-03** [[The reported current account misleads — flagged, with the full case made in the August]] · _China's Record Manufacturing Surplus_
-- **2024-08** [[The methodology was already changed at a convenient moment in 2015, and backdated]] · _China's Imaginary Trade Data_
 
 ### hidden_assumption (1)
 

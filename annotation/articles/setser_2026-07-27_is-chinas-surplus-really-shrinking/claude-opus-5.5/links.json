@@ -3,7 +3,13 @@
   {
    "from": "Q",
    "relation": "frames",
-   "to": "SCP",
+   "to": "P1",
+   "sign": 0
+  },
+  {
+   "from": "Q",
+   "relation": "frames",
+   "to": "P2",
    "sign": 0
   },
   {
@@ -13,27 +19,33 @@
    "sign": 0
   },
   {
-   "from": "Q",
+   "from": "P1",
    "relation": "frames",
-   "to": "P2",
+   "to": "E3",
    "sign": 0
   },
   {
-   "from": "P2",
+   "from": "E3",
    "relation": "supports",
-   "to": "SCP",
+   "to": "RC",
    "sign": 1
   },
   {
-   "from": "SCP",
-   "relation": "bounds",
-   "to": "E2",
+   "from": "P1",
+   "relation": "licenses",
+   "to": "RC",
+   "sign": 1
+  },
+  {
+   "from": "P2",
+   "relation": "licenses",
+   "to": "K",
    "sign": 1
   },
   {
    "from": "P3",
    "relation": "revises",
-   "to": "P2",
+   "to": "P1",
    "sign": -1
   },
   {
@@ -43,39 +55,27 @@
    "sign": 1
   },
   {
-   "from": "SCP",
-   "relation": "licenses",
-   "to": "RC",
-   "sign": 1
-  },
-  {
-   "from": "M1",
-   "relation": "supports",
-   "to": "C2",
-   "sign": 1
-  },
-  {
-   "from": "P1",
-   "relation": "supports",
-   "to": "C2",
-   "sign": 1
-  },
-  {
-   "from": "P1",
-   "relation": "frames",
-   "to": "E2",
-   "sign": 0
-  },
-  {
    "from": "C1",
    "relation": "supports",
    "to": "RC",
    "sign": 1
   },
   {
-   "from": "M1",
+   "from": "SCP",
+   "relation": "bounds",
+   "to": "E4",
+   "sign": 1
+  },
+  {
+   "from": "E4",
    "relation": "supports",
-   "to": "RC",
+   "to": "K",
+   "sign": 1
+  },
+  {
+   "from": "E1",
+   "relation": "supports",
+   "to": "K",
    "sign": 1
   },
   {
@@ -85,21 +85,9 @@
    "sign": 1
   },
   {
-   "from": "C2",
+   "from": "M1",
    "relation": "supports",
    "to": "K",
-   "sign": 1
-  },
-  {
-   "from": "E1",
-   "relation": "supports",
-   "to": "K",
-   "sign": 1
-  },
-  {
-   "from": "E1",
-   "relation": "supports",
-   "to": "M2",
    "sign": 1
   },
   {
@@ -109,15 +97,9 @@
    "sign": 1
   },
   {
-   "from": "M3",
+   "from": "C2",
    "relation": "supports",
-   "to": "K",
-   "sign": 1
-  },
-  {
-   "from": "C3",
-   "relation": "supports",
-   "to": "M3",
+   "to": "M1",
    "sign": 1
   },
   {
@@ -133,24 +115,14 @@
    "sign": -1
   },
   {
-   "from": "SC",
+   "from": "E1",
    "relation": "supports",
-   "to": "K",
+   "to": "M2",
    "sign": 1
-  },
-  {
-   "from": "SC",
-   "relation": "undercut_by",
-   "to": "X",
-   "sign": -1
   }
  ],
  "review": [
-  "`Q` frames `SCP` joins L0→L1B, which no hand-drawn frames link does",
-  "`P2` supports `SCP` joins L1→L1B, which no hand-drawn supports link does",
-  "`SCP` licenses `RC` joins L1B→L5, which no hand-drawn licenses link does",
-  "`RC` supports `K` joins L5→L5, which no hand-drawn supports link does",
-  "`SC` undercut_by `X` joins L1→L6, which no hand-drawn undercut_by link does"
+  "`RC` supports `K` joins L5→L5, which no hand-drawn supports link does"
  ],
  "gaps_left": [],
  "dropped": [],

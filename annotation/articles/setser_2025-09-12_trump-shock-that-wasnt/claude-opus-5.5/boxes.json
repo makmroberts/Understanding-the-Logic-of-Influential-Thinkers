@@ -2,7 +2,7 @@
  "result": [
   {
    "excerpt": "The impact of the tariffs core trade flows—and hence the global economy—has been modest, at least so far.",
-   "claim": "Why has the large shock to trade rules from Trump's tariffs produced only a small shock to core trade flows so far?",
+   "claim": "Why has the huge Trump tariff shock to trade rules not produced a comparable shock to core trade flows and the global economy?",
    "role": "question",
    "explicit": false,
    "kind": "none",
@@ -10,16 +10,23 @@
    "paragraphs": [
     1,
     2,
-    3
+    3,
+    18
    ],
-   "reason": "A shift in policy regime need not show up immediately in the quantities it is meant to affect.",
+   "reason": "A large change in policy rules need not translate into an equally large change in economic flows.",
    "excerpt_para": 3,
+   "excerpt_spans": [
+    {
+     "char_start": 129,
+     "char_end": 234
+    }
+   ],
    "id": "Q",
    "level": "L0"
   },
   {
-   "excerpt": "The U.S. has gone from low-bound tariffs",
-   "claim": "The U.S. moved from low, bound, most-favoured-nation tariffs to high, unbound, country-specific tariffs with demanding rules of origin, a rejection of WTO rules for all trade.",
+   "excerpt": "All this is a profound rejection of the basic rules of the WTO—which haven’t just been rejected for trade with China, but for all trade.",
+   "claim": "The U.S. has moved from low, bound, MFN tariffs to high, unbound, country-specific tariffs with demanding rules of origin, a profound rejection of WTO rules.",
    "role": "intermediate_claim",
    "explicit": true,
    "kind": "none",
@@ -29,48 +36,92 @@
     6,
     7,
     8,
-    9,
-    30
+    9
    ],
-   "reason": "Abandoning non-discrimination and binding commitments is a regime change, whatever the trade outcome.",
-   "excerpt_para": 6,
+   "reason": "Abandoning bound and nondiscriminatory tariffs breaks the core commitments of a rules-based trade system.",
+   "excerpt_para": 9,
+   "excerpt_spans": [
+    {
+     "char_start": 0,
+     "char_end": 136
+    }
+   ],
    "id": "C1",
    "level": "L4"
   },
   {
-   "excerpt": "Importers of the same good will pay different tariffs depending on the origin of the good (50 percent for India and Brazil, 30 percent for China",
-   "claim": "Tariff rates now range from 50% for India and Brazil to 10% for Australia and the UK, with zero for USMCA-compliant trade.",
+   "excerpt": "Importers of the same good will pay different tariffs depending on the origin of the good (50 percent for India and Brazil, 30 percent for China plus any section 301 duty, 20 percent for Vietnam",
+   "claim": "Tariff rates now vary by origin, from 50 percent on India and Brazil to 10 percent on the UK and Australia and zero for USMCA-compliant trade.",
    "role": "evidence_data",
    "explicit": true,
    "kind": "none",
    "claim_type": "none",
    "paragraphs": [
+    6,
     7
    ],
-   "reason": "Divergent rates by origin for the same good measure the departure from equal treatment.",
+   "reason": "Different rates on the same good by origin are direct evidence of discrimination among trading partners.",
    "excerpt_para": 7,
+   "excerpt_spans": [
+    {
+     "char_start": 219,
+     "char_end": 413
+    }
+   ],
    "id": "E1",
    "level": "L2"
   },
   {
+   "excerpt": "The dollar value of imports has swung by more than during COVID or the Lehman shock.",
+   "claim": "The headline reading that the tariffs have caused trade swings bigger than COVID or Lehman, and so a major shock to global trade flows, is misleading.",
+   "role": "opposing_view",
+   "explicit": false,
+   "kind": "none",
+   "claim_type": "none",
+   "paragraphs": [
+    2,
+    10,
+    11,
+    12,
+    13
+   ],
+   "reason": "Headline aggregates dominated by distorted categories can create a false impression of an underlying shock.",
+   "excerpt_para": 10,
+   "excerpt_spans": [
+    {
+     "char_start": 0,
+     "char_end": 84
+    }
+   ],
+   "id": "X",
+   "level": "L6"
+  },
+  {
    "excerpt": "The annualized monthly trade deficit rose to a peak of $2 trillion in March before dipping to $1 trillion and then rebounding to $1.2 trillion in July",
-   "claim": "Import swings exceeded those of COVID or Lehman, with the annualized deficit going from $2 trillion to $1 trillion and back to about $1.2 trillion, where it began.",
+   "claim": "Measured U.S. imports swung more than during COVID or Lehman, and the annualized deficit went from $2 trillion to $1 trillion and back to about $1.2 trillion.",
    "role": "evidence_data",
    "explicit": true,
    "kind": "none",
    "claim_type": "none",
    "paragraphs": [
+    2,
     10,
     11
    ],
-   "reason": "Headline trade volatility must be checked against its starting point before it is read as a lasting change.",
+   "reason": "Large swings in headline trade data show volatility but not necessarily a change in underlying trade.",
    "excerpt_para": 11,
+   "excerpt_spans": [
+    {
+     "char_start": 0,
+     "char_end": 150
+    }
+   ],
    "id": "E2",
    "level": "L2"
   },
   {
    "excerpt": "pharmaceuticals (where trade is heavily distorted by tax and companies can easily front-run tariffs by stockpiling active ingredients) and gold.",
-   "claim": "The headline volatility comes from pharmaceutical stockpiling and tax-driven trade, and from gold flows, not from core trade.",
+   "claim": "Tax-driven pharmaceutical trade and stockpiling, together with gold flows, produce most of the headline volatility without reflecting core trade.",
    "role": "mechanism",
    "explicit": true,
    "kind": "distortion",
@@ -79,14 +130,20 @@
     3,
     12
    ],
-   "reason": "Tax-driven and financial flows can swamp trade aggregates without reflecting real demand.",
+   "reason": "Goods that are easily stockpiled or booked for tax reasons distort trade statistics and should be stripped out to see core trends.",
    "excerpt_para": 12,
+   "excerpt_spans": [
+    {
+     "char_start": 57,
+     "char_end": 201
+    }
+   ],
    "id": "M1",
    "level": "L3"
   },
   {
    "excerpt": "Take out pharmaceuticals and gold and U.S. trade looks, well, rather normal.",
-   "claim": "Core trade is measured excluding pharmaceuticals and gold, and on that basis it looks normal.",
+   "claim": "The proper measure of core trade excludes pharmaceuticals and gold, and on that measure U.S. trade looks normal.",
    "role": "scope_choice",
    "explicit": true,
    "kind": "none",
@@ -94,29 +151,20 @@
    "paragraphs": [
     13
    ],
-   "reason": "Strip out distorted categories to see the underlying trend.",
+   "reason": "The categories excluded from a trade measure can decide whether a shock appears large or small.",
    "excerpt_para": 13,
+   "excerpt_spans": [
+    {
+     "char_start": 0,
+     "char_end": 76
+    }
+   ],
    "id": "SCP",
    "level": "L1B"
   },
   {
-   "excerpt": "",
-   "claim": "Gold and pharmaceutical flows say little about real economic activity or global demand, so leaving them out reveals the true tariff effect.",
-   "role": "hidden_assumption",
-   "explicit": false,
-   "kind": "none",
-   "claim_type": "none",
-   "paragraphs": [
-    13
-   ],
-   "reason": "Excluding categories is valid only if they are noise with respect to the question asked.",
-   "excerpt_para": null,
-   "id": "P2",
-   "level": "L1"
-  },
-  {
-   "excerpt": "imports from China (where hefty tariffs were expected) tanked. But imports from Taiwan and Southeast Asia",
-   "claim": "Imports from China fell but imports from Taiwan and Southeast Asia soared, leaving total imports from Asia about flat.",
+   "excerpt": "imports from China (where hefty tariffs were expected) tanked. But imports from Taiwan and Southeast Asia (which were only subject to a 10 percent tariff",
+   "claim": "Imports from China collapsed while imports from Taiwan and Southeast Asia soared, leaving total imports from Asia roughly unchanged.",
    "role": "evidence_data",
    "explicit": true,
    "kind": "none",
@@ -124,77 +172,63 @@
    "paragraphs": [
     14
    ],
-   "reason": "Bilateral declines can be offset by diversion to other sources.",
+   "reason": "Trade diversion toward lower-tariff origins can offset falls from high-tariff origins.",
    "excerpt_para": 14,
+   "excerpt_spans": [
+    {
+     "char_start": 12,
+     "char_end": 165
+    }
+   ],
    "id": "E3",
    "level": "L2"
   },
   {
-   "excerpt": "firms shifted final assembly to southeast Asia to get around the bilateral tariffs",
-   "claim": "Bilateral tariffs mainly reroute trade through relocated final assembly rather than reducing total imports or Chinese content.",
+   "excerpt": "imports of electronics are up substantially (imports from Taiwan are up over 50 percent YTD) on the back of booming investment in data centers",
+   "claim": "Auto imports slowed, but an AI data-center investment boom has sharply raised electronics imports, with Taiwan imports up over 50 percent.",
    "role": "mechanism",
    "explicit": true,
    "kind": "economic",
    "claim_type": "none",
    "paragraphs": [
-    14,
-    22
+    15,
+    16
    ],
-   "reason": "Discriminatory tariffs invite trade diversion when rules of origin are loose.",
-   "excerpt_para": 22,
+   "reason": "A strong sectoral demand boom can outweigh tariff drag on overall import volumes.",
+   "excerpt_para": 16,
+   "excerpt_spans": [
+    {
+     "char_start": 4,
+     "char_end": 146
+    }
+   ],
    "id": "M2",
    "level": "L3"
   },
   {
-   "excerpt": "expect a big dip in September as European and Japanese importers wait for the finalization of their “deals”",
-   "claim": "Tariffs have slowed auto imports, and importers waiting for tariff relief will depress them further in September.",
-   "role": "evidence_data",
-   "explicit": true,
-   "kind": "none",
-   "claim_type": "none",
-   "paragraphs": [
-    15
-   ],
-   "reason": "Expected changes in tariffs shift the timing of imports.",
-   "excerpt_para": 15,
-   "id": "E4",
-   "level": "L2"
-  },
-  {
-   "excerpt": "imports of electronics are up substantially (imports from Taiwan are up over 50 percent YTD) on the back of booming investment in data centers",
-   "claim": "An AI data-center investment boom has pushed electronics imports up, with imports from Taiwan more than 50% higher year to date.",
-   "role": "mechanism",
-   "explicit": true,
-   "kind": "economic",
-   "claim_type": "none",
-   "paragraphs": [
-    16
-   ],
-   "reason": "Strong domestic investment demand can outweigh tariff price effects on imports.",
-   "excerpt_para": 16,
-   "id": "M3",
-   "level": "L3"
-  },
-  {
    "excerpt": "So global trade has actually held up rather well even though the world’s largest economy",
-   "claim": "Global trade has held up well despite the U.S. flouting the rules.",
+   "claim": "Global trade has held up well despite the largest importer flouting the rules.",
    "role": "intermediate_claim",
    "explicit": true,
    "kind": "none",
    "claim_type": "none",
    "paragraphs": [
-    17,
-    26,
-    27
+    17
    ],
-   "reason": "Aggregate trade resilience is judged by core flows, not by headline swings.",
+   "reason": "Once distortions are removed and the offsets are counted, aggregate trade resilience can coexist with rule-breaking.",
    "excerpt_para": 17,
+   "excerpt_spans": [
+    {
+     "char_start": 0,
+     "char_end": 88
+    }
+   ],
    "id": "C2",
    "level": "L4"
   },
   {
    "excerpt": "the surge in revenue implies that Americans are continuing to import and just paying the tariff.",
-   "claim": "Record U.S. tariff revenue signals that imports continue and Americans are bearing the tariff.",
+   "claim": "Record tariff revenue implies that Americans keep importing and paying the tariff, which is good news for trade partners.",
    "role": "intermediate_claim",
    "explicit": true,
    "kind": "none",
@@ -202,45 +236,42 @@
    "paragraphs": [
     4
    ],
-   "reason": "Tariff revenue is the rate times the volume, so high revenue means volumes have not collapsed.",
+   "reason": "Tariff revenue equals the rate times the import base, so high revenue requires that imports continue.",
    "excerpt_para": 4,
+   "excerpt_spans": [
+    {
+     "char_start": 109,
+     "char_end": 205
+    }
+   ],
    "id": "C3",
    "level": "L4"
   },
   {
-   "excerpt": "The import elasticity for exchange rate moves is closer to 0.3 or 0.4",
-   "claim": "The import response to a broad price change such as an exchange rate move is about 0.3 to 0.4.",
-   "role": "stated_assumption",
+   "excerpt": "tariffs on Southeast Asia doubled relative to April",
+   "claim": "The August deals and letters raised tariffs sharply for many countries, to an average of about 15 percent, doubling them on Southeast Asia.",
+   "role": "evidence_data",
    "explicit": true,
    "kind": "none",
    "claim_type": "none",
    "paragraphs": [
-    23
+    19,
+    20
    ],
-   "reason": "A broad tariff acts on import prices much like a currency depreciation.",
-   "excerpt_para": 23,
-   "id": "P1",
-   "level": "L1"
-  },
-  {
-   "excerpt": "the bilateral tariff elasticity of 2 is too high for a global tariff increase",
-   "claim": "The elasticity of about 2 seen in the first-term China tariffs overstates the effect of a global tariff, because it reflects diversion.",
-   "role": "opposing_view",
-   "explicit": true,
-   "kind": "none",
-   "claim_type": "none",
-   "paragraphs": [
-    21,
-    22
+   "reason": "Higher effective tariffs should eventually weigh on trade volumes.",
+   "excerpt_para": 19,
+   "excerpt_spans": [
+    {
+     "char_start": 84,
+     "char_end": 135
+    }
    ],
-   "reason": "Elasticities estimated from bilateral shocks include substitution that is unavailable when tariffs are universal.",
-   "excerpt_para": 22,
-   "id": "X",
-   "level": "L6"
+   "id": "E4",
+   "level": "L2"
   },
   {
    "excerpt": "The roughly 15 percent average tariff increase on trade with China in trump’s first term reduced trade by roughly 30 percent",
-   "claim": "First-term tariffs averaging 15% cut U.S.-China trade by about 30%, and trade under 25% tariffs fell by nearly 50%.",
+   "claim": "First-term China tariffs of about 15 percent cut bilateral trade by about 30 percent, implying a bilateral elasticity near 2.",
    "role": "evidence_data",
    "explicit": true,
    "kind": "none",
@@ -248,31 +279,100 @@
    "paragraphs": [
     21
    ],
-   "reason": "Past episodes calibrate expected tariff responses.",
+   "reason": "Past responses to tariffs give an empirical basis for estimating trade elasticities.",
    "excerpt_para": 21,
+   "excerpt_spans": [
+    {
+     "char_start": 0,
+     "char_end": 124
+    }
+   ],
    "id": "E5",
    "level": "L2"
   },
   {
-   "excerpt": "so a 15 percent tariff might be expected to reduce impacts by 5-6 percent. That is a year or two of normal import volume growth",
-   "claim": "A roughly 15% tariff wall should cut imports by 5 to 6%, taking non-oil imports from about 10% to about 9.5% of GDP: meaningful, but far smaller than COVID or the financial crisis.",
-   "role": "intermediate_claim",
+   "excerpt": "the bilateral tariff elasticity of 2 is too high for a global tariff increase—remember that firms shifted final assembly to southeast Asia",
+   "claim": "A bilateral elasticity overstates the effect of a global tariff because bilateral tariffs are evaded by rerouting assembly through third countries.",
+   "role": "mechanism",
+   "explicit": true,
+   "kind": "economic",
+   "claim_type": "none",
+   "paragraphs": [
+    22
+   ],
+   "reason": "Diversion inflates measured bilateral responses relative to the response to tariffs applied on all origins.",
+   "excerpt_para": 22,
+   "excerpt_spans": [
+    {
+     "char_start": 4,
+     "char_end": 142
+    }
+   ],
+   "id": "M3",
+   "level": "L3"
+  },
+  {
+   "excerpt": "The import elasticity for exchange rate moves is closer to 0.3 or 0.4",
+   "claim": "The exchange-rate import elasticity of 0.3 to 0.4 is the right analogue for a global tariff.",
+   "role": "stated_assumption",
    "explicit": true,
    "kind": "none",
    "claim_type": "none",
    "paragraphs": [
-    20,
+    23
+   ],
+   "reason": "A broad tariff raises import prices much as a currency depreciation does, so the price elasticities should be similar.",
+   "excerpt_para": 23,
+   "excerpt_spans": [
+    {
+     "char_start": 0,
+     "char_end": 69
+    }
+   ],
+   "id": "P1",
+   "level": "L1"
+  },
+  {
+   "excerpt": "",
+   "claim": "Importers respond to a tariff-driven price rise the same way they respond to an equal exchange-rate-driven price rise.",
+   "role": "hidden_assumption",
+   "explicit": false,
+   "kind": "none",
+   "claim_type": "none",
+   "paragraphs": [
+    23
+   ],
+   "reason": "Mapping estimates from one kind of price shock to another requires the two shocks to be passed through and perceived alike.",
+   "excerpt_para": null,
+   "excerpt_spans": null,
+   "id": "P2",
+   "level": "L1"
+  },
+  {
+   "excerpt": "so a 15 percent tariff might be expected to reduce impacts by 5-6 percent. That is a year or two of normal import volume growth",
+   "claim": "A 15 percent tariff should cut U.S. imports by 5 to 6 percent, taking non-oil imports from about 10 to 9.5 percent of GDP: meaningful, but far smaller than COVID or the global financial crisis.",
+   "role": "reconstruction",
+   "explicit": true,
+   "kind": "none",
+   "claim_type": "none",
+   "paragraphs": [
     23,
     24
    ],
-   "reason": "The expected volume effect is the price change times the elasticity.",
+   "reason": "Multiplying the price shock by an appropriate elasticity gives a bounded estimate of the volume effect.",
    "excerpt_para": 23,
-   "id": "C4",
-   "level": "L4"
+   "excerpt_spans": [
+    {
+     "char_start": 70,
+     "char_end": 197
+    }
+   ],
+   "id": "RC",
+   "level": "L5"
   },
   {
    "excerpt": "Some countries will be able to offset reduced U.S. sales by taking market share from US exports",
-   "claim": "Foreign exporters can offset lost U.S. sales by taking market share from U.S. exporters burdened by tariffed inputs.",
+   "claim": "Some exporters can offset lost U.S. sales by taking market share from U.S. exporters, who face higher input costs.",
    "role": "mechanism",
    "explicit": true,
    "kind": "economic",
@@ -281,29 +381,20 @@
     23,
     31
    ],
-   "reason": "Tariffs on inputs tax a country's own exports.",
+   "reason": "Tariffs on inputs raise the costs of domestic exporters and cede third markets to foreign rivals.",
    "excerpt_para": 23,
+   "excerpt_spans": [
+    {
+     "char_start": 270,
+     "char_end": 365
+    }
+   ],
    "id": "M4",
    "level": "L3"
   },
   {
-   "excerpt": "An actual exchange rate depreciation increases exports as well as lowering imports",
-   "claim": "Unlike a tariff, a real depreciation also raises exports, because export price elasticities are higher.",
-   "role": "caveat",
-   "explicit": true,
-   "kind": "none",
-   "claim_type": "none",
-   "paragraphs": [
-    31
-   ],
-   "reason": "The analogy between a tariff and a depreciation holds only on the import side.",
-   "excerpt_para": 31,
-   "id": "QF",
-   "level": "L6"
-  },
-  {
-   "excerpt": "So far at least it is hard to see strong evidence of this kind of impact.",
-   "claim": "U.S. imports are roughly on trend, with only slight front-running into Q1, and high-frequency global trade measures have not slowed.",
+   "excerpt": "U.S. imports are, more or less, on trend (with front-running pulling imports forward to Q1 just a bit).",
+   "claim": "There is little sign yet of the expected effect: U.S. imports are on trend and high-frequency global trade measures have not slowed.",
    "role": "evidence_data",
    "explicit": true,
    "kind": "none",
@@ -313,81 +404,133 @@
     26,
     27
    ],
-   "reason": "Compare the actual data with the predicted effect.",
-   "excerpt_para": 25,
+   "reason": "Current data should be compared against the predicted effect to judge whether that effect has materialized.",
+   "excerpt_para": 26,
+   "excerpt_spans": [
+    {
+     "char_start": 0,
+     "char_end": 103
+    }
+   ],
    "id": "E6",
    "level": "L2"
   },
   {
    "excerpt": "The liberation day shock to the trade rules was thus bigger than the shock to overall trade flows.",
-   "claim": "The tariff shock to trade rules has been far larger than the shock to trade flows, at least so far.",
+   "claim": "The tariff shock to the trade rules has so far been much bigger than the shock to trade flows.",
    "role": "main_claim",
    "explicit": true,
    "kind": "none",
    "claim_type": "single",
    "paragraphs": [
     3,
+    17,
     28
    ],
-   "reason": "Judge a policy shock by its measured real effects as well as its legal form.",
+   "reason": "Policy regime change and its measured economic impact must be assessed separately.",
    "excerpt_para": 28,
+   "excerpt_spans": [
+    {
+     "char_start": 0,
+     "char_end": 98
+    }
+   ],
    "id": "K",
    "level": "L5"
   },
   {
-   "excerpt": "Let’s though see what judgement day brings, and what the data for the fall shows—there should be more of an impact than is now apparent.",
-   "claim": "The fall data, after the August tariff hikes, should show a larger impact than is visible now.",
-   "role": "deferred_question",
-   "explicit": true,
-   "kind": "none",
-   "claim_type": "none",
-   "paragraphs": [
-    18,
-    19,
-    29
-   ],
-   "reason": "Tariff effects arrive with a lag and must be reassessed as data comes in.",
-   "excerpt_para": 29,
-   "id": "DF",
-   "level": "L6"
-  },
-  {
-   "excerpt": "The August deals and letters resulted in hefty tariff increases for many countries (tariffs on Southeast Asia doubled relative to April).",
-   "claim": "The verdict may not hold, because the August deals raised tariffs sharply and their effects are not yet in the data.",
+   "excerpt": "there should be more of an impact than is now apparent.",
+   "claim": "The conclusion is provisional: the fall data should show a larger impact than is visible now.",
    "role": "caveat",
    "explicit": true,
    "kind": "none",
    "claim_type": "none",
    "paragraphs": [
     18,
-    19,
-    20
+    20,
+    29
    ],
-   "reason": "Recent policy changes are not yet captured in current data.",
-   "excerpt_para": 19,
+   "reason": "Trade responds to price shocks with lags, so early readings understate the eventual effect.",
+   "excerpt_para": 29,
+   "excerpt_spans": [
+    {
+     "char_start": 81,
+     "char_end": 136
+    }
+   ],
+   "id": "QF",
+   "level": "L6"
+  },
+  {
+   "excerpt": "An actual exchange rate depreciation increases exports as well as lowering imports",
+   "claim": "The analogy is imperfect: a depreciation also boosts exports, whereas a tariff does not.",
+   "role": "caveat",
+   "explicit": true,
+   "kind": "none",
+   "claim_type": "none",
+   "paragraphs": [
+    31
+   ],
+   "reason": "Analogies between policy instruments hold only for the channels they share.",
+   "excerpt_para": 31,
+   "excerpt_spans": [
+    {
+     "char_start": 3,
+     "char_end": 85
+    }
+   ],
    "id": "QF2",
    "level": "L6"
   },
   {
-   "excerpt": "",
-   "claim": "A tariff left in place is passed through to import prices and persists long enough to change trade volumes.",
-   "role": "hidden_assumption",
-   "explicit": false,
+   "excerpt": "the court for the federal district noted that tariffs should originate in Congress",
+   "claim": "The tariffs may also be outside U.S. trade law, since a court noted that tariffs require congressional authority.",
+   "role": "caveat",
+   "explicit": true,
    "kind": "none",
    "claim_type": "none",
    "paragraphs": [
-    20,
-    23
+    30
    ],
-   "reason": "Elasticity-based forecasts require that the price change persists and reaches buyers.",
-   "excerpt_para": null,
-   "id": "P3",
-   "level": "L1"
+   "reason": "Legal challenges can change the durability of a policy shock.",
+   "excerpt_para": 30,
+   "excerpt_spans": [
+    {
+     "char_start": 62,
+     "char_end": 144
+    }
+   ],
+   "id": "QF3",
+   "level": "L6"
+  },
+  {
+   "excerpt": "expect a big dip in September as European and Japanese importers wait for the finalization of their “deals”",
+   "claim": "Coming auto import swings will reflect timing around tariff relief, as front-running did earlier, rather than underlying demand.",
+   "role": "other_explanation",
+   "explicit": true,
+   "kind": "none",
+   "claim_type": "none",
+   "paragraphs": [
+    15
+   ],
+   "reason": "Anticipated tariff changes shift the timing of imports and can masquerade as real demand effects.",
+   "excerpt_para": 15,
+   "excerpt_spans": [
+    {
+     "char_start": 65,
+     "char_end": 172
+    }
+   ],
+   "id": "R1",
+   "level": "L6"
   }
  ],
- "review": [],
+ "review": [
+  "`C1` the name `mfn` does not occur in the article",
+  "`M1` the name `tax-driven` does not occur in the article"
+ ],
  "gaps_left": [],
  "dropped": [],
  "fix_rounds": 0,
- "reasks": 0
+ "reasks": 1
 }

@@ -22,7 +22,7 @@ He argues **toward** this more than from it: it behaves like a conclusion.
 ## Argued together with
 
 - **country**: [[us]] (8), [[china]] (6), [[euro-area]] (2), [[ireland]] (2)
-- **data_basis**: [[balance-of-payments]] (9), [[academic-econometrics]] (1), [[imf-publications]] (1), [[customs]] (1)
+- **data_basis**: [[balance-of-payments]] (9), [[academic-econometrics]] (1), [[imf-publications]] (1)
 
 ## Claims by role
 
@@ -50,7 +50,7 @@ He argues **toward** this more than from it: it behaves like a conclusion.
 ### caveat (2)
 
 - **2024-08** [[The income line carries no detail, so this cannot be checked from outside]] · _China's Imaginary Trade Data_
-- **2026-10** [[China's surplus is now less masked in balance of payments data, though problems remain]] · _What’s the Renminbi Got to Do With it?_
+- **2026-10** [[China's BoP data are less distorted than in 2023-24, but problems remain in investment]] · _What’s the Renminbi Got to Do With it?_
 
 ### evidence_source (1)
 
