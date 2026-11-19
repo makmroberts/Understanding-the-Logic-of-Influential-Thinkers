@@ -1,0 +1,3382 @@
+{
+ "schema_version": "0.1-draft",
+ "article": {
+  "id": "setser_2026-08-02_the-world-should-not-ignore-chinas-obviously-undervalued-currency",
+  "title": "The World Should Not Ignore China’s Undervalued Currency",
+  "authors": [
+   "Brad W. Setser"
+  ],
+  "published_date": "2026-08-02",
+  "url": "https://www.cfr.org/articles/the-world-should-not-ignore-chinas-obviously-undervalued-currency",
+  "publisher": "Council on Foreign Relations",
+  "series": "Follow the Money",
+  "source_text": {
+   "path": "internal/extracted/2026-08-02_the-world-should-not-ignore-chinas-obviously-undervalued-currency.md",
+   "paragraph_count": 68,
+   "content_hash": "sha256:52df0c232ac3ddf2865eb166ef5a1e46fb9645fac506cecf8210841dc57c1078",
+   "revision": 1
+  },
+  "references": [
+   {
+    "id": "r001",
+    "paragraph_id": "p2",
+    "char_start": 0,
+    "char_end": 56,
+    "label": "If adjustments are made for China’s surging gold imports",
+    "href": "https://www.cfr.org/articles/is-chinas-surplus-really-shrinking",
+    "kind": "hyperlink",
+    "placement": "body",
+    "source_key": "https://cfr.org/articles/is-chinas-surplus-really-shrinking",
+    "host": "cfr.org",
+    "target_article_id": null
+   },
+   {
+    "id": "r002",
+    "paragraph_id": "p7",
+    "char_start": 565,
+    "char_end": 645,
+    "label": "the gap between its current level and where it should be has become quite large.",
+    "href": "https://paulkrugman.substack.com/p/chinas-trade-surplus-part-ii",
+    "kind": "hyperlink",
+    "placement": "body",
+    "source_key": "https://paulkrugman.substack.com/p/chinas-trade-surplus-part-ii",
+    "host": "paulkrugman.substack.com",
+    "target_article_id": null
+   },
+   {
+    "id": "r003",
+    "paragraph_id": "p8",
+    "char_start": 238,
+    "char_end": 318,
+    "label": "argue that the world shouldn’t press China to change how it manages its currency",
+    "href": "https://www.economist.com/by-invitation/2026/07/28/dont-blame-global-imbalances-on-the-undervalued-yuan",
+    "kind": "hyperlink",
+    "placement": "body",
+    "source_key": "https://economist.com/by-invitation/2026/07/28/dont-blame-global-imbalances-on-the-undervalued-yuan",
+    "host": "economist.com",
+    "target_article_id": null
+   },
+   {
+    "id": "r004",
+    "paragraph_id": "p13",
+    "char_start": 116,
+    "char_end": 123,
+    "label": "Europe,",
+    "href": "https://www.cer.eu/publications/archive/policy-brief/2026/china-shock-20-cost-germanys-complacency",
+    "kind": "hyperlink",
+    "placement": "body",
+    "source_key": "https://cer.eu/publications/archive/policy-brief/2026/china-shock-20-cost-germanys-complacency",
+    "host": "cer.eu",
+    "target_article_id": null
+   },
+   {
+    "id": "r005",
+    "paragraph_id": "p33",
+    "char_start": 149,
+    "char_end": 178,
+    "label": "highlighted this back in 2011",
+    "href": "https://archive.nytimes.com/krugman.blogs.nytimes.com/2011/12/24/exchange-rates-and-wages/",
+    "kind": "hyperlink",
+    "placement": "body",
+    "source_key": "https://archive.nytimes.com/krugman.blogs.nytimes.com/2011/12/24/exchange-rates-and-wages",
+    "host": "archive.nytimes.com",
+    "target_article_id": null
+   },
+   {
+    "id": "r006",
+    "paragraph_id": "p38",
+    "char_start": 113,
+    "char_end": 123,
+    "label": "this blog.",
+    "href": "https://www.cfr.org/articles/china-needs-more-progressive-taxes-and-more-spending-public-health",
+    "kind": "hyperlink",
+    "placement": "body",
+    "source_key": "https://cfr.org/articles/china-needs-more-progressive-taxes-and-more-spending-public-health",
+    "host": "cfr.org",
+    "target_article_id": null
+   },
+   {
+    "id": "r007",
+    "paragraph_id": "p41",
+    "char_start": 274,
+    "char_end": 285,
+    "label": "Ask Germany",
+    "href": "https://www.cer.eu/publications/archive/policy-brief/2026/china-shock-20-cost-germanys-complacency",
+    "kind": "hyperlink",
+    "placement": "body",
+    "source_key": "https://cer.eu/publications/archive/policy-brief/2026/china-shock-20-cost-germanys-complacency",
+    "host": "cer.eu",
+    "target_article_id": null
+   },
+   {
+    "id": "r008",
+    "paragraph_id": "p48",
+    "char_start": 254,
+    "char_end": 327,
+    "label": "China opted for renewed appreciation in 2011 rather than risk legislation",
+    "href": "https://www.epi.org/blog/currency-legislation-lead-trade-war-china/",
+    "kind": "hyperlink",
+    "placement": "body",
+    "source_key": "https://epi.org/blog/currency-legislation-lead-trade-war-china",
+    "host": "epi.org",
+    "target_article_id": null
+   },
+   {
+    "id": "r009",
+    "paragraph_id": "p49",
+    "char_start": 405,
+    "char_end": 422,
+    "label": "the big Mac index",
+    "href": "https://www.economist.com/interactive/big-mac-index",
+    "kind": "hyperlink",
+    "placement": "body",
+    "source_key": "https://economist.com/interactive/big-mac-index",
+    "host": "economist.com",
+    "target_article_id": null
+   },
+   {
+    "id": "r010",
+    "paragraph_id": "p50",
+    "char_start": 0,
+    "char_end": 29,
+    "label": "Gopinath, Gourinchas, and Rey",
+    "href": "https://www.economist.com/by-invitation/2026/07/28/dont-blame-global-imbalances-on-the-undervalued-yuan",
+    "kind": "hyperlink",
+    "placement": "body",
+    "source_key": "https://economist.com/by-invitation/2026/07/28/dont-blame-global-imbalances-on-the-undervalued-yuan",
+    "host": "economist.com",
+    "target_article_id": null
+   },
+   {
+    "id": "r011",
+    "paragraph_id": "p59",
+    "char_start": 143,
+    "char_end": 216,
+    "label": "have noted that a weak real exchange rate is a core feature of Xi’s China",
+    "href": "https://www.ifri.org/en/memos/transfer-paradox-rethinking-global-imbalances",
+    "kind": "hyperlink",
+    "placement": "body",
+    "source_key": "https://ifri.org/en/memos/transfer-paradox-rethinking-global-imbalances",
+    "host": "ifri.org",
+    "target_article_id": null
+   },
+   {
+    "id": "r012",
+    "paragraph_id": "p64",
+    "char_start": 201,
+    "char_end": 218,
+    "label": "2025 staff report",
+    "href": "https://www.imf.org/en/publications/cr/issues/2026/02/17/peoples-republic-of-china-2025-article-iv-consultation-press-release-staff-report-and-574028",
+    "kind": "hyperlink",
+    "placement": "footnote",
+    "source_key": "https://imf.org/en/publications/cr/issues/2026/02/17/peoples-republic-of-china-2025-article-iv-consultation-press-release-staff-report-and-574028",
+    "host": "imf.org",
+    "target_article_id": null
+   },
+   {
+    "id": "r013",
+    "paragraph_id": "p64",
+    "char_start": 270,
+    "char_end": 275,
+    "label": "blogs",
+    "href": "https://www.cfr.org/articles/the-pboc-the-state-banks-and-backdoor-intervention",
+    "kind": "hyperlink",
+    "placement": "footnote",
+    "source_key": "https://cfr.org/articles/the-pboc-the-state-banks-and-backdoor-intervention",
+    "host": "cfr.org",
+    "target_article_id": null
+   },
+   {
+    "id": "r014",
+    "paragraph_id": "p64",
+    "char_start": 279,
+    "char_end": 288,
+    "label": "the issue",
+    "href": "https://www.cfr.org/articles/scaling-chinas-hidden-intervention-in-the-foreign-exchange-market",
+    "kind": "hyperlink",
+    "placement": "footnote",
+    "source_key": "https://cfr.org/articles/scaling-chinas-hidden-intervention-in-the-foreign-exchange-market",
+    "host": "cfr.org",
+    "target_article_id": null
+   },
+   {
+    "id": "r015",
+    "paragraph_id": "p64",
+    "char_start": 459,
+    "char_end": 484,
+    "label": "SAFE’s 2020 annual report",
+    "href": "https://www.safe.gov.cn/en/AnnualReport/index.html",
+    "kind": "hyperlink",
+    "placement": "footnote",
+    "source_key": "https://safe.gov.cn/en/annualreport/index.html",
+    "host": "safe.gov.cn",
+    "target_article_id": null
+   },
+   {
+    "id": "r016",
+    "paragraph_id": "p65",
+    "char_start": 3,
+    "char_end": 168,
+    "label": "Tooze would say that the stakes of China’s industrial policy shock are “nothing less than a complete transformation of industrial division of labour at world scale.”",
+    "href": "https://adamtooze.substack.com/p/chartbook-462-china-shocked-beyond",
+    "kind": "hyperlink",
+    "placement": "footnote",
+    "source_key": "https://adamtooze.substack.com/p/chartbook-462-china-shocked-beyond",
+    "host": "adamtooze.substack.com",
+    "target_article_id": null
+   },
+   {
+    "id": "r017",
+    "paragraph_id": "p68",
+    "char_start": 259,
+    "char_end": 294,
+    "label": "an important 2023 IMF working paper",
+    "href": "https://www.imf.org/en/publications/wp/issues/2023/08/02/fiscal-policy-and-the-government-balance-sheet-in-china-536273",
+    "kind": "hyperlink",
+    "placement": "footnote",
+    "source_key": "https://imf.org/en/publications/wp/issues/2023/08/02/fiscal-policy-and-the-government-balance-sheet-in-china-536273",
+    "host": "imf.org",
+    "target_article_id": null
+   }
+  ],
+  "metadata_extension": {
+   "field_sources": {
+    "title": "frontmatter",
+    "authors": "frontmatter",
+    "published_date": "frontmatter",
+    "url": "frontmatter",
+    "publisher": "frontmatter",
+    "series": "frontmatter"
+   },
+   "references_status": "preserved",
+   "links_hash": "sha256:1a832082dd5b2688e056d812603cb9f7e2bc9d16ba7e760934e04ed83ef6b657",
+   "subtitle": "A weak renminbi directly led to China’s latest export boom, and a stronger renminbi is the only realistic cure.",
+   "published_at": "2026-08-02T12:46:21-04:00",
+   "programs": [
+    "Follow the Money",
+    "Greenberg Center for Geoeconomics"
+   ],
+   "source_tags": [
+    "China",
+    "Economics"
+   ],
+   "license": "CC BY-NC-ND 4.0",
+   "section": "Article",
+   "doc_type": "AnalysisNewsArticle",
+   "language": "en",
+   "word_count": 3824,
+   "date_modified": "2026-08-02",
+   "retrieved_at": "2026-10-30T14:59:30Z",
+   "page_sha256": "4a78c78d20a0751d60622427ab46988ab82b657578015a81bd0a96836707213f",
+   "figures": [],
+   "source_record": "the-world-should-not-ignore-chinas-obviously-undervalued-currency"
+  }
+ },
+ "annotation": {
+  "annotated_at": "2026-11-19T03:53:36+00:00",
+  "ontology": {
+   "id": "setser_argument",
+   "version": 3
+  },
+  "facets_version": 1,
+  "pipeline_version": "bf36db8",
+  "status": "needs_review",
+  "runs": [
+   {
+    "run_id": "claude-opus-5.5_boxes",
+    "stage": "boxes",
+    "method": "llm",
+    "model": "anthropic/claude-opus-5.5",
+    "parameters": {
+     "max_tokens": 16000,
+     "reasoning_effort": "medium"
+    },
+    "timestamp": "2026-11-19T03:53:36+00:00",
+    "calls": 1,
+    "cost_usd": 0.153
+   },
+   {
+    "run_id": "claude-opus-5.5_links",
+    "stage": "links",
+    "method": "llm",
+    "model": "anthropic/claude-opus-5.5",
+    "parameters": {
+     "max_tokens": 12000,
+     "reasoning_effort": "medium"
+    },
+    "timestamp": "2026-11-19T03:53:36+00:00",
+    "calls": 1,
+    "cost_usd": 0.06342
+   },
+   {
+    "run_id": "claude-opus-5.5_facets",
+    "stage": "facets",
+    "method": "llm",
+    "model": "anthropic/claude-opus-5.5",
+    "parameters": {
+     "max_tokens": 12000,
+     "reasoning_effort": "low"
+    },
+    "timestamp": "2026-11-19T03:53:36+00:00",
+    "calls": 1,
+    "cost_usd": 0.06808
+   }
+  ]
+ },
+ "summary": {
+  "central_question": "Should the world press China to let its undervalued currency appreciate, or wait for Chinese domestic reforms to rebalance?",
+  "main_thesis": "China's deeply undervalued currency matters and should not be ignored; appreciation is an effective, needed tool, and waiting for domestic reform alone risks continued inaction and a growing China shock.",
+  "argument_summary": null
+ },
+ "nodes": [
+  {
+   "id": "n001",
+   "legacy_id": "Q",
+   "role": "question",
+   "level": "L0",
+   "content": {
+    "text": "Should the world press China to let its undervalued currency appreciate, or wait for Chinese domestic reforms to rebalance?",
+    "label": null,
+    "explicit": false,
+    "reason": "A large persistent surplus raises the question of which policy lever should be used to correct it."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p7",
+      "paragraph_sha256": "sha256:01837b502d70bdc8eeb7eb9875bfd88452c09285fa89172d3b03118c7d2258ba",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     },
+     {
+      "paragraph_id": "p8",
+      "paragraph_sha256": "sha256:20cd3dbe4052619a4c6b225ed71abd6cba453fd718f7b96b5a4c454db6fbf4c2",
+      "relation": "states",
+      "link_method": "llm_citation",
+      "anchor_grade": "excerpt",
+      "review_status": "pending",
+      "source_excerpt": "argue that the world shouldn’t press China to change how it manages its currency.",
+      "source_spans": [
+       {
+        "char_start": 238,
+        "char_end": 319
+       }
+      ]
+     },
+     {
+      "paragraph_id": "p63",
+      "paragraph_sha256": "sha256:fc31ecefc437a9e5ab6976c2059a16090f16c88438c43625707bbb56518154c8",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "real-exchange-rate",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     },
+     {
+      "term": "current-account",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [
+     {
+      "term": "china",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     }
+    ],
+    "bloc": [],
+    "instrument": [
+     {
+      "term": "fx-intervention",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     },
+     {
+      "term": "structural-reform",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "data_basis": []
+   },
+   "attributes": {},
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "n002",
+   "legacy_id": "E1",
+   "role": "evidence_data",
+   "level": "L2",
+   "content": {
+    "text": "China's reported surplus implies about 20 percent undervaluation by the IMF's own model, and adjusted for gold and investment income, 30-35 percent.",
+    "label": null,
+    "explicit": true,
+    "reason": "An external surplus above its norm signals an undervalued real exchange rate."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p1",
+      "paragraph_sha256": "sha256:5a7afa08d3b153ca0f6681a28ef75c8be226f525ce2b1d3fa0a5aa9d996ee217",
+      "relation": "states",
+      "link_method": "llm_citation",
+      "anchor_grade": "excerpt",
+      "review_status": "pending",
+      "source_excerpt": "China’s current account surplus is now reported to be around 4 percent of GDP—or 3 percentage points higher than what the IMF estimates it should be. That works out, using the IMF’s own calculations, to an undervaluation of roughly 20 percent.",
+      "source_spans": [
+       {
+        "char_start": 0,
+        "char_end": 243
+       }
+      ]
+     },
+     {
+      "paragraph_id": "p2",
+      "paragraph_sha256": "sha256:494a79485bc99fc6da9634e8d70c4ff9fdf2621b5edfeaa14c07c539f7a2ae7f",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     },
+     {
+      "paragraph_id": "p53",
+      "paragraph_sha256": "sha256:13ec4bc91277993e9832a3a8485dee439f8009ce7824481a48c283267527952b",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "real-exchange-rate",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     },
+     {
+      "term": "current-account",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [
+     {
+      "term": "china",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     }
+    ],
+    "bloc": [],
+    "instrument": [],
+    "data_basis": [
+     {
+      "term": "imf-publications",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ]
+   },
+   "attributes": {},
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "n003",
+   "legacy_id": "SC",
+   "role": "source_credibility",
+   "level": "L1",
+   "content": {
+    "text": "China's reported investment income deficit despite large net foreign assets is misreported, so the true surplus is larger.",
+    "label": null,
+    "explicit": true,
+    "reason": "Distrust official figures that cannot be reconciled with known asset positions or independently verified."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p2",
+      "paragraph_sha256": "sha256:494a79485bc99fc6da9634e8d70c4ff9fdf2621b5edfeaa14c07c539f7a2ae7f",
+      "relation": "states",
+      "link_method": "llm_citation",
+      "anchor_grade": "excerpt",
+      "review_status": "pending",
+      "source_excerpt": "China reports a deficit of $125 billion on $4 trillion in net assets, something that no one—the IMF included—can explain",
+      "source_spans": [
+       {
+        "char_start": 141,
+        "char_end": 261
+       }
+      ]
+     },
+     {
+      "paragraph_id": "p53",
+      "paragraph_sha256": "sha256:13ec4bc91277993e9832a3a8485dee439f8009ce7824481a48c283267527952b",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "investment-income-balance",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     },
+     {
+      "term": "current-account",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [
+     {
+      "term": "china",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     }
+    ],
+    "bloc": [],
+    "instrument": [],
+    "data_basis": [
+     {
+      "term": "balance-of-payments",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ]
+   },
+   "attributes": {},
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": [
+     "links: `P1` supports `SC` joins L1→L1, which no hand-drawn supports link does"
+    ]
+   }
+  },
+  {
+   "id": "n004",
+   "legacy_id": "P1",
+   "role": "stated_assumption",
+   "level": "L1",
+   "content": {
+    "text": "Accumulated surpluses should generate net foreign assets that earn positive investment income.",
+    "label": null,
+    "explicit": true,
+    "reason": "Net creditors normally earn net income on their external assets."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p2",
+      "paragraph_sha256": "sha256:494a79485bc99fc6da9634e8d70c4ff9fdf2621b5edfeaa14c07c539f7a2ae7f",
+      "relation": "states",
+      "link_method": "llm_citation",
+      "anchor_grade": "excerpt",
+      "review_status": "pending",
+      "source_excerpt": "a long history of surpluses should lead to a positive net foreign asset position and thus external investment income (as in Korea, Taiwan, and Japan).",
+      "source_spans": [
+       {
+        "char_start": 610,
+        "char_end": 760
+       }
+      ]
+     },
+     {
+      "paragraph_id": "p53",
+      "paragraph_sha256": "sha256:13ec4bc91277993e9832a3a8485dee439f8009ce7824481a48c283267527952b",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "investment-income-balance",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     },
+     {
+      "term": "net-external-debt",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [],
+    "bloc": [],
+    "instrument": [],
+    "data_basis": []
+   },
+   "attributes": {},
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": [
+     "links: `P1` supports `SC` joins L1→L1, which no hand-drawn supports link does",
+     "facets: `setser_2026-08-02_the-world-should-not-ignore-chinas-obviously-undervalued-currency#P1` where_subject empty - every claim needs a country or a bloc (assignment.requires_one_of) - needs review"
+    ]
+   }
+  },
+  {
+   "id": "n005",
+   "legacy_id": "E2",
+   "role": "evidence_data",
+   "level": "L2",
+   "content": {
+    "text": "The PBOC controls the yuan through the daily fix and state-bank FX purchases of about $50 billion a month, under a largely closed financial account.",
+    "label": null,
+    "explicit": true,
+    "reason": "A government that sets the midpoint and intervenes at scale determines its exchange rate."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p3",
+      "paragraph_sha256": "sha256:b3a0cea14a8c5c6a6498a9524e5ec3fd1a430e1aa9e6a11c3dddfab401b654ae",
+      "relation": "states",
+      "link_method": "llm_citation",
+      "anchor_grade": "excerpt",
+      "review_status": "pending",
+      "source_excerpt": "The yuan, in other words, goes where the PBOC wants it to go.",
+      "source_spans": [
+       {
+        "char_start": 514,
+        "char_end": 575
+       }
+      ]
+     },
+     {
+      "paragraph_id": "p4",
+      "paragraph_sha256": "sha256:c66e8ca586885d85d93c46a4f5fd19d1a98cb8fcd12ee7bc1753a8b1f26c1b34",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     },
+     {
+      "paragraph_id": "p5",
+      "paragraph_sha256": "sha256:b4f2832e6fdf22b4de52dc3f9688d35c277611142aa57ad66dfea598938f93d3",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     },
+     {
+      "paragraph_id": "p6",
+      "paragraph_sha256": "sha256:51f99d6ae052e466d231fd8bb089e2b326eca91249117aa1f3730b974db57c7d",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     },
+     {
+      "paragraph_id": "p60",
+      "paragraph_sha256": "sha256:9db2e8b3ec660d018d253d3f8cc2ad3d39dae7eb3c2fcc72ff1d92ab62f39db5",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "nominal-exchange-rate",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     },
+     {
+      "term": "fx-reserves",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [
+     {
+      "term": "china",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     }
+    ],
+    "bloc": [],
+    "instrument": [
+     {
+      "term": "fx-intervention",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     },
+     {
+      "term": "capital-controls",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "data_basis": []
+   },
+   "attributes": {},
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "n006",
+   "legacy_id": "X",
+   "role": "opposing_view",
+   "level": "L6",
+   "content": {
+    "text": "Gopinath, Gourinchas and Rey argue that exchange rate moves matter little, that nominal appreciation would be offset by deflation, and that the world should wait for China to boost domestic demand.",
+    "label": null,
+    "explicit": true,
+    "reason": "Rebut the strongest expert case for inaction."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p8",
+      "paragraph_sha256": "sha256:20cd3dbe4052619a4c6b225ed71abd6cba453fd718f7b96b5a4c454db6fbf4c2",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     },
+     {
+      "paragraph_id": "p9",
+      "paragraph_sha256": "sha256:12b6f0765752cd5339292e9090845c4f4e418175c8fc50cea2a1ef1920b9970a",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     },
+     {
+      "paragraph_id": "p14",
+      "paragraph_sha256": "sha256:0e86545408788245a5684be57fb4da530d2f02ed00f8948829e3e463c0d21c9d",
+      "relation": "states",
+      "link_method": "llm_citation",
+      "anchor_grade": "excerpt",
+      "review_status": "pending",
+      "source_excerpt": "Gopinath, Gourinchas, and Rey",
+      "source_spans": [
+       {
+        "char_start": 64,
+        "char_end": 93
+       }
+      ]
+     },
+     {
+      "paragraph_id": "p37",
+      "paragraph_sha256": "sha256:b5287c6c1c1c25ee96955a01f2fcd4925a01a91fa253ccc0aebf68ba3b7b306d",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "real-exchange-rate",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     },
+     {
+      "term": "price-level",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     },
+     {
+      "term": "domestic-demand",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [
+     {
+      "term": "china",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     }
+    ],
+    "bloc": [],
+    "instrument": [],
+    "data_basis": []
+   },
+   "attributes": {},
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": [
+     "passages: `X`: the team's passage linker anchors it to p36 (shared: gopinath gourinchas rey), which the box does not cite",
+     "passages: `X`: the team's passage linker anchors it to p44 (shared: gopinath gourinchas rey), which the box does not cite",
+     "passages: `X`: the team's passage linker anchors it to p50 (shared: gopinath gourinchas rey), which the box does not cite",
+     "passages: `X`: the team's passage linker anchors it to p58 (shared: gopinath gourinchas rey), which the box does not cite",
+     "passages: `X`: the team's passage linker anchors it to p66 (shared: gopinath), which the box does not cite"
+    ]
+   }
+  },
+  {
+   "id": "n007",
+   "legacy_id": "C1",
+   "role": "intermediate_claim",
+   "level": "L4",
+   "content": {
+    "text": "Waiting is costly because China's model depends on an ever-growing surplus, displacing traded-goods production abroad and concentrating industry in China.",
+    "label": null,
+    "explicit": true,
+    "reason": "Growth driven by net exports requires a continually expanding trade surplus."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p10",
+      "paragraph_sha256": "sha256:56d7302662bc7cdcce35942ec06f48c34bbc7f5db590c6dccbeb229abd051f37",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     },
+     {
+      "paragraph_id": "p11",
+      "paragraph_sha256": "sha256:16cdb23319c3d9b909760e7294d2c0e5b99f886bf975ef95e231c46fea13dc30",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     },
+     {
+      "paragraph_id": "p12",
+      "paragraph_sha256": "sha256:ac28a82e0f4808e2725100f368d5db6c6631144388c0fe9566e75848d7b7b2ef",
+      "relation": "states",
+      "link_method": "llm_citation",
+      "anchor_grade": "excerpt",
+      "review_status": "pending",
+      "source_excerpt": "the status quo is one where China relies on an increasing surplus to make up for the ongoing weakness of its own internal economy.",
+      "source_spans": [
+       {
+        "char_start": 72,
+        "char_end": 202
+       }
+      ]
+     },
+     {
+      "paragraph_id": "p13",
+      "paragraph_sha256": "sha256:e4fc88def2cd082081591ed9cc8bdb6ac019c74f90a14a1fa23bb55c95b78cdc",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     },
+     {
+      "paragraph_id": "p62",
+      "paragraph_sha256": "sha256:7d9d57af6da51c3db3a657520660298685f27cef029be96bc7ea7a8a0316c62d",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "current-account",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     },
+     {
+      "term": "manufacturing-output",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [
+     {
+      "term": "china",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     }
+    ],
+    "bloc": [],
+    "instrument": [],
+    "data_basis": []
+   },
+   "attributes": {},
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "n008",
+   "legacy_id": "E3",
+   "role": "evidence_data",
+   "level": "L2",
+   "content": {
+    "text": "The PBOC allowed the 2022-23 depreciation of 10-15 percent against the dollar, and with Chinese deflation versus Western inflation it became a real depreciation.",
+    "label": null,
+    "explicit": true,
+    "reason": "Under divergent inflation, a nominal depreciation translates nearly fully into a real one."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p16",
+      "paragraph_sha256": "sha256:dca31e1f3b514eef41542cef1a38d190cc61113a97ebfc938054b5985b3f9e00",
+      "relation": "states",
+      "link_method": "llm_citation",
+      "anchor_grade": "excerpt",
+      "review_status": "pending",
+      "source_excerpt": "That nominal move would not have happened without the tacit support of the PBOC.",
+      "source_spans": [
+       {
+        "char_start": 135,
+        "char_end": 215
+       }
+      ]
+     },
+     {
+      "paragraph_id": "p17",
+      "paragraph_sha256": "sha256:b3d160620a9e7930d4f183c684811a0928e427e2327cd86bea5086a052af1407",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     },
+     {
+      "paragraph_id": "p18",
+      "paragraph_sha256": "sha256:2a6f95e8eeaa9cd402bb3f77dc66f3ff1af564e34ccd654de338000881cab1b4",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "nominal-exchange-rate",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     },
+     {
+      "term": "real-exchange-rate",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     },
+     {
+      "term": "price-level",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [
+     {
+      "term": "china",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     }
+    ],
+    "bloc": [],
+    "instrument": [
+     {
+      "term": "fx-intervention",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "data_basis": []
+   },
+   "attributes": {},
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": [
+     "boxes: `E3` the name `western` does not occur in the article"
+    ]
+   }
+  },
+  {
+   "id": "n009",
+   "legacy_id": "P2",
+   "role": "stated_assumption",
+   "level": "L1",
+   "content": {
+    "text": "Productivity catch-up implies a trend real appreciation, so depreciation relative to trend has a bigger effect.",
+    "label": null,
+    "explicit": true,
+    "reason": "Converging economies should see their real exchange rates rise over time."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p7",
+      "paragraph_sha256": "sha256:01837b502d70bdc8eeb7eb9875bfd88452c09285fa89172d3b03118c7d2258ba",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     },
+     {
+      "paragraph_id": "p19",
+      "paragraph_sha256": "sha256:e269c292dff5cf96b242f81f58603d8221b603ac2f2e4a414cce28bc25d5d0c7",
+      "relation": "states",
+      "link_method": "llm_citation",
+      "anchor_grade": "excerpt",
+      "review_status": "pending",
+      "source_excerpt": "China’s convergence in manufacturing productivity with the advanced economies should result in a real appreciation.",
+      "source_spans": [
+       {
+        "char_start": 104,
+        "char_end": 219
+       }
+      ]
+     },
+     {
+      "paragraph_id": "p53",
+      "paragraph_sha256": "sha256:13ec4bc91277993e9832a3a8485dee439f8009ce7824481a48c283267527952b",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "real-exchange-rate",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [
+     {
+      "term": "china",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     }
+    ],
+    "bloc": [],
+    "instrument": [],
+    "data_basis": []
+   },
+   "attributes": {},
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "n010",
+   "legacy_id": "BM",
+   "role": "benchmark",
+   "level": "L1B",
+   "content": {
+    "text": "The IMF's standard model predicts a 10 percent currency move shifts net exports by 1.5 pp of GDP.",
+    "label": null,
+    "explicit": true,
+    "reason": "Compare observed outcomes to established elasticity estimates."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p19",
+      "paragraph_sha256": "sha256:e269c292dff5cf96b242f81f58603d8221b603ac2f2e4a414cce28bc25d5d0c7",
+      "relation": "states",
+      "link_method": "llm_citation",
+      "anchor_grade": "excerpt",
+      "review_status": "pending",
+      "source_excerpt": "the IMF’s standard exchange rate model suggests a 10 percent move in China’s currency should lead to a 1.5 percentage point increase in net exports",
+      "source_spans": [
+       {
+        "char_start": 282,
+        "char_end": 429
+       }
+      ]
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "trade-elasticity",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     },
+     {
+      "term": "real-exchange-rate",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [],
+    "bloc": [],
+    "instrument": [],
+    "data_basis": [
+     {
+      "term": "imf-publications",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ]
+   },
+   "attributes": {},
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": [
+     "facets: `setser_2026-08-02_the-world-should-not-ignore-chinas-obviously-undervalued-currency#BM` where_subject empty - every claim needs a country or a bloc (assignment.requires_one_of) - needs review",
+     "passages: `BM`: the team's passage linker anchors it to p20 (shared: 1.5pp), which the box does not cite",
+     "passages: `BM`: the team's passage linker anchors it to p43 (shared: 1.5pp), which the box does not cite"
+    ]
+   }
+  },
+  {
+   "id": "n011",
+   "legacy_id": "E4",
+   "role": "evidence_data",
+   "level": "L2",
+   "content": {
+    "text": "Chinese exports accelerated 4-5 quarters after the depreciation, with net exports contributing 1.5 pp to growth in 2024 and 2025, matching the model.",
+    "label": null,
+    "explicit": true,
+    "reason": "Outcomes that match a model's lagged prediction support the model."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p20",
+      "paragraph_sha256": "sha256:0ab06ca64c4f77d6c5c5a0fa8e13fa49e65e20e8f18e491628e36b6b2bc66664",
+      "relation": "states",
+      "link_method": "llm_citation",
+      "anchor_grade": "excerpt",
+      "review_status": "pending",
+      "source_excerpt": "That acceleration then shows up as 1.5 pp contribution from net exports to China’s growth in both 2024 and 2025.",
+      "source_spans": [
+       {
+        "char_start": 149,
+        "char_end": 261
+       }
+      ]
+     },
+     {
+      "paragraph_id": "p21",
+      "paragraph_sha256": "sha256:29e2d2efa8ab4310bc7928745b4121b61733a04751c7ec66d5962cc1369251f2",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     },
+     {
+      "paragraph_id": "p24",
+      "paragraph_sha256": "sha256:670cf9a1fd6edcfc3769b304fa9348221ae06c4456bcfe52284e3a4bd5ca2621",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     },
+     {
+      "paragraph_id": "p26",
+      "paragraph_sha256": "sha256:621b68b1deb68bfe9e7f6b8bafa34f8e068f7b4863368a6c3a37f4723e25a10f",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "export-volumes",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     },
+     {
+      "term": "gdp-growth",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [
+     {
+      "term": "china",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     }
+    ],
+    "bloc": [],
+    "instrument": [],
+    "data_basis": [
+     {
+      "term": "national-accounts",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ]
+   },
+   "attributes": {},
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": [
+     "passages: `E4`: the team's passage linker anchors it to p43 (shared: 1.5pp), which the box does not cite"
+    ]
+   }
+  },
+  {
+   "id": "n012",
+   "legacy_id": "M1",
+   "role": "mechanism",
+   "level": "L3",
+   "content": {
+    "text": "A weaker currency makes exports cheaper and boosts export growth after a lag of a year or more.",
+    "label": null,
+    "explicit": true,
+    "reason": "Trade volumes respond to relative prices with a lag."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p21",
+      "paragraph_sha256": "sha256:29e2d2efa8ab4310bc7928745b4121b61733a04751c7ec66d5962cc1369251f2",
+      "relation": "states",
+      "link_method": "llm_citation",
+      "anchor_grade": "excerpt",
+      "review_status": "pending",
+      "source_excerpt": "exchange rate changes do matter, and they have their biggest impact with a lag.",
+      "source_spans": [
+       {
+        "char_start": 77,
+        "char_end": 156
+       }
+      ]
+     },
+     {
+      "paragraph_id": "p24",
+      "paragraph_sha256": "sha256:670cf9a1fd6edcfc3769b304fa9348221ae06c4456bcfe52284e3a4bd5ca2621",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     },
+     {
+      "paragraph_id": "p46",
+      "paragraph_sha256": "sha256:9e563443aa44083252e59e3ad99a96f6f08ad4828e437367d027bea9fa382349",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "export-volumes",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     },
+     {
+      "term": "real-exchange-rate",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [],
+    "bloc": [],
+    "instrument": [],
+    "data_basis": []
+   },
+   "attributes": {
+    "kind": "economic"
+   },
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": [
+     "facets: `setser_2026-08-02_the-world-should-not-ignore-chinas-obviously-undervalued-currency#M1` where_subject empty - every claim needs a country or a bloc (assignment.requires_one_of) - needs review"
+    ]
+   }
+  },
+  {
+   "id": "n013",
+   "legacy_id": "ANOM",
+   "role": "anomaly",
+   "level": "L0",
+   "content": {
+    "text": "The IMF forecast that China's surplus would shrink, but it grew instead because the forecasts ignored the real depreciation.",
+    "label": null,
+    "explicit": true,
+    "reason": "Forecasts that ignore exchange rate moves will miss the trade adjustment."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p22",
+      "paragraph_sha256": "sha256:967d99a8d89c2582d0af0216b7e29644f7aafda11319cfabc8f0e4e1c0626932",
+      "relation": "states",
+      "link_method": "llm_citation",
+      "anchor_grade": "excerpt",
+      "review_status": "pending",
+      "source_excerpt": "In 2022, 2023, and again in 2024, the IMF’s official forecast for China showed that China’s external surplus would shrink, not rise, over time",
+      "source_spans": [
+       {
+        "char_start": 169,
+        "char_end": 311
+       }
+      ]
+     },
+     {
+      "paragraph_id": "p23",
+      "paragraph_sha256": "sha256:9a93372f9d297f8ed10656e76e65e6c19431f9ed71dd62c46dda8acb25652231",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "current-account",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     },
+     {
+      "term": "real-exchange-rate",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [
+     {
+      "term": "china",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     }
+    ],
+    "bloc": [],
+    "instrument": [],
+    "data_basis": [
+     {
+      "term": "imf-publications",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ]
+   },
+   "attributes": {},
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "n014",
+   "legacy_id": "R1",
+   "role": "other_explanation",
+   "level": "L6",
+   "content": {
+    "text": "Industrial policy and a domestic market rigged against imports also drove China's export surge.",
+    "label": null,
+    "explicit": true,
+    "reason": "Trade outcomes usually have several contributing causes."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p25",
+      "paragraph_sha256": "sha256:a066599f826f1dd09539060a76f50b5f8b45129a6b9d71822e787290aa934b22",
+      "relation": "states",
+      "link_method": "llm_citation",
+      "anchor_grade": "excerpt",
+      "review_status": "pending",
+      "source_excerpt": "Is “currency” the entire story of the last few years? No, of course not.",
+      "source_spans": [
+       {
+        "char_start": 0,
+        "char_end": 72
+       }
+      ]
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "export-volumes",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     },
+     {
+      "term": "import-volumes",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [
+     {
+      "term": "china",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     }
+    ],
+    "bloc": [],
+    "instrument": [
+     {
+      "term": "industrial-policy",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "data_basis": []
+   },
+   "attributes": {},
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "n015",
+   "legacy_id": "M2",
+   "role": "mechanism",
+   "level": "L3",
+   "content": {
+    "text": "Nominal appreciation produces real appreciation because domestic prices adjust only partially and slowly.",
+    "label": null,
+    "explicit": true,
+    "reason": "Sticky prices mean nominal exchange rate moves pass into real exchange rates."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p28",
+      "paragraph_sha256": "sha256:9f78200ed6a840179d953620708e6a16d91e786d6bd7d4aed699b897b364c310",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     },
+     {
+      "paragraph_id": "p29",
+      "paragraph_sha256": "sha256:a8a5e1c624daec112d639648368defc6b8561ba40b9648a8f54f6e6c1846d4bd",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     },
+     {
+      "paragraph_id": "p30",
+      "paragraph_sha256": "sha256:e7607777881d7d04ae5b01903670eab8db83135a0f763f11d2b1f5d10ea93bed",
+      "relation": "states",
+      "link_method": "llm_citation",
+      "anchor_grade": "excerpt",
+      "review_status": "pending",
+      "source_excerpt": "Exchange rates can move quickly; domestic prices adjust partially and with a long lag. There isn’t an immediate offset.",
+      "source_spans": [
+       {
+        "char_start": 165,
+        "char_end": 284
+       }
+      ]
+     },
+     {
+      "paragraph_id": "p31",
+      "paragraph_sha256": "sha256:032fc72fe6d6cd13dfe1d4b6e63ac5ab75ee5607a30267a83c8970051f9d8949",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     },
+     {
+      "paragraph_id": "p32",
+      "paragraph_sha256": "sha256:49922b60593582eadecf955ef60bce0f9b5ac9af7459602c9955f5691cabb392",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "real-exchange-rate",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     },
+     {
+      "term": "price-level",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [],
+    "bloc": [],
+    "instrument": [],
+    "data_basis": []
+   },
+   "attributes": {
+    "kind": "economic"
+   },
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": [
+     "links: `M2` qualified_by `QF` joins L3→L6, which no hand-drawn qualified_by link does",
+     "facets: `setser_2026-08-02_the-world-should-not-ignore-chinas-obviously-undervalued-currency#M2` where_subject empty - every claim needs a country or a bloc (assignment.requires_one_of) - needs review"
+    ]
+   }
+  },
+  {
+   "id": "n016",
+   "legacy_id": "E5",
+   "role": "evidence_source",
+   "level": "L2",
+   "content": {
+    "text": "Empirical work, highlighted by Krugman, and China's recent data show no deflation offset to nominal moves.",
+    "label": null,
+    "explicit": true,
+    "reason": "Long-standing empirical regularities carry weight against theoretical offsets."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p33",
+      "paragraph_sha256": "sha256:5dba2be7c5c5bb36f2a28bf1b5a1b3a2e57fcecfa6274b10221c992a9aca3cd2",
+      "relation": "states",
+      "link_method": "llm_citation",
+      "anchor_grade": "excerpt",
+      "review_status": "pending",
+      "source_excerpt": "Solid (if old) empirical work has long found that nominal exchange rate moves do result in real exchange rate moves. Krugman highlighted this back in 2011.",
+      "source_spans": [
+       {
+        "char_start": 24,
+        "char_end": 179
+       }
+      ]
+     },
+     {
+      "paragraph_id": "p34",
+      "paragraph_sha256": "sha256:05f3413906c5a148321d691d306c31e43bd8b80df9fb9075149552b12787a1ab",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "price-level",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     },
+     {
+      "term": "real-exchange-rate",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [
+     {
+      "term": "china",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     }
+    ],
+    "bloc": [],
+    "instrument": [],
+    "data_basis": [
+     {
+      "term": "academic-econometrics",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ]
+   },
+   "attributes": {},
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "n017",
+   "legacy_id": "QF",
+   "role": "caveat",
+   "level": "L6",
+   "content": {
+    "text": "The moderation in China's deflation partly reflects higher oil prices, not only the exchange rate.",
+    "label": null,
+    "explicit": true,
+    "reason": "Acknowledge confounding factors in price data."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p34",
+      "paragraph_sha256": "sha256:05f3413906c5a148321d691d306c31e43bd8b80df9fb9075149552b12787a1ab",
+      "relation": "states",
+      "link_method": "llm_citation",
+      "anchor_grade": "excerpt",
+      "review_status": "pending",
+      "source_excerpt": "I fully accept that higher oil prices have had something to do with that.",
+      "source_spans": [
+       {
+        "char_start": 285,
+        "char_end": 358
+       }
+      ]
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "price-level",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     },
+     {
+      "term": "commodity-prices",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [
+     {
+      "term": "china",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     }
+    ],
+    "bloc": [],
+    "instrument": [],
+    "data_basis": []
+   },
+   "attributes": {},
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": [
+     "links: `M2` qualified_by `QF` joins L3→L6, which no hand-drawn qualified_by link does"
+    ]
+   }
+  },
+  {
+   "id": "n018",
+   "legacy_id": "C2",
+   "role": "intermediate_claim",
+   "level": "L4",
+   "content": {
+    "text": "Xi will not adopt household stimulus without external pressure; an appreciation that removed net-export growth would force such choices.",
+    "label": null,
+    "explicit": true,
+    "reason": "Governments change entrenched policy only when the current strategy stops delivering."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p40",
+      "paragraph_sha256": "sha256:875fbfc8010a19e290728859e45813d75a6a51ce4aa870ded0965267f253b3b7",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     },
+     {
+      "paragraph_id": "p41",
+      "paragraph_sha256": "sha256:0198e025e50905b42cc4bbb9b79b38549e9ac429aeefb73d8151af96db2ca65e",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     },
+     {
+      "paragraph_id": "p42",
+      "paragraph_sha256": "sha256:80df861dbec82c1aefccf047c177f4200956775c17d6270cbf508886498d7efd",
+      "relation": "states",
+      "link_method": "llm_citation",
+      "anchor_grade": "excerpt",
+      "review_status": "pending",
+      "source_excerpt": "There is no sign that waiting for President Xi to see the light will lead China to start writing big checks to households any time soon.",
+      "source_spans": [
+       {
+        "char_start": 0,
+        "char_end": 136
+       }
+      ]
+     },
+     {
+      "paragraph_id": "p43",
+      "paragraph_sha256": "sha256:a2a571156f91b7bd886ab759a078521a09592c27837b55dd2f16b17eaa88d0ef",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     },
+     {
+      "paragraph_id": "p44",
+      "paragraph_sha256": "sha256:bbc02454f3b9a4d2c356c0bb7462035c72299bf3c08a8de97592f943c5e5f658",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     },
+     {
+      "paragraph_id": "p61",
+      "paragraph_sha256": "sha256:a201e61f648e21c264da6aca31323a3db28a37ee2b183431ac7606ffdd01c69b",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "household-consumption-share",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     },
+     {
+      "term": "real-exchange-rate",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [
+     {
+      "term": "china",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     }
+    ],
+    "bloc": [],
+    "instrument": [
+     {
+      "term": "fiscal-policy",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "data_basis": []
+   },
+   "attributes": {},
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "n019",
+   "legacy_id": "E6",
+   "role": "evidence_source",
+   "level": "L2",
+   "content": {
+    "text": "Landau and Jean argue the weak real exchange rate is a deliberate feature of Xi's strategy, supporting industrial upgrading without household transfers.",
+    "label": null,
+    "explicit": true,
+    "reason": "A policy that serves a leader's goals will persist unless those goals are challenged."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p59",
+      "paragraph_sha256": "sha256:c5c6d27835fd48e9658bc91792e4331ba92ae6df67d80dc4599e366174627c83",
+      "relation": "states",
+      "link_method": "llm_citation",
+      "anchor_grade": "excerpt",
+      "review_status": "pending",
+      "source_excerpt": "a weak real exchange rate is a core feature of Xi’s China, and not just a by-product of the current cyclical downturn.",
+      "source_spans": [
+       {
+        "char_start": 159,
+        "char_end": 277
+       }
+      ]
+     },
+     {
+      "paragraph_id": "p60",
+      "paragraph_sha256": "sha256:9db2e8b3ec660d018d253d3f8cc2ad3d39dae7eb3c2fcc72ff1d92ab62f39db5",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "real-exchange-rate",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     },
+     {
+      "term": "household-consumption-share",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [
+     {
+      "term": "china",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     }
+    ],
+    "bloc": [],
+    "instrument": [
+     {
+      "term": "industrial-policy",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "data_basis": [
+     {
+      "term": "academic-econometrics",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ]
+   },
+   "attributes": {},
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "n020",
+   "legacy_id": "C3",
+   "role": "intermediate_claim",
+   "level": "L4",
+   "content": {
+    "text": "Exchange rate diplomacy has worked: Plaza reduced imbalances without causing Japan's bubble, and China appreciated under pressure in 2007-08 and 2011.",
+    "label": null,
+    "explicit": true,
+    "reason": "Past episodes of coordinated currency adjustment show the tool can work."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p45",
+      "paragraph_sha256": "sha256:f87fd21b302a30e40139f13f2bfebbea0080ee0bb3de1e82776c01a08746772f",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     },
+     {
+      "paragraph_id": "p46",
+      "paragraph_sha256": "sha256:9e563443aa44083252e59e3ad99a96f6f08ad4828e437367d027bea9fa382349",
+      "relation": "states",
+      "link_method": "llm_citation",
+      "anchor_grade": "excerpt",
+      "review_status": "pending",
+      "source_excerpt": "The Plaza Accords, contrary to the arguments made by the G7 economists, did actually bring down the overall U.S. trade deficit as well as Japan’s surplus.",
+      "source_spans": [
+       {
+        "char_start": 0,
+        "char_end": 154
+       }
+      ]
+     },
+     {
+      "paragraph_id": "p47",
+      "paragraph_sha256": "sha256:ad0ed6886705e97e430c690477bc4031c3c1d6f9d3150d1545e18434f15c21a1",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     },
+     {
+      "paragraph_id": "p48",
+      "paragraph_sha256": "sha256:739fa99c117f6140c808d56a72e6461442f8ce324afa951a64bbbfd89ce87d01",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "nominal-exchange-rate",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     },
+     {
+      "term": "global-imbalances",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [
+     {
+      "term": "japan",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     },
+     {
+      "term": "china",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     }
+    ],
+    "bloc": [],
+    "instrument": [
+     {
+      "term": "fx-intervention",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "data_basis": []
+   },
+   "attributes": {},
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "n021",
+   "legacy_id": "X2",
+   "role": "opposing_view",
+   "level": "L6",
+   "content": {
+    "text": "The view that Plaza caused Japan's bubble is wrong, since Germany appreciated without a bubble and many bubbles have occurred without appreciation.",
+    "label": null,
+    "explicit": true,
+    "reason": "A cause that is neither necessary nor sufficient is a weak explanation."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p47",
+      "paragraph_sha256": "sha256:ad0ed6886705e97e430c690477bc4031c3c1d6f9d3150d1545e18434f15c21a1",
+      "relation": "states",
+      "link_method": "llm_citation",
+      "anchor_grade": "excerpt",
+      "review_status": "pending",
+      "source_excerpt": "the common belief (especially in China) that the Plaza Accords led to Japan’s bubble economy doesn’t stand up to scrutiny.",
+      "source_spans": [
+       {
+        "char_start": 4,
+        "char_end": 126
+       }
+      ]
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "nominal-exchange-rate",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [
+     {
+      "term": "japan",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     },
+     {
+      "term": "germany",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     }
+    ],
+    "bloc": [],
+    "instrument": [],
+    "data_basis": []
+   },
+   "attributes": {},
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": [
+     "passages: `X2`: the team's passage linker anchors it to p46 (shared: plaza), which the box does not cite"
+    ]
+   }
+  },
+  {
+   "id": "n022",
+   "legacy_id": "ID",
+   "role": "accounting_identity",
+   "level": "L1",
+   "content": {
+    "text": "Cutting investment subsidies without raising consumption would enlarge the surplus because the surplus equals savings minus investment.",
+    "label": null,
+    "explicit": true,
+    "reason": "The current account equals national saving minus investment."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p55",
+      "paragraph_sha256": "sha256:242e7e1cf460f862dcd7828f71063aef6f227e396037cbec75c8bd5622d0add6",
+      "relation": "states",
+      "link_method": "llm_citation",
+      "anchor_grade": "excerpt",
+      "review_status": "pending",
+      "source_excerpt": "any reduction in investment relative to savings implies a larger surplus",
+      "source_spans": [
+       {
+        "char_start": 396,
+        "char_end": 468
+       }
+      ]
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "savings-investment-gap",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     },
+     {
+      "term": "investment-capex",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [
+     {
+      "term": "china",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     }
+    ],
+    "bloc": [],
+    "instrument": [
+     {
+      "term": "industrial-policy",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "data_basis": []
+   },
+   "attributes": {},
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "n023",
+   "legacy_id": "C4",
+   "role": "policy_reductio",
+   "level": "L4",
+   "content": {
+    "text": "If the exchange rate is ruled out, closing a surplus of this size would require a fiscal reflation far larger than the IMF's timid 0.5 pp proposal.",
+    "label": null,
+    "explicit": true,
+    "reason": "Rejecting one adjustment tool raises the burden on the remaining tools in proportion to the imbalance."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p52",
+      "paragraph_sha256": "sha256:8ec4a2dc78ef9205dc87a57a713f2f24d3fa977744d8145f7373c14982af4bd0",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     },
+     {
+      "paragraph_id": "p54",
+      "paragraph_sha256": "sha256:5fed99a6e07363b526417b8d70197080c0c9f2162bcc5ceed922635d78a7d73f",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     },
+     {
+      "paragraph_id": "p55",
+      "paragraph_sha256": "sha256:242e7e1cf460f862dcd7828f71063aef6f227e396037cbec75c8bd5622d0add6",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     },
+     {
+      "paragraph_id": "p56",
+      "paragraph_sha256": "sha256:3e05003c6cd20308001f5fc6d3912d08552324307cfa619f90c6dc97d8aed96d",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     },
+     {
+      "paragraph_id": "p57",
+      "paragraph_sha256": "sha256:513c51505132008d3eddb956b395e8ab9d74a732aa4e176021fe0df4c119fa1b",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     },
+     {
+      "paragraph_id": "p58",
+      "paragraph_sha256": "sha256:39d5fdfe7101b082daf20e933167c025e95e942fa14212f6720775dbba50c282",
+      "relation": "states",
+      "link_method": "llm_citation",
+      "anchor_grade": "excerpt",
+      "review_status": "pending",
+      "source_excerpt": "If Gopinath, Gourinchas, and Rey don’t believe exchange rate moves have much of an impact and should not be a priority now, the scale of the needed shift to other policies needs to be ramped up",
+      "source_spans": [
+       {
+        "char_start": 0,
+        "char_end": 193
+       }
+      ]
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "fiscal-impulse",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     },
+     {
+      "term": "current-account",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [
+     {
+      "term": "china",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     }
+    ],
+    "bloc": [],
+    "instrument": [
+     {
+      "term": "fiscal-policy",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "data_basis": [
+     {
+      "term": "imf-publications",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ]
+   },
+   "attributes": {},
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "n024",
+   "legacy_id": "P3",
+   "role": "hidden_assumption",
+   "level": "L1",
+   "content": {
+    "text": "Households will not anticipate future gains and spend more when inefficient investment is cut.",
+    "label": null,
+    "explicit": false,
+    "reason": "Forward-looking consumption responses are weak in practice."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p55",
+      "paragraph_sha256": "sha256:242e7e1cf460f862dcd7828f71063aef6f227e396037cbec75c8bd5622d0add6",
+      "relation": "presupposes",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     },
+     {
+      "paragraph_id": "p56",
+      "paragraph_sha256": "sha256:3e05003c6cd20308001f5fc6d3912d08552324307cfa619f90c6dc97d8aed96d",
+      "relation": "presupposes",
+      "link_method": "llm_citation",
+      "anchor_grade": "excerpt",
+      "review_status": "pending",
+      "source_excerpt": "Maybe, but I personally wouldn’t bet on it. Cutting inefficient property investment didn’t magically spur household consumption",
+      "source_spans": [
+       {
+        "char_start": 0,
+        "char_end": 127
+       }
+      ]
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "household-consumption-share",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     },
+     {
+      "term": "investment-capex",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [
+     {
+      "term": "china",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     }
+    ],
+    "bloc": [],
+    "instrument": [],
+    "data_basis": []
+   },
+   "attributes": {},
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "n025",
+   "legacy_id": "REC",
+   "role": "recommendation",
+   "level": "L5",
+   "content": {
+    "text": "The world, led now by Europe, should press China to let the renminbi appreciate, while also pressing for large centrally financed fiscal support for households.",
+    "label": null,
+    "explicit": true,
+    "reason": "When an imbalance harms trading partners, they should press for the adjustment known to work."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p49",
+      "paragraph_sha256": "sha256:6b47cdbe17074102726e23b3a49c371bf97d990149498a8f11b2aeaf4871fb82",
+      "relation": "states",
+      "link_method": "llm_citation",
+      "anchor_grade": "excerpt",
+      "review_status": "pending",
+      "source_excerpt": "Putting a bit of pressure on China to end its current reliance on net exports for an acceptable pace of growth thus seems like an acceptable risk",
+      "source_spans": [
+       {
+        "char_start": 0,
+        "char_end": 145
+       }
+      ]
+     },
+     {
+      "paragraph_id": "p57",
+      "paragraph_sha256": "sha256:513c51505132008d3eddb956b395e8ab9d74a732aa4e176021fe0df4c119fa1b",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     },
+     {
+      "paragraph_id": "p61",
+      "paragraph_sha256": "sha256:a201e61f648e21c264da6aca31323a3db28a37ee2b183431ac7606ffdd01c69b",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     },
+     {
+      "paragraph_id": "p63",
+      "paragraph_sha256": "sha256:fc31ecefc437a9e5ab6976c2059a16090f16c88438c43625707bbb56518154c8",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "nominal-exchange-rate",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     },
+     {
+      "term": "household-consumption-share",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [
+     {
+      "term": "china",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     },
+     {
+      "term": "euro-area",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "counterpart"
+     }
+    ],
+    "bloc": [],
+    "instrument": [
+     {
+      "term": "fx-intervention",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     },
+     {
+      "term": "fiscal-policy",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "data_basis": []
+   },
+   "attributes": {},
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "n026",
+   "legacy_id": "K",
+   "role": "main_claim",
+   "level": "L5",
+   "content": {
+    "text": "China's deeply undervalued currency matters and should not be ignored; appreciation is an effective, needed tool, and waiting for domestic reform alone risks continued inaction and a growing China shock.",
+    "label": null,
+    "explicit": true,
+    "reason": "A proven, fast-acting policy lever should be used rather than waiting on uncertain structural reform."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p7",
+      "paragraph_sha256": "sha256:01837b502d70bdc8eeb7eb9875bfd88452c09285fa89172d3b03118c7d2258ba",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     },
+     {
+      "paragraph_id": "p44",
+      "paragraph_sha256": "sha256:bbc02454f3b9a4d2c356c0bb7462035c72299bf3c08a8de97592f943c5e5f658",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     },
+     {
+      "paragraph_id": "p62",
+      "paragraph_sha256": "sha256:7d9d57af6da51c3db3a657520660298685f27cef029be96bc7ea7a8a0316c62d",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     },
+     {
+      "paragraph_id": "p63",
+      "paragraph_sha256": "sha256:fc31ecefc437a9e5ab6976c2059a16090f16c88438c43625707bbb56518154c8",
+      "relation": "states",
+      "link_method": "llm_citation",
+      "anchor_grade": "excerpt",
+      "review_status": "pending",
+      "source_excerpt": "And if not exchange rate adjustment—a policy change that is known to work—then what?",
+      "source_spans": [
+       {
+        "char_start": 36,
+        "char_end": 120
+       }
+      ]
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "real-exchange-rate",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     },
+     {
+      "term": "current-account",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [
+     {
+      "term": "china",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     }
+    ],
+    "bloc": [],
+    "instrument": [
+     {
+      "term": "fx-intervention",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "data_basis": []
+   },
+   "attributes": {
+    "claim_type": "single"
+   },
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "n027",
+   "legacy_id": "QF2",
+   "role": "caveat",
+   "level": "L6",
+   "content": {
+    "text": "The IMF's standard playbook struggles with a high-saving, state-guided economy, which partly excuses its confused recommendations.",
+    "label": null,
+    "explicit": true,
+    "reason": "Standard models may mislead for economies with unusual structures."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p67",
+      "paragraph_sha256": "sha256:a71c6cae22ec016a6a90300f6564abd0421c2821fb425032d8788d19a7d4af8e",
+      "relation": "states",
+      "link_method": "llm_citation",
+      "anchor_grade": "excerpt",
+      "review_status": "pending",
+      "source_excerpt": "I do have some sympathy for the IMF here. China is both big, and extremely unbalanced.",
+      "source_spans": [
+       {
+        "char_start": 5,
+        "char_end": 91
+       }
+      ]
+     },
+     {
+      "paragraph_id": "p68",
+      "paragraph_sha256": "sha256:3abe3674886e5c23a4cfb27c9b4e16f81bc14ef6bd14208052fd945a05fac07d",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "national-saving",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [
+     {
+      "term": "china",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     }
+    ],
+    "bloc": [],
+    "instrument": [],
+    "data_basis": [
+     {
+      "term": "imf-publications",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ]
+   },
+   "attributes": {},
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "n028",
+   "legacy_id": "QF3",
+   "role": "caveat",
+   "level": "L6",
+   "content": {
+    "text": "The author agrees that raising household income share and social insurance is needed, and that the property crisis weighs on consumption; he concedes those fundamentals matter too.",
+    "label": null,
+    "explicit": true,
+    "reason": "Concede shared ground before disputing priorities."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p37",
+      "paragraph_sha256": "sha256:b5287c6c1c1c25ee96955a01f2fcd4925a01a91fa253ccc0aebf68ba3b7b306d",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     },
+     {
+      "paragraph_id": "p38",
+      "paragraph_sha256": "sha256:8b3531ee6801ec3b6ee0721e8d6a72b77d8f688d83859296e80fd44078540c72",
+      "relation": "states",
+      "link_method": "llm_citation",
+      "anchor_grade": "excerpt",
+      "review_status": "pending",
+      "source_excerpt": "No disagreement from me. I would add that China also needs to change its very regressive system of taxation.",
+      "source_spans": [
+       {
+        "char_start": 0,
+        "char_end": 108
+       }
+      ]
+     },
+     {
+      "paragraph_id": "p39",
+      "paragraph_sha256": "sha256:8c245abb9607bf771f22b025b22227952a2c79319ba9b6eee9c6b7190271d5d7",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "household-consumption-share",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [
+     {
+      "term": "china",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     }
+    ],
+    "bloc": [],
+    "instrument": [
+     {
+      "term": "structural-reform",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "data_basis": []
+   },
+   "attributes": {},
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  }
+ ],
+ "edges": [
+  {
+   "id": "e001",
+   "from": "n001",
+   "to": "n004",
+   "relation": "frames",
+   "sign": 0,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e002",
+   "from": "n001",
+   "to": "n009",
+   "relation": "frames",
+   "sign": 0,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e003",
+   "from": "n001",
+   "to": "n003",
+   "relation": "frames",
+   "sign": 0,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e004",
+   "from": "n003",
+   "to": "n002",
+   "relation": "supports",
+   "sign": 1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e005",
+   "from": "n004",
+   "to": "n003",
+   "relation": "supports",
+   "sign": 1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": [
+     "`P1` supports `SC` joins L1→L1, which no hand-drawn supports link does"
+    ]
+   }
+  },
+  {
+   "id": "e006",
+   "from": "n010",
+   "to": "n002",
+   "relation": "bounds",
+   "sign": 1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e007",
+   "from": "n010",
+   "to": "n011",
+   "relation": "bounds",
+   "sign": 1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e008",
+   "from": "n009",
+   "to": "n012",
+   "relation": "supports",
+   "sign": 1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e009",
+   "from": "n008",
+   "to": "n012",
+   "relation": "supports",
+   "sign": 1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e010",
+   "from": "n011",
+   "to": "n012",
+   "relation": "supports",
+   "sign": 1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e011",
+   "from": "n013",
+   "to": "n001",
+   "relation": "motivates",
+   "sign": 1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e012",
+   "from": "n012",
+   "to": "n014",
+   "relation": "undercut_by",
+   "sign": -1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e013",
+   "from": "n016",
+   "to": "n015",
+   "relation": "supports",
+   "sign": 1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e014",
+   "from": "n015",
+   "to": "n017",
+   "relation": "qualified_by",
+   "sign": -1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": [
+     "`M2` qualified_by `QF` joins L3→L6, which no hand-drawn qualified_by link does"
+    ]
+   }
+  },
+  {
+   "id": "e015",
+   "from": "n005",
+   "to": "n026",
+   "relation": "supports",
+   "sign": 1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e016",
+   "from": "n002",
+   "to": "n026",
+   "relation": "supports",
+   "sign": 1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e017",
+   "from": "n012",
+   "to": "n026",
+   "relation": "supports",
+   "sign": 1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e018",
+   "from": "n015",
+   "to": "n026",
+   "relation": "supports",
+   "sign": 1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e019",
+   "from": "n019",
+   "to": "n018",
+   "relation": "supports",
+   "sign": 1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e020",
+   "from": "n007",
+   "to": "n026",
+   "relation": "supports",
+   "sign": 1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e021",
+   "from": "n018",
+   "to": "n026",
+   "relation": "supports",
+   "sign": 1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e022",
+   "from": "n020",
+   "to": "n026",
+   "relation": "supports",
+   "sign": 1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e023",
+   "from": "n020",
+   "to": "n021",
+   "relation": "rebuts",
+   "sign": -1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e024",
+   "from": "n022",
+   "to": "n023",
+   "relation": "supports",
+   "sign": 1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e025",
+   "from": "n024",
+   "to": "n023",
+   "relation": "licenses",
+   "sign": 1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e026",
+   "from": "n002",
+   "to": "n023",
+   "relation": "supports",
+   "sign": 1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e027",
+   "from": "n023",
+   "to": "n025",
+   "relation": "supports",
+   "sign": 1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e028",
+   "from": "n026",
+   "to": "n025",
+   "relation": "motivates",
+   "sign": 1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e029",
+   "from": "n026",
+   "to": "n006",
+   "relation": "rebuts",
+   "sign": -1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e030",
+   "from": "n023",
+   "to": "n027",
+   "relation": "qualified_by",
+   "sign": -1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e031",
+   "from": "n026",
+   "to": "n028",
+   "relation": "qualified_by",
+   "sign": -1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e032",
+   "from": "n005",
+   "to": "n007",
+   "relation": "supports",
+   "sign": 1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  }
+ ],
+ "validation": {
+  "status": "needs_review",
+  "checks": [
+   "boxes: 28, fix rounds 0, re-asks 0, gaps left none",
+   "links: 32, fix rounds 0, re-asks 0, gaps left none, dropped none",
+   "passage linker agreement: {'anchored': 18, 'anchored_cited': 9, 'candidate': 17, 'candidate_cited': 15}"
+  ],
+  "review_items": [
+   "boxes: `E3` the name `western` does not occur in the article",
+   "boxes: 28 boxes, more than any hand-drawn map (24)",
+   "links: `P1` supports `SC` joins L1→L1, which no hand-drawn supports link does",
+   "links: `M2` qualified_by `QF` joins L3→L6, which no hand-drawn qualified_by link does",
+   "facets: `setser_2026-08-02_the-world-should-not-ignore-chinas-obviously-undervalued-currency#P1` where_subject empty - every claim needs a country or a bloc (assignment.requires_one_of) - needs review",
+   "facets: `setser_2026-08-02_the-world-should-not-ignore-chinas-obviously-undervalued-currency#BM` where_subject empty - every claim needs a country or a bloc (assignment.requires_one_of) - needs review",
+   "facets: `setser_2026-08-02_the-world-should-not-ignore-chinas-obviously-undervalued-currency#M1` where_subject empty - every claim needs a country or a bloc (assignment.requires_one_of) - needs review",
+   "facets: `setser_2026-08-02_the-world-should-not-ignore-chinas-obviously-undervalued-currency#M2` where_subject empty - every claim needs a country or a bloc (assignment.requires_one_of) - needs review",
+   "passages: `X`: the team's passage linker anchors it to p36 (shared: gopinath gourinchas rey), which the box does not cite",
+   "passages: `X`: the team's passage linker anchors it to p44 (shared: gopinath gourinchas rey), which the box does not cite",
+   "passages: `X`: the team's passage linker anchors it to p50 (shared: gopinath gourinchas rey), which the box does not cite",
+   "passages: `X`: the team's passage linker anchors it to p58 (shared: gopinath gourinchas rey), which the box does not cite",
+   "passages: `X`: the team's passage linker anchors it to p66 (shared: gopinath), which the box does not cite",
+   "passages: `BM`: the team's passage linker anchors it to p20 (shared: 1.5pp), which the box does not cite",
+   "passages: `BM`: the team's passage linker anchors it to p43 (shared: 1.5pp), which the box does not cite",
+   "passages: `E4`: the team's passage linker anchors it to p43 (shared: 1.5pp), which the box does not cite",
+   "passages: `X2`: the team's passage linker anchors it to p46 (shared: plaza), which the box does not cite"
+  ]
+ },
+ "extensions": {}
+}

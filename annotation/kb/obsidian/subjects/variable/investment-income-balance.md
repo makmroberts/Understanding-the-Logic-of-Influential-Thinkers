@@ -2,7 +2,7 @@
 type: subject
 facet: variable
 term: investment-income-balance
-claims: 16
+claims: 18
 saturated: false
 tags: [subject, subject/variable, variable/investment-income-balance]
 ---
@@ -13,16 +13,16 @@ tags: [subject, subject/variable, variable/investment-income-balance]
 
 Aligned to **bpm6** `primary income - investment income` — _component name, not yet re-checked_
 
-16 claims across 7 articles · facet `variable` · [[By variable]] · [[index]]
+18 claims across 8 articles · facet `variable` · [[By variable]] · [[index]]
 
-**Position in the argument graph** — centrality 39 (2.44 per claim), 16 out / 23 in, bias -0.18.
+**Position in the argument graph** — centrality 44 (2.44 per claim), 18 out / 26 in, bias -0.18.
 
 He argues **toward** this more than from it: it behaves like a conclusion.
 
 ## Argued together with
 
-- **country**: [[us]] (8), [[china]] (6), [[euro-area]] (2), [[ireland]] (2)
-- **data_basis**: [[balance-of-payments]] (9), [[academic-econometrics]] (1), [[imf-publications]] (1)
+- **country**: [[us]] (8), [[china]] (7), [[euro-area]] (2), [[ireland]] (2)
+- **data_basis**: [[balance-of-payments]] (10), [[academic-econometrics]] (1), [[imf-publications]] (1)
 
 ## Claims by role
 
@@ -59,4 +59,12 @@ He argues **toward** this more than from it: it behaves like a conclusion.
 ### deferred_question (1)
 
 - **2024-08** [[The interest income anomaly is set aside for a future blog]] · _China's Imaginary Trade Data_
+
+### source_credibility (1)
+
+- **2026-08** [[China's reported investment income deficit despite large net foreign assets]] · _The World Should Not Ignore China’s Underval..._
+
+### stated_assumption (1)
+
+- **2026-08** [[Accumulated surpluses should generate net foreign assets that earn positive investment]] · _The World Should Not Ignore China’s Underval..._
 

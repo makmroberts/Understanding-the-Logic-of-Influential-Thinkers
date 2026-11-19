@@ -10965,6 +10965,726 @@
    }
   },
   {
+   "doc": "setser_2026-08-02_the-world-should-not-ignore-chinas-obviously-undervalued-currency",
+   "file": "articles/setser_2026-08-02_the-world-should-not-ignore-chinas-obviously-undervalued-currency/claude-opus-5.5/annotation.json",
+   "family": "llm",
+   "date": "2026-08-02",
+   "meta": {
+    "title": "The World Should Not Ignore China’s Undervalued Currency",
+    "author": "Brad W. Setser",
+    "outlet": "CFR Follow the Money",
+    "url": "https://www.cfr.org/articles/the-world-should-not-ignore-chinas-obviously-undervalued-currency",
+    "topics": "",
+    "genre": "",
+    "shape": ""
+   },
+   "levels": {
+    "L0": [
+     {
+      "id": "Q",
+      "type": "question",
+      "level": "L0",
+      "header": "Question",
+      "text": "Should the world press China to let its undervalued currency appreciate, or wait for Chinese domestic reforms to rebalance?",
+      "byline": "",
+      "class": "",
+      "type_source": "llm",
+      "claim_type": "",
+      "mechanism_kind": "",
+      "implicit_only": true,
+      "concept": ""
+     },
+     {
+      "id": "ANOM",
+      "type": "anomaly",
+      "level": "L0",
+      "header": "Anomaly",
+      "text": "The IMF forecast that China's surplus would shrink, but it grew instead because the forecasts ignored the real depreciation.",
+      "byline": "",
+      "class": "",
+      "type_source": "llm",
+      "claim_type": "",
+      "mechanism_kind": "",
+      "implicit_only": false,
+      "concept": ""
+     }
+    ],
+    "L1": [
+     {
+      "id": "SC",
+      "type": "source_credibility",
+      "level": "L1",
+      "header": "Source credibility",
+      "text": "China's reported investment income deficit despite large net foreign assets is misreported, so the true surplus is larger.",
+      "byline": "",
+      "class": "",
+      "type_source": "llm",
+      "claim_type": "",
+      "mechanism_kind": "",
+      "implicit_only": false,
+      "concept": ""
+     },
+     {
+      "id": "P1",
+      "type": "stated_assumption",
+      "level": "L1",
+      "header": "Stated assumption",
+      "text": "Accumulated surpluses should generate net foreign assets that earn positive investment income.",
+      "byline": "",
+      "class": "",
+      "type_source": "llm",
+      "claim_type": "",
+      "mechanism_kind": "",
+      "implicit_only": false,
+      "concept": ""
+     },
+     {
+      "id": "P2",
+      "type": "stated_assumption",
+      "level": "L1",
+      "header": "Stated assumption",
+      "text": "Productivity catch-up implies a trend real appreciation, so depreciation relative to trend has a bigger effect.",
+      "byline": "",
+      "class": "",
+      "type_source": "llm",
+      "claim_type": "",
+      "mechanism_kind": "",
+      "implicit_only": false,
+      "concept": ""
+     },
+     {
+      "id": "ID",
+      "type": "accounting_identity",
+      "level": "L1",
+      "header": "Accounting identity",
+      "text": "Cutting investment subsidies without raising consumption would enlarge the surplus because the surplus equals savings minus investment.",
+      "byline": "",
+      "class": "",
+      "type_source": "llm",
+      "claim_type": "",
+      "mechanism_kind": "",
+      "implicit_only": false,
+      "concept": ""
+     },
+     {
+      "id": "P3",
+      "type": "hidden_assumption",
+      "level": "L1",
+      "header": "Hidden assumption",
+      "text": "Households will not anticipate future gains and spend more when inefficient investment is cut.",
+      "byline": "",
+      "class": "",
+      "type_source": "llm",
+      "claim_type": "",
+      "mechanism_kind": "",
+      "implicit_only": true,
+      "concept": ""
+     }
+    ],
+    "L1B": [
+     {
+      "id": "BM",
+      "type": "benchmark",
+      "level": "L1B",
+      "header": "Benchmark",
+      "text": "The IMF's standard model predicts a 10 percent currency move shifts net exports by 1.5 pp of GDP.",
+      "byline": "",
+      "class": "",
+      "type_source": "llm",
+      "claim_type": "",
+      "mechanism_kind": "",
+      "implicit_only": false,
+      "concept": ""
+     }
+    ],
+    "L2": [
+     {
+      "id": "E1",
+      "type": "evidence_data",
+      "level": "L2",
+      "header": "Data",
+      "text": "China's reported surplus implies about 20 percent undervaluation by the IMF's own model, and adjusted for gold and investment income, 30-35 percent.",
+      "byline": "",
+      "class": "",
+      "type_source": "llm",
+      "claim_type": "",
+      "mechanism_kind": "",
+      "implicit_only": false,
+      "concept": ""
+     },
+     {
+      "id": "E2",
+      "type": "evidence_data",
+      "level": "L2",
+      "header": "Data",
+      "text": "The PBOC controls the yuan through the daily fix and state-bank FX purchases of about $50 billion a month, under a largely closed financial account.",
+      "byline": "",
+      "class": "",
+      "type_source": "llm",
+      "claim_type": "",
+      "mechanism_kind": "",
+      "implicit_only": false,
+      "concept": ""
+     },
+     {
+      "id": "E3",
+      "type": "evidence_data",
+      "level": "L2",
+      "header": "Data",
+      "text": "The PBOC allowed the 2022-23 depreciation of 10-15 percent against the dollar, and with Chinese deflation versus Western inflation it became a real depreciation.",
+      "byline": "",
+      "class": "",
+      "type_source": "llm",
+      "claim_type": "",
+      "mechanism_kind": "",
+      "implicit_only": false,
+      "concept": ""
+     },
+     {
+      "id": "E4",
+      "type": "evidence_data",
+      "level": "L2",
+      "header": "Data",
+      "text": "Chinese exports accelerated 4-5 quarters after the depreciation, with net exports contributing 1.5 pp to growth in 2024 and 2025, matching the model.",
+      "byline": "",
+      "class": "",
+      "type_source": "llm",
+      "claim_type": "",
+      "mechanism_kind": "",
+      "implicit_only": false,
+      "concept": ""
+     },
+     {
+      "id": "E5",
+      "type": "evidence_source",
+      "level": "L2",
+      "header": "Studies and sources",
+      "text": "Empirical work, highlighted by Krugman, and China's recent data show no deflation offset to nominal moves.",
+      "byline": "",
+      "class": "",
+      "type_source": "llm",
+      "claim_type": "",
+      "mechanism_kind": "",
+      "implicit_only": false,
+      "concept": ""
+     },
+     {
+      "id": "E6",
+      "type": "evidence_source",
+      "level": "L2",
+      "header": "Studies and sources",
+      "text": "Landau and Jean argue the weak real exchange rate is a deliberate feature of Xi's strategy, supporting industrial upgrading without household transfers.",
+      "byline": "",
+      "class": "",
+      "type_source": "llm",
+      "claim_type": "",
+      "mechanism_kind": "",
+      "implicit_only": false,
+      "concept": ""
+     }
+    ],
+    "L3": [
+     {
+      "id": "M1",
+      "type": "mechanism",
+      "level": "L3",
+      "header": "Mechanism",
+      "text": "A weaker currency makes exports cheaper and boosts export growth after a lag of a year or more.",
+      "byline": "",
+      "class": "",
+      "type_source": "llm",
+      "claim_type": "",
+      "mechanism_kind": "economic",
+      "implicit_only": false,
+      "concept": ""
+     },
+     {
+      "id": "M2",
+      "type": "mechanism",
+      "level": "L3",
+      "header": "Mechanism",
+      "text": "Nominal appreciation produces real appreciation because domestic prices adjust only partially and slowly.",
+      "byline": "",
+      "class": "",
+      "type_source": "llm",
+      "claim_type": "",
+      "mechanism_kind": "economic",
+      "implicit_only": false,
+      "concept": ""
+     }
+    ],
+    "L4": [
+     {
+      "id": "C1",
+      "type": "intermediate_claim",
+      "level": "L4",
+      "header": "Intermediate claim",
+      "text": "Waiting is costly because China's model depends on an ever-growing surplus, displacing traded-goods production abroad and concentrating industry in China.",
+      "byline": "",
+      "class": "",
+      "type_source": "llm",
+      "claim_type": "",
+      "mechanism_kind": "",
+      "implicit_only": false,
+      "concept": ""
+     },
+     {
+      "id": "C2",
+      "type": "intermediate_claim",
+      "level": "L4",
+      "header": "Intermediate claim",
+      "text": "Xi will not adopt household stimulus without external pressure; an appreciation that removed net-export growth would force such choices.",
+      "byline": "",
+      "class": "",
+      "type_source": "llm",
+      "claim_type": "",
+      "mechanism_kind": "",
+      "implicit_only": false,
+      "concept": ""
+     },
+     {
+      "id": "C3",
+      "type": "intermediate_claim",
+      "level": "L4",
+      "header": "Intermediate claim",
+      "text": "Exchange rate diplomacy has worked: Plaza reduced imbalances without causing Japan's bubble, and China appreciated under pressure in 2007-08 and 2011.",
+      "byline": "",
+      "class": "",
+      "type_source": "llm",
+      "claim_type": "",
+      "mechanism_kind": "",
+      "implicit_only": false,
+      "concept": ""
+     },
+     {
+      "id": "C4",
+      "type": "policy_reductio",
+      "level": "L4",
+      "header": "Policy reductio",
+      "text": "If the exchange rate is ruled out, closing a surplus of this size would require a fiscal reflation far larger than the IMF's timid 0.5 pp proposal.",
+      "byline": "",
+      "class": "",
+      "type_source": "llm",
+      "claim_type": "",
+      "mechanism_kind": "",
+      "implicit_only": false,
+      "concept": ""
+     }
+    ],
+    "L5": [
+     {
+      "id": "REC",
+      "type": "recommendation",
+      "level": "L5",
+      "header": "Recommendation",
+      "text": "The world, led now by Europe, should press China to let the renminbi appreciate, while also pressing for large centrally financed fiscal support for households.",
+      "byline": "",
+      "class": "",
+      "type_source": "llm",
+      "claim_type": "",
+      "mechanism_kind": "",
+      "implicit_only": false,
+      "concept": ""
+     },
+     {
+      "id": "K",
+      "type": "main_claim",
+      "level": "L5",
+      "header": "Main claim",
+      "text": "China's deeply undervalued currency matters and should not be ignored; appreciation is an effective, needed tool, and waiting for domestic reform alone risks continued inaction and a growing China shock.",
+      "byline": "",
+      "class": "",
+      "type_source": "llm",
+      "claim_type": "single",
+      "mechanism_kind": "",
+      "implicit_only": false,
+      "concept": ""
+     }
+    ],
+    "L6": [
+     {
+      "id": "X",
+      "type": "opposing_view",
+      "level": "L6",
+      "header": "Opposing view",
+      "text": "Gopinath, Gourinchas and Rey argue that exchange rate moves matter little, that nominal appreciation would be offset by deflation, and that the world should wait for China to boost domestic demand.",
+      "byline": "",
+      "class": "",
+      "type_source": "llm",
+      "claim_type": "",
+      "mechanism_kind": "",
+      "implicit_only": false,
+      "concept": ""
+     },
+     {
+      "id": "R1",
+      "type": "other_explanation",
+      "level": "L6",
+      "header": "Other explanation",
+      "text": "Industrial policy and a domestic market rigged against imports also drove China's export surge.",
+      "byline": "",
+      "class": "",
+      "type_source": "llm",
+      "claim_type": "",
+      "mechanism_kind": "",
+      "implicit_only": false,
+      "concept": ""
+     },
+     {
+      "id": "QF",
+      "type": "caveat",
+      "level": "L6",
+      "header": "Caveat",
+      "text": "The moderation in China's deflation partly reflects higher oil prices, not only the exchange rate.",
+      "byline": "",
+      "class": "",
+      "type_source": "llm",
+      "claim_type": "",
+      "mechanism_kind": "",
+      "implicit_only": false,
+      "concept": ""
+     },
+     {
+      "id": "X2",
+      "type": "opposing_view",
+      "level": "L6",
+      "header": "Opposing view",
+      "text": "The view that Plaza caused Japan's bubble is wrong, since Germany appreciated without a bubble and many bubbles have occurred without appreciation.",
+      "byline": "",
+      "class": "",
+      "type_source": "llm",
+      "claim_type": "",
+      "mechanism_kind": "",
+      "implicit_only": false,
+      "concept": ""
+     },
+     {
+      "id": "QF2",
+      "type": "caveat",
+      "level": "L6",
+      "header": "Caveat",
+      "text": "The IMF's standard playbook struggles with a high-saving, state-guided economy, which partly excuses its confused recommendations.",
+      "byline": "",
+      "class": "",
+      "type_source": "llm",
+      "claim_type": "",
+      "mechanism_kind": "",
+      "implicit_only": false,
+      "concept": ""
+     },
+     {
+      "id": "QF3",
+      "type": "caveat",
+      "level": "L6",
+      "header": "Caveat",
+      "text": "The author agrees that raising household income share and social insurance is needed, and that the property crisis weighs on consumption; he concedes those fundamentals matter too.",
+      "byline": "",
+      "class": "",
+      "type_source": "llm",
+      "claim_type": "",
+      "mechanism_kind": "",
+      "implicit_only": false,
+      "concept": ""
+     }
+    ]
+   },
+   "edges": [
+    {
+     "from": "Q",
+     "to": "P1",
+     "type": "frames",
+     "raw": "",
+     "polarity": "forward",
+     "relation_source": "llm",
+     "needs_review": false
+    },
+    {
+     "from": "Q",
+     "to": "P2",
+     "type": "frames",
+     "raw": "",
+     "polarity": "forward",
+     "relation_source": "llm",
+     "needs_review": false
+    },
+    {
+     "from": "Q",
+     "to": "SC",
+     "type": "frames",
+     "raw": "",
+     "polarity": "forward",
+     "relation_source": "llm",
+     "needs_review": false
+    },
+    {
+     "from": "SC",
+     "to": "E1",
+     "type": "supports",
+     "raw": "",
+     "polarity": "forward",
+     "relation_source": "llm",
+     "needs_review": false
+    },
+    {
+     "from": "P1",
+     "to": "SC",
+     "type": "supports",
+     "raw": "",
+     "polarity": "forward",
+     "relation_source": "llm",
+     "needs_review": true
+    },
+    {
+     "from": "BM",
+     "to": "E1",
+     "type": "bounds",
+     "raw": "",
+     "polarity": "forward",
+     "relation_source": "llm",
+     "needs_review": false
+    },
+    {
+     "from": "BM",
+     "to": "E4",
+     "type": "bounds",
+     "raw": "",
+     "polarity": "forward",
+     "relation_source": "llm",
+     "needs_review": false
+    },
+    {
+     "from": "P2",
+     "to": "M1",
+     "type": "supports",
+     "raw": "",
+     "polarity": "forward",
+     "relation_source": "llm",
+     "needs_review": false
+    },
+    {
+     "from": "E3",
+     "to": "M1",
+     "type": "supports",
+     "raw": "",
+     "polarity": "forward",
+     "relation_source": "llm",
+     "needs_review": false
+    },
+    {
+     "from": "E4",
+     "to": "M1",
+     "type": "supports",
+     "raw": "",
+     "polarity": "forward",
+     "relation_source": "llm",
+     "needs_review": false
+    },
+    {
+     "from": "ANOM",
+     "to": "Q",
+     "type": "motivates",
+     "raw": "",
+     "polarity": "forward",
+     "relation_source": "llm",
+     "needs_review": false
+    },
+    {
+     "from": "M1",
+     "to": "R1",
+     "type": "undercut_by",
+     "raw": "",
+     "polarity": "pushes_back",
+     "relation_source": "llm",
+     "needs_review": false
+    },
+    {
+     "from": "E5",
+     "to": "M2",
+     "type": "supports",
+     "raw": "",
+     "polarity": "forward",
+     "relation_source": "llm",
+     "needs_review": false
+    },
+    {
+     "from": "M2",
+     "to": "QF",
+     "type": "qualified_by",
+     "raw": "",
+     "polarity": "pushes_back",
+     "relation_source": "llm",
+     "needs_review": true
+    },
+    {
+     "from": "E2",
+     "to": "K",
+     "type": "supports",
+     "raw": "",
+     "polarity": "forward",
+     "relation_source": "llm",
+     "needs_review": false
+    },
+    {
+     "from": "E1",
+     "to": "K",
+     "type": "supports",
+     "raw": "",
+     "polarity": "forward",
+     "relation_source": "llm",
+     "needs_review": false
+    },
+    {
+     "from": "M1",
+     "to": "K",
+     "type": "supports",
+     "raw": "",
+     "polarity": "forward",
+     "relation_source": "llm",
+     "needs_review": false
+    },
+    {
+     "from": "M2",
+     "to": "K",
+     "type": "supports",
+     "raw": "",
+     "polarity": "forward",
+     "relation_source": "llm",
+     "needs_review": false
+    },
+    {
+     "from": "E6",
+     "to": "C2",
+     "type": "supports",
+     "raw": "",
+     "polarity": "forward",
+     "relation_source": "llm",
+     "needs_review": false
+    },
+    {
+     "from": "C1",
+     "to": "K",
+     "type": "supports",
+     "raw": "",
+     "polarity": "forward",
+     "relation_source": "llm",
+     "needs_review": false
+    },
+    {
+     "from": "C2",
+     "to": "K",
+     "type": "supports",
+     "raw": "",
+     "polarity": "forward",
+     "relation_source": "llm",
+     "needs_review": false
+    },
+    {
+     "from": "C3",
+     "to": "K",
+     "type": "supports",
+     "raw": "",
+     "polarity": "forward",
+     "relation_source": "llm",
+     "needs_review": false
+    },
+    {
+     "from": "C3",
+     "to": "X2",
+     "type": "rebuts",
+     "raw": "",
+     "polarity": "pushes_back",
+     "relation_source": "llm",
+     "needs_review": false
+    },
+    {
+     "from": "ID",
+     "to": "C4",
+     "type": "supports",
+     "raw": "",
+     "polarity": "forward",
+     "relation_source": "llm",
+     "needs_review": false
+    },
+    {
+     "from": "P3",
+     "to": "C4",
+     "type": "licenses",
+     "raw": "",
+     "polarity": "forward",
+     "relation_source": "llm",
+     "needs_review": false
+    },
+    {
+     "from": "E1",
+     "to": "C4",
+     "type": "supports",
+     "raw": "",
+     "polarity": "forward",
+     "relation_source": "llm",
+     "needs_review": false
+    },
+    {
+     "from": "C4",
+     "to": "REC",
+     "type": "supports",
+     "raw": "",
+     "polarity": "forward",
+     "relation_source": "llm",
+     "needs_review": false
+    },
+    {
+     "from": "K",
+     "to": "REC",
+     "type": "motivates",
+     "raw": "",
+     "polarity": "forward",
+     "relation_source": "llm",
+     "needs_review": false
+    },
+    {
+     "from": "K",
+     "to": "X",
+     "type": "rebuts",
+     "raw": "",
+     "polarity": "pushes_back",
+     "relation_source": "llm",
+     "needs_review": false
+    },
+    {
+     "from": "C4",
+     "to": "QF2",
+     "type": "qualified_by",
+     "raw": "",
+     "polarity": "pushes_back",
+     "relation_source": "llm",
+     "needs_review": false
+    },
+    {
+     "from": "K",
+     "to": "QF3",
+     "type": "qualified_by",
+     "raw": "",
+     "polarity": "pushes_back",
+     "relation_source": "llm",
+     "needs_review": false
+    },
+    {
+     "from": "E2",
+     "to": "C1",
+     "type": "supports",
+     "raw": "",
+     "polarity": "forward",
+     "relation_source": "llm",
+     "needs_review": false
+    }
+   ],
+   "counts": {
+    "nodes": 28,
+    "edges": 32,
+    "dropped_nodes": 0
+   }
+  },
+  {
    "doc": "setser_2026-09-15_de-reservification-not-de-dollarization",
    "file": "articles/setser_2026-09-15_de-reservification-not-de-dollarization/claude-opus-5.5/annotation.json",
    "family": "llm",

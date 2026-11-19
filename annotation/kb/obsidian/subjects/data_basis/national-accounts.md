@@ -2,7 +2,7 @@
 type: subject
 facet: data_basis
 term: national-accounts
-claims: 10
+claims: 11
 saturated: false
 tags: [subject, subject/data_basis, data_basis/national-accounts]
 ---
@@ -11,22 +11,22 @@ tags: [subject, subject/data_basis, data_basis/national-accounts]
 
 > GDP and national-accounts aggregates.
 
-10 claims across 5 articles · facet `data_basis` · [[By data basis]] · [[index]]
+11 claims across 6 articles · facet `data_basis` · [[By data basis]] · [[index]]
 
-**Position in the argument graph** — centrality 19 (1.9 per claim), 10 out / 9 in, bias +0.05.
+**Position in the argument graph** — centrality 21 (1.91 per claim), 11 out / 10 in, bias +0.05.
 
 Sits in the middle of arguments - as much argued toward as argued from.
 
 ## Argued together with
 
-- **variable**: [[gdp-growth]] (4), [[manufacturing-trade-balance]] (4), [[export-volumes]] (3), [[import-volumes]] (2), [[national-saving]] (1)
-- **country**: [[us]] (6), [[china]] (3), [[euro-area]] (3)
+- **variable**: [[gdp-growth]] (5), [[export-volumes]] (4), [[manufacturing-trade-balance]] (4), [[import-volumes]] (2), [[national-saving]] (1)
+- **country**: [[us]] (6), [[china]] (4), [[euro-area]] (3)
 - **bloc**: [[global]] (1)
 - **instrument**: [[structural-reform]] (1), [[fiscal-policy]] (1)
 
 ## Claims by role
 
-### evidence_data (8)
+### evidence_data (9)
 
 - **2017-12** [[2014–16 net-export drag]] · _Why does the U.S. trade balance still matter..._
 - **2017-12** [[Manufacturing employment varies with trade]] · _Why does the U.S. trade balance still matter..._
@@ -36,6 +36,7 @@ Sits in the middle of arguments - as much argued toward as argued from.
 - **2019-08** [[Manufacturing imports are similar]] · _Why do the U.S., Europe, and China now occup..._
 - **2019-08** [[Mirror-image manufacturing balances]] · _Why do the U.S., Europe, and China now occup..._
 - **2026-07** [[The price-adjusted trade surplus is still growing, with net exports adding 0.8 pp of GDP]] · _Is China’s Surplus Really Shrinking?_
+- **2026-08** [[Chinese exports accelerated 4-5 quarters after the depreciation, with net exports]] · _The World Should Not Ignore China’s Underval..._
 
 ### caveat (1)
 

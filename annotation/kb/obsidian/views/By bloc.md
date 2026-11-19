@@ -7,7 +7,7 @@ tags: [view, subject/bloc]
 
 Several economies argued about together. Some are his own analytic groupings rather than published aggregates, which makes this facet a record of how he carves up the world.
 
-7 terms in use, covering 53 of 441 claims. Back to [[index]].
+7 terms in use, covering 53 of 469 claims. Back to [[index]].
 
 Graph filter: `tag:#bloc/<term>`. Vocabulary and the reasoning behind it: `scripts/facets.yaml`.
 

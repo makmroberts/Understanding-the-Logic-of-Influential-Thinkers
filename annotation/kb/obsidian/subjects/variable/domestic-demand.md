@@ -2,7 +2,7 @@
 type: subject
 facet: variable
 term: domestic-demand
-claims: 38
+claims: 39
 saturated: false
 tags: [subject, subject/variable, variable/domestic-demand]
 ---
@@ -13,15 +13,15 @@ tags: [subject, subject/variable, variable/domestic-demand]
 
 Aligned to **sna** `final consumption plus gross capital formation` — _component name, not yet re-checked_
 
-38 claims across 12 articles · facet `variable` · [[By variable]] · [[index]]
+39 claims across 13 articles · facet `variable` · [[By variable]] · [[index]]
 
-**Position in the argument graph** — centrality 107 (2.82 per claim), 52 out / 55 in, bias -0.03.
+**Position in the argument graph** — centrality 108 (2.77 per claim), 52 out / 56 in, bias -0.04.
 
 Sits in the middle of arguments - as much argued toward as argued from.
 
 ## Argued together with
 
-- **country**: [[us]] (15), [[china]] (11), [[euro-area]] (3), [[turkey]] (2), [[japan]] (1)
+- **country**: [[us]] (15), [[china]] (12), [[euro-area]] (3), [[turkey]] (2), [[japan]] (1)
 - **bloc**: [[global]] (4), [[latam]] (2), [[em-commodity]] (1), [[asia-surplus]] (1)
 - **instrument**: [[fiscal-policy]] (9), [[tariffs]] (3), [[trade-agreements]] (2), [[monetary-policy]] (1), [[fx-intervention]] (1)
 - **data_basis**: [[academic-econometrics]] (1), [[national-accounts]] (1)
@@ -57,9 +57,10 @@ Sits in the middle of arguments - as much argued toward as argued from.
 - **2025-07** [[A large real estate crisis typically pushes a country to rely more on exports (standard]] · _China's Stealth Trade Surplus_
 - **2025-11** [[The surplus stems from a shortfall in China's domestic demand (European Central Bank view)]] · _China's Massive Surplus is Everywhere (Yet T..._
 
-### opposing_view (3)
+### opposing_view (4)
 
 - **2017-12** [[A wider deficit can reflect stronger domestic demand rather than weakness]] · _Why does the U.S. trade balance still matter..._
+- **2026-08** [[Gopinath, Gourinchas and Rey argue that exchange rate moves matter little, that nominal]] · _The World Should Not Ignore China’s Underval..._
 - **2026-10** [[The Geneva Report and former IMF officials hold that exports rose mechanically from weak]] · _What’s the Renminbi Got to Do With it?_
 - **2026-10** [[Some argue the IMF should defer to the PBOC, ignore external balance and focus]] · _What’s the Renminbi Got to Do With it?_
 

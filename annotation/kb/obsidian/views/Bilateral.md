@@ -7,7 +7,7 @@ tags: [view, shape/bilateral]
 
 Claims about trade between a specific pair, as opposed to either side's global position.
 
-110 of 441 claims are bilateral. Back to [[index]].
+111 of 469 claims are bilateral. Back to [[index]].
 
 This is a shape, not a topic: a claim is bilateral when it carries a counterpart on the where axis. Graph filter: `tag:#shape/bilateral`.
 
@@ -118,16 +118,17 @@ This is a shape, not a topic: a claim is bilateral when it carries a counterpart
 - **2019-08** [[Manufacturing imports are similar]] `evidence_data`
 - **2019-08** [[Mirror-image manufacturing balances]] `evidence_data`
 
+## china → euro-area (3)
+
+- **2025-07** [[China's 2024 current account surplus about $430 billion (just over 2 percent of GDP)]] `evidence_data`
+- **2025-07** [[Weak currency]] `mechanism`
+- **2026-08** [[The world, led now by Europe, should press China to let the renminbi appreciate]] `recommendation`
+
 ## us → southeast-asia (3)
 
 - **2020-02** [[Vietnam exports to US +$17.5B]] `evidence_data`
 - **2025-09** [[Trade diversion]] `mechanism`
 - **2025-09** [[August deals doubled tariffs on Southeast Asia relative to April; fall data may show]] `caveat`
-
-## china → euro-area (2)
-
-- **2025-07** [[China's 2024 current account surplus about $430 billion (just over 2 percent of GDP)]] `evidence_data`
-- **2025-07** [[Weak currency]] `mechanism`
 
 ## ireland → euro-area (2)
 

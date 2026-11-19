@@ -2,7 +2,7 @@
 type: subject
 facet: variable
 term: export-volumes
-claims: 49
+claims: 52
 saturated: false
 tags: [subject, subject/variable, variable/export-volumes]
 ---
@@ -13,22 +13,22 @@ tags: [subject, subject/variable, variable/export-volumes]
 
 Aligned to **bpm6** `exports of goods and services` — _component name, not yet re-checked_
 
-49 claims across 13 articles · facet `variable` · [[By variable]] · [[index]]
+52 claims across 14 articles · facet `variable` · [[By variable]] · [[index]]
 
-**Position in the argument graph** — centrality 127 (2.59 per claim), 66 out / 61 in, bias +0.04.
+**Position in the argument graph** — centrality 135 (2.6 per claim), 69 out / 66 in, bias +0.02.
 
 Sits in the middle of arguments - as much argued toward as argued from.
 
 ## Argued together with
 
-- **country**: [[china]] (36), [[us]] (27), [[euro-area]] (9)
+- **country**: [[china]] (38), [[us]] (27), [[euro-area]] (9)
 - **bloc**: [[global]] (1), [[asia-surplus]] (1)
-- **instrument**: [[retaliation]] (13), [[tariffs]] (4), [[industrial-policy]] (1), [[export-controls]] (1), [[fx-intervention]] (1)
-- **data_basis**: [[customs]] (11), [[national-accounts]] (3), [[press-reporting]] (1), [[third-party-trackers]] (1), [[imf-publications]] (1)
+- **instrument**: [[retaliation]] (13), [[tariffs]] (4), [[industrial-policy]] (2), [[export-controls]] (1), [[fx-intervention]] (1)
+- **data_basis**: [[customs]] (11), [[national-accounts]] (4), [[press-reporting]] (1), [[third-party-trackers]] (1), [[imf-publications]] (1)
 
 ## Claims by role
 
-### evidence_data (13)
+### evidence_data (14)
 
 - **2019-06** [[Commodity exports to China down 60%]] · _Why did China's tariffs devastate some U.S. ..._
 - **2019-06** [[Soy exports effectively collapsed]] · _Why did China's tariffs devastate some U.S. ..._
@@ -42,9 +42,10 @@ Sits in the middle of arguments - as much argued toward as argued from.
 - **2025-11** [[Export volumes up 40 percent since end-2019 versus imports up 1 percent; manufactured]] · _China's Massive Surplus is Everywhere (Yet T..._
 - **2026-07** [[The price-adjusted trade surplus is still growing, with net exports adding 0.8 pp of GDP]] · _Is China’s Surplus Really Shrinking?_
 - **2026-07** [[Booming auto exports, globally and to Europe, alongside flat imports drive the rising]] · _Is China’s Surplus Really Shrinking?_
+- **2026-08** [[Chinese exports accelerated 4-5 quarters after the depreciation, with net exports]] · _The World Should Not Ignore China’s Underval..._
 - **2026-10** [[Chinese exports accelerated and outperformed global trade after the 2022 depreciation]] · _What’s the Renminbi Got to Do With it?_
 
-### mechanism (10)
+### mechanism (11)
 
 - **2019-05** [[Tariffs weaken Chinese export demand]] · _If U.S.-China trade tensions escalate, will ..._
 - **2019-05** [[Depreciation cushions exporters]] · _If U.S.-China trade tensions escalate, will ..._
@@ -55,6 +56,7 @@ Sits in the middle of arguments - as much argued toward as argued from.
 - **2019-08** [[Export dependence transmits global weakness]] · _Why do the U.S., Europe, and China now occup..._
 - **2025-07** [[Overcapacity]] · _China is also Fighting a Trade War with Euro..._
 - **2026-07** [[Slow recognition of the chip price shock in Q1 deflators distorted volume data]] · _Is China’s Surplus Really Shrinking?_
+- **2026-08** [[A weaker currency makes exports cheaper and boosts export growth after a lag of a year]] · _The World Should Not Ignore China’s Underval..._
 - **2026-10** [[Structural gains (WTO entry, green industry and autos) that should have strengthened]] · _What’s the Renminbi Got to Do With it?_
 
 ### intermediate_claim (8)
@@ -68,11 +70,12 @@ Sits in the middle of arguments - as much argued toward as argued from.
 - **2019-08** [[Europe's strength creates cyclical exposure]] · _Why do the U.S., Europe, and China now occup..._
 - **2025-07** [[The second China shock is eroding Europe's core export sectors and is large enough]] · _China is also Fighting a Trade War with Euro..._
 
-### other_explanation (4)
+### other_explanation (5)
 
 - **2020-01** [[Why were manufactures spared I am not quite sure why this is the case — two theories]] · _Lessons From Phase One of the Trade War With..._
 - **2020-10** [[Chinese exporters may be overstating exports]] · _Record Chinese Bilateral Surpluses With the ..._
 - **2025-09** [[Waiting for tariff relief (autos) replaces front-running; other exporters can take U.S.]] · _The Trump Shock That Wasn't (At Least Not Yet)_
+- **2026-08** [[Industrial policy and a domestic market rigged against imports also drove China's export]] · _The World Should Not Ignore China’s Underval..._
 - **2026-10** [[The 2020-21 export surge came from pandemic goods demand, not the currency]] · _What’s the Renminbi Got to Do With it?_
 
 ### stated_assumption (4)

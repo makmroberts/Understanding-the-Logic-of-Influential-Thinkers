@@ -7,9 +7,9 @@ tags: [view]
 
 The data and sources cited.
 
-102 across 24 articles. Back to [[index]].
+108 across 25 articles. Back to [[index]].
 
-## Data (85)
+## Data (89)
 
 - **2017-12** [[2014–16 net-export drag]] · _Why does the U.S. trade balance still matter..._
 - **2017-12** [[Manufacturing employment varies with trade]] · _Why does the U.S. trade balance still matter..._
@@ -85,6 +85,10 @@ The data and sources cited.
 - **2026-07** [[Oil import volumes collapsed, so the commodity import bill rose only modestly and oil]] · _Is China’s Surplus Really Shrinking?_
 - **2026-07** [[Gold imports reached $146 billion in H1 2026, nearly $100 billion above H1]] · _Is China’s Surplus Really Shrinking?_
 - **2026-07** [[Booming auto exports, globally and to Europe, alongside flat imports drive the rising]] · _Is China’s Surplus Really Shrinking?_
+- **2026-08** [[China's reported surplus implies about 20 percent undervaluation by the IMF's own model]] · _The World Should Not Ignore China’s Underval..._
+- **2026-08** [[The PBOC controls the yuan through the daily fix and state-bank FX purchases]] · _The World Should Not Ignore China’s Underval..._
+- **2026-08** [[The PBOC allowed the 2022-23 depreciation of 10-15 percent against the dollar]] · _The World Should Not Ignore China’s Underval..._
+- **2026-08** [[Chinese exports accelerated 4-5 quarters after the depreciation, with net exports]] · _The World Should Not Ignore China’s Underval..._
 - **2026-09** [[Global reserves and dollar reserves have both been roughly flat for a decade]] · _De-reservification, Not De-dollarization_
 - **2026-09** [[In China, Japan, Korea and Saudi Arabia, state banks, pension funds or sovereign funds]] · _De-reservification, Not De-dollarization_
 - **2026-09** [[China's state banks hold about $3.3 trillion in gross foreign assets, matching]] · _De-reservification, Not De-dollarization_
@@ -97,7 +101,7 @@ The data and sources cited.
 - **2026-10** [[Chinese exports accelerated and outperformed global trade after the 2022 depreciation]] · _What’s the Renminbi Got to Do With it?_
 - **2026-10** [[Faster domestic demand alone would not rebalance China's external accounts because it]] · _What’s the Renminbi Got to Do With it?_
 
-## Studies and sources (14)
+## Studies and sources (16)
 
 - **2020-01** [[His own Senate testimony; Toloui on balance-sheet policy; the Economist on managed trade]] · _Lessons From Phase One of the Trade War With..._
 - **2020-03** [[Truman on IMF lending capacity; Landers, Lee and Morris on callable capital; Hagan]] · _Not One Emerging Market Financial Crisis, bu..._
@@ -110,6 +114,8 @@ The data and sources cited.
 - **2025-09** [[New York Times reporting; U.S. trade data; federal court ruling on tariff authority]] · _The Trump Shock That Wasn't (At Least Not Yet)_
 - **2025-11** [[IMF External Sector Report 2025, October World Economic Outlook and 2024 Article IV]] · _China's Massive Surplus is Everywhere (Yet T..._
 - **2026-02** [[U.S. trade data; Section 232 semiconductor investigation]] · _Understanding the Low October 2025 Trade Def..._
+- **2026-08** [[Empirical work, highlighted by Krugman, and China's recent data show no deflation offset]] · _The World Should Not Ignore China’s Underval..._
+- **2026-08** [[Landau and Jean argue the weak real exchange rate is a deliberate feature of Xi's]] · _The World Should Not Ignore China’s Underval..._
 - **2026-09** [[Tooze's 'profit dollar' idea, with inflows going to equities and corporate bonds rather]] · _De-reservification, Not De-dollarization_
 - **2026-10** [[Mark Sobel argues the PBOC achieves intervention-like effects through capital controls]] · _What’s the Renminbi Got to Do With it?_
 - **2026-10** [[Merz and Macron's open letter supports addressing undervalued currencies, though EU macro]] · _What’s the Renminbi Got to Do With it?_

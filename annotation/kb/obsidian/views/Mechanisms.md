@@ -7,9 +7,9 @@ tags: [view]
 
 The causal channels - how one thing is said to cause another.
 
-67 across 24 articles. Back to [[index]].
+69 across 25 articles. Back to [[index]].
 
-## Mechanisms (67)
+## Mechanisms (69)
 
 - **2017-12** [[Trade deficits can drag on growth]] · _Why does the U.S. trade balance still matter..._
 - **2017-12** [[Trade shifts where jobs are located]] · _Why does the U.S. trade balance still matter..._
@@ -73,6 +73,8 @@ The causal channels - how one thing is said to cause another.
 - **2026-02** [[Fiscal channel]] · _Understanding the Low October 2025 Trade Def..._
 - **2026-07** [[AIdata-center investment and a large fiscal deficit are expanding the U.S. deficit]] · _Is China’s Surplus Really Shrinking?_
 - **2026-07** [[Slow recognition of the chip price shock in Q1 deflators distorted volume data]] · _Is China’s Surplus Really Shrinking?_
+- **2026-08** [[A weaker currency makes exports cheaper and boosts export growth after a lag of a year]] · _The World Should Not Ignore China’s Underval..._
+- **2026-08** [[Nominal appreciation produces real appreciation because domestic prices adjust]] · _The World Should Not Ignore China’s Underval..._
 - **2026-09** [[Authorities manage their currencies by adjusting the foreign positions]] · _De-reservification, Not De-dollarization_
 - **2026-09** [[Because the new official investors seek returns, foreign demand goes to U.S. risk assets]] · _De-reservification, Not De-dollarization_
 - **2026-10** [[With a closed financial account, the RMB is set mainly by exporter conversion]] · _What’s the Renminbi Got to Do With it?_

@@ -2,7 +2,7 @@
 type: subject
 facet: country
 term: euro-area
-claims: 28
+claims: 29
 saturated: false
 tags: [subject, subject/country, country/euro-area]
 ---
@@ -13,20 +13,20 @@ tags: [subject, subject/country, country/euro-area]
 
 Aligned to **ecb** `EA` — _component name, not yet re-checked_
 
-28 claims across 6 articles · facet `country` · [[By country]] · [[index]]
+29 claims across 7 articles · facet `country` · [[By country]] · [[index]]
 
-**Position in the argument graph** — centrality 68 (2.43 per claim), 31 out / 37 in, bias -0.09.
+**Position in the argument graph** — centrality 70 (2.41 per claim), 31 out / 39 in, bias -0.11.
 
 He argues **toward** this more than from it: it behaves like a conclusion.
 
 ## Argued together with
 
-- **variable**: [[manufacturing-trade-balance]] (10), [[export-volumes]] (9), [[current-account]] (7), [[manufacturing-output]] (6), [[bilateral-trade-flows]] (3)
+- **variable**: [[manufacturing-trade-balance]] (10), [[export-volumes]] (9), [[current-account]] (7), [[manufacturing-output]] (6), [[nominal-exchange-rate]] (4)
 - **bloc**: [[asia-surplus]] (1)
-- **instrument**: [[tariffs]] (4), [[fiscal-policy]] (2), [[industrial-policy]] (1), [[fx-intervention]] (1), [[purchase-commitments]] (1)
+- **instrument**: [[tariffs]] (4), [[fiscal-policy]] (3), [[fx-intervention]] (2), [[industrial-policy]] (1), [[purchase-commitments]] (1)
 - **data_basis**: [[balance-of-payments]] (3), [[customs]] (3), [[national-accounts]] (3), [[imf-publications]] (2), [[press-reporting]] (1)
 
-Appears as subject in 20 claims and as counterpart in 8 (i.e. bilateral claims) · [[Bilateral]]
+Appears as subject in 20 claims and as counterpart in 9 (i.e. bilateral claims) · [[Bilateral]]
 
 ## Claims by role
 
@@ -87,4 +87,8 @@ Appears as subject in 20 claims and as counterpart in 8 (i.e. bilateral claims) 
 ### other_explanation (1)
 
 - **2025-11** [[Ireland distorts European data; IMF forecast misses come from ignoring lagged exchange]] · _China's Massive Surplus is Everywhere (Yet T..._
+
+### recommendation (1)
+
+- **2026-08** [[The world, led now by Europe, should press China to let the renminbi appreciate]] · _The World Should Not Ignore China’s Underval..._
 

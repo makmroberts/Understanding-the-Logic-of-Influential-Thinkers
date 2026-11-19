@@ -2,7 +2,7 @@
 type: subject
 facet: instrument
 term: fiscal-policy
-claims: 26
+claims: 29
 saturated: false
 tags: [subject, subject/instrument, instrument/fiscal-policy]
 ---
@@ -11,18 +11,18 @@ tags: [subject, subject/instrument, instrument/fiscal-policy]
 
 > Discretionary tax and spending changes as the lever being argued for or against.
 
-26 claims across 9 articles · facet `instrument` · [[By instrument]] · [[index]]
+29 claims across 10 articles · facet `instrument` · [[By instrument]] · [[index]]
 
-**Position in the argument graph** — centrality 72 (2.77 per claim), 36 out / 36 in, bias +0.0.
+**Position in the argument graph** — centrality 81 (2.79 per claim), 39 out / 42 in, bias -0.04.
 
 Sits in the middle of arguments - as much argued toward as argued from.
 
 ## Argued together with
 
-- **variable**: [[fiscal-balance]] (14), [[domestic-demand]] (9), [[current-account]] (8), [[goods-trade-balance]] (8), [[fiscal-impulse]] (7)
-- **country**: [[us]] (13), [[china]] (7), [[japan]] (2), [[euro-area]] (2), [[germany]] (1)
+- **variable**: [[fiscal-balance]] (14), [[current-account]] (9), [[domestic-demand]] (9), [[fiscal-impulse]] (8), [[goods-trade-balance]] (8)
+- **country**: [[us]] (13), [[china]] (10), [[euro-area]] (3), [[japan]] (2), [[germany]] (1)
 - **bloc**: [[global]] (1)
-- **data_basis**: [[national-accounts]] (1), [[imf-publications]] (1)
+- **data_basis**: [[imf-publications]] (2), [[national-accounts]] (1)
 
 ## Claims by role
 
@@ -49,11 +49,12 @@ Sits in the middle of arguments - as much argued toward as argued from.
 - **2025-05** [[Five channels at once — tariffs as fiscal tightening, recession risk hitting equities]] · _Why Didn't Tariffs Push Up the U.S. Dollar?_
 - **2026-02** [[Fiscal channel]] · _Understanding the Low October 2025 Trade Def..._
 
-### intermediate_claim (3)
+### intermediate_claim (4)
 
 - **2018-02** [[Fiscal expansion widens the real trade deficit]] · _Will Trump's fiscal expansion undermine his ..._
 - **2019-09** [[Europe's imbalance is mainly a demand problem]] · _Why do global trade imbalances persist, and ..._
 - **2019-09** [[China's current adjustment is fragile]] · _Why do global trade imbalances persist, and ..._
+- **2026-08** [[Xi will not adopt household stimulus without external pressure; an appreciation]] · _The World Should Not Ignore China’s Underval..._
 
 ### counterpoint (3)
 
@@ -66,13 +67,14 @@ Sits in the middle of arguments - as much argued toward as argued from.
 - **2018-02** [[Main claim the tax bill sets back Trump's trade goals]] · _Will Trump's fiscal expansion undermine his ..._
 - **2025-11** [[The IMF should recognize China's external imbalance and call for a fiscal expansion]] · _China's Massive Surplus is Everywhere (Yet T..._
 
+### policy_reductio (2)
+
+- **2024-03** [[Take the IMF's own advice — consolidate 7.5pp of GDP, cut rates, loosen the currency]] · _China's Record Manufacturing Surplus_
+- **2026-08** [[If the exchange rate is ruled out, closing a surplus of this size would require a fiscal]] · _The World Should Not Ignore China’s Underval..._
+
 ### question (1)
 
 - **2018-02** [[Will Trump's fiscal expansion undermine his goal of reducing the U.S. trade deficit]] · _Will Trump's fiscal expansion undermine his ..._
-
-### policy_reductio (1)
-
-- **2024-03** [[Take the IMF's own advice — consolidate 7.5pp of GDP, cut rates, loosen the currency]] · _China's Record Manufacturing Surplus_
 
 ### caveat (1)
 
@@ -81,4 +83,8 @@ Sits in the middle of arguments - as much argued toward as argued from.
 ### other_explanation (1)
 
 - **2019-09** [[U.S.-adjustment alternative]] · _Why do global trade imbalances persist, and ..._
+
+### recommendation (1)
+
+- **2026-08** [[The world, led now by Europe, should press China to let the renminbi appreciate]] · _The World Should Not Ignore China’s Underval..._
 

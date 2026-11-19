@@ -2,7 +2,7 @@
 type: subject
 facet: country
 term: china
-claims: 239
+claims: 262
 saturated: true
 tags: [subject, subject/country, country/china, subject/saturated]
 ---
@@ -13,26 +13,26 @@ tags: [subject, subject/country, country/china, subject/saturated]
 
 Aligned to **iso3166** `CN` — _verified against the published list_
 
-239 claims across 18 articles · facet `country` · [[By country]] · [[index]]
+262 claims across 19 articles · facet `country` · [[By country]] · [[index]]
 
-> **Saturated.** This term is on 54% of all 441 claims, past the 40% threshold in `facets.yaml`. On its own it barely narrows anything; cross it with another facet. It also makes this note one of the densest in the graph.
+> **Saturated.** This term is on 56% of all 469 claims, past the 40% threshold in `facets.yaml`. On its own it barely narrows anything; cross it with another facet. It also makes this note one of the densest in the graph.
 
-**Position in the argument graph** — centrality 581 (2.43 per claim), 286 out / 295 in, bias -0.02.
+**Position in the argument graph** — centrality 632 (2.41 per claim), 311 out / 321 in, bias -0.02.
 
 Sits in the middle of arguments - as much argued toward as argued from.
 
 ## Argued together with
 
-- **variable**: [[import-volumes]] (62), [[current-account]] (59), [[bilateral-trade-flows]] (39), [[export-volumes]] (36), [[nominal-exchange-rate]] (32)
+- **variable**: [[current-account]] (66), [[import-volumes]] (63), [[bilateral-trade-flows]] (39), [[export-volumes]] (38), [[nominal-exchange-rate]] (36)
 - **bloc**: [[asia-surplus]] (3), [[global]] (2)
-- **instrument**: [[industrial-policy]] (28), [[purchase-commitments]] (27), [[tariffs]] (22), [[fx-intervention]] (22), [[retaliation]] (20)
-- **data_basis**: [[customs]] (42), [[balance-of-payments]] (30), [[imf-publications]] (17), [[mirror-statistics]] (12), [[third-party-trackers]] (5)
+- **instrument**: [[industrial-policy]] (31), [[fx-intervention]] (28), [[purchase-commitments]] (27), [[tariffs]] (22), [[retaliation]] (20)
+- **data_basis**: [[customs]] (42), [[balance-of-payments]] (31), [[imf-publications]] (21), [[mirror-statistics]] (12), [[academic-econometrics]] (7)
 
-Appears as subject in 192 claims and as counterpart in 47 (i.e. bilateral claims) · [[Bilateral]]
+Appears as subject in 215 claims and as counterpart in 47 (i.e. bilateral claims) · [[Bilateral]]
 
 ## Claims by role
 
-### evidence_data (45)
+### evidence_data (49)
 
 - **2018-06** [[China is tightening]] · _Could global macro shocks overwhelm trade de..._
 - **2019-05** [[Canola with Canada shut down]] · _Does a purchase-commitment deal push China b..._
@@ -73,12 +73,53 @@ Appears as subject in 192 claims and as counterpart in 47 (i.e. bilateral claims
 - **2026-07** [[Oil import volumes collapsed, so the commodity import bill rose only modestly and oil]] · _Is China’s Surplus Really Shrinking?_
 - **2026-07** [[Gold imports reached $146 billion in H1 2026, nearly $100 billion above H1]] · _Is China’s Surplus Really Shrinking?_
 - **2026-07** [[Booming auto exports, globally and to Europe, alongside flat imports drive the rising]] · _Is China’s Surplus Really Shrinking?_
+- **2026-08** [[China's reported surplus implies about 20 percent undervaluation by the IMF's own model]] · _The World Should Not Ignore China’s Underval..._
+- **2026-08** [[The PBOC controls the yuan through the daily fix and state-bank FX purchases]] · _The World Should Not Ignore China’s Underval..._
+- **2026-08** [[The PBOC allowed the 2022-23 depreciation of 10-15 percent against the dollar]] · _The World Should Not Ignore China’s Underval..._
+- **2026-08** [[Chinese exports accelerated 4-5 quarters after the depreciation, with net exports]] · _The World Should Not Ignore China’s Underval..._
 - **2026-09** [[China's state banks hold about $3.3 trillion in gross foreign assets, matching]] · _De-reservification, Not De-dollarization_
 - **2026-09** [[About 70 percent of Chinese state banks' foreign currency assets are in dollars, above]] · _De-reservification, Not De-dollarization_
 - **2026-10** [[The RMB has not tracked rate differentials it did not rise when Chinese rates were higher]] · _What’s the Renminbi Got to Do With it?_
 - **2026-10** [[Low volatility, the controlled 10% fall in 2022, the slow crawl up since, and FX]] · _What’s the Renminbi Got to Do With it?_
 - **2026-10** [[Chinese exports accelerated and outperformed global trade after the 2022 depreciation]] · _What’s the Renminbi Got to Do With it?_
 - **2026-10** [[Faster domestic demand alone would not rebalance China's external accounts because it]] · _What’s the Renminbi Got to Do With it?_
+
+### intermediate_claim (34)
+
+- **2019-05** [[China never left managed trade]] · _Does a purchase-commitment deal push China b..._
+- **2019-05** [[Reform and opening was partial and sector-specific]] · _Does a purchase-commitment deal push China b..._
+- **2019-05** [[Removing formal barriers is not enough]] · _Does a purchase-commitment deal push China b..._
+- **2019-05** [[So the standard critique is misdirected]] · _Does a purchase-commitment deal push China b..._
+- **2019-05** [[China has a genuine policy choice]] · _If U.S.-China trade tensions escalate, will ..._
+- **2019-05** [[Depreciation can absorb part of the tariff shock]] · _If U.S.-China trade tensions escalate, will ..._
+- **2019-05** [[But depreciation carries domestic and strategic costs]] · _If U.S.-China trade tensions escalate, will ..._
+- **2019-05** [[A weaker yuan redistributes trade pain]] · _If U.S.-China trade tensions escalate, will ..._
+- **2019-06** [[Soy retaliation was unusually effective]] · _Why did China's tariffs devastate some U.S. ..._
+- **2019-06** [[Oil retaliation mostly redirected trade]] · _Why did China's tariffs devastate some U.S. ..._
+- **2019-06** [[Manufacturing retaliation was weaker]] · _Why did China's tariffs devastate some U.S. ..._
+- **2019-06** [[Identical tariffs need not have identical effects]] · _Why did China's tariffs devastate some U.S. ..._
+- **2019-08** [[China's manufacturing model is unusually one-sided]] · _Why do the U.S., Europe, and China now occup..._
+- **2019-09** [[East Asia's imbalance is structurally harder]] · _Why do global trade imbalances persist, and ..._
+- **2019-09** [[China's current adjustment is fragile]] · _Why do global trade imbalances persist, and ..._
+- **2020-01** [[Five parallel verdicts industrial policy untouched, currency buffered, Treasuries unused]] · _Lessons From Phase One of the Trade War With..._
+- **2020-02** [[Diversion no longer offsets China]] · _Do tariffs change the trade balance, and who..._
+- **2020-07** [[Category by category manufacturing will not close the gap, agriculture is behind but Q4]] · _Slouching Toward Phase One_
+- **2020-10** [[The old Hong Kong explanation is no longer enough]] · _Record Chinese Bilateral Surpluses With the ..._
+- **2020-10** [[The discrepancy likely reflects reporting behavior]] · _Record Chinese Bilateral Surpluses With the ..._
+- **2024-03** [[The counterpart to the surplus is the United States, not commodity exporters, and the gap]] · _China's Record Manufacturing Surplus_
+- **2024-08** [[It makes no economic sense; the offsetting adjustment is absent; the series cannot be]] · _China's Imaginary Trade Data_
+- **2025-07** [[Current account comparisons based on balance of payments data make Europe, not China]] · _China's Stealth Trade Surplus_
+- **2025-07** [[The second China shock is eroding Europe's core export sectors and is large enough]] · _China is also Fighting a Trade War with Euro..._
+- **2025-11** [[China's surplus is massive and growing, yet IMF policy advice effectively lets China]] · _China's Massive Surplus is Everywhere (Yet T..._
+- **2026-07** [[Higher chip prices raise China's chip exports nearly as much as its chip imports]] · _Is China’s Surplus Really Shrinking?_
+- **2026-08** [[Waiting is costly because China's model depends on an ever-growing surplus, displacing]] · _The World Should Not Ignore China’s Underval..._
+- **2026-08** [[Xi will not adopt household stimulus without external pressure; an appreciation]] · _The World Should Not Ignore China’s Underval..._
+- **2026-08** [[Exchange rate diplomacy has worked Plaza reduced imbalances without causing Japan's]] · _The World Should Not Ignore China’s Underval..._
+- **2026-09** [[In China the important story is the rapid growth of the state banks' dollar holdings]] · _De-reservification, Not De-dollarization_
+- **2026-10** [[RMB weakness was a policy outcome under Chinese control, not incidental]] · _What’s the Renminbi Got to Do With it?_
+- **2026-10** [[The IMF's neglect of China's exchange rate management explains its forecast errors]] · _What’s the Renminbi Got to Do With it?_
+- **2026-10** [[The internal-balance-only argument fails because China is large and its surplus drags]] · _What’s the Renminbi Got to Do With it?_
+- **2026-10** [[Sector quotas such as the EU hybrid-car TRQ only buffer specific sectors; using]] · _What’s the Renminbi Got to Do With it?_
 
 ### mechanism (34)
 
@@ -117,41 +158,34 @@ Appears as subject in 192 claims and as counterpart in 47 (i.e. bilateral claims
 - **2026-10** [[Structural gains (WTO entry, green industry and autos) that should have strengthened]] · _What’s the Renminbi Got to Do With it?_
 - **2026-10** [[An undervalued RMB signals firms everywhere to produce in China, eroding manufacturing]] · _What’s the Renminbi Got to Do With it?_
 
-### intermediate_claim (31)
+### caveat (24)
 
-- **2019-05** [[China never left managed trade]] · _Does a purchase-commitment deal push China b..._
-- **2019-05** [[Reform and opening was partial and sector-specific]] · _Does a purchase-commitment deal push China b..._
-- **2019-05** [[Removing formal barriers is not enough]] · _Does a purchase-commitment deal push China b..._
-- **2019-05** [[So the standard critique is misdirected]] · _Does a purchase-commitment deal push China b..._
-- **2019-05** [[China has a genuine policy choice]] · _If U.S.-China trade tensions escalate, will ..._
-- **2019-05** [[Depreciation can absorb part of the tariff shock]] · _If U.S.-China trade tensions escalate, will ..._
-- **2019-05** [[But depreciation carries domestic and strategic costs]] · _If U.S.-China trade tensions escalate, will ..._
-- **2019-05** [[A weaker yuan redistributes trade pain]] · _If U.S.-China trade tensions escalate, will ..._
-- **2019-06** [[Soy retaliation was unusually effective]] · _Why did China's tariffs devastate some U.S. ..._
-- **2019-06** [[Oil retaliation mostly redirected trade]] · _Why did China's tariffs devastate some U.S. ..._
-- **2019-06** [[Manufacturing retaliation was weaker]] · _Why did China's tariffs devastate some U.S. ..._
-- **2019-06** [[Identical tariffs need not have identical effects]] · _Why did China's tariffs devastate some U.S. ..._
-- **2019-08** [[China's manufacturing model is unusually one-sided]] · _Why do the U.S., Europe, and China now occup..._
-- **2019-09** [[East Asia's imbalance is structurally harder]] · _Why do global trade imbalances persist, and ..._
-- **2019-09** [[China's current adjustment is fragile]] · _Why do global trade imbalances persist, and ..._
-- **2020-01** [[Five parallel verdicts industrial policy untouched, currency buffered, Treasuries unused]] · _Lessons From Phase One of the Trade War With..._
-- **2020-02** [[Diversion no longer offsets China]] · _Do tariffs change the trade balance, and who..._
-- **2020-07** [[Category by category manufacturing will not close the gap, agriculture is behind but Q4]] · _Slouching Toward Phase One_
-- **2020-10** [[The old Hong Kong explanation is no longer enough]] · _Record Chinese Bilateral Surpluses With the ..._
-- **2020-10** [[The discrepancy likely reflects reporting behavior]] · _Record Chinese Bilateral Surpluses With the ..._
-- **2024-03** [[The counterpart to the surplus is the United States, not commodity exporters, and the gap]] · _China's Record Manufacturing Surplus_
-- **2024-08** [[It makes no economic sense; the offsetting adjustment is absent; the series cannot be]] · _China's Imaginary Trade Data_
-- **2025-07** [[Current account comparisons based on balance of payments data make Europe, not China]] · _China's Stealth Trade Surplus_
-- **2025-07** [[The second China shock is eroding Europe's core export sectors and is large enough]] · _China is also Fighting a Trade War with Euro..._
-- **2025-11** [[China's surplus is massive and growing, yet IMF policy advice effectively lets China]] · _China's Massive Surplus is Everywhere (Yet T..._
-- **2026-07** [[Higher chip prices raise China's chip exports nearly as much as its chip imports]] · _Is China’s Surplus Really Shrinking?_
-- **2026-09** [[In China the important story is the rapid growth of the state banks' dollar holdings]] · _De-reservification, Not De-dollarization_
-- **2026-10** [[RMB weakness was a policy outcome under Chinese control, not incidental]] · _What’s the Renminbi Got to Do With it?_
-- **2026-10** [[The IMF's neglect of China's exchange rate management explains its forecast errors]] · _What’s the Renminbi Got to Do With it?_
-- **2026-10** [[The internal-balance-only argument fails because China is large and its surplus drags]] · _What’s the Renminbi Got to Do With it?_
-- **2026-10** [[Sector quotas such as the EU hybrid-car TRQ only buffer specific sectors; using]] · _What’s the Renminbi Got to Do With it?_
+- **2018-06** [[Path uncertainty]] · _Could global macro shocks overwhelm trade de..._
+- **2019-05** [[This is a description of the world as it is, not as it should be; and medical equipment]] · _Does a purchase-commitment deal push China b..._
+- **2019-05** [[Controlled depreciations are difficult because markets may front-run them]] · _If U.S.-China trade tensions escalate, will ..._
+- **2019-05** [[Retaliation risk]] · _If U.S.-China trade tensions escalate, will ..._
+- **2019-05** [[Tariffs and oil prices could push China toward current-account deficit]] · _If U.S.-China trade tensions escalate, will ..._
+- **2019-06** [[China had not tariffed all major U.S. manufacturing exports]] · _Why did China's tariffs devastate some U.S. ..._
+- **2019-06** [[China may have preserved targets for future retaliation]] · _Why did China's tariffs devastate some U.S. ..._
+- **2019-08** [[Processing trade makes Europe-China comparisons imperfect]] · _Why do the U.S., Europe, and China now occup..._
+- **2019-09** [[Fiscal and credit stimulus currently absorbs much of China's excess saving]] · _Why do global trade imbalances persist, and ..._
+- **2020-01** [[Tech decoupling will not bite in 2020 Boeing's own problems, no indigenous jet engines]] · _Lessons From Phase One of the Trade War With..._
+- **2020-07** [[Agriculture could still deliver in Q4, which creates a real cost to abandoning the deal]] · _Slouching Toward Phase One_
+- **2020-10** [[The reversal appears in monthly and 3-month data, not yet in the 12-month sum]] · _Record Chinese Bilateral Surpluses With the ..._
+- **2020-10** [[More investigation is needed before reaching a firm conclusion]] · _Record Chinese Bilateral Surpluses With the ..._
+- **2024-03** [[Specialisation does partly reflect a large population and limited resources]] · _China's Record Manufacturing Surplus_
+- **2024-08** [[The income line carries no detail, so this cannot be checked from outside]] · _China's Imaginary Trade Data_
+- **2025-07** [[Balance of payments adjustments may or may not be more accurate, and some are legitimate]] · _China's Stealth Trade Surplus_
+- **2025-07** [[The United States is still importing, which limits the damage, but American firms will]] · _China is also Fighting a Trade War with Euro..._
+- **2025-11** [[China's GDP data are too thin to confirm the net export math; the IMF does support]] · _China's Massive Surplus is Everywhere (Yet T..._
+- **2026-07** [[Commodity and manufacturing balances also changed, and the adjustments are complex]] · _Is China’s Surplus Really Shrinking?_
+- **2026-08** [[The moderation in China's deflation partly reflects higher oil prices]] · _The World Should Not Ignore China’s Underval..._
+- **2026-08** [[The IMF's standard playbook struggles with a high-saving, state-guided economy]] · _The World Should Not Ignore China’s Underval..._
+- **2026-08** [[The author agrees that raising household income share and social insurance is needed]] · _The World Should Not Ignore China’s Underval..._
+- **2026-10** [[The RMB has appreciated modestly since mid-2025, but this has not corrected]] · _What’s the Renminbi Got to Do With it?_
+- **2026-10** [[China's BoP data are less distorted than in 2023-24, but problems remain in investment]] · _What’s the Renminbi Got to Do With it?_
 
-### stated_assumption (21)
+### stated_assumption (22)
 
 - **2019-05** [[Who buys matters more than the border barrier]] · _Does a purchase-commitment deal push China b..._
 - **2019-05** [[State control of the commanding heights is not negotiable]] · _Does a purchase-commitment deal push China b..._
@@ -174,32 +208,9 @@ Appears as subject in 192 claims and as counterpart in 47 (i.e. bilateral claims
 - **2025-11** [[The surplus stems from a shortfall in China's domestic demand (European Central Bank view)]] · _China's Massive Surplus is Everywhere (Yet T..._
 - **2025-11** [[Deflation combined with a rising trade surplus calls for sustained fiscal expansion]] · _China's Massive Surplus is Everywhere (Yet T..._
 - **2026-07** [[Gold imports should be netted out because they reflect asset demand rather]] · _Is China’s Surplus Really Shrinking?_
+- **2026-08** [[Productivity catch-up implies a trend real appreciation, so depreciation relative]] · _The World Should Not Ignore China’s Underval..._
 
-### caveat (21)
-
-- **2018-06** [[Path uncertainty]] · _Could global macro shocks overwhelm trade de..._
-- **2019-05** [[This is a description of the world as it is, not as it should be; and medical equipment]] · _Does a purchase-commitment deal push China b..._
-- **2019-05** [[Controlled depreciations are difficult because markets may front-run them]] · _If U.S.-China trade tensions escalate, will ..._
-- **2019-05** [[Retaliation risk]] · _If U.S.-China trade tensions escalate, will ..._
-- **2019-05** [[Tariffs and oil prices could push China toward current-account deficit]] · _If U.S.-China trade tensions escalate, will ..._
-- **2019-06** [[China had not tariffed all major U.S. manufacturing exports]] · _Why did China's tariffs devastate some U.S. ..._
-- **2019-06** [[China may have preserved targets for future retaliation]] · _Why did China's tariffs devastate some U.S. ..._
-- **2019-08** [[Processing trade makes Europe-China comparisons imperfect]] · _Why do the U.S., Europe, and China now occup..._
-- **2019-09** [[Fiscal and credit stimulus currently absorbs much of China's excess saving]] · _Why do global trade imbalances persist, and ..._
-- **2020-01** [[Tech decoupling will not bite in 2020 Boeing's own problems, no indigenous jet engines]] · _Lessons From Phase One of the Trade War With..._
-- **2020-07** [[Agriculture could still deliver in Q4, which creates a real cost to abandoning the deal]] · _Slouching Toward Phase One_
-- **2020-10** [[The reversal appears in monthly and 3-month data, not yet in the 12-month sum]] · _Record Chinese Bilateral Surpluses With the ..._
-- **2020-10** [[More investigation is needed before reaching a firm conclusion]] · _Record Chinese Bilateral Surpluses With the ..._
-- **2024-03** [[Specialisation does partly reflect a large population and limited resources]] · _China's Record Manufacturing Surplus_
-- **2024-08** [[The income line carries no detail, so this cannot be checked from outside]] · _China's Imaginary Trade Data_
-- **2025-07** [[Balance of payments adjustments may or may not be more accurate, and some are legitimate]] · _China's Stealth Trade Surplus_
-- **2025-07** [[The United States is still importing, which limits the damage, but American firms will]] · _China is also Fighting a Trade War with Euro..._
-- **2025-11** [[China's GDP data are too thin to confirm the net export math; the IMF does support]] · _China's Massive Surplus is Everywhere (Yet T..._
-- **2026-07** [[Commodity and manufacturing balances also changed, and the adjustments are complex]] · _Is China’s Surplus Really Shrinking?_
-- **2026-10** [[The RMB has appreciated modestly since mid-2025, but this has not corrected]] · _What’s the Renminbi Got to Do With it?_
-- **2026-10** [[China's BoP data are less distorted than in 2023-24, but problems remain in investment]] · _What’s the Renminbi Got to Do With it?_
-
-### main_claim (14)
+### main_claim (15)
 
 - **2019-05** [[Main claim the right critique is revocability, not a return to managed trade]] · _Does a purchase-commitment deal push China b..._
 - **2019-05** [[Main claim China's currency response is a strategic choice]] · _If U.S.-China trade tensions escalate, will ..._
@@ -214,9 +225,10 @@ Appears as subject in 192 claims and as counterpart in 47 (i.e. bilateral claims
 - **2025-07** [[China is winning a trade war with Europe; Europe needs a counter-industrial policy]] · _China is also Fighting a Trade War with Euro..._
 - **2025-11** [[The IMF should recognize China's external imbalance and call for a fiscal expansion]] · _China's Massive Surplus is Everywhere (Yet T..._
 - **2026-07** [[China's underlying surplus is still rising and China continues to rely heavily on exports]] · _Is China’s Surplus Really Shrinking?_
+- **2026-08** [[China's deeply undervalued currency matters and should not be ignored; appreciation]] · _The World Should Not Ignore China’s Underval..._
 - **2026-10** [[China is on a collision course with its trading partners, and there is no realistic path]] · _What’s the Renminbi Got to Do With it?_
 
-### question (13)
+### question (14)
 
 - **2019-05** [[Does a purchase-commitment deal push China back toward managed trade]] · _Does a purchase-commitment deal push China b..._
 - **2019-05** [[If U.S.-China trade tensions escalate, will China keep the yuan stable or let it weaken]] · _If U.S.-China trade tensions escalate, will ..._
@@ -230,9 +242,10 @@ Appears as subject in 192 claims and as counterpart in 47 (i.e. bilateral claims
 - **2025-07** [[Why is Europe losing ground to China in trade, and what should it do about it]] · _China is also Fighting a Trade War with Euro..._
 - **2025-11** [[How big is China's surplus really, why does the IMF miss it, and what policy should follow]] · _China's Massive Surplus is Everywhere (Yet T..._
 - **2026-07** [[Has China's trade surplus really peaked and begun shrinking, as the Economist claims]] · _Is China’s Surplus Really Shrinking?_
+- **2026-08** [[Should the world press China to let its undervalued currency appreciate, or wait]] · _The World Should Not Ignore China’s Underval..._
 - **2026-10** [[Is China's export surge simply a mechanical result of weak domestic demand]] · _What’s the Renminbi Got to Do With it?_
 
-### opposing_view (11)
+### opposing_view (12)
 
 - **2019-05** [[Consensus view the deal pushes China back to managed trade]] · _Does a purchase-commitment deal push China b..._
 - **2020-01** [[Both approaches carry costs — managed trade rewards diversion away from allies]] · _Lessons From Phase One of the Trade War With..._
@@ -243,10 +256,11 @@ Appears as subject in 192 claims and as counterpart in 47 (i.e. bilateral claims
 - **2025-07** [[Europe's inadequate response so far; Trump-style tariffs or commodity purchase deals]] · _China is also Fighting a Trade War with Euro..._
 - **2025-11** [[The IMF's framing; the argument that Europe's surplus is almost as big]] · _China's Massive Surplus is Everywhere (Yet T..._
 - **2026-07** [[The Economist, drawing on Adam Wolfe of Absolute Strategy Research, argues China's trade]] · _Is China’s Surplus Really Shrinking?_
+- **2026-08** [[Gopinath, Gourinchas and Rey argue that exchange rate moves matter little, that nominal]] · _The World Should Not Ignore China’s Underval..._
 - **2026-10** [[The Geneva Report and former IMF officials hold that exports rose mechanically from weak]] · _What’s the Renminbi Got to Do With it?_
 - **2026-10** [[Some argue the IMF should defer to the PBOC, ignore external balance and focus]] · _What’s the Renminbi Got to Do With it?_
 
-### hidden_assumption (10)
+### hidden_assumption (11)
 
 - **2019-05** [[Managed trade means control of end demand, not tariffs]] · _Does a purchase-commitment deal push China b..._
 - **2020-01** [[The capacity to deliver purchases is the same capacity that can withdraw them]] · _Lessons From Phase One of the Trade War With..._
@@ -257,9 +271,10 @@ Appears as subject in 192 claims and as counterpart in 47 (i.e. bilateral claims
 - **2025-07** [[A trading partner's surplus drains demand from your economy; manufacturing capacity has]] · _China is also Fighting a Trade War with Euro..._
 - **2025-11** [[External balance is a legitimate policy target; exporting your way out of a slump imposes]] · _China's Massive Surplus is Everywhere (Yet T..._
 - **2026-07** [[The surge in Chinese gold imports reflects asset purchases unrelated to domestic demand]] · _Is China’s Surplus Really Shrinking?_
+- **2026-08** [[Households will not anticipate future gains and spend more when inefficient investment]] · _The World Should Not Ignore China’s Underval..._
 - **2026-10** [[The author takes for granted that a stronger RMB would reduce China's surplus enough]] · _What’s the Renminbi Got to Do With it?_
 
-### evidence_source (8)
+### evidence_source (10)
 
 - **2020-01** [[His own Senate testimony; Toloui on balance-sheet policy; the Economist on managed trade]] · _Lessons From Phase One of the Trade War With..._
 - **2020-07** [[PIIE purchase tracker; Reuters on crude loadings; S&P Global on cancelled LNG cargoes]] · _Slouching Toward Phase One_
@@ -267,10 +282,12 @@ Appears as subject in 192 claims and as counterpart in 47 (i.e. bilateral claims
 - **2024-08** [[IMF Article IV Appendix VII; consistent with Adam Wolf's work]] · _China's Imaginary Trade Data_
 - **2025-07** [[Centre for European Reform brief on German industry; Financial Times, New York Times]] · _China is also Fighting a Trade War with Euro..._
 - **2025-11** [[IMF External Sector Report 2025, October World Economic Outlook and 2024 Article IV]] · _China's Massive Surplus is Everywhere (Yet T..._
+- **2026-08** [[Empirical work, highlighted by Krugman, and China's recent data show no deflation offset]] · _The World Should Not Ignore China’s Underval..._
+- **2026-08** [[Landau and Jean argue the weak real exchange rate is a deliberate feature of Xi's]] · _The World Should Not Ignore China’s Underval..._
 - **2026-10** [[Mark Sobel argues the PBOC achieves intervention-like effects through capital controls]] · _What’s the Renminbi Got to Do With it?_
 - **2026-10** [[Merz and Macron's open letter supports addressing undervalued currencies, though EU macro]] · _What’s the Renminbi Got to Do With it?_
 
-### other_explanation (7)
+### other_explanation (8)
 
 - **2019-05** [[Private-buyer explanation autos]] · _Does a purchase-commitment deal push China b..._
 - **2020-01** [[Why were manufactures spared I am not quite sure why this is the case — two theories]] · _Lessons From Phase One of the Trade War With..._
@@ -278,15 +295,23 @@ Appears as subject in 192 claims and as counterpart in 47 (i.e. bilateral claims
 - **2020-10** [[Chinese exporters may be overstating exports]] · _Record Chinese Bilateral Surpluses With the ..._
 - **2025-07** [[China's services deficit, mostly travel, genuinely reduces its surplus]] · _China's Stealth Trade Surplus_
 - **2025-07** [[China's long-standing tariff walls (25 percent on autos) also helped build the sector]] · _China is also Fighting a Trade War with Euro..._
+- **2026-08** [[Industrial policy and a domestic market rigged against imports also drove China's export]] · _The World Should Not Ignore China’s Underval..._
 - **2026-10** [[The 2020-21 export surge came from pandemic goods demand, not the currency]] · _What’s the Renminbi Got to Do With it?_
 
-### source_credibility (5)
+### source_credibility (6)
 
 - **2020-01** [[Chinese data never quite fully lines up, which bothers me more than most]] · _Lessons From Phase One of the Trade War With..._
 - **2024-03** [[The reported current account misleads — flagged, with the full case made in the August]] · _China's Record Manufacturing Surplus_
 - **2024-08** [[The methodology was already changed at a convenient moment in 2015, and backdated]] · _China's Imaginary Trade Data_
+- **2026-08** [[China's reported investment income deficit despite large net foreign assets]] · _The World Should Not Ignore China’s Underval..._
 - **2026-09** [[China's official reporting is incomplete and the IMF has failed to flag the gap]] · _De-reservification, Not De-dollarization_
 - **2026-10** [[The PBOC's claim that market forces decide the RMB is not credible]] · _What’s the Renminbi Got to Do With it?_
+
+### recommendation (3)
+
+- **2024-03** [[The size of the imbalance, correctly measured, must be factored into Chinese policymaking]] · _China's Record Manufacturing Surplus_
+- **2024-08** [[implied only — stop using the reported series]] · _China's Imaginary Trade Data_
+- **2026-08** [[The world, led now by Europe, should press China to let the renminbi appreciate]] · _The World Should Not Ignore China’s Underval..._
 
 ### scope_choice (3)
 
@@ -304,11 +329,6 @@ Appears as subject in 192 claims and as counterpart in 47 (i.e. bilateral claims
 - **2024-08** [[Goods surplus understated by ~$300bn, over 1.5pp of GDP; true current account surplus]] · _China's Imaginary Trade Data_
 - **2026-07** [[Excluding gold, China's goods surplus rose by over $80 billion in H1 2026 and would be]] · _Is China’s Surplus Really Shrinking?_
 
-### recommendation (2)
-
-- **2024-03** [[The size of the imbalance, correctly measured, must be factored into Chinese policymaking]] · _China's Record Manufacturing Surplus_
-- **2024-08** [[implied only — stop using the reported series]] · _China's Imaginary Trade Data_
-
 ### revised_prior (2)
 
 - **2020-01** [[I was surprised by the size of China's impact... I thought U.S. soy would prove to be]] · _Lessons From Phase One of the Trade War With..._
@@ -324,6 +344,16 @@ Appears as subject in 192 claims and as counterpart in 47 (i.e. bilateral claims
 - **2019-05** [[Case for stability]] · _If U.S.-China trade tensions escalate, will ..._
 - **2019-06** [[Auto counterfactual]] · _Why did China's tariffs devastate some U.S. ..._
 
+### policy_reductio (2)
+
+- **2024-03** [[Take the IMF's own advice — consolidate 7.5pp of GDP, cut rates, loosen the currency]] · _China's Record Manufacturing Surplus_
+- **2026-08** [[If the exchange rate is ruled out, closing a surplus of this size would require a fiscal]] · _The World Should Not Ignore China’s Underval..._
+
+### anomaly (2)
+
+- **2026-08** [[The IMF forecast that China's surplus would shrink, but it grew instead because]] · _The World Should Not Ignore China’s Underval..._
+- **2026-10** [[The IMF expected China's Covid-era surplus to be transitory and its current account]] · _What’s the Renminbi Got to Do With it?_
+
 ### deferred_question (1)
 
 - **2024-08** [[The interest income anomaly is set aside for a future blog]] · _China's Imaginary Trade Data_
@@ -332,11 +362,7 @@ Appears as subject in 192 claims and as counterpart in 47 (i.e. bilateral claims
 
 - **2024-08** [[The customs goods series against the balance-of-payments goods series]] · _China's Imaginary Trade Data_
 
-### policy_reductio (1)
+### accounting_identity (1)
 
-- **2024-03** [[Take the IMF's own advice — consolidate 7.5pp of GDP, cut rates, loosen the currency]] · _China's Record Manufacturing Surplus_
-
-### anomaly (1)
-
-- **2026-10** [[The IMF expected China's Covid-era surplus to be transitory and its current account]] · _What’s the Renminbi Got to Do With it?_
+- **2026-08** [[Cutting investment subsidies without raising consumption would enlarge the surplus]] · _The World Should Not Ignore China’s Underval..._
 

@@ -15,7 +15,7 @@ Aligned to **iso3166** `US` — _verified against the published list_
 
 213 claims across 20 articles · facet `country` · [[By country]] · [[index]]
 
-> **Saturated.** This term is on 48% of all 441 claims, past the 40% threshold in `facets.yaml`. On its own it barely narrows anything; cross it with another facet. It also makes this note one of the densest in the graph.
+> **Saturated.** This term is on 45% of all 469 claims, past the 40% threshold in `facets.yaml`. On its own it barely narrows anything; cross it with another facet. It also makes this note one of the densest in the graph.
 
 **Position in the argument graph** — centrality 545 (2.56 per claim), 264 out / 281 in, bias -0.03.
 

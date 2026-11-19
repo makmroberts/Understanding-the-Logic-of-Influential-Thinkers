@@ -2,7 +2,7 @@
 type: subject
 facet: variable
 term: nominal-exchange-rate
-claims: 61
+claims: 66
 saturated: false
 tags: [subject, subject/variable, variable/nominal-exchange-rate]
 ---
@@ -13,17 +13,17 @@ tags: [subject, subject/variable, variable/nominal-exchange-rate]
 
 Aligned to **imf** `nominal exchange rate` — _component name, not yet re-checked_
 
-61 claims across 11 articles · facet `variable` · [[By variable]] · [[index]]
+66 claims across 12 articles · facet `variable` · [[By variable]] · [[index]]
 
-**Position in the argument graph** — centrality 156 (2.56 per claim), 85 out / 71 in, bias +0.09.
+**Position in the argument graph** — centrality 164 (2.48 per claim), 90 out / 74 in, bias +0.1.
 
 He argues **from** this more than toward it: it behaves like a prior or a mechanism.
 
 ## Argued together with
 
-- **country**: [[china]] (32), [[us]] (30), [[euro-area]] (3), [[taiwan]] (2), [[ireland]] (1)
+- **country**: [[china]] (36), [[us]] (30), [[euro-area]] (4), [[taiwan]] (2), [[japan]] (2)
 - **bloc**: [[asia-surplus]] (4)
-- **instrument**: [[fx-intervention]] (25), [[tariffs]] (16), [[capital-controls]] (4), [[industrial-policy]] (2), [[monetary-policy]] (1)
+- **instrument**: [[fx-intervention]] (29), [[tariffs]] (16), [[capital-controls]] (5), [[industrial-policy]] (2), [[fiscal-policy]] (2)
 - **data_basis**: [[market-prices]] (5), [[imf-publications]] (2), [[academic-econometrics]] (2), [[mirror-statistics]] (1), [[corporate-disclosure]] (1)
 
 ## Claims by role
@@ -43,7 +43,7 @@ He argues **from** this more than toward it: it behaves like a prior or a mechan
 - **2026-09** [[Authorities manage their currencies by adjusting the foreign positions]] · _De-reservification, Not De-dollarization_
 - **2026-10** [[With a closed financial account, the RMB is set mainly by exporter conversion]] · _What’s the Renminbi Got to Do With it?_
 
-### evidence_data (10)
+### evidence_data (12)
 
 - **2018-02** [[Foreign currencies strengthening]] · _Will Trump's fiscal expansion undermine his ..._
 - **2018-06** [[Italyeurozone risk]] · _Could global macro shocks overwhelm trade de..._
@@ -52,11 +52,13 @@ He argues **from** this more than toward it: it behaves like a prior or a mechan
 - **2019-09** [[Asian surplus economies restrain demandcurrencies]] · _Why do global trade imbalances persist, and ..._
 - **2020-01** [[Yuan -8% vs USD and -4% vs basket; Treasury holdings flat once Belgian accounts are]] · _Lessons From Phase One of the Trade War With..._
 - **2025-05** [[Dollar down ~10% against the G10; a $400-550 imported phone now carries $40-110]] · _Why Didn't Tariffs Push Up the U.S. Dollar?_
+- **2026-08** [[The PBOC controls the yuan through the daily fix and state-bank FX purchases]] · _The World Should Not Ignore China’s Underval..._
+- **2026-08** [[The PBOC allowed the 2022-23 depreciation of 10-15 percent against the dollar]] · _The World Should Not Ignore China’s Underval..._
 - **2026-10** [[The RMB has not tracked rate differentials it did not rise when Chinese rates were higher]] · _What’s the Renminbi Got to Do With it?_
 - **2026-10** [[Low volatility, the controlled 10% fall in 2022, the slow crawl up since, and FX]] · _What’s the Renminbi Got to Do With it?_
 - **2026-10** [[Chinese exports accelerated and outperformed global trade after the 2022 depreciation]] · _What’s the Renminbi Got to Do With it?_
 
-### intermediate_claim (9)
+### intermediate_claim (10)
 
 - **2018-02** [[Favorable adjustment forces arrive too slowly]] · _Will Trump's fiscal expansion undermine his ..._
 - **2018-06** [[Euro and Asian weakness could lift the dollar]] · _Could global macro shocks overwhelm trade de..._
@@ -65,6 +67,7 @@ He argues **from** this more than toward it: it behaves like a prior or a mechan
 - **2019-05** [[But depreciation carries domestic and strategic costs]] · _If U.S.-China trade tensions escalate, will ..._
 - **2019-05** [[A weaker yuan redistributes trade pain]] · _If U.S.-China trade tensions escalate, will ..._
 - **2025-05** [[Each of the five channels is plausible and none is decisive on its own]] · _Why Didn't Tariffs Push Up the U.S. Dollar?_
+- **2026-08** [[Exchange rate diplomacy has worked Plaza reduced imbalances without causing Japan's]] · _The World Should Not Ignore China’s Underval..._
 - **2026-10** [[RMB weakness was a policy outcome under Chinese control, not incidental]] · _What’s the Renminbi Got to Do With it?_
 - **2026-10** [[The IMF's neglect of China's exchange rate management explains its forecast errors]] · _What’s the Renminbi Got to Do With it?_
 
@@ -110,6 +113,11 @@ He argues **from** this more than toward it: it behaves like a prior or a mechan
 - **2025-05** [[The Miran paper; IMF working paper on Lerner symmetry; SAFE 2023 annual report; Aitken]] · _Why Didn't Tariffs Push Up the U.S. Dollar?_
 - **2026-10** [[Mark Sobel argues the PBOC achieves intervention-like effects through capital controls]] · _What’s the Renminbi Got to Do With it?_
 
+### opposing_view (2)
+
+- **2025-05** [[The consensus he started from — that tariffs mechanically lift the dollar]] · _Why Didn't Tariffs Push Up the U.S. Dollar?_
+- **2026-08** [[The view that Plaza caused Japan's bubble is wrong, since Germany appreciated without]] · _The World Should Not Ignore China’s Underval..._
+
 ### anomaly (1)
 
 - **2025-05** [[Treasury, the CEA, conventional analysts and markets all expected appreciation.]] · _Why Didn't Tariffs Push Up the U.S. Dollar?_
@@ -130,9 +138,9 @@ He argues **from** this more than toward it: it behaves like a prior or a mechan
 
 - **2025-05** [[Bessent at roughly 4% appreciation per 10% of tariffs; Miran expecting a rise; Lerner]] · _Why Didn't Tariffs Push Up the U.S. Dollar?_
 
-### opposing_view (1)
+### recommendation (1)
 
-- **2025-05** [[The consensus he started from — that tariffs mechanically lift the dollar]] · _Why Didn't Tariffs Push Up the U.S. Dollar?_
+- **2026-08** [[The world, led now by Europe, should press China to let the renminbi appreciate]] · _The World Should Not Ignore China’s Underval..._
 
 ### case_type (1)
 

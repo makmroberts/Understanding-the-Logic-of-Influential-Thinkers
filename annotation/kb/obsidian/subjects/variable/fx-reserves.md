@@ -2,7 +2,7 @@
 type: subject
 facet: variable
 term: fx-reserves
-claims: 37
+claims: 38
 saturated: false
 tags: [subject, subject/variable, variable/fx-reserves]
 ---
@@ -13,28 +13,29 @@ tags: [subject, subject/variable, variable/fx-reserves]
 
 Aligned to **bpm6** `reserve assets` — _component name, not yet re-checked_
 
-37 claims across 6 articles · facet `variable` · [[By variable]] · [[index]]
+38 claims across 7 articles · facet `variable` · [[By variable]] · [[index]]
 
-**Position in the argument graph** — centrality 97 (2.62 per claim), 51 out / 46 in, bias +0.05.
+**Position in the argument graph** — centrality 99 (2.61 per claim), 53 out / 46 in, bias +0.07.
 
 Sits in the middle of arguments - as much argued toward as argued from.
 
 ## Argued together with
 
-- **country**: [[china]] (11), [[us]] (4), [[taiwan]] (2), [[japan]] (2), [[korea]] (2)
+- **country**: [[china]] (12), [[us]] (4), [[taiwan]] (2), [[japan]] (2), [[korea]] (2)
 - **bloc**: [[global]] (8), [[em-weak-balance-sheet]] (4), [[gulf]] (3), [[asia-surplus]] (3), [[em-commodity]] (2)
-- **instrument**: [[fx-intervention]] (7), [[swap-lines]] (2), [[official-lending]] (2), [[capital-controls]] (1), [[tariffs]] (1)
+- **instrument**: [[fx-intervention]] (8), [[swap-lines]] (2), [[official-lending]] (2), [[capital-controls]] (2), [[tariffs]] (1)
 - **data_basis**: [[imf-publications]] (6), [[market-prices]] (3), [[balance-of-payments]] (2), [[corporate-disclosure]] (2), [[mirror-statistics]] (1)
 
 ## Claims by role
 
-### evidence_data (13)
+### evidence_data (14)
 
 - **2019-05** [[Recent yuan stability required little intervention]] · _If U.S.-China trade tensions escalate, will ..._
 - **2019-05** [[China retains external firepower]] · _If U.S.-China trade tensions escalate, will ..._
 - **2020-01** [[Yuan -8% vs USD and -4% vs basket; Treasury holdings flat once Belgian accounts are]] · _Lessons From Phase One of the Trade War With..._
 - **2020-03** [[Brent under $25, below almost every exporter's breakeven; Saudi reserves ~$500bn; GCC]] · _Not One Emerging Market Financial Crisis, bu..._
 - **2025-05** [[Dollar down ~10% against the G10; a $400-550 imported phone now carries $40-110]] · _Why Didn't Tariffs Push Up the U.S. Dollar?_
+- **2026-08** [[The PBOC controls the yuan through the daily fix and state-bank FX purchases]] · _The World Should Not Ignore China’s Underval..._
 - **2026-09** [[Global reserves and dollar reserves have both been roughly flat for a decade]] · _De-reservification, Not De-dollarization_
 - **2026-09** [[In China, Japan, Korea and Saudi Arabia, state banks, pension funds or sovereign funds]] · _De-reservification, Not De-dollarization_
 - **2026-09** [[China's state banks hold about $3.3 trillion in gross foreign assets, matching]] · _De-reservification, Not De-dollarization_

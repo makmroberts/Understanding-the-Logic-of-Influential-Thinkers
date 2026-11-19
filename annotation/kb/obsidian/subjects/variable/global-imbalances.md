@@ -2,7 +2,7 @@
 type: subject
 facet: variable
 term: global-imbalances
-claims: 20
+claims: 21
 saturated: false
 tags: [subject, subject/variable, variable/global-imbalances]
 ---
@@ -13,27 +13,28 @@ tags: [subject, subject/variable, variable/global-imbalances]
 
 Aligned to **bpm6** `current account (world aggregate)` — _component name, not yet re-checked_
 
-20 claims across 4 articles · facet `variable` · [[By variable]] · [[index]]
+21 claims across 5 articles · facet `variable` · [[By variable]] · [[index]]
 
-**Position in the argument graph** — centrality 66 (3.3 per claim), 29 out / 37 in, bias -0.12.
+**Position in the argument graph** — centrality 68 (3.24 per claim), 31 out / 37 in, bias -0.09.
 
 He argues **toward** this more than from it: it behaves like a conclusion.
 
 ## Argued together with
 
-- **country**: [[china]] (14), [[us]] (3), [[euro-area]] (2)
+- **country**: [[china]] (15), [[us]] (3), [[euro-area]] (2), [[japan]] (1)
 - **bloc**: [[global]] (4)
-- **instrument**: [[fiscal-policy]] (1), [[monetary-policy]] (1), [[structural-reform]] (1)
+- **instrument**: [[fiscal-policy]] (1), [[monetary-policy]] (1), [[structural-reform]] (1), [[fx-intervention]] (1)
 - **data_basis**: [[imf-publications]] (8), [[balance-of-payments]] (3)
 
 ## Claims by role
 
-### intermediate_claim (4)
+### intermediate_claim (5)
 
 - **2019-09** [[The U.S. cannot absorb surpluses forever]] · _Why do global trade imbalances persist, and ..._
 - **2024-03** [[The counterpart to the surplus is the United States, not commodity exporters, and the gap]] · _China's Record Manufacturing Surplus_
 - **2025-07** [[Current account comparisons based on balance of payments data make Europe, not China]] · _China's Stealth Trade Surplus_
 - **2025-11** [[China's surplus is massive and growing, yet IMF policy advice effectively lets China]] · _China's Massive Surplus is Everywhere (Yet T..._
+- **2026-08** [[Exchange rate diplomacy has worked Plaza reduced imbalances without causing Japan's]] · _The World Should Not Ignore China’s Underval..._
 
 ### main_claim (4)
 

@@ -2,7 +2,7 @@
 type: subject
 facet: variable
 term: current-account
-claims: 79
+claims: 86
 saturated: false
 tags: [subject, subject/variable, variable/current-account]
 ---
@@ -13,20 +13,46 @@ tags: [subject, subject/variable, variable/current-account]
 
 Aligned to **bpm6** `current account` — _component name, not yet re-checked_
 
-79 claims across 12 articles · facet `variable` · [[By variable]] · [[index]]
+86 claims across 13 articles · facet `variable` · [[By variable]] · [[index]]
 
-**Position in the argument graph** — centrality 199 (2.52 per claim), 102 out / 97 in, bias +0.03.
+**Position in the argument graph** — centrality 228 (2.65 per claim), 115 out / 113 in, bias +0.01.
 
 Sits in the middle of arguments - as much argued toward as argued from.
 
 ## Argued together with
 
-- **country**: [[china]] (59), [[euro-area]] (7), [[us]] (6), [[ireland]] (2), [[turkey]] (1)
+- **country**: [[china]] (66), [[euro-area]] (7), [[us]] (6), [[ireland]] (2), [[turkey]] (1)
 - **bloc**: [[global]] (6), [[em-weak-balance-sheet]] (2), [[latam]] (1), [[asia-surplus]] (1)
-- **instrument**: [[fiscal-policy]] (8), [[fx-intervention]] (3), [[monetary-policy]] (2), [[structural-reform]] (2), [[swap-lines]] (1)
-- **data_basis**: [[balance-of-payments]] (28), [[imf-publications]] (18), [[customs]] (10), [[academic-econometrics]] (3), [[third-party-trackers]] (1)
+- **instrument**: [[fiscal-policy]] (9), [[fx-intervention]] (5), [[structural-reform]] (3), [[monetary-policy]] (2), [[swap-lines]] (1)
+- **data_basis**: [[balance-of-payments]] (29), [[imf-publications]] (21), [[customs]] (10), [[academic-econometrics]] (3), [[third-party-trackers]] (1)
 
 ## Claims by role
+
+### intermediate_claim (10)
+
+- **2018-02** [[Income channel worsens the current account]] · _Will Trump's fiscal expansion undermine his ..._
+- **2019-09** [[Europe's imbalance is mainly a demand problem]] · _Why do global trade imbalances persist, and ..._
+- **2019-09** [[East Asia's imbalance is structurally harder]] · _Why do global trade imbalances persist, and ..._
+- **2019-09** [[China's current adjustment is fragile]] · _Why do global trade imbalances persist, and ..._
+- **2024-08** [[It makes no economic sense; the offsetting adjustment is absent; the series cannot be]] · _China's Imaginary Trade Data_
+- **2025-07** [[Current account comparisons based on balance of payments data make Europe, not China]] · _China's Stealth Trade Surplus_
+- **2025-11** [[China's surplus is massive and growing, yet IMF policy advice effectively lets China]] · _China's Massive Surplus is Everywhere (Yet T..._
+- **2026-08** [[Waiting is costly because China's model depends on an ever-growing surplus, displacing]] · _The World Should Not Ignore China’s Underval..._
+- **2026-10** [[The IMF's neglect of China's exchange rate management explains its forecast errors]] · _What’s the Renminbi Got to Do With it?_
+- **2026-10** [[The internal-balance-only argument fails because China is large and its surplus drags]] · _What’s the Renminbi Got to Do With it?_
+
+### evidence_data (10)
+
+- **2017-12** [[Manufacturing balance did not drive adjustment]] · _Why does the U.S. trade balance still matter..._
+- **2018-02** [[IMF external-balance coefficient]] · _Will Trump's fiscal expansion undermine his ..._
+- **2018-06** [[Argentina and Turkey must adjust]] · _Could global macro shocks overwhelm trade de..._
+- **2019-05** [[Balance of payments broadly stable]] · _If U.S.-China trade tensions escalate, will ..._
+- **2019-09** [[Europe and East Asia run large surpluses]] · _Why do global trade imbalances persist, and ..._
+- **2019-09** [[China has a surplus despite huge fiscal support]] · _Why do global trade imbalances persist, and ..._
+- **2024-08** [[Reported current account ~$150bn below expectation in Q2]] · _China's Imaginary Trade Data_
+- **2025-07** [[China's 2024 current account surplus about $430 billion (just over 2 percent of GDP)]] · _China's Stealth Trade Surplus_
+- **2025-11** [[Export volumes up 40 percent since end-2019 versus imports up 1 percent; manufactured]] · _China's Massive Surplus is Everywhere (Yet T..._
+- **2026-08** [[China's reported surplus implies about 20 percent undervaluation by the IMF's own model]] · _The World Should Not Ignore China’s Underval..._
 
 ### mechanism (10)
 
@@ -41,30 +67,6 @@ Sits in the middle of arguments - as much argued toward as argued from.
 - **2025-11** [[Mismeasurement]] · _China's Massive Surplus is Everywhere (Yet T..._
 - **2025-11** [[IMF lens]] · _China's Massive Surplus is Everywhere (Yet T..._
 
-### intermediate_claim (9)
-
-- **2018-02** [[Income channel worsens the current account]] · _Will Trump's fiscal expansion undermine his ..._
-- **2019-09** [[Europe's imbalance is mainly a demand problem]] · _Why do global trade imbalances persist, and ..._
-- **2019-09** [[East Asia's imbalance is structurally harder]] · _Why do global trade imbalances persist, and ..._
-- **2019-09** [[China's current adjustment is fragile]] · _Why do global trade imbalances persist, and ..._
-- **2024-08** [[It makes no economic sense; the offsetting adjustment is absent; the series cannot be]] · _China's Imaginary Trade Data_
-- **2025-07** [[Current account comparisons based on balance of payments data make Europe, not China]] · _China's Stealth Trade Surplus_
-- **2025-11** [[China's surplus is massive and growing, yet IMF policy advice effectively lets China]] · _China's Massive Surplus is Everywhere (Yet T..._
-- **2026-10** [[The IMF's neglect of China's exchange rate management explains its forecast errors]] · _What’s the Renminbi Got to Do With it?_
-- **2026-10** [[The internal-balance-only argument fails because China is large and its surplus drags]] · _What’s the Renminbi Got to Do With it?_
-
-### evidence_data (9)
-
-- **2017-12** [[Manufacturing balance did not drive adjustment]] · _Why does the U.S. trade balance still matter..._
-- **2018-02** [[IMF external-balance coefficient]] · _Will Trump's fiscal expansion undermine his ..._
-- **2018-06** [[Argentina and Turkey must adjust]] · _Could global macro shocks overwhelm trade de..._
-- **2019-05** [[Balance of payments broadly stable]] · _If U.S.-China trade tensions escalate, will ..._
-- **2019-09** [[Europe and East Asia run large surpluses]] · _Why do global trade imbalances persist, and ..._
-- **2019-09** [[China has a surplus despite huge fiscal support]] · _Why do global trade imbalances persist, and ..._
-- **2024-08** [[Reported current account ~$150bn below expectation in Q2]] · _China's Imaginary Trade Data_
-- **2025-07** [[China's 2024 current account surplus about $430 billion (just over 2 percent of GDP)]] · _China's Stealth Trade Surplus_
-- **2025-11** [[Export volumes up 40 percent since end-2019 versus imports up 1 percent; manufactured]] · _China's Massive Surplus is Everywhere (Yet T..._
-
 ### stated_assumption (8)
 
 - **2017-12** [[Persistent deficits accumulate external debt]] · _Why does the U.S. trade balance still matter..._
@@ -76,14 +78,24 @@ Sits in the middle of arguments - as much argued toward as argued from.
 - **2025-07** [[Customs goods data captures China's real imbalance better than balance of payments data]] · _China's Stealth Trade Surplus_
 - **2025-11** [[The surplus stems from a shortfall in China's domestic demand (European Central Bank view)]] · _China's Massive Surplus is Everywhere (Yet T..._
 
-### main_claim (6)
+### main_claim (7)
 
 - **2019-09** [[Main claim global imbalances could worsen first]] · _Why do global trade imbalances persist, and ..._
 - **2024-03** [[The imbalance is large, growing and mismeasured — it shows up everywhere except]] · _China's Record Manufacturing Surplus_
 - **2024-08** [[The reported surplus is an artifact of a methodology change]] · _China's Imaginary Trade Data_
 - **2025-07** [[The real imbalance is in China; the IMF and G7 should focus there]] · _China's Stealth Trade Surplus_
 - **2025-11** [[The IMF should recognize China's external imbalance and call for a fiscal expansion]] · _China's Massive Surplus is Everywhere (Yet T..._
+- **2026-08** [[China's deeply undervalued currency matters and should not be ignored; appreciation]] · _The World Should Not Ignore China’s Underval..._
 - **2026-10** [[China is on a collision course with its trading partners, and there is no realistic path]] · _What’s the Renminbi Got to Do With it?_
+
+### question (6)
+
+- **2019-09** [[Why do global trade imbalances persist, and why could they worsen before improving]] · _Why do global trade imbalances persist, and ..._
+- **2020-03** [[Emerging economies face the same shocks — do they need the same response]] · _Not One Emerging Market Financial Crisis, bu..._
+- **2024-08** [[Why does the reported current account diverge from the customs surplus, and which is right]] · _China's Imaginary Trade Data_
+- **2025-07** [[Why does China's surplus look small in IMF imbalance data when trade flows show it is huge]] · _China's Stealth Trade Surplus_
+- **2025-11** [[How big is China's surplus really, why does the IMF miss it, and what policy should follow]] · _China's Massive Surplus is Everywhere (Yet T..._
+- **2026-08** [[Should the world press China to let its undervalued currency appreciate, or wait]] · _The World Should Not Ignore China’s Underval..._
 
 ### hidden_assumption (5)
 
@@ -92,14 +104,6 @@ Sits in the middle of arguments - as much argued toward as argued from.
 - **2025-07** [[Opaque official statistics that no one can replicate deserve less trust than physical]] · _China's Stealth Trade Surplus_
 - **2025-11** [[External balance is a legitimate policy target; exporting your way out of a slump imposes]] · _China's Massive Surplus is Everywhere (Yet T..._
 - **2026-10** [[The author takes for granted that a stronger RMB would reduce China's surplus enough]] · _What’s the Renminbi Got to Do With it?_
-
-### question (5)
-
-- **2019-09** [[Why do global trade imbalances persist, and why could they worsen before improving]] · _Why do global trade imbalances persist, and ..._
-- **2020-03** [[Emerging economies face the same shocks — do they need the same response]] · _Not One Emerging Market Financial Crisis, bu..._
-- **2024-08** [[Why does the reported current account diverge from the customs surplus, and which is right]] · _China's Imaginary Trade Data_
-- **2025-07** [[Why does China's surplus look small in IMF imbalance data when trade flows show it is huge]] · _China's Stealth Trade Surplus_
-- **2025-11** [[How big is China's surplus really, why does the IMF miss it, and what policy should follow]] · _China's Massive Surplus is Everywhere (Yet T..._
 
 ### caveat (5)
 
@@ -123,6 +127,12 @@ Sits in the middle of arguments - as much argued toward as argued from.
 - **2025-07** [[IMF 2024 Article IV report; China's State Administration of Foreign Exchange argument]] · _China's Stealth Trade Surplus_
 - **2025-11** [[IMF External Sector Report 2025, October World Economic Outlook and 2024 Article IV]] · _China's Massive Surplus is Everywhere (Yet T..._
 
+### source_credibility (3)
+
+- **2024-03** [[The reported current account misleads — flagged, with the full case made in the August]] · _China's Record Manufacturing Surplus_
+- **2024-08** [[The methodology was already changed at a convenient moment in 2015, and backdated]] · _China's Imaginary Trade Data_
+- **2026-08** [[China's reported investment income deficit despite large net foreign assets]] · _The World Should Not Ignore China’s Underval..._
+
 ### other_explanation (2)
 
 - **2025-07** [[China's services deficit, mostly travel, genuinely reduces its surplus]] · _China's Stealth Trade Surplus_
@@ -138,10 +148,15 @@ Sits in the middle of arguments - as much argued toward as argued from.
 - **2024-03** [[The size of the imbalance, correctly measured, must be factored into Chinese policymaking]] · _China's Record Manufacturing Surplus_
 - **2024-08** [[implied only — stop using the reported series]] · _China's Imaginary Trade Data_
 
-### source_credibility (2)
+### policy_reductio (2)
 
-- **2024-03** [[The reported current account misleads — flagged, with the full case made in the August]] · _China's Record Manufacturing Surplus_
-- **2024-08** [[The methodology was already changed at a convenient moment in 2015, and backdated]] · _China's Imaginary Trade Data_
+- **2024-03** [[Take the IMF's own advice — consolidate 7.5pp of GDP, cut rates, loosen the currency]] · _China's Record Manufacturing Surplus_
+- **2026-08** [[If the exchange rate is ruled out, closing a surplus of this size would require a fiscal]] · _The World Should Not Ignore China’s Underval..._
+
+### anomaly (2)
+
+- **2026-08** [[The IMF forecast that China's surplus would shrink, but it grew instead because]] · _The World Should Not Ignore China’s Underval..._
+- **2026-10** [[The IMF expected China's Covid-era surplus to be transitory and its current account]] · _What’s the Renminbi Got to Do With it?_
 
 ### evidence_rival (1)
 
@@ -151,17 +166,9 @@ Sits in the middle of arguments - as much argued toward as argued from.
 
 - **2024-08** [[Goods surplus understated by ~$300bn, over 1.5pp of GDP; true current account surplus]] · _China's Imaginary Trade Data_
 
-### policy_reductio (1)
-
-- **2024-03** [[Take the IMF's own advice — consolidate 7.5pp of GDP, cut rates, loosen the currency]] · _China's Record Manufacturing Surplus_
-
 ### counterpoint (1)
 
 - **2019-09** [[Japan exception]] · _Why do global trade imbalances persist, and ..._
-
-### anomaly (1)
-
-- **2026-10** [[The IMF expected China's Covid-era surplus to be transitory and its current account]] · _What’s the Renminbi Got to Do With it?_
 
 ### benchmark (1)
 

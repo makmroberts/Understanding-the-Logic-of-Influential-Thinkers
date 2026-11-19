@@ -2,7 +2,7 @@
 type: subject
 facet: variable
 term: manufacturing-output
-claims: 27
+claims: 28
 saturated: false
 tags: [subject, subject/variable, variable/manufacturing-output]
 ---
@@ -13,15 +13,15 @@ tags: [subject, subject/variable, variable/manufacturing-output]
 
 Aligned to **isic** `C - manufacturing` — _component name, not yet re-checked_
 
-27 claims across 7 articles · facet `variable` · [[By variable]] · [[index]]
+28 claims across 8 articles · facet `variable` · [[By variable]] · [[index]]
 
-**Position in the argument graph** — centrality 63 (2.33 per claim), 33 out / 30 in, bias +0.05.
+**Position in the argument graph** — centrality 65 (2.32 per claim), 34 out / 31 in, bias +0.05.
 
 Sits in the middle of arguments - as much argued toward as argued from.
 
 ## Argued together with
 
-- **country**: [[china]] (18), [[euro-area]] (6), [[us]] (6)
+- **country**: [[china]] (19), [[euro-area]] (6), [[us]] (6)
 - **bloc**: [[global]] (3)
 - **instrument**: [[industrial-policy]] (8), [[fx-intervention]] (1), [[tariffs]] (1)
 - **data_basis**: [[customs]] (3), [[press-reporting]] (1), [[academic-econometrics]] (1), [[third-party-trackers]] (1)
@@ -39,18 +39,19 @@ Sits in the middle of arguments - as much argued toward as argued from.
 - **2025-07** [[Overcapacity]] · _China is also Fighting a Trade War with Euro..._
 - **2026-10** [[An undervalued RMB signals firms everywhere to produce in China, eroding manufacturing]] · _What’s the Renminbi Got to Do With it?_
 
+### intermediate_claim (4)
+
+- **2019-08** [[U.S. globalization favored offshore profits]] · _Why do the U.S., Europe, and China now occup..._
+- **2019-08** [[Europe's strength creates cyclical exposure]] · _Why do the U.S., Europe, and China now occup..._
+- **2025-07** [[The second China shock is eroding Europe's core export sectors and is large enough]] · _China is also Fighting a Trade War with Euro..._
+- **2026-08** [[Waiting is costly because China's model depends on an ever-growing surplus, displacing]] · _The World Should Not Ignore China’s Underval..._
+
 ### stated_assumption (4)
 
 - **2019-08** [[Trade shares reveal production structure]] · _Why do the U.S., Europe, and China now occup..._
 - **2019-08** [[Manufacturing balances reflect where production occurs]] · _Why do the U.S., Europe, and China now occup..._
 - **2025-07** [[China's trade war tools are industrial policy and a weak currency, not tariffs]] · _China is also Fighting a Trade War with Euro..._
 - **2025-07** [[Chinese firms, private or state-linked, accept low returns on equity and build too much]] · _China is also Fighting a Trade War with Euro..._
-
-### intermediate_claim (3)
-
-- **2019-08** [[U.S. globalization favored offshore profits]] · _Why do the U.S., Europe, and China now occup..._
-- **2019-08** [[Europe's strength creates cyclical exposure]] · _Why do the U.S., Europe, and China now occup..._
-- **2025-07** [[The second China shock is eroding Europe's core export sectors and is large enough]] · _China is also Fighting a Trade War with Euro..._
 
 ### evidence_data (3)
 

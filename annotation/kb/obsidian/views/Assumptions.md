@@ -7,9 +7,9 @@ tags: [view]
 
 Everything the argument takes as given before it starts.
 
-79 across 24 articles. Back to [[index]].
+85 across 25 articles. Back to [[index]].
 
-## Hidden assumptions - the unstated warrants (16)
+## Hidden assumptions - the unstated warrants (17)
 
 - **2019-05** [[Managed trade means control of end demand, not tariffs]] · _Does a purchase-commitment deal push China b..._
 - **2020-01** [[The capacity to deliver purchases is the same capacity that can withdraw them]] · _Lessons From Phase One of the Trade War With..._
@@ -25,10 +25,11 @@ Everything the argument takes as given before it starts.
 - **2025-11** [[External balance is a legitimate policy target; exporting your way out of a slump imposes]] · _China's Massive Surplus is Everywhere (Yet T..._
 - **2026-02** [[The trade balance is a macroeconomic savings-investment outcome; inventory swings reverse]] · _Understanding the Low October 2025 Trade Def..._
 - **2026-07** [[The surge in Chinese gold imports reflects asset purchases unrelated to domestic demand]] · _Is China’s Surplus Really Shrinking?_
+- **2026-08** [[Households will not anticipate future gains and spend more when inefficient investment]] · _The World Should Not Ignore China’s Underval..._
 - **2026-09** [[Assets held by state-directed banks, pension funds and insurers can be treated]] · _De-reservification, Not De-dollarization_
 - **2026-10** [[The author takes for granted that a stronger RMB would reduce China's surplus enough]] · _What’s the Renminbi Got to Do With it?_
 
-## Stated assumptions (47)
+## Stated assumptions (49)
 
 - **2017-12** [[Net exports contribute to GDP growth]] · _Why does the U.S. trade balance still matter..._
 - **2017-12** [[Trade shapes employment composition]] · _Why does the U.S. trade balance still matter..._
@@ -75,6 +76,8 @@ Everything the argument takes as given before it starts.
 - **2026-02** [[Tariffs reduce the trade deficit only if their proceeds reduce the budget deficit, acting]] · _Understanding the Low October 2025 Trade Def..._
 - **2026-02** [[Remove pharmaceuticals and gold to read the underlying deficit]] · _Understanding the Low October 2025 Trade Def..._
 - **2026-07** [[Gold imports should be netted out because they reflect asset demand rather]] · _Is China’s Surplus Really Shrinking?_
+- **2026-08** [[Accumulated surpluses should generate net foreign assets that earn positive investment]] · _The World Should Not Ignore China’s Underval..._
+- **2026-08** [[Productivity catch-up implies a trend real appreciation, so depreciation relative]] · _The World Should Not Ignore China’s Underval..._
 - **2026-09** [[Reserve managers' currency choices largely mirror the currency of liabilities they must]] · _De-reservification, Not De-dollarization_
 - **2026-10** [[A technologically converging country should see trend real appreciation]] · _What’s the Renminbi Got to Do With it?_
 
@@ -85,24 +88,27 @@ Everything the argument takes as given before it starts.
 - **2025-05** [[the dollar's downturn was still a bit of a surprise — he counts himself among]] · _Why Didn't Tariffs Push Up the U.S. Dollar?_
 - **2026-07** [[Setser expected the chip price surge to explain more of the net change than it did]] · _Is China’s Surplus Really Shrinking?_
 
-## Accounting identities (1)
+## Accounting identities (2)
 
 - **2024-03** [[A large manufacturing surplus requires an offsetting deficit in manufactures elsewhere]] · _China's Record Manufacturing Surplus_
+- **2026-08** [[Cutting investment subsidies without raising consumption would enlarge the surplus]] · _The World Should Not Ignore China’s Underval..._
 
-## Source credibility - priors about who made the data (5)
+## Source credibility - priors about who made the data (6)
 
 - **2020-01** [[Chinese data never quite fully lines up, which bothers me more than most]] · _Lessons From Phase One of the Trade War With..._
 - **2024-03** [[The reported current account misleads — flagged, with the full case made in the August]] · _China's Record Manufacturing Surplus_
 - **2024-08** [[The methodology was already changed at a convenient moment in 2015, and backdated]] · _China's Imaginary Trade Data_
+- **2026-08** [[China's reported investment income deficit despite large net foreign assets]] · _The World Should Not Ignore China’s Underval..._
 - **2026-09** [[China's official reporting is incomplete and the IMF has failed to flag the gap]] · _De-reservification, Not De-dollarization_
 - **2026-10** [[The PBOC's claim that market forces decide the RMB is not credible]] · _What’s the Renminbi Got to Do With it?_
 
-## Scope choices and benchmarks (6)
+## Scope choices and benchmarks (7)
 
 - **2020-07** [[Services excluded because in-China sales are not exports; aircraft adjusted out]] · _Slouching Toward Phase One_
 - **2020-07** [[The deal's own numbers — a 2017 baseline, roughly $60bn above it, a $164.65bn target]] · _Slouching Toward Phase One_
 - **2024-03** [[SITC categories 5 through 9, the standard manufactures breakout, from the long UN]] · _China's Record Manufacturing Surplus_
 - **2026-07** [[The cleanest gauge is manufactures trade excluding chips and gold, where exports are up]] · _Is China’s Surplus Really Shrinking?_
+- **2026-08** [[The IMF's standard model predicts a 10 percent currency move shifts net exports by 1.5 pp]] · _The World Should Not Ignore China’s Underval..._
 - **2026-09** [[Counting sovereign and quasi-sovereign foreign assets, rather than only formal reserves]] · _De-reservification, Not De-dollarization_
 - **2026-10** [[Under fixed-but-adjustable regimes, surplus countries were expected to revalue]] · _What’s the Renminbi Got to Do With it?_
 

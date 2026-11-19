@@ -2,7 +2,7 @@
 type: subject
 facet: country
 term: japan
-claims: 4
+claims: 6
 saturated: false
 tags: [subject, subject/country, country/japan]
 ---
@@ -13,16 +13,16 @@ tags: [subject, subject/country, country/japan]
 
 Aligned to **iso3166** `JP` — _verified against the published list_
 
-4 claims across 3 articles · facet `country` · [[By country]] · [[index]]
+6 claims across 4 articles · facet `country` · [[By country]] · [[index]]
 
-**Position in the argument graph** — centrality 5 (1.25 per claim), 2 out / 3 in, bias -0.2.
+**Position in the argument graph** — centrality 8 (1.33 per claim), 4 out / 4 in, bias +0.0.
 
-He argues **toward** this more than from it: it behaves like a conclusion.
+Sits in the middle of arguments - as much argued toward as argued from.
 
 ## Argued together with
 
-- **variable**: [[fiscal-balance]] (2), [[fx-reserves]] (2), [[domestic-demand]] (1), [[current-account]] (1), [[capital-flows]] (1)
-- **instrument**: [[fiscal-policy]] (2), [[fx-intervention]] (1)
+- **variable**: [[fiscal-balance]] (2), [[nominal-exchange-rate]] (2), [[fx-reserves]] (2), [[domestic-demand]] (1), [[current-account]] (1)
+- **instrument**: [[fiscal-policy]] (2), [[fx-intervention]] (2)
 
 ## Claims by role
 
@@ -34,6 +34,14 @@ He argues **toward** this more than from it: it behaves like a conclusion.
 ### counterpoint (1)
 
 - **2019-09** [[Japan exception]] · _Why do global trade imbalances persist, and ..._
+
+### intermediate_claim (1)
+
+- **2026-08** [[Exchange rate diplomacy has worked Plaza reduced imbalances without causing Japan's]] · _The World Should Not Ignore China’s Underval..._
+
+### opposing_view (1)
+
+- **2026-08** [[The view that Plaza caused Japan's bubble is wrong, since Germany appreciated without]] · _The World Should Not Ignore China’s Underval..._
 
 ### caveat (1)
 

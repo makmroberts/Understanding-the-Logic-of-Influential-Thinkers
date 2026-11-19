@@ -1,0 +1,574 @@
+{
+ "nodes": [
+  {
+   "id": "setser_2026-08-02_the-world-should-not-ignore-chinas-obviously-undervalued-currency-ANOM",
+   "type": "file",
+   "file": "claims/anomaly/The IMF forecast that China's surplus would shrink, but it grew instead because.md",
+   "x": -550,
+   "y": 0,
+   "width": 520,
+   "height": 300,
+   "color": "#AAAAAA"
+  },
+  {
+   "id": "setser_2026-08-02_the-world-should-not-ignore-chinas-obviously-undervalued-currency-Q",
+   "type": "file",
+   "file": "claims/question/Should the world press China to let its undervalued currency appreciate, or wait.md",
+   "x": 30,
+   "y": 0,
+   "width": 520,
+   "height": 300,
+   "color": "#7A6FA8"
+  },
+  {
+   "id": "setser_2026-08-02_the-world-should-not-ignore-chinas-obviously-undervalued-currency-ID",
+   "type": "file",
+   "file": "claims/accounting_identity/Cutting investment subsidies without raising consumption would enlarge the surplus.md",
+   "x": -1420,
+   "y": 480,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "setser_2026-08-02_the-world-should-not-ignore-chinas-obviously-undervalued-currency-P1",
+   "type": "file",
+   "file": "claims/stated_assumption/Accumulated surpluses should generate net foreign assets that earn positive investment.md",
+   "x": -840,
+   "y": 480,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "setser_2026-08-02_the-world-should-not-ignore-chinas-obviously-undervalued-currency-P2",
+   "type": "file",
+   "file": "claims/stated_assumption/Productivity catch-up implies a trend real appreciation, so depreciation relative.md",
+   "x": -260,
+   "y": 480,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "setser_2026-08-02_the-world-should-not-ignore-chinas-obviously-undervalued-currency-P3",
+   "type": "file",
+   "file": "claims/hidden_assumption/Households will not anticipate future gains and spend more when inefficient investment.md",
+   "x": 320,
+   "y": 480,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "setser_2026-08-02_the-world-should-not-ignore-chinas-obviously-undervalued-currency-SC",
+   "type": "file",
+   "file": "claims/source_credibility/China's reported investment income deficit despite large net foreign assets.md",
+   "x": 900,
+   "y": 480,
+   "width": 520,
+   "height": 300,
+   "color": "#2FA88F"
+  },
+  {
+   "id": "setser_2026-08-02_the-world-should-not-ignore-chinas-obviously-undervalued-currency-BM",
+   "type": "file",
+   "file": "claims/benchmark/The IMF's standard model predicts a 10 percent currency move shifts net exports by 1.5 pp.md",
+   "x": -260,
+   "y": 960,
+   "width": 520,
+   "height": 300,
+   "color": "#2FA88F"
+  },
+  {
+   "id": "setser_2026-08-02_the-world-should-not-ignore-chinas-obviously-undervalued-currency-E1",
+   "type": "file",
+   "file": "claims/evidence_data/China's reported surplus implies about 20 percent undervaluation by the IMF's own model.md",
+   "x": -1710,
+   "y": 1440,
+   "width": 520,
+   "height": 300,
+   "color": "#2F7FBF"
+  },
+  {
+   "id": "setser_2026-08-02_the-world-should-not-ignore-chinas-obviously-undervalued-currency-E2",
+   "type": "file",
+   "file": "claims/evidence_data/The PBOC controls the yuan through the daily fix and state-bank FX purchases.md",
+   "x": -1130,
+   "y": 1440,
+   "width": 520,
+   "height": 300,
+   "color": "#2F7FBF"
+  },
+  {
+   "id": "setser_2026-08-02_the-world-should-not-ignore-chinas-obviously-undervalued-currency-E3",
+   "type": "file",
+   "file": "claims/evidence_data/The PBOC allowed the 2022-23 depreciation of 10-15 percent against the dollar.md",
+   "x": -550,
+   "y": 1440,
+   "width": 520,
+   "height": 300,
+   "color": "#2F7FBF"
+  },
+  {
+   "id": "setser_2026-08-02_the-world-should-not-ignore-chinas-obviously-undervalued-currency-E4",
+   "type": "file",
+   "file": "claims/evidence_data/Chinese exports accelerated 4-5 quarters after the depreciation, with net exports.md",
+   "x": 30,
+   "y": 1440,
+   "width": 520,
+   "height": 300,
+   "color": "#2F7FBF"
+  },
+  {
+   "id": "setser_2026-08-02_the-world-should-not-ignore-chinas-obviously-undervalued-currency-E5",
+   "type": "file",
+   "file": "claims/evidence_source/Empirical work, highlighted by Krugman, and China's recent data show no deflation offset.md",
+   "x": 610,
+   "y": 1440,
+   "width": 520,
+   "height": 300,
+   "color": "#2F7FBF"
+  },
+  {
+   "id": "setser_2026-08-02_the-world-should-not-ignore-chinas-obviously-undervalued-currency-E6",
+   "type": "file",
+   "file": "claims/evidence_source/Landau and Jean argue the weak real exchange rate is a deliberate feature of Xi's.md",
+   "x": 1190,
+   "y": 1440,
+   "width": 520,
+   "height": 300,
+   "color": "#2F7FBF"
+  },
+  {
+   "id": "setser_2026-08-02_the-world-should-not-ignore-chinas-obviously-undervalued-currency-M1",
+   "type": "file",
+   "file": "claims/mechanism/A weaker currency makes exports cheaper and boosts export growth after a lag of a year.md",
+   "x": -550,
+   "y": 1920,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "setser_2026-08-02_the-world-should-not-ignore-chinas-obviously-undervalued-currency-M2",
+   "type": "file",
+   "file": "claims/mechanism/Nominal appreciation produces real appreciation because domestic prices adjust.md",
+   "x": 30,
+   "y": 1920,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "setser_2026-08-02_the-world-should-not-ignore-chinas-obviously-undervalued-currency-C1",
+   "type": "file",
+   "file": "claims/intermediate_claim/Waiting is costly because China's model depends on an ever-growing surplus, displacing.md",
+   "x": -1130,
+   "y": 2400,
+   "width": 520,
+   "height": 300,
+   "color": "#2FBF9B"
+  },
+  {
+   "id": "setser_2026-08-02_the-world-should-not-ignore-chinas-obviously-undervalued-currency-C2",
+   "type": "file",
+   "file": "claims/intermediate_claim/Xi will not adopt household stimulus without external pressure; an appreciation.md",
+   "x": -550,
+   "y": 2400,
+   "width": 520,
+   "height": 300,
+   "color": "#2FBF9B"
+  },
+  {
+   "id": "setser_2026-08-02_the-world-should-not-ignore-chinas-obviously-undervalued-currency-C3",
+   "type": "file",
+   "file": "claims/intermediate_claim/Exchange rate diplomacy has worked Plaza reduced imbalances without causing Japan's.md",
+   "x": 30,
+   "y": 2400,
+   "width": 520,
+   "height": 300,
+   "color": "#2FBF9B"
+  },
+  {
+   "id": "setser_2026-08-02_the-world-should-not-ignore-chinas-obviously-undervalued-currency-C4",
+   "type": "file",
+   "file": "claims/policy_reductio/If the exchange rate is ruled out, closing a surplus of this size would require a fiscal.md",
+   "x": 610,
+   "y": 2400,
+   "width": 520,
+   "height": 300,
+   "color": "#2FBF9B"
+  },
+  {
+   "id": "setser_2026-08-02_the-world-should-not-ignore-chinas-obviously-undervalued-currency-K",
+   "type": "file",
+   "file": "claims/main_claim/China's deeply undervalued currency matters and should not be ignored; appreciation.md",
+   "x": -550,
+   "y": 2880,
+   "width": 520,
+   "height": 300,
+   "color": "#2FBF9B"
+  },
+  {
+   "id": "setser_2026-08-02_the-world-should-not-ignore-chinas-obviously-undervalued-currency-REC",
+   "type": "file",
+   "file": "claims/recommendation/The world, led now by Europe, should press China to let the renminbi appreciate.md",
+   "x": 30,
+   "y": 2880,
+   "width": 520,
+   "height": 300,
+   "color": "#2FBF9B"
+  },
+  {
+   "id": "setser_2026-08-02_the-world-should-not-ignore-chinas-obviously-undervalued-currency-QF",
+   "type": "file",
+   "file": "claims/caveat/The moderation in China's deflation partly reflects higher oil prices.md",
+   "x": -1710,
+   "y": 3360,
+   "width": 520,
+   "height": 300,
+   "color": "#9A8C6A"
+  },
+  {
+   "id": "setser_2026-08-02_the-world-should-not-ignore-chinas-obviously-undervalued-currency-QF2",
+   "type": "file",
+   "file": "claims/caveat/The IMF's standard playbook struggles with a high-saving, state-guided economy.md",
+   "x": -1130,
+   "y": 3360,
+   "width": 520,
+   "height": 300,
+   "color": "#9A8C6A"
+  },
+  {
+   "id": "setser_2026-08-02_the-world-should-not-ignore-chinas-obviously-undervalued-currency-QF3",
+   "type": "file",
+   "file": "claims/caveat/The author agrees that raising household income share and social insurance is needed.md",
+   "x": -550,
+   "y": 3360,
+   "width": 520,
+   "height": 300,
+   "color": "#9A8C6A"
+  },
+  {
+   "id": "setser_2026-08-02_the-world-should-not-ignore-chinas-obviously-undervalued-currency-R1",
+   "type": "file",
+   "file": "claims/other_explanation/Industrial policy and a domestic market rigged against imports also drove China's export.md",
+   "x": 30,
+   "y": 3360,
+   "width": 520,
+   "height": 300,
+   "color": "#8A8A8A"
+  },
+  {
+   "id": "setser_2026-08-02_the-world-should-not-ignore-chinas-obviously-undervalued-currency-X",
+   "type": "file",
+   "file": "claims/opposing_view/Gopinath, Gourinchas and Rey argue that exchange rate moves matter little, that nominal.md",
+   "x": 610,
+   "y": 3360,
+   "width": 520,
+   "height": 300,
+   "color": "#8A8A8A"
+  },
+  {
+   "id": "setser_2026-08-02_the-world-should-not-ignore-chinas-obviously-undervalued-currency-X2",
+   "type": "file",
+   "file": "claims/opposing_view/The view that Plaza caused Japan's bubble is wrong, since Germany appreciated without.md",
+   "x": 1190,
+   "y": 3360,
+   "width": 520,
+   "height": 300,
+   "color": "#8A8A8A"
+  }
+ ],
+ "edges": [
+  {
+   "id": "Q-P1",
+   "fromNode": "setser_2026-08-02_the-world-should-not-ignore-chinas-obviously-undervalued-currency-Q",
+   "fromSide": "bottom",
+   "toNode": "setser_2026-08-02_the-world-should-not-ignore-chinas-obviously-undervalued-currency-P1",
+   "toSide": "top",
+   "label": "0 frames",
+   "color": "6"
+  },
+  {
+   "id": "Q-P2",
+   "fromNode": "setser_2026-08-02_the-world-should-not-ignore-chinas-obviously-undervalued-currency-Q",
+   "fromSide": "bottom",
+   "toNode": "setser_2026-08-02_the-world-should-not-ignore-chinas-obviously-undervalued-currency-P2",
+   "toSide": "top",
+   "label": "0 frames",
+   "color": "6"
+  },
+  {
+   "id": "Q-SC",
+   "fromNode": "setser_2026-08-02_the-world-should-not-ignore-chinas-obviously-undervalued-currency-Q",
+   "fromSide": "bottom",
+   "toNode": "setser_2026-08-02_the-world-should-not-ignore-chinas-obviously-undervalued-currency-SC",
+   "toSide": "top",
+   "label": "0 frames",
+   "color": "6"
+  },
+  {
+   "id": "SC-E1",
+   "fromNode": "setser_2026-08-02_the-world-should-not-ignore-chinas-obviously-undervalued-currency-SC",
+   "fromSide": "bottom",
+   "toNode": "setser_2026-08-02_the-world-should-not-ignore-chinas-obviously-undervalued-currency-E1",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "P1-SC",
+   "fromNode": "setser_2026-08-02_the-world-should-not-ignore-chinas-obviously-undervalued-currency-P1",
+   "fromSide": "bottom",
+   "toNode": "setser_2026-08-02_the-world-should-not-ignore-chinas-obviously-undervalued-currency-SC",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "BM-E1",
+   "fromNode": "setser_2026-08-02_the-world-should-not-ignore-chinas-obviously-undervalued-currency-BM",
+   "fromSide": "bottom",
+   "toNode": "setser_2026-08-02_the-world-should-not-ignore-chinas-obviously-undervalued-currency-E1",
+   "toSide": "top",
+   "label": "+1 bounds",
+   "color": "4"
+  },
+  {
+   "id": "BM-E4",
+   "fromNode": "setser_2026-08-02_the-world-should-not-ignore-chinas-obviously-undervalued-currency-BM",
+   "fromSide": "bottom",
+   "toNode": "setser_2026-08-02_the-world-should-not-ignore-chinas-obviously-undervalued-currency-E4",
+   "toSide": "top",
+   "label": "+1 bounds",
+   "color": "4"
+  },
+  {
+   "id": "P2-M1",
+   "fromNode": "setser_2026-08-02_the-world-should-not-ignore-chinas-obviously-undervalued-currency-P2",
+   "fromSide": "bottom",
+   "toNode": "setser_2026-08-02_the-world-should-not-ignore-chinas-obviously-undervalued-currency-M1",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "E3-M1",
+   "fromNode": "setser_2026-08-02_the-world-should-not-ignore-chinas-obviously-undervalued-currency-E3",
+   "fromSide": "bottom",
+   "toNode": "setser_2026-08-02_the-world-should-not-ignore-chinas-obviously-undervalued-currency-M1",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "E4-M1",
+   "fromNode": "setser_2026-08-02_the-world-should-not-ignore-chinas-obviously-undervalued-currency-E4",
+   "fromSide": "bottom",
+   "toNode": "setser_2026-08-02_the-world-should-not-ignore-chinas-obviously-undervalued-currency-M1",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "ANOM-Q",
+   "fromNode": "setser_2026-08-02_the-world-should-not-ignore-chinas-obviously-undervalued-currency-ANOM",
+   "fromSide": "bottom",
+   "toNode": "setser_2026-08-02_the-world-should-not-ignore-chinas-obviously-undervalued-currency-Q",
+   "toSide": "top",
+   "label": "+1 motivates",
+   "color": "4"
+  },
+  {
+   "id": "M1-R1",
+   "fromNode": "setser_2026-08-02_the-world-should-not-ignore-chinas-obviously-undervalued-currency-M1",
+   "fromSide": "bottom",
+   "toNode": "setser_2026-08-02_the-world-should-not-ignore-chinas-obviously-undervalued-currency-R1",
+   "toSide": "top",
+   "label": "-1 undercut_by",
+   "color": "1"
+  },
+  {
+   "id": "E5-M2",
+   "fromNode": "setser_2026-08-02_the-world-should-not-ignore-chinas-obviously-undervalued-currency-E5",
+   "fromSide": "bottom",
+   "toNode": "setser_2026-08-02_the-world-should-not-ignore-chinas-obviously-undervalued-currency-M2",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "M2-QF",
+   "fromNode": "setser_2026-08-02_the-world-should-not-ignore-chinas-obviously-undervalued-currency-M2",
+   "fromSide": "bottom",
+   "toNode": "setser_2026-08-02_the-world-should-not-ignore-chinas-obviously-undervalued-currency-QF",
+   "toSide": "top",
+   "label": "-1 qualified_by",
+   "color": "1"
+  },
+  {
+   "id": "E2-K",
+   "fromNode": "setser_2026-08-02_the-world-should-not-ignore-chinas-obviously-undervalued-currency-E2",
+   "fromSide": "bottom",
+   "toNode": "setser_2026-08-02_the-world-should-not-ignore-chinas-obviously-undervalued-currency-K",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "E1-K",
+   "fromNode": "setser_2026-08-02_the-world-should-not-ignore-chinas-obviously-undervalued-currency-E1",
+   "fromSide": "bottom",
+   "toNode": "setser_2026-08-02_the-world-should-not-ignore-chinas-obviously-undervalued-currency-K",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "M1-K",
+   "fromNode": "setser_2026-08-02_the-world-should-not-ignore-chinas-obviously-undervalued-currency-M1",
+   "fromSide": "bottom",
+   "toNode": "setser_2026-08-02_the-world-should-not-ignore-chinas-obviously-undervalued-currency-K",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "M2-K",
+   "fromNode": "setser_2026-08-02_the-world-should-not-ignore-chinas-obviously-undervalued-currency-M2",
+   "fromSide": "bottom",
+   "toNode": "setser_2026-08-02_the-world-should-not-ignore-chinas-obviously-undervalued-currency-K",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "E6-C2",
+   "fromNode": "setser_2026-08-02_the-world-should-not-ignore-chinas-obviously-undervalued-currency-E6",
+   "fromSide": "bottom",
+   "toNode": "setser_2026-08-02_the-world-should-not-ignore-chinas-obviously-undervalued-currency-C2",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "C1-K",
+   "fromNode": "setser_2026-08-02_the-world-should-not-ignore-chinas-obviously-undervalued-currency-C1",
+   "fromSide": "bottom",
+   "toNode": "setser_2026-08-02_the-world-should-not-ignore-chinas-obviously-undervalued-currency-K",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "C2-K",
+   "fromNode": "setser_2026-08-02_the-world-should-not-ignore-chinas-obviously-undervalued-currency-C2",
+   "fromSide": "bottom",
+   "toNode": "setser_2026-08-02_the-world-should-not-ignore-chinas-obviously-undervalued-currency-K",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "C3-K",
+   "fromNode": "setser_2026-08-02_the-world-should-not-ignore-chinas-obviously-undervalued-currency-C3",
+   "fromSide": "bottom",
+   "toNode": "setser_2026-08-02_the-world-should-not-ignore-chinas-obviously-undervalued-currency-K",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "C3-X2",
+   "fromNode": "setser_2026-08-02_the-world-should-not-ignore-chinas-obviously-undervalued-currency-C3",
+   "fromSide": "bottom",
+   "toNode": "setser_2026-08-02_the-world-should-not-ignore-chinas-obviously-undervalued-currency-X2",
+   "toSide": "top",
+   "label": "-1 rebuts",
+   "color": "1"
+  },
+  {
+   "id": "ID-C4",
+   "fromNode": "setser_2026-08-02_the-world-should-not-ignore-chinas-obviously-undervalued-currency-ID",
+   "fromSide": "bottom",
+   "toNode": "setser_2026-08-02_the-world-should-not-ignore-chinas-obviously-undervalued-currency-C4",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "P3-C4",
+   "fromNode": "setser_2026-08-02_the-world-should-not-ignore-chinas-obviously-undervalued-currency-P3",
+   "fromSide": "bottom",
+   "toNode": "setser_2026-08-02_the-world-should-not-ignore-chinas-obviously-undervalued-currency-C4",
+   "toSide": "top",
+   "label": "+1 licenses",
+   "color": "4"
+  },
+  {
+   "id": "E1-C4",
+   "fromNode": "setser_2026-08-02_the-world-should-not-ignore-chinas-obviously-undervalued-currency-E1",
+   "fromSide": "bottom",
+   "toNode": "setser_2026-08-02_the-world-should-not-ignore-chinas-obviously-undervalued-currency-C4",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "C4-REC",
+   "fromNode": "setser_2026-08-02_the-world-should-not-ignore-chinas-obviously-undervalued-currency-C4",
+   "fromSide": "bottom",
+   "toNode": "setser_2026-08-02_the-world-should-not-ignore-chinas-obviously-undervalued-currency-REC",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  },
+  {
+   "id": "K-REC",
+   "fromNode": "setser_2026-08-02_the-world-should-not-ignore-chinas-obviously-undervalued-currency-K",
+   "fromSide": "bottom",
+   "toNode": "setser_2026-08-02_the-world-should-not-ignore-chinas-obviously-undervalued-currency-REC",
+   "toSide": "top",
+   "label": "+1 motivates",
+   "color": "4"
+  },
+  {
+   "id": "K-X",
+   "fromNode": "setser_2026-08-02_the-world-should-not-ignore-chinas-obviously-undervalued-currency-K",
+   "fromSide": "bottom",
+   "toNode": "setser_2026-08-02_the-world-should-not-ignore-chinas-obviously-undervalued-currency-X",
+   "toSide": "top",
+   "label": "-1 rebuts",
+   "color": "1"
+  },
+  {
+   "id": "C4-QF2",
+   "fromNode": "setser_2026-08-02_the-world-should-not-ignore-chinas-obviously-undervalued-currency-C4",
+   "fromSide": "bottom",
+   "toNode": "setser_2026-08-02_the-world-should-not-ignore-chinas-obviously-undervalued-currency-QF2",
+   "toSide": "top",
+   "label": "-1 qualified_by",
+   "color": "1"
+  },
+  {
+   "id": "K-QF3",
+   "fromNode": "setser_2026-08-02_the-world-should-not-ignore-chinas-obviously-undervalued-currency-K",
+   "fromSide": "bottom",
+   "toNode": "setser_2026-08-02_the-world-should-not-ignore-chinas-obviously-undervalued-currency-QF3",
+   "toSide": "top",
+   "label": "-1 qualified_by",
+   "color": "1"
+  },
+  {
+   "id": "E2-C1",
+   "fromNode": "setser_2026-08-02_the-world-should-not-ignore-chinas-obviously-undervalued-currency-E2",
+   "fromSide": "bottom",
+   "toNode": "setser_2026-08-02_the-world-should-not-ignore-chinas-obviously-undervalued-currency-C1",
+   "toSide": "top",
+   "label": "+1 supports",
+   "color": "4"
+  }
+ ]
+}

@@ -1,0 +1,754 @@
+{
+  "schema_version": "source-record-0.1",
+  "article": {
+    "id": "the-world-should-not-ignore-chinas-obviously-undervalued-currency",
+    "title": "The World Should Not Ignore China’s Undervalued Currency",
+    "authors": [
+      "Brad W. Setser"
+    ],
+    "published_date": "2026-08-02",
+    "url": "https://www.cfr.org/articles/the-world-should-not-ignore-chinas-obviously-undervalued-currency",
+    "publisher": "Council on Foreign Relations",
+    "series": "Follow the Money",
+    "source_text": {
+      "path": "internal/extracted/2026-08-02_the-world-should-not-ignore-chinas-obviously-undervalued-currency.md",
+      "paragraph_count": 68,
+      "content_hash": "sha256:52df0c232ac3ddf2865eb166ef5a1e46fb9645fac506cecf8210841dc57c1078",
+      "revision": 1
+    },
+    "references": [
+      {
+        "id": "r001",
+        "paragraph_id": "p2",
+        "char_start": 0,
+        "char_end": 56,
+        "label": "If adjustments are made for China’s surging gold imports",
+        "href": "https://www.cfr.org/articles/is-chinas-surplus-really-shrinking",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://cfr.org/articles/is-chinas-surplus-really-shrinking",
+        "host": "cfr.org",
+        "target_article_id": null
+      },
+      {
+        "id": "r002",
+        "paragraph_id": "p7",
+        "char_start": 565,
+        "char_end": 645,
+        "label": "the gap between its current level and where it should be has become quite large.",
+        "href": "https://paulkrugman.substack.com/p/chinas-trade-surplus-part-ii",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://paulkrugman.substack.com/p/chinas-trade-surplus-part-ii",
+        "host": "paulkrugman.substack.com",
+        "target_article_id": null
+      },
+      {
+        "id": "r003",
+        "paragraph_id": "p8",
+        "char_start": 238,
+        "char_end": 318,
+        "label": "argue that the world shouldn’t press China to change how it manages its currency",
+        "href": "https://www.economist.com/by-invitation/2026/07/28/dont-blame-global-imbalances-on-the-undervalued-yuan",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://economist.com/by-invitation/2026/07/28/dont-blame-global-imbalances-on-the-undervalued-yuan",
+        "host": "economist.com",
+        "target_article_id": null
+      },
+      {
+        "id": "r004",
+        "paragraph_id": "p13",
+        "char_start": 116,
+        "char_end": 123,
+        "label": "Europe,",
+        "href": "https://www.cer.eu/publications/archive/policy-brief/2026/china-shock-20-cost-germanys-complacency",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://cer.eu/publications/archive/policy-brief/2026/china-shock-20-cost-germanys-complacency",
+        "host": "cer.eu",
+        "target_article_id": null
+      },
+      {
+        "id": "r005",
+        "paragraph_id": "p33",
+        "char_start": 149,
+        "char_end": 178,
+        "label": "highlighted this back in 2011",
+        "href": "https://archive.nytimes.com/krugman.blogs.nytimes.com/2011/12/24/exchange-rates-and-wages/",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://archive.nytimes.com/krugman.blogs.nytimes.com/2011/12/24/exchange-rates-and-wages",
+        "host": "archive.nytimes.com",
+        "target_article_id": null
+      },
+      {
+        "id": "r006",
+        "paragraph_id": "p38",
+        "char_start": 113,
+        "char_end": 123,
+        "label": "this blog.",
+        "href": "https://www.cfr.org/articles/china-needs-more-progressive-taxes-and-more-spending-public-health",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://cfr.org/articles/china-needs-more-progressive-taxes-and-more-spending-public-health",
+        "host": "cfr.org",
+        "target_article_id": null
+      },
+      {
+        "id": "r007",
+        "paragraph_id": "p41",
+        "char_start": 274,
+        "char_end": 285,
+        "label": "Ask Germany",
+        "href": "https://www.cer.eu/publications/archive/policy-brief/2026/china-shock-20-cost-germanys-complacency",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://cer.eu/publications/archive/policy-brief/2026/china-shock-20-cost-germanys-complacency",
+        "host": "cer.eu",
+        "target_article_id": null
+      },
+      {
+        "id": "r008",
+        "paragraph_id": "p48",
+        "char_start": 254,
+        "char_end": 327,
+        "label": "China opted for renewed appreciation in 2011 rather than risk legislation",
+        "href": "https://www.epi.org/blog/currency-legislation-lead-trade-war-china/",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://epi.org/blog/currency-legislation-lead-trade-war-china",
+        "host": "epi.org",
+        "target_article_id": null
+      },
+      {
+        "id": "r009",
+        "paragraph_id": "p49",
+        "char_start": 405,
+        "char_end": 422,
+        "label": "the big Mac index",
+        "href": "https://www.economist.com/interactive/big-mac-index",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://economist.com/interactive/big-mac-index",
+        "host": "economist.com",
+        "target_article_id": null
+      },
+      {
+        "id": "r010",
+        "paragraph_id": "p50",
+        "char_start": 0,
+        "char_end": 29,
+        "label": "Gopinath, Gourinchas, and Rey",
+        "href": "https://www.economist.com/by-invitation/2026/07/28/dont-blame-global-imbalances-on-the-undervalued-yuan",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://economist.com/by-invitation/2026/07/28/dont-blame-global-imbalances-on-the-undervalued-yuan",
+        "host": "economist.com",
+        "target_article_id": null
+      },
+      {
+        "id": "r011",
+        "paragraph_id": "p59",
+        "char_start": 143,
+        "char_end": 216,
+        "label": "have noted that a weak real exchange rate is a core feature of Xi’s China",
+        "href": "https://www.ifri.org/en/memos/transfer-paradox-rethinking-global-imbalances",
+        "kind": "hyperlink",
+        "placement": "body",
+        "source_key": "https://ifri.org/en/memos/transfer-paradox-rethinking-global-imbalances",
+        "host": "ifri.org",
+        "target_article_id": null
+      },
+      {
+        "id": "r012",
+        "paragraph_id": "p64",
+        "char_start": 201,
+        "char_end": 218,
+        "label": "2025 staff report",
+        "href": "https://www.imf.org/en/publications/cr/issues/2026/02/17/peoples-republic-of-china-2025-article-iv-consultation-press-release-staff-report-and-574028",
+        "kind": "hyperlink",
+        "placement": "footnote",
+        "source_key": "https://imf.org/en/publications/cr/issues/2026/02/17/peoples-republic-of-china-2025-article-iv-consultation-press-release-staff-report-and-574028",
+        "host": "imf.org",
+        "target_article_id": null
+      },
+      {
+        "id": "r013",
+        "paragraph_id": "p64",
+        "char_start": 270,
+        "char_end": 275,
+        "label": "blogs",
+        "href": "https://www.cfr.org/articles/the-pboc-the-state-banks-and-backdoor-intervention",
+        "kind": "hyperlink",
+        "placement": "footnote",
+        "source_key": "https://cfr.org/articles/the-pboc-the-state-banks-and-backdoor-intervention",
+        "host": "cfr.org",
+        "target_article_id": null
+      },
+      {
+        "id": "r014",
+        "paragraph_id": "p64",
+        "char_start": 279,
+        "char_end": 288,
+        "label": "the issue",
+        "href": "https://www.cfr.org/articles/scaling-chinas-hidden-intervention-in-the-foreign-exchange-market",
+        "kind": "hyperlink",
+        "placement": "footnote",
+        "source_key": "https://cfr.org/articles/scaling-chinas-hidden-intervention-in-the-foreign-exchange-market",
+        "host": "cfr.org",
+        "target_article_id": null
+      },
+      {
+        "id": "r015",
+        "paragraph_id": "p64",
+        "char_start": 459,
+        "char_end": 484,
+        "label": "SAFE’s 2020 annual report",
+        "href": "https://www.safe.gov.cn/en/AnnualReport/index.html",
+        "kind": "hyperlink",
+        "placement": "footnote",
+        "source_key": "https://safe.gov.cn/en/annualreport/index.html",
+        "host": "safe.gov.cn",
+        "target_article_id": null
+      },
+      {
+        "id": "r016",
+        "paragraph_id": "p65",
+        "char_start": 3,
+        "char_end": 168,
+        "label": "Tooze would say that the stakes of China’s industrial policy shock are “nothing less than a complete transformation of industrial division of labour at world scale.”",
+        "href": "https://adamtooze.substack.com/p/chartbook-462-china-shocked-beyond",
+        "kind": "hyperlink",
+        "placement": "footnote",
+        "source_key": "https://adamtooze.substack.com/p/chartbook-462-china-shocked-beyond",
+        "host": "adamtooze.substack.com",
+        "target_article_id": null
+      },
+      {
+        "id": "r017",
+        "paragraph_id": "p68",
+        "char_start": 259,
+        "char_end": 294,
+        "label": "an important 2023 IMF working paper",
+        "href": "https://www.imf.org/en/publications/wp/issues/2023/08/02/fiscal-policy-and-the-government-balance-sheet-in-china-536273",
+        "kind": "hyperlink",
+        "placement": "footnote",
+        "source_key": "https://imf.org/en/publications/wp/issues/2023/08/02/fiscal-policy-and-the-government-balance-sheet-in-china-536273",
+        "host": "imf.org",
+        "target_article_id": null
+      }
+    ],
+    "metadata_extension": {
+      "field_sources": {
+        "title": "frontmatter",
+        "authors": "frontmatter",
+        "published_date": "frontmatter",
+        "url": "frontmatter",
+        "publisher": "frontmatter",
+        "series": "frontmatter"
+      },
+      "references_status": "preserved",
+      "links_hash": "sha256:1a832082dd5b2688e056d812603cb9f7e2bc9d16ba7e760934e04ed83ef6b657",
+      "subtitle": "A weak renminbi directly led to China’s latest export boom, and a stronger renminbi is the only realistic cure.",
+      "published_at": "2026-08-02T12:46:21-04:00",
+      "programs": [
+        "Follow the Money",
+        "Greenberg Center for Geoeconomics"
+      ],
+      "source_tags": [
+        "China",
+        "Economics"
+      ],
+      "license": "CC BY-NC-ND 4.0",
+      "section": "Article",
+      "doc_type": "AnalysisNewsArticle",
+      "language": "en",
+      "word_count": 3824,
+      "date_modified": "2026-08-02",
+      "retrieved_at": "2026-10-30T14:59:30Z",
+      "page_sha256": "4a78c78d20a0751d60622427ab46988ab82b657578015a81bd0a96836707213f",
+      "figures": []
+    }
+  },
+  "paragraphs": [
+    {
+      "id": "p1",
+      "sha256": "sha256:5a7afa08d3b153ca0f6681a28ef75c8be226f525ce2b1d3fa0a5aa9d996ee217",
+      "n_chars": 243
+    },
+    {
+      "id": "p2",
+      "sha256": "sha256:494a79485bc99fc6da9634e8d70c4ff9fdf2621b5edfeaa14c07c539f7a2ae7f",
+      "n_chars": 760
+    },
+    {
+      "id": "p3",
+      "sha256": "sha256:b3a0cea14a8c5c6a6498a9524e5ec3fd1a430e1aa9e6a11c3dddfab401b654ae",
+      "n_chars": 575
+    },
+    {
+      "id": "p4",
+      "sha256": "sha256:c66e8ca586885d85d93c46a4f5fd19d1a98cb8fcd12ee7bc1753a8b1f26c1b34",
+      "n_chars": 350
+    },
+    {
+      "id": "p5",
+      "sha256": "sha256:b4f2832e6fdf22b4de52dc3f9688d35c277611142aa57ad66dfea598938f93d3",
+      "n_chars": 438
+    },
+    {
+      "id": "p6",
+      "sha256": "sha256:51f99d6ae052e466d231fd8bb089e2b326eca91249117aa1f3730b974db57c7d",
+      "n_chars": 250
+    },
+    {
+      "id": "p7",
+      "sha256": "sha256:01837b502d70bdc8eeb7eb9875bfd88452c09285fa89172d3b03118c7d2258ba",
+      "n_chars": 645
+    },
+    {
+      "id": "p8",
+      "sha256": "sha256:20cd3dbe4052619a4c6b225ed71abd6cba453fd718f7b96b5a4c454db6fbf4c2",
+      "n_chars": 319
+    },
+    {
+      "id": "p9",
+      "sha256": "sha256:12b6f0765752cd5339292e9090845c4f4e418175c8fc50cea2a1ef1920b9970a",
+      "n_chars": 605
+    },
+    {
+      "id": "p10",
+      "sha256": "sha256:56d7302662bc7cdcce35942ec06f48c34bbc7f5db590c6dccbeb229abd051f37",
+      "n_chars": 49
+    },
+    {
+      "id": "p11",
+      "sha256": "sha256:16cdb23319c3d9b909760e7294d2c0e5b99f886bf975ef95e231c46fea13dc30",
+      "n_chars": 104
+    },
+    {
+      "id": "p12",
+      "sha256": "sha256:ac28a82e0f4808e2725100f368d5db6c6631144388c0fe9566e75848d7b7b2ef",
+      "n_chars": 202
+    },
+    {
+      "id": "p13",
+      "sha256": "sha256:e4fc88def2cd082081591ed9cc8bdb6ac019c74f90a14a1fa23bb55c95b78cdc",
+      "n_chars": 256
+    },
+    {
+      "id": "p14",
+      "sha256": "sha256:0e86545408788245a5684be57fb4da530d2f02ed00f8948829e3e463c0d21c9d",
+      "n_chars": 94
+    },
+    {
+      "id": "p15",
+      "sha256": "sha256:55d053dc27c6a568f43fb268bafd09b3c6933ffb645fe87396f2f7796e5b818c",
+      "n_chars": 89
+    },
+    {
+      "id": "p16",
+      "sha256": "sha256:dca31e1f3b514eef41542cef1a38d190cc61113a97ebfc938054b5985b3f9e00",
+      "n_chars": 215
+    },
+    {
+      "id": "p17",
+      "sha256": "sha256:b3d160620a9e7930d4f183c684811a0928e427e2327cd86bea5086a052af1407",
+      "n_chars": 315
+    },
+    {
+      "id": "p18",
+      "sha256": "sha256:2a6f95e8eeaa9cd402bb3f77dc66f3ff1af564e34ccd654de338000881cab1b4",
+      "n_chars": 404
+    },
+    {
+      "id": "p19",
+      "sha256": "sha256:e269c292dff5cf96b242f81f58603d8221b603ac2f2e4a414cce28bc25d5d0c7",
+      "n_chars": 577
+    },
+    {
+      "id": "p20",
+      "sha256": "sha256:0ab06ca64c4f77d6c5c5a0fa8e13fa49e65e20e8f18e491628e36b6b2bc66664",
+      "n_chars": 261
+    },
+    {
+      "id": "p21",
+      "sha256": "sha256:29e2d2efa8ab4310bc7928745b4121b61733a04751c7ec66d5962cc1369251f2",
+      "n_chars": 156
+    },
+    {
+      "id": "p22",
+      "sha256": "sha256:967d99a8d89c2582d0af0216b7e29644f7aafda11319cfabc8f0e4e1c0626932",
+      "n_chars": 353
+    },
+    {
+      "id": "p23",
+      "sha256": "sha256:9a93372f9d297f8ed10656e76e65e6c19431f9ed71dd62c46dda8acb25652231",
+      "n_chars": 57
+    },
+    {
+      "id": "p24",
+      "sha256": "sha256:670cf9a1fd6edcfc3769b304fa9348221ae06c4456bcfe52284e3a4bd5ca2621",
+      "n_chars": 414
+    },
+    {
+      "id": "p25",
+      "sha256": "sha256:a066599f826f1dd09539060a76f50b5f8b45129a6b9d71822e787290aa934b22",
+      "n_chars": 445
+    },
+    {
+      "id": "p26",
+      "sha256": "sha256:621b68b1deb68bfe9e7f6b8bafa34f8e068f7b4863368a6c3a37f4723e25a10f",
+      "n_chars": 259
+    },
+    {
+      "id": "p27",
+      "sha256": "sha256:d6b50c6736078c900a6777928b0cbcbff16700180b2f5a5458b47022559db601",
+      "n_chars": 73
+    },
+    {
+      "id": "p28",
+      "sha256": "sha256:9f78200ed6a840179d953620708e6a16d91e786d6bd7d4aed699b897b364c310",
+      "n_chars": 278
+    },
+    {
+      "id": "p29",
+      "sha256": "sha256:a8a5e1c624daec112d639648368defc6b8561ba40b9648a8f54f6e6c1846d4bd",
+      "n_chars": 212
+    },
+    {
+      "id": "p30",
+      "sha256": "sha256:e7607777881d7d04ae5b01903670eab8db83135a0f763f11d2b1f5d10ea93bed",
+      "n_chars": 284
+    },
+    {
+      "id": "p31",
+      "sha256": "sha256:032fc72fe6d6cd13dfe1d4b6e63ac5ab75ee5607a30267a83c8970051f9d8949",
+      "n_chars": 130
+    },
+    {
+      "id": "p32",
+      "sha256": "sha256:49922b60593582eadecf955ef60bce0f9b5ac9af7459602c9955f5691cabb392",
+      "n_chars": 266
+    },
+    {
+      "id": "p33",
+      "sha256": "sha256:5dba2be7c5c5bb36f2a28bf1b5a1b3a2e57fcecfa6274b10221c992a9aca3cd2",
+      "n_chars": 179
+    },
+    {
+      "id": "p34",
+      "sha256": "sha256:05f3413906c5a148321d691d306c31e43bd8b80df9fb9075149552b12787a1ab",
+      "n_chars": 358
+    },
+    {
+      "id": "p35",
+      "sha256": "sha256:7907f911380cd648479a5461474a0234312efb393e6f9820647f235b1ec6edb3",
+      "n_chars": 53
+    },
+    {
+      "id": "p36",
+      "sha256": "sha256:888ad2fc605a59d8cbc6c09559579cabbcfff7557e8a175fc754d5531807c9e2",
+      "n_chars": 36
+    },
+    {
+      "id": "p37",
+      "sha256": "sha256:b5287c6c1c1c25ee96955a01f2fcd4925a01a91fa253ccc0aebf68ba3b7b306d",
+      "n_chars": 409
+    },
+    {
+      "id": "p38",
+      "sha256": "sha256:8b3531ee6801ec3b6ee0721e8d6a72b77d8f688d83859296e80fd44078540c72",
+      "n_chars": 123
+    },
+    {
+      "id": "p39",
+      "sha256": "sha256:8c245abb9607bf771f22b025b22227952a2c79319ba9b6eee9c6b7190271d5d7",
+      "n_chars": 273
+    },
+    {
+      "id": "p40",
+      "sha256": "sha256:875fbfc8010a19e290728859e45813d75a6a51ce4aa870ded0965267f253b3b7",
+      "n_chars": 130
+    },
+    {
+      "id": "p41",
+      "sha256": "sha256:0198e025e50905b42cc4bbb9b79b38549e9ac429aeefb73d8151af96db2ca65e",
+      "n_chars": 286
+    },
+    {
+      "id": "p42",
+      "sha256": "sha256:80df861dbec82c1aefccf047c177f4200956775c17d6270cbf508886498d7efd",
+      "n_chars": 416
+    },
+    {
+      "id": "p43",
+      "sha256": "sha256:a2a571156f91b7bd886ab759a078521a09592c27837b55dd2f16b17eaa88d0ef",
+      "n_chars": 142
+    },
+    {
+      "id": "p44",
+      "sha256": "sha256:bbc02454f3b9a4d2c356c0bb7462035c72299bf3c08a8de97592f943c5e5f658",
+      "n_chars": 542
+    },
+    {
+      "id": "p45",
+      "sha256": "sha256:f87fd21b302a30e40139f13f2bfebbea0080ee0bb3de1e82776c01a08746772f",
+      "n_chars": 71
+    },
+    {
+      "id": "p46",
+      "sha256": "sha256:9e563443aa44083252e59e3ad99a96f6f08ad4828e437367d027bea9fa382349",
+      "n_chars": 331
+    },
+    {
+      "id": "p47",
+      "sha256": "sha256:ad0ed6886705e97e430c690477bc4031c3c1d6f9d3150d1545e18434f15c21a1",
+      "n_chars": 401
+    },
+    {
+      "id": "p48",
+      "sha256": "sha256:739fa99c117f6140c808d56a72e6461442f8ce324afa951a64bbbfd89ce87d01",
+      "n_chars": 391
+    },
+    {
+      "id": "p49",
+      "sha256": "sha256:6b47cdbe17074102726e23b3a49c371bf97d990149498a8f11b2aeaf4871fb82",
+      "n_chars": 461
+    },
+    {
+      "id": "p50",
+      "sha256": "sha256:f9783ff25b29edca37d11a68340cce68c888c9afcfd330ce02a2261631cb770a",
+      "n_chars": 433
+    },
+    {
+      "id": "p51",
+      "sha256": "sha256:3da1933ed9d8e97880eca99a31b271e0fad341f0ae9218d4cf68867398a569b8",
+      "n_chars": 366
+    },
+    {
+      "id": "p52",
+      "sha256": "sha256:8ec4a2dc78ef9205dc87a57a713f2f24d3fa977744d8145f7373c14982af4bd0",
+      "n_chars": 145
+    },
+    {
+      "id": "p53",
+      "sha256": "sha256:13ec4bc91277993e9832a3a8485dee439f8009ce7824481a48c283267527952b",
+      "n_chars": 831
+    },
+    {
+      "id": "p54",
+      "sha256": "sha256:5fed99a6e07363b526417b8d70197080c0c9f2162bcc5ceed922635d78a7d73f",
+      "n_chars": 169
+    },
+    {
+      "id": "p55",
+      "sha256": "sha256:242e7e1cf460f862dcd7828f71063aef6f227e396037cbec75c8bd5622d0add6",
+      "n_chars": 794
+    },
+    {
+      "id": "p56",
+      "sha256": "sha256:3e05003c6cd20308001f5fc6d3912d08552324307cfa619f90c6dc97d8aed96d",
+      "n_chars": 153
+    },
+    {
+      "id": "p57",
+      "sha256": "sha256:513c51505132008d3eddb956b395e8ab9d74a732aa4e176021fe0df4c119fa1b",
+      "n_chars": 677
+    },
+    {
+      "id": "p58",
+      "sha256": "sha256:39d5fdfe7101b082daf20e933167c025e95e942fa14212f6720775dbba50c282",
+      "n_chars": 251
+    },
+    {
+      "id": "p59",
+      "sha256": "sha256:c5c6d27835fd48e9658bc91792e4331ba92ae6df67d80dc4599e366174627c83",
+      "n_chars": 594
+    },
+    {
+      "id": "p60",
+      "sha256": "sha256:9db2e8b3ec660d018d253d3f8cc2ad3d39dae7eb3c2fcc72ff1d92ab62f39db5",
+      "n_chars": 464
+    },
+    {
+      "id": "p61",
+      "sha256": "sha256:a201e61f648e21c264da6aca31323a3db28a37ee2b183431ac7606ffdd01c69b",
+      "n_chars": 347
+    },
+    {
+      "id": "p62",
+      "sha256": "sha256:7d9d57af6da51c3db3a657520660298685f27cef029be96bc7ea7a8a0316c62d",
+      "n_chars": 980
+    },
+    {
+      "id": "p63",
+      "sha256": "sha256:fc31ecefc437a9e5ab6976c2059a16090f16c88438c43625707bbb56518154c8",
+      "n_chars": 120
+    },
+    {
+      "id": "p64",
+      "sha256": "sha256:00643d8c938bf180160ab50e41ce941cf61a309bdd6891ac260ac2ea9c72e3ae",
+      "n_chars": 600
+    },
+    {
+      "id": "p65",
+      "sha256": "sha256:6696af5659e7795848e6bfa4f5858f6eace92fd478a72222ee064ed611f9a01c",
+      "n_chars": 168
+    },
+    {
+      "id": "p66",
+      "sha256": "sha256:bf94c9258eb4eef71a1386244c5ff5cb4b251ebaa1fb2d0be09431750f9d4738",
+      "n_chars": 163
+    },
+    {
+      "id": "p67",
+      "sha256": "sha256:a71c6cae22ec016a6a90300f6564abd0421c2821fb425032d8788d19a7d4af8e",
+      "n_chars": 703
+    },
+    {
+      "id": "p68",
+      "sha256": "sha256:3abe3674886e5c23a4cfb27c9b4e16f81bc14ef6bd14208052fd945a05fac07d",
+      "n_chars": 744
+    }
+  ],
+  "revisions": [
+    {
+      "content_hash": "sha256:52df0c232ac3ddf2865eb166ef5a1e46fb9645fac506cecf8210841dc57c1078",
+      "links_hash": "sha256:1a832082dd5b2688e056d812603cb9f7e2bc9d16ba7e760934e04ed83ef6b657",
+      "paragraph_count": 68,
+      "retrieved_at": "2026-10-30T14:59:30Z",
+      "revision": 1,
+      "changed_paragraphs": []
+    }
+  ],
+  "extensions": {
+    "entities": [
+      {
+        "entity_id": null,
+        "type": "person",
+        "name": "Brad W. Setser",
+        "role": "author"
+      },
+      {
+        "entity_id": null,
+        "type": "organization",
+        "name": "Council on Foreign Relations",
+        "role": "publisher"
+      }
+    ],
+    "cited_sources": [
+      {
+        "source_key": "https://cfr.org/articles/is-chinas-surplus-really-shrinking",
+        "host": "cfr.org",
+        "reference_ids": [
+          "r001"
+        ]
+      },
+      {
+        "source_key": "https://paulkrugman.substack.com/p/chinas-trade-surplus-part-ii",
+        "host": "paulkrugman.substack.com",
+        "reference_ids": [
+          "r002"
+        ]
+      },
+      {
+        "source_key": "https://economist.com/by-invitation/2026/07/28/dont-blame-global-imbalances-on-the-undervalued-yuan",
+        "host": "economist.com",
+        "reference_ids": [
+          "r003",
+          "r010"
+        ]
+      },
+      {
+        "source_key": "https://cer.eu/publications/archive/policy-brief/2026/china-shock-20-cost-germanys-complacency",
+        "host": "cer.eu",
+        "reference_ids": [
+          "r004",
+          "r007"
+        ]
+      },
+      {
+        "source_key": "https://archive.nytimes.com/krugman.blogs.nytimes.com/2011/12/24/exchange-rates-and-wages",
+        "host": "archive.nytimes.com",
+        "reference_ids": [
+          "r005"
+        ]
+      },
+      {
+        "source_key": "https://cfr.org/articles/china-needs-more-progressive-taxes-and-more-spending-public-health",
+        "host": "cfr.org",
+        "reference_ids": [
+          "r006"
+        ]
+      },
+      {
+        "source_key": "https://epi.org/blog/currency-legislation-lead-trade-war-china",
+        "host": "epi.org",
+        "reference_ids": [
+          "r008"
+        ]
+      },
+      {
+        "source_key": "https://economist.com/interactive/big-mac-index",
+        "host": "economist.com",
+        "reference_ids": [
+          "r009"
+        ]
+      },
+      {
+        "source_key": "https://ifri.org/en/memos/transfer-paradox-rethinking-global-imbalances",
+        "host": "ifri.org",
+        "reference_ids": [
+          "r011"
+        ]
+      },
+      {
+        "source_key": "https://imf.org/en/publications/cr/issues/2026/02/17/peoples-republic-of-china-2025-article-iv-consultation-press-release-staff-report-and-574028",
+        "host": "imf.org",
+        "reference_ids": [
+          "r012"
+        ]
+      },
+      {
+        "source_key": "https://cfr.org/articles/the-pboc-the-state-banks-and-backdoor-intervention",
+        "host": "cfr.org",
+        "reference_ids": [
+          "r013"
+        ]
+      },
+      {
+        "source_key": "https://cfr.org/articles/scaling-chinas-hidden-intervention-in-the-foreign-exchange-market",
+        "host": "cfr.org",
+        "reference_ids": [
+          "r014"
+        ]
+      },
+      {
+        "source_key": "https://safe.gov.cn/en/annualreport/index.html",
+        "host": "safe.gov.cn",
+        "reference_ids": [
+          "r015"
+        ]
+      },
+      {
+        "source_key": "https://adamtooze.substack.com/p/chartbook-462-china-shocked-beyond",
+        "host": "adamtooze.substack.com",
+        "reference_ids": [
+          "r016"
+        ]
+      },
+      {
+        "source_key": "https://imf.org/en/publications/wp/issues/2023/08/02/fiscal-policy-and-the-government-balance-sheet-in-china-536273",
+        "host": "imf.org",
+        "reference_ids": [
+          "r017"
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "flags": []
+  }
+}

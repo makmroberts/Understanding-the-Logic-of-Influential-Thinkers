@@ -2,7 +2,7 @@
 type: subject
 facet: variable
 term: investment-capex
-claims: 10
+claims: 12
 saturated: false
 tags: [subject, subject/variable, variable/investment-capex]
 ---
@@ -13,16 +13,16 @@ tags: [subject, subject/variable, variable/investment-capex]
 
 Aligned to **sna** `gross fixed capital formation` — _component name, not yet re-checked_
 
-10 claims across 5 articles · facet `variable` · [[By variable]] · [[index]]
+12 claims across 6 articles · facet `variable` · [[By variable]] · [[index]]
 
-**Position in the argument graph** — centrality 27 (2.7 per claim), 12 out / 15 in, bias -0.11.
+**Position in the argument graph** — centrality 29 (2.42 per claim), 14 out / 15 in, bias -0.03.
 
-He argues **toward** this more than from it: it behaves like a conclusion.
+Sits in the middle of arguments - as much argued toward as argued from.
 
 ## Argued together with
 
-- **country**: [[us]] (8), [[china]] (3)
-- **instrument**: [[tariffs]] (3), [[fiscal-policy]] (1)
+- **country**: [[us]] (8), [[china]] (5)
+- **instrument**: [[tariffs]] (3), [[fiscal-policy]] (1), [[industrial-policy]] (1)
 - **data_basis**: [[academic-econometrics]] (1)
 
 ## Claims by role
@@ -51,4 +51,12 @@ He argues **toward** this more than from it: it behaves like a conclusion.
 ### intermediate_claim (1)
 
 - **2019-09** [[China's current adjustment is fragile]] · _Why do global trade imbalances persist, and ..._
+
+### accounting_identity (1)
+
+- **2026-08** [[Cutting investment subsidies without raising consumption would enlarge the surplus]] · _The World Should Not Ignore China’s Underval..._
+
+### hidden_assumption (1)
+
+- **2026-08** [[Households will not anticipate future gains and spend more when inefficient investment]] · _The World Should Not Ignore China’s Underval..._
 

@@ -2,7 +2,7 @@
 type: subject
 facet: variable
 term: net-external-debt
-claims: 19
+claims: 20
 saturated: false
 tags: [subject, subject/variable, variable/net-external-debt]
 ---
@@ -13,9 +13,9 @@ tags: [subject, subject/variable, variable/net-external-debt]
 
 Aligned to **bpm6** `net international investment position` — _component name, not yet re-checked_
 
-19 claims across 5 articles · facet `variable` · [[By variable]] · [[index]]
+20 claims across 6 articles · facet `variable` · [[By variable]] · [[index]]
 
-**Position in the argument graph** — centrality 51 (2.68 per claim), 22 out / 29 in, bias -0.14.
+**Position in the argument graph** — centrality 53 (2.65 per claim), 23 out / 30 in, bias -0.13.
 
 He argues **toward** this more than from it: it behaves like a conclusion.
 
@@ -53,14 +53,15 @@ He argues **toward** this more than from it: it behaves like a conclusion.
 - **2019-09** [[Foreign surpluses require deficit absorption]] · _Why do global trade imbalances persist, and ..._
 - **2020-03** [[The same four shocks land very differently depending on the external balance sheet]] · _Not One Emerging Market Financial Crisis, bu..._
 
+### stated_assumption (2)
+
+- **2017-12** [[Persistent deficits accumulate external debt]] · _Why does the U.S. trade balance still matter..._
+- **2026-08** [[Accumulated surpluses should generate net foreign assets that earn positive investment]] · _The World Should Not Ignore China’s Underval..._
+
 ### caveat (2)
 
 - **2017-12** [[The U.S. can sustain more external debt than most because of the dollar's global role]] · _Why does the U.S. trade balance still matter..._
 - **2019-09** [[The current flow deficit is not obviously unsustainable today]] · _Why do global trade imbalances persist, and ..._
-
-### stated_assumption (1)
-
-- **2017-12** [[Persistent deficits accumulate external debt]] · _Why does the U.S. trade balance still matter..._
 
 ### case_type (1)
 

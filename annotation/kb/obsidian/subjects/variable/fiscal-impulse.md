@@ -2,7 +2,7 @@
 type: subject
 facet: variable
 term: fiscal-impulse
-claims: 9
+claims: 10
 saturated: false
 tags: [subject, subject/variable, variable/fiscal-impulse]
 ---
@@ -13,17 +13,17 @@ tags: [subject, subject/variable, variable/fiscal-impulse]
 
 Aligned to **gfsm** `change in the structural primary balance` — _component name, not yet re-checked_
 
-9 claims across 3 articles · facet `variable` · [[By variable]] · [[index]]
+10 claims across 4 articles · facet `variable` · [[By variable]] · [[index]]
 
-**Position in the argument graph** — centrality 26 (2.89 per claim), 15 out / 11 in, bias +0.15.
+**Position in the argument graph** — centrality 31 (3.1 per claim), 17 out / 14 in, bias +0.1.
 
 He argues **from** this more than toward it: it behaves like a prior or a mechanism.
 
 ## Argued together with
 
-- **country**: [[us]] (9)
-- **instrument**: [[fiscal-policy]] (7)
-- **data_basis**: [[national-accounts]] (1), [[imf-publications]] (1), [[academic-econometrics]] (1)
+- **country**: [[us]] (9), [[china]] (1)
+- **instrument**: [[fiscal-policy]] (8)
+- **data_basis**: [[imf-publications]] (2), [[national-accounts]] (1), [[academic-econometrics]] (1)
 
 ## Claims by role
 
@@ -53,4 +53,8 @@ He argues **from** this more than toward it: it behaves like a prior or a mechan
 ### question (1)
 
 - **2018-02** [[Will Trump's fiscal expansion undermine his goal of reducing the U.S. trade deficit]] · _Will Trump's fiscal expansion undermine his ..._
+
+### policy_reductio (1)
+
+- **2026-08** [[If the exchange rate is ruled out, closing a surplus of this size would require a fiscal]] · _The World Should Not Ignore China’s Underval..._
 

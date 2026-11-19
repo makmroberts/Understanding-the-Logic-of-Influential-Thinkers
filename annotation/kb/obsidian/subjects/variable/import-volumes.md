@@ -2,7 +2,7 @@
 type: subject
 facet: variable
 term: import-volumes
-claims: 101
+claims: 102
 saturated: false
 tags: [subject, subject/variable, variable/import-volumes]
 ---
@@ -13,17 +13,17 @@ tags: [subject, subject/variable, variable/import-volumes]
 
 Aligned to **bpm6** `imports of goods and services` — _component name, not yet re-checked_
 
-101 claims across 17 articles · facet `variable` · [[By variable]] · [[index]]
+102 claims across 18 articles · facet `variable` · [[By variable]] · [[index]]
 
-**Position in the argument graph** — centrality 266 (2.63 per claim), 124 out / 142 in, bias -0.07.
+**Position in the argument graph** — centrality 267 (2.62 per claim), 124 out / 143 in, bias -0.07.
 
 Sits in the middle of arguments - as much argued toward as argued from.
 
 ## Argued together with
 
-- **country**: [[us]] (68), [[china]] (62), [[euro-area]] (2), [[australia]] (2), [[taiwan]] (1)
+- **country**: [[us]] (68), [[china]] (63), [[euro-area]] (2), [[australia]] (2), [[taiwan]] (1)
 - **bloc**: [[southeast-asia]] (3), [[em-commodity]] (1), [[global]] (1)
-- **instrument**: [[tariffs]] (26), [[purchase-commitments]] (26), [[industrial-policy]] (22), [[retaliation]] (4), [[trade-agreements]] (3)
+- **instrument**: [[tariffs]] (26), [[purchase-commitments]] (26), [[industrial-policy]] (23), [[retaliation]] (4), [[trade-agreements]] (3)
 - **data_basis**: [[customs]] (23), [[academic-econometrics]] (4), [[press-reporting]] (3), [[mirror-statistics]] (2), [[national-accounts]] (2)
 
 ## Claims by role
@@ -129,6 +129,14 @@ Sits in the middle of arguments - as much argued toward as argued from.
 - **2025-09** [[Tax- and finance-driven flows (pharmaceuticals, gold) are noise; core trade is the real]] · _The Trump Shock That Wasn't (At Least Not Yet)_
 - **2026-07** [[The surge in Chinese gold imports reflects asset purchases unrelated to domestic demand]] · _Is China’s Surplus Really Shrinking?_
 
+### other_explanation (5)
+
+- **2019-05** [[Private-buyer explanation autos]] · _Does a purchase-commitment deal push China b..._
+- **2020-07** [[The aircraft collapse is exogenous — the largest category fell with the 737 MAX]] · _Slouching Toward Phase One_
+- **2025-09** [[Waiting for tariff relief (autos) replaces front-running; other exporters can take U.S.]] · _The Trump Shock That Wasn't (At Least Not Yet)_
+- **2026-02** [[Auto imports fell along with auto sales weaker demand rather than more U.S. production]] · _Understanding the Low October 2025 Trade Def..._
+- **2026-08** [[Industrial policy and a domestic market rigged against imports also drove China's export]] · _The World Should Not Ignore China’s Underval..._
+
 ### evidence_source (4)
 
 - **2020-01** [[His own Senate testimony; Toloui on balance-sheet policy; the Economist on managed trade]] · _Lessons From Phase One of the Trade War With..._
@@ -142,13 +150,6 @@ Sits in the middle of arguments - as much argued toward as argued from.
 - **2020-01** [[How did China choose to respond to tariff pressure, and what does that reveal]] · _Lessons From Phase One of the Trade War With..._
 - **2020-07** [[Is China on track to meet its Phase One purchase commitments]] · _Slouching Toward Phase One_
 - **2025-09** [[Have Trump's tariffs actually shocked trade flows and the global economy]] · _The Trump Shock That Wasn't (At Least Not Yet)_
-
-### other_explanation (4)
-
-- **2019-05** [[Private-buyer explanation autos]] · _Does a purchase-commitment deal push China b..._
-- **2020-07** [[The aircraft collapse is exogenous — the largest category fell with the 737 MAX]] · _Slouching Toward Phase One_
-- **2025-09** [[Waiting for tariff relief (autos) replaces front-running; other exporters can take U.S.]] · _The Trump Shock That Wasn't (At Least Not Yet)_
-- **2026-02** [[Auto imports fell along with auto sales weaker demand rather than more U.S. production]] · _Understanding the Low October 2025 Trade Def..._
 
 ### opposing_view (4)
 
