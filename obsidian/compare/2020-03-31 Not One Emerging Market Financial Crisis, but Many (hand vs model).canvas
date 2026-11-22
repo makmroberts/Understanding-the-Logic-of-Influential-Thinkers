@@ -1,0 +1,992 @@
+{
+ "nodes": [
+  {
+   "id": "header",
+   "type": "text",
+   "text": "## 2020-03-31 Not One Emerging Market Financial Crisis, but Many\n\n**Left:** hand-drawn map (14 steps). **Right:** model run `setser_mar_31_20/claude-opus-5.5` (27 steps).\n\nMatched 11 of 14 hand steps (8 by a shared paragraph, 3 by role only).\n\nHand steps not matched: M1, M2, P1\n\nModel steps not matched: C2, C3, C4, DF, E2, E3, M1, M2, M3, P1, P2, QF2, REC, REC2, REC3, REC5",
+   "x": -1980,
+   "y": 0,
+   "width": 5700,
+   "height": 260
+  },
+  {
+   "id": "hand-Q",
+   "type": "text",
+   "text": "**Q** \u00b7 `question` \u00b7 \u00b6 7\n\nEmerging economies face the same shocks \u2014 do they need the same response?\n\n*Gloss:* Question\n\n[[claims/question/Emerging economies face the same shocks \u2014 do they need the same response|open note]]",
+   "x": -820,
+   "y": 440,
+   "width": 520,
+   "height": 300,
+   "color": "#7A6FA8"
+  },
+  {
+   "id": "hand-P1",
+   "type": "text",
+   "text": "**P1** \u00b7 `stated_assumption` \u00b7 \u00b6 14\n\nShocks can offset one another; swap lines fund dollar balance sheets, not balance-of-payments gaps\n\n*Gloss:* Stated assumption\n\n[[claims/stated_assumption/Shocks can offset one another; swap lines fund dollar balance sheets, not balance-of-payments gaps|open note]]",
+   "x": -1980,
+   "y": 920,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "hand-P2",
+   "type": "text",
+   "text": "**P2** \u00b7 `hidden_assumption` \u00b7 \u00b6 15\n\nThe external balance sheet is the right thing to sort countries by\n\n*Gloss:* Hidden assumption\n\n[[claims/hidden_assumption/The external balance sheet is the right thing to sort countries by|open note]]",
+   "x": -820,
+   "y": 920,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "hand-P3",
+   "type": "text",
+   "text": "**P3** \u00b7 `revised_prior` \u00b7 \u00b6 33\n\n\"contrary to a forecast that I made with Dr. Roubini back in 2005\" \u2014 private credit intermediation broke down before central banks lost their appetite for intervention\n\n*Gloss:* Revised prior\n\n[[claims/revised_prior/contrary to a forecast that I made with Dr. Roubini back in 2005 \u2014 private credit intermediation broke down|open note]]",
+   "x": -1400,
+   "y": 920,
+   "width": 520,
+   "height": 300,
+   "color": "#BF6F2F"
+  },
+  {
+   "id": "hand-E1",
+   "type": "text",
+   "text": "**E1** \u00b7 `evidence_data` \u00b7 \u00b6 2, 10\n\nBrent under $25, below almost every exporter's breakeven; Saudi reserves ~$500bn; GCC sovereign funds over $1tn; copper at multiyear lows\n\n*Gloss:* Data\n\n[[claims/evidence_data/Brent under $25, below almost every exporter's breakeven; Saudi reserves ~$500bn; GCC sovereign funds over $1tn; copper|open note]]",
+   "x": -820,
+   "y": 1880,
+   "width": 520,
+   "height": 300,
+   "color": "#2F7FBF"
+  },
+  {
+   "id": "hand-E2",
+   "type": "text",
+   "text": "**E2** \u00b7 `evidence_source` \u00b7 \u00b6 20, 26, 27, 28\n\nTruman on IMF lending capacity; Landers, Lee and Morris on callable capital; Hagan and Buchheit on maturity extension; Carstens and the BIS on trade finance\n\n*Gloss:* Studies & sources\n\n[[claims/evidence_source/Truman on IMF lending capacity; Landers, Lee and Morris on callable capital; Hagan and Buchheit on maturity extension|open note]]",
+   "x": -1400,
+   "y": 1880,
+   "width": 520,
+   "height": 300,
+   "color": "#2F7FBF"
+  },
+  {
+   "id": "hand-M1",
+   "type": "text",
+   "text": "**M1** \u00b7 `mechanism`\n\nThe same four shocks land very differently depending on the external balance sheet\n\n*Gloss:* Mechanism A\n\n[[claims/mechanism/The same four shocks land very differently depending on the external balance sheet|open note]]",
+   "x": -820,
+   "y": 2360,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "hand-M2",
+   "type": "text",
+   "text": "**M2** \u00b7 `mechanism`\n\nSwap lines solve dollar funding, but were never designed to cover a balance-of-payments shortfall\n\n*Gloss:* Mechanism B\n\n[[claims/mechanism/Swap lines solve dollar funding, but were never designed to cover a balance-of-payments shortfall|open note]]",
+   "x": -1400,
+   "y": 2360,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "hand-C1",
+   "type": "text",
+   "text": "**C1** \u00b7 `intermediate_claim` \u00b7 \u00b6 14\n\nCountries with strong external balance sheets can weather this themselves if they act decisively\n\n*Gloss:* Intermediate claim\n\n[[claims/intermediate_claim/Countries with strong external balance sheets can weather this themselves if they act decisively|open note]]",
+   "x": -820,
+   "y": 2840,
+   "width": 520,
+   "height": 300,
+   "color": "#2FBF9B"
+  },
+  {
+   "id": "hand-C2",
+   "type": "text",
+   "text": "**C2** \u00b7 `case_type` \u00b7 \u00b6 17\n\nThree types \u2014 reserve-rich commodity exporters, Asian surplus creditors, weak external balance sheets \u2014 and the last splits again into trade finance and balance-of-payments need\n\n*Gloss:* Case type\n\n[[claims/case_type/Three types \u2014 reserve-rich commodity exporters, Asian surplus creditors, weak external balance sheets \u2014 and the last|open note]]",
+   "x": -1400,
+   "y": 2840,
+   "width": 520,
+   "height": 300,
+   "color": "#2FBF9B"
+  },
+  {
+   "id": "hand-K",
+   "type": "text",
+   "text": "**K** \u00b7 `main_claim` \u00b7 \u00b6 19\n\n\"Different problems require different solutions\" \u2014 when private capital retreats, the official sector must advance\n\n*Gloss:* Main claim\n\n[[claims/main_claim/Different problems require different solutions \u2014 when private capital retreats, the official sector must advance|open note]]",
+   "x": -820,
+   "y": 3320,
+   "width": 520,
+   "height": 300,
+   "color": "#2FBF9B"
+  },
+  {
+   "id": "hand-REC",
+   "type": "text",
+   "text": "**REC** \u00b7 `recommendation` \u00b7 \u00b6 24, 25\n\nDraw down buffers; central bank backstop plus swap lines; mobilise trade finance; SDR allocation, larger IMF capacity, MDB callable capital, payment deferral\n\n*Gloss:* Recommendation\n\n[[claims/recommendation/Draw down buffers; central bank backstop plus swap lines; mobilise trade finance; SDR allocation, larger IMF capacity|open note]]",
+   "x": -1400,
+   "y": 3320,
+   "width": 520,
+   "height": 300,
+   "color": "#2FBF9B"
+  },
+  {
+   "id": "hand-X",
+   "type": "text",
+   "text": "**X** \u00b7 `opposing_view` \u00b7 \u00b6 28\n\nPrivate creditors would rather be paid \u2014 \"this will take goodwill\"\n\n*Gloss:* Opposing view\n\n[[claims/opposing_view/Private creditors would rather be paid \u2014 this will take goodwill|open note]]",
+   "x": -1400,
+   "y": 3800,
+   "width": 520,
+   "height": 300,
+   "color": "#8A8A8A"
+  },
+  {
+   "id": "hand-QF",
+   "type": "text",
+   "text": "**QF** \u00b7 `caveat` \u00b7 \u00b6 24, 25\n\nSDRs are allocated by quota rather than need, so they are insufficient alone; MDB capital would need legislation\n\n*Gloss:* Caveat\n\n[[claims/caveat/SDRs are allocated by quota rather than need, so they are insufficient alone; MDB capital would need legislation|open note]]",
+   "x": -820,
+   "y": 3800,
+   "width": 520,
+   "height": 300,
+   "color": "#9A8C6A"
+  },
+  {
+   "id": "model-Q",
+   "type": "text",
+   "text": "**Q** \u00b7 `question` \u00b7 \u00b6 1, 7, 8\n\nHow will the simultaneous shocks of 2020 affect different emerging economies, and what policy responses do they require?\n\n*Why:* A common shock can demand different responses depending on each country's starting position.",
+   "x": 300,
+   "y": 440,
+   "width": 520,
+   "height": 300,
+   "color": "#7A6FA8"
+  },
+  {
+   "id": "model-E1",
+   "type": "text",
+   "text": "**E1** \u00b7 `evidence_data` \u00b7 \u00b6 1, 2, 3, 4, 5\n\nFour simultaneous shocks hit emerging economies: an oil and commodity price collapse below breakevens, a manufacturing trade shock from shutdowns, a sudden stop in private flows, and reduced cross-border dollar financing.\n\n*Why:* Commodity prices below balance of payments breakevens create external financing gaps for exporters.",
+   "x": 300,
+   "y": 1880,
+   "width": 520,
+   "height": 300,
+   "color": "#2F7FBF"
+  },
+  {
+   "id": "model-M1",
+   "type": "text",
+   "text": "**M1** \u00b7 `mechanism` \u00b7 \u00b6 6\n\nThe shocks offset each other in some cases, as with Turkey, which gains from cheap oil but loses exports, tourism and access to loan rollovers.\n\n*Why:* A country's net exposure depends on the sum of its gains and losses across several channels.",
+   "x": 300,
+   "y": 2360,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "model-M2",
+   "type": "text",
+   "text": "**M2** \u00b7 `mechanism` \u00b7 \u00b6 5\n\nIn a crisis, finance shifts back to banks with central bank access, which squeezes their balance sheets and limits dollar credit even to creditworthy borrowers.\n\n*Why:* In stress, funding migrates to institutions with lender-of-last-resort access, straining their capacity.",
+   "x": 880,
+   "y": 2360,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "model-C4",
+   "type": "text",
+   "text": "**C4** \u00b7 `case_type` \u00b7 \u00b6 9, 15\n\nCountries divide into those with strong external balance sheets, which can self-insure, and those with weaker ones, which face the pressing problems.\n\n*Why:* Net external asset positions decide whether a country can absorb a shock or must adjust or borrow.",
+   "x": 2620,
+   "y": 2840,
+   "width": 520,
+   "height": 300,
+   "color": "#2FBF9B"
+  },
+  {
+   "id": "model-E2",
+   "type": "text",
+   "text": "**E2** \u00b7 `evidence_data` \u00b7 \u00b6 10\n\nSaudi Arabia and Russia hold about $500 billion in reserves each, and the smaller GCC states hold over $1 trillion in sovereign wealth funds, so strong oil exporters can self-finance the revenue shortfall.\n\n*Why:* Accumulated reserves let a country delay adjustment to a terms of trade shock.",
+   "x": 1460,
+   "y": 1880,
+   "width": 520,
+   "height": 300,
+   "color": "#2F7FBF"
+  },
+  {
+   "id": "model-REC",
+   "type": "text",
+   "text": "**REC** \u00b7 `recommendation` \u00b7 \u00b6 10, 14\n\nOil exporters with large reserves and sovereign wealth funds should draw them down rather than adjust immediately.\n\n*Why:* Reserves are built precisely to be spent in a shock.",
+   "x": 1460,
+   "y": 3320,
+   "width": 520,
+   "height": 300,
+   "color": "#2FBF9B"
+  },
+  {
+   "id": "model-M3",
+   "type": "text",
+   "text": "**M3** \u00b7 `mechanism` \u00b7 \u00b6 11\n\nAsian surplus countries lose value on their offshore portfolios, but this only becomes a problem where the assets sit on leveraged, thinly capitalized balance sheets, such as some life insurers.\n\n*Why:* Asset losses threaten stability mainly when the holders are leveraged.",
+   "x": 1460,
+   "y": 2360,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "model-E3",
+   "type": "text",
+   "text": "**E3** \u00b7 `evidence_data` \u00b7 \u00b6 13\n\nTaiwan's foreign assets far exceed its foreign liabilities, so despite its insurers' large hedging needs the country faces no external financial risk.\n\n*Why:* A net external creditor faces credit risk on what it lent, not funding risk.",
+   "x": 2040,
+   "y": 1880,
+   "width": 520,
+   "height": 300,
+   "color": "#2F7FBF"
+  },
+  {
+   "id": "model-P3",
+   "type": "text",
+   "text": "**P3** \u00b7 `hidden_assumption` \u00b7 \u00b6 13, 14\n\nLosses at the financial institutions of strong-balance-sheet countries can be absorbed domestically, on the assumption that the government is able and willing to recapitalize them.\n\n*Why:* A solvent sovereign with fiscal space can backstop its own financial sector.",
+   "x": 300,
+   "y": 920,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "model-REC2",
+   "type": "text",
+   "text": "**REC2** \u00b7 `recommendation` \u00b7 \u00b6 12, 14, 35\n\nHome central banks should supply dollar hedges to their institutions, regulators should be flexible, and Fed swap lines and the repo facility could be repurposed to help.\n\n*Why:* A public balance sheet should backstop private leveraged institutions when hedging markets seize up.",
+   "x": 2040,
+   "y": 3320,
+   "width": 520,
+   "height": 300,
+   "color": "#2FBF9B"
+  },
+  {
+   "id": "model-C1",
+   "type": "text",
+   "text": "**C1** \u00b7 `intermediate_claim` \u00b7 \u00b6 14\n\nCountries with strong external balance sheets can weather the shock by using their public balance sheets.\n\n*Why:* Self-insurance works when the public sector holds enough net external assets.",
+   "x": 300,
+   "y": 2840,
+   "width": 520,
+   "height": 300,
+   "color": "#2FBF9B"
+  },
+  {
+   "id": "model-C2",
+   "type": "text",
+   "text": "**C2** \u00b7 `intermediate_claim` \u00b7 \u00b6 15\n\nCountries with more external debt than liquid reserves face the hardest problems, because private financing disappears exactly when they need it.\n\n*Why:* Private capital is procyclical and withdraws from the weakest borrowers first.",
+   "x": 1460,
+   "y": 2840,
+   "width": 520,
+   "height": 300,
+   "color": "#2FBF9B"
+  },
+  {
+   "id": "model-C5",
+   "type": "text",
+   "text": "**C5** \u00b7 `case_type` \u00b7 \u00b6 16, 17, 18, 19, 21\n\nFunding needs come in two kinds, short-term dollar trade finance and medium- to long-term balance of payments gaps from terms of trade shocks, inflow stops or bank runs, and each needs a different tool.\n\n*Why:* Liquidity needs and solvency-like external gaps call for different instruments.",
+   "x": 880,
+   "y": 2840,
+   "width": 520,
+   "height": 300,
+   "color": "#2FBF9B"
+  },
+  {
+   "id": "model-P1",
+   "type": "text",
+   "text": "**P1** \u00b7 `stated_assumption` \u00b7 \u00b6 23\n\nBalance of payments shortfalls are properly met from national reserves, with the IMF and World Bank as the backstop when reserves run short.\n\n*Why:* External financing gaps are first covered by own reserves and then by multilateral lenders.",
+   "x": 1460,
+   "y": 920,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "model-P2",
+   "type": "text",
+   "text": "**P2** \u00b7 `stated_assumption` \u00b7 \u00b6 28\n\nEssential imports such as food and medicine should take priority over on-time repayment of external bonds.\n\n*Why:* Debt service should not crowd out a country's basic humanitarian needs in an emergency.",
+   "x": 2040,
+   "y": 920,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "model-C3",
+   "type": "text",
+   "text": "**C3** \u00b7 `intermediate_claim` \u00b7 \u00b6 22, 23, 32\n\nFed swap lines are suited to dollar funding of intermediaries, not to covering balance of payments shortfalls, as the 2008 experience shows.\n\n*Why:* A liquidity facility for intermediaries cannot substitute for external financing of a country.",
+   "x": 2040,
+   "y": 2840,
+   "width": 520,
+   "height": 300,
+   "color": "#2FBF9B"
+  },
+  {
+   "id": "model-P4",
+   "type": "text",
+   "text": "**P4** \u00b7 `revised_prior` \u00b7 \u00b6 33\n\nThe author's 2005 forecast with Roubini, that central banks would stop financing the U.S. deficit first, was wrong: private credit intermediation broke down first.\n\n*Why:* External deficits need both official buyers to bear currency risk and private intermediaries to bear credit risk.",
+   "x": 880,
+   "y": 920,
+   "width": 520,
+   "height": 300,
+   "color": "#BF6F2F"
+  },
+  {
+   "id": "model-E4",
+   "type": "text",
+   "text": "**E4** \u00b7 `evidence_source` \u00b7 \u00b6 33, 34\n\nBrender and Pisani, along with the author's Iceland conference paper, explain how the U.S. deficit before 2008 depended on both official reserve accumulation and private credit intermediation.\n\n*Why:* Past crises show how funding structures break down.",
+   "x": 880,
+   "y": 1880,
+   "width": 520,
+   "height": 300,
+   "color": "#2F7FBF"
+  },
+  {
+   "id": "model-REC3",
+   "type": "text",
+   "text": "**REC3** \u00b7 `recommendation` \u00b7 \u00b6 20\n\nCentral banks, with Fed help and national export-import banks, can address trade finance, building on BIS proposals.\n\n*Why:* Short-term dollar trade finance gaps are a liquidity problem that central banks can fill.",
+   "x": 2620,
+   "y": 3320,
+   "width": 520,
+   "height": 300,
+   "color": "#2FBF9B"
+  },
+  {
+   "id": "model-REC4",
+   "type": "text",
+   "text": "**REC4** \u00b7 `recommendation` \u00b7 \u00b6 24\n\nThe IMF should make an SDR allocation to raise global reserves, with reserve-rich countries lending their SDRs back.\n\n*Why:* When the global demand for reserves jumps, the official sector should create more.",
+   "x": 880,
+   "y": 3320,
+   "width": 520,
+   "height": 300,
+   "color": "#2FBF9B"
+  },
+  {
+   "id": "model-QF",
+   "type": "text",
+   "text": "**QF** \u00b7 `caveat` \u00b7 \u00b6 25, 26, 27\n\nAn SDR allocation alone is insufficient because it is distributed by quota rather than need, so the IMF and the multilateral development banks also need more lending capacity.\n\n*Why:* A tool distributed by formula rather than need will miss the countries in greatest need.",
+   "x": 300,
+   "y": 3800,
+   "width": 520,
+   "height": 300,
+   "color": "#9A8C6A"
+  },
+  {
+   "id": "model-REC5",
+   "type": "text",
+   "text": "**REC5** \u00b7 `recommendation` \u00b7 \u00b6 28\n\nBilateral creditors should defer payments and private bondholders should voluntarily extend 2020 maturities.\n\n*Why:* A voluntary maturity extension beats default for both creditor and debtor.",
+   "x": 3200,
+   "y": 3320,
+   "width": 520,
+   "height": 300,
+   "color": "#2FBF9B"
+  },
+  {
+   "id": "model-X",
+   "type": "text",
+   "text": "**X** \u00b7 `opposing_view` \u00b7 \u00b6 28\n\nPrivate creditors prefer full repayment and may resist maturity extensions.\n\n*Why:* Individual creditors gain from being paid even when collective restraint serves everyone better.",
+   "x": 880,
+   "y": 3800,
+   "width": 520,
+   "height": 300,
+   "color": "#8A8A8A"
+  },
+  {
+   "id": "model-K",
+   "type": "text",
+   "text": "**K** \u00b7 `main_claim` \u00b7 \u00b6 8, 14, 15, 29\n\nThe shocks create many different emerging market crises: strong countries should self-insure, while the official sector (IMF, World Bank, central banks) must replace retreating private capital for the weaker ones.\n\n*Why:* Official finance should substitute for procyclical private finance in a crisis.",
+   "x": 300,
+   "y": 3320,
+   "width": 520,
+   "height": 300,
+   "color": "#2FBF9B"
+  },
+  {
+   "id": "model-QF2",
+   "type": "text",
+   "text": "**QF2** \u00b7 `caveat` \u00b7 \u00b6 30\n\nThese measures will not prevent a massive downturn; they only aim to preserve the financial infrastructure for the recovery.\n\n*Why:* Emergency liquidity limits damage but cannot offset a real shock.",
+   "x": 2040,
+   "y": 3800,
+   "width": 520,
+   "height": 300,
+   "color": "#9A8C6A"
+  },
+  {
+   "id": "model-DF",
+   "type": "text",
+   "text": "**DF** \u00b7 `deferred_question` \u00b7 \u00b6 30\n\nBroader reforms are explicitly put off until after the recovery.\n\n*Why:* Structural reform is best sequenced after crisis containment.",
+   "x": 1460,
+   "y": 3800,
+   "width": 520,
+   "height": 300,
+   "color": "#7A6FA8"
+  }
+ ],
+ "edges": [
+  {
+   "id": "h-P3-P1",
+   "fromNode": "hand-P3",
+   "fromSide": "bottom",
+   "toNode": "hand-P1",
+   "toSide": "top",
+   "color": "1",
+   "label": "-1 revises"
+  },
+  {
+   "id": "h-P1-M1",
+   "fromNode": "hand-P1",
+   "fromSide": "bottom",
+   "toNode": "hand-M1",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "h-E1-M1",
+   "fromNode": "hand-E1",
+   "fromSide": "bottom",
+   "toNode": "hand-M1",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "h-M1-C1",
+   "fromNode": "hand-M1",
+   "fromSide": "bottom",
+   "toNode": "hand-C1",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "h-P2-C2",
+   "fromNode": "hand-P2",
+   "fromSide": "bottom",
+   "toNode": "hand-C2",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 licenses"
+  },
+  {
+   "id": "h-M1-C2",
+   "fromNode": "hand-M1",
+   "fromSide": "bottom",
+   "toNode": "hand-C2",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "h-C1-K",
+   "fromNode": "hand-C1",
+   "fromSide": "bottom",
+   "toNode": "hand-K",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "h-C2-K",
+   "fromNode": "hand-C2",
+   "fromSide": "bottom",
+   "toNode": "hand-K",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "h-M2-REC",
+   "fromNode": "hand-M2",
+   "fromSide": "bottom",
+   "toNode": "hand-REC",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 licenses"
+  },
+  {
+   "id": "h-E2-REC",
+   "fromNode": "hand-E2",
+   "fromSide": "bottom",
+   "toNode": "hand-REC",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "h-C2-REC",
+   "fromNode": "hand-C2",
+   "fromSide": "bottom",
+   "toNode": "hand-REC",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "h-K-REC",
+   "fromNode": "hand-K",
+   "fromSide": "bottom",
+   "toNode": "hand-REC",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 motivates"
+  },
+  {
+   "id": "h-K-X",
+   "fromNode": "hand-K",
+   "fromSide": "bottom",
+   "toNode": "hand-X",
+   "toSide": "top",
+   "color": "1",
+   "label": "-1 rebuts"
+  },
+  {
+   "id": "h-REC-QF",
+   "fromNode": "hand-REC",
+   "fromSide": "bottom",
+   "toNode": "hand-QF",
+   "toSide": "top",
+   "color": "1",
+   "label": "-1 qualified_by"
+  },
+  {
+   "id": "m-e001",
+   "fromNode": "model-Q",
+   "fromSide": "bottom",
+   "toNode": "model-P1",
+   "toSide": "top",
+   "color": "6",
+   "label": "0 frames"
+  },
+  {
+   "id": "m-e002",
+   "fromNode": "model-Q",
+   "fromSide": "bottom",
+   "toNode": "model-P2",
+   "toSide": "top",
+   "color": "6",
+   "label": "0 frames"
+  },
+  {
+   "id": "m-e003",
+   "fromNode": "model-Q",
+   "fromSide": "bottom",
+   "toNode": "model-P3",
+   "toSide": "top",
+   "color": "6",
+   "label": "0 frames"
+  },
+  {
+   "id": "m-e004",
+   "fromNode": "model-Q",
+   "fromSide": "bottom",
+   "toNode": "model-P4",
+   "toSide": "top",
+   "color": "6",
+   "label": "0 frames"
+  },
+  {
+   "id": "m-e005",
+   "fromNode": "model-E1",
+   "fromSide": "bottom",
+   "toNode": "model-M1",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "m-e006",
+   "fromNode": "model-E1",
+   "fromSide": "bottom",
+   "toNode": "model-M2",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "m-e007",
+   "fromNode": "model-M1",
+   "fromSide": "bottom",
+   "toNode": "model-C4",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "m-e008",
+   "fromNode": "model-M2",
+   "fromSide": "bottom",
+   "toNode": "model-C2",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "m-e009",
+   "fromNode": "model-E2",
+   "fromSide": "bottom",
+   "toNode": "model-REC",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "m-e010",
+   "fromNode": "model-E2",
+   "fromSide": "bottom",
+   "toNode": "model-C1",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "m-e011",
+   "fromNode": "model-M3",
+   "fromSide": "bottom",
+   "toNode": "model-C1",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "m-e012",
+   "fromNode": "model-E3",
+   "fromSide": "bottom",
+   "toNode": "model-C1",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "m-e013",
+   "fromNode": "model-P3",
+   "fromSide": "bottom",
+   "toNode": "model-C1",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 licenses"
+  },
+  {
+   "id": "m-e014",
+   "fromNode": "model-P3",
+   "fromSide": "bottom",
+   "toNode": "model-E3",
+   "toSide": "top",
+   "color": "6",
+   "label": "0 frames"
+  },
+  {
+   "id": "m-e015",
+   "fromNode": "model-C1",
+   "fromSide": "bottom",
+   "toNode": "model-REC2",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "m-e016",
+   "fromNode": "model-M3",
+   "fromSide": "bottom",
+   "toNode": "model-REC2",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "m-e017",
+   "fromNode": "model-C1",
+   "fromSide": "bottom",
+   "toNode": "model-C4",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "m-e018",
+   "fromNode": "model-C2",
+   "fromSide": "bottom",
+   "toNode": "model-C4",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "m-e019",
+   "fromNode": "model-C4",
+   "fromSide": "bottom",
+   "toNode": "model-K",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "m-e020",
+   "fromNode": "model-C5",
+   "fromSide": "bottom",
+   "toNode": "model-REC3",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "m-e021",
+   "fromNode": "model-C5",
+   "fromSide": "bottom",
+   "toNode": "model-REC4",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "m-e022",
+   "fromNode": "model-P1",
+   "fromSide": "bottom",
+   "toNode": "model-REC4",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 licenses"
+  },
+  {
+   "id": "m-e023",
+   "fromNode": "model-P1",
+   "fromSide": "bottom",
+   "toNode": "model-C3",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "m-e024",
+   "fromNode": "model-P4",
+   "fromSide": "bottom",
+   "toNode": "model-P1",
+   "toSide": "top",
+   "color": "1",
+   "label": "-1 revises"
+  },
+  {
+   "id": "m-e025",
+   "fromNode": "model-P4",
+   "fromSide": "bottom",
+   "toNode": "model-E4",
+   "toSide": "top",
+   "color": "6",
+   "label": "0 frames"
+  },
+  {
+   "id": "m-e026",
+   "fromNode": "model-E4",
+   "fromSide": "bottom",
+   "toNode": "model-C3",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "m-e027",
+   "fromNode": "model-C3",
+   "fromSide": "bottom",
+   "toNode": "model-REC4",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "m-e028",
+   "fromNode": "model-REC4",
+   "fromSide": "bottom",
+   "toNode": "model-QF",
+   "toSide": "top",
+   "color": "1",
+   "label": "-1 qualified_by"
+  },
+  {
+   "id": "m-e029",
+   "fromNode": "model-P2",
+   "fromSide": "bottom",
+   "toNode": "model-REC5",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 licenses"
+  },
+  {
+   "id": "m-e030",
+   "fromNode": "model-REC5",
+   "fromSide": "bottom",
+   "toNode": "model-X",
+   "toSide": "top",
+   "color": "1",
+   "label": "-1 rebuts"
+  },
+  {
+   "id": "m-e031",
+   "fromNode": "model-C2",
+   "fromSide": "bottom",
+   "toNode": "model-C5",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "m-e032",
+   "fromNode": "model-REC",
+   "fromSide": "bottom",
+   "toNode": "model-K",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "m-e033",
+   "fromNode": "model-REC2",
+   "fromSide": "bottom",
+   "toNode": "model-K",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "m-e034",
+   "fromNode": "model-REC3",
+   "fromSide": "bottom",
+   "toNode": "model-K",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "m-e035",
+   "fromNode": "model-REC4",
+   "fromSide": "bottom",
+   "toNode": "model-K",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "m-e036",
+   "fromNode": "model-REC5",
+   "fromSide": "bottom",
+   "toNode": "model-K",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "m-e037",
+   "fromNode": "model-K",
+   "fromSide": "bottom",
+   "toNode": "model-QF2",
+   "toSide": "top",
+   "color": "1",
+   "label": "-1 qualified_by"
+  },
+  {
+   "id": "m-e038",
+   "fromNode": "model-K",
+   "fromSide": "bottom",
+   "toNode": "model-DF",
+   "toSide": "top",
+   "color": "6",
+   "label": "0 defers"
+  },
+  {
+   "id": "p-C1-C1",
+   "fromNode": "hand-C1",
+   "fromSide": "bottom",
+   "toNode": "model-C1",
+   "toSide": "bottom",
+   "color": "5",
+   "label": "paragraph"
+  },
+  {
+   "id": "p-C2-C5",
+   "fromNode": "hand-C2",
+   "fromSide": "bottom",
+   "toNode": "model-C5",
+   "toSide": "bottom",
+   "color": "5",
+   "label": "paragraph"
+  },
+  {
+   "id": "p-E1-E1",
+   "fromNode": "hand-E1",
+   "fromSide": "bottom",
+   "toNode": "model-E1",
+   "toSide": "bottom",
+   "color": "5",
+   "label": "paragraph"
+  },
+  {
+   "id": "p-E2-E4",
+   "fromNode": "hand-E2",
+   "fromSide": "bottom",
+   "toNode": "model-E4",
+   "toSide": "bottom",
+   "color": "5",
+   "label": "slot"
+  },
+  {
+   "id": "p-K-K",
+   "fromNode": "hand-K",
+   "fromSide": "bottom",
+   "toNode": "model-K",
+   "toSide": "bottom",
+   "color": "5",
+   "label": "slot"
+  },
+  {
+   "id": "p-P2-P3",
+   "fromNode": "hand-P2",
+   "fromSide": "bottom",
+   "toNode": "model-P3",
+   "toSide": "bottom",
+   "color": "5",
+   "label": "slot"
+  },
+  {
+   "id": "p-P3-P4",
+   "fromNode": "hand-P3",
+   "fromSide": "bottom",
+   "toNode": "model-P4",
+   "toSide": "bottom",
+   "color": "5",
+   "label": "paragraph"
+  },
+  {
+   "id": "p-Q-Q",
+   "fromNode": "hand-Q",
+   "fromSide": "bottom",
+   "toNode": "model-Q",
+   "toSide": "bottom",
+   "color": "5",
+   "label": "paragraph"
+  },
+  {
+   "id": "p-QF-QF",
+   "fromNode": "hand-QF",
+   "fromSide": "bottom",
+   "toNode": "model-QF",
+   "toSide": "bottom",
+   "color": "5",
+   "label": "paragraph"
+  },
+  {
+   "id": "p-REC-REC4",
+   "fromNode": "hand-REC",
+   "fromSide": "bottom",
+   "toNode": "model-REC4",
+   "toSide": "bottom",
+   "color": "5",
+   "label": "paragraph"
+  },
+  {
+   "id": "p-X-X",
+   "fromNode": "hand-X",
+   "fromSide": "bottom",
+   "toNode": "model-X",
+   "toSide": "bottom",
+   "color": "5",
+   "label": "paragraph"
+  }
+ ]
+}

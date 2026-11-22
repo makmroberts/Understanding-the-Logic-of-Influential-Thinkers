@@ -1,0 +1,1125 @@
+{
+ "nodes": [
+  {
+   "id": "header",
+   "type": "text",
+   "text": "## 2019-05-10 If U.S.-China trade tensions escalate, will China keep the yuan stable or let it weaken\n\n**Left:** hand-drawn map (23 steps). **Right:** model run `setser_may_10_19/claude-opus-5.5` (25 steps).\n\nMatched 8 of 23 hand steps (7 by a shared paragraph, 1 by role only).\n\nHand steps not matched: C1, C2, C3, D4, D5, D6, M1, M3, M4, P1, P2, P3, QF, R1, R2\n\nModel steps not matched: ANOM, C1, C2, C3, C5, E2, ID, M1, M2, P1, P2, P3, QF, QF2, R1, SC, SCP",
+   "x": -3720,
+   "y": 0,
+   "width": 6860,
+   "height": 260
+  },
+  {
+   "id": "hand-Q",
+   "type": "text",
+   "text": "**Q** \u00b7 `question` \u00b7 \u00b6 12\n\nIf U.S.-China trade tensions escalate, will China keep the yuan stable or let it weaken?\n\n[[claims/question/If U.S.-China trade tensions escalate, will China keep the yuan stable or let it weaken|open note]]",
+   "x": -820,
+   "y": 440,
+   "width": 520,
+   "height": 300,
+   "color": "#7A6FA8"
+  },
+  {
+   "id": "hand-P1",
+   "type": "text",
+   "text": "**P1** \u00b7 `stated_assumption` \u00b7 \u00b6 8\n\nChina controls the yuan\n\n*Gloss:* Reserves, capital controls, and policy tools give Beijing substantial exchange-rate control\n\n[[claims/stated_assumption/China controls the yuan|open note]]",
+   "x": -820,
+   "y": 920,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "hand-P2",
+   "type": "text",
+   "text": "**P2** \u00b7 `stated_assumption` \u00b7 \u00b6 35\n\nDepreciation offsets tariffs\n\n*Gloss:* A weaker yuan lets exporters lower dollar prices while preserving yuan revenue\n\n[[claims/stated_assumption/Depreciation offsets tariffs|open note]]",
+   "x": -1400,
+   "y": 920,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "hand-P3",
+   "type": "text",
+   "text": "**P3** \u00b7 `stated_assumption`\n\nStability has value\n\n*Gloss:* A stable currency supports confidence and reduces financial risk\n\n[[claims/stated_assumption/Stability has value|open note]]",
+   "x": -1980,
+   "y": 920,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "hand-D1",
+   "type": "text",
+   "text": "**D1** \u00b7 `evidence_data` \u00b7 \u00b6 9\n\nFull tariffs would be substantial\n\n*Gloss:* 25% on nearly $550B of imports could raise roughly $100\u2013140B\n\n[[claims/evidence_data/Full tariffs would be substantial|open note]]",
+   "x": -820,
+   "y": 1880,
+   "width": 520,
+   "height": 300,
+   "color": "#2F7FBF"
+  },
+  {
+   "id": "hand-D2",
+   "type": "text",
+   "text": "**D2** \u00b7 `evidence_data` \u00b7 \u00b6 13\n\nLarge potential China growth hit\n\n*Gloss:* UBS: full tariffs plus retaliation could cut growth by about 1.5pp\n\n[[claims/evidence_data/Large potential China growth hit|open note]]",
+   "x": -1400,
+   "y": 1880,
+   "width": 520,
+   "height": 300,
+   "color": "#2F7FBF"
+  },
+  {
+   "id": "hand-D3",
+   "type": "text",
+   "text": "**D3** \u00b7 `evidence_data` \u00b7 \u00b6 28\n\nRecent yuan stability required little intervention\n\n*Gloss:* No sustained pressure in either direction\n\n[[claims/evidence_data/Recent yuan stability required little intervention|open note]]",
+   "x": -1980,
+   "y": 1880,
+   "width": 520,
+   "height": 300,
+   "color": "#2F7FBF"
+  },
+  {
+   "id": "hand-D4",
+   "type": "text",
+   "text": "**D4** \u00b7 `evidence_data` \u00b7 \u00b6 33\n\nChina retains external firepower\n\n*Gloss:* Large reserves, state-bank foreign assets, and portfolio inflows\n\n[[claims/evidence_data/China retains external firepower|open note]]",
+   "x": -2560,
+   "y": 1880,
+   "width": 520,
+   "height": 300,
+   "color": "#2F7FBF"
+  },
+  {
+   "id": "hand-D5",
+   "type": "text",
+   "text": "**D5** \u00b7 `evidence_data` \u00b7 \u00b6 28\n\nBalance of payments broadly stable\n\n*Gloss:* Trade surplus covers major outflows without sustained reserve pressure\n\n[[claims/evidence_data/Balance of payments broadly stable|open note]]",
+   "x": -3140,
+   "y": 1880,
+   "width": 520,
+   "height": 300,
+   "color": "#2F7FBF"
+  },
+  {
+   "id": "hand-D6",
+   "type": "text",
+   "text": "**D6** \u00b7 `evidence_data` \u00b7 \u00b6 21\n\nManufacturing surplus ~ $1T\n\n*Gloss:* Further export-oriented adjustment would matter globally\n\n[[claims/evidence_data/Manufacturing surplus ~ $1T|open note]]",
+   "x": -3720,
+   "y": 1880,
+   "width": 520,
+   "height": 300,
+   "color": "#2F7FBF"
+  },
+  {
+   "id": "hand-M1",
+   "type": "text",
+   "text": "**M1** \u00b7 `mechanism`\n\nTariffs weaken Chinese export demand\n\n*Gloss:* Higher U.S. import costs reduce competitiveness and growth\n\n[[claims/mechanism/Tariffs weaken Chinese export demand|open note]]",
+   "x": -1400,
+   "y": 2360,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "hand-M2",
+   "type": "text",
+   "text": "**M2** \u00b7 `mechanism` \u00b7 \u00b6 38\n\nDepreciation cushions exporters\n\n*Gloss:* A weaker yuan offsets part of the tariff in dollar terms\n\n[[claims/mechanism/Depreciation cushions exporters|open note]]",
+   "x": -820,
+   "y": 2360,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "hand-M3",
+   "type": "text",
+   "text": "**M3** \u00b7 `mechanism` \u00b7 \u00b6 32\n\nStability protects domestic confidence\n\n*Gloss:* Avoiding a large currency move limits financial instability\n\n[[claims/mechanism/Stability protects domestic confidence|open note]]",
+   "x": -1980,
+   "y": 2360,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "hand-M4",
+   "type": "text",
+   "text": "**M4** \u00b7 `mechanism` \u00b7 \u00b6 37\n\nYuan weakness spreads outward\n\n*Gloss:* Other Asian currencies weaken and trade pressure shifts globally\n\n[[claims/mechanism/Yuan weakness spreads outward|open note]]",
+   "x": -2560,
+   "y": 2360,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "hand-C1",
+   "type": "text",
+   "text": "**C1** \u00b7 `intermediate_claim` \u00b7 \u00b6 36\n\nChina has a genuine policy choice\n\n*Gloss:* It is not mechanically forced into depreciation\n\n[[claims/intermediate_claim/China has a genuine policy choice|open note]]",
+   "x": -1400,
+   "y": 2840,
+   "width": 520,
+   "height": 300,
+   "color": "#2FBF9B"
+  },
+  {
+   "id": "hand-C2",
+   "type": "text",
+   "text": "**C2** \u00b7 `intermediate_claim` \u00b7 \u00b6 38\n\nDepreciation can absorb part of the tariff shock\n\n*Gloss:* Exporters can preserve competitiveness\n\n[[claims/intermediate_claim/Depreciation can absorb part of the tariff shock|open note]]",
+   "x": -1980,
+   "y": 2840,
+   "width": 520,
+   "height": 300,
+   "color": "#2FBF9B"
+  },
+  {
+   "id": "hand-C3",
+   "type": "text",
+   "text": "**C3** \u00b7 `intermediate_claim`\n\nBut depreciation carries domestic and strategic costs\n\n*Gloss:* It risks instability and additional U.S. retaliation\n\n[[claims/intermediate_claim/But depreciation carries domestic and strategic costs|open note]]",
+   "x": -2560,
+   "y": 2840,
+   "width": 520,
+   "height": 300,
+   "color": "#2FBF9B"
+  },
+  {
+   "id": "hand-C4",
+   "type": "text",
+   "text": "**C4** \u00b7 `intermediate_claim` \u00b7 \u00b6 37\n\nA weaker yuan redistributes trade pain\n\n*Gloss:* Export-dependent economies outside China also come under pressure\n\n[[claims/intermediate_claim/A weaker yuan redistributes trade pain|open note]]",
+   "x": -820,
+   "y": 2840,
+   "width": 520,
+   "height": 300,
+   "color": "#2FBF9B"
+  },
+  {
+   "id": "hand-K",
+   "type": "text",
+   "text": "**K** \u00b7 `main_claim` \u00b7 \u00b6 8\n\nMain claim: China's currency response is a strategic choice\n\n*Gloss:* Beijing can defend stability or reset the yuan lower; its decision will shape the global impact of the trade war\n\n[[claims/main_claim/Main claim China's currency response is a strategic choice|open note]]",
+   "x": -820,
+   "y": 3320,
+   "width": 520,
+   "height": 300,
+   "color": "#2FBF9B"
+  },
+  {
+   "id": "hand-X",
+   "type": "text",
+   "text": "**X** \u00b7 `counterpoint` \u00b7 \u00b6 19\n\nCase for stability\n\n*Gloss:* China can support growth fiscally without risking a destabilizing currency move\n\n[[claims/counterpoint/Case for stability|open note]]",
+   "x": -820,
+   "y": 3800,
+   "width": 520,
+   "height": 300,
+   "color": "#8A8A8A"
+  },
+  {
+   "id": "hand-QF",
+   "type": "text",
+   "text": "**QF** \u00b7 `caveat`\n\nControlled depreciations are difficult because markets may front-run them\n\n*Gloss:* Implementation caveat\n\n[[claims/caveat/Controlled depreciations are difficult because markets may front-run them|open note]]",
+   "x": -1400,
+   "y": 3800,
+   "width": 520,
+   "height": 300,
+   "color": "#9A8C6A"
+  },
+  {
+   "id": "hand-R1",
+   "type": "text",
+   "text": "**R1** \u00b7 `caveat`\n\nRetaliation risk\n\n*Gloss:* A weaker yuan could trigger broader or higher U.S. tariffs\n\n[[claims/caveat/Retaliation risk|open note]]",
+   "x": -1980,
+   "y": 3800,
+   "width": 520,
+   "height": 300,
+   "color": "#9A8C6A"
+  },
+  {
+   "id": "hand-R2",
+   "type": "text",
+   "text": "**R2** \u00b7 `caveat` \u00b7 \u00b6 33\n\nTariffs and oil prices could push China toward current-account deficit\n\n*Gloss:* External-balance caveat\n\n[[claims/caveat/Tariffs and oil prices could push China toward current-account deficit|open note]]",
+   "x": -2560,
+   "y": 3800,
+   "width": 520,
+   "height": 300,
+   "color": "#9A8C6A"
+  },
+  {
+   "id": "model-Q",
+   "type": "text",
+   "text": "**Q** \u00b7 `question` \u00b7 \u00b6 12\n\nIf the US imposes the full threatened tariffs, will China hold the yuan stable or let it weaken to offset the trade hit?\n\n*Why:* A country hit by a large external trade shock must choose whether to absorb it or shift it through the exchange rate.",
+   "x": 300,
+   "y": 440,
+   "width": 520,
+   "height": 300,
+   "color": "#7A6FA8"
+  },
+  {
+   "id": "model-ANOM",
+   "type": "text",
+   "text": "**ANOM** \u00b7 `anomaly` \u00b7 \u00b6 1, 2, 3, 4, 5, 6, 7\n\nSignals had pointed to a modest US-China deal: Trump's tweets, early soybean purchases, summit preparations and a stable yuan, but the deal collapsed within a week.\n\n*Why:* When convergent signals of an agreement are suddenly reversed, the shift calls for re-examining each side's options.",
+   "x": 880,
+   "y": 440,
+   "width": 520,
+   "height": 300,
+   "color": "#AAAAAA"
+  },
+  {
+   "id": "model-R1",
+   "type": "text",
+   "text": "**R1** \u00b7 `other_explanation` \u00b7 \u00b6 8\n\nThe breakdown may reflect China withdrawing its offer, or Trump deciding the deal was not 'great' enough and preferring tariffs.\n\n*Why:* A negotiation collapse can stem from either party's change of position, and the evidence may not discriminate between them.",
+   "x": 2040,
+   "y": 3800,
+   "width": 520,
+   "height": 300,
+   "color": "#8A8A8A"
+  },
+  {
+   "id": "model-E1",
+   "type": "text",
+   "text": "**E1** \u00b7 `evidence_data` \u00b7 \u00b6 9, 40\n\nFull 25 percent tariffs on about $550 billion of imports would raise $100 to 140 billion, a fiscal tightening of about half a point of GDP.\n\n*Why:* Tariff revenue acts as a tax increase that withdraws demand from the economy.",
+   "x": 300,
+   "y": 1880,
+   "width": 520,
+   "height": 300,
+   "color": "#2F7FBF"
+  },
+  {
+   "id": "model-C1",
+   "type": "text",
+   "text": "**C1** \u00b7 `intermediate_claim` \u00b7 \u00b6 10, 11, 41\n\nThe tariff drag is noticeable but too small to cause a US recession on its own, and it is far smaller than the drag from the 2014-15 dollar appreciation.\n\n*Why:* Exchange rate swings can affect growth more than headline trade policy measures.",
+   "x": 880,
+   "y": 2840,
+   "width": 520,
+   "height": 300,
+   "color": "#2FBF9B"
+  },
+  {
+   "id": "model-E4",
+   "type": "text",
+   "text": "**E4** \u00b7 `evidence_source` \u00b7 \u00b6 13\n\nUBS estimates full tariffs plus retaliation could cut China's growth by 1.5 points, with exports to the US at about 3-4 percent of China's GDP.\n\n*Why:* The size of a trade shock depends on the targeted exports' share of value added in output.",
+   "x": 880,
+   "y": 1880,
+   "width": 520,
+   "height": 300,
+   "color": "#2F7FBF"
+  },
+  {
+   "id": "model-P1",
+   "type": "text",
+   "text": "**P1** \u00b7 `stated_assumption` \u00b7 \u00b6 14, 15\n\nOf China's retaliation options (soybeans, broader tariffs, squeezing GM, Airbus orders), letting the yuan weaken is the logical asymmetric response.\n\n*Why:* A country facing tariffs can offset them through currency depreciation rather than matching tariff for tariff.",
+   "x": 880,
+   "y": 920,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "model-C2",
+   "type": "text",
+   "text": "**C2** \u00b7 `intermediate_claim` \u00b7 \u00b6 16, 17, 18\n\nChina has enough dollars at the central bank and in state banks to manage its currency, and fears about its foreign debt are overstated.\n\n*Why:* A state holding ample foreign assets across its official and state-bank balance sheets can defend or steer its exchange rate.",
+   "x": 1460,
+   "y": 2840,
+   "width": 520,
+   "height": 300,
+   "color": "#2FBF9B"
+  },
+  {
+   "id": "model-X",
+   "type": "text",
+   "text": "**X** \u00b7 `opposing_view` \u00b7 \u00b6 19, 20\n\nCritics overstated the problems with China's reported currency-stability commitment, since stability is already China's policy.\n\n*Why:* A commitment that codifies existing policy imposes little additional cost.",
+   "x": 300,
+   "y": 3800,
+   "width": 520,
+   "height": 300,
+   "color": "#8A8A8A"
+  },
+  {
+   "id": "model-P2",
+   "type": "text",
+   "text": "**P2** \u00b7 `stated_assumption` \u00b7 \u00b6 20, 21\n\nAn even larger Chinese manufacturing surplus, already around $1 trillion, would harm the global economy and fuel populism in deindustrialized regions.\n\n*Why:* Large manufacturing surpluses in a major economy displace production elsewhere and generate political backlash.",
+   "x": 1460,
+   "y": 920,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "model-SCP",
+   "type": "text",
+   "text": "**SCP** \u00b7 `scope_choice` \u00b7 \u00b6 22, 23, 24\n\nTracking only official reserves misses China's real balance-of-payments flows, which now run through state bank lending and borrowing.\n\n*Why:* Where state banks hold foreign assets, official reserves understate official external activity.",
+   "x": 300,
+   "y": 1400,
+   "width": 520,
+   "height": 300,
+   "color": "#9A8C6A"
+  },
+  {
+   "id": "model-E2",
+   "type": "text",
+   "text": "**E2** \u00b7 `evidence_data` \u00b7 \u00b6 25, 26\n\nChinese bank lending abroad has soared, funded by bank borrowing and $150-200 billion a year of portfolio inflows, and BIS data broadly agree with China's own data.\n\n*Why:* Outflows must be financed by inflows or reserve drawdowns.",
+   "x": 2040,
+   "y": 1880,
+   "width": 520,
+   "height": 300,
+   "color": "#2F7FBF"
+  },
+  {
+   "id": "model-SC",
+   "type": "text",
+   "text": "**SC** \u00b7 `source_credibility` \u00b7 \u00b6 25\n\nCross-checking China's bank data against BIS counterpart data supports its reliability.\n\n*Why:* Counterparty data from an independent source can validate a country's self-reported figures.",
+   "x": 2620,
+   "y": 920,
+   "width": 520,
+   "height": 300,
+   "color": "#2FA88F"
+  },
+  {
+   "id": "model-ID",
+   "type": "text",
+   "text": "**ID** \u00b7 `accounting_identity` \u00b7 \u00b6 27\n\nThe trade surplus covers tourism and errors while bank outflows match inflows, so the balance of payments roughly balances.\n\n*Why:* The current account, financial flows and reserve changes must sum to zero.",
+   "x": 300,
+   "y": 920,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "model-E3",
+   "type": "text",
+   "text": "**E3** \u00b7 `evidence_data` \u00b7 \u00b6 28, 29\n\nIntervention proxies show state bank purchases and sales alternating, with no sustained pressure in either direction.\n\n*Why:* Two-way intervention indicates a currency near its equilibrium under current controls.",
+   "x": 1460,
+   "y": 1880,
+   "width": 520,
+   "height": 300,
+   "color": "#2F7FBF"
+  },
+  {
+   "id": "model-C3",
+   "type": "text",
+   "text": "**C3** \u00b7 `intermediate_claim` \u00b7 \u00b6 22, 27, 28\n\nA stable yuan would keep China's balance of payments stable.\n\n*Why:* Exchange rate expectations drive capital flows, so a credible stable rate keeps flows balanced.",
+   "x": 2040,
+   "y": 2840,
+   "width": 520,
+   "height": 300,
+   "color": "#2FBF9B"
+  },
+  {
+   "id": "model-C5",
+   "type": "text",
+   "text": "**C5** \u00b7 `case_type` \u00b7 \u00b6 30, 31, 32, 34\n\nThe recent history supports two readings: China need not upset its stability, or China is in enough control to engineer a weaker yuan.\n\n*Why:* The same evidence of control can justify either preserving the status quo or using that control to change it.",
+   "x": 2620,
+   "y": 2840,
+   "width": 520,
+   "height": 300,
+   "color": "#2FBF9B"
+  },
+  {
+   "id": "model-M1",
+   "type": "text",
+   "text": "**M1** \u00b7 `mechanism` \u00b7 \u00b6 33\n\nEven if tariffs and oil sanctions pushed China's current account into a modest deficit, a credible stability signal would keep portfolio inflows coming and protect reserves.\n\n*Why:* Signaled currency stability sustains portfolio inflows that can finance a small external deficit.",
+   "x": 880,
+   "y": 2360,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "model-QF",
+   "type": "text",
+   "text": "**QF** \u00b7 `caveat` \u00b7 \u00b6 34\n\nControlled depreciation is hard because markets front-run predictable moves, but China could manage it by signaling a new floor and resetting the trading band.\n\n*Why:* Anticipated depreciation invites speculative outflows unless authorities credibly cap the move.",
+   "x": 880,
+   "y": 3800,
+   "width": 520,
+   "height": 300,
+   "color": "#9A8C6A"
+  },
+  {
+   "id": "model-M2",
+   "type": "text",
+   "text": "**M2** \u00b7 `mechanism` \u00b7 \u00b6 35\n\nA weaker yuan lets Chinese exporters cut dollar prices to offset tariffs and shift sales to other markets.\n\n*Why:* Depreciation lowers foreign-currency prices while preserving domestic-currency revenue.",
+   "x": 1460,
+   "y": 2360,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "model-C4",
+   "type": "text",
+   "text": "**C4** \u00b7 `intermediate_claim` \u00b7 \u00b6 37\n\nA weaker yuan would spread China's trade pain globally: other Asian currencies would follow, oil-importing emerging economies would face pressure, and European and Japanese exporters would lose.\n\n*Why:* A large exporter's depreciation pushes competitors to follow and hurts export-reliant economies.",
+   "x": 300,
+   "y": 2840,
+   "width": 520,
+   "height": 300,
+   "color": "#2FBF9B"
+  },
+  {
+   "id": "model-M3",
+   "type": "text",
+   "text": "**M3** \u00b7 `mechanism` \u00b7 \u00b6 38, 42\n\nDepreciation could provoke Trump into higher or broader tariffs, so a major move is better timed after the tariffs are fully extended.\n\n*Why:* A retaliatory move that invites counter-escalation is best saved until the opponent has used up its threats.",
+   "x": 300,
+   "y": 2360,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "model-K",
+   "type": "text",
+   "text": "**K** \u00b7 `main_claim` \u00b7 \u00b6 36, 39\n\nChina can choose either path, but it will most likely limit near-term depreciation while it tests whether a deal is still possible.\n\n*Why:* An actor with ample policy room keeps its strongest lever in reserve while negotiations remain possible.",
+   "x": 300,
+   "y": 3320,
+   "width": 520,
+   "height": 300,
+   "color": "#2FBF9B"
+  },
+  {
+   "id": "model-P3",
+   "type": "text",
+   "text": "**P3** \u00b7 `hidden_assumption` \u00b7 \u00b6 39\n\nChina's leadership weighs the risk of provoking further US escalation above the immediate export gains from a weaker yuan.\n\n*Why:* Forecasts of policy restraint presume decision-makers value avoiding escalation over short-term gains.",
+   "x": 2040,
+   "y": 920,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "model-QF2",
+   "type": "text",
+   "text": "**QF2** \u00b7 `caveat` \u00b7 \u00b6 8\n\nTrump may not actually want a deal if he is fixated on the bilateral deficit, which a modest deal would not fix.\n\n*Why:* A negotiator whose goal a deal cannot meet may prefer continued conflict.",
+   "x": 1460,
+   "y": 3800,
+   "width": 520,
+   "height": 300,
+   "color": "#9A8C6A"
+  }
+ ],
+ "edges": [
+  {
+   "id": "h-D1-M1",
+   "fromNode": "hand-D1",
+   "fromSide": "bottom",
+   "toNode": "hand-M1",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "h-D2-M1",
+   "fromNode": "hand-D2",
+   "fromSide": "bottom",
+   "toNode": "hand-M1",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "h-P2-M2",
+   "fromNode": "hand-P2",
+   "fromSide": "bottom",
+   "toNode": "hand-M2",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "h-M1-M2",
+   "fromNode": "hand-M1",
+   "fromSide": "bottom",
+   "toNode": "hand-M2",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "h-P3-M3",
+   "fromNode": "hand-P3",
+   "fromSide": "bottom",
+   "toNode": "hand-M3",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "h-D3-M3",
+   "fromNode": "hand-D3",
+   "fromSide": "bottom",
+   "toNode": "hand-M3",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "h-D4-M3",
+   "fromNode": "hand-D4",
+   "fromSide": "bottom",
+   "toNode": "hand-M3",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "h-D5-M3",
+   "fromNode": "hand-D5",
+   "fromSide": "bottom",
+   "toNode": "hand-M3",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "h-P1-C1",
+   "fromNode": "hand-P1",
+   "fromSide": "bottom",
+   "toNode": "hand-C1",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "h-M2-C2",
+   "fromNode": "hand-M2",
+   "fromSide": "bottom",
+   "toNode": "hand-C2",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "h-M3-C3",
+   "fromNode": "hand-M3",
+   "fromSide": "bottom",
+   "toNode": "hand-C3",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "h-D6-M4",
+   "fromNode": "hand-D6",
+   "fromSide": "bottom",
+   "toNode": "hand-M4",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "h-M2-M4",
+   "fromNode": "hand-M2",
+   "fromSide": "bottom",
+   "toNode": "hand-M4",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "h-M4-C4",
+   "fromNode": "hand-M4",
+   "fromSide": "bottom",
+   "toNode": "hand-C4",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "h-C1-K",
+   "fromNode": "hand-C1",
+   "fromSide": "bottom",
+   "toNode": "hand-K",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "h-C2-K",
+   "fromNode": "hand-C2",
+   "fromSide": "bottom",
+   "toNode": "hand-K",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "h-C3-K",
+   "fromNode": "hand-C3",
+   "fromSide": "bottom",
+   "toNode": "hand-K",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "h-C4-K",
+   "fromNode": "hand-C4",
+   "fromSide": "bottom",
+   "toNode": "hand-K",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "h-C1-X",
+   "fromNode": "hand-C1",
+   "fromSide": "bottom",
+   "toNode": "hand-X",
+   "toSide": "top",
+   "color": "1",
+   "label": "-1 undercut_by"
+  },
+  {
+   "id": "h-C2-QF",
+   "fromNode": "hand-C2",
+   "fromSide": "bottom",
+   "toNode": "hand-QF",
+   "toSide": "top",
+   "color": "1",
+   "label": "-1 qualified_by"
+  },
+  {
+   "id": "h-C3-R1",
+   "fromNode": "hand-C3",
+   "fromSide": "bottom",
+   "toNode": "hand-R1",
+   "toSide": "top",
+   "color": "1",
+   "label": "-1 qualified_by"
+  },
+  {
+   "id": "h-C1-R2",
+   "fromNode": "hand-C1",
+   "fromSide": "bottom",
+   "toNode": "hand-R2",
+   "toSide": "top",
+   "color": "1",
+   "label": "-1 qualified_by"
+  },
+  {
+   "id": "h-Q-P1",
+   "fromNode": "hand-Q",
+   "fromSide": "bottom",
+   "toNode": "hand-P1",
+   "toSide": "top",
+   "color": "6",
+   "label": "0 frames ~"
+  },
+  {
+   "id": "h-Q-P2",
+   "fromNode": "hand-Q",
+   "fromSide": "bottom",
+   "toNode": "hand-P2",
+   "toSide": "top",
+   "color": "6",
+   "label": "0 frames ~"
+  },
+  {
+   "id": "h-Q-P3",
+   "fromNode": "hand-Q",
+   "fromSide": "bottom",
+   "toNode": "hand-P3",
+   "toSide": "top",
+   "color": "6",
+   "label": "0 frames ~"
+  },
+  {
+   "id": "h-P1-D3",
+   "fromNode": "hand-P1",
+   "fromSide": "bottom",
+   "toNode": "hand-D3",
+   "toSide": "top",
+   "color": "6",
+   "label": "0 frames ~"
+  },
+  {
+   "id": "h-P1-D4",
+   "fromNode": "hand-P1",
+   "fromSide": "bottom",
+   "toNode": "hand-D4",
+   "toSide": "top",
+   "color": "6",
+   "label": "0 frames ~"
+  },
+  {
+   "id": "h-P1-D5",
+   "fromNode": "hand-P1",
+   "fromSide": "bottom",
+   "toNode": "hand-D5",
+   "toSide": "top",
+   "color": "6",
+   "label": "0 frames ~"
+  },
+  {
+   "id": "h-P2-D1",
+   "fromNode": "hand-P2",
+   "fromSide": "bottom",
+   "toNode": "hand-D1",
+   "toSide": "top",
+   "color": "6",
+   "label": "0 frames ~"
+  },
+  {
+   "id": "h-P2-D2",
+   "fromNode": "hand-P2",
+   "fromSide": "bottom",
+   "toNode": "hand-D2",
+   "toSide": "top",
+   "color": "6",
+   "label": "0 frames ~"
+  },
+  {
+   "id": "h-P3-D6",
+   "fromNode": "hand-P3",
+   "fromSide": "bottom",
+   "toNode": "hand-D6",
+   "toSide": "top",
+   "color": "6",
+   "label": "0 frames ~"
+  },
+  {
+   "id": "m-e001",
+   "fromNode": "model-ANOM",
+   "fromSide": "bottom",
+   "toNode": "model-Q",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 motivates"
+  },
+  {
+   "id": "m-e002",
+   "fromNode": "model-ANOM",
+   "fromSide": "bottom",
+   "toNode": "model-R1",
+   "toSide": "top",
+   "color": "1",
+   "label": "-1 undercut_by"
+  },
+  {
+   "id": "m-e003",
+   "fromNode": "model-Q",
+   "fromSide": "bottom",
+   "toNode": "model-P1",
+   "toSide": "top",
+   "color": "6",
+   "label": "0 frames"
+  },
+  {
+   "id": "m-e004",
+   "fromNode": "model-Q",
+   "fromSide": "bottom",
+   "toNode": "model-P2",
+   "toSide": "top",
+   "color": "6",
+   "label": "0 frames"
+  },
+  {
+   "id": "m-e005",
+   "fromNode": "model-Q",
+   "fromSide": "bottom",
+   "toNode": "model-P3",
+   "toSide": "top",
+   "color": "6",
+   "label": "0 frames"
+  },
+  {
+   "id": "m-e006",
+   "fromNode": "model-Q",
+   "fromSide": "bottom",
+   "toNode": "model-ID",
+   "toSide": "top",
+   "color": "6",
+   "label": "0 frames"
+  },
+  {
+   "id": "m-e007",
+   "fromNode": "model-E1",
+   "fromSide": "bottom",
+   "toNode": "model-C1",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "m-e008",
+   "fromNode": "model-P1",
+   "fromSide": "bottom",
+   "toNode": "model-E4",
+   "toSide": "top",
+   "color": "6",
+   "label": "0 frames"
+  },
+  {
+   "id": "m-e009",
+   "fromNode": "model-E4",
+   "fromSide": "bottom",
+   "toNode": "model-M2",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "m-e010",
+   "fromNode": "model-P1",
+   "fromSide": "bottom",
+   "toNode": "model-M2",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "m-e011",
+   "fromNode": "model-C2",
+   "fromSide": "bottom",
+   "toNode": "model-X",
+   "toSide": "top",
+   "color": "1",
+   "label": "-1 rebuts"
+  },
+  {
+   "id": "m-e012",
+   "fromNode": "model-P2",
+   "fromSide": "bottom",
+   "toNode": "model-C3",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "m-e013",
+   "fromNode": "model-SCP",
+   "fromSide": "bottom",
+   "toNode": "model-E2",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 bounds"
+  },
+  {
+   "id": "m-e014",
+   "fromNode": "model-SC",
+   "fromSide": "bottom",
+   "toNode": "model-E2",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "m-e015",
+   "fromNode": "model-E2",
+   "fromSide": "bottom",
+   "toNode": "model-C2",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "m-e016",
+   "fromNode": "model-ID",
+   "fromSide": "bottom",
+   "toNode": "model-E3",
+   "toSide": "top",
+   "color": "6",
+   "label": "0 frames"
+  },
+  {
+   "id": "m-e017",
+   "fromNode": "model-ID",
+   "fromSide": "bottom",
+   "toNode": "model-C3",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "m-e018",
+   "fromNode": "model-E3",
+   "fromSide": "bottom",
+   "toNode": "model-C3",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "m-e019",
+   "fromNode": "model-E2",
+   "fromSide": "bottom",
+   "toNode": "model-C3",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "m-e020",
+   "fromNode": "model-C3",
+   "fromSide": "bottom",
+   "toNode": "model-C5",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "m-e021",
+   "fromNode": "model-M1",
+   "fromSide": "bottom",
+   "toNode": "model-C5",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "m-e022",
+   "fromNode": "model-C2",
+   "fromSide": "bottom",
+   "toNode": "model-M1",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "m-e023",
+   "fromNode": "model-C5",
+   "fromSide": "bottom",
+   "toNode": "model-K",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "m-e024",
+   "fromNode": "model-M2",
+   "fromSide": "bottom",
+   "toNode": "model-C4",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "m-e025",
+   "fromNode": "model-C4",
+   "fromSide": "bottom",
+   "toNode": "model-K",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "m-e026",
+   "fromNode": "model-M3",
+   "fromSide": "bottom",
+   "toNode": "model-K",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "m-e027",
+   "fromNode": "model-P3",
+   "fromSide": "bottom",
+   "toNode": "model-K",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 licenses"
+  },
+  {
+   "id": "m-e028",
+   "fromNode": "model-C5",
+   "fromSide": "bottom",
+   "toNode": "model-QF",
+   "toSide": "top",
+   "color": "1",
+   "label": "-1 qualified_by"
+  },
+  {
+   "id": "m-e029",
+   "fromNode": "model-K",
+   "fromSide": "bottom",
+   "toNode": "model-QF2",
+   "toSide": "top",
+   "color": "1",
+   "label": "-1 qualified_by"
+  },
+  {
+   "id": "m-e030",
+   "fromNode": "model-C1",
+   "fromSide": "bottom",
+   "toNode": "model-K",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "m-e031",
+   "fromNode": "model-C2",
+   "fromSide": "bottom",
+   "toNode": "model-K",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "p-C4-C4",
+   "fromNode": "hand-C4",
+   "fromSide": "bottom",
+   "toNode": "model-C4",
+   "toSide": "bottom",
+   "color": "5",
+   "label": "paragraph"
+  },
+  {
+   "id": "p-D1-E1",
+   "fromNode": "hand-D1",
+   "fromSide": "bottom",
+   "toNode": "model-E1",
+   "toSide": "bottom",
+   "color": "5",
+   "label": "paragraph"
+  },
+  {
+   "id": "p-D2-E4",
+   "fromNode": "hand-D2",
+   "fromSide": "bottom",
+   "toNode": "model-E4",
+   "toSide": "bottom",
+   "color": "5",
+   "label": "paragraph"
+  },
+  {
+   "id": "p-D3-E3",
+   "fromNode": "hand-D3",
+   "fromSide": "bottom",
+   "toNode": "model-E3",
+   "toSide": "bottom",
+   "color": "5",
+   "label": "paragraph"
+  },
+  {
+   "id": "p-K-K",
+   "fromNode": "hand-K",
+   "fromSide": "bottom",
+   "toNode": "model-K",
+   "toSide": "bottom",
+   "color": "5",
+   "label": "slot"
+  },
+  {
+   "id": "p-M2-M3",
+   "fromNode": "hand-M2",
+   "fromSide": "bottom",
+   "toNode": "model-M3",
+   "toSide": "bottom",
+   "color": "5",
+   "label": "paragraph"
+  },
+  {
+   "id": "p-Q-Q",
+   "fromNode": "hand-Q",
+   "fromSide": "bottom",
+   "toNode": "model-Q",
+   "toSide": "bottom",
+   "color": "5",
+   "label": "paragraph"
+  },
+  {
+   "id": "p-X-X",
+   "fromNode": "hand-X",
+   "fromSide": "bottom",
+   "toNode": "model-X",
+   "toSide": "bottom",
+   "color": "5",
+   "label": "paragraph"
+  }
+ ]
+}

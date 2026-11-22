@@ -1,0 +1,882 @@
+{
+ "nodes": [
+  {
+   "id": "header",
+   "type": "text",
+   "text": "## 2020-01-31 Lessons From Phase One of the Trade War With China\n\n**Left:** hand-drawn map (14 steps). **Right:** model run `setser_jan_31_20/claude-opus-5.5` (25 steps).\n\nMatched 12 of 14 hand steps (9 by a shared paragraph, 3 by role only).\n\nHand steps not matched: C1, M1\n\nModel steps not matched: ANOM, C1, C2, C3, E1, E3, E4, E6, K, M1, M2, QF2, QF3",
+   "x": -2560,
+   "y": 0,
+   "width": 6280,
+   "height": 260
+  },
+  {
+   "id": "hand-Q",
+   "type": "text",
+   "text": "**Q** \u00b7 `question` \u00b7 \u00b6 1\n\nHow did China choose to respond to tariff pressure, and what does that reveal about managed trade?\n\n*Gloss:* Question\n\n[[claims/question/How did China choose to respond to tariff pressure, and what does that reveal about managed trade|open note]]",
+   "x": -820,
+   "y": 440,
+   "width": 520,
+   "height": 300,
+   "color": "#7A6FA8"
+  },
+  {
+   "id": "hand-P1",
+   "type": "text",
+   "text": "**P1** \u00b7 `stated_assumption` \u00b7 \u00b6 27\n\nIndustrial policy is non-negotiable; the state can direct commodity purchases\n\n*Gloss:* Stated assumption\n\n[[claims/stated_assumption/Industrial policy is non-negotiable; the state can direct commodity purchases|open note]]",
+   "x": -820,
+   "y": 920,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "hand-P2",
+   "type": "text",
+   "text": "**P2** \u00b7 `hidden_assumption`\n\nThe capacity to deliver purchases is the same capacity that can withdraw them\n\n*Gloss:* Hidden assumption\n\n[[claims/hidden_assumption/The capacity to deliver purchases is the same capacity that can withdraw them|open note]]",
+   "x": -1400,
+   "y": 920,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "hand-P3",
+   "type": "text",
+   "text": "**P3** \u00b7 `revised_prior` \u00b7 \u00b6 23\n\n\"I was surprised by the size of China's impact... I thought U.S. soy would prove to be more of a pure commodity\" \u2014 and \"I don't think many expected\" reserves to stay stable\n\n*Gloss:* Revised prior\n\n[[claims/revised_prior/I was surprised by the size of China's impact... I thought U.S. soy would prove to be more of a pure commodity \u2014 and I|open note]]",
+   "x": -1980,
+   "y": 920,
+   "width": 520,
+   "height": 300,
+   "color": "#BF6F2F"
+  },
+  {
+   "id": "hand-SC",
+   "type": "text",
+   "text": "**SC** \u00b7 `source_credibility` \u00b7 \u00b6 8\n\n\"Chinese data never quite fully lines up, which bothers me more than most\"\n\n*Gloss:* Source credibility\n\n[[claims/source_credibility/Chinese data never quite fully lines up, which bothers me more than most|open note]]",
+   "x": -2560,
+   "y": 920,
+   "width": 520,
+   "height": 300,
+   "color": "#2FA88F"
+  },
+  {
+   "id": "hand-E1",
+   "type": "text",
+   "text": "**E1** \u00b7 `evidence_data` \u00b7 \u00b6 10\n\nYuan -8% vs USD and -4% vs basket; Treasury holdings flat once Belgian accounts are counted; China is two-thirds of global soybean imports; U.S. beans traded at a discount to Brazil\n\n*Gloss:* Data\n\n[[claims/evidence_data/Yuan -8% vs USD and -4% vs basket; Treasury holdings flat once Belgian accounts are counted; China is two-thirds|open note]]",
+   "x": -820,
+   "y": 1880,
+   "width": 520,
+   "height": 300,
+   "color": "#2F7FBF"
+  },
+  {
+   "id": "hand-E2",
+   "type": "text",
+   "text": "**E2** \u00b7 `evidence_source` \u00b7 \u00b6 11, 30\n\nHis own Senate testimony; Toloui on balance-sheet policy; the Economist on managed trade\n\n*Gloss:* Studies & sources\n\n[[claims/evidence_source/His own Senate testimony; Toloui on balance-sheet policy; the Economist on managed trade|open note]]",
+   "x": -1400,
+   "y": 1880,
+   "width": 520,
+   "height": 300,
+   "color": "#2F7FBF"
+  },
+  {
+   "id": "hand-M1",
+   "type": "text",
+   "text": "**M1** \u00b7 `mechanism`\n\nOutflow controls and the absence of carry-trade leverage prevented a 2015-style panic\n\n*Gloss:* Mechanism A\n\n[[claims/mechanism/Outflow controls and the absence of carry-trade leverage prevented a 2015-style panic|open note]]",
+   "x": -1400,
+   "y": 2360,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "hand-M2",
+   "type": "text",
+   "text": "**M2** \u00b7 `mechanism` \u00b7 \u00b6 9, 10, 11\n\nTreasuries carry no leverage \u2014 if China pushed yields up, the Fed would simply react\n\n*Gloss:* Mechanism B\n\n[[claims/mechanism/Treasuries carry no leverage \u2014 if China pushed yields up, the Fed would simply react|open note]]",
+   "x": -820,
+   "y": 2360,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "hand-C1",
+   "type": "text",
+   "text": "**C1** \u00b7 `intermediate_claim` \u00b7 \u00b6 9, 10, 11\n\nFive parallel verdicts: industrial policy untouched, currency buffered, Treasuries unused, manufactures spared, ag and energy targeted\n\n*Gloss:* Intermediate claim\n\n[[claims/intermediate_claim/Five parallel verdicts industrial policy untouched, currency buffered, Treasuries unused, manufactures spared, ag|open note]]",
+   "x": -820,
+   "y": 2840,
+   "width": 520,
+   "height": 300,
+   "color": "#2FBF9B"
+  },
+  {
+   "id": "hand-K",
+   "type": "text",
+   "text": "**K** \u00b7 `main_claim` \u00b7 \u00b6 27\n\nChina can meet its 2020 commitments \u2014 and that is precisely the risk. \"What China's state gives, China's state can take away\"\n\n*Gloss:* Main claim\n\n[[claims/main_claim/China can meet its 2020 commitments \u2014 and that is precisely the risk. What China's state gives, China's state can take|open note]]",
+   "x": -820,
+   "y": 3320,
+   "width": 520,
+   "height": 300,
+   "color": "#2FBF9B"
+  },
+  {
+   "id": "hand-X",
+   "type": "text",
+   "text": "**X** \u00b7 `opposing_view` \u00b7 \u00b6 30\n\nBoth approaches carry costs \u2014 managed trade rewards diversion away from allies, while the conventional approach changed little in 2010-11\n\n*Gloss:* Opposing view\n\n[[claims/opposing_view/Both approaches carry costs \u2014 managed trade rewards diversion away from allies, while the conventional approach changed|open note]]",
+   "x": -1980,
+   "y": 3800,
+   "width": 520,
+   "height": 300,
+   "color": "#8A8A8A"
+  },
+  {
+   "id": "hand-QF",
+   "type": "text",
+   "text": "**QF** \u00b7 `caveat` \u00b7 \u00b6 4\n\nTech decoupling will not bite in 2020: Boeing's own problems, no indigenous jet engines, semiconductors too early\n\n*Gloss:* Caveat\n\n[[claims/caveat/Tech decoupling will not bite in 2020 Boeing's own problems, no indigenous jet engines, semiconductors too early|open note]]",
+   "x": -820,
+   "y": 3800,
+   "width": 520,
+   "height": 300,
+   "color": "#9A8C6A"
+  },
+  {
+   "id": "hand-R1",
+   "type": "text",
+   "text": "**R1** \u00b7 `other_explanation` \u00b7 \u00b6 14\n\nWhy were manufactures spared? \"I am not quite sure why this is the case\" \u2014 two theories offered, neither chosen\n\n*Gloss:* Other explanation\n\n[[claims/other_explanation/Why were manufactures spared I am not quite sure why this is the case \u2014 two theories offered, neither chosen|open note]]",
+   "x": -1400,
+   "y": 3800,
+   "width": 520,
+   "height": 300,
+   "color": "#8A8A8A"
+  },
+  {
+   "id": "model-Q",
+   "type": "text",
+   "text": "**Q** \u00b7 `question` \u00b7 \u00b6 1, 2\n\nHow did China respond to Trump's tariff pressure in phase one of the trade war, and what does that imply for the deal and future US strategy?\n\n*Why:* A negotiated pause is the right moment to infer a rival's strategy from its revealed behavior.",
+   "x": 300,
+   "y": 440,
+   "width": 520,
+   "height": 300,
+   "color": "#7A6FA8"
+  },
+  {
+   "id": "model-K",
+   "type": "text",
+   "text": "**K** \u00b7 `main_claim` \u00b7 \u00b6 2, 3, 5, 9, 12, 19\n\nChina's response comes down to five lessons: no concessions on industrial policy, currency buffering without reserve loss, no use of Treasuries as a weapon, little targeting of US manufactures, and heavy targeting of agriculture and energy.\n\n*Why:* An adversary's revealed choices under pressure show which levers it values and which it lacks.",
+   "x": 880,
+   "y": 3320,
+   "width": 520,
+   "height": 300,
+   "color": "#2FBF9B"
+  },
+  {
+   "id": "model-C1",
+   "type": "text",
+   "text": "**C1** \u00b7 `intermediate_claim` \u00b7 \u00b6 3, 4\n\nChina refused to negotiate on its core industrial policies, namely the subsidies and procurement preferences of China 2025.\n\n*Why:* States do not trade away policies they see as central to future growth.",
+   "x": 300,
+   "y": 2840,
+   "width": 520,
+   "height": 300,
+   "color": "#2FBF9B"
+  },
+  {
+   "id": "model-M1",
+   "type": "text",
+   "text": "**M1** \u00b7 `mechanism` \u00b7 \u00b6 4\n\nImport substitution aimed at technological independence will cut China's imports of advanced manufactures and lead partners to question keeping their markets open, which makes future conflict close to certain.\n\n*Why:* Market access tends to be reciprocal, so a country that stops importing invites closure of its export markets.",
+   "x": 880,
+   "y": 2360,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "model-QF",
+   "type": "text",
+   "text": "**QF** \u00b7 `caveat` \u00b7 \u00b6 4\n\nThe effects of import substitution are long-run and will not significantly affect China's 2020 imports.\n\n*Why:* Structural industrial shifts take years to show up in trade flows.",
+   "x": 300,
+   "y": 3800,
+   "width": 520,
+   "height": 300,
+   "color": "#9A8C6A"
+  },
+  {
+   "id": "model-E1",
+   "type": "text",
+   "text": "**E1** \u00b7 `evidence_data` \u00b7 \u00b6 5, 6\n\nThe yuan fell 8% against the dollar and 4% against a broad basket, which helped China's overall exports hold up while its exports to the US fell.\n\n*Why:* A weaker currency offsets tariff costs and supports exports to other markets.",
+   "x": 1460,
+   "y": 1880,
+   "width": 520,
+   "height": 300,
+   "color": "#2F7FBF"
+  },
+  {
+   "id": "model-M2",
+   "type": "text",
+   "text": "**M2** \u00b7 `mechanism` \u00b7 \u00b6 7\n\nThe depreciation did not trigger 2015-style panic because of tighter capital controls, fewer bank carry trades, the yuan's appeal as a reserve alternative to negative-yielding euros, moves sized to the tariffs, and a rising trade surplus.\n\n*Why:* Currency moves cause capital flight only when outflows are possible and the move signals further declines.",
+   "x": 1460,
+   "y": 2360,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "model-ANOM",
+   "type": "text",
+   "text": "**ANOM** \u00b7 `anomaly` \u00b7 \u00b6 8\n\nContrary to common expectations, China managed the yuan while keeping its reserves stable.\n\n*Why:* Managing a depreciating currency is usually expected to require reserve sales.",
+   "x": 880,
+   "y": 440,
+   "width": 520,
+   "height": 300,
+   "color": "#AAAAAA"
+  },
+  {
+   "id": "model-E6",
+   "type": "text",
+   "text": "**E6** \u00b7 `evidence_discrepancy` \u00b7 \u00b6 8\n\nIn 2019 the PBOC balance sheet shows no intervention, the settlement data show small purchases, and the balance of payments shows a tiny reserve sale.\n\n*Why:* Multiple intervention proxies should be compared because each captures different flows.",
+   "x": 3200,
+   "y": 1880,
+   "width": 520,
+   "height": 300,
+   "color": "#2F7FBF"
+  },
+  {
+   "id": "model-SC",
+   "type": "text",
+   "text": "**SC** \u00b7 `source_credibility` \u00b7 \u00b6 8\n\nChinese official data never fully reconcile, which reduces confidence in the reserve measures.\n\n*Why:* Statistics that fail to reconcile internally warrant skepticism.",
+   "x": 2040,
+   "y": 920,
+   "width": 520,
+   "height": 300,
+   "color": "#2FA88F"
+  },
+  {
+   "id": "model-E2",
+   "type": "text",
+   "text": "**E2** \u00b7 `evidence_data` \u00b7 \u00b6 9, 10\n\nChina did not dump Treasuries: holdings fell only slightly once Belgian custodial accounts are counted, and the shifts reflected a search for yield in Agencies and currency-hedged yen bonds.\n\n*Why:* Reserve holdings must be traced through custodians to measure true ownership.",
+   "x": 300,
+   "y": 1880,
+   "width": 520,
+   "height": 300,
+   "color": "#2F7FBF"
+  },
+  {
+   "id": "model-P1",
+   "type": "text",
+   "text": "**P1** \u00b7 `stated_assumption` \u00b7 \u00b6 11\n\nThe author takes as given that modern central banks will use balance sheet expansion and yield curve control to cap yields.\n\n*Why:* Central banks now treat asset purchases as a normal instrument for steering long-term rates.",
+   "x": 300,
+   "y": 920,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "model-M3",
+   "type": "text",
+   "text": "**M3** \u00b7 `mechanism` \u00b7 \u00b6 11\n\nSelling Treasuries gives China little leverage because the Fed can offset any rise in yields, and the alternative assets yield less.\n\n*Why:* A central bank willing to buy its own bonds neutralizes a foreign holder's threat to sell.",
+   "x": 300,
+   "y": 2360,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "model-E3",
+   "type": "text",
+   "text": "**E3** \u00b7 `evidence_data` \u00b7 \u00b6 12, 13\n\nExcluding cars and planes, Chinese imports of US manufactures fell only as much as China's overall manufactured imports, so the US was not singled out.\n\n*Why:* Targeting is shown only by a decline relative to a comparable baseline.",
+   "x": 2040,
+   "y": 1880,
+   "width": 520,
+   "height": 300,
+   "color": "#2F7FBF"
+  },
+  {
+   "id": "model-X",
+   "type": "text",
+   "text": "**X** \u00b7 `opposing_view` \u00b7 \u00b6 13\n\nThe common view holds that China retaliated broadly against US manufactured exports.\n\n*Why:* Conventional narratives should be checked against disaggregated data.",
+   "x": 1460,
+   "y": 3800,
+   "width": 520,
+   "height": 300,
+   "color": "#8A8A8A"
+  },
+  {
+   "id": "model-R1",
+   "type": "text",
+   "text": "**R1** \u00b7 `other_explanation` \u00b7 \u00b6 14, 15, 16\n\nThe author offers two possible reasons China spared US manufactures, without choosing between them: the remaining imports were essential, or China wanted to keep room for later retaliation.\n\n*Why:* When the cause of a pattern is unclear, competing explanations should be kept open.",
+   "x": 880,
+   "y": 3800,
+   "width": 520,
+   "height": 300,
+   "color": "#8A8A8A"
+  },
+  {
+   "id": "model-QF2",
+   "type": "text",
+   "text": "**QF2** \u00b7 `caveat` \u00b7 \u00b6 17, 18\n\nCars and planes are exceptions: SUV imports soon rebounded, and the fall in plane imports mostly reflects Boeing's delivery problems rather than Chinese retaliation.\n\n*Why:* Deliveries of capital goods reflect past orders and supplier capacity, not current policy.",
+   "x": 2040,
+   "y": 3800,
+   "width": 520,
+   "height": 300,
+   "color": "#9A8C6A"
+  },
+  {
+   "id": "model-C2",
+   "type": "text",
+   "text": "**C2** \u00b7 `intermediate_claim` \u00b7 \u00b6 19, 20, 21, 22\n\nChina did target agriculture and energy; other markets absorbed the lost energy sales, while the agricultural losses had a modest economic but large political impact.\n\n*Why:* Boycotts of fungible commodities are offset by redirected trade, but politically concentrated sectors still feel them.",
+   "x": 880,
+   "y": 2840,
+   "width": 520,
+   "height": 300,
+   "color": "#2FBF9B"
+  },
+  {
+   "id": "model-P3",
+   "type": "text",
+   "text": "**P3** \u00b7 `revised_prior` \u00b7 \u00b6 23\n\nThe author expected US soybeans to find other buyers easily and was surprised by how large China's impact was.\n\n*Why:* Commodity boycotts can bite when the buyer dominates global demand.",
+   "x": 1460,
+   "y": 920,
+   "width": 520,
+   "height": 300,
+   "color": "#BF6F2F"
+  },
+  {
+   "id": "model-E4",
+   "type": "text",
+   "text": "**E4** \u00b7 `evidence_data` \u00b7 \u00b6 23\n\nChina's two-thirds share of global soy imports and its total refusal of US beans opened a US discount to Brazilian beans, later partly arbitraged away through routes such as Argentina.\n\n*Why:* A persistent price gap between substitutes shows market segmentation.",
+   "x": 2620,
+   "y": 1880,
+   "width": 520,
+   "height": 300,
+   "color": "#2F7FBF"
+  },
+  {
+   "id": "model-C3",
+   "type": "text",
+   "text": "**C3** \u00b7 `intermediate_claim` \u00b7 \u00b6 1, 25\n\nBecause China showed it can steer its commodity imports, and its demand for imported meat is high, it can plausibly meet its 2020 agriculture and energy purchase commitments.\n\n*Why:* A state that can turn off imports at will can also turn them on.",
+   "x": 1460,
+   "y": 2840,
+   "width": 520,
+   "height": 300,
+   "color": "#2FBF9B"
+  },
+  {
+   "id": "model-K2",
+   "type": "text",
+   "text": "**K2** \u00b7 `main_claim` \u00b7 \u00b6 26, 27, 28, 29\n\nManaged trade makes US farmers hostages: the price of challenging Chinese industrial policy will be renewed retaliation against agriculture, so China is a big but unsafe market.\n\n*Why:* Purchases granted by state direction can be revoked by state direction.",
+   "x": 300,
+   "y": 3320,
+   "width": 520,
+   "height": 300,
+   "color": "#2FBF9B"
+  },
+  {
+   "id": "model-P2",
+   "type": "text",
+   "text": "**P2** \u00b7 `hidden_assumption` \u00b7 \u00b6 28\n\nThe US will eventually have to confront Chinese industrial policy again, since phase one did not address it.\n\n*Why:* Unresolved structural disputes recur in later negotiations.",
+   "x": 880,
+   "y": 920,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "model-QF3",
+   "type": "text",
+   "text": "**QF3** \u00b7 `caveat` \u00b7 \u00b6 30\n\nManaged trade may simply divert Chinese imports away from US allies with no net US benefit, though the conventional legal-rules approach also failed to change Chinese policy.\n\n*Why:* Bilateral purchase targets mostly reshuffle trade rather than create it.",
+   "x": 2620,
+   "y": 3800,
+   "width": 520,
+   "height": 300,
+   "color": "#9A8C6A"
+  },
+  {
+   "id": "model-E5",
+   "type": "text",
+   "text": "**E5** \u00b7 `evidence_source` \u00b7 \u00b6 30\n\nThe author cites an Economist article for laying out the disadvantages of both managed trade and the conventional approach.\n\n*Why:* Balanced outside analysis helps judge competing policy approaches.",
+   "x": 880,
+   "y": 1880,
+   "width": 520,
+   "height": 300,
+   "color": "#2F7FBF"
+  }
+ ],
+ "edges": [
+  {
+   "id": "h-P3-P1",
+   "fromNode": "hand-P3",
+   "fromSide": "bottom",
+   "toNode": "hand-P1",
+   "toSide": "top",
+   "color": "1",
+   "label": "-1 revises"
+  },
+  {
+   "id": "h-P1-C1",
+   "fromNode": "hand-P1",
+   "fromSide": "bottom",
+   "toNode": "hand-C1",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 licenses"
+  },
+  {
+   "id": "h-E1-M1",
+   "fromNode": "hand-E1",
+   "fromSide": "bottom",
+   "toNode": "hand-M1",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "h-E1-C1",
+   "fromNode": "hand-E1",
+   "fromSide": "bottom",
+   "toNode": "hand-C1",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "h-E2-C1",
+   "fromNode": "hand-E2",
+   "fromSide": "bottom",
+   "toNode": "hand-C1",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "h-M1-C1",
+   "fromNode": "hand-M1",
+   "fromSide": "bottom",
+   "toNode": "hand-C1",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "h-M2-C1",
+   "fromNode": "hand-M2",
+   "fromSide": "bottom",
+   "toNode": "hand-C1",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "h-SC-E1",
+   "fromNode": "hand-SC",
+   "fromSide": "bottom",
+   "toNode": "hand-E1",
+   "toSide": "top",
+   "color": "1",
+   "label": "-1 undercut_by"
+  },
+  {
+   "id": "h-C1-K",
+   "fromNode": "hand-C1",
+   "fromSide": "bottom",
+   "toNode": "hand-K",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "h-P2-K",
+   "fromNode": "hand-P2",
+   "fromSide": "bottom",
+   "toNode": "hand-K",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 licenses"
+  },
+  {
+   "id": "h-K-X",
+   "fromNode": "hand-K",
+   "fromSide": "bottom",
+   "toNode": "hand-X",
+   "toSide": "top",
+   "color": "1",
+   "label": "-1 rebuts"
+  },
+  {
+   "id": "h-K-QF",
+   "fromNode": "hand-K",
+   "fromSide": "bottom",
+   "toNode": "hand-QF",
+   "toSide": "top",
+   "color": "1",
+   "label": "-1 qualified_by"
+  },
+  {
+   "id": "h-C1-R1",
+   "fromNode": "hand-C1",
+   "fromSide": "bottom",
+   "toNode": "hand-R1",
+   "toSide": "top",
+   "color": "1",
+   "label": "-1 undercut_by"
+  },
+  {
+   "id": "m-e001",
+   "fromNode": "model-Q",
+   "fromSide": "bottom",
+   "toNode": "model-P3",
+   "toSide": "top",
+   "color": "6",
+   "label": "0 frames"
+  },
+  {
+   "id": "m-e002",
+   "fromNode": "model-Q",
+   "fromSide": "bottom",
+   "toNode": "model-P1",
+   "toSide": "top",
+   "color": "6",
+   "label": "0 frames"
+  },
+  {
+   "id": "m-e003",
+   "fromNode": "model-Q",
+   "fromSide": "bottom",
+   "toNode": "model-P2",
+   "toSide": "top",
+   "color": "6",
+   "label": "0 frames"
+  },
+  {
+   "id": "m-e004",
+   "fromNode": "model-C1",
+   "fromSide": "bottom",
+   "toNode": "model-K",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "m-e005",
+   "fromNode": "model-M1",
+   "fromSide": "bottom",
+   "toNode": "model-C1",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "m-e006",
+   "fromNode": "model-M1",
+   "fromSide": "bottom",
+   "toNode": "model-QF",
+   "toSide": "top",
+   "color": "1",
+   "label": "-1 undercut_by"
+  },
+  {
+   "id": "m-e007",
+   "fromNode": "model-E1",
+   "fromSide": "bottom",
+   "toNode": "model-M2",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "m-e008",
+   "fromNode": "model-M2",
+   "fromSide": "bottom",
+   "toNode": "model-K",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "m-e009",
+   "fromNode": "model-ANOM",
+   "fromSide": "bottom",
+   "toNode": "model-K",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 motivates"
+  },
+  {
+   "id": "m-e010",
+   "fromNode": "model-E6",
+   "fromSide": "bottom",
+   "toNode": "model-M2",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "m-e011",
+   "fromNode": "model-SC",
+   "fromSide": "bottom",
+   "toNode": "model-E6",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 bounds"
+  },
+  {
+   "id": "m-e012",
+   "fromNode": "model-E2",
+   "fromSide": "bottom",
+   "toNode": "model-M3",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "m-e013",
+   "fromNode": "model-P1",
+   "fromSide": "bottom",
+   "toNode": "model-M3",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "m-e014",
+   "fromNode": "model-M3",
+   "fromSide": "bottom",
+   "toNode": "model-K",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "m-e015",
+   "fromNode": "model-E3",
+   "fromSide": "bottom",
+   "toNode": "model-K",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "m-e016",
+   "fromNode": "model-K",
+   "fromSide": "bottom",
+   "toNode": "model-X",
+   "toSide": "top",
+   "color": "1",
+   "label": "-1 rebuts"
+  },
+  {
+   "id": "m-e017",
+   "fromNode": "model-K",
+   "fromSide": "bottom",
+   "toNode": "model-R1",
+   "toSide": "top",
+   "color": "1",
+   "label": "-1 qualified_by"
+  },
+  {
+   "id": "m-e018",
+   "fromNode": "model-K",
+   "fromSide": "bottom",
+   "toNode": "model-QF2",
+   "toSide": "top",
+   "color": "1",
+   "label": "-1 qualified_by"
+  },
+  {
+   "id": "m-e019",
+   "fromNode": "model-C2",
+   "fromSide": "bottom",
+   "toNode": "model-K",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "m-e020",
+   "fromNode": "model-P3",
+   "fromSide": "bottom",
+   "toNode": "model-E4",
+   "toSide": "top",
+   "color": "6",
+   "label": "0 frames"
+  },
+  {
+   "id": "m-e021",
+   "fromNode": "model-E4",
+   "fromSide": "bottom",
+   "toNode": "model-C2",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "m-e022",
+   "fromNode": "model-E4",
+   "fromSide": "bottom",
+   "toNode": "model-C3",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "m-e023",
+   "fromNode": "model-C2",
+   "fromSide": "bottom",
+   "toNode": "model-K2",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "m-e024",
+   "fromNode": "model-P2",
+   "fromSide": "bottom",
+   "toNode": "model-K2",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 licenses"
+  },
+  {
+   "id": "m-e025",
+   "fromNode": "model-C1",
+   "fromSide": "bottom",
+   "toNode": "model-K2",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "m-e026",
+   "fromNode": "model-K2",
+   "fromSide": "bottom",
+   "toNode": "model-QF3",
+   "toSide": "top",
+   "color": "1",
+   "label": "-1 qualified_by"
+  },
+  {
+   "id": "m-e027",
+   "fromNode": "model-E5",
+   "fromSide": "bottom",
+   "toNode": "model-QF3",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "m-e028",
+   "fromNode": "model-C3",
+   "fromSide": "bottom",
+   "toNode": "model-K2",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "p-E1-E2",
+   "fromNode": "hand-E1",
+   "fromSide": "bottom",
+   "toNode": "model-E2",
+   "toSide": "bottom",
+   "color": "5",
+   "label": "paragraph"
+  },
+  {
+   "id": "p-E2-E5",
+   "fromNode": "hand-E2",
+   "fromSide": "bottom",
+   "toNode": "model-E5",
+   "toSide": "bottom",
+   "color": "5",
+   "label": "paragraph"
+  },
+  {
+   "id": "p-K-K2",
+   "fromNode": "hand-K",
+   "fromSide": "bottom",
+   "toNode": "model-K2",
+   "toSide": "bottom",
+   "color": "5",
+   "label": "paragraph"
+  },
+  {
+   "id": "p-M2-M3",
+   "fromNode": "hand-M2",
+   "fromSide": "bottom",
+   "toNode": "model-M3",
+   "toSide": "bottom",
+   "color": "5",
+   "label": "paragraph"
+  },
+  {
+   "id": "p-P1-P1",
+   "fromNode": "hand-P1",
+   "fromSide": "bottom",
+   "toNode": "model-P1",
+   "toSide": "bottom",
+   "color": "5",
+   "label": "slot"
+  },
+  {
+   "id": "p-P2-P2",
+   "fromNode": "hand-P2",
+   "fromSide": "bottom",
+   "toNode": "model-P2",
+   "toSide": "bottom",
+   "color": "5",
+   "label": "slot"
+  },
+  {
+   "id": "p-P3-P3",
+   "fromNode": "hand-P3",
+   "fromSide": "bottom",
+   "toNode": "model-P3",
+   "toSide": "bottom",
+   "color": "5",
+   "label": "paragraph"
+  },
+  {
+   "id": "p-Q-Q",
+   "fromNode": "hand-Q",
+   "fromSide": "bottom",
+   "toNode": "model-Q",
+   "toSide": "bottom",
+   "color": "5",
+   "label": "paragraph"
+  },
+  {
+   "id": "p-QF-QF",
+   "fromNode": "hand-QF",
+   "fromSide": "bottom",
+   "toNode": "model-QF",
+   "toSide": "bottom",
+   "color": "5",
+   "label": "paragraph"
+  },
+  {
+   "id": "p-R1-R1",
+   "fromNode": "hand-R1",
+   "fromSide": "bottom",
+   "toNode": "model-R1",
+   "toSide": "bottom",
+   "color": "5",
+   "label": "paragraph"
+  },
+  {
+   "id": "p-SC-SC",
+   "fromNode": "hand-SC",
+   "fromSide": "bottom",
+   "toNode": "model-SC",
+   "toSide": "bottom",
+   "color": "5",
+   "label": "paragraph"
+  },
+  {
+   "id": "p-X-X",
+   "fromNode": "hand-X",
+   "fromSide": "bottom",
+   "toNode": "model-X",
+   "toSide": "bottom",
+   "color": "5",
+   "label": "slot"
+  }
+ ]
+}

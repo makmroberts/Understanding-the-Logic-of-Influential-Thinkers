@@ -1,0 +1,909 @@
+{
+ "nodes": [
+  {
+   "id": "header",
+   "type": "text",
+   "text": "## 2025-09-12 The Trump Shock That Wasn't (At Least Not Yet)\n\n**Left:** hand-drawn map (15 steps). **Right:** model run `setser_2025-09-12_trump-shock-that-wasnt/claude-opus-5.5` (24 steps).\n\nMatched 10 of 15 hand steps (8 by a shared paragraph, 2 by role only).\n\nHand steps not matched: C1, E2, M2, P2, QF\n\nModel steps not matched: C1, C2, C3, E2, E3, E4, E5, E6, M3, QF, QF2, QF3, RC, SCP",
+   "x": -2560,
+   "y": 0,
+   "width": 6280,
+   "height": 260
+  },
+  {
+   "id": "hand-Q",
+   "type": "text",
+   "text": "**Q** \u00b7 `question` \u00b7 \u00b6 1\n\nHave Trump's tariffs actually shocked trade flows and the global economy?\n\n*Gloss:* Question\n\n[[claims/question/Have Trump's tariffs actually shocked trade flows and the global economy|open note]]",
+   "x": -820,
+   "y": 440,
+   "width": 520,
+   "height": 300,
+   "color": "#7A6FA8"
+  },
+  {
+   "id": "hand-P1",
+   "type": "text",
+   "text": "**P1** \u00b7 `stated_assumption` \u00b7 \u00b6 23\n\nA global tariff works like an exchange rate move: import elasticity of about 0.3 to 0.4, not the bilateral elasticity of about 2\n\n*Gloss:* Stated assumption\n\n[[claims/stated_assumption/A global tariff works like an exchange rate move import elasticity of about 0.3 to 0.4, not the bilateral elasticity|open note]]",
+   "x": -820,
+   "y": 920,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "hand-P2",
+   "type": "text",
+   "text": "**P2** \u00b7 `stated_assumption` \u00b7 \u00b6 4\n\nRecord tariff revenue means Americans keep importing and paying the tariff\n\n*Gloss:* Stated assumption\n\n[[claims/stated_assumption/Record tariff revenue means Americans keep importing and paying the tariff|open note]]",
+   "x": -1980,
+   "y": 920,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "hand-P3",
+   "type": "text",
+   "text": "**P3** \u00b7 `hidden_assumption` \u00b7 \u00b6 3\n\nTax- and finance-driven flows (pharmaceuticals, gold) are noise; core trade is the real signal\n\n*Gloss:* Hidden assumption\n\n[[claims/hidden_assumption/Tax- and finance-driven flows (pharmaceuticals, gold) are noise; core trade is the real signal|open note]]",
+   "x": -1400,
+   "y": 920,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "hand-E1",
+   "type": "text",
+   "text": "**E1** \u00b7 `evidence_data` \u00b7 \u00b6 7, 11, 21\n\nAnnualized trade deficit peaked at $2 trillion in March, fell to $1 trillion, then rebounded to $1.2 trillion in July; imports from Taiwan up over 50 percent year to date; first-term tariffs cut affected trade about 30 percent, and about 50 percent for goods tariffed at 25 percent; high-frequency global trade measures have not slowed\n\n*Gloss:* Data\n\n[[claims/evidence_data/Annualized trade deficit peaked at $2 trillion in March, fell to $1 trillion, then rebounded to $1.2 trillion in July|open note]]",
+   "x": -820,
+   "y": 1880,
+   "width": 520,
+   "height": 300,
+   "color": "#2F7FBF"
+  },
+  {
+   "id": "hand-E2",
+   "type": "text",
+   "text": "**E2** \u00b7 `evidence_source` \u00b7 \u00b6 30\n\nNew York Times reporting; U.S. trade data; federal court ruling on tariff authority\n\n*Gloss:* Studies and sources\n\n[[claims/evidence_source/New York Times reporting; U.S. trade data; federal court ruling on tariff authority|open note]]",
+   "x": -1400,
+   "y": 1880,
+   "width": 520,
+   "height": 300,
+   "color": "#2F7FBF"
+  },
+  {
+   "id": "hand-M1",
+   "type": "text",
+   "text": "**M1** \u00b7 `mechanism` \u00b7 \u00b6 12\n\nFront-running\n\n*Gloss:* Pharmaceutical stockpiling (distorted by tax) and gold flows drive the headline swings\n\n[[claims/mechanism/Front-running|open note]]",
+   "x": -820,
+   "y": 2360,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "hand-M2",
+   "type": "text",
+   "text": "**M2** \u00b7 `mechanism` \u00b7 \u00b6 14, 19\n\nTrade diversion\n\n*Gloss:* Imports shift from China to Taiwan and Southeast Asia as final assembly relocates\n\n[[claims/mechanism/Trade diversion|open note]]",
+   "x": -2560,
+   "y": 2360,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "hand-M3",
+   "type": "text",
+   "text": "**M3** \u00b7 `mechanism` \u00b7 \u00b6 16\n\nArtificial intelligence investment\n\n*Gloss:* The data center buildout pushes electronics imports up\n\n[[claims/mechanism/Artificial intelligence investment|open note]]",
+   "x": -1400,
+   "y": 2360,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "hand-M4",
+   "type": "text",
+   "text": "**M4** \u00b7 `mechanism` \u00b7 \u00b6 23, 24\n\nElasticity math\n\n*Gloss:* A 15 percent tariff times a 0.3 to 0.4 elasticity cuts imports 5 to 6 percent; non-oil imports fall from about 10 to 9.5 percent of GDP\n\n[[claims/mechanism/Elasticity math|open note]]",
+   "x": -1980,
+   "y": 2360,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "hand-C1",
+   "type": "text",
+   "text": "**C1** \u00b7 `intermediate_claim` \u00b7 \u00b6 28\n\nExcluding pharmaceuticals and gold, U.S. imports are roughly on trend; the shock to trade rules far exceeds the shock to trade flows\n\n*Gloss:* Intermediate claim\n\n[[claims/intermediate_claim/Excluding pharmaceuticals and gold, U.S. imports are roughly on trend; the shock to trade rules far exceeds the shock|open note]]",
+   "x": -820,
+   "y": 2840,
+   "width": 520,
+   "height": 300,
+   "color": "#2FBF9B"
+  },
+  {
+   "id": "hand-K",
+   "type": "text",
+   "text": "**K** \u00b7 `main_claim` \u00b7 \u00b6 5\n\nThe Trump shock to trade flows has not happened yet, though a modest impact should appear\n\n*Gloss:* Main claim\n\n[[claims/main_claim/The Trump shock to trade flows has not happened yet, though a modest impact should appear|open note]]",
+   "x": -820,
+   "y": 3320,
+   "width": 520,
+   "height": 300,
+   "color": "#2FBF9B"
+  },
+  {
+   "id": "hand-X",
+   "type": "text",
+   "text": "**X** \u00b7 `opposing_view` \u00b7 \u00b6 2\n\nReading headline volatility as tariffs crushing trade\n\n*Gloss:* Opposing view\n\n[[claims/opposing_view/Reading headline volatility as tariffs crushing trade|open note]]",
+   "x": -1400,
+   "y": 3800,
+   "width": 520,
+   "height": 300,
+   "color": "#8A8A8A"
+  },
+  {
+   "id": "hand-QF",
+   "type": "text",
+   "text": "**QF** \u00b7 `caveat` \u00b7 \u00b6 14, 19\n\nAugust deals doubled tariffs on Southeast Asia relative to April; fall data may show more impact; the tariffs' legality is unresolved\n\n*Gloss:* Caveat\n\n[[claims/caveat/August deals doubled tariffs on Southeast Asia relative to April; fall data may show more impact; the tariffs' legality|open note]]",
+   "x": -1980,
+   "y": 3800,
+   "width": 520,
+   "height": 300,
+   "color": "#9A8C6A"
+  },
+  {
+   "id": "hand-R1",
+   "type": "text",
+   "text": "**R1** \u00b7 `other_explanation` \u00b7 \u00b6 15\n\nWaiting for tariff relief (autos) replaces front-running; other exporters can take U.S. market share abroad\n\n*Gloss:* Other explanation\n\n[[claims/other_explanation/Waiting for tariff relief (autos) replaces front-running; other exporters can take U.S. market share abroad|open note]]",
+   "x": -820,
+   "y": 3800,
+   "width": 520,
+   "height": 300,
+   "color": "#8A8A8A"
+  },
+  {
+   "id": "model-Q",
+   "type": "text",
+   "text": "**Q** \u00b7 `question` \u00b7 \u00b6 1, 2, 3, 18\n\nWhy has the huge Trump tariff shock to trade rules not produced a comparable shock to core trade flows and the global economy?\n\n*Why:* A large change in policy rules need not translate into an equally large change in economic flows.",
+   "x": 300,
+   "y": 440,
+   "width": 520,
+   "height": 300,
+   "color": "#7A6FA8"
+  },
+  {
+   "id": "model-C1",
+   "type": "text",
+   "text": "**C1** \u00b7 `intermediate_claim` \u00b7 \u00b6 5, 6, 7, 8, 9\n\nThe U.S. has moved from low, bound, MFN tariffs to high, unbound, country-specific tariffs with demanding rules of origin, a profound rejection of WTO rules.\n\n*Why:* Abandoning bound and nondiscriminatory tariffs breaks the core commitments of a rules-based trade system.",
+   "x": 300,
+   "y": 2840,
+   "width": 520,
+   "height": 300,
+   "color": "#2FBF9B"
+  },
+  {
+   "id": "model-E1",
+   "type": "text",
+   "text": "**E1** \u00b7 `evidence_data` \u00b7 \u00b6 6, 7\n\nTariff rates now vary by origin, from 50 percent on India and Brazil to 10 percent on the UK and Australia and zero for USMCA-compliant trade.\n\n*Why:* Different rates on the same good by origin are direct evidence of discrimination among trading partners.",
+   "x": 300,
+   "y": 1880,
+   "width": 520,
+   "height": 300,
+   "color": "#2F7FBF"
+  },
+  {
+   "id": "model-X",
+   "type": "text",
+   "text": "**X** \u00b7 `opposing_view` \u00b7 \u00b6 2, 10, 11, 12, 13\n\nThe headline reading that the tariffs have caused trade swings bigger than COVID or Lehman, and so a major shock to global trade flows, is misleading.\n\n*Why:* Headline aggregates dominated by distorted categories can create a false impression of an underlying shock.",
+   "x": 880,
+   "y": 3800,
+   "width": 520,
+   "height": 300,
+   "color": "#8A8A8A"
+  },
+  {
+   "id": "model-E2",
+   "type": "text",
+   "text": "**E2** \u00b7 `evidence_data` \u00b7 \u00b6 2, 10, 11\n\nMeasured U.S. imports swung more than during COVID or Lehman, and the annualized deficit went from $2 trillion to $1 trillion and back to about $1.2 trillion.\n\n*Why:* Large swings in headline trade data show volatility but not necessarily a change in underlying trade.",
+   "x": 880,
+   "y": 1880,
+   "width": 520,
+   "height": 300,
+   "color": "#2F7FBF"
+  },
+  {
+   "id": "model-M1",
+   "type": "text",
+   "text": "**M1** \u00b7 `mechanism` \u00b7 \u00b6 3, 12\n\nTax-driven pharmaceutical trade and stockpiling, together with gold flows, produce most of the headline volatility without reflecting core trade.\n\n*Why:* Goods that are easily stockpiled or booked for tax reasons distort trade statistics and should be stripped out to see core trends.",
+   "x": 300,
+   "y": 2360,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "model-SCP",
+   "type": "text",
+   "text": "**SCP** \u00b7 `scope_choice` \u00b7 \u00b6 13\n\nThe proper measure of core trade excludes pharmaceuticals and gold, and on that measure U.S. trade looks normal.\n\n*Why:* The categories excluded from a trade measure can decide whether a shock appears large or small.",
+   "x": 300,
+   "y": 1400,
+   "width": 520,
+   "height": 300,
+   "color": "#9A8C6A"
+  },
+  {
+   "id": "model-E3",
+   "type": "text",
+   "text": "**E3** \u00b7 `evidence_data` \u00b7 \u00b6 14\n\nImports from China collapsed while imports from Taiwan and Southeast Asia soared, leaving total imports from Asia roughly unchanged.\n\n*Why:* Trade diversion toward lower-tariff origins can offset falls from high-tariff origins.",
+   "x": 1460,
+   "y": 1880,
+   "width": 520,
+   "height": 300,
+   "color": "#2F7FBF"
+  },
+  {
+   "id": "model-M2",
+   "type": "text",
+   "text": "**M2** \u00b7 `mechanism` \u00b7 \u00b6 15, 16\n\nAuto imports slowed, but an AI data-center investment boom has sharply raised electronics imports, with Taiwan imports up over 50 percent.\n\n*Why:* A strong sectoral demand boom can outweigh tariff drag on overall import volumes.",
+   "x": 880,
+   "y": 2360,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "model-C2",
+   "type": "text",
+   "text": "**C2** \u00b7 `intermediate_claim` \u00b7 \u00b6 17\n\nGlobal trade has held up well despite the largest importer flouting the rules.\n\n*Why:* Once distortions are removed and the offsets are counted, aggregate trade resilience can coexist with rule-breaking.",
+   "x": 880,
+   "y": 2840,
+   "width": 520,
+   "height": 300,
+   "color": "#2FBF9B"
+  },
+  {
+   "id": "model-C3",
+   "type": "text",
+   "text": "**C3** \u00b7 `intermediate_claim` \u00b7 \u00b6 4\n\nRecord tariff revenue implies that Americans keep importing and paying the tariff, which is good news for trade partners.\n\n*Why:* Tariff revenue equals the rate times the import base, so high revenue requires that imports continue.",
+   "x": 1460,
+   "y": 2840,
+   "width": 520,
+   "height": 300,
+   "color": "#2FBF9B"
+  },
+  {
+   "id": "model-E4",
+   "type": "text",
+   "text": "**E4** \u00b7 `evidence_data` \u00b7 \u00b6 19, 20\n\nThe August deals and letters raised tariffs sharply for many countries, to an average of about 15 percent, doubling them on Southeast Asia.\n\n*Why:* Higher effective tariffs should eventually weigh on trade volumes.",
+   "x": 2040,
+   "y": 1880,
+   "width": 520,
+   "height": 300,
+   "color": "#2F7FBF"
+  },
+  {
+   "id": "model-E5",
+   "type": "text",
+   "text": "**E5** \u00b7 `evidence_data` \u00b7 \u00b6 21\n\nFirst-term China tariffs of about 15 percent cut bilateral trade by about 30 percent, implying a bilateral elasticity near 2.\n\n*Why:* Past responses to tariffs give an empirical basis for estimating trade elasticities.",
+   "x": 2620,
+   "y": 1880,
+   "width": 520,
+   "height": 300,
+   "color": "#2F7FBF"
+  },
+  {
+   "id": "model-M3",
+   "type": "text",
+   "text": "**M3** \u00b7 `mechanism` \u00b7 \u00b6 22\n\nA bilateral elasticity overstates the effect of a global tariff because bilateral tariffs are evaded by rerouting assembly through third countries.\n\n*Why:* Diversion inflates measured bilateral responses relative to the response to tariffs applied on all origins.",
+   "x": 2040,
+   "y": 2360,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "model-P1",
+   "type": "text",
+   "text": "**P1** \u00b7 `stated_assumption` \u00b7 \u00b6 23\n\nThe exchange-rate import elasticity of 0.3 to 0.4 is the right analogue for a global tariff.\n\n*Why:* A broad tariff raises import prices much as a currency depreciation does, so the price elasticities should be similar.",
+   "x": 300,
+   "y": 920,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "model-P2",
+   "type": "text",
+   "text": "**P2** \u00b7 `hidden_assumption` \u00b7 \u00b6 23\n\nImporters respond to a tariff-driven price rise the same way they respond to an equal exchange-rate-driven price rise.\n\n*Why:* Mapping estimates from one kind of price shock to another requires the two shocks to be passed through and perceived alike.",
+   "x": 880,
+   "y": 920,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "model-RC",
+   "type": "text",
+   "text": "**RC** \u00b7 `reconstruction` \u00b7 \u00b6 23, 24\n\nA 15 percent tariff should cut U.S. imports by 5 to 6 percent, taking non-oil imports from about 10 to 9.5 percent of GDP: meaningful, but far smaller than COVID or the global financial crisis.\n\n*Why:* Multiplying the price shock by an appropriate elasticity gives a bounded estimate of the volume effect.",
+   "x": 880,
+   "y": 3320,
+   "width": 520,
+   "height": 300,
+   "color": "#2FBF9B"
+  },
+  {
+   "id": "model-M4",
+   "type": "text",
+   "text": "**M4** \u00b7 `mechanism` \u00b7 \u00b6 23, 31\n\nSome exporters can offset lost U.S. sales by taking market share from U.S. exporters, who face higher input costs.\n\n*Why:* Tariffs on inputs raise the costs of domestic exporters and cede third markets to foreign rivals.",
+   "x": 1460,
+   "y": 2360,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "model-E6",
+   "type": "text",
+   "text": "**E6** \u00b7 `evidence_data` \u00b7 \u00b6 25, 26, 27\n\nThere is little sign yet of the expected effect: U.S. imports are on trend and high-frequency global trade measures have not slowed.\n\n*Why:* Current data should be compared against the predicted effect to judge whether that effect has materialized.",
+   "x": 3200,
+   "y": 1880,
+   "width": 520,
+   "height": 300,
+   "color": "#2F7FBF"
+  },
+  {
+   "id": "model-K",
+   "type": "text",
+   "text": "**K** \u00b7 `main_claim` \u00b7 \u00b6 3, 17, 28\n\nThe tariff shock to the trade rules has so far been much bigger than the shock to trade flows.\n\n*Why:* Policy regime change and its measured economic impact must be assessed separately.",
+   "x": 300,
+   "y": 3320,
+   "width": 520,
+   "height": 300,
+   "color": "#2FBF9B"
+  },
+  {
+   "id": "model-QF",
+   "type": "text",
+   "text": "**QF** \u00b7 `caveat` \u00b7 \u00b6 18, 20, 29\n\nThe conclusion is provisional: the fall data should show a larger impact than is visible now.\n\n*Why:* Trade responds to price shocks with lags, so early readings understate the eventual effect.",
+   "x": 1460,
+   "y": 3800,
+   "width": 520,
+   "height": 300,
+   "color": "#9A8C6A"
+  },
+  {
+   "id": "model-QF2",
+   "type": "text",
+   "text": "**QF2** \u00b7 `caveat` \u00b7 \u00b6 31\n\nThe analogy is imperfect: a depreciation also boosts exports, whereas a tariff does not.\n\n*Why:* Analogies between policy instruments hold only for the channels they share.",
+   "x": 2040,
+   "y": 3800,
+   "width": 520,
+   "height": 300,
+   "color": "#9A8C6A"
+  },
+  {
+   "id": "model-QF3",
+   "type": "text",
+   "text": "**QF3** \u00b7 `caveat` \u00b7 \u00b6 30\n\nThe tariffs may also be outside U.S. trade law, since a court noted that tariffs require congressional authority.\n\n*Why:* Legal challenges can change the durability of a policy shock.",
+   "x": 2620,
+   "y": 3800,
+   "width": 520,
+   "height": 300,
+   "color": "#9A8C6A"
+  },
+  {
+   "id": "model-R1",
+   "type": "text",
+   "text": "**R1** \u00b7 `other_explanation` \u00b7 \u00b6 15\n\nComing auto import swings will reflect timing around tariff relief, as front-running did earlier, rather than underlying demand.\n\n*Why:* Anticipated tariff changes shift the timing of imports and can masquerade as real demand effects.",
+   "x": 300,
+   "y": 3800,
+   "width": 520,
+   "height": 300,
+   "color": "#8A8A8A"
+  }
+ ],
+ "edges": [
+  {
+   "id": "h-P3-M1",
+   "fromNode": "hand-P3",
+   "fromSide": "bottom",
+   "toNode": "hand-M1",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "h-E1-M1",
+   "fromNode": "hand-E1",
+   "fromSide": "bottom",
+   "toNode": "hand-M1",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "h-E1-M2",
+   "fromNode": "hand-E1",
+   "fromSide": "bottom",
+   "toNode": "hand-M2",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "h-E1-M3",
+   "fromNode": "hand-E1",
+   "fromSide": "bottom",
+   "toNode": "hand-M3",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "h-P1-M4",
+   "fromNode": "hand-P1",
+   "fromSide": "bottom",
+   "toNode": "hand-M4",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "h-E2-M1",
+   "fromNode": "hand-E2",
+   "fromSide": "bottom",
+   "toNode": "hand-M1",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "h-M1-C1",
+   "fromNode": "hand-M1",
+   "fromSide": "bottom",
+   "toNode": "hand-C1",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "h-M2-C1",
+   "fromNode": "hand-M2",
+   "fromSide": "bottom",
+   "toNode": "hand-C1",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "h-M3-C1",
+   "fromNode": "hand-M3",
+   "fromSide": "bottom",
+   "toNode": "hand-C1",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "h-P2-C1",
+   "fromNode": "hand-P2",
+   "fromSide": "bottom",
+   "toNode": "hand-C1",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "h-M4-K",
+   "fromNode": "hand-M4",
+   "fromSide": "bottom",
+   "toNode": "hand-K",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "h-P3-C1",
+   "fromNode": "hand-P3",
+   "fromSide": "bottom",
+   "toNode": "hand-C1",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 licenses"
+  },
+  {
+   "id": "h-C1-K",
+   "fromNode": "hand-C1",
+   "fromSide": "bottom",
+   "toNode": "hand-K",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "h-K-X",
+   "fromNode": "hand-K",
+   "fromSide": "bottom",
+   "toNode": "hand-X",
+   "toSide": "top",
+   "color": "1",
+   "label": "-1 rebuts"
+  },
+  {
+   "id": "h-K-QF",
+   "fromNode": "hand-K",
+   "fromSide": "bottom",
+   "toNode": "hand-QF",
+   "toSide": "top",
+   "color": "1",
+   "label": "-1 qualified_by"
+  },
+  {
+   "id": "h-M1-R1",
+   "fromNode": "hand-M1",
+   "fromSide": "bottom",
+   "toNode": "hand-R1",
+   "toSide": "top",
+   "color": "1",
+   "label": "-1 undercut_by"
+  },
+  {
+   "id": "h-Q-P1",
+   "fromNode": "hand-Q",
+   "fromSide": "bottom",
+   "toNode": "hand-P1",
+   "toSide": "top",
+   "color": "6",
+   "label": "0 frames ~"
+  },
+  {
+   "id": "h-Q-P2",
+   "fromNode": "hand-Q",
+   "fromSide": "bottom",
+   "toNode": "hand-P2",
+   "toSide": "top",
+   "color": "6",
+   "label": "0 frames ~"
+  },
+  {
+   "id": "h-Q-P3",
+   "fromNode": "hand-Q",
+   "fromSide": "bottom",
+   "toNode": "hand-P3",
+   "toSide": "top",
+   "color": "6",
+   "label": "0 frames ~"
+  },
+  {
+   "id": "h-P1-E1",
+   "fromNode": "hand-P1",
+   "fromSide": "bottom",
+   "toNode": "hand-E1",
+   "toSide": "top",
+   "color": "6",
+   "label": "0 frames ~"
+  },
+  {
+   "id": "h-P3-E2",
+   "fromNode": "hand-P3",
+   "fromSide": "bottom",
+   "toNode": "hand-E2",
+   "toSide": "top",
+   "color": "6",
+   "label": "0 frames ~"
+  },
+  {
+   "id": "m-e001",
+   "fromNode": "model-Q",
+   "fromSide": "bottom",
+   "toNode": "model-SCP",
+   "toSide": "top",
+   "color": "6",
+   "label": "0 frames"
+  },
+  {
+   "id": "m-e002",
+   "fromNode": "model-Q",
+   "fromSide": "bottom",
+   "toNode": "model-P1",
+   "toSide": "top",
+   "color": "6",
+   "label": "0 frames"
+  },
+  {
+   "id": "m-e003",
+   "fromNode": "model-Q",
+   "fromSide": "bottom",
+   "toNode": "model-P2",
+   "toSide": "top",
+   "color": "6",
+   "label": "0 frames"
+  },
+  {
+   "id": "m-e004",
+   "fromNode": "model-E1",
+   "fromSide": "bottom",
+   "toNode": "model-C1",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "m-e005",
+   "fromNode": "model-C1",
+   "fromSide": "bottom",
+   "toNode": "model-K",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "m-e006",
+   "fromNode": "model-SCP",
+   "fromSide": "bottom",
+   "toNode": "model-E2",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 bounds"
+  },
+  {
+   "id": "m-e007",
+   "fromNode": "model-E2",
+   "fromSide": "bottom",
+   "toNode": "model-M1",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "m-e008",
+   "fromNode": "model-M1",
+   "fromSide": "bottom",
+   "toNode": "model-C2",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "m-e009",
+   "fromNode": "model-E3",
+   "fromSide": "bottom",
+   "toNode": "model-C2",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "m-e010",
+   "fromNode": "model-M2",
+   "fromSide": "bottom",
+   "toNode": "model-C2",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "m-e011",
+   "fromNode": "model-M2",
+   "fromSide": "bottom",
+   "toNode": "model-R1",
+   "toSide": "top",
+   "color": "1",
+   "label": "-1 undercut_by"
+  },
+  {
+   "id": "m-e012",
+   "fromNode": "model-C2",
+   "fromSide": "bottom",
+   "toNode": "model-K",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "m-e013",
+   "fromNode": "model-C3",
+   "fromSide": "bottom",
+   "toNode": "model-C2",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "m-e014",
+   "fromNode": "model-K",
+   "fromSide": "bottom",
+   "toNode": "model-X",
+   "toSide": "top",
+   "color": "1",
+   "label": "-1 rebuts"
+  },
+  {
+   "id": "m-e015",
+   "fromNode": "model-E4",
+   "fromSide": "bottom",
+   "toNode": "model-RC",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "m-e016",
+   "fromNode": "model-E5",
+   "fromSide": "bottom",
+   "toNode": "model-M3",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "m-e017",
+   "fromNode": "model-M3",
+   "fromSide": "bottom",
+   "toNode": "model-RC",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "m-e018",
+   "fromNode": "model-P1",
+   "fromSide": "bottom",
+   "toNode": "model-RC",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 licenses"
+  },
+  {
+   "id": "m-e019",
+   "fromNode": "model-P2",
+   "fromSide": "bottom",
+   "toNode": "model-RC",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 licenses"
+  },
+  {
+   "id": "m-e020",
+   "fromNode": "model-M4",
+   "fromSide": "bottom",
+   "toNode": "model-RC",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "m-e021",
+   "fromNode": "model-RC",
+   "fromSide": "bottom",
+   "toNode": "model-QF2",
+   "toSide": "top",
+   "color": "1",
+   "label": "-1 qualified_by"
+  },
+  {
+   "id": "m-e022",
+   "fromNode": "model-E6",
+   "fromSide": "bottom",
+   "toNode": "model-K",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "m-e023",
+   "fromNode": "model-K",
+   "fromSide": "bottom",
+   "toNode": "model-QF",
+   "toSide": "top",
+   "color": "1",
+   "label": "-1 qualified_by"
+  },
+  {
+   "id": "m-e024",
+   "fromNode": "model-C2",
+   "fromSide": "bottom",
+   "toNode": "model-QF3",
+   "toSide": "top",
+   "color": "1",
+   "label": "-1 qualified_by"
+  },
+  {
+   "id": "m-e025",
+   "fromNode": "model-RC",
+   "fromSide": "bottom",
+   "toNode": "model-K",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 motivates"
+  },
+  {
+   "id": "p-E1-E1",
+   "fromNode": "hand-E1",
+   "fromSide": "bottom",
+   "toNode": "model-E1",
+   "toSide": "bottom",
+   "color": "5",
+   "label": "paragraph"
+  },
+  {
+   "id": "p-K-K",
+   "fromNode": "hand-K",
+   "fromSide": "bottom",
+   "toNode": "model-K",
+   "toSide": "bottom",
+   "color": "5",
+   "label": "slot"
+  },
+  {
+   "id": "p-M1-M1",
+   "fromNode": "hand-M1",
+   "fromSide": "bottom",
+   "toNode": "model-M1",
+   "toSide": "bottom",
+   "color": "5",
+   "label": "paragraph"
+  },
+  {
+   "id": "p-M3-M2",
+   "fromNode": "hand-M3",
+   "fromSide": "bottom",
+   "toNode": "model-M2",
+   "toSide": "bottom",
+   "color": "5",
+   "label": "paragraph"
+  },
+  {
+   "id": "p-M4-M4",
+   "fromNode": "hand-M4",
+   "fromSide": "bottom",
+   "toNode": "model-M4",
+   "toSide": "bottom",
+   "color": "5",
+   "label": "paragraph"
+  },
+  {
+   "id": "p-P1-P1",
+   "fromNode": "hand-P1",
+   "fromSide": "bottom",
+   "toNode": "model-P1",
+   "toSide": "bottom",
+   "color": "5",
+   "label": "paragraph"
+  },
+  {
+   "id": "p-P3-P2",
+   "fromNode": "hand-P3",
+   "fromSide": "bottom",
+   "toNode": "model-P2",
+   "toSide": "bottom",
+   "color": "5",
+   "label": "slot"
+  },
+  {
+   "id": "p-Q-Q",
+   "fromNode": "hand-Q",
+   "fromSide": "bottom",
+   "toNode": "model-Q",
+   "toSide": "bottom",
+   "color": "5",
+   "label": "paragraph"
+  },
+  {
+   "id": "p-R1-R1",
+   "fromNode": "hand-R1",
+   "fromSide": "bottom",
+   "toNode": "model-R1",
+   "toSide": "bottom",
+   "color": "5",
+   "label": "paragraph"
+  },
+  {
+   "id": "p-X-X",
+   "fromNode": "hand-X",
+   "fromSide": "bottom",
+   "toNode": "model-X",
+   "toSide": "bottom",
+   "color": "5",
+   "label": "paragraph"
+  }
+ ]
+}

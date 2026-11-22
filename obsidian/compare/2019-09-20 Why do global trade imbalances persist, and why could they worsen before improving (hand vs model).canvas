@@ -1,0 +1,1173 @@
+{
+ "nodes": [
+  {
+   "id": "header",
+   "type": "text",
+   "text": "## 2019-09-20 Why do global trade imbalances persist, and why could they worsen before improving\n\n**Left:** hand-drawn map (24 steps). **Right:** model run `setser_sep_20_19/claude-opus-5.5` (27 steps).\n\nMatched 9 of 24 hand steps (8 by a shared paragraph, 1 by role only).\n\nHand steps not matched: C2, C3, C4, D1, D2, D3, D4, M1, M2, M4, P2, P3, QF2, R1, X\n\nModel steps not matched: ANOM, C1, C3, C4, E1, ID, M1, M2, M3, P1, P3, P4, QF, RC, REC, SCP, X, X2",
+   "x": -4300,
+   "y": 0,
+   "width": 7440,
+   "height": 260
+  },
+  {
+   "id": "hand-Q",
+   "type": "text",
+   "text": "**Q** \u00b7 `question` \u00b7 \u00b6 9\n\nWhy do global trade imbalances persist, and why could they worsen before improving?\n\n[[claims/question/Why do global trade imbalances persist, and why could they worsen before improving|open note]]",
+   "x": -820,
+   "y": 440,
+   "width": 520,
+   "height": 300,
+   "color": "#7A6FA8"
+  },
+  {
+   "id": "hand-P1",
+   "type": "text",
+   "text": "**P1** \u00b7 `stated_assumption` \u00b7 \u00b6 26\n\nGlobal surpluses require matching deficits\n\n*Gloss:* If large economies save externally, another economy must absorb the surplus\n\n[[claims/stated_assumption/Global surpluses require matching deficits|open note]]",
+   "x": -820,
+   "y": 920,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "hand-P2",
+   "type": "text",
+   "text": "**P2** \u00b7 `stated_assumption`\n\nFiscal policy shapes external balances\n\n*Gloss:* Weak domestic demand tends to reduce imports and raise surpluses\n\n[[claims/stated_assumption/Fiscal policy shapes external balances|open note]]",
+   "x": -1400,
+   "y": 920,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "hand-P3",
+   "type": "text",
+   "text": "**P3** \u00b7 `stated_assumption` \u00b7 \u00b6 33\n\nExcess saving generates surplus pressure\n\n*Gloss:* Saving above domestic investment pushes capital and demand abroad\n\n[[claims/stated_assumption/Excess saving generates surplus pressure|open note]]",
+   "x": -1980,
+   "y": 920,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "hand-D1",
+   "type": "text",
+   "text": "**D1** \u00b7 `evidence_data` \u00b7 \u00b6 16\n\nEurope and East Asia run large surpluses\n\n*Gloss:* Together they roughly mirror the U.S. manufacturing deficit\n\n[[claims/evidence_data/Europe and East Asia run large surpluses|open note]]",
+   "x": -2560,
+   "y": 1880,
+   "width": 520,
+   "height": 300,
+   "color": "#2F7FBF"
+  },
+  {
+   "id": "hand-D2",
+   "type": "text",
+   "text": "**D2** \u00b7 `evidence_data` \u00b7 \u00b6 18\n\nEurope remains fiscally tight\n\n*Gloss:* Germany and other surplus economies run restrictive demand policies\n\n[[claims/evidence_data/Europe remains fiscally tight|open note]]",
+   "x": -3140,
+   "y": 1880,
+   "width": 520,
+   "height": 300,
+   "color": "#2F7FBF"
+  },
+  {
+   "id": "hand-D3",
+   "type": "text",
+   "text": "**D3** \u00b7 `evidence_data` \u00b7 \u00b6 20, 21\n\nAsian surplus economies restrain demand/currencies\n\n*Gloss:* Korea, Taiwan, Singapore, and Thailand remain export oriented\n\n[[claims/evidence_data/Asian surplus economies restrain demandcurrencies|open note]]",
+   "x": -3720,
+   "y": 1880,
+   "width": 520,
+   "height": 300,
+   "color": "#2F7FBF"
+  },
+  {
+   "id": "hand-D4",
+   "type": "text",
+   "text": "**D4** \u00b7 `evidence_data` \u00b7 \u00b6 25, 26\n\nChina has a surplus despite huge fiscal support\n\n*Gloss:* Current account ~$200\u2013250B with augmented deficit near 12% of GDP\n\n[[claims/evidence_data/China has a surplus despite huge fiscal support|open note]]",
+   "x": -4300,
+   "y": 1880,
+   "width": 520,
+   "height": 300,
+   "color": "#2F7FBF"
+  },
+  {
+   "id": "hand-D5",
+   "type": "text",
+   "text": "**D5** \u00b7 `evidence_data` \u00b7 \u00b6 30, 31\n\nChina still saves ~44% of GDP\n\n*Gloss:* East Asian aggregate saving remains close to 40%\n\n[[claims/evidence_data/China still saves ~44% of GDP|open note]]",
+   "x": -820,
+   "y": 1880,
+   "width": 520,
+   "height": 300,
+   "color": "#2F7FBF"
+  },
+  {
+   "id": "hand-D6",
+   "type": "text",
+   "text": "**D6** \u00b7 `evidence_data` \u00b7 \u00b6 36\n\nChina's imports weakened in 2019\n\n*Gloss:* Modest stimulus failed to offset tightening and the trade war\n\n[[claims/evidence_data/China's imports weakened in 2019|open note]]",
+   "x": -1400,
+   "y": 1880,
+   "width": 520,
+   "height": 300,
+   "color": "#2F7FBF"
+  },
+  {
+   "id": "hand-D7",
+   "type": "text",
+   "text": "**D7** \u00b7 `evidence_data` \u00b7 \u00b6 39\n\nU.S. net external debt ~45% of GDP\n\n*Gloss:* Large relative to the country's limited export base\n\n[[claims/evidence_data/U.S. net external debt ~45% of GDP|open note]]",
+   "x": -1980,
+   "y": 1880,
+   "width": 520,
+   "height": 300,
+   "color": "#2F7FBF"
+  },
+  {
+   "id": "hand-M1",
+   "type": "text",
+   "text": "**M1** \u00b7 `mechanism` \u00b7 \u00b6 1\n\nFiscal restraint suppresses domestic demand\n\n*Gloss:* Lower imports and excess saving generate European surpluses\n\n[[claims/mechanism/Fiscal restraint suppresses domestic demand|open note]]",
+   "x": -1400,
+   "y": 2360,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "hand-M2",
+   "type": "text",
+   "text": "**M2** \u00b7 `mechanism` \u00b7 \u00b6 27\n\nStructural high saving generates surplus pressure\n\n*Gloss:* China saves more than its economy can sustainably absorb\n\n[[claims/mechanism/Structural high saving generates surplus pressure|open note]]",
+   "x": -1980,
+   "y": 2360,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "hand-M3",
+   "type": "text",
+   "text": "**M3** \u00b7 `mechanism` \u00b7 \u00b6 37\n\nWeak investment and imports raise China's surplus\n\n*Gloss:* Less domestic absorption pushes the external balance upward\n\n[[claims/mechanism/Weak investment and imports raise China's surplus|open note]]",
+   "x": -820,
+   "y": 2360,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "hand-M4",
+   "type": "text",
+   "text": "**M4** \u00b7 `mechanism` \u00b7 \u00b6 26\n\nForeign surpluses require deficit absorption\n\n*Gloss:* North America takes the other side through external deficits and debt\n\n[[claims/mechanism/Foreign surpluses require deficit absorption|open note]]",
+   "x": -2560,
+   "y": 2360,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "hand-C1",
+   "type": "text",
+   "text": "**C1** \u00b7 `intermediate_claim` \u00b7 \u00b6 23\n\nEurope's imbalance is mainly a demand problem\n\n*Gloss:* Looser fiscal policy could directly raise domestic absorption\n\n[[claims/intermediate_claim/Europe's imbalance is mainly a demand problem|open note]]",
+   "x": -820,
+   "y": 2840,
+   "width": 520,
+   "height": 300,
+   "color": "#2FBF9B"
+  },
+  {
+   "id": "hand-C2",
+   "type": "text",
+   "text": "**C2** \u00b7 `intermediate_claim` \u00b7 \u00b6 31\n\nEast Asia's imbalance is structurally harder\n\n*Gloss:* China's underlying problem is exceptionally high saving\n\n[[claims/intermediate_claim/East Asia's imbalance is structurally harder|open note]]",
+   "x": -1400,
+   "y": 2840,
+   "width": 520,
+   "height": 300,
+   "color": "#2FBF9B"
+  },
+  {
+   "id": "hand-C3",
+   "type": "text",
+   "text": "**C3** \u00b7 `intermediate_claim` \u00b7 \u00b6 32\n\nChina's current adjustment is fragile\n\n*Gloss:* Large public investment prevents an even larger external surplus\n\n[[claims/intermediate_claim/China's current adjustment is fragile|open note]]",
+   "x": -1980,
+   "y": 2840,
+   "width": 520,
+   "height": 300,
+   "color": "#2FBF9B"
+  },
+  {
+   "id": "hand-C4",
+   "type": "text",
+   "text": "**C4** \u00b7 `intermediate_claim` \u00b7 \u00b6 39\n\nThe U.S. cannot absorb surpluses forever\n\n*Gloss:* Its external debt stock is already large relative to exports\n\n[[claims/intermediate_claim/The U.S. cannot absorb surpluses forever|open note]]",
+   "x": -2560,
+   "y": 2840,
+   "width": 520,
+   "height": 300,
+   "color": "#2FBF9B"
+  },
+  {
+   "id": "hand-K",
+   "type": "text",
+   "text": "**K** \u00b7 `main_claim` \u00b7 \u00b6 9\n\nMain claim: global imbalances could worsen first\n\n*Gloss:* Europe still lacks demand and China's excess-saving problem remains; the U.S. cannot indefinitely absorb the resulting surpluses\n\n[[claims/main_claim/Main claim global imbalances could worsen first|open note]]",
+   "x": -820,
+   "y": 3320,
+   "width": 520,
+   "height": 300,
+   "color": "#2FBF9B"
+  },
+  {
+   "id": "hand-X",
+   "type": "text",
+   "text": "**X** \u00b7 `other_explanation` \u00b7 \u00b6 34\n\nU.S.-adjustment alternative\n\n*Gloss:* Tighter U.S. fiscal policy would also reduce the American trade deficit\n\n[[claims/other_explanation/U.S.-adjustment alternative|open note]]",
+   "x": -2560,
+   "y": 3800,
+   "width": 520,
+   "height": 300,
+   "color": "#8A8A8A"
+  },
+  {
+   "id": "hand-R1",
+   "type": "text",
+   "text": "**R1** \u00b7 `counterpoint` \u00b7 \u00b6 22\n\nJapan exception\n\n*Gloss:* Japan runs a surplus despite relatively loose fiscal policy\n\n[[claims/counterpoint/Japan exception|open note]]",
+   "x": -1980,
+   "y": 3800,
+   "width": 520,
+   "height": 300,
+   "color": "#8A8A8A"
+  },
+  {
+   "id": "hand-QF1",
+   "type": "text",
+   "text": "**QF1** \u00b7 `caveat` \u00b7 \u00b6 38\n\nThe current flow deficit is not obviously unsustainable today\n\n*Gloss:* U.S. sustainability caveat\n\n[[claims/caveat/The current flow deficit is not obviously unsustainable today|open note]]",
+   "x": -820,
+   "y": 3800,
+   "width": 520,
+   "height": 300,
+   "color": "#9A8C6A"
+  },
+  {
+   "id": "hand-QF2",
+   "type": "text",
+   "text": "**QF2** \u00b7 `caveat` \u00b7 \u00b6 34\n\nFiscal and credit stimulus currently absorbs much of China's excess saving\n\n*Gloss:* China adjustment caveat\n\n[[claims/caveat/Fiscal and credit stimulus currently absorbs much of China's excess saving|open note]]",
+   "x": -1400,
+   "y": 3800,
+   "width": 520,
+   "height": 300,
+   "color": "#9A8C6A"
+  },
+  {
+   "id": "model-Q",
+   "type": "text",
+   "text": "**Q** \u00b7 `question` \u00b7 \u00b6 9, 42\n\nWhy might global trade imbalances worsen, and can the U.S. keep absorbing the world's surplus savings?\n\n*Why:* Global surpluses must be matched by deficits somewhere, so the question is who absorbs them and for how long.",
+   "x": 300,
+   "y": 440,
+   "width": 520,
+   "height": 300,
+   "color": "#7A6FA8"
+  },
+  {
+   "id": "model-ID",
+   "type": "text",
+   "text": "**ID** \u00b7 `accounting_identity` \u00b7 \u00b6 6, 9\n\nGlobal current accounts must sum to zero, so large surpluses in Europe and Asia require a large deficit elsewhere, chiefly the U.S.\n\n*Why:* World surpluses and deficits must net to zero.",
+   "x": 880,
+   "y": 920,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "model-C1",
+   "type": "text",
+   "text": "**C1** \u00b7 `intermediate_claim` \u00b7 \u00b6 1, 2, 3, 4, 5\n\nWith low oil prices and U.S. shale, the commodity (north-south) component of imbalances has shrunk, leaving them mostly east-west.\n\n*Why:* When commodity prices fall, commodity exporters' surpluses shrink and their share of imbalances recedes.",
+   "x": 880,
+   "y": 2840,
+   "width": 520,
+   "height": 300,
+   "color": "#2FBF9B"
+  },
+  {
+   "id": "model-M1",
+   "type": "text",
+   "text": "**M1** \u00b7 `mechanism` \u00b7 \u00b6 10, 11, 12, 13\n\nDivergent fiscal stances, tight in Europe and loose in the U.S., drive the transatlantic imbalance.\n\n*Why:* A country's fiscal deficit lowers national saving relative to investment and widens its external deficit.",
+   "x": 880,
+   "y": 2360,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "model-X",
+   "type": "text",
+   "text": "**X** \u00b7 `opposing_view` \u00b7 \u00b6 13\n\nThe Trump administration does not see trade outcomes as the product of fiscal policy choices.\n\n*Why:* Trade balances reflect macroeconomic saving and investment choices, not just trade policy.",
+   "x": 1460,
+   "y": 3800,
+   "width": 520,
+   "height": 300,
+   "color": "#8A8A8A"
+  },
+  {
+   "id": "model-P1",
+   "type": "text",
+   "text": "**P1** \u00b7 `stated_assumption` \u00b7 \u00b6 12\n\nGiven weak global demand and very low rates, the adjustment should come from European fiscal expansion, not U.S. tightening.\n\n*Why:* When demand is scarce and rates are near zero, surplus countries should expand rather than deficit countries contract.",
+   "x": 1460,
+   "y": 920,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "model-E1",
+   "type": "text",
+   "text": "**E1** \u00b7 `evidence_data` \u00b7 \u00b6 14, 15\n\nNorthern European countries remain fiscally tight: Germany runs a 2.7% of GDP surplus, Sweden refuses to loosen, and Switzerland prefers intervention; EU debt rules push others toward surpluses.\n\n*Why:* Persistent fiscal surpluses in surplus economies sustain their external surpluses.",
+   "x": 2040,
+   "y": 1880,
+   "width": 520,
+   "height": 300,
+   "color": "#2F7FBF"
+  },
+  {
+   "id": "model-QF",
+   "type": "text",
+   "text": "**QF** \u00b7 `caveat` \u00b7 \u00b6 14, 15\n\nEuropean fiscal policy might shift, given Draghi's advocacy and Germany's evolving debate, which would ease the transatlantic imbalance.\n\n*Why:* Policy debates can shift quickly in recessions, so current fiscal stances may not persist.",
+   "x": 880,
+   "y": 3800,
+   "width": 520,
+   "height": 300,
+   "color": "#9A8C6A"
+  },
+  {
+   "id": "model-M2",
+   "type": "text",
+   "text": "**M2** \u00b7 `mechanism` \u00b7 \u00b6 17, 18, 19, 20, 21\n\nKorea, Taiwan, Singapore and Thailand are the easy cases in Asia: tight fiscal policy plus currency intervention, direct or indirect, sustain their surpluses.\n\n*Why:* Undervalued currencies held down by intervention, combined with fiscal restraint, generate external surpluses.",
+   "x": 1460,
+   "y": 2360,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "model-C2",
+   "type": "text",
+   "text": "**C2** \u00b7 `intermediate_claim` \u00b7 \u00b6 16, 22, 23, 24\n\nJapan and China run loose fiscal policies yet still have surpluses, so fiscal differences alone cannot explain Asia's imbalances.\n\n*Why:* A cause that explains some cases must be tested against the cases it does not fit.",
+   "x": 300,
+   "y": 2840,
+   "width": 520,
+   "height": 300,
+   "color": "#2FBF9B"
+  },
+  {
+   "id": "model-ANOM",
+   "type": "text",
+   "text": "**ANOM** \u00b7 `anomaly` \u00b7 \u00b6 25\n\nForecasts expected China's surplus to fade, yet it is back near $200-250 billion.\n\n*Why:* An outcome contradicting consensus forecasts signals a missing factor in the standard model.",
+   "x": 880,
+   "y": 440,
+   "width": 520,
+   "height": 300,
+   "color": "#AAAAAA"
+  },
+  {
+   "id": "model-RC",
+   "type": "text",
+   "text": "**RC** \u00b7 `reconstruction` \u00b7 \u00b6 25\n\nChina's measured surplus of under $200 billion understates the true figure; correcting the overstated tourism deficit gives about $250 billion.\n\n*Why:* Correct known measurement errors in official balance of payments components before drawing conclusions.",
+   "x": 880,
+   "y": 3320,
+   "width": 520,
+   "height": 300,
+   "color": "#2FBF9B"
+  },
+  {
+   "id": "model-P2",
+   "type": "text",
+   "text": "**P2** \u00b7 `stated_assumption` \u00b7 \u00b6 26\n\nCountries with fiscal deficits of around 12% of GDP normally run large external deficits.\n\n*Why:* Large fiscal deficits typically spill over into external deficits.",
+   "x": 300,
+   "y": 920,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "model-SCP",
+   "type": "text",
+   "text": "**SCP** \u00b7 `scope_choice` \u00b7 \u00b6 25\n\nUsing the IMF's augmented deficit of 12% of GDP, which includes local government vehicle borrowing, rather than the 3-5% headline figures, is the right measure of China's fiscal stance.\n\n*Why:* Fiscal stance should include quasi-fiscal borrowing by off-budget public entities.",
+   "x": 300,
+   "y": 1400,
+   "width": 520,
+   "height": 300,
+   "color": "#9A8C6A"
+  },
+  {
+   "id": "model-C3",
+   "type": "text",
+   "text": "**C3** \u00b7 `intermediate_claim` \u00b7 \u00b6 27\n\nChina's surplus despite huge fiscal deficits shows that it saves excessively, about twice a typical large economy.\n\n*Why:* A surplus that persists despite fiscal dissaving implies very high private saving.",
+   "x": 1460,
+   "y": 2840,
+   "width": 520,
+   "height": 300,
+   "color": "#2FBF9B"
+  },
+  {
+   "id": "model-E2",
+   "type": "text",
+   "text": "**E2** \u00b7 `evidence_data` \u00b7 \u00b6 29, 30, 31, 33\n\nEast Asia saves close to 40% of GDP; China's rate fell from 51% to 44%, but its regional weight rose from 49% to 72%; China now saves about $6 trillion a year versus $2 trillion in 2007.\n\n*Why:* Composition shifts toward a high-saving economy can keep aggregate saving high even as its own rate falls.",
+   "x": 300,
+   "y": 1880,
+   "width": 520,
+   "height": 300,
+   "color": "#2F7FBF"
+  },
+  {
+   "id": "model-M3",
+   "type": "text",
+   "text": "**M3** \u00b7 `mechanism` \u00b7 \u00b6 32, 33\n\nChina's big augmented fiscal deficit and public investment are all that keep its high saving from producing a far larger surplus.\n\n*Why:* The current account equals saving minus investment, so high saving is offset only by high investment or dissaving.",
+   "x": 2040,
+   "y": 2360,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "model-C4",
+   "type": "text",
+   "text": "**C4** \u00b7 `intermediate_claim` \u00b7 \u00b6 34\n\nChina's adjustment rests on unsustainable fiscal and credit expansion, so its durability is doubtful.\n\n*Why:* An adjustment financed by unsustainable borrowing will reverse when that borrowing stops.",
+   "x": 2040,
+   "y": 2840,
+   "width": 520,
+   "height": 300,
+   "color": "#2FBF9B"
+  },
+  {
+   "id": "model-P4",
+   "type": "text",
+   "text": "**P4** \u00b7 `hidden_assumption` \u00b7 \u00b6 34, 35\n\nThe fiscal and credit policies currently absorbing China's savings cannot continue, and nothing else will reduce household saving unless policy changes.\n\n*Why:* Structural saving is persistent unless income distribution or social insurance changes.",
+   "x": 2620,
+   "y": 920,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "model-E3",
+   "type": "text",
+   "text": "**E3** \u00b7 `evidence_data` \u00b7 \u00b6 35, 36, 37\n\nChina's 2019 stimulus was modest, with a flat credit impulse after a negative one in 2018, and imports are falling, which has pushed the surplus back up.\n\n*Why:* Withdrawing stimulus in a high-saving economy cuts imports and enlarges its surplus.",
+   "x": 880,
+   "y": 1880,
+   "width": 520,
+   "height": 300,
+   "color": "#2F7FBF"
+  },
+  {
+   "id": "model-M4",
+   "type": "text",
+   "text": "**M4** \u00b7 `mechanism` \u00b7 \u00b6 37\n\nThe trade war, by depressing Chinese manufacturing investment, ironically raised China's surplus.\n\n*Why:* Lower domestic investment, with saving unchanged, raises the current account surplus.",
+   "x": 300,
+   "y": 2360,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "model-REC",
+   "type": "text",
+   "text": "**REC** \u00b7 `recommendation` \u00b7 \u00b6 34\n\nChina should raise household income and cut saving through progressive taxes and a larger, non-regressively funded social insurance system.\n\n*Why:* Lasting cuts in excess saving require shifting income to households and reducing precautionary saving.",
+   "x": 1460,
+   "y": 3320,
+   "width": 520,
+   "height": 300,
+   "color": "#2FBF9B"
+  },
+  {
+   "id": "model-QF2",
+   "type": "text",
+   "text": "**QF2** \u00b7 `caveat` \u00b7 \u00b6 38\n\nThe U.S. current account deficit stays under 3% of GDP, helped by the oil boom and offshore profits, and debt is stable because interest rates are below nominal growth.\n\n*Why:* Debt ratios stay stable when the interest rate on debt is below nominal growth.",
+   "x": 300,
+   "y": 3800,
+   "width": 520,
+   "height": 300,
+   "color": "#9A8C6A"
+  },
+  {
+   "id": "model-E4",
+   "type": "text",
+   "text": "**E4** \u00b7 `evidence_data` \u00b7 \u00b6 39, 40, 41\n\nU.S. net external debt is about 45% of GDP, triple its level of twenty years ago, against a non-commodity export base of only about 8% of GDP.\n\n*Why:* External debt sustainability is judged relative to the export base that must service it.",
+   "x": 1460,
+   "y": 1880,
+   "width": 520,
+   "height": 300,
+   "color": "#2F7FBF"
+  },
+  {
+   "id": "model-P3",
+   "type": "text",
+   "text": "**P3** \u00b7 `stated_assumption` \u00b7 \u00b6 39\n\nThe U.S. will not be a long-run net energy exporter, because of high domestic demand and a slow transition to low carbon.\n\n*Why:* Only durable export sources should count toward a country's capacity to service external debt.",
+   "x": 2040,
+   "y": 920,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "model-K",
+   "type": "text",
+   "text": "**K** \u00b7 `main_claim` \u00b7 \u00b6 27, 33, 35, 42\n\nWith Asian, especially Chinese, excess saving likely to resurface and Europe fiscally tight, imbalances could worsen, while rising U.S. external debt will eventually limit America's ability to absorb them.\n\n*Why:* A deficit country's capacity to absorb others' surpluses is bounded by its accumulated external debt.",
+   "x": 300,
+   "y": 3320,
+   "width": 520,
+   "height": 300,
+   "color": "#2FBF9B"
+  },
+  {
+   "id": "model-X2",
+   "type": "text",
+   "text": "**X2** \u00b7 `opposing_view` \u00b7 \u00b6 12, 43\n\nThe IMF plans to reduce imbalances mainly through U.S. fiscal tightening alongside slight euro area tightening, with fiscal balance as the long-run norm.\n\n*Why:* Adjustment that falls on deficit countries in a demand-short world shrinks imbalances by depressing demand.",
+   "x": 2040,
+   "y": 3800,
+   "width": 520,
+   "height": 300,
+   "color": "#8A8A8A"
+  }
+ ],
+ "edges": [
+  {
+   "id": "h-P2-M1",
+   "fromNode": "hand-P2",
+   "fromSide": "bottom",
+   "toNode": "hand-M1",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "h-D2-M1",
+   "fromNode": "hand-D2",
+   "fromSide": "bottom",
+   "toNode": "hand-M1",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "h-M1-C1",
+   "fromNode": "hand-M1",
+   "fromSide": "bottom",
+   "toNode": "hand-C1",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "h-P3-M2",
+   "fromNode": "hand-P3",
+   "fromSide": "bottom",
+   "toNode": "hand-M2",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "h-D4-M2",
+   "fromNode": "hand-D4",
+   "fromSide": "bottom",
+   "toNode": "hand-M2",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "h-D5-M2",
+   "fromNode": "hand-D5",
+   "fromSide": "bottom",
+   "toNode": "hand-M2",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "h-M2-C2",
+   "fromNode": "hand-M2",
+   "fromSide": "bottom",
+   "toNode": "hand-C2",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "h-D6-M3",
+   "fromNode": "hand-D6",
+   "fromSide": "bottom",
+   "toNode": "hand-M3",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "h-M2-M3",
+   "fromNode": "hand-M2",
+   "fromSide": "bottom",
+   "toNode": "hand-M3",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "h-M3-C3",
+   "fromNode": "hand-M3",
+   "fromSide": "bottom",
+   "toNode": "hand-C3",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "h-P1-M4",
+   "fromNode": "hand-P1",
+   "fromSide": "bottom",
+   "toNode": "hand-M4",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "h-D1-M4",
+   "fromNode": "hand-D1",
+   "fromSide": "bottom",
+   "toNode": "hand-M4",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "h-D3-M4",
+   "fromNode": "hand-D3",
+   "fromSide": "bottom",
+   "toNode": "hand-M4",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "h-M4-C4",
+   "fromNode": "hand-M4",
+   "fromSide": "bottom",
+   "toNode": "hand-C4",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "h-D7-C4",
+   "fromNode": "hand-D7",
+   "fromSide": "bottom",
+   "toNode": "hand-C4",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "h-C1-K",
+   "fromNode": "hand-C1",
+   "fromSide": "bottom",
+   "toNode": "hand-K",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "h-C2-K",
+   "fromNode": "hand-C2",
+   "fromSide": "bottom",
+   "toNode": "hand-K",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "h-C3-K",
+   "fromNode": "hand-C3",
+   "fromSide": "bottom",
+   "toNode": "hand-K",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "h-C4-K",
+   "fromNode": "hand-C4",
+   "fromSide": "bottom",
+   "toNode": "hand-K",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "h-C1-X",
+   "fromNode": "hand-C1",
+   "fromSide": "bottom",
+   "toNode": "hand-X",
+   "toSide": "top",
+   "color": "1",
+   "label": "-1 undercut_by"
+  },
+  {
+   "id": "h-C1-R1",
+   "fromNode": "hand-C1",
+   "fromSide": "bottom",
+   "toNode": "hand-R1",
+   "toSide": "top",
+   "color": "1",
+   "label": "-1 undercut_by"
+  },
+  {
+   "id": "h-C4-QF1",
+   "fromNode": "hand-C4",
+   "fromSide": "bottom",
+   "toNode": "hand-QF1",
+   "toSide": "top",
+   "color": "1",
+   "label": "-1 qualified_by"
+  },
+  {
+   "id": "h-C3-QF2",
+   "fromNode": "hand-C3",
+   "fromSide": "bottom",
+   "toNode": "hand-QF2",
+   "toSide": "top",
+   "color": "1",
+   "label": "-1 undercut_by"
+  },
+  {
+   "id": "h-Q-P1",
+   "fromNode": "hand-Q",
+   "fromSide": "bottom",
+   "toNode": "hand-P1",
+   "toSide": "top",
+   "color": "6",
+   "label": "0 frames ~"
+  },
+  {
+   "id": "h-Q-P2",
+   "fromNode": "hand-Q",
+   "fromSide": "bottom",
+   "toNode": "hand-P2",
+   "toSide": "top",
+   "color": "6",
+   "label": "0 frames ~"
+  },
+  {
+   "id": "h-Q-P3",
+   "fromNode": "hand-Q",
+   "fromSide": "bottom",
+   "toNode": "hand-P3",
+   "toSide": "top",
+   "color": "6",
+   "label": "0 frames ~"
+  },
+  {
+   "id": "h-P1-D1",
+   "fromNode": "hand-P1",
+   "fromSide": "bottom",
+   "toNode": "hand-D1",
+   "toSide": "top",
+   "color": "6",
+   "label": "0 frames ~"
+  },
+  {
+   "id": "h-P1-D3",
+   "fromNode": "hand-P1",
+   "fromSide": "bottom",
+   "toNode": "hand-D3",
+   "toSide": "top",
+   "color": "6",
+   "label": "0 frames ~"
+  },
+  {
+   "id": "h-P2-D2",
+   "fromNode": "hand-P2",
+   "fromSide": "bottom",
+   "toNode": "hand-D2",
+   "toSide": "top",
+   "color": "6",
+   "label": "0 frames ~"
+  },
+  {
+   "id": "h-P2-D6",
+   "fromNode": "hand-P2",
+   "fromSide": "bottom",
+   "toNode": "hand-D6",
+   "toSide": "top",
+   "color": "6",
+   "label": "0 frames ~"
+  },
+  {
+   "id": "h-P3-D4",
+   "fromNode": "hand-P3",
+   "fromSide": "bottom",
+   "toNode": "hand-D4",
+   "toSide": "top",
+   "color": "6",
+   "label": "0 frames ~"
+  },
+  {
+   "id": "h-P3-D5",
+   "fromNode": "hand-P3",
+   "fromSide": "bottom",
+   "toNode": "hand-D5",
+   "toSide": "top",
+   "color": "6",
+   "label": "0 frames ~"
+  },
+  {
+   "id": "h-P3-D7",
+   "fromNode": "hand-P3",
+   "fromSide": "bottom",
+   "toNode": "hand-D7",
+   "toSide": "top",
+   "color": "6",
+   "label": "0 frames ~"
+  },
+  {
+   "id": "m-e001",
+   "fromNode": "model-Q",
+   "fromSide": "bottom",
+   "toNode": "model-ID",
+   "toSide": "top",
+   "color": "6",
+   "label": "0 frames"
+  },
+  {
+   "id": "m-e002",
+   "fromNode": "model-Q",
+   "fromSide": "bottom",
+   "toNode": "model-ANOM",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 motivates"
+  },
+  {
+   "id": "m-e003",
+   "fromNode": "model-ID",
+   "fromSide": "bottom",
+   "toNode": "model-C1",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "m-e004",
+   "fromNode": "model-ID",
+   "fromSide": "bottom",
+   "toNode": "model-K",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 licenses"
+  },
+  {
+   "id": "m-e005",
+   "fromNode": "model-P1",
+   "fromSide": "bottom",
+   "toNode": "model-E1",
+   "toSide": "top",
+   "color": "6",
+   "label": "0 frames"
+  },
+  {
+   "id": "m-e006",
+   "fromNode": "model-E1",
+   "fromSide": "bottom",
+   "toNode": "model-M1",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "m-e007",
+   "fromNode": "model-M1",
+   "fromSide": "bottom",
+   "toNode": "model-K",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "m-e008",
+   "fromNode": "model-M1",
+   "fromSide": "bottom",
+   "toNode": "model-X",
+   "toSide": "top",
+   "color": "1",
+   "label": "-1 undercut_by"
+  },
+  {
+   "id": "m-e009",
+   "fromNode": "model-K",
+   "fromSide": "bottom",
+   "toNode": "model-QF",
+   "toSide": "top",
+   "color": "1",
+   "label": "-1 qualified_by"
+  },
+  {
+   "id": "m-e010",
+   "fromNode": "model-M2",
+   "fromSide": "bottom",
+   "toNode": "model-C2",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "m-e011",
+   "fromNode": "model-C2",
+   "fromSide": "bottom",
+   "toNode": "model-K",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "m-e012",
+   "fromNode": "model-ANOM",
+   "fromSide": "bottom",
+   "toNode": "model-RC",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 motivates"
+  },
+  {
+   "id": "m-e013",
+   "fromNode": "model-SCP",
+   "fromSide": "bottom",
+   "toNode": "model-E2",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 bounds"
+  },
+  {
+   "id": "m-e014",
+   "fromNode": "model-SCP",
+   "fromSide": "bottom",
+   "toNode": "model-C3",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 licenses"
+  },
+  {
+   "id": "m-e015",
+   "fromNode": "model-P2",
+   "fromSide": "bottom",
+   "toNode": "model-C3",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 licenses"
+  },
+  {
+   "id": "m-e016",
+   "fromNode": "model-E2",
+   "fromSide": "bottom",
+   "toNode": "model-C3",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "m-e017",
+   "fromNode": "model-E2",
+   "fromSide": "bottom",
+   "toNode": "model-M3",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "m-e018",
+   "fromNode": "model-M3",
+   "fromSide": "bottom",
+   "toNode": "model-C4",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "m-e019",
+   "fromNode": "model-C3",
+   "fromSide": "bottom",
+   "toNode": "model-K",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "m-e020",
+   "fromNode": "model-P4",
+   "fromSide": "bottom",
+   "toNode": "model-C4",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 licenses"
+  },
+  {
+   "id": "m-e021",
+   "fromNode": "model-C4",
+   "fromSide": "bottom",
+   "toNode": "model-K",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "m-e022",
+   "fromNode": "model-C4",
+   "fromSide": "bottom",
+   "toNode": "model-REC",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "m-e023",
+   "fromNode": "model-E3",
+   "fromSide": "bottom",
+   "toNode": "model-C4",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "m-e024",
+   "fromNode": "model-M4",
+   "fromSide": "bottom",
+   "toNode": "model-C4",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "m-e025",
+   "fromNode": "model-E4",
+   "fromSide": "bottom",
+   "toNode": "model-K",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "m-e026",
+   "fromNode": "model-P3",
+   "fromSide": "bottom",
+   "toNode": "model-K",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "m-e027",
+   "fromNode": "model-K",
+   "fromSide": "bottom",
+   "toNode": "model-QF2",
+   "toSide": "top",
+   "color": "1",
+   "label": "-1 qualified_by"
+  },
+  {
+   "id": "m-e028",
+   "fromNode": "model-P1",
+   "fromSide": "bottom",
+   "toNode": "model-K",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "m-e029",
+   "fromNode": "model-K",
+   "fromSide": "bottom",
+   "toNode": "model-X2",
+   "toSide": "top",
+   "color": "1",
+   "label": "-1 rebuts"
+  },
+  {
+   "id": "m-e030",
+   "fromNode": "model-C3",
+   "fromSide": "bottom",
+   "toNode": "model-C2",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "p-C1-C2",
+   "fromNode": "hand-C1",
+   "fromSide": "bottom",
+   "toNode": "model-C2",
+   "toSide": "bottom",
+   "color": "5",
+   "label": "paragraph"
+  },
+  {
+   "id": "p-D5-E2",
+   "fromNode": "hand-D5",
+   "fromSide": "bottom",
+   "toNode": "model-E2",
+   "toSide": "bottom",
+   "color": "5",
+   "label": "paragraph"
+  },
+  {
+   "id": "p-D6-E3",
+   "fromNode": "hand-D6",
+   "fromSide": "bottom",
+   "toNode": "model-E3",
+   "toSide": "bottom",
+   "color": "5",
+   "label": "paragraph"
+  },
+  {
+   "id": "p-D7-E4",
+   "fromNode": "hand-D7",
+   "fromSide": "bottom",
+   "toNode": "model-E4",
+   "toSide": "bottom",
+   "color": "5",
+   "label": "paragraph"
+  },
+  {
+   "id": "p-K-K",
+   "fromNode": "hand-K",
+   "fromSide": "bottom",
+   "toNode": "model-K",
+   "toSide": "bottom",
+   "color": "5",
+   "label": "slot"
+  },
+  {
+   "id": "p-M3-M4",
+   "fromNode": "hand-M3",
+   "fromSide": "bottom",
+   "toNode": "model-M4",
+   "toSide": "bottom",
+   "color": "5",
+   "label": "paragraph"
+  },
+  {
+   "id": "p-P1-P2",
+   "fromNode": "hand-P1",
+   "fromSide": "bottom",
+   "toNode": "model-P2",
+   "toSide": "bottom",
+   "color": "5",
+   "label": "paragraph"
+  },
+  {
+   "id": "p-Q-Q",
+   "fromNode": "hand-Q",
+   "fromSide": "bottom",
+   "toNode": "model-Q",
+   "toSide": "bottom",
+   "color": "5",
+   "label": "paragraph"
+  },
+  {
+   "id": "p-QF1-QF2",
+   "fromNode": "hand-QF1",
+   "fromSide": "bottom",
+   "toNode": "model-QF2",
+   "toSide": "bottom",
+   "color": "5",
+   "label": "paragraph"
+  }
+ ]
+}

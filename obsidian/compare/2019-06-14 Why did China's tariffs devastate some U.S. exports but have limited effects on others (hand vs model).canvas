@@ -1,0 +1,1060 @@
+{
+ "nodes": [
+  {
+   "id": "header",
+   "type": "text",
+   "text": "## 2019-06-14 Why did China's tariffs devastate some U.S. exports but have limited effects on others\n\n**Left:** hand-drawn map (22 steps). **Right:** model run `setser_jun_14_19/claude-opus-5.5` (24 steps).\n\nMatched 10 of 22 hand steps (10 by a shared paragraph, 0 by role only).\n\nHand steps not matched: C2, C3, C4, D2, D5, D6, M2, M3, M4, P1, P2, P3\n\nModel steps not matched: E2, E3, E4, E6, M1, M3, M4, P1, P2, P3, R1, R2, SCP, X",
+   "x": -3720,
+   "y": 0,
+   "width": 8020,
+   "height": 260
+  },
+  {
+   "id": "hand-Q",
+   "type": "text",
+   "text": "**Q** \u00b7 `question` \u00b7 \u00b6 5\n\nWhy did China's tariffs devastate some U.S. exports but have limited effects on others?\n\n[[claims/question/Why did China's tariffs devastate some U.S. exports but have limited effects on others|open note]]",
+   "x": -820,
+   "y": 440,
+   "width": 520,
+   "height": 300,
+   "color": "#7A6FA8"
+  },
+  {
+   "id": "hand-P1",
+   "type": "text",
+   "text": "**P1** \u00b7 `stated_assumption` \u00b7 \u00b6 8\n\nTariff effects are sector-specific\n\n*Gloss:* Substitution and market structure determine the aggregate impact\n\n[[claims/stated_assumption/Tariff effects are sector-specific|open note]]",
+   "x": -820,
+   "y": 920,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "hand-P2",
+   "type": "text",
+   "text": "**P2** \u00b7 `stated_assumption` \u00b7 \u00b6 28\n\nBilateral trade \u2260 total trade\n\n*Gloss:* Lost sales to China may be redirected elsewhere\n\n[[claims/stated_assumption/Bilateral trade \u2260 total trade|open note]]",
+   "x": -1400,
+   "y": 920,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "hand-P3",
+   "type": "text",
+   "text": "**P3** \u00b7 `stated_assumption` \u00b7 \u00b6 13\n\nRetaliation requires viable substitutes\n\n*Gloss:* China cannot easily stop buying essential imports\n\n[[claims/stated_assumption/Retaliation requires viable substitutes|open note]]",
+   "x": -1980,
+   "y": 920,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "hand-D1",
+   "type": "text",
+   "text": "**D1** \u00b7 `evidence_data` \u00b7 \u00b6 6\n\nCommodity exports to China down >60%\n\n*Gloss:* Much larger decline than manufacturing exports\n\n[[claims/evidence_data/Commodity exports to China down 60%|open note]]",
+   "x": -820,
+   "y": 1880,
+   "width": 520,
+   "height": 300,
+   "color": "#2F7FBF"
+  },
+  {
+   "id": "hand-D2",
+   "type": "text",
+   "text": "**D2** \u00b7 `evidence_data` \u00b7 \u00b6 34\n\nSoy exports effectively collapsed\n\n*Gloss:* Farmers could not replace lost Chinese demand elsewhere\n\n[[claims/evidence_data/Soy exports effectively collapsed|open note]]",
+   "x": -2560,
+   "y": 1880,
+   "width": 520,
+   "height": 300,
+   "color": "#2F7FBF"
+  },
+  {
+   "id": "hand-D3",
+   "type": "text",
+   "text": "**D3** \u00b7 `evidence_data` \u00b7 \u00b6 4\n\nOil exports to China collapsed\n\n*Gloss:* But total U.S. oil exports were largely unaffected\n\n[[claims/evidence_data/Oil exports to China collapsed|open note]]",
+   "x": -1400,
+   "y": 1880,
+   "width": 520,
+   "height": 300,
+   "color": "#2F7FBF"
+  },
+  {
+   "id": "hand-D4",
+   "type": "text",
+   "text": "**D4** \u00b7 `evidence_data` \u00b7 \u00b6 15\n\nAuto exports responded to the tariff\n\n*Gloss:* Exports fell, then rebounded when China suspended it\n\n[[claims/evidence_data/Auto exports responded to the tariff|open note]]",
+   "x": -1980,
+   "y": 1880,
+   "width": 520,
+   "height": 300,
+   "color": "#2F7FBF"
+  },
+  {
+   "id": "hand-D5",
+   "type": "text",
+   "text": "**D5** \u00b7 `evidence_data` \u00b7 \u00b6 8\n\nManufacturing decline surprisingly modest\n\n*Gloss:* Aggregate exports show little obvious tariff break\n\n[[claims/evidence_data/Manufacturing decline surprisingly modest|open note]]",
+   "x": -3140,
+   "y": 1880,
+   "width": 520,
+   "height": 300,
+   "color": "#2F7FBF"
+  },
+  {
+   "id": "hand-D6",
+   "type": "text",
+   "text": "**D6** \u00b7 `evidence_data` \u00b7 \u00b6 13\n\nChina lacks substitutes in some sectors\n\n*Gloss:* Aircraft and export-related inputs are poor retaliation targets\n\n[[claims/evidence_data/China lacks substitutes in some sectors|open note]]",
+   "x": -3720,
+   "y": 1880,
+   "width": 520,
+   "height": 300,
+   "color": "#2F7FBF"
+  },
+  {
+   "id": "hand-M1",
+   "type": "text",
+   "text": "**M1** \u00b7 `mechanism` \u00b7 \u00b6 13\n\nFew alternative buyers magnify the shock\n\n*Gloss:* Lost Chinese demand becomes lost total exports\n\n[[claims/mechanism/Few alternative buyers magnify the shock|open note]]",
+   "x": -820,
+   "y": 2360,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "hand-M2",
+   "type": "text",
+   "text": "**M2** \u00b7 `mechanism`\n\nAlternative buyers divert trade\n\n*Gloss:* Sales shift markets without reducing total exports\n\n[[claims/mechanism/Alternative buyers divert trade|open note]]",
+   "x": -1400,
+   "y": 2360,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "hand-M3",
+   "type": "text",
+   "text": "**M3** \u00b7 `mechanism` \u00b7 \u00b6 41\n\nLack of substitutes weakens retaliation\n\n*Gloss:* Chinese firms continue buying needed U.S. goods\n\n[[claims/mechanism/Lack of substitutes weakens retaliation|open note]]",
+   "x": -1980,
+   "y": 2360,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "hand-M4",
+   "type": "text",
+   "text": "**M4** \u00b7 `mechanism`\n\nOther demand can absorb export losses\n\n*Gloss:* Domestic sales or localization cushion production\n\n[[claims/mechanism/Other demand can absorb export losses|open note]]",
+   "x": -2560,
+   "y": 2360,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "hand-C1",
+   "type": "text",
+   "text": "**C1** \u00b7 `intermediate_claim` \u00b7 \u00b6 20\n\nSoy retaliation was unusually effective\n\n*Gloss:* Bilateral losses became aggregate export losses\n\n[[claims/intermediate_claim/Soy retaliation was unusually effective|open note]]",
+   "x": -820,
+   "y": 2840,
+   "width": 520,
+   "height": 300,
+   "color": "#2FBF9B"
+  },
+  {
+   "id": "hand-C2",
+   "type": "text",
+   "text": "**C2** \u00b7 `intermediate_claim` \u00b7 \u00b6 28\n\nOil retaliation mostly redirected trade\n\n*Gloss:* Bilateral trade fell without much aggregate effect\n\n[[claims/intermediate_claim/Oil retaliation mostly redirected trade|open note]]",
+   "x": -1400,
+   "y": 2840,
+   "width": 520,
+   "height": 300,
+   "color": "#2FBF9B"
+  },
+  {
+   "id": "hand-C3",
+   "type": "text",
+   "text": "**C3** \u00b7 `intermediate_claim` \u00b7 \u00b6 18\n\nManufacturing retaliation was weaker\n\n*Gloss:* China had limited leverage in several key sectors\n\n[[claims/intermediate_claim/Manufacturing retaliation was weaker|open note]]",
+   "x": -1980,
+   "y": 2840,
+   "width": 520,
+   "height": 300,
+   "color": "#2FBF9B"
+  },
+  {
+   "id": "hand-C4",
+   "type": "text",
+   "text": "**C4** \u00b7 `intermediate_claim` \u00b7 \u00b6 39\n\nIdentical tariffs need not have identical effects\n\n*Gloss:* Sector structure changes the transmission\n\n[[claims/intermediate_claim/Identical tariffs need not have identical effects|open note]]",
+   "x": -2560,
+   "y": 2840,
+   "width": 520,
+   "height": 300,
+   "color": "#2FBF9B"
+  },
+  {
+   "id": "hand-K",
+   "type": "text",
+   "text": "**K** \u00b7 `main_claim` \u00b7 \u00b6 39\n\nMain claim: don't equate bilateral trade with aggregate impact\n\n*Gloss:* The economic effect of tariffs depends heavily on substitution possibilities and sector structure\n\n[[claims/main_claim/Main claim don't equate bilateral trade with aggregate impact|open note]]",
+   "x": -820,
+   "y": 3320,
+   "width": 520,
+   "height": 300,
+   "color": "#2FBF9B"
+  },
+  {
+   "id": "hand-QF1",
+   "type": "text",
+   "text": "**QF1** \u00b7 `caveat` \u00b7 \u00b6 40\n\nChina had not tariffed all major U.S. manufacturing exports\n\n*Gloss:* Coverage caveat\n\n[[claims/caveat/China had not tariffed all major U.S. manufacturing exports|open note]]",
+   "x": -820,
+   "y": 3800,
+   "width": 520,
+   "height": 300,
+   "color": "#9A8C6A"
+  },
+  {
+   "id": "hand-QF2",
+   "type": "text",
+   "text": "**QF2** \u00b7 `caveat` \u00b7 \u00b6 41\n\nChina may have preserved targets for future retaliation\n\n*Gloss:* Timing caveat\n\n[[claims/caveat/China may have preserved targets for future retaliation|open note]]",
+   "x": -1400,
+   "y": 3800,
+   "width": 520,
+   "height": 300,
+   "color": "#9A8C6A"
+  },
+  {
+   "id": "hand-R1",
+   "type": "text",
+   "text": "**R1** \u00b7 `counterpoint` \u00b7 \u00b6 37\n\nAuto counterfactual\n\n*Gloss:* SUV demand and production localization also affected output\n\n[[claims/counterpoint/Auto counterfactual|open note]]",
+   "x": -1980,
+   "y": 3800,
+   "width": 520,
+   "height": 300,
+   "color": "#8A8A8A"
+  },
+  {
+   "id": "model-Q",
+   "type": "text",
+   "text": "**Q** \u00b7 `question` \u00b7 \u00b6 3, 5, 6\n\nWhy have China's retaliatory tariffs hit U.S. commodity exports hard but had little visible effect on U.S. manufacturing exports to China?\n\n*Why:* A policy's effect differs across sectors, so aggregate outcomes need sector-level explanation.",
+   "x": 300,
+   "y": 440,
+   "width": 520,
+   "height": 300,
+   "color": "#7A6FA8"
+  },
+  {
+   "id": "model-P3",
+   "type": "text",
+   "text": "**P3** \u00b7 `revised_prior` \u00b7 \u00b6 5, 6, 10\n\nThe author expected China's tariffs to cause a much larger fall in U.S. manufacturing exports than has occurred.\n\n*Why:* When the data contradict your expectation, say so and revise the expectation.",
+   "x": 1460,
+   "y": 920,
+   "width": 520,
+   "height": 300,
+   "color": "#BF6F2F"
+  },
+  {
+   "id": "model-E1",
+   "type": "text",
+   "text": "**E1** \u00b7 `evidence_data` \u00b7 \u00b6 6, 8, 40\n\nU.S. commodity exports to China fell more than 60 percent, while manufacturing exports show no clear break at the tariff date.\n\n*Why:* Compare the indexed series of tariffed sectors to see where the policy actually bit.",
+   "x": 300,
+   "y": 1880,
+   "width": 520,
+   "height": 300,
+   "color": "#2F7FBF"
+  },
+  {
+   "id": "model-E7",
+   "type": "text",
+   "text": "**E7** \u00b7 `evidence_source` \u00b7 \u00b6 7, 15\n\nBown's work shows China tariffed 55 percent of U.S. exports, raising the average tariff from 8 to 18 percent and covering a decent share of manufactures.\n\n*Why:* A tariff covering a large share of trade should leave a visible mark after enough time.",
+   "x": 1460,
+   "y": 1880,
+   "width": 520,
+   "height": 300,
+   "color": "#2F7FBF"
+  },
+  {
+   "id": "model-E2",
+   "type": "text",
+   "text": "**E2** \u00b7 `evidence_data` \u00b7 \u00b6 9\n\nU.S. manufacturing exports to China fell somewhat more than euro-area exports last fall, showing some tariff effect.\n\n*Why:* A comparable untariffed exporter serves as a control for common demand shocks.",
+   "x": 2040,
+   "y": 1880,
+   "width": 520,
+   "height": 300,
+   "color": "#2F7FBF"
+  },
+  {
+   "id": "model-R1",
+   "type": "text",
+   "text": "**R1** \u00b7 `other_explanation` \u00b7 \u00b6 9\n\nPart of the U.S. underperformance relative to Europe could reflect the dollar's strength rather than tariffs.\n\n*Why:* Exchange-rate moves shift relative export performance independently of tariffs.",
+   "x": 2040,
+   "y": 3800,
+   "width": 520,
+   "height": 300,
+   "color": "#8A8A8A"
+  },
+  {
+   "id": "model-M1",
+   "type": "text",
+   "text": "**M1** \u00b7 `mechanism` \u00b7 \u00b6 12, 15\n\nChina has held back on some sectors, such as autos, to keep retaliation targets in reserve.\n\n*Why:* A retaliator keeps leverage by not using all its threats at once.",
+   "x": 880,
+   "y": 2360,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "model-M2",
+   "type": "text",
+   "text": "**M2** \u00b7 `mechanism` \u00b7 \u00b6 13, 14\n\nChina lacks good manufacturing targets because many U.S. imports have no substitute or feed China's own exports, so tariffs on them would hurt China.\n\n*Why:* Tariffs on essential or input goods mostly tax the importing country itself.",
+   "x": 300,
+   "y": 2360,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "model-E3",
+   "type": "text",
+   "text": "**E3** \u00b7 `evidence_data` \u00b7 \u00b6 16, 17, 18, 43\n\nEarlier Chinese tariffs and indigenous-production policies had already cut U.S. construction equipment exports, from about $2 billion in 2012 to $0.6-0.8 billion.\n\n*Why:* A market already lost cannot be squeezed further by new tariffs.",
+   "x": 2620,
+   "y": 1880,
+   "width": 520,
+   "height": 300,
+   "color": "#2F7FBF"
+  },
+  {
+   "id": "model-X",
+   "type": "text",
+   "text": "**X** \u00b7 `opposing_view` \u00b7 \u00b6 43\n\nCommentators who think China can retaliate against U.S. construction and telecom equipment hold an out-of-date view, since the U.S. runs deficits with China in those sectors.\n\n*Why:* In a sector where you are a net exporter, an exchange of tariffs costs you more.",
+   "x": 3200,
+   "y": 3800,
+   "width": 520,
+   "height": 300,
+   "color": "#8A8A8A"
+  },
+  {
+   "id": "model-P1",
+   "type": "text",
+   "text": "**P1** \u00b7 `stated_assumption` \u00b7 \u00b6 22\n\nStudies find high trade elasticities to tariffs, which would predict the collapse in soybean trade.\n\n*Why:* High price elasticity means a large tariff can eliminate bilateral trade.",
+   "x": 300,
+   "y": 920,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "model-R2",
+   "type": "text",
+   "text": "**R2** \u00b7 `other_explanation` \u00b7 \u00b6 1, 23\n\nThe soybean collapse may instead reflect state importers being directed not to buy U.S. beans.\n\n*Why:* Where state firms dominate imports, administrative direction can replace price signals.",
+   "x": 2620,
+   "y": 3800,
+   "width": 520,
+   "height": 300,
+   "color": "#8A8A8A"
+  },
+  {
+   "id": "model-E4",
+   "type": "text",
+   "text": "**E4** \u00b7 `evidence_data` \u00b7 \u00b6 1, 2, 21, 26\n\nSoybean exports went to near zero and farmers could not redirect sales, so total U.S. soy exports and prices fell.\n\n*Why:* When one buyer dominates a market, losing it cannot easily be offset elsewhere.",
+   "x": 3200,
+   "y": 1880,
+   "width": 520,
+   "height": 300,
+   "color": "#2F7FBF"
+  },
+  {
+   "id": "model-E5",
+   "type": "text",
+   "text": "**E5** \u00b7 `evidence_data` \u00b7 \u00b6 4, 27, 28, 29\n\nOil exports to China fell near zero but overall U.S. oil exports and Permian pipeline investment were unaffected.\n\n*Why:* Compare bilateral and total exports to separate diversion from destruction.",
+   "x": 880,
+   "y": 1880,
+   "width": 520,
+   "height": 300,
+   "color": "#2F7FBF"
+  },
+  {
+   "id": "model-M3",
+   "type": "text",
+   "text": "**M3** \u00b7 `mechanism` \u00b7 \u00b6 29\n\nFor fungible commodities with deep global markets, tariffs reroute trade rather than reduce it.\n\n*Why:* Homogeneous goods with many buyers are easily redirected when one market closes.",
+   "x": 1460,
+   "y": 2360,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "model-E6",
+   "type": "text",
+   "text": "**E6** \u00b7 `evidence_data` \u00b7 \u00b6 31, 32\n\nU.S. auto exports to China fell in late 2018 and rebounded when China lifted the extra tariffs; Alabama and South Carolina exports fell.\n\n*Why:* Trade that moves in step with tariff changes points to a causal effect.",
+   "x": 3780,
+   "y": 1880,
+   "width": 520,
+   "height": 300,
+   "color": "#2F7FBF"
+  },
+  {
+   "id": "model-M4",
+   "type": "text",
+   "text": "**M4** \u00b7 `mechanism` \u00b7 \u00b6 34, 35, 36\n\nAutomakers offset lost China sales by shifting SUV output to rising U.S. demand, so U.S. production plans were largely unchanged.\n\n*Why:* Producers can absorb a lost export market if domestic demand for the same product is growing.",
+   "x": 2040,
+   "y": 2360,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "model-P2",
+   "type": "text",
+   "text": "**P2** \u00b7 `hidden_assumption` \u00b7 \u00b6 32\n\nTrade-by-state data for Alabama and South Carolina are a good proxy for BMW and Mercedes SUV exports to China.\n\n*Why:* Regional trade data can stand in for firm-level flows when a few plants dominate a state's exports.",
+   "x": 880,
+   "y": 920,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "model-QF",
+   "type": "text",
+   "text": "**QF** \u00b7 `caveat` \u00b7 \u00b6 37\n\nAuto exports to China would probably have fallen anyway as German firms localize production in China, which makes the tariff effect hard to isolate.\n\n*Why:* Structural trends can mask or mimic a policy's effect.",
+   "x": 1460,
+   "y": 3800,
+   "width": 520,
+   "height": 300,
+   "color": "#9A8C6A"
+  },
+  {
+   "id": "model-C1",
+   "type": "text",
+   "text": "**C1** \u00b7 `intermediate_claim` \u00b7 \u00b6 20, 39\n\nAcross soy, oil and autos, tariffs cut bilateral trade, but only in soy did they cause real economic and political damage.\n\n*Why:* The harm from losing a market depends on how easily output can be redirected.",
+   "x": 300,
+   "y": 2840,
+   "width": 520,
+   "height": 300,
+   "color": "#2FBF9B"
+  },
+  {
+   "id": "model-K",
+   "type": "text",
+   "text": "**K** \u00b7 `main_claim` \u00b7 \u00b6 38, 39, 40\n\nChina's retaliation has mainly hurt U.S. commodity exports, has been largely ineffective against manufactures, and falls in bilateral trade should not be read as falls in total trade or output.\n\n*Why:* Bilateral trade shocks matter only to the extent that other markets cannot absorb the diverted goods.",
+   "x": 300,
+   "y": 3320,
+   "width": 520,
+   "height": 300,
+   "color": "#2FBF9B"
+  },
+  {
+   "id": "model-SCP",
+   "type": "text",
+   "text": "**SCP** \u00b7 `scope_choice` \u00b7 \u00b6 40, 42\n\nManufactures are defined as NAICS 300s and commodities as the 100s and 200s, without separating tariffed from untariffed goods.\n\n*Why:* Broad aggregates that mix affected and unaffected goods dilute a measured policy effect.",
+   "x": 300,
+   "y": 1400,
+   "width": 520,
+   "height": 300,
+   "color": "#9A8C6A"
+  },
+  {
+   "id": "model-QF2",
+   "type": "text",
+   "text": "**QF2** \u00b7 `caveat` \u00b7 \u00b6 7, 40\n\nThe modest implied manufacturing elasticity may be understated because untariffed goods were not separated out.\n\n*Why:* Estimates from aggregates are limited by what the aggregation includes.",
+   "x": 300,
+   "y": 3800,
+   "width": 520,
+   "height": 300,
+   "color": "#9A8C6A"
+  },
+  {
+   "id": "model-DF",
+   "type": "text",
+   "text": "**DF** \u00b7 `deferred_question` \u00b7 \u00b6 41\n\nThe full economic impact of China's retaliation remains an open question.\n\n*Why:* Effects still unfolding in the data cannot yet be judged in full.",
+   "x": 880,
+   "y": 3800,
+   "width": 520,
+   "height": 300,
+   "color": "#7A6FA8"
+  }
+ ],
+ "edges": [
+  {
+   "id": "h-P1-M1",
+   "fromNode": "hand-P1",
+   "fromSide": "bottom",
+   "toNode": "hand-M1",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "h-P1-M2",
+   "fromNode": "hand-P1",
+   "fromSide": "bottom",
+   "toNode": "hand-M2",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "h-P2-M2",
+   "fromNode": "hand-P2",
+   "fromSide": "bottom",
+   "toNode": "hand-M2",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "h-P3-M3",
+   "fromNode": "hand-P3",
+   "fromSide": "bottom",
+   "toNode": "hand-M3",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "h-D2-M1",
+   "fromNode": "hand-D2",
+   "fromSide": "bottom",
+   "toNode": "hand-M1",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "h-M1-C1",
+   "fromNode": "hand-M1",
+   "fromSide": "bottom",
+   "toNode": "hand-C1",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "h-D3-M2",
+   "fromNode": "hand-D3",
+   "fromSide": "bottom",
+   "toNode": "hand-M2",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "h-M2-C2",
+   "fromNode": "hand-M2",
+   "fromSide": "bottom",
+   "toNode": "hand-C2",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "h-D5-M3",
+   "fromNode": "hand-D5",
+   "fromSide": "bottom",
+   "toNode": "hand-M3",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "h-D6-M3",
+   "fromNode": "hand-D6",
+   "fromSide": "bottom",
+   "toNode": "hand-M3",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "h-M3-C3",
+   "fromNode": "hand-M3",
+   "fromSide": "bottom",
+   "toNode": "hand-C3",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "h-D4-M4",
+   "fromNode": "hand-D4",
+   "fromSide": "bottom",
+   "toNode": "hand-M4",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "h-M4-C3",
+   "fromNode": "hand-M4",
+   "fromSide": "bottom",
+   "toNode": "hand-C3",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "h-D1-C4",
+   "fromNode": "hand-D1",
+   "fromSide": "bottom",
+   "toNode": "hand-C4",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "h-C1-C4",
+   "fromNode": "hand-C1",
+   "fromSide": "bottom",
+   "toNode": "hand-C4",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "h-C2-C4",
+   "fromNode": "hand-C2",
+   "fromSide": "bottom",
+   "toNode": "hand-C4",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "h-C3-C4",
+   "fromNode": "hand-C3",
+   "fromSide": "bottom",
+   "toNode": "hand-C4",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "h-C4-K",
+   "fromNode": "hand-C4",
+   "fromSide": "bottom",
+   "toNode": "hand-K",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "h-C3-QF1",
+   "fromNode": "hand-C3",
+   "fromSide": "bottom",
+   "toNode": "hand-QF1",
+   "toSide": "top",
+   "color": "1",
+   "label": "-1 qualified_by"
+  },
+  {
+   "id": "h-C3-QF2",
+   "fromNode": "hand-C3",
+   "fromSide": "bottom",
+   "toNode": "hand-QF2",
+   "toSide": "top",
+   "color": "1",
+   "label": "-1 undercut_by"
+  },
+  {
+   "id": "h-M4-R1",
+   "fromNode": "hand-M4",
+   "fromSide": "bottom",
+   "toNode": "hand-R1",
+   "toSide": "top",
+   "color": "1",
+   "label": "-1 undercut_by"
+  },
+  {
+   "id": "h-Q-P1",
+   "fromNode": "hand-Q",
+   "fromSide": "bottom",
+   "toNode": "hand-P1",
+   "toSide": "top",
+   "color": "6",
+   "label": "0 frames ~"
+  },
+  {
+   "id": "h-Q-P2",
+   "fromNode": "hand-Q",
+   "fromSide": "bottom",
+   "toNode": "hand-P2",
+   "toSide": "top",
+   "color": "6",
+   "label": "0 frames ~"
+  },
+  {
+   "id": "h-Q-P3",
+   "fromNode": "hand-Q",
+   "fromSide": "bottom",
+   "toNode": "hand-P3",
+   "toSide": "top",
+   "color": "6",
+   "label": "0 frames ~"
+  },
+  {
+   "id": "h-P1-D1",
+   "fromNode": "hand-P1",
+   "fromSide": "bottom",
+   "toNode": "hand-D1",
+   "toSide": "top",
+   "color": "6",
+   "label": "0 frames ~"
+  },
+  {
+   "id": "h-P1-D2",
+   "fromNode": "hand-P1",
+   "fromSide": "bottom",
+   "toNode": "hand-D2",
+   "toSide": "top",
+   "color": "6",
+   "label": "0 frames ~"
+  },
+  {
+   "id": "h-P2-D3",
+   "fromNode": "hand-P2",
+   "fromSide": "bottom",
+   "toNode": "hand-D3",
+   "toSide": "top",
+   "color": "6",
+   "label": "0 frames ~"
+  },
+  {
+   "id": "h-P2-D4",
+   "fromNode": "hand-P2",
+   "fromSide": "bottom",
+   "toNode": "hand-D4",
+   "toSide": "top",
+   "color": "6",
+   "label": "0 frames ~"
+  },
+  {
+   "id": "h-P3-D5",
+   "fromNode": "hand-P3",
+   "fromSide": "bottom",
+   "toNode": "hand-D5",
+   "toSide": "top",
+   "color": "6",
+   "label": "0 frames ~"
+  },
+  {
+   "id": "h-P3-D6",
+   "fromNode": "hand-P3",
+   "fromSide": "bottom",
+   "toNode": "hand-D6",
+   "toSide": "top",
+   "color": "6",
+   "label": "0 frames ~"
+  },
+  {
+   "id": "m-e001",
+   "fromNode": "model-Q",
+   "fromSide": "bottom",
+   "toNode": "model-P3",
+   "toSide": "top",
+   "color": "6",
+   "label": "0 frames"
+  },
+  {
+   "id": "m-e002",
+   "fromNode": "model-Q",
+   "fromSide": "bottom",
+   "toNode": "model-P1",
+   "toSide": "top",
+   "color": "6",
+   "label": "0 frames"
+  },
+  {
+   "id": "m-e003",
+   "fromNode": "model-Q",
+   "fromSide": "bottom",
+   "toNode": "model-P2",
+   "toSide": "top",
+   "color": "6",
+   "label": "0 frames"
+  },
+  {
+   "id": "m-e004",
+   "fromNode": "model-P3",
+   "fromSide": "bottom",
+   "toNode": "model-E1",
+   "toSide": "top",
+   "color": "6",
+   "label": "0 frames"
+  },
+  {
+   "id": "m-e005",
+   "fromNode": "model-E7",
+   "fromSide": "bottom",
+   "toNode": "model-P3",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "m-e006",
+   "fromNode": "model-E1",
+   "fromSide": "bottom",
+   "toNode": "model-K",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "m-e007",
+   "fromNode": "model-E2",
+   "fromSide": "bottom",
+   "toNode": "model-K",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "m-e008",
+   "fromNode": "model-E2",
+   "fromSide": "bottom",
+   "toNode": "model-R1",
+   "toSide": "top",
+   "color": "1",
+   "label": "-1 qualified_by"
+  },
+  {
+   "id": "m-e009",
+   "fromNode": "model-E3",
+   "fromSide": "bottom",
+   "toNode": "model-M2",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "m-e010",
+   "fromNode": "model-M1",
+   "fromSide": "bottom",
+   "toNode": "model-K",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "m-e011",
+   "fromNode": "model-M2",
+   "fromSide": "bottom",
+   "toNode": "model-K",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "m-e012",
+   "fromNode": "model-K",
+   "fromSide": "bottom",
+   "toNode": "model-X",
+   "toSide": "top",
+   "color": "1",
+   "label": "-1 rebuts"
+  },
+  {
+   "id": "m-e013",
+   "fromNode": "model-P1",
+   "fromSide": "bottom",
+   "toNode": "model-E4",
+   "toSide": "top",
+   "color": "6",
+   "label": "0 frames"
+  },
+  {
+   "id": "m-e014",
+   "fromNode": "model-E4",
+   "fromSide": "bottom",
+   "toNode": "model-C1",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "m-e015",
+   "fromNode": "model-P1",
+   "fromSide": "bottom",
+   "toNode": "model-R2",
+   "toSide": "top",
+   "color": "1",
+   "label": "-1 undercut_by"
+  },
+  {
+   "id": "m-e016",
+   "fromNode": "model-E5",
+   "fromSide": "bottom",
+   "toNode": "model-M3",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "m-e017",
+   "fromNode": "model-M3",
+   "fromSide": "bottom",
+   "toNode": "model-C1",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "m-e018",
+   "fromNode": "model-P2",
+   "fromSide": "bottom",
+   "toNode": "model-E6",
+   "toSide": "top",
+   "color": "6",
+   "label": "0 frames"
+  },
+  {
+   "id": "m-e019",
+   "fromNode": "model-E6",
+   "fromSide": "bottom",
+   "toNode": "model-M4",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "m-e020",
+   "fromNode": "model-M4",
+   "fromSide": "bottom",
+   "toNode": "model-C1",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "m-e021",
+   "fromNode": "model-M4",
+   "fromSide": "bottom",
+   "toNode": "model-QF",
+   "toSide": "top",
+   "color": "1",
+   "label": "-1 undercut_by"
+  },
+  {
+   "id": "m-e022",
+   "fromNode": "model-C1",
+   "fromSide": "bottom",
+   "toNode": "model-K",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "m-e023",
+   "fromNode": "model-SCP",
+   "fromSide": "bottom",
+   "toNode": "model-E1",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 bounds"
+  },
+  {
+   "id": "m-e024",
+   "fromNode": "model-K",
+   "fromSide": "bottom",
+   "toNode": "model-QF2",
+   "toSide": "top",
+   "color": "1",
+   "label": "-1 qualified_by"
+  },
+  {
+   "id": "m-e025",
+   "fromNode": "model-K",
+   "fromSide": "bottom",
+   "toNode": "model-DF",
+   "toSide": "top",
+   "color": "6",
+   "label": "0 defers"
+  },
+  {
+   "id": "p-C1-C1",
+   "fromNode": "hand-C1",
+   "fromSide": "bottom",
+   "toNode": "model-C1",
+   "toSide": "bottom",
+   "color": "5",
+   "label": "paragraph"
+  },
+  {
+   "id": "p-D1-E1",
+   "fromNode": "hand-D1",
+   "fromSide": "bottom",
+   "toNode": "model-E1",
+   "toSide": "bottom",
+   "color": "5",
+   "label": "paragraph"
+  },
+  {
+   "id": "p-D3-E5",
+   "fromNode": "hand-D3",
+   "fromSide": "bottom",
+   "toNode": "model-E5",
+   "toSide": "bottom",
+   "color": "5",
+   "label": "paragraph"
+  },
+  {
+   "id": "p-D4-E7",
+   "fromNode": "hand-D4",
+   "fromSide": "bottom",
+   "toNode": "model-E7",
+   "toSide": "bottom",
+   "color": "5",
+   "label": "paragraph"
+  },
+  {
+   "id": "p-K-K",
+   "fromNode": "hand-K",
+   "fromSide": "bottom",
+   "toNode": "model-K",
+   "toSide": "bottom",
+   "color": "5",
+   "label": "paragraph"
+  },
+  {
+   "id": "p-M1-M2",
+   "fromNode": "hand-M1",
+   "fromSide": "bottom",
+   "toNode": "model-M2",
+   "toSide": "bottom",
+   "color": "5",
+   "label": "paragraph"
+  },
+  {
+   "id": "p-Q-Q",
+   "fromNode": "hand-Q",
+   "fromSide": "bottom",
+   "toNode": "model-Q",
+   "toSide": "bottom",
+   "color": "5",
+   "label": "paragraph"
+  },
+  {
+   "id": "p-QF1-QF2",
+   "fromNode": "hand-QF1",
+   "fromSide": "bottom",
+   "toNode": "model-QF2",
+   "toSide": "bottom",
+   "color": "5",
+   "label": "paragraph"
+  },
+  {
+   "id": "p-QF2-DF",
+   "fromNode": "hand-QF2",
+   "fromSide": "bottom",
+   "toNode": "model-DF",
+   "toSide": "bottom",
+   "color": "5",
+   "label": "paragraph"
+  },
+  {
+   "id": "p-R1-QF",
+   "fromNode": "hand-R1",
+   "fromSide": "bottom",
+   "toNode": "model-QF",
+   "toSide": "bottom",
+   "color": "5",
+   "label": "paragraph"
+  }
+ ]
+}

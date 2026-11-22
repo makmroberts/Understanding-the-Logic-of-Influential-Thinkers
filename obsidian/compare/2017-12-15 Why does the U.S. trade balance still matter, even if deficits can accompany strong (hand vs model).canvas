@@ -1,0 +1,1097 @@
+{
+ "nodes": [
+  {
+   "id": "header",
+   "type": "text",
+   "text": "## 2017-12-15 Why does the U.S. trade balance still matter, even if deficits can accompany strong growth\n\n**Left:** hand-drawn map (21 steps). **Right:** model run `setser_dec_15_17/claude-opus-5.5` (26 steps).\n\nMatched 11 of 21 hand steps (9 by a shared paragraph, 2 by role only).\n\nHand steps not matched: C2, D3, D4, D5, M1, M2, M3, P1, QF1, QF2\n\nModel steps not matched: C1, C2, C3, C6, E4, E5, ID, M1, M2, M3, P2, P3, QF2, R1, X2",
+   "x": -3720,
+   "y": 0,
+   "width": 7440,
+   "height": 260
+  },
+  {
+   "id": "hand-Q",
+   "type": "text",
+   "text": "**Q** \u00b7 `question` \u00b7 \u00b6 21\n\nWhy does the U.S. trade balance still matter, even if deficits can accompany strong growth?\n\n[[claims/question/Why does the U.S. trade balance still matter, even if deficits can accompany strong growth|open note]]",
+   "x": -820,
+   "y": 440,
+   "width": 520,
+   "height": 300,
+   "color": "#7A6FA8"
+  },
+  {
+   "id": "hand-P1",
+   "type": "text",
+   "text": "**P1** \u00b7 `stated_assumption` \u00b7 \u00b6 45\n\nNet exports contribute to GDP growth\n\n*Gloss:* Changes in exports and imports mechanically affect output growth\n\n[[claims/stated_assumption/Net exports contribute to GDP growth|open note]]",
+   "x": -1980,
+   "y": 920,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "hand-P2",
+   "type": "text",
+   "text": "**P2** \u00b7 `stated_assumption` \u00b7 \u00b6 25\n\nTrade shapes employment composition\n\n*Gloss:* Goods-producing sectors and regions are unevenly exposed\n\n[[claims/stated_assumption/Trade shapes employment composition|open note]]",
+   "x": -820,
+   "y": 920,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "hand-P3",
+   "type": "text",
+   "text": "**P3** \u00b7 `stated_assumption` \u00b7 \u00b6 36\n\nPersistent deficits accumulate external debt\n\n*Gloss:* Ongoing borrowing raises the net external debt stock\n\n[[claims/stated_assumption/Persistent deficits accumulate external debt|open note]]",
+   "x": -1400,
+   "y": 920,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "hand-D1",
+   "type": "text",
+   "text": "**D1** \u00b7 `evidence_data` \u00b7 \u00b6 15\n\n2014\u201316 net-export drag\n\n*Gloss:* Net exports subtracted about 1.5pp from U.S. growth\n\n[[claims/evidence_data/2014\u201316 net-export drag|open note]]",
+   "x": -820,
+   "y": 1880,
+   "width": 520,
+   "height": 300,
+   "color": "#2F7FBF"
+  },
+  {
+   "id": "hand-D2",
+   "type": "text",
+   "text": "**D2** \u00b7 `evidence_data` \u00b7 \u00b6 27\n\nManufacturing employment varies with trade\n\n*Gloss:* Surplus economies retain larger manufacturing job shares\n\n[[claims/evidence_data/Manufacturing employment varies with trade|open note]]",
+   "x": -1400,
+   "y": 1880,
+   "width": 520,
+   "height": 300,
+   "color": "#2F7FBF"
+  },
+  {
+   "id": "hand-D3",
+   "type": "text",
+   "text": "**D3** \u00b7 `evidence_data` \u00b7 \u00b6 31\n\nManufacturing balance did not drive adjustment\n\n*Gloss:* Lower oil imports and offshore income reduced the current-account deficit\n\n[[claims/evidence_data/Manufacturing balance did not drive adjustment|open note]]",
+   "x": -2560,
+   "y": 1880,
+   "width": 520,
+   "height": 300,
+   "color": "#2F7FBF"
+  },
+  {
+   "id": "hand-D4",
+   "type": "text",
+   "text": "**D4** \u00b7 `evidence_data` \u00b7 \u00b6 36\n\nExternal debt rose from ~20% to ~50% of GDP\n\n*Gloss:* Debt increased even as U.S. borrowing costs fell\n\n[[claims/evidence_data/External debt rose from ~20% to ~50% of GDP|open note]]",
+   "x": -3140,
+   "y": 1880,
+   "width": 520,
+   "height": 300,
+   "color": "#2F7FBF"
+  },
+  {
+   "id": "hand-D5",
+   "type": "text",
+   "text": "**D5** \u00b7 `evidence_data` \u00b7 \u00b6 33\n\nHigher rates or wider deficits raise debt ratios\n\n*Gloss:* Either would weaken current favorable debt dynamics\n\n[[claims/evidence_data/Higher rates or wider deficits raise debt ratios|open note]]",
+   "x": -3720,
+   "y": 1880,
+   "width": 520,
+   "height": 300,
+   "color": "#2F7FBF"
+  },
+  {
+   "id": "hand-D6",
+   "type": "text",
+   "text": "**D6** \u00b7 `evidence_data` \u00b7 \u00b6 43, 45\n\nTax cuts could widen trade deficit\n\n*Gloss:* Setser estimates roughly 0.3\u20130.5% of GDP over several years\n\n[[claims/evidence_data/Tax cuts could widen trade deficit|open note]]",
+   "x": -1980,
+   "y": 1880,
+   "width": 520,
+   "height": 300,
+   "color": "#2F7FBF"
+  },
+  {
+   "id": "hand-M1",
+   "type": "text",
+   "text": "**M1** \u00b7 `mechanism` \u00b7 \u00b6 45\n\nTrade deficits can drag on growth\n\n*Gloss:* More demand leaks abroad through net imports\n\n[[claims/mechanism/Trade deficits can drag on growth|open note]]",
+   "x": -820,
+   "y": 2360,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "hand-M2",
+   "type": "text",
+   "text": "**M2** \u00b7 `mechanism` \u00b7 \u00b6 25\n\nTrade shifts where jobs are located\n\n*Gloss:* Manufacturing deficits reduce employment in exposed sectors and regions\n\n[[claims/mechanism/Trade shifts where jobs are located|open note]]",
+   "x": -1400,
+   "y": 2360,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "hand-M3",
+   "type": "text",
+   "text": "**M3** \u00b7 `mechanism` \u00b7 \u00b6 36\n\nDeficits build external debt\n\n*Gloss:* Persistent borrowing plus higher interest costs raise the external debt burden\n\n[[claims/mechanism/Deficits build external debt|open note]]",
+   "x": -1980,
+   "y": 2360,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "hand-C1",
+   "type": "text",
+   "text": "**C1** \u00b7 `intermediate_claim` \u00b7 \u00b6 20\n\nTrade changes the pace of growth\n\n*Gloss:* A stronger economy can coexist with a deficit, but net exports still affect realized GDP growth\n\n[[claims/intermediate_claim/Trade changes the pace of growth|open note]]",
+   "x": -820,
+   "y": 2840,
+   "width": 520,
+   "height": 300,
+   "color": "#2FBF9B"
+  },
+  {
+   "id": "hand-C2",
+   "type": "text",
+   "text": "**C2** \u00b7 `intermediate_claim` \u00b7 \u00b6 26\n\nTrade changes the composition of employment\n\n*Gloss:* Its effects are sectoral and regional even near full employment\n\n[[claims/intermediate_claim/Trade changes the composition of employment|open note]]",
+   "x": -1980,
+   "y": 2840,
+   "width": 520,
+   "height": 300,
+   "color": "#2FBF9B"
+  },
+  {
+   "id": "hand-C3",
+   "type": "text",
+   "text": "**C3** \u00b7 `intermediate_claim` \u00b7 \u00b6 38\n\nCurrent debt stability is conditional\n\n*Gloss:* It depends on favorable growth, rates, and offshore income continuing\n\n[[claims/intermediate_claim/Current debt stability is conditional|open note]]",
+   "x": -1400,
+   "y": 2840,
+   "width": 520,
+   "height": 300,
+   "color": "#2FBF9B"
+  },
+  {
+   "id": "hand-K",
+   "type": "text",
+   "text": "**K** \u00b7 `main_claim` \u00b7 \u00b6 25\n\nMain claim: the trade balance remains worth watching\n\n*Gloss:* It contains information about growth, employment composition, and long-run external debt sustainability\n\n[[claims/main_claim/Main claim the trade balance remains worth watching|open note]]",
+   "x": -820,
+   "y": 3320,
+   "width": 520,
+   "height": 300,
+   "color": "#2FBF9B"
+  },
+  {
+   "id": "hand-X",
+   "type": "text",
+   "text": "**X** \u00b7 `opposing_view` \u00b7 \u00b6 3\n\nA wider deficit can reflect stronger domestic demand rather than weakness\n\n*Gloss:* Opposing view\n\n[[claims/opposing_view/A wider deficit can reflect stronger domestic demand rather than weakness|open note]]",
+   "x": -1400,
+   "y": 3800,
+   "width": 520,
+   "height": 300,
+   "color": "#8A8A8A"
+  },
+  {
+   "id": "hand-QF1",
+   "type": "text",
+   "text": "**QF1** \u00b7 `caveat` \u00b7 \u00b6 4\n\nMonthly trade data are noisy and should be read as a time series\n\n*Gloss:* Measurement caveat\n\n[[claims/caveat/Monthly trade data are noisy and should be read as a time series|open note]]",
+   "x": -1980,
+   "y": 3800,
+   "width": 520,
+   "height": 300,
+   "color": "#9A8C6A"
+  },
+  {
+   "id": "hand-QF2",
+   "type": "text",
+   "text": "**QF2** \u00b7 `caveat` \u00b7 \u00b6 26\n\nNear full employment, trade changes job distribution more than total employment\n\n*Gloss:* Employment caveat\n\n[[claims/caveat/Near full employment, trade changes job distribution more than total employment|open note]]",
+   "x": -2560,
+   "y": 3800,
+   "width": 520,
+   "height": 300,
+   "color": "#9A8C6A"
+  },
+  {
+   "id": "hand-R1",
+   "type": "text",
+   "text": "**R1** \u00b7 `caveat` \u00b7 \u00b6 41\n\nThe U.S. can sustain more external debt than most because of the dollar's global role\n\n*Gloss:* Debt caveat\n\n[[claims/caveat/The U.S. can sustain more external debt than most because of the dollar's global role|open note]]",
+   "x": -820,
+   "y": 3800,
+   "width": 520,
+   "height": 300,
+   "color": "#9A8C6A"
+  },
+  {
+   "id": "model-Q",
+   "type": "text",
+   "text": "**Q** \u00b7 `question` \u00b7 \u00b6 1, 2, 3, 5\n\nDoes the trade balance still matter for the US economy, given that its deficit is now only about 3 percent of GDP and a widening deficit can signal strong demand?\n\n*Why:* A variable deserves attention if it affects output, the distribution of jobs, or financial sustainability.",
+   "x": 300,
+   "y": 440,
+   "width": 520,
+   "height": 300,
+   "color": "#7A6FA8"
+  },
+  {
+   "id": "model-X",
+   "type": "text",
+   "text": "**X** \u00b7 `opposing_view` \u00b7 \u00b6 3, 10\n\nSome commentators argue the trade deficit is not worth watching because widening deficits often reflect strong demand growth.\n\n*Why:* A correlation between deficits and strong demand does not show that deficits are irrelevant.",
+   "x": 880,
+   "y": 3800,
+   "width": 520,
+   "height": 300,
+   "color": "#8A8A8A"
+  },
+  {
+   "id": "model-K",
+   "type": "text",
+   "text": "**K** \u00b7 `main_claim` \u00b7 \u00b6 5, 6, 7, 8\n\nThe trade balance matters for three reasons: its effect on GDP growth, on the sectoral and regional composition of employment, and on external debt sustainability.\n\n*Why:* A variable matters if it affects growth, jobs and debt dynamics.",
+   "x": 300,
+   "y": 3320,
+   "width": 520,
+   "height": 300,
+   "color": "#2FBF9B"
+  },
+  {
+   "id": "model-ID",
+   "type": "text",
+   "text": "**ID** \u00b7 `accounting_identity` \u00b7 \u00b6 10, 12\n\nOutput growth equals domestic demand growth minus the drag from net exports, so a given demand impulse yields more growth when the trade deficit doesn't widen.\n\n*Why:* GDP equals domestic demand plus net exports by definition.",
+   "x": 1460,
+   "y": 920,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "model-E1",
+   "type": "text",
+   "text": "**E1** \u00b7 `evidence_data` \u00b7 \u00b6 13, 15, 16, 18\n\nNet exports cut about 1.5 points from growth over 2014-2016; with 2.7 percent average demand contribution, growth would have been near 3 rather than 2 percent; in q2-q3 2017 demand was similar but no trade drag left growth near 3 percent.\n\n*Why:* Decomposing growth into contributions shows which component drove changes.",
+   "x": 300,
+   "y": 1880,
+   "width": 520,
+   "height": 300,
+   "color": "#2F7FBF"
+  },
+  {
+   "id": "model-P3",
+   "type": "text",
+   "text": "**P3** \u00b7 `hidden_assumption` \u00b7 \u00b6 15, 16\n\nThe trade drag would only have translated into lost growth if the economy had slack rather than being supply-constrained.\n\n*Why:* Demand leakages reduce output only when the economy is below capacity.",
+   "x": 2620,
+   "y": 920,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "model-C1",
+   "type": "text",
+   "text": "**C1** \u00b7 `intermediate_claim` \u00b7 \u00b6 17\n\nThe real non-oil trade deterioration during the strong dollar period was underappreciated because falling oil prices kept the headline deficit flat.\n\n*Why:* Price effects in one category can mask volume shifts in another.",
+   "x": 1460,
+   "y": 2840,
+   "width": 520,
+   "height": 300,
+   "color": "#2FBF9B"
+  },
+  {
+   "id": "model-C5",
+   "type": "text",
+   "text": "**C5** \u00b7 `case_type` \u00b7 \u00b6 19, 20, 21, 22\n\nDeficit changes are ambiguous: widening can signal overheating, and narrowing can reflect export growth or rising domestic production such as tight oil rather than weak demand.\n\n*Why:* The same trade movement can arise from different underlying causes with different implications.",
+   "x": 300,
+   "y": 2840,
+   "width": 520,
+   "height": 300,
+   "color": "#2FBF9B"
+  },
+  {
+   "id": "model-C2",
+   "type": "text",
+   "text": "**C2** \u00b7 `intermediate_claim` \u00b7 \u00b6 23, 24\n\nThe US is a demand-driven economy whose small export sector limits export-led growth, unlike Germany or Korea.\n\n*Why:* A sector's contribution to growth is bounded by its share of output.",
+   "x": 2040,
+   "y": 2840,
+   "width": 520,
+   "height": 300,
+   "color": "#2FBF9B"
+  },
+  {
+   "id": "model-P1",
+   "type": "text",
+   "text": "**P1** \u00b7 `stated_assumption` \u00b7 \u00b6 25, 26\n\nAt full employment the trade deficit shapes where and in what sectors people work rather than how many work.\n\n*Why:* At full employment, demand shifts reallocate labor rather than change its total.",
+   "x": 300,
+   "y": 920,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "model-E2",
+   "type": "text",
+   "text": "**E2** \u00b7 `evidence_data` \u00b7 \u00b6 27, 28\n\nManufacturing employment shares vary widely across advanced economies: about 20 percent in Germany versus 10 percent in the US, despite similar or greater automation in Germany and Japan.\n\n*Why:* Cross-country variation with similar technology points to a non-technological cause.",
+   "x": 880,
+   "y": 1880,
+   "width": 520,
+   "height": 300,
+   "color": "#2F7FBF"
+  },
+  {
+   "id": "model-M1",
+   "type": "text",
+   "text": "**M1** \u00b7 `mechanism` \u00b7 \u00b6 29, 30\n\nManufacturing surpluses in Germany and Japan and deficits in the US and UK explain much of the difference in manufacturing employment shares.\n\n*Why:* Net external demand for a sector's output determines how many workers it employs.",
+   "x": 300,
+   "y": 2360,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "model-R1",
+   "type": "text",
+   "text": "**R1** \u00b7 `other_explanation` \u00b7 \u00b6 27\n\nProductivity growth explains the global decline in manufacturing's share of employment, but not the cross-country differences.\n\n*Why:* A common global cause cannot explain differences between countries.",
+   "x": 2040,
+   "y": 3800,
+   "width": 520,
+   "height": 300,
+   "color": "#8A8A8A"
+  },
+  {
+   "id": "model-C3",
+   "type": "text",
+   "text": "**C3** \u00b7 `intermediate_claim` \u00b7 \u00b6 31, 32\n\nThe US current account adjustment came through offshore income and the petroleum balance rather than manufacturing, so manufacturing regions saw no renaissance while IP-producing regions boomed.\n\n*Why:* Which components adjust determines which regions gain.",
+   "x": 2620,
+   "y": 2840,
+   "width": 520,
+   "height": 300,
+   "color": "#2FBF9B"
+  },
+  {
+   "id": "model-M2",
+   "type": "text",
+   "text": "**M2** \u00b7 `mechanism` \u00b7 \u00b6 7\n\nTrade shocks have lasting regional effects because closed factories and atrophied sector-specific skills are not quickly replaced.\n\n*Why:* Sector-specific capital and skills make adjustment to shocks slow and local.",
+   "x": 880,
+   "y": 2360,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "model-E4",
+   "type": "text",
+   "text": "**E4** \u00b7 `evidence_source` \u00b7 \u00b6 2, 34, 35\n\nHis 2004 argument with Roubini was broadly right: large deficits raised external debt and required a household borrowing boom that led to the crisis.\n\n*Why:* Sustained deficits must be financed by accumulating external liabilities.",
+   "x": 2040,
+   "y": 1880,
+   "width": 520,
+   "height": 300,
+   "color": "#2F7FBF"
+  },
+  {
+   "id": "model-P4",
+   "type": "text",
+   "text": "**P4** \u00b7 `revised_prior` \u00b7 \u00b6 36\n\nHe wrongly expected rising external debt to raise US borrowing costs; instead debt rose from 20 to 50 percent of GDP while the average rate fell from about 4 to 2 percent, keeping interest burden constant.\n\n*Why:* Debt burden depends on interest rates as well as the debt stock.",
+   "x": 880,
+   "y": 920,
+   "width": 520,
+   "height": 300,
+   "color": "#BF6F2F"
+  },
+  {
+   "id": "model-M3",
+   "type": "text",
+   "text": "**M3** \u00b7 `mechanism` \u00b7 \u00b6 39, 48\n\nExternal debt-to-GDP is stable only because offshore income offsets interest and nominal growth exceeds the interest rate.\n\n*Why:* Debt ratios stabilize when the primary balance and the growth-interest gap offset each other.",
+   "x": 1460,
+   "y": 2360,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "model-C4",
+   "type": "text",
+   "text": "**C4** \u00b7 `intermediate_claim` \u00b7 \u00b6 8, 37, 38, 40\n\nFed tightening or tax-cut-driven deficit widening would put US external debt back on a rising path, making the current deficit precarious.\n\n*Why:* Favorable debt dynamics reverse when rates rise or primary deficits widen.",
+   "x": 880,
+   "y": 2840,
+   "width": 520,
+   "height": 300,
+   "color": "#2FBF9B"
+  },
+  {
+   "id": "model-E3",
+   "type": "text",
+   "text": "**E3** \u00b7 `evidence_data` \u00b7 \u00b6 6, 43\n\nFront-loaded tax cuts widening the fiscal deficit by 1.3-1.4 percent of GDP should widen the trade deficit by 0.3-0.5 points.\n\n*Why:* Fiscal expansion spills into imports, widening the external deficit.",
+   "x": 1460,
+   "y": 1880,
+   "width": 520,
+   "height": 300,
+   "color": "#2F7FBF"
+  },
+  {
+   "id": "model-P2",
+   "type": "text",
+   "text": "**P2** \u00b7 `stated_assumption` \u00b7 \u00b6 41\n\nExternal debt is riskier than domestic debt, so a 50 percent net external debt economy should not run 4-5 percent deficits.\n\n*Why:* Obligations to foreign creditors carry more risk than debts owed domestically.",
+   "x": 2040,
+   "y": 920,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "model-QF",
+   "type": "text",
+   "text": "**QF** \u00b7 `caveat` \u00b7 \u00b6 41\n\nThe dollar's global role lets the US carry more external debt than most countries and shields it from sudden capital flow swings.\n\n*Why:* Reserve-currency issuers face softer external financing constraints.",
+   "x": 300,
+   "y": 3800,
+   "width": 520,
+   "height": 300,
+   "color": "#9A8C6A"
+  },
+  {
+   "id": "model-X2",
+   "type": "text",
+   "text": "**X2** \u00b7 `opposing_view` \u00b7 \u00b6 44\n\nSandbu's view that deficits can be equity-financed is theoretically right but not how the US has financed them, and state-firm equity from China complicates it.\n\n*Why:* Judge financing risk by how deficits are actually financed, not by possibilities.",
+   "x": 2620,
+   "y": 3800,
+   "width": 520,
+   "height": 300,
+   "color": "#8A8A8A"
+  },
+  {
+   "id": "model-QF2",
+   "type": "text",
+   "text": "**QF2** \u00b7 `caveat` \u00b7 \u00b6 47, 48\n\nProfit shifting overstates the trade deficit but mostly moves income between the services and income balances, leaving the goods balance and current account largely unchanged.\n\n*Why:* Reclassifying flows between current account lines leaves the overall balance unchanged.",
+   "x": 1460,
+   "y": 3800,
+   "width": 520,
+   "height": 300,
+   "color": "#9A8C6A"
+  },
+  {
+   "id": "model-C6",
+   "type": "text",
+   "text": "**C6** \u00b7 `policy_reductio` \u00b7 \u00b6 42\n\nTrade policy affects the volume of trade more than the balance, so withdrawing from NAFTA or hitting China may not cut the deficit.\n\n*Why:* The trade balance is set by saving and demand, not by trade barriers.",
+   "x": 3200,
+   "y": 2840,
+   "width": 520,
+   "height": 300,
+   "color": "#2FBF9B"
+  },
+  {
+   "id": "model-E5",
+   "type": "text",
+   "text": "**E5** \u00b7 `evidence_source` \u00b7 \u00b6 49\n\nBlanchard and Das find sustainability uncertain but that the dollar likely needs to depreciate absent a favorable shock.\n\n*Why:* Sustainability projections depend on uncertain returns and borrowing costs.",
+   "x": 2620,
+   "y": 1880,
+   "width": 520,
+   "height": 300,
+   "color": "#2F7FBF"
+  }
+ ],
+ "edges": [
+  {
+   "id": "h-P1-M1",
+   "fromNode": "hand-P1",
+   "fromSide": "bottom",
+   "toNode": "hand-M1",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "h-D1-M1",
+   "fromNode": "hand-D1",
+   "fromSide": "bottom",
+   "toNode": "hand-M1",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "h-D6-M1",
+   "fromNode": "hand-D6",
+   "fromSide": "bottom",
+   "toNode": "hand-M1",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "h-M1-C1",
+   "fromNode": "hand-M1",
+   "fromSide": "bottom",
+   "toNode": "hand-C1",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "h-P2-M2",
+   "fromNode": "hand-P2",
+   "fromSide": "bottom",
+   "toNode": "hand-M2",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "h-D2-M2",
+   "fromNode": "hand-D2",
+   "fromSide": "bottom",
+   "toNode": "hand-M2",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "h-D3-M2",
+   "fromNode": "hand-D3",
+   "fromSide": "bottom",
+   "toNode": "hand-M2",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "h-M2-C2",
+   "fromNode": "hand-M2",
+   "fromSide": "bottom",
+   "toNode": "hand-C2",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "h-P3-M3",
+   "fromNode": "hand-P3",
+   "fromSide": "bottom",
+   "toNode": "hand-M3",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "h-D4-M3",
+   "fromNode": "hand-D4",
+   "fromSide": "bottom",
+   "toNode": "hand-M3",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "h-D5-M3",
+   "fromNode": "hand-D5",
+   "fromSide": "bottom",
+   "toNode": "hand-M3",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "h-M3-C3",
+   "fromNode": "hand-M3",
+   "fromSide": "bottom",
+   "toNode": "hand-C3",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "h-C1-K",
+   "fromNode": "hand-C1",
+   "fromSide": "bottom",
+   "toNode": "hand-K",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "h-C2-K",
+   "fromNode": "hand-C2",
+   "fromSide": "bottom",
+   "toNode": "hand-K",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "h-C3-K",
+   "fromNode": "hand-C3",
+   "fromSide": "bottom",
+   "toNode": "hand-K",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "h-C1-X",
+   "fromNode": "hand-C1",
+   "fromSide": "bottom",
+   "toNode": "hand-X",
+   "toSide": "top",
+   "color": "1",
+   "label": "-1 qualified_by"
+  },
+  {
+   "id": "h-K-QF1",
+   "fromNode": "hand-K",
+   "fromSide": "bottom",
+   "toNode": "hand-QF1",
+   "toSide": "top",
+   "color": "1",
+   "label": "-1 qualified_by"
+  },
+  {
+   "id": "h-C2-QF2",
+   "fromNode": "hand-C2",
+   "fromSide": "bottom",
+   "toNode": "hand-QF2",
+   "toSide": "top",
+   "color": "1",
+   "label": "-1 qualified_by"
+  },
+  {
+   "id": "h-C3-R1",
+   "fromNode": "hand-C3",
+   "fromSide": "bottom",
+   "toNode": "hand-R1",
+   "toSide": "top",
+   "color": "1",
+   "label": "-1 qualified_by"
+  },
+  {
+   "id": "h-Q-P1",
+   "fromNode": "hand-Q",
+   "fromSide": "bottom",
+   "toNode": "hand-P1",
+   "toSide": "top",
+   "color": "6",
+   "label": "0 frames ~"
+  },
+  {
+   "id": "h-Q-P2",
+   "fromNode": "hand-Q",
+   "fromSide": "bottom",
+   "toNode": "hand-P2",
+   "toSide": "top",
+   "color": "6",
+   "label": "0 frames ~"
+  },
+  {
+   "id": "h-Q-P3",
+   "fromNode": "hand-Q",
+   "fromSide": "bottom",
+   "toNode": "hand-P3",
+   "toSide": "top",
+   "color": "6",
+   "label": "0 frames ~"
+  },
+  {
+   "id": "h-P1-D1",
+   "fromNode": "hand-P1",
+   "fromSide": "bottom",
+   "toNode": "hand-D1",
+   "toSide": "top",
+   "color": "6",
+   "label": "0 frames ~"
+  },
+  {
+   "id": "h-P1-D6",
+   "fromNode": "hand-P1",
+   "fromSide": "bottom",
+   "toNode": "hand-D6",
+   "toSide": "top",
+   "color": "6",
+   "label": "0 frames ~"
+  },
+  {
+   "id": "h-P2-D2",
+   "fromNode": "hand-P2",
+   "fromSide": "bottom",
+   "toNode": "hand-D2",
+   "toSide": "top",
+   "color": "6",
+   "label": "0 frames ~"
+  },
+  {
+   "id": "h-P2-D3",
+   "fromNode": "hand-P2",
+   "fromSide": "bottom",
+   "toNode": "hand-D3",
+   "toSide": "top",
+   "color": "6",
+   "label": "0 frames ~"
+  },
+  {
+   "id": "h-P3-D4",
+   "fromNode": "hand-P3",
+   "fromSide": "bottom",
+   "toNode": "hand-D4",
+   "toSide": "top",
+   "color": "6",
+   "label": "0 frames ~"
+  },
+  {
+   "id": "h-P3-D5",
+   "fromNode": "hand-P3",
+   "fromSide": "bottom",
+   "toNode": "hand-D5",
+   "toSide": "top",
+   "color": "6",
+   "label": "0 frames ~"
+  },
+  {
+   "id": "m-e001",
+   "fromNode": "model-Q",
+   "fromSide": "bottom",
+   "toNode": "model-ID",
+   "toSide": "top",
+   "color": "6",
+   "label": "0 frames"
+  },
+  {
+   "id": "m-e002",
+   "fromNode": "model-Q",
+   "fromSide": "bottom",
+   "toNode": "model-P1",
+   "toSide": "top",
+   "color": "6",
+   "label": "0 frames"
+  },
+  {
+   "id": "m-e003",
+   "fromNode": "model-Q",
+   "fromSide": "bottom",
+   "toNode": "model-P2",
+   "toSide": "top",
+   "color": "6",
+   "label": "0 frames"
+  },
+  {
+   "id": "m-e004",
+   "fromNode": "model-ID",
+   "fromSide": "bottom",
+   "toNode": "model-E1",
+   "toSide": "top",
+   "color": "6",
+   "label": "0 frames"
+  },
+  {
+   "id": "m-e005",
+   "fromNode": "model-E1",
+   "fromSide": "bottom",
+   "toNode": "model-C1",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "m-e006",
+   "fromNode": "model-P3",
+   "fromSide": "bottom",
+   "toNode": "model-C1",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 licenses"
+  },
+  {
+   "id": "m-e007",
+   "fromNode": "model-ID",
+   "fromSide": "bottom",
+   "toNode": "model-C2",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "m-e008",
+   "fromNode": "model-C1",
+   "fromSide": "bottom",
+   "toNode": "model-K",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "m-e009",
+   "fromNode": "model-C2",
+   "fromSide": "bottom",
+   "toNode": "model-K",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "m-e010",
+   "fromNode": "model-C5",
+   "fromSide": "bottom",
+   "toNode": "model-K",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "m-e011",
+   "fromNode": "model-P1",
+   "fromSide": "bottom",
+   "toNode": "model-E2",
+   "toSide": "top",
+   "color": "6",
+   "label": "0 frames"
+  },
+  {
+   "id": "m-e012",
+   "fromNode": "model-E2",
+   "fromSide": "bottom",
+   "toNode": "model-M1",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "m-e013",
+   "fromNode": "model-M1",
+   "fromSide": "bottom",
+   "toNode": "model-R1",
+   "toSide": "top",
+   "color": "1",
+   "label": "-1 undercut_by"
+  },
+  {
+   "id": "m-e014",
+   "fromNode": "model-M1",
+   "fromSide": "bottom",
+   "toNode": "model-C3",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "m-e015",
+   "fromNode": "model-M2",
+   "fromSide": "bottom",
+   "toNode": "model-C3",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "m-e016",
+   "fromNode": "model-C3",
+   "fromSide": "bottom",
+   "toNode": "model-K",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "m-e017",
+   "fromNode": "model-C3",
+   "fromSide": "bottom",
+   "toNode": "model-QF2",
+   "toSide": "top",
+   "color": "1",
+   "label": "-1 qualified_by"
+  },
+  {
+   "id": "m-e018",
+   "fromNode": "model-E4",
+   "fromSide": "bottom",
+   "toNode": "model-M3",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "m-e019",
+   "fromNode": "model-P4",
+   "fromSide": "bottom",
+   "toNode": "model-P2",
+   "toSide": "top",
+   "color": "1",
+   "label": "-1 revises"
+  },
+  {
+   "id": "m-e020",
+   "fromNode": "model-P4",
+   "fromSide": "bottom",
+   "toNode": "model-M3",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "m-e021",
+   "fromNode": "model-M3",
+   "fromSide": "bottom",
+   "toNode": "model-C4",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "m-e022",
+   "fromNode": "model-E3",
+   "fromSide": "bottom",
+   "toNode": "model-C4",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "m-e023",
+   "fromNode": "model-E5",
+   "fromSide": "bottom",
+   "toNode": "model-C4",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "m-e024",
+   "fromNode": "model-P2",
+   "fromSide": "bottom",
+   "toNode": "model-C4",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 licenses"
+  },
+  {
+   "id": "m-e025",
+   "fromNode": "model-C4",
+   "fromSide": "bottom",
+   "toNode": "model-K",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "m-e026",
+   "fromNode": "model-C4",
+   "fromSide": "bottom",
+   "toNode": "model-QF",
+   "toSide": "top",
+   "color": "1",
+   "label": "-1 qualified_by"
+  },
+  {
+   "id": "m-e027",
+   "fromNode": "model-C4",
+   "fromSide": "bottom",
+   "toNode": "model-X2",
+   "toSide": "top",
+   "color": "1",
+   "label": "-1 rebuts"
+  },
+  {
+   "id": "m-e028",
+   "fromNode": "model-K",
+   "fromSide": "bottom",
+   "toNode": "model-X",
+   "toSide": "top",
+   "color": "1",
+   "label": "-1 rebuts"
+  },
+  {
+   "id": "m-e029",
+   "fromNode": "model-C6",
+   "fromSide": "bottom",
+   "toNode": "model-K",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "p-C1-C5",
+   "fromNode": "hand-C1",
+   "fromSide": "bottom",
+   "toNode": "model-C5",
+   "toSide": "bottom",
+   "color": "5",
+   "label": "paragraph"
+  },
+  {
+   "id": "p-C3-C4",
+   "fromNode": "hand-C3",
+   "fromSide": "bottom",
+   "toNode": "model-C4",
+   "toSide": "bottom",
+   "color": "5",
+   "label": "paragraph"
+  },
+  {
+   "id": "p-D1-E1",
+   "fromNode": "hand-D1",
+   "fromSide": "bottom",
+   "toNode": "model-E1",
+   "toSide": "bottom",
+   "color": "5",
+   "label": "paragraph"
+  },
+  {
+   "id": "p-D2-E2",
+   "fromNode": "hand-D2",
+   "fromSide": "bottom",
+   "toNode": "model-E2",
+   "toSide": "bottom",
+   "color": "5",
+   "label": "paragraph"
+  },
+  {
+   "id": "p-D6-E3",
+   "fromNode": "hand-D6",
+   "fromSide": "bottom",
+   "toNode": "model-E3",
+   "toSide": "bottom",
+   "color": "5",
+   "label": "paragraph"
+  },
+  {
+   "id": "p-K-K",
+   "fromNode": "hand-K",
+   "fromSide": "bottom",
+   "toNode": "model-K",
+   "toSide": "bottom",
+   "color": "5",
+   "label": "slot"
+  },
+  {
+   "id": "p-P2-P1",
+   "fromNode": "hand-P2",
+   "fromSide": "bottom",
+   "toNode": "model-P1",
+   "toSide": "bottom",
+   "color": "5",
+   "label": "paragraph"
+  },
+  {
+   "id": "p-P3-P4",
+   "fromNode": "hand-P3",
+   "fromSide": "bottom",
+   "toNode": "model-P4",
+   "toSide": "bottom",
+   "color": "5",
+   "label": "paragraph"
+  },
+  {
+   "id": "p-Q-Q",
+   "fromNode": "hand-Q",
+   "fromSide": "bottom",
+   "toNode": "model-Q",
+   "toSide": "bottom",
+   "color": "5",
+   "label": "slot"
+  },
+  {
+   "id": "p-R1-QF",
+   "fromNode": "hand-R1",
+   "fromSide": "bottom",
+   "toNode": "model-QF",
+   "toSide": "bottom",
+   "color": "5",
+   "label": "paragraph"
+  },
+  {
+   "id": "p-X-X",
+   "fromNode": "hand-X",
+   "fromSide": "bottom",
+   "toNode": "model-X",
+   "toSide": "bottom",
+   "color": "5",
+   "label": "paragraph"
+  }
+ ]
+}
