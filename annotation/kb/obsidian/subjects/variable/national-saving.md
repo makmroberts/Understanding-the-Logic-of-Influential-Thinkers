@@ -2,7 +2,7 @@
 type: subject
 facet: variable
 term: national-saving
-claims: 8
+claims: 9
 saturated: false
 tags: [subject, subject/variable, variable/national-saving]
 ---
@@ -13,25 +13,26 @@ tags: [subject, subject/variable, variable/national-saving]
 
 Aligned to **sna** `gross saving` — _component name, not yet re-checked_
 
-8 claims across 4 articles · facet `variable` · [[By variable]] · [[index]]
+9 claims across 5 articles · facet `variable` · [[By variable]] · [[index]]
 
-**Position in the argument graph** — centrality 19 (2.38 per claim), 9 out / 10 in, bias -0.05.
+**Position in the argument graph** — centrality 20 (2.22 per claim), 9 out / 11 in, bias -0.1.
 
-Sits in the middle of arguments - as much argued toward as argued from.
+He argues **toward** this more than from it: it behaves like a conclusion.
 
 ## Argued together with
 
-- **country**: [[china]] (6), [[us]] (1)
+- **country**: [[china]] (7), [[us]] (1)
 - **bloc**: [[asia-surplus]] (1), [[global]] (1)
 - **instrument**: [[structural-reform]] (2), [[industrial-policy]] (1), [[fiscal-policy]] (1)
-- **data_basis**: [[national-accounts]] (1)
+- **data_basis**: [[national-accounts]] (1), [[imf-publications]] (1)
 
 ## Claims by role
 
-### caveat (2)
+### caveat (3)
 
 - **2019-09** [[Fiscal and credit stimulus currently absorbs much of China's excess saving]] · _Why do global trade imbalances persist, and ..._
 - **2025-11** [[China's GDP data are too thin to confirm the net export math; the IMF does support]] · _China's Massive Surplus is Everywhere (Yet T..._
+- **2026-08** [[The IMF's standard playbook struggles with a high-saving, state-guided economy]] · _The World Should Not Ignore China’s Underval..._
 
 ### mechanism (2)
 

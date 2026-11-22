@@ -2,7 +2,7 @@
 type: subject
 facet: variable
 term: import-volumes
-claims: 103
+claims: 102
 saturated: false
 tags: [subject, subject/variable, variable/import-volumes]
 ---
@@ -13,22 +13,22 @@ tags: [subject, subject/variable, variable/import-volumes]
 
 Aligned to **bpm6** `imports of goods and services` — _component name, not yet re-checked_
 
-103 claims across 17 articles · facet `variable` · [[By variable]] · [[index]]
+102 claims across 18 articles · facet `variable` · [[By variable]] · [[index]]
 
-**Position in the argument graph** — centrality 271 (2.63 per claim), 128 out / 143 in, bias -0.06.
+**Position in the argument graph** — centrality 267 (2.62 per claim), 124 out / 143 in, bias -0.07.
 
 Sits in the middle of arguments - as much argued toward as argued from.
 
 ## Argued together with
 
-- **country**: [[us]] (69), [[china]] (63), [[euro-area]] (2), [[australia]] (2), [[taiwan]] (1)
+- **country**: [[us]] (68), [[china]] (63), [[euro-area]] (2), [[australia]] (2), [[taiwan]] (1)
 - **bloc**: [[southeast-asia]] (3), [[em-commodity]] (1), [[global]] (1)
-- **instrument**: [[tariffs]] (27), [[purchase-commitments]] (26), [[industrial-policy]] (22), [[retaliation]] (4), [[trade-agreements]] (3)
-- **data_basis**: [[customs]] (23), [[academic-econometrics]] (4), [[press-reporting]] (3), [[national-accounts]] (3), [[mirror-statistics]] (2)
+- **instrument**: [[tariffs]] (26), [[purchase-commitments]] (26), [[industrial-policy]] (23), [[retaliation]] (4), [[trade-agreements]] (3)
+- **data_basis**: [[customs]] (23), [[academic-econometrics]] (4), [[press-reporting]] (3), [[mirror-statistics]] (2), [[national-accounts]] (2)
 
 ## Claims by role
 
-### evidence_data (22)
+### evidence_data (24)
 
 - **2018-02** [[Q4 2017 demand surge leaked into imports]] · _Will Trump's fiscal expansion undermine his ..._
 - **2018-02** [[Setser's Fed-model calculation]] · _Will Trump's fiscal expansion undermine his ..._
@@ -51,9 +51,11 @@ Sits in the middle of arguments - as much argued toward as argued from.
 - **2020-10** [[U.S. imports from China normally exceed China's reported exports to the U.S]] · _Record Chinese Bilateral Surpluses With the ..._
 - **2025-09** [[Annualized trade deficit peaked at $2 trillion in March, fell to $1 trillion]] · _The Trump Shock That Wasn't (At Least Not Yet)_
 - **2026-02** [[October's drop came entirely from pharmaceuticals and gold; excluding them, October's]] · _Understanding the Low October 2025 Trade Def..._
-- **2026-07** [[Gold imports reached $146 billion in H1 2026, nearly $100 billion above H1 2025, and 1.5%]] · _Is China’s Surplus Really Shrinking?_
+- **2026-07** [[Oil import volumes collapsed, so the commodity import bill rose only modestly and oil]] · _Is China’s Surplus Really Shrinking?_
+- **2026-07** [[Gold imports reached $146 billion in H1 2026, nearly $100 billion above H1]] · _Is China’s Surplus Really Shrinking?_
+- **2026-10** [[Faster domestic demand alone would not rebalance China's external accounts because it]] · _What’s the Renminbi Got to Do With it?_
 
-### mechanism (22)
+### mechanism (20)
 
 - **2017-12** [[Trade deficits can drag on growth]] · _Why does the U.S. trade balance still matter..._
 - **2018-02** [[Stimulus raises imports]] · _Will Trump's fiscal expansion undermine his ..._
@@ -75,10 +77,8 @@ Sits in the middle of arguments - as much argued toward as argued from.
 - **2026-02** [[Tariff fears]] · _Understanding the Low October 2025 Trade Def..._
 - **2026-02** [[Inventory drawdown]] · _Understanding the Low October 2025 Trade Def..._
 - **2026-02** [[Untariffed artificial intelligence investment]] · _Understanding the Low October 2025 Trade Def..._
-- **2026-07** [[Higher chip prices raise both chip imports and exports, so they barely move the net]] · _Is China’s Surplus Really Shrinking?_
-- **2026-07** [[Lagging price indices treated chip-price-driven value gains as volume gains in Q1]] · _Is China’s Surplus Really Shrinking?_
 
-### intermediate_claim (14)
+### intermediate_claim (11)
 
 - **2018-06** [[EM adjustment reduces global demand support]] · _Could global macro shocks overwhelm trade de..._
 - **2019-05** [[China never left managed trade]] · _Does a purchase-commitment deal push China b..._
@@ -91,9 +91,6 @@ Sits in the middle of arguments - as much argued toward as argued from.
 - **2020-07** [[Category by category manufacturing will not close the gap, agriculture is behind but Q4]] · _Slouching Toward Phase One_
 - **2025-09** [[Excluding pharmaceuticals and gold, U.S. imports are roughly on trend; the shock to trade]] · _The Trump Shock That Wasn't (At Least Not Yet)_
 - **2026-02** [[Tariffs reduce imports in specific categories, but the overall deficit is driven]] · _Understanding the Low October 2025 Trade Def..._
-- **2026-07** [[Oil price gains are offset by collapsing import volumes, so the commodity bill rose]] · _Is China’s Surplus Really Shrinking?_
-- **2026-07** [[U.S. 2025 data are also distorted by tariff-driven gold bar imports and their reversal]] · _Is China’s Surplus Really Shrinking?_
-- **2026-10** [[Stronger domestic demand alone would not rebalance China's external accounts, because]] · _What’s the Renminbi Got to Do With it?_
 
 ### stated_assumption (8)
 
@@ -124,6 +121,22 @@ Sits in the middle of arguments - as much argued toward as argued from.
 - **2025-09** [[August deals doubled tariffs on Southeast Asia relative to April; fall data may show]] · _The Trump Shock That Wasn't (At Least Not Yet)_
 - **2026-02** [[Tariffed categories really are falling; watch whether imports rebound once stockpiles are]] · _Understanding the Low October 2025 Trade Def..._
 
+### hidden_assumption (5)
+
+- **2019-05** [[Managed trade means control of end demand, not tariffs]] · _Does a purchase-commitment deal push China b..._
+- **2020-01** [[The capacity to deliver purchases is the same capacity that can withdraw them]] · _Lessons From Phase One of the Trade War With..._
+- **2020-07** [[A deal with numerical targets may be judged on those targets alone]] · _Slouching Toward Phase One_
+- **2025-09** [[Tax- and finance-driven flows (pharmaceuticals, gold) are noise; core trade is the real]] · _The Trump Shock That Wasn't (At Least Not Yet)_
+- **2026-07** [[The surge in Chinese gold imports reflects asset purchases unrelated to domestic demand]] · _Is China’s Surplus Really Shrinking?_
+
+### other_explanation (5)
+
+- **2019-05** [[Private-buyer explanation autos]] · _Does a purchase-commitment deal push China b..._
+- **2020-07** [[The aircraft collapse is exogenous — the largest category fell with the 737 MAX]] · _Slouching Toward Phase One_
+- **2025-09** [[Waiting for tariff relief (autos) replaces front-running; other exporters can take U.S.]] · _The Trump Shock That Wasn't (At Least Not Yet)_
+- **2026-02** [[Auto imports fell along with auto sales weaker demand rather than more U.S. production]] · _Understanding the Low October 2025 Trade Def..._
+- **2026-08** [[Industrial policy and a domestic market rigged against imports also drove China's export]] · _The World Should Not Ignore China’s Underval..._
+
 ### evidence_source (4)
 
 - **2020-01** [[His own Senate testimony; Toloui on balance-sheet policy; the Economist on managed trade]] · _Lessons From Phase One of the Trade War With..._
@@ -131,26 +144,12 @@ Sits in the middle of arguments - as much argued toward as argued from.
 - **2025-09** [[New York Times reporting; U.S. trade data; federal court ruling on tariff authority]] · _The Trump Shock That Wasn't (At Least Not Yet)_
 - **2026-02** [[U.S. trade data; Section 232 semiconductor investigation]] · _Understanding the Low October 2025 Trade Def..._
 
-### hidden_assumption (4)
-
-- **2019-05** [[Managed trade means control of end demand, not tariffs]] · _Does a purchase-commitment deal push China b..._
-- **2020-01** [[The capacity to deliver purchases is the same capacity that can withdraw them]] · _Lessons From Phase One of the Trade War With..._
-- **2020-07** [[A deal with numerical targets may be judged on those targets alone]] · _Slouching Toward Phase One_
-- **2025-09** [[Tax- and finance-driven flows (pharmaceuticals, gold) are noise; core trade is the real]] · _The Trump Shock That Wasn't (At Least Not Yet)_
-
 ### question (4)
 
 - **2019-05** [[Does a purchase-commitment deal push China back toward managed trade]] · _Does a purchase-commitment deal push China b..._
 - **2020-01** [[How did China choose to respond to tariff pressure, and what does that reveal]] · _Lessons From Phase One of the Trade War With..._
 - **2020-07** [[Is China on track to meet its Phase One purchase commitments]] · _Slouching Toward Phase One_
 - **2025-09** [[Have Trump's tariffs actually shocked trade flows and the global economy]] · _The Trump Shock That Wasn't (At Least Not Yet)_
-
-### other_explanation (4)
-
-- **2019-05** [[Private-buyer explanation autos]] · _Does a purchase-commitment deal push China b..._
-- **2020-07** [[The aircraft collapse is exogenous — the largest category fell with the 737 MAX]] · _Slouching Toward Phase One_
-- **2025-09** [[Waiting for tariff relief (autos) replaces front-running; other exporters can take U.S.]] · _The Trump Shock That Wasn't (At Least Not Yet)_
-- **2026-02** [[Auto imports fell along with auto sales weaker demand rather than more U.S. production]] · _Understanding the Low October 2025 Trade Def..._
 
 ### opposing_view (4)
 

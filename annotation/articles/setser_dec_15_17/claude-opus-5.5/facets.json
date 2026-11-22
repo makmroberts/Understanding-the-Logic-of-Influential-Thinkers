@@ -12,6 +12,15 @@
   {
    "doc": "setser_dec_15_17",
    "node_id": "Q",
+   "facet": "variable",
+   "value": "domestic-demand",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_dec_15_17",
+   "node_id": "Q",
    "facet": "country",
    "value": "us",
    "role": "subject",
@@ -39,33 +48,6 @@
   {
    "doc": "setser_dec_15_17",
    "node_id": "X",
-   "facet": "country",
-   "value": "us",
-   "role": "subject",
-   "source": "llm",
-   "model": "anthropic/claude-opus-5.5"
-  },
-  {
-   "doc": "setser_dec_15_17",
-   "node_id": "QF",
-   "facet": "variable",
-   "value": "goods-trade-balance",
-   "role": "",
-   "source": "llm",
-   "model": "anthropic/claude-opus-5.5"
-  },
-  {
-   "doc": "setser_dec_15_17",
-   "node_id": "QF",
-   "facet": "data_basis",
-   "value": "customs",
-   "role": "",
-   "source": "llm",
-   "model": "anthropic/claude-opus-5.5"
-  },
-  {
-   "doc": "setser_dec_15_17",
-   "node_id": "QF",
    "facet": "country",
    "value": "us",
    "role": "subject",
@@ -122,15 +104,6 @@
    "node_id": "ID",
    "facet": "variable",
    "value": "domestic-demand",
-   "role": "",
-   "source": "llm",
-   "model": "anthropic/claude-opus-5.5"
-  },
-  {
-   "doc": "setser_dec_15_17",
-   "node_id": "ID",
-   "facet": "variable",
-   "value": "goods-trade-balance",
    "role": "",
    "source": "llm",
    "model": "anthropic/claude-opus-5.5"
@@ -183,15 +156,6 @@
   {
    "doc": "setser_dec_15_17",
    "node_id": "P3",
-   "facet": "variable",
-   "value": "domestic-demand",
-   "role": "",
-   "source": "llm",
-   "model": "anthropic/claude-opus-5.5"
-  },
-  {
-   "doc": "setser_dec_15_17",
-   "node_id": "P3",
    "facet": "country",
    "value": "us",
    "role": "subject",
@@ -200,25 +164,16 @@
   },
   {
    "doc": "setser_dec_15_17",
-   "node_id": "M1",
+   "node_id": "C1",
    "facet": "variable",
-   "value": "nominal-exchange-rate",
+   "value": "goods-trade-balance",
    "role": "",
    "source": "llm",
    "model": "anthropic/claude-opus-5.5"
   },
   {
    "doc": "setser_dec_15_17",
-   "node_id": "M1",
-   "facet": "variable",
-   "value": "export-volumes",
-   "role": "",
-   "source": "llm",
-   "model": "anthropic/claude-opus-5.5"
-  },
-  {
-   "doc": "setser_dec_15_17",
-   "node_id": "M1",
+   "node_id": "C1",
    "facet": "variable",
    "value": "commodity-prices",
    "role": "",
@@ -227,7 +182,16 @@
   },
   {
    "doc": "setser_dec_15_17",
-   "node_id": "M1",
+   "node_id": "C1",
+   "facet": "variable",
+   "value": "nominal-exchange-rate",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_dec_15_17",
+   "node_id": "C1",
    "facet": "country",
    "value": "us",
    "role": "subject",
@@ -236,7 +200,7 @@
   },
   {
    "doc": "setser_dec_15_17",
-   "node_id": "C1",
+   "node_id": "C5",
    "facet": "variable",
    "value": "goods-trade-balance",
    "role": "",
@@ -245,7 +209,7 @@
   },
   {
    "doc": "setser_dec_15_17",
-   "node_id": "C1",
+   "node_id": "C5",
    "facet": "variable",
    "value": "domestic-demand",
    "role": "",
@@ -254,7 +218,7 @@
   },
   {
    "doc": "setser_dec_15_17",
-   "node_id": "C1",
+   "node_id": "C5",
    "facet": "country",
    "value": "us",
    "role": "subject",
@@ -263,7 +227,7 @@
   },
   {
    "doc": "setser_dec_15_17",
-   "node_id": "QF2",
+   "node_id": "C2",
    "facet": "variable",
    "value": "export-volumes",
    "role": "",
@@ -272,36 +236,9 @@
   },
   {
    "doc": "setser_dec_15_17",
-   "node_id": "QF2",
-   "facet": "variable",
-   "value": "gdp-growth",
-   "role": "",
-   "source": "llm",
-   "model": "anthropic/claude-opus-5.5"
-  },
-  {
-   "doc": "setser_dec_15_17",
-   "node_id": "QF2",
-   "facet": "country",
-   "value": "us",
-   "role": "subject",
-   "source": "llm",
-   "model": "anthropic/claude-opus-5.5"
-  },
-  {
-   "doc": "setser_dec_15_17",
    "node_id": "C2",
    "facet": "variable",
-   "value": "manufacturing-employment",
-   "role": "",
-   "source": "llm",
-   "model": "anthropic/claude-opus-5.5"
-  },
-  {
-   "doc": "setser_dec_15_17",
-   "node_id": "C2",
-   "facet": "variable",
-   "value": "goods-trade-balance",
+   "value": "trade-openness",
    "role": "",
    "source": "llm",
    "model": "anthropic/claude-opus-5.5"
@@ -317,7 +254,7 @@
   },
   {
    "doc": "setser_dec_15_17",
-   "node_id": "E2",
+   "node_id": "P1",
    "facet": "variable",
    "value": "manufacturing-employment",
    "role": "",
@@ -328,17 +265,8 @@
    "doc": "setser_dec_15_17",
    "node_id": "E2",
    "facet": "variable",
-   "value": "manufacturing-trade-balance",
+   "value": "manufacturing-employment",
    "role": "",
-   "source": "llm",
-   "model": "anthropic/claude-opus-5.5"
-  },
-  {
-   "doc": "setser_dec_15_17",
-   "node_id": "E2",
-   "facet": "country",
-   "value": "us",
-   "role": "subject",
    "source": "llm",
    "model": "anthropic/claude-opus-5.5"
   },
@@ -353,7 +281,16 @@
   },
   {
    "doc": "setser_dec_15_17",
-   "node_id": "M2",
+   "node_id": "E2",
+   "facet": "country",
+   "value": "us",
+   "role": "counterpart",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_dec_15_17",
+   "node_id": "M1",
    "facet": "variable",
    "value": "manufacturing-trade-balance",
    "role": "",
@@ -362,7 +299,7 @@
   },
   {
    "doc": "setser_dec_15_17",
-   "node_id": "M2",
+   "node_id": "M1",
    "facet": "variable",
    "value": "manufacturing-employment",
    "role": "",
@@ -371,7 +308,7 @@
   },
   {
    "doc": "setser_dec_15_17",
-   "node_id": "M2",
+   "node_id": "M1",
    "facet": "bloc",
    "value": "global",
    "role": "subject",
@@ -434,6 +371,15 @@
   },
   {
    "doc": "setser_dec_15_17",
+   "node_id": "M2",
+   "facet": "variable",
+   "value": "manufacturing-employment",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_dec_15_17",
    "node_id": "E4",
    "facet": "variable",
    "value": "net-external-debt",
@@ -445,16 +391,7 @@
    "doc": "setser_dec_15_17",
    "node_id": "E4",
    "facet": "variable",
-   "value": "current-account",
-   "role": "",
-   "source": "llm",
-   "model": "anthropic/claude-opus-5.5"
-  },
-  {
-   "doc": "setser_dec_15_17",
-   "node_id": "E4",
-   "facet": "data_basis",
-   "value": "academic-econometrics",
+   "value": "goods-trade-balance",
    "role": "",
    "source": "llm",
    "model": "anthropic/claude-opus-5.5"
@@ -525,6 +462,42 @@
   {
    "doc": "setser_dec_15_17",
    "node_id": "M3",
+   "facet": "country",
+   "value": "us",
+   "role": "subject",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_dec_15_17",
+   "node_id": "C4",
+   "facet": "variable",
+   "value": "net-external-debt",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_dec_15_17",
+   "node_id": "C4",
+   "facet": "variable",
+   "value": "interest-rates",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_dec_15_17",
+   "node_id": "C4",
+   "facet": "variable",
+   "value": "fiscal-balance",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_dec_15_17",
+   "node_id": "C4",
    "facet": "instrument",
    "value": "monetary-policy",
    "role": "",
@@ -533,7 +506,7 @@
   },
   {
    "doc": "setser_dec_15_17",
-   "node_id": "M3",
+   "node_id": "C4",
    "facet": "instrument",
    "value": "fiscal-policy",
    "role": "",
@@ -542,25 +515,7 @@
   },
   {
    "doc": "setser_dec_15_17",
-   "node_id": "M3",
-   "facet": "country",
-   "value": "us",
-   "role": "subject",
-   "source": "llm",
-   "model": "anthropic/claude-opus-5.5"
-  },
-  {
-   "doc": "setser_dec_15_17",
-   "node_id": "P1",
-   "facet": "variable",
-   "value": "net-external-debt",
-   "role": "",
-   "source": "llm",
-   "model": "anthropic/claude-opus-5.5"
-  },
-  {
-   "doc": "setser_dec_15_17",
-   "node_id": "P1",
+   "node_id": "C4",
    "facet": "country",
    "value": "us",
    "role": "subject",
@@ -597,15 +552,6 @@
   {
    "doc": "setser_dec_15_17",
    "node_id": "E3",
-   "facet": "data_basis",
-   "value": "imf-publications",
-   "role": "",
-   "source": "llm",
-   "model": "anthropic/claude-opus-5.5"
-  },
-  {
-   "doc": "setser_dec_15_17",
-   "node_id": "E3",
    "facet": "country",
    "value": "us",
    "role": "subject",
@@ -616,7 +562,7 @@
    "doc": "setser_dec_15_17",
    "node_id": "P2",
    "facet": "variable",
-   "value": "trade-openness",
+   "value": "net-external-debt",
    "role": "",
    "source": "llm",
    "model": "anthropic/claude-opus-5.5"
@@ -625,32 +571,32 @@
    "doc": "setser_dec_15_17",
    "node_id": "P2",
    "facet": "variable",
-   "value": "goods-trade-balance",
+   "value": "current-account",
    "role": "",
    "source": "llm",
    "model": "anthropic/claude-opus-5.5"
   },
   {
    "doc": "setser_dec_15_17",
-   "node_id": "P2",
-   "facet": "instrument",
-   "value": "trade-agreements",
+   "node_id": "QF",
+   "facet": "variable",
+   "value": "net-external-debt",
    "role": "",
    "source": "llm",
    "model": "anthropic/claude-opus-5.5"
   },
   {
    "doc": "setser_dec_15_17",
-   "node_id": "P2",
-   "facet": "instrument",
-   "value": "tariffs",
+   "node_id": "QF",
+   "facet": "variable",
+   "value": "capital-flows",
    "role": "",
    "source": "llm",
    "model": "anthropic/claude-opus-5.5"
   },
   {
    "doc": "setser_dec_15_17",
-   "node_id": "P2",
+   "node_id": "QF",
    "facet": "country",
    "value": "us",
    "role": "subject",
@@ -670,7 +616,7 @@
    "doc": "setser_dec_15_17",
    "node_id": "X2",
    "facet": "variable",
-   "value": "current-account",
+   "value": "net-external-debt",
    "role": "",
    "source": "llm",
    "model": "anthropic/claude-opus-5.5"
@@ -686,7 +632,7 @@
   },
   {
    "doc": "setser_dec_15_17",
-   "node_id": "QF3",
+   "node_id": "QF2",
    "facet": "variable",
    "value": "services-balance",
    "role": "",
@@ -695,7 +641,16 @@
   },
   {
    "doc": "setser_dec_15_17",
-   "node_id": "QF3",
+   "node_id": "QF2",
+   "facet": "variable",
+   "value": "investment-income-balance",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_dec_15_17",
+   "node_id": "QF2",
    "facet": "variable",
    "value": "current-account",
    "role": "",
@@ -704,7 +659,7 @@
   },
   {
    "doc": "setser_dec_15_17",
-   "node_id": "QF3",
+   "node_id": "QF2",
    "facet": "data_basis",
    "value": "balance-of-payments",
    "role": "",
@@ -713,7 +668,52 @@
   },
   {
    "doc": "setser_dec_15_17",
-   "node_id": "QF3",
+   "node_id": "QF2",
+   "facet": "country",
+   "value": "us",
+   "role": "subject",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_dec_15_17",
+   "node_id": "C6",
+   "facet": "variable",
+   "value": "trade-openness",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_dec_15_17",
+   "node_id": "C6",
+   "facet": "variable",
+   "value": "goods-trade-balance",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_dec_15_17",
+   "node_id": "C6",
+   "facet": "instrument",
+   "value": "tariffs",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_dec_15_17",
+   "node_id": "C6",
+   "facet": "instrument",
+   "value": "trade-agreements",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_dec_15_17",
+   "node_id": "C6",
    "facet": "country",
    "value": "us",
    "role": "subject",
@@ -758,7 +758,10 @@
   }
  ],
  "review": [
-  "`setser_dec_15_17#ID` where_subject empty - every claim needs a country or a bloc (assignment.requires_one_of) - needs review"
+  "`setser_dec_15_17#ID` where_subject empty - every claim needs a country or a bloc (assignment.requires_one_of) - needs review",
+  "`setser_dec_15_17#P1` where_subject empty - every claim needs a country or a bloc (assignment.requires_one_of) - needs review",
+  "`setser_dec_15_17#M2` where_subject empty - every claim needs a country or a bloc (assignment.requires_one_of) - needs review",
+  "`setser_dec_15_17#P2` where_subject empty - every claim needs a country or a bloc (assignment.requires_one_of) - needs review"
  ],
  "gaps_left": [],
  "dropped": [],

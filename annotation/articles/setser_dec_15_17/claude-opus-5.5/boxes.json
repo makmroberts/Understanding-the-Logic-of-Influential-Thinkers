@@ -1,8 +1,8 @@
 {
  "result": [
   {
-   "excerpt": "But I still think it is a variable worth watching.",
-   "claim": "Does the trade balance still matter, even though a wider deficit can signal strong demand and the monthly data are noisy?",
+   "excerpt": "Yet I think the trade balance matters for three reasons:",
+   "claim": "Does the trade balance still matter for the US economy, given that its deficit is now only about 3 percent of GDP and a widening deficit can signal strong demand?",
    "role": "question",
    "explicit": false,
    "kind": "none",
@@ -10,82 +10,91 @@
    "paragraphs": [
     1,
     2,
-    3
+    3,
+    5
    ],
-   "reason": "A widely cited indicator deserves scrutiny of whether it carries real economic information.",
-   "excerpt_para": 2,
+   "reason": "A variable deserves attention if it affects output, the distribution of jobs, or financial sustainability.",
+   "excerpt_para": 5,
+   "excerpt_spans": [
+    {
+     "char_start": 0,
+     "char_end": 56
+    }
+   ],
    "id": "Q",
    "level": "L0"
   },
   {
-   "excerpt": "a widening of the trade deficit (as happened in October, in a reasonably big way) can reflect a strengthening economy, as higher imports are often a sign of stronger demand growth",
-   "claim": "Some argue the trade deficit is not worth watching because a widening deficit often reflects strong domestic demand rather than weakness.",
+   "excerpt": "They note, correctly, that a widening of the trade deficit (as happened in October, in a reasonably big way) can reflect a strengthening economy",
+   "claim": "Some commentators argue the trade deficit is not worth watching because widening deficits often reflect strong demand growth.",
    "role": "opposing_view",
    "explicit": true,
    "kind": "none",
    "claim_type": "none",
    "paragraphs": [
-    3
+    3,
+    10
    ],
-   "reason": "An indicator that moves with both good and bad news can seem uninformative.",
+   "reason": "A correlation between deficits and strong demand does not show that deficits are irrelevant.",
    "excerpt_para": 3,
+   "excerpt_spans": [
+    {
+     "char_start": 27,
+     "char_end": 171
+    }
+   ],
    "id": "X",
    "level": "L6"
   },
   {
-   "excerpt": "the monthly release is quite noisy (aircraft exports jump around from month to month as do net oil imports",
-   "claim": "The author concedes the monthly trade data are noisy and should be read as part of a time series rather than as a snapshot.",
-   "role": "caveat",
-   "explicit": true,
-   "kind": "none",
-   "claim_type": "none",
-   "paragraphs": [
-    4,
-    13
-   ],
-   "reason": "Volatile high-frequency data should be interpreted through trends, not single prints.",
-   "excerpt_para": 4,
-   "id": "QF",
-   "level": "L6"
-  },
-  {
-   "excerpt": "Yet I think the trade balance matters for three reasons:",
-   "claim": "The trade balance matters for three reasons: its effect on GDP growth, its effect on the composition of employment, and its effect on external debt dynamics.",
+   "excerpt": "Changes in net exports can have an impact on GDP",
+   "claim": "The trade balance matters for three reasons: its effect on GDP growth, on the sectoral and regional composition of employment, and on external debt sustainability.",
    "role": "main_claim",
    "explicit": true,
    "kind": "none",
    "claim_type": "enumerated",
    "paragraphs": [
     5,
-    9,
-    25,
-    33
+    6,
+    7,
+    8
    ],
-   "reason": "A variable matters if it independently shapes growth, employment structure, or solvency.",
-   "excerpt_para": 5,
+   "reason": "A variable matters if it affects growth, jobs and debt dynamics.",
+   "excerpt_para": 6,
+   "excerpt_spans": [
+    {
+     "char_start": 0,
+     "char_end": 48
+    }
+   ],
    "id": "K",
    "level": "L5"
   },
   {
    "excerpt": "An acceleration of demand that isn’t matched by a widening of the trade deficit results, mechanically, in a faster expansion.",
-   "claim": "By the GDP identity, output growth equals domestic demand growth plus the contribution of net exports, so a wider deficit subtracts from growth for a given level of demand.",
+   "claim": "Output growth equals domestic demand growth minus the drag from net exports, so a given demand impulse yields more growth when the trade deficit doesn't widen.",
    "role": "accounting_identity",
    "explicit": true,
    "kind": "none",
    "claim_type": "none",
    "paragraphs": [
     10,
-    12,
-    14
+    12
    ],
-   "reason": "Output equals domestic demand plus net exports.",
+   "reason": "GDP equals domestic demand plus net exports by definition.",
    "excerpt_para": 12,
+   "excerpt_spans": [
+    {
+     "char_start": 0,
+     "char_end": 125
+    }
+   ],
    "id": "ID",
    "level": "L1"
   },
   {
    "excerpt": "From the end of q4 2013 to the end of q4 2016, net exports subtracted about 1.5 percentage points from U.S. growth",
-   "claim": "Net exports subtracted about 1.5 points from growth over 2013–16, so 2.7 percent demand growth yielded about 2 percent GDP growth, while in Q2–Q3 2017 similar demand growth with no trade drag produced close to 3 percent growth.",
+   "claim": "Net exports cut about 1.5 points from growth over 2014-2016; with 2.7 percent average demand contribution, growth would have been near 3 rather than 2 percent; in q2-q3 2017 demand was similar but no trade drag left growth near 3 percent.",
    "role": "evidence_data",
    "explicit": true,
    "kind": "none",
@@ -96,14 +105,20 @@
     16,
     18
    ],
-   "reason": "Decomposing growth into contributions reveals how much trade drag costs.",
+   "reason": "Decomposing growth into contributions shows which component drove changes.",
    "excerpt_para": 15,
+   "excerpt_spans": [
+    {
+     "char_start": 0,
+     "char_end": 114
+    }
+   ],
    "id": "E1",
    "level": "L2"
   },
   {
    "excerpt": "At least in 2014 and 2015 the U.S. economy still had some slack, so a smaller drag from trade likely would have meant a faster pace of growth.",
-   "claim": "The argument requires that the economy had slack, so that output lost to trade drag would not have been offset by other demand.",
+   "claim": "The trade drag would only have translated into lost growth if the economy had slack rather than being supply-constrained.",
    "role": "hidden_assumption",
    "explicit": false,
    "kind": "none",
@@ -112,31 +127,42 @@
     15,
     16
    ],
-   "reason": "The counterfactual growth gain from trade holds only when the economy has spare capacity.",
+   "reason": "Demand leakages reduce output only when the economy is below capacity.",
    "excerpt_para": 15,
+   "excerpt_spans": [
+    {
+     "char_start": 198,
+     "char_end": 340
+    }
+   ],
    "id": "P3",
    "level": "L1"
   },
   {
-   "excerpt": "in part because the “headline” trade deficit was more or less flat because of the fall in the price of oil.",
-   "claim": "A strong dollar cut exports and widened the real non-oil deficit, but falling oil prices kept the headline deficit flat and masked the drag.",
-   "role": "mechanism",
+   "excerpt": "I actually think the change in the “real” trade balance (especially the non-petrol balance) during this period didn’t get enough attention",
+   "claim": "The real non-oil trade deterioration during the strong dollar period was underappreciated because falling oil prices kept the headline deficit flat.",
+   "role": "intermediate_claim",
    "explicit": true,
-   "kind": "distortion",
+   "kind": "none",
    "claim_type": "none",
    "paragraphs": [
-    15,
     17
    ],
-   "reason": "Price effects on one component can hide volume shifts in the headline balance.",
+   "reason": "Price effects in one category can mask volume shifts in another.",
    "excerpt_para": 17,
-   "id": "M1",
-   "level": "L3"
+   "excerpt_spans": [
+    {
+     "char_start": 0,
+     "char_end": 138
+    }
+   ],
+   "id": "C1",
+   "level": "L4"
   },
   {
    "excerpt": "Sometimes a widening of the deficit can reflect excessive domestic demand growth (overheating)",
-   "claim": "A widening deficit is not always good news: it can reflect unsustainable overheating, and a falling deficit can come from strong exports or rising domestic production such as tight oil.",
-   "role": "intermediate_claim",
+   "claim": "Deficit changes are ambiguous: widening can signal overheating, and narrowing can reflect export growth or rising domestic production such as tight oil rather than weak demand.",
+   "role": "case_type",
    "explicit": true,
    "kind": "none",
    "claim_type": "none",
@@ -146,15 +172,21 @@
     21,
     22
    ],
-   "reason": "The same balance movement can arise from different causes with different welfare implications.",
+   "reason": "The same trade movement can arise from different underlying causes with different implications.",
    "excerpt_para": 19,
-   "id": "C1",
+   "excerpt_spans": [
+    {
+     "char_start": 91,
+     "char_end": 185
+    }
+   ],
+   "id": "C5",
    "level": "L4"
   },
   {
    "excerpt": "The U.S. export sector (sadly) is also quite small, so mechanically it is hard to get a big boost to growth from exports.",
-   "claim": "The U.S. is demand-driven with a small export sector, unlike Germany and Korea, which have grown through rising exports; net exports helped during the crisis but not in the recovery.",
-   "role": "caveat",
+   "claim": "The US is a demand-driven economy whose small export sector limits export-led growth, unlike Germany or Korea.",
+   "role": "intermediate_claim",
    "explicit": true,
    "kind": "none",
    "claim_type": "none",
@@ -162,15 +194,21 @@
     23,
     24
    ],
-   "reason": "The growth leverage of exports scales with the export share of output.",
+   "reason": "A sector's contribution to growth is bounded by its share of output.",
    "excerpt_para": 24,
-   "id": "QF2",
-   "level": "L6"
+   "excerpt_spans": [
+    {
+     "char_start": 0,
+     "char_end": 121
+    }
+   ],
+   "id": "C2",
+   "level": "L4"
   },
   {
-   "excerpt": "The trade deficit thus impacts the distribution of employment, not the absolute level of employment.",
-   "claim": "At full employment the trade deficit affects the distribution of jobs across sectors, not total employment.",
-   "role": "intermediate_claim",
+   "excerpt": "Today the U.S. is at or close to full employment even with an ongoing trade deficit. The trade deficit thus impacts the distribution of employment, not the absolute level of employment.",
+   "claim": "At full employment the trade deficit shapes where and in what sectors people work rather than how many work.",
+   "role": "stated_assumption",
    "explicit": true,
    "kind": "none",
    "claim_type": "none",
@@ -178,31 +216,42 @@
     25,
     26
    ],
-   "reason": "When labor is fully employed, demand shifts reallocate jobs rather than create them.",
+   "reason": "At full employment, demand shifts reallocate labor rather than change its total.",
    "excerpt_para": 26,
-   "id": "C2",
-   "level": "L4"
+   "excerpt_spans": [
+    {
+     "char_start": 0,
+     "char_end": 185
+    }
+   ],
+   "id": "P1",
+   "level": "L1"
   },
   {
    "excerpt": "Manufacturing is twenty percent of employment in Germany, compared to around ten percent in the U.S.",
-   "claim": "Manufacturing is about 20 percent of employment in Germany versus about 10 percent in the U.S., despite Germany and Japan's heavy use of robots; the U.S. runs a manufacturing deficit of about 5 percent of GDP, while the eurozone runs a surplus of about 4 percent.",
+   "claim": "Manufacturing employment shares vary widely across advanced economies: about 20 percent in Germany versus 10 percent in the US, despite similar or greater automation in Germany and Japan.",
    "role": "evidence_data",
    "explicit": true,
    "kind": "none",
    "claim_type": "none",
    "paragraphs": [
     27,
-    28,
-    30
+    28
    ],
-   "reason": "Cross-country comparisons with similar technology isolate the role of trade.",
+   "reason": "Cross-country variation with similar technology points to a non-technological cause.",
    "excerpt_para": 28,
+   "excerpt_spans": [
+    {
+     "char_start": 262,
+     "char_end": 362
+    }
+   ],
    "id": "E2",
    "level": "L2"
   },
   {
    "excerpt": "Variation in the trade balance—not technology—clearly explains much of the current variation in manufacturing’s share of employment.",
-   "claim": "Manufacturing trade surpluses and deficits, rather than automation, explain much of the cross-country variation in manufacturing's share of employment.",
+   "claim": "Manufacturing surpluses in Germany and Japan and deficits in the US and UK explain much of the difference in manufacturing employment shares.",
    "role": "mechanism",
    "explicit": true,
    "kind": "economic",
@@ -211,14 +260,20 @@
     29,
     30
    ],
-   "reason": "Net external demand for a sector's output sustains employment in that sector.",
+   "reason": "Net external demand for a sector's output determines how many workers it employs.",
    "excerpt_para": 30,
-   "id": "M2",
+   "excerpt_spans": [
+    {
+     "char_start": 241,
+     "char_end": 373
+    }
+   ],
+   "id": "M1",
    "level": "L3"
   },
   {
    "excerpt": "As many have noted, high productivity growth in manufacturing has reduced manufacturing’s share of employment around the world.",
-   "claim": "Productivity growth explains the global decline in manufacturing employment, a rival cause the author accepts for the trend but not for the cross-country differences.",
+   "claim": "Productivity growth explains the global decline in manufacturing's share of employment, but not the cross-country differences.",
    "role": "other_explanation",
    "explicit": true,
    "kind": "none",
@@ -226,14 +281,20 @@
    "paragraphs": [
     27
    ],
-   "reason": "A common global shock cannot explain cross-country dispersion.",
+   "reason": "A common global cause cannot explain differences between countries.",
    "excerpt_para": 27,
+   "excerpt_spans": [
+    {
+     "char_start": 0,
+     "char_end": 127
+    }
+   ],
    "id": "R1",
    "level": "L6"
   },
   {
-   "excerpt": "It has come rather through a rise in the offshore income of U.S. firms",
-   "claim": "The U.S. current account adjustment since 2005 came from offshore income and the petroleum balance, not manufacturing, so manufacturing regions did not revive while IP hubs like the Bay Area boomed.",
+   "excerpt": "the adjustment that has brought the U.S. current account deficit down from its 2004-2005 peak has not come through a swing in the manufacturing balance.",
+   "claim": "The US current account adjustment came through offshore income and the petroleum balance rather than manufacturing, so manufacturing regions saw no renaissance while IP-producing regions boomed.",
    "role": "intermediate_claim",
    "explicit": true,
    "kind": "none",
@@ -242,30 +303,64 @@
     31,
     32
    ],
-   "reason": "Which component of the balance adjusts determines which regions gain.",
+   "reason": "Which components adjust determines which regions gain.",
    "excerpt_para": 31,
+   "excerpt_spans": [
+    {
+     "char_start": 53,
+     "char_end": 205
+    }
+   ],
    "id": "C3",
    "level": "L4"
   },
   {
-   "excerpt": "a 5-6 percent of GDP trade deficit does lead to steady increases in the U.S. external debt stock",
-   "claim": "Persistent large deficits accumulate into external debt, and the household borrowing needed to offset the demand drain helped cause the crisis, as Setser and Roubini argued in 2004.",
+   "excerpt": "the impact of a negative shock on any given region can be persistent: factories are closed and the relevant sector-specific skills atrophy",
+   "claim": "Trade shocks have lasting regional effects because closed factories and atrophied sector-specific skills are not quickly replaced.",
+   "role": "mechanism",
+   "explicit": true,
+   "kind": "economic",
+   "claim_type": "none",
+   "paragraphs": [
+    7
+   ],
+   "reason": "Sector-specific capital and skills make adjustment to shocks slow and local.",
+   "excerpt_para": 7,
+   "excerpt_spans": [
+    {
+     "char_start": 277,
+     "char_end": 415
+    }
+   ],
+   "id": "M2",
+   "level": "L3"
+  },
+  {
+   "excerpt": "I think we were broadly right—a 5-6 percent of GDP trade deficit does lead to steady increases in the U.S. external debt stock",
+   "claim": "His 2004 argument with Roubini was broadly right: large deficits raised external debt and required a household borrowing boom that led to the crisis.",
    "role": "evidence_source",
    "explicit": true,
    "kind": "none",
    "claim_type": "none",
    "paragraphs": [
+    2,
     34,
     35
    ],
-   "reason": "Sustained deficits must be financed by rising net external liabilities.",
+   "reason": "Sustained deficits must be financed by accumulating external liabilities.",
    "excerpt_para": 35,
+   "excerpt_spans": [
+    {
+     "char_start": 0,
+     "char_end": 126
+    }
+   ],
    "id": "E4",
    "level": "L2"
   },
   {
-   "excerpt": "We did though get one thing very wrong: we worried that rising external debt would ultimately raise the United States’ external cost of borrowing.",
-   "claim": "The author admits he wrongly expected rising external debt to raise U.S. borrowing costs; instead debt rose from 20 to 50 percent of GDP while the rate fell from 4 to 2 percent, leaving the interest burden flat.",
+   "excerpt": "We did though get one thing very wrong: we worried that rising external debt would ultimately raise the United States’ external cost of borrowing. That didn’t happen.",
+   "claim": "He wrongly expected rising external debt to raise US borrowing costs; instead debt rose from 20 to 50 percent of GDP while the average rate fell from about 4 to 2 percent, keeping interest burden constant.",
    "role": "revised_prior",
    "explicit": true,
    "kind": "none",
@@ -273,32 +368,88 @@
    "paragraphs": [
     36
    ],
-   "reason": "Forecasts about debt costs should be checked against realized interest burdens.",
+   "reason": "Debt burden depends on interest rates as well as the debt stock.",
    "excerpt_para": 36,
+   "excerpt_spans": [
+    {
+     "char_start": 0,
+     "char_end": 166
+    }
+   ],
    "id": "P4",
    "level": "L1"
   },
   {
-   "excerpt": "nominal growth exceeds the nominal interest rate the U.S. pays on its external debt—creating favorable intrinsic debt dynamics.",
-   "claim": "The external debt ratio stays stable only because offshore income offsets interest costs and growth exceeds the interest rate; Fed tightening or tax-cut-driven deficits would push it up again.",
+   "excerpt": "a sizeable trade deficit is consistent with a close-to-stable external debt-to-GDP ratio because the offshore income U.S. firms generate offsets the interest burden, and nominal growth exceeds the nominal interest rate",
+   "claim": "External debt-to-GDP is stable only because offshore income offsets interest and nominal growth exceeds the interest rate.",
    "role": "mechanism",
    "explicit": true,
    "kind": "economic",
    "claim_type": "none",
    "paragraphs": [
-    37,
-    38,
     39,
-    40
+    48
    ],
-   "reason": "A debt ratio is stable when the primary balance plus the growth-interest gap offset each other.",
+   "reason": "Debt ratios stabilize when the primary balance and the growth-interest gap offset each other.",
    "excerpt_para": 39,
+   "excerpt_spans": [
+    {
+     "char_start": 11,
+     "char_end": 229
+    }
+   ],
    "id": "M3",
    "level": "L3"
   },
   {
+   "excerpt": "A 3 percent of GDP trade deficit isn’t necessary quite as sustainable as some now think.",
+   "claim": "Fed tightening or tax-cut-driven deficit widening would put US external debt back on a rising path, making the current deficit precarious.",
+   "role": "intermediate_claim",
+   "explicit": true,
+   "kind": "none",
+   "claim_type": "none",
+   "paragraphs": [
+    8,
+    37,
+    38,
+    40
+   ],
+   "reason": "Favorable debt dynamics reverse when rates rise or primary deficits widen.",
+   "excerpt_para": 8,
+   "excerpt_spans": [
+    {
+     "char_start": 0,
+     "char_end": 88
+    }
+   ],
+   "id": "C4",
+   "level": "L4"
+  },
+  {
+   "excerpt": "I think it is reasonable to expect a widening of the trade deficit of between 0.3 and 0.5 percentage points of GDP over the next several years.",
+   "claim": "Front-loaded tax cuts widening the fiscal deficit by 1.3-1.4 percent of GDP should widen the trade deficit by 0.3-0.5 points.",
+   "role": "evidence_data",
+   "explicit": true,
+   "kind": "none",
+   "claim_type": "none",
+   "paragraphs": [
+    6,
+    43
+   ],
+   "reason": "Fiscal expansion spills into imports, widening the external deficit.",
+   "excerpt_para": 43,
+   "excerpt_spans": [
+    {
+     "char_start": 274,
+     "char_end": 417
+    }
+   ],
+   "id": "E3",
+   "level": "L2"
+  },
+  {
    "excerpt": "personally I think external debt tends to be more of a source of risk than domestic fiscal debt",
-   "claim": "The author takes as given that external debt is riskier than domestic public debt, while conceding that the dollar's global role lets the U.S. carry more of it.",
+   "claim": "External debt is riskier than domestic debt, so a 50 percent net external debt economy should not run 4-5 percent deficits.",
    "role": "stated_assumption",
    "explicit": true,
    "kind": "none",
@@ -306,46 +457,41 @@
    "paragraphs": [
     41
    ],
-   "reason": "Debt owed to foreigners carries more risk than debt owed to residents.",
+   "reason": "Obligations to foreign creditors carry more risk than debts owed domestically.",
    "excerpt_para": 41,
-   "id": "P1",
-   "level": "L1"
-  },
-  {
-   "excerpt": "I think it is reasonable to expect a widening of the trade deficit of between 0.3 and 0.5 percentage points of GDP",
-   "claim": "The front-loaded tax cut, which widens the fiscal deficit by 1.3 to 1.4 percent of GDP per the JCT, should widen the trade deficit by 0.3 to 0.5 points of GDP, less than the IMF model implies.",
-   "role": "evidence_data",
-   "explicit": true,
-   "kind": "none",
-   "claim_type": "none",
-   "paragraphs": [
-    19,
-    41,
-    43
+   "excerpt_spans": [
+    {
+     "char_start": 4,
+     "char_end": 99
+    }
    ],
-   "reason": "Fiscal expansion spills partly into imports via standard coefficients.",
-   "excerpt_para": 43,
-   "id": "E3",
-   "level": "L2"
-  },
-  {
-   "excerpt": "Measures that raise trade integration should raise the absolute level of trade more than they change the trade balance.",
-   "claim": "Trade policy changes the level of trade more than the balance, so the deficit could rise even if the U.S. leaves NAFTA or acts against China.",
-   "role": "stated_assumption",
-   "explicit": true,
-   "kind": "none",
-   "claim_type": "none",
-   "paragraphs": [
-    42
-   ],
-   "reason": "The balance is set by macro saving and investment, not by trade barriers.",
-   "excerpt_para": 42,
    "id": "P2",
    "level": "L1"
   },
   {
-   "excerpt": "Martin Sandbu has argued that current account deficits can be financed with equity. True enough.",
-   "claim": "Sandbu argues deficits can be equity-financed; the author says this has not happened in the U.S. and is complicated when the equity comes from Chinese state firms.",
+   "excerpt": "even if the U.S. can support a high level of external debt more easily than most because of the dollar’s global role",
+   "claim": "The dollar's global role lets the US carry more external debt than most countries and shields it from sudden capital flow swings.",
+   "role": "caveat",
+   "explicit": true,
+   "kind": "none",
+   "claim_type": "none",
+   "paragraphs": [
+    41
+   ],
+   "reason": "Reserve-currency issuers face softer external financing constraints.",
+   "excerpt_para": 41,
+   "excerpt_spans": [
+    {
+     "char_start": 160,
+     "char_end": 276
+    }
+   ],
+   "id": "QF",
+   "level": "L6"
+  },
+  {
+   "excerpt": "Martin Sandbu has argued that current account deficits can be financed with equity. True enough. But in the U.S. over the last twenty years they haven’t been",
+   "claim": "Sandbu's view that deficits can be equity-financed is theoretically right but not how the US has financed them, and state-firm equity from China complicates it.",
    "role": "opposing_view",
    "explicit": true,
    "kind": "none",
@@ -353,14 +499,20 @@
    "paragraphs": [
     44
    ],
-   "reason": "Theoretical financing options should be weighed against the historical pattern.",
+   "reason": "Judge financing risk by how deficits are actually financed, not by possibilities.",
    "excerpt_para": 44,
+   "excerpt_spans": [
+    {
+     "char_start": 3,
+     "char_end": 160
+    }
+   ],
    "id": "X2",
    "level": "L6"
   },
   {
-   "excerpt": "Goldman and Deutsche Bank have both argued in the past week that the U.S. trade deficit is significantly overstated because of profit shifting.",
-   "claim": "Profit shifting overstates the trade deficit but mainly reallocates income to the services balance and leaves the current account unchanged, so the argument stands; non-interest current account is the relevant variable.",
+   "excerpt": "Goldman and Deutsche Bank have both argued in the past week that the U.S. trade deficit is significantly overstated because of profit shifting. I obviously agree, but don’t think that materially changes the argument",
+   "claim": "Profit shifting overstates the trade deficit but mostly moves income between the services and income balances, leaving the goods balance and current account largely unchanged.",
    "role": "caveat",
    "explicit": true,
    "kind": "none",
@@ -369,14 +521,41 @@
     47,
     48
    ],
-   "reason": "Reclassification between accounts does not change the overall external balance.",
+   "reason": "Reclassifying flows between current account lines leaves the overall balance unchanged.",
    "excerpt_para": 47,
-   "id": "QF3",
+   "excerpt_spans": [
+    {
+     "char_start": 5,
+     "char_end": 220
+    }
+   ],
+   "id": "QF2",
    "level": "L6"
   },
   {
-   "excerpt": "their baseline suggests the dollar needs to depreciate to assure U.S. external sustainability.",
-   "claim": "Blanchard and Das find external sustainability calculations uncertain, but their baseline implies the dollar must depreciate.",
+   "excerpt": "Measures that raise trade integration should raise the absolute level of trade more than they change the trade balance.",
+   "claim": "Trade policy affects the volume of trade more than the balance, so withdrawing from NAFTA or hitting China may not cut the deficit.",
+   "role": "policy_reductio",
+   "explicit": true,
+   "kind": "none",
+   "claim_type": "none",
+   "paragraphs": [
+    42
+   ],
+   "reason": "The trade balance is set by saving and demand, not by trade barriers.",
+   "excerpt_para": 42,
+   "excerpt_spans": [
+    {
+     "char_start": 207,
+     "char_end": 326
+    }
+   ],
+   "id": "C6",
+   "level": "L4"
+  },
+  {
+   "excerpt": "absent a positive shock to the U.S. net external position, their baseline suggests the dollar needs to depreciate to assure U.S. external sustainability.",
+   "claim": "Blanchard and Das find sustainability uncertain but that the dollar likely needs to depreciate absent a favorable shock.",
    "role": "evidence_source",
    "explicit": true,
    "kind": "none",
@@ -384,14 +563,21 @@
    "paragraphs": [
     49
    ],
-   "reason": "Independent sustainability analyses corroborate a debt-dynamics concern.",
+   "reason": "Sustainability projections depend on uncertain returns and borrowing costs.",
    "excerpt_para": 49,
+   "excerpt_spans": [
+    {
+     "char_start": 210,
+     "char_end": 363
+    }
+   ],
    "id": "E5",
    "level": "L2"
   }
  ],
  "review": [
-  "`E1` the figure `16` does not occur in the article"
+  "`C3` the name `ip-producing` does not occur in the article",
+  "26 boxes, more than any hand-drawn map (24)"
  ],
  "gaps_left": [],
  "dropped": [],

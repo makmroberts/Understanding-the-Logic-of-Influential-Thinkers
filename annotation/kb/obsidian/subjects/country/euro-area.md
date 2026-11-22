@@ -13,17 +13,17 @@ tags: [subject, subject/country, country/euro-area]
 
 Aligned to **ecb** `EA` — _component name, not yet re-checked_
 
-29 claims across 6 articles · facet `country` · [[By country]] · [[index]]
+29 claims across 7 articles · facet `country` · [[By country]] · [[index]]
 
-**Position in the argument graph** — centrality 72 (2.48 per claim), 32 out / 40 in, bias -0.11.
+**Position in the argument graph** — centrality 70 (2.41 per claim), 31 out / 39 in, bias -0.11.
 
 He argues **toward** this more than from it: it behaves like a conclusion.
 
 ## Argued together with
 
-- **variable**: [[manufacturing-trade-balance]] (10), [[export-volumes]] (9), [[current-account]] (7), [[manufacturing-output]] (6), [[nominal-exchange-rate]] (5)
+- **variable**: [[manufacturing-trade-balance]] (10), [[export-volumes]] (9), [[current-account]] (7), [[manufacturing-output]] (6), [[nominal-exchange-rate]] (4)
 - **bloc**: [[asia-surplus]] (1)
-- **instrument**: [[tariffs]] (4), [[fx-intervention]] (2), [[fiscal-policy]] (2), [[industrial-policy]] (1), [[purchase-commitments]] (1)
+- **instrument**: [[tariffs]] (4), [[fiscal-policy]] (3), [[fx-intervention]] (2), [[industrial-policy]] (1), [[purchase-commitments]] (1)
 - **data_basis**: [[balance-of-payments]] (3), [[customs]] (3), [[national-accounts]] (3), [[imf-publications]] (2), [[press-reporting]] (1)
 
 Appears as subject in 20 claims and as counterpart in 9 (i.e. bilateral claims) · [[Bilateral]]
@@ -47,7 +47,7 @@ Appears as subject in 20 claims and as counterpart in 9 (i.e. bilateral claims) 
 - **2019-09** [[Europe's imbalance is mainly a demand problem]] · _Why do global trade imbalances persist, and ..._
 - **2025-07** [[Current account comparisons based on balance of payments data make Europe, not China]] · _China's Stealth Trade Surplus_
 - **2025-07** [[The second China shock is eroding Europe's core export sectors and is large enough]] · _China is also Fighting a Trade War with Euro..._
-- **2026-10** [[Sectoral protection such as the EU hybrid car quota buffers specific sectors but would]] · _What’s the Renminbi Got to Do With it?_
+- **2026-10** [[Sector quotas such as the EU hybrid-car TRQ only buffer specific sectors; using]] · _What’s the Renminbi Got to Do With it?_
 
 ### mechanism (4)
 
@@ -56,25 +56,25 @@ Appears as subject in 20 claims and as counterpart in 9 (i.e. bilateral claims) 
 - **2025-07** [[EU overstated]] · _China's Stealth Trade Surplus_
 - **2025-07** [[Weak currency]] · _China is also Fighting a Trade War with Euro..._
 
-### caveat (3)
-
-- **2019-08** [[Processing trade makes Europe-China comparisons imperfect]] · _Why do the U.S., Europe, and China now occup..._
-- **2019-08** [[Short-run tradeoff]] · _Why do the U.S., Europe, and China now occup..._
-- **2026-10** [[Europe's institutions lack the tools to coordinate on exchange rates, which limits]] · _What’s the Renminbi Got to Do With it?_
-
 ### opposing_view (2)
 
 - **2025-07** [[The IMF and analysts using comprehensive goods and services data, who see the EU]] · _China's Stealth Trade Surplus_
 - **2025-07** [[Europe's inadequate response so far; Trump-style tariffs or commodity purchase deals]] · _China is also Fighting a Trade War with Euro..._
+
+### evidence_source (2)
+
+- **2025-07** [[Centre for European Reform brief on German industry; Financial Times, New York Times]] · _China is also Fighting a Trade War with Euro..._
+- **2026-10** [[Merz and Macron's open letter supports addressing undervalued currencies, though EU macro]] · _What’s the Renminbi Got to Do With it?_
 
 ### main_claim (2)
 
 - **2019-08** [[Europe and China remain far more manufacturing-oriented, but with very different import]] · _Why do the U.S., Europe, and China now occup..._
 - **2025-07** [[China is winning a trade war with Europe; Europe needs a counter-industrial policy]] · _China is also Fighting a Trade War with Euro..._
 
-### evidence_source (1)
+### caveat (2)
 
-- **2025-07** [[Centre for European Reform brief on German industry; Financial Times, New York Times]] · _China is also Fighting a Trade War with Euro..._
+- **2019-08** [[Processing trade makes Europe-China comparisons imperfect]] · _Why do the U.S., Europe, and China now occup..._
+- **2019-08** [[Short-run tradeoff]] · _Why do the U.S., Europe, and China now occup..._
 
 ### hidden_assumption (1)
 
@@ -90,5 +90,5 @@ Appears as subject in 20 claims and as counterpart in 9 (i.e. bilateral claims) 
 
 ### recommendation (1)
 
-- **2026-10** [[Europe and the IMF should put RMB exchange rate adjustment on the agenda with China]] · _What’s the Renminbi Got to Do With it?_
+- **2026-08** [[The world, led now by Europe, should press China to let the renminbi appreciate]] · _The World Should Not Ignore China’s Underval..._
 

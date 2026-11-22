@@ -1,6 +1,6 @@
 # Argument maps
 
-441 claims across 24 articles.
+469 claims across 25 articles.
 
 Open the graph view (Ctrl/Cmd+G) and click any claim to expand it. Use the local-graph pane to follow one argument at a time.
 
@@ -8,22 +8,22 @@ Every claim is filed on two independent axes. **Role** is what a claim does in a
 
 ## Browse by role — what a claim does
 
-- [[Assumptions]] — 81
-- [[Evidence]] — 97
-- [[Mechanisms]] — 70
-- [[Conclusions]] — 32
-- [[Counterpoints]] — 79
-- [[Questions]] — 27
-- [[Intermediate steps]] — 55
+- [[Assumptions]] — 85
+- [[Evidence]] — 108
+- [[Mechanisms]] — 69
+- [[Conclusions]] — 33
+- [[Counterpoints]] — 82
+- [[Questions]] — 29
+- [[Intermediate steps]] — 63
 
 ## Browse by subject — what a claim is about
 
-- [[By variable]] — 34 terms, 441 claims
-- [[By country]] — 12 terms, 397 claims
-- [[By bloc]] — 7 terms, 52 claims
-- [[By instrument]] — 13 terms, 197 claims
-- [[By data basis]] — 11 terms, 150 claims
-- [[Bilateral]] — 109 claims across 15 country pairs
+- [[By variable]] — 34 terms, 469 claims
+- [[By country]] — 12 terms, 421 claims
+- [[By bloc]] — 7 terms, 53 claims
+- [[By instrument]] — 13 terms, 207 claims
+- [[By data basis]] — 11 terms, 156 claims
+- [[Bilateral]] — 111 claims across 15 country pairs
 
 Cross the two axes to answer a question on one topic without reading the whole corpus. In the graph filter box:
 
@@ -43,30 +43,30 @@ The role cuts still work the same way:
 
 ## By type
 
-- `evidence_data` — 80
-- `mechanism` — 70
-- `intermediate_claim` — 53
+- `evidence_data` — 89
+- `mechanism` — 69
+- `intermediate_claim` — 59
 - `stated_assumption` — 49
-- `caveat` — 35
-- `main_claim` — 25
-- `question` — 24
-- `opposing_view` — 20
-- `hidden_assumption` — 16
-- `other_explanation` — 14
-- `evidence_source` — 14
+- `caveat` — 36
+- `main_claim` — 26
+- `question` — 25
+- `opposing_view` — 21
+- `hidden_assumption` — 17
+- `evidence_source` — 16
+- `other_explanation` — 15
 - `counterpoint` — 8
 - `source_credibility` — 6
 - `recommendation` — 5
 - `revised_prior` — 4
-- `scope_choice` — 3
-- `benchmark` — 2
+- `scope_choice` — 4
+- `benchmark` — 3
+- `anomaly` — 3
+- `case_type` — 2
+- `accounting_identity` — 2
 - `evidence_discrepancy` — 2
+- `policy_reductio` — 2
 - `reconstruction` — 2
 - `deferred_question` — 2
-- `anomaly` — 2
-- `case_type` — 1
-- `accounting_identity` — 1
-- `policy_reductio` — 1
 - `evidence_rival` — 1
 - `position_map` — 1
 
@@ -94,6 +94,7 @@ The role cuts still work the same way:
 - 2025-11-12 [[2025-11-12 China's Massive Surplus is Everywhere (Yet The IMF Still Has Trouble Seeing It Clearly)]] `meta`
 - 2026-02-03 [[2026-02-03 Understanding the Low October 2025 Trade Deficit]] `meta`
 - 2026-07-27 [[2026-07-27 Is China’s Surplus Really Shrinking]] `llm`
+- 2026-08-02 [[2026-08-02 The World Should Not Ignore China’s Undervalued Currency]] `llm`
 - 2026-09-15 [[2026-09-15 De-reservification, Not De-dollarization]] `llm`
 - 2026-10-13 [[2026-10-13 What’s the Renminbi Got to Do With it]] `llm`
 
@@ -132,11 +133,11 @@ SORT date ASC
 ## Notes
 
 - **For an ordered, hierarchical view, use [[_index|the canvases]]** — one per article, laid out by argument level. Obsidian's graph is force-directed and cannot draw a hierarchy; a canvas can.
-- In the graph view, the useful filters, measured on this vault at export time (561 notes, 3945 links between them, mean degree 14.1):
-    - `-path:subjects -path:views -file:index` → 470 notes, 1046 links, mean degree **4.5** — the per-article argument trees, joined only where a concept spans articles
-    - `-path:subjects -path:views -path:canvas -path:articles -file:index` → **the argument only**: 446 notes, 572 links, mean degree 2.6, busiest node 11. Dropping the article notes matters more than it sounds — removing them takes 474 of the 1046 links with them, nearly all of it membership rather than reasoning, and each article note is a star at the centre of its cluster that the force layout bends everything around. Turn on Display → Arrows here: the direction is the content.
-    - `-path:canvas` → the canvases are files too and every card on one counts as a link, so they add 441 link-ends to the graph view. They are for reading, not for the force layout.
-    - `-tag:#subject/saturated` → drops just `china`, `us`, which carry 560 of the 3945 link-ends between them, and keeps the other 75 hubs
+- In the graph view, the useful filters, measured on this vault at export time (590 notes, 4154 links between them, mean degree 14.1):
+    - `-path:subjects -path:views -file:index` → 499 notes, 1106 links, mean degree **4.4** — the per-article argument trees, joined only where a concept spans articles
+    - `-path:subjects -path:views -path:canvas -path:articles -file:index` → **the argument only**: 474 notes, 603 links, mean degree 2.5, busiest node 12. Dropping the article notes matters more than it sounds — removing them takes 503 of the 1106 links with them, nearly all of it membership rather than reasoning, and each article note is a star at the centre of its cluster that the force layout bends everything around. Turn on Display → Arrows here: the direction is the content.
+    - `-path:canvas` → the canvases are files too and every card on one counts as a link, so they add 469 link-ends to the graph view. They are for reading, not for the force layout.
+    - `-tag:#subject/saturated` → drops just `china`, `us`, which carry 584 of the 4154 link-ends between them, and keeps the other 75 hubs
 - Every link shows its sign: **+1** backs, **-1** pushes back, **0** neither. The sign is argumentative, not causal - it means *backs* and *pushes back on*, never *increases* and *decreases*.
 - Each link records how its relation was known, in frontmatter: `label` (the annotator wrote it), `arrow` (from the arrow style, by convention) or `layout_operator` (recovered from the map's `~~~` links, which carry the question-to-priors and prior-to-evidence structure).
 - Articles use three annotation templates (`plain`, `banner`, `meta`); the `family` tag on every note records which.

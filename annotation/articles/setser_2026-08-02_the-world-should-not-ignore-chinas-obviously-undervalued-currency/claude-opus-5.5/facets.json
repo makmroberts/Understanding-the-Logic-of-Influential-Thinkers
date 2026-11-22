@@ -1,0 +1,959 @@
+{
+ "result": [
+  {
+   "doc": "setser_2026-08-02_the-world-should-not-ignore-chinas-obviously-undervalued-currency",
+   "node_id": "Q",
+   "facet": "variable",
+   "value": "real-exchange-rate",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-08-02_the-world-should-not-ignore-chinas-obviously-undervalued-currency",
+   "node_id": "Q",
+   "facet": "variable",
+   "value": "current-account",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-08-02_the-world-should-not-ignore-chinas-obviously-undervalued-currency",
+   "node_id": "Q",
+   "facet": "instrument",
+   "value": "fx-intervention",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-08-02_the-world-should-not-ignore-chinas-obviously-undervalued-currency",
+   "node_id": "Q",
+   "facet": "instrument",
+   "value": "structural-reform",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-08-02_the-world-should-not-ignore-chinas-obviously-undervalued-currency",
+   "node_id": "Q",
+   "facet": "country",
+   "value": "china",
+   "role": "subject",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-08-02_the-world-should-not-ignore-chinas-obviously-undervalued-currency",
+   "node_id": "E1",
+   "facet": "variable",
+   "value": "real-exchange-rate",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-08-02_the-world-should-not-ignore-chinas-obviously-undervalued-currency",
+   "node_id": "E1",
+   "facet": "variable",
+   "value": "current-account",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-08-02_the-world-should-not-ignore-chinas-obviously-undervalued-currency",
+   "node_id": "E1",
+   "facet": "data_basis",
+   "value": "imf-publications",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-08-02_the-world-should-not-ignore-chinas-obviously-undervalued-currency",
+   "node_id": "E1",
+   "facet": "country",
+   "value": "china",
+   "role": "subject",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-08-02_the-world-should-not-ignore-chinas-obviously-undervalued-currency",
+   "node_id": "SC",
+   "facet": "variable",
+   "value": "investment-income-balance",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-08-02_the-world-should-not-ignore-chinas-obviously-undervalued-currency",
+   "node_id": "SC",
+   "facet": "variable",
+   "value": "current-account",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-08-02_the-world-should-not-ignore-chinas-obviously-undervalued-currency",
+   "node_id": "SC",
+   "facet": "data_basis",
+   "value": "balance-of-payments",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-08-02_the-world-should-not-ignore-chinas-obviously-undervalued-currency",
+   "node_id": "SC",
+   "facet": "country",
+   "value": "china",
+   "role": "subject",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-08-02_the-world-should-not-ignore-chinas-obviously-undervalued-currency",
+   "node_id": "P1",
+   "facet": "variable",
+   "value": "investment-income-balance",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-08-02_the-world-should-not-ignore-chinas-obviously-undervalued-currency",
+   "node_id": "P1",
+   "facet": "variable",
+   "value": "net-external-debt",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-08-02_the-world-should-not-ignore-chinas-obviously-undervalued-currency",
+   "node_id": "E2",
+   "facet": "variable",
+   "value": "nominal-exchange-rate",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-08-02_the-world-should-not-ignore-chinas-obviously-undervalued-currency",
+   "node_id": "E2",
+   "facet": "variable",
+   "value": "fx-reserves",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-08-02_the-world-should-not-ignore-chinas-obviously-undervalued-currency",
+   "node_id": "E2",
+   "facet": "instrument",
+   "value": "fx-intervention",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-08-02_the-world-should-not-ignore-chinas-obviously-undervalued-currency",
+   "node_id": "E2",
+   "facet": "instrument",
+   "value": "capital-controls",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-08-02_the-world-should-not-ignore-chinas-obviously-undervalued-currency",
+   "node_id": "E2",
+   "facet": "country",
+   "value": "china",
+   "role": "subject",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-08-02_the-world-should-not-ignore-chinas-obviously-undervalued-currency",
+   "node_id": "X",
+   "facet": "variable",
+   "value": "real-exchange-rate",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-08-02_the-world-should-not-ignore-chinas-obviously-undervalued-currency",
+   "node_id": "X",
+   "facet": "variable",
+   "value": "price-level",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-08-02_the-world-should-not-ignore-chinas-obviously-undervalued-currency",
+   "node_id": "X",
+   "facet": "variable",
+   "value": "domestic-demand",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-08-02_the-world-should-not-ignore-chinas-obviously-undervalued-currency",
+   "node_id": "X",
+   "facet": "country",
+   "value": "china",
+   "role": "subject",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-08-02_the-world-should-not-ignore-chinas-obviously-undervalued-currency",
+   "node_id": "C1",
+   "facet": "variable",
+   "value": "current-account",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-08-02_the-world-should-not-ignore-chinas-obviously-undervalued-currency",
+   "node_id": "C1",
+   "facet": "variable",
+   "value": "manufacturing-output",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-08-02_the-world-should-not-ignore-chinas-obviously-undervalued-currency",
+   "node_id": "C1",
+   "facet": "country",
+   "value": "china",
+   "role": "subject",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-08-02_the-world-should-not-ignore-chinas-obviously-undervalued-currency",
+   "node_id": "E3",
+   "facet": "variable",
+   "value": "nominal-exchange-rate",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-08-02_the-world-should-not-ignore-chinas-obviously-undervalued-currency",
+   "node_id": "E3",
+   "facet": "variable",
+   "value": "real-exchange-rate",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-08-02_the-world-should-not-ignore-chinas-obviously-undervalued-currency",
+   "node_id": "E3",
+   "facet": "variable",
+   "value": "price-level",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-08-02_the-world-should-not-ignore-chinas-obviously-undervalued-currency",
+   "node_id": "E3",
+   "facet": "instrument",
+   "value": "fx-intervention",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-08-02_the-world-should-not-ignore-chinas-obviously-undervalued-currency",
+   "node_id": "E3",
+   "facet": "country",
+   "value": "china",
+   "role": "subject",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-08-02_the-world-should-not-ignore-chinas-obviously-undervalued-currency",
+   "node_id": "P2",
+   "facet": "variable",
+   "value": "real-exchange-rate",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-08-02_the-world-should-not-ignore-chinas-obviously-undervalued-currency",
+   "node_id": "P2",
+   "facet": "country",
+   "value": "china",
+   "role": "subject",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-08-02_the-world-should-not-ignore-chinas-obviously-undervalued-currency",
+   "node_id": "BM",
+   "facet": "variable",
+   "value": "trade-elasticity",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-08-02_the-world-should-not-ignore-chinas-obviously-undervalued-currency",
+   "node_id": "BM",
+   "facet": "variable",
+   "value": "real-exchange-rate",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-08-02_the-world-should-not-ignore-chinas-obviously-undervalued-currency",
+   "node_id": "BM",
+   "facet": "data_basis",
+   "value": "imf-publications",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-08-02_the-world-should-not-ignore-chinas-obviously-undervalued-currency",
+   "node_id": "E4",
+   "facet": "variable",
+   "value": "export-volumes",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-08-02_the-world-should-not-ignore-chinas-obviously-undervalued-currency",
+   "node_id": "E4",
+   "facet": "variable",
+   "value": "gdp-growth",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-08-02_the-world-should-not-ignore-chinas-obviously-undervalued-currency",
+   "node_id": "E4",
+   "facet": "data_basis",
+   "value": "national-accounts",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-08-02_the-world-should-not-ignore-chinas-obviously-undervalued-currency",
+   "node_id": "E4",
+   "facet": "country",
+   "value": "china",
+   "role": "subject",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-08-02_the-world-should-not-ignore-chinas-obviously-undervalued-currency",
+   "node_id": "M1",
+   "facet": "variable",
+   "value": "export-volumes",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-08-02_the-world-should-not-ignore-chinas-obviously-undervalued-currency",
+   "node_id": "M1",
+   "facet": "variable",
+   "value": "real-exchange-rate",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-08-02_the-world-should-not-ignore-chinas-obviously-undervalued-currency",
+   "node_id": "ANOM",
+   "facet": "variable",
+   "value": "current-account",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-08-02_the-world-should-not-ignore-chinas-obviously-undervalued-currency",
+   "node_id": "ANOM",
+   "facet": "variable",
+   "value": "real-exchange-rate",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-08-02_the-world-should-not-ignore-chinas-obviously-undervalued-currency",
+   "node_id": "ANOM",
+   "facet": "data_basis",
+   "value": "imf-publications",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-08-02_the-world-should-not-ignore-chinas-obviously-undervalued-currency",
+   "node_id": "ANOM",
+   "facet": "country",
+   "value": "china",
+   "role": "subject",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-08-02_the-world-should-not-ignore-chinas-obviously-undervalued-currency",
+   "node_id": "R1",
+   "facet": "variable",
+   "value": "export-volumes",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-08-02_the-world-should-not-ignore-chinas-obviously-undervalued-currency",
+   "node_id": "R1",
+   "facet": "variable",
+   "value": "import-volumes",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-08-02_the-world-should-not-ignore-chinas-obviously-undervalued-currency",
+   "node_id": "R1",
+   "facet": "instrument",
+   "value": "industrial-policy",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-08-02_the-world-should-not-ignore-chinas-obviously-undervalued-currency",
+   "node_id": "R1",
+   "facet": "country",
+   "value": "china",
+   "role": "subject",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-08-02_the-world-should-not-ignore-chinas-obviously-undervalued-currency",
+   "node_id": "M2",
+   "facet": "variable",
+   "value": "real-exchange-rate",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-08-02_the-world-should-not-ignore-chinas-obviously-undervalued-currency",
+   "node_id": "M2",
+   "facet": "variable",
+   "value": "price-level",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-08-02_the-world-should-not-ignore-chinas-obviously-undervalued-currency",
+   "node_id": "E5",
+   "facet": "variable",
+   "value": "price-level",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-08-02_the-world-should-not-ignore-chinas-obviously-undervalued-currency",
+   "node_id": "E5",
+   "facet": "variable",
+   "value": "real-exchange-rate",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-08-02_the-world-should-not-ignore-chinas-obviously-undervalued-currency",
+   "node_id": "E5",
+   "facet": "data_basis",
+   "value": "academic-econometrics",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-08-02_the-world-should-not-ignore-chinas-obviously-undervalued-currency",
+   "node_id": "E5",
+   "facet": "country",
+   "value": "china",
+   "role": "subject",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-08-02_the-world-should-not-ignore-chinas-obviously-undervalued-currency",
+   "node_id": "QF",
+   "facet": "variable",
+   "value": "price-level",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-08-02_the-world-should-not-ignore-chinas-obviously-undervalued-currency",
+   "node_id": "QF",
+   "facet": "variable",
+   "value": "commodity-prices",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-08-02_the-world-should-not-ignore-chinas-obviously-undervalued-currency",
+   "node_id": "QF",
+   "facet": "country",
+   "value": "china",
+   "role": "subject",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-08-02_the-world-should-not-ignore-chinas-obviously-undervalued-currency",
+   "node_id": "C2",
+   "facet": "variable",
+   "value": "household-consumption-share",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-08-02_the-world-should-not-ignore-chinas-obviously-undervalued-currency",
+   "node_id": "C2",
+   "facet": "variable",
+   "value": "real-exchange-rate",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-08-02_the-world-should-not-ignore-chinas-obviously-undervalued-currency",
+   "node_id": "C2",
+   "facet": "instrument",
+   "value": "fiscal-policy",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-08-02_the-world-should-not-ignore-chinas-obviously-undervalued-currency",
+   "node_id": "C2",
+   "facet": "country",
+   "value": "china",
+   "role": "subject",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-08-02_the-world-should-not-ignore-chinas-obviously-undervalued-currency",
+   "node_id": "E6",
+   "facet": "variable",
+   "value": "real-exchange-rate",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-08-02_the-world-should-not-ignore-chinas-obviously-undervalued-currency",
+   "node_id": "E6",
+   "facet": "variable",
+   "value": "household-consumption-share",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-08-02_the-world-should-not-ignore-chinas-obviously-undervalued-currency",
+   "node_id": "E6",
+   "facet": "instrument",
+   "value": "industrial-policy",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-08-02_the-world-should-not-ignore-chinas-obviously-undervalued-currency",
+   "node_id": "E6",
+   "facet": "data_basis",
+   "value": "academic-econometrics",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-08-02_the-world-should-not-ignore-chinas-obviously-undervalued-currency",
+   "node_id": "E6",
+   "facet": "country",
+   "value": "china",
+   "role": "subject",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-08-02_the-world-should-not-ignore-chinas-obviously-undervalued-currency",
+   "node_id": "C3",
+   "facet": "variable",
+   "value": "nominal-exchange-rate",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-08-02_the-world-should-not-ignore-chinas-obviously-undervalued-currency",
+   "node_id": "C3",
+   "facet": "variable",
+   "value": "global-imbalances",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-08-02_the-world-should-not-ignore-chinas-obviously-undervalued-currency",
+   "node_id": "C3",
+   "facet": "instrument",
+   "value": "fx-intervention",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-08-02_the-world-should-not-ignore-chinas-obviously-undervalued-currency",
+   "node_id": "C3",
+   "facet": "country",
+   "value": "japan",
+   "role": "subject",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-08-02_the-world-should-not-ignore-chinas-obviously-undervalued-currency",
+   "node_id": "C3",
+   "facet": "country",
+   "value": "china",
+   "role": "subject",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-08-02_the-world-should-not-ignore-chinas-obviously-undervalued-currency",
+   "node_id": "X2",
+   "facet": "variable",
+   "value": "nominal-exchange-rate",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-08-02_the-world-should-not-ignore-chinas-obviously-undervalued-currency",
+   "node_id": "X2",
+   "facet": "country",
+   "value": "japan",
+   "role": "subject",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-08-02_the-world-should-not-ignore-chinas-obviously-undervalued-currency",
+   "node_id": "X2",
+   "facet": "country",
+   "value": "germany",
+   "role": "subject",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-08-02_the-world-should-not-ignore-chinas-obviously-undervalued-currency",
+   "node_id": "ID",
+   "facet": "variable",
+   "value": "savings-investment-gap",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-08-02_the-world-should-not-ignore-chinas-obviously-undervalued-currency",
+   "node_id": "ID",
+   "facet": "variable",
+   "value": "investment-capex",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-08-02_the-world-should-not-ignore-chinas-obviously-undervalued-currency",
+   "node_id": "ID",
+   "facet": "instrument",
+   "value": "industrial-policy",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-08-02_the-world-should-not-ignore-chinas-obviously-undervalued-currency",
+   "node_id": "ID",
+   "facet": "country",
+   "value": "china",
+   "role": "subject",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-08-02_the-world-should-not-ignore-chinas-obviously-undervalued-currency",
+   "node_id": "C4",
+   "facet": "variable",
+   "value": "fiscal-impulse",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-08-02_the-world-should-not-ignore-chinas-obviously-undervalued-currency",
+   "node_id": "C4",
+   "facet": "variable",
+   "value": "current-account",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-08-02_the-world-should-not-ignore-chinas-obviously-undervalued-currency",
+   "node_id": "C4",
+   "facet": "instrument",
+   "value": "fiscal-policy",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-08-02_the-world-should-not-ignore-chinas-obviously-undervalued-currency",
+   "node_id": "C4",
+   "facet": "data_basis",
+   "value": "imf-publications",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-08-02_the-world-should-not-ignore-chinas-obviously-undervalued-currency",
+   "node_id": "C4",
+   "facet": "country",
+   "value": "china",
+   "role": "subject",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-08-02_the-world-should-not-ignore-chinas-obviously-undervalued-currency",
+   "node_id": "P3",
+   "facet": "variable",
+   "value": "household-consumption-share",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-08-02_the-world-should-not-ignore-chinas-obviously-undervalued-currency",
+   "node_id": "P3",
+   "facet": "variable",
+   "value": "investment-capex",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-08-02_the-world-should-not-ignore-chinas-obviously-undervalued-currency",
+   "node_id": "P3",
+   "facet": "country",
+   "value": "china",
+   "role": "subject",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-08-02_the-world-should-not-ignore-chinas-obviously-undervalued-currency",
+   "node_id": "REC",
+   "facet": "variable",
+   "value": "nominal-exchange-rate",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-08-02_the-world-should-not-ignore-chinas-obviously-undervalued-currency",
+   "node_id": "REC",
+   "facet": "variable",
+   "value": "household-consumption-share",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-08-02_the-world-should-not-ignore-chinas-obviously-undervalued-currency",
+   "node_id": "REC",
+   "facet": "instrument",
+   "value": "fx-intervention",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-08-02_the-world-should-not-ignore-chinas-obviously-undervalued-currency",
+   "node_id": "REC",
+   "facet": "instrument",
+   "value": "fiscal-policy",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-08-02_the-world-should-not-ignore-chinas-obviously-undervalued-currency",
+   "node_id": "REC",
+   "facet": "country",
+   "value": "china",
+   "role": "subject",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-08-02_the-world-should-not-ignore-chinas-obviously-undervalued-currency",
+   "node_id": "REC",
+   "facet": "country",
+   "value": "euro-area",
+   "role": "counterpart",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-08-02_the-world-should-not-ignore-chinas-obviously-undervalued-currency",
+   "node_id": "K",
+   "facet": "variable",
+   "value": "real-exchange-rate",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-08-02_the-world-should-not-ignore-chinas-obviously-undervalued-currency",
+   "node_id": "K",
+   "facet": "variable",
+   "value": "current-account",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-08-02_the-world-should-not-ignore-chinas-obviously-undervalued-currency",
+   "node_id": "K",
+   "facet": "instrument",
+   "value": "fx-intervention",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-08-02_the-world-should-not-ignore-chinas-obviously-undervalued-currency",
+   "node_id": "K",
+   "facet": "country",
+   "value": "china",
+   "role": "subject",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-08-02_the-world-should-not-ignore-chinas-obviously-undervalued-currency",
+   "node_id": "QF2",
+   "facet": "variable",
+   "value": "national-saving",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-08-02_the-world-should-not-ignore-chinas-obviously-undervalued-currency",
+   "node_id": "QF2",
+   "facet": "data_basis",
+   "value": "imf-publications",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-08-02_the-world-should-not-ignore-chinas-obviously-undervalued-currency",
+   "node_id": "QF2",
+   "facet": "country",
+   "value": "china",
+   "role": "subject",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-08-02_the-world-should-not-ignore-chinas-obviously-undervalued-currency",
+   "node_id": "QF3",
+   "facet": "variable",
+   "value": "household-consumption-share",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-08-02_the-world-should-not-ignore-chinas-obviously-undervalued-currency",
+   "node_id": "QF3",
+   "facet": "instrument",
+   "value": "structural-reform",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-08-02_the-world-should-not-ignore-chinas-obviously-undervalued-currency",
+   "node_id": "QF3",
+   "facet": "country",
+   "value": "china",
+   "role": "subject",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  }
+ ],
+ "review": [
+  "`setser_2026-08-02_the-world-should-not-ignore-chinas-obviously-undervalued-currency#P1` where_subject empty - every claim needs a country or a bloc (assignment.requires_one_of) - needs review",
+  "`setser_2026-08-02_the-world-should-not-ignore-chinas-obviously-undervalued-currency#BM` where_subject empty - every claim needs a country or a bloc (assignment.requires_one_of) - needs review",
+  "`setser_2026-08-02_the-world-should-not-ignore-chinas-obviously-undervalued-currency#M1` where_subject empty - every claim needs a country or a bloc (assignment.requires_one_of) - needs review",
+  "`setser_2026-08-02_the-world-should-not-ignore-chinas-obviously-undervalued-currency#M2` where_subject empty - every claim needs a country or a bloc (assignment.requires_one_of) - needs review"
+ ],
+ "gaps_left": [],
+ "dropped": [],
+ "fix_rounds": 0,
+ "reasks": 0
+}

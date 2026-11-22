@@ -3,13 +3,13 @@
   {
    "from": "Q",
    "relation": "frames",
-   "to": "P1",
+   "to": "SC",
    "sign": 0
   },
   {
    "from": "Q",
    "relation": "frames",
-   "to": "P4",
+   "to": "P1",
    "sign": 0
   },
   {
@@ -21,43 +21,37 @@
   {
    "from": "Q",
    "relation": "frames",
-   "to": "P3",
-   "sign": 0
-  },
-  {
-   "from": "P1",
-   "relation": "frames",
-   "to": "E1",
+   "to": "BM",
    "sign": 0
   },
   {
    "from": "E1",
    "relation": "supports",
-   "to": "C1",
-   "sign": 1
-  },
-  {
-   "from": "P1",
-   "relation": "supports",
-   "to": "C1",
-   "sign": 1
-  },
-  {
-   "from": "SC",
-   "relation": "supports",
-   "to": "C1",
-   "sign": 1
-  },
-  {
-   "from": "E4",
-   "relation": "supports",
-   "to": "C1",
+   "to": "M1",
    "sign": 1
   },
   {
    "from": "E2",
    "relation": "supports",
    "to": "M1",
+   "sign": 1
+  },
+  {
+   "from": "E5",
+   "relation": "supports",
+   "to": "M1",
+   "sign": 1
+  },
+  {
+   "from": "SC",
+   "relation": "frames",
+   "to": "E5",
+   "sign": 0
+  },
+  {
+   "from": "SC",
+   "relation": "supports",
+   "to": "C1",
    "sign": 1
   },
   {
@@ -73,13 +67,25 @@
    "sign": -1
   },
   {
-   "from": "C1",
-   "relation": "rebuts",
-   "to": "X2",
-   "sign": -1
+   "from": "E3",
+   "relation": "supports",
+   "to": "M2",
+   "sign": 1
   },
   {
    "from": "E3",
+   "relation": "supports",
+   "to": "K",
+   "sign": 1
+  },
+  {
+   "from": "E3",
+   "relation": "undercut_by",
+   "to": "R1",
+   "sign": -1
+  },
+  {
+   "from": "P1",
    "relation": "supports",
    "to": "M2",
    "sign": 1
@@ -91,26 +97,8 @@
    "sign": 1
   },
   {
-   "from": "M2",
-   "relation": "undercut_by",
-   "to": "R1",
-   "sign": -1
-  },
-  {
    "from": "ANOM",
    "relation": "motivates",
-   "to": "K",
-   "sign": 1
-  },
-  {
-   "from": "P2",
-   "relation": "supports",
-   "to": "C2",
-   "sign": 1
-  },
-  {
-   "from": "E3",
-   "relation": "supports",
    "to": "C2",
    "sign": 1
   },
@@ -121,39 +109,21 @@
    "sign": 1
   },
   {
-   "from": "C2",
-   "relation": "qualified_by",
-   "to": "QF2",
-   "sign": -1
-  },
-  {
-   "from": "P4",
-   "relation": "licenses",
-   "to": "K",
-   "sign": 1
-  },
-  {
-   "from": "K",
+   "from": "C3",
    "relation": "rebuts",
-   "to": "X3",
+   "to": "X2",
    "sign": -1
   },
   {
-   "from": "BM",
-   "relation": "licenses",
-   "to": "REC",
+   "from": "E4",
+   "relation": "supports",
+   "to": "K",
    "sign": 1
   },
   {
    "from": "M3",
    "relation": "supports",
-   "to": "C3",
-   "sign": 1
-  },
-  {
-   "from": "C3",
-   "relation": "supports",
-   "to": "K",
+   "to": "C4",
    "sign": 1
   },
   {
@@ -163,13 +133,25 @@
    "sign": 1
   },
   {
-   "from": "C4",
-   "relation": "rebuts",
-   "to": "X",
-   "sign": -1
+   "from": "BM",
+   "relation": "bounds",
+   "to": "E2",
+   "sign": 1
   },
   {
-   "from": "P3",
+   "from": "BM",
+   "relation": "licenses",
+   "to": "K",
+   "sign": 1
+  },
+  {
+   "from": "E6",
+   "relation": "supports",
+   "to": "K",
+   "sign": 1
+  },
+  {
+   "from": "P2",
    "relation": "licenses",
    "to": "K",
    "sign": 1
@@ -182,32 +164,28 @@
   },
   {
    "from": "K",
-   "relation": "motivates",
-   "to": "REC",
-   "sign": 1
-  },
-  {
-   "from": "REC",
    "relation": "qualified_by",
    "to": "QF",
    "sign": -1
   },
   {
-   "from": "K",
+   "from": "C2",
    "relation": "qualified_by",
-   "to": "QF3",
+   "to": "QF2",
    "sign": -1
   },
   {
-   "from": "REC",
+   "from": "K",
    "relation": "rebuts",
-   "to": "X2",
+   "to": "X",
    "sign": -1
   }
  ],
  "review": [
-  "`ANOM` motivates `K` joins L0→L5, which no hand-drawn motivates link does",
-  "`BM` licenses `REC` joins L1B→L5, which no hand-drawn licenses link does"
+  "`Q` frames `BM` joins L0→L1B, which no hand-drawn frames link does",
+  "`E3` undercut_by `R1` joins L2→L6, which no hand-drawn undercut_by link does",
+  "`ANOM` motivates `C2` joins L0→L4, which no hand-drawn motivates link does",
+  "`BM` licenses `K` joins L1B→L5, which no hand-drawn licenses link does"
  ],
  "gaps_left": [],
  "dropped": [],

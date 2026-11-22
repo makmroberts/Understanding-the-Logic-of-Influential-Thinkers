@@ -1,0 +1,889 @@
+{
+ "nodes": [
+  {
+   "id": "header",
+   "type": "text",
+   "text": "## 2025-11-12 China's Massive Surplus is Everywhere (Yet The IMF Still Has Trouble Seeing It Clearly)\n\n**Left:** hand-drawn map (14 steps). **Right:** model run `setser_2025-11-12_china-surplus-imf/claude-opus-5.5` (23 steps).\n\nMatched 9 of 14 hand steps (5 by a shared paragraph, 4 by role only).\n\nHand steps not matched: M2, M3, P1, P2, R1\n\nModel steps not matched: ANOM, C1, C3, E1, E2, E5, M2, M3, P1, P2, POS, REC, SC, SCP",
+   "x": -1980,
+   "y": 0,
+   "width": 5120,
+   "height": 260
+  },
+  {
+   "id": "hand-Q",
+   "type": "text",
+   "text": "**Q** \u00b7 `question` \u00b7 \u00b6 18\n\nHow big is China's surplus really, why does the IMF miss it, and what policy should follow?\n\n*Gloss:* Question\n\n[[claims/question/How big is China's surplus really, why does the IMF miss it, and what policy should follow|open note]]",
+   "x": -820,
+   "y": 440,
+   "width": 520,
+   "height": 300,
+   "color": "#7A6FA8"
+  },
+  {
+   "id": "hand-P1",
+   "type": "text",
+   "text": "**P1** \u00b7 `stated_assumption` \u00b7 \u00b6 12\n\nThe surplus stems from a shortfall in China's domestic demand (European Central Bank view)\n\n*Gloss:* Stated assumption\n\n[[claims/stated_assumption/The surplus stems from a shortfall in China's domestic demand (European Central Bank view)|open note]]",
+   "x": -1400,
+   "y": 920,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "hand-P2",
+   "type": "text",
+   "text": "**P2** \u00b7 `stated_assumption` \u00b7 \u00b6 20\n\nDeflation combined with a rising trade surplus calls for sustained fiscal expansion, not monetary easing\n\n*Gloss:* Stated assumption\n\n[[claims/stated_assumption/Deflation combined with a rising trade surplus calls for sustained fiscal expansion, not monetary easing|open note]]",
+   "x": -1980,
+   "y": 920,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "hand-P3",
+   "type": "text",
+   "text": "**P3** \u00b7 `hidden_assumption` \u00b7 \u00b6 18\n\nExternal balance is a legitimate policy target; exporting your way out of a slump imposes costs on other countries\n\n*Gloss:* Hidden assumption\n\n[[claims/hidden_assumption/External balance is a legitimate policy target; exporting your way out of a slump imposes costs on other countries|open note]]",
+   "x": -820,
+   "y": 920,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "hand-E1",
+   "type": "text",
+   "text": "**E1** \u00b7 `evidence_data` \u00b7 \u00b6 5, 7, 9, 15, 17, 31\n\nExport volumes up 40 percent since end-2019 versus imports up 1 percent; manufactured goods surplus over $2 trillion (about 10.5 percent of GDP); goods surplus $1.2 trillion; car exports over 6 million, heading toward 8 million in 2026; current account surplus 2.2 percent of GDP versus the EU's 2.6 percent; IMF forecast a 2025 surplus of $375 billion, while the actual tops $650 billion through the third quarter\n\n*Gloss:* Data\n\n[[claims/evidence_data/Export volumes up 40 percent since end-2019 versus imports up 1 percent; manufactured goods surplus over $2 trillion|open note]]",
+   "x": -820,
+   "y": 1880,
+   "width": 520,
+   "height": 300,
+   "color": "#2F7FBF"
+  },
+  {
+   "id": "hand-E2",
+   "type": "text",
+   "text": "**E2** \u00b7 `evidence_source` \u00b7 \u00b6 32\n\nIMF External Sector Report 2025, October World Economic Outlook and 2024 Article IV report; European Central Bank analysis; Netherlands Bureau for Economic Policy Analysis export volume data; Microsoft annual report\n\n*Gloss:* Studies and sources\n\n[[claims/evidence_source/IMF External Sector Report 2025, October World Economic Outlook and 2024 Article IV report; European Central Bank|open note]]",
+   "x": -1400,
+   "y": 1880,
+   "width": 520,
+   "height": 300,
+   "color": "#2F7FBF"
+  },
+  {
+   "id": "hand-M1",
+   "type": "text",
+   "text": "**M1** \u00b7 `mechanism` \u00b7 \u00b6 12\n\nDemand shortfall\n\n*Gloss:* Weak domestic demand leaves spare capacity for exports; rate cuts lower yields and weaken the yuan, widening the surplus\n\n[[claims/mechanism/Demand shortfall|open note]]",
+   "x": -820,
+   "y": 2360,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "hand-M2",
+   "type": "text",
+   "text": "**M2** \u00b7 `mechanism` \u00b7 \u00b6 5, 9\n\nMismeasurement\n\n*Gloss:* The 2022 balance of payments methodology and the unexplained income deficit each cut about 1 percentage point of GDP from the reported current account surplus\n\n[[claims/mechanism/Mismeasurement|open note]]",
+   "x": -1400,
+   "y": 2360,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "hand-M3",
+   "type": "text",
+   "text": "**M3** \u00b7 `mechanism` \u00b7 \u00b6 15\n\nIMF lens\n\n*Gloss:* Relying only on the reported current account frames China's problem as purely internal, so the IMF prescribes monetary easing\n\n[[claims/mechanism/IMF lens|open note]]",
+   "x": -1980,
+   "y": 2360,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "hand-C1",
+   "type": "text",
+   "text": "**C1** \u00b7 `intermediate_claim` \u00b7 \u00b6 21\n\nChina's surplus is massive and growing, yet IMF policy advice effectively lets China export its way out of its housing slump\n\n*Gloss:* Intermediate claim\n\n[[claims/intermediate_claim/China's surplus is massive and growing, yet IMF policy advice effectively lets China export its way out of its housing|open note]]",
+   "x": -820,
+   "y": 2840,
+   "width": 520,
+   "height": 300,
+   "color": "#2FBF9B"
+  },
+  {
+   "id": "hand-K",
+   "type": "text",
+   "text": "**K** \u00b7 `main_claim` \u00b7 \u00b6 22\n\nThe IMF should recognize China's external imbalance and call for a fiscal expansion funded by the central government\n\n*Gloss:* Main claim\n\n[[claims/main_claim/The IMF should recognize China's external imbalance and call for a fiscal expansion funded by the central government|open note]]",
+   "x": -820,
+   "y": 3320,
+   "width": 520,
+   "height": 300,
+   "color": "#2FBF9B"
+  },
+  {
+   "id": "hand-X",
+   "type": "text",
+   "text": "**X** \u00b7 `opposing_view` \u00b7 \u00b6 25\n\nThe IMF's framing; the argument that Europe's surplus is almost as big\n\n*Gloss:* Opposing view\n\n[[claims/opposing_view/The IMF's framing; the argument that Europe's surplus is almost as big|open note]]",
+   "x": -1400,
+   "y": 3800,
+   "width": 520,
+   "height": 300,
+   "color": "#8A8A8A"
+  },
+  {
+   "id": "hand-QF",
+   "type": "text",
+   "text": "**QF** \u00b7 `caveat` \u00b7 \u00b6 23\n\nChina's GDP data are too thin to confirm the net export math; the IMF does support pro-consumption structural reforms\n\n*Gloss:* Caveat\n\n[[claims/caveat/China's GDP data are too thin to confirm the net export math; the IMF does support pro-consumption structural reforms|open note]]",
+   "x": -820,
+   "y": 3800,
+   "width": 520,
+   "height": 300,
+   "color": "#9A8C6A"
+  },
+  {
+   "id": "hand-R1",
+   "type": "text",
+   "text": "**R1** \u00b7 `other_explanation` \u00b7 \u00b6 31\n\nIreland distorts European data; IMF forecast misses come from ignoring lagged exchange rate effects and treating the pandemic surge as temporary\n\n*Gloss:* Other explanation\n\n[[claims/other_explanation/Ireland distorts European data; IMF forecast misses come from ignoring lagged exchange rate effects and treating|open note]]",
+   "x": -1980,
+   "y": 3800,
+   "width": 520,
+   "height": 300,
+   "color": "#8A8A8A"
+  },
+  {
+   "id": "model-Q",
+   "type": "text",
+   "text": "**Q** \u00b7 `question` \u00b7 \u00b6 14, 16\n\nWhy does the IMF fail to see China's huge surplus clearly, and what does that blind spot cost its policy advice?\n\n*Why:* When the evidence is overwhelming but an official assessment misses it, the measuring instrument deserves scrutiny.",
+   "x": 300,
+   "y": 440,
+   "width": 520,
+   "height": 300,
+   "color": "#7A6FA8"
+  },
+  {
+   "id": "model-E1",
+   "type": "text",
+   "text": "**E1** \u00b7 `evidence_data` \u00b7 \u00b6 2, 3, 4\n\nChina's car exports exceed 6 million and are heading toward 8 million, with BYD aiming at 5 million, and China dominates clean-tech exports.\n\n*Why:* Physical export volumes in key sectors reveal the scale of a trade surplus.",
+   "x": 1460,
+   "y": 1880,
+   "width": 520,
+   "height": 300,
+   "color": "#2F7FBF"
+  },
+  {
+   "id": "model-E2",
+   "type": "text",
+   "text": "**E2** \u00b7 `evidence_data` \u00b7 \u00b6 5, 6\n\nIn the IMF's own data, export volumes are up 40 percent since 2019 against 1 percent for imports, which implies net exports added over a point a year to growth.\n\n*Why:* A widening gap between export and import volumes shows growth driven by net exports.",
+   "x": 2040,
+   "y": 1880,
+   "width": 520,
+   "height": 300,
+   "color": "#2F7FBF"
+  },
+  {
+   "id": "model-E3",
+   "type": "text",
+   "text": "**E3** \u00b7 `evidence_data` \u00b7 \u00b6 7, 8, 9\n\nCustoms data show a manufactured-goods surplus above $2 trillion (10.5 percent of GDP, over 2 percent of world GDP) and an overall goods surplus of $1.2 trillion.\n\n*Why:* A surplus measured against world GDP and historical peaks shows its systemic weight.",
+   "x": 300,
+   "y": 1880,
+   "width": 520,
+   "height": 300,
+   "color": "#2F7FBF"
+  },
+  {
+   "id": "model-E4",
+   "type": "text",
+   "text": "**E4** \u00b7 `evidence_source` \u00b7 \u00b6 11, 26\n\nCPB data show China's export volumes outpacing global trade while Europe's shrink.\n\n*Why:* An independent trade-volume dataset can corroborate shifts in market share.",
+   "x": 880,
+   "y": 1880,
+   "width": 520,
+   "height": 300,
+   "color": "#2F7FBF"
+  },
+  {
+   "id": "model-P1",
+   "type": "text",
+   "text": "**P1** \u00b7 `stated_assumption` \u00b7 \u00b6 25, 29\n\nCustoms trade data and observed physical flows measure China's real imbalance better than its reported balance of payments.\n\n*Why:* Directly observable trade flows are more reliable than heavily adjusted aggregate statistics.",
+   "x": 880,
+   "y": 920,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "model-C1",
+   "type": "text",
+   "text": "**C1** \u00b7 `intermediate_claim` \u00b7 \u00b6 12\n\nLarge global imbalances have returned, and China's growth on the back of net exports points to wider imbalances and more trade tension.\n\n*Why:* A large surplus country growing through net exports pushes global imbalances wider.",
+   "x": 880,
+   "y": 2840,
+   "width": 520,
+   "height": 300,
+   "color": "#2FBF9B"
+  },
+  {
+   "id": "model-M1",
+   "type": "text",
+   "text": "**M1** \u00b7 `mechanism` \u00b7 \u00b6 12\n\nWeak domestic demand frees capacity for export, and the resulting rate cuts, low yields and a weak, intervention-held yuan push the surplus up further.\n\n*Why:* A demand shortfall leads to monetary easing and currency weakness, which shifts output toward exports.",
+   "x": 300,
+   "y": 2360,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "model-POS",
+   "type": "text",
+   "text": "**POS** \u00b7 `position_map` \u00b7 \u00b6 13\n\nFrance wants imbalances to be central at the G-7, and Germany has reasons to agree because of the damage to its industrial base.\n\n*Why:* Governments whose industries are hurt by a partner's surplus push for multilateral attention.",
+   "x": 1460,
+   "y": 440,
+   "width": 520,
+   "height": 300,
+   "color": "#7A6FA8"
+  },
+  {
+   "id": "model-SCP",
+   "type": "text",
+   "text": "**SCP** \u00b7 `scope_choice` \u00b7 \u00b6 14, 15, 16\n\nThe IMF judges imbalances solely on reported current accounts, and China's reported surplus of 2.2 percent of GDP sits only slightly above its estimated norm.\n\n*Why:* The choice of metric decides which imbalances an assessment can see.",
+   "x": 300,
+   "y": 1400,
+   "width": 520,
+   "height": 300,
+   "color": "#9A8C6A"
+  },
+  {
+   "id": "model-E5",
+   "type": "text",
+   "text": "**E5** \u00b7 `evidence_discrepancy` \u00b7 \u00b6 10, 17\n\nOn the current account measure, Japan, Korea, Germany and even the EU show larger surpluses than China as a share of GDP.\n\n*Why:* When two measures of one imbalance rank countries in opposite order, the gap needs explaining.",
+   "x": 2620,
+   "y": 1880,
+   "width": 520,
+   "height": 300,
+   "color": "#2F7FBF"
+  },
+  {
+   "id": "model-M2",
+   "type": "text",
+   "text": "**M2** \u00b7 `mechanism` \u00b7 \u00b6 24, 27\n\nA methodology change cut the measured goods surplus, and an implausible income deficit despite nearly $4 trillion in net foreign assets cuts more, so the reported current account is artificially deflated.\n\n*Why:* A creditor country should earn net investment income, so a reported income deficit signals mismeasurement.",
+   "x": 880,
+   "y": 2360,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "model-SC",
+   "type": "text",
+   "text": "**SC** \u00b7 `source_credibility` \u00b7 \u00b6 6, 29, 30\n\nChinese official data cannot be verified: there is no detailed quarterly GDP data and no export volume series.\n\n*Why:* Statistics that no one can replicate deserve less trust than observable physical flows.",
+   "x": 2040,
+   "y": 920,
+   "width": 520,
+   "height": 300,
+   "color": "#2FA88F"
+  },
+  {
+   "id": "model-ANOM",
+   "type": "text",
+   "text": "**ANOM** \u00b7 `anomaly` \u00b7 \u00b6 15, 31\n\nThe IMF forecast China's 2025 surplus to fall to $375 billion, yet it will top $650 billion through Q3 alone.\n\n*Why:* A forecaster that repeatedly predicts a reversal that never comes is likely missing a structural driver.",
+   "x": 880,
+   "y": 440,
+   "width": 520,
+   "height": 300,
+   "color": "#AAAAAA"
+  },
+  {
+   "id": "model-P2",
+   "type": "text",
+   "text": "**P2** \u00b7 `stated_assumption` \u00b7 \u00b6 31\n\nA property slump and a weaker currency should raise the surplus with a lag, so IMF forecasts of a shrinking surplus contradict the IMF's own logic.\n\n*Why:* Currency depreciation and domestic housing slumps raise external surpluses with a lag.",
+   "x": 1460,
+   "y": 920,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "model-C2",
+   "type": "text",
+   "text": "**C2** \u00b7 `intermediate_claim` \u00b7 \u00b6 18, 21, 22\n\nBecause the surplus looks small, the IMF treats China's problem as purely internal and ignores its external imbalance.\n\n*Why:* A problem that is mismeasured gets misdiagnosed, and the policy advice follows the diagnosis.",
+   "x": 300,
+   "y": 2840,
+   "width": 520,
+   "height": 300,
+   "color": "#2FBF9B"
+  },
+  {
+   "id": "model-C3",
+   "type": "text",
+   "text": "**C3** \u00b7 `policy_reductio` \u00b7 \u00b6 19, 21\n\nThe IMF's advice of monetary easing would weaken the yuan and widen the surplus, in effect having China export its way out of its housing slump.\n\n*Why:* A cure that worsens an imbalance the adviser claims to care about is self-defeating.",
+   "x": 1460,
+   "y": 2840,
+   "width": 520,
+   "height": 300,
+   "color": "#2FBF9B"
+  },
+  {
+   "id": "model-REC",
+   "type": "text",
+   "text": "**REC** \u00b7 `recommendation` \u00b7 \u00b6 20, 22, 23\n\nThe IMF should call for a sustained, centrally funded fiscal expansion, including a deficit-financed social safety net, to lift Chinese demand.\n\n*Why:* Deflation together with a rising surplus calls for fiscal rather than monetary stimulus.",
+   "x": 880,
+   "y": 3320,
+   "width": 520,
+   "height": 300,
+   "color": "#2FBF9B"
+  },
+  {
+   "id": "model-P3",
+   "type": "text",
+   "text": "**P3** \u00b7 `hidden_assumption` \u00b7 \u00b6 20, 22\n\nChina's central government has the fiscal space to finance a large expansion without risk.\n\n*Why:* A low-debt sovereign can borrow to support demand without triggering a fiscal crisis.",
+   "x": 300,
+   "y": 920,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "model-QF",
+   "type": "text",
+   "text": "**QF** \u00b7 `caveat` \u00b7 \u00b6 23\n\nThe IMF does back bank recapitalization to finish sold apartments and pro-consumption structural reforms, so its advice is not wholly misguided.\n\n*Why:* Give an institution credit for the parts of its advice that point in the right direction.",
+   "x": 300,
+   "y": 3800,
+   "width": 520,
+   "height": 300,
+   "color": "#9A8C6A"
+  },
+  {
+   "id": "model-X",
+   "type": "text",
+   "text": "**X** \u00b7 `opposing_view` \u00b7 \u00b6 24, 25\n\nOthers argue that Europe's surplus is nearly as large as China's, so singling out China is not warranted.\n\n*Why:* An aggregate comparison can mislead if one member's figures are distorted.",
+   "x": 880,
+   "y": 3800,
+   "width": 520,
+   "height": 300,
+   "color": "#8A8A8A"
+  },
+  {
+   "id": "model-M3",
+   "type": "text",
+   "text": "**M3** \u00b7 `mechanism` \u00b7 \u00b6 10, 25, 32\n\nIreland's tax-driven surplus inflates the euro area's surplus, and offshore U.S. profits booked there (Microsoft alone over $40 billion) hide Europe's income balance; net of Ireland, Europe's goods surplus disappears.\n\n*Why:* Profit-shifting by multinationals distorts the trade and income accounts of the host country.",
+   "x": 1460,
+   "y": 2360,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "model-K",
+   "type": "text",
+   "text": "**K** \u00b7 `main_claim` \u00b7 \u00b6 12, 24, 28, 29\n\nChina's surplus is massive and is the central global imbalance; by relying on understated current account data, the IMF misses it and gives wrong advice and a misdirected global focus.\n\n*Why:* Policy institutions should judge imbalances by reliable flow data rather than by distorted aggregates.",
+   "x": 300,
+   "y": 3320,
+   "width": 520,
+   "height": 300,
+   "color": "#2FBF9B"
+  }
+ ],
+ "edges": [
+  {
+   "id": "h-P1-M1",
+   "fromNode": "hand-P1",
+   "fromSide": "bottom",
+   "toNode": "hand-M1",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "h-E1-M1",
+   "fromNode": "hand-E1",
+   "fromSide": "bottom",
+   "toNode": "hand-M1",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "h-E1-M2",
+   "fromNode": "hand-E1",
+   "fromSide": "bottom",
+   "toNode": "hand-M2",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "h-E2-M2",
+   "fromNode": "hand-E2",
+   "fromSide": "bottom",
+   "toNode": "hand-M2",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "h-E2-M3",
+   "fromNode": "hand-E2",
+   "fromSide": "bottom",
+   "toNode": "hand-M3",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "h-M2-M3",
+   "fromNode": "hand-M2",
+   "fromSide": "bottom",
+   "toNode": "hand-M3",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "h-M1-C1",
+   "fromNode": "hand-M1",
+   "fromSide": "bottom",
+   "toNode": "hand-C1",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "h-M3-C1",
+   "fromNode": "hand-M3",
+   "fromSide": "bottom",
+   "toNode": "hand-C1",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "h-P2-K",
+   "fromNode": "hand-P2",
+   "fromSide": "bottom",
+   "toNode": "hand-K",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "h-P3-C1",
+   "fromNode": "hand-P3",
+   "fromSide": "bottom",
+   "toNode": "hand-C1",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 licenses"
+  },
+  {
+   "id": "h-C1-K",
+   "fromNode": "hand-C1",
+   "fromSide": "bottom",
+   "toNode": "hand-K",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "h-K-X",
+   "fromNode": "hand-K",
+   "fromSide": "bottom",
+   "toNode": "hand-X",
+   "toSide": "top",
+   "color": "1",
+   "label": "-1 rebuts"
+  },
+  {
+   "id": "h-K-QF",
+   "fromNode": "hand-K",
+   "fromSide": "bottom",
+   "toNode": "hand-QF",
+   "toSide": "top",
+   "color": "1",
+   "label": "-1 qualified_by"
+  },
+  {
+   "id": "h-M3-R1",
+   "fromNode": "hand-M3",
+   "fromSide": "bottom",
+   "toNode": "hand-R1",
+   "toSide": "top",
+   "color": "1",
+   "label": "-1 undercut_by"
+  },
+  {
+   "id": "h-Q-P1",
+   "fromNode": "hand-Q",
+   "fromSide": "bottom",
+   "toNode": "hand-P1",
+   "toSide": "top",
+   "color": "6",
+   "label": "0 frames ~"
+  },
+  {
+   "id": "h-Q-P2",
+   "fromNode": "hand-Q",
+   "fromSide": "bottom",
+   "toNode": "hand-P2",
+   "toSide": "top",
+   "color": "6",
+   "label": "0 frames ~"
+  },
+  {
+   "id": "h-Q-P3",
+   "fromNode": "hand-Q",
+   "fromSide": "bottom",
+   "toNode": "hand-P3",
+   "toSide": "top",
+   "color": "6",
+   "label": "0 frames ~"
+  },
+  {
+   "id": "h-P1-E1",
+   "fromNode": "hand-P1",
+   "fromSide": "bottom",
+   "toNode": "hand-E1",
+   "toSide": "top",
+   "color": "6",
+   "label": "0 frames ~"
+  },
+  {
+   "id": "h-P3-E2",
+   "fromNode": "hand-P3",
+   "fromSide": "bottom",
+   "toNode": "hand-E2",
+   "toSide": "top",
+   "color": "6",
+   "label": "0 frames ~"
+  },
+  {
+   "id": "m-e001",
+   "fromNode": "model-Q",
+   "fromSide": "bottom",
+   "toNode": "model-P1",
+   "toSide": "top",
+   "color": "6",
+   "label": "0 frames"
+  },
+  {
+   "id": "m-e002",
+   "fromNode": "model-Q",
+   "fromSide": "bottom",
+   "toNode": "model-SCP",
+   "toSide": "top",
+   "color": "6",
+   "label": "0 frames"
+  },
+  {
+   "id": "m-e003",
+   "fromNode": "model-P1",
+   "fromSide": "bottom",
+   "toNode": "model-E1",
+   "toSide": "top",
+   "color": "6",
+   "label": "0 frames"
+  },
+  {
+   "id": "m-e004",
+   "fromNode": "model-P1",
+   "fromSide": "bottom",
+   "toNode": "model-E3",
+   "toSide": "top",
+   "color": "6",
+   "label": "0 frames"
+  },
+  {
+   "id": "m-e005",
+   "fromNode": "model-P1",
+   "fromSide": "bottom",
+   "toNode": "model-E4",
+   "toSide": "top",
+   "color": "6",
+   "label": "0 frames"
+  },
+  {
+   "id": "m-e006",
+   "fromNode": "model-E1",
+   "fromSide": "bottom",
+   "toNode": "model-C1",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "m-e007",
+   "fromNode": "model-E2",
+   "fromSide": "bottom",
+   "toNode": "model-C1",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "m-e008",
+   "fromNode": "model-E3",
+   "fromSide": "bottom",
+   "toNode": "model-C1",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "m-e009",
+   "fromNode": "model-E4",
+   "fromSide": "bottom",
+   "toNode": "model-C1",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "m-e010",
+   "fromNode": "model-M1",
+   "fromSide": "bottom",
+   "toNode": "model-C1",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "m-e011",
+   "fromNode": "model-POS",
+   "fromSide": "bottom",
+   "toNode": "model-Q",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 motivates"
+  },
+  {
+   "id": "m-e012",
+   "fromNode": "model-SCP",
+   "fromSide": "bottom",
+   "toNode": "model-E5",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 bounds"
+  },
+  {
+   "id": "m-e013",
+   "fromNode": "model-E5",
+   "fromSide": "bottom",
+   "toNode": "model-C2",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "m-e014",
+   "fromNode": "model-SCP",
+   "fromSide": "bottom",
+   "toNode": "model-C2",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 licenses"
+  },
+  {
+   "id": "m-e015",
+   "fromNode": "model-M2",
+   "fromSide": "bottom",
+   "toNode": "model-K",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "m-e016",
+   "fromNode": "model-SC",
+   "fromSide": "bottom",
+   "toNode": "model-M2",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "m-e017",
+   "fromNode": "model-ANOM",
+   "fromSide": "bottom",
+   "toNode": "model-Q",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 motivates"
+  },
+  {
+   "id": "m-e018",
+   "fromNode": "model-P2",
+   "fromSide": "bottom",
+   "toNode": "model-C2",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "m-e019",
+   "fromNode": "model-ANOM",
+   "fromSide": "bottom",
+   "toNode": "model-P2",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "m-e020",
+   "fromNode": "model-C2",
+   "fromSide": "bottom",
+   "toNode": "model-C3",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "m-e021",
+   "fromNode": "model-C3",
+   "fromSide": "bottom",
+   "toNode": "model-REC",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "m-e022",
+   "fromNode": "model-P3",
+   "fromSide": "bottom",
+   "toNode": "model-REC",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 licenses"
+  },
+  {
+   "id": "m-e023",
+   "fromNode": "model-REC",
+   "fromSide": "bottom",
+   "toNode": "model-QF",
+   "toSide": "top",
+   "color": "1",
+   "label": "-1 qualified_by"
+  },
+  {
+   "id": "m-e024",
+   "fromNode": "model-K",
+   "fromSide": "bottom",
+   "toNode": "model-X",
+   "toSide": "top",
+   "color": "1",
+   "label": "-1 rebuts"
+  },
+  {
+   "id": "m-e025",
+   "fromNode": "model-M3",
+   "fromSide": "bottom",
+   "toNode": "model-K",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "m-e026",
+   "fromNode": "model-C1",
+   "fromSide": "bottom",
+   "toNode": "model-K",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "m-e027",
+   "fromNode": "model-C2",
+   "fromSide": "bottom",
+   "toNode": "model-K",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "m-e028",
+   "fromNode": "model-E4",
+   "fromSide": "bottom",
+   "toNode": "model-M3",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "p-C1-C2",
+   "fromNode": "hand-C1",
+   "fromSide": "bottom",
+   "toNode": "model-C2",
+   "toSide": "bottom",
+   "color": "5",
+   "label": "paragraph"
+  },
+  {
+   "id": "p-E1-E3",
+   "fromNode": "hand-E1",
+   "fromSide": "bottom",
+   "toNode": "model-E3",
+   "toSide": "bottom",
+   "color": "5",
+   "label": "paragraph"
+  },
+  {
+   "id": "p-E2-E4",
+   "fromNode": "hand-E2",
+   "fromSide": "bottom",
+   "toNode": "model-E4",
+   "toSide": "bottom",
+   "color": "5",
+   "label": "slot"
+  },
+  {
+   "id": "p-K-K",
+   "fromNode": "hand-K",
+   "fromSide": "bottom",
+   "toNode": "model-K",
+   "toSide": "bottom",
+   "color": "5",
+   "label": "slot"
+  },
+  {
+   "id": "p-M1-M1",
+   "fromNode": "hand-M1",
+   "fromSide": "bottom",
+   "toNode": "model-M1",
+   "toSide": "bottom",
+   "color": "5",
+   "label": "paragraph"
+  },
+  {
+   "id": "p-P3-P3",
+   "fromNode": "hand-P3",
+   "fromSide": "bottom",
+   "toNode": "model-P3",
+   "toSide": "bottom",
+   "color": "5",
+   "label": "slot"
+  },
+  {
+   "id": "p-Q-Q",
+   "fromNode": "hand-Q",
+   "fromSide": "bottom",
+   "toNode": "model-Q",
+   "toSide": "bottom",
+   "color": "5",
+   "label": "slot"
+  },
+  {
+   "id": "p-QF-QF",
+   "fromNode": "hand-QF",
+   "fromSide": "bottom",
+   "toNode": "model-QF",
+   "toSide": "bottom",
+   "color": "5",
+   "label": "paragraph"
+  },
+  {
+   "id": "p-X-X",
+   "fromNode": "hand-X",
+   "fromSide": "bottom",
+   "toNode": "model-X",
+   "toSide": "bottom",
+   "color": "5",
+   "label": "paragraph"
+  }
+ ]
+}

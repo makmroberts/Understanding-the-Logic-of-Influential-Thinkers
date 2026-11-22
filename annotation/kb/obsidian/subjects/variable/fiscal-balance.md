@@ -45,7 +45,7 @@ Sits in the middle of arguments - as much argued toward as argued from.
 ### mechanism (2)
 
 - **2026-02** [[Fiscal channel]] · _Understanding the Low October 2025 Trade Def..._
-- **2026-07** [[The U.S. deficit is widening due to AI investment and fiscal deficits, the mirror]] · _Is China’s Surplus Really Shrinking?_
+- **2026-07** [[AIdata-center investment and a large fiscal deficit are expanding the U.S. deficit]] · _Is China’s Surplus Really Shrinking?_
 
 ### counterpoint (2)
 

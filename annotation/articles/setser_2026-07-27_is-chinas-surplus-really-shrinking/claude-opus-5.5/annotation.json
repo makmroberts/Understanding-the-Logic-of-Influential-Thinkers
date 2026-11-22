@@ -105,13 +105,13 @@
   }
  },
  "annotation": {
-  "annotated_at": "2026-11-09T21:12:12+00:00",
+  "annotated_at": "2026-11-19T02:42:27+00:00",
   "ontology": {
    "id": "setser_argument",
-   "version": 2
+   "version": 3
   },
   "facets_version": 1,
-  "pipeline_version": "8d03103",
+  "pipeline_version": "137f37e",
   "status": "needs_review",
   "runs": [
    {
@@ -123,9 +123,9 @@
      "max_tokens": 16000,
      "reasoning_effort": "medium"
     },
-    "timestamp": "2026-11-09T21:12:11+00:00",
+    "timestamp": "2026-11-19T02:41:31+00:00",
     "calls": 1,
-    "cost_usd": 0.08232
+    "cost_usd": 0.0891
    },
    {
     "run_id": "claude-opus-5.5_links",
@@ -136,9 +136,9 @@
      "max_tokens": 12000,
      "reasoning_effort": "medium"
     },
-    "timestamp": "2026-11-09T21:12:11+00:00",
+    "timestamp": "2026-11-19T02:42:05+00:00",
     "calls": 1,
-    "cost_usd": 0.03146
+    "cost_usd": 0.02925
    },
    {
     "run_id": "claude-opus-5.5_facets",
@@ -149,15 +149,15 @@
      "max_tokens": 12000,
      "reasoning_effort": "low"
     },
-    "timestamp": "2026-11-09T21:12:11+00:00",
+    "timestamp": "2026-11-19T02:42:14+00:00",
     "calls": 1,
-    "cost_usd": 0.04918
+    "cost_usd": 0.04721
    }
   ]
  },
  "summary": {
-  "central_question": "Has China's trade surplus really peaked, as the Economist claims, or is the underlying surplus still growing?",
-  "main_thesis": "China's underlying surplus is still rising; it continues to rely heavily on exports for growth.",
+  "central_question": "Has China's trade surplus really peaked and begun shrinking, as the Economist claims?",
+  "main_thesis": "China's underlying surplus is still rising and China continues to rely heavily on exports for growth; the financial press missed it.",
   "argument_summary": null
  },
  "nodes": [
@@ -167,10 +167,10 @@
    "role": "question",
    "level": "L0",
    "content": {
-    "text": "Has China's trade surplus really peaked, as the Economist claims, or is the underlying surplus still growing?",
+    "text": "Has China's trade surplus really peaked and begun shrinking, as the Economist claims?",
     "label": null,
     "explicit": false,
-    "reason": "A headline trade balance must be checked against its components before inferring a trend."
+    "reason": "A headline trade balance claim must be checked against the underlying components before accepting it."
    },
    "source": {
     "passages": [
@@ -239,7 +239,6 @@
    "review": {
     "status": "pending",
     "reasons": [
-     "links: `Q` frames `SCP` joins L0→L1B, which no hand-drawn frames link does",
      "passages: `Q`: the team's passage linker anchors it to p27 (shared: economist), which the box does not cite"
     ]
    }
@@ -250,10 +249,10 @@
    "role": "opposing_view",
    "level": "L6",
    "content": {
-    "text": "The Economist, following Adam Wolfe of Absolute Strategy Research, argues China's surplus has peaked.",
+    "text": "The Economist, drawing on Adam Wolfe of Absolute Strategy Research, argues China's trade surplus has peaked.",
     "label": null,
     "explicit": true,
-    "reason": "A claim of trend reversal must survive removal of one-off items."
+    "reason": "Claims of rebalancing in a surplus economy deserve scrutiny when volumes still point the other way."
    },
    "source": {
     "passages": [
@@ -317,9 +316,7 @@
    },
    "review": {
     "status": "pending",
-    "reasons": [
-     "links: `SC` undercut_by `X` joins L1→L6, which no hand-drawn undercut_by link does"
-    ]
+    "reasons": []
    }
   },
   {
@@ -328,10 +325,10 @@
    "role": "evidence_data",
    "level": "L2",
    "content": {
-    "text": "The price-adjusted surplus is still rising: net exports added 0.8 pp of GDP in Q1 and 0.9 pp in Q2.",
+    "text": "The price-adjusted trade surplus is still growing, with net exports adding 0.8 pp of GDP to growth in Q1 and 0.9 pp in Q2.",
     "label": null,
     "explicit": true,
-    "reason": "Real net export contributions measure the change in the volume surplus independent of price swings."
+    "reason": "A rising real net export contribution signals a growing underlying surplus regardless of nominal swings."
    },
    "source": {
     "passages": [
@@ -342,10 +339,10 @@
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "Net exports have contributed positively to China’s growth in Q1 and Q2.",
+      "source_excerpt": "That is a strange argument, as the “real” (price-adjusted) trade surplus is still growing. Net exports have contributed positively to China’s growth in Q1 and Q2.",
       "source_spans": [
        {
-        "char_start": 91,
+        "char_start": 0,
         "char_end": 162
        }
       ]
@@ -405,14 +402,14 @@
   },
   {
    "id": "n004",
-   "legacy_id": "M1",
-   "role": "mechanism",
-   "level": "L3",
+   "legacy_id": "C1",
+   "role": "intermediate_claim",
+   "level": "L4",
    "content": {
-    "text": "Higher chip prices raise both chip imports and exports, so they barely move the net balance.",
+    "text": "Higher chip prices raise China's chip exports nearly as much as its chip imports, so chips do not explain a falling net surplus.",
     "label": null,
     "explicit": true,
-    "reason": "A price shock to a good both imported and exported largely nets out in the balance."
+    "reason": "A price shock affecting both sides of trade largely nets out of the balance."
    },
    "source": {
     "passages": [
@@ -459,78 +456,6 @@
       "term": "goods-trade-balance",
       "assignment_source": "llm",
       "run_id": "claude-opus-5.5_facets"
-     },
-     {
-      "term": "import-volumes",
-      "assignment_source": "llm",
-      "run_id": "claude-opus-5.5_facets"
-     }
-    ],
-    "country": [
-     {
-      "term": "china",
-      "assignment_source": "llm",
-      "run_id": "claude-opus-5.5_facets",
-      "geo_role": "subject"
-     }
-    ],
-    "bloc": [],
-    "instrument": [],
-    "data_basis": []
-   },
-   "attributes": {
-    "kind": "economic"
-   },
-   "provenance": {
-    "method": "llm",
-    "run_id": "claude-opus-5.5_boxes"
-   },
-   "review": {
-    "status": "pending",
-    "reasons": []
-   }
-  },
-  {
-   "id": "n005",
-   "legacy_id": "C1",
-   "role": "intermediate_claim",
-   "level": "L4",
-   "content": {
-    "text": "Oil price gains are offset by collapsing import volumes, so the commodity bill rose only modestly.",
-    "label": null,
-    "explicit": true,
-    "reason": "An import bill depends on volume as well as price."
-   },
-   "source": {
-    "passages": [
-     {
-      "paragraph_id": "p5",
-      "paragraph_sha256": "sha256:1d49a83ca75ee1650140b42021510e627711a3aa1b2f0595b381986e765836bb",
-      "relation": "states",
-      "link_method": "llm_citation",
-      "anchor_grade": "excerpt",
-      "review_status": "pending",
-      "source_excerpt": "The price of oil imports is up but import volumes have famously collapsed; the commodity import bill is up, but only modestly.",
-      "source_spans": [
-       {
-        "char_start": 69,
-        "char_end": 195
-       }
-      ]
-     }
-    ]
-   },
-   "facets": {
-    "variable": [
-     {
-      "term": "commodity-prices",
-      "assignment_source": "llm",
-      "run_id": "claude-opus-5.5_facets"
-     },
-     {
-      "term": "import-volumes",
-      "assignment_source": "llm",
-      "run_id": "claude-opus-5.5_facets"
      }
     ],
     "country": [
@@ -556,59 +481,44 @@
    }
   },
   {
-   "id": "n006",
-   "legacy_id": "SCP",
-   "role": "scope_choice",
-   "level": "L1B",
+   "id": "n005",
+   "legacy_id": "E2",
+   "role": "evidence_data",
+   "level": "L2",
    "content": {
-    "text": "Gold imports should be netted out of the headline balance because they are a one-off surge, not underlying trade.",
+    "text": "Oil import volumes collapsed, so the commodity import bill rose only modestly and oil is not the key adjustment.",
     "label": null,
     "explicit": true,
-    "reason": "Excluding volatile store-of-value flows reveals the underlying trade trend."
+    "reason": "Falling volumes can offset higher prices in the import bill."
    },
    "source": {
     "passages": [
      {
-      "paragraph_id": "p6",
-      "paragraph_sha256": "sha256:43f8aa4480c4e2e5bd431b81e49826322df699e3c97edc35d9f16fddb1020e30",
+      "paragraph_id": "p5",
+      "paragraph_sha256": "sha256:1d49a83ca75ee1650140b42021510e627711a3aa1b2f0595b381986e765836bb",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "The critical adjustment is to net out imports of gold",
+      "source_excerpt": "The price of oil imports is up but import volumes have famously collapsed; the commodity import bill is up, but only modestly.",
       "source_spans": [
        {
-        "char_start": 0,
-        "char_end": 53
+        "char_start": 69,
+        "char_end": 195
        }
       ]
-     },
-     {
-      "paragraph_id": "p9",
-      "paragraph_sha256": "sha256:9f3c015c08628b375023ca60ea840dc0f51b8c88f91f13e09ac88f1fc3c2aaef",
-      "relation": "abstracts",
-      "link_method": "llm_citation",
-      "anchor_grade": "cited",
-      "review_status": "pending",
-      "source_excerpt": null,
-      "source_spans": null
-     },
-     {
-      "paragraph_id": "p12",
-      "paragraph_sha256": "sha256:68601af694a30ebb8e0161db56ceafd8f3cfcebe01b2c67972ab379caf31e91a",
-      "relation": "abstracts",
-      "link_method": "llm_citation",
-      "anchor_grade": "cited",
-      "review_status": "pending",
-      "source_excerpt": null,
-      "source_spans": null
      }
     ]
    },
    "facets": {
     "variable": [
      {
-      "term": "goods-trade-balance",
+      "term": "import-volumes",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     },
+     {
+      "term": "commodity-prices",
       "assignment_source": "llm",
       "run_id": "claude-opus-5.5_facets"
      }
@@ -638,105 +548,19 @@
    },
    "review": {
     "status": "pending",
-    "reasons": [
-     "links: `Q` frames `SCP` joins L0→L1B, which no hand-drawn frames link does",
-     "links: `P2` supports `SCP` joins L1→L1B, which no hand-drawn supports link does",
-     "links: `SCP` licenses `RC` joins L1B→L5, which no hand-drawn licenses link does"
-    ]
+    "reasons": []
    }
   },
   {
-   "id": "n007",
-   "legacy_id": "P2",
-   "role": "hidden_assumption",
-   "level": "L1",
-   "content": {
-    "text": "Gold imports reflect financial or reserve-asset demand rather than the real trade dynamics relevant to growth and imbalances.",
-    "label": null,
-    "explicit": false,
-    "reason": "Gold flows behave like asset purchases and distort goods balances as a measure of competitiveness."
-   },
-   "source": {
-    "passages": [
-     {
-      "paragraph_id": "p6",
-      "paragraph_sha256": "sha256:43f8aa4480c4e2e5bd431b81e49826322df699e3c97edc35d9f16fddb1020e30",
-      "relation": "presupposes",
-      "link_method": "llm_citation",
-      "anchor_grade": "cited",
-      "review_status": "pending",
-      "source_excerpt": null,
-      "source_spans": null
-     },
-     {
-      "paragraph_id": "p7",
-      "paragraph_sha256": "sha256:f42e56c3d11ffac54fa72d317fcc67f72edd41a952230319ddc0782df72da910",
-      "relation": "presupposes",
-      "link_method": "llm_citation",
-      "anchor_grade": "cited",
-      "review_status": "pending",
-      "source_excerpt": null,
-      "source_spans": null
-     },
-     {
-      "paragraph_id": "p22",
-      "paragraph_sha256": "sha256:47aa2b826aeadfe2bf880d6aad31108568540039acaba12c4c4bba963ba17c3f",
-      "relation": "presupposes",
-      "link_method": "llm_citation",
-      "anchor_grade": "cited",
-      "review_status": "pending",
-      "source_excerpt": null,
-      "source_spans": null
-     }
-    ]
-   },
-   "facets": {
-    "variable": [
-     {
-      "term": "goods-trade-balance",
-      "assignment_source": "llm",
-      "run_id": "claude-opus-5.5_facets"
-     },
-     {
-      "term": "fx-reserves",
-      "assignment_source": "llm",
-      "run_id": "claude-opus-5.5_facets"
-     }
-    ],
-    "country": [
-     {
-      "term": "china",
-      "assignment_source": "llm",
-      "run_id": "claude-opus-5.5_facets",
-      "geo_role": "subject"
-     }
-    ],
-    "bloc": [],
-    "instrument": [],
-    "data_basis": []
-   },
-   "attributes": {},
-   "provenance": {
-    "method": "llm",
-    "run_id": "claude-opus-5.5_boxes"
-   },
-   "review": {
-    "status": "pending",
-    "reasons": [
-     "links: `P2` supports `SCP` joins L1→L1B, which no hand-drawn supports link does"
-    ]
-   }
-  },
-  {
-   "id": "n008",
-   "legacy_id": "E2",
+   "id": "n006",
+   "legacy_id": "E3",
    "role": "evidence_data",
    "level": "L2",
    "content": {
-    "text": "Gold imports reached $146 billion in H1 2026, nearly $100 billion above H1 2025, and 1.5% of GDP in Q2, even as gold prices fell.",
+    "text": "Gold imports reached $146 billion in H1 2026, nearly $100 billion above H1 2025, and 1.5 pp of GDP in Q2, even as gold prices fell.",
     "label": null,
     "explicit": true,
-    "reason": "A volume surge during falling prices signals a demand shift, not a valuation effect."
+    "reason": "Large one-off financial-asset imports can swamp movements in the headline goods balance."
    },
    "source": {
     "passages": [
@@ -773,11 +597,6 @@
       "term": "import-volumes",
       "assignment_source": "llm",
       "run_id": "claude-opus-5.5_facets"
-     },
-     {
-      "term": "commodity-prices",
-      "assignment_source": "llm",
-      "run_id": "claude-opus-5.5_facets"
      }
     ],
     "country": [
@@ -805,40 +624,52 @@
    },
    "review": {
     "status": "pending",
-    "reasons": []
+    "reasons": [
+     "passages: `E3`: the team's passage linker anchors it to p22 (shared: 1.5pp), which the box does not cite"
+    ]
    }
   },
   {
-   "id": "n009",
-   "legacy_id": "P3",
-   "role": "revised_prior",
+   "id": "n007",
+   "legacy_id": "P1",
+   "role": "stated_assumption",
    "level": "L1",
    "content": {
-    "text": "The author expected chips or oil, not gold, to be the key adjustment, and expected chips to have a bigger net effect.",
+    "text": "Gold imports should be netted out because they reflect asset demand rather than the underlying trade position.",
     "label": null,
     "explicit": true,
-    "reason": "Decompose both sides of trade rather than assuming a large gross shock moves the net."
+    "reason": "Gold flows behave like portfolio flows and distort goods trade as a gauge of real demand."
    },
    "source": {
     "passages": [
      {
-      "paragraph_id": "p9",
-      "paragraph_sha256": "sha256:9f3c015c08628b375023ca60ea840dc0f51b8c88f91f13e09ac88f1fc3c2aaef",
+      "paragraph_id": "p6",
+      "paragraph_sha256": "sha256:43f8aa4480c4e2e5bd431b81e49826322df699e3c97edc35d9f16fddb1020e30",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "to my surprise to be honest",
+      "source_excerpt": "The critical adjustment is to net out imports of gold",
       "source_spans": [
        {
-        "char_start": 78,
-        "char_end": 105
+        "char_start": 0,
+        "char_end": 53
        }
       ]
      },
      {
-      "paragraph_id": "p25",
-      "paragraph_sha256": "sha256:ac050350edb834602df7198a7e54a978a211507a70eb500019528cf6426fd922",
+      "paragraph_id": "p9",
+      "paragraph_sha256": "sha256:9f3c015c08628b375023ca60ea840dc0f51b8c88f91f13e09ac88f1fc3c2aaef",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     },
+     {
+      "paragraph_id": "p26",
+      "paragraph_sha256": "sha256:141e2d7a8a5a5923a8ed74171fc88661470587a3302302f2e24a3d0ff02949bf",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
@@ -879,15 +710,15 @@
    }
   },
   {
-   "id": "n010",
+   "id": "n008",
    "legacy_id": "RC",
    "role": "reconstruction",
    "level": "L5",
    "content": {
-    "text": "Excluding gold, the goods surplus rose over $80 billion in H1 2026 and would be near 7% of GDP in Q2.",
+    "text": "Excluding gold, China's goods surplus rose by over $80 billion in H1 2026 and would be close to 7% of GDP in Q2.",
     "label": null,
     "explicit": true,
-    "reason": "Rebuild the headline balance without the distorting item to see the true level."
+    "reason": "Removing a distorting component from a headline measure reveals the underlying trend."
    },
    "source": {
     "passages": [
@@ -962,48 +793,47 @@
    "review": {
     "status": "pending",
     "reasons": [
-     "links: `SCP` licenses `RC` joins L1B→L5, which no hand-drawn licenses link does",
      "links: `RC` supports `K` joins L5→L5, which no hand-drawn supports link does"
     ]
    }
   },
   {
-   "id": "n011",
-   "legacy_id": "C2",
-   "role": "intermediate_claim",
-   "level": "L4",
+   "id": "n009",
+   "legacy_id": "SCP",
+   "role": "scope_choice",
+   "level": "L1B",
    "content": {
-    "text": "Manufactures trade excluding chips and gold shows rising exports driven by autos, with flat imports, so the manufacturing surplus keeps rising.",
+    "text": "The cleanest gauge is manufactures trade excluding chips and gold, where exports are up and imports are flat.",
     "label": null,
     "explicit": true,
-    "reason": "A core balance stripped of price-volatile items shows the underlying trend most cleanly."
+    "reason": "Excluding price-volatile and asset-like categories isolates core manufacturing competitiveness."
    },
    "source": {
     "passages": [
      {
       "paragraph_id": "p12",
       "paragraph_sha256": "sha256:68601af694a30ebb8e0161db56ceafd8f3cfcebe01b2c67972ab379caf31e91a",
+      "relation": "states",
+      "link_method": "llm_citation",
+      "anchor_grade": "excerpt",
+      "review_status": "pending",
+      "source_excerpt": "The easiest way to see this is to look at Chinese trade in manufactures excluding chips and excluding gold",
+      "source_spans": [
+       {
+        "char_start": 0,
+        "char_end": 106
+       }
+      ]
+     },
+     {
+      "paragraph_id": "p13",
+      "paragraph_sha256": "sha256:f44b678c3a4ce3f610c6c00f7961d26ce7431e75119fc6552da178d675f29bbc",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
       "source_excerpt": null,
       "source_spans": null
-     },
-     {
-      "paragraph_id": "p13",
-      "paragraph_sha256": "sha256:f44b678c3a4ce3f610c6c00f7961d26ce7431e75119fc6552da178d675f29bbc",
-      "relation": "states",
-      "link_method": "llm_citation",
-      "anchor_grade": "excerpt",
-      "review_status": "pending",
-      "source_excerpt": "Exports are up. This shouldn’t be a surprise: auto exports are absolutely booming, and imports are still flat.",
-      "source_spans": [
-       {
-        "char_start": 0,
-        "char_end": 110
-       }
-      ]
      },
      {
       "paragraph_id": "p21",
@@ -1014,6 +844,72 @@
       "review_status": "pending",
       "source_excerpt": null,
       "source_spans": null
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "manufacturing-trade-balance",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [
+     {
+      "term": "china",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     }
+    ],
+    "bloc": [],
+    "instrument": [],
+    "data_basis": [
+     {
+      "term": "customs",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ]
+   },
+   "attributes": {},
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "n010",
+   "legacy_id": "E4",
+   "role": "evidence_data",
+   "level": "L2",
+   "content": {
+    "text": "Booming auto exports, globally and to Europe, alongside flat imports drive the rising manufacturing surplus.",
+    "label": null,
+    "explicit": true,
+    "reason": "Rapid export volume growth in a key sector is direct evidence of rising surplus."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p13",
+      "paragraph_sha256": "sha256:f44b678c3a4ce3f610c6c00f7961d26ce7431e75119fc6552da178d675f29bbc",
+      "relation": "states",
+      "link_method": "llm_citation",
+      "anchor_grade": "excerpt",
+      "review_status": "pending",
+      "source_excerpt": "auto exports are absolutely booming, and imports are still flat.",
+      "source_spans": [
+       {
+        "char_start": 46,
+        "char_end": 110
+       }
+      ]
      },
      {
       "paragraph_id": "p27",
@@ -1069,184 +965,15 @@
    }
   },
   {
-   "id": "n012",
-   "legacy_id": "P1",
-   "role": "stated_assumption",
-   "level": "L1",
-   "content": {
-    "text": "Refined gold is classified as a manufacture, so gold flows contaminate the manufacturing balance.",
-    "label": null,
-    "explicit": true,
-    "reason": "Classification conventions determine which category a volatile flow distorts."
-   },
-   "source": {
-    "passages": [
-     {
-      "paragraph_id": "p12",
-      "paragraph_sha256": "sha256:68601af694a30ebb8e0161db56ceafd8f3cfcebe01b2c67972ab379caf31e91a",
-      "relation": "states",
-      "link_method": "llm_citation",
-      "anchor_grade": "excerpt",
-      "review_status": "pending",
-      "source_excerpt": "refined gold is classified as a manufacture, the commodity is gold rich ores",
-      "source_spans": [
-       {
-        "char_start": 108,
-        "char_end": 184
-       }
-      ]
-     },
-     {
-      "paragraph_id": "p26",
-      "paragraph_sha256": "sha256:141e2d7a8a5a5923a8ed74171fc88661470587a3302302f2e24a3d0ff02949bf",
-      "relation": "abstracts",
-      "link_method": "llm_citation",
-      "anchor_grade": "cited",
-      "review_status": "pending",
-      "source_excerpt": null,
-      "source_spans": null
-     }
-    ]
-   },
-   "facets": {
-    "variable": [
-     {
-      "term": "manufacturing-trade-balance",
-      "assignment_source": "llm",
-      "run_id": "claude-opus-5.5_facets"
-     }
-    ],
-    "country": [
-     {
-      "term": "china",
-      "assignment_source": "llm",
-      "run_id": "claude-opus-5.5_facets",
-      "geo_role": "subject"
-     }
-    ],
-    "bloc": [],
-    "instrument": [],
-    "data_basis": [
-     {
-      "term": "customs",
-      "assignment_source": "llm",
-      "run_id": "claude-opus-5.5_facets"
-     }
-    ]
-   },
-   "attributes": {},
-   "provenance": {
-    "method": "llm",
-    "run_id": "claude-opus-5.5_boxes"
-   },
-   "review": {
-    "status": "pending",
-    "reasons": []
-   }
-  },
-  {
-   "id": "n013",
-   "legacy_id": "M2",
-   "role": "mechanism",
-   "level": "L3",
-   "content": {
-    "text": "Lagging price indices treated chip-price-driven value gains as volume gains in Q1, and gold overstated Q2 real imports, understating reported growth.",
-    "label": null,
-    "explicit": true,
-    "reason": "If trade values rise but deflators lag, measured volumes are overstated."
-   },
-   "source": {
-    "passages": [
-     {
-      "paragraph_id": "p18",
-      "paragraph_sha256": "sha256:1ba82a9757a3e89d4f9f7282399359ea313c1cb54ef2a6ca28ab9ed8d48ea2c8",
-      "relation": "states",
-      "link_method": "llm_citation",
-      "anchor_grade": "excerpt",
-      "review_status": "pending",
-      "source_excerpt": "China’s statistical authorities were slow to recognize the “chip” shock",
-      "source_spans": [
-       {
-        "char_start": 111,
-        "char_end": 182
-       }
-      ]
-     },
-     {
-      "paragraph_id": "p19",
-      "paragraph_sha256": "sha256:ea711809666463b3dd9f7d4121c67947d713b88967ecb80eafa2fd8ff22dc370",
-      "relation": "abstracts",
-      "link_method": "llm_citation",
-      "anchor_grade": "cited",
-      "review_status": "pending",
-      "source_excerpt": null,
-      "source_spans": null
-     },
-     {
-      "paragraph_id": "p20",
-      "paragraph_sha256": "sha256:3da2e4322670dea54bf7063b6504baa52d70c8b3f047946743530dddc890653d",
-      "relation": "abstracts",
-      "link_method": "llm_citation",
-      "anchor_grade": "cited",
-      "review_status": "pending",
-      "source_excerpt": null,
-      "source_spans": null
-     }
-    ]
-   },
-   "facets": {
-    "variable": [
-     {
-      "term": "gdp-growth",
-      "assignment_source": "llm",
-      "run_id": "claude-opus-5.5_facets"
-     },
-     {
-      "term": "import-volumes",
-      "assignment_source": "llm",
-      "run_id": "claude-opus-5.5_facets"
-     }
-    ],
-    "country": [
-     {
-      "term": "china",
-      "assignment_source": "llm",
-      "run_id": "claude-opus-5.5_facets",
-      "geo_role": "subject"
-     }
-    ],
-    "bloc": [],
-    "instrument": [],
-    "data_basis": [
-     {
-      "term": "national-accounts",
-      "assignment_source": "llm",
-      "run_id": "claude-opus-5.5_facets"
-     }
-    ]
-   },
-   "attributes": {
-    "kind": "distortion"
-   },
-   "provenance": {
-    "method": "llm",
-    "run_id": "claude-opus-5.5_boxes"
-   },
-   "review": {
-    "status": "pending",
-    "reasons": []
-   }
-  },
-  {
-   "id": "n014",
+   "id": "n011",
    "legacy_id": "K",
    "role": "main_claim",
    "level": "L5",
    "content": {
-    "text": "China's underlying surplus is still rising; it continues to rely heavily on exports for growth.",
+    "text": "China's underlying surplus is still rising and China continues to rely heavily on exports for growth; the financial press missed it.",
     "label": null,
     "explicit": true,
-    "reason": "The underlying trend, not the gold-distorted headline, shows dependence on external demand."
+    "reason": "Trend conclusions should rest on adjusted underlying data, not distorted headline totals."
    },
    "source": {
     "passages": [
@@ -1257,11 +984,11 @@
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "The underlying Chinese surplus is still heading up, just as the underlying U.S. deficit is now expanding",
+      "source_excerpt": "The underlying Chinese surplus is still heading up",
       "source_spans": [
        {
         "char_start": 0,
-        "char_end": 104
+        "char_end": 50
        }
       ]
      },
@@ -1337,15 +1064,15 @@
    }
   },
   {
-   "id": "n015",
-   "legacy_id": "M3",
+   "id": "n012",
+   "legacy_id": "M1",
    "role": "mechanism",
    "level": "L3",
    "content": {
-    "text": "The U.S. deficit is widening due to AI investment and fiscal deficits, the mirror of China's surplus.",
+    "text": "AI/data-center investment and a large fiscal deficit are expanding the U.S. deficit, the counterpart to China's surplus.",
     "label": null,
     "explicit": true,
-    "reason": "Investment booms and fiscal deficits widen external deficits."
+    "reason": "Investment booms and fiscal deficits raise a country's external deficit."
    },
    "source": {
     "passages": [
@@ -1356,10 +1083,10 @@
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "the underlying U.S. deficit is now expanding (because of “AI”/ data center investment and a big fiscal deficit)",
+      "source_excerpt": "just as the underlying U.S. deficit is now expanding (because of “AI”/ data center investment and a big fiscal deficit)",
       "source_spans": [
        {
-        "char_start": 60,
+        "char_start": 52,
         "char_end": 171
        }
       ]
@@ -1368,11 +1095,6 @@
    },
    "facets": {
     "variable": [
-     {
-      "term": "current-account",
-      "assignment_source": "llm",
-      "run_id": "claude-opus-5.5_facets"
-     },
      {
       "term": "investment-capex",
       "assignment_source": "llm",
@@ -1415,73 +1137,89 @@
    }
   },
   {
-   "id": "n016",
-   "legacy_id": "C3",
-   "role": "intermediate_claim",
-   "level": "L4",
+   "id": "n013",
+   "legacy_id": "M2",
+   "role": "mechanism",
+   "level": "L3",
    "content": {
-    "text": "U.S. 2025 data are also distorted by tariff-driven gold bar imports and their reversal, flattering the Q4 and Q1 deficit.",
+    "text": "Slow recognition of the chip price shock in Q1 deflators distorted volume data and understated Q1 net export contribution, while Q2 gold inflated imports and lowered reported growth.",
     "label": null,
     "explicit": true,
-    "reason": "The same gold distortion applies to any country with large bullion flows."
+    "reason": "Lagging price indices misattribute nominal changes to volumes, biasing real growth estimates."
    },
    "source": {
     "passages": [
      {
-      "paragraph_id": "p26",
-      "paragraph_sha256": "sha256:141e2d7a8a5a5923a8ed74171fc88661470587a3302302f2e24a3d0ff02949bf",
+      "paragraph_id": "p18",
+      "paragraph_sha256": "sha256:1ba82a9757a3e89d4f9f7282399359ea313c1cb54ef2a6ca28ab9ed8d48ea2c8",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     },
+     {
+      "paragraph_id": "p19",
+      "paragraph_sha256": "sha256:ea711809666463b3dd9f7d4121c67947d713b88967ecb80eafa2fd8ff22dc370",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "The 2025 U.S. trade data also needs to be gold-adjusted, by the way.",
+      "source_excerpt": "if the dollar value of trade rises and import and export prices don’t rise, statistically there is an increase in the volume of trade",
       "source_spans": [
        {
-        "char_start": 4,
-        "char_end": 72
+        "char_start": 87,
+        "char_end": 220
        }
       ]
+     },
+     {
+      "paragraph_id": "p20",
+      "paragraph_sha256": "sha256:3da2e4322670dea54bf7063b6504baa52d70c8b3f047946743530dddc890653d",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
      }
     ]
    },
    "facets": {
     "variable": [
      {
-      "term": "goods-trade-balance",
+      "term": "gdp-growth",
       "assignment_source": "llm",
       "run_id": "claude-opus-5.5_facets"
      },
      {
-      "term": "import-volumes",
+      "term": "export-volumes",
       "assignment_source": "llm",
       "run_id": "claude-opus-5.5_facets"
      }
     ],
     "country": [
      {
-      "term": "us",
+      "term": "china",
       "assignment_source": "llm",
       "run_id": "claude-opus-5.5_facets",
       "geo_role": "subject"
      }
     ],
     "bloc": [],
-    "instrument": [
-     {
-      "term": "tariffs",
-      "assignment_source": "llm",
-      "run_id": "claude-opus-5.5_facets"
-     }
-    ],
+    "instrument": [],
     "data_basis": [
      {
-      "term": "customs",
+      "term": "national-accounts",
       "assignment_source": "llm",
       "run_id": "claude-opus-5.5_facets"
      }
     ]
    },
-   "attributes": {},
+   "attributes": {
+    "kind": "distortion"
+   },
    "provenance": {
     "method": "llm",
     "run_id": "claude-opus-5.5_boxes"
@@ -1492,15 +1230,15 @@
    }
   },
   {
-   "id": "n017",
+   "id": "n014",
    "legacy_id": "QF",
    "role": "caveat",
    "level": "L6",
    "content": {
-    "text": "The author concedes commodity and manufacturing balances shifted too, the chip deficit widened a bit, and the adjustments are complex.",
+    "text": "Commodity and manufacturing balances also changed, and the adjustments are complex.",
     "label": null,
     "explicit": true,
-    "reason": "Acknowledge secondary movements when isolating the main driver."
+    "reason": "Single-factor adjustments simplify a multi-component balance."
    },
    "source": {
     "passages": [
@@ -1577,21 +1315,21 @@
    }
   },
   {
-   "id": "n018",
-   "legacy_id": "SC",
-   "role": "source_credibility",
+   "id": "n015",
+   "legacy_id": "P3",
+   "role": "revised_prior",
    "level": "L1",
    "content": {
-    "text": "Financial press and many China analysts misread the trend, failing to adjust for gold.",
+    "text": "Setser expected the chip price surge to explain more of the net change than it did, and was surprised gold was the key.",
     "label": null,
     "explicit": true,
-    "reason": "Commentary that ignores obvious volume evidence deserves skepticism."
+    "reason": "Decomposing both exports and imports can overturn intuitions about which shock matters."
    },
    "source": {
     "passages": [
      {
-      "paragraph_id": "p23",
-      "paragraph_sha256": "sha256:25c6414824e7aa915a4c5e9f81d1c7c16c471c87869d724575e6b9ffda6584da",
+      "paragraph_id": "p9",
+      "paragraph_sha256": "sha256:9f3c015c08628b375023ca60ea840dc0f51b8c88f91f13e09ac88f1fc3c2aaef",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
@@ -1600,17 +1338,17 @@
       "source_spans": null
      },
      {
-      "paragraph_id": "p27",
-      "paragraph_sha256": "sha256:a74103d147774fa87cccfe88878915da66f3cf85098619c2142753ec3f22a83f",
+      "paragraph_id": "p25",
+      "paragraph_sha256": "sha256:ac050350edb834602df7198a7e54a978a211507a70eb500019528cf6426fd922",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "Too many China analysts are trying to obscure what should be obvious",
+      "source_excerpt": "So I was expecting it to have a bigger impact on the “net” than what actually shows up in the numbers.",
       "source_spans": [
        {
-        "char_start": 206,
-        "char_end": 274
+        "char_start": 126,
+        "char_end": 228
        }
       ]
      }
@@ -1634,9 +1372,75 @@
     ],
     "bloc": [],
     "instrument": [],
+    "data_basis": []
+   },
+   "attributes": {},
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "n016",
+   "legacy_id": "C2",
+   "role": "intermediate_claim",
+   "level": "L4",
+   "content": {
+    "text": "U.S. 2025 data also needs gold adjustment, as tariff-driven gold bar imports and their reversal distorted the deficit.",
+    "label": null,
+    "explicit": true,
+    "reason": "Gold flows distort trade balances across countries, not just one."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p26",
+      "paragraph_sha256": "sha256:141e2d7a8a5a5923a8ed74171fc88661470587a3302302f2e24a3d0ff02949bf",
+      "relation": "states",
+      "link_method": "llm_citation",
+      "anchor_grade": "excerpt",
+      "review_status": "pending",
+      "source_excerpt": "The 2025 U.S. trade data also needs to be gold-adjusted, by the way.",
+      "source_spans": [
+       {
+        "char_start": 4,
+        "char_end": 72
+       }
+      ]
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "goods-trade-balance",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [
+     {
+      "term": "us",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     }
+    ],
+    "bloc": [],
+    "instrument": [
+     {
+      "term": "tariffs",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
     "data_basis": [
      {
-      "term": "press-reporting",
+      "term": "customs",
       "assignment_source": "llm",
       "run_id": "claude-opus-5.5_facets"
      }
@@ -1649,9 +1453,87 @@
    },
    "review": {
     "status": "pending",
-    "reasons": [
-     "links: `SC` undercut_by `X` joins L1→L6, which no hand-drawn undercut_by link does"
+    "reasons": []
+   }
+  },
+  {
+   "id": "n017",
+   "legacy_id": "P2",
+   "role": "hidden_assumption",
+   "level": "L1",
+   "content": {
+    "text": "The surge in Chinese gold imports reflects asset purchases unrelated to domestic demand rebalancing, so it does not represent a genuine fall in reliance on exports.",
+    "label": null,
+    "explicit": false,
+    "reason": "Asset-motivated imports do not offset an export-led growth model."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p6",
+      "paragraph_sha256": "sha256:43f8aa4480c4e2e5bd431b81e49826322df699e3c97edc35d9f16fddb1020e30",
+      "relation": "presupposes",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     },
+     {
+      "paragraph_id": "p7",
+      "paragraph_sha256": "sha256:f42e56c3d11ffac54fa72d317fcc67f72edd41a952230319ddc0782df72da910",
+      "relation": "presupposes",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     },
+     {
+      "paragraph_id": "p22",
+      "paragraph_sha256": "sha256:47aa2b826aeadfe2bf880d6aad31108568540039acaba12c4c4bba963ba17c3f",
+      "relation": "presupposes",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     }
     ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "domestic-demand",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     },
+     {
+      "term": "import-volumes",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [
+     {
+      "term": "china",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     }
+    ],
+    "bloc": [],
+    "instrument": [],
+    "data_basis": []
+   },
+   "attributes": {},
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
    }
   }
  ],
@@ -1659,7 +1541,7 @@
   {
    "id": "e001",
    "from": "n001",
-   "to": "n006",
+   "to": "n007",
    "relation": "frames",
    "sign": 0,
    "provenance": {
@@ -1668,15 +1550,13 @@
    },
    "review": {
     "status": "pending",
-    "reasons": [
-     "`Q` frames `SCP` joins L0→L1B, which no hand-drawn frames link does"
-    ]
+    "reasons": []
    }
   },
   {
    "id": "e002",
    "from": "n001",
-   "to": "n009",
+   "to": "n017",
    "relation": "frames",
    "sign": 0,
    "provenance": {
@@ -1691,7 +1571,7 @@
   {
    "id": "e003",
    "from": "n001",
-   "to": "n007",
+   "to": "n015",
    "relation": "frames",
    "sign": 0,
    "provenance": {
@@ -1707,24 +1587,22 @@
    "id": "e004",
    "from": "n007",
    "to": "n006",
-   "relation": "supports",
-   "sign": 1,
+   "relation": "frames",
+   "sign": 0,
    "provenance": {
     "method": "llm",
     "run_id": "claude-opus-5.5_links"
    },
    "review": {
     "status": "pending",
-    "reasons": [
-     "`P2` supports `SCP` joins L1→L1B, which no hand-drawn supports link does"
-    ]
+    "reasons": []
    }
   },
   {
    "id": "e005",
    "from": "n006",
    "to": "n008",
-   "relation": "bounds",
+   "relation": "supports",
    "sign": 1,
    "provenance": {
     "method": "llm",
@@ -1737,7 +1615,37 @@
   },
   {
    "id": "e006",
-   "from": "n009",
+   "from": "n007",
+   "to": "n008",
+   "relation": "licenses",
+   "sign": 1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e007",
+   "from": "n017",
+   "to": "n011",
+   "relation": "licenses",
+   "sign": 1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e008",
+   "from": "n015",
    "to": "n007",
    "relation": "revises",
    "sign": -1,
@@ -1751,41 +1659,9 @@
    }
   },
   {
-   "id": "e007",
-   "from": "n008",
-   "to": "n010",
-   "relation": "supports",
-   "sign": 1,
-   "provenance": {
-    "method": "llm",
-    "run_id": "claude-opus-5.5_links"
-   },
-   "review": {
-    "status": "pending",
-    "reasons": []
-   }
-  },
-  {
-   "id": "e008",
-   "from": "n006",
-   "to": "n010",
-   "relation": "licenses",
-   "sign": 1,
-   "provenance": {
-    "method": "llm",
-    "run_id": "claude-opus-5.5_links"
-   },
-   "review": {
-    "status": "pending",
-    "reasons": [
-     "`SCP` licenses `RC` joins L1B→L5, which no hand-drawn licenses link does"
-    ]
-   }
-  },
-  {
    "id": "e009",
-   "from": "n004",
-   "to": "n011",
+   "from": "n005",
+   "to": "n008",
    "relation": "supports",
    "sign": 1,
    "provenance": {
@@ -1799,8 +1675,8 @@
   },
   {
    "id": "e010",
-   "from": "n012",
-   "to": "n011",
+   "from": "n004",
+   "to": "n008",
    "relation": "supports",
    "sign": 1,
    "provenance": {
@@ -1814,10 +1690,10 @@
   },
   {
    "id": "e011",
-   "from": "n012",
-   "to": "n008",
-   "relation": "frames",
-   "sign": 0,
+   "from": "n009",
+   "to": "n010",
+   "relation": "bounds",
+   "sign": 1,
    "provenance": {
     "method": "llm",
     "run_id": "claude-opus-5.5_links"
@@ -1829,8 +1705,8 @@
   },
   {
    "id": "e012",
-   "from": "n005",
-   "to": "n010",
+   "from": "n010",
+   "to": "n011",
    "relation": "supports",
    "sign": 1,
    "provenance": {
@@ -1844,8 +1720,8 @@
   },
   {
    "id": "e013",
-   "from": "n004",
-   "to": "n010",
+   "from": "n003",
+   "to": "n011",
    "relation": "supports",
    "sign": 1,
    "provenance": {
@@ -1859,8 +1735,8 @@
   },
   {
    "id": "e014",
-   "from": "n010",
-   "to": "n014",
+   "from": "n008",
+   "to": "n011",
    "relation": "supports",
    "sign": 1,
    "provenance": {
@@ -1876,8 +1752,8 @@
   },
   {
    "id": "e015",
-   "from": "n011",
-   "to": "n014",
+   "from": "n012",
+   "to": "n011",
    "relation": "supports",
    "sign": 1,
    "provenance": {
@@ -1891,8 +1767,8 @@
   },
   {
    "id": "e016",
-   "from": "n003",
-   "to": "n014",
+   "from": "n013",
+   "to": "n011",
    "relation": "supports",
    "sign": 1,
    "provenance": {
@@ -1906,8 +1782,8 @@
   },
   {
    "id": "e017",
-   "from": "n003",
-   "to": "n013",
+   "from": "n016",
+   "to": "n012",
    "relation": "supports",
    "sign": 1,
    "provenance": {
@@ -1921,52 +1797,7 @@
   },
   {
    "id": "e018",
-   "from": "n013",
-   "to": "n014",
-   "relation": "supports",
-   "sign": 1,
-   "provenance": {
-    "method": "llm",
-    "run_id": "claude-opus-5.5_links"
-   },
-   "review": {
-    "status": "pending",
-    "reasons": []
-   }
-  },
-  {
-   "id": "e019",
-   "from": "n015",
-   "to": "n014",
-   "relation": "supports",
-   "sign": 1,
-   "provenance": {
-    "method": "llm",
-    "run_id": "claude-opus-5.5_links"
-   },
-   "review": {
-    "status": "pending",
-    "reasons": []
-   }
-  },
-  {
-   "id": "e020",
-   "from": "n016",
-   "to": "n015",
-   "relation": "supports",
-   "sign": 1,
-   "provenance": {
-    "method": "llm",
-    "run_id": "claude-opus-5.5_links"
-   },
-   "review": {
-    "status": "pending",
-    "reasons": []
-   }
-  },
-  {
-   "id": "e021",
-   "from": "n014",
+   "from": "n011",
    "to": "n002",
    "relation": "rebuts",
    "sign": -1,
@@ -1980,9 +1811,9 @@
    }
   },
   {
-   "id": "e022",
-   "from": "n014",
-   "to": "n017",
+   "id": "e019",
+   "from": "n011",
+   "to": "n014",
    "relation": "qualified_by",
    "sign": -1,
    "provenance": {
@@ -1995,9 +1826,9 @@
    }
   },
   {
-   "id": "e023",
-   "from": "n018",
-   "to": "n014",
+   "id": "e020",
+   "from": "n003",
+   "to": "n013",
    "relation": "supports",
    "sign": 1,
    "provenance": {
@@ -2008,39 +1839,19 @@
     "status": "pending",
     "reasons": []
    }
-  },
-  {
-   "id": "e024",
-   "from": "n018",
-   "to": "n002",
-   "relation": "undercut_by",
-   "sign": -1,
-   "provenance": {
-    "method": "llm",
-    "run_id": "claude-opus-5.5_links"
-   },
-   "review": {
-    "status": "pending",
-    "reasons": [
-     "`SC` undercut_by `X` joins L1→L6, which no hand-drawn undercut_by link does"
-    ]
-   }
   }
  ],
  "validation": {
   "status": "needs_review",
   "checks": [
-   "boxes: 18, fix rounds 0, re-asks 0, gaps left none",
-   "links: 24, fix rounds 0, re-asks 0, gaps left none, dropped none",
-   "passage linker agreement: {'anchored': 6, 'anchored_cited': 5, 'candidate': 14, 'candidate_cited': 11}"
+   "boxes: 17, fix rounds 0, re-asks 0, gaps left none",
+   "links: 20, fix rounds 0, re-asks 0, gaps left none, dropped none",
+   "passage linker agreement: {'anchored': 7, 'anchored_cited': 5, 'candidate': 13, 'candidate_cited': 11}"
   ],
   "review_items": [
-   "links: `Q` frames `SCP` joins L0→L1B, which no hand-drawn frames link does",
-   "links: `P2` supports `SCP` joins L1→L1B, which no hand-drawn supports link does",
-   "links: `SCP` licenses `RC` joins L1B→L5, which no hand-drawn licenses link does",
    "links: `RC` supports `K` joins L5→L5, which no hand-drawn supports link does",
-   "links: `SC` undercut_by `X` joins L1→L6, which no hand-drawn undercut_by link does",
-   "passages: `Q`: the team's passage linker anchors it to p27 (shared: economist), which the box does not cite"
+   "passages: `Q`: the team's passage linker anchors it to p27 (shared: economist), which the box does not cite",
+   "passages: `E3`: the team's passage linker anchors it to p22 (shared: 1.5pp), which the box does not cite"
   ]
  },
  "extensions": {}

@@ -12,6 +12,21 @@ ONE fixed box matcher, used for every score here:
   (Word overlap between the claims was tried and rejected: paraphrases of the same claim
   scored as low as unrelated claims.)
 
+MEANING, optional (`pip install -e .[meaning]`; settings.yaml `meaning`). A cross-encoder scores
+whether two box sentences say the same thing (S2match in the evaluation literature). It does
+not change the pairs above. It adds:
+  - which matched pairs really say the same thing (score >= threshold);
+  - for every hand box, one of four outcomes:
+      matched, same meaning;
+      covered by another model box of the same role family, so one coarser model box may
+        cover two finer hand boxes (families: the `oper` level of kb/scripts/schema_map.yaml);
+      said by a model box under another role;
+      not found;
+  - the same counts per role family.
+  Only hand/model pairs that share a cited paragraph or a role family are scored.
+The model and its revision are pinned and scores are rounded to 2 decimals, so a re-run gives
+the same numbers. Not installed or disabled: these lines are skipped and nothing else changes.
+
 Scores per step: boxes (found, same role, role presence), links (on matched boxes), facets
 (on matched boxes). `report` adds the comparison across models and repeat runs, keeping
 held-out articles and the worked example apart.
@@ -77,6 +92,7 @@ def hand_map(doc: str) -> dict:
             paras[r["node_id"]].add(int(r["para"][1:]))
     boxes = [{"id": n["node_id"], "role": n["type"], "level": n["level"],
               "claim": " ".join(f"{n['header']} {n['text']}".split()),
+              "text": " ".join((n["text"] or n["header"]).split()),   # without the slot header, for meaning
               "paragraphs": sorted(paras[n["node_id"]])}
              for n in read_csv(data / "nodes.csv") if n["doc"] == doc]
     links = [{"from": e["from"], "to": e["to"], "relation": e["type"]}
@@ -112,6 +128,87 @@ def match(model: list[dict], hand: list[dict]) -> dict[str, tuple[str, str]]:
             out[m] = (h, how)
             used.add(h)
     return out
+
+
+# --- meaning (optional) ------------------------------------------------------------------
+
+MEANING_FILES = ["config.json", "model.safetensors", "tokenizer.json", "tokenizer_config.json",
+                 "special_tokens_map.json", "vocab.json", "merges.txt"]   # nothing else is downloaded
+_meaning_model = None
+
+
+def meaning_model():
+    """The pinned cross-encoder, or None when `meaning` is disabled or its packages are missing."""
+    global _meaning_model
+    if _meaning_model is None:
+        _meaning_model = False
+        cfg = settings().get("meaning") or {}
+        if cfg.get("enabled"):
+            try:
+                from huggingface_hub import snapshot_download
+                from sentence_transformers import CrossEncoder
+            except ImportError:
+                return None
+            local = snapshot_download(cfg["model"], revision=cfg["revision"], allow_patterns=MEANING_FILES)
+            _meaning_model = CrossEncoder(local, device="cpu")
+    return _meaning_model or None
+
+
+def similarity(pairs: list[tuple[str, str]]) -> list[float] | None:
+    """Same-meaning score of each sentence pair, 0-1: both orders averaged, rounded to 2 dp."""
+    m = meaning_model()
+    if m is None:
+        return None
+    if not pairs:
+        return []
+    ab = m.predict(pairs, batch_size=32, show_progress_bar=False)
+    ba = m.predict([(b, a) for a, b in pairs], batch_size=32, show_progress_bar=False)
+    return [round((float(x) + float(y)) / 2, 2) for x, y in zip(ab, ba)]
+
+
+def role_families() -> dict[str, str]:
+    """Role -> its family at the `oper` level of kb/scripts/schema_map.yaml."""
+    import yaml
+    spec = yaml.safe_load((path("kb") / "scripts" / "schema_map.yaml").read_text(encoding="utf-8"))
+    return {r: fam for fam, roles in spec["role_families"]["oper"].items() for r in roles}
+
+
+SAME, FAMILY, OTHER, MISSING = ("matched, same meaning", "covered in its role family",
+                                "said under another role", "not found")
+
+
+def meaning(model: dict, hand: dict, how: dict) -> dict | None:
+    """The meaning check described at the top of this file; None when it is not available."""
+    if meaning_model() is None:
+        return None
+    t = settings()["meaning"]["threshold"]
+    fams = role_families()
+    fam = lambda role: fams.get(role, "unassigned")
+    mb, hb = {b["id"]: b for b in model["boxes"]}, {b["id"]: b for b in hand["boxes"]}
+    matched = {h: m for m, (h, _) in how.items()}
+    cand = sorted(set(matched.items()) |
+                  {(h, m) for h, x in hb.items() for m, y in mb.items()
+                   if set(x["paragraphs"]) & set(y["paragraphs"]) or fam(x["role"]) == fam(y["role"])})
+    score_of = dict(zip(cand, similarity([(hb[h]["text"], mb[m]["claim"]) for h, m in cand])))
+    status, by_fam = {}, defaultdict(Counter)
+    for h, x in hb.items():
+        same = [m for (hh, m), s in score_of.items() if hh == h and s >= t]
+        if h in matched and score_of[(h, matched[h])] >= t:
+            status[h] = SAME
+        elif any(fam(mb[m]["role"]) == fam(x["role"]) for m in same):
+            status[h] = FAMILY
+        else:
+            status[h] = OTHER if same else MISSING
+        by_fam[fam(x["role"])]["hand"] += 1
+        by_fam[fam(x["role"])][status[h]] += 1
+    for y in mb.values():
+        by_fam[fam(y["role"])]["model"] += 1
+    c = Counter(status.values())
+    return {"threshold": t, "hand": len(hb), "matched": len(matched),
+            "matched_same": sum(score_of[(h, m)] >= t for h, m in matched.items()),
+            "covered": c[SAME] + c[FAMILY], "status": dict(c),
+            "pair_score": {m: score_of[(h, m)] for h, m in matched.items()},
+            "by_family": {k: dict(v) for k, v in sorted(by_fam.items())}}
 
 
 # --- scores ------------------------------------------------------------------------------
@@ -183,11 +280,12 @@ def model_map(run: Path) -> dict:
                             for n in ann["nodes"])}
 
 
-def evaluate_run(run: Path, doc: str) -> dict:
+def evaluate_run(run: Path, doc: str, check_meaning: bool = True) -> dict:
     """Writes evaluation.md in the run folder, for a person; returns the scores for `report`."""
     m, h = model_map(run), hand_map(doc)
     oracle = json.loads((run / "boxes.json").read_text(encoding="utf-8")).get("oracle", False)
     s = score(m, h, oracle)
+    mn = meaning(m, h, s["pairs"]) if check_meaning and not oracle else None
     b, l = s["boxes"], s["links"]
     hb = {x["id"]: x for x in h["boxes"]}
     mb = {x["id"]: x for x in m["boxes"]}
@@ -210,18 +308,31 @@ def evaluate_run(run: Path, doc: str) -> dict:
              f"- model links between matched boxes that the hand map also has: {frac(l['in_hand'], l['model_between_matched'])}", "",
              "## Facets (mean Jaccard on matched boxes)", ""]
     lines += [f"- {f}: {v}" for f, v in s["facets"].items()] or ["- the hand-drawn map has no facets to compare with"]
+    if mn:
+        st = mn["status"]
+        lines += ["", f"## Meaning (cross-encoder; same meaning at a score of {mn['threshold']} or more)", "",
+                  f"- matched pairs that say the same thing: {frac(mn['matched_same'], mn['matched'])}",
+                  f"- hand boxes covered by a model box of the same role family: {frac(mn['covered'], mn['hand'])}",
+                  f"  - matched, same meaning: {st.get(SAME, 0)}; covered by another box of the family: {st.get(FAMILY, 0)}",
+                  f"- hand boxes said by a model box under another role: {st.get(OTHER, 0)}",
+                  f"- hand boxes not found: {st.get(MISSING, 0)}", "",
+                  "| role family | hand | model | matched, same meaning | covered in family | other role | not found |",
+                  "|---|---|---|---|---|---|---|"]
+        lines += [f"| {k} | {v.get('hand', 0)} | {v.get('model', 0)} | {v.get(SAME, 0)} | {v.get(FAMILY, 0)} | "
+                  f"{v.get(OTHER, 0)} | {v.get(MISSING, 0)} |" for k, v in mn["by_family"].items()]
     lines += ["", f"Cost of this run: ${m['cost']}. Review items: {m['review']}.", "",
-              "## Matched boxes", "", "| model | hand | by | model claim | hand claim |",
-              "|---|---|---|---|---|"]
+              "## Matched boxes", "", "| model | hand | by | meaning | model claim | hand claim |",
+              "|---|---|---|---|---|---|"]
     for mid, (hid, how) in s["pairs"].items():
-        lines.append(f"| {mid} {mb[mid]['role']} | {hid} {hb[hid]['role']} | {how} | "
+        ms = mn["pair_score"].get(mid, "-") if mn else "-"
+        lines.append(f"| {mid} {mb[mid]['role']} | {hid} {hb[hid]['role']} | {how} | {ms} | "
                      f"{mb[mid]['claim'][:90]} | {hb[hid]['claim'][:90]} |")
     lines += ["", "Unmatched model boxes: " + (", ".join(f"{k} ({mb[k]['role']})" for k in mb if k not in s["pairs"]) or "none"),
               "", "Unmatched hand boxes: " + (", ".join(f"{k} ({hb[k]['role']})" for k in hb
                                                          if k not in {h for h, _ in s["pairs"].values()}) or "none")]
     (run / "evaluation.md").write_text("\n".join(x for x in lines if x is not None) + "\n", encoding="utf-8")
     out = {**{k: v for k, v in s.items() if k != "pairs"}, "pairs": s["pairs"], "cost": m["cost"],
-           "review": m["review"], "excerpts": m["excerpts"], "oracle": oracle}
+           "review": m["review"], "excerpts": m["excerpts"], "oracle": oracle, "meaning": mn}
     return out
 
 
@@ -239,7 +350,8 @@ def report() -> Path:
     rows, by_doc = [], defaultdict(dict)
     for d in runs:
         doc, run = d.parent.name, d.name
-        e = evaluate_run(d, doc)
+        # meaning only for official runs: a few minutes each, too slow for every experiment
+        e = evaluate_run(d, doc, check_meaning=d.parent.parent == path("articles"))
         group = "example (not scored)" if doc in example else "held-out" if doc in held else "tuning"
         rows.append((group, run, doc, e))
         if not e["oracle"]:
@@ -268,6 +380,11 @@ def report() -> Path:
             t["matched"] += b["matched"]; t["hand"] += b["hand"]; t["model"] += b["model"]
             t["same"] += b["same_role"]; t["lf"] += l["found"]; t["lh"] += l["hand_between_matched"]
             t["lr"] += l["same_relation"]; t["n"] += 1; t["cost"] += e["cost"]
+            if e.get("meaning"):
+                mn = e["meaning"]
+                t["m_hand"] += mn["hand"]; t["m_same"] += mn["matched_same"]; t["m_pairs"] += mn["matched"]
+                t["m_cov"] += mn["covered"]; t["m_other"] += mn["status"].get(OTHER, 0)
+                t["m_miss"] += mn["status"].get(MISSING, 0)
         out += ["", "Totals by run:", ""]
         for run, t in sorted(tot.items()):
             out.append(f"- {run} ({t['n']} articles): hand boxes found {frac(t['matched'], t['hand'])}, "
@@ -275,6 +392,10 @@ def report() -> Path:
                        f"same role {frac(t['same'], t['matched'])}; hand links found {frac(t['lf'], t['lh'])}; "
                        f"same relation {frac(t['lr'], t['lf'])}; cost ${t['cost']:.3f}, "
                        f"${t['cost'] / t['n']:.3f} per article")
+            if t["m_hand"]:
+                out.append(f"  - meaning: matched pairs saying the same thing {frac(t['m_same'], t['m_pairs'])}; "
+                           f"hand boxes covered in their role family {frac(t['m_cov'], t['m_hand'])}; "
+                           f"said under another role {t['m_other']}; not found {t['m_miss']}")
         out.append("")
     orc = [r for r in rows if r[3]["oracle"]]
     if orc:

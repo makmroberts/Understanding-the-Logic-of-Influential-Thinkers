@@ -138,13 +138,13 @@
   }
  },
  "annotation": {
-  "annotated_at": "2026-11-09T21:12:40+00:00",
+  "annotated_at": "2026-11-19T02:30:03+00:00",
   "ontology": {
    "id": "setser_argument",
-   "version": 2
+   "version": 3
   },
   "facets_version": 1,
-  "pipeline_version": "8d03103",
+  "pipeline_version": "137f37e",
   "status": "needs_review",
   "runs": [
    {
@@ -156,9 +156,9 @@
      "max_tokens": 16000,
      "reasoning_effort": "medium"
     },
-    "timestamp": "2026-11-09T21:12:40+00:00",
-    "calls": 1,
-    "cost_usd": 0.10562
+    "timestamp": "2026-11-19T02:30:03+00:00",
+    "calls": 2,
+    "cost_usd": 0.25224
    },
    {
     "run_id": "claude-opus-5.5_links",
@@ -169,9 +169,9 @@
      "max_tokens": 12000,
      "reasoning_effort": "medium"
     },
-    "timestamp": "2026-11-09T21:12:40+00:00",
+    "timestamp": "2026-11-19T02:30:03+00:00",
     "calls": 1,
-    "cost_usd": 0.03993
+    "cost_usd": 0.0421
    },
    {
     "run_id": "claude-opus-5.5_facets",
@@ -182,15 +182,15 @@
      "max_tokens": 12000,
      "reasoning_effort": "low"
     },
-    "timestamp": "2026-11-09T21:12:40+00:00",
+    "timestamp": "2026-11-19T02:30:03+00:00",
     "calls": 1,
-    "cost_usd": 0.05488
+    "cost_usd": 0.05646
    }
   ]
  },
  "summary": {
-  "central_question": "Why has China's balance of payments goods surplus diverged so sharply from its customs goods surplus since 2022, and which measure should be trusted?",
-  "main_thesis": "The reported fall in China's surplus is a statistical artifact; customs data, which show a near-peak goods surplus, tell the true story.",
+  "central_question": "Why does China's balance of payments goods surplus diverge so sharply from its customs goods surplus, and what does that mean for assessing China's current account?",
+  "main_thesis": "The fall in China's reported current account surplus since 2021 is mainly an artifact of an unjustified methodology change; China's true surplus is far larger, as the customs data shows.",
   "argument_summary": null
  },
  "nodes": [
@@ -200,10 +200,10 @@
    "role": "question",
    "level": "L0",
    "content": {
-    "text": "Why has China's balance of payments goods surplus diverged so sharply from its customs goods surplus since 2022, and which measure should be trusted?",
+    "text": "Why does China's balance of payments goods surplus diverge so sharply from its customs goods surplus, and what does that mean for assessing China's current account?",
     "label": null,
     "explicit": false,
-    "reason": "When two official measures of the same flow diverge, the cause of the gap determines which one to use."
+    "reason": "When two official measures of the same quantity diverge sharply, the cause of the gap must be explained before either is used."
    },
    "source": {
     "passages": [
@@ -250,6 +250,11 @@
       "term": "goods-trade-balance",
       "assignment_source": "llm",
       "run_id": "claude-opus-5.5_facets"
+     },
+     {
+      "term": "current-account",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
      }
     ],
     "country": [
@@ -287,20 +292,20 @@
   },
   {
    "id": "n002",
-   "legacy_id": "E2",
-   "role": "evidence_source",
-   "level": "L2",
+   "legacy_id": "P1",
+   "role": "stated_assumption",
+   "level": "L1",
    "content": {
-    "text": "In 2022 China switched its balance of payments goods source from customs data to an internal survey of about 13,000 large enterprises, so no outsider can replicate it.",
+    "text": "The balance of payments exists to track foreign exchange flows, so transactions that never move foreign exchange should not change the true external balance.",
     "label": null,
     "explicit": true,
-    "reason": "A statistic built from unpublished surveys cannot be independently checked."
+    "reason": "External accounts should record only transactions that affect a country's foreign exchange position."
    },
    "source": {
     "passages": [
      {
-      "paragraph_id": "p1",
-      "paragraph_sha256": "sha256:82432a07ec472d113a236f2fd2ae2e4ff8298fc64e0594e05f97939450b33ca9",
+      "paragraph_id": "p26",
+      "paragraph_sha256": "sha256:a8013f4bf596d53146a03f6485dca3649161390d2e3a1391b02bd7063b199062",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
@@ -309,56 +314,44 @@
       "source_spans": null
      },
      {
-      "paragraph_id": "p30",
-      "paragraph_sha256": "sha256:3e050a5150b8ed367fdfba4d92ff22c1ffc95857e7388e4354e76aa4ac1afe8e",
-      "relation": "abstracts",
-      "link_method": "llm_citation",
-      "anchor_grade": "cited",
-      "review_status": "pending",
-      "source_excerpt": null,
-      "source_spans": null
-     },
-     {
-      "paragraph_id": "p31",
-      "paragraph_sha256": "sha256:2ce7d3e179ff443e8ebf69e95bec30357a32824c2dbdd96ba74e0353ff995aa1",
+      "paragraph_id": "p27",
+      "paragraph_sha256": "sha256:1bfa3b4dac3ba2fb7d1c23c4fa3997770a5edaecb570a5dadcd101097a71c087",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "In order to capture exports and imports of goods that do not physically cross the border comprehensively, the Chinese BOP compilers switched the data sources from Customs data to direct reporting of financial records by large enterprises in 2022.",
+      "source_excerpt": "Production in China for sale in China has no impact on the flow of foreign exchange and thus the “true” balance of payments.",
       "source_spans": [
        {
-        "char_start": 1,
-        "char_end": 247
+        "char_start": 0,
+        "char_end": 124
        }
       ]
+     },
+     {
+      "paragraph_id": "p28",
+      "paragraph_sha256": "sha256:2d06c671bfe87df342ff59a858a096cd0bf1484b75da50361c1a4d2feb697eb1",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
      }
     ]
    },
    "facets": {
     "variable": [
      {
-      "term": "goods-trade-balance",
+      "term": "current-account",
       "assignment_source": "llm",
       "run_id": "claude-opus-5.5_facets"
      }
     ],
-    "country": [
-     {
-      "term": "china",
-      "assignment_source": "llm",
-      "run_id": "claude-opus-5.5_facets",
-      "geo_role": "subject"
-     }
-    ],
+    "country": [],
     "bloc": [],
     "instrument": [],
     "data_basis": [
-     {
-      "term": "enterprise-reporting",
-      "assignment_source": "llm",
-      "run_id": "claude-opus-5.5_facets"
-     },
      {
       "term": "balance-of-payments",
       "assignment_source": "llm",
@@ -367,225 +360,6 @@
     ]
    },
    "attributes": {},
-   "provenance": {
-    "method": "llm",
-    "run_id": "claude-opus-5.5_boxes"
-   },
-   "review": {
-    "status": "pending",
-    "reasons": []
-   }
-  },
-  {
-   "id": "n003",
-   "legacy_id": "E3",
-   "role": "evidence_source",
-   "level": "L2",
-   "content": {
-    "text": "The IMF appendix reports that balance of payments imports have risen above customs imports, which it attributes to factoryless manufacturing.",
-    "label": null,
-    "explicit": true,
-    "reason": "Official explanations in international assessments reveal how statistics are compiled."
-   },
-   "source": {
-    "passages": [
-     {
-      "paragraph_id": "p7",
-      "paragraph_sha256": "sha256:4fab0d7985bf334c87610f262cc59853ab25d044d58b2ce6370720d6c86d5402",
-      "relation": "states",
-      "link_method": "llm_citation",
-      "anchor_grade": "excerpt",
-      "review_status": "pending",
-      "source_excerpt": "BOP imports kept increasing relative to Customs imports in recent years and surpassed them for the first time in 2023.",
-      "source_spans": [
-       {
-        "char_start": 1,
-        "char_end": 119
-       }
-      ]
-     },
-     {
-      "paragraph_id": "p14",
-      "paragraph_sha256": "sha256:3815c7598107742710c48e44f3a6e149a8d12d467025ca49f705b5993faf98dc",
-      "relation": "abstracts",
-      "link_method": "llm_citation",
-      "anchor_grade": "cited",
-      "review_status": "pending",
-      "source_excerpt": null,
-      "source_spans": null
-     },
-     {
-      "paragraph_id": "p15",
-      "paragraph_sha256": "sha256:bd5ce77c34b53442c90aeb20d57e21d96788f54db94b24803ff1aee6f67c80ac",
-      "relation": "abstracts",
-      "link_method": "llm_citation",
-      "anchor_grade": "cited",
-      "review_status": "pending",
-      "source_excerpt": null,
-      "source_spans": null
-     }
-    ]
-   },
-   "facets": {
-    "variable": [
-     {
-      "term": "import-volumes",
-      "assignment_source": "llm",
-      "run_id": "claude-opus-5.5_facets"
-     }
-    ],
-    "country": [
-     {
-      "term": "china",
-      "assignment_source": "llm",
-      "run_id": "claude-opus-5.5_facets",
-      "geo_role": "subject"
-     }
-    ],
-    "bloc": [],
-    "instrument": [],
-    "data_basis": [
-     {
-      "term": "imf-publications",
-      "assignment_source": "llm",
-      "run_id": "claude-opus-5.5_facets"
-     },
-     {
-      "term": "balance-of-payments",
-      "assignment_source": "llm",
-      "run_id": "claude-opus-5.5_facets"
-     }
-    ]
-   },
-   "attributes": {},
-   "provenance": {
-    "method": "llm",
-    "run_id": "claude-opus-5.5_boxes"
-   },
-   "review": {
-    "status": "pending",
-    "reasons": []
-   }
-  },
-  {
-   "id": "n004",
-   "legacy_id": "M1",
-   "role": "mechanism",
-   "level": "L3",
-   "content": {
-    "text": "Goods made by Chinese contractors for foreign firms are recorded as exports on delivery and as imports when resold in China at a higher price, creating a recorded goods deficit even though the goods never leave China.",
-    "label": null,
-    "explicit": true,
-    "reason": "Recording transactions by residency rather than border crossing can create trade flows that never physically occur."
-   },
-   "source": {
-    "passages": [
-     {
-      "paragraph_id": "p5",
-      "paragraph_sha256": "sha256:8546d26875b4a76fe89250ac1aa19c823460eb24b3c83cc9677bbda116804ff8",
-      "relation": "abstracts",
-      "link_method": "llm_citation",
-      "anchor_grade": "cited",
-      "review_status": "pending",
-      "source_excerpt": null,
-      "source_spans": null
-     },
-     {
-      "paragraph_id": "p6",
-      "paragraph_sha256": "sha256:5eb38e26d30fb10f157ac8c35742cd4fe183786967f212c578d2d628bf8b9ba7",
-      "relation": "abstracts",
-      "link_method": "llm_citation",
-      "anchor_grade": "cited",
-      "review_status": "pending",
-      "source_excerpt": null,
-      "source_spans": null
-     },
-     {
-      "paragraph_id": "p8",
-      "paragraph_sha256": "sha256:a15edcaa58fdb2d62598c38504e28269ca475e18d1c694eed24984ae8e244873",
-      "relation": "abstracts",
-      "link_method": "llm_citation",
-      "anchor_grade": "cited",
-      "review_status": "pending",
-      "source_excerpt": null,
-      "source_spans": null
-     },
-     {
-      "paragraph_id": "p10",
-      "paragraph_sha256": "sha256:884cbe04d9da795e9329158d5009a250b6961c30da404c2bd5bca1126a158651",
-      "relation": "abstracts",
-      "link_method": "llm_citation",
-      "anchor_grade": "cited",
-      "review_status": "pending",
-      "source_excerpt": null,
-      "source_spans": null
-     },
-     {
-      "paragraph_id": "p12",
-      "paragraph_sha256": "sha256:16b54872023677d1d02749d616ca02768ade8bc6d8af8d2eec098ad6957dfdd5",
-      "relation": "abstracts",
-      "link_method": "llm_citation",
-      "anchor_grade": "cited",
-      "review_status": "pending",
-      "source_excerpt": null,
-      "source_spans": null
-     },
-     {
-      "paragraph_id": "p13",
-      "paragraph_sha256": "sha256:4135a74670a17e8ff6bc630b8391ff9a8e2999c9f0ed4d03df9ca3eecdb9e437",
-      "relation": "abstracts",
-      "link_method": "llm_citation",
-      "anchor_grade": "cited",
-      "review_status": "pending",
-      "source_excerpt": null,
-      "source_spans": null
-     },
-     {
-      "paragraph_id": "p15",
-      "paragraph_sha256": "sha256:bd5ce77c34b53442c90aeb20d57e21d96788f54db94b24803ff1aee6f67c80ac",
-      "relation": "states",
-      "link_method": "llm_citation",
-      "anchor_grade": "excerpt",
-      "review_status": "pending",
-      "source_excerpt": "If the nonresident enterprise subsequently sells the goods in China, imports of goods are recorded in BOP.",
-      "source_spans": [
-       {
-        "char_start": 334,
-        "char_end": 440
-       }
-      ]
-     }
-    ]
-   },
-   "facets": {
-    "variable": [
-     {
-      "term": "goods-trade-balance",
-      "assignment_source": "llm",
-      "run_id": "claude-opus-5.5_facets"
-     }
-    ],
-    "country": [
-     {
-      "term": "china",
-      "assignment_source": "llm",
-      "run_id": "claude-opus-5.5_facets",
-      "geo_role": "subject"
-     }
-    ],
-    "bloc": [],
-    "instrument": [],
-    "data_basis": [
-     {
-      "term": "balance-of-payments",
-      "assignment_source": "llm",
-      "run_id": "claude-opus-5.5_facets"
-     }
-    ]
-   },
-   "attributes": {
-    "kind": "distortion"
-   },
    "provenance": {
     "method": "llm",
     "run_id": "claude-opus-5.5_boxes"
@@ -593,90 +367,20 @@
    "review": {
     "status": "pending",
     "reasons": [
-     "links: `M1` qualified_by `QF` joins L3→L6, which no hand-drawn qualified_by link does"
+     "facets: `setser_aug_14_24#P1` where_subject empty - every claim needs a country or a bloc (assignment.requires_one_of) - needs review"
     ]
    }
   },
   {
-   "id": "n005",
-   "legacy_id": "C1",
-   "role": "intermediate_claim",
-   "level": "L4",
-   "content": {
-    "text": "A trade deficit generated by domestic production for the domestic market is economically meaningless.",
-    "label": null,
-    "explicit": true,
-    "reason": "Goods produced and sold within one country do not represent trade with the rest of the world."
-   },
-   "source": {
-    "passages": [
-     {
-      "paragraph_id": "p4",
-      "paragraph_sha256": "sha256:d37a61c311a04d4df90b1c77b59ddcc0f74fdc9ee1b660603ffcd452a97f851f",
-      "relation": "abstracts",
-      "link_method": "llm_citation",
-      "anchor_grade": "cited",
-      "review_status": "pending",
-      "source_excerpt": null,
-      "source_spans": null
-     },
-     {
-      "paragraph_id": "p16",
-      "paragraph_sha256": "sha256:41d9d2baf5745fb62437e2b10f8136c77fb62e9649646731db60d3e2be7fe21b",
-      "relation": "states",
-      "link_method": "llm_citation",
-      "anchor_grade": "excerpt",
-      "review_status": "pending",
-      "source_excerpt": "So Chinese production for the Chinese market by foreign firms is somehow generating a trade deficit in the balance of payments data. This, of course, makes no real economic sense.",
-      "source_spans": [
-       {
-        "char_start": 0,
-        "char_end": 179
-       }
-      ]
-     }
-    ]
-   },
-   "facets": {
-    "variable": [
-     {
-      "term": "goods-trade-balance",
-      "assignment_source": "llm",
-      "run_id": "claude-opus-5.5_facets"
-     }
-    ],
-    "country": [
-     {
-      "term": "china",
-      "assignment_source": "llm",
-      "run_id": "claude-opus-5.5_facets",
-      "geo_role": "subject"
-     }
-    ],
-    "bloc": [],
-    "instrument": [],
-    "data_basis": []
-   },
-   "attributes": {},
-   "provenance": {
-    "method": "llm",
-    "run_id": "claude-opus-5.5_boxes"
-   },
-   "review": {
-    "status": "pending",
-    "reasons": []
-   }
-  },
-  {
-   "id": "n006",
+   "id": "n003",
    "legacy_id": "ID",
    "role": "accounting_identity",
    "level": "L1",
    "content": {
-    "text": "Reclassifying a foreign firm's markup as a goods import should be offset by lower recorded investment income and services adjustments, leaving the current account unchanged.",
+    "text": "A reclassification that shifts profit offshore should be offset by changes in the income and services lines, leaving the overall balance unchanged.",
     "label": null,
     "explicit": true,
-    "reason": "Moving a profit between balance of payments lines should not change the aggregate balance."
+    "reason": "A pure change in classification moves amounts between accounts without changing the total."
    },
    "source": {
     "passages": [
@@ -728,6 +432,11 @@
       "term": "investment-income-balance",
       "assignment_source": "llm",
       "run_id": "claude-opus-5.5_facets"
+     },
+     {
+      "term": "services-balance",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
      }
     ],
     "country": [
@@ -759,15 +468,613 @@
    }
   },
   {
+   "id": "n004",
+   "legacy_id": "P2",
+   "role": "stated_assumption",
+   "level": "L1",
+   "content": {
+    "text": "Customs data, which records goods physically crossing the border, measures China's real trade better than survey-based balance of payments data.",
+    "label": null,
+    "explicit": true,
+    "reason": "Directly observed physical flows are a firmer guide than model-based or survey-based estimates."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p33",
+      "paragraph_sha256": "sha256:494b84b1f77b005c4417bab864a51560cd358d9fe272bf80626b2f424e525965",
+      "relation": "states",
+      "link_method": "llm_citation",
+      "anchor_grade": "excerpt",
+      "review_status": "pending",
+      "source_excerpt": "And my strong view is that the customs data—which captures actual trade—gets the story right, not the marked to model (and internal survey) current account data.",
+      "source_spans": [
+       {
+        "char_start": 0,
+        "char_end": 161
+       }
+      ]
+     },
+     {
+      "paragraph_id": "p36",
+      "paragraph_sha256": "sha256:ff8a98a722a794d66118442b44e4cddae692c34f0f97a61027376e2f2aefba13",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "goods-trade-balance",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [
+     {
+      "term": "china",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     }
+    ],
+    "bloc": [],
+    "instrument": [],
+    "data_basis": [
+     {
+      "term": "customs",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     },
+     {
+      "term": "enterprise-reporting",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ]
+   },
+   "attributes": {},
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": [
+     "links: `P2` frames `SC` joins L1→L1, which no hand-drawn frames link does"
+    ]
+   }
+  },
+  {
+   "id": "n005",
+   "legacy_id": "P3",
+   "role": "hidden_assumption",
+   "level": "L1",
+   "content": {
+    "text": "China's pre-2020 methodology (customs imports minus about 5 percent for insurance and freight) remains a valid baseline for what the balance of payments goods data should show.",
+    "label": null,
+    "explicit": false,
+    "reason": "A long-standing stable relationship between two series is a fair counterfactual for judging a break in that relationship."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p21",
+      "paragraph_sha256": "sha256:bce10a7e45093d3e13b2b035c53760f1b4d8eabe93679818cdaf6b801d6f1f7b",
+      "relation": "presupposes",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     },
+     {
+      "paragraph_id": "p24",
+      "paragraph_sha256": "sha256:3a0f6cf70a56e4290a28ce49f5ee191d82282d37d4fbe5370deb5886a1d33d5c",
+      "relation": "presupposes",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     },
+     {
+      "paragraph_id": "p29",
+      "paragraph_sha256": "sha256:7e9216bb963de44fd2e797a9858c314a88b9bf74a700e05476b00dfab5a8d56c",
+      "relation": "presupposes",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     },
+     {
+      "paragraph_id": "p39",
+      "paragraph_sha256": "sha256:833f68c69fd33b48cc614fc94b99a753ababa59bb8c4c31e3a5706bf583d3650",
+      "relation": "presupposes",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "goods-trade-balance",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [
+     {
+      "term": "china",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     }
+    ],
+    "bloc": [],
+    "instrument": [],
+    "data_basis": [
+     {
+      "term": "balance-of-payments",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     },
+     {
+      "term": "customs",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ]
+   },
+   "attributes": {},
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": [
+     "links: `P3` bounds `E2` joins L1→L2, which no hand-drawn bounds link does"
+    ]
+   }
+  },
+  {
+   "id": "n006",
+   "legacy_id": "P4",
+   "role": "hidden_assumption",
+   "level": "L1",
+   "content": {
+    "text": "The large-enterprise survey does not capture real cross-border activity that customs data misses, so the gap reflects measurement error rather than genuine economic flows.",
+    "label": null,
+    "explicit": false,
+    "reason": "An unverifiable data source that departs from verifiable data should be presumed wrong unless shown otherwise."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p29",
+      "paragraph_sha256": "sha256:7e9216bb963de44fd2e797a9858c314a88b9bf74a700e05476b00dfab5a8d56c",
+      "relation": "presupposes",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     },
+     {
+      "paragraph_id": "p30",
+      "paragraph_sha256": "sha256:3e050a5150b8ed367fdfba4d92ff22c1ffc95857e7388e4354e76aa4ac1afe8e",
+      "relation": "presupposes",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     },
+     {
+      "paragraph_id": "p33",
+      "paragraph_sha256": "sha256:494b84b1f77b005c4417bab864a51560cd358d9fe272bf80626b2f424e525965",
+      "relation": "presupposes",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "goods-trade-balance",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [
+     {
+      "term": "china",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     }
+    ],
+    "bloc": [],
+    "instrument": [],
+    "data_basis": [
+     {
+      "term": "enterprise-reporting",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ]
+   },
+   "attributes": {},
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
    "id": "n007",
-   "legacy_id": "E5",
+   "legacy_id": "M1",
+   "role": "mechanism",
+   "level": "L3",
+   "content": {
+    "text": "Under factoryless manufacturing, a contract manufacturer's delivery to a foreign firm inside China is recorded as an export, and the foreign firm's sale back into China as an import; the markup turns into a goods deficit.",
+    "label": null,
+    "explicit": true,
+    "reason": "Recording transactions by residency rather than border crossing can create trade in goods that never leave the country."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p4",
+      "paragraph_sha256": "sha256:d37a61c311a04d4df90b1c77b59ddcc0f74fdc9ee1b660603ffcd452a97f851f",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     },
+     {
+      "paragraph_id": "p5",
+      "paragraph_sha256": "sha256:8546d26875b4a76fe89250ac1aa19c823460eb24b3c83cc9677bbda116804ff8",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     },
+     {
+      "paragraph_id": "p6",
+      "paragraph_sha256": "sha256:5eb38e26d30fb10f157ac8c35742cd4fe183786967f212c578d2d628bf8b9ba7",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     },
+     {
+      "paragraph_id": "p7",
+      "paragraph_sha256": "sha256:4fab0d7985bf334c87610f262cc59853ab25d044d58b2ce6370720d6c86d5402",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     },
+     {
+      "paragraph_id": "p8",
+      "paragraph_sha256": "sha256:a15edcaa58fdb2d62598c38504e28269ca475e18d1c694eed24984ae8e244873",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     },
+     {
+      "paragraph_id": "p9",
+      "paragraph_sha256": "sha256:f078be4be6e5d7704e3e420d1952b646fbd43ad11fbde85faa0e1d238fe6bb9d",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     },
+     {
+      "paragraph_id": "p10",
+      "paragraph_sha256": "sha256:884cbe04d9da795e9329158d5009a250b6961c30da404c2bd5bca1126a158651",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     },
+     {
+      "paragraph_id": "p11",
+      "paragraph_sha256": "sha256:fe65999403e27205505397855542e7257a0cd881ae798d319c25e5bd10719044",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     },
+     {
+      "paragraph_id": "p12",
+      "paragraph_sha256": "sha256:16b54872023677d1d02749d616ca02768ade8bc6d8af8d2eec098ad6957dfdd5",
+      "relation": "states",
+      "link_method": "llm_citation",
+      "anchor_grade": "excerpt",
+      "review_status": "pending",
+      "source_excerpt": "Such goods are now being counted as an import in the balance of payments data.",
+      "source_spans": [
+       {
+        "char_start": 140,
+        "char_end": 218
+       }
+      ]
+     },
+     {
+      "paragraph_id": "p13",
+      "paragraph_sha256": "sha256:4135a74670a17e8ff6bc630b8391ff9a8e2999c9f0ed4d03df9ca3eecdb9e437",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "goods-trade-balance",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [
+     {
+      "term": "china",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     }
+    ],
+    "bloc": [],
+    "instrument": [],
+    "data_basis": [
+     {
+      "term": "balance-of-payments",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ]
+   },
+   "attributes": {
+    "kind": "distortion"
+   },
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": [
+     "links: `M1` qualified_by `QF` joins L3→L6, which no hand-drawn qualified_by link does"
+    ]
+   }
+  },
+  {
+   "id": "n008",
+   "legacy_id": "E3",
+   "role": "evidence_source",
+   "level": "L2",
+   "content": {
+    "text": "The IMF staff report's Appendix VII confirms that factoryless manufacturing transactions have been reducing China's BOP goods surplus.",
+    "label": null,
+    "explicit": true,
+    "reason": "An international institution's description of an official methodology is authoritative evidence of how that methodology works."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p1",
+      "paragraph_sha256": "sha256:82432a07ec472d113a236f2fd2ae2e4ff8298fc64e0594e05f97939450b33ca9",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     },
+     {
+      "paragraph_id": "p3",
+      "paragraph_sha256": "sha256:44af0afebb405bf00e8c5ede458b7eaea9c9877e5ada3989e4996649d1ce84fb",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     },
+     {
+      "paragraph_id": "p7",
+      "paragraph_sha256": "sha256:4fab0d7985bf334c87610f262cc59853ab25d044d58b2ce6370720d6c86d5402",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     },
+     {
+      "paragraph_id": "p14",
+      "paragraph_sha256": "sha256:3815c7598107742710c48e44f3a6e149a8d12d467025ca49f705b5993faf98dc",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     },
+     {
+      "paragraph_id": "p15",
+      "paragraph_sha256": "sha256:bd5ce77c34b53442c90aeb20d57e21d96788f54db94b24803ff1aee6f67c80ac",
+      "relation": "states",
+      "link_method": "llm_citation",
+      "anchor_grade": "excerpt",
+      "review_status": "pending",
+      "source_excerpt": "When a Chinese contractor sells produced goods to the nonresident enterprise that outsourced the production, exports of goods are recorded in BOP even if the goods remain in China",
+      "source_spans": [
+       {
+        "char_start": 131,
+        "char_end": 310
+       }
+      ]
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "goods-trade-balance",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [
+     {
+      "term": "china",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     }
+    ],
+    "bloc": [],
+    "instrument": [],
+    "data_basis": [
+     {
+      "term": "imf-publications",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ]
+   },
+   "attributes": {},
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "n009",
+   "legacy_id": "C1",
+   "role": "intermediate_claim",
+   "level": "L4",
+   "content": {
+    "text": "A trade deficit arising from domestic production for the domestic market is economically meaningless.",
+    "label": null,
+    "explicit": true,
+    "reason": "A measured external flow with no counterpart in cross-border activity is an accounting artifact."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p16",
+      "paragraph_sha256": "sha256:41d9d2baf5745fb62437e2b10f8136c77fb62e9649646731db60d3e2be7fe21b",
+      "relation": "states",
+      "link_method": "llm_citation",
+      "anchor_grade": "excerpt",
+      "review_status": "pending",
+      "source_excerpt": "So Chinese production for the Chinese market by foreign firms is somehow generating a trade deficit in the balance of payments data. This, of course, makes no real economic sense.",
+      "source_spans": [
+       {
+        "char_start": 0,
+        "char_end": 179
+       }
+      ]
+     },
+     {
+      "paragraph_id": "p27",
+      "paragraph_sha256": "sha256:1bfa3b4dac3ba2fb7d1c23c4fa3997770a5edaecb570a5dadcd101097a71c087",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "goods-trade-balance",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [
+     {
+      "term": "china",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     }
+    ],
+    "bloc": [],
+    "instrument": [],
+    "data_basis": []
+   },
+   "attributes": {},
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "n010",
+   "legacy_id": "E4",
    "role": "evidence_discrepancy",
    "level": "L2",
    "content": {
-    "text": "The goods gap is not offset elsewhere: the gap between the current account and customs goods is even larger than the goods gap itself.",
+    "text": "The goods divergence is not offset elsewhere in the current account; the gap between the customs and current account figures is even larger than the goods gap.",
     "label": null,
     "explicit": true,
-    "reason": "An unexplained gap between two measures of the same balance signals a measurement problem."
+    "reason": "If a reclassification changes the aggregate balance, it is not merely a reclassification."
    },
    "source": {
     "passages": [
@@ -798,11 +1105,11 @@
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "That divergence is not offset elsewhere in the current account, though.",
+      "source_excerpt": "Rather, the gap between the reported current account surplus and the customs goods data (and the customs goods data adjusted for the tourism/travel deficit) is even bigger than the custom goods to balance of payments goods gap.",
       "source_spans": [
        {
-        "char_start": 0,
-        "char_end": 71
+        "char_start": 72,
+        "char_end": 299
        }
       ]
      }
@@ -855,28 +1162,18 @@
    }
   },
   {
-   "id": "n008",
-   "legacy_id": "E4",
-   "role": "evidence_rival",
+   "id": "n011",
+   "legacy_id": "E1",
+   "role": "evidence_data",
    "level": "L2",
    "content": {
-    "text": "Balance of payments exports run well below customs exports, and balance of payments imports now exceed customs imports, compared with what pre-2020 patterns imply; this is consistent with Adam Wolf's work.",
+    "text": "BOP exports fall well below customs exports, while BOP imports exceed customs imports despite the freight adjustment that should keep them lower; this is consistent with Adam Wolf's work.",
     "label": null,
     "explicit": true,
-    "reason": "Compare a revised series against its own historical relationship with a rival series to detect a break."
+    "reason": "Divergences on both sides of the ledger that run against the expected adjustment signal a measurement break."
    },
    "source": {
     "passages": [
-     {
-      "paragraph_id": "p21",
-      "paragraph_sha256": "sha256:bce10a7e45093d3e13b2b035c53760f1b4d8eabe93679818cdaf6b801d6f1f7b",
-      "relation": "abstracts",
-      "link_method": "llm_citation",
-      "anchor_grade": "cited",
-      "review_status": "pending",
-      "source_excerpt": null,
-      "source_spans": null
-     },
      {
       "paragraph_id": "p23",
       "paragraph_sha256": "sha256:5d11b2d41ca9a43748000b6355b4fb17d9c095e59d49ade264cb590717a66fe4",
@@ -961,101 +1258,15 @@
    }
   },
   {
-   "id": "n009",
-   "legacy_id": "P1",
-   "role": "stated_assumption",
-   "level": "L1",
+   "id": "n012",
+   "legacy_id": "M2",
+   "role": "mechanism",
+   "level": "L3",
    "content": {
-    "text": "Because about 5 percent of imports is moved to services for insurance and freight, the balance of payments goods surplus should exceed the customs surplus.",
+    "text": "Foreign firms have tax incentives to shift profits out of China, so huge in-China markups by foreign firms are implausible.",
     "label": null,
     "explicit": true,
-    "reason": "Valuing imports at free on board rather than with insurance and freight lowers the recorded import bill."
-   },
-   "source": {
-    "passages": [
-     {
-      "paragraph_id": "p21",
-      "paragraph_sha256": "sha256:bce10a7e45093d3e13b2b035c53760f1b4d8eabe93679818cdaf6b801d6f1f7b",
-      "relation": "abstracts",
-      "link_method": "llm_citation",
-      "anchor_grade": "cited",
-      "review_status": "pending",
-      "source_excerpt": null,
-      "source_spans": null
-     },
-     {
-      "paragraph_id": "p39",
-      "paragraph_sha256": "sha256:833f68c69fd33b48cc614fc94b99a753ababa59bb8c4c31e3a5706bf583d3650",
-      "relation": "states",
-      "link_method": "llm_citation",
-      "anchor_grade": "excerpt",
-      "review_status": "pending",
-      "source_excerpt": "The BoP goods surplus should be larger than the customs trade surplus, as about 5 percent of the reported goods import bill is moved over to the services balance for insurance and freight.",
-      "source_spans": [
-       {
-        "char_start": 4,
-        "char_end": 192
-       }
-      ]
-     }
-    ]
-   },
-   "facets": {
-    "variable": [
-     {
-      "term": "goods-trade-balance",
-      "assignment_source": "llm",
-      "run_id": "claude-opus-5.5_facets"
-     },
-     {
-      "term": "services-balance",
-      "assignment_source": "llm",
-      "run_id": "claude-opus-5.5_facets"
-     }
-    ],
-    "country": [
-     {
-      "term": "china",
-      "assignment_source": "llm",
-      "run_id": "claude-opus-5.5_facets",
-      "geo_role": "subject"
-     }
-    ],
-    "bloc": [],
-    "instrument": [],
-    "data_basis": [
-     {
-      "term": "balance-of-payments",
-      "assignment_source": "llm",
-      "run_id": "claude-opus-5.5_facets"
-     },
-     {
-      "term": "customs",
-      "assignment_source": "llm",
-      "run_id": "claude-opus-5.5_facets"
-     }
-    ]
-   },
-   "attributes": {},
-   "provenance": {
-    "method": "llm",
-    "run_id": "claude-opus-5.5_boxes"
-   },
-   "review": {
-    "status": "pending",
-    "reasons": []
-   }
-  },
-  {
-   "id": "n010",
-   "legacy_id": "P2",
-   "role": "stated_assumption",
-   "level": "L1",
-   "content": {
-    "text": "Foreign firms try to book profits in low-tax jurisdictions without capital controls, so large markups recorded in China are implausible.",
-    "label": null,
-    "explicit": true,
-    "reason": "Multinationals use transfer pricing to shift profits to low-tax, open jurisdictions."
+    "reason": "Multinationals price transfers so as to book profits in low-tax jurisdictions without capital controls."
    },
    "source": {
     "passages": [
@@ -1066,11 +1277,11 @@
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "There is no good reason to think foreign firms want to report huge profits in China—and thus are charging huge markups in China.",
+      "source_excerpt": "China is not a low jurisdiction, so firms generally do not want to show large Chinese profits.",
       "source_spans": [
        {
-        "char_start": 70,
-        "char_end": 198
+        "char_start": 199,
+        "char_end": 293
        }
       ]
      }
@@ -1082,90 +1293,9 @@
       "term": "profitability",
       "assignment_source": "llm",
       "run_id": "claude-opus-5.5_facets"
-     }
-    ],
-    "country": [
-     {
-      "term": "china",
-      "assignment_source": "llm",
-      "run_id": "claude-opus-5.5_facets",
-      "geo_role": "subject"
-     }
-    ],
-    "bloc": [],
-    "instrument": [
-     {
-      "term": "capital-controls",
-      "assignment_source": "llm",
-      "run_id": "claude-opus-5.5_facets"
-     }
-    ],
-    "data_basis": []
-   },
-   "attributes": {},
-   "provenance": {
-    "method": "llm",
-    "run_id": "claude-opus-5.5_boxes"
-   },
-   "review": {
-    "status": "pending",
-    "reasons": []
-   }
-  },
-  {
-   "id": "n011",
-   "legacy_id": "P3",
-   "role": "stated_assumption",
-   "level": "L1",
-   "content": {
-    "text": "The balance of payments exists to track foreign-exchange flows, and domestic production for domestic sale involves none.",
-    "label": null,
-    "explicit": true,
-    "reason": "The balance of payments should record transactions that move foreign exchange and reserves."
-   },
-   "source": {
-    "passages": [
-     {
-      "paragraph_id": "p26",
-      "paragraph_sha256": "sha256:a8013f4bf596d53146a03f6485dca3649161390d2e3a1391b02bd7063b199062",
-      "relation": "abstracts",
-      "link_method": "llm_citation",
-      "anchor_grade": "cited",
-      "review_status": "pending",
-      "source_excerpt": null,
-      "source_spans": null
      },
      {
-      "paragraph_id": "p27",
-      "paragraph_sha256": "sha256:1bfa3b4dac3ba2fb7d1c23c4fa3997770a5edaecb570a5dadcd101097a71c087",
-      "relation": "states",
-      "link_method": "llm_citation",
-      "anchor_grade": "excerpt",
-      "review_status": "pending",
-      "source_excerpt": "Production in China for sale in China has no impact on the flow of foreign exchange and thus the “true” balance of payments.",
-      "source_spans": [
-       {
-        "char_start": 0,
-        "char_end": 124
-       }
-      ]
-     },
-     {
-      "paragraph_id": "p28",
-      "paragraph_sha256": "sha256:2d06c671bfe87df342ff59a858a096cd0bf1484b75da50361c1a4d2feb697eb1",
-      "relation": "abstracts",
-      "link_method": "llm_citation",
-      "anchor_grade": "cited",
-      "review_status": "pending",
-      "source_excerpt": null,
-      "source_spans": null
-     }
-    ]
-   },
-   "facets": {
-    "variable": [
-     {
-      "term": "goods-trade-balance",
+      "term": "investment-income-balance",
       "assignment_source": "llm",
       "run_id": "claude-opus-5.5_facets"
      }
@@ -1180,15 +1310,11 @@
     ],
     "bloc": [],
     "instrument": [],
-    "data_basis": [
-     {
-      "term": "balance-of-payments",
-      "assignment_source": "llm",
-      "run_id": "claude-opus-5.5_facets"
-     }
-    ]
+    "data_basis": []
    },
-   "attributes": {},
+   "attributes": {
+    "kind": "economic"
+   },
    "provenance": {
     "method": "llm",
     "run_id": "claude-opus-5.5_boxes"
@@ -1199,22 +1325,37 @@
    }
   },
   {
-   "id": "n012",
-   "legacy_id": "P4",
-   "role": "hidden_assumption",
+   "id": "n013",
+   "legacy_id": "SC",
+   "role": "source_credibility",
    "level": "L1",
    "content": {
-    "text": "Opaque, unreplicable official statistics deserve less trust than physically observed trade flows.",
+    "text": "Since 2022 the BOP goods data has come from direct reporting by about 13,000 large enterprises plus bank payment records, so no one can replicate it from customs data.",
     "label": null,
-    "explicit": false,
-    "reason": "Data that cannot be verified should yield to data grounded in observable flows."
+    "explicit": true,
+    "reason": "Data that cannot be independently replicated deserves less trust."
    },
    "source": {
     "passages": [
      {
       "paragraph_id": "p30",
       "paragraph_sha256": "sha256:3e050a5150b8ed367fdfba4d92ff22c1ffc95857e7388e4354e76aa4ac1afe8e",
-      "relation": "presupposes",
+      "relation": "states",
+      "link_method": "llm_citation",
+      "anchor_grade": "excerpt",
+      "review_status": "pending",
+      "source_excerpt": "the data is all coming from an impossible to verify internal survey and not from an adjustment to the customs data.",
+      "source_spans": [
+       {
+        "char_start": 135,
+        "char_end": 250
+       }
+      ]
+     },
+     {
+      "paragraph_id": "p31",
+      "paragraph_sha256": "sha256:2ce7d3e179ff443e8ebf69e95bec30357a32824c2dbdd96ba74e0353ff995aa1",
+      "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
@@ -1222,9 +1363,9 @@
       "source_spans": null
      },
      {
-      "paragraph_id": "p33",
-      "paragraph_sha256": "sha256:494b84b1f77b005c4417bab864a51560cd358d9fe272bf80626b2f424e525965",
-      "relation": "presupposes",
+      "paragraph_id": "p38",
+      "paragraph_sha256": "sha256:d4efa91f7105b31067d17d9dec7328d065351b678cba8866984d39069d5590ab",
+      "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
@@ -1241,12 +1382,24 @@
       "run_id": "claude-opus-5.5_facets"
      }
     ],
-    "country": [],
+    "country": [
+     {
+      "term": "china",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     }
+    ],
     "bloc": [],
     "instrument": [],
     "data_basis": [
      {
-      "term": "customs",
+      "term": "enterprise-reporting",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     },
+     {
+      "term": "balance-of-payments",
       "assignment_source": "llm",
       "run_id": "claude-opus-5.5_facets"
      }
@@ -1260,20 +1413,20 @@
    "review": {
     "status": "pending",
     "reasons": [
-     "facets: `setser_aug_14_24#P4` where_subject empty - every claim needs a country or a bloc (assignment.requires_one_of) - needs review"
+     "links: `P2` frames `SC` joins L1→L1, which no hand-drawn frames link does"
     ]
    }
   },
   {
-   "id": "n013",
-   "legacy_id": "SC",
+   "id": "n014",
+   "legacy_id": "SC2",
    "role": "source_credibility",
    "level": "L1",
    "content": {
-    "text": "China has a history of opportune methodology changes, such as the 2015 tourism revision that added about $1000 per tourist abroad, and the 2022 goods change fits that pattern.",
+    "text": "China has a history of opportune methodology changes, such as the 2015 tourism spending revision documented by Anna Wong, that reduced its reported surplus.",
     "label": null,
     "explicit": true,
-    "reason": "A statistical producer with a record of convenient revisions merits added scrutiny."
+    "reason": "A source with a record of convenient revisions merits scepticism toward new ones."
    },
    "source": {
     "passages": [
@@ -1302,7 +1455,7 @@
       "run_id": "claude-opus-5.5_facets"
      },
      {
-      "term": "goods-trade-balance",
+      "term": "current-account",
       "assignment_source": "llm",
       "run_id": "claude-opus-5.5_facets"
      }
@@ -1336,28 +1489,18 @@
    }
   },
   {
-   "id": "n014",
-   "legacy_id": "E1",
+   "id": "n015",
+   "legacy_id": "E2",
    "role": "evidence_data",
    "level": "L2",
    "content": {
-    "text": "The balance of payments goods surplus is about $300 billion (over 1.5 percent of GDP) too small, and the second-quarter current account was about $150 billion below where it should be.",
+    "text": "The BOP goods surplus is about $300 billion (over 1.5% of GDP) too small, and the Q2 current account was about $150 billion below what it should have been.",
     "label": null,
     "explicit": true,
-    "reason": "Size the distortion to show whether it matters macroeconomically."
+    "reason": "The size of a measurement gap determines whether it matters for macro assessment."
    },
    "source": {
     "passages": [
-     {
-      "paragraph_id": "p3",
-      "paragraph_sha256": "sha256:44af0afebb405bf00e8c5ede458b7eaea9c9877e5ada3989e4996649d1ce84fb",
-      "relation": "abstracts",
-      "link_method": "llm_citation",
-      "anchor_grade": "cited",
-      "review_status": "pending",
-      "source_excerpt": null,
-      "source_spans": null
-     },
      {
       "paragraph_id": "p29",
       "paragraph_sha256": "sha256:7e9216bb963de44fd2e797a9858c314a88b9bf74a700e05476b00dfab5a8d56c",
@@ -1428,19 +1571,21 @@
    },
    "review": {
     "status": "pending",
-    "reasons": []
+    "reasons": [
+     "links: `P3` bounds `E2` joins L1→L2, which no hand-drawn bounds link does"
+    ]
    }
   },
   {
-   "id": "n015",
+   "id": "n016",
    "legacy_id": "RC",
    "role": "reconstruction",
    "level": "L5",
    "content": {
-    "text": "Setser's reconstructed estimate puts China's current account surplus at close to $700 billion.",
+    "text": "Correcting the goods data, the author estimates China's current account surplus at close to $700 billion.",
     "label": null,
     "explicit": true,
-    "reason": "Once an official measure is rejected, rebuild it from more reliable underlying data."
+    "reason": "Replace a flawed official series with one built on the pre-break methodology."
    },
    "source": {
     "passages": [
@@ -1508,15 +1653,15 @@
    }
   },
   {
-   "id": "n016",
+   "id": "n017",
    "legacy_id": "K",
    "role": "main_claim",
    "level": "L5",
    "content": {
-    "text": "The reported fall in China's surplus is a statistical artifact; customs data, which show a near-peak goods surplus, tell the true story.",
+    "text": "The fall in China's reported current account surplus since 2021 is mainly an artifact of an unjustified methodology change; China's true surplus is far larger, as the customs data shows.",
     "label": null,
     "explicit": true,
-    "reason": "Trust measures of actual trade over modelled data built on survey inputs."
+    "reason": "When an official balance shifts only because of methodology, the underlying physical data reveal the real position."
    },
    "source": {
     "passages": [
@@ -1560,11 +1705,6 @@
    "facets": {
     "variable": [
      {
-      "term": "goods-trade-balance",
-      "assignment_source": "llm",
-      "run_id": "claude-opus-5.5_facets"
-     },
-     {
       "term": "current-account",
       "assignment_source": "llm",
       "run_id": "claude-opus-5.5_facets"
@@ -1582,12 +1722,12 @@
     "instrument": [],
     "data_basis": [
      {
-      "term": "customs",
+      "term": "balance-of-payments",
       "assignment_source": "llm",
       "run_id": "claude-opus-5.5_facets"
      },
      {
-      "term": "balance-of-payments",
+      "term": "customs",
       "assignment_source": "llm",
       "run_id": "claude-opus-5.5_facets"
      }
@@ -1606,15 +1746,15 @@
    }
   },
   {
-   "id": "n017",
+   "id": "n018",
    "legacy_id": "REC",
    "role": "recommendation",
    "level": "L5",
    "content": {
-    "text": "The IMF and other assessors should stop using China's reported current account surplus.",
+    "text": "The IMF and other global monitors should stop relying on China's reported current account surplus in their assessments.",
     "label": null,
     "explicit": true,
-    "reason": "Surveillance should rest on data that reflects real cross-border flows."
+    "reason": "Surveillance bodies should not base assessments on data known to be distorted."
    },
    "source": {
     "passages": [
@@ -1658,11 +1798,6 @@
       "term": "imf-publications",
       "assignment_source": "llm",
       "run_id": "claude-opus-5.5_facets"
-     },
-     {
-      "term": "balance-of-payments",
-      "assignment_source": "llm",
-      "run_id": "claude-opus-5.5_facets"
      }
     ]
    },
@@ -1677,15 +1812,15 @@
    }
   },
   {
-   "id": "n018",
+   "id": "n019",
    "legacy_id": "X",
    "role": "opposing_view",
    "level": "L6",
    "content": {
-    "text": "Many analysts take China's reported current account decline at face value.",
+    "text": "Many analysts take China's reported current account decline at face value as evidence of a shrinking impact on the world.",
     "label": null,
     "explicit": true,
-    "reason": "Headline statistics are often used without checking how they were compiled."
+    "reason": "Headline official aggregates can mislead users who do not examine methodology."
    },
    "source": {
     "passages": [
@@ -1712,6 +1847,11 @@
       "term": "current-account",
       "assignment_source": "llm",
       "run_id": "claude-opus-5.5_facets"
+     },
+     {
+      "term": "global-imbalances",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
      }
     ],
     "country": [
@@ -1724,13 +1864,7 @@
     ],
     "bloc": [],
     "instrument": [],
-    "data_basis": [
-     {
-      "term": "balance-of-payments",
-      "assignment_source": "llm",
-      "run_id": "claude-opus-5.5_facets"
-     }
-    ]
+    "data_basis": []
    },
    "attributes": {},
    "provenance": {
@@ -1743,15 +1877,15 @@
    }
   },
   {
-   "id": "n019",
+   "id": "n020",
    "legacy_id": "QF",
    "role": "caveat",
    "level": "L6",
    "content": {
-    "text": "Recording contract-manufactured goods as exports is legitimate when the goods are actually shipped abroad.",
+    "text": "Recording contract-manufactured goods as exports is legitimate when they are actually shipped abroad; only the in-China resale case is problematic.",
     "label": null,
     "explicit": true,
-    "reason": "Residency-based recording is valid when the goods do cross the border."
+    "reason": "A methodology may be valid in some cases even if it distorts others."
    },
    "source": {
     "passages": [
@@ -1762,11 +1896,11 @@
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "That’s all fine and good if the goods are then sold outside of China.",
+      "source_excerpt": "That’s all fine and good if the goods are then sold outside of China. It would clearly be an export",
       "source_spans": [
        {
         "char_start": 0,
-        "char_end": 69
+        "char_end": 99
        }
       ]
      }
@@ -1775,7 +1909,7 @@
    "facets": {
     "variable": [
      {
-      "term": "export-volumes",
+      "term": "goods-trade-balance",
       "assignment_source": "llm",
       "run_id": "claude-opus-5.5_facets"
      }
@@ -1811,42 +1945,42 @@
    }
   },
   {
-   "id": "n020",
+   "id": "n021",
    "legacy_id": "QF2",
    "role": "caveat",
    "level": "L6",
    "content": {
-    "text": "Without detail on the income line or on how sales like Apple's are treated, Setser cannot fully verify where offsets do or do not appear.",
+    "text": "Because the income line offers no detail, the author cannot verify how profits and offsets were treated across line items.",
     "label": null,
     "explicit": true,
-    "reason": "Missing disaggregation limits how firmly a measurement error can be pinned down."
+    "reason": "Conclusions about offsetting entries are limited when the relevant accounts are opaque."
    },
    "source": {
     "passages": [
      {
       "paragraph_id": "p37",
       "paragraph_sha256": "sha256:58b115392e546df3d752cf1d54f950f544bec057270c5418b367b152fc9b36dc",
+      "relation": "states",
+      "link_method": "llm_citation",
+      "anchor_grade": "excerpt",
+      "review_status": "pending",
+      "source_excerpt": "I would be curious to see, for example, how China accounted for Apple’s in-China sales before and after the change",
+      "source_spans": [
+       {
+        "char_start": 2,
+        "char_end": 116
+       }
+      ]
+     },
+     {
+      "paragraph_id": "p38",
+      "paragraph_sha256": "sha256:d4efa91f7105b31067d17d9dec7328d065351b678cba8866984d39069d5590ab",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
       "review_status": "pending",
       "source_excerpt": null,
       "source_spans": null
-     },
-     {
-      "paragraph_id": "p38",
-      "paragraph_sha256": "sha256:d4efa91f7105b31067d17d9dec7328d065351b678cba8866984d39069d5590ab",
-      "relation": "states",
-      "link_method": "llm_citation",
-      "anchor_grade": "excerpt",
-      "review_status": "pending",
-      "source_excerpt": "The income line in China’s balance of payments provides absolutely no detail, so there is no way of knowing what is and what isn’t in China’s data.",
-      "source_spans": [
-       {
-        "char_start": 3,
-        "char_end": 150
-       }
-      ]
      }
     ]
    },
@@ -1887,12 +2021,12 @@
    }
   },
   {
-   "id": "n021",
+   "id": "n022",
    "legacy_id": "DF",
    "role": "deferred_question",
    "level": "L6",
    "content": {
-    "text": "Why China's interest income failed to rise with global rates, leaving a large income deficit, is left for a future post.",
+    "text": "The puzzle of China's low interest income and large income deficit, despite higher global rates, is left for a future post.",
     "label": null,
     "explicit": true,
     "reason": "Returns on foreign assets should rise with global interest rates."
@@ -1966,7 +2100,7 @@
   {
    "id": "e001",
    "from": "n001",
-   "to": "n006",
+   "to": "n002",
    "relation": "frames",
    "sign": 0,
    "provenance": {
@@ -1981,7 +2115,7 @@
   {
    "id": "e002",
    "from": "n001",
-   "to": "n009",
+   "to": "n004",
    "relation": "frames",
    "sign": 0,
    "provenance": {
@@ -1996,7 +2130,7 @@
   {
    "id": "e003",
    "from": "n001",
-   "to": "n011",
+   "to": "n005",
    "relation": "frames",
    "sign": 0,
    "provenance": {
@@ -2011,7 +2145,7 @@
   {
    "id": "e004",
    "from": "n001",
-   "to": "n012",
+   "to": "n003",
    "relation": "frames",
    "sign": 0,
    "provenance": {
@@ -2025,10 +2159,10 @@
   },
   {
    "id": "e005",
-   "from": "n003",
-   "to": "n004",
-   "relation": "supports",
-   "sign": 1,
+   "from": "n001",
+   "to": "n006",
+   "relation": "frames",
+   "sign": 0,
    "provenance": {
     "method": "llm",
     "run_id": "claude-opus-5.5_links"
@@ -2040,8 +2174,8 @@
   },
   {
    "id": "e006",
-   "from": "n004",
-   "to": "n005",
+   "from": "n008",
+   "to": "n007",
    "relation": "supports",
    "sign": 1,
    "provenance": {
@@ -2055,23 +2189,8 @@
   },
   {
    "id": "e007",
-   "from": "n011",
-   "to": "n005",
-   "relation": "licenses",
-   "sign": 1,
-   "provenance": {
-    "method": "llm",
-    "run_id": "claude-opus-5.5_links"
-   },
-   "review": {
-    "status": "pending",
-    "reasons": []
-   }
-  },
-  {
-   "id": "e008",
-   "from": "n010",
-   "to": "n005",
+   "from": "n007",
+   "to": "n009",
    "relation": "supports",
    "sign": 1,
    "provenance": {
@@ -2084,9 +2203,24 @@
    }
   },
   {
+   "id": "e008",
+   "from": "n002",
+   "to": "n009",
+   "relation": "licenses",
+   "sign": 1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
    "id": "e009",
-   "from": "n006",
-   "to": "n007",
+   "from": "n003",
+   "to": "n010",
    "relation": "frames",
    "sign": 0,
    "provenance": {
@@ -2100,8 +2234,8 @@
   },
   {
    "id": "e010",
-   "from": "n007",
-   "to": "n016",
+   "from": "n010",
+   "to": "n017",
    "relation": "supports",
    "sign": 1,
    "provenance": {
@@ -2115,8 +2249,8 @@
   },
   {
    "id": "e011",
-   "from": "n009",
-   "to": "n008",
+   "from": "n005",
+   "to": "n011",
    "relation": "frames",
    "sign": 0,
    "provenance": {
@@ -2130,8 +2264,8 @@
   },
   {
    "id": "e012",
-   "from": "n008",
-   "to": "n016",
+   "from": "n011",
+   "to": "n017",
    "relation": "supports",
    "sign": 1,
    "provenance": {
@@ -2145,8 +2279,8 @@
   },
   {
    "id": "e013",
-   "from": "n005",
-   "to": "n016",
+   "from": "n012",
+   "to": "n009",
    "relation": "supports",
    "sign": 1,
    "provenance": {
@@ -2160,10 +2294,10 @@
   },
   {
    "id": "e014",
-   "from": "n012",
-   "to": "n002",
-   "relation": "frames",
-   "sign": 0,
+   "from": "n009",
+   "to": "n017",
+   "relation": "supports",
+   "sign": 1,
    "provenance": {
     "method": "llm",
     "run_id": "claude-opus-5.5_links"
@@ -2175,8 +2309,8 @@
   },
   {
    "id": "e015",
-   "from": "n002",
-   "to": "n016",
+   "from": "n013",
+   "to": "n017",
    "relation": "supports",
    "sign": 1,
    "provenance": {
@@ -2190,23 +2324,8 @@
   },
   {
    "id": "e016",
-   "from": "n012",
-   "to": "n016",
-   "relation": "licenses",
-   "sign": 1,
-   "provenance": {
-    "method": "llm",
-    "run_id": "claude-opus-5.5_links"
-   },
-   "review": {
-    "status": "pending",
-    "reasons": []
-   }
-  },
-  {
-   "id": "e017",
-   "from": "n013",
-   "to": "n016",
+   "from": "n014",
+   "to": "n017",
    "relation": "supports",
    "sign": 1,
    "provenance": {
@@ -2219,9 +2338,26 @@
    }
   },
   {
-   "id": "e018",
-   "from": "n014",
+   "id": "e017",
+   "from": "n005",
    "to": "n015",
+   "relation": "bounds",
+   "sign": 1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": [
+     "`P3` bounds `E2` joins L1→L2, which no hand-drawn bounds link does"
+    ]
+   }
+  },
+  {
+   "id": "e018",
+   "from": "n015",
+   "to": "n016",
    "relation": "supports",
    "sign": 1,
    "provenance": {
@@ -2235,8 +2371,8 @@
   },
   {
    "id": "e019",
-   "from": "n016",
-   "to": "n015",
+   "from": "n017",
+   "to": "n016",
    "relation": "reconstructs",
    "sign": 1,
    "provenance": {
@@ -2250,9 +2386,9 @@
   },
   {
    "id": "e020",
-   "from": "n016",
+   "from": "n004",
    "to": "n017",
-   "relation": "motivates",
+   "relation": "licenses",
    "sign": 1,
    "provenance": {
     "method": "llm",
@@ -2265,8 +2401,38 @@
   },
   {
    "id": "e021",
-   "from": "n016",
+   "from": "n006",
+   "to": "n017",
+   "relation": "licenses",
+   "sign": 1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e022",
+   "from": "n017",
    "to": "n018",
+   "relation": "motivates",
+   "sign": 1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e023",
+   "from": "n017",
+   "to": "n019",
    "relation": "rebuts",
    "sign": -1,
    "provenance": {
@@ -2279,9 +2445,9 @@
    }
   },
   {
-   "id": "e022",
-   "from": "n004",
-   "to": "n019",
+   "id": "e024",
+   "from": "n007",
+   "to": "n020",
    "relation": "qualified_by",
    "sign": -1,
    "provenance": {
@@ -2296,9 +2462,9 @@
    }
   },
   {
-   "id": "e023",
-   "from": "n016",
-   "to": "n020",
+   "id": "e025",
+   "from": "n010",
+   "to": "n021",
    "relation": "qualified_by",
    "sign": -1,
    "provenance": {
@@ -2311,9 +2477,9 @@
    }
   },
   {
-   "id": "e024",
-   "from": "n016",
-   "to": "n021",
+   "id": "e026",
+   "from": "n017",
+   "to": "n022",
    "relation": "defers",
    "sign": 0,
    "provenance": {
@@ -2324,18 +2490,37 @@
     "status": "pending",
     "reasons": []
    }
+  },
+  {
+   "id": "e027",
+   "from": "n004",
+   "to": "n013",
+   "relation": "frames",
+   "sign": 0,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": [
+     "`P2` frames `SC` joins L1→L1, which no hand-drawn frames link does"
+    ]
+   }
   }
  ],
  "validation": {
   "status": "needs_review",
   "checks": [
-   "boxes: 21, fix rounds 0, re-asks 0, gaps left none",
-   "links: 24, fix rounds 0, re-asks 0, gaps left none, dropped none",
-   "passage linker agreement: {'anchored': 6, 'anchored_cited': 6, 'candidate': 16, 'candidate_cited': 13}"
+   "boxes: 22, fix rounds 1, re-asks 0, gaps left none",
+   "links: 27, fix rounds 0, re-asks 0, gaps left none, dropped none",
+   "passage linker agreement: {'anchored': 7, 'anchored_cited': 7, 'candidate': 16, 'candidate_cited': 13}"
   ],
   "review_items": [
+   "links: `P3` bounds `E2` joins L1→L2, which no hand-drawn bounds link does",
    "links: `M1` qualified_by `QF` joins L3→L6, which no hand-drawn qualified_by link does",
-   "facets: `setser_aug_14_24#P4` where_subject empty - every claim needs a country or a bloc (assignment.requires_one_of) - needs review"
+   "links: `P2` frames `SC` joins L1→L1, which no hand-drawn frames link does",
+   "facets: `setser_aug_14_24#P1` where_subject empty - every claim needs a country or a bloc (assignment.requires_one_of) - needs review"
   ]
  },
  "extensions": {}

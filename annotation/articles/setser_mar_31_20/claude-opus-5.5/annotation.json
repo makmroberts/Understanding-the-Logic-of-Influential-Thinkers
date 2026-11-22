@@ -369,13 +369,13 @@
   }
  },
  "annotation": {
-  "annotated_at": "2026-11-09T21:12:57+00:00",
+  "annotated_at": "2026-11-19T02:37:01+00:00",
   "ontology": {
    "id": "setser_argument",
-   "version": 2
+   "version": 3
   },
   "facets_version": 1,
-  "pipeline_version": "8d03103",
+  "pipeline_version": "137f37e",
   "status": "needs_review",
   "runs": [
    {
@@ -387,9 +387,9 @@
      "max_tokens": 16000,
      "reasoning_effort": "medium"
     },
-    "timestamp": "2026-11-09T21:12:56+00:00",
-    "calls": 1,
-    "cost_usd": 0.10926
+    "timestamp": "2026-11-19T02:37:00+00:00",
+    "calls": 2,
+    "cost_usd": 0.28273
    },
    {
     "run_id": "claude-opus-5.5_links",
@@ -400,9 +400,9 @@
      "max_tokens": 12000,
      "reasoning_effort": "medium"
     },
-    "timestamp": "2026-11-09T21:12:56+00:00",
+    "timestamp": "2026-11-19T02:37:00+00:00",
     "calls": 1,
-    "cost_usd": 0.04304
+    "cost_usd": 0.05226
    },
    {
     "run_id": "claude-opus-5.5_facets",
@@ -413,15 +413,15 @@
      "max_tokens": 12000,
      "reasoning_effort": "low"
     },
-    "timestamp": "2026-11-09T21:12:56+00:00",
+    "timestamp": "2026-11-19T02:37:00+00:00",
     "calls": 1,
-    "cost_usd": 0.05358
+    "cost_usd": 0.0661
    }
   ]
  },
  "summary": {
-  "central_question": "Given a set of simultaneous global shocks hitting emerging economies, how will their impact differ across countries and what policy responses does each kind of case require?",
-  "main_thesis": "Emerging markets face many distinct crises, not one, and the official sector must step in with tailored tools, home backstops for the strong and IMF and MDB financing for the weak, to limit the shock.",
+  "central_question": "How will the simultaneous shocks of 2020 affect different emerging economies, and what policy responses do they require?",
+  "main_thesis": "The shocks create many different emerging market crises: strong countries should self-insure, while the official sector (IMF, World Bank, central banks) must replace retreating private capital for the weaker ones.",
   "argument_summary": null
  },
  "nodes": [
@@ -431,10 +431,10 @@
    "role": "question",
    "level": "L0",
    "content": {
-    "text": "Given a set of simultaneous global shocks hitting emerging economies, how will their impact differ across countries and what policy responses does each kind of case require?",
+    "text": "How will the simultaneous shocks of 2020 affect different emerging economies, and what policy responses do they require?",
     "label": null,
-    "explicit": false,
-    "reason": "When common shocks hit heterogeneous economies, the right response depends on each economy's balance sheet."
+    "explicit": true,
+    "reason": "A common shock can demand different responses depending on each country's starting position."
    },
    "source": {
     "passages": [
@@ -483,7 +483,7 @@
       "run_id": "claude-opus-5.5_facets"
      },
      {
-      "term": "commodity-prices",
+      "term": "gdp-growth",
       "assignment_source": "llm",
       "run_id": "claude-opus-5.5_facets"
      }
@@ -491,13 +491,19 @@
     "country": [],
     "bloc": [
      {
-      "term": "global",
+      "term": "em-weak-balance-sheet",
       "assignment_source": "llm",
       "run_id": "claude-opus-5.5_facets",
       "geo_role": "subject"
      }
     ],
-    "instrument": [],
+    "instrument": [
+     {
+      "term": "official-lending",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
     "data_basis": []
    },
    "attributes": {},
@@ -516,13 +522,23 @@
    "role": "evidence_data",
    "level": "L2",
    "content": {
-    "text": "Four shocks hit at once: an oil and commodity price collapse, a manufacturing trade shock from shutdowns, a sudden stop in private flows to emerging markets, and reduced cross-border dollar financing.",
+    "text": "Four simultaneous shocks hit emerging economies: an oil and commodity price collapse below breakevens, a manufacturing trade shock from shutdowns, a sudden stop in private flows, and reduced cross-border dollar financing.",
     "label": null,
     "explicit": true,
-    "reason": "Prices below balance of payments breakevens signal external financing stress for exporters."
+    "reason": "Commodity prices below balance of payments breakevens create external financing gaps for exporters."
    },
    "source": {
     "passages": [
+     {
+      "paragraph_id": "p1",
+      "paragraph_sha256": "sha256:d011e1f917bc8f3f06dcd806b11d3245ce50c10a446c6014f8753daca8ab67f4",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     },
      {
       "paragraph_id": "p2",
       "paragraph_sha256": "sha256:c874f59dedbda399b1fbcbd914b84c6192bed39c77e2829d52df47fd5b750a82",
@@ -591,7 +607,7 @@
     "country": [],
     "bloc": [
      {
-      "term": "global",
+      "term": "em-weak-balance-sheet",
       "assignment_source": "llm",
       "run_id": "claude-opus-5.5_facets",
       "geo_role": "subject"
@@ -616,72 +632,10 @@
    "role": "mechanism",
    "level": "L3",
    "content": {
-    "text": "Global finance is shifting back onto bank balance sheets because non-bank finance cannot offer stability in a crisis, straining banks with Fed and ECB access.",
+    "text": "The shocks offset each other in some cases, as with Turkey, which gains from cheap oil but loses exports, tourism and access to loan rollovers.",
     "label": null,
     "explicit": true,
-    "reason": "In crises, funding migrates to institutions with central bank access, straining their balance sheets."
-   },
-   "source": {
-    "passages": [
-     {
-      "paragraph_id": "p5",
-      "paragraph_sha256": "sha256:9e2b05f25ad6522b4bbd94b8f19a09c40e94c439986473a2828d28169aa0a1e1",
-      "relation": "states",
-      "link_method": "llm_citation",
-      "anchor_grade": "excerpt",
-      "review_status": "pending",
-      "source_excerpt": "Global finance is now quickly being re-intermediated through banks, as they offer a form of stability that the “shadow” (non-bank) financial system cannot replicate in a crisis.",
-      "source_spans": [
-       {
-        "char_start": 218,
-        "char_end": 395
-       }
-      ]
-     }
-    ]
-   },
-   "facets": {
-    "variable": [
-     {
-      "term": "capital-flows",
-      "assignment_source": "llm",
-      "run_id": "claude-opus-5.5_facets"
-     }
-    ],
-    "country": [],
-    "bloc": [
-     {
-      "term": "global",
-      "assignment_source": "llm",
-      "run_id": "claude-opus-5.5_facets",
-      "geo_role": "subject"
-     }
-    ],
-    "instrument": [],
-    "data_basis": []
-   },
-   "attributes": {
-    "kind": "economic"
-   },
-   "provenance": {
-    "method": "llm",
-    "run_id": "claude-opus-5.5_boxes"
-   },
-   "review": {
-    "status": "pending",
-    "reasons": []
-   }
-  },
-  {
-   "id": "n004",
-   "legacy_id": "M2",
-   "role": "mechanism",
-   "level": "L3",
-   "content": {
-    "text": "The shocks can offset one another: an oil importer like Turkey gains from cheap energy but loses export, tourism and bank rollover funding.",
-    "label": null,
-    "explicit": true,
-    "reason": "A country's net exposure is the sum of its gains and losses across simultaneous shocks."
+    "reason": "A country's net exposure depends on the sum of its gains and losses across several channels."
    },
    "source": {
     "passages": [
@@ -710,7 +664,7 @@
       "run_id": "claude-opus-5.5_facets"
      },
      {
-      "term": "capital-flows",
+      "term": "export-volumes",
       "assignment_source": "llm",
       "run_id": "claude-opus-5.5_facets"
      },
@@ -745,15 +699,82 @@
    }
   },
   {
-   "id": "n005",
-   "legacy_id": "P1",
-   "role": "stated_assumption",
-   "level": "L1",
+   "id": "n004",
+   "legacy_id": "M2",
+   "role": "mechanism",
+   "level": "L3",
    "content": {
-    "text": "Countries with large reserves and net foreign assets can self-finance their shortfalls and avoid immediate adjustment.",
+    "text": "In a crisis, finance shifts back to banks with central bank access, which squeezes their balance sheets and limits dollar credit even to creditworthy borrowers.",
     "label": null,
     "explicit": true,
-    "reason": "Accumulated external buffers let a country finance a temporary shortfall instead of adjusting at once."
+    "reason": "In stress, funding migrates to institutions with lender-of-last-resort access, straining their capacity."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p5",
+      "paragraph_sha256": "sha256:9e2b05f25ad6522b4bbd94b8f19a09c40e94c439986473a2828d28169aa0a1e1",
+      "relation": "states",
+      "link_method": "llm_citation",
+      "anchor_grade": "excerpt",
+      "review_status": "pending",
+      "source_excerpt": "Global finance is now quickly being re-intermediated through banks, as they offer a form of stability that the “shadow” (non-bank) financial system cannot replicate in a crisis.",
+      "source_spans": [
+       {
+        "char_start": 218,
+        "char_end": 395
+       }
+      ]
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "capital-flows",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     },
+     {
+      "term": "trade-finance",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [],
+    "bloc": [
+     {
+      "term": "global",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     }
+    ],
+    "instrument": [],
+    "data_basis": []
+   },
+   "attributes": {
+    "kind": "economic"
+   },
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "n005",
+   "legacy_id": "C4",
+   "role": "case_type",
+   "level": "L4",
+   "content": {
+    "text": "Countries divide into those with strong external balance sheets, which can self-insure, and those with weaker ones, which face the pressing problems.",
+    "label": null,
+    "explicit": true,
+    "reason": "Net external asset positions decide whether a country can absorb a shock or must adjust or borrow."
    },
    "source": {
     "passages": [
@@ -773,8 +794,8 @@
       ]
      },
      {
-      "paragraph_id": "p10",
-      "paragraph_sha256": "sha256:aaefbf18291e2e82b3e6c51e5c97abb073438ccd5fcc40e53aeaccb880a8ef40",
+      "paragraph_id": "p15",
+      "paragraph_sha256": "sha256:29e2988118473becbb91003f8d10c862de1ce74a5ca74cb52be97cbe0b0eb5a7",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
@@ -790,12 +811,23 @@
       "term": "fx-reserves",
       "assignment_source": "llm",
       "run_id": "claude-opus-5.5_facets"
+     },
+     {
+      "term": "net-external-debt",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
      }
     ],
     "country": [],
     "bloc": [
      {
       "term": "em-commodity",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     },
+     {
+      "term": "em-weak-balance-sheet",
       "assignment_source": "llm",
       "run_id": "claude-opus-5.5_facets",
       "geo_role": "subject"
@@ -820,10 +852,10 @@
    "role": "evidence_data",
    "level": "L2",
    "content": {
-    "text": "Saudi Arabia and Russia each hold about $500 billion in reserves, the smaller GCC states over $1 trillion in sovereign funds, and Taiwan has far more foreign assets than foreign liabilities.",
+    "text": "Saudi Arabia and Russia hold about $500 billion in reserves each, and the smaller GCC states hold over $1 trillion in sovereign wealth funds, so strong oil exporters can self-finance the revenue shortfall.",
     "label": null,
     "explicit": true,
-    "reason": "The size of reserves relative to likely shortfalls measures capacity to self-finance."
+    "reason": "Accumulated reserves let a country delay adjustment to a terms of trade shock."
    },
    "source": {
     "passages": [
@@ -841,16 +873,6 @@
         "char_end": 532
        }
       ]
-     },
-     {
-      "paragraph_id": "p13",
-      "paragraph_sha256": "sha256:af5b32da54bc69b10527e59eaa3bf3fef824462be5869707c29b67fb00d80762",
-      "relation": "abstracts",
-      "link_method": "llm_citation",
-      "anchor_grade": "cited",
-      "review_status": "pending",
-      "source_excerpt": null,
-      "source_spans": null
      }
     ]
    },
@@ -860,16 +882,14 @@
       "term": "fx-reserves",
       "assignment_source": "llm",
       "run_id": "claude-opus-5.5_facets"
-     }
-    ],
-    "country": [
+     },
      {
-      "term": "taiwan",
+      "term": "commodity-prices",
       "assignment_source": "llm",
-      "run_id": "claude-opus-5.5_facets",
-      "geo_role": "subject"
+      "run_id": "claude-opus-5.5_facets"
      }
     ],
+    "country": [],
     "bloc": [
      {
       "term": "gulf",
@@ -895,55 +915,35 @@
   },
   {
    "id": "n007",
-   "legacy_id": "M3",
-   "role": "mechanism",
-   "level": "L3",
+   "legacy_id": "REC",
+   "role": "recommendation",
+   "level": "L5",
    "content": {
-    "text": "Asian insurers and other holders of offshore assets need dollars to hedge currency risk, and thinly capitalized ones face trouble when hedging markets seize.",
+    "text": "Oil exporters with large reserves and sovereign wealth funds should draw them down rather than adjust immediately.",
     "label": null,
     "explicit": true,
-    "reason": "Leveraged holders of foreign assets face funding risk when hedging markets dry up, even if the country is a net creditor."
+    "reason": "Reserves are built precisely to be spent in a shock."
    },
    "source": {
     "passages": [
      {
-      "paragraph_id": "p11",
-      "paragraph_sha256": "sha256:159ed57be1fb325c5d1487567455973168bdfa31c206bab2b31fbec12f3e5c02",
-      "relation": "abstracts",
-      "link_method": "llm_citation",
-      "anchor_grade": "cited",
-      "review_status": "pending",
-      "source_excerpt": null,
-      "source_spans": null
-     },
-     {
-      "paragraph_id": "p12",
-      "paragraph_sha256": "sha256:e2d13d49e281fb7e5db6e4f8849d8160d607bc0e59aeec7726ebc6f68895f986",
+      "paragraph_id": "p10",
+      "paragraph_sha256": "sha256:aaefbf18291e2e82b3e6c51e5c97abb073438ccd5fcc40e53aeaccb880a8ef40",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "Now some of these institutions effectively need to borrow dollars to hedge their portfolios against currency risk",
+      "source_excerpt": "Those buffers can and should be used.",
       "source_spans": [
        {
-        "char_start": 0,
-        "char_end": 113
+        "char_start": 632,
+        "char_end": 669
        }
       ]
      },
      {
-      "paragraph_id": "p13",
-      "paragraph_sha256": "sha256:af5b32da54bc69b10527e59eaa3bf3fef824462be5869707c29b67fb00d80762",
-      "relation": "abstracts",
-      "link_method": "llm_citation",
-      "anchor_grade": "cited",
-      "review_status": "pending",
-      "source_excerpt": null,
-      "source_spans": null
-     },
-     {
-      "paragraph_id": "p35",
-      "paragraph_sha256": "sha256:6d6316a7a943a933a655b77639f2798a362efdcde8173f1e594f87f5729be77b",
+      "paragraph_id": "p14",
+      "paragraph_sha256": "sha256:1f93a2288c882bd35678dd279a3c629200d9956bc0f237e49e66713e237a5a2f",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
@@ -955,6 +955,78 @@
    },
    "facets": {
     "variable": [
+     {
+      "term": "fx-reserves",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     },
+     {
+      "term": "fiscal-balance",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [],
+    "bloc": [
+     {
+      "term": "em-commodity",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     }
+    ],
+    "instrument": [],
+    "data_basis": []
+   },
+   "attributes": {},
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": [
+     "links: `REC` supports `K` joins L5→L5, which no hand-drawn supports link does"
+    ]
+   }
+  },
+  {
+   "id": "n008",
+   "legacy_id": "M3",
+   "role": "mechanism",
+   "level": "L3",
+   "content": {
+    "text": "Asian surplus countries lose value on their offshore portfolios, but this only becomes a problem where the assets sit on leveraged, thinly capitalized balance sheets, such as some life insurers.",
+    "label": null,
+    "explicit": true,
+    "reason": "Asset losses threaten stability mainly when the holders are leveraged."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p11",
+      "paragraph_sha256": "sha256:159ed57be1fb325c5d1487567455973168bdfa31c206bab2b31fbec12f3e5c02",
+      "relation": "states",
+      "link_method": "llm_citation",
+      "anchor_grade": "excerpt",
+      "review_status": "pending",
+      "source_excerpt": "That’s only an immediate problem if the assets are held on levered balance sheets—some insurers, for example, are pretty thinly capitalized",
+      "source_spans": [
+       {
+        "char_start": 420,
+        "char_end": 559
+       }
+      ]
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "net-external-debt",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     },
      {
       "term": "capital-flows",
       "assignment_source": "llm",
@@ -986,15 +1058,75 @@
    }
   },
   {
-   "id": "n008",
+   "id": "n009",
+   "legacy_id": "E3",
+   "role": "evidence_data",
+   "level": "L2",
+   "content": {
+    "text": "Taiwan's foreign assets far exceed its foreign liabilities, so despite its insurers' large hedging needs the country faces no external financial risk.",
+    "label": null,
+    "explicit": true,
+    "reason": "A net external creditor faces credit risk on what it lent, not funding risk."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p13",
+      "paragraph_sha256": "sha256:af5b32da54bc69b10527e59eaa3bf3fef824462be5869707c29b67fb00d80762",
+      "relation": "states",
+      "link_method": "llm_citation",
+      "anchor_grade": "excerpt",
+      "review_status": "pending",
+      "source_excerpt": "But it has significantly more foreign assets than foreign debt. It faces the same risk as other creditors, namely that it lent out funds that it may not get back in full or on time.",
+      "source_spans": [
+       {
+        "char_start": 151,
+        "char_end": 332
+       }
+      ]
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "net-external-debt",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [
+     {
+      "term": "taiwan",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     }
+    ],
+    "bloc": [],
+    "instrument": [],
+    "data_basis": []
+   },
+   "attributes": {},
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "n010",
    "legacy_id": "P3",
    "role": "hidden_assumption",
    "level": "L1",
    "content": {
-    "text": "A creditor country's losses on its institutions can be absorbed domestically, so it faces no external financial risk.",
+    "text": "Losses at the financial institutions of strong-balance-sheet countries can be absorbed domestically, on the assumption that the government is able and willing to recapitalize them.",
     "label": null,
     "explicit": false,
-    "reason": "A net creditor government can recapitalize domestic institutions in its own currency without external financing."
+    "reason": "A solvent sovereign with fiscal space can backstop its own financial sector."
    },
    "source": {
     "passages": [
@@ -1028,7 +1160,7 @@
    "facets": {
     "variable": [
      {
-      "term": "fx-reserves",
+      "term": "fiscal-balance",
       "assignment_source": "llm",
       "run_id": "claude-opus-5.5_facets"
      }
@@ -1042,7 +1174,13 @@
       "geo_role": "subject"
      }
     ],
-    "instrument": [],
+    "instrument": [
+     {
+      "term": "fiscal-policy",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
     "data_basis": []
    },
    "attributes": {},
@@ -1056,32 +1194,52 @@
    }
   },
   {
-   "id": "n009",
-   "legacy_id": "C1",
-   "role": "intermediate_claim",
-   "level": "L4",
+   "id": "n011",
+   "legacy_id": "REC2",
+   "role": "recommendation",
+   "level": "L5",
    "content": {
-    "text": "Strong-balance-sheet countries can weather the storm by using public balance sheets and Fed swap lines to backstop leveraged institutions.",
+    "text": "Home central banks should supply dollar hedges to their institutions, regulators should be flexible, and Fed swap lines and the repo facility could be repurposed to help.",
     "label": null,
     "explicit": true,
-    "reason": "A public balance sheet can stand in for private balance sheets that lose market access."
+    "reason": "A public balance sheet should backstop private leveraged institutions when hedging markets seize up."
    },
    "source": {
     "passages": [
      {
-      "paragraph_id": "p14",
-      "paragraph_sha256": "sha256:1f93a2288c882bd35678dd279a3c629200d9956bc0f237e49e66713e237a5a2f",
+      "paragraph_id": "p12",
+      "paragraph_sha256": "sha256:e2d13d49e281fb7e5db6e4f8849d8160d607bc0e59aeec7726ebc6f68895f986",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "Countries with strong external balance sheets consequently can weather the storm if they act decisively and use their public sector balance sheet to backstop leveraged financial institutions.",
+      "source_excerpt": "Their “home” central banks in my view need to—and can—step up, and their regulators need to show flexibility.",
       "source_spans": [
        {
-        "char_start": 0,
-        "char_end": 191
+        "char_start": 258,
+        "char_end": 367
        }
       ]
+     },
+     {
+      "paragraph_id": "p14",
+      "paragraph_sha256": "sha256:1f93a2288c882bd35678dd279a3c629200d9956bc0f237e49e66713e237a5a2f",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     },
+     {
+      "paragraph_id": "p35",
+      "paragraph_sha256": "sha256:6d6316a7a943a933a655b77639f2798a362efdcde8173f1e594f87f5729be77b",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
      }
     ]
    },
@@ -1091,18 +1249,17 @@
       "term": "fx-reserves",
       "assignment_source": "llm",
       "run_id": "claude-opus-5.5_facets"
+     },
+     {
+      "term": "capital-flows",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
      }
     ],
     "country": [],
     "bloc": [
      {
       "term": "asia-surplus",
-      "assignment_source": "llm",
-      "run_id": "claude-opus-5.5_facets",
-      "geo_role": "subject"
-     },
-     {
-      "term": "em-commodity",
       "assignment_source": "llm",
       "run_id": "claude-opus-5.5_facets",
       "geo_role": "subject"
@@ -1124,19 +1281,86 @@
    },
    "review": {
     "status": "pending",
+    "reasons": [
+     "links: `REC2` supports `K` joins L5→L5, which no hand-drawn supports link does"
+    ]
+   }
+  },
+  {
+   "id": "n012",
+   "legacy_id": "C1",
+   "role": "intermediate_claim",
+   "level": "L4",
+   "content": {
+    "text": "Countries with strong external balance sheets can weather the shock by using their public balance sheets.",
+    "label": null,
+    "explicit": true,
+    "reason": "Self-insurance works when the public sector holds enough net external assets."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p14",
+      "paragraph_sha256": "sha256:1f93a2288c882bd35678dd279a3c629200d9956bc0f237e49e66713e237a5a2f",
+      "relation": "states",
+      "link_method": "llm_citation",
+      "anchor_grade": "excerpt",
+      "review_status": "pending",
+      "source_excerpt": "Countries with strong external balance sheets consequently can weather the storm if they act decisively",
+      "source_spans": [
+       {
+        "char_start": 0,
+        "char_end": 103
+       }
+      ]
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "fx-reserves",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     },
+     {
+      "term": "net-external-debt",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [],
+    "bloc": [
+     {
+      "term": "em-commodity",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     }
+    ],
+    "instrument": [],
+    "data_basis": []
+   },
+   "attributes": {},
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
     "reasons": []
    }
   },
   {
-   "id": "n010",
+   "id": "n013",
    "legacy_id": "C2",
    "role": "intermediate_claim",
    "level": "L4",
    "content": {
-    "text": "Countries whose external debt exceeds their liquid reserves face the hardest problems, because financing dries up exactly when they need it.",
+    "text": "Countries with more external debt than liquid reserves face the hardest problems, because private financing disappears exactly when they need it.",
     "label": null,
     "explicit": true,
-    "reason": "Private capital is procyclical, fleeing the borrowers who most need it."
+    "reason": "Private capital is procyclical and withdraws from the weakest borrowers first."
    },
    "source": {
     "passages": [
@@ -1168,6 +1392,11 @@
       "term": "fx-reserves",
       "assignment_source": "llm",
       "run_id": "claude-opus-5.5_facets"
+     },
+     {
+      "term": "capital-flows",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
      }
     ],
     "country": [],
@@ -1193,15 +1422,15 @@
    }
   },
   {
-   "id": "n011",
-   "legacy_id": "C3",
+   "id": "n014",
+   "legacy_id": "C5",
    "role": "case_type",
    "level": "L4",
    "content": {
-    "text": "Funding needs come in two types: short-term dollar trade finance, and longer-term balance of payments funding for lost inflows, and each needs a different remedy.",
+    "text": "Funding needs come in two kinds, short-term dollar trade finance and medium- to long-term balance of payments gaps from terms of trade shocks, inflow stops or bank runs, and each needs a different tool.",
     "label": null,
     "explicit": true,
-    "reason": "Liquidity needs and solvency-type financing gaps call for different instruments."
+    "reason": "Liquidity needs and solvency-like external gaps call for different instruments."
    },
    "source": {
     "passages": [
@@ -1270,7 +1499,72 @@
       "run_id": "claude-opus-5.5_facets"
      },
      {
-      "term": "capital-flows",
+      "term": "current-account",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [],
+    "bloc": [
+     {
+      "term": "em-weak-balance-sheet",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     }
+    ],
+    "instrument": [],
+    "data_basis": []
+   },
+   "attributes": {},
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "n015",
+   "legacy_id": "P1",
+   "role": "stated_assumption",
+   "level": "L1",
+   "content": {
+    "text": "Balance of payments shortfalls are properly met from national reserves, with the IMF and World Bank as the backstop when reserves run short.",
+    "label": null,
+    "explicit": true,
+    "reason": "External financing gaps are first covered by own reserves and then by multilateral lenders."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p23",
+      "paragraph_sha256": "sha256:b7b44279ec8c2632237c26de0e3a6f0b6b12ea1b43f9b55c340d5119b8f9e27d",
+      "relation": "states",
+      "link_method": "llm_citation",
+      "anchor_grade": "excerpt",
+      "review_status": "pending",
+      "source_excerpt": "Those are the kinds of financing shortfalls normally met out of national reserves—with the IMF and the World Bank stepping in to provide additional financing when national reserves are insufficient.",
+      "source_spans": [
+       {
+        "char_start": 0,
+        "char_end": 198
+       }
+      ]
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "fx-reserves",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     },
+     {
+      "term": "current-account",
       "assignment_source": "llm",
       "run_id": "claude-opus-5.5_facets"
      }
@@ -1284,7 +1578,13 @@
       "geo_role": "subject"
      }
     ],
-    "instrument": [],
+    "instrument": [
+     {
+      "term": "official-lending",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
     "data_basis": []
    },
    "attributes": {},
@@ -1298,30 +1598,30 @@
    }
   },
   {
-   "id": "n012",
-   "legacy_id": "E3",
-   "role": "evidence_data",
-   "level": "L2",
+   "id": "n016",
+   "legacy_id": "P2",
+   "role": "stated_assumption",
+   "level": "L1",
    "content": {
-    "text": "Balance of payments shortfalls stem from terms-of-trade shocks for oil exporters, lost financial inflows in South Africa, and a dollarized bank run in Lebanon.",
+    "text": "Essential imports such as food and medicine should take priority over on-time repayment of external bonds.",
     "label": null,
     "explicit": true,
-    "reason": "Different external shocks produce the same financing gap."
+    "reason": "Debt service should not crowd out a country's basic humanitarian needs in an emergency."
    },
    "source": {
     "passages": [
      {
-      "paragraph_id": "p18",
-      "paragraph_sha256": "sha256:e342b94b9f0bc676654762e047b6f12ce50118009d44c154474f805b81406309",
+      "paragraph_id": "p28",
+      "paragraph_sha256": "sha256:9f1f15ec48428e785afcb4ab078ae18bdb5a42a6ae43689491e480dda40b66b3",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "Right now those balance of payments shortfalls can arise from a massive terms of trade shock (many oil exporters), from a fall off in financial inflows (South Africa), or even from a run on a dollarized domestic banking system (Lebanon).",
+      "source_excerpt": "no country should have to face a situation where it is unable to pay for food and medical supplies simply because it has an external bond coming due",
       "source_spans": [
        {
-        "char_start": 116,
-        "char_end": 353
+        "char_start": 372,
+        "char_end": 520
        }
       ]
      }
@@ -1330,12 +1630,12 @@
    "facets": {
     "variable": [
      {
-      "term": "commodity-prices",
+      "term": "import-volumes",
       "assignment_source": "llm",
       "run_id": "claude-opus-5.5_facets"
      },
      {
-      "term": "capital-flows",
+      "term": "net-external-debt",
       "assignment_source": "llm",
       "run_id": "claude-opus-5.5_facets"
      }
@@ -1347,12 +1647,6 @@
       "assignment_source": "llm",
       "run_id": "claude-opus-5.5_facets",
       "geo_role": "subject"
-     },
-     {
-      "term": "em-commodity",
-      "assignment_source": "llm",
-      "run_id": "claude-opus-5.5_facets",
-      "geo_role": "subject"
      }
     ],
     "instrument": [],
@@ -1369,15 +1663,15 @@
    }
   },
   {
-   "id": "n013",
-   "legacy_id": "P2",
-   "role": "stated_assumption",
-   "level": "L1",
+   "id": "n017",
+   "legacy_id": "C3",
+   "role": "intermediate_claim",
+   "level": "L4",
    "content": {
-    "text": "Swap lines fund dollar intermediaries, not current account gaps; balance of payments gaps are normally met by reserves, then the IMF and World Bank.",
+    "text": "Fed swap lines are suited to dollar funding of intermediaries, not to covering balance of payments shortfalls, as the 2008 experience shows.",
     "label": null,
     "explicit": true,
-    "reason": "Central bank liquidity lines address funding of intermediaries, while lost external receipts need reserves or official lending."
+    "reason": "A liquidity facility for intermediaries cannot substitute for external financing of a country."
    },
    "source": {
     "passages": [
@@ -1426,7 +1720,7 @@
       "run_id": "claude-opus-5.5_facets"
      },
      {
-      "term": "fx-reserves",
+      "term": "capital-flows",
       "assignment_source": "llm",
       "run_id": "claude-opus-5.5_facets"
      }
@@ -1445,13 +1739,75 @@
       "term": "swap-lines",
       "assignment_source": "llm",
       "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "data_basis": []
+   },
+   "attributes": {},
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": [
+     "passages: `C3`: the team's passage linker anchors it to p33 (shared: 2008), which the box does not cite"
+    ]
+   }
+  },
+  {
+   "id": "n018",
+   "legacy_id": "P4",
+   "role": "revised_prior",
+   "level": "L1",
+   "content": {
+    "text": "The author's 2005 forecast with Roubini, that central banks would stop financing the U.S. deficit first, was wrong: private credit intermediation broke down first.",
+    "label": null,
+    "explicit": true,
+    "reason": "External deficits need both official buyers to bear currency risk and private intermediaries to bear credit risk."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p33",
+      "paragraph_sha256": "sha256:ac08c5cb6f8821b8f7b33d47ea445750616873a0a9eb90f983a7baff2ab22e77",
+      "relation": "states",
+      "link_method": "llm_citation",
+      "anchor_grade": "excerpt",
+      "review_status": "pending",
+      "source_excerpt": "The system of private credit risk intermediation broke down well before the world’s central banks lost their appetite for FX intervention (contrary to a forecast that I made with Dr. Roubini back in 2005).",
+      "source_spans": [
+       {
+        "char_start": 649,
+        "char_end": 854
+       }
+      ]
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "current-account",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
      },
      {
-      "term": "official-lending",
+      "term": "capital-flows",
       "assignment_source": "llm",
       "run_id": "claude-opus-5.5_facets"
      }
     ],
+    "country": [
+     {
+      "term": "us",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     }
+    ],
+    "bloc": [],
+    "instrument": [],
     "data_basis": []
    },
    "attributes": {},
@@ -1465,15 +1821,101 @@
    }
   },
   {
-   "id": "n014",
+   "id": "n019",
    "legacy_id": "E4",
    "role": "evidence_source",
    "level": "L2",
    "content": {
-    "text": "The BIS (Carstens, Shin), Truman, CGD (Landers, Lee, Morris), Hagan and Buchheit, Brender and Pisani, Concentrated Ambiguity and Cheap Convexity supply the proposals and analysis drawn on.",
+    "text": "Brender and Pisani, along with the author's Iceland conference paper, explain how the U.S. deficit before 2008 depended on both official reserve accumulation and private credit intermediation.",
     "label": null,
     "explicit": true,
-    "reason": "Detailed proposals from specialists strengthen a policy agenda."
+    "reason": "Past crises show how funding structures break down."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p33",
+      "paragraph_sha256": "sha256:ac08c5cb6f8821b8f7b33d47ea445750616873a0a9eb90f983a7baff2ab22e77",
+      "relation": "states",
+      "link_method": "llm_citation",
+      "anchor_grade": "excerpt",
+      "review_status": "pending",
+      "source_excerpt": "as Brender and Pisani laid out so clearly, in a still under appreciated monograph",
+      "source_spans": [
+       {
+        "char_start": 382,
+        "char_end": 463
+       }
+      ]
+     },
+     {
+      "paragraph_id": "p34",
+      "paragraph_sha256": "sha256:0ec3d650a0c28aaaae60d50497132f48297669747a0acd8212e85d868b342320",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "current-account",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     },
+     {
+      "term": "fx-reserves",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     },
+     {
+      "term": "capital-flows",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [
+     {
+      "term": "us",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     }
+    ],
+    "bloc": [],
+    "instrument": [],
+    "data_basis": [
+     {
+      "term": "academic-econometrics",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ]
+   },
+   "attributes": {},
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "n020",
+   "legacy_id": "REC3",
+   "role": "recommendation",
+   "level": "L5",
+   "content": {
+    "text": "Central banks, with Fed help and national export-import banks, can address trade finance, building on BIS proposals.",
+    "label": null,
+    "explicit": true,
+    "reason": "Short-term dollar trade finance gaps are a liquidity problem that central banks can fill."
    },
    "source": {
     "passages": [
@@ -1491,215 +1933,11 @@
         "char_end": 361
        }
       ]
-     },
-     {
-      "paragraph_id": "p26",
-      "paragraph_sha256": "sha256:16257e8e3b53495618c9980fc2386faf4a1e8b308c5899ff31e2da9c499d731e",
-      "relation": "abstracts",
-      "link_method": "llm_citation",
-      "anchor_grade": "cited",
-      "review_status": "pending",
-      "source_excerpt": null,
-      "source_spans": null
-     },
-     {
-      "paragraph_id": "p27",
-      "paragraph_sha256": "sha256:303d9ae6c839966f44b9136f9c1c72385cc0adafcaf0491d64651d3e8c4694b0",
-      "relation": "abstracts",
-      "link_method": "llm_citation",
-      "anchor_grade": "cited",
-      "review_status": "pending",
-      "source_excerpt": null,
-      "source_spans": null
-     },
-     {
-      "paragraph_id": "p28",
-      "paragraph_sha256": "sha256:9f1f15ec48428e785afcb4ab078ae18bdb5a42a6ae43689491e480dda40b66b3",
-      "relation": "abstracts",
-      "link_method": "llm_citation",
-      "anchor_grade": "cited",
-      "review_status": "pending",
-      "source_excerpt": null,
-      "source_spans": null
-     },
-     {
-      "paragraph_id": "p33",
-      "paragraph_sha256": "sha256:ac08c5cb6f8821b8f7b33d47ea445750616873a0a9eb90f983a7baff2ab22e77",
-      "relation": "abstracts",
-      "link_method": "llm_citation",
-      "anchor_grade": "cited",
-      "review_status": "pending",
-      "source_excerpt": null,
-      "source_spans": null
-     },
-     {
-      "paragraph_id": "p35",
-      "paragraph_sha256": "sha256:6d6316a7a943a933a655b77639f2798a362efdcde8173f1e594f87f5729be77b",
-      "relation": "abstracts",
-      "link_method": "llm_citation",
-      "anchor_grade": "cited",
-      "review_status": "pending",
-      "source_excerpt": null,
-      "source_spans": null
      }
     ]
    },
    "facets": {
     "variable": [
-     {
-      "term": "capital-flows",
-      "assignment_source": "llm",
-      "run_id": "claude-opus-5.5_facets"
-     }
-    ],
-    "country": [],
-    "bloc": [
-     {
-      "term": "global",
-      "assignment_source": "llm",
-      "run_id": "claude-opus-5.5_facets",
-      "geo_role": "subject"
-     }
-    ],
-    "instrument": [
-     {
-      "term": "official-lending",
-      "assignment_source": "llm",
-      "run_id": "claude-opus-5.5_facets"
-     }
-    ],
-    "data_basis": []
-   },
-   "attributes": {},
-   "provenance": {
-    "method": "llm",
-    "run_id": "claude-opus-5.5_boxes"
-   },
-   "review": {
-    "status": "pending",
-    "reasons": [
-     "boxes: `E4` the name `cgd` does not occur in the article",
-     "passages: `E4`: the team's passage linker anchors it to p14 (shared: ambiguity), which the box does not cite"
-    ]
-   }
-  },
-  {
-   "id": "n015",
-   "legacy_id": "REC",
-   "role": "recommendation",
-   "level": "L5",
-   "content": {
-    "text": "The IMF should issue an SDR allocation and get more lending resources; MDBs should use callable capital; creditors should defer payments; private bondholders should extend 2020 maturities; and central banks should backstop hedging and trade finance.",
-    "label": null,
-    "explicit": true,
-    "reason": "When global demand for reserves rises, official creation of reserves and lending should rise with it."
-   },
-   "source": {
-    "passages": [
-     {
-      "paragraph_id": "p12",
-      "paragraph_sha256": "sha256:e2d13d49e281fb7e5db6e4f8849d8160d607bc0e59aeec7726ebc6f68895f986",
-      "relation": "abstracts",
-      "link_method": "llm_citation",
-      "anchor_grade": "cited",
-      "review_status": "pending",
-      "source_excerpt": null,
-      "source_spans": null
-     },
-     {
-      "paragraph_id": "p14",
-      "paragraph_sha256": "sha256:1f93a2288c882bd35678dd279a3c629200d9956bc0f237e49e66713e237a5a2f",
-      "relation": "abstracts",
-      "link_method": "llm_citation",
-      "anchor_grade": "cited",
-      "review_status": "pending",
-      "source_excerpt": null,
-      "source_spans": null
-     },
-     {
-      "paragraph_id": "p20",
-      "paragraph_sha256": "sha256:0fc1ee04f609a30d4e30dda092c0d84cd88908dd9779b7b4451360a74ac6c032",
-      "relation": "abstracts",
-      "link_method": "llm_citation",
-      "anchor_grade": "cited",
-      "review_status": "pending",
-      "source_excerpt": null,
-      "source_spans": null
-     },
-     {
-      "paragraph_id": "p24",
-      "paragraph_sha256": "sha256:c344da541522556a0b6053f3e8789f7d12cfa7122396a2a4a36d1e4939923f88",
-      "relation": "states",
-      "link_method": "llm_citation",
-      "anchor_grade": "excerpt",
-      "review_status": "pending",
-      "source_excerpt": "Now is the time when the IMF can and should use its ability to create global reserves through what’s called an “SDR allocation”",
-      "source_spans": [
-       {
-        "char_start": 0,
-        "char_end": 127
-       }
-      ]
-     },
-     {
-      "paragraph_id": "p25",
-      "paragraph_sha256": "sha256:40751dc3ee03fddd212eb8456560d92e5db643feea03ce900262d7d665271ba6",
-      "relation": "abstracts",
-      "link_method": "llm_citation",
-      "anchor_grade": "cited",
-      "review_status": "pending",
-      "source_excerpt": null,
-      "source_spans": null
-     },
-     {
-      "paragraph_id": "p26",
-      "paragraph_sha256": "sha256:16257e8e3b53495618c9980fc2386faf4a1e8b308c5899ff31e2da9c499d731e",
-      "relation": "abstracts",
-      "link_method": "llm_citation",
-      "anchor_grade": "cited",
-      "review_status": "pending",
-      "source_excerpt": null,
-      "source_spans": null
-     },
-     {
-      "paragraph_id": "p27",
-      "paragraph_sha256": "sha256:303d9ae6c839966f44b9136f9c1c72385cc0adafcaf0491d64651d3e8c4694b0",
-      "relation": "abstracts",
-      "link_method": "llm_citation",
-      "anchor_grade": "cited",
-      "review_status": "pending",
-      "source_excerpt": null,
-      "source_spans": null
-     },
-     {
-      "paragraph_id": "p28",
-      "paragraph_sha256": "sha256:9f1f15ec48428e785afcb4ab078ae18bdb5a42a6ae43689491e480dda40b66b3",
-      "relation": "abstracts",
-      "link_method": "llm_citation",
-      "anchor_grade": "cited",
-      "review_status": "pending",
-      "source_excerpt": null,
-      "source_spans": null
-     },
-     {
-      "paragraph_id": "p35",
-      "paragraph_sha256": "sha256:6d6316a7a943a933a655b77639f2798a362efdcde8173f1e594f87f5729be77b",
-      "relation": "abstracts",
-      "link_method": "llm_citation",
-      "anchor_grade": "cited",
-      "review_status": "pending",
-      "source_excerpt": null,
-      "source_spans": null
-     }
-    ]
-   },
-   "facets": {
-    "variable": [
-     {
-      "term": "net-external-debt",
-      "assignment_source": "llm",
-      "run_id": "claude-opus-5.5_facets"
-     },
      {
       "term": "trade-finance",
       "assignment_source": "llm",
@@ -1717,11 +1955,6 @@
     ],
     "instrument": [
      {
-      "term": "official-lending",
-      "assignment_source": "llm",
-      "run_id": "claude-opus-5.5_facets"
-     },
-     {
       "term": "swap-lines",
       "assignment_source": "llm",
       "run_id": "claude-opus-5.5_facets"
@@ -1737,20 +1970,89 @@
    "review": {
     "status": "pending",
     "reasons": [
-     "links: `REC` supports `K` joins L5→L5, which no hand-drawn supports link does"
+     "links: `REC3` supports `K` joins L5→L5, which no hand-drawn supports link does"
     ]
    }
   },
   {
-   "id": "n016",
+   "id": "n021",
+   "legacy_id": "REC4",
+   "role": "recommendation",
+   "level": "L5",
+   "content": {
+    "text": "The IMF should make an SDR allocation to raise global reserves, with reserve-rich countries lending their SDRs back.",
+    "label": null,
+    "explicit": true,
+    "reason": "When the global demand for reserves jumps, the official sector should create more."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p24",
+      "paragraph_sha256": "sha256:c344da541522556a0b6053f3e8789f7d12cfa7122396a2a4a36d1e4939923f88",
+      "relation": "states",
+      "link_method": "llm_citation",
+      "anchor_grade": "excerpt",
+      "review_status": "pending",
+      "source_excerpt": "Now is the time when the IMF can and should use its ability to create global reserves through what’s called an “SDR allocation”",
+      "source_spans": [
+       {
+        "char_start": 0,
+        "char_end": 127
+       }
+      ]
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "fx-reserves",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [],
+    "bloc": [
+     {
+      "term": "global",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     }
+    ],
+    "instrument": [
+     {
+      "term": "official-lending",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "data_basis": []
+   },
+   "attributes": {},
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": [
+     "links: `REC4` supports `K` joins L5→L5, which no hand-drawn supports link does",
+     "passages: `REC4`: the team's passage linker anchors it to p25 (shared: sdr sdrs), which the box does not cite"
+    ]
+   }
+  },
+  {
+   "id": "n022",
    "legacy_id": "QF",
    "role": "caveat",
    "level": "L6",
    "content": {
-    "text": "An SDR allocation alone is insufficient because it goes by quota rather than need.",
+    "text": "An SDR allocation alone is insufficient because it is distributed by quota rather than need, so the IMF and the multilateral development banks also need more lending capacity.",
     "label": null,
     "explicit": true,
-    "reason": "Distributing aid by formula rather than need leaves the neediest underfunded."
+    "reason": "A tool distributed by formula rather than need will miss the countries in greatest need."
    },
    "source": {
     "passages": [
@@ -1768,6 +2070,26 @@
         "char_end": 120
        }
       ]
+     },
+     {
+      "paragraph_id": "p26",
+      "paragraph_sha256": "sha256:16257e8e3b53495618c9980fc2386faf4a1e8b308c5899ff31e2da9c499d731e",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     },
+     {
+      "paragraph_id": "p27",
+      "paragraph_sha256": "sha256:303d9ae6c839966f44b9136f9c1c72385cc0adafcaf0491d64651d3e8c4694b0",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
      }
     ]
    },
@@ -1810,15 +2132,15 @@
    }
   },
   {
-   "id": "n017",
-   "legacy_id": "X",
-   "role": "opposing_view",
-   "level": "L6",
+   "id": "n023",
+   "legacy_id": "REC5",
+   "role": "recommendation",
+   "level": "L5",
    "content": {
-    "text": "Private creditors would prefer full payment, but voluntary extension beats default.",
+    "text": "Bilateral creditors should defer payments and private bondholders should voluntarily extend 2020 maturities.",
     "label": null,
     "explicit": true,
-    "reason": "Creditors gain more from voluntary extension than from disorderly default."
+    "reason": "A voluntary maturity extension beats default for both creditor and debtor."
    },
    "source": {
     "passages": [
@@ -1829,11 +2151,11 @@
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "Of course, private creditors would rather be paid. But voluntarily pushing out maturities beats default",
+      "source_excerpt": "private creditors should also be encouraged to extend the maturity of bonds that are coming due in 2020",
       "source_spans": [
        {
-        "char_start": 263,
-        "char_end": 366
+        "char_start": 158,
+        "char_end": 261
        }
       ]
      }
@@ -1872,19 +2194,81 @@
    },
    "review": {
     "status": "pending",
+    "reasons": [
+     "links: `REC5` supports `K` joins L5→L5, which no hand-drawn supports link does"
+    ]
+   }
+  },
+  {
+   "id": "n024",
+   "legacy_id": "X",
+   "role": "opposing_view",
+   "level": "L6",
+   "content": {
+    "text": "Private creditors prefer full repayment and may resist maturity extensions.",
+    "label": null,
+    "explicit": true,
+    "reason": "Individual creditors gain from being paid even when collective restraint serves everyone better."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p28",
+      "paragraph_sha256": "sha256:9f1f15ec48428e785afcb4ab078ae18bdb5a42a6ae43689491e480dda40b66b3",
+      "relation": "states",
+      "link_method": "llm_citation",
+      "anchor_grade": "excerpt",
+      "review_status": "pending",
+      "source_excerpt": "Of course, private creditors would rather be paid.",
+      "source_spans": [
+       {
+        "char_start": 263,
+        "char_end": 313
+       }
+      ]
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "net-external-debt",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [],
+    "bloc": [
+     {
+      "term": "em-weak-balance-sheet",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     }
+    ],
+    "instrument": [],
+    "data_basis": []
+   },
+   "attributes": {},
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
     "reasons": []
    }
   },
   {
-   "id": "n018",
+   "id": "n025",
    "legacy_id": "K",
    "role": "main_claim",
    "level": "L5",
    "content": {
-    "text": "Emerging markets face many distinct crises, not one, and the official sector must step in with tailored tools, home backstops for the strong and IMF and MDB financing for the weak, to limit the shock.",
+    "text": "The shocks create many different emerging market crises: strong countries should self-insure, while the official sector (IMF, World Bank, central banks) must replace retreating private capital for the weaker ones.",
     "label": null,
     "explicit": true,
-    "reason": "Official finance should replace private finance when it withdraws in a crisis."
+    "reason": "Official finance should substitute for procyclical private finance in a crisis."
    },
    "source": {
     "passages": [
@@ -1899,8 +2283,18 @@
       "source_spans": null
      },
      {
-      "paragraph_id": "p19",
-      "paragraph_sha256": "sha256:367a97bc37c0ecc7cec2e3acad329b670689d5e8a40d4b12f46f0596b0dda767",
+      "paragraph_id": "p14",
+      "paragraph_sha256": "sha256:1f93a2288c882bd35678dd279a3c629200d9956bc0f237e49e66713e237a5a2f",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     },
+     {
+      "paragraph_id": "p15",
+      "paragraph_sha256": "sha256:29e2988118473becbb91003f8d10c862de1ce74a5ca74cb52be97cbe0b0eb5a7",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
@@ -1933,7 +2327,7 @@
       "run_id": "claude-opus-5.5_facets"
      },
      {
-      "term": "net-external-debt",
+      "term": "fx-reserves",
       "assignment_source": "llm",
       "run_id": "claude-opus-5.5_facets"
      }
@@ -1941,7 +2335,13 @@
     "country": [],
     "bloc": [
      {
-      "term": "global",
+      "term": "em-weak-balance-sheet",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     },
+     {
+      "term": "em-commodity",
       "assignment_source": "llm",
       "run_id": "claude-opus-5.5_facets",
       "geo_role": "subject"
@@ -1950,11 +2350,6 @@
     "instrument": [
      {
       "term": "official-lending",
-      "assignment_source": "llm",
-      "run_id": "claude-opus-5.5_facets"
-     },
-     {
-      "term": "swap-lines",
       "assignment_source": "llm",
       "run_id": "claude-opus-5.5_facets"
      }
@@ -1971,20 +2366,24 @@
    "review": {
     "status": "pending",
     "reasons": [
-     "links: `REC` supports `K` joins L5→L5, which no hand-drawn supports link does"
+     "links: `REC` supports `K` joins L5→L5, which no hand-drawn supports link does",
+     "links: `REC2` supports `K` joins L5→L5, which no hand-drawn supports link does",
+     "links: `REC3` supports `K` joins L5→L5, which no hand-drawn supports link does",
+     "links: `REC4` supports `K` joins L5→L5, which no hand-drawn supports link does",
+     "links: `REC5` supports `K` joins L5→L5, which no hand-drawn supports link does"
     ]
    }
   },
   {
-   "id": "n019",
+   "id": "n026",
    "legacy_id": "QF2",
    "role": "caveat",
    "level": "L6",
    "content": {
-    "text": "These measures will not prevent a massive downturn; they only preserve financial infrastructure for the rebound, and further reforms will be needed.",
+    "text": "These measures will not prevent a massive downturn; they only aim to preserve the financial infrastructure for the recovery.",
     "label": null,
     "explicit": true,
-    "reason": "Emergency finance limits damage but cannot offset a real shock."
+    "reason": "Emergency liquidity limits damage but cannot offset a real shock."
    },
    "source": {
     "passages": [
@@ -1995,11 +2394,11 @@
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "While none of this will prevent a massive global downturn, it is crisis economics—the financial equivalent of emergency medicine.",
+      "source_excerpt": "While none of this will prevent a massive global downturn, it is crisis economics",
       "source_spans": [
        {
         "char_start": 0,
-        "char_end": 129
+        "char_end": 81
        }
       ]
      }
@@ -2036,30 +2435,30 @@
    }
   },
   {
-   "id": "n020",
-   "legacy_id": "P4",
-   "role": "revised_prior",
-   "level": "L1",
+   "id": "n027",
+   "legacy_id": "DF",
+   "role": "deferred_question",
+   "level": "L6",
    "content": {
-    "text": "He and Roubini forecast in 2005 that central banks would stop financing the U.S. deficit first, but private credit intermediation broke down first.",
+    "text": "Broader reforms are explicitly put off until after the recovery.",
     "label": null,
     "explicit": true,
-    "reason": "Sustaining an external deficit requires someone to take both currency risk and credit risk."
+    "reason": "Structural reform is best sequenced after crisis containment."
    },
    "source": {
     "passages": [
      {
-      "paragraph_id": "p33",
-      "paragraph_sha256": "sha256:ac08c5cb6f8821b8f7b33d47ea445750616873a0a9eb90f983a7baff2ab22e77",
+      "paragraph_id": "p30",
+      "paragraph_sha256": "sha256:8f3f4eb9269936e3dd1c7bff5b9a835ed95cf4cd8a7ac40fb452a4c9d8cfd760",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "The system of private credit risk intermediation broke down well before the world’s central banks lost their appetite for FX intervention (contrary to a forecast that I made with Dr. Roubini back in 2005).",
+      "source_excerpt": "And when that bounce back happens, many more reforms will be needed.",
       "source_spans": [
        {
-        "char_start": 649,
-        "char_end": 854
+        "char_start": 282,
+        "char_end": 350
        }
       ]
      }
@@ -2068,25 +2467,20 @@
    "facets": {
     "variable": [
      {
-      "term": "capital-flows",
-      "assignment_source": "llm",
-      "run_id": "claude-opus-5.5_facets"
-     },
-     {
-      "term": "current-account",
+      "term": "global-imbalances",
       "assignment_source": "llm",
       "run_id": "claude-opus-5.5_facets"
      }
     ],
-    "country": [
+    "country": [],
+    "bloc": [
      {
-      "term": "us",
+      "term": "global",
       "assignment_source": "llm",
       "run_id": "claude-opus-5.5_facets",
       "geo_role": "subject"
      }
     ],
-    "bloc": [],
     "instrument": [],
     "data_basis": []
    },
@@ -2105,7 +2499,7 @@
   {
    "id": "e001",
    "from": "n001",
-   "to": "n005",
+   "to": "n015",
    "relation": "frames",
    "sign": 0,
    "provenance": {
@@ -2120,7 +2514,7 @@
   {
    "id": "e002",
    "from": "n001",
-   "to": "n013",
+   "to": "n016",
    "relation": "frames",
    "sign": 0,
    "provenance": {
@@ -2135,7 +2529,7 @@
   {
    "id": "e003",
    "from": "n001",
-   "to": "n008",
+   "to": "n010",
    "relation": "frames",
    "sign": 0,
    "provenance": {
@@ -2149,8 +2543,8 @@
   },
   {
    "id": "e004",
-   "from": "n005",
-   "to": "n006",
+   "from": "n001",
+   "to": "n018",
    "relation": "frames",
    "sign": 0,
    "provenance": {
@@ -2194,8 +2588,8 @@
   },
   {
    "id": "e007",
-   "from": "n006",
-   "to": "n009",
+   "from": "n003",
+   "to": "n005",
    "relation": "supports",
    "sign": 1,
    "provenance": {
@@ -2209,8 +2603,8 @@
   },
   {
    "id": "e008",
-   "from": "n005",
-   "to": "n009",
+   "from": "n004",
+   "to": "n013",
    "relation": "supports",
    "sign": 1,
    "provenance": {
@@ -2224,9 +2618,9 @@
   },
   {
    "id": "e009",
-   "from": "n008",
-   "to": "n009",
-   "relation": "licenses",
+   "from": "n006",
+   "to": "n007",
+   "relation": "supports",
    "sign": 1,
    "provenance": {
     "method": "llm",
@@ -2239,8 +2633,8 @@
   },
   {
    "id": "e010",
-   "from": "n007",
-   "to": "n009",
+   "from": "n006",
+   "to": "n012",
    "relation": "supports",
    "sign": 1,
    "provenance": {
@@ -2254,8 +2648,8 @@
   },
   {
    "id": "e011",
-   "from": "n003",
-   "to": "n010",
+   "from": "n008",
+   "to": "n012",
    "relation": "supports",
    "sign": 1,
    "provenance": {
@@ -2269,8 +2663,8 @@
   },
   {
    "id": "e012",
-   "from": "n004",
-   "to": "n018",
+   "from": "n009",
+   "to": "n012",
    "relation": "supports",
    "sign": 1,
    "provenance": {
@@ -2284,6 +2678,36 @@
   },
   {
    "id": "e013",
+   "from": "n010",
+   "to": "n012",
+   "relation": "licenses",
+   "sign": 1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e014",
+   "from": "n010",
+   "to": "n009",
+   "relation": "frames",
+   "sign": 0,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e015",
    "from": "n012",
    "to": "n011",
    "relation": "supports",
@@ -2298,8 +2722,8 @@
    }
   },
   {
-   "id": "e014",
-   "from": "n010",
+   "id": "e016",
+   "from": "n008",
    "to": "n011",
    "relation": "supports",
    "sign": 1,
@@ -2313,39 +2737,9 @@
    }
   },
   {
-   "id": "e015",
-   "from": "n013",
-   "to": "n015",
-   "relation": "licenses",
-   "sign": 1,
-   "provenance": {
-    "method": "llm",
-    "run_id": "claude-opus-5.5_links"
-   },
-   "review": {
-    "status": "pending",
-    "reasons": []
-   }
-  },
-  {
-   "id": "e016",
-   "from": "n014",
-   "to": "n015",
-   "relation": "supports",
-   "sign": 1,
-   "provenance": {
-    "method": "llm",
-    "run_id": "claude-opus-5.5_links"
-   },
-   "review": {
-    "status": "pending",
-    "reasons": []
-   }
-  },
-  {
    "id": "e017",
-   "from": "n011",
-   "to": "n015",
+   "from": "n012",
+   "to": "n005",
    "relation": "supports",
    "sign": 1,
    "provenance": {
@@ -2359,8 +2753,8 @@
   },
   {
    "id": "e018",
-   "from": "n009",
-   "to": "n018",
+   "from": "n013",
+   "to": "n005",
    "relation": "supports",
    "sign": 1,
    "provenance": {
@@ -2374,8 +2768,8 @@
   },
   {
    "id": "e019",
-   "from": "n010",
-   "to": "n018",
+   "from": "n005",
+   "to": "n025",
    "relation": "supports",
    "sign": 1,
    "provenance": {
@@ -2389,8 +2783,188 @@
   },
   {
    "id": "e020",
+   "from": "n014",
+   "to": "n020",
+   "relation": "supports",
+   "sign": 1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e021",
+   "from": "n014",
+   "to": "n021",
+   "relation": "supports",
+   "sign": 1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e022",
    "from": "n015",
-   "to": "n018",
+   "to": "n021",
+   "relation": "licenses",
+   "sign": 1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e023",
+   "from": "n015",
+   "to": "n017",
+   "relation": "supports",
+   "sign": 1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e024",
+   "from": "n018",
+   "to": "n015",
+   "relation": "revises",
+   "sign": -1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e025",
+   "from": "n018",
+   "to": "n019",
+   "relation": "frames",
+   "sign": 0,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e026",
+   "from": "n019",
+   "to": "n017",
+   "relation": "supports",
+   "sign": 1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e027",
+   "from": "n017",
+   "to": "n021",
+   "relation": "supports",
+   "sign": 1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e028",
+   "from": "n021",
+   "to": "n022",
+   "relation": "qualified_by",
+   "sign": -1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e029",
+   "from": "n016",
+   "to": "n023",
+   "relation": "licenses",
+   "sign": 1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e030",
+   "from": "n023",
+   "to": "n024",
+   "relation": "rebuts",
+   "sign": -1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e031",
+   "from": "n013",
+   "to": "n014",
+   "relation": "supports",
+   "sign": 1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e032",
+   "from": "n007",
+   "to": "n025",
    "relation": "supports",
    "sign": 1,
    "provenance": {
@@ -2405,56 +2979,94 @@
    }
   },
   {
-   "id": "e021",
-   "from": "n015",
-   "to": "n016",
-   "relation": "qualified_by",
-   "sign": -1,
+   "id": "e033",
+   "from": "n011",
+   "to": "n025",
+   "relation": "supports",
+   "sign": 1,
    "provenance": {
     "method": "llm",
     "run_id": "claude-opus-5.5_links"
    },
    "review": {
     "status": "pending",
-    "reasons": []
+    "reasons": [
+     "`REC2` supports `K` joins L5→L5, which no hand-drawn supports link does"
+    ]
    }
   },
   {
-   "id": "e022",
-   "from": "n015",
-   "to": "n017",
-   "relation": "rebuts",
-   "sign": -1,
-   "provenance": {
-    "method": "llm",
-    "run_id": "claude-opus-5.5_links"
-   },
-   "review": {
-    "status": "pending",
-    "reasons": []
-   }
-  },
-  {
-   "id": "e023",
-   "from": "n018",
-   "to": "n019",
-   "relation": "qualified_by",
-   "sign": -1,
-   "provenance": {
-    "method": "llm",
-    "run_id": "claude-opus-5.5_links"
-   },
-   "review": {
-    "status": "pending",
-    "reasons": []
-   }
-  },
-  {
-   "id": "e024",
+   "id": "e034",
    "from": "n020",
-   "to": "n013",
-   "relation": "revises",
+   "to": "n025",
+   "relation": "supports",
+   "sign": 1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": [
+     "`REC3` supports `K` joins L5→L5, which no hand-drawn supports link does"
+    ]
+   }
+  },
+  {
+   "id": "e035",
+   "from": "n021",
+   "to": "n025",
+   "relation": "supports",
+   "sign": 1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": [
+     "`REC4` supports `K` joins L5→L5, which no hand-drawn supports link does"
+    ]
+   }
+  },
+  {
+   "id": "e036",
+   "from": "n023",
+   "to": "n025",
+   "relation": "supports",
+   "sign": 1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": [
+     "`REC5` supports `K` joins L5→L5, which no hand-drawn supports link does"
+    ]
+   }
+  },
+  {
+   "id": "e037",
+   "from": "n025",
+   "to": "n026",
+   "relation": "qualified_by",
    "sign": -1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e038",
+   "from": "n025",
+   "to": "n027",
+   "relation": "defers",
+   "sign": 0,
    "provenance": {
     "method": "llm",
     "run_id": "claude-opus-5.5_links"
@@ -2468,15 +3080,20 @@
  "validation": {
   "status": "needs_review",
   "checks": [
-   "boxes: 20, fix rounds 0, re-asks 0, gaps left none",
-   "links: 24, fix rounds 0, re-asks 0, gaps left none, dropped none",
-   "passage linker agreement: {'anchored': 14, 'anchored_cited': 12, 'candidate': 14, 'candidate_cited': 14}"
+   "boxes: 27, fix rounds 0, re-asks 1, gaps left none",
+   "links: 38, fix rounds 0, re-asks 0, gaps left none, dropped none",
+   "passage linker agreement: {'anchored': 9, 'anchored_cited': 6, 'candidate': 20, 'candidate_cited': 19}"
   ],
   "review_items": [
    "boxes: `E2` the name `arabia` does not occur in the article",
-   "boxes: `E4` the name `cgd` does not occur in the article",
+   "boxes: 27 boxes, more than any hand-drawn map (24)",
    "links: `REC` supports `K` joins L5→L5, which no hand-drawn supports link does",
-   "passages: `E4`: the team's passage linker anchors it to p14 (shared: ambiguity), which the box does not cite",
+   "links: `REC2` supports `K` joins L5→L5, which no hand-drawn supports link does",
+   "links: `REC3` supports `K` joins L5→L5, which no hand-drawn supports link does",
+   "links: `REC4` supports `K` joins L5→L5, which no hand-drawn supports link does",
+   "links: `REC5` supports `K` joins L5→L5, which no hand-drawn supports link does",
+   "passages: `C3`: the team's passage linker anchors it to p33 (shared: 2008), which the box does not cite",
+   "passages: `REC4`: the team's passage linker anchors it to p25 (shared: sdr sdrs), which the box does not cite",
    "passages: `QF`: the team's passage linker anchors it to p24 (shared: sdr), which the box does not cite"
   ]
  },

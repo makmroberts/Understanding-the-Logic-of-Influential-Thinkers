@@ -12,6 +12,15 @@
   {
    "doc": "setser_2026-09-15_de-reservification-not-de-dollarization",
    "node_id": "Q",
+   "facet": "data_basis",
+   "value": "imf-publications",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-09-15_de-reservification-not-de-dollarization",
+   "node_id": "Q",
    "facet": "bloc",
    "value": "global",
    "role": "subject",
@@ -68,24 +77,6 @@
    "node_id": "E1",
    "facet": "bloc",
    "value": "global",
-   "role": "subject",
-   "source": "llm",
-   "model": "anthropic/claude-opus-5.5"
-  },
-  {
-   "doc": "setser_2026-09-15_de-reservification-not-de-dollarization",
-   "node_id": "P2",
-   "facet": "variable",
-   "value": "fx-reserves",
-   "role": "",
-   "source": "llm",
-   "model": "anthropic/claude-opus-5.5"
-  },
-  {
-   "doc": "setser_2026-09-15_de-reservification-not-de-dollarization",
-   "node_id": "P2",
-   "facet": "bloc",
-   "value": "asia-surplus",
    "role": "subject",
    "source": "llm",
    "model": "anthropic/claude-opus-5.5"
@@ -119,7 +110,7 @@
   },
   {
    "doc": "setser_2026-09-15_de-reservification-not-de-dollarization",
-   "node_id": "M1",
+   "node_id": "C1",
    "facet": "variable",
    "value": "fx-reserves",
    "role": "",
@@ -128,7 +119,7 @@
   },
   {
    "doc": "setser_2026-09-15_de-reservification-not-de-dollarization",
-   "node_id": "M1",
+   "node_id": "C1",
    "facet": "variable",
    "value": "capital-flows",
    "role": "",
@@ -137,43 +128,7 @@
   },
   {
    "doc": "setser_2026-09-15_de-reservification-not-de-dollarization",
-   "node_id": "M1",
-   "facet": "bloc",
-   "value": "asia-surplus",
-   "role": "subject",
-   "source": "llm",
-   "model": "anthropic/claude-opus-5.5"
-  },
-  {
-   "doc": "setser_2026-09-15_de-reservification-not-de-dollarization",
-   "node_id": "M2",
-   "facet": "variable",
-   "value": "fx-reserves",
-   "role": "",
-   "source": "llm",
-   "model": "anthropic/claude-opus-5.5"
-  },
-  {
-   "doc": "setser_2026-09-15_de-reservification-not-de-dollarization",
-   "node_id": "M2",
-   "facet": "variable",
-   "value": "nominal-exchange-rate",
-   "role": "",
-   "source": "llm",
-   "model": "anthropic/claude-opus-5.5"
-  },
-  {
-   "doc": "setser_2026-09-15_de-reservification-not-de-dollarization",
-   "node_id": "M2",
-   "facet": "instrument",
-   "value": "fx-intervention",
-   "role": "",
-   "source": "llm",
-   "model": "anthropic/claude-opus-5.5"
-  },
-  {
-   "doc": "setser_2026-09-15_de-reservification-not-de-dollarization",
-   "node_id": "M2",
+   "node_id": "C1",
    "facet": "bloc",
    "value": "asia-surplus",
    "role": "subject",
@@ -210,24 +165,6 @@
   {
    "doc": "setser_2026-09-15_de-reservification-not-de-dollarization",
    "node_id": "E3",
-   "facet": "country",
-   "value": "china",
-   "role": "subject",
-   "source": "llm",
-   "model": "anthropic/claude-opus-5.5"
-  },
-  {
-   "doc": "setser_2026-09-15_de-reservification-not-de-dollarization",
-   "node_id": "E6",
-   "facet": "variable",
-   "value": "fx-reserves",
-   "role": "",
-   "source": "llm",
-   "model": "anthropic/claude-opus-5.5"
-  },
-  {
-   "doc": "setser_2026-09-15_de-reservification-not-de-dollarization",
-   "node_id": "E6",
    "facet": "data_basis",
    "value": "corporate-disclosure",
    "role": "",
@@ -236,16 +173,7 @@
   },
   {
    "doc": "setser_2026-09-15_de-reservification-not-de-dollarization",
-   "node_id": "E6",
-   "facet": "data_basis",
-   "value": "third-party-trackers",
-   "role": "",
-   "source": "llm",
-   "model": "anthropic/claude-opus-5.5"
-  },
-  {
-   "doc": "setser_2026-09-15_de-reservification-not-de-dollarization",
-   "node_id": "E6",
+   "node_id": "E3",
    "facet": "country",
    "value": "china",
    "role": "subject",
@@ -273,6 +201,15 @@
   {
    "doc": "setser_2026-09-15_de-reservification-not-de-dollarization",
    "node_id": "SC",
+   "facet": "data_basis",
+   "value": "balance-of-payments",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-09-15_de-reservification-not-de-dollarization",
+   "node_id": "SC",
    "facet": "country",
    "value": "china",
    "role": "subject",
@@ -291,24 +228,24 @@
   {
    "doc": "setser_2026-09-15_de-reservification-not-de-dollarization",
    "node_id": "E4",
-   "facet": "bloc",
-   "value": "asia-surplus",
-   "role": "subject",
+   "facet": "data_basis",
+   "value": "corporate-disclosure",
+   "role": "",
    "source": "llm",
    "model": "anthropic/claude-opus-5.5"
   },
   {
    "doc": "setser_2026-09-15_de-reservification-not-de-dollarization",
    "node_id": "E4",
-   "facet": "bloc",
-   "value": "gulf",
+   "facet": "country",
+   "value": "china",
    "role": "subject",
    "source": "llm",
    "model": "anthropic/claude-opus-5.5"
   },
   {
    "doc": "setser_2026-09-15_de-reservification-not-de-dollarization",
-   "node_id": "C1",
+   "node_id": "C2",
    "facet": "variable",
    "value": "fx-reserves",
    "role": "",
@@ -317,7 +254,34 @@
   },
   {
    "doc": "setser_2026-09-15_de-reservification-not-de-dollarization",
-   "node_id": "C1",
+   "node_id": "C2",
+   "facet": "country",
+   "value": "china",
+   "role": "subject",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-09-15_de-reservification-not-de-dollarization",
+   "node_id": "E5",
+   "facet": "variable",
+   "value": "fx-reserves",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-09-15_de-reservification-not-de-dollarization",
+   "node_id": "E5",
+   "facet": "variable",
+   "value": "capital-flows",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-09-15_de-reservification-not-de-dollarization",
+   "node_id": "E5",
    "facet": "instrument",
    "value": "fx-intervention",
    "role": "",
@@ -326,16 +290,16 @@
   },
   {
    "doc": "setser_2026-09-15_de-reservification-not-de-dollarization",
-   "node_id": "C1",
+   "node_id": "E5",
    "facet": "country",
-   "value": "china",
+   "value": "japan",
    "role": "subject",
    "source": "llm",
    "model": "anthropic/claude-opus-5.5"
   },
   {
    "doc": "setser_2026-09-15_de-reservification-not-de-dollarization",
-   "node_id": "E5",
+   "node_id": "E6",
    "facet": "variable",
    "value": "fx-reserves",
    "role": "",
@@ -344,7 +308,7 @@
   },
   {
    "doc": "setser_2026-09-15_de-reservification-not-de-dollarization",
-   "node_id": "E5",
+   "node_id": "E6",
    "facet": "variable",
    "value": "capital-flows",
    "role": "",
@@ -353,16 +317,7 @@
   },
   {
    "doc": "setser_2026-09-15_de-reservification-not-de-dollarization",
-   "node_id": "E5",
-   "facet": "country",
-   "value": "japan",
-   "role": "subject",
-   "source": "llm",
-   "model": "anthropic/claude-opus-5.5"
-  },
-  {
-   "doc": "setser_2026-09-15_de-reservification-not-de-dollarization",
-   "node_id": "E5",
+   "node_id": "E6",
    "facet": "country",
    "value": "korea",
    "role": "subject",
@@ -371,7 +326,7 @@
   },
   {
    "doc": "setser_2026-09-15_de-reservification-not-de-dollarization",
-   "node_id": "C2",
+   "node_id": "C3",
    "facet": "variable",
    "value": "fx-reserves",
    "role": "",
@@ -380,7 +335,7 @@
   },
   {
    "doc": "setser_2026-09-15_de-reservification-not-de-dollarization",
-   "node_id": "C2",
+   "node_id": "C3",
    "facet": "data_basis",
    "value": "imf-publications",
    "role": "",
@@ -389,7 +344,7 @@
   },
   {
    "doc": "setser_2026-09-15_de-reservification-not-de-dollarization",
-   "node_id": "C2",
+   "node_id": "C3",
    "facet": "country",
    "value": "korea",
    "role": "subject",
@@ -398,7 +353,7 @@
   },
   {
    "doc": "setser_2026-09-15_de-reservification-not-de-dollarization",
-   "node_id": "M3",
+   "node_id": "C7",
    "facet": "variable",
    "value": "fx-reserves",
    "role": "",
@@ -407,34 +362,25 @@
   },
   {
    "doc": "setser_2026-09-15_de-reservification-not-de-dollarization",
-   "node_id": "M3",
-   "facet": "bloc",
-   "value": "global",
-   "role": "subject",
-   "source": "llm",
-   "model": "anthropic/claude-opus-5.5"
-  },
-  {
-   "doc": "setser_2026-09-15_de-reservification-not-de-dollarization",
-   "node_id": "QF",
+   "node_id": "C7",
    "facet": "variable",
-   "value": "fx-reserves",
+   "value": "nominal-exchange-rate",
    "role": "",
    "source": "llm",
    "model": "anthropic/claude-opus-5.5"
   },
   {
    "doc": "setser_2026-09-15_de-reservification-not-de-dollarization",
-   "node_id": "QF",
-   "facet": "country",
-   "value": "japan",
-   "role": "subject",
+   "node_id": "C7",
+   "facet": "instrument",
+   "value": "fx-intervention",
+   "role": "",
    "source": "llm",
    "model": "anthropic/claude-opus-5.5"
   },
   {
    "doc": "setser_2026-09-15_de-reservification-not-de-dollarization",
-   "node_id": "QF",
+   "node_id": "C7",
    "facet": "country",
    "value": "taiwan",
    "role": "subject",
@@ -443,18 +389,36 @@
   },
   {
    "doc": "setser_2026-09-15_de-reservification-not-de-dollarization",
-   "node_id": "P1",
+   "node_id": "M1",
    "facet": "variable",
-   "value": "capital-flows",
+   "value": "fx-reserves",
    "role": "",
    "source": "llm",
    "model": "anthropic/claude-opus-5.5"
   },
   {
    "doc": "setser_2026-09-15_de-reservification-not-de-dollarization",
-   "node_id": "P1",
+   "node_id": "M1",
+   "facet": "variable",
+   "value": "nominal-exchange-rate",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-09-15_de-reservification-not-de-dollarization",
+   "node_id": "M1",
+   "facet": "instrument",
+   "value": "fx-intervention",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-09-15_de-reservification-not-de-dollarization",
+   "node_id": "M1",
    "facet": "bloc",
-   "value": "global",
+   "value": "asia-surplus",
    "role": "subject",
    "source": "llm",
    "model": "anthropic/claude-opus-5.5"
@@ -463,7 +427,7 @@
    "doc": "setser_2026-09-15_de-reservification-not-de-dollarization",
    "node_id": "E7",
    "facet": "variable",
-   "value": "capital-flows",
+   "value": "fx-reserves",
    "role": "",
    "source": "llm",
    "model": "anthropic/claude-opus-5.5"
@@ -471,8 +435,44 @@
   {
    "doc": "setser_2026-09-15_de-reservification-not-de-dollarization",
    "node_id": "E7",
+   "facet": "bloc",
+   "value": "gulf",
+   "role": "subject",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-09-15_de-reservification-not-de-dollarization",
+   "node_id": "C4",
+   "facet": "variable",
+   "value": "fx-reserves",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-09-15_de-reservification-not-de-dollarization",
+   "node_id": "C4",
+   "facet": "bloc",
+   "value": "global",
+   "role": "subject",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-09-15_de-reservification-not-de-dollarization",
+   "node_id": "QF",
+   "facet": "variable",
+   "value": "fx-reserves",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-09-15_de-reservification-not-de-dollarization",
+   "node_id": "QF",
    "facet": "country",
-   "value": "us",
+   "value": "japan",
    "role": "subject",
    "source": "llm",
    "model": "anthropic/claude-opus-5.5"
@@ -498,24 +498,6 @@
   {
    "doc": "setser_2026-09-15_de-reservification-not-de-dollarization",
    "node_id": "K",
-   "facet": "bloc",
-   "value": "global",
-   "role": "subject",
-   "source": "llm",
-   "model": "anthropic/claude-opus-5.5"
-  },
-  {
-   "doc": "setser_2026-09-15_de-reservification-not-de-dollarization",
-   "node_id": "REC",
-   "facet": "variable",
-   "value": "capital-flows",
-   "role": "",
-   "source": "llm",
-   "model": "anthropic/claude-opus-5.5"
-  },
-  {
-   "doc": "setser_2026-09-15_de-reservification-not-de-dollarization",
-   "node_id": "REC",
    "facet": "data_basis",
    "value": "imf-publications",
    "role": "",
@@ -524,25 +506,25 @@
   },
   {
    "doc": "setser_2026-09-15_de-reservification-not-de-dollarization",
-   "node_id": "REC",
-   "facet": "data_basis",
-   "value": "market-prices",
-   "role": "",
-   "source": "llm",
-   "model": "anthropic/claude-opus-5.5"
-  },
-  {
-   "doc": "setser_2026-09-15_de-reservification-not-de-dollarization",
-   "node_id": "REC",
-   "facet": "country",
-   "value": "us",
+   "node_id": "K",
+   "facet": "bloc",
+   "value": "global",
    "role": "subject",
    "source": "llm",
    "model": "anthropic/claude-opus-5.5"
   },
   {
    "doc": "setser_2026-09-15_de-reservification-not-de-dollarization",
-   "node_id": "M4",
+   "node_id": "SCP",
+   "facet": "variable",
+   "value": "fx-reserves",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-09-15_de-reservification-not-de-dollarization",
+   "node_id": "SCP",
    "facet": "variable",
    "value": "capital-flows",
    "role": "",
@@ -551,7 +533,97 @@
   },
   {
    "doc": "setser_2026-09-15_de-reservification-not-de-dollarization",
-   "node_id": "M4",
+   "node_id": "SCP",
+   "facet": "bloc",
+   "value": "global",
+   "role": "subject",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-09-15_de-reservification-not-de-dollarization",
+   "node_id": "P1",
+   "facet": "variable",
+   "value": "fx-reserves",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-09-15_de-reservification-not-de-dollarization",
+   "node_id": "P1",
+   "facet": "variable",
+   "value": "capital-flows",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-09-15_de-reservification-not-de-dollarization",
+   "node_id": "P2",
+   "facet": "variable",
+   "value": "fx-reserves",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-09-15_de-reservification-not-de-dollarization",
+   "node_id": "P2",
+   "facet": "bloc",
+   "value": "global",
+   "role": "subject",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-09-15_de-reservification-not-de-dollarization",
+   "node_id": "E8",
+   "facet": "variable",
+   "value": "capital-flows",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-09-15_de-reservification-not-de-dollarization",
+   "node_id": "E8",
+   "facet": "data_basis",
+   "value": "academic-econometrics",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-09-15_de-reservification-not-de-dollarization",
+   "node_id": "E8",
+   "facet": "country",
+   "value": "us",
+   "role": "subject",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-09-15_de-reservification-not-de-dollarization",
+   "node_id": "M2",
+   "facet": "variable",
+   "value": "capital-flows",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-09-15_de-reservification-not-de-dollarization",
+   "node_id": "M2",
+   "facet": "country",
+   "value": "us",
+   "role": "subject",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-09-15_de-reservification-not-de-dollarization",
+   "node_id": "C5",
    "facet": "variable",
    "value": "interest-rates",
    "role": "",
@@ -560,25 +632,7 @@
   },
   {
    "doc": "setser_2026-09-15_de-reservification-not-de-dollarization",
-   "node_id": "M4",
-   "facet": "data_basis",
-   "value": "market-prices",
-   "role": "",
-   "source": "llm",
-   "model": "anthropic/claude-opus-5.5"
-  },
-  {
-   "doc": "setser_2026-09-15_de-reservification-not-de-dollarization",
-   "node_id": "M4",
-   "facet": "country",
-   "value": "us",
-   "role": "subject",
-   "source": "llm",
-   "model": "anthropic/claude-opus-5.5"
-  },
-  {
-   "doc": "setser_2026-09-15_de-reservification-not-de-dollarization",
-   "node_id": "QF2",
+   "node_id": "C5",
    "facet": "variable",
    "value": "capital-flows",
    "role": "",
@@ -587,7 +641,52 @@
   },
   {
    "doc": "setser_2026-09-15_de-reservification-not-de-dollarization",
-   "node_id": "QF2",
+   "node_id": "C5",
+   "facet": "country",
+   "value": "us",
+   "role": "subject",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-09-15_de-reservification-not-de-dollarization",
+   "node_id": "REC",
+   "facet": "variable",
+   "value": "capital-flows",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-09-15_de-reservification-not-de-dollarization",
+   "node_id": "REC",
+   "facet": "country",
+   "value": "us",
+   "role": "subject",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-09-15_de-reservification-not-de-dollarization",
+   "node_id": "C6",
+   "facet": "variable",
+   "value": "fx-reserves",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-09-15_de-reservification-not-de-dollarization",
+   "node_id": "C6",
+   "facet": "variable",
+   "value": "capital-flows",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_2026-09-15_de-reservification-not-de-dollarization",
+   "node_id": "C6",
    "facet": "bloc",
    "value": "global",
    "role": "subject",
@@ -595,7 +694,9 @@
    "model": "anthropic/claude-opus-5.5"
   }
  ],
- "review": [],
+ "review": [
+  "`setser_2026-09-15_de-reservification-not-de-dollarization#P1` where_subject empty - every claim needs a country or a bloc (assignment.requires_one_of) - needs review"
+ ],
  "gaps_left": [],
  "dropped": [],
  "fix_rounds": 0,

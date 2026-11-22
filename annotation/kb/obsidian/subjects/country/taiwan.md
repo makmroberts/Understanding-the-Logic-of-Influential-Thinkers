@@ -15,14 +15,14 @@ Aligned to **iso3166** `TW` — _verified against the published list_
 
 3 claims across 3 articles · facet `country` · [[By country]] · [[index]]
 
-**Position in the argument graph** — centrality 6 (2.0 per claim), 3 out / 3 in, bias +0.0.
+**Position in the argument graph** — centrality 8 (2.67 per claim), 4 out / 4 in, bias +0.0.
 
 Sits in the middle of arguments - as much argued toward as argued from.
 
 ## Argued together with
 
-- **variable**: [[fx-reserves]] (2), [[bilateral-trade-flows]] (1), [[goods-trade-balance]] (1), [[import-volumes]] (1), [[nominal-exchange-rate]] (1)
-- **instrument**: [[tariffs]] (1), [[fx-intervention]] (1)
+- **variable**: [[fx-reserves]] (2), [[nominal-exchange-rate]] (2), [[bilateral-trade-flows]] (1), [[goods-trade-balance]] (1), [[import-volumes]] (1)
+- **instrument**: [[fx-intervention]] (2), [[tariffs]] (1)
 - **data_basis**: [[customs]] (1)
 
 Appears as subject in 2 claims and as counterpart in 1 (i.e. bilateral claims) · [[Bilateral]]
@@ -37,7 +37,7 @@ Appears as subject in 2 claims and as counterpart in 1 (i.e. bilateral claims) �
 
 - **2025-05** [[The Taiwan test — how much appreciation will its central bank tolerate, and how would]] · _Why Didn't Tariffs Push Up the U.S. Dollar?_
 
-### caveat (1)
+### case_type (1)
 
-- **2026-09** [[Japan is an exception GPIF's dollar share is below the MoF's, and Taiwan's lifers aren't]] · _De-reservification, Not De-dollarization_
+- **2026-09** [[Taiwan's life insurers have taken on a quasi-official role because the regulator sets]] · _De-reservification, Not De-dollarization_
 

@@ -539,13 +539,13 @@
   }
  },
  "annotation": {
-  "annotated_at": "2026-11-09T21:13:04+00:00",
+  "annotated_at": "2026-11-19T02:34:49+00:00",
   "ontology": {
    "id": "setser_argument",
-   "version": 2
+   "version": 3
   },
   "facets_version": 1,
-  "pipeline_version": "8d03103",
+  "pipeline_version": "137f37e",
   "status": "needs_review",
   "runs": [
    {
@@ -557,9 +557,9 @@
      "max_tokens": 16000,
      "reasoning_effort": "medium"
     },
-    "timestamp": "2026-11-09T21:13:04+00:00",
+    "timestamp": "2026-11-19T02:34:48+00:00",
     "calls": 1,
-    "cost_usd": 0.13058
+    "cost_usd": 0.13679
    },
    {
     "run_id": "claude-opus-5.5_links",
@@ -570,9 +570,9 @@
      "max_tokens": 12000,
      "reasoning_effort": "medium"
     },
-    "timestamp": "2026-11-09T21:13:04+00:00",
+    "timestamp": "2026-11-19T02:34:48+00:00",
     "calls": 1,
-    "cost_usd": 0.05224
+    "cost_usd": 0.04872
    },
    {
     "run_id": "claude-opus-5.5_facets",
@@ -583,15 +583,15 @@
      "max_tokens": 12000,
      "reasoning_effort": "low"
     },
-    "timestamp": "2026-11-09T21:13:04+00:00",
+    "timestamp": "2026-11-19T02:34:49+00:00",
     "calls": 1,
-    "cost_usd": 0.06789
+    "cost_usd": 0.06521
    }
   ]
  },
  "summary": {
-  "central_question": "Why might global trade imbalances get worse before they improve, given where surpluses and deficits now sit?",
-  "main_thesis": "With surpluses in Europe and China likely to grow and U.S. debt capacity limited, imbalances may worsen and then force painful adjustment.",
+  "central_question": "Why might global trade imbalances worsen, and can the U.S. keep absorbing the world's surplus savings?",
+  "main_thesis": "With Asian, especially Chinese, excess saving likely to resurface and Europe fiscally tight, imbalances could worsen, while rising U.S. external debt will eventually limit America's ability to absorb them.",
   "argument_summary": null
  },
  "nodes": [
@@ -601,36 +601,26 @@
    "role": "question",
    "level": "L0",
    "content": {
-    "text": "Why might global trade imbalances get worse before they improve, given where surpluses and deficits now sit?",
+    "text": "Why might global trade imbalances worsen, and can the U.S. keep absorbing the world's surplus savings?",
     "label": null,
     "explicit": false,
-    "reason": "An argument about future imbalances starts from locating today's surpluses and their causes."
+    "reason": "Global surpluses must be matched by deficits somewhere, so the question is who absorbs them and for how long."
    },
    "source": {
     "passages": [
      {
-      "paragraph_id": "p1",
-      "paragraph_sha256": "sha256:09a16632668498d689382c65032a30e1a47e04e16ced97f1998e64dd14b9a988",
-      "relation": "abstracts",
-      "link_method": "llm_citation",
-      "anchor_grade": "cited",
-      "review_status": "pending",
-      "source_excerpt": null,
-      "source_spans": null
-     },
-     {
-      "paragraph_id": "p3",
-      "paragraph_sha256": "sha256:a4454cbdd032da95424d251e24b0267bf6326fe0227c86342023bcc59049dddd",
-      "relation": "abstracts",
-      "link_method": "llm_citation",
-      "anchor_grade": "cited",
-      "review_status": "pending",
-      "source_excerpt": null,
-      "source_spans": null
-     },
-     {
       "paragraph_id": "p9",
       "paragraph_sha256": "sha256:ca61b0996c17e7569573b97086b4eb7702b328b70ee32caf0cd97b71c448eaaa",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     },
+     {
+      "paragraph_id": "p42",
+      "paragraph_sha256": "sha256:ac5524a06db165a825177dbcde52f03a7b6f0431100b822b2f175e30a9bf8194",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
@@ -642,6 +632,86 @@
    },
    "facets": {
     "variable": [
+     {
+      "term": "global-imbalances",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     },
+     {
+      "term": "national-saving",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [
+     {
+      "term": "us",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     }
+    ],
+    "bloc": [],
+    "instrument": [],
+    "data_basis": []
+   },
+   "attributes": {},
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "n002",
+   "legacy_id": "ID",
+   "role": "accounting_identity",
+   "level": "L1",
+   "content": {
+    "text": "Global current accounts must sum to zero, so large surpluses in Europe and Asia require a large deficit elsewhere, chiefly the U.S.",
+    "label": null,
+    "explicit": true,
+    "reason": "World surpluses and deficits must net to zero."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p6",
+      "paragraph_sha256": "sha256:d4bcedda19ea34f39aa3e236a450b6727db274b903ef3ececa279a3b1f1c9985",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     },
+     {
+      "paragraph_id": "p9",
+      "paragraph_sha256": "sha256:ca61b0996c17e7569573b97086b4eb7702b328b70ee32caf0cd97b71c448eaaa",
+      "relation": "states",
+      "link_method": "llm_citation",
+      "anchor_grade": "excerpt",
+      "review_status": "pending",
+      "source_excerpt": "If China, the euro area, and Japan all have significant surpluses, someone big needs to have a significant deficit for global trade to add up.",
+      "source_spans": [
+       {
+        "char_start": 210,
+        "char_end": 352
+       }
+      ]
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "current-account",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     },
      {
       "term": "global-imbalances",
       "assignment_source": "llm",
@@ -671,15 +741,15 @@
    }
   },
   {
-   "id": "n002",
+   "id": "n003",
    "legacy_id": "C1",
    "role": "intermediate_claim",
    "level": "L4",
    "content": {
-    "text": "With lower oil prices, the commodity side of imbalances has shrunk, leaving Europe and East Asia in surplus against North America.",
+    "text": "With low oil prices and U.S. shale, the commodity (north-south) component of imbalances has shrunk, leaving them mostly east-west.",
     "label": null,
     "explicit": true,
-    "reason": "Commodity exporters' surpluses rise and fall with commodity prices."
+    "reason": "When commodity prices fall, commodity exporters' surpluses shrink and their share of imbalances recedes."
    },
    "source": {
     "passages": [
@@ -710,10 +780,10 @@
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "trade imbalances run mostly along an east-west axis these days.",
+      "source_excerpt": "As a result, trade imbalances run mostly along an east-west axis these days.",
       "source_spans": [
        {
-        "char_start": 13,
+        "char_start": 0,
         "char_end": 76
        }
       ]
@@ -776,259 +846,15 @@
    }
   },
   {
-   "id": "n003",
-   "legacy_id": "ID",
-   "role": "accounting_identity",
-   "level": "L1",
-   "content": {
-    "text": "World surpluses and deficits must sum to zero, so large surpluses elsewhere require a large deficit somewhere.",
-    "label": null,
-    "explicit": true,
-    "reason": "Global current account balances sum to zero by definition."
-   },
-   "source": {
-    "passages": [
-     {
-      "paragraph_id": "p9",
-      "paragraph_sha256": "sha256:ca61b0996c17e7569573b97086b4eb7702b328b70ee32caf0cd97b71c448eaaa",
-      "relation": "states",
-      "link_method": "llm_citation",
-      "anchor_grade": "excerpt",
-      "review_status": "pending",
-      "source_excerpt": "If China, the euro area, and Japan all have significant surpluses, someone big needs to have a significant deficit for global trade to add up.",
-      "source_spans": [
-       {
-        "char_start": 210,
-        "char_end": 352
-       }
-      ]
-     }
-    ]
-   },
-   "facets": {
-    "variable": [
-     {
-      "term": "global-imbalances",
-      "assignment_source": "llm",
-      "run_id": "claude-opus-5.5_facets"
-     }
-    ],
-    "country": [],
-    "bloc": [
-     {
-      "term": "global",
-      "assignment_source": "llm",
-      "run_id": "claude-opus-5.5_facets",
-      "geo_role": "subject"
-     }
-    ],
-    "instrument": [],
-    "data_basis": []
-   },
-   "attributes": {},
-   "provenance": {
-    "method": "llm",
-    "run_id": "claude-opus-5.5_boxes"
-   },
-   "review": {
-    "status": "pending",
-    "reasons": []
-   }
-  },
-  {
    "id": "n004",
-   "legacy_id": "E1",
-   "role": "evidence_data",
-   "level": "L2",
-   "content": {
-    "text": "The U.S. manufactures deficit roughly equals the combined surpluses of Europe and East Asia, while U.S. IP and offshore income surpluses keep the total U.S. current account deficit smaller.",
-    "label": null,
-    "explicit": true,
-    "reason": "Sector-level balances can be compared with partner surpluses to locate the imbalance."
-   },
-   "source": {
-    "passages": [
-     {
-      "paragraph_id": "p6",
-      "paragraph_sha256": "sha256:d4bcedda19ea34f39aa3e236a450b6727db274b903ef3ececa279a3b1f1c9985",
-      "relation": "states",
-      "link_method": "llm_citation",
-      "anchor_grade": "excerpt",
-      "review_status": "pending",
-      "source_excerpt": "the U.S. trade deficit in manufactures right now just happens to be about equal to the combined current account surpluses of Europe and East Asia.",
-      "source_spans": [
-       {
-        "char_start": 92,
-        "char_end": 238
-       }
-      ]
-     },
-     {
-      "paragraph_id": "p7",
-      "paragraph_sha256": "sha256:d313bc9686fef61052490a4865a4ddb1d17e6957b2704c8f1827b769be346796",
-      "relation": "abstracts",
-      "link_method": "llm_citation",
-      "anchor_grade": "cited",
-      "review_status": "pending",
-      "source_excerpt": null,
-      "source_spans": null
-     },
-     {
-      "paragraph_id": "p8",
-      "paragraph_sha256": "sha256:42ff1d12b3187c01488adbecf7fefbfd5a3bf6971eccd084763f034a07ea2a82",
-      "relation": "abstracts",
-      "link_method": "llm_citation",
-      "anchor_grade": "cited",
-      "review_status": "pending",
-      "source_excerpt": null,
-      "source_spans": null
-     },
-     {
-      "paragraph_id": "p9",
-      "paragraph_sha256": "sha256:ca61b0996c17e7569573b97086b4eb7702b328b70ee32caf0cd97b71c448eaaa",
-      "relation": "abstracts",
-      "link_method": "llm_citation",
-      "anchor_grade": "cited",
-      "review_status": "pending",
-      "source_excerpt": null,
-      "source_spans": null
-     }
-    ]
-   },
-   "facets": {
-    "variable": [
-     {
-      "term": "manufacturing-trade-balance",
-      "assignment_source": "llm",
-      "run_id": "claude-opus-5.5_facets"
-     },
-     {
-      "term": "investment-income-balance",
-      "assignment_source": "llm",
-      "run_id": "claude-opus-5.5_facets"
-     },
-     {
-      "term": "current-account",
-      "assignment_source": "llm",
-      "run_id": "claude-opus-5.5_facets"
-     }
-    ],
-    "country": [
-     {
-      "term": "us",
-      "assignment_source": "llm",
-      "run_id": "claude-opus-5.5_facets",
-      "geo_role": "subject"
-     }
-    ],
-    "bloc": [],
-    "instrument": [],
-    "data_basis": [
-     {
-      "term": "balance-of-payments",
-      "assignment_source": "llm",
-      "run_id": "claude-opus-5.5_facets"
-     }
-    ]
-   },
-   "attributes": {},
-   "provenance": {
-    "method": "llm",
-    "run_id": "claude-opus-5.5_boxes"
-   },
-   "review": {
-    "status": "pending",
-    "reasons": []
-   }
-  },
-  {
-   "id": "n005",
-   "legacy_id": "E5",
-   "role": "evidence_source",
-   "level": "L2",
-   "content": {
-    "text": "Martin Wolf's work shows that U.S. FDI income surpluses come from tax havens.",
-    "label": null,
-    "explicit": true,
-    "reason": "Tax-driven profit booking shapes measured income balances."
-   },
-   "source": {
-    "passages": [
-     {
-      "paragraph_id": "p8",
-      "paragraph_sha256": "sha256:42ff1d12b3187c01488adbecf7fefbfd5a3bf6971eccd084763f034a07ea2a82",
-      "relation": "states",
-      "link_method": "llm_citation",
-      "anchor_grade": "excerpt",
-      "review_status": "pending",
-      "source_excerpt": "the entire surplus on foreign direct investment income comes from the seven main low tax jurisdictions these days, see Martin Wolf",
-      "source_spans": [
-       {
-        "char_start": 253,
-        "char_end": 383
-       }
-      ]
-     },
-     {
-      "paragraph_id": "p38",
-      "paragraph_sha256": "sha256:fb008bf12a44edb9bb68b2197191698cdadbf8dff43922759976506cf0def9e8",
-      "relation": "abstracts",
-      "link_method": "llm_citation",
-      "anchor_grade": "cited",
-      "review_status": "pending",
-      "source_excerpt": null,
-      "source_spans": null
-     }
-    ]
-   },
-   "facets": {
-    "variable": [
-     {
-      "term": "investment-income-balance",
-      "assignment_source": "llm",
-      "run_id": "claude-opus-5.5_facets"
-     }
-    ],
-    "country": [
-     {
-      "term": "us",
-      "assignment_source": "llm",
-      "run_id": "claude-opus-5.5_facets",
-      "geo_role": "subject"
-     }
-    ],
-    "bloc": [],
-    "instrument": [],
-    "data_basis": [
-     {
-      "term": "press-reporting",
-      "assignment_source": "llm",
-      "run_id": "claude-opus-5.5_facets"
-     }
-    ]
-   },
-   "attributes": {},
-   "provenance": {
-    "method": "llm",
-    "run_id": "claude-opus-5.5_boxes"
-   },
-   "review": {
-    "status": "pending",
-    "reasons": [
-     "boxes: `E5` the name `fdi` does not occur in the article"
-    ]
-   }
-  },
-  {
-   "id": "n006",
    "legacy_id": "M1",
    "role": "mechanism",
    "level": "L3",
    "content": {
-    "text": "The gap between tight European and loose U.S. fiscal policy drives the transatlantic imbalance.",
+    "text": "Divergent fiscal stances, tight in Europe and loose in the U.S., drive the transatlantic imbalance.",
     "label": null,
     "explicit": true,
-    "reason": "National saving-investment gaps, shaped by fiscal stance, determine external balances."
+    "reason": "A country's fiscal deficit lowers national saving relative to investment and widens its external deficit."
    },
    "source": {
     "passages": [
@@ -1069,10 +895,10 @@
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "It doesn’t take a genius to figure out that the gap between European fiscal policy and U.S. fiscal policy is a major cause of the transatlantic imbalances",
+      "source_excerpt": "the gap between European fiscal policy and U.S. fiscal policy is a major cause of the transatlantic imbalances",
       "source_spans": [
        {
-        "char_start": 0,
+        "char_start": 44,
         "char_end": 154
        }
       ]
@@ -1129,15 +955,15 @@
    }
   },
   {
-   "id": "n007",
+   "id": "n005",
    "legacy_id": "X",
    "role": "opposing_view",
    "level": "L6",
    "content": {
-    "text": "Trump attributes trade outcomes to things other than fiscal policy, ignoring the fiscal driver.",
+    "text": "The Trump administration does not see trade outcomes as the product of fiscal policy choices.",
     "label": null,
     "explicit": true,
-    "reason": "Trade balances reflect macroeconomic saving choices, not just trade policy."
+    "reason": "Trade balances reflect macroeconomic saving and investment choices, not just trade policy."
    },
    "source": {
     "passages": [
@@ -1148,7 +974,7 @@
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "he doesn’t attribute trade outcomes to fiscal policy choices",
+      "source_excerpt": "he doesn't attribute trade outcomes to fiscal policy choices",
       "source_spans": [
        {
         "char_start": 237,
@@ -1182,7 +1008,7 @@
     "bloc": [],
     "instrument": [
      {
-      "term": "tariffs",
+      "term": "fiscal-policy",
       "assignment_source": "llm",
       "run_id": "claude-opus-5.5_facets"
      }
@@ -1200,15 +1026,15 @@
    }
   },
   {
-   "id": "n008",
+   "id": "n006",
    "legacy_id": "P1",
    "role": "stated_assumption",
    "level": "L1",
    "content": {
-    "text": "When global demand is scarce and rates are low, surplus countries rather than deficit countries should adjust.",
+    "text": "Given weak global demand and very low rates, the adjustment should come from European fiscal expansion, not U.S. tightening.",
     "label": null,
     "explicit": true,
-    "reason": "In a demand-deficient world, adjustment by deficit countries through austerity is contractionary."
+    "reason": "When demand is scarce and rates are near zero, surplus countries should expand rather than deficit countries contract."
    },
    "source": {
     "passages": [
@@ -1232,17 +1058,24 @@
    "facets": {
     "variable": [
      {
-      "term": "global-imbalances",
+      "term": "fiscal-balance",
       "assignment_source": "llm",
       "run_id": "claude-opus-5.5_facets"
      },
      {
-      "term": "interest-rates",
+      "term": "domestic-demand",
       "assignment_source": "llm",
       "run_id": "claude-opus-5.5_facets"
      }
     ],
-    "country": [],
+    "country": [
+     {
+      "term": "euro-area",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     }
+    ],
     "bloc": [],
     "instrument": [
      {
@@ -1260,21 +1093,19 @@
    },
    "review": {
     "status": "pending",
-    "reasons": [
-     "facets: `setser_sep_20_19#P1` where_subject empty - every claim needs a country or a bloc (assignment.requires_one_of) - needs review"
-    ]
+    "reasons": []
    }
   },
   {
-   "id": "n009",
-   "legacy_id": "C2",
-   "role": "intermediate_claim",
-   "level": "L4",
+   "id": "n007",
+   "legacy_id": "E1",
+   "role": "evidence_data",
+   "level": "L2",
    "content": {
-    "text": "Europe's surplus countries (Germany, Sweden, Switzerland) show little sign of fiscal expansion, and EU debt rules push others toward surpluses.",
+    "text": "Northern European countries remain fiscally tight: Germany runs a 2.7% of GDP surplus, Sweden refuses to loosen, and Switzerland prefers intervention; EU debt rules push others toward surpluses.",
     "label": null,
     "explicit": true,
-    "reason": "Fiscal rules that target debt levels in slow nominal growth imply persistent surpluses."
+    "reason": "Persistent fiscal surpluses in surplus economies sustain their external surpluses."
    },
    "source": {
     "passages": [
@@ -1311,14 +1142,15 @@
       "term": "fiscal-balance",
       "assignment_source": "llm",
       "run_id": "claude-opus-5.5_facets"
-     },
-     {
-      "term": "current-account",
-      "assignment_source": "llm",
-      "run_id": "claude-opus-5.5_facets"
      }
     ],
     "country": [
+     {
+      "term": "germany",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     },
      {
       "term": "euro-area",
       "assignment_source": "llm",
@@ -1344,20 +1176,20 @@
    "review": {
     "status": "pending",
     "reasons": [
-     "passages: `C2`: the team's passage linker anchors it to p20 (shared: switzerland), which the box does not cite"
+     "passages: `E1`: the team's passage linker anchors it to p20 (shared: switzerland), which the box does not cite"
     ]
    }
   },
   {
-   "id": "n010",
+   "id": "n008",
    "legacy_id": "QF",
    "role": "caveat",
    "level": "L6",
    "content": {
-    "text": "Draghi and a shifting German debate suggest Europe may yet loosen fiscal policy.",
+    "text": "European fiscal policy might shift, given Draghi's advocacy and Germany's evolving debate, which would ease the transatlantic imbalance.",
     "label": null,
     "explicit": true,
-    "reason": "Policy debates can shift once recession and negative rates bite."
+    "reason": "Policy debates can shift quickly in recessions, so current fiscal stances may not persist."
    },
    "source": {
     "passages": [
@@ -1394,6 +1226,11 @@
       "term": "fiscal-balance",
       "assignment_source": "llm",
       "run_id": "claude-opus-5.5_facets"
+     },
+     {
+      "term": "current-account",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
      }
     ],
     "country": [
@@ -1425,15 +1262,15 @@
    }
   },
   {
-   "id": "n011",
-   "legacy_id": "C4",
-   "role": "case_type",
-   "level": "L4",
+   "id": "n009",
+   "legacy_id": "M2",
+   "role": "mechanism",
+   "level": "L3",
    "content": {
-    "text": "Korea, Taiwan, Singapore and Thailand fit the fiscal story: tight budgets plus direct or indirect currency intervention keep surpluses high.",
+    "text": "Korea, Taiwan, Singapore and Thailand are the easy cases in Asia: tight fiscal policy plus currency intervention, direct or indirect, sustain their surpluses.",
     "label": null,
     "explicit": true,
-    "reason": "Tight fiscal policy combined with undervalued currencies generates external surpluses."
+    "reason": "Undervalued currencies held down by intervention, combined with fiscal restraint, generate external surpluses."
    },
    "source": {
     "passages": [
@@ -1464,10 +1301,10 @@
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "Korea and Taiwan. They both run tight fiscal policies when they don’t need to and also give their manufacturing heavy economies a boost with weak currencies",
+      "source_excerpt": "They both run tight fiscal policies when they don't need to and also give their manufacturing heavy economies a boost with weak currencies",
       "source_spans": [
        {
-        "char_start": 0,
+        "char_start": 18,
         "char_end": 156
        }
       ]
@@ -1497,12 +1334,12 @@
    "facets": {
     "variable": [
      {
-      "term": "fiscal-balance",
+      "term": "current-account",
       "assignment_source": "llm",
       "run_id": "claude-opus-5.5_facets"
      },
      {
-      "term": "current-account",
+      "term": "fiscal-balance",
       "assignment_source": "llm",
       "run_id": "claude-opus-5.5_facets"
      }
@@ -1521,11 +1358,18 @@
       "term": "fx-intervention",
       "assignment_source": "llm",
       "run_id": "claude-opus-5.5_facets"
+     },
+     {
+      "term": "fiscal-policy",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
      }
     ],
     "data_basis": []
    },
-   "attributes": {},
+   "attributes": {
+    "kind": "economic"
+   },
    "provenance": {
     "method": "llm",
     "run_id": "claude-opus-5.5_boxes"
@@ -1536,15 +1380,15 @@
    }
   },
   {
-   "id": "n012",
-   "legacy_id": "C5",
-   "role": "case_type",
+   "id": "n010",
+   "legacy_id": "C2",
+   "role": "intermediate_claim",
    "level": "L4",
    "content": {
-    "text": "Japan and China run loose fiscal policies yet keep surpluses, so fiscal differences alone cannot explain Asian imbalances.",
+    "text": "Japan and China run loose fiscal policies yet still have surpluses, so fiscal differences alone cannot explain Asia's imbalances.",
     "label": null,
     "explicit": true,
-    "reason": "A surplus despite fiscal deficits points to excess private saving."
+    "reason": "A cause that explains some cases must be tested against the cases it does not fit."
    },
    "source": {
     "passages": [
@@ -1565,7 +1409,7 @@
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "Their external surpluses don’t fit easily into a global narrative where imbalances stem primarily from differences in national fiscal policy.",
+      "source_excerpt": "Their external surpluses don't fit easily into a global narrative where imbalances stem primarily from differences in national fiscal policy.",
       "source_spans": [
        {
         "char_start": 76,
@@ -1582,18 +1426,28 @@
       "review_status": "pending",
       "source_excerpt": null,
       "source_spans": null
+     },
+     {
+      "paragraph_id": "p24",
+      "paragraph_sha256": "sha256:695b5cc4a638395b9cc8850e9f5b9c2630aa641e339ded0b8cb73f25abae733b",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
      }
     ]
    },
    "facets": {
     "variable": [
      {
-      "term": "fiscal-balance",
+      "term": "current-account",
       "assignment_source": "llm",
       "run_id": "claude-opus-5.5_facets"
      },
      {
-      "term": "current-account",
+      "term": "fiscal-balance",
       "assignment_source": "llm",
       "run_id": "claude-opus-5.5_facets"
      }
@@ -1627,15 +1481,150 @@
    }
   },
   {
+   "id": "n011",
+   "legacy_id": "ANOM",
+   "role": "anomaly",
+   "level": "L0",
+   "content": {
+    "text": "Forecasts expected China's surplus to fade, yet it is back near $200-250 billion.",
+    "label": null,
+    "explicit": true,
+    "reason": "An outcome contradicting consensus forecasts signals a missing factor in the standard model."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p25",
+      "paragraph_sha256": "sha256:600843ccbc6aa75a9d35f6e42006945bde5176a55bb7507a0295d5a851356fde",
+      "relation": "states",
+      "link_method": "llm_citation",
+      "anchor_grade": "excerpt",
+      "review_status": "pending",
+      "source_excerpt": "Contrary to most forecasts, China is once again running a substantial current account surplus.",
+      "source_spans": [
+       {
+        "char_start": 0,
+        "char_end": 94
+       }
+      ]
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "current-account",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [
+     {
+      "term": "china",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     }
+    ],
+    "bloc": [],
+    "instrument": [],
+    "data_basis": []
+   },
+   "attributes": {},
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": [
+     "links: `ANOM` motivates `RC` joins L0→L5, which no hand-drawn motivates link does"
+    ]
+   }
+  },
+  {
+   "id": "n012",
+   "legacy_id": "RC",
+   "role": "reconstruction",
+   "level": "L5",
+   "content": {
+    "text": "China's measured surplus of under $200 billion understates the true figure; correcting the overstated tourism deficit gives about $250 billion.",
+    "label": null,
+    "explicit": true,
+    "reason": "Correct known measurement errors in official balance of payments components before drawing conclusions."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p25",
+      "paragraph_sha256": "sha256:600843ccbc6aa75a9d35f6e42006945bde5176a55bb7507a0295d5a851356fde",
+      "relation": "states",
+      "link_method": "llm_citation",
+      "anchor_grade": "excerpt",
+      "review_status": "pending",
+      "source_excerpt": "more accurate measures of the tourism deficit would put the surplus at around $250 billion",
+      "source_spans": [
+       {
+        "char_start": 172,
+        "char_end": 262
+       }
+      ]
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "current-account",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     },
+     {
+      "term": "services-balance",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [
+     {
+      "term": "china",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     }
+    ],
+    "bloc": [],
+    "instrument": [],
+    "data_basis": [
+     {
+      "term": "balance-of-payments",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ]
+   },
+   "attributes": {},
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": [
+     "links: `ANOM` motivates `RC` joins L0→L5, which no hand-drawn motivates link does"
+    ]
+   }
+  },
+  {
    "id": "n013",
    "legacy_id": "P2",
    "role": "stated_assumption",
    "level": "L1",
    "content": {
-    "text": "Very large fiscal deficits normally produce large external deficits.",
+    "text": "Countries with fiscal deficits of around 12% of GDP normally run large external deficits.",
     "label": null,
     "explicit": true,
-    "reason": "Public dissaving usually spills into external borrowing."
+    "reason": "Large fiscal deficits typically spill over into external deficits."
    },
    "source": {
     "passages": [
@@ -1682,172 +1671,21 @@
    "review": {
     "status": "pending",
     "reasons": [
-     "links: `P2` frames `ANOM` joins L1→L0, which no hand-drawn frames link does",
-     "facets: `setser_sep_20_19#P2` where_subject empty - every claim needs a country or a bloc (assignment.requires_one_of) - needs review"
+     "facets: `setser_sep_20_19#P2` where_subject empty - every claim needs a country or a bloc (assignment.requires_one_of) - needs review",
+     "passages: `P2`: the team's passage linker anchors it to p25 (shared: 12percent), which the box does not cite"
     ]
    }
   },
   {
    "id": "n014",
-   "legacy_id": "ANOM",
-   "role": "anomaly",
-   "level": "L0",
-   "content": {
-    "text": "Forecasts expected China's surplus to fade, yet it is back near $200-250 billion despite a 12% of GDP augmented fiscal deficit.",
-    "label": null,
-    "explicit": true,
-    "reason": "A surplus that persists against the forecast signals a missing driver."
-   },
-   "source": {
-    "passages": [
-     {
-      "paragraph_id": "p25",
-      "paragraph_sha256": "sha256:600843ccbc6aa75a9d35f6e42006945bde5176a55bb7507a0295d5a851356fde",
-      "relation": "states",
-      "link_method": "llm_citation",
-      "anchor_grade": "excerpt",
-      "review_status": "pending",
-      "source_excerpt": "Contrary to most forecasts, China is once again running a substantial current account surplus.",
-      "source_spans": [
-       {
-        "char_start": 0,
-        "char_end": 94
-       }
-      ]
-     },
-     {
-      "paragraph_id": "p26",
-      "paragraph_sha256": "sha256:eaa1aa291a292f70220125217cb361dc00d588cf28df0e370c10fc806aabadcf",
-      "relation": "abstracts",
-      "link_method": "llm_citation",
-      "anchor_grade": "cited",
-      "review_status": "pending",
-      "source_excerpt": null,
-      "source_spans": null
-     }
-    ]
-   },
-   "facets": {
-    "variable": [
-     {
-      "term": "current-account",
-      "assignment_source": "llm",
-      "run_id": "claude-opus-5.5_facets"
-     },
-     {
-      "term": "fiscal-balance",
-      "assignment_source": "llm",
-      "run_id": "claude-opus-5.5_facets"
-     }
-    ],
-    "country": [
-     {
-      "term": "china",
-      "assignment_source": "llm",
-      "run_id": "claude-opus-5.5_facets",
-      "geo_role": "subject"
-     }
-    ],
-    "bloc": [],
-    "instrument": [],
-    "data_basis": []
-   },
-   "attributes": {},
-   "provenance": {
-    "method": "llm",
-    "run_id": "claude-opus-5.5_boxes"
-   },
-   "review": {
-    "status": "pending",
-    "reasons": [
-     "links: `P2` frames `ANOM` joins L1→L0, which no hand-drawn frames link does",
-     "links: `ANOM` motivates `C3` joins L0→L4, which no hand-drawn motivates link does"
-    ]
-   }
-  },
-  {
-   "id": "n015",
-   "legacy_id": "M2",
-   "role": "mechanism",
-   "level": "L3",
-   "content": {
-    "text": "Mismeasured tourism imports understate China's surplus; true figure nearer $250 billion than $200 billion.",
-    "label": null,
-    "explicit": true,
-    "reason": "Overstated service imports shrink a reported surplus."
-   },
-   "source": {
-    "passages": [
-     {
-      "paragraph_id": "p25",
-      "paragraph_sha256": "sha256:600843ccbc6aa75a9d35f6e42006945bde5176a55bb7507a0295d5a851356fde",
-      "relation": "states",
-      "link_method": "llm_citation",
-      "anchor_grade": "excerpt",
-      "review_status": "pending",
-      "source_excerpt": "more accurate measures of the tourism deficit would put the surplus at around $250 billion",
-      "source_spans": [
-       {
-        "char_start": 172,
-        "char_end": 262
-       }
-      ]
-     }
-    ]
-   },
-   "facets": {
-    "variable": [
-     {
-      "term": "services-balance",
-      "assignment_source": "llm",
-      "run_id": "claude-opus-5.5_facets"
-     },
-     {
-      "term": "current-account",
-      "assignment_source": "llm",
-      "run_id": "claude-opus-5.5_facets"
-     }
-    ],
-    "country": [
-     {
-      "term": "china",
-      "assignment_source": "llm",
-      "run_id": "claude-opus-5.5_facets",
-      "geo_role": "subject"
-     }
-    ],
-    "bloc": [],
-    "instrument": [],
-    "data_basis": [
-     {
-      "term": "balance-of-payments",
-      "assignment_source": "llm",
-      "run_id": "claude-opus-5.5_facets"
-     }
-    ]
-   },
-   "attributes": {
-    "kind": "distortion"
-   },
-   "provenance": {
-    "method": "llm",
-    "run_id": "claude-opus-5.5_boxes"
-   },
-   "review": {
-    "status": "pending",
-    "reasons": []
-   }
-  },
-  {
-   "id": "n016",
    "legacy_id": "SCP",
    "role": "scope_choice",
    "level": "L1B",
    "content": {
-    "text": "Measuring China's fiscal deficit to include local investment vehicles' borrowing gives about 12% of GDP rather than 3-5%.",
+    "text": "Using the IMF's augmented deficit of 12% of GDP, which includes local government vehicle borrowing, rather than the 3-5% headline figures, is the right measure of China's fiscal stance.",
     "label": null,
     "explicit": true,
-    "reason": "Off-budget quasi-fiscal borrowing belongs in the true fiscal stance."
+    "reason": "Fiscal stance should include quasi-fiscal borrowing by off-budget public entities."
    },
    "source": {
     "passages": [
@@ -1858,11 +1696,11 @@
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "the augmented deficit includes the quasi fiscal borrowing of local investment vehicles",
+      "source_excerpt": "that surplus has been sustained even with a 12 percent of GDP \"augmented\" fiscal deficit",
       "source_spans": [
        {
-        "char_start": 382,
-        "char_end": 468
+        "char_start": 292,
+        "char_end": 380
        }
       ]
      }
@@ -1907,15 +1745,15 @@
    }
   },
   {
-   "id": "n017",
+   "id": "n015",
    "legacy_id": "C3",
    "role": "intermediate_claim",
    "level": "L4",
    "content": {
-    "text": "China's surplus persists because it saves far too much; the raw material for a much larger surplus exists.",
+    "text": "China's surplus despite huge fiscal deficits shows that it saves excessively, about twice a typical large economy.",
     "label": null,
     "explicit": true,
-    "reason": "External balance equals national saving minus investment."
+    "reason": "A surplus that persists despite fiscal dissaving implies very high private saving."
    },
    "source": {
     "passages": [
@@ -1926,23 +1764,13 @@
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "China saves way too much. In fact, China still saves about two times as much as a typical large economy",
+      "source_excerpt": "namely that China saves way too much. In fact, China still saves about two times as much as a typical large economy",
       "source_spans": [
        {
-        "char_start": 114,
+        "char_start": 102,
         "char_end": 217
        }
       ]
-     },
-     {
-      "paragraph_id": "p32",
-      "paragraph_sha256": "sha256:7b36ea3ebd56d3784b5528abb1873dc0c60de674f873087c891461abe668c4d0",
-      "relation": "abstracts",
-      "link_method": "llm_citation",
-      "anchor_grade": "cited",
-      "review_status": "pending",
-      "source_excerpt": null,
-      "source_spans": null
      }
     ]
    },
@@ -1978,21 +1806,19 @@
    },
    "review": {
     "status": "pending",
-    "reasons": [
-     "links: `ANOM` motivates `C3` joins L0→L4, which no hand-drawn motivates link does"
-    ]
+    "reasons": []
    }
   },
   {
-   "id": "n018",
+   "id": "n016",
    "legacy_id": "E2",
    "role": "evidence_data",
    "level": "L2",
    "content": {
-    "text": "East Asian saving stays near 40% of GDP; China saves 44% of GDP (down from 51%) but its share of East Asia rose from 49% to 72%; Chinese saving rose from $2 trillion to about $6 trillion a year.",
+    "text": "East Asia saves close to 40% of GDP; China's rate fell from 51% to 44%, but its regional weight rose from 49% to 72%; China now saves about $6 trillion a year versus $2 trillion in 2007.",
     "label": null,
     "explicit": true,
-    "reason": "Saving levels set an upper bound on potential external surpluses."
+    "reason": "Composition shifts toward a high-saving economy can keep aggregate saving high even as its own rate falls."
    },
    "source": {
     "passages": [
@@ -2009,12 +1835,17 @@
      {
       "paragraph_id": "p30",
       "paragraph_sha256": "sha256:e7df91b37bdb07e156fc5f671028136c8c224e0ebd59357fdf87864ec18384d1",
-      "relation": "abstracts",
+      "relation": "states",
       "link_method": "llm_citation",
-      "anchor_grade": "cited",
+      "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": null,
-      "source_spans": null
+      "source_excerpt": "the aggregated savings rate of East Asia is as high as it has ever been—it remains close to 40 percent of the region's GDP.",
+      "source_spans": [
+       {
+        "char_start": 60,
+        "char_end": 183
+       }
+      ]
      },
      {
       "paragraph_id": "p31",
@@ -2029,17 +1860,12 @@
      {
       "paragraph_id": "p33",
       "paragraph_sha256": "sha256:dda930ba0b2a07a82aedfc8ee334a40654828405f70f27ebb933102ab66798e6",
-      "relation": "states",
+      "relation": "abstracts",
       "link_method": "llm_citation",
-      "anchor_grade": "excerpt",
+      "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": "Today it is saving close to $6 trillion a year—it wouldn’t be hard to get a $600b current account surplus out of that kind of savings.",
-      "source_spans": [
-       {
-        "char_start": 201,
-        "char_end": 335
-       }
-      ]
+      "source_excerpt": null,
+      "source_spans": null
      }
     ]
    },
@@ -2087,15 +1913,15 @@
    }
   },
   {
-   "id": "n019",
+   "id": "n017",
    "legacy_id": "M3",
    "role": "mechanism",
    "level": "L3",
    "content": {
-    "text": "China's quasi-fiscal borrowing and public investment absorb its excess saving; withdraw them and the surplus surges.",
+    "text": "China's big augmented fiscal deficit and public investment are all that keep its high saving from producing a far larger surplus.",
     "label": null,
     "explicit": true,
-    "reason": "Public dissaving can offset private oversaving and hold down an external surplus."
+    "reason": "The current account equals saving minus investment, so high saving is offset only by high investment or dissaving."
    },
    "source": {
     "passages": [
@@ -2106,17 +1932,17 @@
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "The only thing preventing that high savings rate from turning into a much larger current account surplus is China’s large augmented fiscal deficit",
+      "source_excerpt": "The only thing preventing that high savings rate from turning into a much larger current account surplus is China's large augmented fiscal deficit and the associated high level of public investment.",
       "source_spans": [
        {
         "char_start": 0,
-        "char_end": 146
+        "char_end": 198
        }
       ]
      },
      {
-      "paragraph_id": "p34",
-      "paragraph_sha256": "sha256:9ca025b31ccda986624672a16eddd45c02343f940e48af53a805b2b2e08dd0e7",
+      "paragraph_id": "p33",
+      "paragraph_sha256": "sha256:dda930ba0b2a07a82aedfc8ee334a40654828405f70f27ebb933102ab66798e6",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
@@ -2129,12 +1955,17 @@
    "facets": {
     "variable": [
      {
-      "term": "savings-investment-gap",
+      "term": "fiscal-balance",
       "assignment_source": "llm",
       "run_id": "claude-opus-5.5_facets"
      },
      {
-      "term": "fiscal-balance",
+      "term": "national-saving",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     },
+     {
+      "term": "current-account",
       "assignment_source": "llm",
       "run_id": "claude-opus-5.5_facets"
      }
@@ -2164,15 +1995,80 @@
    }
   },
   {
-   "id": "n020",
+   "id": "n018",
+   "legacy_id": "C4",
+   "role": "intermediate_claim",
+   "level": "L4",
+   "content": {
+    "text": "China's adjustment rests on unsustainable fiscal and credit expansion, so its durability is doubtful.",
+    "label": null,
+    "explicit": true,
+    "reason": "An adjustment financed by unsustainable borrowing will reverse when that borrowing stops."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p34",
+      "paragraph_sha256": "sha256:9ca025b31ccda986624672a16eddd45c02343f940e48af53a805b2b2e08dd0e7",
+      "relation": "states",
+      "link_method": "llm_citation",
+      "anchor_grade": "excerpt",
+      "review_status": "pending",
+      "source_excerpt": "So long as China's adjustment is based on a set of fiscal (and credit) policies that are generally viewed as unsustainable",
+      "source_spans": [
+       {
+        "char_start": 0,
+        "char_end": 122
+       }
+      ]
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "fiscal-balance",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     },
+     {
+      "term": "current-account",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [
+     {
+      "term": "china",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     }
+    ],
+    "bloc": [],
+    "instrument": [],
+    "data_basis": []
+   },
+   "attributes": {},
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "n019",
    "legacy_id": "P4",
    "role": "hidden_assumption",
    "level": "L1",
    "content": {
-    "text": "China's fiscal and credit stimulus cannot be kept up indefinitely, so the offset to high saving will eventually shrink.",
+    "text": "The fiscal and credit policies currently absorbing China's savings cannot continue, and nothing else will reduce household saving unless policy changes.",
     "label": null,
     "explicit": false,
-    "reason": "Debt-financed adjustment unwinds when the borrowing becomes unsustainable."
+    "reason": "Structural saving is persistent unless income distribution or social insurance changes."
    },
    "source": {
     "passages": [
@@ -2201,12 +2097,12 @@
    "facets": {
     "variable": [
      {
-      "term": "fiscal-impulse",
+      "term": "national-saving",
       "assignment_source": "llm",
       "run_id": "claude-opus-5.5_facets"
      },
      {
-      "term": "national-saving",
+      "term": "household-consumption-share",
       "assignment_source": "llm",
       "run_id": "claude-opus-5.5_facets"
      }
@@ -2234,18 +2130,28 @@
    }
   },
   {
-   "id": "n021",
+   "id": "n020",
    "legacy_id": "E3",
    "role": "evidence_data",
    "level": "L2",
    "content": {
-    "text": "Modest 2019 stimulus (flat credit impulse per UBS), the 2018 tightening and the trade war collapsed imports and pushed China's surplus up.",
+    "text": "China's 2019 stimulus was modest, with a flat credit impulse after a negative one in 2018, and imports are falling, which has pushed the surplus back up.",
     "label": null,
     "explicit": true,
-    "reason": "Weaker domestic demand cuts imports and widens a surplus."
+    "reason": "Withdrawing stimulus in a high-saving economy cuts imports and enlarges its surplus."
    },
    "source": {
     "passages": [
+     {
+      "paragraph_id": "p35",
+      "paragraph_sha256": "sha256:51a2224e06d170a17f12f10b0e7a8ccb0e8a4a72a80e870dc4c3467dd247ac36",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     },
      {
       "paragraph_id": "p36",
       "paragraph_sha256": "sha256:199f19a11f2db30fb50272ba56e385d717b283a5b2ef36c7c51d9ec2c6a0906c",
@@ -2253,7 +2159,7 @@
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "China’s import growth has collapsed—imports are falling in nominal terms, and at best flat in real terms.",
+      "source_excerpt": "China's import growth has collapsed—imports are falling in nominal terms, and at best flat in real terms.",
       "source_spans": [
        {
         "char_start": 226,
@@ -2314,15 +2220,15 @@
    }
   },
   {
-   "id": "n022",
+   "id": "n021",
    "legacy_id": "M4",
    "role": "mechanism",
    "level": "L3",
    "content": {
-    "text": "The trade war cut Chinese manufacturing investment, which raised rather than lowered China's surplus.",
+    "text": "The trade war, by depressing Chinese manufacturing investment, ironically raised China's surplus.",
     "label": null,
     "explicit": true,
-    "reason": "Lower investment with unchanged saving raises the external surplus."
+    "reason": "Lower domestic investment, with saving unchanged, raises the current account surplus."
    },
    "source": {
     "passages": [
@@ -2333,11 +2239,11 @@
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "the fall off in new investment in manufacturing associated with the trade war has contributed (ironically) to the rise in China’s surplus.",
+      "source_excerpt": "the fall off in new investment in manufacturing associated with the trade war has contributed (ironically) to the rise in China's surplus",
       "source_spans": [
        {
         "char_start": 120,
-        "char_end": 258
+        "char_end": 257
        }
       ]
      }
@@ -2387,15 +2293,15 @@
    }
   },
   {
-   "id": "n023",
+   "id": "n022",
    "legacy_id": "REC",
    "role": "recommendation",
    "level": "L5",
    "content": {
-    "text": "China should cut household saving with progressive taxes and a bigger social insurance system.",
+    "text": "China should raise household income and cut saving through progressive taxes and a larger, non-regressively funded social insurance system.",
     "label": null,
     "explicit": true,
-    "reason": "Durable rebalancing requires lower private saving, not more public borrowing."
+    "reason": "Lasting cuts in excess saving require shifting income to households and reducing precautionary saving."
    },
    "source": {
     "passages": [
@@ -2419,12 +2325,12 @@
    "facets": {
     "variable": [
      {
-      "term": "national-saving",
+      "term": "household-consumption-share",
       "assignment_source": "llm",
       "run_id": "claude-opus-5.5_facets"
      },
      {
-      "term": "household-consumption-share",
+      "term": "national-saving",
       "assignment_source": "llm",
       "run_id": "claude-opus-5.5_facets"
      }
@@ -2458,15 +2364,15 @@
    }
   },
   {
-   "id": "n024",
+   "id": "n023",
    "legacy_id": "QF2",
    "role": "caveat",
    "level": "L6",
    "content": {
-    "text": "The U.S. current account deficit stays under 3% of GDP and external debt is stable because interest (2%) is below nominal growth (4%).",
+    "text": "The U.S. current account deficit stays under 3% of GDP, helped by the oil boom and offshore profits, and debt is stable because interest rates are below nominal growth.",
     "label": null,
     "explicit": true,
-    "reason": "Debt ratios stay stable when the interest rate is below the growth rate."
+    "reason": "Debt ratios stay stable when the interest rate on debt is below nominal growth."
    },
    "source": {
     "passages": [
@@ -2477,7 +2383,7 @@
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "The current “flow” deficit in the United States external accounts isn’t obviously unsustainable.",
+      "source_excerpt": "The current \"flow\" deficit in the United States external accounts isn't obviously unsustainable.",
       "source_spans": [
        {
         "char_start": 0,
@@ -2528,15 +2434,15 @@
    }
   },
   {
-   "id": "n025",
+   "id": "n024",
    "legacy_id": "E4",
    "role": "evidence_data",
    "level": "L2",
    "content": {
-    "text": "U.S. net external debt is 45% of GDP, triple its level of twenty years ago, against a non-commodity export base of only about 8% of GDP.",
+    "text": "U.S. net external debt is about 45% of GDP, triple its level of twenty years ago, against a non-commodity export base of only about 8% of GDP.",
     "label": null,
     "explicit": true,
-    "reason": "External debt is best judged relative to the export base that services it."
+    "reason": "External debt sustainability is judged relative to the export base that must service it."
    },
    "source": {
     "passages": [
@@ -2547,7 +2453,7 @@
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "At 45 percent of U.S. GDP, it is actually quite large relative to the United States’ limited export base.",
+      "source_excerpt": "At 45 percent of U.S. GDP, it is actually quite large relative to the United States' limited export base.",
       "source_spans": [
        {
         "char_start": 107,
@@ -2600,13 +2506,7 @@
     ],
     "bloc": [],
     "instrument": [],
-    "data_basis": [
-     {
-      "term": "balance-of-payments",
-      "assignment_source": "llm",
-      "run_id": "claude-opus-5.5_facets"
-     }
-    ]
+    "data_basis": []
    },
    "attributes": {},
    "provenance": {
@@ -2619,15 +2519,15 @@
    }
   },
   {
-   "id": "n026",
+   "id": "n025",
    "legacy_id": "P3",
    "role": "stated_assumption",
    "level": "L1",
    "content": {
-    "text": "The U.S. will not remain a long-run net energy exporter.",
+    "text": "The U.S. will not be a long-run net energy exporter, because of high domestic demand and a slow transition to low carbon.",
     "label": null,
     "explicit": true,
-    "reason": "Strong domestic demand and slow decarbonisation limit energy export capacity."
+    "reason": "Only durable export sources should count toward a country's capacity to service external debt."
    },
    "source": {
     "passages": [
@@ -2638,7 +2538,7 @@
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "Especially if you assume that the United States won’t be a long-run exporter of energy",
+      "source_excerpt": "Especially if you assume that the United States won't be a long-run exporter of energy",
       "source_spans": [
        {
         "char_start": 213,
@@ -2656,7 +2556,7 @@
       "run_id": "claude-opus-5.5_facets"
      },
      {
-      "term": "commodity-prices",
+      "term": "domestic-demand",
       "assignment_source": "llm",
       "run_id": "claude-opus-5.5_facets"
      }
@@ -2684,21 +2584,31 @@
    }
   },
   {
-   "id": "n027",
+   "id": "n026",
    "legacy_id": "K",
    "role": "main_claim",
    "level": "L5",
    "content": {
-    "text": "With surpluses in Europe and China likely to grow and U.S. debt capacity limited, imbalances may worsen and then force painful adjustment.",
+    "text": "With Asian, especially Chinese, excess saving likely to resurface and Europe fiscally tight, imbalances could worsen, while rising U.S. external debt will eventually limit America's ability to absorb them.",
     "label": null,
     "explicit": true,
-    "reason": "Rising debt eventually caps a deficit country's ability to absorb others' excess saving."
+    "reason": "A deficit country's capacity to absorb others' surpluses is bounded by its accumulated external debt."
    },
    "source": {
     "passages": [
      {
-      "paragraph_id": "p9",
-      "paragraph_sha256": "sha256:ca61b0996c17e7569573b97086b4eb7702b328b70ee32caf0cd97b71c448eaaa",
+      "paragraph_id": "p27",
+      "paragraph_sha256": "sha256:9b1b29610fe9fa6f488b52143c518251501a88f0709bcdffa12e175b9d41ca94",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     },
+     {
+      "paragraph_id": "p33",
+      "paragraph_sha256": "sha256:dda930ba0b2a07a82aedfc8ee334a40654828405f70f27ebb933102ab66798e6",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
@@ -2723,7 +2633,7 @@
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "Trump or no Trump. that at some point will limit its ability to take the other side of the world’s saving surpluses.",
+      "source_excerpt": "Trump or no Trump. that at some point will limit its ability to take the other side of the world's saving surpluses.",
       "source_spans": [
        {
         "char_start": 0,
@@ -2737,6 +2647,11 @@
     "variable": [
      {
       "term": "global-imbalances",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     },
+     {
+      "term": "national-saving",
       "assignment_source": "llm",
       "run_id": "claude-opus-5.5_facets"
      },
@@ -2771,18 +2686,28 @@
    }
   },
   {
-   "id": "n028",
+   "id": "n027",
    "legacy_id": "X2",
    "role": "opposing_view",
    "level": "L6",
    "content": {
-    "text": "The IMF's plan puts most adjustment on U.S. fiscal tightening with little from the euro area.",
+    "text": "The IMF plans to reduce imbalances mainly through U.S. fiscal tightening alongside slight euro area tightening, with fiscal balance as the long-run norm.",
     "label": null,
     "explicit": true,
-    "reason": "Symmetric fiscal balance norms push adjustment onto deficit countries."
+    "reason": "Adjustment that falls on deficit countries in a demand-short world shrinks imbalances by depressing demand."
    },
    "source": {
     "passages": [
+     {
+      "paragraph_id": "p12",
+      "paragraph_sha256": "sha256:e38052fdf61158ea9250d6d6b675c9279c54f3d403e55101f76e7930d871e937",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     },
      {
       "paragraph_id": "p43",
       "paragraph_sha256": "sha256:e3bebca1690ba02fe6804f8ce6ba7ba02896ca6459733d43abbbebbda0a134cb",
@@ -2852,85 +2777,13 @@
     "status": "pending",
     "reasons": []
    }
-  },
-  {
-   "id": "n029",
-   "legacy_id": "REC2",
-   "role": "recommendation",
-   "level": "L5",
-   "content": {
-    "text": "The new IMF managing director should question fiscal balance as the long-term norm.",
-    "label": null,
-    "explicit": true,
-    "reason": "With global saving in excess, a universal fiscal balance target is contractionary."
-   },
-   "source": {
-    "passages": [
-     {
-      "paragraph_id": "p43",
-      "paragraph_sha256": "sha256:e3bebca1690ba02fe6804f8ce6ba7ba02896ca6459733d43abbbebbda0a134cb",
-      "relation": "states",
-      "link_method": "llm_citation",
-      "anchor_grade": "excerpt",
-      "review_status": "pending",
-      "source_excerpt": "the new MD may want to question whether the long-term fiscal norm for most countries should be fiscal balance.",
-      "source_spans": [
-       {
-        "char_start": 197,
-        "char_end": 307
-       }
-      ]
-     }
-    ]
-   },
-   "facets": {
-    "variable": [
-     {
-      "term": "fiscal-balance",
-      "assignment_source": "llm",
-      "run_id": "claude-opus-5.5_facets"
-     }
-    ],
-    "country": [],
-    "bloc": [
-     {
-      "term": "global",
-      "assignment_source": "llm",
-      "run_id": "claude-opus-5.5_facets",
-      "geo_role": "subject"
-     }
-    ],
-    "instrument": [
-     {
-      "term": "fiscal-policy",
-      "assignment_source": "llm",
-      "run_id": "claude-opus-5.5_facets"
-     }
-    ],
-    "data_basis": [
-     {
-      "term": "imf-publications",
-      "assignment_source": "llm",
-      "run_id": "claude-opus-5.5_facets"
-     }
-    ]
-   },
-   "attributes": {},
-   "provenance": {
-    "method": "llm",
-    "run_id": "claude-opus-5.5_boxes"
-   },
-   "review": {
-    "status": "pending",
-    "reasons": []
-   }
   }
  ],
  "edges": [
   {
    "id": "e001",
    "from": "n001",
-   "to": "n003",
+   "to": "n002",
    "relation": "frames",
    "sign": 0,
    "provenance": {
@@ -2945,9 +2798,9 @@
   {
    "id": "e002",
    "from": "n001",
-   "to": "n008",
-   "relation": "frames",
-   "sign": 0,
+   "to": "n011",
+   "relation": "motivates",
+   "sign": 1,
    "provenance": {
     "method": "llm",
     "run_id": "claude-opus-5.5_links"
@@ -2959,38 +2812,8 @@
   },
   {
    "id": "e003",
-   "from": "n001",
-   "to": "n013",
-   "relation": "frames",
-   "sign": 0,
-   "provenance": {
-    "method": "llm",
-    "run_id": "claude-opus-5.5_links"
-   },
-   "review": {
-    "status": "pending",
-    "reasons": []
-   }
-  },
-  {
-   "id": "e004",
-   "from": "n003",
-   "to": "n004",
-   "relation": "frames",
-   "sign": 0,
-   "provenance": {
-    "method": "llm",
-    "run_id": "claude-opus-5.5_links"
-   },
-   "review": {
-    "status": "pending",
-    "reasons": []
-   }
-  },
-  {
-   "id": "e005",
-   "from": "n004",
-   "to": "n002",
+   "from": "n002",
+   "to": "n003",
    "relation": "supports",
    "sign": 1,
    "provenance": {
@@ -3003,8 +2826,38 @@
    }
   },
   {
+   "id": "e004",
+   "from": "n002",
+   "to": "n026",
+   "relation": "licenses",
+   "sign": 1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e005",
+   "from": "n006",
+   "to": "n007",
+   "relation": "frames",
+   "sign": 0,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
    "id": "e006",
-   "from": "n005",
+   "from": "n007",
    "to": "n004",
    "relation": "supports",
    "sign": 1,
@@ -3019,8 +2872,8 @@
   },
   {
    "id": "e007",
-   "from": "n003",
-   "to": "n002",
+   "from": "n004",
+   "to": "n026",
    "relation": "supports",
    "sign": 1,
    "provenance": {
@@ -3034,23 +2887,8 @@
   },
   {
    "id": "e008",
-   "from": "n006",
-   "to": "n002",
-   "relation": "supports",
-   "sign": 1,
-   "provenance": {
-    "method": "llm",
-    "run_id": "claude-opus-5.5_links"
-   },
-   "review": {
-    "status": "pending",
-    "reasons": []
-   }
-  },
-  {
-   "id": "e009",
-   "from": "n006",
-   "to": "n007",
+   "from": "n004",
+   "to": "n005",
    "relation": "undercut_by",
    "sign": -1,
    "provenance": {
@@ -3063,9 +2901,24 @@
    }
   },
   {
+   "id": "e009",
+   "from": "n026",
+   "to": "n008",
+   "relation": "qualified_by",
+   "sign": -1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
    "id": "e010",
-   "from": "n008",
-   "to": "n009",
+   "from": "n009",
+   "to": "n010",
    "relation": "supports",
    "sign": 1,
    "provenance": {
@@ -3079,10 +2932,10 @@
   },
   {
    "id": "e011",
-   "from": "n009",
-   "to": "n010",
-   "relation": "qualified_by",
-   "sign": -1,
+   "from": "n010",
+   "to": "n026",
+   "relation": "supports",
+   "sign": 1,
    "provenance": {
     "method": "llm",
     "run_id": "claude-opus-5.5_links"
@@ -3094,40 +2947,10 @@
   },
   {
    "id": "e012",
-   "from": "n006",
-   "to": "n011",
-   "relation": "supports",
-   "sign": 1,
-   "provenance": {
-    "method": "llm",
-    "run_id": "claude-opus-5.5_links"
-   },
-   "review": {
-    "status": "pending",
-    "reasons": []
-   }
-  },
-  {
-   "id": "e013",
-   "from": "n013",
+   "from": "n011",
    "to": "n012",
-   "relation": "supports",
+   "relation": "motivates",
    "sign": 1,
-   "provenance": {
-    "method": "llm",
-    "run_id": "claude-opus-5.5_links"
-   },
-   "review": {
-    "status": "pending",
-    "reasons": []
-   }
-  },
-  {
-   "id": "e014",
-   "from": "n013",
-   "to": "n014",
-   "relation": "frames",
-   "sign": 0,
    "provenance": {
     "method": "llm",
     "run_id": "claude-opus-5.5_links"
@@ -3135,14 +2958,14 @@
    "review": {
     "status": "pending",
     "reasons": [
-     "`P2` frames `ANOM` joins L1→L0, which no hand-drawn frames link does"
+     "`ANOM` motivates `RC` joins L0→L5, which no hand-drawn motivates link does"
     ]
    }
   },
   {
-   "id": "e015",
-   "from": "n016",
-   "to": "n018",
+   "id": "e013",
+   "from": "n014",
+   "to": "n016",
    "relation": "bounds",
    "sign": 1,
    "provenance": {
@@ -3155,10 +2978,10 @@
    }
   },
   {
-   "id": "e016",
+   "id": "e014",
    "from": "n014",
-   "to": "n017",
-   "relation": "motivates",
+   "to": "n015",
+   "relation": "licenses",
    "sign": 1,
    "provenance": {
     "method": "llm",
@@ -3166,14 +2989,42 @@
    },
    "review": {
     "status": "pending",
-    "reasons": [
-     "`ANOM` motivates `C3` joins L0→L4, which no hand-drawn motivates link does"
-    ]
+    "reasons": []
+   }
+  },
+  {
+   "id": "e015",
+   "from": "n013",
+   "to": "n015",
+   "relation": "licenses",
+   "sign": 1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e016",
+   "from": "n016",
+   "to": "n015",
+   "relation": "supports",
+   "sign": 1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
    }
   },
   {
    "id": "e017",
-   "from": "n015",
+   "from": "n016",
    "to": "n017",
    "relation": "supports",
    "sign": 1,
@@ -3188,8 +3039,8 @@
   },
   {
    "id": "e018",
-   "from": "n018",
-   "to": "n017",
+   "from": "n017",
+   "to": "n018",
    "relation": "supports",
    "sign": 1,
    "provenance": {
@@ -3203,8 +3054,8 @@
   },
   {
    "id": "e019",
-   "from": "n019",
-   "to": "n017",
+   "from": "n015",
+   "to": "n026",
    "relation": "supports",
    "sign": 1,
    "provenance": {
@@ -3218,23 +3069,8 @@
   },
   {
    "id": "e020",
-   "from": "n017",
-   "to": "n012",
-   "relation": "supports",
-   "sign": 1,
-   "provenance": {
-    "method": "llm",
-    "run_id": "claude-opus-5.5_links"
-   },
-   "review": {
-    "status": "pending",
-    "reasons": []
-   }
-  },
-  {
-   "id": "e021",
-   "from": "n020",
-   "to": "n027",
+   "from": "n019",
+   "to": "n018",
    "relation": "licenses",
    "sign": 1,
    "provenance": {
@@ -3247,11 +3083,11 @@
    }
   },
   {
-   "id": "e022",
-   "from": "n020",
-   "to": "n021",
-   "relation": "frames",
-   "sign": 0,
+   "id": "e021",
+   "from": "n018",
+   "to": "n026",
+   "relation": "supports",
+   "sign": 1,
    "provenance": {
     "method": "llm",
     "run_id": "claude-opus-5.5_links"
@@ -3262,8 +3098,8 @@
    }
   },
   {
-   "id": "e023",
-   "from": "n021",
+   "id": "e022",
+   "from": "n018",
    "to": "n022",
    "relation": "supports",
    "sign": 1,
@@ -3277,9 +3113,24 @@
    }
   },
   {
+   "id": "e023",
+   "from": "n020",
+   "to": "n018",
+   "relation": "supports",
+   "sign": 1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
    "id": "e024",
-   "from": "n022",
-   "to": "n017",
+   "from": "n021",
+   "to": "n018",
    "relation": "supports",
    "sign": 1,
    "provenance": {
@@ -3293,8 +3144,8 @@
   },
   {
    "id": "e025",
-   "from": "n017",
-   "to": "n027",
+   "from": "n024",
+   "to": "n026",
    "relation": "supports",
    "sign": 1,
    "provenance": {
@@ -3308,8 +3159,8 @@
   },
   {
    "id": "e026",
-   "from": "n009",
-   "to": "n027",
+   "from": "n025",
+   "to": "n026",
    "relation": "supports",
    "sign": 1,
    "provenance": {
@@ -3323,10 +3174,10 @@
   },
   {
    "id": "e027",
-   "from": "n002",
-   "to": "n027",
-   "relation": "supports",
-   "sign": 1,
+   "from": "n026",
+   "to": "n023",
+   "relation": "qualified_by",
+   "sign": -1,
    "provenance": {
     "method": "llm",
     "run_id": "claude-opus-5.5_links"
@@ -3338,8 +3189,8 @@
   },
   {
    "id": "e028",
-   "from": "n017",
-   "to": "n023",
+   "from": "n006",
+   "to": "n026",
    "relation": "supports",
    "sign": 1,
    "provenance": {
@@ -3353,9 +3204,9 @@
   },
   {
    "id": "e029",
-   "from": "n027",
-   "to": "n024",
-   "relation": "qualified_by",
+   "from": "n026",
+   "to": "n027",
+   "relation": "rebuts",
    "sign": -1,
    "provenance": {
     "method": "llm",
@@ -3368,113 +3219,8 @@
   },
   {
    "id": "e030",
-   "from": "n025",
-   "to": "n027",
-   "relation": "supports",
-   "sign": 1,
-   "provenance": {
-    "method": "llm",
-    "run_id": "claude-opus-5.5_links"
-   },
-   "review": {
-    "status": "pending",
-    "reasons": []
-   }
-  },
-  {
-   "id": "e031",
-   "from": "n026",
-   "to": "n027",
-   "relation": "supports",
-   "sign": 1,
-   "provenance": {
-    "method": "llm",
-    "run_id": "claude-opus-5.5_links"
-   },
-   "review": {
-    "status": "pending",
-    "reasons": []
-   }
-  },
-  {
-   "id": "e032",
-   "from": "n026",
-   "to": "n025",
-   "relation": "frames",
-   "sign": 0,
-   "provenance": {
-    "method": "llm",
-    "run_id": "claude-opus-5.5_links"
-   },
-   "review": {
-    "status": "pending",
-    "reasons": []
-   }
-  },
-  {
-   "id": "e033",
-   "from": "n027",
-   "to": "n028",
-   "relation": "rebuts",
-   "sign": -1,
-   "provenance": {
-    "method": "llm",
-    "run_id": "claude-opus-5.5_links"
-   },
-   "review": {
-    "status": "pending",
-    "reasons": []
-   }
-  },
-  {
-   "id": "e034",
-   "from": "n027",
-   "to": "n029",
-   "relation": "motivates",
-   "sign": 1,
-   "provenance": {
-    "method": "llm",
-    "run_id": "claude-opus-5.5_links"
-   },
-   "review": {
-    "status": "pending",
-    "reasons": []
-   }
-  },
-  {
-   "id": "e035",
-   "from": "n029",
-   "to": "n028",
-   "relation": "rebuts",
-   "sign": -1,
-   "provenance": {
-    "method": "llm",
-    "run_id": "claude-opus-5.5_links"
-   },
-   "review": {
-    "status": "pending",
-    "reasons": []
-   }
-  },
-  {
-   "id": "e036",
-   "from": "n012",
-   "to": "n027",
-   "relation": "supports",
-   "sign": 1,
-   "provenance": {
-    "method": "llm",
-    "run_id": "claude-opus-5.5_links"
-   },
-   "review": {
-    "status": "pending",
-    "reasons": []
-   }
-  },
-  {
-   "id": "e037",
-   "from": "n011",
-   "to": "n027",
+   "from": "n015",
+   "to": "n010",
    "relation": "supports",
    "sign": 1,
    "provenance": {
@@ -3490,18 +3236,16 @@
  "validation": {
   "status": "needs_review",
   "checks": [
-   "boxes: 29, fix rounds 0, re-asks 0, gaps left none",
-   "links: 37, fix rounds 0, re-asks 0, gaps left none, dropped none",
-   "passage linker agreement: {'anchored': 17, 'anchored_cited': 15, 'candidate': 18, 'candidate_cited': 12}"
+   "boxes: 27, fix rounds 0, re-asks 0, gaps left none",
+   "links: 30, fix rounds 0, re-asks 0, gaps left none, dropped none",
+   "passage linker agreement: {'anchored': 14, 'anchored_cited': 11, 'candidate': 19, 'candidate_cited': 17}"
   ],
   "review_items": [
-   "boxes: `E5` the name `fdi` does not occur in the article",
-   "boxes: 29 boxes, more than any hand-drawn map (24)",
-   "links: `P2` frames `ANOM` joins L1→L0, which no hand-drawn frames link does",
-   "links: `ANOM` motivates `C3` joins L0→L4, which no hand-drawn motivates link does",
-   "facets: `setser_sep_20_19#P1` where_subject empty - every claim needs a country or a bloc (assignment.requires_one_of) - needs review",
+   "boxes: 27 boxes, more than any hand-drawn map (24)",
+   "links: `ANOM` motivates `RC` joins L0→L5, which no hand-drawn motivates link does",
    "facets: `setser_sep_20_19#P2` where_subject empty - every claim needs a country or a bloc (assignment.requires_one_of) - needs review",
-   "passages: `C2`: the team's passage linker anchors it to p20 (shared: switzerland), which the box does not cite",
+   "passages: `E1`: the team's passage linker anchors it to p20 (shared: switzerland), which the box does not cite",
+   "passages: `P2`: the team's passage linker anchors it to p25 (shared: 12percent), which the box does not cite",
    "passages: `SCP`: the team's passage linker anchors it to p26 (shared: 12percent), which the box does not cite"
   ]
  },

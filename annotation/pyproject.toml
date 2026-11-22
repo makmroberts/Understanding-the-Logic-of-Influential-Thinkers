@@ -14,6 +14,15 @@ dependencies = [
   "PyYAML==6.0.3",
 ]
 
+[project.optional-dependencies]
+# The meaning check in the evaluation (settings.yaml `meaning`): about 1 GB of packages
+# and a 1.4 GB model, so it is opt-in: pip install -e .[meaning]
+meaning = [
+  "sentence-transformers==6.3.0",
+  "transformers==5.22.2",
+  "torch==2.15.0",
+]
+
 [build-system]
 requires = ["setuptools>=68"]
 build-backend = "setuptools.build_meta"

@@ -7,9 +7,9 @@ tags: [view]
 
 The causal channels - how one thing is said to cause another.
 
-70 across 24 articles. Back to [[index]].
+69 across 25 articles. Back to [[index]].
 
-## Mechanisms (70)
+## Mechanisms (69)
 
 - **2017-12** [[Trade deficits can drag on growth]] · _Why does the U.S. trade balance still matter..._
 - **2017-12** [[Trade shifts where jobs are located]] · _Why does the U.S. trade balance still matter..._
@@ -71,14 +71,13 @@ The causal channels - how one thing is said to cause another.
 - **2026-02** [[Inventory drawdown]] · _Understanding the Low October 2025 Trade Def..._
 - **2026-02** [[Untariffed artificial intelligence investment]] · _Understanding the Low October 2025 Trade Def..._
 - **2026-02** [[Fiscal channel]] · _Understanding the Low October 2025 Trade Def..._
-- **2026-07** [[Higher chip prices raise both chip imports and exports, so they barely move the net]] · _Is China’s Surplus Really Shrinking?_
-- **2026-07** [[Lagging price indices treated chip-price-driven value gains as volume gains in Q1]] · _Is China’s Surplus Really Shrinking?_
-- **2026-07** [[The U.S. deficit is widening due to AI investment and fiscal deficits, the mirror]] · _Is China’s Surplus Really Shrinking?_
-- **2026-09** [[Asian surplus economies are following oil exporters in routing surpluses into sovereign]] · _De-reservification, Not De-dollarization_
-- **2026-09** [[Central banks steer currency by regulating hedge ratios and bank net foreign assets]] · _De-reservification, Not De-dollarization_
-- **2026-09** [[Focusing on formal reserves misses most growth of sovereign foreign assets because]] · _De-reservification, Not De-dollarization_
-- **2026-09** [[The investor base shift toward U.S. risk assets explains why Treasuries lost convenience]] · _De-reservification, Not De-dollarization_
-- **2026-10** [[State banks buy foreign exchange to cap the yuan's strength, so the yuan is managed]] · _What’s the Renminbi Got to Do With it?_
-- **2026-10** [[Chinese exports respond to the real value of the RMB]] · _What’s the Renminbi Got to Do With it?_
-- **2026-10** [[An undervalued RMB signals the world to locate production in China, eroding manufacturing]] · _What’s the Renminbi Got to Do With it?_
+- **2026-07** [[AIdata-center investment and a large fiscal deficit are expanding the U.S. deficit]] · _Is China’s Surplus Really Shrinking?_
+- **2026-07** [[Slow recognition of the chip price shock in Q1 deflators distorted volume data]] · _Is China’s Surplus Really Shrinking?_
+- **2026-08** [[A weaker currency makes exports cheaper and boosts export growth after a lag of a year]] · _The World Should Not Ignore China’s Underval..._
+- **2026-08** [[Nominal appreciation produces real appreciation because domestic prices adjust]] · _The World Should Not Ignore China’s Underval..._
+- **2026-09** [[Authorities manage their currencies by adjusting the foreign positions]] · _De-reservification, Not De-dollarization_
+- **2026-09** [[Because the new official investors seek returns, foreign demand goes to U.S. risk assets]] · _De-reservification, Not De-dollarization_
+- **2026-10** [[With a closed financial account, the RMB is set mainly by exporter conversion]] · _What’s the Renminbi Got to Do With it?_
+- **2026-10** [[Structural gains (WTO entry, green industry and autos) that should have strengthened]] · _What’s the Renminbi Got to Do With it?_
+- **2026-10** [[An undervalued RMB signals firms everywhere to produce in China, eroding manufacturing]] · _What’s the Renminbi Got to Do With it?_
 

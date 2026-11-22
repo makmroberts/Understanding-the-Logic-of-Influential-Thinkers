@@ -51,7 +51,7 @@ Sits in the middle of arguments - as much argued toward as argued from.
 - **2020-02** [[Diversion no longer offsets China]] · _Do tariffs change the trade balance, and who..._
 - **2020-10** [[The old Hong Kong explanation is no longer enough]] · _Record Chinese Bilateral Surpluses With the ..._
 - **2020-10** [[The discrepancy likely reflects reporting behavior]] · _Record Chinese Bilateral Surpluses With the ..._
-- **2026-10** [[Sectoral protection such as the EU hybrid car quota buffers specific sectors but would]] · _What’s the Renminbi Got to Do With it?_
+- **2026-10** [[Sector quotas such as the EU hybrid-car TRQ only buffer specific sectors; using]] · _What’s the Renminbi Got to Do With it?_
 
 ### question (6)
 

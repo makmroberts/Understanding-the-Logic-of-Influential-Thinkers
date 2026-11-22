@@ -1,0 +1,918 @@
+{
+ "nodes": [
+  {
+   "id": "header",
+   "type": "text",
+   "text": "## 2024-08-14 China's Imaginary Trade Data\n\n**Left:** hand-drawn map (17 steps). **Right:** model run `setser_aug_14_24/claude-opus-5.5` (22 steps).\n\nMatched 14 of 17 hand steps (11 by a shared paragraph, 3 by role only).\n\nHand steps not matched: E3, M2, P2\n\nModel steps not matched: E1, M2, P1, P2, P3, P4, QF, SC",
+   "x": -2560,
+   "y": 0,
+   "width": 6860,
+   "height": 260
+  },
+  {
+   "id": "hand-Q",
+   "type": "text",
+   "text": "**Q** \u00b7 `question` \u00b7 \u00b6 32\n\nWhy does the reported current account diverge from the customs surplus, and which is right?\n\n*Gloss:* Question\n\n[[claims/question/Why does the reported current account diverge from the customs surplus, and which is right|open note]]",
+   "x": -820,
+   "y": 440,
+   "width": 520,
+   "height": 300,
+   "color": "#7A6FA8"
+  },
+  {
+   "id": "hand-P1",
+   "type": "text",
+   "text": "**P1** \u00b7 `stated_assumption` \u00b7 \u00b6 19\n\nThe balance-of-payments surplus should exceed customs; a methodology change should net out\n\n*Gloss:* Stated assumption\n\n[[claims/stated_assumption/The balance-of-payments surplus should exceed customs; a methodology change should net out|open note]]",
+   "x": -820,
+   "y": 920,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "hand-P2",
+   "type": "text",
+   "text": "**P2** \u00b7 `hidden_assumption`\n\nCustoms data is ground truth \u2014 never argued for, the whole case rests on it\n\n*Gloss:* Hidden assumption\n\n[[claims/hidden_assumption/Customs data is ground truth \u2014 never argued for, the whole case rests on it|open note]]",
+   "x": -1980,
+   "y": 920,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "hand-SC",
+   "type": "text",
+   "text": "**SC** \u00b7 `source_credibility` \u00b7 \u00b6 40\n\nThe methodology was already changed at a convenient moment in 2015, and backdated\n\n*Gloss:* Source credibility\n\n[[claims/source_credibility/The methodology was already changed at a convenient moment in 2015, and backdated|open note]]",
+   "x": -1400,
+   "y": 920,
+   "width": 520,
+   "height": 300,
+   "color": "#2FA88F"
+  },
+  {
+   "id": "hand-E1",
+   "type": "text",
+   "text": "**E1** \u00b7 `evidence_data` \u00b7 \u00b6 32\n\nReported current account ~$150bn below expectation in Q2\n\n*Gloss:* Data\n\n[[claims/evidence_data/Reported current account ~$150bn below expectation in Q2|open note]]",
+   "x": -820,
+   "y": 1880,
+   "width": 520,
+   "height": 300,
+   "color": "#2F7FBF"
+  },
+  {
+   "id": "hand-E2",
+   "type": "text",
+   "text": "**E2** \u00b7 `evidence_source` \u00b7 \u00b6 3, 23\n\nIMF Article IV Appendix VII; consistent with Adam Wolf's work\n\n*Gloss:* Studies & sources\n\n[[claims/evidence_source/IMF Article IV Appendix VII; consistent with Adam Wolf's work|open note]]",
+   "x": -1400,
+   "y": 1880,
+   "width": 520,
+   "height": 300,
+   "color": "#2F7FBF"
+  },
+  {
+   "id": "hand-E3",
+   "type": "text",
+   "text": "**E3** \u00b7 `evidence_rival` \u00b7 \u00b6 22\n\nThe customs goods series against the balance-of-payments goods series\n\n*Gloss:* Rival measurement\n\n[[claims/evidence_rival/The customs goods series against the balance-of-payments goods series|open note]]",
+   "x": -2560,
+   "y": 1880,
+   "width": 520,
+   "height": 300,
+   "color": "#2F7FBF"
+  },
+  {
+   "id": "hand-E4",
+   "type": "text",
+   "text": "**E4** \u00b7 `evidence_discrepancy` \u00b7 \u00b6 7\n\nGap explodes from 2022; BoP imports exceed customs imports for the first time in 2023\n\n*Gloss:* Discrepancy\n\n[[claims/evidence_discrepancy/Gap explodes from 2022; BoP imports exceed customs imports for the first time in 2023|open note]]",
+   "x": -1980,
+   "y": 1880,
+   "width": 520,
+   "height": 300,
+   "color": "#2F7FBF"
+  },
+  {
+   "id": "hand-M1",
+   "type": "text",
+   "text": "**M1** \u00b7 `mechanism` \u00b7 \u00b6 13\n\n\"Factoryless\" manufacturing \u2014 a sale to a non-resident is booked as an export though the goods never leave China\n\n*Gloss:* Mechanism A\n\n[[claims/mechanism/Factoryless manufacturing \u2014 a sale to a non-resident is booked as an export though the goods never leave China|open note]]",
+   "x": -820,
+   "y": 2360,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "hand-M2",
+   "type": "text",
+   "text": "**M2** \u00b7 `mechanism` \u00b7 \u00b6 31\n\nCompilers switched from customs data to direct enterprise reporting in 2022\n\n*Gloss:* Mechanism B\n\n[[claims/mechanism/Compilers switched from customs data to direct enterprise reporting in 2022|open note]]",
+   "x": -1400,
+   "y": 2360,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "hand-C1",
+   "type": "text",
+   "text": "**C1** \u00b7 `intermediate_claim` \u00b7 \u00b6 16\n\nIt makes no economic sense; the offsetting adjustment is absent; the series cannot be replicated\n\n*Gloss:* Intermediate claim\n\n[[claims/intermediate_claim/It makes no economic sense; the offsetting adjustment is absent; the series cannot be replicated|open note]]",
+   "x": -820,
+   "y": 2840,
+   "width": 520,
+   "height": 300,
+   "color": "#2FBF9B"
+  },
+  {
+   "id": "hand-K",
+   "type": "text",
+   "text": "**K** \u00b7 `main_claim` \u00b7 \u00b6 36\n\nThe reported surplus is an artifact of a methodology change\n\n*Gloss:* Main claim\n\n[[claims/main_claim/The reported surplus is an artifact of a methodology change|open note]]",
+   "x": -820,
+   "y": 3320,
+   "width": 520,
+   "height": 300,
+   "color": "#2FBF9B"
+  },
+  {
+   "id": "hand-RC",
+   "type": "text",
+   "text": "**RC** \u00b7 `reconstruction` \u00b7 \u00b6 29\n\nGoods surplus understated by ~$300bn, over 1.5pp of GDP; true current account surplus close to $700bn \u2014 use the customs data\n\n*Gloss:* Reconstruction\n\n[[claims/reconstruction/Goods surplus understated by ~$300bn, over 1.5pp of GDP; true current account surplus close to $700bn \u2014 use the customs|open note]]",
+   "x": -1400,
+   "y": 3320,
+   "width": 520,
+   "height": 300,
+   "color": "#2FBF9B"
+  },
+  {
+   "id": "hand-REC",
+   "type": "text",
+   "text": "**REC** \u00b7 `recommendation` \u00b7 \u00b6 3\n\nimplied only \u2014 stop using the reported series\n\n*Gloss:* Recommendation\n\n[[claims/recommendation/implied only \u2014 stop using the reported series|open note]]",
+   "x": -1980,
+   "y": 3320,
+   "width": 520,
+   "height": 300,
+   "color": "#2FBF9B"
+  },
+  {
+   "id": "hand-X",
+   "type": "text",
+   "text": "**X** \u00b7 `opposing_view` \u00b7 \u00b6 14\n\nAnalysts and the IMF read the post-2021 decline as real\n\n*Gloss:* Opposing view\n\n[[claims/opposing_view/Analysts and the IMF read the post-2021 decline as real|open note]]",
+   "x": -1980,
+   "y": 3800,
+   "width": 520,
+   "height": 300,
+   "color": "#8A8A8A"
+  },
+  {
+   "id": "hand-QF",
+   "type": "text",
+   "text": "**QF** \u00b7 `caveat` \u00b7 \u00b6 38\n\nThe income line carries no detail, so this cannot be checked from outside\n\n*Gloss:* Caveat\n\n[[claims/caveat/The income line carries no detail, so this cannot be checked from outside|open note]]",
+   "x": -1400,
+   "y": 3800,
+   "width": 520,
+   "height": 300,
+   "color": "#9A8C6A"
+  },
+  {
+   "id": "hand-DF",
+   "type": "text",
+   "text": "**DF** \u00b7 `deferred_question` \u00b7 \u00b6 35\n\nThe interest income anomaly is set aside \"for a future blog\"\n\n*Gloss:* Deferred question\n\n[[claims/deferred_question/The interest income anomaly is set aside for a future blog|open note]]",
+   "x": -820,
+   "y": 3800,
+   "width": 520,
+   "height": 300,
+   "color": "#7A6FA8"
+  },
+  {
+   "id": "model-Q",
+   "type": "text",
+   "text": "**Q** \u00b7 `question` \u00b7 \u00b6 1, 2, 3\n\nWhy does China's balance of payments goods surplus diverge so sharply from its customs goods surplus, and what does that mean for assessing China's current account?\n\n*Why:* When two official measures of the same quantity diverge sharply, the cause of the gap must be explained before either is used.",
+   "x": 300,
+   "y": 440,
+   "width": 520,
+   "height": 300,
+   "color": "#7A6FA8"
+  },
+  {
+   "id": "model-P1",
+   "type": "text",
+   "text": "**P1** \u00b7 `stated_assumption` \u00b7 \u00b6 26, 27, 28\n\nThe balance of payments exists to track foreign exchange flows, so transactions that never move foreign exchange should not change the true external balance.\n\n*Why:* External accounts should record only transactions that affect a country's foreign exchange position.",
+   "x": 1460,
+   "y": 920,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "model-ID",
+   "type": "text",
+   "text": "**ID** \u00b7 `accounting_identity` \u00b7 \u00b6 17, 18, 19\n\nA reclassification that shifts profit offshore should be offset by changes in the income and services lines, leaving the overall balance unchanged.\n\n*Why:* A pure change in classification moves amounts between accounts without changing the total.",
+   "x": 300,
+   "y": 920,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "model-P2",
+   "type": "text",
+   "text": "**P2** \u00b7 `stated_assumption` \u00b7 \u00b6 33, 36\n\nCustoms data, which records goods physically crossing the border, measures China's real trade better than survey-based balance of payments data.\n\n*Why:* Directly observed physical flows are a firmer guide than model-based or survey-based estimates.",
+   "x": 2040,
+   "y": 920,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "model-P3",
+   "type": "text",
+   "text": "**P3** \u00b7 `hidden_assumption` \u00b7 \u00b6 21, 24, 29, 39\n\nChina's pre-2020 methodology (customs imports minus about 5 percent for insurance and freight) remains a valid baseline for what the balance of payments goods data should show.\n\n*Why:* A long-standing stable relationship between two series is a fair counterfactual for judging a break in that relationship.",
+   "x": 2620,
+   "y": 920,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "model-P4",
+   "type": "text",
+   "text": "**P4** \u00b7 `hidden_assumption` \u00b7 \u00b6 29, 30, 33\n\nThe large-enterprise survey does not capture real cross-border activity that customs data misses, so the gap reflects measurement error rather than genuine economic flows.\n\n*Why:* An unverifiable data source that departs from verifiable data should be presumed wrong unless shown otherwise.",
+   "x": 3200,
+   "y": 920,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "model-M1",
+   "type": "text",
+   "text": "**M1** \u00b7 `mechanism` \u00b7 \u00b6 4, 5, 6, 7, 8, 9, 10, 11, 12, 13\n\nUnder factoryless manufacturing, a contract manufacturer's delivery to a foreign firm inside China is recorded as an export, and the foreign firm's sale back into China as an import; the markup turns into a goods deficit.\n\n*Why:* Recording transactions by residency rather than border crossing can create trade in goods that never leave the country.",
+   "x": 300,
+   "y": 2360,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "model-E3",
+   "type": "text",
+   "text": "**E3** \u00b7 `evidence_source` \u00b7 \u00b6 1, 3, 7, 14, 15\n\nThe IMF staff report's Appendix VII confirms that factoryless manufacturing transactions have been reducing China's BOP goods surplus.\n\n*Why:* An international institution's description of an official methodology is authoritative evidence of how that methodology works.",
+   "x": 880,
+   "y": 1880,
+   "width": 520,
+   "height": 300,
+   "color": "#2F7FBF"
+  },
+  {
+   "id": "model-C1",
+   "type": "text",
+   "text": "**C1** \u00b7 `intermediate_claim` \u00b7 \u00b6 16, 27\n\nA trade deficit arising from domestic production for the domestic market is economically meaningless.\n\n*Why:* A measured external flow with no counterpart in cross-border activity is an accounting artifact.",
+   "x": 300,
+   "y": 2840,
+   "width": 520,
+   "height": 300,
+   "color": "#2FBF9B"
+  },
+  {
+   "id": "model-E4",
+   "type": "text",
+   "text": "**E4** \u00b7 `evidence_discrepancy` \u00b7 \u00b6 20, 21, 22\n\nThe goods divergence is not offset elsewhere in the current account; the gap between the customs and current account figures is even larger than the goods gap.\n\n*Why:* If a reclassification changes the aggregate balance, it is not merely a reclassification.",
+   "x": 1460,
+   "y": 1880,
+   "width": 520,
+   "height": 300,
+   "color": "#2F7FBF"
+  },
+  {
+   "id": "model-E1",
+   "type": "text",
+   "text": "**E1** \u00b7 `evidence_data` \u00b7 \u00b6 23, 24, 39\n\nBOP exports fall well below customs exports, while BOP imports exceed customs imports despite the freight adjustment that should keep them lower; this is consistent with Adam Wolf's work.\n\n*Why:* Divergences on both sides of the ledger that run against the expected adjustment signal a measurement break.",
+   "x": 2040,
+   "y": 1880,
+   "width": 520,
+   "height": 300,
+   "color": "#2F7FBF"
+  },
+  {
+   "id": "model-M2",
+   "type": "text",
+   "text": "**M2** \u00b7 `mechanism` \u00b7 \u00b6 25\n\nForeign firms have tax incentives to shift profits out of China, so huge in-China markups by foreign firms are implausible.\n\n*Why:* Multinationals price transfers so as to book profits in low-tax jurisdictions without capital controls.",
+   "x": 880,
+   "y": 2360,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "model-SC",
+   "type": "text",
+   "text": "**SC** \u00b7 `source_credibility` \u00b7 \u00b6 30, 31, 38\n\nSince 2022 the BOP goods data has come from direct reporting by about 13,000 large enterprises plus bank payment records, so no one can replicate it from customs data.\n\n*Why:* Data that cannot be independently replicated deserves less trust.",
+   "x": 3780,
+   "y": 920,
+   "width": 520,
+   "height": 300,
+   "color": "#2FA88F"
+  },
+  {
+   "id": "model-SC2",
+   "type": "text",
+   "text": "**SC2** \u00b7 `source_credibility` \u00b7 \u00b6 40\n\nChina has a history of opportune methodology changes, such as the 2015 tourism spending revision documented by Anna Wong, that reduced its reported surplus.\n\n*Why:* A source with a record of convenient revisions merits scepticism toward new ones.",
+   "x": 880,
+   "y": 920,
+   "width": 520,
+   "height": 300,
+   "color": "#2FA88F"
+  },
+  {
+   "id": "model-E2",
+   "type": "text",
+   "text": "**E2** \u00b7 `evidence_data` \u00b7 \u00b6 29, 32\n\nThe BOP goods surplus is about $300 billion (over 1.5% of GDP) too small, and the Q2 current account was about $150 billion below what it should have been.\n\n*Why:* The size of a measurement gap determines whether it matters for macro assessment.",
+   "x": 300,
+   "y": 1880,
+   "width": 520,
+   "height": 300,
+   "color": "#2F7FBF"
+  },
+  {
+   "id": "model-RC",
+   "type": "text",
+   "text": "**RC** \u00b7 `reconstruction` \u00b7 \u00b6 24, 29\n\nCorrecting the goods data, the author estimates China's current account surplus at close to $700 billion.\n\n*Why:* Replace a flawed official series with one built on the pre-break methodology.",
+   "x": 880,
+   "y": 3320,
+   "width": 520,
+   "height": 300,
+   "color": "#2FBF9B"
+  },
+  {
+   "id": "model-K",
+   "type": "text",
+   "text": "**K** \u00b7 `main_claim` \u00b7 \u00b6 29, 33, 36\n\nThe fall in China's reported current account surplus since 2021 is mainly an artifact of an unjustified methodology change; China's true surplus is far larger, as the customs data shows.\n\n*Why:* When an official balance shifts only because of methodology, the underlying physical data reveal the real position.",
+   "x": 300,
+   "y": 3320,
+   "width": 520,
+   "height": 300,
+   "color": "#2FBF9B"
+  },
+  {
+   "id": "model-REC",
+   "type": "text",
+   "text": "**REC** \u00b7 `recommendation` \u00b7 \u00b6 3\n\nThe IMF and other global monitors should stop relying on China's reported current account surplus in their assessments.\n\n*Why:* Surveillance bodies should not base assessments on data known to be distorted.",
+   "x": 1460,
+   "y": 3320,
+   "width": 520,
+   "height": 300,
+   "color": "#2FBF9B"
+  },
+  {
+   "id": "model-X",
+   "type": "text",
+   "text": "**X** \u00b7 `opposing_view` \u00b7 \u00b6 36\n\nMany analysts take China's reported current account decline at face value as evidence of a shrinking impact on the world.\n\n*Why:* Headline official aggregates can mislead users who do not examine methodology.",
+   "x": 1460,
+   "y": 3800,
+   "width": 520,
+   "height": 300,
+   "color": "#8A8A8A"
+  },
+  {
+   "id": "model-QF",
+   "type": "text",
+   "text": "**QF** \u00b7 `caveat` \u00b7 \u00b6 11\n\nRecording contract-manufactured goods as exports is legitimate when they are actually shipped abroad; only the in-China resale case is problematic.\n\n*Why:* A methodology may be valid in some cases even if it distorts others.",
+   "x": 2040,
+   "y": 3800,
+   "width": 520,
+   "height": 300,
+   "color": "#9A8C6A"
+  },
+  {
+   "id": "model-QF2",
+   "type": "text",
+   "text": "**QF2** \u00b7 `caveat` \u00b7 \u00b6 37, 38\n\nBecause the income line offers no detail, the author cannot verify how profits and offsets were treated across line items.\n\n*Why:* Conclusions about offsetting entries are limited when the relevant accounts are opaque.",
+   "x": 880,
+   "y": 3800,
+   "width": 520,
+   "height": 300,
+   "color": "#9A8C6A"
+  },
+  {
+   "id": "model-DF",
+   "type": "text",
+   "text": "**DF** \u00b7 `deferred_question` \u00b7 \u00b6 34, 35\n\nThe puzzle of China's low interest income and large income deficit, despite higher global rates, is left for a future post.\n\n*Why:* Returns on foreign assets should rise with global interest rates.",
+   "x": 300,
+   "y": 3800,
+   "width": 520,
+   "height": 300,
+   "color": "#7A6FA8"
+  }
+ ],
+ "edges": [
+  {
+   "id": "h-E3-E4",
+   "fromNode": "hand-E3",
+   "fromSide": "bottom",
+   "toNode": "hand-E4",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "h-SC-E4",
+   "fromNode": "hand-SC",
+   "fromSide": "bottom",
+   "toNode": "hand-E4",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "h-E2-M1",
+   "fromNode": "hand-E2",
+   "fromSide": "bottom",
+   "toNode": "hand-M1",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "h-E2-M2",
+   "fromNode": "hand-E2",
+   "fromSide": "bottom",
+   "toNode": "hand-M2",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "h-M1-C1",
+   "fromNode": "hand-M1",
+   "fromSide": "bottom",
+   "toNode": "hand-C1",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "h-M2-C1",
+   "fromNode": "hand-M2",
+   "fromSide": "bottom",
+   "toNode": "hand-C1",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "h-E4-C1",
+   "fromNode": "hand-E4",
+   "fromSide": "bottom",
+   "toNode": "hand-C1",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "h-E1-C1",
+   "fromNode": "hand-E1",
+   "fromSide": "bottom",
+   "toNode": "hand-C1",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "h-P1-C1",
+   "fromNode": "hand-P1",
+   "fromSide": "bottom",
+   "toNode": "hand-C1",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 licenses"
+  },
+  {
+   "id": "h-C1-K",
+   "fromNode": "hand-C1",
+   "fromSide": "bottom",
+   "toNode": "hand-K",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "h-K-RC",
+   "fromNode": "hand-K",
+   "fromSide": "bottom",
+   "toNode": "hand-RC",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 reconstructs"
+  },
+  {
+   "id": "h-P2-RC",
+   "fromNode": "hand-P2",
+   "fromSide": "bottom",
+   "toNode": "hand-RC",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 licenses"
+  },
+  {
+   "id": "h-K-REC",
+   "fromNode": "hand-K",
+   "fromSide": "bottom",
+   "toNode": "hand-REC",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 motivates"
+  },
+  {
+   "id": "h-K-X",
+   "fromNode": "hand-K",
+   "fromSide": "bottom",
+   "toNode": "hand-X",
+   "toSide": "top",
+   "color": "1",
+   "label": "-1 rebuts"
+  },
+  {
+   "id": "h-RC-QF",
+   "fromNode": "hand-RC",
+   "fromSide": "bottom",
+   "toNode": "hand-QF",
+   "toSide": "top",
+   "color": "1",
+   "label": "-1 qualified_by"
+  },
+  {
+   "id": "h-K-DF",
+   "fromNode": "hand-K",
+   "fromSide": "bottom",
+   "toNode": "hand-DF",
+   "toSide": "top",
+   "color": "6",
+   "label": "0 defers"
+  },
+  {
+   "id": "m-e001",
+   "fromNode": "model-Q",
+   "fromSide": "bottom",
+   "toNode": "model-P1",
+   "toSide": "top",
+   "color": "6",
+   "label": "0 frames"
+  },
+  {
+   "id": "m-e002",
+   "fromNode": "model-Q",
+   "fromSide": "bottom",
+   "toNode": "model-P2",
+   "toSide": "top",
+   "color": "6",
+   "label": "0 frames"
+  },
+  {
+   "id": "m-e003",
+   "fromNode": "model-Q",
+   "fromSide": "bottom",
+   "toNode": "model-P3",
+   "toSide": "top",
+   "color": "6",
+   "label": "0 frames"
+  },
+  {
+   "id": "m-e004",
+   "fromNode": "model-Q",
+   "fromSide": "bottom",
+   "toNode": "model-ID",
+   "toSide": "top",
+   "color": "6",
+   "label": "0 frames"
+  },
+  {
+   "id": "m-e005",
+   "fromNode": "model-Q",
+   "fromSide": "bottom",
+   "toNode": "model-P4",
+   "toSide": "top",
+   "color": "6",
+   "label": "0 frames"
+  },
+  {
+   "id": "m-e006",
+   "fromNode": "model-E3",
+   "fromSide": "bottom",
+   "toNode": "model-M1",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "m-e007",
+   "fromNode": "model-M1",
+   "fromSide": "bottom",
+   "toNode": "model-C1",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "m-e008",
+   "fromNode": "model-P1",
+   "fromSide": "bottom",
+   "toNode": "model-C1",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 licenses"
+  },
+  {
+   "id": "m-e009",
+   "fromNode": "model-ID",
+   "fromSide": "bottom",
+   "toNode": "model-E4",
+   "toSide": "top",
+   "color": "6",
+   "label": "0 frames"
+  },
+  {
+   "id": "m-e010",
+   "fromNode": "model-E4",
+   "fromSide": "bottom",
+   "toNode": "model-K",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "m-e011",
+   "fromNode": "model-P3",
+   "fromSide": "bottom",
+   "toNode": "model-E1",
+   "toSide": "top",
+   "color": "6",
+   "label": "0 frames"
+  },
+  {
+   "id": "m-e012",
+   "fromNode": "model-E1",
+   "fromSide": "bottom",
+   "toNode": "model-K",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "m-e013",
+   "fromNode": "model-M2",
+   "fromSide": "bottom",
+   "toNode": "model-C1",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "m-e014",
+   "fromNode": "model-C1",
+   "fromSide": "bottom",
+   "toNode": "model-K",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "m-e015",
+   "fromNode": "model-SC",
+   "fromSide": "bottom",
+   "toNode": "model-K",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "m-e016",
+   "fromNode": "model-SC2",
+   "fromSide": "bottom",
+   "toNode": "model-K",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "m-e017",
+   "fromNode": "model-P3",
+   "fromSide": "bottom",
+   "toNode": "model-E2",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 bounds"
+  },
+  {
+   "id": "m-e018",
+   "fromNode": "model-E2",
+   "fromSide": "bottom",
+   "toNode": "model-RC",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "m-e019",
+   "fromNode": "model-K",
+   "fromSide": "bottom",
+   "toNode": "model-RC",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 reconstructs"
+  },
+  {
+   "id": "m-e020",
+   "fromNode": "model-P2",
+   "fromSide": "bottom",
+   "toNode": "model-K",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 licenses"
+  },
+  {
+   "id": "m-e021",
+   "fromNode": "model-P4",
+   "fromSide": "bottom",
+   "toNode": "model-K",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 licenses"
+  },
+  {
+   "id": "m-e022",
+   "fromNode": "model-K",
+   "fromSide": "bottom",
+   "toNode": "model-REC",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 motivates"
+  },
+  {
+   "id": "m-e023",
+   "fromNode": "model-K",
+   "fromSide": "bottom",
+   "toNode": "model-X",
+   "toSide": "top",
+   "color": "1",
+   "label": "-1 rebuts"
+  },
+  {
+   "id": "m-e024",
+   "fromNode": "model-M1",
+   "fromSide": "bottom",
+   "toNode": "model-QF",
+   "toSide": "top",
+   "color": "1",
+   "label": "-1 qualified_by"
+  },
+  {
+   "id": "m-e025",
+   "fromNode": "model-E4",
+   "fromSide": "bottom",
+   "toNode": "model-QF2",
+   "toSide": "top",
+   "color": "1",
+   "label": "-1 qualified_by"
+  },
+  {
+   "id": "m-e026",
+   "fromNode": "model-K",
+   "fromSide": "bottom",
+   "toNode": "model-DF",
+   "toSide": "top",
+   "color": "6",
+   "label": "0 defers"
+  },
+  {
+   "id": "m-e027",
+   "fromNode": "model-P2",
+   "fromSide": "bottom",
+   "toNode": "model-SC",
+   "toSide": "top",
+   "color": "6",
+   "label": "0 frames"
+  },
+  {
+   "id": "p-C1-C1",
+   "fromNode": "hand-C1",
+   "fromSide": "bottom",
+   "toNode": "model-C1",
+   "toSide": "bottom",
+   "color": "5",
+   "label": "paragraph"
+  },
+  {
+   "id": "p-DF-DF",
+   "fromNode": "hand-DF",
+   "fromSide": "bottom",
+   "toNode": "model-DF",
+   "toSide": "bottom",
+   "color": "5",
+   "label": "paragraph"
+  },
+  {
+   "id": "p-E1-E2",
+   "fromNode": "hand-E1",
+   "fromSide": "bottom",
+   "toNode": "model-E2",
+   "toSide": "bottom",
+   "color": "5",
+   "label": "paragraph"
+  },
+  {
+   "id": "p-E2-E3",
+   "fromNode": "hand-E2",
+   "fromSide": "bottom",
+   "toNode": "model-E3",
+   "toSide": "bottom",
+   "color": "5",
+   "label": "paragraph"
+  },
+  {
+   "id": "p-E4-E4",
+   "fromNode": "hand-E4",
+   "fromSide": "bottom",
+   "toNode": "model-E4",
+   "toSide": "bottom",
+   "color": "5",
+   "label": "slot"
+  },
+  {
+   "id": "p-K-K",
+   "fromNode": "hand-K",
+   "fromSide": "bottom",
+   "toNode": "model-K",
+   "toSide": "bottom",
+   "color": "5",
+   "label": "paragraph"
+  },
+  {
+   "id": "p-M1-M1",
+   "fromNode": "hand-M1",
+   "fromSide": "bottom",
+   "toNode": "model-M1",
+   "toSide": "bottom",
+   "color": "5",
+   "label": "paragraph"
+  },
+  {
+   "id": "p-P1-ID",
+   "fromNode": "hand-P1",
+   "fromSide": "bottom",
+   "toNode": "model-ID",
+   "toSide": "bottom",
+   "color": "5",
+   "label": "paragraph"
+  },
+  {
+   "id": "p-Q-Q",
+   "fromNode": "hand-Q",
+   "fromSide": "bottom",
+   "toNode": "model-Q",
+   "toSide": "bottom",
+   "color": "5",
+   "label": "slot"
+  },
+  {
+   "id": "p-QF-QF2",
+   "fromNode": "hand-QF",
+   "fromSide": "bottom",
+   "toNode": "model-QF2",
+   "toSide": "bottom",
+   "color": "5",
+   "label": "paragraph"
+  },
+  {
+   "id": "p-RC-RC",
+   "fromNode": "hand-RC",
+   "fromSide": "bottom",
+   "toNode": "model-RC",
+   "toSide": "bottom",
+   "color": "5",
+   "label": "paragraph"
+  },
+  {
+   "id": "p-REC-REC",
+   "fromNode": "hand-REC",
+   "fromSide": "bottom",
+   "toNode": "model-REC",
+   "toSide": "bottom",
+   "color": "5",
+   "label": "paragraph"
+  },
+  {
+   "id": "p-SC-SC2",
+   "fromNode": "hand-SC",
+   "fromSide": "bottom",
+   "toNode": "model-SC2",
+   "toSide": "bottom",
+   "color": "5",
+   "label": "paragraph"
+  },
+  {
+   "id": "p-X-X",
+   "fromNode": "hand-X",
+   "fromSide": "bottom",
+   "toNode": "model-X",
+   "toSide": "bottom",
+   "color": "5",
+   "label": "slot"
+  }
+ ]
+}

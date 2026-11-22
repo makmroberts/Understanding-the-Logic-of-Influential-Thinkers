@@ -15,25 +15,26 @@ Aligned to **bpm6** `current account (world aggregate)` — _component name, not
 
 21 claims across 5 articles · facet `variable` · [[By variable]] · [[index]]
 
-**Position in the argument graph** — centrality 68 (3.24 per claim), 30 out / 38 in, bias -0.12.
+**Position in the argument graph** — centrality 68 (3.24 per claim), 31 out / 37 in, bias -0.09.
 
 He argues **toward** this more than from it: it behaves like a conclusion.
 
 ## Argued together with
 
-- **country**: [[china]] (15), [[us]] (3), [[euro-area]] (2)
+- **country**: [[china]] (15), [[us]] (3), [[euro-area]] (2), [[japan]] (1)
 - **bloc**: [[global]] (4)
 - **instrument**: [[fiscal-policy]] (1), [[monetary-policy]] (1), [[structural-reform]] (1), [[fx-intervention]] (1)
 - **data_basis**: [[imf-publications]] (8), [[balance-of-payments]] (3)
 
 ## Claims by role
 
-### intermediate_claim (4)
+### intermediate_claim (5)
 
 - **2019-09** [[The U.S. cannot absorb surpluses forever]] · _Why do global trade imbalances persist, and ..._
 - **2024-03** [[The counterpart to the surplus is the United States, not commodity exporters, and the gap]] · _China's Record Manufacturing Surplus_
 - **2025-07** [[Current account comparisons based on balance of payments data make Europe, not China]] · _China's Stealth Trade Surplus_
 - **2025-11** [[China's surplus is massive and growing, yet IMF policy advice effectively lets China]] · _China's Massive Surplus is Everywhere (Yet T..._
+- **2026-08** [[Exchange rate diplomacy has worked Plaza reduced imbalances without causing Japan's]] · _The World Should Not Ignore China’s Underval..._
 
 ### main_claim (4)
 
@@ -48,12 +49,6 @@ He argues **toward** this more than from it: it behaves like a conclusion.
 - **2025-07** [[The IMF and analysts using comprehensive goods and services data, who see the EU]] · _China's Stealth Trade Surplus_
 - **2025-11** [[The IMF's framing; the argument that Europe's surplus is almost as big]] · _China's Massive Surplus is Everywhere (Yet T..._
 
-### hidden_assumption (3)
-
-- **2024-03** [[A correctly measured imbalance ought to drive policy]] · _China's Record Manufacturing Surplus_
-- **2025-11** [[External balance is a legitimate policy target; exporting your way out of a slump imposes]] · _China's Massive Surplus is Everywhere (Yet T..._
-- **2026-10** [[China's size makes its currency management matter for the rest of the world]] · _What’s the Renminbi Got to Do With it?_
-
 ### question (2)
 
 - **2019-09** [[Why do global trade imbalances persist, and why could they worsen before improving]] · _Why do global trade imbalances persist, and ..._
@@ -63,6 +58,11 @@ He argues **toward** this more than from it: it behaves like a conclusion.
 
 - **2019-09** [[Foreign surpluses require deficit absorption]] · _Why do global trade imbalances persist, and ..._
 - **2025-11** [[IMF lens]] · _China's Massive Surplus is Everywhere (Yet T..._
+
+### hidden_assumption (2)
+
+- **2024-03** [[A correctly measured imbalance ought to drive policy]] · _China's Record Manufacturing Surplus_
+- **2025-11** [[External balance is a legitimate policy target; exporting your way out of a slump imposes]] · _China's Massive Surplus is Everywhere (Yet T..._
 
 ### accounting_identity (1)
 

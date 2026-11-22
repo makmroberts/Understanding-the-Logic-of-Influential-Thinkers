@@ -2,7 +2,7 @@
 type: subject
 facet: instrument
 term: industrial-policy
-claims: 29
+claims: 31
 saturated: false
 tags: [subject, subject/instrument, instrument/industrial-policy]
 ---
@@ -11,17 +11,17 @@ tags: [subject, subject/instrument, instrument/industrial-policy]
 
 > Subsidies, directed credit and state capacity-building.
 
-29 claims across 6 articles · facet `instrument` · [[By instrument]] · [[index]]
+31 claims across 6 articles · facet `instrument` · [[By instrument]] · [[index]]
 
-**Position in the argument graph** — centrality 92 (3.17 per claim), 47 out / 45 in, bias +0.02.
+**Position in the argument graph** — centrality 91 (2.94 per claim), 47 out / 44 in, bias +0.03.
 
 Sits in the middle of arguments - as much argued toward as argued from.
 
 ## Argued together with
 
-- **variable**: [[import-volumes]] (22), [[manufacturing-output]] (8), [[bilateral-trade-flows]] (4), [[tariff-rate]] (3), [[nominal-exchange-rate]] (2)
-- **country**: [[china]] (29), [[us]] (5), [[euro-area]] (1), [[canada]] (1), [[australia]] (1)
-- **data_basis**: [[imf-publications]] (1), [[press-reporting]] (1)
+- **variable**: [[import-volumes]] (23), [[manufacturing-output]] (8), [[bilateral-trade-flows]] (4), [[tariff-rate]] (3), [[nominal-exchange-rate]] (2)
+- **country**: [[china]] (31), [[us]] (5), [[euro-area]] (1), [[canada]] (1), [[australia]] (1)
+- **data_basis**: [[imf-publications]] (1), [[press-reporting]] (1), [[academic-econometrics]] (1)
 
 ## Claims by role
 
@@ -53,13 +53,12 @@ Sits in the middle of arguments - as much argued toward as argued from.
 - **2019-05** [[Oil and gas state majors control the pipes]] · _Does a purchase-commitment deal push China b..._
 - **2019-05** [[The capital-goods roll call]] · _Does a purchase-commitment deal push China b..._
 
-### intermediate_claim (5)
+### intermediate_claim (4)
 
 - **2019-05** [[China never left managed trade]] · _Does a purchase-commitment deal push China b..._
 - **2019-05** [[Reform and opening was partial and sector-specific]] · _Does a purchase-commitment deal push China b..._
 - **2019-05** [[Removing formal barriers is not enough]] · _Does a purchase-commitment deal push China b..._
 - **2020-01** [[Five parallel verdicts industrial policy untouched, currency buffered, Treasuries unused]] · _Lessons From Phase One of the Trade War With..._
-- **2026-10** [[Structural gains (WTO accession, green industrial policy) were amplified by a weak]] · _What’s the Renminbi Got to Do With it?_
 
 ### main_claim (2)
 
@@ -77,4 +76,16 @@ Sits in the middle of arguments - as much argued toward as argued from.
 ### opposing_view (1)
 
 - **2019-05** [[Consensus view the deal pushes China back to managed trade]] · _Does a purchase-commitment deal push China b..._
+
+### other_explanation (1)
+
+- **2026-08** [[Industrial policy and a domestic market rigged against imports also drove China's export]] · _The World Should Not Ignore China’s Underval..._
+
+### evidence_source (1)
+
+- **2026-08** [[Landau and Jean argue the weak real exchange rate is a deliberate feature of Xi's]] · _The World Should Not Ignore China’s Underval..._
+
+### accounting_identity (1)
+
+- **2026-08** [[Cutting investment subsidies without raising consumption would enlarge the surplus]] · _The World Should Not Ignore China’s Underval..._
 

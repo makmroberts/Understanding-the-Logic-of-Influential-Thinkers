@@ -927,6 +927,43 @@ search in one store. It loaded and checked, and was dropped for Neo4j:
 Its one real advantage, graph traversal and vector search in a single query, is a
 retrieval question for `ask.py`, not a reason to hold the graph there.
 
+## Hand vs model canvases (2026-11-22)
+
+`export_compare.py` draws one Obsidian canvas per article that has both a hand-drawn
+map and an official model run (10 today), in `obsidian/compare/` (issue #5). The hand
+map is on the left and the model's run on the right, laid out by level, so a step and
+its counterpart share a row. Cyan edges are the matcher's pairs, labelled `paragraph`
+or `slot`. A header card lists the unmatched steps on each side.
+
+Both sides use the same card, built only from fields both processes produce: ID,
+role, cited paragraphs, the claim, then a labelled third line. That line is the
+annotator's gloss on the hand side and the model's `reason` ("why") on the model side.
+They are different kinds of note, so they keep different labels. The first version
+used the full claim note as the hand card. Next to a three-line model card it was not
+comparable: the note's Leads to / Rests on / Subject / Source sections buried the
+claim and scrolled. Hand cards keep an "open note" link to the full note.
+
+Matched cards sit nearest the middle, in mirrored order, and pair edges run from
+bottom to bottom, so they nest as U's under the row. The first version joined cards
+side to side, so every line in a row overlapped at the same height and ran through
+the cards between a pair.
+
+Text cards show as grey bars when the canvas is zoomed far out; zoom in to read them.
+Taller cards (420 instead of 300) were tried and dropped: the longest card is about
+630 characters and fits at 300.
+
+The decision that matters: the pairs come from importing
+`annotation/src/annotate/evaluate.py` (`match`, `hand_map`, `model_map`), not from a
+second matcher here. A second matcher would draw pairs that disagree with the run's
+`evaluation.md`. Nothing under `annotation/` is written. `hand_map` reads
+`annotation/kb/data` rather than `data/`, so the script checks that both have the same
+node IDs for each article and warns if not. Checked on all 10: the matched counts and
+the by-paragraph counts equal each run's `evaluation.md` exactly.
+
+Run `export_obsidian.py` first, so the hand cards' "open note" links resolve.
+`compare/` is not one of `export_obsidian.py`'s owned folders, so a vault export does
+not prune it.
+
 ## Known issues
 
 - **Date in the article list is wrong for one entry.** "Why Didn't Tariffs Push

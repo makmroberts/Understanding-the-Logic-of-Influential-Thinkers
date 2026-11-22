@@ -6,7 +6,7 @@ article: "What’s the Renminbi Got to Do With it?"
 doc: setser_2026-10-13_whats-the-renminbi-got-to-do-with-it
 node_id: BM
 family: llm
-aliases: ["Under fixed-but-adjustable regimes, surplus countries were expected to revalue for external balance and use other tools for internal balance, and China's regime resembles that system"]
+aliases: ["Under fixed-but-adjustable regimes, surplus countries were expected to revalue for external balance and use other tools for internal balance; China's managed rate resembles that regime"]
 relation_sources: [llm]
 variable: [nominal-exchange-rate, current-account]
 country_subject: [china]
@@ -14,10 +14,14 @@ instrument: [fx-intervention]
 tags: [type/benchmark, level/L1B, family/llm, variable/nominal-exchange-rate, variable/current-account, country/china, where/china, instrument/fx-intervention]
 ---
 
-# Under fixed-but-adjustable regimes, surplus countries were expected to revalue for external balance and use other tools for internal balance, and China's regime resembles that system.
+# Under fixed-but-adjustable regimes, surplus countries were expected to revalue for external balance and use other tools for internal balance; China's managed rate resembles that regime.
 
 ## Leads to
-- **+1 licenses** → [[Europe and the IMF should put RMB exchange rate adjustment on the agenda with China]] `recommendation`
+- **+1 bounds** → [[Low volatility, the controlled 10% fall in 2022, the slow crawl up since, and FX]] `evidence_data`
+- **+1 licenses** → [[China is on a collision course with its trading partners, and there is no realistic path]] `main_claim`
+
+## Rests on
+- [[Is China's export surge simply a mechanical result of weak domestic demand]] `question` **0 frames** this
 
 ## Subject
 

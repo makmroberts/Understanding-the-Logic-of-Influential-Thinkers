@@ -2,7 +2,7 @@
  "result": [
   {
    "excerpt": "The Economist is now arguing that China’s trade surplus has peaked.",
-   "claim": "Has China's trade surplus really peaked, as the Economist claims, or is the underlying surplus still growing?",
+   "claim": "Has China's trade surplus really peaked and begun shrinking, as the Economist claims?",
    "role": "question",
    "explicit": false,
    "kind": "none",
@@ -12,14 +12,20 @@
     2,
     3
    ],
-   "reason": "A headline trade balance must be checked against its components before inferring a trend.",
+   "reason": "A headline trade balance claim must be checked against the underlying components before accepting it.",
    "excerpt_para": 1,
+   "excerpt_spans": [
+    {
+     "char_start": 0,
+     "char_end": 67
+    }
+   ],
    "id": "Q",
    "level": "L0"
   },
   {
    "excerpt": "The Economist is now arguing that China’s trade surplus has peaked.",
-   "claim": "The Economist, following Adam Wolfe of Absolute Strategy Research, argues China's surplus has peaked.",
+   "claim": "The Economist, drawing on Adam Wolfe of Absolute Strategy Research, argues China's trade surplus has peaked.",
    "role": "opposing_view",
    "explicit": true,
    "kind": "none",
@@ -28,14 +34,20 @@
     1,
     27
    ],
-   "reason": "A claim of trend reversal must survive removal of one-off items.",
+   "reason": "Claims of rebalancing in a surplus economy deserve scrutiny when volumes still point the other way.",
    "excerpt_para": 1,
+   "excerpt_spans": [
+    {
+     "char_start": 0,
+     "char_end": 67
+    }
+   ],
    "id": "X",
    "level": "L6"
   },
   {
-   "excerpt": "Net exports have contributed positively to China’s growth in Q1 and Q2.",
-   "claim": "The price-adjusted surplus is still rising: net exports added 0.8 pp of GDP in Q1 and 0.9 pp in Q2.",
+   "excerpt": "That is a strange argument, as the “real” (price-adjusted) trade surplus is still growing. Net exports have contributed positively to China’s growth in Q1 and Q2.",
+   "claim": "The price-adjusted trade surplus is still growing, with net exports adding 0.8 pp of GDP to growth in Q1 and 0.9 pp in Q2.",
    "role": "evidence_data",
    "explicit": true,
    "kind": "none",
@@ -44,80 +56,64 @@
     2,
     24
    ],
-   "reason": "Real net export contributions measure the change in the volume surplus independent of price swings.",
+   "reason": "A rising real net export contribution signals a growing underlying surplus regardless of nominal swings.",
    "excerpt_para": 2,
+   "excerpt_spans": [
+    {
+     "char_start": 0,
+     "char_end": 162
+    }
+   ],
    "id": "E1",
    "level": "L2"
   },
   {
    "excerpt": "China’s exports of chips are up almost as much as its imports.",
-   "claim": "Higher chip prices raise both chip imports and exports, so they barely move the net balance.",
-   "role": "mechanism",
+   "claim": "Higher chip prices raise China's chip exports nearly as much as its chip imports, so chips do not explain a falling net surplus.",
+   "role": "intermediate_claim",
    "explicit": true,
-   "kind": "economic",
+   "kind": "none",
    "claim_type": "none",
    "paragraphs": [
     4,
     14,
     15
    ],
-   "reason": "A price shock to a good both imported and exported largely nets out in the balance.",
+   "reason": "A price shock affecting both sides of trade largely nets out of the balance.",
    "excerpt_para": 4,
-   "id": "M1",
-   "level": "L3"
+   "excerpt_spans": [
+    {
+     "char_start": 100,
+     "char_end": 162
+    }
+   ],
+   "id": "C1",
+   "level": "L4"
   },
   {
    "excerpt": "The price of oil imports is up but import volumes have famously collapsed; the commodity import bill is up, but only modestly.",
-   "claim": "Oil price gains are offset by collapsing import volumes, so the commodity bill rose only modestly.",
-   "role": "intermediate_claim",
+   "claim": "Oil import volumes collapsed, so the commodity import bill rose only modestly and oil is not the key adjustment.",
+   "role": "evidence_data",
    "explicit": true,
    "kind": "none",
    "claim_type": "none",
    "paragraphs": [
     5
    ],
-   "reason": "An import bill depends on volume as well as price.",
+   "reason": "Falling volumes can offset higher prices in the import bill.",
    "excerpt_para": 5,
-   "id": "C1",
-   "level": "L4"
-  },
-  {
-   "excerpt": "The critical adjustment is to net out imports of gold",
-   "claim": "Gold imports should be netted out of the headline balance because they are a one-off surge, not underlying trade.",
-   "role": "scope_choice",
-   "explicit": true,
-   "kind": "none",
-   "claim_type": "none",
-   "paragraphs": [
-    6,
-    9,
-    12
+   "excerpt_spans": [
+    {
+     "char_start": 69,
+     "char_end": 195
+    }
    ],
-   "reason": "Excluding volatile store-of-value flows reveals the underlying trade trend.",
-   "excerpt_para": 6,
-   "id": "SCP",
-   "level": "L1B"
-  },
-  {
-   "excerpt": "",
-   "claim": "Gold imports reflect financial or reserve-asset demand rather than the real trade dynamics relevant to growth and imbalances.",
-   "role": "hidden_assumption",
-   "explicit": false,
-   "kind": "none",
-   "claim_type": "none",
-   "paragraphs": [
-    6,
-    7,
-    22
-   ],
-   "reason": "Gold flows behave like asset purchases and distort goods balances as a measure of competitiveness.",
-   "excerpt_para": null,
-   "id": "P2",
-   "level": "L1"
+   "id": "E2",
+   "level": "L2"
   },
   {
    "excerpt": "year-to-date imports in 2026 are $146 billion, nearly $100 billion above the 2025 H1 total. In Q2, gold imports were an incredible 1.5 pp of GDP.",
-   "claim": "Gold imports reached $146 billion in H1 2026, nearly $100 billion above H1 2025, and 1.5% of GDP in Q2, even as gold prices fell.",
+   "claim": "Gold imports reached $146 billion in H1 2026, nearly $100 billion above H1 2025, and 1.5 pp of GDP in Q2, even as gold prices fell.",
    "role": "evidence_data",
    "explicit": true,
    "kind": "none",
@@ -126,30 +122,43 @@
     6,
     9
    ],
-   "reason": "A volume surge during falling prices signals a demand shift, not a valuation effect.",
+   "reason": "Large one-off financial-asset imports can swamp movements in the headline goods balance.",
    "excerpt_para": 6,
-   "id": "E2",
+   "excerpt_spans": [
+    {
+     "char_start": 54,
+     "char_end": 199
+    }
+   ],
+   "id": "E3",
    "level": "L2"
   },
   {
-   "excerpt": "to my surprise to be honest",
-   "claim": "The author expected chips or oil, not gold, to be the key adjustment, and expected chips to have a bigger net effect.",
-   "role": "revised_prior",
+   "excerpt": "The critical adjustment is to net out imports of gold",
+   "claim": "Gold imports should be netted out because they reflect asset demand rather than the underlying trade position.",
+   "role": "stated_assumption",
    "explicit": true,
    "kind": "none",
    "claim_type": "none",
    "paragraphs": [
+    6,
     9,
-    25
+    26
    ],
-   "reason": "Decompose both sides of trade rather than assuming a large gross shock moves the net.",
-   "excerpt_para": 9,
-   "id": "P3",
+   "reason": "Gold flows behave like portfolio flows and distort goods trade as a gauge of real demand.",
+   "excerpt_para": 6,
+   "excerpt_spans": [
+    {
+     "char_start": 0,
+     "char_end": 53
+    }
+   ],
+   "id": "P1",
    "level": "L1"
   },
   {
    "excerpt": "Without that import surge, the overall goods trade surplus would be up by over $80 billion in the first half of 2026.",
-   "claim": "Excluding gold, the goods surplus rose over $80 billion in H1 2026 and would be near 7% of GDP in Q2.",
+   "claim": "Excluding gold, China's goods surplus rose by over $80 billion in H1 2026 and would be close to 7% of GDP in Q2.",
    "role": "reconstruction",
    "explicit": true,
    "kind": "none",
@@ -159,65 +168,65 @@
     16,
     22
    ],
-   "reason": "Rebuild the headline balance without the distorting item to see the true level.",
+   "reason": "Removing a distorting component from a headline measure reveals the underlying trend.",
    "excerpt_para": 7,
+   "excerpt_spans": [
+    {
+     "char_start": 0,
+     "char_end": 117
+    }
+   ],
    "id": "RC",
    "level": "L5"
   },
   {
-   "excerpt": "Exports are up. This shouldn’t be a surprise: auto exports are absolutely booming, and imports are still flat.",
-   "claim": "Manufactures trade excluding chips and gold shows rising exports driven by autos, with flat imports, so the manufacturing surplus keeps rising.",
-   "role": "intermediate_claim",
+   "excerpt": "The easiest way to see this is to look at Chinese trade in manufactures excluding chips and excluding gold",
+   "claim": "The cleanest gauge is manufactures trade excluding chips and gold, where exports are up and imports are flat.",
+   "role": "scope_choice",
    "explicit": true,
    "kind": "none",
    "claim_type": "none",
    "paragraphs": [
     12,
     13,
-    21,
-    27
+    21
    ],
-   "reason": "A core balance stripped of price-volatile items shows the underlying trend most cleanly.",
-   "excerpt_para": 13,
-   "id": "C2",
-   "level": "L4"
+   "reason": "Excluding price-volatile and asset-like categories isolates core manufacturing competitiveness.",
+   "excerpt_para": 12,
+   "excerpt_spans": [
+    {
+     "char_start": 0,
+     "char_end": 106
+    }
+   ],
+   "id": "SCP",
+   "level": "L1B"
   },
   {
-   "excerpt": "refined gold is classified as a manufacture, the commodity is gold rich ores",
-   "claim": "Refined gold is classified as a manufacture, so gold flows contaminate the manufacturing balance.",
-   "role": "stated_assumption",
+   "excerpt": "auto exports are absolutely booming, and imports are still flat.",
+   "claim": "Booming auto exports, globally and to Europe, alongside flat imports drive the rising manufacturing surplus.",
+   "role": "evidence_data",
    "explicit": true,
    "kind": "none",
    "claim_type": "none",
    "paragraphs": [
-    12,
-    26
+    13,
+    27
    ],
-   "reason": "Classification conventions determine which category a volatile flow distorts.",
-   "excerpt_para": 12,
-   "id": "P1",
-   "level": "L1"
+   "reason": "Rapid export volume growth in a key sector is direct evidence of rising surplus.",
+   "excerpt_para": 13,
+   "excerpt_spans": [
+    {
+     "char_start": 46,
+     "char_end": 110
+    }
+   ],
+   "id": "E4",
+   "level": "L2"
   },
   {
-   "excerpt": "China’s statistical authorities were slow to recognize the “chip” shock",
-   "claim": "Lagging price indices treated chip-price-driven value gains as volume gains in Q1, and gold overstated Q2 real imports, understating reported growth.",
-   "role": "mechanism",
-   "explicit": true,
-   "kind": "distortion",
-   "claim_type": "none",
-   "paragraphs": [
-    18,
-    19,
-    20
-   ],
-   "reason": "If trade values rise but deflators lag, measured volumes are overstated.",
-   "excerpt_para": 18,
-   "id": "M2",
-   "level": "L3"
-  },
-  {
-   "excerpt": "The underlying Chinese surplus is still heading up, just as the underlying U.S. deficit is now expanding",
-   "claim": "China's underlying surplus is still rising; it continues to rely heavily on exports for growth.",
+   "excerpt": "The underlying Chinese surplus is still heading up",
+   "claim": "China's underlying surplus is still rising and China continues to rely heavily on exports for growth; the financial press missed it.",
    "role": "main_claim",
    "explicit": true,
    "kind": "none",
@@ -228,14 +237,20 @@
     23,
     27
    ],
-   "reason": "The underlying trend, not the gold-distorted headline, shows dependence on external demand.",
+   "reason": "Trend conclusions should rest on adjusted underlying data, not distorted headline totals.",
    "excerpt_para": 11,
+   "excerpt_spans": [
+    {
+     "char_start": 0,
+     "char_end": 50
+    }
+   ],
    "id": "K",
    "level": "L5"
   },
   {
-   "excerpt": "the underlying U.S. deficit is now expanding (because of “AI”/ data center investment and a big fiscal deficit)",
-   "claim": "The U.S. deficit is widening due to AI investment and fiscal deficits, the mirror of China's surplus.",
+   "excerpt": "just as the underlying U.S. deficit is now expanding (because of “AI”/ data center investment and a big fiscal deficit)",
+   "claim": "AI/data-center investment and a large fiscal deficit are expanding the U.S. deficit, the counterpart to China's surplus.",
    "role": "mechanism",
    "explicit": true,
    "kind": "economic",
@@ -243,29 +258,43 @@
    "paragraphs": [
     11
    ],
-   "reason": "Investment booms and fiscal deficits widen external deficits.",
+   "reason": "Investment booms and fiscal deficits raise a country's external deficit.",
    "excerpt_para": 11,
-   "id": "M3",
+   "excerpt_spans": [
+    {
+     "char_start": 52,
+     "char_end": 171
+    }
+   ],
+   "id": "M1",
    "level": "L3"
   },
   {
-   "excerpt": "The 2025 U.S. trade data also needs to be gold-adjusted, by the way.",
-   "claim": "U.S. 2025 data are also distorted by tariff-driven gold bar imports and their reversal, flattering the Q4 and Q1 deficit.",
-   "role": "intermediate_claim",
+   "excerpt": "if the dollar value of trade rises and import and export prices don’t rise, statistically there is an increase in the volume of trade",
+   "claim": "Slow recognition of the chip price shock in Q1 deflators distorted volume data and understated Q1 net export contribution, while Q2 gold inflated imports and lowered reported growth.",
+   "role": "mechanism",
    "explicit": true,
-   "kind": "none",
+   "kind": "distortion",
    "claim_type": "none",
    "paragraphs": [
-    26
+    18,
+    19,
+    20
    ],
-   "reason": "The same gold distortion applies to any country with large bullion flows.",
-   "excerpt_para": 26,
-   "id": "C3",
-   "level": "L4"
+   "reason": "Lagging price indices misattribute nominal changes to volumes, biasing real growth estimates.",
+   "excerpt_para": 19,
+   "excerpt_spans": [
+    {
+     "char_start": 87,
+     "char_end": 220
+    }
+   ],
+   "id": "M2",
+   "level": "L3"
   },
   {
    "excerpt": "Yes, there are changes in the commodity balance and the manufacturing balance too.",
-   "claim": "The author concedes commodity and manufacturing balances shifted too, the chip deficit widened a bit, and the adjustments are complex.",
+   "claim": "Commodity and manufacturing balances also changed, and the adjustments are complex.",
    "role": "caveat",
    "explicit": true,
    "kind": "none",
@@ -275,25 +304,76 @@
     14,
     21
    ],
-   "reason": "Acknowledge secondary movements when isolating the main driver.",
+   "reason": "Single-factor adjustments simplify a multi-component balance.",
    "excerpt_para": 8,
+   "excerpt_spans": [
+    {
+     "char_start": 0,
+     "char_end": 82
+    }
+   ],
    "id": "QF",
    "level": "L6"
   },
   {
-   "excerpt": "Too many China analysts are trying to obscure what should be obvious",
-   "claim": "Financial press and many China analysts misread the trend, failing to adjust for gold.",
-   "role": "source_credibility",
+   "excerpt": "So I was expecting it to have a bigger impact on the “net” than what actually shows up in the numbers.",
+   "claim": "Setser expected the chip price surge to explain more of the net change than it did, and was surprised gold was the key.",
+   "role": "revised_prior",
    "explicit": true,
    "kind": "none",
    "claim_type": "none",
    "paragraphs": [
-    23,
-    27
+    9,
+    25
    ],
-   "reason": "Commentary that ignores obvious volume evidence deserves skepticism.",
-   "excerpt_para": 27,
-   "id": "SC",
+   "reason": "Decomposing both exports and imports can overturn intuitions about which shock matters.",
+   "excerpt_para": 25,
+   "excerpt_spans": [
+    {
+     "char_start": 126,
+     "char_end": 228
+    }
+   ],
+   "id": "P3",
+   "level": "L1"
+  },
+  {
+   "excerpt": "The 2025 U.S. trade data also needs to be gold-adjusted, by the way.",
+   "claim": "U.S. 2025 data also needs gold adjustment, as tariff-driven gold bar imports and their reversal distorted the deficit.",
+   "role": "intermediate_claim",
+   "explicit": true,
+   "kind": "none",
+   "claim_type": "none",
+   "paragraphs": [
+    26
+   ],
+   "reason": "Gold flows distort trade balances across countries, not just one.",
+   "excerpt_para": 26,
+   "excerpt_spans": [
+    {
+     "char_start": 4,
+     "char_end": 72
+    }
+   ],
+   "id": "C2",
+   "level": "L4"
+  },
+  {
+   "excerpt": "",
+   "claim": "The surge in Chinese gold imports reflects asset purchases unrelated to domestic demand rebalancing, so it does not represent a genuine fall in reliance on exports.",
+   "role": "hidden_assumption",
+   "explicit": false,
+   "kind": "none",
+   "claim_type": "none",
+   "paragraphs": [
+    6,
+    7,
+    22
+   ],
+   "reason": "Asset-motivated imports do not offset an export-led growth model.",
+   "excerpt_para": null,
+   "excerpt_spans": null,
+   "id": "P2",
    "level": "L1"
   }
  ],

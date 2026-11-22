@@ -19,9 +19,9 @@
    "sign": 0
   },
   {
-   "from": "P1",
+   "from": "Q",
    "relation": "frames",
-   "to": "E2",
+   "to": "P4",
    "sign": 0
   },
   {
@@ -37,13 +37,37 @@
    "sign": 1
   },
   {
+   "from": "M1",
+   "relation": "supports",
+   "to": "C4",
+   "sign": 1
+  },
+  {
+   "from": "M2",
+   "relation": "supports",
+   "to": "C2",
+   "sign": 1
+  },
+  {
+   "from": "E2",
+   "relation": "supports",
+   "to": "REC",
+   "sign": 1
+  },
+  {
    "from": "E2",
    "relation": "supports",
    "to": "C1",
    "sign": 1
   },
   {
-   "from": "P1",
+   "from": "M3",
+   "relation": "supports",
+   "to": "C1",
+   "sign": 1
+  },
+  {
+   "from": "E3",
    "relation": "supports",
    "to": "C1",
    "sign": 1
@@ -55,63 +79,111 @@
    "sign": 1
   },
   {
+   "from": "P3",
+   "relation": "frames",
+   "to": "E3",
+   "sign": 0
+  },
+  {
+   "from": "C1",
+   "relation": "supports",
+   "to": "REC2",
+   "sign": 1
+  },
+  {
    "from": "M3",
    "relation": "supports",
-   "to": "C1",
-   "sign": 1
-  },
-  {
-   "from": "M1",
-   "relation": "supports",
-   "to": "C2",
-   "sign": 1
-  },
-  {
-   "from": "M2",
-   "relation": "supports",
-   "to": "K",
-   "sign": 1
-  },
-  {
-   "from": "E3",
-   "relation": "supports",
-   "to": "C3",
-   "sign": 1
-  },
-  {
-   "from": "C2",
-   "relation": "supports",
-   "to": "C3",
-   "sign": 1
-  },
-  {
-   "from": "P2",
-   "relation": "licenses",
-   "to": "REC",
-   "sign": 1
-  },
-  {
-   "from": "E4",
-   "relation": "supports",
-   "to": "REC",
-   "sign": 1
-  },
-  {
-   "from": "C3",
-   "relation": "supports",
-   "to": "REC",
+   "to": "REC2",
    "sign": 1
   },
   {
    "from": "C1",
    "relation": "supports",
-   "to": "K",
+   "to": "C4",
    "sign": 1
   },
   {
    "from": "C2",
    "relation": "supports",
+   "to": "C4",
+   "sign": 1
+  },
+  {
+   "from": "C4",
+   "relation": "supports",
    "to": "K",
+   "sign": 1
+  },
+  {
+   "from": "C5",
+   "relation": "supports",
+   "to": "REC3",
+   "sign": 1
+  },
+  {
+   "from": "C5",
+   "relation": "supports",
+   "to": "REC4",
+   "sign": 1
+  },
+  {
+   "from": "P1",
+   "relation": "licenses",
+   "to": "REC4",
+   "sign": 1
+  },
+  {
+   "from": "P1",
+   "relation": "supports",
+   "to": "C3",
+   "sign": 1
+  },
+  {
+   "from": "P4",
+   "relation": "revises",
+   "to": "P1",
+   "sign": -1
+  },
+  {
+   "from": "P4",
+   "relation": "frames",
+   "to": "E4",
+   "sign": 0
+  },
+  {
+   "from": "E4",
+   "relation": "supports",
+   "to": "C3",
+   "sign": 1
+  },
+  {
+   "from": "C3",
+   "relation": "supports",
+   "to": "REC4",
+   "sign": 1
+  },
+  {
+   "from": "REC4",
+   "relation": "qualified_by",
+   "to": "QF",
+   "sign": -1
+  },
+  {
+   "from": "P2",
+   "relation": "licenses",
+   "to": "REC5",
+   "sign": 1
+  },
+  {
+   "from": "REC5",
+   "relation": "rebuts",
+   "to": "X",
+   "sign": -1
+  },
+  {
+   "from": "C2",
+   "relation": "supports",
+   "to": "C5",
    "sign": 1
   },
   {
@@ -121,16 +193,28 @@
    "sign": 1
   },
   {
-   "from": "REC",
-   "relation": "qualified_by",
-   "to": "QF",
-   "sign": -1
+   "from": "REC2",
+   "relation": "supports",
+   "to": "K",
+   "sign": 1
   },
   {
-   "from": "REC",
-   "relation": "rebuts",
-   "to": "X",
-   "sign": -1
+   "from": "REC3",
+   "relation": "supports",
+   "to": "K",
+   "sign": 1
+  },
+  {
+   "from": "REC4",
+   "relation": "supports",
+   "to": "K",
+   "sign": 1
+  },
+  {
+   "from": "REC5",
+   "relation": "supports",
+   "to": "K",
+   "sign": 1
   },
   {
    "from": "K",
@@ -139,14 +223,18 @@
    "sign": -1
   },
   {
-   "from": "P4",
-   "relation": "revises",
-   "to": "P2",
-   "sign": -1
+   "from": "K",
+   "relation": "defers",
+   "to": "DF",
+   "sign": 0
   }
  ],
  "review": [
-  "`REC` supports `K` joins L5→L5, which no hand-drawn supports link does"
+  "`REC` supports `K` joins L5→L5, which no hand-drawn supports link does",
+  "`REC2` supports `K` joins L5→L5, which no hand-drawn supports link does",
+  "`REC3` supports `K` joins L5→L5, which no hand-drawn supports link does",
+  "`REC4` supports `K` joins L5→L5, which no hand-drawn supports link does",
+  "`REC5` supports `K` joins L5→L5, which no hand-drawn supports link does"
  ],
  "gaps_left": [],
  "dropped": [],

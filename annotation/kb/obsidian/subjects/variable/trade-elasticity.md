@@ -2,7 +2,7 @@
 type: subject
 facet: variable
 term: trade-elasticity
-claims: 14
+claims: 15
 saturated: false
 tags: [subject, subject/variable, variable/trade-elasticity]
 ---
@@ -13,17 +13,17 @@ tags: [subject, subject/variable, variable/trade-elasticity]
 
 No published vocabulary to reuse: econometric parameter, no code list.
 
-14 claims across 6 articles · facet `variable` · [[By variable]] · [[index]]
+15 claims across 7 articles · facet `variable` · [[By variable]] · [[index]]
 
-**Position in the argument graph** — centrality 38 (2.71 per claim), 20 out / 18 in, bias +0.05.
+**Position in the argument graph** — centrality 40 (2.67 per claim), 22 out / 18 in, bias +0.1.
 
-Sits in the middle of arguments - as much argued toward as argued from.
+He argues **from** this more than toward it: it behaves like a prior or a mechanism.
 
 ## Argued together with
 
 - **country**: [[us]] (14), [[china]] (7)
 - **instrument**: [[tariffs]] (7), [[retaliation]] (6)
-- **data_basis**: [[academic-econometrics]] (3), [[corporate-disclosure]] (1)
+- **data_basis**: [[academic-econometrics]] (3), [[corporate-disclosure]] (1), [[imf-publications]] (1)
 
 ## Claims by role
 
@@ -61,4 +61,8 @@ Sits in the middle of arguments - as much argued toward as argued from.
 ### evidence_source (1)
 
 - **2025-05** [[The Miran paper; IMF working paper on Lerner symmetry; SAFE 2023 annual report; Aitken]] · _Why Didn't Tariffs Push Up the U.S. Dollar?_
+
+### benchmark (1)
+
+- **2026-08** [[The IMF's standard model predicts a 10 percent currency move shifts net exports by 1.5 pp]] · _The World Should Not Ignore China’s Underval..._
 

@@ -7,9 +7,9 @@ tags: [view]
 
 The claims between mechanism and conclusion.
 
-55 across 24 articles. Back to [[index]].
+63 across 25 articles. Back to [[index]].
 
-## Intermediate claims (53)
+## Intermediate claims (59)
 
 - **2017-12** [[Trade changes the pace of growth]] · _Why does the U.S. trade balance still matter..._
 - **2017-12** [[Trade changes the composition of employment]] · _Why does the U.S. trade balance still matter..._
@@ -55,18 +55,26 @@ The claims between mechanism and conclusion.
 - **2025-09** [[Excluding pharmaceuticals and gold, U.S. imports are roughly on trend; the shock to trade]] · _The Trump Shock That Wasn't (At Least Not Yet)_
 - **2025-11** [[China's surplus is massive and growing, yet IMF policy advice effectively lets China]] · _China's Massive Surplus is Everywhere (Yet T..._
 - **2026-02** [[Tariffs reduce imports in specific categories, but the overall deficit is driven]] · _Understanding the Low October 2025 Trade Def..._
-- **2026-07** [[Oil price gains are offset by collapsing import volumes, so the commodity bill rose]] · _Is China’s Surplus Really Shrinking?_
-- **2026-07** [[Manufactures trade excluding chips and gold shows rising exports driven by autos]] · _Is China’s Surplus Really Shrinking?_
-- **2026-07** [[U.S. 2025 data are also distorted by tariff-driven gold bar imports and their reversal]] · _Is China’s Surplus Really Shrinking?_
-- **2026-09** [[In China the real story is the rapid growth of state bank dollar holdings, not SAFE's]] · _De-reservification, Not De-dollarization_
-- **2026-09** [[Most of Korea's government dollar assets sit outside the central bank and COFER]] · _De-reservification, Not De-dollarization_
-- **2026-10** [[The RMB's value is a policy variable controlled by the Chinese authorities]] · _What’s the Renminbi Got to Do With it?_
-- **2026-10** [[Structural gains (WTO accession, green industrial policy) were amplified by a weak]] · _What’s the Renminbi Got to Do With it?_
-- **2026-10** [[Sectoral protection such as the EU hybrid car quota buffers specific sectors but would]] · _What’s the Renminbi Got to Do With it?_
-- **2026-10** [[Stronger domestic demand alone would not rebalance China's external accounts, because]] · _What’s the Renminbi Got to Do With it?_
+- **2026-07** [[Higher chip prices raise China's chip exports nearly as much as its chip imports]] · _Is China’s Surplus Really Shrinking?_
+- **2026-07** [[U.S. 2025 data also needs gold adjustment, as tariff-driven gold bar imports]] · _Is China’s Surplus Really Shrinking?_
+- **2026-08** [[Waiting is costly because China's model depends on an ever-growing surplus, displacing]] · _The World Should Not Ignore China’s Underval..._
+- **2026-08** [[Xi will not adopt household stimulus without external pressure; an appreciation]] · _The World Should Not Ignore China’s Underval..._
+- **2026-08** [[Exchange rate diplomacy has worked Plaza reduced imbalances without causing Japan's]] · _The World Should Not Ignore China’s Underval..._
+- **2026-09** [[Asian surplus economies are following oil exporters in channelling surpluses]] · _De-reservification, Not De-dollarization_
+- **2026-09** [[In China the important story is the rapid growth of the state banks' dollar holdings]] · _De-reservification, Not De-dollarization_
+- **2026-09** [[Most of Korea's government dollar assets sit outside the central bank and outside COFER]] · _De-reservification, Not De-dollarization_
+- **2026-09** [[The dollar share of these quasi-sovereign pools generally equals or exceeds the dollar]] · _De-reservification, Not De-dollarization_
+- **2026-09** [[The shift in the investor base helps explain why the Treasury convenience yield has faded]] · _De-reservification, Not De-dollarization_
+- **2026-09** [[Real de-dollarization, if it comes, would show up first among quasi-sovereign investors]] · _De-reservification, Not De-dollarization_
+- **2026-10** [[RMB weakness was a policy outcome under Chinese control, not incidental]] · _What’s the Renminbi Got to Do With it?_
+- **2026-10** [[The IMF's neglect of China's exchange rate management explains its forecast errors]] · _What’s the Renminbi Got to Do With it?_
+- **2026-10** [[The internal-balance-only argument fails because China is large and its surplus drags]] · _What’s the Renminbi Got to Do With it?_
+- **2026-10** [[Sector quotas such as the EU hybrid-car TRQ only buffer specific sectors; using]] · _What’s the Renminbi Got to Do With it?_
 
-## Case types and policy reductios (2)
+## Case types and policy reductios (4)
 
 - **2020-03** [[Three types — reserve-rich commodity exporters, Asian surplus creditors, weak external]] · _Not One Emerging Market Financial Crisis, bu..._
 - **2024-03** [[Take the IMF's own advice — consolidate 7.5pp of GDP, cut rates, loosen the currency]] · _China's Record Manufacturing Surplus_
+- **2026-08** [[If the exchange rate is ruled out, closing a surplus of this size would require a fiscal]] · _The World Should Not Ignore China’s Underval..._
+- **2026-09** [[Taiwan's life insurers have taken on a quasi-official role because the regulator sets]] · _De-reservification, Not De-dollarization_
 

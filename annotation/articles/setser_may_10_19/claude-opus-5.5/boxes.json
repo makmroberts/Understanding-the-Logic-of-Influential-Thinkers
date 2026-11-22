@@ -2,7 +2,7 @@
  "result": [
   {
    "excerpt": "Will China continue to want to keep its currency stable, or would it want to try to offset the (substantial) trade impact of “full” U.S. tariffs with a weaker yuan?",
-   "claim": "With the trade deal collapsing and full U.S. tariffs looming, will China keep the yuan stable or let it weaken to offset the tariffs?",
+   "claim": "If the US imposes the full threatened tariffs, will China hold the yuan stable or let it weaken to offset the trade hit?",
    "role": "question",
    "explicit": true,
    "kind": "none",
@@ -10,15 +10,21 @@
    "paragraphs": [
     12
    ],
-   "reason": "A large trade shock forces a choice between holding the exchange rate and letting it absorb the shock.",
+   "reason": "A country hit by a large external trade shock must choose whether to absorb it or shift it through the exchange rate.",
    "excerpt_para": 12,
+   "excerpt_spans": [
+    {
+     "char_start": 85,
+     "char_end": 249
+    }
+   ],
    "id": "Q",
    "level": "L0"
   },
   {
-   "excerpt": "Maybe China really miscalculated and pulled back its offer during the negotiations in Beijing last week and thus provoked Trump’s tweet storm. Or perhaps Trump",
-   "claim": "The deal's collapse may stem from China pulling back its offer, or from Trump deciding the deal was not great enough; Fickling suggests a deficit-fixated Trump may not want a deal at all.",
-   "role": "position_map",
+   "excerpt": "Until this past week, it looked like the United States and China were heading toward a deal. Not a great deal, but a deal.",
+   "claim": "Signals had pointed to a modest US-China deal: Trump's tweets, early soybean purchases, summit preparations and a stable yuan, but the deal collapsed within a week.",
+   "role": "anomaly",
    "explicit": true,
    "kind": "none",
    "claim_type": "none",
@@ -28,65 +34,110 @@
     3,
     4,
     5,
-    8
+    6,
+    7
    ],
-   "reason": "When negotiations break down, list the competing accounts of who moved before judging.",
-   "excerpt_para": 8,
-   "id": "POS",
+   "reason": "When convergent signals of an agreement are suddenly reversed, the shift calls for re-examining each side's options.",
+   "excerpt_para": 1,
+   "excerpt_spans": [
+    {
+     "char_start": 0,
+     "char_end": 122
+    }
+   ],
+   "id": "ANOM",
    "level": "L0"
   },
   {
-   "excerpt": "putting 25 percent tariffs on close to $550 billion in imports would, if importers cannot substitute away from Chinese goods in the short-run, put something like $140 billion into the U.S. Treasury",
-   "claim": "Full tariffs would raise about $100–140 billion, roughly half a point of GDP fiscal tightening, smaller than the dollar's 2014–15 drag.",
+   "excerpt": "Maybe China really miscalculated and pulled back its offer during the negotiations in Beijing last week and thus provoked Trump’s tweet storm. Or perhaps Trump",
+   "claim": "The breakdown may reflect China withdrawing its offer, or Trump deciding the deal was not 'great' enough and preferring tariffs.",
+   "role": "other_explanation",
+   "explicit": true,
+   "kind": "none",
+   "claim_type": "none",
+   "paragraphs": [
+    8
+   ],
+   "reason": "A negotiation collapse can stem from either party's change of position, and the evidence may not discriminate between them.",
+   "excerpt_para": 8,
+   "excerpt_spans": [
+    {
+     "char_start": 0,
+     "char_end": 159
+    }
+   ],
+   "id": "R1",
+   "level": "L6"
+  },
+  {
+   "excerpt": "Realistically, it might be more like $100 billion in new tariff revenue, given opportunities to substitute away from Chinese goods in some sectors—but that’s still a half point of GDP fiscal consolidation",
+   "claim": "Full 25 percent tariffs on about $550 billion of imports would raise $100 to 140 billion, a fiscal tightening of about half a point of GDP.",
    "role": "evidence_data",
    "explicit": true,
    "kind": "none",
    "claim_type": "none",
    "paragraphs": [
     9,
-    10,
-    11
+    40
    ],
-   "reason": "Tariff revenue drains private spending just as a tax increase does.",
+   "reason": "Tariff revenue acts as a tax increase that withdraws demand from the economy.",
    "excerpt_para": 9,
+   "excerpt_spans": [
+    {
+     "char_start": 366,
+     "char_end": 570
+    }
+   ],
    "id": "E1",
    "level": "L2"
   },
   {
    "excerpt": "That’s big enough to notice but, as Dr. Krugman notes, not big enough to generate a recession on its own.",
-   "claim": "The tariff fiscal drag is noticeable but not recessionary, partly offset by tax cuts and spending.",
+   "claim": "The tariff drag is noticeable but too small to cause a US recession on its own, and it is far smaller than the drag from the 2014-15 dollar appreciation.",
    "role": "intermediate_claim",
    "explicit": true,
    "kind": "none",
    "claim_type": "none",
    "paragraphs": [
     10,
-    11
+    11,
+    41
    ],
-   "reason": "A fiscal shock of under a percent of GDP rarely causes a recession alone, especially with offsetting stimulus.",
+   "reason": "Exchange rate swings can affect growth more than headline trade policy measures.",
    "excerpt_para": 10,
+   "excerpt_spans": [
+    {
+     "char_start": 0,
+     "char_end": 105
+    }
+   ],
    "id": "C1",
    "level": "L4"
   },
   {
    "excerpt": "UBS estimates that 25 percent tariffs on all of China’s exports to the United States, plus Chinese retaliation against U.S. imports, might knock 1.5 percentage points off China’s GDP growth",
-   "claim": "UBS estimates full tariffs plus retaliation could cut China's growth by 1.5 points; exports to the U.S. are 3–4% of China's GDP.",
+   "claim": "UBS estimates full tariffs plus retaliation could cut China's growth by 1.5 points, with exports to the US at about 3-4 percent of China's GDP.",
    "role": "evidence_source",
    "explicit": true,
    "kind": "none",
    "claim_type": "none",
    "paragraphs": [
-    13,
-    40
+    13
    ],
-   "reason": "A country's exposure to a tariff scales with the share of its output sold to the taxing market.",
+   "reason": "The size of a trade shock depends on the targeted exports' share of value added in output.",
    "excerpt_para": 13,
-   "id": "E5",
+   "excerpt_spans": [
+    {
+     "char_start": 0,
+     "char_end": 189
+    }
+   ],
+   "id": "E4",
    "level": "L2"
   },
   {
    "excerpt": "But letting the yuan weaken has always been, in my view, the logical “asymmetric” Chinese response to a trade war.",
-   "claim": "Beyond soybean cuts and tariff retaliation, currency depreciation is China's natural asymmetric response.",
+   "claim": "Of China's retaliation options (soybeans, broader tariffs, squeezing GM, Airbus orders), letting the yuan weaken is the logical asymmetric response.",
    "role": "stated_assumption",
    "explicit": true,
    "kind": "none",
@@ -95,46 +146,43 @@
     14,
     15
    ],
-   "reason": "A country facing tariffs can offset them by letting its currency fall, lowering its export prices.",
+   "reason": "A country facing tariffs can offset them through currency depreciation rather than matching tariff for tariff.",
    "excerpt_para": 15,
+   "excerpt_spans": [
+    {
+     "char_start": 0,
+     "char_end": 114
+    }
+   ],
    "id": "P1",
    "level": "L1"
   },
   {
-   "excerpt": "The market would certainly test China’s resolve—so if China didn’t want the yuan to weaken, it would need to take action—intervene, manage the fix, tighten controls",
-   "claim": "Markets would push the yuan down, so stability requires active intervention, and depreciation requires eventually setting a new floor.",
-   "role": "mechanism",
-   "explicit": true,
-   "kind": "economic",
-   "claim_type": "none",
-   "paragraphs": [
-    16,
-    17
-   ],
-   "reason": "Markets front-run expected currency moves, so a managed rate needs visible signals in either direction.",
-   "excerpt_para": 16,
-   "id": "M1",
-   "level": "L3"
-  },
-  {
-   "excerpt": "China has the firepower it needs to continue to manage its currency (concerns about China’s foreign currency debts are overstated in aggregate",
-   "claim": "China has ample dollars at the central bank and banks to manage its currency either way.",
+   "excerpt": "In my view, China has the firepower it needs to continue to manage its currency (concerns about China’s foreign currency debts are overstated in aggregate",
+   "claim": "China has enough dollars at the central bank and in state banks to manage its currency, and fears about its foreign debt are overstated.",
    "role": "intermediate_claim",
    "explicit": true,
    "kind": "none",
    "claim_type": "none",
    "paragraphs": [
-    18,
-    36
+    16,
+    17,
+    18
    ],
-   "reason": "A country with large liquid foreign assets and limited net foreign debt can choose its exchange rate.",
+   "reason": "A state holding ample foreign assets across its official and state-bank balance sheets can defend or steer its exchange rate.",
    "excerpt_para": 18,
+   "excerpt_spans": [
+    {
+     "char_start": 27,
+     "char_end": 181
+    }
+   ],
    "id": "C2",
    "level": "L4"
   },
   {
    "excerpt": "Indeed, I thought much of the criticism of China’s reported commitment to currency stability in the (now aborted?) trade deal was overdone.",
-   "claim": "Critics overstated the weakness of the deal's currency stability commitment, which locked in current policy and nudged China toward fiscal stimulus.",
+   "claim": "Critics overstated the problems with China's reported currency-stability commitment, since stability is already China's policy.",
    "role": "opposing_view",
    "explicit": true,
    "kind": "none",
@@ -143,61 +191,65 @@
     19,
     20
    ],
-   "reason": "A commitment matching existing policy is still valuable if it rules out a costly deviation.",
+   "reason": "A commitment that codifies existing policy imposes little additional cost.",
    "excerpt_para": 19,
+   "excerpt_spans": [
+    {
+     "char_start": 0,
+     "char_end": 139
+    }
+   ],
    "id": "X",
    "level": "L6"
   },
   {
-   "excerpt": "China’s manufacturing surplus has stayed around $1 trillion even as its current account surplus has come down",
-   "claim": "China's manufacturing surplus remains about $1 trillion, and a larger one would harm the world economy and fuel populism in left-behind regions.",
-   "role": "evidence_data",
+   "excerpt": "I for one don’t think an even larger Chinese manufacturing surplus would improve the global economy. It would also fan populist pressure",
+   "claim": "An even larger Chinese manufacturing surplus, already around $1 trillion, would harm the global economy and fuel populism in deindustrialized regions.",
+   "role": "stated_assumption",
    "explicit": true,
    "kind": "none",
    "claim_type": "none",
    "paragraphs": [
+    20,
     21
    ],
-   "reason": "Large manufacturing surpluses export adjustment costs to trading partners' industrial regions.",
+   "reason": "Large manufacturing surpluses in a major economy displace production elsewhere and generate political backlash.",
    "excerpt_para": 21,
-   "id": "E2",
-   "level": "L2"
-  },
-  {
-   "excerpt": "as long as China’s currency stayed stable, its balance of payments, in my view, also would remain stable.",
-   "claim": "A stable yuan has gone with a stable, balanced Chinese balance of payments.",
-   "role": "intermediate_claim",
-   "explicit": true,
-   "kind": "none",
-   "claim_type": "none",
-   "paragraphs": [
-    22,
-    28
+   "excerpt_spans": [
+    {
+     "char_start": 115,
+     "char_end": 251
+    }
    ],
-   "reason": "Exchange rate expectations drive private capital flows, so a credible peg damps outflow pressure.",
-   "excerpt_para": 22,
-   "id": "C3",
-   "level": "L4"
+   "id": "P2",
+   "level": "L1"
   },
   {
    "excerpt": "But looking only at reserves misses the real action in China’s balance of payments these days.",
-   "claim": "Reserves alone understate China's external activity; state bank lending abroad and bank borrowing matter more.",
+   "claim": "Tracking only official reserves misses China's real balance-of-payments flows, which now run through state bank lending and borrowing.",
    "role": "scope_choice",
    "explicit": true,
    "kind": "none",
    "claim_type": "none",
    "paragraphs": [
+    22,
     23,
     24
    ],
-   "reason": "Where state banks hold foreign assets, official reserves are an incomplete measure of official external activity.",
+   "reason": "Where state banks hold foreign assets, official reserves understate official external activity.",
    "excerpt_para": 24,
+   "excerpt_spans": [
+    {
+     "char_start": 0,
+     "char_end": 94
+    }
+   ],
    "id": "SCP",
    "level": "L1B"
   },
   {
    "excerpt": "Every indicator I have found suggests the state banks now have a substantial (and growing) net foreign asset position.",
-   "claim": "Chinese bank lending abroad has soared for nine years, funded by bank borrowing and $150–200 billion of portfolio inflows, leaving state banks with large net foreign assets.",
+   "claim": "Chinese bank lending abroad has soared, funded by bank borrowing and $150-200 billion a year of portfolio inflows, and BIS data broadly agree with China's own data.",
    "role": "evidence_data",
    "explicit": true,
    "kind": "none",
@@ -206,61 +258,107 @@
     25,
     26
    ],
-   "reason": "Gross official-sector outflows can be financed by private inflows, keeping net positions balanced.",
+   "reason": "Outflows must be financed by inflows or reserve drawdowns.",
    "excerpt_para": 25,
-   "id": "E3",
+   "excerpt_spans": [
+    {
+     "char_start": 290,
+     "char_end": 408
+    }
+   ],
+   "id": "E2",
    "level": "L2"
   },
   {
    "excerpt": "The BIS data (which shows global banks exposure to China) isn’t that different from China’s own data.",
-   "claim": "BIS data on global banks' exposure to China broadly matches China's own figures.",
-   "role": "evidence_rival",
+   "claim": "Cross-checking China's bank data against BIS counterpart data supports its reliability.",
+   "role": "source_credibility",
    "explicit": true,
    "kind": "none",
    "claim_type": "none",
    "paragraphs": [
     25
    ],
-   "reason": "Cross-check a country's own statistics against counterparties' independent records.",
+   "reason": "Counterparty data from an independent source can validate a country's self-reported figures.",
    "excerpt_para": 25,
-   "id": "E6",
-   "level": "L2"
+   "excerpt_spans": [
+    {
+     "char_start": 409,
+     "char_end": 510
+    }
+   ],
+   "id": "SC",
+   "level": "L1"
+  },
+  {
+   "excerpt": "China’s trade surplus, while reduced, is still sufficient to cover China’s tourism imports and the “error” term in the balance of payments. Everything, more or less, balanced.",
+   "claim": "The trade surplus covers tourism and errors while bank outflows match inflows, so the balance of payments roughly balances.",
+   "role": "accounting_identity",
+   "explicit": true,
+   "kind": "none",
+   "claim_type": "none",
+   "paragraphs": [
+    27
+   ],
+   "reason": "The current account, financial flows and reserve changes must sum to zero.",
+   "excerpt_para": 27,
+   "excerpt_spans": [
+    {
+     "char_start": 0,
+     "char_end": 175
+    }
+   ],
+   "id": "ID",
+   "level": "L1"
   },
   {
    "excerpt": "There have been months when China’s state banks have sold foreign currency, but also months when China’s state banks have bought.",
-   "claim": "Intervention proxies show two-way state bank activity, with no sustained pressure either way; trade surplus covers tourism and errors.",
+   "claim": "Intervention proxies show state bank purchases and sales alternating, with no sustained pressure in either direction.",
    "role": "evidence_data",
    "explicit": true,
    "kind": "none",
    "claim_type": "none",
    "paragraphs": [
-    27,
     28,
     29
    ],
-   "reason": "Alternating purchases and sales of foreign currency indicate an equilibrium rather than a defended disequilibrium.",
+   "reason": "Two-way intervention indicates a currency near its equilibrium under current controls.",
    "excerpt_para": 29,
-   "id": "E4",
+   "excerpt_spans": [
+    {
+     "char_start": 101,
+     "char_end": 230
+    }
+   ],
+   "id": "E3",
    "level": "L2"
   },
   {
-   "excerpt": "",
-   "claim": "Intervention by state banks, not just the central bank, is the relevant indicator of China's currency management.",
-   "role": "hidden_assumption",
-   "explicit": false,
+   "excerpt": "as long as China’s currency stayed stable, its balance of payments, in my view, also would remain stable.",
+   "claim": "A stable yuan would keep China's balance of payments stable.",
+   "role": "intermediate_claim",
+   "explicit": true,
    "kind": "none",
    "claim_type": "none",
    "paragraphs": [
-    29
+    22,
+    27,
+    28
    ],
-   "reason": "Official intervention can be done off the central bank's balance sheet through state-controlled institutions.",
-   "excerpt_para": null,
-   "id": "P3",
-   "level": "L1"
+   "reason": "Exchange rate expectations drive capital flows, so a credible stable rate keeps flows balanced.",
+   "excerpt_para": 22,
+   "excerpt_spans": [
+    {
+     "char_start": 39,
+     "char_end": 144
+    }
+   ],
+   "id": "C3",
+   "level": "L4"
   },
   {
-   "excerpt": "Well, because it lends itself to two different interpretations of what China can and should do in response to the increase in U.S. tariffs.",
-   "claim": "Recent stability supports two options: keep the yuan stable, or use control to engineer a managed depreciation.",
+   "excerpt": "One view, more or less, is that China has no need to upset the apple cart.",
+   "claim": "The recent history supports two readings: China need not upset its stability, or China is in enough control to engineer a weaker yuan.",
    "role": "case_type",
    "explicit": true,
    "kind": "none",
@@ -271,46 +369,41 @@
     32,
     34
    ],
-   "reason": "The same evidence of control can justify either holding steady or a controlled move.",
-   "excerpt_para": 31,
+   "reason": "The same evidence of control can justify either preserving the status quo or using that control to change it.",
+   "excerpt_para": 32,
+   "excerpt_spans": [
+    {
+     "char_start": 0,
+     "char_end": 74
+    }
+   ],
    "id": "C5",
    "level": "L4"
   },
   {
    "excerpt": "if China signaled that the yuan would remain stable, portfolio inflows would likely continue—and a modest deficit need not put any real strain on China’s reserves",
-   "claim": "Even if tariffs and oil sanctions push China into a current account deficit, a credible stable yuan would keep inflows coming and protect reserves.",
+   "claim": "Even if tariffs and oil sanctions pushed China's current account into a modest deficit, a credible stability signal would keep portfolio inflows coming and protect reserves.",
    "role": "mechanism",
    "explicit": true,
    "kind": "economic",
    "claim_type": "none",
    "paragraphs": [
-    32,
     33
    ],
-   "reason": "A small external deficit is easily financed when investors expect currency stability.",
+   "reason": "Signaled currency stability sustains portfolio inflows that can finance a small external deficit.",
    "excerpt_para": 33,
-   "id": "M2",
-   "level": "L3"
-  },
-  {
-   "excerpt": "That would let Chinese firms (who have already started to complain) cut their dollar prices (offsetting some of the impact of the tariff) without reducing their yuan revenues",
-   "claim": "A managed reset to a lower band would let exporters cut dollar prices and redirect exports elsewhere without losing yuan revenue.",
-   "role": "mechanism",
-   "explicit": true,
-   "kind": "economic",
-   "claim_type": "none",
-   "paragraphs": [
-    34,
-    35
+   "excerpt_spans": [
+    {
+     "char_start": 399,
+     "char_end": 561
+    }
    ],
-   "reason": "Depreciation lets exporters lower foreign prices while keeping domestic-currency margins.",
-   "excerpt_para": 35,
-   "id": "M3",
+   "id": "M1",
    "level": "L3"
   },
   {
    "excerpt": "Controlled depreciations are hard—the market (even a controlled market like the market for the yuan) obviously has an incentive to front run any predictable move (as China learned in 15 and 16).",
-   "claim": "Controlled depreciations risk being front-run, as in 2015–16.",
+   "claim": "Controlled depreciation is hard because markets front-run predictable moves, but China could manage it by signaling a new floor and resetting the trading band.",
    "role": "caveat",
    "explicit": true,
    "kind": "none",
@@ -318,14 +411,41 @@
    "paragraphs": [
     34
    ],
-   "reason": "Predictable currency moves invite speculative outflows that can overshoot.",
+   "reason": "Anticipated depreciation invites speculative outflows unless authorities credibly cap the move.",
    "excerpt_para": 34,
+   "excerpt_spans": [
+    {
+     "char_start": 223,
+     "char_end": 417
+    }
+   ],
    "id": "QF",
    "level": "L6"
   },
   {
-   "excerpt": "A weaker yuan, in effect, redistributes some of China’s trade pain globally",
-   "claim": "A weaker yuan would drag other Asian currencies down, pressure Turkey-like economies, and hurt European and Japanese exporters.",
+   "excerpt": "That would let Chinese firms (who have already started to complain) cut their dollar prices (offsetting some of the impact of the tariff) without reducing their yuan revenues",
+   "claim": "A weaker yuan lets Chinese exporters cut dollar prices to offset tariffs and shift sales to other markets.",
+   "role": "mechanism",
+   "explicit": true,
+   "kind": "economic",
+   "claim_type": "none",
+   "paragraphs": [
+    35
+   ],
+   "reason": "Depreciation lowers foreign-currency prices while preserving domestic-currency revenue.",
+   "excerpt_para": 35,
+   "excerpt_spans": [
+    {
+     "char_start": 0,
+     "char_end": 174
+    }
+   ],
+   "id": "M2",
+   "level": "L3"
+  },
+  {
+   "excerpt": "A weaker yuan, in effect, redistributes some of China’s trade pain globally, and thus poses a challenge to those parts of the world that have relied on exports",
+   "claim": "A weaker yuan would spread China's trade pain globally: other Asian currencies would follow, oil-importing emerging economies would face pressure, and European and Japanese exporters would lose.",
    "role": "intermediate_claim",
    "explicit": true,
    "kind": "none",
@@ -333,14 +453,20 @@
    "paragraphs": [
     37
    ],
-   "reason": "A large exporter's depreciation shifts adjustment onto competitors and export-reliant economies.",
+   "reason": "A large exporter's depreciation pushes competitors to follow and hurts export-reliant economies.",
    "excerpt_para": 37,
+   "excerpt_spans": [
+    {
+     "char_start": 628,
+     "char_end": 787
+    }
+   ],
    "id": "C4",
    "level": "L4"
   },
   {
-   "excerpt": "Trump would also have to decide if he would raise the tariff rate above 25 percent in response to China’s depreciation",
-   "claim": "Depreciation risks provoking Trump into higher or broader tariffs.",
+   "excerpt": "Oh, and Trump would also have to decide if he would raise the tariff rate above 25 percent in response to China’s depreciation",
+   "claim": "Depreciation could provoke Trump into higher or broader tariffs, so a major move is better timed after the tariffs are fully extended.",
    "role": "mechanism",
    "explicit": true,
    "kind": "economic",
@@ -349,47 +475,81 @@
     38,
     42
    ],
-   "reason": "Offsetting a tariff via currency invites the tariffing party to escalate.",
+   "reason": "A retaliatory move that invites counter-escalation is best saved until the opponent has used up its threats.",
    "excerpt_para": 38,
-   "id": "M4",
+   "excerpt_spans": [
+    {
+     "char_start": 0,
+     "char_end": 126
+    }
+   ],
+   "id": "M3",
    "level": "L3"
   },
   {
    "excerpt": "That’s why my best guess is that China limits any near-term move as it tries to see if there is still time (and will) to cut a deal that avoids further escalation.",
-   "claim": "China will likely limit near-term yuan weakness while it tests whether a deal is still possible, saving a major depreciation for after tariffs are fully extended.",
+   "claim": "China can choose either path, but it will most likely limit near-term depreciation while it tests whether a deal is still possible.",
    "role": "main_claim",
    "explicit": true,
    "kind": "none",
    "claim_type": "single",
    "paragraphs": [
     36,
-    39,
-    42
+    39
    ],
-   "reason": "A player holding a retaliatory option keeps it in reserve while escalation can still be averted.",
+   "reason": "An actor with ample policy room keeps its strongest lever in reserve while negotiations remain possible.",
    "excerpt_para": 39,
+   "excerpt_spans": [
+    {
+     "char_start": 0,
+     "char_end": 163
+    }
+   ],
    "id": "K",
    "level": "L5"
   },
   {
-   "excerpt": "The gap between the extensive coverage that trade policy shifts receive relative to the limited coverage typically provided to the impact of exchange rate moves is a pet peeve of mine.",
-   "claim": "Exchange rate moves matter as much as tariffs but get far less attention.",
-   "role": "stated_assumption",
+   "excerpt": "",
+   "claim": "China's leadership weighs the risk of provoking further US escalation above the immediate export gains from a weaker yuan.",
+   "role": "hidden_assumption",
+   "explicit": false,
+   "kind": "none",
+   "claim_type": "none",
+   "paragraphs": [
+    39
+   ],
+   "reason": "Forecasts of policy restraint presume decision-makers value avoiding escalation over short-term gains.",
+   "excerpt_para": null,
+   "excerpt_spans": null,
+   "id": "P3",
+   "level": "L1"
+  },
+  {
+   "excerpt": "As David Fickling notes, if Trump is fixated on the bilateral deficit, it isn’t entirely obvious that Trump really wants a deal.",
+   "claim": "Trump may not actually want a deal if he is fixated on the bilateral deficit, which a modest deal would not fix.",
+   "role": "caveat",
    "explicit": true,
    "kind": "none",
    "claim_type": "none",
    "paragraphs": [
-    11,
-    41
+    8
    ],
-   "reason": "Currency swings can affect trade and growth more than headline tariff changes.",
-   "excerpt_para": 41,
-   "id": "P2",
-   "level": "L1"
+   "reason": "A negotiator whose goal a deal cannot meet may prefer continued conflict.",
+   "excerpt_para": 8,
+   "excerpt_spans": [
+    {
+     "char_start": 683,
+     "char_end": 811
+    }
+   ],
+   "id": "QF2",
+   "level": "L6"
   }
  ],
  "review": [
-  "`C4` the name `turkey-like` does not occur in the article"
+  "`ANOM` the name `us-china` does not occur in the article",
+  "`SC` the name `cross-checking` does not occur in the article",
+  "25 boxes, more than any hand-drawn map (24)"
  ],
  "gaps_left": [],
  "dropped": [],

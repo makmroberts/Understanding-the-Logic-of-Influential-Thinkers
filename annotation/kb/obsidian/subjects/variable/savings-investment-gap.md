@@ -2,7 +2,7 @@
 type: subject
 facet: variable
 term: savings-investment-gap
-claims: 3
+claims: 4
 saturated: false
 tags: [subject, subject/variable, variable/savings-investment-gap]
 ---
@@ -13,15 +13,16 @@ tags: [subject, subject/variable, variable/savings-investment-gap]
 
 Aligned to **sna** `gross saving less gross capital formation` — _component name, not yet re-checked_
 
-3 claims across 3 articles · facet `variable` · [[By variable]] · [[index]]
+4 claims across 4 articles · facet `variable` · [[By variable]] · [[index]]
 
-**Position in the argument graph** — centrality 11 (3.67 per claim), 8 out / 3 in, bias +0.45.
+**Position in the argument graph** — centrality 12 (3.0 per claim), 9 out / 3 in, bias +0.5.
 
 He argues **from** this more than toward it: it behaves like a prior or a mechanism.
 
 ## Argued together with
 
-- **country**: [[us]] (3)
+- **country**: [[us]] (3), [[china]] (1)
+- **instrument**: [[industrial-policy]] (1)
 
 ## Claims by role
 
@@ -33,4 +34,8 @@ He argues **from** this more than toward it: it behaves like a prior or a mechan
 ### stated_assumption (1)
 
 - **2018-06** [[Trade balances are macroeconomic]] · _Could global macro shocks overwhelm trade de..._
+
+### accounting_identity (1)
+
+- **2026-08** [[Cutting investment subsidies without raising consumption would enlarge the surplus]] · _The World Should Not Ignore China’s Underval..._
 

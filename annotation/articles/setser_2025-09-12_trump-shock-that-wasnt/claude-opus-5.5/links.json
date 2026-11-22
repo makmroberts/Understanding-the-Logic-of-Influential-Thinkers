@@ -3,6 +3,12 @@
   {
    "from": "Q",
    "relation": "frames",
+   "to": "SCP",
+   "sign": 0
+  },
+  {
+   "from": "Q",
+   "relation": "frames",
    "to": "P1",
    "sign": 0
   },
@@ -13,15 +19,21 @@
    "sign": 0
   },
   {
-   "from": "Q",
-   "relation": "frames",
-   "to": "P3",
-   "sign": 0
-  },
-  {
    "from": "E1",
    "relation": "supports",
    "to": "C1",
+   "sign": 1
+  },
+  {
+   "from": "C1",
+   "relation": "supports",
+   "to": "K",
+   "sign": 1
+  },
+  {
+   "from": "SCP",
+   "relation": "bounds",
+   "to": "E2",
    "sign": 1
   },
   {
@@ -29,30 +41,6 @@
    "relation": "supports",
    "to": "M1",
    "sign": 1
-  },
-  {
-   "from": "SCP",
-   "relation": "bounds",
-   "to": "E3",
-   "sign": 1
-  },
-  {
-   "from": "SCP",
-   "relation": "bounds",
-   "to": "E6",
-   "sign": 1
-  },
-  {
-   "from": "P2",
-   "relation": "licenses",
-   "to": "C2",
-   "sign": 1
-  },
-  {
-   "from": "P2",
-   "relation": "frames",
-   "to": "E2",
-   "sign": 0
   },
   {
    "from": "M1",
@@ -63,7 +51,7 @@
   {
    "from": "E3",
    "relation": "supports",
-   "to": "M2",
+   "to": "C2",
    "sign": 1
   },
   {
@@ -73,21 +61,15 @@
    "sign": 1
   },
   {
-   "from": "E4",
-   "relation": "supports",
-   "to": "C4",
-   "sign": 1
+   "from": "M2",
+   "relation": "undercut_by",
+   "to": "R1",
+   "sign": -1
   },
   {
-   "from": "M3",
+   "from": "C2",
    "relation": "supports",
-   "to": "C2",
-   "sign": 1
-  },
-  {
-   "from": "E6",
-   "relation": "supports",
-   "to": "C2",
+   "to": "K",
    "sign": 1
   },
   {
@@ -97,61 +79,55 @@
    "sign": 1
   },
   {
-   "from": "C1",
+   "from": "K",
+   "relation": "rebuts",
+   "to": "X",
+   "sign": -1
+  },
+  {
+   "from": "E4",
    "relation": "supports",
-   "to": "K",
+   "to": "RC",
    "sign": 1
-  },
-  {
-   "from": "C2",
-   "relation": "supports",
-   "to": "K",
-   "sign": 1
-  },
-  {
-   "from": "P1",
-   "relation": "licenses",
-   "to": "C4",
-   "sign": 1
-  },
-  {
-   "from": "P3",
-   "relation": "licenses",
-   "to": "C4",
-   "sign": 1
-  },
-  {
-   "from": "P1",
-   "relation": "frames",
-   "to": "E5",
-   "sign": 0
   },
   {
    "from": "E5",
    "relation": "supports",
-   "to": "X",
+   "to": "M3",
    "sign": 1
   },
   {
-   "from": "M2",
+   "from": "M3",
    "relation": "supports",
-   "to": "X",
+   "to": "RC",
+   "sign": 1
+  },
+  {
+   "from": "P1",
+   "relation": "licenses",
+   "to": "RC",
+   "sign": 1
+  },
+  {
+   "from": "P2",
+   "relation": "licenses",
+   "to": "RC",
    "sign": 1
   },
   {
    "from": "M4",
    "relation": "supports",
-   "to": "C4",
+   "to": "RC",
    "sign": 1
   },
   {
-   "from": "C4",
+   "from": "RC",
    "relation": "qualified_by",
-   "to": "QF",
+   "to": "QF2",
    "sign": -1
   },
   {
-   "from": "C4",
+   "from": "E6",
    "relation": "supports",
    "to": "K",
    "sign": 1
@@ -159,19 +135,24 @@
   {
    "from": "K",
    "relation": "qualified_by",
-   "to": "QF2",
+   "to": "QF",
    "sign": -1
   },
   {
-   "from": "K",
-   "relation": "defers",
-   "to": "DF",
-   "sign": 0
+   "from": "C2",
+   "relation": "qualified_by",
+   "to": "QF3",
+   "sign": -1
+  },
+  {
+   "from": "RC",
+   "relation": "motivates",
+   "to": "K",
+   "sign": 1
   }
  ],
  "review": [
-  "`E5` supports `X` joins L2→L6, which no hand-drawn supports link does",
-  "`M2` supports `X` joins L3→L6, which no hand-drawn supports link does"
+  "`Q` frames `SCP` joins L0→L1B, which no hand-drawn frames link does"
  ],
  "gaps_left": [],
  "dropped": [],

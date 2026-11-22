@@ -13,7 +13,16 @@
    "doc": "setser_mar_31_20",
    "node_id": "Q",
    "facet": "variable",
-   "value": "commodity-prices",
+   "value": "gdp-growth",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_mar_31_20",
+   "node_id": "Q",
+   "facet": "instrument",
+   "value": "official-lending",
    "role": "",
    "source": "llm",
    "model": "anthropic/claude-opus-5.5"
@@ -22,7 +31,7 @@
    "doc": "setser_mar_31_20",
    "node_id": "Q",
    "facet": "bloc",
-   "value": "global",
+   "value": "em-weak-balance-sheet",
    "role": "subject",
    "source": "llm",
    "model": "anthropic/claude-opus-5.5"
@@ -58,7 +67,7 @@
    "doc": "setser_mar_31_20",
    "node_id": "E1",
    "facet": "bloc",
-   "value": "global",
+   "value": "em-weak-balance-sheet",
    "role": "subject",
    "source": "llm",
    "model": "anthropic/claude-opus-5.5"
@@ -66,24 +75,6 @@
   {
    "doc": "setser_mar_31_20",
    "node_id": "M1",
-   "facet": "variable",
-   "value": "capital-flows",
-   "role": "",
-   "source": "llm",
-   "model": "anthropic/claude-opus-5.5"
-  },
-  {
-   "doc": "setser_mar_31_20",
-   "node_id": "M1",
-   "facet": "bloc",
-   "value": "global",
-   "role": "subject",
-   "source": "llm",
-   "model": "anthropic/claude-opus-5.5"
-  },
-  {
-   "doc": "setser_mar_31_20",
-   "node_id": "M2",
    "facet": "variable",
    "value": "commodity-prices",
    "role": "",
@@ -92,6 +83,33 @@
   },
   {
    "doc": "setser_mar_31_20",
+   "node_id": "M1",
+   "facet": "variable",
+   "value": "export-volumes",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_mar_31_20",
+   "node_id": "M1",
+   "facet": "variable",
+   "value": "services-balance",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_mar_31_20",
+   "node_id": "M1",
+   "facet": "country",
+   "value": "turkey",
+   "role": "subject",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_mar_31_20",
    "node_id": "M2",
    "facet": "variable",
    "value": "capital-flows",
@@ -103,7 +121,7 @@
    "doc": "setser_mar_31_20",
    "node_id": "M2",
    "facet": "variable",
-   "value": "services-balance",
+   "value": "trade-finance",
    "role": "",
    "source": "llm",
    "model": "anthropic/claude-opus-5.5"
@@ -111,15 +129,15 @@
   {
    "doc": "setser_mar_31_20",
    "node_id": "M2",
-   "facet": "country",
-   "value": "turkey",
+   "facet": "bloc",
+   "value": "global",
    "role": "subject",
    "source": "llm",
    "model": "anthropic/claude-opus-5.5"
   },
   {
    "doc": "setser_mar_31_20",
-   "node_id": "P1",
+   "node_id": "C4",
    "facet": "variable",
    "value": "fx-reserves",
    "role": "",
@@ -128,9 +146,27 @@
   },
   {
    "doc": "setser_mar_31_20",
-   "node_id": "P1",
+   "node_id": "C4",
+   "facet": "variable",
+   "value": "net-external-debt",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_mar_31_20",
+   "node_id": "C4",
    "facet": "bloc",
    "value": "em-commodity",
+   "role": "subject",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_mar_31_20",
+   "node_id": "C4",
+   "facet": "bloc",
+   "value": "em-weak-balance-sheet",
    "role": "subject",
    "source": "llm",
    "model": "anthropic/claude-opus-5.5"
@@ -140,6 +176,15 @@
    "node_id": "E2",
    "facet": "variable",
    "value": "fx-reserves",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_mar_31_20",
+   "node_id": "E2",
+   "facet": "variable",
+   "value": "commodity-prices",
    "role": "",
    "source": "llm",
    "model": "anthropic/claude-opus-5.5"
@@ -155,7 +200,70 @@
   },
   {
    "doc": "setser_mar_31_20",
-   "node_id": "E2",
+   "node_id": "REC",
+   "facet": "variable",
+   "value": "fx-reserves",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_mar_31_20",
+   "node_id": "REC",
+   "facet": "variable",
+   "value": "fiscal-balance",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_mar_31_20",
+   "node_id": "REC",
+   "facet": "bloc",
+   "value": "em-commodity",
+   "role": "subject",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_mar_31_20",
+   "node_id": "M3",
+   "facet": "variable",
+   "value": "net-external-debt",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_mar_31_20",
+   "node_id": "M3",
+   "facet": "variable",
+   "value": "capital-flows",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_mar_31_20",
+   "node_id": "M3",
+   "facet": "bloc",
+   "value": "asia-surplus",
+   "role": "subject",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_mar_31_20",
+   "node_id": "E3",
+   "facet": "variable",
+   "value": "net-external-debt",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_mar_31_20",
+   "node_id": "E3",
    "facet": "country",
    "value": "taiwan",
    "role": "subject",
@@ -164,7 +272,43 @@
   },
   {
    "doc": "setser_mar_31_20",
-   "node_id": "M3",
+   "node_id": "P3",
+   "facet": "variable",
+   "value": "fiscal-balance",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_mar_31_20",
+   "node_id": "P3",
+   "facet": "instrument",
+   "value": "fiscal-policy",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_mar_31_20",
+   "node_id": "P3",
+   "facet": "bloc",
+   "value": "asia-surplus",
+   "role": "subject",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_mar_31_20",
+   "node_id": "REC2",
+   "facet": "variable",
+   "value": "fx-reserves",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_mar_31_20",
+   "node_id": "REC2",
    "facet": "variable",
    "value": "capital-flows",
    "role": "",
@@ -173,43 +317,7 @@
   },
   {
    "doc": "setser_mar_31_20",
-   "node_id": "M3",
-   "facet": "bloc",
-   "value": "asia-surplus",
-   "role": "subject",
-   "source": "llm",
-   "model": "anthropic/claude-opus-5.5"
-  },
-  {
-   "doc": "setser_mar_31_20",
-   "node_id": "P3",
-   "facet": "variable",
-   "value": "fx-reserves",
-   "role": "",
-   "source": "llm",
-   "model": "anthropic/claude-opus-5.5"
-  },
-  {
-   "doc": "setser_mar_31_20",
-   "node_id": "P3",
-   "facet": "bloc",
-   "value": "asia-surplus",
-   "role": "subject",
-   "source": "llm",
-   "model": "anthropic/claude-opus-5.5"
-  },
-  {
-   "doc": "setser_mar_31_20",
-   "node_id": "C1",
-   "facet": "variable",
-   "value": "fx-reserves",
-   "role": "",
-   "source": "llm",
-   "model": "anthropic/claude-opus-5.5"
-  },
-  {
-   "doc": "setser_mar_31_20",
-   "node_id": "C1",
+   "node_id": "REC2",
    "facet": "instrument",
    "value": "swap-lines",
    "role": "",
@@ -218,10 +326,28 @@
   },
   {
    "doc": "setser_mar_31_20",
-   "node_id": "C1",
+   "node_id": "REC2",
    "facet": "bloc",
    "value": "asia-surplus",
    "role": "subject",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_mar_31_20",
+   "node_id": "C1",
+   "facet": "variable",
+   "value": "fx-reserves",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_mar_31_20",
+   "node_id": "C1",
+   "facet": "variable",
+   "value": "net-external-debt",
+   "role": "",
    "source": "llm",
    "model": "anthropic/claude-opus-5.5"
   },
@@ -255,6 +381,15 @@
   {
    "doc": "setser_mar_31_20",
    "node_id": "C2",
+   "facet": "variable",
+   "value": "capital-flows",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_mar_31_20",
+   "node_id": "C2",
    "facet": "bloc",
    "value": "em-weak-balance-sheet",
    "role": "subject",
@@ -263,7 +398,7 @@
   },
   {
    "doc": "setser_mar_31_20",
-   "node_id": "C3",
+   "node_id": "C5",
    "facet": "variable",
    "value": "trade-finance",
    "role": "",
@@ -272,61 +407,7 @@
   },
   {
    "doc": "setser_mar_31_20",
-   "node_id": "C3",
-   "facet": "variable",
-   "value": "capital-flows",
-   "role": "",
-   "source": "llm",
-   "model": "anthropic/claude-opus-5.5"
-  },
-  {
-   "doc": "setser_mar_31_20",
-   "node_id": "C3",
-   "facet": "bloc",
-   "value": "global",
-   "role": "subject",
-   "source": "llm",
-   "model": "anthropic/claude-opus-5.5"
-  },
-  {
-   "doc": "setser_mar_31_20",
-   "node_id": "E3",
-   "facet": "variable",
-   "value": "commodity-prices",
-   "role": "",
-   "source": "llm",
-   "model": "anthropic/claude-opus-5.5"
-  },
-  {
-   "doc": "setser_mar_31_20",
-   "node_id": "E3",
-   "facet": "variable",
-   "value": "capital-flows",
-   "role": "",
-   "source": "llm",
-   "model": "anthropic/claude-opus-5.5"
-  },
-  {
-   "doc": "setser_mar_31_20",
-   "node_id": "E3",
-   "facet": "bloc",
-   "value": "em-weak-balance-sheet",
-   "role": "subject",
-   "source": "llm",
-   "model": "anthropic/claude-opus-5.5"
-  },
-  {
-   "doc": "setser_mar_31_20",
-   "node_id": "E3",
-   "facet": "bloc",
-   "value": "em-commodity",
-   "role": "subject",
-   "source": "llm",
-   "model": "anthropic/claude-opus-5.5"
-  },
-  {
-   "doc": "setser_mar_31_20",
-   "node_id": "P2",
+   "node_id": "C5",
    "facet": "variable",
    "value": "current-account",
    "role": "",
@@ -335,7 +416,16 @@
   },
   {
    "doc": "setser_mar_31_20",
-   "node_id": "P2",
+   "node_id": "C5",
+   "facet": "bloc",
+   "value": "em-weak-balance-sheet",
+   "role": "subject",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_mar_31_20",
+   "node_id": "P1",
    "facet": "variable",
    "value": "fx-reserves",
    "role": "",
@@ -344,16 +434,16 @@
   },
   {
    "doc": "setser_mar_31_20",
-   "node_id": "P2",
-   "facet": "instrument",
-   "value": "swap-lines",
+   "node_id": "P1",
+   "facet": "variable",
+   "value": "current-account",
    "role": "",
    "source": "llm",
    "model": "anthropic/claude-opus-5.5"
   },
   {
    "doc": "setser_mar_31_20",
-   "node_id": "P2",
+   "node_id": "P1",
    "facet": "instrument",
    "value": "official-lending",
    "role": "",
@@ -362,10 +452,118 @@
   },
   {
    "doc": "setser_mar_31_20",
-   "node_id": "P2",
+   "node_id": "P1",
    "facet": "bloc",
    "value": "global",
    "role": "subject",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_mar_31_20",
+   "node_id": "P2",
+   "facet": "variable",
+   "value": "import-volumes",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_mar_31_20",
+   "node_id": "P2",
+   "facet": "variable",
+   "value": "net-external-debt",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_mar_31_20",
+   "node_id": "P2",
+   "facet": "bloc",
+   "value": "em-weak-balance-sheet",
+   "role": "subject",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_mar_31_20",
+   "node_id": "C3",
+   "facet": "variable",
+   "value": "current-account",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_mar_31_20",
+   "node_id": "C3",
+   "facet": "variable",
+   "value": "capital-flows",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_mar_31_20",
+   "node_id": "C3",
+   "facet": "instrument",
+   "value": "swap-lines",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_mar_31_20",
+   "node_id": "C3",
+   "facet": "bloc",
+   "value": "global",
+   "role": "subject",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_mar_31_20",
+   "node_id": "P4",
+   "facet": "variable",
+   "value": "current-account",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_mar_31_20",
+   "node_id": "P4",
+   "facet": "variable",
+   "value": "capital-flows",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_mar_31_20",
+   "node_id": "P4",
+   "facet": "country",
+   "value": "us",
+   "role": "subject",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_mar_31_20",
+   "node_id": "E4",
+   "facet": "variable",
+   "value": "current-account",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_mar_31_20",
+   "node_id": "E4",
+   "facet": "variable",
+   "value": "fx-reserves",
+   "role": "",
    "source": "llm",
    "model": "anthropic/claude-opus-5.5"
   },
@@ -381,8 +579,8 @@
   {
    "doc": "setser_mar_31_20",
    "node_id": "E4",
-   "facet": "instrument",
-   "value": "official-lending",
+   "facet": "data_basis",
+   "value": "academic-econometrics",
    "role": "",
    "source": "llm",
    "model": "anthropic/claude-opus-5.5"
@@ -390,24 +588,15 @@
   {
    "doc": "setser_mar_31_20",
    "node_id": "E4",
-   "facet": "bloc",
-   "value": "global",
+   "facet": "country",
+   "value": "us",
    "role": "subject",
    "source": "llm",
    "model": "anthropic/claude-opus-5.5"
   },
   {
    "doc": "setser_mar_31_20",
-   "node_id": "REC",
-   "facet": "variable",
-   "value": "net-external-debt",
-   "role": "",
-   "source": "llm",
-   "model": "anthropic/claude-opus-5.5"
-  },
-  {
-   "doc": "setser_mar_31_20",
-   "node_id": "REC",
+   "node_id": "REC3",
    "facet": "variable",
    "value": "trade-finance",
    "role": "",
@@ -416,16 +605,7 @@
   },
   {
    "doc": "setser_mar_31_20",
-   "node_id": "REC",
-   "facet": "instrument",
-   "value": "official-lending",
-   "role": "",
-   "source": "llm",
-   "model": "anthropic/claude-opus-5.5"
-  },
-  {
-   "doc": "setser_mar_31_20",
-   "node_id": "REC",
+   "node_id": "REC3",
    "facet": "instrument",
    "value": "swap-lines",
    "role": "",
@@ -434,7 +614,34 @@
   },
   {
    "doc": "setser_mar_31_20",
-   "node_id": "REC",
+   "node_id": "REC3",
+   "facet": "bloc",
+   "value": "global",
+   "role": "subject",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_mar_31_20",
+   "node_id": "REC4",
+   "facet": "variable",
+   "value": "fx-reserves",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_mar_31_20",
+   "node_id": "REC4",
+   "facet": "instrument",
+   "value": "official-lending",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_mar_31_20",
+   "node_id": "REC4",
    "facet": "bloc",
    "value": "global",
    "role": "subject",
@@ -470,7 +677,7 @@
   },
   {
    "doc": "setser_mar_31_20",
-   "node_id": "X",
+   "node_id": "REC5",
    "facet": "variable",
    "value": "net-external-debt",
    "role": "",
@@ -479,9 +686,27 @@
   },
   {
    "doc": "setser_mar_31_20",
-   "node_id": "X",
+   "node_id": "REC5",
    "facet": "instrument",
    "value": "official-lending",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_mar_31_20",
+   "node_id": "REC5",
+   "facet": "bloc",
+   "value": "em-weak-balance-sheet",
+   "role": "subject",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_mar_31_20",
+   "node_id": "X",
+   "facet": "variable",
+   "value": "net-external-debt",
    "role": "",
    "source": "llm",
    "model": "anthropic/claude-opus-5.5"
@@ -508,7 +733,7 @@
    "doc": "setser_mar_31_20",
    "node_id": "K",
    "facet": "variable",
-   "value": "net-external-debt",
+   "value": "fx-reserves",
    "role": "",
    "source": "llm",
    "model": "anthropic/claude-opus-5.5"
@@ -525,9 +750,9 @@
   {
    "doc": "setser_mar_31_20",
    "node_id": "K",
-   "facet": "instrument",
-   "value": "swap-lines",
-   "role": "",
+   "facet": "bloc",
+   "value": "em-weak-balance-sheet",
+   "role": "subject",
    "source": "llm",
    "model": "anthropic/claude-opus-5.5"
   },
@@ -535,7 +760,7 @@
    "doc": "setser_mar_31_20",
    "node_id": "K",
    "facet": "bloc",
-   "value": "global",
+   "value": "em-commodity",
    "role": "subject",
    "source": "llm",
    "model": "anthropic/claude-opus-5.5"
@@ -560,27 +785,18 @@
   },
   {
    "doc": "setser_mar_31_20",
-   "node_id": "P4",
+   "node_id": "DF",
    "facet": "variable",
-   "value": "capital-flows",
+   "value": "global-imbalances",
    "role": "",
    "source": "llm",
    "model": "anthropic/claude-opus-5.5"
   },
   {
    "doc": "setser_mar_31_20",
-   "node_id": "P4",
-   "facet": "variable",
-   "value": "current-account",
-   "role": "",
-   "source": "llm",
-   "model": "anthropic/claude-opus-5.5"
-  },
-  {
-   "doc": "setser_mar_31_20",
-   "node_id": "P4",
-   "facet": "country",
-   "value": "us",
+   "node_id": "DF",
+   "facet": "bloc",
+   "value": "global",
    "role": "subject",
    "source": "llm",
    "model": "anthropic/claude-opus-5.5"

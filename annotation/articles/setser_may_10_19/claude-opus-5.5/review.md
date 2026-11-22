@@ -3,18 +3,12 @@
 `setser_may_10_19`, run `claude-opus-5.5`. Each line needs a person's look;
 nothing here was changed automatically.
 
-## boxes (1)
+## boxes (3)
 
-- `C4` the name `turkey-like` does not occur in the article
+- `ANOM` the name `us-china` does not occur in the article
+- `SC` the name `cross-checking` does not occur in the article
+- 25 boxes, more than any hand-drawn map (24)
 
 ## links (1)
 
-- `E5` supports `P1` joins L2→L1, which no hand-drawn supports link does
-
-## facets (1)
-
-- `setser_may_10_19#P2` where_subject empty - every claim needs a country or a bloc (assignment.requires_one_of) - needs review
-
-## passages (1)
-
-- `E1`: the team's passage linker anchors it to p34 (shared: 15), which the box does not cite
+- `ANOM` undercut_by `R1` joins L0→L6, which no hand-drawn undercut_by link does

@@ -1,0 +1,805 @@
+{
+ "nodes": [
+  {
+   "id": "header",
+   "type": "text",
+   "text": "## 2026-02-03 Understanding the Low October 2025 Trade Deficit\n\n**Left:** hand-drawn map (15 steps). **Right:** model run `setser_2026-02-03_october-2025-deficit/claude-opus-5.5` (19 steps).\n\nMatched 10 of 15 hand steps (7 by a shared paragraph, 3 by role only).\n\nHand steps not matched: E1, M2, M4, P2, R1\n\nModel steps not matched: C1, C2, C3, C5, DF, E1, E2, E3, SCP",
+   "x": -2560,
+   "y": 0,
+   "width": 5700,
+   "height": 260
+  },
+  {
+   "id": "hand-Q",
+   "type": "text",
+   "text": "**Q** \u00b7 `question` \u00b7 \u00b6 1\n\nDoes the low October 2025 trade deficit mean the tariffs are working?\n\n*Gloss:* Question\n\n[[claims/question/Does the low October 2025 trade deficit mean the tariffs are working|open note]]",
+   "x": -820,
+   "y": 440,
+   "width": 520,
+   "height": 300,
+   "color": "#7A6FA8"
+  },
+  {
+   "id": "hand-P1",
+   "type": "text",
+   "text": "**P1** \u00b7 `stated_assumption` \u00b7 \u00b6 16\n\nTariffs reduce the trade deficit only if their proceeds reduce the budget deficit, acting as a tax hike\n\n*Gloss:* Stated assumption\n\n[[claims/stated_assumption/Tariffs reduce the trade deficit only if their proceeds reduce the budget deficit, acting as a tax hike|open note]]",
+   "x": -820,
+   "y": 920,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "hand-P2",
+   "type": "text",
+   "text": "**P2** \u00b7 `stated_assumption` \u00b7 \u00b6 7\n\nRemove pharmaceuticals and gold to read the underlying deficit\n\n*Gloss:* Stated assumption\n\n[[claims/stated_assumption/Remove pharmaceuticals and gold to read the underlying deficit|open note]]",
+   "x": -1980,
+   "y": 920,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "hand-P3",
+   "type": "text",
+   "text": "**P3** \u00b7 `hidden_assumption` \u00b7 \u00b6 11\n\nThe trade balance is a macroeconomic savings-investment outcome; inventory swings reverse over time\n\n*Gloss:* Hidden assumption\n\n[[claims/hidden_assumption/The trade balance is a macroeconomic savings-investment outcome; inventory swings reverse over time|open note]]",
+   "x": -1400,
+   "y": 920,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "hand-E1",
+   "type": "text",
+   "text": "**E1** \u00b7 `evidence_data` \u00b7 \u00b6 3\n\nOctober's drop came entirely from pharmaceuticals and gold; excluding them, October's deficit was slightly bigger than September's; August to October deficits below 2024, but early 2025 far above; imports of autos and household durable goods down; imports of semiconductors and computers up\n\n*Gloss:* Data\n\n[[claims/evidence_data/October's drop came entirely from pharmaceuticals and gold; excluding them, October's deficit was slightly bigger|open note]]",
+   "x": -1400,
+   "y": 1880,
+   "width": 520,
+   "height": 300,
+   "color": "#2F7FBF"
+  },
+  {
+   "id": "hand-E2",
+   "type": "text",
+   "text": "**E2** \u00b7 `evidence_source` \u00b7 \u00b6 14\n\nU.S. trade data; Section 232 semiconductor investigation\n\n*Gloss:* Studies and sources\n\n[[claims/evidence_source/U.S. trade data; Section 232 semiconductor investigation|open note]]",
+   "x": -820,
+   "y": 1880,
+   "width": 520,
+   "height": 300,
+   "color": "#2F7FBF"
+  },
+  {
+   "id": "hand-M1",
+   "type": "text",
+   "text": "**M1** \u00b7 `mechanism` \u00b7 \u00b6 4\n\nTariff fears\n\n*Gloss:* Fear of tariffs that never came drove pharmaceutical stockpiling and gold flowing out and back\n\n[[claims/mechanism/Tariff fears|open note]]",
+   "x": -820,
+   "y": 2360,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "hand-M2",
+   "type": "text",
+   "text": "**M2** \u00b7 `mechanism` \u00b7 \u00b6 11\n\nInventory drawdown\n\n*Gloss:* Stockpiles built ahead of tariffs temporarily depress imports, and stockpiles run out\n\n[[claims/mechanism/Inventory drawdown|open note]]",
+   "x": -1980,
+   "y": 2360,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "hand-M3",
+   "type": "text",
+   "text": "**M3** \u00b7 `mechanism` \u00b7 \u00b6 14\n\nUntariffed artificial intelligence investment\n\n*Gloss:* The data center buildout keeps semiconductor and computer imports rising\n\n[[claims/mechanism/Untariffed artificial intelligence investment|open note]]",
+   "x": -1400,
+   "y": 2360,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "hand-M4",
+   "type": "text",
+   "text": "**M4** \u00b7 `mechanism` \u00b7 \u00b6 16\n\nFiscal channel\n\n*Gloss:* Promised refund checks and pressure for more defense spending block a fiscal adjustment\n\n[[claims/mechanism/Fiscal channel|open note]]",
+   "x": -2560,
+   "y": 2360,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "hand-C1",
+   "type": "text",
+   "text": "**C1** \u00b7 `intermediate_claim` \u00b7 \u00b6 13\n\nTariffs reduce imports in specific categories, but the overall deficit is driven by untariffed goods and stockpile timing\n\n*Gloss:* Intermediate claim\n\n[[claims/intermediate_claim/Tariffs reduce imports in specific categories, but the overall deficit is driven by untariffed goods and stockpile|open note]]",
+   "x": -820,
+   "y": 2840,
+   "width": 520,
+   "height": 300,
+   "color": "#2FBF9B"
+  },
+  {
+   "id": "hand-K",
+   "type": "text",
+   "text": "**K** \u00b7 `main_claim` \u00b7 \u00b6 8\n\nNo: the low October deficit is not evidence the tariffs work, and a significant fall in the 2025 deficit is unlikely\n\n*Gloss:* Main claim\n\n[[claims/main_claim/No the low October deficit is not evidence the tariffs work, and a significant fall in the 2025 deficit is unlikely|open note]]",
+   "x": -820,
+   "y": 3320,
+   "width": 520,
+   "height": 300,
+   "color": "#2FBF9B"
+  },
+  {
+   "id": "hand-X",
+   "type": "text",
+   "text": "**X** \u00b7 `opposing_view` \u00b7 \u00b6 10\n\nTrump's trade team claiming success from smaller deficits than in the same months of 2024\n\n*Gloss:* Opposing view\n\n[[claims/opposing_view/Trump's trade team claiming success from smaller deficits than in the same months of 2024|open note]]",
+   "x": -1400,
+   "y": 3800,
+   "width": 520,
+   "height": 300,
+   "color": "#8A8A8A"
+  },
+  {
+   "id": "hand-QF",
+   "type": "text",
+   "text": "**QF** \u00b7 `caveat` \u00b7 \u00b6 16\n\nTariffed categories really are falling; watch whether imports rebound once stockpiles are exhausted\n\n*Gloss:* Caveat\n\n[[claims/caveat/Tariffed categories really are falling; watch whether imports rebound once stockpiles are exhausted|open note]]",
+   "x": -820,
+   "y": 3800,
+   "width": 520,
+   "height": 300,
+   "color": "#9A8C6A"
+  },
+  {
+   "id": "hand-R1",
+   "type": "text",
+   "text": "**R1** \u00b7 `other_explanation` \u00b7 \u00b6 13\n\nAuto imports fell along with auto sales: weaker demand rather than more U.S. production\n\n*Gloss:* Other explanation\n\n[[claims/other_explanation/Auto imports fell along with auto sales weaker demand rather than more U.S. production|open note]]",
+   "x": -1980,
+   "y": 3800,
+   "width": 520,
+   "height": 300,
+   "color": "#8A8A8A"
+  },
+  {
+   "id": "model-Q",
+   "type": "text",
+   "text": "**Q** \u00b7 `question` \u00b7 \u00b6 1, 2, 8, 9\n\nDoes the sharp fall in the October 2025 trade deficit show that tariffs are reducing the U.S. trade deficit?\n\n*Why:* A one-month swing in a trade balance must be decomposed before it is attributed to policy.",
+   "x": 300,
+   "y": 440,
+   "width": 520,
+   "height": 300,
+   "color": "#7A6FA8"
+  },
+  {
+   "id": "model-C1",
+   "type": "text",
+   "text": "**C1** \u00b7 `intermediate_claim` \u00b7 \u00b6 3\n\nThe October drop came entirely from swings in pharmaceuticals and gold, two categories that were never tariffed.\n\n*Why:* A change concentrated in untaxed goods cannot be credited to the tax.",
+   "x": 880,
+   "y": 2840,
+   "width": 520,
+   "height": 300,
+   "color": "#2FBF9B"
+  },
+  {
+   "id": "model-M1",
+   "type": "text",
+   "text": "**M1** \u00b7 `mechanism` \u00b7 \u00b6 4, 5, 6\n\nFear of tariffs that never came caused front-loaded surges in pharmaceutical and gold imports, followed by declines once the threat faded and stockpiles were in place.\n\n*Why:* Anticipated tariffs pull imports forward, and imports then fall back as stockpiles are drawn down.",
+   "x": 300,
+   "y": 2360,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "model-E1",
+   "type": "text",
+   "text": "**E1** \u00b7 `evidence_data` \u00b7 \u00b6 7\n\nExcluding gold and pharmaceuticals, the October deficit was slightly larger than September's.\n\n*Why:* Strip out volatile, policy-irrelevant categories to see the underlying trend.",
+   "x": 880,
+   "y": 1880,
+   "width": 520,
+   "height": 300,
+   "color": "#2F7FBF"
+  },
+  {
+   "id": "model-SCP",
+   "type": "text",
+   "text": "**SCP** \u00b7 `scope_choice` \u00b7 \u00b6 7, 10\n\nThe author measures the deficit net of pharmaceuticals and gold to assess the effect of tariffs.\n\n*Why:* Excluding categories dominated by one-off speculative flows gives a cleaner signal of policy effects.",
+   "x": 300,
+   "y": 1400,
+   "width": 520,
+   "height": 300,
+   "color": "#9A8C6A"
+  },
+  {
+   "id": "model-C2",
+   "type": "text",
+   "text": "**C2** \u00b7 `intermediate_claim` \u00b7 \u00b6 2, 3, 7\n\nThe low October deficit is not evidence that tariffs are working.\n\n*Why:* A change explained by non-policy categories gives no support to a policy-effect claim.",
+   "x": 1460,
+   "y": 2840,
+   "width": 520,
+   "height": 300,
+   "color": "#2FBF9B"
+  },
+  {
+   "id": "model-X",
+   "type": "text",
+   "text": "**X** \u00b7 `opposing_view` \u00b7 \u00b6 10\n\nThe Trump trade team claims success because the core deficits in August through October were smaller than a year earlier.\n\n*Why:* Year-over-year improvements are easily read as policy success.",
+   "x": 880,
+   "y": 3800,
+   "width": 520,
+   "height": 300,
+   "color": "#8A8A8A"
+  },
+  {
+   "id": "model-E2",
+   "type": "text",
+   "text": "**E2** \u00b7 `evidence_data` \u00b7 \u00b6 11\n\nDeficits in early 2025 were much larger than in early 2024, which shows imports were pulled forward into inventories.\n\n*Why:* Earlier excess imports signal inventory building that later depresses imports.",
+   "x": 1460,
+   "y": 1880,
+   "width": 520,
+   "height": 300,
+   "color": "#2F7FBF"
+  },
+  {
+   "id": "model-C3",
+   "type": "text",
+   "text": "**C3** \u00b7 `intermediate_claim` \u00b7 \u00b6 11\n\nPart of the recent dip reflects drawdowns of stockpiles and will be temporary.\n\n*Why:* Inventory drawdowns are finite, so import declines driven by them reverse.",
+   "x": 2040,
+   "y": 2840,
+   "width": 520,
+   "height": 300,
+   "color": "#2FBF9B"
+  },
+  {
+   "id": "model-E3",
+   "type": "text",
+   "text": "**E3** \u00b7 `evidence_data` \u00b7 \u00b6 13\n\nImports of heavily tariffed autos and household durables are down even after adjusting for stockpiling, and domestic production has not replaced them.\n\n*Why:* Compare tariffed with untariffed categories to isolate the tariff effect.",
+   "x": 2040,
+   "y": 1880,
+   "width": 520,
+   "height": 300,
+   "color": "#2F7FBF"
+  },
+  {
+   "id": "model-C4",
+   "type": "text",
+   "text": "**C4** \u00b7 `intermediate_claim` \u00b7 \u00b6 13\n\nTariffs are reducing imports in the categories they target, largely by cutting consumption rather than raising domestic output.\n\n*Why:* A price-raising tax lowers the quantity demanded of the taxed goods.",
+   "x": 300,
+   "y": 2840,
+   "width": 520,
+   "height": 300,
+   "color": "#2FBF9B"
+  },
+  {
+   "id": "model-E4",
+   "type": "text",
+   "text": "**E4** \u00b7 `evidence_data` \u00b7 \u00b6 14\n\nImports of untariffed semiconductors and computers have risen substantially, driven by AI data-center construction, and the semiconductor 232 investigation largely exempts chips imported for domestic use.\n\n*Why:* Demand booms in untaxed categories can offset falls in taxed ones.",
+   "x": 300,
+   "y": 1880,
+   "width": 520,
+   "height": 300,
+   "color": "#2F7FBF"
+  },
+  {
+   "id": "model-M2",
+   "type": "text",
+   "text": "**M2** \u00b7 `mechanism` \u00b7 \u00b6 14\n\nAI investment demand is pulling in electronics imports.\n\n*Why:* An investment boom raises imports of the capital goods it requires.",
+   "x": 880,
+   "y": 2360,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "model-K",
+   "type": "text",
+   "text": "**K** \u00b7 `main_claim` \u00b7 \u00b6 12, 15\n\nThe 2025 deficit is unlikely to fall significantly: tariffs cut imports of the goods they target, but imports of untariffed pharmaceuticals, chips and computers are rising.\n\n*Why:* Sector-specific tariffs shift the composition of imports without necessarily changing the overall balance.",
+   "x": 300,
+   "y": 3320,
+   "width": 520,
+   "height": 300,
+   "color": "#2FBF9B"
+  },
+  {
+   "id": "model-P1",
+   "type": "text",
+   "text": "**P1** \u00b7 `stated_assumption` \u00b7 \u00b6 16\n\nTariffs reduce the trade deficit only if their revenue tightens the fiscal balance.\n\n*Why:* The external balance reflects national saving, so a lasting fall in the deficit requires fiscal tightening.",
+   "x": 300,
+   "y": 920,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  },
+  {
+   "id": "model-C5",
+   "type": "text",
+   "text": "**C5** \u00b7 `intermediate_claim` \u00b7 \u00b6 16\n\nRefund checks and pressure for higher defense spending mean tariff revenue is unlikely to reduce the budget deficit.\n\n*Why:* Revenue that is recycled into spending does not raise national saving.",
+   "x": 2620,
+   "y": 2840,
+   "width": 520,
+   "height": 300,
+   "color": "#2FBF9B"
+  },
+  {
+   "id": "model-DF",
+   "type": "text",
+   "text": "**DF** \u00b7 `deferred_question` \u00b7 \u00b6 16\n\nIt remains open whether imports rebound once stockpiles run out and how much of the refund checks will be spent on imports.\n\n*Why:* Effects that depend on future spending and inventory behaviour must await later data.",
+   "x": 1460,
+   "y": 3800,
+   "width": 520,
+   "height": 300,
+   "color": "#7A6FA8"
+  },
+  {
+   "id": "model-QF",
+   "type": "text",
+   "text": "**QF** \u00b7 `caveat` \u00b7 \u00b6 8, 9, 12, 13\n\nThe broader question of the tariffs' effect is harder and more nuanced than the October one, and some tariff effects are real.\n\n*Why:* Rejecting one piece of evidence does not establish that the policy has no effect.",
+   "x": 300,
+   "y": 3800,
+   "width": 520,
+   "height": 300,
+   "color": "#9A8C6A"
+  },
+  {
+   "id": "model-P2",
+   "type": "text",
+   "text": "**P2** \u00b7 `hidden_assumption` \u00b7 \u00b6 13\n\nLower imports of autos and durables reflect the tariffs rather than weaker demand from other causes.\n\n*Why:* Attributing falls in taxed categories to the tax requires ruling out other demand shocks.",
+   "x": 880,
+   "y": 920,
+   "width": 520,
+   "height": 300,
+   "color": "#8F4FBF"
+  }
+ ],
+ "edges": [
+  {
+   "id": "h-P2-M1",
+   "fromNode": "hand-P2",
+   "fromSide": "bottom",
+   "toNode": "hand-M1",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "h-E1-M1",
+   "fromNode": "hand-E1",
+   "fromSide": "bottom",
+   "toNode": "hand-M1",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "h-E1-M2",
+   "fromNode": "hand-E1",
+   "fromSide": "bottom",
+   "toNode": "hand-M2",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "h-E1-M3",
+   "fromNode": "hand-E1",
+   "fromSide": "bottom",
+   "toNode": "hand-M3",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "h-E2-M3",
+   "fromNode": "hand-E2",
+   "fromSide": "bottom",
+   "toNode": "hand-M3",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "h-P1-M4",
+   "fromNode": "hand-P1",
+   "fromSide": "bottom",
+   "toNode": "hand-M4",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "h-M1-C1",
+   "fromNode": "hand-M1",
+   "fromSide": "bottom",
+   "toNode": "hand-C1",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "h-M2-C1",
+   "fromNode": "hand-M2",
+   "fromSide": "bottom",
+   "toNode": "hand-C1",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "h-M3-C1",
+   "fromNode": "hand-M3",
+   "fromSide": "bottom",
+   "toNode": "hand-C1",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "h-M4-K",
+   "fromNode": "hand-M4",
+   "fromSide": "bottom",
+   "toNode": "hand-K",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "h-P3-C1",
+   "fromNode": "hand-P3",
+   "fromSide": "bottom",
+   "toNode": "hand-C1",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 licenses"
+  },
+  {
+   "id": "h-C1-K",
+   "fromNode": "hand-C1",
+   "fromSide": "bottom",
+   "toNode": "hand-K",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "h-K-X",
+   "fromNode": "hand-K",
+   "fromSide": "bottom",
+   "toNode": "hand-X",
+   "toSide": "top",
+   "color": "1",
+   "label": "-1 rebuts"
+  },
+  {
+   "id": "h-K-QF",
+   "fromNode": "hand-K",
+   "fromSide": "bottom",
+   "toNode": "hand-QF",
+   "toSide": "top",
+   "color": "1",
+   "label": "-1 qualified_by"
+  },
+  {
+   "id": "h-M2-R1",
+   "fromNode": "hand-M2",
+   "fromSide": "bottom",
+   "toNode": "hand-R1",
+   "toSide": "top",
+   "color": "1",
+   "label": "-1 undercut_by"
+  },
+  {
+   "id": "h-Q-P1",
+   "fromNode": "hand-Q",
+   "fromSide": "bottom",
+   "toNode": "hand-P1",
+   "toSide": "top",
+   "color": "6",
+   "label": "0 frames ~"
+  },
+  {
+   "id": "h-Q-P2",
+   "fromNode": "hand-Q",
+   "fromSide": "bottom",
+   "toNode": "hand-P2",
+   "toSide": "top",
+   "color": "6",
+   "label": "0 frames ~"
+  },
+  {
+   "id": "h-Q-P3",
+   "fromNode": "hand-Q",
+   "fromSide": "bottom",
+   "toNode": "hand-P3",
+   "toSide": "top",
+   "color": "6",
+   "label": "0 frames ~"
+  },
+  {
+   "id": "h-P1-E1",
+   "fromNode": "hand-P1",
+   "fromSide": "bottom",
+   "toNode": "hand-E1",
+   "toSide": "top",
+   "color": "6",
+   "label": "0 frames ~"
+  },
+  {
+   "id": "h-P3-E2",
+   "fromNode": "hand-P3",
+   "fromSide": "bottom",
+   "toNode": "hand-E2",
+   "toSide": "top",
+   "color": "6",
+   "label": "0 frames ~"
+  },
+  {
+   "id": "m-e001",
+   "fromNode": "model-Q",
+   "fromSide": "bottom",
+   "toNode": "model-P1",
+   "toSide": "top",
+   "color": "6",
+   "label": "0 frames"
+  },
+  {
+   "id": "m-e002",
+   "fromNode": "model-Q",
+   "fromSide": "bottom",
+   "toNode": "model-P2",
+   "toSide": "top",
+   "color": "6",
+   "label": "0 frames"
+  },
+  {
+   "id": "m-e003",
+   "fromNode": "model-M1",
+   "fromSide": "bottom",
+   "toNode": "model-C1",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "m-e004",
+   "fromNode": "model-E1",
+   "fromSide": "bottom",
+   "toNode": "model-C1",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "m-e005",
+   "fromNode": "model-SCP",
+   "fromSide": "bottom",
+   "toNode": "model-E1",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 bounds"
+  },
+  {
+   "id": "m-e006",
+   "fromNode": "model-SCP",
+   "fromSide": "bottom",
+   "toNode": "model-E2",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 bounds"
+  },
+  {
+   "id": "m-e007",
+   "fromNode": "model-C1",
+   "fromSide": "bottom",
+   "toNode": "model-C2",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "m-e008",
+   "fromNode": "model-E2",
+   "fromSide": "bottom",
+   "toNode": "model-C3",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "m-e009",
+   "fromNode": "model-C3",
+   "fromSide": "bottom",
+   "toNode": "model-X",
+   "toSide": "top",
+   "color": "1",
+   "label": "-1 rebuts"
+  },
+  {
+   "id": "m-e010",
+   "fromNode": "model-E3",
+   "fromSide": "bottom",
+   "toNode": "model-C4",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "m-e011",
+   "fromNode": "model-P2",
+   "fromSide": "bottom",
+   "toNode": "model-C4",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 licenses"
+  },
+  {
+   "id": "m-e012",
+   "fromNode": "model-E4",
+   "fromSide": "bottom",
+   "toNode": "model-M2",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "m-e013",
+   "fromNode": "model-M2",
+   "fromSide": "bottom",
+   "toNode": "model-K",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "m-e014",
+   "fromNode": "model-C4",
+   "fromSide": "bottom",
+   "toNode": "model-K",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "m-e015",
+   "fromNode": "model-C2",
+   "fromSide": "bottom",
+   "toNode": "model-K",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "m-e016",
+   "fromNode": "model-P1",
+   "fromSide": "bottom",
+   "toNode": "model-C5",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 licenses"
+  },
+  {
+   "id": "m-e017",
+   "fromNode": "model-C5",
+   "fromSide": "bottom",
+   "toNode": "model-K",
+   "toSide": "top",
+   "color": "4",
+   "label": "+1 supports"
+  },
+  {
+   "id": "m-e018",
+   "fromNode": "model-K",
+   "fromSide": "bottom",
+   "toNode": "model-QF",
+   "toSide": "top",
+   "color": "1",
+   "label": "-1 qualified_by"
+  },
+  {
+   "id": "m-e019",
+   "fromNode": "model-K",
+   "fromSide": "bottom",
+   "toNode": "model-DF",
+   "toSide": "top",
+   "color": "6",
+   "label": "0 defers"
+  },
+  {
+   "id": "m-e020",
+   "fromNode": "model-K",
+   "fromSide": "bottom",
+   "toNode": "model-X",
+   "toSide": "top",
+   "color": "1",
+   "label": "-1 rebuts"
+  },
+  {
+   "id": "p-C1-C4",
+   "fromNode": "hand-C1",
+   "fromSide": "bottom",
+   "toNode": "model-C4",
+   "toSide": "bottom",
+   "color": "5",
+   "label": "paragraph"
+  },
+  {
+   "id": "p-E2-E4",
+   "fromNode": "hand-E2",
+   "fromSide": "bottom",
+   "toNode": "model-E4",
+   "toSide": "bottom",
+   "color": "5",
+   "label": "paragraph"
+  },
+  {
+   "id": "p-K-K",
+   "fromNode": "hand-K",
+   "fromSide": "bottom",
+   "toNode": "model-K",
+   "toSide": "bottom",
+   "color": "5",
+   "label": "slot"
+  },
+  {
+   "id": "p-M1-M1",
+   "fromNode": "hand-M1",
+   "fromSide": "bottom",
+   "toNode": "model-M1",
+   "toSide": "bottom",
+   "color": "5",
+   "label": "paragraph"
+  },
+  {
+   "id": "p-M3-M2",
+   "fromNode": "hand-M3",
+   "fromSide": "bottom",
+   "toNode": "model-M2",
+   "toSide": "bottom",
+   "color": "5",
+   "label": "paragraph"
+  },
+  {
+   "id": "p-P1-P1",
+   "fromNode": "hand-P1",
+   "fromSide": "bottom",
+   "toNode": "model-P1",
+   "toSide": "bottom",
+   "color": "5",
+   "label": "paragraph"
+  },
+  {
+   "id": "p-P3-P2",
+   "fromNode": "hand-P3",
+   "fromSide": "bottom",
+   "toNode": "model-P2",
+   "toSide": "bottom",
+   "color": "5",
+   "label": "slot"
+  },
+  {
+   "id": "p-Q-Q",
+   "fromNode": "hand-Q",
+   "fromSide": "bottom",
+   "toNode": "model-Q",
+   "toSide": "bottom",
+   "color": "5",
+   "label": "paragraph"
+  },
+  {
+   "id": "p-QF-QF",
+   "fromNode": "hand-QF",
+   "fromSide": "bottom",
+   "toNode": "model-QF",
+   "toSide": "bottom",
+   "color": "5",
+   "label": "slot"
+  },
+  {
+   "id": "p-X-X",
+   "fromNode": "hand-X",
+   "fromSide": "bottom",
+   "toNode": "model-X",
+   "toSide": "bottom",
+   "color": "5",
+   "label": "paragraph"
+  }
+ ]
+}

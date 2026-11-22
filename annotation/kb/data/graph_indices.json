@@ -13,26 +13,26 @@
   "frames": 0
  },
  "sign_mix": {
-  "1": 344,
+  "1": 370,
   "-1": 85,
-  "0": 130
+  "0": 135
  },
  "sign_conflicts": 0,
  "unsigned_types": [
   ""
  ],
  "corpus": {
-  "variables": 441,
-  "connections": 559,
-  "density": 0.0029,
+  "variables": 469,
+  "connections": 590,
+  "density": 0.0027,
   "hierarchy_index": 0.0001,
   "character": {
-   "transmitter": 70,
-   "ordinary": 276,
-   "receiver": 88,
+   "transmitter": 79,
+   "ordinary": 290,
+   "receiver": 93,
    "isolated": 7
   },
-  "mean_centrality": 2.54
+  "mean_centrality": 2.52
  },
  "per_document": {
   "setser_dec_15_17": {
@@ -294,84 +294,115 @@
    "mean_centrality": 2.67
   },
   "setser_2026-07-27_is-chinas-surplus-really-shrinking": {
-   "variables": 18,
-   "connections": 24,
-   "density": 0.0784,
-   "hierarchy_index": 0.0206,
+   "variables": 17,
+   "connections": 20,
+   "density": 0.0735,
+   "hierarchy_index": 0.0208,
    "character": {
-    "transmitter": 7,
+    "transmitter": 6,
     "receiver": 2,
     "ordinary": 9
    },
-   "mean_centrality": 2.67
+   "mean_centrality": 2.35
+  },
+  "setser_2026-08-02_the-world-should-not-ignore-chinas-obviously-undervalued-currency": {
+   "variables": 28,
+   "connections": 32,
+   "density": 0.0423,
+   "hierarchy_index": 0.0117,
+   "character": {
+    "ordinary": 12,
+    "transmitter": 9,
+    "receiver": 7
+   },
+   "mean_centrality": 2.29
   },
   "setser_2026-09-15_de-reservification-not-de-dollarization": {
-   "variables": 22,
-   "connections": 30,
-   "density": 0.0649,
-   "hierarchy_index": 0.0238,
+   "variables": 26,
+   "connections": 37,
+   "density": 0.0569,
+   "hierarchy_index": 0.0153,
    "character": {
-    "transmitter": 5,
+    "transmitter": 7,
     "receiver": 3,
-    "ordinary": 14
+    "ordinary": 16
    },
-   "mean_centrality": 2.73
+   "mean_centrality": 2.85
   },
   "setser_2026-10-13_whats-the-renminbi-got-to-do-with-it": {
-   "variables": 28,
-   "connections": 34,
-   "density": 0.045,
-   "hierarchy_index": 0.0157,
+   "variables": 25,
+   "connections": 30,
+   "density": 0.05,
+   "hierarchy_index": 0.0169,
    "character": {
-    "transmitter": 9,
-    "receiver": 7,
+    "transmitter": 8,
+    "receiver": 5,
     "ordinary": 12
    },
-   "mean_centrality": 2.43
+   "mean_centrality": 2.4
   }
  },
  "variable_map": {
   "variables": 34,
-  "connections": 599,
-  "density": 0.5339,
-  "hierarchy_index": 1.7968,
+  "connections": 616,
+  "density": 0.549,
+  "hierarchy_index": 1.5876,
   "character": {
-   "ordinary": 33,
-   "transmitter": 1
+   "ordinary": 34
   },
-  "mean_centrality": 35.24
+  "mean_centrality": 36.24
  },
  "facets": {
   "country": [
    {
     "term": "china",
-    "claims": 241,
-    "outdegree": 293,
-    "indegree": 301,
-    "centrality": 594,
-    "centrality_per_claim": 2.46,
-    "transmitter_bias": -0.01,
-    "articles": 18
+    "claims": 262,
+    "outdegree": 311,
+    "indegree": 321,
+    "centrality": 632,
+    "centrality_per_claim": 2.41,
+    "transmitter_bias": -0.02,
+    "articles": 19
    },
    {
     "term": "us",
-    "claims": 212,
+    "claims": 213,
     "outdegree": 264,
     "indegree": 281,
     "centrality": 545,
-    "centrality_per_claim": 2.57,
+    "centrality_per_claim": 2.56,
     "transmitter_bias": -0.03,
     "articles": 20
    },
    {
     "term": "euro-area",
     "claims": 29,
-    "outdegree": 32,
-    "indegree": 40,
-    "centrality": 72,
-    "centrality_per_claim": 2.48,
+    "outdegree": 31,
+    "indegree": 39,
+    "centrality": 70,
+    "centrality_per_claim": 2.41,
     "transmitter_bias": -0.11,
-    "articles": 6
+    "articles": 7
+   },
+   {
+    "term": "taiwan",
+    "claims": 3,
+    "outdegree": 4,
+    "indegree": 4,
+    "centrality": 8,
+    "centrality_per_claim": 2.67,
+    "transmitter_bias": 0.0,
+    "articles": 3
+   },
+   {
+    "term": "japan",
+    "claims": 6,
+    "outdegree": 4,
+    "indegree": 4,
+    "centrality": 8,
+    "centrality_per_claim": 1.33,
+    "transmitter_bias": 0.0,
+    "articles": 4
    },
    {
     "term": "ireland",
@@ -384,33 +415,23 @@
     "articles": 2
    },
    {
-    "term": "taiwan",
+    "term": "germany",
     "claims": 3,
-    "outdegree": 3,
+    "outdegree": 1,
     "indegree": 3,
-    "centrality": 6,
-    "centrality_per_claim": 2.0,
-    "transmitter_bias": 0.0,
-    "articles": 3
-   },
-   {
-    "term": "japan",
-    "claims": 4,
-    "outdegree": 2,
-    "indegree": 3,
-    "centrality": 5,
-    "centrality_per_claim": 1.25,
-    "transmitter_bias": -0.2,
+    "centrality": 4,
+    "centrality_per_claim": 1.33,
+    "transmitter_bias": -0.5,
     "articles": 3
    },
    {
     "term": "korea",
     "claims": 2,
-    "outdegree": 2,
-    "indegree": 2,
+    "outdegree": 3,
+    "indegree": 1,
     "centrality": 4,
     "centrality_per_claim": 2.0,
-    "transmitter_bias": 0.0,
+    "transmitter_bias": 0.5,
     "articles": 1
    },
    {
@@ -444,16 +465,6 @@
     "articles": 1
    },
    {
-    "term": "germany",
-    "claims": 2,
-    "outdegree": 1,
-    "indegree": 2,
-    "centrality": 3,
-    "centrality_per_claim": 1.5,
-    "transmitter_bias": -0.33,
-    "articles": 2
-   },
-   {
     "term": "canada",
     "claims": 1,
     "outdegree": 1,
@@ -467,33 +478,33 @@
   "data_basis": [
    {
     "term": "customs",
-    "claims": 59,
-    "outdegree": 67,
-    "indegree": 66,
-    "centrality": 133,
-    "centrality_per_claim": 2.25,
-    "transmitter_bias": 0.01,
+    "claims": 58,
+    "outdegree": 66,
+    "indegree": 61,
+    "centrality": 127,
+    "centrality_per_claim": 2.19,
+    "transmitter_bias": 0.04,
     "articles": 19
    },
    {
     "term": "balance-of-payments",
-    "claims": 33,
-    "outdegree": 35,
-    "indegree": 42,
-    "centrality": 77,
-    "centrality_per_claim": 2.33,
-    "transmitter_bias": -0.09,
-    "articles": 9
+    "claims": 35,
+    "outdegree": 37,
+    "indegree": 45,
+    "centrality": 82,
+    "centrality_per_claim": 2.34,
+    "transmitter_bias": -0.1,
+    "articles": 10
    },
    {
     "term": "imf-publications",
-    "claims": 24,
-    "outdegree": 23,
-    "indegree": 24,
-    "centrality": 47,
-    "centrality_per_claim": 1.96,
-    "transmitter_bias": -0.02,
-    "articles": 8
+    "claims": 30,
+    "outdegree": 38,
+    "indegree": 36,
+    "centrality": 74,
+    "centrality_per_claim": 2.47,
+    "transmitter_bias": 0.03,
+    "articles": 9
    },
    {
     "term": "mirror-statistics",
@@ -507,63 +518,63 @@
    },
    {
     "term": "academic-econometrics",
-    "claims": 15,
-    "outdegree": 19,
-    "indegree": 9,
-    "centrality": 28,
-    "centrality_per_claim": 1.87,
-    "transmitter_bias": 0.36,
-    "articles": 11
+    "claims": 17,
+    "outdegree": 21,
+    "indegree": 8,
+    "centrality": 29,
+    "centrality_per_claim": 1.71,
+    "transmitter_bias": 0.45,
+    "articles": 12
    },
    {
     "term": "national-accounts",
-    "claims": 10,
-    "outdegree": 10,
-    "indegree": 9,
-    "centrality": 19,
-    "centrality_per_claim": 1.9,
+    "claims": 11,
+    "outdegree": 11,
+    "indegree": 10,
+    "centrality": 21,
+    "centrality_per_claim": 1.91,
     "transmitter_bias": 0.05,
-    "articles": 5
-   },
-   {
-    "term": "market-prices",
-    "claims": 9,
-    "outdegree": 8,
-    "indegree": 7,
-    "centrality": 15,
-    "centrality_per_claim": 1.67,
-    "transmitter_bias": 0.07,
-    "articles": 4
-   },
-   {
-    "term": "third-party-trackers",
-    "claims": 6,
-    "outdegree": 8,
-    "indegree": 4,
-    "centrality": 12,
-    "centrality_per_claim": 2.0,
-    "transmitter_bias": 0.33,
-    "articles": 4
-   },
-   {
-    "term": "press-reporting",
-    "claims": 7,
-    "outdegree": 6,
-    "indegree": 5,
-    "centrality": 11,
-    "centrality_per_claim": 1.57,
-    "transmitter_bias": 0.09,
     "articles": 6
    },
    {
-    "term": "corporate-disclosure",
-    "claims": 3,
-    "outdegree": 5,
-    "indegree": 2,
-    "centrality": 7,
-    "centrality_per_claim": 2.33,
-    "transmitter_bias": 0.43,
+    "term": "third-party-trackers",
+    "claims": 5,
+    "outdegree": 6,
+    "indegree": 3,
+    "centrality": 9,
+    "centrality_per_claim": 1.8,
+    "transmitter_bias": 0.33,
     "articles": 3
+   },
+   {
+    "term": "market-prices",
+    "claims": 6,
+    "outdegree": 6,
+    "indegree": 3,
+    "centrality": 9,
+    "centrality_per_claim": 1.5,
+    "transmitter_bias": 0.33,
+    "articles": 3
+   },
+   {
+    "term": "corporate-disclosure",
+    "claims": 4,
+    "outdegree": 6,
+    "indegree": 2,
+    "centrality": 8,
+    "centrality_per_claim": 2.0,
+    "transmitter_bias": 0.5,
+    "articles": 3
+   },
+   {
+    "term": "press-reporting",
+    "claims": 5,
+    "outdegree": 3,
+    "indegree": 4,
+    "centrality": 7,
+    "centrality_per_claim": 1.4,
+    "transmitter_bias": -0.14,
+    "articles": 5
    },
    {
     "term": "enterprise-reporting",
@@ -579,63 +590,63 @@
   "variable": [
    {
     "term": "import-volumes",
-    "claims": 103,
-    "outdegree": 128,
+    "claims": 102,
+    "outdegree": 124,
     "indegree": 143,
-    "centrality": 271,
-    "centrality_per_claim": 2.63,
-    "transmitter_bias": -0.06,
-    "articles": 17
-   },
-   {
-    "term": "goods-trade-balance",
-    "claims": 72,
-    "outdegree": 108,
-    "indegree": 100,
-    "centrality": 208,
-    "centrality_per_claim": 2.89,
-    "transmitter_bias": 0.04,
-    "articles": 12
+    "centrality": 267,
+    "centrality_per_claim": 2.62,
+    "transmitter_bias": -0.07,
+    "articles": 18
    },
    {
     "term": "current-account",
-    "claims": 80,
-    "outdegree": 102,
-    "indegree": 98,
-    "centrality": 200,
-    "centrality_per_claim": 2.5,
-    "transmitter_bias": 0.02,
+    "claims": 86,
+    "outdegree": 115,
+    "indegree": 113,
+    "centrality": 228,
+    "centrality_per_claim": 2.65,
+    "transmitter_bias": 0.01,
     "articles": 13
+   },
+   {
+    "term": "goods-trade-balance",
+    "claims": 70,
+    "outdegree": 104,
+    "indegree": 97,
+    "centrality": 201,
+    "centrality_per_claim": 2.87,
+    "transmitter_bias": 0.03,
+    "articles": 12
    },
    {
     "term": "nominal-exchange-rate",
-    "claims": 65,
-    "outdegree": 86,
-    "indegree": 82,
-    "centrality": 168,
-    "centrality_per_claim": 2.58,
-    "transmitter_bias": 0.02,
-    "articles": 11
+    "claims": 66,
+    "outdegree": 90,
+    "indegree": 74,
+    "centrality": 164,
+    "centrality_per_claim": 2.48,
+    "transmitter_bias": 0.1,
+    "articles": 12
    },
    {
     "term": "export-volumes",
-    "claims": 48,
-    "outdegree": 66,
-    "indegree": 62,
-    "centrality": 128,
-    "centrality_per_claim": 2.67,
-    "transmitter_bias": 0.03,
-    "articles": 13
+    "claims": 52,
+    "outdegree": 69,
+    "indegree": 66,
+    "centrality": 135,
+    "centrality_per_claim": 2.6,
+    "transmitter_bias": 0.02,
+    "articles": 14
    },
    {
     "term": "domestic-demand",
-    "claims": 37,
+    "claims": 39,
     "outdegree": 52,
-    "indegree": 54,
-    "centrality": 106,
-    "centrality_per_claim": 2.86,
-    "transmitter_bias": -0.02,
-    "articles": 11
+    "indegree": 56,
+    "centrality": 108,
+    "centrality_per_claim": 2.77,
+    "transmitter_bias": -0.04,
+    "articles": 13
    },
    {
     "term": "bilateral-trade-flows",
@@ -648,54 +659,64 @@
     "articles": 10
    },
    {
+    "term": "fx-reserves",
+    "claims": 38,
+    "outdegree": 53,
+    "indegree": 46,
+    "centrality": 99,
+    "centrality_per_claim": 2.61,
+    "transmitter_bias": 0.07,
+    "articles": 7
+   },
+   {
     "term": "manufacturing-trade-balance",
     "claims": 37,
-    "outdegree": 49,
-    "indegree": 43,
-    "centrality": 92,
-    "centrality_per_claim": 2.49,
+    "outdegree": 48,
+    "indegree": 42,
+    "centrality": 90,
+    "centrality_per_claim": 2.43,
     "transmitter_bias": 0.07,
     "articles": 10
    },
    {
-    "term": "fx-reserves",
-    "claims": 33,
-    "outdegree": 44,
-    "indegree": 40,
-    "centrality": 84,
-    "centrality_per_claim": 2.55,
-    "transmitter_bias": 0.05,
-    "articles": 7
-   },
-   {
     "term": "capital-flows",
-    "claims": 32,
-    "outdegree": 37,
-    "indegree": 42,
-    "centrality": 79,
-    "centrality_per_claim": 2.47,
-    "transmitter_bias": -0.06,
-    "articles": 8
+    "claims": 34,
+    "outdegree": 40,
+    "indegree": 48,
+    "centrality": 88,
+    "centrality_per_claim": 2.59,
+    "transmitter_bias": -0.09,
+    "articles": 7
    },
    {
     "term": "global-imbalances",
     "claims": 21,
-    "outdegree": 30,
-    "indegree": 38,
+    "outdegree": 31,
+    "indegree": 37,
     "centrality": 68,
     "centrality_per_claim": 3.24,
-    "transmitter_bias": -0.12,
+    "transmitter_bias": -0.09,
     "articles": 5
    },
    {
     "term": "manufacturing-output",
-    "claims": 27,
-    "outdegree": 33,
-    "indegree": 30,
-    "centrality": 63,
-    "centrality_per_claim": 2.33,
+    "claims": 28,
+    "outdegree": 34,
+    "indegree": 31,
+    "centrality": 65,
+    "centrality_per_claim": 2.32,
     "transmitter_bias": 0.05,
-    "articles": 7
+    "articles": 8
+   },
+   {
+    "term": "real-exchange-rate",
+    "claims": 21,
+    "outdegree": 28,
+    "indegree": 34,
+    "centrality": 62,
+    "centrality_per_claim": 2.95,
+    "transmitter_bias": -0.1,
+    "articles": 3
    },
    {
     "term": "tariff-rate",
@@ -709,43 +730,43 @@
    },
    {
     "term": "net-external-debt",
-    "claims": 19,
-    "outdegree": 22,
-    "indegree": 29,
-    "centrality": 51,
-    "centrality_per_claim": 2.68,
-    "transmitter_bias": -0.14,
-    "articles": 5
-   },
-   {
-    "term": "gdp-growth",
-    "claims": 14,
-    "outdegree": 21,
-    "indegree": 28,
-    "centrality": 49,
-    "centrality_per_claim": 3.5,
-    "transmitter_bias": -0.14,
+    "claims": 20,
+    "outdegree": 23,
+    "indegree": 30,
+    "centrality": 53,
+    "centrality_per_claim": 2.65,
+    "transmitter_bias": -0.13,
     "articles": 6
    },
    {
     "term": "investment-income-balance",
-    "claims": 16,
-    "outdegree": 16,
-    "indegree": 23,
-    "centrality": 39,
+    "claims": 18,
+    "outdegree": 18,
+    "indegree": 26,
+    "centrality": 44,
     "centrality_per_claim": 2.44,
     "transmitter_bias": -0.18,
+    "articles": 8
+   },
+   {
+    "term": "gdp-growth",
+    "claims": 16,
+    "outdegree": 21,
+    "indegree": 22,
+    "centrality": 43,
+    "centrality_per_claim": 2.69,
+    "transmitter_bias": -0.02,
     "articles": 7
    },
    {
     "term": "trade-elasticity",
-    "claims": 14,
-    "outdegree": 20,
+    "claims": 15,
+    "outdegree": 22,
     "indegree": 18,
-    "centrality": 38,
-    "centrality_per_claim": 2.71,
-    "transmitter_bias": 0.05,
-    "articles": 6
+    "centrality": 40,
+    "centrality_per_claim": 2.67,
+    "transmitter_bias": 0.1,
+    "articles": 7
    },
    {
     "term": "fiscal-balance",
@@ -758,24 +779,34 @@
     "articles": 9
    },
    {
-    "term": "investment-capex",
+    "term": "fiscal-impulse",
     "claims": 10,
-    "outdegree": 12,
-    "indegree": 15,
-    "centrality": 27,
-    "centrality_per_claim": 2.7,
-    "transmitter_bias": -0.11,
-    "articles": 5
+    "outdegree": 17,
+    "indegree": 14,
+    "centrality": 31,
+    "centrality_per_claim": 3.1,
+    "transmitter_bias": 0.1,
+    "articles": 4
    },
    {
-    "term": "fiscal-impulse",
+    "term": "investment-capex",
+    "claims": 12,
+    "outdegree": 14,
+    "indegree": 15,
+    "centrality": 29,
+    "centrality_per_claim": 2.42,
+    "transmitter_bias": -0.03,
+    "articles": 6
+   },
+   {
+    "term": "national-saving",
     "claims": 9,
-    "outdegree": 15,
+    "outdegree": 9,
     "indegree": 11,
-    "centrality": 26,
-    "centrality_per_claim": 2.89,
-    "transmitter_bias": 0.15,
-    "articles": 3
+    "centrality": 20,
+    "centrality_per_claim": 2.22,
+    "transmitter_bias": -0.1,
+    "articles": 5
    },
    {
     "term": "tariff-revenue",
@@ -786,26 +817,6 @@
     "centrality_per_claim": 2.71,
     "transmitter_bias": -0.05,
     "articles": 4
-   },
-   {
-    "term": "national-saving",
-    "claims": 8,
-    "outdegree": 9,
-    "indegree": 10,
-    "centrality": 19,
-    "centrality_per_claim": 2.38,
-    "transmitter_bias": -0.05,
-    "articles": 4
-   },
-   {
-    "term": "real-exchange-rate",
-    "claims": 7,
-    "outdegree": 8,
-    "indegree": 9,
-    "centrality": 17,
-    "centrality_per_claim": 2.43,
-    "transmitter_bias": -0.06,
-    "articles": 2
    },
    {
     "term": "trade-openness",
@@ -841,30 +852,20 @@
     "term": "interest-rates",
     "claims": 7,
     "outdegree": 7,
-    "indegree": 7,
-    "centrality": 14,
-    "centrality_per_claim": 2.0,
-    "transmitter_bias": 0.0,
+    "indegree": 6,
+    "centrality": 13,
+    "centrality_per_claim": 1.86,
+    "transmitter_bias": 0.08,
     "articles": 5
    },
    {
     "term": "savings-investment-gap",
-    "claims": 3,
-    "outdegree": 8,
+    "claims": 4,
+    "outdegree": 9,
     "indegree": 3,
-    "centrality": 11,
-    "centrality_per_claim": 3.67,
-    "transmitter_bias": 0.45,
-    "articles": 3
-   },
-   {
-    "term": "commodity-prices",
-    "claims": 6,
-    "outdegree": 5,
-    "indegree": 5,
-    "centrality": 10,
-    "centrality_per_claim": 1.67,
-    "transmitter_bias": 0.0,
+    "centrality": 12,
+    "centrality_per_claim": 3.0,
+    "transmitter_bias": 0.5,
     "articles": 4
    },
    {
@@ -878,6 +879,16 @@
     "articles": 1
    },
    {
+    "term": "price-level",
+    "claims": 6,
+    "outdegree": 5,
+    "indegree": 4,
+    "centrality": 9,
+    "centrality_per_claim": 1.5,
+    "transmitter_bias": 0.11,
+    "articles": 2
+   },
+   {
     "term": "profitability",
     "claims": 2,
     "outdegree": 3,
@@ -888,6 +899,26 @@
     "articles": 1
    },
    {
+    "term": "commodity-prices",
+    "claims": 6,
+    "outdegree": 4,
+    "indegree": 4,
+    "centrality": 8,
+    "centrality_per_claim": 1.33,
+    "transmitter_bias": 0.0,
+    "articles": 5
+   },
+   {
+    "term": "household-consumption-share",
+    "claims": 6,
+    "outdegree": 4,
+    "indegree": 4,
+    "centrality": 8,
+    "centrality_per_claim": 1.33,
+    "transmitter_bias": 0.0,
+    "articles": 2
+   },
+   {
     "term": "services-balance",
     "claims": 4,
     "outdegree": 2,
@@ -896,26 +927,6 @@
     "centrality_per_claim": 1.25,
     "transmitter_bias": -0.2,
     "articles": 3
-   },
-   {
-    "term": "price-level",
-    "claims": 1,
-    "outdegree": 1,
-    "indegree": 1,
-    "centrality": 2,
-    "centrality_per_claim": 2.0,
-    "transmitter_bias": 0.0,
-    "articles": 1
-   },
-   {
-    "term": "household-consumption-share",
-    "claims": 1,
-    "outdegree": 1,
-    "indegree": 0,
-    "centrality": 1,
-    "centrality_per_claim": 1.0,
-    "transmitter_bias": 1.0,
-    "articles": 1
    }
   ],
   "instrument": [
@@ -930,34 +941,34 @@
     "articles": 11
    },
    {
-    "term": "industrial-policy",
-    "claims": 29,
-    "outdegree": 47,
-    "indegree": 45,
-    "centrality": 92,
-    "centrality_per_claim": 3.17,
+    "term": "fx-intervention",
+    "claims": 33,
+    "outdegree": 56,
+    "indegree": 54,
+    "centrality": 110,
+    "centrality_per_claim": 3.33,
     "transmitter_bias": 0.02,
-    "articles": 6
+    "articles": 7
    },
    {
-    "term": "fx-intervention",
-    "claims": 27,
-    "outdegree": 44,
-    "indegree": 43,
-    "centrality": 87,
-    "centrality_per_claim": 3.22,
-    "transmitter_bias": 0.01,
+    "term": "industrial-policy",
+    "claims": 31,
+    "outdegree": 47,
+    "indegree": 44,
+    "centrality": 91,
+    "centrality_per_claim": 2.94,
+    "transmitter_bias": 0.03,
     "articles": 6
    },
    {
     "term": "fiscal-policy",
-    "claims": 26,
-    "outdegree": 36,
-    "indegree": 36,
-    "centrality": 72,
-    "centrality_per_claim": 2.77,
-    "transmitter_bias": 0.0,
-    "articles": 9
+    "claims": 29,
+    "outdegree": 39,
+    "indegree": 42,
+    "centrality": 81,
+    "centrality_per_claim": 2.79,
+    "transmitter_bias": -0.04,
+    "articles": 10
    },
    {
     "term": "purchase-commitments",
@@ -990,6 +1001,16 @@
     "articles": 1
    },
    {
+    "term": "capital-controls",
+    "claims": 5,
+    "outdegree": 9,
+    "indegree": 6,
+    "centrality": 15,
+    "centrality_per_claim": 3.0,
+    "transmitter_bias": 0.2,
+    "articles": 4
+   },
+   {
     "term": "trade-agreements",
     "claims": 6,
     "outdegree": 7,
@@ -1000,13 +1021,13 @@
     "articles": 4
    },
    {
-    "term": "capital-controls",
-    "claims": 3,
-    "outdegree": 7,
-    "indegree": 3,
-    "centrality": 10,
-    "centrality_per_claim": 3.33,
-    "transmitter_bias": 0.4,
+    "term": "structural-reform",
+    "claims": 6,
+    "outdegree": 5,
+    "indegree": 6,
+    "centrality": 11,
+    "centrality_per_claim": 1.83,
+    "transmitter_bias": -0.09,
     "articles": 3
    },
    {
@@ -1030,16 +1051,6 @@
     "articles": 1
    },
    {
-    "term": "structural-reform",
-    "claims": 4,
-    "outdegree": 2,
-    "indegree": 4,
-    "centrality": 6,
-    "centrality_per_claim": 1.5,
-    "transmitter_bias": -0.33,
-    "articles": 2
-   },
-   {
     "term": "export-controls",
     "claims": 2,
     "outdegree": 1,
@@ -1053,23 +1064,13 @@
   "bloc": [
    {
     "term": "global",
-    "claims": 22,
-    "outdegree": 42,
-    "indegree": 32,
-    "centrality": 74,
-    "centrality_per_claim": 3.36,
-    "transmitter_bias": 0.14,
+    "claims": 24,
+    "outdegree": 49,
+    "indegree": 35,
+    "centrality": 84,
+    "centrality_per_claim": 3.5,
+    "transmitter_bias": 0.17,
     "articles": 7
-   },
-   {
-    "term": "asia-surplus",
-    "claims": 10,
-    "outdegree": 15,
-    "indegree": 11,
-    "centrality": 26,
-    "centrality_per_claim": 2.6,
-    "transmitter_bias": 0.15,
-    "articles": 3
    },
    {
     "term": "em-weak-balance-sheet",
@@ -1082,14 +1083,14 @@
     "articles": 1
    },
    {
-    "term": "gulf",
-    "claims": 3,
-    "outdegree": 7,
-    "indegree": 2,
-    "centrality": 9,
-    "centrality_per_claim": 3.0,
-    "transmitter_bias": 0.56,
-    "articles": 2
+    "term": "asia-surplus",
+    "claims": 8,
+    "outdegree": 9,
+    "indegree": 12,
+    "centrality": 21,
+    "centrality_per_claim": 2.62,
+    "transmitter_bias": -0.14,
+    "articles": 3
    },
    {
     "term": "southeast-asia",
@@ -1103,6 +1104,16 @@
    },
    {
     "term": "em-commodity",
+    "claims": 3,
+    "outdegree": 4,
+    "indegree": 2,
+    "centrality": 6,
+    "centrality_per_claim": 2.0,
+    "transmitter_bias": 0.33,
+    "articles": 2
+   },
+   {
+    "term": "gulf",
     "claims": 3,
     "outdegree": 4,
     "indegree": 2,

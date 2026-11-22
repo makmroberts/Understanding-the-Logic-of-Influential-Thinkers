@@ -64,3 +64,14 @@ held_out:
   - setser_mar_31_20
   - setser_2025-11-12_china-surplus-imf
   - setser_2026-02-03_october-2025-deficit
+
+# Meaning check in the evaluation (optional: `pip install -e .[meaning]`). A cross-encoder
+# scores whether a model box and a hand box say the same thing. Chosen from five local models;
+# the threshold was set on 40 pairs labelled by a majority of three LLMs (no human yet). At
+# 0.40 it called 80% of same pairs same, 7% of different pairs same, and none of the opposite-
+# stance pairs. Pinned, so a re-run gives the same scores. enabled: false skips it.
+meaning:
+  enabled: true
+  model: cross-encoder/stsb-roberta-large
+  revision: 2b12c2c0088918e76151fd5937b7bba986ef1f98
+  threshold: 0.40

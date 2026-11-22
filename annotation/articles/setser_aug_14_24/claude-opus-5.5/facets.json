@@ -12,6 +12,15 @@
   {
    "doc": "setser_aug_14_24",
    "node_id": "Q",
+   "facet": "variable",
+   "value": "current-account",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_aug_14_24",
+   "node_id": "Q",
    "facet": "data_basis",
    "value": "balance-of-payments",
    "role": "",
@@ -38,118 +47,19 @@
   },
   {
    "doc": "setser_aug_14_24",
-   "node_id": "E2",
+   "node_id": "P1",
    "facet": "variable",
-   "value": "goods-trade-balance",
+   "value": "current-account",
    "role": "",
    "source": "llm",
    "model": "anthropic/claude-opus-5.5"
   },
   {
    "doc": "setser_aug_14_24",
-   "node_id": "E2",
-   "facet": "data_basis",
-   "value": "enterprise-reporting",
-   "role": "",
-   "source": "llm",
-   "model": "anthropic/claude-opus-5.5"
-  },
-  {
-   "doc": "setser_aug_14_24",
-   "node_id": "E2",
+   "node_id": "P1",
    "facet": "data_basis",
    "value": "balance-of-payments",
    "role": "",
-   "source": "llm",
-   "model": "anthropic/claude-opus-5.5"
-  },
-  {
-   "doc": "setser_aug_14_24",
-   "node_id": "E2",
-   "facet": "country",
-   "value": "china",
-   "role": "subject",
-   "source": "llm",
-   "model": "anthropic/claude-opus-5.5"
-  },
-  {
-   "doc": "setser_aug_14_24",
-   "node_id": "E3",
-   "facet": "variable",
-   "value": "import-volumes",
-   "role": "",
-   "source": "llm",
-   "model": "anthropic/claude-opus-5.5"
-  },
-  {
-   "doc": "setser_aug_14_24",
-   "node_id": "E3",
-   "facet": "data_basis",
-   "value": "imf-publications",
-   "role": "",
-   "source": "llm",
-   "model": "anthropic/claude-opus-5.5"
-  },
-  {
-   "doc": "setser_aug_14_24",
-   "node_id": "E3",
-   "facet": "data_basis",
-   "value": "balance-of-payments",
-   "role": "",
-   "source": "llm",
-   "model": "anthropic/claude-opus-5.5"
-  },
-  {
-   "doc": "setser_aug_14_24",
-   "node_id": "E3",
-   "facet": "country",
-   "value": "china",
-   "role": "subject",
-   "source": "llm",
-   "model": "anthropic/claude-opus-5.5"
-  },
-  {
-   "doc": "setser_aug_14_24",
-   "node_id": "M1",
-   "facet": "variable",
-   "value": "goods-trade-balance",
-   "role": "",
-   "source": "llm",
-   "model": "anthropic/claude-opus-5.5"
-  },
-  {
-   "doc": "setser_aug_14_24",
-   "node_id": "M1",
-   "facet": "data_basis",
-   "value": "balance-of-payments",
-   "role": "",
-   "source": "llm",
-   "model": "anthropic/claude-opus-5.5"
-  },
-  {
-   "doc": "setser_aug_14_24",
-   "node_id": "M1",
-   "facet": "country",
-   "value": "china",
-   "role": "subject",
-   "source": "llm",
-   "model": "anthropic/claude-opus-5.5"
-  },
-  {
-   "doc": "setser_aug_14_24",
-   "node_id": "C1",
-   "facet": "variable",
-   "value": "goods-trade-balance",
-   "role": "",
-   "source": "llm",
-   "model": "anthropic/claude-opus-5.5"
-  },
-  {
-   "doc": "setser_aug_14_24",
-   "node_id": "C1",
-   "facet": "country",
-   "value": "china",
-   "role": "subject",
    "source": "llm",
    "model": "anthropic/claude-opus-5.5"
   },
@@ -174,6 +84,15 @@
   {
    "doc": "setser_aug_14_24",
    "node_id": "ID",
+   "facet": "variable",
+   "value": "services-balance",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_aug_14_24",
+   "node_id": "ID",
    "facet": "data_basis",
    "value": "balance-of-payments",
    "role": "",
@@ -191,16 +110,7 @@
   },
   {
    "doc": "setser_aug_14_24",
-   "node_id": "E5",
-   "facet": "variable",
-   "value": "current-account",
-   "role": "",
-   "source": "llm",
-   "model": "anthropic/claude-opus-5.5"
-  },
-  {
-   "doc": "setser_aug_14_24",
-   "node_id": "E5",
+   "node_id": "P2",
    "facet": "variable",
    "value": "goods-trade-balance",
    "role": "",
@@ -209,16 +119,7 @@
   },
   {
    "doc": "setser_aug_14_24",
-   "node_id": "E5",
-   "facet": "data_basis",
-   "value": "balance-of-payments",
-   "role": "",
-   "source": "llm",
-   "model": "anthropic/claude-opus-5.5"
-  },
-  {
-   "doc": "setser_aug_14_24",
-   "node_id": "E5",
+   "node_id": "P2",
    "facet": "data_basis",
    "value": "customs",
    "role": "",
@@ -227,7 +128,151 @@
   },
   {
    "doc": "setser_aug_14_24",
-   "node_id": "E5",
+   "node_id": "P2",
+   "facet": "data_basis",
+   "value": "enterprise-reporting",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_aug_14_24",
+   "node_id": "P2",
+   "facet": "country",
+   "value": "china",
+   "role": "subject",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_aug_14_24",
+   "node_id": "P3",
+   "facet": "variable",
+   "value": "goods-trade-balance",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_aug_14_24",
+   "node_id": "P3",
+   "facet": "data_basis",
+   "value": "balance-of-payments",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_aug_14_24",
+   "node_id": "P3",
+   "facet": "data_basis",
+   "value": "customs",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_aug_14_24",
+   "node_id": "P3",
+   "facet": "country",
+   "value": "china",
+   "role": "subject",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_aug_14_24",
+   "node_id": "P4",
+   "facet": "variable",
+   "value": "goods-trade-balance",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_aug_14_24",
+   "node_id": "P4",
+   "facet": "data_basis",
+   "value": "enterprise-reporting",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_aug_14_24",
+   "node_id": "P4",
+   "facet": "country",
+   "value": "china",
+   "role": "subject",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_aug_14_24",
+   "node_id": "M1",
+   "facet": "variable",
+   "value": "goods-trade-balance",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_aug_14_24",
+   "node_id": "M1",
+   "facet": "data_basis",
+   "value": "balance-of-payments",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_aug_14_24",
+   "node_id": "M1",
+   "facet": "country",
+   "value": "china",
+   "role": "subject",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_aug_14_24",
+   "node_id": "E3",
+   "facet": "variable",
+   "value": "goods-trade-balance",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_aug_14_24",
+   "node_id": "E3",
+   "facet": "data_basis",
+   "value": "imf-publications",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_aug_14_24",
+   "node_id": "E3",
+   "facet": "country",
+   "value": "china",
+   "role": "subject",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_aug_14_24",
+   "node_id": "C1",
+   "facet": "variable",
+   "value": "goods-trade-balance",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_aug_14_24",
+   "node_id": "C1",
    "facet": "country",
    "value": "china",
    "role": "subject",
@@ -237,6 +282,51 @@
   {
    "doc": "setser_aug_14_24",
    "node_id": "E4",
+   "facet": "variable",
+   "value": "current-account",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_aug_14_24",
+   "node_id": "E4",
+   "facet": "variable",
+   "value": "goods-trade-balance",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_aug_14_24",
+   "node_id": "E4",
+   "facet": "data_basis",
+   "value": "balance-of-payments",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_aug_14_24",
+   "node_id": "E4",
+   "facet": "data_basis",
+   "value": "customs",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_aug_14_24",
+   "node_id": "E4",
+   "facet": "country",
+   "value": "china",
+   "role": "subject",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_aug_14_24",
+   "node_id": "E1",
    "facet": "variable",
    "value": "export-volumes",
    "role": "",
@@ -245,7 +335,7 @@
   },
   {
    "doc": "setser_aug_14_24",
-   "node_id": "E4",
+   "node_id": "E1",
    "facet": "variable",
    "value": "import-volumes",
    "role": "",
@@ -254,7 +344,7 @@
   },
   {
    "doc": "setser_aug_14_24",
-   "node_id": "E4",
+   "node_id": "E1",
    "facet": "data_basis",
    "value": "balance-of-payments",
    "role": "",
@@ -263,7 +353,7 @@
   },
   {
    "doc": "setser_aug_14_24",
-   "node_id": "E4",
+   "node_id": "E1",
    "facet": "data_basis",
    "value": "customs",
    "role": "",
@@ -272,7 +362,7 @@
   },
   {
    "doc": "setser_aug_14_24",
-   "node_id": "E4",
+   "node_id": "E1",
    "facet": "country",
    "value": "china",
    "role": "subject",
@@ -281,52 +371,7 @@
   },
   {
    "doc": "setser_aug_14_24",
-   "node_id": "P1",
-   "facet": "variable",
-   "value": "goods-trade-balance",
-   "role": "",
-   "source": "llm",
-   "model": "anthropic/claude-opus-5.5"
-  },
-  {
-   "doc": "setser_aug_14_24",
-   "node_id": "P1",
-   "facet": "variable",
-   "value": "services-balance",
-   "role": "",
-   "source": "llm",
-   "model": "anthropic/claude-opus-5.5"
-  },
-  {
-   "doc": "setser_aug_14_24",
-   "node_id": "P1",
-   "facet": "data_basis",
-   "value": "balance-of-payments",
-   "role": "",
-   "source": "llm",
-   "model": "anthropic/claude-opus-5.5"
-  },
-  {
-   "doc": "setser_aug_14_24",
-   "node_id": "P1",
-   "facet": "data_basis",
-   "value": "customs",
-   "role": "",
-   "source": "llm",
-   "model": "anthropic/claude-opus-5.5"
-  },
-  {
-   "doc": "setser_aug_14_24",
-   "node_id": "P1",
-   "facet": "country",
-   "value": "china",
-   "role": "subject",
-   "source": "llm",
-   "model": "anthropic/claude-opus-5.5"
-  },
-  {
-   "doc": "setser_aug_14_24",
-   "node_id": "P2",
+   "node_id": "M2",
    "facet": "variable",
    "value": "profitability",
    "role": "",
@@ -335,16 +380,16 @@
   },
   {
    "doc": "setser_aug_14_24",
-   "node_id": "P2",
-   "facet": "instrument",
-   "value": "capital-controls",
+   "node_id": "M2",
+   "facet": "variable",
+   "value": "investment-income-balance",
    "role": "",
    "source": "llm",
    "model": "anthropic/claude-opus-5.5"
   },
   {
    "doc": "setser_aug_14_24",
-   "node_id": "P2",
+   "node_id": "M2",
    "facet": "country",
    "value": "china",
    "role": "subject",
@@ -353,7 +398,7 @@
   },
   {
    "doc": "setser_aug_14_24",
-   "node_id": "P3",
+   "node_id": "SC",
    "facet": "variable",
    "value": "goods-trade-balance",
    "role": "",
@@ -362,7 +407,16 @@
   },
   {
    "doc": "setser_aug_14_24",
-   "node_id": "P3",
+   "node_id": "SC",
+   "facet": "data_basis",
+   "value": "enterprise-reporting",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_aug_14_24",
+   "node_id": "SC",
    "facet": "data_basis",
    "value": "balance-of-payments",
    "role": "",
@@ -371,7 +425,7 @@
   },
   {
    "doc": "setser_aug_14_24",
-   "node_id": "P3",
+   "node_id": "SC",
    "facet": "country",
    "value": "china",
    "role": "subject",
@@ -380,25 +434,7 @@
   },
   {
    "doc": "setser_aug_14_24",
-   "node_id": "P4",
-   "facet": "variable",
-   "value": "goods-trade-balance",
-   "role": "",
-   "source": "llm",
-   "model": "anthropic/claude-opus-5.5"
-  },
-  {
-   "doc": "setser_aug_14_24",
-   "node_id": "P4",
-   "facet": "data_basis",
-   "value": "customs",
-   "role": "",
-   "source": "llm",
-   "model": "anthropic/claude-opus-5.5"
-  },
-  {
-   "doc": "setser_aug_14_24",
-   "node_id": "SC",
+   "node_id": "SC2",
    "facet": "variable",
    "value": "services-balance",
    "role": "",
@@ -407,43 +443,7 @@
   },
   {
    "doc": "setser_aug_14_24",
-   "node_id": "SC",
-   "facet": "variable",
-   "value": "goods-trade-balance",
-   "role": "",
-   "source": "llm",
-   "model": "anthropic/claude-opus-5.5"
-  },
-  {
-   "doc": "setser_aug_14_24",
-   "node_id": "SC",
-   "facet": "data_basis",
-   "value": "balance-of-payments",
-   "role": "",
-   "source": "llm",
-   "model": "anthropic/claude-opus-5.5"
-  },
-  {
-   "doc": "setser_aug_14_24",
-   "node_id": "SC",
-   "facet": "country",
-   "value": "china",
-   "role": "subject",
-   "source": "llm",
-   "model": "anthropic/claude-opus-5.5"
-  },
-  {
-   "doc": "setser_aug_14_24",
-   "node_id": "E1",
-   "facet": "variable",
-   "value": "goods-trade-balance",
-   "role": "",
-   "source": "llm",
-   "model": "anthropic/claude-opus-5.5"
-  },
-  {
-   "doc": "setser_aug_14_24",
-   "node_id": "E1",
+   "node_id": "SC2",
    "facet": "variable",
    "value": "current-account",
    "role": "",
@@ -452,7 +452,7 @@
   },
   {
    "doc": "setser_aug_14_24",
-   "node_id": "E1",
+   "node_id": "SC2",
    "facet": "data_basis",
    "value": "balance-of-payments",
    "role": "",
@@ -461,7 +461,43 @@
   },
   {
    "doc": "setser_aug_14_24",
-   "node_id": "E1",
+   "node_id": "SC2",
+   "facet": "country",
+   "value": "china",
+   "role": "subject",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_aug_14_24",
+   "node_id": "E2",
+   "facet": "variable",
+   "value": "goods-trade-balance",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_aug_14_24",
+   "node_id": "E2",
+   "facet": "variable",
+   "value": "current-account",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_aug_14_24",
+   "node_id": "E2",
+   "facet": "data_basis",
+   "value": "balance-of-payments",
+   "role": "",
+   "source": "llm",
+   "model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "doc": "setser_aug_14_24",
+   "node_id": "E2",
    "facet": "data_basis",
    "value": "customs",
    "role": "",
@@ -470,7 +506,7 @@
   },
   {
    "doc": "setser_aug_14_24",
-   "node_id": "E1",
+   "node_id": "E2",
    "facet": "country",
    "value": "china",
    "role": "subject",
@@ -508,15 +544,6 @@
    "doc": "setser_aug_14_24",
    "node_id": "K",
    "facet": "variable",
-   "value": "goods-trade-balance",
-   "role": "",
-   "source": "llm",
-   "model": "anthropic/claude-opus-5.5"
-  },
-  {
-   "doc": "setser_aug_14_24",
-   "node_id": "K",
-   "facet": "variable",
    "value": "current-account",
    "role": "",
    "source": "llm",
@@ -526,7 +553,7 @@
    "doc": "setser_aug_14_24",
    "node_id": "K",
    "facet": "data_basis",
-   "value": "customs",
+   "value": "balance-of-payments",
    "role": "",
    "source": "llm",
    "model": "anthropic/claude-opus-5.5"
@@ -535,7 +562,7 @@
    "doc": "setser_aug_14_24",
    "node_id": "K",
    "facet": "data_basis",
-   "value": "balance-of-payments",
+   "value": "customs",
    "role": "",
    "source": "llm",
    "model": "anthropic/claude-opus-5.5"
@@ -570,15 +597,6 @@
   {
    "doc": "setser_aug_14_24",
    "node_id": "REC",
-   "facet": "data_basis",
-   "value": "balance-of-payments",
-   "role": "",
-   "source": "llm",
-   "model": "anthropic/claude-opus-5.5"
-  },
-  {
-   "doc": "setser_aug_14_24",
-   "node_id": "REC",
    "facet": "country",
    "value": "china",
    "role": "subject",
@@ -597,8 +615,8 @@
   {
    "doc": "setser_aug_14_24",
    "node_id": "X",
-   "facet": "data_basis",
-   "value": "balance-of-payments",
+   "facet": "variable",
+   "value": "global-imbalances",
    "role": "",
    "source": "llm",
    "model": "anthropic/claude-opus-5.5"
@@ -616,7 +634,7 @@
    "doc": "setser_aug_14_24",
    "node_id": "QF",
    "facet": "variable",
-   "value": "export-volumes",
+   "value": "goods-trade-balance",
    "role": "",
    "source": "llm",
    "model": "anthropic/claude-opus-5.5"
@@ -695,7 +713,7 @@
   }
  ],
  "review": [
-  "`setser_aug_14_24#P4` where_subject empty - every claim needs a country or a bloc (assignment.requires_one_of) - needs review"
+  "`setser_aug_14_24#P1` where_subject empty - every claim needs a country or a bloc (assignment.requires_one_of) - needs review"
  ],
  "gaps_left": [],
  "dropped": [],

@@ -382,13 +382,13 @@
   }
  },
  "annotation": {
-  "annotated_at": "2026-11-09T21:12:45+00:00",
+  "annotated_at": "2026-11-19T02:33:34+00:00",
   "ontology": {
    "id": "setser_argument",
-   "version": 2
+   "version": 3
   },
   "facets_version": 1,
-  "pipeline_version": "8d03103",
+  "pipeline_version": "137f37e",
   "status": "needs_review",
   "runs": [
    {
@@ -400,9 +400,9 @@
      "max_tokens": 16000,
      "reasoning_effort": "medium"
     },
-    "timestamp": "2026-11-09T21:12:44+00:00",
+    "timestamp": "2026-11-19T02:33:34+00:00",
     "calls": 1,
-    "cost_usd": 0.12553
+    "cost_usd": 0.14052
    },
    {
     "run_id": "claude-opus-5.5_links",
@@ -413,9 +413,9 @@
      "max_tokens": 12000,
      "reasoning_effort": "medium"
     },
-    "timestamp": "2026-11-09T21:12:44+00:00",
+    "timestamp": "2026-11-19T02:33:34+00:00",
     "calls": 1,
-    "cost_usd": 0.05072
+    "cost_usd": 0.05282
    },
    {
     "run_id": "claude-opus-5.5_facets",
@@ -426,15 +426,15 @@
      "max_tokens": 12000,
      "reasoning_effort": "low"
     },
-    "timestamp": "2026-11-09T21:12:44+00:00",
+    "timestamp": "2026-11-19T02:33:34+00:00",
     "calls": 1,
-    "cost_usd": 0.06147
+    "cost_usd": 0.06342
    }
   ]
  },
  "summary": {
-  "central_question": "Does the trade balance still matter, even though a wider deficit can signal strong demand and the monthly data are noisy?",
-  "main_thesis": "The trade balance matters for three reasons: its effect on GDP growth, its effect on the composition of employment, and its effect on external debt dynamics.",
+  "central_question": "Does the trade balance still matter for the US economy, given that its deficit is now only about 3 percent of GDP and a widening deficit can signal strong demand?",
+  "main_thesis": "The trade balance matters for three reasons: its effect on GDP growth, on the sectoral and regional composition of employment, and on external debt sustainability.",
   "argument_summary": null
  },
  "nodes": [
@@ -444,10 +444,10 @@
    "role": "question",
    "level": "L0",
    "content": {
-    "text": "Does the trade balance still matter, even though a wider deficit can signal strong demand and the monthly data are noisy?",
+    "text": "Does the trade balance still matter for the US economy, given that its deficit is now only about 3 percent of GDP and a widening deficit can signal strong demand?",
     "label": null,
     "explicit": false,
-    "reason": "A widely cited indicator deserves scrutiny of whether it carries real economic information."
+    "reason": "A variable deserves attention if it affects output, the distribution of jobs, or financial sustainability."
    },
    "source": {
     "passages": [
@@ -464,17 +464,12 @@
      {
       "paragraph_id": "p2",
       "paragraph_sha256": "sha256:b90ed95d4595531408edbd52a8f2288aec85ea29e1f4d3989abe38e6f3154b24",
-      "relation": "states",
+      "relation": "abstracts",
       "link_method": "llm_citation",
-      "anchor_grade": "excerpt",
+      "anchor_grade": "cited",
       "review_status": "pending",
-      "source_excerpt": "But I still think it is a variable worth watching.",
-      "source_spans": [
-       {
-        "char_start": 315,
-        "char_end": 365
-       }
-      ]
+      "source_excerpt": null,
+      "source_spans": null
      },
      {
       "paragraph_id": "p3",
@@ -485,64 +480,19 @@
       "review_status": "pending",
       "source_excerpt": null,
       "source_spans": null
-     }
-    ]
-   },
-   "facets": {
-    "variable": [
+     },
      {
-      "term": "goods-trade-balance",
-      "assignment_source": "llm",
-      "run_id": "claude-opus-5.5_facets"
-     }
-    ],
-    "country": [
-     {
-      "term": "us",
-      "assignment_source": "llm",
-      "run_id": "claude-opus-5.5_facets",
-      "geo_role": "subject"
-     }
-    ],
-    "bloc": [],
-    "instrument": [],
-    "data_basis": []
-   },
-   "attributes": {},
-   "provenance": {
-    "method": "llm",
-    "run_id": "claude-opus-5.5_boxes"
-   },
-   "review": {
-    "status": "pending",
-    "reasons": []
-   }
-  },
-  {
-   "id": "n002",
-   "legacy_id": "X",
-   "role": "opposing_view",
-   "level": "L6",
-   "content": {
-    "text": "Some argue the trade deficit is not worth watching because a widening deficit often reflects strong domestic demand rather than weakness.",
-    "label": null,
-    "explicit": true,
-    "reason": "An indicator that moves with both good and bad news can seem uninformative."
-   },
-   "source": {
-    "passages": [
-     {
-      "paragraph_id": "p3",
-      "paragraph_sha256": "sha256:43b4411c9cd5c27452695f7900db98f32352251756830eeaa07ecd44450ed9f3",
+      "paragraph_id": "p5",
+      "paragraph_sha256": "sha256:2749645ba73945ce5f143cf73006b6093b14b8781cd0fdc59dd0539ad47d7bd2",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "a widening of the trade deficit (as happened in October, in a reasonably big way) can reflect a strengthening economy, as higher imports are often a sign of stronger demand growth",
+      "source_excerpt": "Yet I think the trade balance matters for three reasons:",
       "source_spans": [
        {
-        "char_start": 54,
-        "char_end": 233
+        "char_start": 0,
+        "char_end": 56
        }
       ]
      }
@@ -584,36 +534,36 @@
    }
   },
   {
-   "id": "n003",
-   "legacy_id": "QF",
-   "role": "caveat",
+   "id": "n002",
+   "legacy_id": "X",
+   "role": "opposing_view",
    "level": "L6",
    "content": {
-    "text": "The author concedes the monthly trade data are noisy and should be read as part of a time series rather than as a snapshot.",
+    "text": "Some commentators argue the trade deficit is not worth watching because widening deficits often reflect strong demand growth.",
     "label": null,
     "explicit": true,
-    "reason": "Volatile high-frequency data should be interpreted through trends, not single prints."
+    "reason": "A correlation between deficits and strong demand does not show that deficits are irrelevant."
    },
    "source": {
     "passages": [
      {
-      "paragraph_id": "p4",
-      "paragraph_sha256": "sha256:2234e242348f34d836790e73bd2c9a6849884e077f58cdf0e037b234bbb6defe",
+      "paragraph_id": "p3",
+      "paragraph_sha256": "sha256:43b4411c9cd5c27452695f7900db98f32352251756830eeaa07ecd44450ed9f3",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "the monthly release is quite noisy (aircraft exports jump around from month to month as do net oil imports",
+      "source_excerpt": "They note, correctly, that a widening of the trade deficit (as happened in October, in a reasonably big way) can reflect a strengthening economy",
       "source_spans": [
        {
-        "char_start": 108,
-        "char_end": 214
+        "char_start": 27,
+        "char_end": 171
        }
       ]
      },
      {
-      "paragraph_id": "p13",
-      "paragraph_sha256": "sha256:e0a3c27ee0ef4c0e84491d2e613b32b42f5c90b2cbad813c0a77863abf977556",
+      "paragraph_id": "p10",
+      "paragraph_sha256": "sha256:8427a4ce3263b21a3326b9ebe112209c6bd3334758820924c1bffb8b5cddc0f9",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
@@ -629,6 +579,11 @@
       "term": "goods-trade-balance",
       "assignment_source": "llm",
       "run_id": "claude-opus-5.5_facets"
+     },
+     {
+      "term": "domestic-demand",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
      }
     ],
     "country": [
@@ -641,13 +596,7 @@
     ],
     "bloc": [],
     "instrument": [],
-    "data_basis": [
-     {
-      "term": "customs",
-      "assignment_source": "llm",
-      "run_id": "claude-opus-5.5_facets"
-     }
-    ]
+    "data_basis": []
    },
    "attributes": {},
    "provenance": {
@@ -660,36 +609,46 @@
    }
   },
   {
-   "id": "n004",
+   "id": "n003",
    "legacy_id": "K",
    "role": "main_claim",
    "level": "L5",
    "content": {
-    "text": "The trade balance matters for three reasons: its effect on GDP growth, its effect on the composition of employment, and its effect on external debt dynamics.",
+    "text": "The trade balance matters for three reasons: its effect on GDP growth, on the sectoral and regional composition of employment, and on external debt sustainability.",
     "label": null,
     "explicit": true,
-    "reason": "A variable matters if it independently shapes growth, employment structure, or solvency."
+    "reason": "A variable matters if it affects growth, jobs and debt dynamics."
    },
    "source": {
     "passages": [
      {
       "paragraph_id": "p5",
       "paragraph_sha256": "sha256:2749645ba73945ce5f143cf73006b6093b14b8781cd0fdc59dd0539ad47d7bd2",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     },
+     {
+      "paragraph_id": "p6",
+      "paragraph_sha256": "sha256:7962f234dd170a0bfc4de4d9722e8e46fada2b0ce48a5af6074f76541075a647",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "Yet I think the trade balance matters for three reasons:",
+      "source_excerpt": "Changes in net exports can have an impact on GDP",
       "source_spans": [
        {
         "char_start": 0,
-        "char_end": 56
+        "char_end": 48
        }
       ]
      },
      {
-      "paragraph_id": "p9",
-      "paragraph_sha256": "sha256:c3e4f42c2b5ce6a1acceed0f17762ade75019a1a4a70462259d0ba5e4b95d9f3",
+      "paragraph_id": "p7",
+      "paragraph_sha256": "sha256:27f99034c2431357028096949cd68fa0e3986644c4af8148ad0ca2b7485f37f2",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
@@ -698,18 +657,8 @@
       "source_spans": null
      },
      {
-      "paragraph_id": "p25",
-      "paragraph_sha256": "sha256:8a1e4bbed0f93e5c41a1dc96c7b85c55853adc84e541ae2c07ccee7e0cfe969d",
-      "relation": "abstracts",
-      "link_method": "llm_citation",
-      "anchor_grade": "cited",
-      "review_status": "pending",
-      "source_excerpt": null,
-      "source_spans": null
-     },
-     {
-      "paragraph_id": "p33",
-      "paragraph_sha256": "sha256:98ac758e225e7f8dea3c9613c4ae3087cf781f246b10130d7a4a37a3bf7b94cf",
+      "paragraph_id": "p8",
+      "paragraph_sha256": "sha256:6b266134d1627002019bbcc5874c805c1b7958cfd37c6051dee480d1908c0bbe",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
@@ -762,15 +711,15 @@
    }
   },
   {
-   "id": "n005",
+   "id": "n004",
    "legacy_id": "ID",
    "role": "accounting_identity",
    "level": "L1",
    "content": {
-    "text": "By the GDP identity, output growth equals domestic demand growth plus the contribution of net exports, so a wider deficit subtracts from growth for a given level of demand.",
+    "text": "Output growth equals domestic demand growth minus the drag from net exports, so a given demand impulse yields more growth when the trade deficit doesn't widen.",
     "label": null,
     "explicit": true,
-    "reason": "Output equals domestic demand plus net exports."
+    "reason": "GDP equals domestic demand plus net exports by definition."
    },
    "source": {
     "passages": [
@@ -798,16 +747,6 @@
         "char_end": 125
        }
       ]
-     },
-     {
-      "paragraph_id": "p14",
-      "paragraph_sha256": "sha256:f875ad379b9e73636296165ba63caf027829d11f2ccffa1e3c322ad1eb3bf12d",
-      "relation": "abstracts",
-      "link_method": "llm_citation",
-      "anchor_grade": "cited",
-      "review_status": "pending",
-      "source_excerpt": null,
-      "source_spans": null
      }
     ]
    },
@@ -820,11 +759,6 @@
      },
      {
       "term": "domestic-demand",
-      "assignment_source": "llm",
-      "run_id": "claude-opus-5.5_facets"
-     },
-     {
-      "term": "goods-trade-balance",
       "assignment_source": "llm",
       "run_id": "claude-opus-5.5_facets"
      }
@@ -847,15 +781,15 @@
    }
   },
   {
-   "id": "n006",
+   "id": "n005",
    "legacy_id": "E1",
    "role": "evidence_data",
    "level": "L2",
    "content": {
-    "text": "Net exports subtracted about 1.5 points from growth over 2013–16, so 2.7 percent demand growth yielded about 2 percent GDP growth, while in Q2–Q3 2017 similar demand growth with no trade drag produced close to 3 percent growth.",
+    "text": "Net exports cut about 1.5 points from growth over 2014-2016; with 2.7 percent average demand contribution, growth would have been near 3 rather than 2 percent; in q2-q3 2017 demand was similar but no trade drag left growth near 3 percent.",
     "label": null,
     "explicit": true,
-    "reason": "Decomposing growth into contributions reveals how much trade drag costs."
+    "reason": "Decomposing growth into contributions shows which component drove changes."
    },
    "source": {
     "passages": [
@@ -944,21 +878,19 @@
    },
    "review": {
     "status": "pending",
-    "reasons": [
-     "boxes: `E1` the figure `16` does not occur in the article"
-    ]
+    "reasons": []
    }
   },
   {
-   "id": "n007",
+   "id": "n006",
    "legacy_id": "P3",
    "role": "hidden_assumption",
    "level": "L1",
    "content": {
-    "text": "The argument requires that the economy had slack, so that output lost to trade drag would not have been offset by other demand.",
+    "text": "The trade drag would only have translated into lost growth if the economy had slack rather than being supply-constrained.",
     "label": null,
     "explicit": false,
-    "reason": "The counterfactual growth gain from trade holds only when the economy has spare capacity."
+    "reason": "Demand leakages reduce output only when the economy is below capacity."
    },
    "source": {
     "passages": [
@@ -995,9 +927,74 @@
       "term": "gdp-growth",
       "assignment_source": "llm",
       "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [
+     {
+      "term": "us",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     }
+    ],
+    "bloc": [],
+    "instrument": [],
+    "data_basis": []
+   },
+   "attributes": {},
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "n007",
+   "legacy_id": "C1",
+   "role": "intermediate_claim",
+   "level": "L4",
+   "content": {
+    "text": "The real non-oil trade deterioration during the strong dollar period was underappreciated because falling oil prices kept the headline deficit flat.",
+    "label": null,
+    "explicit": true,
+    "reason": "Price effects in one category can mask volume shifts in another."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p17",
+      "paragraph_sha256": "sha256:0e2a52319f88bfcf070a4a69f2d99fa768406dc3b6a27608de3d160bfe3f4db5",
+      "relation": "states",
+      "link_method": "llm_citation",
+      "anchor_grade": "excerpt",
+      "review_status": "pending",
+      "source_excerpt": "I actually think the change in the “real” trade balance (especially the non-petrol balance) during this period didn’t get enough attention",
+      "source_spans": [
+       {
+        "char_start": 0,
+        "char_end": 138
+       }
+      ]
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "goods-trade-balance",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
      },
      {
-      "term": "domestic-demand",
+      "term": "commodity-prices",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     },
+     {
+      "term": "nominal-exchange-rate",
       "assignment_source": "llm",
       "run_id": "claude-opus-5.5_facets"
      }
@@ -1026,96 +1023,14 @@
   },
   {
    "id": "n008",
-   "legacy_id": "M1",
-   "role": "mechanism",
-   "level": "L3",
-   "content": {
-    "text": "A strong dollar cut exports and widened the real non-oil deficit, but falling oil prices kept the headline deficit flat and masked the drag.",
-    "label": null,
-    "explicit": true,
-    "reason": "Price effects on one component can hide volume shifts in the headline balance."
-   },
-   "source": {
-    "passages": [
-     {
-      "paragraph_id": "p15",
-      "paragraph_sha256": "sha256:1d8849743aad602b6035faef4d3bb25cc24385077d88175c49398bebe1c6c8f3",
-      "relation": "abstracts",
-      "link_method": "llm_citation",
-      "anchor_grade": "cited",
-      "review_status": "pending",
-      "source_excerpt": null,
-      "source_spans": null
-     },
-     {
-      "paragraph_id": "p17",
-      "paragraph_sha256": "sha256:0e2a52319f88bfcf070a4a69f2d99fa768406dc3b6a27608de3d160bfe3f4db5",
-      "relation": "states",
-      "link_method": "llm_citation",
-      "anchor_grade": "excerpt",
-      "review_status": "pending",
-      "source_excerpt": "in part because the “headline” trade deficit was more or less flat because of the fall in the price of oil.",
-      "source_spans": [
-       {
-        "char_start": 139,
-        "char_end": 246
-       }
-      ]
-     }
-    ]
-   },
-   "facets": {
-    "variable": [
-     {
-      "term": "nominal-exchange-rate",
-      "assignment_source": "llm",
-      "run_id": "claude-opus-5.5_facets"
-     },
-     {
-      "term": "export-volumes",
-      "assignment_source": "llm",
-      "run_id": "claude-opus-5.5_facets"
-     },
-     {
-      "term": "commodity-prices",
-      "assignment_source": "llm",
-      "run_id": "claude-opus-5.5_facets"
-     }
-    ],
-    "country": [
-     {
-      "term": "us",
-      "assignment_source": "llm",
-      "run_id": "claude-opus-5.5_facets",
-      "geo_role": "subject"
-     }
-    ],
-    "bloc": [],
-    "instrument": [],
-    "data_basis": []
-   },
-   "attributes": {
-    "kind": "distortion"
-   },
-   "provenance": {
-    "method": "llm",
-    "run_id": "claude-opus-5.5_boxes"
-   },
-   "review": {
-    "status": "pending",
-    "reasons": []
-   }
-  },
-  {
-   "id": "n009",
-   "legacy_id": "C1",
-   "role": "intermediate_claim",
+   "legacy_id": "C5",
+   "role": "case_type",
    "level": "L4",
    "content": {
-    "text": "A widening deficit is not always good news: it can reflect unsustainable overheating, and a falling deficit can come from strong exports or rising domestic production such as tight oil.",
+    "text": "Deficit changes are ambiguous: widening can signal overheating, and narrowing can reflect export growth or rising domestic production such as tight oil rather than weak demand.",
     "label": null,
     "explicit": true,
-    "reason": "The same balance movement can arise from different causes with different welfare implications."
+    "reason": "The same trade movement can arise from different underlying causes with different implications."
    },
    "source": {
     "passages": [
@@ -1202,15 +1117,15 @@
    }
   },
   {
-   "id": "n010",
-   "legacy_id": "QF2",
-   "role": "caveat",
-   "level": "L6",
+   "id": "n009",
+   "legacy_id": "C2",
+   "role": "intermediate_claim",
+   "level": "L4",
    "content": {
-    "text": "The U.S. is demand-driven with a small export sector, unlike Germany and Korea, which have grown through rising exports; net exports helped during the crisis but not in the recovery.",
+    "text": "The US is a demand-driven economy whose small export sector limits export-led growth, unlike Germany or Korea.",
     "label": null,
     "explicit": true,
-    "reason": "The growth leverage of exports scales with the export share of output."
+    "reason": "A sector's contribution to growth is bounded by its share of output."
    },
    "source": {
     "passages": [
@@ -1249,7 +1164,7 @@
       "run_id": "claude-opus-5.5_facets"
      },
      {
-      "term": "gdp-growth",
+      "term": "trade-openness",
       "assignment_source": "llm",
       "run_id": "claude-opus-5.5_facets"
      }
@@ -1277,15 +1192,15 @@
    }
   },
   {
-   "id": "n011",
-   "legacy_id": "C2",
-   "role": "intermediate_claim",
-   "level": "L4",
+   "id": "n010",
+   "legacy_id": "P1",
+   "role": "stated_assumption",
+   "level": "L1",
    "content": {
-    "text": "At full employment the trade deficit affects the distribution of jobs across sectors, not total employment.",
+    "text": "At full employment the trade deficit shapes where and in what sectors people work rather than how many work.",
     "label": null,
     "explicit": true,
-    "reason": "When labor is fully employed, demand shifts reallocate jobs rather than create them."
+    "reason": "At full employment, demand shifts reallocate labor rather than change its total."
    },
    "source": {
     "passages": [
@@ -1306,10 +1221,10 @@
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "The trade deficit thus impacts the distribution of employment, not the absolute level of employment.",
+      "source_excerpt": "Today the U.S. is at or close to full employment even with an ongoing trade deficit. The trade deficit thus impacts the distribution of employment, not the absolute level of employment.",
       "source_spans": [
        {
-        "char_start": 85,
+        "char_start": 0,
         "char_end": 185
        }
       ]
@@ -1322,21 +1237,9 @@
       "term": "manufacturing-employment",
       "assignment_source": "llm",
       "run_id": "claude-opus-5.5_facets"
-     },
-     {
-      "term": "goods-trade-balance",
-      "assignment_source": "llm",
-      "run_id": "claude-opus-5.5_facets"
      }
     ],
-    "country": [
-     {
-      "term": "us",
-      "assignment_source": "llm",
-      "run_id": "claude-opus-5.5_facets",
-      "geo_role": "subject"
-     }
-    ],
+    "country": [],
     "bloc": [],
     "instrument": [],
     "data_basis": []
@@ -1348,19 +1251,21 @@
    },
    "review": {
     "status": "pending",
-    "reasons": []
+    "reasons": [
+     "facets: `setser_dec_15_17#P1` where_subject empty - every claim needs a country or a bloc (assignment.requires_one_of) - needs review"
+    ]
    }
   },
   {
-   "id": "n012",
+   "id": "n011",
    "legacy_id": "E2",
    "role": "evidence_data",
    "level": "L2",
    "content": {
-    "text": "Manufacturing is about 20 percent of employment in Germany versus about 10 percent in the U.S., despite Germany and Japan's heavy use of robots; the U.S. runs a manufacturing deficit of about 5 percent of GDP, while the eurozone runs a surplus of about 4 percent.",
+    "text": "Manufacturing employment shares vary widely across advanced economies: about 20 percent in Germany versus 10 percent in the US, despite similar or greater automation in Germany and Japan.",
     "label": null,
     "explicit": true,
-    "reason": "Cross-country comparisons with similar technology isolate the role of trade."
+    "reason": "Cross-country variation with similar technology points to a non-technological cause."
    },
    "source": {
     "passages": [
@@ -1388,16 +1293,6 @@
         "char_end": 362
        }
       ]
-     },
-     {
-      "paragraph_id": "p30",
-      "paragraph_sha256": "sha256:35fe244b8dbda16145dce03591a5ac5d76aa4af5d9c9eb7736b3670ce500ffc0",
-      "relation": "abstracts",
-      "link_method": "llm_citation",
-      "anchor_grade": "cited",
-      "review_status": "pending",
-      "source_excerpt": null,
-      "source_spans": null
      }
     ]
    },
@@ -1407,25 +1302,20 @@
       "term": "manufacturing-employment",
       "assignment_source": "llm",
       "run_id": "claude-opus-5.5_facets"
-     },
-     {
-      "term": "manufacturing-trade-balance",
-      "assignment_source": "llm",
-      "run_id": "claude-opus-5.5_facets"
      }
     ],
     "country": [
-     {
-      "term": "us",
-      "assignment_source": "llm",
-      "run_id": "claude-opus-5.5_facets",
-      "geo_role": "subject"
-     },
      {
       "term": "germany",
       "assignment_source": "llm",
       "run_id": "claude-opus-5.5_facets",
       "geo_role": "subject"
+     },
+     {
+      "term": "us",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "counterpart"
      }
     ],
     "bloc": [],
@@ -1443,15 +1333,15 @@
    }
   },
   {
-   "id": "n013",
-   "legacy_id": "M2",
+   "id": "n012",
+   "legacy_id": "M1",
    "role": "mechanism",
    "level": "L3",
    "content": {
-    "text": "Manufacturing trade surpluses and deficits, rather than automation, explain much of the cross-country variation in manufacturing's share of employment.",
+    "text": "Manufacturing surpluses in Germany and Japan and deficits in the US and UK explain much of the difference in manufacturing employment shares.",
     "label": null,
     "explicit": true,
-    "reason": "Net external demand for a sector's output sustains employment in that sector."
+    "reason": "Net external demand for a sector's output determines how many workers it employs."
    },
    "source": {
     "passages": [
@@ -1520,15 +1410,15 @@
    }
   },
   {
-   "id": "n014",
+   "id": "n013",
    "legacy_id": "R1",
    "role": "other_explanation",
    "level": "L6",
    "content": {
-    "text": "Productivity growth explains the global decline in manufacturing employment, a rival cause the author accepts for the trend but not for the cross-country differences.",
+    "text": "Productivity growth explains the global decline in manufacturing's share of employment, but not the cross-country differences.",
     "label": null,
     "explicit": true,
-    "reason": "A common global shock cannot explain cross-country dispersion."
+    "reason": "A common global cause cannot explain differences between countries."
    },
    "source": {
     "passages": [
@@ -1580,15 +1470,15 @@
    }
   },
   {
-   "id": "n015",
+   "id": "n014",
    "legacy_id": "C3",
    "role": "intermediate_claim",
    "level": "L4",
    "content": {
-    "text": "The U.S. current account adjustment since 2005 came from offshore income and the petroleum balance, not manufacturing, so manufacturing regions did not revive while IP hubs like the Bay Area boomed.",
+    "text": "The US current account adjustment came through offshore income and the petroleum balance rather than manufacturing, so manufacturing regions saw no renaissance while IP-producing regions boomed.",
     "label": null,
     "explicit": true,
-    "reason": "Which component of the balance adjusts determines which regions gain."
+    "reason": "Which components adjust determines which regions gain."
    },
    "source": {
     "passages": [
@@ -1599,11 +1489,11 @@
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "It has come rather through a rise in the offshore income of U.S. firms",
+      "source_excerpt": "the adjustment that has brought the U.S. current account deficit down from its 2004-2005 peak has not come through a swing in the manufacturing balance.",
       "source_spans": [
        {
-        "char_start": 206,
-        "char_end": 276
+        "char_start": 53,
+        "char_end": 205
        }
       ]
      },
@@ -1657,7 +1547,64 @@
    "review": {
     "status": "pending",
     "reasons": [
-     "passages: `C3`: the team's passage linker anchors it to p45 (shared: 2005), which the box does not cite"
+     "boxes: `C3` the name `ip-producing` does not occur in the article"
+    ]
+   }
+  },
+  {
+   "id": "n015",
+   "legacy_id": "M2",
+   "role": "mechanism",
+   "level": "L3",
+   "content": {
+    "text": "Trade shocks have lasting regional effects because closed factories and atrophied sector-specific skills are not quickly replaced.",
+    "label": null,
+    "explicit": true,
+    "reason": "Sector-specific capital and skills make adjustment to shocks slow and local."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p7",
+      "paragraph_sha256": "sha256:27f99034c2431357028096949cd68fa0e3986644c4af8148ad0ca2b7485f37f2",
+      "relation": "states",
+      "link_method": "llm_citation",
+      "anchor_grade": "excerpt",
+      "review_status": "pending",
+      "source_excerpt": "the impact of a negative shock on any given region can be persistent: factories are closed and the relevant sector-specific skills atrophy",
+      "source_spans": [
+       {
+        "char_start": 277,
+        "char_end": 415
+       }
+      ]
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "manufacturing-employment",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [],
+    "bloc": [],
+    "instrument": [],
+    "data_basis": []
+   },
+   "attributes": {
+    "kind": "economic"
+   },
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": [
+     "facets: `setser_dec_15_17#M2` where_subject empty - every claim needs a country or a bloc (assignment.requires_one_of) - needs review"
     ]
    }
   },
@@ -1667,13 +1614,23 @@
    "role": "evidence_source",
    "level": "L2",
    "content": {
-    "text": "Persistent large deficits accumulate into external debt, and the household borrowing needed to offset the demand drain helped cause the crisis, as Setser and Roubini argued in 2004.",
+    "text": "His 2004 argument with Roubini was broadly right: large deficits raised external debt and required a household borrowing boom that led to the crisis.",
     "label": null,
     "explicit": true,
-    "reason": "Sustained deficits must be financed by rising net external liabilities."
+    "reason": "Sustained deficits must be financed by accumulating external liabilities."
    },
    "source": {
     "passages": [
+     {
+      "paragraph_id": "p2",
+      "paragraph_sha256": "sha256:b90ed95d4595531408edbd52a8f2288aec85ea29e1f4d3989abe38e6f3154b24",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     },
      {
       "paragraph_id": "p34",
       "paragraph_sha256": "sha256:e5e246485838164e736fb1b1fe7c0fa806d80e199aea3e2abcc9ae13625a5469",
@@ -1691,10 +1648,10 @@
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "a 5-6 percent of GDP trade deficit does lead to steady increases in the U.S. external debt stock",
+      "source_excerpt": "I think we were broadly right—a 5-6 percent of GDP trade deficit does lead to steady increases in the U.S. external debt stock",
       "source_spans": [
        {
-        "char_start": 30,
+        "char_start": 0,
         "char_end": 126
        }
       ]
@@ -1709,7 +1666,7 @@
       "run_id": "claude-opus-5.5_facets"
      },
      {
-      "term": "current-account",
+      "term": "goods-trade-balance",
       "assignment_source": "llm",
       "run_id": "claude-opus-5.5_facets"
      }
@@ -1724,13 +1681,7 @@
     ],
     "bloc": [],
     "instrument": [],
-    "data_basis": [
-     {
-      "term": "academic-econometrics",
-      "assignment_source": "llm",
-      "run_id": "claude-opus-5.5_facets"
-     }
-    ]
+    "data_basis": []
    },
    "attributes": {},
    "provenance": {
@@ -1739,7 +1690,9 @@
    },
    "review": {
     "status": "pending",
-    "reasons": []
+    "reasons": [
+     "passages: `E4`: the team's passage linker anchors it to p31 (shared: 2004), which the box does not cite"
+    ]
    }
   },
   {
@@ -1748,10 +1701,10 @@
    "role": "revised_prior",
    "level": "L1",
    "content": {
-    "text": "The author admits he wrongly expected rising external debt to raise U.S. borrowing costs; instead debt rose from 20 to 50 percent of GDP while the rate fell from 4 to 2 percent, leaving the interest burden flat.",
+    "text": "He wrongly expected rising external debt to raise US borrowing costs; instead debt rose from 20 to 50 percent of GDP while the average rate fell from about 4 to 2 percent, keeping interest burden constant.",
     "label": null,
     "explicit": true,
-    "reason": "Forecasts about debt costs should be checked against realized interest burdens."
+    "reason": "Debt burden depends on interest rates as well as the debt stock."
    },
    "source": {
     "passages": [
@@ -1762,11 +1715,11 @@
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "We did though get one thing very wrong: we worried that rising external debt would ultimately raise the United States’ external cost of borrowing.",
+      "source_excerpt": "We did though get one thing very wrong: we worried that rising external debt would ultimately raise the United States’ external cost of borrowing. That didn’t happen.",
       "source_spans": [
        {
         "char_start": 0,
-        "char_end": 146
+        "char_end": 166
        }
       ]
      }
@@ -1813,33 +1766,13 @@
    "role": "mechanism",
    "level": "L3",
    "content": {
-    "text": "The external debt ratio stays stable only because offshore income offsets interest costs and growth exceeds the interest rate; Fed tightening or tax-cut-driven deficits would push it up again.",
+    "text": "External debt-to-GDP is stable only because offshore income offsets interest and nominal growth exceeds the interest rate.",
     "label": null,
     "explicit": true,
-    "reason": "A debt ratio is stable when the primary balance plus the growth-interest gap offset each other."
+    "reason": "Debt ratios stabilize when the primary balance and the growth-interest gap offset each other."
    },
    "source": {
     "passages": [
-     {
-      "paragraph_id": "p37",
-      "paragraph_sha256": "sha256:aba2c6b3f6767e90ac6ef5a31656f28d8086dbf3a65d9af82e337e718a5c99a0",
-      "relation": "abstracts",
-      "link_method": "llm_citation",
-      "anchor_grade": "cited",
-      "review_status": "pending",
-      "source_excerpt": null,
-      "source_spans": null
-     },
-     {
-      "paragraph_id": "p38",
-      "paragraph_sha256": "sha256:6796190b733c494a8e12f7b6dfe7be933e708fa15206f46608eeca19194373e0",
-      "relation": "abstracts",
-      "link_method": "llm_citation",
-      "anchor_grade": "cited",
-      "review_status": "pending",
-      "source_excerpt": null,
-      "source_spans": null
-     },
      {
       "paragraph_id": "p39",
       "paragraph_sha256": "sha256:7778e44837060e250ae406ab751468917326ff39258a6e384bced4a6de5ca913",
@@ -1847,17 +1780,17 @@
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "nominal growth exceeds the nominal interest rate the U.S. pays on its external debt—creating favorable intrinsic debt dynamics.",
+      "source_excerpt": "a sizeable trade deficit is consistent with a close-to-stable external debt-to-GDP ratio because the offshore income U.S. firms generate offsets the interest burden, and nominal growth exceeds the nominal interest rate",
       "source_spans": [
        {
-        "char_start": 181,
-        "char_end": 308
+        "char_start": 11,
+        "char_end": 229
        }
       ]
      },
      {
-      "paragraph_id": "p40",
-      "paragraph_sha256": "sha256:6d3c22406d174105f1fa55eea1fff6621600c74d4f614c847f2068a11b36b6be",
+      "paragraph_id": "p48",
+      "paragraph_sha256": "sha256:1512e3536919660e41ec3a11d1f912999460f90b28a6b64fd461c715aeff23dc",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
@@ -1894,18 +1827,7 @@
      }
     ],
     "bloc": [],
-    "instrument": [
-     {
-      "term": "monetary-policy",
-      "assignment_source": "llm",
-      "run_id": "claude-opus-5.5_facets"
-     },
-     {
-      "term": "fiscal-policy",
-      "assignment_source": "llm",
-      "run_id": "claude-opus-5.5_facets"
-     }
-    ],
+    "instrument": [],
     "data_basis": []
    },
    "attributes": {
@@ -1922,31 +1844,61 @@
   },
   {
    "id": "n019",
-   "legacy_id": "P1",
-   "role": "stated_assumption",
-   "level": "L1",
+   "legacy_id": "C4",
+   "role": "intermediate_claim",
+   "level": "L4",
    "content": {
-    "text": "The author takes as given that external debt is riskier than domestic public debt, while conceding that the dollar's global role lets the U.S. carry more of it.",
+    "text": "Fed tightening or tax-cut-driven deficit widening would put US external debt back on a rising path, making the current deficit precarious.",
     "label": null,
     "explicit": true,
-    "reason": "Debt owed to foreigners carries more risk than debt owed to residents."
+    "reason": "Favorable debt dynamics reverse when rates rise or primary deficits widen."
    },
    "source": {
     "passages": [
      {
-      "paragraph_id": "p41",
-      "paragraph_sha256": "sha256:f470ea67e5c58843dcc8a09b990ea4afc899066ac69de2171f12654bb2d66ac8",
+      "paragraph_id": "p8",
+      "paragraph_sha256": "sha256:6b266134d1627002019bbcc5874c805c1b7958cfd37c6051dee480d1908c0bbe",
       "relation": "states",
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "personally I think external debt tends to be more of a source of risk than domestic fiscal debt",
+      "source_excerpt": "A 3 percent of GDP trade deficit isn’t necessary quite as sustainable as some now think.",
       "source_spans": [
        {
-        "char_start": 4,
-        "char_end": 99
+        "char_start": 0,
+        "char_end": 88
        }
       ]
+     },
+     {
+      "paragraph_id": "p37",
+      "paragraph_sha256": "sha256:aba2c6b3f6767e90ac6ef5a31656f28d8086dbf3a65d9af82e337e718a5c99a0",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     },
+     {
+      "paragraph_id": "p38",
+      "paragraph_sha256": "sha256:6796190b733c494a8e12f7b6dfe7be933e708fa15206f46608eeca19194373e0",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     },
+     {
+      "paragraph_id": "p40",
+      "paragraph_sha256": "sha256:6d3c22406d174105f1fa55eea1fff6621600c74d4f614c847f2068a11b36b6be",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
      }
     ]
    },
@@ -1954,6 +1906,16 @@
     "variable": [
      {
       "term": "net-external-debt",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     },
+     {
+      "term": "interest-rates",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     },
+     {
+      "term": "fiscal-balance",
       "assignment_source": "llm",
       "run_id": "claude-opus-5.5_facets"
      }
@@ -1967,7 +1929,18 @@
      }
     ],
     "bloc": [],
-    "instrument": [],
+    "instrument": [
+     {
+      "term": "monetary-policy",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     },
+     {
+      "term": "fiscal-policy",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
     "data_basis": []
    },
    "attributes": {},
@@ -1986,26 +1959,16 @@
    "role": "evidence_data",
    "level": "L2",
    "content": {
-    "text": "The front-loaded tax cut, which widens the fiscal deficit by 1.3 to 1.4 percent of GDP per the JCT, should widen the trade deficit by 0.3 to 0.5 points of GDP, less than the IMF model implies.",
+    "text": "Front-loaded tax cuts widening the fiscal deficit by 1.3-1.4 percent of GDP should widen the trade deficit by 0.3-0.5 points.",
     "label": null,
     "explicit": true,
-    "reason": "Fiscal expansion spills partly into imports via standard coefficients."
+    "reason": "Fiscal expansion spills into imports, widening the external deficit."
    },
    "source": {
     "passages": [
      {
-      "paragraph_id": "p19",
-      "paragraph_sha256": "sha256:c560b75d7e395dd132386e89ce4964c7ff81d5f77d427e1292aa03819f75ca59",
-      "relation": "abstracts",
-      "link_method": "llm_citation",
-      "anchor_grade": "cited",
-      "review_status": "pending",
-      "source_excerpt": null,
-      "source_spans": null
-     },
-     {
-      "paragraph_id": "p41",
-      "paragraph_sha256": "sha256:f470ea67e5c58843dcc8a09b990ea4afc899066ac69de2171f12654bb2d66ac8",
+      "paragraph_id": "p6",
+      "paragraph_sha256": "sha256:7962f234dd170a0bfc4de4d9722e8e46fada2b0ce48a5af6074f76541075a647",
       "relation": "abstracts",
       "link_method": "llm_citation",
       "anchor_grade": "cited",
@@ -2020,11 +1983,11 @@
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "I think it is reasonable to expect a widening of the trade deficit of between 0.3 and 0.5 percentage points of GDP",
+      "source_excerpt": "I think it is reasonable to expect a widening of the trade deficit of between 0.3 and 0.5 percentage points of GDP over the next several years.",
       "source_spans": [
        {
         "char_start": 274,
-        "char_end": 388
+        "char_end": 417
        }
       ]
      }
@@ -2059,13 +2022,7 @@
       "run_id": "claude-opus-5.5_facets"
      }
     ],
-    "data_basis": [
-     {
-      "term": "imf-publications",
-      "assignment_source": "llm",
-      "run_id": "claude-opus-5.5_facets"
-     }
-    ]
+    "data_basis": []
    },
    "attributes": {},
    "provenance": {
@@ -2083,10 +2040,286 @@
    "role": "stated_assumption",
    "level": "L1",
    "content": {
-    "text": "Trade policy changes the level of trade more than the balance, so the deficit could rise even if the U.S. leaves NAFTA or acts against China.",
+    "text": "External debt is riskier than domestic debt, so a 50 percent net external debt economy should not run 4-5 percent deficits.",
     "label": null,
     "explicit": true,
-    "reason": "The balance is set by macro saving and investment, not by trade barriers."
+    "reason": "Obligations to foreign creditors carry more risk than debts owed domestically."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p41",
+      "paragraph_sha256": "sha256:f470ea67e5c58843dcc8a09b990ea4afc899066ac69de2171f12654bb2d66ac8",
+      "relation": "states",
+      "link_method": "llm_citation",
+      "anchor_grade": "excerpt",
+      "review_status": "pending",
+      "source_excerpt": "personally I think external debt tends to be more of a source of risk than domestic fiscal debt",
+      "source_spans": [
+       {
+        "char_start": 4,
+        "char_end": 99
+       }
+      ]
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "net-external-debt",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     },
+     {
+      "term": "current-account",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [],
+    "bloc": [],
+    "instrument": [],
+    "data_basis": []
+   },
+   "attributes": {},
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": [
+     "facets: `setser_dec_15_17#P2` where_subject empty - every claim needs a country or a bloc (assignment.requires_one_of) - needs review"
+    ]
+   }
+  },
+  {
+   "id": "n022",
+   "legacy_id": "QF",
+   "role": "caveat",
+   "level": "L6",
+   "content": {
+    "text": "The dollar's global role lets the US carry more external debt than most countries and shields it from sudden capital flow swings.",
+    "label": null,
+    "explicit": true,
+    "reason": "Reserve-currency issuers face softer external financing constraints."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p41",
+      "paragraph_sha256": "sha256:f470ea67e5c58843dcc8a09b990ea4afc899066ac69de2171f12654bb2d66ac8",
+      "relation": "states",
+      "link_method": "llm_citation",
+      "anchor_grade": "excerpt",
+      "review_status": "pending",
+      "source_excerpt": "even if the U.S. can support a high level of external debt more easily than most because of the dollar’s global role",
+      "source_spans": [
+       {
+        "char_start": 160,
+        "char_end": 276
+       }
+      ]
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "net-external-debt",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     },
+     {
+      "term": "capital-flows",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [
+     {
+      "term": "us",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     }
+    ],
+    "bloc": [],
+    "instrument": [],
+    "data_basis": []
+   },
+   "attributes": {},
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "n023",
+   "legacy_id": "X2",
+   "role": "opposing_view",
+   "level": "L6",
+   "content": {
+    "text": "Sandbu's view that deficits can be equity-financed is theoretically right but not how the US has financed them, and state-firm equity from China complicates it.",
+    "label": null,
+    "explicit": true,
+    "reason": "Judge financing risk by how deficits are actually financed, not by possibilities."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p44",
+      "paragraph_sha256": "sha256:2bfe64c32c02a98951cb431265bfc9fb4703eeab938fb4ec25715a5451dfb338",
+      "relation": "states",
+      "link_method": "llm_citation",
+      "anchor_grade": "excerpt",
+      "review_status": "pending",
+      "source_excerpt": "Martin Sandbu has argued that current account deficits can be financed with equity. True enough. But in the U.S. over the last twenty years they haven’t been",
+      "source_spans": [
+       {
+        "char_start": 3,
+        "char_end": 160
+       }
+      ]
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "capital-flows",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     },
+     {
+      "term": "net-external-debt",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [
+     {
+      "term": "us",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     }
+    ],
+    "bloc": [],
+    "instrument": [],
+    "data_basis": []
+   },
+   "attributes": {},
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "n024",
+   "legacy_id": "QF2",
+   "role": "caveat",
+   "level": "L6",
+   "content": {
+    "text": "Profit shifting overstates the trade deficit but mostly moves income between the services and income balances, leaving the goods balance and current account largely unchanged.",
+    "label": null,
+    "explicit": true,
+    "reason": "Reclassifying flows between current account lines leaves the overall balance unchanged."
+   },
+   "source": {
+    "passages": [
+     {
+      "paragraph_id": "p47",
+      "paragraph_sha256": "sha256:6ba30953e90b7ef5dfc550043c3e63d6d8392d0549500d4cc244db8ae4838620",
+      "relation": "states",
+      "link_method": "llm_citation",
+      "anchor_grade": "excerpt",
+      "review_status": "pending",
+      "source_excerpt": "Goldman and Deutsche Bank have both argued in the past week that the U.S. trade deficit is significantly overstated because of profit shifting. I obviously agree, but don’t think that materially changes the argument",
+      "source_spans": [
+       {
+        "char_start": 5,
+        "char_end": 220
+       }
+      ]
+     },
+     {
+      "paragraph_id": "p48",
+      "paragraph_sha256": "sha256:1512e3536919660e41ec3a11d1f912999460f90b28a6b64fd461c715aeff23dc",
+      "relation": "abstracts",
+      "link_method": "llm_citation",
+      "anchor_grade": "cited",
+      "review_status": "pending",
+      "source_excerpt": null,
+      "source_spans": null
+     }
+    ]
+   },
+   "facets": {
+    "variable": [
+     {
+      "term": "services-balance",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     },
+     {
+      "term": "investment-income-balance",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     },
+     {
+      "term": "current-account",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ],
+    "country": [
+     {
+      "term": "us",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets",
+      "geo_role": "subject"
+     }
+    ],
+    "bloc": [],
+    "instrument": [],
+    "data_basis": [
+     {
+      "term": "balance-of-payments",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
+     }
+    ]
+   },
+   "attributes": {},
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_boxes"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "n025",
+   "legacy_id": "C6",
+   "role": "policy_reductio",
+   "level": "L4",
+   "content": {
+    "text": "Trade policy affects the volume of trade more than the balance, so withdrawing from NAFTA or hitting China may not cut the deficit.",
+    "label": null,
+    "explicit": true,
+    "reason": "The trade balance is set by saving and demand, not by trade barriers."
    },
    "source": {
     "passages": [
@@ -2131,14 +2364,14 @@
     "bloc": [],
     "instrument": [
      {
-      "term": "trade-agreements",
-      "assignment_source": "llm",
-      "run_id": "claude-opus-5.5_facets"
-     },
-     {
       "term": "tariffs",
       "assignment_source": "llm",
       "run_id": "claude-opus-5.5_facets"
+     },
+     {
+      "term": "trade-agreements",
+      "assignment_source": "llm",
+      "run_id": "claude-opus-5.5_facets"
      }
     ],
     "data_basis": []
@@ -2154,161 +2387,15 @@
    }
   },
   {
-   "id": "n022",
-   "legacy_id": "X2",
-   "role": "opposing_view",
-   "level": "L6",
-   "content": {
-    "text": "Sandbu argues deficits can be equity-financed; the author says this has not happened in the U.S. and is complicated when the equity comes from Chinese state firms.",
-    "label": null,
-    "explicit": true,
-    "reason": "Theoretical financing options should be weighed against the historical pattern."
-   },
-   "source": {
-    "passages": [
-     {
-      "paragraph_id": "p44",
-      "paragraph_sha256": "sha256:2bfe64c32c02a98951cb431265bfc9fb4703eeab938fb4ec25715a5451dfb338",
-      "relation": "states",
-      "link_method": "llm_citation",
-      "anchor_grade": "excerpt",
-      "review_status": "pending",
-      "source_excerpt": "Martin Sandbu has argued that current account deficits can be financed with equity. True enough.",
-      "source_spans": [
-       {
-        "char_start": 3,
-        "char_end": 99
-       }
-      ]
-     }
-    ]
-   },
-   "facets": {
-    "variable": [
-     {
-      "term": "capital-flows",
-      "assignment_source": "llm",
-      "run_id": "claude-opus-5.5_facets"
-     },
-     {
-      "term": "current-account",
-      "assignment_source": "llm",
-      "run_id": "claude-opus-5.5_facets"
-     }
-    ],
-    "country": [
-     {
-      "term": "us",
-      "assignment_source": "llm",
-      "run_id": "claude-opus-5.5_facets",
-      "geo_role": "subject"
-     }
-    ],
-    "bloc": [],
-    "instrument": [],
-    "data_basis": []
-   },
-   "attributes": {},
-   "provenance": {
-    "method": "llm",
-    "run_id": "claude-opus-5.5_boxes"
-   },
-   "review": {
-    "status": "pending",
-    "reasons": []
-   }
-  },
-  {
-   "id": "n023",
-   "legacy_id": "QF3",
-   "role": "caveat",
-   "level": "L6",
-   "content": {
-    "text": "Profit shifting overstates the trade deficit but mainly reallocates income to the services balance and leaves the current account unchanged, so the argument stands; non-interest current account is the relevant variable.",
-    "label": null,
-    "explicit": true,
-    "reason": "Reclassification between accounts does not change the overall external balance."
-   },
-   "source": {
-    "passages": [
-     {
-      "paragraph_id": "p47",
-      "paragraph_sha256": "sha256:6ba30953e90b7ef5dfc550043c3e63d6d8392d0549500d4cc244db8ae4838620",
-      "relation": "states",
-      "link_method": "llm_citation",
-      "anchor_grade": "excerpt",
-      "review_status": "pending",
-      "source_excerpt": "Goldman and Deutsche Bank have both argued in the past week that the U.S. trade deficit is significantly overstated because of profit shifting.",
-      "source_spans": [
-       {
-        "char_start": 5,
-        "char_end": 148
-       }
-      ]
-     },
-     {
-      "paragraph_id": "p48",
-      "paragraph_sha256": "sha256:1512e3536919660e41ec3a11d1f912999460f90b28a6b64fd461c715aeff23dc",
-      "relation": "abstracts",
-      "link_method": "llm_citation",
-      "anchor_grade": "cited",
-      "review_status": "pending",
-      "source_excerpt": null,
-      "source_spans": null
-     }
-    ]
-   },
-   "facets": {
-    "variable": [
-     {
-      "term": "services-balance",
-      "assignment_source": "llm",
-      "run_id": "claude-opus-5.5_facets"
-     },
-     {
-      "term": "current-account",
-      "assignment_source": "llm",
-      "run_id": "claude-opus-5.5_facets"
-     }
-    ],
-    "country": [
-     {
-      "term": "us",
-      "assignment_source": "llm",
-      "run_id": "claude-opus-5.5_facets",
-      "geo_role": "subject"
-     }
-    ],
-    "bloc": [],
-    "instrument": [],
-    "data_basis": [
-     {
-      "term": "balance-of-payments",
-      "assignment_source": "llm",
-      "run_id": "claude-opus-5.5_facets"
-     }
-    ]
-   },
-   "attributes": {},
-   "provenance": {
-    "method": "llm",
-    "run_id": "claude-opus-5.5_boxes"
-   },
-   "review": {
-    "status": "pending",
-    "reasons": []
-   }
-  },
-  {
-   "id": "n024",
+   "id": "n026",
    "legacy_id": "E5",
    "role": "evidence_source",
    "level": "L2",
    "content": {
-    "text": "Blanchard and Das find external sustainability calculations uncertain, but their baseline implies the dollar must depreciate.",
+    "text": "Blanchard and Das find sustainability uncertain but that the dollar likely needs to depreciate absent a favorable shock.",
     "label": null,
     "explicit": true,
-    "reason": "Independent sustainability analyses corroborate a debt-dynamics concern."
+    "reason": "Sustainability projections depend on uncertain returns and borrowing costs."
    },
    "source": {
     "passages": [
@@ -2319,10 +2406,10 @@
       "link_method": "llm_citation",
       "anchor_grade": "excerpt",
       "review_status": "pending",
-      "source_excerpt": "their baseline suggests the dollar needs to depreciate to assure U.S. external sustainability.",
+      "source_excerpt": "absent a positive shock to the U.S. net external position, their baseline suggests the dollar needs to depreciate to assure U.S. external sustainability.",
       "source_spans": [
        {
-        "char_start": 269,
+        "char_start": 210,
         "char_end": 363
        }
       ]
@@ -2375,7 +2462,7 @@
   {
    "id": "e001",
    "from": "n001",
-   "to": "n005",
+   "to": "n004",
    "relation": "frames",
    "sign": 0,
    "provenance": {
@@ -2390,7 +2477,7 @@
   {
    "id": "e002",
    "from": "n001",
-   "to": "n019",
+   "to": "n010",
    "relation": "frames",
    "sign": 0,
    "provenance": {
@@ -2419,8 +2506,8 @@
   },
   {
    "id": "e004",
-   "from": "n005",
-   "to": "n006",
+   "from": "n004",
+   "to": "n005",
    "relation": "frames",
    "sign": 0,
    "provenance": {
@@ -2434,8 +2521,8 @@
   },
   {
    "id": "e005",
-   "from": "n006",
-   "to": "n008",
+   "from": "n005",
+   "to": "n007",
    "relation": "supports",
    "sign": 1,
    "provenance": {
@@ -2449,8 +2536,8 @@
   },
   {
    "id": "e006",
-   "from": "n007",
-   "to": "n009",
+   "from": "n006",
+   "to": "n007",
    "relation": "licenses",
    "sign": 1,
    "provenance": {
@@ -2464,7 +2551,7 @@
   },
   {
    "id": "e007",
-   "from": "n005",
+   "from": "n004",
    "to": "n009",
    "relation": "supports",
    "sign": 1,
@@ -2479,8 +2566,8 @@
   },
   {
    "id": "e008",
-   "from": "n008",
-   "to": "n009",
+   "from": "n007",
+   "to": "n003",
    "relation": "supports",
    "sign": 1,
    "provenance": {
@@ -2495,7 +2582,7 @@
   {
    "id": "e009",
    "from": "n009",
-   "to": "n004",
+   "to": "n003",
    "relation": "supports",
    "sign": 1,
    "provenance": {
@@ -2509,23 +2596,8 @@
   },
   {
    "id": "e010",
-   "from": "n009",
-   "to": "n010",
-   "relation": "qualified_by",
-   "sign": -1,
-   "provenance": {
-    "method": "llm",
-    "run_id": "claude-opus-5.5_links"
-   },
-   "review": {
-    "status": "pending",
-    "reasons": []
-   }
-  },
-  {
-   "id": "e011",
-   "from": "n012",
-   "to": "n013",
+   "from": "n008",
+   "to": "n003",
    "relation": "supports",
    "sign": 1,
    "provenance": {
@@ -2538,9 +2610,24 @@
    }
   },
   {
-   "id": "e012",
-   "from": "n013",
+   "id": "e011",
+   "from": "n010",
    "to": "n011",
+   "relation": "frames",
+   "sign": 0,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e012",
+   "from": "n011",
+   "to": "n012",
    "relation": "supports",
    "sign": 1,
    "provenance": {
@@ -2554,8 +2641,8 @@
   },
   {
    "id": "e013",
-   "from": "n013",
-   "to": "n014",
+   "from": "n012",
+   "to": "n013",
    "relation": "undercut_by",
    "sign": -1,
    "provenance": {
@@ -2569,8 +2656,8 @@
   },
   {
    "id": "e014",
-   "from": "n013",
-   "to": "n015",
+   "from": "n012",
+   "to": "n014",
    "relation": "supports",
    "sign": 1,
    "provenance": {
@@ -2584,8 +2671,8 @@
   },
   {
    "id": "e015",
-   "from": "n011",
-   "to": "n004",
+   "from": "n015",
+   "to": "n014",
    "relation": "supports",
    "sign": 1,
    "provenance": {
@@ -2599,8 +2686,8 @@
   },
   {
    "id": "e016",
-   "from": "n015",
-   "to": "n004",
+   "from": "n014",
+   "to": "n003",
    "relation": "supports",
    "sign": 1,
    "provenance": {
@@ -2614,6 +2701,21 @@
   },
   {
    "id": "e017",
+   "from": "n014",
+   "to": "n024",
+   "relation": "qualified_by",
+   "sign": -1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e018",
    "from": "n016",
    "to": "n018",
    "relation": "supports",
@@ -2628,9 +2730,9 @@
    }
   },
   {
-   "id": "e018",
+   "id": "e019",
    "from": "n017",
-   "to": "n019",
+   "to": "n021",
    "relation": "revises",
    "sign": -1,
    "provenance": {
@@ -2643,23 +2745,8 @@
    }
   },
   {
-   "id": "e019",
-   "from": "n017",
-   "to": "n018",
-   "relation": "supports",
-   "sign": 1,
-   "provenance": {
-    "method": "llm",
-    "run_id": "claude-opus-5.5_links"
-   },
-   "review": {
-    "status": "pending",
-    "reasons": []
-   }
-  },
-  {
    "id": "e020",
-   "from": "n020",
+   "from": "n017",
    "to": "n018",
    "relation": "supports",
    "sign": 1,
@@ -2674,8 +2761,8 @@
   },
   {
    "id": "e021",
-   "from": "n021",
-   "to": "n018",
+   "from": "n018",
+   "to": "n019",
    "relation": "supports",
    "sign": 1,
    "provenance": {
@@ -2689,9 +2776,9 @@
   },
   {
    "id": "e022",
-   "from": "n019",
-   "to": "n004",
-   "relation": "licenses",
+   "from": "n020",
+   "to": "n019",
+   "relation": "supports",
    "sign": 1,
    "provenance": {
     "method": "llm",
@@ -2704,8 +2791,8 @@
   },
   {
    "id": "e023",
-   "from": "n018",
-   "to": "n004",
+   "from": "n026",
+   "to": "n019",
    "relation": "supports",
    "sign": 1,
    "provenance": {
@@ -2719,9 +2806,9 @@
   },
   {
    "id": "e024",
-   "from": "n024",
-   "to": "n018",
-   "relation": "supports",
+   "from": "n021",
+   "to": "n019",
+   "relation": "licenses",
    "sign": 1,
    "provenance": {
     "method": "llm",
@@ -2734,10 +2821,10 @@
   },
   {
    "id": "e025",
-   "from": "n004",
-   "to": "n002",
-   "relation": "rebuts",
-   "sign": -1,
+   "from": "n019",
+   "to": "n003",
+   "relation": "supports",
+   "sign": 1,
    "provenance": {
     "method": "llm",
     "run_id": "claude-opus-5.5_links"
@@ -2749,8 +2836,8 @@
   },
   {
    "id": "e026",
-   "from": "n004",
-   "to": "n003",
+   "from": "n019",
+   "to": "n022",
    "relation": "qualified_by",
    "sign": -1,
    "provenance": {
@@ -2764,8 +2851,8 @@
   },
   {
    "id": "e027",
-   "from": "n004",
-   "to": "n022",
+   "from": "n019",
+   "to": "n023",
    "relation": "rebuts",
    "sign": -1,
    "provenance": {
@@ -2779,10 +2866,25 @@
   },
   {
    "id": "e028",
-   "from": "n004",
-   "to": "n023",
-   "relation": "qualified_by",
+   "from": "n003",
+   "to": "n002",
+   "relation": "rebuts",
    "sign": -1,
+   "provenance": {
+    "method": "llm",
+    "run_id": "claude-opus-5.5_links"
+   },
+   "review": {
+    "status": "pending",
+    "reasons": []
+   }
+  },
+  {
+   "id": "e029",
+   "from": "n025",
+   "to": "n003",
+   "relation": "supports",
+   "sign": 1,
    "provenance": {
     "method": "llm",
     "run_id": "claude-opus-5.5_links"
@@ -2796,14 +2898,18 @@
  "validation": {
   "status": "needs_review",
   "checks": [
-   "boxes: 24, fix rounds 0, re-asks 0, gaps left none",
-   "links: 28, fix rounds 0, re-asks 0, gaps left none, dropped none",
-   "passage linker agreement: {'anchored': 9, 'anchored_cited': 8, 'candidate': 17, 'candidate_cited': 14}"
+   "boxes: 26, fix rounds 0, re-asks 0, gaps left none",
+   "links: 29, fix rounds 0, re-asks 0, gaps left none, dropped none",
+   "passage linker agreement: {'anchored': 7, 'anchored_cited': 6, 'candidate': 20, 'candidate_cited': 16}"
   ],
   "review_items": [
-   "boxes: `E1` the figure `16` does not occur in the article",
+   "boxes: `C3` the name `ip-producing` does not occur in the article",
+   "boxes: 26 boxes, more than any hand-drawn map (24)",
    "facets: `setser_dec_15_17#ID` where_subject empty - every claim needs a country or a bloc (assignment.requires_one_of) - needs review",
-   "passages: `C3`: the team's passage linker anchors it to p45 (shared: 2005), which the box does not cite"
+   "facets: `setser_dec_15_17#P1` where_subject empty - every claim needs a country or a bloc (assignment.requires_one_of) - needs review",
+   "facets: `setser_dec_15_17#M2` where_subject empty - every claim needs a country or a bloc (assignment.requires_one_of) - needs review",
+   "facets: `setser_dec_15_17#P2` where_subject empty - every claim needs a country or a bloc (assignment.requires_one_of) - needs review",
+   "passages: `E4`: the team's passage linker anchors it to p31 (shared: 2004), which the box does not cite"
   ]
  },
  "extensions": {}

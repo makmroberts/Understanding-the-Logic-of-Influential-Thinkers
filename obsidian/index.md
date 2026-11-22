@@ -129,8 +129,8 @@ SORT date ASC
 
 - **For an ordered, hierarchical view, use [[_index|the canvases]]** — one per article, laid out by argument level. Obsidian's graph is force-directed and cannot draw a hierarchy; a canvas can.
 - In the graph view, the useful filters, measured on this vault at export time (476 notes, 3317 links between them, mean degree 13.9):
-    - `-path:subjects -path:views -file:index` → 386 notes, 856 links, mean degree **4.4** — the per-article argument trees, joined only where a concept spans articles
-    - `-path:subjects -path:views -path:canvas -path:articles -file:index` → **the argument only**: 366 notes, 468 links, mean degree 2.6, busiest node 9. Dropping the article notes matters more than it sounds — removing them takes 388 of the 856 links with them, nearly all of it membership rather than reasoning, and each article note is a star at the centre of its cluster that the force layout bends everything around. Turn on Display → Arrows here: the direction is the content.
+    - `-path:subjects -path:views -file:index` → 387 notes, 857 links, mean degree **4.4** — the per-article argument trees, joined only where a concept spans articles
+    - `-path:subjects -path:views -path:canvas -path:articles -file:index` → **the argument only**: 367 notes, 469 links, mean degree 2.6, busiest node 9. Dropping the article notes matters more than it sounds — removing them takes 388 of the 857 links with them, nearly all of it membership rather than reasoning, and each article note is a star at the centre of its cluster that the force layout bends everything around. Turn on Display → Arrows here: the direction is the content.
     - `-path:canvas` → the canvases are files too and every card on one counts as a link, so they add 359 link-ends to the graph view. They are for reading, not for the force layout.
     - `-tag:#subject/saturated` → drops just `china`, `us`, which carry 476 of the 3317 link-ends between them, and keeps the other 74 hubs
 - Every link shows its sign: **+1** backs, **-1** pushes back, **0** neither. The sign is argumentative, not causal - it means *backs* and *pushes back on*, never *increases* and *decreases*.
