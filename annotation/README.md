@@ -123,7 +123,7 @@ Known limits:
   model-mapped articles; hand maps write them in their header.
 - **Small samples.** The matcher pairs about 30 of 36 boxes the way a person would, and the
   test sets are 5 + 5 articles. The meaning check's threshold was set on 40 pairs labelled by
-  the majority of several AI raters, not yet by a person.
+  the majority of several AI raters, not yet by a person (`calibration/meaning_cutoff/`).
 
 ## Evaluation
 
@@ -157,7 +157,8 @@ Known limits:
   `pip install -e ".[meaning]"`; the scoring model (1.4 GB) downloads on first use. Without it,
   every other score is the same and the section is left out. `report` runs it on official runs
   only. Changing the model, revision or threshold changes the scores, so re-score every run
-  after such a change.
+  after such a change. The pairs the 0.40 cut-off was chosen on, their labels, and the script
+  that picks it are in `calibration/meaning_cutoff/`, with steps for labelling them by hand.
 
 ## Copied from the team repo
 
